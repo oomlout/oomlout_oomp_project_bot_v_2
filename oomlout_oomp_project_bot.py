@@ -1,27 +1,25 @@
 import os
 import oom_kicad
 import oom_markdown
+import oom_git
 
 def load_data():
     print("loading data")
     github_datas = []
     github_datas.append("https://github.com/oomlout/oomlout_oomp_part_src")
-    github_datas.append("https://github.com/oomlout/oomlout_oomp_project_src")
+    github_datas.append("https://github.com/oomlout/oomlout_oomp_project_src_v_2")
     
 
 
     for github_data in github_datas:
         #make tmp/data directory if it doesn't already exist        
-        if not os.path.exists("tmp\\data\\"):
-            os.makedirs("tmp\\data\\")
-        #clone to tmp/{repo name}
-               
-        os.system(f"git clone {github_data} tmp\\data\\{github_data.split('/')[-1]}")
+        dir_data = "tmp/data/"
+        oom_git.clone(repo=github_data, directory=dir_data)
     print("data loaded")
 
 def copy_data():
     print("copying data")
-    directory_src = rf"tmp/data/oomlout_oomp_project_src/projects_flat"
+    directory_src = rf"tmp/data/oomlout_oomp_project_src_v_2/projects"
     directory_dst = rf"projects"
     #copy with directory tree with shutil
     import shutil
