@@ -17,10 +17,11 @@ def go_through_directories():
             if any(x in filename for x in filter):
                 if file.endswith(".kicad_pcb"):
                     #count += oom_kicad.generate_outputs(filename=filename, computer="surface")
+                    oom_kicad.generate_outputs(filename=filename, computer="desktop")
                     count  = 1
                     pass
                 #commit to git every 1
-                    if count % 1 == 0:
+                    if count % 100 == 0:
                         oom_kicad.push_to_git(count = count)
                         pass    
     
