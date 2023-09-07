@@ -12,7 +12,7 @@ def go_through_directories():
         for file in files:
             filename = os.path.join(root, file)
             #filter = ["oshcamp"]
-            filter = [""]
+            filter = ["sparkfun_freesoc2_sparkfun_freesoc2"]
             if any(x in filename for x in filter):                
                 if file.endswith(".brd"):
                     print(f"working on {filename}")
