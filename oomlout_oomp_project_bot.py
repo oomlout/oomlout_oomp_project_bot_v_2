@@ -15,6 +15,9 @@ def load_data():
         #make tmp/data directory if it doesn't already exist        
         dir_data = "tmp/data/"
         oom_git.clone(repo=github_data, directory=dir_data)
+        repo_name = github_data.split("/")[-1]
+        dir_data = os.path.join(dir_data, repo_name)
+        oom_git.pull(directory=dir_data)
     print("data loaded")
 
 def copy_data():
@@ -154,8 +157,24 @@ def go_through_directories():
                 if file.endswith(".kicad_pcb"):
                     oom_kicad.generate_outputs(filename=filename)
     
-            
-def generate_readme(**kwargs):
+
+
+def make_readme(**kwargs):
+    file = kwargs.get('file', "")
+    root = kwargs.get('root', "")
+    yaml_file = kwargs.get('yaml_file', "")
+    parts_ordered_oomp = []
+    if file == "working.yaml": 
+        print(f"making readme for {root}")
+        directory = os.path.dirname(yaml_file)
+        dict_data = oom_yaml.load_yaml_directory(directory=directory)
+        file_template = "templates/order_readme_template.md.j2"
+        file_output = f"{directory}/readme.md"
+        dict_data = dict_data
+        oom_markdown.get_jinja2_template(file_template=file_template, file_output=file_output, dict_data=dict_data)
+
+
+def generate_readme_old(**kwargs):
     
     overwrite = kwargs.get("overwrite",False)
     filename = kwargs.get("filename",None)

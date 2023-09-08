@@ -1,0 +1,295 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title "Audio inputs"
+Date "%%date%%"
+Rev "%%version%%"
+Comp "Akiyuki Okayasu"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 3200 2050 2    50   Output ~ 0
+ADC0
+Text GLabel 3200 3650 2    50   Output ~ 0
+ADC1
+$Comp
+L Amplifier_Operational:TL072 U3
+U 1 1 6195D93F
+P 2650 2050
+F 0 "U3" H 2650 1683 50  0000 C CNN
+F 1 "TL072" H 2650 1774 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2650 2050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2650 2050 50  0001 C CNN
+	1    2650 2050
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U3
+U 2 1 6195E409
+P 2700 3650
+F 0 "U3" H 2700 3283 50  0000 C CNN
+F 1 "TL072" H 2700 3374 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2700 3650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2700 3650 50  0001 C CNN
+	2    2700 3650
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U3
+U 3 1 619609BA
+P 2300 5500
+F 0 "U3" H 2258 5546 50  0000 L CNN
+F 1 "TL072" H 2258 5455 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2300 5500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2300 5500 50  0001 C CNN
+	3    2300 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R11
+U 1 1 6196253E
+P 2050 2300
+F 0 "R11" H 2109 2346 50  0000 L CNN
+F 1 "100k" H 2109 2255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2050 2300 50  0001 C CNN
+F 3 "~" H 2050 2300 50  0001 C CNN
+	1    2050 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2150 2050 2200
+$Comp
+L power:GND #PWR028
+U 1 1 619632D7
+P 2050 2450
+F 0 "#PWR028" H 2050 2200 50  0001 C CNN
+F 1 "GND" H 2055 2277 50  0000 C CNN
+F 2 "" H 2050 2450 50  0001 C CNN
+F 3 "" H 2050 2450 50  0001 C CNN
+	1    2050 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2400 2050 2450
+Wire Wire Line
+	2050 2150 2350 2150
+Connection ~ 2050 2150
+Wire Wire Line
+	2950 2050 3050 2050
+Wire Wire Line
+	3050 2050 3050 1600
+Wire Wire Line
+	3050 1600 2250 1600
+Wire Wire Line
+	2250 1600 2250 1950
+Wire Wire Line
+	2250 1950 2350 1950
+Wire Wire Line
+	3200 2050 3050 2050
+Connection ~ 3050 2050
+$Comp
+L Akiyuki_Connector:THONKICONN J5
+U 1 1 61967F98
+P 1550 2250
+F 0 "J5" H 1528 2575 50  0000 C CNN
+F 1 "THONKICONN" H 1528 2484 50  0000 C CNN
+F 2 "Akiyuki_Footprint:THONKICONN" H 1800 2350 50  0001 C CNN
+F 3 "~" H 1800 2350 50  0001 C CNN
+	1    1550 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 61968A95
+P 1350 2500
+F 0 "#PWR026" H 1350 2250 50  0001 C CNN
+F 1 "GND" H 1355 2327 50  0000 C CNN
+F 2 "" H 1350 2500 50  0001 C CNN
+F 3 "" H 1350 2500 50  0001 C CNN
+	1    1350 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2350 1350 2400
+Wire Wire Line
+	1750 2250 1800 2250
+Wire Wire Line
+	1800 2250 1800 2400
+Wire Wire Line
+	1800 2400 1350 2400
+Connection ~ 1350 2400
+Wire Wire Line
+	1350 2400 1350 2500
+Wire Wire Line
+	3200 3650 3100 3650
+Wire Wire Line
+	3100 3650 3100 3200
+Wire Wire Line
+	3100 3200 2300 3200
+Wire Wire Line
+	2300 3200 2300 3550
+Wire Wire Line
+	2300 3550 2400 3550
+Connection ~ 3100 3650
+Wire Wire Line
+	3100 3650 3000 3650
+$Comp
+L Device:R_Small R12
+U 1 1 6196BE8B
+P 2100 3900
+F 0 "R12" H 2159 3946 50  0000 L CNN
+F 1 "100k" H 2159 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2100 3900 50  0001 C CNN
+F 3 "~" H 2100 3900 50  0001 C CNN
+	1    2100 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 3750 2100 3800
+$Comp
+L power:GND #PWR029
+U 1 1 6196BE92
+P 2100 4050
+F 0 "#PWR029" H 2100 3800 50  0001 C CNN
+F 1 "GND" H 2105 3877 50  0000 C CNN
+F 2 "" H 2100 4050 50  0001 C CNN
+F 3 "" H 2100 4050 50  0001 C CNN
+	1    2100 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4000 2100 4050
+Wire Wire Line
+	2100 3750 2400 3750
+Connection ~ 2100 3750
+$Comp
+L Akiyuki_Connector:THONKICONN J6
+U 1 1 6196D5F4
+P 1600 3850
+F 0 "J6" H 1578 4175 50  0000 C CNN
+F 1 "THONKICONN" H 1578 4084 50  0000 C CNN
+F 2 "Akiyuki_Footprint:THONKICONN" H 1850 3950 50  0001 C CNN
+F 3 "~" H 1850 3950 50  0001 C CNN
+	1    1600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 6196D5FB
+P 1400 4100
+F 0 "#PWR027" H 1400 3850 50  0001 C CNN
+F 1 "GND" H 1405 3927 50  0000 C CNN
+F 2 "" H 1400 4100 50  0001 C CNN
+F 3 "" H 1400 4100 50  0001 C CNN
+	1    1400 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3950 1400 4000
+Wire Wire Line
+	1800 3850 1850 3850
+Wire Wire Line
+	1850 3850 1850 4000
+Wire Wire Line
+	1850 4000 1400 4000
+Connection ~ 1400 4000
+Wire Wire Line
+	1400 4000 1400 4100
+$Comp
+L Device:C_Small C22
+U 1 1 6197D0D3
+P 2500 5100
+F 0 "C22" V 2271 5100 50  0000 C CNN
+F 1 "0.1u" V 2362 5100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2500 5100 50  0001 C CNN
+F 3 "~" H 2500 5100 50  0001 C CNN
+	1    2500 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C23
+U 1 1 6197E1A0
+P 2500 5900
+F 0 "C23" V 2271 5900 50  0000 C CNN
+F 1 "0.1u" V 2362 5900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2500 5900 50  0001 C CNN
+F 3 "~" H 2500 5900 50  0001 C CNN
+	1    2500 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 6198045F
+P 2650 6000
+F 0 "#PWR033" H 2650 5750 50  0001 C CNN
+F 1 "GND" H 2655 5827 50  0000 C CNN
+F 2 "" H 2650 6000 50  0001 C CNN
+F 3 "" H 2650 6000 50  0001 C CNN
+	1    2650 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 5900 2650 5900
+Wire Wire Line
+	2650 5900 2650 6000
+Wire Wire Line
+	2600 5100 2650 5100
+$Comp
+L power:+12V #PWR030
+U 1 1 61982287
+P 2200 4900
+F 0 "#PWR030" H 2200 4750 50  0001 C CNN
+F 1 "+12V" H 2215 5073 50  0000 C CNN
+F 2 "" H 2200 4900 50  0001 C CNN
+F 3 "" H 2200 4900 50  0001 C CNN
+	1    2200 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4900 2200 5100
+Wire Wire Line
+	2200 5100 2400 5100
+Connection ~ 2200 5100
+Wire Wire Line
+	2200 5100 2200 5200
+Wire Wire Line
+	2200 5800 2200 5900
+Wire Wire Line
+	2200 5900 2400 5900
+$Comp
+L power:-12V #PWR031
+U 1 1 6198938C
+P 2200 6000
+F 0 "#PWR031" H 2200 6100 50  0001 C CNN
+F 1 "-12V" H 2215 6173 50  0000 C CNN
+F 2 "" H 2200 6000 50  0001 C CNN
+F 3 "" H 2200 6000 50  0001 C CNN
+	1    2200 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2200 6000 2200 5900
+Connection ~ 2200 5900
+$Comp
+L power:GND #PWR032
+U 1 1 6198AAD5
+P 2650 5150
+F 0 "#PWR032" H 2650 4900 50  0001 C CNN
+F 1 "GND" H 2655 4977 50  0000 C CNN
+F 2 "" H 2650 5150 50  0001 C CNN
+F 3 "" H 2650 5150 50  0001 C CNN
+	1    2650 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 5150 2650 5100
+Wire Wire Line
+	1750 2150 2050 2150
+Wire Wire Line
+	1800 3750 2100 3750
+$EndSCHEMATC

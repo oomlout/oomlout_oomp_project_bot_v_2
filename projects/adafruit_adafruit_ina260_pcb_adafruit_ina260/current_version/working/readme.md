@@ -1,0 +1,16 @@
+# adafruit_ina260_pcb
+ 
+## summary 
+* id: adafruit_adafruit_ina260_pcb_adafruit_ina260
+* user: adafruit
+* name: adafruit_ina260_pcb
+* board: adafruit_ina260
+* repo: https://github.com/adafruit/Adafruit-INA260-PCB
+
+
+
+
+
+
+
+

@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b)
+  (uuid 7c426464-8eea-465b-b83c-403c63cc5d4b)
 
   (paper "A4")
 
@@ -85,52 +85,52 @@
   )
 
 
-  (polyline (pts (xy 74.93 173.99) (xy 113.03 173.99))
+  (polyline (pts (xy 173.99 83.82) (xy 173.99 40.64))
     (stroke (width 0) (type default))
-    (uuid 0d567855-c46d-4fde-8cf2-c640857d9341)
-  )
-  (polyline (pts (xy 74.93 137.16) (xy 74.93 173.99))
-    (stroke (width 0) (type default))
-    (uuid 0e2ad8b4-a479-47df-a4a0-e72c4667c288)
-  )
-  (polyline (pts (xy 173.99 40.64) (xy 256.54 40.64))
-    (stroke (width 0) (type default))
-    (uuid 5e328cfe-a88f-4cb3-9d02-b95fc8fb4500)
-  )
-  (polyline (pts (xy 256.54 83.82) (xy 173.99 83.82))
-    (stroke (width 0) (type default))
-    (uuid a07a2785-1722-46b8-981a-baa6f1cc98f3)
-  )
-  (polyline (pts (xy 113.03 137.16) (xy 74.93 137.16))
-    (stroke (width 0) (type default))
-    (uuid d151e021-092c-4c25-a34e-d488372f820e)
+    (uuid 19a680a8-8728-4de5-9a3c-e09f638f6174)
   )
   (polyline (pts (xy 256.54 40.64) (xy 256.54 83.82))
     (stroke (width 0) (type default))
-    (uuid d9a70375-476a-4a3d-92c0-82295f06e2a1)
+    (uuid 1f9b5835-edf0-4845-8f41-80f194a4f1ad)
+  )
+  (polyline (pts (xy 74.93 173.99) (xy 113.03 173.99))
+    (stroke (width 0) (type default))
+    (uuid 27505b27-20d2-45eb-8ef5-82c58ae3de94)
+  )
+  (polyline (pts (xy 113.03 137.16) (xy 74.93 137.16))
+    (stroke (width 0) (type default))
+    (uuid 72afa657-6fbc-497e-a3d4-e527f8860320)
   )
   (polyline (pts (xy 113.03 173.99) (xy 113.03 137.16))
     (stroke (width 0) (type default))
-    (uuid e0a81c95-4e44-45b2-b92f-56ada98e362c)
+    (uuid 95fe9bcb-bfc8-452f-a950-f440d2285aa3)
   )
-  (polyline (pts (xy 173.99 83.82) (xy 173.99 40.64))
+  (polyline (pts (xy 74.93 137.16) (xy 74.93 173.99))
     (stroke (width 0) (type default))
-    (uuid e56d2e93-f3c2-4d7a-90b7-3af9f63be557)
+    (uuid b5429078-2ed6-405e-a796-7ad003e4c2ab)
+  )
+  (polyline (pts (xy 256.54 83.82) (xy 173.99 83.82))
+    (stroke (width 0) (type default))
+    (uuid c2c4199b-d4ea-4f4d-9643-4a6623cb861a)
+  )
+  (polyline (pts (xy 173.99 40.64) (xy 256.54 40.64))
+    (stroke (width 0) (type default))
+    (uuid fde0901f-339d-4638-b732-226521c40b18)
   )
 
   (text "Bus Pirate Ultra base design" (at 173.99 39.37 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 3cfbf8e4-4785-4507-ad54-86c017996ed0)
-  )
-  (text "click on mouse pointer arrow on top of right toolbar\nand double-click on sheet to open"
-    (at 177.8 129.54 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 6973d0ec-52e8-425b-902c-dde7e98bcffe)
+    (uuid 4fbf953f-07d5-429d-b4ea-7b9d16323a58)
   )
   (text "Stipped ULX3s design, some sheet contain only the fpga."
     (at 177.8 121.92 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 8d2e072f-07d0-4d98-9837-bcf38e62b08b)
+    (uuid 62f5f47f-9837-449e-8e4a-d68c12226ca0)
+  )
+  (text "click on mouse pointer arrow on top of right toolbar\nand double-click on sheet to open"
+    (at 177.8 129.54 0)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid 94c0b013-f10b-41fc-8e40-3749a17e1964)
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 80.01 161.29 90) (unit 1)
@@ -148,10 +148,10 @@
     (property "Datasheet" "" (at 80.01 161.29 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 2cf3168a-743b-425a-8a99-3914ba5ef55a))
+    (pin "1" (uuid c026f1db-ea17-44f7-b312-1c425418ff10))
     (instances
       (project "BPUv2a"
-        (path "/6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b"
+        (path "/7c426464-8eea-465b-b83c-403c63cc5d4b"
           (reference "H?") (unit 1)
         )
       )
@@ -173,10 +173,10 @@
     (property "Datasheet" "" (at 107.95 161.29 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid cadce86c-fb0d-469c-9961-883db0fa2fba))
+    (pin "1" (uuid 4beaae43-c345-49bd-bf1d-b5bc863d3fb0))
     (instances
       (project "BPUv2a"
-        (path "/6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b"
+        (path "/7c426464-8eea-465b-b83c-403c63cc5d4b"
           (reference "H?") (unit 1)
         )
       )
@@ -198,10 +198,10 @@
     (property "Datasheet" "" (at 107.95 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 13709154-69e6-42a6-9b7a-d735d4086d6c))
+    (pin "1" (uuid 9c89b461-1162-4e73-a31d-520a94ae605d))
     (instances
       (project "BPUv2a"
-        (path "/6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b"
+        (path "/7c426464-8eea-465b-b83c-403c63cc5d4b"
           (reference "H?") (unit 1)
         )
       )
@@ -226,10 +226,10 @@
     (property "Note" "Leave empty" (at 80.01 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9c783eab-bb6e-447d-9f86-f494356ee11a))
+    (pin "1" (uuid 28efc02c-3ed1-4af2-a9db-b1f5df44bbac))
     (instances
       (project "BPUv2a"
-        (path "/6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b"
+        (path "/7c426464-8eea-465b-b83c-403c63cc5d4b"
           (reference "H?") (unit 1)
         )
       )
@@ -251,10 +251,10 @@
     (property "Datasheet" "" (at 80.01 166.37 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid ae93273d-9c37-468d-9a16-c1a3390207fc))
+    (pin "1" (uuid e6bd7436-3226-4bde-9a3c-68c4811ce077))
     (instances
       (project "BPUv2a"
-        (path "/6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b"
+        (path "/7c426464-8eea-465b-b83c-403c63cc5d4b"
           (reference "#PWR?") (unit 1)
         )
       )
@@ -276,10 +276,10 @@
     (property "Datasheet" "" (at 107.95 166.37 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid b3aa0a85-2102-4982-891d-c045813fc3b3))
+    (pin "1" (uuid 1895c6d5-5367-462b-b6ea-034597a7e5fb))
     (instances
       (project "BPUv2a"
-        (path "/6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b"
+        (path "/7c426464-8eea-465b-b83c-403c63cc5d4b"
           (reference "#PWR?") (unit 1)
         )
       )
@@ -301,10 +301,10 @@
     (property "Datasheet" "" (at 107.95 148.59 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid a0c49beb-f77f-45c1-a0cd-b98bd0eeea9b))
+    (pin "1" (uuid 17f9a513-d577-471e-97f3-690718e45e8e))
     (instances
       (project "BPUv2a"
-        (path "/6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b"
+        (path "/7c426464-8eea-465b-b83c-403c63cc5d4b"
           (reference "#PWR?") (unit 1)
         )
       )
@@ -326,10 +326,10 @@
     (property "Datasheet" "" (at 80.01 148.59 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid fb2de470-ed57-436b-b7f4-e7c594364496))
+    (pin "1" (uuid cd30c0e3-3a7a-4c37-a840-9137cfaf8168))
     (instances
       (project "BPUv2a"
-        (path "/6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b"
+        (path "/7c426464-8eea-465b-b83c-403c63cc5d4b"
           (reference "#PWR?") (unit 1)
         )
       )
@@ -348,7 +348,7 @@
     )
     (instances
       (project "BPUv2a"
-        (path "/6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b" (page "5"))
+        (path "/7c426464-8eea-465b-b83c-403c63cc5d4b" (page "5"))
       )
     )
   )
@@ -365,7 +365,7 @@
     )
     (instances
       (project "BPUv2a"
-        (path "/6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b" (page "4"))
+        (path "/7c426464-8eea-465b-b83c-403c63cc5d4b" (page "4"))
       )
     )
   )
@@ -382,7 +382,7 @@
     )
     (instances
       (project "BPUv2a"
-        (path "/6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b" (page "7"))
+        (path "/7c426464-8eea-465b-b83c-403c63cc5d4b" (page "7"))
       )
     )
   )
@@ -399,7 +399,7 @@
     )
     (instances
       (project "BPUv2a"
-        (path "/6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b" (page "6"))
+        (path "/7c426464-8eea-465b-b83c-403c63cc5d4b" (page "6"))
       )
     )
   )
@@ -416,7 +416,7 @@
     )
     (instances
       (project "BPUv2a"
-        (path "/6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b" (page "10"))
+        (path "/7c426464-8eea-465b-b83c-403c63cc5d4b" (page "10"))
       )
     )
   )
@@ -433,7 +433,7 @@
     )
     (instances
       (project "BPUv2a"
-        (path "/6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b" (page "11"))
+        (path "/7c426464-8eea-465b-b83c-403c63cc5d4b" (page "11"))
       )
     )
   )
@@ -450,7 +450,7 @@
     )
     (instances
       (project "BPUv2a"
-        (path "/6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b" (page "2"))
+        (path "/7c426464-8eea-465b-b83c-403c63cc5d4b" (page "2"))
       )
     )
   )
@@ -467,7 +467,7 @@
     )
     (instances
       (project "BPUv2a"
-        (path "/6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b" (page "8"))
+        (path "/7c426464-8eea-465b-b83c-403c63cc5d4b" (page "8"))
       )
     )
   )
@@ -484,7 +484,7 @@
     )
     (instances
       (project "BPUv2a"
-        (path "/6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b" (page "3"))
+        (path "/7c426464-8eea-465b-b83c-403c63cc5d4b" (page "3"))
       )
     )
   )
@@ -501,7 +501,7 @@
     )
     (instances
       (project "BPUv2a"
-        (path "/6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b" (page "9"))
+        (path "/7c426464-8eea-465b-b83c-403c63cc5d4b" (page "9"))
       )
     )
   )
@@ -518,7 +518,7 @@
     )
     (instances
       (project "BPUv2a"
-        (path "/6d975cb1-fb66-4c6d-8a02-46bc1d0bbf2b" (page "12"))
+        (path "/7c426464-8eea-465b-b83c-403c63cc5d4b" (page "12"))
       )
     )
   )
