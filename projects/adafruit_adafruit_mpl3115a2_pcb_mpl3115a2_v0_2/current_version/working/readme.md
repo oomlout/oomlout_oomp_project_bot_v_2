@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_mpl3115a2_pcb
 * board: mpl3115a2_v0_2
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-MPL3115A2-PCB.git/MPL3115A2_v0.2.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-MPL3115A2-PCB.git/MPL3115A2_v0.2.brd
+* repo: https://github.com/adafruit/Adafruit-MPL3115A2-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-MPL3115A2-PCB/tree/master/
+
 
 
 

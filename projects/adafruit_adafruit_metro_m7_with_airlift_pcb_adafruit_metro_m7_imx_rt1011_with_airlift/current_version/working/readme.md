@@ -5,15 +5,12 @@
 * user: adafruit
 * name: adafruit_metro_m7_with_airlift_pcb
 * board: adafruit_metro_m7_imx_rt1011_with_airlift
-* repo: https://api.github.com/repos/adafruit/Adafruit-Metro-M7-with-AirLift-PCB
-* src_file_repo_kicad_pcb: 
-* src_file_repo_kicad_pcb_link: https://api.github.com/repos/adafruit/Adafruit-Metro-M7-with-AirLift-PCB/
-* src_file_repo_kicad_sch: 
-* src_file_repo_kicad_sch_link: https://api.github.com/repos/adafruit/Adafruit-Metro-M7-with-AirLift-PCB/
-* src_file_repo_brd: 
-* src_file_repo_brd_link: https://api.github.com/repos/adafruit/Adafruit-Metro-M7-with-AirLift-PCB/
+* repo: https://github.com/adafruit/Adafruit-Metro-M7-with-AirLift-PCB
+
+
+
 * src_file_repo_sch: 
-* src_file_repo_sch_link: https://api.github.com/repos/adafruit/Adafruit-Metro-M7-with-AirLift-PCB/
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-Metro-M7-with-AirLift-PCB/tree/main/
 
 
 

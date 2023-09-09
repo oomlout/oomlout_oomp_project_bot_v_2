@@ -1,4 +1,182 @@
 board: corne_light
+bom:
+- Id: '1'
+  Designator: J1,J6
+  Footprint: MJ-4PP-9_1side
+  Quantity: '2'
+  Designation: MJ-4PP-9
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: RSW2,RSW1
+  Footprint: ResetSW_1side
+  Quantity: '2'
+  Designation: SW_PUSH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: SW22,SW23,SW24,SW25,SW26,SW27,SW28,SW29,SW30,SW31,SW32,SW33,SW34,SW35,SW36,SW37,SW38,SW40,SW41,SW39,SW6,SW5,SW4,SW3,SW2,SW18,SW13,SW20,SW19,SW17,SW16,SW15,SW14,SW12,SW11,SW10,SW9,SW8,SW7,SW1
+  Footprint: keyswitch_cherrymx_alps_choc12_1u
+  Quantity: '40'
+  Designation: SW_PUSH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U1,U2
+  Footprint: ProMicro_v3
+  Quantity: '2'
+  Designation: ProMicro
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: SW21,SW42
+  Footprint: keyswitch_cherrymx_alps_choc12_1.5u
+  Quantity: '2'
+  Designation: SW_PUSH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J2,J7
+  Footprint: OLED_1side
+  Quantity: '2'
+  Designation: OLED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: J5,J5,J5,J5,J5,J5,J5,J5
+  Footprint: Breakaway_Tabs
+  Quantity: '8'
+  Designation: Breakaway_Tabs
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: G***,G***,G***,G***
+  Footprint: corne-logo-horizontal
+  Quantity: '4'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: D34,D36,D37,D38,D39,D40,D41,D42,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32,D14,D8,D2,D33,D21,D20,D19,D18,D17,D16,D15,D13,D12,D11,D10,D9,D7,D6,D5,D4,D3,D1,D35
+  Footprint: D3_TH_SMD_v2
+  Quantity: '42'
+  Designation: D
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1,J6\
+  \ | MJ-4PP-9_1side | 2 | MJ-4PP-9 |  |  | [''] | \n| 2 | RSW2,RSW1 | ResetSW_1side\
+  \ | 2 | SW_PUSH |  |  | [''] | \n| 3 | SW22,SW23,SW24,SW25,SW26,SW27,SW28,SW29,SW30,SW31,SW32,SW33,SW34,SW35,SW36,SW37,SW38,SW40,SW41,SW39,SW6,SW5,SW4,SW3,SW2,SW18,SW13,SW20,SW19,SW17,SW16,SW15,SW14,SW12,SW11,SW10,SW9,SW8,SW7,SW1\
+  \ | keyswitch_cherrymx_alps_choc12_1u | 40 | SW_PUSH |  |  | [''] | \n| 4 | U1,U2\
+  \ | ProMicro_v3 | 2 | ProMicro |  |  | [''] | \n| 5 | SW21,SW42 | keyswitch_cherrymx_alps_choc12_1.5u\
+  \ | 2 | SW_PUSH |  |  | [''] | \n| 6 | J2,J7 | OLED_1side | 2 | OLED |  |  | ['']\
+  \ | \n| 7 | J5,J5,J5,J5,J5,J5,J5,J5 | Breakaway_Tabs | 8 | Breakaway_Tabs |  | \
+  \ | [''] | \n| 8 | G***,G***,G***,G*** | corne-logo-horizontal | 4 | LOGO |  | \
+  \ | [''] | \n| 9 | D34,D36,D37,D38,D39,D40,D41,D42,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32,D14,D8,D2,D33,D21,D20,D19,D18,D17,D16,D15,D13,D12,D11,D10,D9,D7,D6,D5,D4,D3,D1,D35\
+  \ | D3_TH_SMD_v2 | 42 | D |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: D
+  DNP: ''
+  Description: Diode
+  Footprint: kbd:D3_TH
+  Qnty: '42'
+  Ref: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17,
+    D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33,
+    D34, D35, D36, D37, D38, D39, D40, D41, D42
+  Value: D
+  Vendor: ''
+- Cmp name: MJ-4PP-9-kbd
+  DNP: ''
+  Description: ''
+  Footprint: kbd:MJ-4PP-9_1side
+  Qnty: '2'
+  Ref: J1, J6
+  Value: MJ-4PP-9
+  Vendor: ''
+- Cmp name: Conn_01x04
+  DNP: ''
+  Description: Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: kbd:OLED_1side
+  Qnty: '2'
+  Ref: J2, J7
+  Value: OLED
+  Vendor: ''
+- Cmp name: SW_PUSH-kbd
+  DNP: ''
+  Description: ''
+  Footprint: kbd:ResetSW_1side
+  Qnty: '2'
+  Ref: RSW1, RSW2
+  Value: SW_PUSH
+  Vendor: ''
+- Cmp name: SW_PUSH-kbd
+  DNP: ''
+  Description: ''
+  Footprint: kbd:CherryMX_ChocV2_1u
+  Qnty: '40'
+  Ref: SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12, SW13, SW14,
+    SW15, SW16, SW17, SW18, SW19, SW20, SW22, SW23, SW24, SW25, SW26, SW27, SW28,
+    SW29, SW30, SW31, SW32, SW33, SW34, SW35, SW36, SW37, SW38, SW39, SW40, SW41
+  Value: SW_PUSH
+  Vendor: ''
+- Cmp name: SW_PUSH-kbd
+  DNP: ''
+  Description: ''
+  Footprint: kbd:CherryMX_ChocV2_1.5u
+  Qnty: '2'
+  Ref: SW21, SW42
+  Value: SW_PUSH
+  Vendor: ''
+- Cmp name: ProMicro-kbd
+  DNP: ''
+  Description: ''
+  Footprint: kbd:ProMicro_v3
+  Qnty: '2'
+  Ref: U1, U2
+  Value: ProMicro
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| D1, D2,\
+  \ D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19,\
+  \ D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33, D34, D35,\
+  \ D36, D37, D38, D39, D40, D41, D42 | 42 | D | D | kbd:D3_TH | Diode |  |  | \n\
+  | J1, J6 | 2 | MJ-4PP-9 | MJ-4PP-9-kbd | kbd:MJ-4PP-9_1side |  |  |  | \n| J2, J7\
+  \ | 2 | OLED | Conn_01x04 | kbd:OLED_1side | Generic connector, single row, 01x04,\
+  \ script generated (kicad-library-utils/schlib/autogen/connector/) |  |  | \n| RSW1,\
+  \ RSW2 | 2 | SW_PUSH | SW_PUSH-kbd | kbd:ResetSW_1side |  |  |  | \n| SW1, SW2,\
+  \ SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12, SW13, SW14, SW15, SW16, SW17,\
+  \ SW18, SW19, SW20, SW22, SW23, SW24, SW25, SW26, SW27, SW28, SW29, SW30, SW31,\
+  \ SW32, SW33, SW34, SW35, SW36, SW37, SW38, SW39, SW40, SW41 | 40 | SW_PUSH | SW_PUSH-kbd\
+  \ | kbd:CherryMX_ChocV2_1u |  |  |  | \n| SW21, SW42 | 2 | SW_PUSH | SW_PUSH-kbd\
+  \ | kbd:CherryMX_ChocV2_1.5u |  |  |  | \n| U1, U2 | 2 | ProMicro | ProMicro-kbd\
+  \ | kbd:ProMicro_v3 |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/50an6xy06r6n_crkbd_corne_light/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/50an6xy06r6n_crkbd_corne_light/current_version/working/working.kicad_pcb

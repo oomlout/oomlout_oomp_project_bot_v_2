@@ -5,10 +5,13 @@
 * user: adafruit
 * name: ice_tube_clock
 * board: icetube
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Ice-Tube-Clock.git/icetube.sch
-* src_file_brd_github: https://github.com/adafruit/Ice-Tube-Clock.git/icetube.brd
+* repo: https://github.com/adafruit/Ice-Tube-Clock
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Ice-Tube-Clock/tree/master/
+
 
 
 

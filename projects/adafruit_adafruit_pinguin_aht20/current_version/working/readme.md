@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_pinguin
 * board: aht20
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: 
-* src_file_brd_github: https://github.com/adafruit/Adafruit_Pinguin.git/AHT20.brd
+* repo: https://github.com/adafruit/Adafruit_Pinguin
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit_Pinguin/tree/main/
+
 
 
 

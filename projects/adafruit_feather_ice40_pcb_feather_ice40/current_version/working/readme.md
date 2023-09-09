@@ -5,10 +5,14 @@
 * user: adafruit
 * name: feather_ice40_pcb
 * board: feather_ice40
-* src_file_kicad_pcb_github: https://github.com/adafruit/Feather-ICE40-PCB.git/feather_ice40.kicad_pcb
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Feather-ICE40-PCB.git/feather_ice40.sch
-* src_file_brd_github: 
+* repo: https://github.com/adafruit/Feather-ICE40-PCB
+* src_file_repo_kicad_pcb: feather_ice40.kicad_pcb
+* src_file_repo_kicad_pcb_link: https://github.com/adafruit/Feather-ICE40-PCB/tree/master/feather_ice40.kicad_pcb
+
+
+* src_file_repo_sch: feather_ice40.sch
+* src_file_repo_sch_link: https://github.com/adafruit/Feather-ICE40-PCB/tree/master/feather_ice40.sch
+
 
 
 

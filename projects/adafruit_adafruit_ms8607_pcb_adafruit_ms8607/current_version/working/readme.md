@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_ms8607_pcb
 * board: adafruit_ms8607
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-MS8607-PCB.git/Adafruit MS8607.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-MS8607-PCB.git/Adafruit MS8607.brd
+* repo: https://github.com/adafruit/Adafruit-MS8607-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-MS8607-PCB/tree/main/
+
 
 
 

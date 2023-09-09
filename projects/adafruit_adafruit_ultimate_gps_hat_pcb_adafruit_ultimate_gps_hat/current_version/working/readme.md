@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_ultimate_gps_hat_pcb
 * board: adafruit_ultimate_gps_hat
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-Ultimate-GPS-HAT-PCB.git/Adafruit Ultimate GPS HAT.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-Ultimate-GPS-HAT-PCB.git/Adafruit Ultimate GPS HAT.brd
+* repo: https://github.com/adafruit/Adafruit-Ultimate-GPS-HAT-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-Ultimate-GPS-HAT-PCB/tree/master/
+
 
 
 

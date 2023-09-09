@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_tmp117_pcb
 * board: adafruit_tmp117
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-TMP117-PCB.git/Adafruit_TMP117.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-TMP117-PCB.git/Adafruit_TMP117.brd
+* repo: https://github.com/adafruit/Adafruit-TMP117-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-TMP117-PCB/tree/main/
+
 
 
 

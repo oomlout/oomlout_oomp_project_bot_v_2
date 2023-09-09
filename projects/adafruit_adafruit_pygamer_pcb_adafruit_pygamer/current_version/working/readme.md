@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_pygamer_pcb
 * board: adafruit_pygamer
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-PyGamer-PCB.git/Adafruit PyGamer.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-PyGamer-PCB.git/Adafruit PyGamer.brd
+* repo: https://github.com/adafruit/Adafruit-PyGamer-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-PyGamer-PCB/tree/master/
+
 
 
 

@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_pcf8523_rtc_breakout_pcb
 * board: adafrruit_pcf8523_qt
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-PCF8523-RTC-Breakout-PCB.git/Adafrruit PCF8523 QT.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-PCF8523-RTC-Breakout-PCB.git/Adafrruit PCF8523 QT.brd
+* repo: https://github.com/adafruit/Adafruit-PCF8523-RTC-Breakout-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-PCF8523-RTC-Breakout-PCB/tree/master/
+
 
 
 

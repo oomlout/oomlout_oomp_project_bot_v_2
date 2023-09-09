@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_pybadge_pcb
 * board: adafruit_pybadge
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-PyBadge-PCB.git/Adafruit PyBadge.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-PyBadge-PCB.git/Adafruit PyBadge.brd
+* repo: https://github.com/adafruit/Adafruit-PyBadge-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-PyBadge-PCB/tree/master/
+
 
 
 

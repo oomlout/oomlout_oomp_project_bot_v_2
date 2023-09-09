@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_mpm3610_pcb
 * board: adafruit_mpm3610
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-MPM3610-PCB.git/Adafruit MPM3610.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-MPM3610-PCB.git/Adafruit MPM3610.brd
+* repo: https://github.com/adafruit/Adafruit-MPM3610-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-MPM3610-PCB/tree/master/
+
 
 
 

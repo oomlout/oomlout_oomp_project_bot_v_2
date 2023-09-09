@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_powerboost_500_shield_pcb
 * board: adafruit_powerboost_shield
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-PowerBoost-500-Shield-PCB.git/Adafruit PowerBoost Shield.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-PowerBoost-500-Shield-PCB.git/Adafruit PowerBoost Shield.brd
+* repo: https://github.com/adafruit/Adafruit-PowerBoost-500-Shield-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-PowerBoost-500-Shield-PCB/tree/master/
+
 
 
 

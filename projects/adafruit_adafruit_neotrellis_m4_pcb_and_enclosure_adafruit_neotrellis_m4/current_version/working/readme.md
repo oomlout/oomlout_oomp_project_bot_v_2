@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_neotrellis_m4_pcb_and_enclosure
 * board: adafruit_neotrellis_m4
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-NeoTrellis-M4-PCB-and-Enclosure.git/Adafruit NeoTrellis M4.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-NeoTrellis-M4-PCB-and-Enclosure.git/Adafruit NeoTrellis M4.brd
+* repo: https://github.com/adafruit/Adafruit-NeoTrellis-M4-PCB-and-Enclosure
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-NeoTrellis-M4-PCB-and-Enclosure/tree/master/
+
 
 
 

@@ -3,7 +3,7 @@ import oomlout_oomp_project_bot
 def main():
     
     fast = True
-    #fast = False
+    fast = False
     
 
     import action_generate_readmes
@@ -15,6 +15,12 @@ def main():
         print("Generating image resolutions")
         action_generate_image_resolutions.main()
     
+
+    comment = "Updating readmes"
+    if not fast:
+        comment = "Updating readmes and images"
+    import oom_git
+    oom_git.push_to_git(comment=comment)
 
 if __name__ == '__main__':
     main()

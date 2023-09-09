@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_mmc5603_pcb
 * board: mmc56x3_rev_a
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-MMC5603-PCB.git/MMC56x3 rev A.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-MMC5603-PCB.git/MMC56x3 rev A.brd
+* repo: https://github.com/adafruit/Adafruit-MMC5603-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-MMC5603-PCB/tree/main/
+
 
 
 

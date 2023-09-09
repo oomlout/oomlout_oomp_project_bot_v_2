@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_pn532_rfid_nfc_shield
 * board: adafruit_pn532_shield_v1_0
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-PN532-RFID-NFC-Shield.git/Adafruit_PN532_Shield_v1.0.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-PN532-RFID-NFC-Shield.git/Adafruit_PN532_Shield_v1.0.brd
+* repo: https://github.com/adafruit/Adafruit-PN532-RFID-NFC-Shield
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-PN532-RFID-NFC-Shield/tree/master/
+
 
 
 

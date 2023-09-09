@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_neokey_bff_pcb
 * board: adafruit_neokey_bff
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-NeoKey-BFF-PCB.git/Adafruit NeoKey BFF.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-NeoKey-BFF-PCB.git/Adafruit NeoKey BFF.brd
+* repo: https://github.com/adafruit/Adafruit-NeoKey-BFF-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-NeoKey-BFF-PCB/tree/main/
+
 
 
 

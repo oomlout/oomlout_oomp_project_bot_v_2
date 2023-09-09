@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_mpu6050_pcb
 * board: adafruit_mpu6050
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-MPU6050-PCB.git/Adafruit MPU6050.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-MPU6050-PCB.git/Adafruit MPU6050.brd
+* repo: https://github.com/adafruit/Adafruit-MPU6050-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-MPU6050-PCB/tree/master/
+
 
 
 

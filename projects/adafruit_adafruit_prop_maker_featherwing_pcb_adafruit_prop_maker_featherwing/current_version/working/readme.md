@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_prop_maker_featherwing_pcb
 * board: adafruit_prop_maker_featherwing
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-Prop-Maker-FeatherWing-PCB.git/Adafruit Prop Maker FeatherWing.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-Prop-Maker-FeatherWing-PCB.git/Adafruit Prop Maker FeatherWing.brd
+* repo: https://github.com/adafruit/Adafruit-Prop-Maker-FeatherWing-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-Prop-Maker-FeatherWing-PCB/tree/master/
+
 
 
 

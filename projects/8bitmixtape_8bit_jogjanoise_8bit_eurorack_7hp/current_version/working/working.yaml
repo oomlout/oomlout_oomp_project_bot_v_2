@@ -1,4 +1,169 @@
 board: 8bit_eurorack_7hp
+bom:
+- Id: '1'
+  Designator: SW2
+  Footprint: SW_PUSH-12mm_3D_new
+  Quantity: '1'
+  Designation: SW_Push
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: board1
+  Footprint: 8Bit_YogyaNoise
+  Quantity: '1'
+  Designation: SVG2SHENZHEN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: D-PB0,D-PB1
+  Footprint: LED_PLCC_2835_Handsoldering
+  Quantity: '2'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: Jack1,Jack2,Jack5
+  Footprint: PJ301M-12_dusjagr_3d
+  Quantity: '3'
+  Designation: JACK_2P
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: POT1-MAIN1
+  Footprint: RD901F-ALPHA-3D
+  Quantity: '1'
+  Designation: POT 10K lin
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U1
+  Footprint: DIP-8_Attiny_with_Socket_3d
+  Quantity: '1'
+  Designation: ATTINY85-20SU
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C1,C2,C3
+  Footprint: C_1206_3d
+  Quantity: '3'
+  Designation: 100nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C4
+  Footprint: C_1206_3d
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R1,R2,R3
+  Footprint: R_1206_3d
+  Quantity: '3'
+  Designation: 22k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R8
+  Footprint: R_1206_3d
+  Quantity: '1'
+  Designation: '330'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: R14
+  Footprint: R_1206_3d
+  Quantity: '1'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: J4
+  Footprint: Bat_connector_SMD
+  Quantity: '1'
+  Designation: Con_3-5V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: logo1
+  Footprint: Coconut_logo
+  Quantity: '1'
+  Designation: COCONUT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: R99
+  Footprint: R_1206_3d
+  Quantity: '1'
+  Designation: '0'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: Ref**
+  Footprint: NoiseBomb_logo
+  Quantity: '1'
+  Designation: Val**
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | SW2\
+  \ | SW_PUSH-12mm_3D_new | 1 | SW_Push |  |  | [''] | \n| 2 | board1 | 8Bit_YogyaNoise\
+  \ | 1 | SVG2SHENZHEN |  |  | [''] | \n| 3 | D-PB0,D-PB1 | LED_PLCC_2835_Handsoldering\
+  \ | 2 | LED |  |  | [''] | \n| 4 | Jack1,Jack2,Jack5 | PJ301M-12_dusjagr_3d | 3\
+  \ | JACK_2P |  |  | [''] | \n| 5 | POT1-MAIN1 | RD901F-ALPHA-3D | 1 | POT 10K lin\
+  \ |  |  | [''] | \n| 6 | U1 | DIP-8_Attiny_with_Socket_3d | 1 | ATTINY85-20SU |\
+  \  |  | [''] | \n| 7 | C1,C2,C3 | C_1206_3d | 3 | 100nF |  |  | [''] | \n| 8 | C4\
+  \ | C_1206_3d | 1 | 10uF |  |  | [''] | \n| 9 | R1,R2,R3 | R_1206_3d | 3 | 22k |\
+  \  |  | [''] | \n| 10 | R8 | R_1206_3d | 1 | 330 |  |  | [''] | \n| 11 | R14 | R_1206_3d\
+  \ | 1 | 1K |  |  | [''] | \n| 12 | J4 | Bat_connector_SMD | 1 | Con_3-5V |  |  |\
+  \ [''] | \n| 13 | logo1 | Coconut_logo | 1 | COCONUT |  |  | [''] | \n| 14 | R99\
+  \ | R_1206_3d | 1 | 0 |  |  | [''] | \n| 15 | Ref** | NoiseBomb_logo | 1 | Val**\
+  \ |  |  | [''] | \n"
 counter: 1
 file_kicad_pcb_flat: projects/8bitmixtape_8bit_jogjanoise_8bit_eurorack_7hp/current_version/working/working.kicad_pcb
 file_sch_flat: projects/8bitmixtape_8bit_jogjanoise_8bit_eurorack_7hp/current_version/working/working.sch

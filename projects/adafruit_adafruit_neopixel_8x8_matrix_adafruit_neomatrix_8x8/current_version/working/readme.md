@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_neopixel_8x8_matrix
 * board: adafruit_neomatrix_8x8
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-NeoPixel-8x8-Matrix.git/Adafruit_NeoMatrix_8x8 v2.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-NeoPixel-8x8-Matrix.git/Adafruit_NeoMatrix_8x8 v2.brd
+* repo: https://github.com/adafruit/Adafruit-NeoPixel-8x8-Matrix
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-NeoPixel-8x8-Matrix/tree/master/
+
 
 
 

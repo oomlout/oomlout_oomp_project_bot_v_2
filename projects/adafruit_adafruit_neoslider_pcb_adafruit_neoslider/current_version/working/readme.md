@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_neoslider_pcb
 * board: adafruit_neoslider
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-NeoSlider-PCB.git/Adafruit NeoSlider.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-NeoSlider-PCB.git/Adafruit NeoSlider.brd
+* repo: https://github.com/adafruit/Adafruit-NeoSlider-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-NeoSlider-PCB/tree/main/
+
 
 
 

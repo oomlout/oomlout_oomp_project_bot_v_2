@@ -9,7 +9,8 @@
 
 
 
-
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-IS31FL3731-CharliePlex-LED-Breakout-PCB/tree/master/
 
 
 

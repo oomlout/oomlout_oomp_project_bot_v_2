@@ -9,7 +9,8 @@
 
 
 
-
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-INA219-Current-Sensor-PCB/tree/master/
 
 
 

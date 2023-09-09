@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_perma_proto_hat_pcb
 * board: adafruit_had_proto_hat_rev_a
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-Perma-Proto-HAT-PCB.git/Adafruit HaD Proto HAT rev A.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-Perma-Proto-HAT-PCB.git/Adafruit HaD Proto HAT rev A.brd
+* repo: https://github.com/adafruit/Adafruit-Perma-Proto-HAT-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-Perma-Proto-HAT-PCB/tree/master/
+
 
 
 

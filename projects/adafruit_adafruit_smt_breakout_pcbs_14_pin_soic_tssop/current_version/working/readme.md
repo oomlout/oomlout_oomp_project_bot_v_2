@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_smt_breakout_pcbs
 * board: 14_pin_soic_tssop
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-SMT-Breakout-PCBs.git/0.5mm 4-pin.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-SMT-Breakout-PCBs.git/0.5mm 4-pin.brd
+* repo: https://github.com/adafruit/Adafruit-SMT-Breakout-PCBs
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-SMT-Breakout-PCBs/tree/master/
+
 
 
 

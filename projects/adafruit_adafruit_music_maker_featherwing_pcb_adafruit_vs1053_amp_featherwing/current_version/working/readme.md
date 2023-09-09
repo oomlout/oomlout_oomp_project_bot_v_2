@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_music_maker_featherwing_pcb
 * board: adafruit_vs1053_amp_featherwing
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-Music-Maker-FeatherWing-PCB.git/Adafruit VS1053 Amp FeatherWing.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-Music-Maker-FeatherWing-PCB.git/Adafruit VS1053 Amp FeatherWing.brd
+* repo: https://github.com/adafruit/Adafruit-Music-Maker-FeatherWing-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-Music-Maker-FeatherWing-PCB/tree/master/
+
 
 
 

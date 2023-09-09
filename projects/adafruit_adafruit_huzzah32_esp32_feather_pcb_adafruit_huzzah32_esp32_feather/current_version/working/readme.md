@@ -9,7 +9,8 @@
 
 
 
-
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-HUZZAH32-ESP32-Feather-PCB/tree/master/
 
 
 
