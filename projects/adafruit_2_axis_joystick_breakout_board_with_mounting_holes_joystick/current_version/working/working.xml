@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\adafruit_2_axis_joystick_breakout_board_with_mounting_holes_joystick\current_version\working\working.kicad_sch</source>
+    <date>09/09/2023 09:16:27</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="JP1">
+      <value>PINHD-1X5</value>
+      <footprint>working:1X05</footprint>
+      <libsource lib="working-eagle-import" part="PINHD-1X5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb0cbe99-d0cd-4dca-94ee-f8d107bfca6f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>JOYSTICKPTH</value>
+      <footprint>working:JOYSTICK</footprint>
+      <libsource lib="working-eagle-import" part="JOYSTICKPTH" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>866409f2-3db7-44c1-b1fc-996fd94b7746</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="working-eagle-import" part="JOYSTICKPTH">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">working:JOYSTICK</field>
+      </fields>
+      <pins>
+        <pin num="B1A" name="SEL+" type="bidirectional"/>
+        <pin num="B2A" name="SEL-" type="bidirectional"/>
+        <pin num="H1" name="H+" type="bidirectional"/>
+        <pin num="H2" name="H" type="bidirectional"/>
+        <pin num="H3" name="H-" type="bidirectional"/>
+        <pin num="V1" name="V+" type="bidirectional"/>
+        <pin num="V2" name="V" type="bidirectional"/>
+        <pin num="V3" name="V-" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="working-eagle-import" part="PINHD-1X5">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Footprint">working:1X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="Net-(U1-H)">
+      <node ref="JP1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="H2" pinfunction="H" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="Net-(U1-H+)">
+      <node ref="JP1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U1" pin="H1" pinfunction="H+" pintype="bidirectional"/>
+      <node ref="U1" pin="V1" pinfunction="V+" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="Net-(U1-H-)">
+      <node ref="JP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="B2A" pinfunction="SEL-" pintype="bidirectional"/>
+      <node ref="U1" pin="H3" pinfunction="H-" pintype="bidirectional"/>
+      <node ref="U1" pin="V3" pinfunction="V-" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="Net-(U1-SEL+)">
+      <node ref="JP1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="B1A" pinfunction="SEL+" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="Net-(U1-V)">
+      <node ref="JP1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U1" pin="V2" pinfunction="V" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\adafruit_adafruit_ap3602a_pcb_adafruit_ap6302\current_version\working\working.kicad_sch</source>
+    <date>09/09/2023 19:08:24</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>working:0805-NO</footprint>
+      <libsource lib="working-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbe4f3ae-8b77-4dcd-a868-8da20ac1f387</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>working:0805-NO</footprint>
+      <libsource lib="working-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fb74368-1234-411c-8778-4013ff9460d1</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>working:0805-NO</footprint>
+      <libsource lib="working-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b63a31b8-4901-4362-88ab-b1e667e83f72</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>FIDUCIAL""</value>
+      <footprint>working:FIDUCIAL_1MM</footprint>
+      <libsource lib="working-eagle-import" part="FIDUCIAL{dblquote}{dblquote}" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b031902f-ae09-4996-b945-e8cb4d0bd0af</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>AP3602</value>
+      <footprint>working:SOT23-6</footprint>
+      <libsource lib="working-eagle-import" part="AP3602" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22b26924-933a-488e-a658-af6d179fde06</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>HEADER-1X4ROUND</value>
+      <footprint>working:1X04_ROUND</footprint>
+      <libsource lib="working-eagle-import" part="HEADER-1X4ROUND" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1563f14-a3a1-4fba-a0d9-204da4eb0e61</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100K</value>
+      <footprint>working:0805-NO</footprint>
+      <libsource lib="working-eagle-import" part="RESISTOR0805_NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9806846c-29c7-4e38-bb38-7bf6e4a99d45</tstamps>
+    </comp>
+    <comp ref="U$9">
+      <value>MOUNTINGHOLE2.5</value>
+      <footprint>working:MOUNTINGHOLE_2.5_PLATED</footprint>
+      <libsource lib="working-eagle-import" part="MOUNTINGHOLE2.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f2084cb-4206-43fa-93ed-724bd62af582</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="working-eagle-import" part="AP3602">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Footprint">working:SOT23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="5VO" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="~{SHDN}" type="input"/>
+        <pin num="4" name="C-" type="bidirectional"/>
+        <pin num="5" name="VIN" type="power_in"/>
+        <pin num="6" name="C+" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="working-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">working:0805-NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="working-eagle-import" part="FIDUCIAL{dblquote}{dblquote}">
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Footprint">working:FIDUCIAL_1MM</field>
+      </fields>
+    </libpart>
+    <libpart lib="working-eagle-import" part="HEADER-1X4ROUND">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Footprint">working:1X04_ROUND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="working-eagle-import" part="MOUNTINGHOLE2.5">
+      <fields>
+        <field name="Footprint">working:MOUNTINGHOLE_2.5_PLATED</field>
+      </fields>
+    </libpart>
+    <libpart lib="working-eagle-import" part="RESISTOR0805_NOOUTLINE">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">working:0805-NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/~{SHDN}">
+      <node ref="IC1" pin="3" pinfunction="~{SHDN}" pintype="input"/>
+      <node ref="JP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="2" name="5.0V">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="IC1" pin="1" pinfunction="5VO" pintype="power_in"/>
+      <node ref="JP1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="JP1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(IC1-C+)">
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="C+" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="Net-(IC1-C-)">
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="C-" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="VIN">
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="VIN" pintype="power_in"/>
+      <node ref="JP1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

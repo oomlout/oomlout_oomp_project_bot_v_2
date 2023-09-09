@@ -19,11 +19,13 @@ def go_through_directories():
                     counter = oom_kicad.generate_outputs(filename=filename, computer="surface")
                     #oom_kicad.generate_outputs(filename=filename, computer="desktop")
                     count  += counter
+                    print(f"count: {count}")
                     pass
                 #commit to git every 1
                     if count % 100 == 0:
                         oom_kicad.push_to_git(count = count)
                         pass    
+                    pass
     
 
 

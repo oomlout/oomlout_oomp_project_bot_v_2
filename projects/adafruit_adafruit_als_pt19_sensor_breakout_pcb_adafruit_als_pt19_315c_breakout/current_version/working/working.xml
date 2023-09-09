@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\adafruit_adafruit_als_pt19_sensor_breakout_pcb_adafruit_als_pt19_315c_breakout\current_version\working\working.kicad_sch</source>
+    <date>09/09/2023 17:47:52</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="FID1">
+      <value>FIDUCIAL""</value>
+      <footprint>working:FIDUCIAL_1MM</footprint>
+      <libsource lib="working-eagle-import" part="FIDUCIAL{dblquote}{dblquote}" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>804af7d0-5dd3-4e60-9a2d-fbf5e880d4bb</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>HEADER-1X3ROUND</value>
+      <footprint>working:1X03_ROUND</footprint>
+      <libsource lib="working-eagle-import" part="HEADER-1X3ROUND" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93d97df6-8e79-4ac7-b410-6bffc23047cf</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>working:0603-NO</footprint>
+      <libsource lib="working-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca7ee762-d1da-41ef-aa41-ee36b5f0453b</tstamps>
+    </comp>
+    <comp ref="U$2">
+      <value>MOUNTINGHOLE2.0</value>
+      <footprint>working:MOUNTINGHOLE_2.0_PLATED</footprint>
+      <libsource lib="working-eagle-import" part="MOUNTINGHOLE2.0" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e9fdf2b-fcae-4528-b297-55058cda80bc</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ALS-PT19-315C</value>
+      <footprint>working:ALS-PT19-315C</footprint>
+      <libsource lib="working-eagle-import" part="LIGHT_ALS-PT19-315C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa9f9d20-6278-4300-93f8-1cae89641433</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="working-eagle-import" part="FIDUCIAL{dblquote}{dblquote}">
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Footprint">working:FIDUCIAL_1MM</field>
+      </fields>
+    </libpart>
+    <libpart lib="working-eagle-import" part="HEADER-1X3ROUND">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Footprint">working:1X03_ROUND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="working-eagle-import" part="LIGHT_ALS-PT19-315C">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">working:ALS-PT19-315C</field>
+      </fields>
+      <pins>
+        <pin num="C" name="C" type="bidirectional"/>
+        <pin num="E" name="E" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="working-eagle-import" part="MOUNTINGHOLE2.0">
+      <fields>
+        <field name="Footprint">working:MOUNTINGHOLE_2.0_PLATED</field>
+      </fields>
+    </libpart>
+    <libpart lib="working-eagle-import" part="RESISTOR_0603_NOOUT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">working:0603-NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/GND">
+      <node ref="JP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/OUT">
+      <node ref="JP2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="E" pinfunction="E" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/VCC">
+      <node ref="JP2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="C" pinfunction="C" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
