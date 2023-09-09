@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_tsl2591_breakout_pcb
 * board: adafruit_tsl2591
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-TSL2591-Breakout-PCB.git/Adafruit TSL2591 Original.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-TSL2591-Breakout-PCB.git/Adafruit TSL2591 Original.brd
+* repo: https://github.com/adafruit/Adafruit-TSL2591-Breakout-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-TSL2591-Breakout-PCB/tree/master/
+
 
 
 

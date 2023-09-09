@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_mpl115a2_breakout_pcb
 * board: adafruit_mpl115a2_breakout
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-MPL115A2-Breakout-PCB.git/Adafruit MPL115A2 Breakout.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-MPL115A2-Breakout-PCB.git/Adafruit MPL115A2 Breakout.brd
+* repo: https://github.com/adafruit/Adafruit-MPL115A2-Breakout-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-MPL115A2-Breakout-PCB/tree/master/
+
 
 
 

@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_stemma_soil_sensor_pcb
 * board: adafruit_stemma_soil_sensor
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-STEMMA-Soil-Sensor-PCB.git/Adafruit STEMMA Soil Sensor.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-STEMMA-Soil-Sensor-PCB.git/Adafruit STEMMA Soil Sensor.brd
+* repo: https://github.com/adafruit/Adafruit-STEMMA-Soil-Sensor-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-STEMMA-Soil-Sensor-PCB/tree/master/
+
 
 
 

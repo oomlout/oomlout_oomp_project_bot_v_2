@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_si4713_pcb
 * board: adafruit_si471x_pcb
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-Si4713-PCB.git/Adafruit Si471x PCB.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-Si4713-PCB.git/Adafruit Si471x PCB.brd
+* repo: https://github.com/adafruit/Adafruit-Si4713-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-Si4713-PCB/tree/master/
+
 
 
 

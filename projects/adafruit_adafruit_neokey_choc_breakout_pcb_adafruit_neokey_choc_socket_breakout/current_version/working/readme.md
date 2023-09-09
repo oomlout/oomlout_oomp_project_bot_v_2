@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_neokey_choc_breakout_pcb
 * board: adafruit_neokey_choc_socket_breakout
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-NeoKey-CHOC-Breakout-PCB.git/Adafruit NeoKey CHOC Socket Breakout.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-NeoKey-CHOC-Breakout-PCB.git/Adafruit NeoKey CHOC Socket Breakout.brd
+* repo: https://github.com/adafruit/Adafruit-NeoKey-CHOC-Breakout-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-NeoKey-CHOC-Breakout-PCB/tree/main/
+
 
 
 

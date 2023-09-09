@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_piuart_pcb
 * board: adafruit_piuart_usb_c
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-PiUART-PCB.git/Adafruit PiUART USB C.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-PiUART-PCB.git/Adafruit PiUART USB C.brd
+* repo: https://github.com/adafruit/Adafruit-PiUART-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-PiUART-PCB/tree/master/
+
 
 
 

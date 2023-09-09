@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_powerboost_1000c
 * board: adafruit_powerboost_1000c_rev_b
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-PowerBoost-1000C.git/Adafruit PowerBoost 1000C Rev B.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-PowerBoost-1000C.git/Adafruit PowerBoost 1000C Rev B.brd
+* repo: https://github.com/adafruit/Adafruit-PowerBoost-1000C
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-PowerBoost-1000C/tree/master/
+
 
 
 

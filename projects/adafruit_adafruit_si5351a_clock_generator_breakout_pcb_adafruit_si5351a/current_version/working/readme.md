@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_si5351a_clock_generator_breakout_pcb
 * board: adafruit_si5351a
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-Si5351A-Clock-Generator-Breakout-PCB.git/Adafruit Si5351A.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-Si5351A-Clock-Generator-Breakout-PCB.git/Adafruit Si5351A.brd
+* repo: https://github.com/adafruit/Adafruit-Si5351A-Clock-Generator-Breakout-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-Si5351A-Clock-Generator-Breakout-PCB/tree/master/
+
 
 
 

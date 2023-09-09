@@ -5,10 +5,13 @@
 * user: adafruit
 * name: monochron
 * board: ratt
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/monochron.git/ratt.sch
-* src_file_brd_github: https://github.com/adafruit/monochron.git/ratt.brd
+* repo: https://github.com/adafruit/monochron
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/monochron/tree/master/
+
 
 
 

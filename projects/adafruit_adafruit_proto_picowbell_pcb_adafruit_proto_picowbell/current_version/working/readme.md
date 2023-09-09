@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_proto_picowbell_pcb
 * board: adafruit_proto_picowbell
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-Proto-PiCowbell-PCB.git/Adafruit Proto PiCowbell.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-Proto-PiCowbell-PCB.git/Adafruit Proto PiCowbell.brd
+* repo: https://github.com/adafruit/Adafruit-Proto-PiCowbell-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-Proto-PiCowbell-PCB/tree/main/
+
 
 
 

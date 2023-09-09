@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_mini_pitft_240x135_tft_pcb
 * board: adafruit_mini_pitft_135x240_color_tft
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-Mini-PiTFT-240x135-TFT-PCB.git/Adafruit Mini PiTFT - 135x240 Color TFT.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-Mini-PiTFT-240x135-TFT-PCB.git/Adafruit Mini PiTFT - 135x240 Color TFT.brd
+* repo: https://github.com/adafruit/Adafruit-Mini-PiTFT-240x135-TFT-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-Mini-PiTFT-240x135-TFT-PCB/tree/master/
+
 
 
 

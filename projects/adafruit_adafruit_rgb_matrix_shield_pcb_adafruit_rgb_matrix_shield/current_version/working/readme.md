@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_rgb_matrix_shield_pcb
 * board: adafruit_rgb_matrix_shield
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-RGB-Matrix-Shield-PCB.git/Adafruit RGB Matrix Shield.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-RGB-Matrix-Shield-PCB.git/Adafruit RGB Matrix Shield.brd
+* repo: https://github.com/adafruit/Adafruit-RGB-Matrix-Shield-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-RGB-Matrix-Shield-PCB/tree/master/
+
 
 
 

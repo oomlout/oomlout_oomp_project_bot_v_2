@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_usb_isolator_pcb
 * board: adafruit_usb_isolator
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-USB-Isolator-PCB.git/Adafruit USB Isolator.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-USB-Isolator-PCB.git/Adafruit USB Isolator.brd
+* repo: https://github.com/adafruit/Adafruit-USB-Isolator-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-USB-Isolator-PCB/tree/master/
+
 
 
 

@@ -5,15 +5,12 @@
 * user: adafruit
 * name: adafruit_lsm9ds1_breakout_pcb
 * board: adafruit_lsm9ds1_rev_c
-* repo: https://api.github.com/repos/adafruit/Adafruit-LSM9DS1-Breakout-PCB
-* src_file_repo_kicad_pcb: 
-* src_file_repo_kicad_pcb_link: https://api.github.com/repos/adafruit/Adafruit-LSM9DS1-Breakout-PCB/
-* src_file_repo_kicad_sch: 
-* src_file_repo_kicad_sch_link: https://api.github.com/repos/adafruit/Adafruit-LSM9DS1-Breakout-PCB/
-* src_file_repo_brd: 
-* src_file_repo_brd_link: https://api.github.com/repos/adafruit/Adafruit-LSM9DS1-Breakout-PCB/
+* repo: https://github.com/adafruit/Adafruit-LSM9DS1-Breakout-PCB
+
+
+
 * src_file_repo_sch: 
-* src_file_repo_sch_link: https://api.github.com/repos/adafruit/Adafruit-LSM9DS1-Breakout-PCB/
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-LSM9DS1-Breakout-PCB/tree/master/
 
 
 

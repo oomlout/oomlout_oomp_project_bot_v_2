@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_mini_i2c_gamepad_pcb
 * board: gamepad_seesaw_qt_rev_a
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-Mini-I2C-Gamepad-PCB.git/Gamepad Seesaw QT rev A.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-Mini-I2C-Gamepad-PCB.git/Gamepad Seesaw QT rev A.brd
+* repo: https://github.com/adafruit/Adafruit-Mini-I2C-Gamepad-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-Mini-I2C-Gamepad-PCB/tree/main/
+
 
 
 

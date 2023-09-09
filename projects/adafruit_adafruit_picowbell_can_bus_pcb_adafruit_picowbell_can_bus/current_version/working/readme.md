@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_picowbell_can_bus_pcb
 * board: adafruit_picowbell_can_bus
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-PiCowbell-CAN-Bus-PCB.git/Adafruit PiCowbell CAN Bus.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-PiCowbell-CAN-Bus-PCB.git/Adafruit PiCowbell CAN Bus.brd
+* repo: https://github.com/adafruit/Adafruit-PiCowbell-CAN-Bus-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-PiCowbell-CAN-Bus-PCB/tree/main/
+
 
 
 

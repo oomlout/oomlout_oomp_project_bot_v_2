@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_nrf52_bluefruit_feather_pcb
 * board: adafruit_nrf52_bluefruit_feather_rev_g
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-nRF52-Bluefruit-Feather-PCB.git/Adafruit nRF52 Bluefruit Feather rev G.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-nRF52-Bluefruit-Feather-PCB.git/Adafruit nRF52 Bluefruit Feather rev G.brd
+* repo: https://github.com/adafruit/Adafruit-nRF52-Bluefruit-Feather-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-nRF52-Bluefruit-Feather-PCB/tree/master/
+
 
 
 

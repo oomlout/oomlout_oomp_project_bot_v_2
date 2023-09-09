@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_mosfet_driver_stemma_pcb
 * board: adafruit_mosfet_driver_stemma_breakout
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-MOSFET-Driver-STEMMA-PCB.git/Adafruit MOSFET Driver STEMMA Breakout.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-MOSFET-Driver-STEMMA-PCB.git/Adafruit MOSFET Driver STEMMA Breakout.brd
+* repo: https://github.com/adafruit/Adafruit-MOSFET-Driver-STEMMA-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-MOSFET-Driver-STEMMA-PCB/tree/main/
+
 
 
 

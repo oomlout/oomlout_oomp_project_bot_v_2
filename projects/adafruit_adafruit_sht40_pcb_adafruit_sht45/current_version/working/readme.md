@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_sht40_pcb
 * board: adafruit_sht45
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-SHT40-PCB.git/Adafruit SHT40.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-SHT40-PCB.git/Adafruit SHT40.brd
+* repo: https://github.com/adafruit/Adafruit-SHT40-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-SHT40-PCB/tree/main/
+
 
 
 

@@ -9,7 +9,8 @@
 
 
 
-
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-LC709203F-PCB/tree/master/
 
 
 

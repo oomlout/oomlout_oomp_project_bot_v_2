@@ -5,10 +5,13 @@
 * user: adafruit
 * name: ads1x15_breakout_board_pcbs
 * board: adafruit_ads1015_adc_stemma_qt
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/ADS1X15-Breakout-Board-PCBs.git/Adafruit ADS1015 ADC STEMMA QT.sch
-* src_file_brd_github: https://github.com/adafruit/ADS1X15-Breakout-Board-PCBs.git/Adafruit ADS1015 ADC STEMMA QT.brd
+* repo: https://github.com/adafruit/ADS1X15-Breakout-Board-PCBs
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/ADS1X15-Breakout-Board-PCBs/tree/master/
+
 
 
 

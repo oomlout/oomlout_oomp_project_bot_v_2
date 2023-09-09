@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_stemma_speaker_pcb
 * board: adafruit_stemma_speaker
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-STEMMA-Speaker-PCB.git/Adafruit STEMMA Speaker.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-STEMMA-Speaker-PCB.git/Adafruit STEMMA Speaker.brd
+* repo: https://github.com/adafruit/Adafruit-STEMMA-Speaker-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-STEMMA-Speaker-PCB/tree/master/
+
 
 
 

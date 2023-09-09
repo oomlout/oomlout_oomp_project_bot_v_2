@@ -1,4 +1,350 @@
 board: esptiny86_mixtape_version2
+bom:
+- Id: '1'
+  Designator: D1,D2
+  Footprint: TopLED_2835
+  Quantity: '2'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: IC1
+  Footprint: 4xxx_SOIC-16W_Pitch1.27mm
+  Quantity: '1'
+  Designation: '4051'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: IC2
+  Footprint: SOIC-8_3.9x4.9mm_Pitch1.27mm
+  Quantity: '1'
+  Designation: DAC7513_DCN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J1
+  Footprint: Bat_connector+-
+  Quantity: '1'
+  Designation: Bat_EXT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: NEO1,NEO2,NEO3,NEO4,NEO5,NEO6,NEO7,NEO8
+  Footprint: Mixtape_NEO_WS2812B
+  Quantity: '8'
+  Designation: LED_SK6813
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: Pot1
+  Footprint: Potentiometer_backPads_noHole
+  Quantity: '1'
+  Designation: 10k_big
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: Pot2
+  Footprint: Potentiometer_backPads_noHole
+  Quantity: '1'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R1,R2
+  Footprint: R_1206_Mixtape
+  Quantity: '2'
+  Designation: R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R3,R3
+  Footprint: R_1206_Mixtape
+  Quantity: '2'
+  Designation: 22k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R4,R5
+  Footprint: R_1206_Mixtape
+  Quantity: '2'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: SW2,SW3
+  Footprint: SW_PUSH-8mm_SMD
+  Quantity: '2'
+  Designation: SW_Push
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: ''
+  Footprint: MixtapeEdge
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: ''
+  Footprint: ESPTINY_logo
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: Coconut
+  Footprint: Coconut_Logo_small_Mask
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: Jack4,Jack2
+  Footprint: AUDIO-JACK-3.5mm_SMD_noHole
+  Quantity: '2'
+  Designation: JACK_TRS_6PINS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: Pot3
+  Footprint: Potentiometer_wheel_inv
+  Quantity: '1'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: Pot4
+  Footprint: Potentiometer_wheel
+  Quantity: '1'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: U1
+  Footprint: WeMOS_ESP
+  Quantity: '1'
+  Designation: WeMos_mini
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D1,D2\
+  \ | TopLED_2835 | 2 | LED |  |  | [''] | \n| 2 | IC1 | 4xxx_SOIC-16W_Pitch1.27mm\
+  \ | 1 | 4051 |  |  | [''] | \n| 3 | IC2 | SOIC-8_3.9x4.9mm_Pitch1.27mm | 1 | DAC7513_DCN\
+  \ |  |  | [''] | \n| 4 | J1 | Bat_connector+- | 1 | Bat_EXT |  |  | [''] | \n| 5\
+  \ | NEO1,NEO2,NEO3,NEO4,NEO5,NEO6,NEO7,NEO8 | Mixtape_NEO_WS2812B | 8 | LED_SK6813\
+  \ |  |  | [''] | \n| 6 | Pot1 | Potentiometer_backPads_noHole | 1 | 10k_big |  |\
+  \  | [''] | \n| 7 | Pot2 | Potentiometer_backPads_noHole | 1 | 10k |  |  | ['']\
+  \ | \n| 8 | R1,R2 | R_1206_Mixtape | 2 | R |  |  | [''] | \n| 9 | R3,R3 | R_1206_Mixtape\
+  \ | 2 | 22k |  |  | [''] | \n| 10 | R4,R5 | R_1206_Mixtape | 2 | 10k |  |  | ['']\
+  \ | \n| 11 | SW2,SW3 | SW_PUSH-8mm_SMD | 2 | SW_Push |  |  | [''] | \n| 12 |  |\
+  \ MixtapeEdge | 1 |  |  |  | [''] | \n| 13 |  | ESPTINY_logo | 1 |  |  |  | ['']\
+  \ | \n| 14 | Coconut | Coconut_Logo_small_Mask | 1 | LOGO |  |  | [''] | \n| 15\
+  \ | Jack4,Jack2 | AUDIO-JACK-3.5mm_SMD_noHole | 2 | JACK_TRS_6PINS |  |  | ['']\
+  \ | \n| 16 | Pot3 | Potentiometer_wheel_inv | 1 | 10k |  |  | [''] | \n| 17 | Pot4\
+  \ | Potentiometer_wheel | 1 | 10k |  |  | [''] | \n| 18 | U1 | WeMOS_ESP | 1 | WeMos_mini\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: LED
+  DNP: ''
+  Description: ''
+  Footprint: ESPTINY86_MixtapePCB:TopLED_2835
+  Qnty: '2'
+  Ref: D1, D2
+  Value: LED
+  Vendor: ''
+- Cmp name: '4051'
+  DNP: ''
+  Description: ''
+  Footprint: ESPTINY86_MixtapePCB:4xxx_SOIC-16W_Pitch1.27mm
+  Qnty: '1'
+  Ref: IC1
+  Value: '4051'
+  Vendor: ''
+- Cmp name: PT8211
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: IC2
+  Value: PT8211
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: ESPTINY86_MixtapePCB:Bat_connector+-
+  Qnty: '1'
+  Ref: J1
+  Value: Bat_EXT
+  Vendor: ''
+- Cmp name: JACK_TRS_6PINS
+  DNP: ''
+  Description: ''
+  Footprint: ESPTINY86_MixtapePCB:AUDIO-Jack_3.5mm_5Pin
+  Qnty: '2'
+  Ref: Jack1, Jack3
+  Value: JACK_TRS_6PINS
+  Vendor: ''
+- Cmp name: JACK_TRS_6PINS
+  DNP: ''
+  Description: ''
+  Footprint: ESPTINY86_MixtapePCB:AUDIO-JACK-3.5mm_SMD
+  Qnty: '2'
+  Ref: Jack2, Jack4
+  Value: JACK_TRS_6PINS
+  Vendor: ''
+- Cmp name: LED_Dual_ACAC
+  DNP: ''
+  Description: ''
+  Footprint: ESPTINY86_MixtapePCB:Mixtape_NEO_WS2812B
+  Qnty: '8'
+  Ref: NEO1, NEO2, NEO3, NEO4, NEO5, NEO6, NEO7, NEO8
+  Value: LED_SK6813
+  Vendor: ''
+- Cmp name: POT
+  DNP: ''
+  Description: ''
+  Footprint: ESPTINY86_MixtapePCB:Potentiometer_Piher_T16L_Single_Horizontal_MountLS
+  Qnty: '1'
+  Ref: Pot1
+  Value: 10k_big
+  Vendor: ''
+- Cmp name: POT
+  DNP: ''
+  Description: ''
+  Footprint: ESPTINY86_MixtapePCB:Potentiometer_Piher_T16L_Single_Horizontal_MountLS
+  Qnty: '1'
+  Ref: Pot2
+  Value: 10k
+  Vendor: ''
+- Cmp name: POT
+  DNP: ''
+  Description: ''
+  Footprint: ESPTINY86_MixtapePCB:Potentiometer_wheel
+  Qnty: '2'
+  Ref: Pot3, Pot4
+  Value: 10k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: ESPTINY86_MixtapePCB:R_1206_Mixtape
+  Qnty: '2'
+  Ref: R1, R2
+  Value: R
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: ESPTINY86_MixtapePCB:R_1206_Mixtape
+  Qnty: '1'
+  Ref: R3
+  Value: 22k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: ESPTINY86_MixtapePCB:R_1206_Mixtape
+  Qnty: '2'
+  Ref: R4, R5
+  Value: 10k
+  Vendor: ''
+- Cmp name: SW_SPST
+  DNP: ''
+  Description: ''
+  Footprint: ESPTINY86_MixtapePCB:Push_SWITCH_hole
+  Qnty: '1'
+  Ref: SW1
+  Value: SW_SPST
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: ''
+  Footprint: ESPTINY86_MixtapePCB:SW_PUSH-12mm_3D
+  Qnty: '2'
+  Ref: SW2, SW3
+  Value: SW_Push
+  Vendor: ''
+- Cmp name: WeMos_mini
+  DNP: ''
+  Description: WeMos D1 mini
+  Footprint: ESPTINY86_MixtapePCB:WeMOS_ESP
+  Qnty: '1'
+  Ref: U1
+  Value: WeMos_mini
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| D1, D2\
+  \ | 2 | LED | LED | ESPTINY86_MixtapePCB:TopLED_2835 |  |  |  | \n| IC1 | 1 | 4051\
+  \ | 4051 | ESPTINY86_MixtapePCB:4xxx_SOIC-16W_Pitch1.27mm |  |  |  | \n| IC2 | 1\
+  \ | PT8211 | PT8211 |  |  |  |  | \n| J1 | 1 | Bat_EXT | CONN_01X02 | ESPTINY86_MixtapePCB:Bat_connector+-\
+  \ |  |  |  | \n| Jack1, Jack3 | 2 | JACK_TRS_6PINS | JACK_TRS_6PINS | ESPTINY86_MixtapePCB:AUDIO-Jack_3.5mm_5Pin\
+  \ |  |  |  | \n| Jack2, Jack4 | 2 | JACK_TRS_6PINS | JACK_TRS_6PINS | ESPTINY86_MixtapePCB:AUDIO-JACK-3.5mm_SMD\
+  \ |  |  |  | \n| NEO1, NEO2, NEO3, NEO4, NEO5, NEO6, NEO7, NEO8 | 8 | LED_SK6813\
+  \ | LED_Dual_ACAC | ESPTINY86_MixtapePCB:Mixtape_NEO_WS2812B |  |  |  | \n| Pot1\
+  \ | 1 | 10k_big | POT | ESPTINY86_MixtapePCB:Potentiometer_Piher_T16L_Single_Horizontal_MountLS\
+  \ |  |  |  | \n| Pot2 | 1 | 10k | POT | ESPTINY86_MixtapePCB:Potentiometer_Piher_T16L_Single_Horizontal_MountLS\
+  \ |  |  |  | \n| Pot3, Pot4 | 2 | 10k | POT | ESPTINY86_MixtapePCB:Potentiometer_wheel\
+  \ |  |  |  | \n| R1, R2 | 2 | R | R | ESPTINY86_MixtapePCB:R_1206_Mixtape |  | \
+  \ |  | \n| R3 | 1 | 22k | R | ESPTINY86_MixtapePCB:R_1206_Mixtape |  |  |  | \n\
+  | R4, R5 | 2 | 10k | R | ESPTINY86_MixtapePCB:R_1206_Mixtape |  |  |  | \n| SW1\
+  \ | 1 | SW_SPST | SW_SPST | ESPTINY86_MixtapePCB:Push_SWITCH_hole |  |  |  | \n\
+  | SW2, SW3 | 2 | SW_Push | SW_Push | ESPTINY86_MixtapePCB:SW_PUSH-12mm_3D |  | \
+  \ |  | \n| U1 | 1 | WeMos_mini | WeMos_mini | ESPTINY86_MixtapePCB:WeMOS_ESP | WeMos\
+  \ D1 mini |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/8bitmixtape_esptiny86_mixtapepcb_esptiny86_mixtape_version2/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/8bitmixtape_esptiny86_mixtapepcb_esptiny86_mixtape_version2/current_version/working/working.kicad_pcb

@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_trinket_pcb
 * board: adafruit_trinket_5v
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-Trinket-PCB.git/Adafruit Trinket 3.3V.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-Trinket-PCB.git/Adafruit Trinket 3.3V.brd
+* repo: https://github.com/adafruit/Adafruit-Trinket-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-Trinket-PCB/tree/master/
+
 
 
 

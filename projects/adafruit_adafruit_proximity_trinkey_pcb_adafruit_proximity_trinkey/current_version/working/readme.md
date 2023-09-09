@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_proximity_trinkey_pcb
 * board: adafruit_proximity_trinkey
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-Proximity-Trinkey-PCB.git/Adafruit Proximity Trinkey.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-Proximity-Trinkey-PCB.git/Adafruit Proximity Trinkey.brd
+* repo: https://github.com/adafruit/Adafruit-Proximity-Trinkey-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-Proximity-Trinkey-PCB/tree/main/
+
 
 
 

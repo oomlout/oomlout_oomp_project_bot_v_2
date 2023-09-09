@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_ultimate_gps
 * board: adafruit_ultimate_gps_hat
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-Ultimate-GPS.git/Adafruit Ultimate GPS Featherwing.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-Ultimate-GPS.git/Adafruit Ultimate GPS Featherwing.brd
+* repo: https://github.com/adafruit/Adafruit-Ultimate-GPS
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-Ultimate-GPS/tree/master/
+
 
 
 

@@ -5,10 +5,13 @@
 * user: adafruit
 * name: ds1307_breakout_board
 * board: ds1307_rev_b
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/DS1307-breakout-board.git/DS1307 Rev B.sch
-* src_file_brd_github: https://github.com/adafruit/DS1307-breakout-board.git/DS1307 Rev B.brd
+* repo: https://github.com/adafruit/DS1307-breakout-board
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/DS1307-breakout-board/tree/master/
+
 
 
 

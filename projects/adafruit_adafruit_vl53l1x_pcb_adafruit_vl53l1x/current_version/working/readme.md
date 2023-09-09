@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_vl53l1x_pcb
 * board: adafruit_vl53l1x
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-VL53L1X-PCB.git/Adafruit VL53L1X.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-VL53L1X-PCB.git/Adafruit VL53L1X.brd
+* repo: https://github.com/adafruit/Adafruit-VL53L1X-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-VL53L1X-PCB/tree/main/
+
 
 
 

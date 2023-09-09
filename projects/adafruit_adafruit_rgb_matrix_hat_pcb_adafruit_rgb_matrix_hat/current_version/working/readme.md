@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_rgb_matrix_hat_pcb
 * board: adafruit_rgb_matrix_hat
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-RGB-Matrix-HAT-PCB.git/Adafruit RGB Matrix HAT.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-RGB-Matrix-HAT-PCB.git/Adafruit RGB Matrix HAT.brd
+* repo: https://github.com/adafruit/Adafruit-RGB-Matrix-HAT-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-RGB-Matrix-HAT-PCB/tree/master/
+
 
 
 

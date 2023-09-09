@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_perma_proto_pcb
 * board: adafruit_permaproto_smalls
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-Perma-Proto-PCB.git/adafruit minty permaproto.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-Perma-Proto-PCB.git/adafruit minty permaproto.brd
+* repo: https://github.com/adafruit/Adafruit-Perma-Proto-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-Perma-Proto-PCB/tree/master/
+
 
 
 

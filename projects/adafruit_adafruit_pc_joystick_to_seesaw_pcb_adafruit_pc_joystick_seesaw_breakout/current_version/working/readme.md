@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_pc_joystick_to_seesaw_pcb
 * board: adafruit_pc_joystick_seesaw_breakout
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-PC-Joystick-to-seesaw-PCB.git/Adafruit PC Joystick seesaw Breakout.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-PC-Joystick-to-seesaw-PCB.git/Adafruit PC Joystick seesaw Breakout.brd
+* repo: https://github.com/adafruit/Adafruit-PC-Joystick-to-seesaw-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-PC-Joystick-to-seesaw-PCB/tree/main/
+
 
 
 

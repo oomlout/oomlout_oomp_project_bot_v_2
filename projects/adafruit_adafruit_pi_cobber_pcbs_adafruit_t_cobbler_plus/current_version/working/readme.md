@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_pi_cobber_pcbs
 * board: adafruit_t_cobbler_plus
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-Pi-Cobber-PCBs.git/Adafruit Cobbler Plus.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-Pi-Cobber-PCBs.git/Adafruit Cobbler Plus.brd
+* repo: https://github.com/adafruit/Adafruit-Pi-Cobber-PCBs
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-Pi-Cobber-PCBs/tree/master/
+
 
 
 

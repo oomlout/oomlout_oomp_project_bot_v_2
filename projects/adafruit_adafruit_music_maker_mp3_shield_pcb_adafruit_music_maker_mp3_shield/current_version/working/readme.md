@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_music_maker_mp3_shield_pcb
 * board: adafruit_music_maker_mp3_shield
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-Music-Maker-MP3-Shield-PCB.git/Adafruit-Music-Maker-MP3-Shield.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-Music-Maker-MP3-Shield-PCB.git/Adafruit-Music-Maker-MP3-Shield.brd
+* repo: https://github.com/adafruit/Adafruit-Music-Maker-MP3-Shield-PCB
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-Music-Maker-MP3-Shield-PCB/tree/master/
+
 
 
 

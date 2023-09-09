@@ -5,10 +5,13 @@
 * user: adafruit
 * name: adafruit_pn532_rfid_nfc_breakout
 * board: adafruit_pn532_breakout_v1_4
-* src_file_kicad_pcb_github: 
-* src_file_kicad_pcb_github: 
-* src_file_sch_github: https://github.com/adafruit/Adafruit-PN532-RFID-NFC-Breakout.git/Adafruit PN532_Breakout_v1.6.sch
-* src_file_brd_github: https://github.com/adafruit/Adafruit-PN532-RFID-NFC-Breakout.git/Adafruit PN532_Breakout_v1.6.brd
+* repo: https://github.com/adafruit/Adafruit-PN532-RFID-NFC-Breakout
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adafruit/Adafruit-PN532-RFID-NFC-Breakout/tree/master/
+
 
 
 
