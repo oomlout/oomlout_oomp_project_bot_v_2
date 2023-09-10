@@ -51,3 +51,30 @@
 | RPI1 | 1 | RASPBERRYPI_BPLUS_PHAT | RASPBERRYPI_BPLUS_PHAT | working:PI_BONNET |  |  |  | 
 | U1 | 1 | ADS1015IDGST | ADC_ADS1015 | working:MSOP10 |  |  |  | 
 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| C1 | 10µF | 0805-NO | 126.7961 | -113.6536 | 180.0 | top | 
+| CONN1 | HEADER-1X25 | 1X25_ROUND_70MIL | 148.5131 | -98.7946 | 0.0 | top | 
+| FID1 | FIDUCIAL"" | FIDUCIAL_1MM | 116.9536 | -96.8261 | 0.0 | top | 
+| FID2 | FIDUCIAL"" | FIDUCIAL_1MM | 179.7551 | -112.5106 | 0.0 | top | 
+| JP1 | nan | 1X11_ROUND | 131.2411 | -106.0336 | 0.0 | top | 
+| JP2 | nan | 1X11_ROUND | 165.5311 | -106.0336 | 0.0 | top | 
+| JP3 | nan | 1X11_ROUND | 131.2411 | -108.5736 | 0.0 | top | 
+| JP4 | nan | 1X11_ROUND | 165.5311 | -108.5736 | 0.0 | top | 
+| JP5 | nan | 1X03_ROUND_76 | 169.3411 | -113.0186 | 0.0 | top | 
+| JP6 | nan | 1X03_ROUND_76 | 169.3411 | -115.5586 | 0.0 | top | 
+| JP7 | nan | 1X03_ROUND_76 | 169.3411 | -118.0986 | 0.0 | top | 
+| JP8 | nan | 1X04_ROUND | 138.2261 | -115.5586 | 0.0 | top | 
+| JP9 | nan | 1X04_ROUND | 138.2261 | -113.0186 | 0.0 | top | 
+| JP10 | nan | 1X04_ROUND | 138.2261 | -118.0986 | 0.0 | top | 
+| R4 | 10K | 0805-NO | 144.5761 | -114.2886 | -90.0 | top | 
+| RPI1 | RASPBERRYPI_BPLUS_PHAT | PI_BONNET | 116.0011 | -120.0036 | 0.0 | top | 
+| U$8 | nan | BONNET_EYES_REVA | 116.0011 | -120.0036 | 0.0 | top | 
+| U1 | ADS1015IDGST | MSOP10 | 128.0661 | -117.4636 | 90.0 | top | 
+
+### bottom
+no data

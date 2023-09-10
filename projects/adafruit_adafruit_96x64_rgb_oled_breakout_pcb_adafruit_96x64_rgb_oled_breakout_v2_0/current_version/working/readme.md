@@ -66,3 +66,46 @@
 | U$9, U$10, U$11, U$15 | 4 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  | 
 | U$12, U$13, U$16 | 3 | FIDUCIAL | FIDUCIAL | working:FIDUCIAL_1MM |  |  |  | 
 
+
+## mounting_holes
+| x | y | package | value | ref | size | 
+| --- | --- | --- | --- | --- | --- | 
+| 133.2611 | -117.0686 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$10 | m3 | 
+| 163.7411 | -117.0686 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$15 | m3 | 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| C1 | 10uF | 0805 | 164.1131 | -101.3206 | 90.0 | top | 
+| C2 | 0.1uF | 0805 | 162.9791 | -111.0906 | 0.0 | top | 
+| C3 | 10uF/16V | 0805 | 138.5861 | -112.8776 | 90.0 | top | 
+| C4 | 10uF/16V | 0805 | 159.6771 | -115.9256 | -90.0 | top | 
+| C5 | 10uF/16V | 0805 | 136.3001 | -112.8776 | 90.0 | top | 
+| C8 | 10uF | 0805 | 160.1851 | -102.8446 | 0.0 | top | 
+| CN1 | nan | MICROSD | 146.8501 | -96.1136 | -90.0 | top | 
+| D1 | BAT54T1G | SOD-123 | 159.5411 | -109.9566 | 90.0 | top | 
+| IC1 | MIC5225-3.3 | SOT23-5L | 160.1851 | -100.0506 | 90.0 | top | 
+| L1 | 10uH | INDUCTOR_1007 | 160.1731 | -105.5916 | 180.0 | top | 
+| R1 | 100K | 0805 | 162.9791 | -108.9496 | 180.0 | top | 
+| R2 | 10K | 0805 | 162.9791 | -113.2496 | 0.0 | top | 
+| R3 | 920K | 0805 | 150.4151 | -108.4326 | -90.0 | top | 
+| U$10 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 133.2611 | -117.0686 | 0.0 | top | 
+| U$12 | FIDUCIAL | FIDUCIAL_1MM | 136.0551 | -118.3296 | 0.0 | top | 
+| U$13 | FIDUCIAL | FIDUCIAL_1MM | 132.4991 | -98.8986 | 0.0 | top | 
+| U$15 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 163.7411 | -117.0686 | 0.0 | top | 
+| U$16 | FIDUCIAL | FIDUCIAL_1MM | 164.8841 | -96.1136 | 0.0 | top | 
+| U$17 | nan | ADAFRUIT_3.5MM | 131.2291 | -114.5286 | 0.0 | top | 
+| U$28 | nan | LOGIC_5VREADY_5MM | 151.9301 | -111.4806 | 0.0 | top | 
+| U1 | FAN5331SX | SOT23-5 | 163.7411 | -105.5026 | 0.0 | top | 
+| U2 | 74HC4050 | SOIC16 | 152.8191 | -102.2096 | 180.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| JP2 | nan | 1X10_ROUND_76 | 148.4511 | -92.8596 | 0.0 | bottom | 
+| LCD1 | UG-9664HDDAG01 | UG-9664HDDAG01_WRAPAROUND | 148.5011 | -117.7986 | 180.0 | bottom | 
+| U$9 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 133.2611 | -92.9386 | 180.0 | bottom | 
+| U$11 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 163.7411 | -92.9386 | 180.0 | bottom | 
+

@@ -78,3 +78,50 @@
 | U3 | 1 | FAN5333BSX | FAN5331 | working:SOT23-5@1 |  |  |  | 
 | U$7 | 1 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  | 
 
+
+## mounting_holes
+| x | y | package | value | ref | size | 
+| --- | --- | --- | --- | --- | --- | 
+| 171.3611 | -105.0036 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$7 | m3 | 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| BLUE0 | nan | 1X08-BIG | 153.5811 | -116.4336 | 180.0 | top | 
+| C1 | 0.1uF | _0805MP | 131.2291 | -103.4796 | -90.0 | top | 
+| C2 | 1uF | _0805MP | 139.8651 | -110.0836 | -90.0 | top | 
+| C6 | 10uF | _0805MP | 128.4351 | -98.9076 | 90.0 | top | 
+| C7 | 10uF | _0805MP | 124.3711 | -106.0196 | 90.0 | top | 
+| C8 | 1uF | _0805MP | 131.2291 | -107.0356 | 90.0 | top | 
+| CONTROL0 | nan | 1X06-BIG | 166.2811 | -93.5736 | 180.0 | top | 
+| D1 | MM3Z24VT1G | SMADIODE | 136.3091 | -105.2576 | 90.0 | top | 
+| D2 | MBR0540 | SOD-123 | 132.4991 | -110.5916 | 180.0 | top | 
+| FID1 | FIDUCIAL"" | FIDUCIAL_1MM | 172.3771 | -111.8616 | 0.0 | top | 
+| FID2 | FIDUCIAL"" | FIDUCIAL_1MM | 130.7211 | -112.6236 | 0.0 | top | 
+| FID3 | FIDUCIAL"" | FIDUCIAL_1MM | 144.9451 | -105.5116 | 0.0 | top | 
+| GREEN0 | nan | 1X08-BIG | 148.5011 | -93.5736 | 180.0 | top | 
+| J1 | 40PINFPCM4-1734839-0 | 4-1734839-0 | 151.0411 | -105.0036 | 0.0 | top | 
+| JP1 | nan | 1X06-BIG | 130.7211 | -93.5736 | 180.0 | top | 
+| L1 | 6.8uH_power_L_CID_2276 | INDUCTOR_5X5MM_NR5040_NOTHERMALS | 126.4031 | -110.3376 | 0.0 | top | 
+| R1 | 10K | _0805MP | 127.9271 | -102.4636 | 90.0 | top | 
+| R2 | 6Ω | _0805MP | 133.0071 | -103.4796 | -90.0 | top | 
+| R3 | 12Ω | _0805MP | 133.7691 | -99.9236 | 0.0 | top | 
+| R4 | 12Ω | _0805MP | 131.2291 | -99.9236 | -90.0 | top | 
+| R5 | 22 | _0805MP | 160.1851 | -99.4156 | 0.0 | top | 
+| R7 | 12Ω | _0805MP | 133.0071 | -107.0356 | -90.0 | top | 
+| RED0 | nan | 1X08-BIG | 133.2611 | -116.4336 | 180.0 | top | 
+| TOUCH0 | nan | 1X04-BIG | 172.6311 | -116.4336 | 180.0 | top | 
+| U$7 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 171.3611 | -105.0036 | 0.0 | top | 
+| U$15 | nan | ADAFRUIT_5MM | 163.9951 | -108.3056 | 0.0 | top | 
+| U2 | MIC5225-3.3v | SOT23-5 | 125.1331 | -101.1936 | 180.0 | top | 
+| U3 | FAN5333BSX | SOT23-5@1 | 128.1811 | -105.7656 | 90.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| SJ1 | +50mA | SOLDERJUMPER_ARROW_NOPASTE | 135.2931 | -100.6856 | 180.0 | bottom | 
+| SJ2 | +25mA | SOLDERJUMPER_ARROW_NOPASTE | 135.2931 | -98.3996 | 180.0 | bottom | 
+| SJ3 | +100mA | SOLDERJUMPER_ARROW_NOPASTE | 135.2931 | -96.1136 | 180.0 | bottom | 
+

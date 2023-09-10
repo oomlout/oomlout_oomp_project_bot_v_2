@@ -44,3 +44,26 @@
 | U1 | 1 | ALS-PT19-315C | LIGHT_ALS-PT19-315C | working:ALS-PT19-315C |  |  |  | 
 | U$2 | 1 | MOUNTINGHOLE2.0 | MOUNTINGHOLE2.0 | working:MOUNTINGHOLE_2.0_PLATED |  |  |  | 
 
+
+## mounting_holes
+| x | y | package | value | ref | size | 
+| --- | --- | --- | --- | --- | --- | 
+| 148.5011 | -102.2096 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0 | U$2 | m3 | 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| FID1 | FIDUCIAL"" | FIDUCIAL_1MM | 147.2311 | -109.3216 | 0.0 | top | 
+| JP2 | nan | 1X03_ROUND | 148.5011 | -108.0516 | 0.0 | top | 
+| R1 | 10K | 0603-NO | 146.8501 | -105.3846 | 0.0 | top | 
+| U$2 | MOUNTINGHOLE2.0 | MOUNTINGHOLE_2.0_PLATED | 148.5011 | -102.2096 | 0.0 | top | 
+| U1 | ALS-PT19-315C | ALS-PT19-315C | 150.0251 | -105.3846 | 180.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| U$1 | nan | ADAFRUIT_2.5MM | 147.2311 | -105.3846 | 180.0 | bottom | 
+| U$3 | nan | PCBFEAT-REV-040 | 151.1681 | -104.1146 | 180.0 | bottom | 
+

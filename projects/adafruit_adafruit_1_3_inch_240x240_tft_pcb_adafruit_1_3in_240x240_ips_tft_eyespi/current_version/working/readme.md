@@ -87,3 +87,67 @@
 | X1 | 1 | EYE_SPI_DISPLAY_FLIP | EYE_SPI_DISPLAY_FLIP | working:EYE_SPI_DISPLAY_BOTCONTACT |  |  |  | 
 | X2 | 1 | MicroSD | MICROSD | working:MICROSD |  |  |  | 
 
+
+## mounting_holes
+| x | y | package | value | ref | size | 
+| --- | --- | --- | --- | --- | --- | 
+| 133.2611 | -88.4936 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$7 | m3 | 
+| 133.2611 | -121.5136 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$8 | m3 | 
+| 163.7411 | -88.4936 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$9 | m3 | 
+| 163.7411 | -121.5136 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$10 | m3 | 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| C1 | 10uF | 0805-NO | 160.1216 | -94.0181 | -90.0 | top | 
+| C2 | 10uF | 0805-NO | 154.1526 | -94.6531 | 90.0 | top | 
+| C4 | 0.1uF | 0603-NO | 144.7546 | -111.9886 | -90.0 | top | 
+| DISPLAY1 | DISP_LCD_ST7789_1.3IN | TFT_1.3IN_240X240_24P | 143.6116 | -101.7651 | -90.0 | top | 
+| IC1 | RESET_SUPERVISORAPX80X_SA | SOT23-WIDE | 147.4216 | -97.2566 | 90.0 | top | 
+| JP1 | nan | 1X11_ROUND_76 | 163.7411 | -105.0036 | -90.0 | top | 
+| PLABEL0 | nan | PLABEL0 | 160.5026 | -92.3036 | 0.0 | top | 
+| PLABEL1 | nan | PLABEL1 | 160.0581 | -110.5281 | 0.0 | top | 
+| PLABEL2 | nan | PLABEL2 | 159.8041 | -113.1951 | 0.0 | top | 
+| PLABEL3 | nan | PLABEL3 | 159.9946 | -115.4811 | 0.0 | top | 
+| PLABEL4 | nan | PLABEL4 | 159.9311 | -108.0516 | 0.0 | top | 
+| PLABEL5 | nan | PLABEL5 | 162.4711 | -106.5911 | 90.0 | top | 
+| PLABEL6 | nan | PLABEL6 | 159.9311 | -100.3681 | 0.0 | top | 
+| PLABEL7 | nan | PLABEL7 | 159.9946 | -102.9716 | 0.0 | top | 
+| PLABEL8 | nan | PLABEL8 | 160.6296 | -118.6561 | 0.0 | top | 
+| PLABEL9 | nan | PLABEL9 | 159.6771 | -97.8281 | 0.0 | top | 
+| PLABEL10 | nan | PLABEL10 | 162.4711 | -96.1136 | 90.0 | top | 
+| PLABEL11 | nan | PLABEL11 | 132.3721 | -112.9411 | 0.0 | top | 
+| PLABEL13 | nan | PLABEL13 | 136.6901 | -111.6711 | 0.0 | top | 
+| Q3 | BSS138 | SOT23-WIDE | 147.4216 | -93.5736 | 90.0 | top | 
+| R1 | 10K_pack | RESPACK_4X0603 | 151.1046 | -93.3831 | 0.0 | top | 
+| R5 | 10 | 0603-NO | 145.0086 | -93.9546 | -90.0 | top | 
+| TP1 | nan | TESTPOINT_ROUND_1.5MM | 132.6261 | -111.2266 | 90.0 | top | 
+| U$2 | nan | PCBFEAT-REV-040 | 147.4216 | -100.4316 | 0.0 | top | 
+| U$4 | FIDUCIAL | FIDUCIAL_1MM | 131.9276 | -91.7956 | 0.0 | top | 
+| U$5 | FIDUCIAL | FIDUCIAL_1MM | 161.5186 | -116.5606 | 0.0 | top | 
+| U$7 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 133.2611 | -88.4936 | 0.0 | top | 
+| U$8 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 133.2611 | -121.5136 | 0.0 | top | 
+| U$9 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 163.7411 | -88.4936 | 0.0 | top | 
+| U$10 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 163.7411 | -121.5136 | 0.0 | top | 
+| U1 | 74HC4050 | TSSOP16 | 154.8511 | -99.2886 | -90.0 | top | 
+| U2 | AP2127K-3.3 | SOT23-5 | 157.1371 | -94.1451 | 90.0 | top | 
+| X1 | EYE_SPI_DISPLAY_FLIP | EYE_SPI_DISPLAY_BOTCONTACT | 138.3411 | -114.5286 | 0.0 | top | 
+| X2 | MicroSD | MICROSD | 152.8191 | -110.3376 | 0.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| PLABEL14 | nan | PLABEL14 | 165.4556 | -93.5736 | 90.0 | bottom | 
+| PLABEL15 | nan | PLABEL15 | 162.2806 | -96.1771 | 90.0 | bottom | 
+| PLABEL16 | nan | PLABEL16 | 165.4556 | -99.0346 | 90.0 | bottom | 
+| PLABEL17 | nan | PLABEL17 | 162.0266 | -101.4476 | 90.0 | bottom | 
+| PLABEL18 | nan | PLABEL18 | 165.4556 | -103.4161 | 90.0 | bottom | 
+| PLABEL19 | nan | PLABEL19 | 161.9631 | -105.6386 | 90.0 | bottom | 
+| PLABEL20 | nan | PLABEL20 | 165.4556 | -108.9406 | 90.0 | bottom | 
+| PLABEL21 | nan | PLABEL21 | 162.0266 | -111.3536 | 90.0 | bottom | 
+| PLABEL22 | nan | PLABEL22 | 165.5826 | -113.9571 | 90.0 | bottom | 
+| PLABEL23 | nan | PLABEL23 | 161.8361 | -116.7511 | 90.0 | bottom | 
+| PLABEL24 | nan | PLABEL24 | 165.5191 | -119.1006 | 90.0 | bottom | 
+

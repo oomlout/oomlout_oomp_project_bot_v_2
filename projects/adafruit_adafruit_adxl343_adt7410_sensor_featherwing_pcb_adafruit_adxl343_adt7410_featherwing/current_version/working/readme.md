@@ -63,3 +63,39 @@
 | U1 | 1 | ADT7410 | TEMP_ADT7410 | working:SOIC8_150MIL |  |  |  | 
 | U2 | 1 | ADXL343 | ACCEL_ADXL343 | working:LGA14 |  |  |  | 
 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| C1 | 0.1uF | 0603-NO | 171.9961 | -100.0506 | 0.0 | top | 
+| C2 | 10uF | 0805-NO | 147.6121 | -101.9556 | 0.0 | top | 
+| C3 | 0.1uF | 0603-NO | 151.0411 | -101.9556 | 180.0 | top | 
+| C4 | 10uF | 0805-NO | 171.6151 | -108.8136 | 0.0 | top | 
+| CONN1 | STEMMA_I2C_QT | JST_SH4 | 170.7261 | -104.3686 | 90.0 | top | 
+| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM | 124.3711 | -99.9236 | 0.0 | top | 
+| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM | 172.7581 | -111.7346 | 0.0 | top | 
+| JP1 | nan | 1X02_ROUND | 166.2811 | -107.5436 | 0.0 | top | 
+| JP2 | nan | 1X12_ROUND_76MIL | 153.5811 | -97.3836 | 0.0 | top | 
+| JP3 | nan | 1X16_ROUND_76MIL | 148.5011 | -112.6236 | 180.0 | top | 
+| JP4 | nan | 1X02_ROUND | 150.0251 | -108.8136 | 0.0 | top | 
+| MS1 | FEATHERWING_NODIM | FEATHERWING_NODIM | 123.1011 | -116.4336 | 0.0 | top | 
+| R1 | 10K_Pack | RESPACK_4X0603 | 161.8361 | -107.7976 | 0.0 | top | 
+| R2 | 10K_Pack | RESPACK_4X0603 | 155.7401 | -107.2896 | 90.0 | top | 
+| R3 | 10K | 0603-NO | 153.8351 | -103.4796 | 90.0 | top | 
+| SJ1 | nan | SOLDERJUMPER_ARROW_NOPASTE | 158.7881 | -102.9716 | -90.0 | top | 
+| SJ2 | nan | SOLDERJUMPER_ARROW_NOPASTE | 158.7881 | -106.5276 | 90.0 | top | 
+| SJ3 | nan | SOLDERJUMPER_ARROW_NOPASTE | 155.8671 | -102.9716 | 90.0 | top | 
+| U$24 | nan | ADIWING_TOP | 123.1011 | -116.4336 | 0.0 | top | 
+| U$28 | nan | ADAFRUIT_3.5MM | 171.9961 | -109.4486 | 180.0 | top | 
+| U1 | ADT7410 | SOIC8_150MIL | 163.8681 | -103.6066 | -90.0 | top | 
+| U2 | ADXL343 | LGA14 | 150.0251 | -105.0036 | 0.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| U$1 | nan | PCBFEAT-REV-040 | 144.6911 | -108.5596 | 180.0 | bottom | 
+| U$23 | nan | FEATHERLOGO_MED | 142.1511 | -109.8296 | 180.0 | bottom | 
+| U$29 | nan | STEMMAQT | 170.9801 | -109.1946 | 90.0 | bottom | 
+

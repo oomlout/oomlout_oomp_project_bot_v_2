@@ -63,3 +63,41 @@
 | U$7, U$8, U$9, U$10 | 4 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  | 
 | X1 | 1 | EYE_SPI_DISPLAY_FLIP | EYE_SPI_DISPLAY_FLIP | working:EYE_SPI_DISPLAY_BOTCONTACT |  |  |  | 
 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| C1 | 10uF | 0805-NO | 159.8041 | -120.3706 | 180.0 | top | 
+| C2 | 10uF | 0805-NO | 131.8641 | -96.2406 | 90.0 | top | 
+| C3 | 0.1uF | 0603-NO | 156.7561 | -103.0986 | -90.0 | top | 
+| C4 | 10uF | 0805-NO | 155.9941 | -117.3226 | 90.0 | top | 
+| C5 | 0.1uF | 0603-NO | 154.2161 | -117.3226 | 90.0 | top | 
+| IC2 | AP2112 | SOT23-5L | 159.8041 | -117.4496 | 90.0 | top | 
+| IC4 | APX803-SAG | SOT23 | 140.8811 | -118.4656 | 0.0 | top | 
+| JP1 | nan | 1X11_ROUND_76 | 148.5011 | -125.9586 | 180.0 | top | 
+| Q2 | MICROSD | MICROSD | 146.8501 | -98.6536 | -90.0 | top | 
+| Q3 | BSS138 | SOT23-WIDE | 153.9621 | -94.4626 | 180.0 | top | 
+| R1 | 10K | 0603-NO | 145.8341 | -118.7196 | 90.0 | top | 
+| R2 | 10K | 0603-NO | 138.3411 | -118.7196 | 90.0 | top | 
+| R3 | 10K | 0603-NO | 135.9281 | -118.8466 | 90.0 | top | 
+| R4 | 10K | 0603-NO | 143.2941 | -118.7196 | 90.0 | top | 
+| R5 | 10 | 0603-NO | 153.9621 | -98.1456 | -90.0 | top | 
+| U$1 | nan | ADAFRUIT_5MM | 130.8481 | -118.2116 | 0.0 | top | 
+| U$2 | nan | PCBFEAT-REV-040 | 148.3741 | -92.4306 | 180.0 | top | 
+| U$4 | FIDUCIAL_1MM | FIDUCIAL_1MM | 160.1851 | -84.4296 | -90.0 | top | 
+| U$5 | FIDUCIAL_1MM | FIDUCIAL_1MM | 132.2451 | -119.3546 | 0.0 | top | 
+| U$19 | nan | EYESPI_LOGO | 155.8671 | -102.4636 | 0.0 | top | 
+| U1 | 74HC4050PWR | TSSOP16 | 153.0731 | -104.2416 | 180.0 | top | 
+| X1 | EYE_SPI_DISPLAY_FLIP | EYE_SPI_DISPLAY_BOTCONTACT | 148.5011 | -85.3186 | 0.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| DISP1 | DISP_LCD_GENERIC_SPI_1.69_WRAPUNDER | TFT_1.69IN_240X280_12P | 148.5011 | -105.0036 | 0.0 | bottom | 
+| U$7 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 164.3761 | -84.6836 | -90.0 | bottom | 
+| U$8 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 132.6261 | -84.6836 | -90.0 | bottom | 
+| U$9 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 164.3761 | -123.4186 | -90.0 | bottom | 
+| U$10 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 132.6261 | -123.4186 | -90.0 | bottom | 
+

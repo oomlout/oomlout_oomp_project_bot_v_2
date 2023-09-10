@@ -86,3 +86,60 @@
 | U2 | 1 | PAM8002 | PAM8002 | 8BitMixtape-3000-clean:SO-8_5.3x6.2mm_Pitch1.27mm |  |  |  | 
 | U3 | 1 | 7805 | 7805 | 8BitMixtape-3000-clean:TO-252-3_TabPin2 |  |  |  | 
 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| C1 | 100nF | C_1206_HandSoldering | 109.22 | -81.788 | 0.0 | top | 
+| C2 | 100nF | C_1206_HandSoldering | 149.83 | -110.94 | 180.0 | top | 
+| C3 | 100nF | C_1206_HandSoldering | 190.754 | -81.788 | 0.0 | top | 
+| C4 | 10uF | C_1206_HandSoldering | 149.8 | -113.43 | 180.0 | top | 
+| D-OUT1 | LED | LED_2835_minimal | 193.51 | -126.492 | 180.0 | top | 
+| D-POW1 | LED | LED_2835_minimal | 106.196 | -126.492 | 0.0 | top | 
+| NEO1 | SK6812 | Mixtape_NEO_WS2812B | 127.98 | -77.14 | -90.0 | top | 
+| NEO2 | SK6812 | Mixtape_NEO_WS2812B | 134.3071 | -77.14 | -90.0 | top | 
+| NEO3 | SK6812 | Mixtape_NEO_WS2812B | 140.6343 | -77.14 | -90.0 | top | 
+| NEO4 | SK6812 | Mixtape_NEO_WS2812B | 146.9614 | -77.14 | -90.0 | top | 
+| NEO5 | SK6812 | Mixtape_NEO_WS2812B | 153.2886 | -77.14 | -90.0 | top | 
+| NEO6 | SK6812 | Mixtape_NEO_WS2812B | 159.6157 | -77.14 | -90.0 | top | 
+| NEO7 | SK6812 | Mixtape_NEO_WS2812B | 165.9429 | -77.14 | -90.0 | top | 
+| NEO8 | SK6812 | Mixtape_NEO_WS2812B | 172.27 | -77.14 | -90.0 | top | 
+| POT1-MAIN1 | POT_10K_lin | Potentiometer_backPads_noHole | 175.66 | -113.156 | 90.0 | top | 
+| POT2-CV1 | POT_10K_lin | Potentiometer_backPads_noHole | 134.34 | -113.156 | 90.0 | top | 
+| R1 | 22k | R_1206_HandSoldering | 149.86 | -94.462 | 90.0 | top | 
+| R2 | 22k | R_1206_HandSoldering | 145.88 | -94.462 | -90.0 | top | 
+| R3 | 22k | R_1206_HandSoldering | 146.74 | -118.872 | -90.0 | top | 
+| R4 | 22k | R_1206_HandSoldering | 152.98 | -118.872 | -90.0 | top | 
+| R5 | 22k | R_1206_HandSoldering | 149.86 | -118.872 | -90.0 | top | 
+| R6 | 22K | R_1206_HandSoldering | 144.526 | -112.014 | -90.0 | top | 
+| R7 | 22K | R_1206_HandSoldering | 155.194 | -111.822 | -90.0 | top | 
+| R8 | 330 | R_1206_HandSoldering | 190.754 | -84.074 | 0.0 | top | 
+| R9 | 330 | R_1206_HandSoldering | 153.87 | -94.462 | -90.0 | top | 
+| R10 | 4.7K | R_1206_HandSoldering | 141.986 | -118.872 | -90.0 | top | 
+| R11 | 4.7K | R_1206_HandSoldering | 157.734 | -118.872 | -90.0 | top | 
+| R12 | 1K | R_1206_HandSoldering | 106.172 | -122.428 | 0.0 | top | 
+| R13 | 1K | R_1206_HandSoldering | 193.548 | -122.428 | 0.0 | top | 
+| R99 | 0 | R_1206_HandSoldering | 109.22 | -83.82 | 0.0 | top | 
+| U1 | ATTINY85-20SU | Attiny_DIP-8_W7.62mm_mod | 146.12 | -99.65 | 0.0 | top | 
+| board1 | SVG2SHENZHEN | MixtapeNEO-3000 | 150.0 | -100.0 | 0.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| BT1 | Battery_Cell | BAT_Holder_AAA-new_noHole | 150.052 | -88.0 | 180.0 | bottom | 
+| BT2 | Battery_Cell | BAT_Holder_AAA-new_noHole | 149.896 | -124.344 | 0.0 | bottom | 
+| C5 | 10uF | C_1206_HandSoldering | 186.69 | -84.074 | 90.0 | bottom | 
+| C6 | 1uF | C_1206_HandSoldering | 186.182 | -128.27 | 0.0 | bottom | 
+| C7 | 220uF | C_1206_HandSoldering | 192.024 | -128.27 | 180.0 | bottom | 
+| J1 | CONN_01X04 | Angled_1x04_Pitch2.54mm-flip | 110.39 | -114.47 | 0.0 | bottom | 
+| J2 | CONN_01X04 | Angled_1x04_Pitch2.54mm-flip | 189.62 | -106.97 | 180.0 | bottom | 
+| J4 | Con_3-5V | Bat_connector_SMD | 104.902 | -87.884 | 0.0 | bottom | 
+| J6 | CONN_01X02_MALE | R_0612 | 142.5 | -99.72 | 180.0 | bottom | 
+| POT3-Vol1 | POT_10k | Potentiometer_wheel | 193.96 | -93.25 | 0.0 | bottom | 
+| R14 | 330 | R_1206_HandSoldering | 189.484 | -84.074 | 90.0 | bottom | 
+| R15 | 22k | R_1206_HandSoldering | 188.976 | -117.856 | 180.0 | bottom | 
+| Speaker1 | Speaker | SpeakerPads_SMD | 193.294 | -118.364 | -90.0 | bottom | 
+| U2 | PAM8002 | SO-8_5.3x6.2mm_Pitch1.27mm | 188.866 | -122.936 | 0.0 | bottom | 
+

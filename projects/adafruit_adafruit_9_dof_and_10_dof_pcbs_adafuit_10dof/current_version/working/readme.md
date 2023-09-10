@@ -65,3 +65,55 @@
 | U4 | 1 | MIC5225-3.3 | VREG_SOT23-5 | working:SOT23-5 |  |  |  | 
 | U$28, U$29, U$30, U$31 | 4 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE2.5_THICK | working:MOUNTINGHOLE_2.5_PLATED_THICK |  |  |  | 
 
+
+## mounting_holes
+| x | y | package | value | ref | size | 
+| --- | --- | --- | --- | --- | --- | 
+| 165.0111 | -113.8936 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$28 | m3 | 
+| 165.0111 | -96.1136 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$29 | m3 | 
+| 131.9911 | -96.1136 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$30 | m3 | 
+| 131.9911 | -113.8936 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$31 | m3 | 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| C1 | 10nF | _0805MP | 144.3391 | -98.5606 | -90.0 | top | 
+| C2 | 470nF | _0805MP | 142.5391 | -98.5606 | -90.0 | top | 
+| C3 | 0.1uF | _0805MP | 139.5391 | -99.5606 | 180.0 | top | 
+| C4 | 0.1uF | _0805MP | 154.3391 | -110.0606 | -90.0 | top | 
+| C5 | 10uF | _0805MP | 159.5391 | -101.7606 | 180.0 | top | 
+| C6 | 4.7uF | _0805MP | 154.3391 | -101.1606 | 180.0 | top | 
+| C7 | 0.22µF | _0805MP | 160.6391 | -109.5606 | 90.0 | top | 
+| C8 | 10uF | _0805MP | 142.0391 | -109.8606 | -90.0 | top | 
+| C9 | 10uF | _0805MP | 136.5391 | -109.4606 | 90.0 | top | 
+| FID1 | FIDUCIAL"" | FIDUCIAL_1MM | 162.1391 | -94.6876 | 0.0 | top | 
+| FID2 | FIDUCIAL"" | FIDUCIAL_1MM | 135.0391 | -115.3606 | 0.0 | top | 
+| FID3 | FIDUCIAL"" | FIDUCIAL_1MM | 148.3741 | -94.7166 | 0.0 | top | 
+| JP1 | nan | 1X10_ROUND | 148.5011 | -113.8936 | 0.0 | top | 
+| Q1 | BSS138 | SOT23-WIDE | 149.7851 | -104.5606 | 0.0 | top | 
+| Q2 | BSS138 | SOT23-WIDE | 146.0391 | -104.5606 | 0.0 | top | 
+| R1 | 10K | _0805MP | 136.4391 | -104.5606 | -90.0 | top | 
+| R2 | 10K | _0805MP | 136.4391 | -99.2606 | 90.0 | top | 
+| R3 | 10K | _0805MP | 139.5391 | -97.5606 | 0.0 | top | 
+| R4 | 10K | _0805MP | 145.0391 | -109.5606 | 90.0 | top | 
+| R5 | 10K | _0805MP | 147.0391 | -109.5606 | 90.0 | top | 
+| R6 | 10K | _0805MP | 150.0391 | -101.5606 | 180.0 | top | 
+| R7 | 10K | _0805MP | 146.0391 | -101.5606 | 0.0 | top | 
+| U$25 | nan | SYMBOL_GYROXYZ_10MM | 151.4391 | -97.8606 | 0.0 | top | 
+| U$28 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK | 165.0111 | -113.8936 | 0.0 | top | 
+| U$29 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK | 165.0111 | -96.1136 | 0.0 | top | 
+| U$30 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK | 131.9911 | -96.1136 | 0.0 | top | 
+| U$31 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK | 131.9911 | -113.8936 | 0.0 | top | 
+| U$32 | nan | ADAFRUIT_3.5MM | 150.0391 | -100.0606 | 90.0 | top | 
+| U1 | L3GD20 | L3G4200D_LGA16L | 141.0391 | -104.0606 | 0.0 | top | 
+| U2 | LSM303DLHC | LGA14 | 157.9121 | -105.5606 | 0.0 | top | 
+| U3 | BMP180 | BMP180_EXTENDED | 150.5391 | -109.1606 | 180.0 | top | 
+| U4 | MIC5225-3.3 | SOT23-5 | 139.2391 | -109.7606 | 180.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| U$26 | nan | ADAFRUIT_TEXT_20MM | 159.9311 | -101.3206 | 180.0 | bottom | 
+

@@ -71,3 +71,58 @@
 | U2 | 1 | AP2112K-3.3 | VREG_SOT23-5 | working:SOT23-5 |  |  |  | 
 | U$1, U$17, U$19, U$21 | 4 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  | 
 
+
+## mounting_holes
+| x | y | package | value | ref | size | 
+| --- | --- | --- | --- | --- | --- | 
+| 136.4361 | -91.6686 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$1 | m3 | 
+| 160.5661 | -91.6686 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$17 | m3 | 
+| 136.4361 | -118.3386 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$19 | m3 | 
+| 160.5661 | -118.3386 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$21 | m3 | 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| C1 | 0.1uF | 0603-NO | 141.1351 | -95.9866 | 90.0 | top | 
+| C2 | 10uF | 0805-NO | 135.6741 | -96.1136 | -90.0 | top | 
+| C3 | 10uF | 0805-NO | 142.7861 | -96.1136 | 90.0 | top | 
+| C12 | 2.2uF | 0805-NO | 155.7965 | -105.0646 | 90.0 | top | 
+| C13 | 2.2uF | 0805-NO | 153.5105 | -105.0646 | 90.0 | top | 
+| C14 | 10uF | 0805-NO | 140.8811 | -104.9782 | -90.0 | top | 
+| C15 | 10uF | 0805-NO | 151.5975 | -105.0646 | -90.0 | top | 
+| C16 | 10uF | 0805-NO | 142.7861 | -104.9782 | -90.0 | top | 
+| C17 | 0.1uF | 0603-NO | 149.9465 | -105.0646 | -90.0 | top | 
+| CONN1 | STEMMA_I2C_QT | JST_SH4 | 160.5661 | -104.3686 | 90.0 | top | 
+| CONN4 | STEMMA_I2C_QT | JST_SH4 | 136.4361 | -104.3686 | -90.0 | top | 
+| D1 | GREEN | CHIPLED_0603_NOOUTLINE | 135.6741 | -108.6866 | 90.0 | top | 
+| D3 | 1N4148 | SOD-323 | 145.8087 | -94.8436 | 0.0 | top | 
+| D4 | 1N4148 | SOD-323 | 150.3045 | -95.0976 | 180.0 | top | 
+| D5 | 1N4148 | SOD-323 | 153.5811 | -95.9612 | -90.0 | top | 
+| FID3 | FIDUCIAL_1MM | FIDUCIAL_1MM | 134.9121 | -112.3061 | 0.0 | top | 
+| FID4 | FIDUCIAL_1MM | FIDUCIAL_1MM | 162.0901 | -94.4245 | 0.0 | top | 
+| IC5 | APX803 | SOT23 | 147.2311 | -104.6226 | 0.0 | top | 
+| JP2 | nan | 1X08_ROUND_70 | 148.5011 | -91.6686 | 180.0 | top | 
+| Q2 | BSS138 | SOT363 | 159.8041 | -95.8596 | 90.0 | top | 
+| R1 | 10K | 0603-NO | 135.8011 | -110.3376 | 0.0 | top | 
+| R2 | 10K | RESPACK_4X0603 | 150.1521 | -97.5106 | 180.0 | top | 
+| R3 | 10K | RESPACK_4X0603 | 156.2481 | -96.1136 | 90.0 | top | 
+| R9 | 390K | 0603-NO | 144.4371 | -105.1052 | -90.0 | top | 
+| SJ1 | nan | SOLDERJUMPER_CLOSEDWIRE | 146.8567 | -98.9076 | -90.0 | top | 
+| SJ2 | nan | SOLDERJUMPER_CLOSEDWIRE | 144.5415 | -98.9076 | -90.0 | top | 
+| SJ3 | nan | SOLDERJUMPER_ARROW_NOPASTE | 154.3431 | -99.6696 | 180.0 | top | 
+| U$1 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 136.4361 | -91.6686 | 0.0 | top | 
+| U$8 | nan | ADAFRUIT_5MM | 157.8991 | -115.4176 | 0.0 | top | 
+| U$17 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 160.5661 | -91.6686 | 0.0 | top | 
+| U$19 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 136.4361 | -118.3386 | 0.0 | top | 
+| U$21 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 160.5661 | -118.3386 | 0.0 | top | 
+| U$25 | nan | PCBFEAT-REV-040 | 135.2931 | -114.5286 | 0.0 | top | 
+| U$31 | nan | STEMMAQT | 134.1501 | -101.0666 | 0.0 | top | 
+| U2 | AP2112K-3.3 | SOT23-5 | 138.5951 | -96.3676 | 180.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| U1 | UG-2864HSWEG01 | UG-2864HSWEG01_0.96IN_WRAPAROUND | 148.5011 | -108.3056 | 180.0 | bottom | 
+

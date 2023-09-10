@@ -78,3 +78,57 @@
 | U$10, U$11, U$19 | 3 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | 
 | U$17 | 1 | ARDUINO_R3_ICSPSMT | ARDUINO_R3_ICSPSMT | working:ARDUINOR3_ICSP_SMT |  |  |  | 
 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| C1 | 10uF | 0805-NO | 151.6761 | -90.5256 | 180.0 | top | 
+| C2 | 0.1uF | 0805-NO | 151.6761 | -92.3036 | 180.0 | top | 
+| C3 | 0.1uF | 0805-NO | 151.9301 | -109.8296 | -90.0 | top | 
+| C4 | 10uF | 0805-NO | 119.4181 | -90.5256 | 0.0 | top | 
+| C5 | 10uF | 0805-NO | 154.9781 | -85.9536 | -90.0 | top | 
+| D1 | 1N4148 | SOD-323F | 146.5961 | -86.4616 | 90.0 | top | 
+| D5 | nan | SOLDERJUMPER_ARROW_NOPASTE | 168.4401 | -124.5616 | 180.0 | top | 
+| D7 | nan | SOLDERJUMPER_ARROW_NOPASTE | 160.0581 | -124.8156 | 0.0 | top | 
+| IC4 | MIC5225-3.3 | SOT23-5L | 151.6761 | -86.9696 | 180.0 | top | 
+| IC5 | AXP803 | SOT23 | 147.3581 | -90.5256 | 180.0 | top | 
+| ICSP_CLK0 | nan | SOLDERJUMPER_CLOSEDWIRE | 175.9331 | -112.7506 | 90.0 | top | 
+| ICSP_SI0 | nan | SOLDERJUMPER_CLOSEDWIRE | 180.5051 | -112.7506 | 90.0 | top | 
+| ICSP_SO0 | nan | SOLDERJUMPER_CLOSEDWIRE | 178.2191 | -112.7506 | 90.0 | top | 
+| Q2 | BSS138 | SOT23-WIDE | 143.5481 | -123.4186 | 90.0 | top | 
+| Q3 | BSS138 | SOT23-WIDE | 139.7381 | -123.4186 | 90.0 | top | 
+| Q4 | BSS138 | SOT23-WIDE | 154.9781 | -122.7836 | -90.0 | top | 
+| R1 | 68 | 0805-NO | 150.9141 | -119.2276 | 0.0 | top | 
+| R2 | 68_ohm | 0805-NO | 150.9141 | -117.1956 | 0.0 | top | 
+| R3 | 68_ohm | 0805-NO | 150.9141 | -115.1636 | 0.0 | top | 
+| R4 | 68_ohm | 0805-NO | 150.9141 | -113.1316 | 0.0 | top | 
+| R6 | 10K | 0805-NO | 144.0561 | -90.5256 | -90.0 | top | 
+| R8 | 10K | 0805-NO | 164.6301 | -122.7836 | 180.0 | top | 
+| R9 | 2.2K | 0805-NO | 147.8661 | -120.2436 | 90.0 | top | 
+| R13 | 10K | 0805-NO | 132.3721 | -123.7996 | 0.0 | top | 
+| R14 | 10K | 0805-NO | 136.0551 | -123.7996 | 180.0 | top | 
+| R15 | 10K | 0805-NO | 147.1041 | -95.0976 | 0.0 | top | 
+| R16 | 10K | 0805-NO | 144.4371 | -97.3836 | 180.0 | top | 
+| SCL_A5 | nan | SOLDERJUMPER_REFLOW_NOPASTE | 179.8701 | -79.6036 | -90.0 | top | 
+| SDA_A4 | nan | SOLDERJUMPER_REFLOW_NOPASTE | 182.4101 | -79.6036 | 90.0 | top | 
+| SJ1 | nan | SOLDERJUMPER_ARROW_NOPASTE | 180.5051 | -118.7196 | 90.0 | top | 
+| SJ2 | nan | SOLDERJUMPER_ARROW_NOPASTE | 178.2191 | -118.7196 | 90.0 | top | 
+| SJ3 | nan | SOLDERJUMPER_ARROW_NOPASTE | 175.9331 | -118.7196 | 90.0 | top | 
+| SJ4 | nan | SOLDERJUMPER_2WAY_OPEN_NOPASTE | 135.8011 | -81.5086 | 0.0 | top | 
+| SW1 | SPST_TACT-EVQQ2 | EVQ-Q2 | 119.1641 | -128.8796 | 0.0 | top | 
+| U$3 | MICROSD | MICROSD | 130.0861 | -93.5736 | -90.0 | top | 
+| U$7 | nan | PCBFEAT-REV-040 | 141.3891 | -90.2716 | 0.0 | top | 
+| U$10 | FIDUCIAL_1MM | FIDUCIAL_1MM | 167.0431 | -87.9856 | 180.0 | top | 
+| U$11 | FIDUCIAL_1MM | FIDUCIAL_1MM | 119.1641 | -128.8796 | 180.0 | top | 
+| U$19 | FIDUCIAL_1MM | FIDUCIAL_1MM | 115.8621 | -80.8736 | 0.0 | top | 
+| U$20 | nan | ADAFRUIT_TEXT_30MM | 113.5761 | -119.3546 | 0.0 | top | 
+| U3 | 74HC4050 | SOIC16 | 143.5481 | -103.9876 | -90.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| U$2 | 2.8"_TFT_+_CTP | TFT_2.83IN_240X320_50PIN | 145.3261 | -105.0036 | -90.0 | bottom | 
+| U$17 | ARDUINO_R3_ICSPSMT | ARDUINOR3_ICSP_SMT | 113.8301 | -78.3336 | 0.0 | bottom | 
+

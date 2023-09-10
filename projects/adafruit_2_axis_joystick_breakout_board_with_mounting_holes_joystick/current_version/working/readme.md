@@ -38,3 +38,19 @@
 | JP1 | 1 | PINHD-1X5 | PINHD-1X5 | working:1X05 |  |  |  | 
 | U1 | 1 | JOYSTICKPTH | JOYSTICKPTH | working:JOYSTICK |  |  |  | 
 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| @HOLE0 | nan | nan | 133.2611 | -120.2436 | 0.0 | top | 
+| @HOLE1 | nan | nan | 133.2611 | -89.7636 | 0.0 | top | 
+| @HOLE2 | nan | nan | 163.7411 | -89.7636 | 0.0 | top | 
+| @HOLE3 | nan | nan | 163.7411 | -120.2436 | 0.0 | top | 
+| JP1 | nan | 1X05 | 148.5011 | -121.5136 | 180.0 | top | 
+| U$1 | nan | ADAFRUIT200MIL | 132.4991 | -113.1316 | 0.0 | top | 
+| U1 | JOYSTICKPTH | JOYSTICK | 148.5011 | -105.0036 | 0.0 | top | 
+
+### bottom
+no data

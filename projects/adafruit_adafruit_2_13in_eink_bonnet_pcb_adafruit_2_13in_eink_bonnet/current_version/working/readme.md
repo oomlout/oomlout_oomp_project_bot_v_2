@@ -68,3 +68,49 @@
 | RPI2 | 1 | RASPBERRYPI_BPLUS_SMT_NODIM | RASPBERRYPI_BPLUS_SMT_NODIM | working:PI_BONNET_SMT_NODIM |  |  |  | 
 | SW3, SW4 | 2 | SWITCH_PUSHBUTTON_3.5X6MM | SWITCH_PUSHBUTTON_3.5X6MM | working:TACTILE_3X6MM |  |  |  | 
 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| C1 | 10uF/10V+ | 0805-NO | 174.0401 | -114.5966 | 180.0 | top | 
+| C2 | 1uF/10V | 0805-NO | 133.8129 | -104.6906 | 180.0 | top | 
+| C3 | 1uF/25V | 0805-NO | 137.3435 | -102.8618 | 180.0 | top | 
+| C4 | 1uF/25V | 0805-NO | 147.4005 | -104.3588 | 0.0 | top | 
+| C5 | 4.7uF/25V | 0805-NO | 141.0345 | -106.9114 | 0.0 | top | 
+| C6 | 1uF/10V | 0805-NO | 135.9211 | -110.4056 | 180.0 | top | 
+| C15 | 10uF/10V+ | 0805-NO | 145.3993 | -100.2592 | -90.0 | top | 
+| C16 | 1uF | 0805-NO | 133.8265 | -108.4646 | 180.0 | top | 
+| C21 | 10µF | 0805-NO | 133.7887 | -106.6056 | 0.0 | top | 
+| C22 | 1uF/25V | 0805-NO | 133.8129 | -102.7856 | 180.0 | top | 
+| C23 | 1uF/25V | 0805-NO | 133.8129 | -100.8806 | 180.0 | top | 
+| C24 | 1uF | 0805-NO | 133.8129 | -98.9756 | 180.0 | top | 
+| CONN2 | STEMMA_I2C_QT | JST_SH4 | 167.9441 | -117.6226 | 0.0 | top | 
+| D1 | MBR0540 | SOD-123 | 143.0539 | -104.3588 | 0.0 | top | 
+| D2 | MBR0540 | SOD-123 | 145.5129 | -106.8114 | 180.0 | top | 
+| D3 | MBR0540 | SOD-123 | 138.5881 | -111.1676 | -90.0 | top | 
+| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM | 175.0851 | -92.5945 | 0.0 | top | 
+| FID4 | FIDUCIAL_1MM | FIDUCIAL_1MM | 127.4946 | -117.4541 | 0.0 | top | 
+| L1 | 10uH | INDUCTOR_4X4MM_NR401 | 141.8901 | -101.1854 | 0.0 | top | 
+| Q5 | IRLML0100 | SOT23-3 | 135.9211 | -113.4536 | -90.0 | top | 
+| R2 | 100K | 0603-NO | 173.9991 | -103.7496 | 180.0 | top | 
+| R3 | 100K | 0603-NO | 173.8941 | -99.3566 | 180.0 | top | 
+| R4 | 0.47ohm | 0805_10MGAP | 133.2541 | -112.0566 | -90.0 | top | 
+| R5 | 100K | 0603-NO | 147.7163 | -100.2456 | -90.0 | top | 
+| R6 | 100K | 0603-NO | 156.1903 | -100.2456 | -90.0 | top | 
+| U$9 | nan | PCBFEAT-REV-040 | 119.9191 | -93.6416 | 0.0 | top | 
+| U$28 | nan | ADAFRUIT_TEXT_20MM | 150.1781 | -107.3165 | 0.0 | top | 
+| U$29 | nan | THINKINK_1.25IN | 143.2941 | -112.8896 | 0.0 | top | 
+| U$30 | nan | STEMMAQT | 171.5001 | -118.2796 | 0.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| EINK1 | EINK_24PIN_213IN | EINK_213IN_104X212 | 117.0011 | -120.5336 | 0.0 | bottom | 
+| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM | 174.4171 | -117.1846 | 90.0 | bottom | 
+| FID3 | FIDUCIAL_1MM | FIDUCIAL_1MM | 121.5955 | -92.651 | 180.0 | bottom | 
+| RPI2 | RASPBERRYPI_BPLUS_SMT_NODIM | PI_BONNET_SMT_NODIM | 180.9807 | -119.8036 | 180.0 | bottom | 
+| SW3 | nan | TACTILE_3X6MM | 178.5011 | -97.8036 | -90.0 | bottom | 
+| SW4 | nan | TACTILE_3X6MM | 178.5011 | -111.8036 | 90.0 | bottom | 
+

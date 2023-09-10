@@ -59,3 +59,46 @@
 | U3 | 1 | APDS-9960 | APDS-9960 | working:APDS-9960 |  |  |  | 
 | U$1, U$17, U$19, U$21 | 4 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  | 
 
+
+## mounting_holes
+| x | y | package | value | ref | size | 
+| --- | --- | --- | --- | --- | --- | 
+| 138.3411 | -98.6536 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$1 | m3 | 
+| 158.6611 | -98.6536 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$17 | m3 | 
+| 138.3411 | -111.3536 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$19 | m3 | 
+| 158.6611 | -111.3536 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$21 | m3 | 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| C1 | 0.1uF | 0603-NO | 146.3421 | -106.0196 | 90.0 | top | 
+| C2 | 10uF | 0805-NO | 143.9291 | -108.1786 | 0.0 | top | 
+| C3 | 10uF | 0805-NO | 143.9291 | -101.4476 | 0.0 | top | 
+| CONN3 | STEMMA_I2C_QT | JST_SH4 | 158.6611 | -105.0036 | 90.0 | top | 
+| CONN4 | STEMMA_I2C_QT | JST_SH4 | 138.3411 | -105.0036 | -90.0 | top | 
+| D1 | GREEN | CHIPLED_0603_NOOUTLINE | 139.3571 | -101.3206 | 90.0 | top | 
+| FID3 | FIDUCIAL_1MM | FIDUCIAL_1MM | 141.3891 | -109.4486 | 0.0 | top | 
+| FID4 | FIDUCIAL_1MM | FIDUCIAL_1MM | 155.3591 | -99.9236 | 0.0 | top | 
+| JP1 | nan | 1X06_ROUND_70 | 148.5011 | -111.3536 | 0.0 | top | 
+| Q2 | BSS138 | SOT363 | 152.0571 | -105.7656 | 90.0 | top | 
+| R1 | 10K | 0603-NO | 141.3891 | -101.4476 | -90.0 | top | 
+| R2 | 10K | 0603-NO | 154.5971 | -108.3056 | 180.0 | top | 
+| R3 | 10K | RESPACK_4X0603 | 152.9461 | -102.4636 | 180.0 | top | 
+| U$1 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 138.3411 | -98.6536 | 0.0 | top | 
+| U$17 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 158.6611 | -98.6536 | 0.0 | top | 
+| U$19 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 138.3411 | -111.3536 | 0.0 | top | 
+| U$21 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 158.6611 | -111.3536 | 0.0 | top | 
+| U$22 | nan | ADAFRUIT_3.5MM | 140.3731 | -100.1776 | 0.0 | top | 
+| U2 | AP2112K-3.3 | SOT23-5 | 143.9291 | -105.1306 | 0.0 | top | 
+| U3 | APDS-9960 | APDS-9960 | 148.5011 | -105.0036 | 0.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| U$2 | nan | ADAFRUIT_3.5MM | 142.4051 | -103.2256 | 180.0 | bottom | 
+| U$25 | nan | PCBFEAT-REV-040 | 157.0101 | -102.8446 | 180.0 | bottom | 
+| U$30 | nan | STEMMAQT | 158.2801 | -109.4486 | 90.0 | bottom | 
+| U$31 | nan | STEMMAQT | 138.7221 | -100.5586 | -90.0 | bottom | 
+

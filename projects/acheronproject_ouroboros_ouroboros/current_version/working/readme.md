@@ -46,3 +46,5 @@
 | R13, R16 | 2 | 2k | R_Small | Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder | Resistor, small symbol |  |  | 
 | U1 | 1 | TL431DBV | TL431DBV | Package_TO_SOT_SMD:SOT-23-5 | Shunt Regulator, SOT-23-5 |  |  | 
 
+
+

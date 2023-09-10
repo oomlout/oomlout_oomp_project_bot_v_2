@@ -66,3 +66,62 @@
 | U1 | 1 | PCA9685 | PCA9685 | working:TSSOP28 |  |  |  | 
 | U$47, U$48, U$49, U$50 | 4 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  | 
 
+
+## mounting_holes
+| x | y | package | value | ref | size | 
+| --- | --- | --- | --- | --- | --- | 
+| 120.5611 | -95.4786 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$47 | m3 | 
+| 120.5611 | -114.5286 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$48 | m3 | 
+| 176.4411 | -95.4786 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$49 | m3 | 
+| 176.4411 | -114.5286 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$50 | m3 | 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| C1 | 10uF | 0805-NO | 126.0696 | -103.2891 | -90.0 | top | 
+| C2 | nan | E3,5-8 | 129.1971 | -96.4946 | 180.0 | top | 
+| FID1 | FIDUCIAL"" | FIDUCIAL_1MM | 162.4561 | -116.3386 | 0.0 | top | 
+| FID2 | FIDUCIAL"" | FIDUCIAL_1MM | 128.4341 | -93.8546 | 0.0 | top | 
+| J1 | nan | TERMBLOCK_1X2-3.5MM | 148.5011 | -96.1136 | 180.0 | top | 
+| JP1 | nan | 3X04 | 140.8811 | -113.7666 | 180.0 | top | 
+| JP2 | nan | 3X04 | 128.1811 | -113.7666 | 180.0 | top | 
+| JP3 | nan | 1X06-CLEANBIG | 119.2911 | -104.8766 | 90.0 | top | 
+| JP4 | nan | 1X06-CLEANBIG | 177.7111 | -104.8766 | 90.0 | top | 
+| JP5 | nan | 3X04 | 168.8211 | -113.7666 | 180.0 | top | 
+| JP6 | nan | 3X04 | 156.1211 | -113.7666 | 180.0 | top | 
+| LED1 | GREEN | CHIPLED_0805_NOOUTLINE | 154.7241 | -94.7166 | 180.0 | top | 
+| Q1 | AOD417 | TO252 | 137.8461 | -96.0486 | -90.0 | top | 
+| R1 | 10K | RESPACK_4X0603 | 161.4551 | -99.5426 | 0.0 | top | 
+| R2 | 10K | RESPACK_4X0603 | 168.4401 | -99.5426 | 0.0 | top | 
+| R7 | 10K | 0805-NO | 124.2441 | -96.9391 | 90.0 | top | 
+| R10 | 470 | _0805MP | 154.7241 | -98.9076 | -90.0 | top | 
+| R11 | 220 | RESPACK_4X0603 | 135.1661 | -106.9086 | 180.0 | top | 
+| R12 | 220 | RESPACK_4X0603 | 170.4721 | -107.0356 | 180.0 | top | 
+| R13 | 220 | RESPACK_4X0603 | 128.8161 | -106.9086 | 180.0 | top | 
+| R14 | 220 | RESPACK_4X0603 | 162.8521 | -107.0356 | 180.0 | top | 
+| SJ_A0 | nan | SOLDERJUMPER_REFLOW_NOPASTE | 170.9801 | -94.6216 | -90.0 | top | 
+| SJ_A1 | nan | SOLDERJUMPER_REFLOW_NOPASTE | 168.4401 | -94.6216 | -90.0 | top | 
+| SJ_A2 | nan | SOLDERJUMPER_REFLOW_NOPASTE | 165.9001 | -94.6216 | -90.0 | top | 
+| SJ_A3 | nan | SOLDERJUMPER_REFLOW_NOPASTE | 163.3601 | -94.6216 | -90.0 | top | 
+| SJ_A4 | nan | SOLDERJUMPER_REFLOW_NOPASTE | 160.8201 | -94.6216 | -90.0 | top | 
+| SJ_A5 | nan | SOLDERJUMPER_REFLOW_NOPASTE | 158.2801 | -94.6216 | -90.0 | top | 
+| U$47 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 120.5611 | -95.4786 | 0.0 | top | 
+| U$48 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 120.5611 | -114.5286 | 0.0 | top | 
+| U$49 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 176.4411 | -95.4786 | 0.0 | top | 
+| U$50 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 176.4411 | -114.5286 | 0.0 | top | 
+| U$51 | nan | ADAFRUIT_5MM | 152.6921 | -108.4326 | 0.0 | top | 
+| U$54 | nan | PCBFEAT-REV-040 | 125.2601 | -106.9086 | 0.0 | top | 
+| U1 | PCA9685 | TSSOP28 | 148.5011 | -104.7496 | -90.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| TP1 | nan | TESTPOINT_ROUND_1MM | 158.2801 | -94.5896 | -90.0 | bottom | 
+| TP2 | nan | TESTPOINT_ROUND_1MM | 160.8201 | -94.5896 | -90.0 | bottom | 
+| TP3 | nan | TESTPOINT_ROUND_1MM | 163.3601 | -94.5896 | -90.0 | bottom | 
+| TP4 | nan | TESTPOINT_ROUND_1MM | 165.9001 | -94.5896 | -90.0 | bottom | 
+| TP5 | nan | TESTPOINT_ROUND_1MM | 168.4401 | -94.5896 | -90.0 | bottom | 
+| TP6 | nan | TESTPOINT_ROUND_1MM | 170.9801 | -94.5896 | -90.0 | bottom | 
+

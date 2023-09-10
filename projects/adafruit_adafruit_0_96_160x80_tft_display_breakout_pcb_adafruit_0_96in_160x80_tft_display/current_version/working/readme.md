@@ -63,3 +63,50 @@
 | U$2 | 1 | DISP_LCD_0.9IN_160X80 | DISP_LCD_0.9IN_160X80 | working:TFT_0.96IN_160X80 |  |  |  | 
 | U$9, U$10 | 2 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  | 
 
+
+## mounting_holes
+| x | y | package | value | ref | size | 
+| --- | --- | --- | --- | --- | --- | 
+| 135.1661 | -93.6371 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$9 | m3 | 
+| 161.8361 | -93.6371 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$10 | m3 | 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| @HOLE0 | nan | nan | 136.9441 | -96.1771 | 0.0 | top | 
+| @HOLE1 | nan | nan | 136.0551 | -96.1771 | 0.0 | top | 
+| @HOLE2 | nan | nan | 135.1661 | -96.1771 | 0.0 | top | 
+| @HOLE3 | nan | nan | 134.2771 | -96.1771 | 0.0 | top | 
+| @HOLE4 | nan | nan | 133.3881 | -96.1771 | 0.0 | top | 
+| @HOLE5 | nan | nan | 163.6141 | -96.1771 | 0.0 | top | 
+| @HOLE6 | nan | nan | 162.7251 | -96.1771 | 0.0 | top | 
+| @HOLE7 | nan | nan | 161.8361 | -96.1771 | 0.0 | top | 
+| @HOLE8 | nan | nan | 160.9471 | -96.1771 | 0.0 | top | 
+| @HOLE9 | nan | nan | 160.0581 | -96.1771 | 0.0 | top | 
+| C1 | 10µF | 0805-NO | 160.3121 | -106.8451 | 0.0 | top | 
+| C2 | 10µF | 0805-NO | 161.4551 | -113.1951 | 180.0 | top | 
+| C3 | 0.1uF | 0805-NO | 153.9621 | -98.9711 | 0.0 | top | 
+| CN1 | nan | MICROSD | 148.5011 | -98.8441 | -90.0 | top | 
+| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM | 134.1501 | -110.1471 | 0.0 | top | 
+| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM | 145.1991 | -102.4001 | 0.0 | top | 
+| IC5 | APX803 | SOT23 | 157.2641 | -111.9251 | -90.0 | top | 
+| JP1 | nan | 1X11_ROUND | 148.5011 | -116.4971 | 180.0 | top | 
+| Q1 | MMBT2222 | SOT23-WIDE | 161.3281 | -103.4161 | 180.0 | top | 
+| R2 | 10K | 0603-NO | 153.9621 | -113.4491 | -90.0 | top | 
+| R5 | 22 | 0603-NO | 158.7881 | -103.4161 | 90.0 | top | 
+| R7 | 1K | 0603-NO | 161.4551 | -100.4951 | 0.0 | top | 
+| R8 | 10K | 0603-NO | 159.2961 | -99.8601 | 90.0 | top | 
+| U$4 | MICROSD | ADAFRUIT_3.5MM | 148.3741 | -100.2411 | 0.0 | top | 
+| U$6 | nan | PCBFEAT-REV-040 | 162.8521 | -98.5901 | 0.0 | top | 
+| U$9 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 135.1661 | -93.6371 | 0.0 | top | 
+| U$10 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 161.8361 | -93.6371 | 0.0 | top | 
+| U2 | MIC5225-3.3 | SOT23-5 | 160.5661 | -109.8931 | 0.0 | top | 
+| U3 | 74HC4050D | SOIC16 | 154.2161 | -105.3211 | -90.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| U$2 | DISP_LCD_0.9IN_160X80 | TFT_0.96IN_160X80 | 134.9121 | -106.0831 | 90.0 | bottom | 
+

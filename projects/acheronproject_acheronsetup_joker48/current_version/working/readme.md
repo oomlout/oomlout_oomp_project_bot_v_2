@@ -57,3 +57,30 @@
 | U2 | 1 | JOKER MCU | STM32F411-48 | acheron_Components:STM_UFQFPN-48_LQFP-48-1EP_7x7mm_P0.5mm_HandSoldering_ThermalReliefs | UFQFPN-48 Arm® Cortex®-M4 32bits MCU+FPU, 125 DMIPS, 512KB Flash,   128KB RAM, USB OTG FS, 11 TIMs, 1 ADC, 13 comm. interfaces |  |  | 
 | Y1 | 1 | 7325-0800A2010-00 | Crystal_GND24 | acheron_Components:Crystal_SMD_3225-4Pin_3.2x2.5mm | Four pin crystal, GND on pins 2 and 4 |  |  | 
 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| C1 | 100n | C_0402_1005Metric | 227.4 | -121.8 | 180.0 | top | 
+| C2 | 100n | C_0402_1005Metric | 235.25 | -131.75 | 180.0 | top | 
+| C3 | 100n | C_0402_1005Metric | 233.95 | -129.15 | 180.0 | top | 
+| C4 | 100n | C_0402_1005Metric | 236.75 | -119.15 | -90.0 | top | 
+| C5 | 10u | CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder | 233.55 | -115.15 | 90.0 | top | 
+| C6 | 1u | C_0402_1005Metric | 246.65 | -132.23 | -90.0 | top | 
+| C7 | 10n | C_0402_1005Metric | 245.15 | -132.23 | -90.0 | top | 
+| C8 | 16p | C_0402_1005Metric | 243.55 | -133.48 | -90.0 | top | 
+| C9 | 16p | C_0402_1005Metric | 237.35 | -135.0 | -90.0 | top | 
+| C10 | 100n | C_0402_1005Metric | 245.98 | -120.8 | 180.0 | top | 
+| C11 | 4.7u | C_0402_1005Metric | 247.4 | -122.6 | 180.0 | top | 
+| R1 | 1.5k | R_0402_1005Metric | 230.0 | -126.15 | 180.0 | top | 
+| R2 | 1.5k | R_0402_1005Metric | 230.0 | -124.15 | 180.0 | top | 
+| R3 | 10k | R_0805_2012Metric | 223.95 | -138.35 | -90.0 | top | 
+| R4 | 1.5k | R_0402_1005Metric | 238.75 | -116.0 | 90.0 | top | 
+| U1 | BL24C256A-SFRC | TSSOP-8_4.4x3mm_P0.65mm | 224.4 | -124.5 | 0.0 | top | 
+| U2 | STM32F411CEU6 | STM_UFQFPN-48_LQFP-48-1EP_7x7mm_P0.5mm_HandSoldering_ThermalReliefs | 240.75 | -125.15 | 90.0 | top | 
+| Y1 | 7325-0800A2010-00 | Crystal_SMD_3225-4Pin_3.2x2.5mm | 240.4375 | -134.4 | 180.0 | top | 
+
+### bottom
+no data

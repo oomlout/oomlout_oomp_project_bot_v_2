@@ -57,3 +57,41 @@
 | U1 | 1 | ADT7410 | TEMP_ADT7410 | working:SOIC8_150MIL |  |  |  | 
 | U2 | 1 | ADXL343 | ACCEL_ADXL343 | working:LGA14 |  |  |  | 
 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| C1 | 0.1uF | 0603-NO | 171.1071 | -103.3526 | -90.0 | top | 
+| C2 | 10uF | 0805-NO | 147.9931 | -101.9556 | 0.0 | top | 
+| C3 | 0.1uF | 0603-NO | 151.2951 | -101.9556 | 180.0 | top | 
+| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM | 124.3711 | -99.9236 | 0.0 | top | 
+| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM | 172.7581 | -111.7346 | 0.0 | top | 
+| JP1 | nan | 1X02_ROUND | 166.2811 | -107.5436 | 0.0 | top | 
+| JP2 | nan | 1X12_ROUND_76MIL | 153.5811 | -97.3836 | 0.0 | top | 
+| JP3 | nan | 1X16_ROUND_76MIL | 148.5011 | -112.6236 | 180.0 | top | 
+| JP4 | nan | 1X02_ROUND | 150.0251 | -108.8136 | 0.0 | top | 
+| MS1 | FEATHERWING | FEATHERWING | 123.1011 | -116.4336 | 0.0 | top | 
+| R1 | 10K | 0603-NO | 171.1071 | -100.1776 | -90.0 | top | 
+| R2 | 10K | 0603-NO | 155.7401 | -100.3046 | 0.0 | top | 
+| R3 | 10K | 0603-NO | 162.9791 | -107.7976 | -90.0 | top | 
+| R4 | 10K | 0603-NO | 169.8371 | -107.7976 | -90.0 | top | 
+| R5 | 10K | 0603-NO | 160.6931 | -102.9716 | -90.0 | top | 
+| R6 | 10K | 0603-NO | 160.6931 | -106.5276 | 90.0 | top | 
+| R7 | 10K | 0603-NO | 155.6131 | -107.0356 | 180.0 | top | 
+| R8 | 10K | 0603-NO | 154.0891 | -103.7336 | -90.0 | top | 
+| R9 | 10K | 0603-NO | 155.6131 | -108.5596 | 180.0 | top | 
+| SJ1 | nan | SOLDERJUMPER_ARROW_NOPASTE | 158.9151 | -102.9716 | -90.0 | top | 
+| SJ2 | nan | SOLDERJUMPER_ARROW_NOPASTE | 158.9151 | -106.5276 | 90.0 | top | 
+| SJ3 | nan | SOLDERJUMPER_ARROW_NOPASTE | 155.8671 | -102.9716 | 90.0 | top | 
+| U$24 | nan | ADIWING_TOP | 123.1011 | -116.4336 | 0.0 | top | 
+| U1 | ADT7410 | SOIC8_150MIL | 166.0271 | -103.7336 | -90.0 | top | 
+| U2 | ADXL343 | LGA14 | 150.0251 | -105.0036 | 0.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| U$1 | nan | PCBFEAT-REV-040 | 144.6911 | -108.5596 | 180.0 | bottom | 
+| U$23 | nan | FEATHERLOGO_MED | 142.1511 | -109.8296 | 180.0 | bottom | 
+

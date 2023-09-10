@@ -86,3 +86,73 @@
 | X1 | 1 | MICROSD | MICROSD | working:MICROSD |  |  |  | 
 | X2 | 1 | EYE_SPI_DISPLAY_FLIP | EYE_SPI_DISPLAY_FLIP | working:EYE_SPI_DISPLAY_BOTCONTACT |  |  |  | 
 
+
+## mounting_holes
+| x | y | package | value | ref | size | 
+| --- | --- | --- | --- | --- | --- | 
+| 128.8161 | -85.9536 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$7 | m3 | 
+| 128.8161 | -124.0536 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$8 | m3 | 
+| 168.1861 | -85.9536 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$9 | m3 | 
+| 168.1861 | -124.0536 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$10 | m3 | 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| C1 | 10uF | 0805-NO | 163.2331 | -97.6376 | -90.0 | top | 
+| C2 | 10uF | 0805-NO | 157.0101 | -97.7646 | -90.0 | top | 
+| C4 | 0.1uF | 0603-NO | 132.7531 | -114.1476 | 0.0 | top | 
+| JP1 | nan | 1X11_ROUND_76 | 168.8211 | -105.0036 | -90.0 | top | 
+| PLABEL0 | nan | PLABEL0 | 165.6461 | -92.6846 | 0.0 | top | 
+| PLABEL1 | nan | PLABEL1 | 162.0901 | -110.5916 | 0.0 | top | 
+| PLABEL2 | nan | PLABEL2 | 163.9951 | -113.1316 | 0.0 | top | 
+| PLABEL3 | nan | PLABEL3 | 159.9311 | -115.6716 | 0.0 | top | 
+| PLABEL4 | nan | PLABEL4 | 161.2011 | -108.0516 | 0.0 | top | 
+| PLABEL5 | nan | PLABEL5 | 162.8521 | -105.5116 | 0.0 | top | 
+| PLABEL6 | nan | PLABEL6 | 163.6141 | -100.3046 | 0.0 | top | 
+| PLABEL7 | nan | PLABEL7 | 162.8521 | -102.9716 | 0.0 | top | 
+| PLABEL8 | nan | PLABEL8 | 163.4871 | -118.2116 | 0.0 | top | 
+| PLABEL9 | nan | PLABEL9 | 128.9431 | -98.2726 | 0.0 | top | 
+| PLABEL10 | nan | PLABEL10 | 143.2941 | -116.4336 | 0.0 | top | 
+| PLABEL11 | nan | PLABEL11 | 143.2941 | -118.7196 | 0.0 | top | 
+| PLABEL12 | nan | PLABEL12 | 127.0381 | -120.6246 | 0.0 | top | 
+| PLABEL13 | nan | PLABEL13 | 143.1671 | -120.8786 | 0.0 | top | 
+| PLABEL14 | nan | PLABEL14 | 165.1381 | -97.7646 | 0.0 | top | 
+| PLABEL15 | nan | PLABEL15 | 164.8841 | -95.3516 | 0.0 | top | 
+| Q3 | BSS138 | SOT23-WIDE | 136.4361 | -115.4176 | 90.0 | top | 
+| R1 | 10K | 0603-NO | 144.3101 | -111.0996 | -90.0 | top | 
+| R2 | 10K | 0603-NO | 149.5171 | -111.8616 | 180.0 | top | 
+| R3 | 10K | 0603-NO | 139.2301 | -115.2906 | 90.0 | top | 
+| R4 | 10K | 0603-NO | 157.5181 | -105.8926 | 0.0 | top | 
+| U$1 | nan | ADAFRUIT_5MM | 155.8671 | -111.6076 | 0.0 | top | 
+| U$2 | nan | PCBFEAT-REV-040 | 146.5961 | -113.6396 | 0.0 | top | 
+| U$3 | FIDUCIAL_1MM | FIDUCIAL_1MM | 168.6941 | -120.4976 | 0.0 | top | 
+| U$4 | FIDUCIAL_1MM | FIDUCIAL_1MM | 129.5781 | -89.7636 | 0.0 | top | 
+| U$5 | FIDUCIAL_1MM | FIDUCIAL_1MM | 168.6941 | -89.7636 | 0.0 | top | 
+| U$7 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 128.8161 | -85.9536 | 0.0 | top | 
+| U$8 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 128.8161 | -124.0536 | 0.0 | top | 
+| U$9 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 168.1861 | -85.9536 | 0.0 | top | 
+| U$10 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 168.1861 | -124.0536 | 0.0 | top | 
+| U$17 | nan | EYESPI_MINI_LOGO | 164.2491 | -95.3516 | 90.0 | top | 
+| U1 | AP2127K-3.3 | SOT23-5 | 160.1851 | -97.7646 | 0.0 | top | 
+| U2 | 74HC4050PWR | TSSOP16 | 149.8981 | -105.3846 | -90.0 | top | 
+| X1 | MICROSD | MICROSD | 134.9121 | -106.0196 | -90.0 | top | 
+| X2 | EYE_SPI_DISPLAY_FLIP | EYE_SPI_DISPLAY_BOTCONTACT | 148.5011 | -93.5736 | 180.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| PLABEL16 | nan | PLABEL16 | 167.4241 | -92.3036 | 180.0 | bottom | 
+| PLABEL17 | nan | PLABEL17 | 167.4241 | -94.8436 | 180.0 | bottom | 
+| PLABEL18 | nan | PLABEL18 | 167.4241 | -97.3836 | 180.0 | bottom | 
+| PLABEL19 | nan | PLABEL19 | 167.4241 | -99.9236 | 180.0 | bottom | 
+| PLABEL20 | nan | PLABEL20 | 167.4241 | -102.4636 | 180.0 | bottom | 
+| PLABEL21 | nan | PLABEL21 | 167.4241 | -105.0036 | 180.0 | bottom | 
+| PLABEL22 | nan | PLABEL22 | 167.4241 | -107.5436 | 180.0 | bottom | 
+| PLABEL23 | nan | PLABEL23 | 167.4241 | -110.0836 | 180.0 | bottom | 
+| PLABEL24 | nan | PLABEL24 | 167.4241 | -112.6236 | 180.0 | bottom | 
+| PLABEL25 | nan | PLABEL25 | 167.4241 | -115.1636 | 180.0 | bottom | 
+| PLABEL26 | nan | PLABEL26 | 167.4241 | -117.7036 | 180.0 | bottom | 
+| TFT2 | DISP_LCD_ST7735_1.44IN | TFT_1.44IN_128_128 | 127.0381 | -105.0036 | 90.0 | bottom | 
+

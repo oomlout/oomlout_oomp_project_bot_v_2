@@ -41,3 +41,36 @@
 | 15 | Ref** | NoiseBomb_logo | 1 | Val** |  |  | [''] | 
 
 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| D-PB0 | LED | LED_PLCC_2835_Handsoldering | 63.5 | -90.17 | 90.0 | top | 
+| Jack1 | JACK_2P | PJ301M-12_dusjagr_3d | 74.295 | -112.395 | 0.0 | top | 
+| Jack2 | JACK_2P | PJ301M-12_dusjagr_3d | 74.295 | -67.31 | 0.0 | top | 
+| Jack5 | JACK_2P | PJ301M-12_dusjagr_3d | 52.705 | -67.31 | 0.0 | top | 
+| POT1-MAIN1 | POT_10K_lin | RD901F-ALPHA-3D | 63.5 | -90.17 | 0.0 | top | 
+| SW2 | SW_Push | SW_PUSH-12mm_3D_new | 63.5 | -125.095 | 0.0 | top | 
+| U1 | ATTINY85-20SU | DIP-8_Attiny_with_Socket_3d | 54.61 | -109.855 | 90.0 | top | 
+| board1 | SVG2SHENZHEN | 8Bit_YogyaNoise | 62.03 | -95.885 | 0.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| C1 | 100nF | C_1206_3d | 74.39 | -111.76 | 180.0 | bottom | 
+| C2 | 100nF | C_1206_3d | 59.69 | -106.68 | 0.0 | bottom | 
+| C3 | 100nF | C_1206_3d | 52.705 | -66.675 | 0.0 | bottom | 
+| C4 | 10uF | C_1206_3d | 51.435 | -123.19 | 180.0 | bottom | 
+| D-PB1 | LED | LED_PLCC_2835_Handsoldering | 63.5 | -90.17 | 90.0 | bottom | 
+| J4 | Con_3-5V | Bat_connector_SMD | 74.295 | -124.46 | 0.0 | bottom | 
+| R1 | 22k | R_1206_3d | 52.07 | -115.57 | 90.0 | bottom | 
+| R2 | 22k | R_1206_3d | 55.88 | -115.57 | -90.0 | bottom | 
+| R3 | 22k | R_1206_3d | 59.69 | -115.57 | -90.0 | bottom | 
+| R8 | 330 | R_1206_3d | 56.515 | -96.52 | -90.0 | bottom | 
+| R14 | 1K | R_1206_3d | 71.755 | -96.52 | 90.0 | bottom | 
+| R99 | 0 | R_1206_3d | 69.215 | -96.52 | 90.0 | bottom | 
+| Ref** | Val** | NoiseBomb_logo | 63.5 | -80.645 | 180.0 | bottom | 
+| logo1 | COCONUT | Coconut_logo | 63.5 | -66.675 | 180.0 | bottom | 
+

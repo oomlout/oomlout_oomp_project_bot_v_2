@@ -66,3 +66,62 @@
 | U$10 | 1 | DISP_LCD_240X320_50PIN-2.4IN | DISP_LCD_240X320_50PIN-2.4IN | working:TFT_2.4IN_240X320_50PIN |  |  |  | 
 | X1 | 1 | MICROSD | MICROSD | working:MICROSD |  |  |  | 
 
+
+## mounting_holes
+| x | y | package | value | ref | size | 
+| --- | --- | --- | --- | --- | --- | 
+| 119.9261 | -128.7526 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$7 | m3 | 
+| 177.0761 | -128.7526 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$15 | m3 | 
+| 119.9261 | -81.2546 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$16 | m3 | 
+| 177.0761 | -81.2546 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$17 | m3 | 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| C1 | 0.1uF | 0805-NO | 160.5661 | -122.7836 | 90.0 | top | 
+| C2 | 10uF | 0805-NO | 171.2341 | -86.0806 | 0.0 | top | 
+| C3 | 10uF | 0805-NO | 162.8521 | -122.7836 | 90.0 | top | 
+| C4 | 0.1uF | 0805-NO | 143.5481 | -110.8456 | 0.0 | top | 
+| C5 | 10uF | 0805-NO | 170.9801 | -122.2756 | 90.0 | top | 
+| C6 | 10uF | 0805-NO | 125.2601 | -108.5596 | 180.0 | top | 
+| IC1 | MIC5225-3.3 | SOT23-5L | 166.9161 | -122.4026 | 90.0 | top | 
+| IC2 | 74LVC245 | SO20W | 126.1491 | -100.4316 | -90.0 | top | 
+| IC3 | 74LVC245 | SO20W | 140.5001 | -90.5256 | 180.0 | top | 
+| IC4 | APX803-SAG | SOT23 | 158.0261 | -85.8266 | 180.0 | top | 
+| JP1 | nan | 1X20_ROUND | 148.3741 | -80.8736 | 180.0 | top | 
+| JP2 | nan | 1X20_ROUND | 148.3741 | -129.1336 | 180.0 | top | 
+| Q1 | MMBT2222 | SOT23-BEC | 143.8021 | -122.2756 | -90.0 | top | 
+| R1 | 10 | 0805-NO | 143.5481 | -119.2276 | 0.0 | top | 
+| R2 | 10 | 0805-NO | 143.5481 | -117.1956 | 0.0 | top | 
+| R3 | 10 | 0805-NO | 143.5481 | -115.1636 | 0.0 | top | 
+| R4 | 10 | 0805-NO | 143.5481 | -113.1316 | 0.0 | top | 
+| R5 | 1K | 0805-NO | 140.5001 | -122.2756 | 90.0 | top | 
+| R6 | 10K | R0805 | 154.9781 | -85.6996 | -90.0 | top | 
+| R7 | 1K | 0805-NO | 152.5651 | -123.4186 | 0.0 | top | 
+| R8 | 10K | 0805-NO | 136.6901 | -111.0996 | 0.0 | top | 
+| R9 | 10K | 0805-NO | 136.6901 | -113.2586 | 0.0 | top | 
+| R10 | 10K | 0805-NO | 136.6901 | -118.7196 | 180.0 | top | 
+| R11 | 10K | 0805-NO | 136.6901 | -116.6876 | 180.0 | top | 
+| R12 | 10K | 0805-NO | 161.4551 | -85.5726 | 90.0 | top | 
+| SJ1 | nan | SOLDERJUMPER_ARROW_NOPASTE | 140.1191 | -118.7196 | 0.0 | top | 
+| SJ2 | nan | SOLDERJUMPER_ARROW_NOPASTE | 140.1191 | -116.6876 | 0.0 | top | 
+| SJ3 | nan | SOLDERJUMPER_ARROW_NOPASTE | 140.1191 | -113.1316 | 180.0 | top | 
+| SJ4 | nan | SOLDERJUMPER_ARROW_NOPASTE | 140.1191 | -111.0996 | 180.0 | top | 
+| U$7 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 119.9261 | -128.7526 | 0.0 | top | 
+| U$9 | FIDUCIAL"" | FIDUCIAL_1MM | 174.4091 | -125.8316 | 0.0 | top | 
+| U$11 | FIDUCIAL"" | FIDUCIAL_1MM | 118.6561 | -84.1756 | 0.0 | top | 
+| U$15 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 177.0761 | -128.7526 | 0.0 | top | 
+| U$16 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 119.9261 | -81.2546 | 0.0 | top | 
+| U$17 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 177.0761 | -81.2546 | 0.0 | top | 
+| U$19 | nan | ADAFRUIT_TEXT_30MM | 178.0921 | -120.1166 | 90.0 | top | 
+| U$23 | FIDUCIAL"" | FIDUCIAL_1MM | 118.6561 | -125.8316 | 0.0 | top | 
+| U$26 | nan | PCBFEAT-REV-040 | 163.9951 | -87.9856 | 90.0 | top | 
+| X1 | nan | MICROSD | 134.4041 | -110.0836 | -90.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| U$10 | DISP_LCD_240X320_50PIN-2.4IN | TFT_2.4IN_240X320_50PIN | 176.5681 | -105.0036 | -90.0 | bottom | 
+

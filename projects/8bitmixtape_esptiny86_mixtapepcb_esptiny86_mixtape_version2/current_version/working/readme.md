@@ -67,3 +67,45 @@
 | SW2, SW3 | 2 | SW_Push | SW_Push | ESPTINY86_MixtapePCB:SW_PUSH-12mm_3D |  |  |  | 
 | U1 | 1 | WeMos_mini | WeMos_mini | ESPTINY86_MixtapePCB:WeMOS_ESP | WeMos D1 mini |  |  | 
 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| nan | nan | MixtapeEdge | 89.0 | -55.9 | 0.0 | top | 
+| nan | nan | ESPTINY_logo | 89.281 | -62.484 | 0.0 | top | 
+| Coconut | LOGO | Coconut_Logo_small_Mask | 88.9635 | -96.4565 | 90.0 | top | 
+| D1 | LED | TopLED_2835 | 131.5325 | -98.044 | 180.0 | top | 
+| D2 | LED | TopLED_2835 | 46.6725 | -98.044 | 0.0 | top | 
+| IC1 | 4051 | 4xxx_SOIC-16W_Pitch1.27mm | 88.9 | -76.2 | 90.0 | top | 
+| IC2 | DAC7513_DCN | SOIC-8_3.9x4.9mm_Pitch1.27mm | 88.9 | -86.36 | 0.0 | top | 
+| J1 | Bat_EXT | Bat_connector+- | 46.736 | -86.868 | 90.0 | top | 
+| NEO1 | LED_SK6813 | Mixtape_NEO_WS2812B | 111.76 | -50.3155 | 90.0 | top | 
+| NEO2 | LED_SK6813 | Mixtape_NEO_WS2812B | 105.1814 | -50.3155 | 90.0 | top | 
+| NEO3 | LED_SK6813 | Mixtape_NEO_WS2812B | 98.6029 | -50.3155 | 90.0 | top | 
+| NEO4 | LED_SK6813 | Mixtape_NEO_WS2812B | 92.0243 | -50.3155 | 90.0 | top | 
+| NEO5 | LED_SK6813 | Mixtape_NEO_WS2812B | 85.4457 | -50.3155 | 90.0 | top | 
+| NEO6 | LED_SK6813 | Mixtape_NEO_WS2812B | 78.8671 | -50.3155 | 90.0 | top | 
+| NEO7 | LED_SK6813 | Mixtape_NEO_WS2812B | 72.2886 | -50.3155 | 90.0 | top | 
+| NEO8 | LED_SK6813 | Mixtape_NEO_WS2812B | 65.71 | -50.3155 | 90.0 | top | 
+| Pot1 | 10k_big | Potentiometer_backPads_noHole | 115.49 | -86.2 | 90.0 | top | 
+| Pot2 | 10k | Potentiometer_backPads_noHole | 72.31 | -86.2 | 90.0 | top | 
+| R1 | R | R_1206_Mixtape | 131.54 | -94.5515 | 180.0 | top | 
+| R2 | R | R_1206_Mixtape | 46.863 | -94.5515 | 180.0 | top | 
+| R3 | 22k | R_1206_Mixtape | 106.934 | -93.694 | -90.0 | top | 
+| R3 | 22k | R_1206_Mixtape | 103.632 | -93.694 | -90.0 | top | 
+| R4 | 10k | R_1206_Mixtape | 74.168 | -93.694 | -90.0 | top | 
+| R5 | 10k | R_1206_Mixtape | 70.866 | -93.694 | -90.0 | top | 
+| SW2 | SW_Push | SW_PUSH-8mm_SMD | 61.2267 | -93.726 | 0.0 | top | 
+| SW3 | SW_Push | SW_PUSH-8mm_SMD | 116.8527 | -93.726 | 0.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| Jack2 | JACK_TRS_6PINS | AUDIO-JACK-3.5mm_SMD_noHole | 138.43 | -76.3905 | 180.0 | bottom | 
+| Jack4 | JACK_TRS_6PINS | AUDIO-JACK-3.5mm_SMD_noHole | 138.43 | -87.1855 | 180.0 | bottom | 
+| Pot3 | 10k | Potentiometer_wheel_inv | 44.45 | -63.5 | 180.0 | bottom | 
+| Pot4 | 10k | Potentiometer_wheel | 133.35 | -63.5 | 0.0 | bottom | 
+| U1 | WeMos_mini | WeMOS_ESP | 88.9 | -88.9 | 180.0 | bottom | 
+

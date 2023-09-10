@@ -63,3 +63,43 @@
 | U$7, U$8, U$9, U$10 | 4 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  | 
 | X1 | 1 | EYE_SPI_DISPLAY_FLIP | EYE_SPI_DISPLAY_FLIP | working:EYE_SPI_DISPLAY_BOTCONTACT |  |  |  | 
 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| C1 | 10uF | 0805-NO | 163.1061 | -113.8936 | 0.0 | top | 
+| C2 | 10uF | 0805-NO | 137.9601 | -97.6376 | 0.0 | top | 
+| C3 | 0.1uF | 0603-NO | 149.2631 | -100.0506 | 90.0 | top | 
+| C4 | 10uF | 0805-NO | 155.3591 | -113.1316 | 90.0 | top | 
+| C5 | 0.1uF | 0603-NO | 134.5311 | -97.1296 | 180.0 | top | 
+| IC2 | AP2112 | SOT23-5L | 158.6611 | -113.1316 | 90.0 | top | 
+| IC4 | APX803-SAG | SOT23 | 140.5001 | -112.8776 | 0.0 | top | 
+| JP1 | nan | 1X11_ROUND_76 | 148.5011 | -118.3386 | 180.0 | top | 
+| Q2 | MICROSD | MICROSD | 150.1521 | -111.2266 | 90.0 | top | 
+| Q3 | BSS138 | SOT23-WIDE | 145.0721 | -98.5266 | 90.0 | top | 
+| R1 | 10K | 0603-NO | 144.6911 | -112.8776 | 90.0 | top | 
+| R2 | 10K | 0603-NO | 137.0711 | -113.1316 | 90.0 | top | 
+| R3 | 10K | 0603-NO | 147.6121 | -100.0506 | -90.0 | top | 
+| R4 | 10K | 0603-NO | 143.0401 | -112.8776 | 90.0 | top | 
+| R5 | 10 | 0603-NO | 141.6431 | -98.5266 | 180.0 | top | 
+| U$2 | nan | PCBFEAT-REV-040 | 133.6421 | -114.5286 | 180.0 | top | 
+| U$4 | FIDUCIAL_1MM | FIDUCIAL_1MM | 165.5191 | -95.3516 | -90.0 | top | 
+| U$5 | FIDUCIAL_1MM | FIDUCIAL_1MM | 131.3561 | -114.9096 | 0.0 | top | 
+| U$21 | nan | ADAFRUIT_3.5MM | 146.7231 | -97.8916 | 0.0 | top | 
+| U$22 | nan | EYESPI_MINI_LOGO | 137.3251 | -109.3216 | 0.0 | top | 
+| U1 | 74HC4050PWR | TSSOP16 | 146.7231 | -105.5116 | 180.0 | top | 
+| X1 | EYE_SPI_DISPLAY_FLIP | EYE_SPI_DISPLAY_BOTCONTACT | 133.5151 | -105.0036 | 90.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| DISP1 | DISP_LCD_GENERIC_SPI_1.47IN_172X320_12P_WRAPUNDER | TFT_1.47IN_172X320_12P | 149.5171 | -105.0036 | 90.0 | bottom | 
+| U$1 | nan | ADAFRUIT_3.5MM | 139.3571 | -94.2086 | 180.0 | bottom | 
+| U$7 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 164.3761 | -92.3036 | -90.0 | bottom | 
+| U$8 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 132.6261 | -92.3036 | -90.0 | bottom | 
+| U$9 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 164.3761 | -117.7036 | -90.0 | bottom | 
+| U$10 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 132.6261 | -117.7036 | -90.0 | bottom | 
+| U$20 | nan | ADAFRUIT_3.5MM | 161.7091 | -94.3356 | 180.0 | bottom | 
+

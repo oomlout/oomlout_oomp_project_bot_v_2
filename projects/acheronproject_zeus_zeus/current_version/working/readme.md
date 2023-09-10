@@ -40,3 +40,5 @@
 | R5, R6, R7 | 3 | 10k/0.25W | R_Small |  | Resistor, small symbol |  |  | 
 | U1 | 1 | TL431LP | TL431LP | Package_TO_SOT_THT:TO-92_Inline | Shunt Regulator, TO-92 |  |  | 
 
+
+

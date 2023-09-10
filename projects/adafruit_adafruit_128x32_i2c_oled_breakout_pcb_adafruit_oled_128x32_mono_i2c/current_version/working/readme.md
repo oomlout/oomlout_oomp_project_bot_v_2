@@ -67,3 +67,52 @@
 | U2 | 1 | AP2112K-3.3 | VREG_SOT23-5 | working:SOT23-5 |  |  |  | 
 | U$1, U$17, U$19, U$21 | 4 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  | 
 
+
+## mounting_holes
+| x | y | package | value | ref | size | 
+| --- | --- | --- | --- | --- | --- | 
+| 162.4711 | -113.2586 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$1 | m3 | 
+| 134.5311 | -113.2586 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$17 | m3 | 
+| 162.4711 | -96.7486 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$19 | m3 | 
+| 134.5311 | -96.7486 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$21 | m3 | 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| C1 | 0.1uF | 0603-NO | 151.9301 | -108.8136 | -90.0 | top | 
+| C2 | 10uF | 0805-NO | 144.9451 | -100.1776 | 0.0 | top | 
+| C3 | 10uF | 0805-NO | 146.8501 | -106.7816 | 0.0 | top | 
+| C4 | 1uF | 0805-NO | 141.2621 | -110.4646 | 0.0 | top | 
+| C5 | 1uF | 0805-NO | 141.2621 | -108.5596 | 180.0 | top | 
+| C6 | 1uF | 0805-NO | 141.2621 | -106.2736 | 180.0 | top | 
+| C7 | 1uF | 0805-NO | 141.2621 | -104.3686 | 180.0 | top | 
+| C8 | 10uF | 0805-NO | 141.2621 | -99.0346 | 180.0 | top | 
+| C9 | 10uF | 0805-NO | 141.2621 | -100.9396 | 180.0 | top | 
+| CONN4 | STEMMA_I2C_QT | JST_SH4 | 162.3441 | -104.7496 | 90.0 | top | 
+| D1 | GREEN | CHIPLED_0603_NOOUTLINE | 163.3601 | -109.3216 | 90.0 | top | 
+| D2 | 1N4148 | SOD-323F | 149.3901 | -100.1776 | 0.0 | top | 
+| FID3 | FIDUCIAL_1MM | FIDUCIAL_1MM | 163.8681 | -99.8601 | 180.0 | top | 
+| FID4 | FIDUCIAL_1MM | FIDUCIAL_1MM | 137.8331 | -113.5507 | 180.0 | top | 
+| IC5 | APX803 | SOT23 | 149.3901 | -104.4956 | 180.0 | top | 
+| Q2 | BSS138 | SOT363 | 154.3431 | -107.9246 | 90.0 | top | 
+| R1 | 10K | 0603-NO | 160.4391 | -109.3216 | 180.0 | top | 
+| R2 | 390K | 0603-NO | 141.2621 | -102.5906 | 180.0 | top | 
+| R3 | 10K | RESPACK_4X0603 | 154.3431 | -103.7336 | -90.0 | top | 
+| R5 | 10K | 0603-NO | 149.3901 | -101.7016 | 0.0 | top | 
+| U$1 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 162.4711 | -113.2586 | 180.0 | top | 
+| U$17 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 134.5311 | -113.2586 | 180.0 | top | 
+| U$19 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 162.4711 | -96.7486 | 180.0 | top | 
+| U$21 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 134.5311 | -96.7486 | 180.0 | top | 
+| U$22 | nan | ADAFRUIT_3.5MM | 147.3581 | -110.5916 | 0.0 | top | 
+| U$25 | nan | PCBFEAT-REV-040 | 137.8331 | -98.1456 | 180.0 | top | 
+| U$31 | nan | STEMMAQT | 156.2481 | -101.0666 | -90.0 | top | 
+| U2 | AP2112K-3.3 | SOT23-5 | 144.9451 | -103.6066 | 180.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| JP1 | nan | 1X06_ROUND_70 | 148.5011 | -113.1316 | 0.0 | bottom | 
+| LCD1 | nan | UG-2832HSWEG02_WRAPUNDER | 134.2771 | -104.8726 | 180.0 | bottom | 
+

@@ -68,3 +68,38 @@
 | X4 | 1 | microsd | MICROSD | working:MICROSD |  |  |  | 
 | Y1 | 1 | 32khz | CRYSTAL8.0X3.8 | working:CRYSTAL_8X3.8 |  |  |  | 
 
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| B1 | cr1220 | CR1220-2 | 133.1341 | -103.6066 | 0.0 | top | 
+| C1 | 10uF | 0805-NO | 154.3431 | -109.7026 | 180.0 | top | 
+| C2 | 10uF | 0805-NO | 147.8661 | -110.3376 | 180.0 | top | 
+| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM | 170.4721 | -101.4476 | 0.0 | top | 
+| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM | 127.9271 | -111.6076 | 0.0 | top | 
+| IC1 | PCF8523T | SOIC8_150MIL | 150.2791 | -106.1466 | -90.0 | top | 
+| INT1 | nan | 1X01_ROUND | 143.8021 | -106.0196 | 0.0 | top | 
+| JP1 | nan | 1X11_ROUND | 154.8511 | -96.8756 | 0.0 | top | 
+| JP2 | nan | 1X16_ROUND | 148.5011 | -113.1316 | 180.0 | top | 
+| JP3 | nan | 1X01_ROUND | 142.1511 | -99.0346 | 0.0 | top | 
+| MS1 | FEATHERWING_NODIM | FEATHERWING_NODIM | 123.1011 | -116.4336 | 0.0 | top | 
+| R1 | 10K | 0603-NO | 151.8031 | -110.3376 | -90.0 | top | 
+| R2 | 10K | 0603-NO | 150.4061 | -110.3376 | -90.0 | top | 
+| R3 | 100K | 0603-NO | 155.2321 | -103.7336 | -90.0 | top | 
+| R4 | 1K | 0603-NO | 155.2321 | -106.7816 | -90.0 | top | 
+| SDCS0 | nan | 1X01_ROUND | 155.4861 | -101.1936 | 0.0 | top | 
+| SJ1 | nan | SOLDERJUMPER_CLOSEDWIRE | 154.7241 | -98.9076 | 0.0 | top | 
+| SW1 | KMR2 | BTN_KMR2_4.6X2.8 | 143.5481 | -108.6866 | 180.0 | top | 
+| U$4 | nan | ADAFRUIT_3.5MM | 123.4821 | -111.6076 | 0.0 | top | 
+| U$5 | nan | PCBFEAT-REV-040 | 124.7521 | -99.6696 | 0.0 | top | 
+| X4 | microsd | MICROSD | 156.8831 | -112.1156 | 90.0 | top | 
+| Y1 | 32khz | CRYSTAL_8X3.8 | 148.2471 | -100.6856 | 0.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| U$2 | nan | FEATHERLOGO | 153.9621 | -111.9886 | 180.0 | bottom | 
+| U$3 | nan | ADALOGGER_LOGO | 167.4241 | -104.7496 | 180.0 | bottom | 
+
