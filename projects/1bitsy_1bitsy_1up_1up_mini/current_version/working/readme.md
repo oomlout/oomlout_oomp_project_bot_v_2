@@ -67,3 +67,4 @@
 | U9 | 1 | lcd_cap_touch_buydisplay | LCD_CAP_TOUCH | pkl_connectors:ER-CON06HB |  |  |  | 
 | U10 | 1 | TPS2111A | TPS2111A | Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm |  |  |  | 
 
+
