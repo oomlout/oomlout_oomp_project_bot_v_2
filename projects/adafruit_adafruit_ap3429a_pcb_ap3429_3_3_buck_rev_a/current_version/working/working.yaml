@@ -1,4 +1,80 @@
 board: ap3429_3_3_buck_rev_a
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '3'
+  Ref: C1, C2, C3
+  Value: 22uF
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '1'
+  Ref: FID1
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: VREG_BUCK_5PIN_AP3429/A
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: IC1
+  Value: VREG_BUCK_5PIN_AP3429/A
+  Vendor: ''
+- Cmp name: HEADER-1X4ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X04_ROUND
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X4ROUND
+  Vendor: ''
+- Cmp name: INDUCTORNRH2412T
+  DNP: ''
+  Description: ''
+  Footprint: working:INDUCTOR_TAIYOYUDEN_NRH2412T
+  Qnty: '1'
+  Ref: L1
+  Value: SDER041H-2R2MS
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: R1, R3
+  Value: 100K
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R2
+  Value: 450K
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '1'
+  Ref: U$9
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3 | 3 | 22uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| FID1\
+  \ | 1 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| IC1 |\
+  \ 1 | VREG_BUCK_5PIN_AP3429/A | VREG_BUCK_5PIN_AP3429/A | working:SOT23-5 |  | \
+  \ |  | \n| JP1 | 1 | HEADER-1X4ROUND | HEADER-1X4ROUND | working:1X04_ROUND |  |\
+  \  |  | \n| L1 | 1 | SDER041H-2R2MS | INDUCTORNRH2412T | working:INDUCTOR_TAIYOYUDEN_NRH2412T\
+  \ |  |  |  | \n| R1, R3 | 2 | 100K | RESISTOR_0603_NOOUT | working:0603-NO |  |\
+  \  |  | \n| R2 | 1 | 450K | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n\
+  | U$9 | 1 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_ap3429a_pcb_ap3429_3_3_buck_rev_a/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_ap3429a_pcb_ap3429_3_3_buck_rev_a/current_version/working/working.sch

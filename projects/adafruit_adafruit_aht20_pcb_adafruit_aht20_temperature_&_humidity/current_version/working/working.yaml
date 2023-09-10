@@ -1,4 +1,240 @@
 board: adafruit_aht20_temperature_&_humidity
+bom:
+- Id: '1'
+  Designator: CONN3,CONN4
+  Footprint: JST_SH4
+  Quantity: '2'
+  Designation: STEMMA_I2C_QT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$28
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R5
+  Footprint: RESPACK_4X0603
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$25,U$19,U$20,U$22
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '4'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C5
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: FID3,FID4
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U1
+  Footprint: SNR6-1.0-3X3X1MM
+  Quantity: '1'
+  Designation: AHT20
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: JP2
+  Footprint: 1X04_ROUND_76
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: C6
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: D1
+  Footprint: CHIPLED_0603_NOOUTLINE
+  Quantity: '1'
+  Designation: GREEN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: R1
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: '220'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U$31,U$30
+  Footprint: STEMMAQT
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U$29
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | CONN3,CONN4\
+  \ | JST_SH4 | 2 | STEMMA_I2C_QT |  |  | [''] | \n| 2 | U$28 | ADAFRUIT_3.5MM | 1\
+  \ |  |  |  | [''] | \n| 3 | R5 | RESPACK_4X0603 | 1 | 10K |  |  | [''] | \n| 4 |\
+  \ U$25,U$19,U$20,U$22 | MOUNTINGHOLE_2.5_PLATED | 4 | MOUNTINGHOLE2.5 |  |  | ['']\
+  \ | \n| 5 | C5 | 0805-NO | 1 | 10uF |  |  | [''] | \n| 6 | FID3,FID4 | FIDUCIAL_1MM\
+  \ | 2 | FIDUCIAL_1MM |  |  | [''] | \n| 7 | U1 | SNR6-1.0-3X3X1MM | 1 | AHT20 |\
+  \  |  | [''] | \n| 8 | JP2 | 1X04_ROUND_76 | 1 |  |  |  | [''] | \n| 9 | C6 | 0603-NO\
+  \ | 1 | 0.1uF |  |  | [''] | \n| 10 | D1 | CHIPLED_0603_NOOUTLINE | 1 | GREEN |\
+  \  |  | [''] | \n| 11 | R1 | 0603-NO | 1 | 220 |  |  | [''] | \n| 12 | U$31,U$30\
+  \ | STEMMAQT | 2 |  |  |  | [''] | \n| 13 | U$29 | PCBFEAT-REV-040 | 1 |  |  | \
+  \ | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C5
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: C6
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: STEMMA_I2C_QT
+  DNP: ''
+  Description: ''
+  Footprint: working:JST_SH4
+  Qnty: '2'
+  Ref: CONN3, CONN4
+  Value: STEMMA_I2C_QT
+  Vendor: ''
+- Cmp name: LED0603_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0603_NOOUTLINE
+  Qnty: '1'
+  Ref: D1
+  Value: GREEN
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID3, FID4
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: HEADER-1X476MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X04_ROUND_76
+  Qnty: '1'
+  Ref: JP2
+  Value: HEADER-1X476MIL
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R1
+  Value: '220'
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603
+  Qnty: '1'
+  Ref: R5
+  Value: 10K
+  Vendor: ''
+- Cmp name: SENSOR-AHT20
+  DNP: ''
+  Description: ''
+  Footprint: working:SNR6-1.0-3X3X1MM
+  Qnty: '1'
+  Ref: U1
+  Value: AHT20
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '4'
+  Ref: U$19, U$20, U$22, U$25
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C5 |\
+  \ 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C6 | 1 |\
+  \ 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| CONN3, CONN4 | 2 |\
+  \ STEMMA_I2C_QT | STEMMA_I2C_QT | working:JST_SH4 |  |  |  | \n| D1 | 1 | GREEN\
+  \ | LED0603_NOOUTLINE | working:CHIPLED_0603_NOOUTLINE |  |  |  | \n| FID3, FID4\
+  \ | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| JP2 |\
+  \ 1 | HEADER-1X476MIL | HEADER-1X476MIL | working:1X04_ROUND_76 |  |  |  | \n| R1\
+  \ | 1 | 220 | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n| R5 | 1 | 10K\
+  \ | RESISTOR_4PACK | working:RESPACK_4X0603 |  |  |  | \n| U1 | 1 | AHT20 | SENSOR-AHT20\
+  \ | working:SNR6-1.0-3X3X1MM |  |  |  | \n| U$19, U$20, U$22, U$25 | 4 | MOUNTINGHOLE2.5\
+  \ | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_aht20_pcb_adafruit_aht20_temperature_&_humidity/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_aht20_pcb_adafruit_aht20_temperature_&_humidity/current_version/working/working.sch

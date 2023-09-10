@@ -1,4 +1,159 @@
 board: adafruit_adxl335
+bom:
+- Id: '1'
+  Designator: IC2
+  Footprint: SOT23-5L
+  Quantity: '1'
+  Designation: LP298XS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C1,C5
+  Footprint: C0805K
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C2,C4,C3
+  Footprint: C0805K
+  Quantity: '3'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$8,U$5
+  Footprint: MOUNTINGHOLE_2.0_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.0
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$2,U$1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: JP2
+  Footprint: 1X07_ROUND_76
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: IC1
+  Footprint: 16LCSP
+  Quantity: '1'
+  Designation: ADXL33X
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U$4
+  Footprint: ADAFRUIT_2.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | IC2\
+  \ | SOT23-5L | 1 | LP298XS |  |  | [''] | \n| 2 | C1,C5 | C0805K | 2 | 10uF |  |\
+  \  | [''] | \n| 3 | C2,C4,C3 | C0805K | 3 | 0.1uF |  |  | [''] | \n| 4 | U$8,U$5\
+  \ | MOUNTINGHOLE_2.0_PLATED | 2 | MOUNTINGHOLE2.0 |  |  | [''] | \n| 5 | U$2,U$1\
+  \ | FIDUCIAL_1MM | 2 | FIDUCIAL |  |  | [''] | \n| 6 | JP2 | 1X07_ROUND_76 | 1 |\
+  \  |  |  | [''] | \n| 7 | IC1 | 16LCSP | 1 | ADXL33X |  |  | [''] | \n| 8 | U$4\
+  \ | ADAFRUIT_2.5MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C-USC0805K
+  DNP: ''
+  Description: ''
+  Footprint: working:C0805K
+  Qnty: '2'
+  Ref: C1, C5
+  Value: 10uF
+  Vendor: ''
+- Cmp name: C-USC0805K
+  DNP: ''
+  Description: ''
+  Footprint: working:C0805K
+  Qnty: '3'
+  Ref: C2, C3, C4
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: ADXL33X
+  DNP: ''
+  Description: ''
+  Footprint: working:16LCSP
+  Qnty: '1'
+  Ref: IC1
+  Value: ADXL33X
+  Vendor: ''
+- Cmp name: LP298XS
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5L
+  Qnty: '1'
+  Ref: IC2
+  Value: LP298XS
+  Vendor: ''
+- Cmp name: HEADER-1X7THICKER
+  DNP: ''
+  Description: ''
+  Footprint: working:1X07_ROUND_76
+  Qnty: '1'
+  Ref: JP2
+  Value: HEADER-1X7THICKER
+  Vendor: ''
+- Cmp name: FIDUCIAL
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: U$1, U$2
+  Value: FIDUCIAL
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.0
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.0_PLATED
+  Qnty: '2'
+  Ref: U$5, U$8
+  Value: MOUNTINGHOLE2.0
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C5\
+  \ | 2 | 10uF | C-USC0805K | working:C0805K |  |  |  | \n| C2, C3, C4 | 3 | 0.1uF\
+  \ | C-USC0805K | working:C0805K |  |  |  | \n| IC1 | 1 | ADXL33X | ADXL33X | working:16LCSP\
+  \ |  |  |  | \n| IC2 | 1 | LP298XS | LP298XS | working:SOT23-5L |  |  |  | \n| JP2\
+  \ | 1 | HEADER-1X7THICKER | HEADER-1X7THICKER | working:1X07_ROUND_76 |  |  |  |\
+  \ \n| U$1, U$2 | 2 | FIDUCIAL | FIDUCIAL | working:FIDUCIAL_1MM |  |  |  | \n| U$5,\
+  \ U$8 | 2 | MOUNTINGHOLE2.0 | MOUNTINGHOLE2.0 | working:MOUNTINGHOLE_2.0_PLATED\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_analog_accelerometers_pcbs_adafruit_adxl335/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_analog_accelerometers_pcbs_adafruit_adxl335/current_version/working/working.sch

@@ -1,4 +1,200 @@
 board: adafruit_eyes_bonnet
+bom:
+- Id: '1'
+  Designator: U$8
+  Footprint: BONNET_EYES_REVA
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: CONN1
+  Footprint: 1X25_ROUND_70MIL
+  Quantity: '1'
+  Designation: HEADER-1X25
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: JP2,JP4,JP3,JP1
+  Footprint: 1X11_ROUND
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C1
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: "10\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: JP10,JP8,JP9
+  Footprint: 1X04_ROUND
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: JP5,JP6,JP7
+  Footprint: 1X03_ROUND_76
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: FID2,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U1
+  Footprint: MSOP10
+  Quantity: '1'
+  Designation: ADS1015IDGST
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R4
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: RPI1
+  Footprint: PI_BONNET
+  Quantity: '1'
+  Designation: RASPBERRYPI_BPLUS_PHAT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U$8\
+  \ | BONNET_EYES_REVA | 1 |  |  |  | [''] | \n| 2 | CONN1 | 1X25_ROUND_70MIL | 1\
+  \ | HEADER-1X25 |  |  | [''] | \n| 3 | JP2,JP4,JP3,JP1 | 1X11_ROUND | 4 |  |  |\
+  \  | [''] | \n| 4 | C1 | 0805-NO | 1 | 10\xC2\xB5F |  |  | [''] | \n| 5 | JP10,JP8,JP9\
+  \ | 1X04_ROUND | 3 |  |  |  | [''] | \n| 6 | JP5,JP6,JP7 | 1X03_ROUND_76 | 3 | \
+  \ |  |  | [''] | \n| 7 | FID2,FID1 | FIDUCIAL_1MM | 2 | FIDUCIAL\" |  |  | ['']\
+  \ | \n| 8 | U1 | MSOP10 | 1 | ADS1015IDGST |  |  | [''] | \n| 9 | R4 | 0805-NO |\
+  \ 1 | 10K |  |  | [''] | \n| 10 | RPI1 | PI_BONNET | 1 | RASPBERRYPI_BPLUS_PHAT\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C1
+  Value: "10\xC2\xB5F"
+  Vendor: ''
+- Cmp name: HEADER-1X25
+  DNP: ''
+  Description: ''
+  Footprint: working:1X25_ROUND_70MIL
+  Qnty: '1'
+  Ref: CONN1
+  Value: HEADER-1X25
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: HEADER-1X11
+  DNP: ''
+  Description: ''
+  Footprint: working:1X11_ROUND
+  Qnty: '4'
+  Ref: JP1, JP2, JP3, JP4
+  Value: HEADER-1X11
+  Vendor: ''
+- Cmp name: HEADER-1X376MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X03_ROUND_76
+  Qnty: '3'
+  Ref: JP5, JP6, JP7
+  Value: HEADER-1X376MIL
+  Vendor: ''
+- Cmp name: HEADER-1X4ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X04_ROUND
+  Qnty: '3'
+  Ref: JP8, JP9, JP10
+  Value: HEADER-1X4ROUND
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: R4
+  Value: 10K
+  Vendor: ''
+- Cmp name: RASPBERRYPI_BPLUS_PHAT
+  DNP: ''
+  Description: ''
+  Footprint: working:PI_BONNET
+  Qnty: '1'
+  Ref: RPI1
+  Value: RASPBERRYPI_BPLUS_PHAT
+  Vendor: ''
+- Cmp name: ADC_ADS1015
+  DNP: ''
+  Description: ''
+  Footprint: working:MSOP10
+  Qnty: '1'
+  Ref: U1
+  Value: ADS1015IDGST
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 10\xC2\xB5F | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| CONN1\
+  \ | 1 | HEADER-1X25 | HEADER-1X25 | working:1X25_ROUND_70MIL |  |  |  | \n| FID1,\
+  \ FID2 | 2 | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM\
+  \ |  |  |  | \n| JP1, JP2, JP3, JP4 | 4 | HEADER-1X11 | HEADER-1X11 | working:1X11_ROUND\
+  \ |  |  |  | \n| JP5, JP6, JP7 | 3 | HEADER-1X376MIL | HEADER-1X376MIL | working:1X03_ROUND_76\
+  \ |  |  |  | \n| JP8, JP9, JP10 | 3 | HEADER-1X4ROUND | HEADER-1X4ROUND | working:1X04_ROUND\
+  \ |  |  |  | \n| R4 | 1 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |\
+  \  | \n| RPI1 | 1 | RASPBERRYPI_BPLUS_PHAT | RASPBERRYPI_BPLUS_PHAT | working:PI_BONNET\
+  \ |  |  |  | \n| U1 | 1 | ADS1015IDGST | ADC_ADS1015 | working:MSOP10 |  |  |  |\
+  \ \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_animated_eyes_bonnet_pcb_adafruit_eyes_bonnet/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_animated_eyes_bonnet_pcb_adafruit_eyes_bonnet/current_version/working/working.sch

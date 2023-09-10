@@ -6,6 +6,8 @@ def main():
     fast = False
     
 
+
+
     import action_generate_readmes
     print("Generating readmes")
     action_generate_readmes.main()
@@ -20,7 +22,7 @@ def main():
     if not fast:
         comment = "Updating readmes and images"
     import oom_git
-    oom_git.push_to_git(comment=comment)
+    #oom_git.push_to_git(comment=comment)
 
 if __name__ == '__main__':
     main()

@@ -1,4 +1,268 @@
 board: adafruit_airlift_bitsy_add_on
+bom:
+- Id: '1'
+  Designator: IC3
+  Footprint: SOT23-5L
+  Quantity: '1'
+  Designation: 74AHC1G125
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D7
+  Footprint: RGBLED_3535_PLCC6
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$62
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R2
+  Footprint: RESPACK_4X0603_NO
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C1,C5,C4,C3,C2
+  Footprint: 0805-NO
+  Quantity: '5'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U5
+  Footprint: ARDUINO-UCS&SOCS_NINA-W1X
+  Quantity: '1'
+  Designation: NINA-W102
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U$34,U$35
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: JP2,JP4
+  Footprint: 1X14_ROUND70
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: C6
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R1
+  Footprint: RESPACK_4X0603_NO
+  Quantity: '1'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: IC4
+  Footprint: SOIC8_150MIL
+  Quantity: '1'
+  Designation: ATECCX08
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: SW2
+  Footprint: BTN_KMR2_4.6X2.8
+  Quantity: '1'
+  Designation: KMR2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: SJ6,SJ8,SJ7
+  Footprint: SOLDERJUMPER_ARROW_NOPASTE
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: U$6
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | IC3\
+  \ | SOT23-5L | 1 | 74AHC1G125 |  |  | [''] | \n| 2 | D7 | RGBLED_3535_PLCC6 | 1\
+  \ |  |  |  | [''] | \n| 3 | U$62 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n| 4 |\
+  \ R2 | RESPACK_4X0603_NO | 1 | 10K |  |  | [''] | \n| 5 | C1,C5,C4,C3,C2 | 0805-NO\
+  \ | 5 | 10uF |  |  | [''] | \n| 6 | U5 | ARDUINO-UCS&SOCS_NINA-W1X | 1 | NINA-W102\
+  \ |  |  | [''] | \n| 7 | U$34,U$35 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | ['']\
+  \ | \n| 8 | JP2,JP4 | 1X14_ROUND70 | 2 |  |  |  | [''] | \n| 9 | C6 | 0603-NO |\
+  \ 1 | 0.1uF |  |  | [''] | \n| 10 | R1 | RESPACK_4X0603_NO | 1 | 1K |  |  | ['']\
+  \ | \n| 11 | IC4 | SOIC8_150MIL | 1 | ATECCX08 |  |  | [''] | \n| 12 | SW2 | BTN_KMR2_4.6X2.8\
+  \ | 1 | KMR2 |  |  | [''] | \n| 13 | SJ6,SJ8,SJ7 | SOLDERJUMPER_ARROW_NOPASTE |\
+  \ 3 |  |  |  | [''] | \n| 14 | U$6 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '5'
+  Ref: C1, C2, C3, C4, C5
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: C6
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: LED_RGB_PLCC63535
+  DNP: ''
+  Description: ''
+  Footprint: working:RGBLED_3535_PLCC6
+  Qnty: '1'
+  Ref: D7
+  Value: LED_RGB_PLCC63535
+  Vendor: ''
+- Cmp name: 74AHC1G125
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5L
+  Qnty: '1'
+  Ref: IC3
+  Value: 74AHC1G125
+  Vendor: ''
+- Cmp name: ATECCX08
+  DNP: ''
+  Description: ''
+  Footprint: working:SOIC8_150MIL
+  Qnty: '1'
+  Ref: IC4
+  Value: ATECCX08
+  Vendor: ''
+- Cmp name: HEADER-1X14
+  DNP: ''
+  Description: ''
+  Footprint: working:1X14_ROUND70
+  Qnty: '2'
+  Ref: JP2, JP4
+  Value: HEADER-1X14
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603_NO
+  Qnty: '1'
+  Ref: R1
+  Value: 1K
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603_NO
+  Qnty: '1'
+  Ref: R2
+  Value: 10K
+  Vendor: ''
+- Cmp name: SOLDERJUMPER
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_ARROW_NOPASTE
+  Qnty: '3'
+  Ref: SJ6, SJ7, SJ8
+  Value: SOLDERJUMPER
+  Vendor: ''
+- Cmp name: SWITCH_TACT_SMT4.6X2.8
+  DNP: ''
+  Description: ''
+  Footprint: working:BTN_KMR2_4.6X2.8
+  Qnty: '1'
+  Ref: SW2
+  Value: KMR2
+  Vendor: ''
+- Cmp name: NINA-W10XNINA-W10X
+  DNP: ''
+  Description: ''
+  Footprint: working:ARDUINO-UCS&SOCS_NINA-W1X
+  Qnty: '1'
+  Ref: U5
+  Value: NINA-W10XNINA-W10X
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: U$34, U$35
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3, C4, C5 | 5 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  |\
+  \ \n| C6 | 1 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| D7 |\
+  \ 1 | LED_RGB_PLCC63535 | LED_RGB_PLCC63535 | working:RGBLED_3535_PLCC6 |  |  |\
+  \  | \n| IC3 | 1 | 74AHC1G125 | 74AHC1G125 | working:SOT23-5L |  |  |  | \n| IC4\
+  \ | 1 | ATECCX08 | ATECCX08 | working:SOIC8_150MIL |  |  |  | \n| JP2, JP4 | 2 |\
+  \ HEADER-1X14 | HEADER-1X14 | working:1X14_ROUND70 |  |  |  | \n| R1 | 1 | 1K |\
+  \ RESISTOR_4PACK_NO | working:RESPACK_4X0603_NO |  |  |  | \n| R2 | 1 | 10K | RESISTOR_4PACK_NO\
+  \ | working:RESPACK_4X0603_NO |  |  |  | \n| SJ6, SJ7, SJ8 | 3 | SOLDERJUMPER |\
+  \ SOLDERJUMPER | working:SOLDERJUMPER_ARROW_NOPASTE |  |  |  | \n| SW2 | 1 | KMR2\
+  \ | SWITCH_TACT_SMT4.6X2.8 | working:BTN_KMR2_4.6X2.8 |  |  |  | \n| U5 | 1 | NINA-W10XNINA-W10X\
+  \ | NINA-W10XNINA-W10X | working:ARDUINO-UCS&SOCS_NINA-W1X |  |  |  | \n| U$34,\
+  \ U$35 | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_airlift_bitsy_add_on_pcb_adafruit_airlift_bitsy_add_on/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_airlift_bitsy_add_on_pcb_adafruit_airlift_bitsy_add_on/current_version/working/working.sch
