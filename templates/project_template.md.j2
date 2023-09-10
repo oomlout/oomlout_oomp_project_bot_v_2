@@ -32,9 +32,12 @@
 {% if "bom_schematic" in p %}## bom_schematic
 {{ p.bom_schematic_markdown }}
 {% endif %}
-{% if "pos_top" in p %}## positions
+{% if "mounting_holes" in p %}## mounting_holes
+{{ p.mounting_holes_markdown }}
+{% endif %}
+{% if "position_top" in p %}## positions
 ### top
-{{ p.pos_top_markdown }}
+{{ p.position_top_markdown }}
 ### bottom
-{{ p.pos_bottom_markdown }}
+{{ p.position_bottom_markdown }}
 {% endif %}

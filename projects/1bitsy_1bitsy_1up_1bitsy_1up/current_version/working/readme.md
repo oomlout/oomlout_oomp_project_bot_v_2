@@ -72,91 +72,102 @@
 
 
 
+## mounting_holes
+| x | y | package | value | ref | size | 
+| --- | --- | --- | --- | --- | --- | 
+| 107.5 | -33.5 | MountingHole_3-5mm | MountingHole_3-5mm | REF** | m3 | 
+| 33.5 | -33.5 | MountingHole_3-5mm | MountingHole_3-5mm | REF** | m3 | 
+| 107.5 | -40.5 | MountingHole_3-5mm | MountingHole_3-5mm | REF** | m3 | 
+| 50.5 | -33.5 | MountingHole_3-5mm | MountingHole_3-5mm | REF** | m3 | 
+| 89.0 | -160.0 | MountingHole_3-5mm | MountingHole_3-5mm | REF** | m3 | 
+| 107.0 | -119.0 | MountingHole_3-5mm | MountingHole_3-5mm | REF** | m3 | 
+| 36.0 | -119.0 | MountingHole_3-5mm | MountingHole_3-5mm | REF** | m3 | 
+
+
 ## positions
 ### top
-| # Ref     Val                      Package                             PosX       PosY       Rot  Side | 
-| --- | 
-| P1        PogoPin                  PAD_MILL-MAX_0906                31.8000   -97.6000    0.0000  top | 
-| REF**     MountingHole_3-5mm       MountingHole_3-5mm              107.5000   -33.5000    0.0000  top | 
-| REF**     MountingHole_3-5mm       MountingHole_3-5mm               33.5000   -33.5000    0.0000  top | 
-| REF**     MountingHole_3-5mm       MountingHole_3-5mm              107.5000   -40.5000    0.0000  top | 
-| REF**     MountingHole_3-5mm       MountingHole_3-5mm               50.5000   -33.5000    0.0000  top | 
-| REF**     MountingHole_3-5mm       MountingHole_3-5mm               89.0000  -160.0000    0.0000  top | 
-| REF**     MountingHole_3-5mm       MountingHole_3-5mm              107.0000  -119.0000    0.0000  top | 
-| REF**     MountingHole_3-5mm       MountingHole_3-5mm               36.0000  -119.0000    0.0000  top | 
-| REF**     ER-TFT028-4-mechanical   ER-TFT028-4-mechanical           70.5000   -64.0000  -90.0000  top | 
-| SW1       UP                       Tact_Switch_Top_TH_7.8MM_Snap    45.0000  -119.0000  180.0000  top | 
-| SW2       Y                        Tact_Switch_Top_TH_7.8MM_Snap    83.0000  -124.5000  180.0000  top | 
-| SW3       LEFT                     Tact_Switch_Top_TH_7.8MM_Snap    37.0000  -127.0000  180.0000  top | 
-| SW4       RIGHT                    Tact_Switch_Top_TH_7.8MM_Snap    53.0000  -127.0000  180.0000  top | 
-| SW5       X                        Tact_Switch_Top_TH_7.8MM_Snap    98.0000  -119.5000  180.0000  top | 
-| SW6       A                        Tact_Switch_Top_TH_7.8MM_Snap   103.0000  -129.5000    0.0000  top | 
-| SW7       SELECT                   Tact_Switch_Top_TH_7.8MM_Snap    58.0000  -145.0000   37.0000  top | 
-| SW8       DOWN                     Tact_Switch_Top_TH_7.8MM_Snap    45.0000  -135.0000    0.0000  top | 
-| SW9       B                        Tact_Switch_Top_TH_7.8MM_Snap    88.0000  -134.5000    0.0000  top | 
-| SW10      START                    Tact_Switch_Top_TH_7.8MM_Snap    73.0000  -145.0000   37.0000  top | 
-| U1        1bitsy-complete-concise  1bitsy-sl-1xx-xx-19              31.3210  -108.2531   90.0000  top | 
-| ## End | 
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| P1 | PogoPin | PAD_MILL-MAX_0906 | 31.8 | -97.6 | 0.0 | top | 
+| REF** | MountingHole_3-5mm | MountingHole_3-5mm | 107.5 | -33.5 | 0.0 | top | 
+| REF** | MountingHole_3-5mm | MountingHole_3-5mm | 33.5 | -33.5 | 0.0 | top | 
+| REF** | MountingHole_3-5mm | MountingHole_3-5mm | 107.5 | -40.5 | 0.0 | top | 
+| REF** | MountingHole_3-5mm | MountingHole_3-5mm | 50.5 | -33.5 | 0.0 | top | 
+| REF** | MountingHole_3-5mm | MountingHole_3-5mm | 89.0 | -160.0 | 0.0 | top | 
+| REF** | MountingHole_3-5mm | MountingHole_3-5mm | 107.0 | -119.0 | 0.0 | top | 
+| REF** | MountingHole_3-5mm | MountingHole_3-5mm | 36.0 | -119.0 | 0.0 | top | 
+| REF** | ER-TFT028-4-mechanical | ER-TFT028-4-mechanical | 70.5 | -64.0 | -90.0 | top | 
+| SW1 | UP | Tact_Switch_Top_TH_7.8MM_Snap | 45.0 | -119.0 | 180.0 | top | 
+| SW2 | Y | Tact_Switch_Top_TH_7.8MM_Snap | 83.0 | -124.5 | 180.0 | top | 
+| SW3 | LEFT | Tact_Switch_Top_TH_7.8MM_Snap | 37.0 | -127.0 | 180.0 | top | 
+| SW4 | RIGHT | Tact_Switch_Top_TH_7.8MM_Snap | 53.0 | -127.0 | 180.0 | top | 
+| SW5 | X | Tact_Switch_Top_TH_7.8MM_Snap | 98.0 | -119.5 | 180.0 | top | 
+| SW6 | A | Tact_Switch_Top_TH_7.8MM_Snap | 103.0 | -129.5 | 0.0 | top | 
+| SW7 | SELECT | Tact_Switch_Top_TH_7.8MM_Snap | 58.0 | -145.0 | 37.0 | top | 
+| SW8 | DOWN | Tact_Switch_Top_TH_7.8MM_Snap | 45.0 | -135.0 | 0.0 | top | 
+| SW9 | B | Tact_Switch_Top_TH_7.8MM_Snap | 88.0 | -134.5 | 0.0 | top | 
+| SW10 | START | Tact_Switch_Top_TH_7.8MM_Snap | 73.0 | -145.0 | 37.0 | top | 
+| U1 | 1bitsy-complete-concise | 1bitsy-sl-1xx-xx-19 | 31.321 | -108.2531 | 90.0 | top | 
 
 ### bottom
-| BT1       Battery_Cell              BATTERY_CLIP_18650              70.5000  -144.5000    0.0000  bottom | 
-| --- | 
-| C1        10u                       C_0805                          63.7750   -56.0500  180.0000  bottom | 
-| C2        100n                      C_0402                          63.3000   -58.5000  180.0000  bottom | 
-| C3        100n                      C_0402                          63.3000   -57.5000  180.0000  bottom | 
-| C4        1u                        C_0402                          75.7000  -154.6000  -90.0000  bottom | 
-| C5        1u                        C_0402                          76.7000  -154.6000  -90.0000  bottom | 
-| C6        1u                        C_0402                          56.4000  -158.3000   90.0000  bottom | 
-| C7        1u                        C_0402                          59.0000  -155.4000  180.0000  bottom | 
-| C8        2u2                       C_0402                          56.4000  -156.4000  -90.0000  bottom | 
-| C9        1u                        C_0402                          57.5000  -160.6000    0.0000  bottom | 
-| C10       100n                      C_0402                          65.4000  -131.2000   90.0000  bottom | 
-| C11       100n                      C_0402                          65.4000  -124.4000   90.0000  bottom | 
-| C12       100n                      C_0402                          83.8000  -159.0000   90.0000  bottom | 
-| CON1      pkl_Micro_SD              SCHA4B0419                      90.5000   -45.8000    0.0000  bottom | 
-| D1        YEL                       D_0603                          44.6000  -162.0000    0.0000  bottom | 
-| D2        GRN                       D_0603                          49.5000  -162.0000  180.0000  bottom | 
-| J1        pkl_jumper                J_0402                          63.3000   -54.6000  180.0000  bottom | 
-| J2        pkl_jumper                J_0402                          63.3000   -53.5000  180.0000  bottom | 
-| J3        pkl_jumper                J_0402                          63.3000   -52.4000  180.0000  bottom | 
-| J4        pkl_jumper                J_0402                          63.3000   -51.3000  180.0000  bottom | 
-| J6        Jumper_Dual               J_0602                          58.8000  -161.7000    0.0000  bottom | 
-| J7        pkl_JACK_3C1S             SJ2-35853B-SMT                  68.0000  -158.0000   90.0000  bottom | 
-| Q1        NMOS                      SOT-23                          60.2000   -80.7000   90.0000  bottom | 
-| R1        10E                       R_0603                          63.2000   -79.2000    0.0000  bottom | 
-| R2        10E                       R_0603                          63.2000   -77.7000    0.0000  bottom | 
-| R3        10E                       R_0603                          63.2000   -76.2000    0.0000  bottom | 
-| R4        10E                       R_0603                          63.2000   -74.7000    0.0000  bottom | 
-| R5        10k                       R_0402                          63.3000   -59.5000  180.0000  bottom | 
-| R6        10k                       R_Array_Convex_4x0402           75.2000  -133.3000   90.0000  bottom | 
-| R7        10k                       R_Array_Convex_4x0402           65.8000  -133.3000  -90.0000  bottom | 
-| R8        10k                       R_0402                          72.2000   -46.3000   90.0000  bottom | 
-| R9        10k                       R_0402                          72.2000   -44.4000  -90.0000  bottom | 
-| R10       10k                       R_Array_Convex_4x0402           75.2000  -126.5000   90.0000  bottom | 
-| R11       10k                       R_Array_Convex_4x0402           65.8000  -126.5000  -90.0000  bottom | 
-| R12       10k                       R_0402                          45.6000  -152.9000  180.0000  bottom | 
-| R13       10k                       R_0402                          57.5000  -154.9000  -90.0000  bottom | 
-| R14       50E                       R_0402                          75.7000  -156.5000   90.0000  bottom | 
-| R15       50E                       R_0402                          76.7000  -156.5000   90.0000  bottom | 
-| R16       10k                       R_0402                          44.6000  -160.7000    0.0000  bottom | 
-| R17       10k                       R_0402                          45.6000  -153.9000  180.0000  bottom | 
-| R18       0E                        R_0402                          43.5000  -157.5000  -90.0000  bottom | 
-| R19       590E                      R_0402                          43.5000  -155.1000   90.0000  bottom | 
-| R20       1k1                       R_0402                          45.6000  -159.1000  180.0000  bottom | 
-| R21       10k                       R_0402                          49.5000  -160.7000  180.0000  bottom | 
-| R22       10k                       R_0402                          48.6000  -153.9000    0.0000  bottom | 
-| R23       10k                       R_0402                          60.1000  -160.6000    0.0000  bottom | 
-| R24       4k7                       R_0402                          50.9000  -155.5000    0.0000  bottom | 
-| R25       10k                       R_0402                          50.9000  -156.5000  180.0000  bottom | 
-| SW11      pkl_SWITCH-SPDT           SW_SPDT_PCM12                   41.5000   -33.0000    0.0000  bottom | 
-| SW12      ~                         Tact_Switch_Side_B3U-3000P     109.5000   -60.2500    0.0000  bottom | 
-| SW13      ~                         Tact_Switch_Side_B3U-3000P     109.5000   -65.7500    0.0000  bottom | 
-| U2        lcd_50pin_logic           ER-CON50HT                      57.8000   -64.0000   90.0000  bottom | 
-| U3        lcd_cap_touch_buydisplay  ER-CON06HB                      67.5000   -44.8000   90.0000  bottom | 
-| U4        74HC165                   TSSOP-16_4.4x5mm_Pitch0.65mm    70.5000  -133.3000  180.0000  bottom | 
-| U5        74HC165                   TSSOP-16_4.4x5mm_Pitch0.65mm    70.5000  -126.5000  180.0000  bottom | 
-| U6        BQ24075                   QFN-16-1EP_3x3mm_Pitch0.5mm     47.0000  -156.5000  -90.0000  bottom | 
-| U7        TPA6135A2                 QFN-16-1EP_3x3mm_Pitch0.5mm     59.0000  -158.0000  180.0000  bottom | 
-| U8        MCP4661-103E/ML           QFN-16-1EP_4x4mm_Pitch0.65mm    79.9000  -158.2000   90.0000  bottom | 
-| ## End | 
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| BT1 | Battery_Cell | BATTERY_CLIP_18650 | 70.5 | -144.5 | 0.0 | bottom | 
+| C1 | 10u | C_0805 | 63.775 | -56.05 | 180.0 | bottom | 
+| C2 | 100n | C_0402 | 63.3 | -58.5 | 180.0 | bottom | 
+| C3 | 100n | C_0402 | 63.3 | -57.5 | 180.0 | bottom | 
+| C4 | 1u | C_0402 | 75.7 | -154.6 | -90.0 | bottom | 
+| C5 | 1u | C_0402 | 76.7 | -154.6 | -90.0 | bottom | 
+| C6 | 1u | C_0402 | 56.4 | -158.3 | 90.0 | bottom | 
+| C7 | 1u | C_0402 | 59.0 | -155.4 | 180.0 | bottom | 
+| C8 | 2u2 | C_0402 | 56.4 | -156.4 | -90.0 | bottom | 
+| C9 | 1u | C_0402 | 57.5 | -160.6 | 0.0 | bottom | 
+| C10 | 100n | C_0402 | 65.4 | -131.2 | 90.0 | bottom | 
+| C11 | 100n | C_0402 | 65.4 | -124.4 | 90.0 | bottom | 
+| C12 | 100n | C_0402 | 83.8 | -159.0 | 90.0 | bottom | 
+| CON1 | pkl_Micro_SD | SCHA4B0419 | 90.5 | -45.8 | 0.0 | bottom | 
+| D1 | YEL | D_0603 | 44.6 | -162.0 | 0.0 | bottom | 
+| D2 | GRN | D_0603 | 49.5 | -162.0 | 180.0 | bottom | 
+| J1 | pkl_jumper | J_0402 | 63.3 | -54.6 | 180.0 | bottom | 
+| J2 | pkl_jumper | J_0402 | 63.3 | -53.5 | 180.0 | bottom | 
+| J3 | pkl_jumper | J_0402 | 63.3 | -52.4 | 180.0 | bottom | 
+| J4 | pkl_jumper | J_0402 | 63.3 | -51.3 | 180.0 | bottom | 
+| J6 | Jumper_Dual | J_0602 | 58.8 | -161.7 | 0.0 | bottom | 
+| J7 | pkl_JACK_3C1S | SJ2-35853B-SMT | 68.0 | -158.0 | 90.0 | bottom | 
+| Q1 | NMOS | SOT-23 | 60.2 | -80.7 | 90.0 | bottom | 
+| R1 | 10E | R_0603 | 63.2 | -79.2 | 0.0 | bottom | 
+| R2 | 10E | R_0603 | 63.2 | -77.7 | 0.0 | bottom | 
+| R3 | 10E | R_0603 | 63.2 | -76.2 | 0.0 | bottom | 
+| R4 | 10E | R_0603 | 63.2 | -74.7 | 0.0 | bottom | 
+| R5 | 10k | R_0402 | 63.3 | -59.5 | 180.0 | bottom | 
+| R6 | 10k | R_Array_Convex_4x0402 | 75.2 | -133.3 | 90.0 | bottom | 
+| R7 | 10k | R_Array_Convex_4x0402 | 65.8 | -133.3 | -90.0 | bottom | 
+| R8 | 10k | R_0402 | 72.2 | -46.3 | 90.0 | bottom | 
+| R9 | 10k | R_0402 | 72.2 | -44.4 | -90.0 | bottom | 
+| R10 | 10k | R_Array_Convex_4x0402 | 75.2 | -126.5 | 90.0 | bottom | 
+| R11 | 10k | R_Array_Convex_4x0402 | 65.8 | -126.5 | -90.0 | bottom | 
+| R12 | 10k | R_0402 | 45.6 | -152.9 | 180.0 | bottom | 
+| R13 | 10k | R_0402 | 57.5 | -154.9 | -90.0 | bottom | 
+| R14 | 50E | R_0402 | 75.7 | -156.5 | 90.0 | bottom | 
+| R15 | 50E | R_0402 | 76.7 | -156.5 | 90.0 | bottom | 
+| R16 | 10k | R_0402 | 44.6 | -160.7 | 0.0 | bottom | 
+| R17 | 10k | R_0402 | 45.6 | -153.9 | 180.0 | bottom | 
+| R18 | 0E | R_0402 | 43.5 | -157.5 | -90.0 | bottom | 
+| R19 | 590E | R_0402 | 43.5 | -155.1 | 90.0 | bottom | 
+| R20 | 1k1 | R_0402 | 45.6 | -159.1 | 180.0 | bottom | 
+| R21 | 10k | R_0402 | 49.5 | -160.7 | 180.0 | bottom | 
+| R22 | 10k | R_0402 | 48.6 | -153.9 | 0.0 | bottom | 
+| R23 | 10k | R_0402 | 60.1 | -160.6 | 0.0 | bottom | 
+| R24 | 4k7 | R_0402 | 50.9 | -155.5 | 0.0 | bottom | 
+| R25 | 10k | R_0402 | 50.9 | -156.5 | 180.0 | bottom | 
+| SW11 | pkl_SWITCH-SPDT | SW_SPDT_PCM12 | 41.5 | -33.0 | 0.0 | bottom | 
+| SW12 | ~ | Tact_Switch_Side_B3U-3000P | 109.5 | -60.25 | 0.0 | bottom | 
+| SW13 | ~ | Tact_Switch_Side_B3U-3000P | 109.5 | -65.75 | 0.0 | bottom | 
+| U2 | lcd_50pin_logic | ER-CON50HT | 57.8 | -64.0 | 90.0 | bottom | 
+| U3 | lcd_cap_touch_buydisplay | ER-CON06HB | 67.5 | -44.8 | 90.0 | bottom | 
+| U4 | 74HC165 | TSSOP-16_4.4x5mm_Pitch0.65mm | 70.5 | -133.3 | 180.0 | bottom | 
+| U5 | 74HC165 | TSSOP-16_4.4x5mm_Pitch0.65mm | 70.5 | -126.5 | 180.0 | bottom | 
+| U6 | BQ24075 | QFN-16-1EP_3x3mm_Pitch0.5mm | 47.0 | -156.5 | -90.0 | bottom | 
+| U7 | TPA6135A2 | QFN-16-1EP_3x3mm_Pitch0.5mm | 59.0 | -158.0 | 180.0 | bottom | 
+| U8 | MCP4661-103E/ML | QFN-16-1EP_4x4mm_Pitch0.65mm | 79.9 | -158.2 | 90.0 | bottom | 
 

@@ -68,3 +68,4 @@
 | U10 | 1 | TPS2111A | TPS2111A | Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm |  |  |  | 
 
 
+

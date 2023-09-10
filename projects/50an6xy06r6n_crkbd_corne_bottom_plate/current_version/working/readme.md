@@ -33,3 +33,21 @@
 
 ## bom_schematic
 no data
+
+
+## positions
+### top
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| nan | nan | M2_Hole_TH | -115.25 | -18.75 | 0.0 | top | 
+| nan | nan | M2_Hole_TH | -115.25 | -37.5 | 0.0 | top | 
+| nan | nan | M2_Hole_TH | -39.25 | -15.0 | 0.0 | top | 
+| nan | nan | M2_Hole_TH | -72.0 | -54.75 | 0.0 | top | 
+| nan | nan | M2_Hole_TH | -25.5 | -62.5 | 0.0 | top | 
+| G*** | LOGO | corne-horizontal | -67.23 | -28.53 | 0.0 | top | 
+
+### bottom
+| # Ref | Val | Package | PosX | PosY | Rot | Side | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| G*** | LOGO | corne-horizontal | -67.31 | -28.53 | 180.0 | bottom | 
+
