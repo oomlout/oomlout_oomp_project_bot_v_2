@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\adafruit_adafruit_ds2413_pcb_adafruit_ds2413\current_version\working\working.kicad_sch</source>
+    <date>11/09/2023 17:03:00</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="CN1">
+      <value>1X4-CLEANBIG</value>
+      <footprint>working:1X04-CLEANBIG</footprint>
+      <libsource lib="working-eagle-import" part="1X4-CLEANBIG" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>146e0ef9-9194-482d-a15b-40ce7409f299</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>FIDUCIAL""</value>
+      <footprint>working:FIDUCIAL_1MM</footprint>
+      <libsource lib="working-eagle-import" part="FIDUCIAL{dblquote}{dblquote}" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fde3cb39-3919-4d97-8fd2-1d20b970f326</tstamps>
+    </comp>
+    <comp ref="U$4">
+      <value>MOUNTINGHOLE2.5</value>
+      <footprint>working:MOUNTINGHOLE_2.5_PLATED</footprint>
+      <libsource lib="working-eagle-import" part="MOUNTINGHOLE2.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81e9b479-5147-497a-98f9-e306abc10473</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>DS2413</value>
+      <footprint>working:DS2413_TSOC6L</footprint>
+      <libsource lib="working-eagle-import" part="DS2413TSOC" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b751b9e-6bf8-4cad-9769-b0f49f446e4b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="working-eagle-import" part="1X4-CLEANBIG">
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Footprint">working:1X04-CLEANBIG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+        <pin num="3" name="3" type="bidirectional"/>
+        <pin num="4" name="4" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="working-eagle-import" part="DS2413TSOC">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">working:DS2413_TSOC6L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND@1" type="power_in"/>
+        <pin num="2" name="IO" type="bidirectional"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="PIOB" type="bidirectional"/>
+        <pin num="5" name="GND@2" type="power_in"/>
+        <pin num="6" name="PIOA" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="working-eagle-import" part="FIDUCIAL{dblquote}{dblquote}">
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Footprint">working:FIDUCIAL_1MM</field>
+      </fields>
+    </libpart>
+    <libpart lib="working-eagle-import" part="MOUNTINGHOLE2.5">
+      <fields>
+        <field name="Footprint">working:MOUNTINGHOLE_2.5_PLATED</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/IO">
+      <node ref="CN1" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="U1" pin="2" pinfunction="IO" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/PIOA">
+      <node ref="CN1" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="U1" pin="6" pinfunction="PIOA" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/PIOB">
+      <node ref="CN1" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="U1" pin="4" pinfunction="PIOB" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="CN1" pin="4" pinfunction="4" pintype="bidirectional"/>
+      <node ref="U1" pin="1" pinfunction="GND@1" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="GND@2" pintype="power_in"/>
+    </net>
+    <net code="5" name="unconnected-(U1-NC-Pad3)">
+      <node ref="U1" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
