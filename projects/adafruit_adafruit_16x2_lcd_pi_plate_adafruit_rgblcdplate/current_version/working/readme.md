@@ -56,28 +56,3 @@
 
 
 
-## positions
-### top
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| BLUE0 | 220 | 0207_10 | 182.4921 | -81.6956 | 0.0 | top | 
-| DOWN0 | nan | B3F-10XX | 177.4121 | -129.7016 | 0.0 | top | 
-| GREEN0 | 330 | 0207_10 | 169.7921 | -81.6956 | 180.0 | top | 
-| IC1 | MCP23017SP2 | DIL28-3-ROUND | 124.9611 | -126.3996 | 180.0 | top | 
-| LEFT0 | nan | B3F-10XX | 167.7601 | -126.1456 | -90.0 | top | 
-| RED0 | 220 | 0207_10 | 157.0921 | -81.6956 | 0.0 | top | 
-| RIGHT0 | nan | B3F-10XX | 186.5561 | -126.3996 | 90.0 | top | 
-| SELECT0 | nan | B3F-10XX | 157.8541 | -125.8916 | 0.0 | top | 
-| TM1 | 10K | 6MM | 148.4561 | -126.1456 | 0.0 | top | 
-| U$1 | HD44780LCD_RGBLONGPINS | LCD1602-RGB | 148.5831 | -101.3806 | 0.0 | top | 
-| U$2 | nan | ADAFRUIT_5MM | 141.2171 | -82.8386 | 0.0 | top | 
-| U$4 | RASPBERRYPI_BB | RASBERRYPI_SHIELD | 191.0011 | -133.0036 | 90.0 | top | 
-| UP0 | nan | B3F-10XX | 177.4121 | -123.0976 | 0.0 | top | 
-
-### bottom
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| A0 | nan | SOLDERJUMPER_2WAY_OPEN_NOPASTE | 108.9591 | -126.3996 | 90.0 | bottom | 
-| A1 | nan | SOLDERJUMPER_2WAY_OPEN_NOPASTE | 112.7691 | -126.3996 | 90.0 | bottom | 
-| A2 | nan | SOLDERJUMPER_2WAY_OPEN_NOPASTE | 116.5791 | -126.3996 | 90.0 | bottom | 
-

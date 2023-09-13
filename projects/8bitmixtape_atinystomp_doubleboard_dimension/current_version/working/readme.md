@@ -29,12 +29,3 @@
 
 
 
-## positions
-### top
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| G*** | LOGO | LOGO | 0.0 | 0.0 | 0.0 | top | 
-| G*** | LOGO | LOGO | 0.0 | 0.0 | 0.0 | top | 
-
-### bottom
-no data

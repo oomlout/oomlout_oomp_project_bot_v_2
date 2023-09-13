@@ -69,58 +69,9 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 119.9261 | -146.5961 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$7 | m3 | 
-| 177.0761 | -146.5961 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$15 | m3 | 
-| 119.9261 | -63.4111 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$16 | m3 | 
-| 177.0761 | -63.4111 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$17 | m3 | 
+| 0.0 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$7 | m3 | 
+| 57.14999999999999 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$15 | m3 | 
+| 0.0 | 83.185 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$16 | m3 | 
+| 57.14999999999999 | 83.185 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$17 | m3 | 
 
-
-## positions
-### top
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 0.1uF | 0805-NO | 129.7051 | -97.3201 | 180.0 | top | 
-| C2 | 10uF | 0805-NO | 171.1071 | -137.4521 | 0.0 | top | 
-| C3 | 10uF | 0805-NO | 168.0591 | -101.1301 | 0.0 | top | 
-| C4 | 0.1uF | 0805-NO | 134.7851 | -104.3051 | 90.0 | top | 
-| C5 | 10uF | 0805-NO | 171.2341 | -107.7341 | 0.0 | top | 
-| IC1 | APA2112-3.3 | SOT23-5L | 168.0591 | -105.7021 | 0.0 | top | 
-| IC2 | 74LVC245 | SO20W | 148.7551 | -87.4141 | 180.0 | top | 
-| IC3 | 74LVC245 | SO20W | 163.7411 | -87.6681 | 180.0 | top | 
-| IC4 | APX803-SAG | SOT23 | 154.0891 | -96.8121 | 0.0 | top | 
-| JP1 | nan | 1X20_ROUND | 148.5011 | -63.4111 | 180.0 | top | 
-| JP2 | nan | 1X20_ROUND | 148.5011 | -146.5961 | 180.0 | top | 
-| Q1 | MMBT2222 | SOT23-BEC | 131.2291 | -105.0671 | 180.0 | top | 
-| R1 | 10 | 0805-NO | 134.7851 | -107.9881 | -90.0 | top | 
-| R2 | 10 | 0805-NO | 136.6901 | -107.9881 | -90.0 | top | 
-| R3 | 10 | 0805-NO | 138.5951 | -107.9881 | -90.0 | top | 
-| R4 | 10 | 0805-NO | 159.6771 | -107.7341 | -90.0 | top | 
-| R5 | 1K | 0805-NO | 129.8321 | -100.7491 | 0.0 | top | 
-| R6 | 10K | R0805 | 156.8831 | -96.0501 | 90.0 | top | 
-| R7 | 1K | 0805-NO | 157.0101 | -73.9521 | 0.0 | top | 
-| R8 | 10K | 0805-NO | 126.0221 | -133.3881 | 90.0 | top | 
-| R9 | 10K | 0805-NO | 128.4351 | -134.0231 | 90.0 | top | 
-| R10 | 10K | 0805-NO | 133.6421 | -134.0231 | -90.0 | top | 
-| R11 | 10K | 0805-NO | 130.9751 | -134.0231 | -90.0 | top | 
-| R12 | 10K | 0805-NO | 156.2481 | -82.4611 | -90.0 | top | 
-| R13 | 10 | 0805-NO | 132.8801 | -107.9881 | -90.0 | top | 
-| R14 | 10 | 0805-NO | 161.5821 | -107.7341 | -90.0 | top | 
-| SJ1 | nan | SOLDERJUMPER_ARROW_NOPASTE | 126.1491 | -116.8781 | 180.0 | top | 
-| SJ2 | nan | SOLDERJUMPER_ARROW_NOPASTE | 126.1491 | -113.0681 | 180.0 | top | 
-| SJ3 | nan | SOLDERJUMPER_ARROW_NOPASTE | 126.1491 | -109.1311 | 0.0 | top | 
-| SJ4 | nan | SOLDERJUMPER_ARROW_NOPASTE | 126.1491 | -105.0671 | 0.0 | top | 
-| U$7 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN | 119.9261 | -146.5961 | 0.0 | top | 
-| U$9 | FIDUCIAL"" | FIDUCIAL_1MM | 172.1231 | -121.4501 | 0.0 | top | 
-| U$11 | FIDUCIAL"" | FIDUCIAL_1MM | 126.1491 | -73.0631 | 0.0 | top | 
-| U$15 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN | 177.0761 | -146.5961 | 0.0 | top | 
-| U$16 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN | 119.9261 | -63.4111 | 0.0 | top | 
-| U$17 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN | 177.0761 | -63.4111 | 0.0 | top | 
-| U$19 | nan | ADAFRUIT_TEXT_30MM | 130.7211 | -104.1781 | 0.0 | top | 
-| U$23 | FIDUCIAL"" | FIDUCIAL_1MM | 132.4991 | -113.8301 | 0.0 | top | 
-| X1 | nan | MICROSD | 140.1191 | -75.8571 | -90.0 | top | 
-
-### bottom
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| U$24 | DISP_LCD_6LED_240X320_50PIN | TFT_3.2IN_240X320_50PIN | 148.5011 | -104.0511 | 180.0 | bottom | 
 

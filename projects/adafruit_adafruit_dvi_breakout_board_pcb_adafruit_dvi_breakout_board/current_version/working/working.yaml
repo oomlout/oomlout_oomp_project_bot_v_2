@@ -1,9 +1,348 @@
 board: adafruit_dvi_breakout_board
+bom:
+- Id: '1'
+  Designator: U$33,U$32
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U2
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: 24LC02BT-I/OT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R2,R5
+  Footprint: RESPACK_4X0603
+  Quantity: '2'
+  Designation: '220'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: JP3
+  Footprint: 1X11_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: X1
+  Footprint: HDMI_MOLEX_47151-0001
+  Quantity: '1'
+  Designation: 47151-0001
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R1
+  Footprint: RESPACK_4X0603
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C1
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: JP1
+  Footprint: 1X03_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: FID2,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U$73
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U$6
+  Footprint: ADAFRUIT_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U$33,U$32\
+  \ | MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5 |  |  | [''] | \n| 2 | U2 | SOT23-5\
+  \ | 1 | 24LC02BT-I/OT |  |  | [''] | \n| 3 | R2,R5 | RESPACK_4X0603 | 2 | 220 |\
+  \  |  | [''] | \n| 4 | JP3 | 1X11_ROUND | 1 |  |  |  | [''] | \n| 5 | X1 | HDMI_MOLEX_47151-0001\
+  \ | 1 | 47151-0001 |  |  | [''] | \n| 6 | R1 | RESPACK_4X0603 | 1 | 10K |  |  |\
+  \ [''] | \n| 7 | C1 | 0603-NO | 1 | 1uF |  |  | [''] | \n| 8 | JP1 | 1X03_ROUND\
+  \ | 1 |  |  |  | [''] | \n| 9 | FID2,FID1 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |\
+  \  | [''] | \n| 10 | U$73 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n| 11 | U$6 |\
+  \ ADAFRUIT_5MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: C1
+  Value: 1uF
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: HEADER-1X3ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X03_ROUND
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X3ROUND
+  Vendor: ''
+- Cmp name: HEADER-1X11
+  DNP: ''
+  Description: ''
+  Footprint: working:1X11_ROUND
+  Qnty: '1'
+  Ref: JP3
+  Value: HEADER-1X11
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603
+  Qnty: '1'
+  Ref: R1
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603
+  Qnty: '2'
+  Ref: R2, R5
+  Value: '220'
+  Vendor: ''
+- Cmp name: EEPROM_I2C_MCP24AA32
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U2
+  Value: 24LC02BT-I/OT
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '2'
+  Ref: U$32, U$33
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+- Cmp name: HDMI_MOLEX_47151
+  DNP: ''
+  Description: ''
+  Footprint: working:HDMI_MOLEX_47151-0001
+  Qnty: '1'
+  Ref: X1
+  Value: 47151-0001
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| FID1, FID2 | 2 |\
+  \ FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| JP1 | 1 | HEADER-1X3ROUND\
+  \ | HEADER-1X3ROUND | working:1X03_ROUND |  |  |  | \n| JP3 | 1 | HEADER-1X11 |\
+  \ HEADER-1X11 | working:1X11_ROUND |  |  |  | \n| R1 | 1 | 10K | RESISTOR_4PACK\
+  \ | working:RESPACK_4X0603 |  |  |  | \n| R2, R5 | 2 | 220 | RESISTOR_4PACK | working:RESPACK_4X0603\
+  \ |  |  |  | \n| U2 | 1 | 24LC02BT-I/OT | EEPROM_I2C_MCP24AA32 | working:SOT23-5\
+  \ |  |  |  | \n| U$32, U$33 | 2 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED\
+  \ |  |  |  | \n| X1 | 1 | 47151-0001 | HDMI_MOLEX_47151 | working:HDMI_MOLEX_47151-0001\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_dvi_breakout_board_pcb_adafruit_dvi_breakout_board/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_dvi_breakout_board_pcb_adafruit_dvi_breakout_board/current_version/working/working.sch
 id: adafruit_adafruit_dvi_breakout_board_pcb_adafruit_dvi_breakout_board
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$32
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$33
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '25.400000000000006'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$32 | m3 | \n| 25.400000000000006 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$33 | m3 | \n"
 name: adafruit_dvi_breakout_board_pcb
+position_bottom:
+- '# Ref': U$6
+  Package: ADAFRUIT_5MM
+  PosX: 150.7871
+  PosY: -107.2896
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$73
+  Package: PCBFEAT-REV-040
+  PosX: 149.0091
+  PosY: -98.1456
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$6 | nan | ADAFRUIT_5MM | 150.7871\
+  \ | -107.2896 | 180.0 | bottom | \n| U$73 | nan | PCBFEAT-REV-040 | 149.0091 | -98.1456\
+  \ | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0603-NO
+  PosX: 157.1371
+  PosY: -107.6706
+  Rot: -90.0
+  Side: top
+  Val: 1uF
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 158.0261
+  PosY: -96.7486
+  Rot: -90.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 134.5311
+  PosY: -105.7656
+  Rot: -90.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': JP1
+  Package: 1X03_ROUND
+  PosX: 161.2011
+  PosY: -104.3686
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP3
+  Package: 1X11_ROUND
+  PosX: 148.5011
+  PosY: -111.9886
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: RESPACK_4X0603
+  PosX: 153.4541
+  PosY: -107.6706
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: RESPACK_4X0603
+  PosX: 144.4371
+  PosY: -107.6706
+  Rot: 180.0
+  Side: top
+  Val: '220'
+- '# Ref': R5
+  Package: RESPACK_4X0603
+  PosX: 148.8821
+  PosY: -107.6706
+  Rot: 180.0
+  Side: top
+  Val: '220'
+- '# Ref': U$32
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 135.8011
+  PosY: -98.0186
+  Rot: 180.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$33
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 161.2011
+  PosY: -98.0186
+  Rot: 180.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U2
+  Package: SOT23-5
+  PosX: 158.5341
+  PosY: -103.9876
+  Rot: 180.0
+  Side: top
+  Val: 24LC02BT-I/OT
+- '# Ref': X1
+  Package: HDMI_MOLEX_47151-0001
+  PosX: 148.5011
+  PosY: -104.1146
+  Rot: 180.0
+  Side: top
+  Val: 47151-0001
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 1uF | 0603-NO | 157.1371 | -107.6706\
+  \ | -90.0 | top | \n| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM | 158.0261 | -96.7486 |\
+  \ -90.0 | top | \n| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM | 134.5311 | -105.7656 |\
+  \ -90.0 | top | \n| JP1 | nan | 1X03_ROUND | 161.2011 | -104.3686 | 90.0 | top |\
+  \ \n| JP3 | nan | 1X11_ROUND | 148.5011 | -111.9886 | 180.0 | top | \n| R1 | 10K\
+  \ | RESPACK_4X0603 | 153.4541 | -107.6706 | 180.0 | top | \n| R2 | 220 | RESPACK_4X0603\
+  \ | 144.4371 | -107.6706 | 180.0 | top | \n| R5 | 220 | RESPACK_4X0603 | 148.8821\
+  \ | -107.6706 | 180.0 | top | \n| U$32 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 135.8011 | -98.0186 | 180.0 | top | \n| U$33 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 161.2011 | -98.0186 | 180.0 | top | \n| U2 | 24LC02BT-I/OT | SOT23-5 | 158.5341\
+  \ | -103.9876 | 180.0 | top | \n| X1 | 47151-0001 | HDMI_MOLEX_47151-0001 | 148.5011\
+  \ | -104.1146 | 180.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_dvi_breakout_board_pcb_adafruit_dvi_breakout_board/current_version/working
 repo:
   allow_forking: true

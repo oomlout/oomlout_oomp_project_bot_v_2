@@ -35,11 +35,3 @@
 no data
 
 
-## positions
-### top
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| G*** | full_plate_inscription | full_plate_inscription | 330.912 | -156.7 | 0.0 | top | 
-
-### bottom
-no data

@@ -46,28 +46,9 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 163.7411 | -118.9736 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$25 | m3 | 
-| 133.2611 | -118.9736 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$27 | m3 | 
-| 163.7411 | -88.4936 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$29 | m3 | 
-| 133.2611 | -88.4936 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$30 | m3 | 
+| 30.47999999999999 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$25 | m3 | 
+| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$27 | m3 | 
+| 30.47999999999999 | 30.480000000000004 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$29 | m3 | 
+| 0.0 | 30.480000000000004 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$30 | m3 | 
 
-
-## positions
-### top
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| FID3 | FIDUCIAL_1MM | FIDUCIAL_1MM | 132.1181 | -91.8591 | 180.0 | top | 
-| FID4 | FIDUCIAL_1MM | FIDUCIAL_1MM | 165.1381 | -115.8367 | 180.0 | top | 
-| JP3 | nan | 1X09_ROUND_70 | 148.5011 | -122.1486 | 180.0 | top | 
-| U$25 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 163.7411 | -118.9736 | 180.0 | top | 
-| U$27 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 133.2611 | -118.9736 | 180.0 | top | 
-| U$29 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 163.7411 | -88.4936 | 180.0 | top | 
-| U$30 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 133.2611 | -88.4936 | 180.0 | top | 
-| U$32 | nan | ADAFRUIT_3.5MM | 138.3411 | -90.3986 | 0.0 | top | 
-| U$33 | nan | PCBFEAT-REV-040 | 159.0421 | -97.3836 | 180.0 | top | 
-
-### bottom
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| X1 | ENCODER_ANO | ENCODER_ANO | 148.5011 | -103.7336 | -45.0 | bottom | 
 

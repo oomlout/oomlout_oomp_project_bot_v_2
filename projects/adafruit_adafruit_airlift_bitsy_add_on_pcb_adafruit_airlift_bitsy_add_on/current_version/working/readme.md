@@ -60,34 +60,3 @@
 
 
 
-## positions
-### top
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 10uF | 0805-NO | 132.4991 | -108.8136 | 90.0 | top | 
-| C2 | 10uF | 0805-NO | 134.2771 | -108.8136 | 90.0 | top | 
-| C3 | 10uF | 0805-NO | 136.0805 | -108.8009 | 90.0 | top | 
-| C4 | 10uF | 0805-NO | 137.9601 | -108.7882 | 90.0 | top | 
-| C5 | 10uF | 0805-NO | 139.7889 | -108.7882 | 90.0 | top | 
-| C6 | 0.1uF | 0603-NO | 161.4805 | -110.9726 | 0.0 | top | 
-| D7 | nan | RGBLED_3535_PLCC6 | 147.7645 | -101.473 | -90.0 | top | 
-| IC3 | 74AHC1G125 | SOT23-5L | 142.6083 | -108.3818 | 0.0 | top | 
-| IC4 | ATECCX08 | SOIC8_150MIL | 135.1153 | -102.2604 | -90.0 | top | 
-| JP2 | nan | 1X14_ROUND70 | 148.5011 | -97.3836 | 0.0 | top | 
-| JP4 | nan | 1X14_ROUND70 | 148.5011 | -112.6236 | 180.0 | top | 
-| R1 | 1K | RESPACK_4X0603_NO | 143.7005 | -102.5398 | 90.0 | top | 
-| R2 | 10K | RESPACK_4X0603_NO | 140.3731 | -102.9208 | -90.0 | top | 
-| SW2 | KMR2 | BTN_KMR2_4.6X2.8 | 148.1455 | -108.5596 | 0.0 | top | 
-| U$34 | FIDUCIAL_1MM | FIDUCIAL_1MM | 164.0205 | -111.0234 | -90.0 | top | 
-| U$35 | FIDUCIAL_1MM | FIDUCIAL_1MM | 131.6899 | -105.8996 | 90.0 | top | 
-| U$62 | nan | ADAFRUIT_3.5MM | 148.2471 | -106.9086 | 0.0 | top | 
-| U5 | NINA-W102 | ARDUINO-UCS&SOCS_NINA-W1X | 158.0261 | -105.0036 | 180.0 | top | 
-
-### bottom
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| SJ6 | nan | SOLDERJUMPER_ARROW_NOPASTE | 143.0909 | -103.251 | 90.0 | bottom | 
-| SJ7 | nan | SOLDERJUMPER_ARROW_NOPASTE | 140.8303 | -103.251 | 90.0 | bottom | 
-| SJ8 | nan | SOLDERJUMPER_ARROW_NOPASTE | 138.5697 | -103.251 | 90.0 | bottom | 
-| U$6 | nan | PCBFEAT-REV-040 | 164.8206 | -108.8136 | 0.0 | bottom | 
-

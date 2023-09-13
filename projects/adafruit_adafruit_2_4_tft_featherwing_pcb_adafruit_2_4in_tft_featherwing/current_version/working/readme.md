@@ -75,80 +75,9 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 118.6561 | -128.7526 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$9 | m3 | 
-| 118.6561 | -81.2546 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$11 | m3 | 
-| 178.3461 | -128.7526 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$15 | m3 | 
-| 178.3461 | -81.2546 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$17 | m3 | 
+| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$9 | m3 | 
+| 0.0 | 47.498000000000005 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$11 | m3 | 
+| 59.69000000000001 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$15 | m3 | 
+| 59.69000000000001 | 47.498000000000005 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$17 | m3 | 
 
-
-## positions
-### top
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 0.1uF | 0805-NO | 168.0591 | -125.4506 | -90.0 | top | 
-| C3 | 10uF | 0805-NO | 176.8221 | -103.6066 | 0.0 | top | 
-| C4 | 0.1uF | 0805-NO | 153.7081 | -124.6886 | 90.0 | top | 
-| C6 | 10uF | 0805-NO | 147.4851 | -127.6096 | 180.0 | top | 
-| FID1 | FIDUCIAL"" | FIDUCIAL_1MM | 122.7201 | -82.7786 | 0.0 | top | 
-| FID2 | FIDUCIAL"" | FIDUCIAL_1MM | 174.7901 | -130.0226 | 0.0 | top | 
-| FID3 | FIDUCIAL"" | FIDUCIAL_1MM | 117.8941 | -124.1806 | 0.0 | top | 
-| IC5 | APX803 | SOT23 | 164.7571 | -125.5776 | 90.0 | top | 
-| MS2 | FEATHERWING_SMTDUAL | FEATHERWING_SMT2 | 143.1671 | -131.2926 | 90.0 | top | 
-| Q4 | BSS138 | SOT23-WIDE | 150.4061 | -124.4346 | 0.0 | top | 
-| R1 | 10 | 0805-NO | 155.7401 | -124.6886 | 90.0 | top | 
-| R2 | 10 | 0805-NO | 157.7721 | -124.6886 | 90.0 | top | 
-| R3 | 10 | 0805-NO | 159.8041 | -124.6886 | 90.0 | top | 
-| R4 | 10 | 0805-NO | 161.8361 | -124.6886 | 90.0 | top | 
-| R5 | 100K | 0805-NO | 131.6101 | -97.0026 | 0.0 | top | 
-| R6 | 100K | 0805-NO | 131.6101 | -91.9226 | 0.0 | top | 
-| R7 | 10K | 0805-NO | 164.6301 | -123.0376 | 180.0 | top | 
-| R8 | 100K | 0805-NO | 131.6101 | -94.4626 | 0.0 | top | 
-| R12 | 3.9K | 0805-NO | 151.0411 | -127.8636 | 180.0 | top | 
-| SJ1 | nan | SOLDERJUMPER_CLOSEDWIRE | 127.2921 | -97.0026 | 0.0 | top | 
-| SJ2 | nan | SOLDERJUMPER_CLOSEDWIRE | 127.2921 | -94.4626 | 0.0 | top | 
-| SJ3 | nan | SOLDERJUMPER_CLOSEDWIRE | 127.2921 | -91.9226 | 0.0 | top | 
-| SJ4 | nan | SOLDERJUMPER_CLOSEDWIRE | 127.2921 | -99.5426 | 0.0 | top | 
-| SW1 | EVQQ2 | EVQ-Q2_SMALLER | 175.9331 | -121.5136 | -90.0 | top | 
-| SW2 | Slide_Switch | EG1390 | 176.8221 | -110.4646 | 90.0 | top | 
-| TP1 | nan | TESTPOINT_PAD_2MM | 151.4221 | -87.6046 | 0.0 | top | 
-| TP2 | nan | TESTPOINT_PAD_2MM | 160.3121 | -87.6046 | 0.0 | top | 
-| TP3 | nan | TESTPOINT_PAD_2MM | 163.3601 | -87.6046 | 0.0 | top | 
-| TP4 | nan | TESTPOINT_PAD_2MM | 137.7061 | -124.9426 | 0.0 | top | 
-| TP5 | nan | TESTPOINT_PAD_2MM | 137.7061 | -122.4026 | 0.0 | top | 
-| TP6 | nan | TESTPOINT_PAD_2MM | 137.7061 | -119.8626 | 0.0 | top | 
-| TP7 | nan | TESTPOINT_PAD_2MM | 137.7061 | -117.3226 | 180.0 | top | 
-| TP8 | nan | TESTPOINT_PAD_2MM | 137.7061 | -114.7826 | 180.0 | top | 
-| TP9 | nan | TESTPOINT_PAD_2MM | 137.7061 | -112.2426 | 180.0 | top | 
-| TP10 | nan | TESTPOINT_PAD_2MM | 125.7681 | -112.2426 | 180.0 | top | 
-| TP11 | nan | TESTPOINT_PAD_2MM | 137.7061 | -109.7026 | 180.0 | top | 
-| TP12 | nan | TESTPOINT_PAD_2MM | 137.7061 | -107.1626 | 180.0 | top | 
-| TP13 | nan | TESTPOINT_PAD_2MM | 137.7061 | -104.6226 | 180.0 | top | 
-| TP14 | nan | TESTPOINT_PAD_2MM | 137.7061 | -102.0826 | 180.0 | top | 
-| TP15 | nan | TESTPOINT_PAD_2MM | 137.7061 | -99.5426 | 180.0 | top | 
-| TP16 | nan | TESTPOINT_PAD_2MM | 137.7061 | -97.0026 | 180.0 | top | 
-| TP17 | nan | TESTPOINT_PAD_2MM | 137.7061 | -94.4626 | 180.0 | top | 
-| TP18 | nan | TESTPOINT_PAD_2MM | 137.7061 | -91.9226 | 180.0 | top | 
-| TP19 | nan | TESTPOINT_PAD_2MM | 137.7061 | -89.3826 | 180.0 | top | 
-| TP20 | nan | TESTPOINT_PAD_2MM | 137.7061 | -86.8426 | 180.0 | top | 
-| TP21 | nan | TESTPOINT_PAD_2MM | 125.7681 | -114.7826 | 180.0 | top | 
-| TP22 | nan | TESTPOINT_PAD_2MM | 125.7681 | -109.7026 | 180.0 | top | 
-| TP23 | nan | TESTPOINT_PAD_2MM | 125.7681 | -107.1626 | 180.0 | top | 
-| TP24 | nan | TESTPOINT_PAD_2MM | 125.7681 | -104.6226 | 180.0 | top | 
-| TP25 | nan | TESTPOINT_PAD_2MM | 125.7681 | -102.0826 | 180.0 | top | 
-| TP26 | nan | TESTPOINT_PAD_2MM | 125.7681 | -89.3826 | 180.0 | top | 
-| TP27 | nan | TESTPOINT_PAD_2MM | 125.7681 | -86.8426 | 180.0 | top | 
-| U$9 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 118.6561 | -128.7526 | 0.0 | top | 
-| U$11 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 118.6561 | -81.2546 | 0.0 | top | 
-| U$15 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 178.3461 | -128.7526 | 0.0 | top | 
-| U$17 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 178.3461 | -81.2546 | 0.0 | top | 
-| U$29 | nan | FEATHERLOGO_MED | 172.6311 | -120.6246 | 90.0 | top | 
-| U$30 | nan | ADAFRUIT_5MM | 127.8001 | -124.5616 | 0.0 | top | 
-| U$34 | nan | PCBFEAT-REV-040 | 141.5161 | -127.8636 | 0.0 | top | 
-| U2 | STMPE811 | QFN16_3MM | 155.6131 | -86.3346 | 180.0 | top | 
-| X1 | MicroSD_Holder | MICROSD | 165.0111 | -101.3206 | 90.0 | top | 
-
-### bottom
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| U$10 | DISP_LCD_240X320_50PIN-2.4IN | TFT_2.4IN_240X320_50PIN | 177.8381 | -105.0036 | -90.0 | bottom | 
 
