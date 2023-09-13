@@ -12,7 +12,9 @@ def go_through_directories():
             filename = os.path.join(root, file)
             filter = ["sparkfun","adafruit","omerk"]
             filter = ["omerk"]
-            filter = [""]            
+            filter = [""]
+             
+                        
             #if any of filter is in filename
             if any(x in filename for x in filter):
                 if file.endswith(".kicad_pcb"):
