@@ -52,25 +52,6 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 148.5011 | -99.9236 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$9 | m3 | 
+| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$9 | m3 | 
 
-
-## positions
-### top
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 10uF | 0805-NO | 152.0571 | -106.0196 | 90.0 | top | 
-| C2 | 10uF | 0805-NO | 145.3261 | -106.0196 | 90.0 | top | 
-| C3 | 1uF | 0805-NO | 147.2311 | -103.0986 | 0.0 | top | 
-| FID1 | FIDUCIAL"" | FIDUCIAL_1MM | 144.9451 | -99.9236 | 0.0 | top | 
-| IC1 | AP3602 | SOT23-6 | 148.5011 | -106.0196 | 90.0 | top | 
-| JP1 | nan | 1X04_ROUND | 148.5011 | -110.0836 | 180.0 | top | 
-| R1 | 100K | 0805-NO | 151.1681 | -103.0986 | 180.0 | top | 
-| U$9 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 148.5011 | -99.9236 | 0.0 | top | 
-| U$11 | nan | ADAFRUIT_2.5MM | 150.9141 | -101.0666 | 0.0 | top | 
-
-### bottom
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| U$10 | nan | PCBFEAT-REV-040 | 145.1991 | -99.2886 | 180.0 | bottom | 
 

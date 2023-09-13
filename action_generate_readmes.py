@@ -33,6 +33,7 @@ def go_through_directories():
             #remove the directory from the file name
             files[i] = files[i].replace(f"{directory}/","")
         dict_data["files"] = files
+        print(f"making readme for {directory}")
         oom_markdown.get_jinja2_template(file_template=file_template, file_output=file_output, dict_data=dict_data)
         pass
 

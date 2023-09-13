@@ -34,11 +34,3 @@
 no data
 
 
-## positions
-### top
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| nan | nan | mCore_brkout | 107.188 | -77.216 | 0.0 | top | 
-
-### bottom
-no data

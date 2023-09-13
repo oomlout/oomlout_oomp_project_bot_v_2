@@ -13,7 +13,16 @@
 * src_file_repo_sch: kicadFiles/ruler.sch
 * src_file_repo_sch_link: https://github.com/AcheronProject/AcheronRuler/tree/master/kicadFiles/ruler.sch
 
+## schematic  
+![](working_schematic_600.png)  
+[schematic (pdf)](working_schematic.pdf)  
 
+## pcb  
+![](working_3d_600.png) 
+![](working_3d_front_600.png)  
+![](working_3d_back_600.png)  
+![](working_600.png)  
+[board (pdf)](working.pdf)  
 
 ## working_bom
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
@@ -68,47 +77,4 @@
 | U3 | 1 | MCP1700-3302E_SOT23 | MCP1700-3302E_SOT23-Regulator_Linear | Package_TO_SOT_SMD:SOT-23 |  |  |  | 
 
 
-
-## positions
-### top
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| Kailh_Choc | C100 | C100 | -49.415 | -35.69 | 0.0 | top | 
-| L1 | LED | LED_THT_2.54mm | 0.75 | -40.5668 | 0.0 | top | 
-| L1 | LED | LED_THT_2.54mm | -24.015 | -40.5668 | 180.0 | top | 
-| L3 | Acheron_Logo | acheronLong_40x12mm_Plated | -134.9812 | -34.7375 | 0.0 | top | 
-| MX_Switch | MX100 | MX100 | 0.75 | -35.5 | 0.0 | top | 
-
-### bottom
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| 0402 | R_0402_1005Metric | R_0402_1005Metric | -88.728 | -36.166 | -90.0 | bottom | 
-| 0603 | R_0603_1608Metric | R_0603_1608Metric | -91.728 | -36.166 | 90.0 | bottom | 
-| 0603 | Crystal_SMD_0603-2Pin_6.0x3.5mm | Crystal_SMD_0603-2Pin_6.0x3.5mm | -205.244 | -33.15 | 0.0 | bottom | 
-| 0805 | R_0805_2012Metric | R_0805_2012Metric | -94.728 | -36.166 | -90.0 | bottom | 
-| 1206 | R_1206_3216Metric | R_1206_3216Metric | -97.728 | -36.166 | -90.0 | bottom | 
-| 1210 | R_1210_3225Metric | R_1210_3225Metric | -102.12 | -36.198 | 90.0 | bottom | 
-| 1218 | R_1218_3246Metric | R_1218_3246Metric | -107.454 | -36.198 | -90.0 | bottom | 
-| 1806 | R_1806_4516Metric | R_1806_4516Metric | -112.534 | -36.198 | -90.0 | bottom | 
-| 1812 | R_1812_4532Metric | R_1812_4532Metric | -117.106 | -36.198 | -90.0 | bottom | 
-| 2016 | 16MHz | Crystal_SMD_2016-4Pin_2.0x1.6mm | -205.244 | -38.23 | 0.0 | bottom | 
-| 5032_2P | Crystal_SMD_5032-2Pin_5.0x3.2mm | Crystal_SMD_5032-2Pin_5.0x3.2mm | -205.244 | -28.07 | 0.0 | bottom | 
-| 5032_4P | Crystal_SMD_5032-4Pin_5.0x3.2mm | Crystal_SMD_5032-4Pin_5.0x3.2mm | -205.244 | -43.31 | 0.0 | bottom | 
-| 6028_RGB_LED | LED_RGB_SMD_6028_2.8x3.5mm_Round | LED_RGB_SMD_6028_2.8x3.5mm_Round | -230.136 | -26.8 | 0.0 | bottom | 
-| ALPS | MXA100 | MXA100 | -24.0162 | -35.4868 | 180.0 | bottom | 
-| ALPS_EC11Ex | ALPS_EC11E | ALPS_EC11E | -69.989 | -33.785 | 90.0 | bottom | 
-| AXIAL_0.25W | 10k | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | -121.678 | -35.182 | -90.0 | bottom | 
-| DO-35 | D_DO-35_SOD27_P7.62mm | D_DO-35_SOD27_P7.62mm | -257.568 | -35.69 | 90.0 | bottom | 
-| E6C1209RGB | E6C1209RGB | E6C1209RGB | -230.644 | -41.278 | -90.0 | bottom | 
-| J** | USB_MiniB_XM7D-0512 | USB_MiniB_XM7D-0512 | -189.242 | -32.388 | 180.0 | bottom | 
-| J** | USB_MiniB_Hirose_UX60-MB-5S8 | USB_MiniB_Hirose_UX60-MB-5S8 | -164.477 | -37.087 | 180.0 | bottom | 
-| J1 | TYPE-C-31-M12_13 | TYPE-C-31-M-12 | -164.731 | -25.149 | 180.0 | bottom | 
-| QFN-28 | IS31FL3731-QF | QFN-28-1EP_4x4mm_P0.4mm_EP2.3x2.3mm | -268.3313 | -27.5938 | 0.0 | bottom | 
-| QFN-44 | QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm | QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm | -280.2375 | -27.5938 | 0.0 | bottom | 
-| SOD-123 | D_SOD-123 | D_SOD-123 | -253.504 | -35.944 | 90.0 | bottom | 
-| SOD-323 | D_SOD-323 | D_SOD-323 | -249.694 | -35.944 | 90.0 | bottom | 
-| SOD-523 | D_SOD-523 | D_SOD-523 | -245.884 | -35.944 | 90.0 | bottom | 
-| TQFP-44 | TQPF-44_10x10mm_P0.8mm | TQPF-44_10x10mm_P0.8mm | -280.2375 | -41.8813 | 0.0 | bottom | 
-| UQFN-48 | UQFN-48_6x6mm_P0.4mm | UQFN-48-1EP_6x6mm_P0.4mm_EP4.62x4.62mm | -265.95 | -41.8813 | 0.0 | bottom | 
-| WS2812 | LED_WS2812B_5.0x5.0mm_P3.2mm | LED_WS2812B_5.0x5.0mm_P3.2mm | -230.39 | -34.42 | 0.0 | bottom | 
 

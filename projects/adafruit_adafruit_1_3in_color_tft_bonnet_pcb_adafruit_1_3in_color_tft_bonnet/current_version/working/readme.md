@@ -63,37 +63,3 @@
 
 
 
-## positions
-### top
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| C10 | 10uF | 0805-NO | 168.1727 | -105.3478 | 180.0 | top | 
-| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM | 161.6957 | -99.3788 | 0.0 | top | 
-| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM | 132.9965 | -117.3216 | 0.0 | top | 
-| IC1 | APX803 | SOT23 | 120.5477 | -98.9978 | 0.0 | top | 
-| R1 | 10K | 0805-NO | 117.4997 | -98.9978 | 90.0 | top | 
-| R3 | 10K | 0805-NO | 167.1567 | -98.7438 | 90.0 | top | 
-| R11 | 10K | 0805-NO | 170.9847 | -98.7238 | 90.0 | top | 
-| R12 | 10K | 0805-NO | 172.9987 | -98.7438 | 90.0 | top | 
-| R13 | 10K | 0805-NO | 127.4057 | -98.9978 | 90.0 | top | 
-| R14 | 10K | 0805-NO | 130.0057 | -99.0698 | 90.0 | top | 
-| R16 | 10K | 0805-NO | 125.1197 | -98.9978 | -90.0 | top | 
-| R18 | 10K | 0805-NO | 169.0617 | -98.7438 | -90.0 | top | 
-| RPI1 | RASPBERRYPI_BPLUS_BONNETSMT | PI_BONNET_SMT | 116.0011 | -120.3338 | 0.0 | top | 
-| SW1 | EVQQ | 6MMX6MM_TACTILE_SMT | 177.0627 | -104.5858 | -90.0 | top | 
-| SW2 | EVQQ | 6MM_SMT | 169.8237 | -111.0628 | -90.0 | top | 
-| SW3 | NAVSWITCHSKQUABAUE010 | SKQUBAE010 | 124.1037 | -106.8718 | 0.0 | top | 
-| U$2 | nan | PCBFEAT-REV-040 | 179.3487 | -91.6318 | 0.0 | top | 
-| U$28 | nan | ADAFRUIT_5MM | 174.5227 | -114.6188 | 0.0 | top | 
-| U$29 | nan | STEMMAQT | 122.7067 | -119.9528 | 0.0 | top | 
-
-### bottom
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 10uF | 0805-NO | 132.1047 | -117.4128 | 90.0 | bottom | 
-| CONN1 | STEMMA_I2C_QT | JST_SH4 | 127.2787 | -117.7938 | 180.0 | bottom | 
-| DISPLAY1 | DISP_LCD_ST7789_1.3IN | TFT_1.3IN_240X240_24P | 162.1027 | -120.4418 | 180.0 | bottom | 
-| Q3 | BSS138 | SOT23-WIDE | 158.6357 | -101.3638 | -90.0 | bottom | 
-| R2 | 10K | 0603-NO | 161.3147 | -101.4108 | 90.0 | bottom | 
-| R5 | 10 | 0603-NO | 156.8107 | -103.6658 | -90.0 | bottom | 
-

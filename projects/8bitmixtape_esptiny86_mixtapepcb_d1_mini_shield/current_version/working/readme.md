@@ -38,13 +38,3 @@
 
 
 
-## positions
-### top
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| nan | OSHW | OSHW | 128.9 | -82.1 | 0.0 | top | 
-| P1 | CONN_01X08 | D1_mini_Pin_Header | 127.49 | -103.95 | 180.0 | top | 
-| P2 | CONN_01X08 | D1_mini_Pin_Header | 150.35 | -103.95 | 180.0 | top | 
-
-### bottom
-no data

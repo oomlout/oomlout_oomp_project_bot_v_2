@@ -70,48 +70,9 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 170.0911 | -113.8936 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$11 | m3 | 
-| 170.0911 | -96.1136 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$14 | m3 | 
-| 126.9111 | -96.1136 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$15 | m3 | 
-| 126.9111 | -113.8936 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$16 | m3 | 
+| 43.18000000000001 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$11 | m3 | 
+| 43.18000000000001 | 17.78 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$14 | m3 | 
+| 0.0 | 17.78 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$15 | m3 | 
+| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$16 | m3 | 
 
-
-## positions
-### top
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 10uF | _0805MP | 135.7511 | -100.2336 | -90.0 | top | 
-| C2 | 0.1uF | _0805MP | 156.8421 | -109.4276 | 0.0 | top | 
-| C3 | 10uF | _0805MP | 166.8351 | -99.7756 | 180.0 | top | 
-| C4 | 0.01uF | _0805MP | 164.2491 | -95.7326 | 90.0 | top | 
-| C5 | dnp | _0805MP | 162.5981 | -103.2256 | 180.0 | top | 
-| C6 | 0.01uF | _0805MP | 163.1061 | -98.9076 | 180.0 | top | 
-| C7 | dnp | _0805MP | 162.5981 | -106.6546 | 180.0 | top | 
-| FB1 | Ferrite | _0805 | 162.5981 | -108.3056 | 180.0 | top | 
-| FB2 | Ferrite | _0805 | 162.5981 | -104.8766 | 180.0 | top | 
-| FB3 | Ferrite | _0805 | 162.5981 | -100.9396 | 180.0 | top | 
-| FB4 | Ferrite | _0805 | 162.4711 | -95.7326 | 90.0 | top | 
-| FID1 | FIDUCIAL"" | FIDUCIAL_1MM | 129.9591 | -115.2906 | 90.0 | top | 
-| FID2 | FIDUCIAL"" | FIDUCIAL_1MM | 166.7891 | -94.9706 | 90.0 | top | 
-| FID3 | FIDUCIAL"" | FIDUCIAL_1MM | 134.1501 | -95.0976 | 90.0 | top | 
-| IC1 | AR1100_SSOP | TSSOP20-5.3MMBODY | 168.4391 | -105.2376 | 0.0 | top | 
-| J1 | XF2-40-RARBT | 4-1734839-0 | 148.5511 | -95.7336 | 0.0 | top | 
-| J2 | XF2-50-REV | 5-1734839-0-REV | 147.5511 | -114.0836 | 180.0 | top | 
-| LED1 | Green | CHIPLED_0805_NOOUTLINE | 132.0511 | -96.1416 | 0.0 | top | 
-| LED2 | red | CHIPLED_0805_NOOUTLINE | 168.3411 | -110.9796 | 90.0 | top | 
-| R1 | 20K | _0805MP | 170.5361 | -99.9006 | 180.0 | top | 
-| R2 | 1K | _0805MP | 166.7521 | -113.5756 | 90.0 | top | 
-| R3 | 1K | _0805MP | 130.2231 | -96.1296 | 90.0 | top | 
-| U$11 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 170.0911 | -113.8936 | 90.0 | top | 
-| U$14 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 170.0911 | -96.1136 | 90.0 | top | 
-| U$15 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 126.9111 | -96.1136 | 90.0 | top | 
-| U$16 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 126.9111 | -113.8936 | 90.0 | top | 
-| U$19 | nan | ADAFRUIT_3.5MM | 155.9941 | -103.2256 | -90.0 | top | 
-| X1 | nan | USB-MINIB_LARGER | 129.1511 | -104.9336 | -90.0 | top | 
-| Y1 | 12MHz | RESONATOR-SMD | 164.4621 | -112.9216 | -90.0 | top | 
-
-### bottom
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| U$18 | nan | ADAFRUIT_TEXT_30MM | 165.0111 | -110.0836 | 180.0 | bottom | 
 

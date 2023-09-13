@@ -1,10 +1,303 @@
 board: tinyfpga_a_programmer
+bom:
+- Id: '1'
+  Designator: C1,C2,C4
+  Footprint: C_0603
+  Quantity: '3'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C3
+  Footprint: C_0603
+  Quantity: '1'
+  Designation: 100nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J2,J2,J2
+  Footprint: Pin_Header_Straight_1x05_Pitch2.54mm
+  Quantity: '3'
+  Designation: JTAG
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J3
+  Footprint: Pin_Header_Straight_1x06_Pitch2.54mm
+  Quantity: '1'
+  Designation: ICSP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U1
+  Footprint: QFN-16-1EP_4x4mm_Pitch0.65mm
+  Quantity: '1'
+  Designation: PIC16F1455-QFN16
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J1
+  Footprint: FCI-Micro-USB
+  Quantity: '1'
+  Designation: USB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U2
+  Footprint: SOT23
+  Quantity: '1'
+  Designation: MIC5504-3.3YM5-TR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: J2
+  Footprint: Pin_Header_Straight_1x05_Pitch2.54mm_SMD
+  Quantity: '1'
+  Designation: JTAG
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: J4
+  Footprint: Pin_Header_Straight_1x06_Pitch2.54mm
+  Quantity: '1'
+  Designation: CONN_01X06
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C2,C4\
+  \ | C_0603 | 3 | 1uF |  |  | [''] | \n| 2 | C3 | C_0603 | 1 | 100nF |  |  | ['']\
+  \ | \n| 3 | J2,J2,J2 | Pin_Header_Straight_1x05_Pitch2.54mm | 3 | JTAG |  |  | ['']\
+  \ | \n| 4 | J3 | Pin_Header_Straight_1x06_Pitch2.54mm | 1 | ICSP |  |  | [''] |\
+  \ \n| 5 | U1 | QFN-16-1EP_4x4mm_Pitch0.65mm | 1 | PIC16F1455-QFN16 |  |  | ['']\
+  \ | \n| 6 | J1 | FCI-Micro-USB | 1 | USB |  |  | [''] | \n| 7 | U2 | SOT23 | 1 |\
+  \ MIC5504-3.3YM5-TR |  |  | [''] | \n| 8 | J2 | Pin_Header_Straight_1x05_Pitch2.54mm_SMD\
+  \ | 1 | JTAG |  |  | [''] | \n| 9 | J4 | Pin_Header_Straight_1x06_Pitch2.54mm |\
+  \ 1 | CONN_01X06 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_SMD:C_0603
+  Qnty: '3'
+  Ref: C1, C2, C4
+  Value: 1uF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_SMD:C_0603
+  Qnty: '1'
+  Ref: C3
+  Value: 100nF
+  Vendor: ''
+- Cmp name: USB_OTG
+  DNP: ''
+  Description: ''
+  Footprint: TinyFPGA:FCI-Micro-USB
+  Qnty: '1'
+  Ref: J1
+  Value: USB
+  Vendor: ''
+- Cmp name: CONN_01X05
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm
+  Qnty: '1'
+  Ref: J2
+  Value: JTAG
+  Vendor: ''
+- Cmp name: CONN_01X06
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm
+  Qnty: '1'
+  Ref: J3
+  Value: ICSP
+  Vendor: ''
+- Cmp name: CONN_01X06
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm
+  Qnty: '1'
+  Ref: J4
+  Value: CONN_01X06
+  Vendor: ''
+- Cmp name: TEST
+  DNP: ''
+  Description: ''
+  Footprint: Measurement_Points:Measurement_Point_Round-SMD-Pad_Big
+  Qnty: '3'
+  Ref: TP1, TP2, TP3
+  Value: TEST
+  Vendor: ''
+- Cmp name: PIC16F1455-QFN16
+  DNP: ''
+  Description: ''
+  Footprint: Housings_DFN_QFN:QFN-16-1EP_4x4mm_Pitch0.65mm
+  Qnty: '1'
+  Ref: U1
+  Value: PIC16F1455-QFN16
+  Vendor: ''
+- Cmp name: MIC5504-3.3YM5-TR
+  DNP: ''
+  Description: ''
+  Footprint: TinyFPGA:SOT23
+  Qnty: '1'
+  Ref: U2
+  Value: MIC5504-3.3YM5-TR
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C4 | 3 | 1uF | C | Capacitors_SMD:C_0603 |  |  |  | \n| C3 | 1 | 100nF | C | Capacitors_SMD:C_0603\
+  \ |  |  |  | \n| J1 | 1 | USB | USB_OTG | TinyFPGA:FCI-Micro-USB |  |  |  | \n|\
+  \ J2 | 1 | JTAG | CONN_01X05 | Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm\
+  \ |  |  |  | \n| J3 | 1 | ICSP | CONN_01X06 | Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm\
+  \ |  |  |  | \n| J4 | 1 | CONN_01X06 | CONN_01X06 | Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm\
+  \ |  |  |  | \n| TP1, TP2, TP3 | 3 | TEST | TEST | Measurement_Points:Measurement_Point_Round-SMD-Pad_Big\
+  \ |  |  |  | \n| U1 | 1 | PIC16F1455-QFN16 | PIC16F1455-QFN16 | Housings_DFN_QFN:QFN-16-1EP_4x4mm_Pitch0.65mm\
+  \ |  |  |  | \n| U2 | 1 | MIC5504-3.3YM5-TR | MIC5504-3.3YM5-TR | TinyFPGA:SOT23\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adafruit_adafruit_circuitpython_jtag_tinyfpga_a_programmer/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adafruit_adafruit_circuitpython_jtag_tinyfpga_a_programmer/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adafruit_adafruit_circuitpython_jtag_tinyfpga_a_programmer/current_version/working/working.sch
 id: adafruit_adafruit_circuitpython_jtag_tinyfpga_a_programmer
 name: adafruit_circuitpython_jtag
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_0603
+  PosX: 150.9776
+  PosY: -110.6678
+  Rot: 180.0
+  Side: top
+  Val: 1uF
+- '# Ref': C2
+  Package: C_0603
+  PosX: 150.9776
+  PosY: -116.4082
+  Rot: 180.0
+  Side: top
+  Val: 1uF
+- '# Ref': C3
+  Package: C_0603
+  PosX: 144.5514
+  PosY: -111.0488
+  Rot: 0.0
+  Side: top
+  Val: 100nF
+- '# Ref': C4
+  Package: C_0603
+  PosX: 148.1074
+  PosY: -115.6716
+  Rot: 90.0
+  Side: top
+  Val: 1uF
+- '# Ref': J1
+  Package: FCI-Micro-USB
+  PosX: 147.32
+  PosY: -101.7825
+  Rot: 180.0
+  Side: top
+  Val: USB
+- '# Ref': J2
+  Package: Pin_Header_Straight_1x05_Pitch2.54mm
+  PosX: 142.24
+  PosY: -124.46
+  Rot: 90.0
+  Side: top
+  Val: JTAG
+- '# Ref': J2
+  Package: Pin_Header_Straight_1x05_Pitch2.54mm
+  PosX: 142.24
+  PosY: -126.873
+  Rot: 90.0
+  Side: top
+  Val: JTAG
+- '# Ref': J2
+  Package: Pin_Header_Straight_1x05_Pitch2.54mm
+  PosX: 142.24
+  PosY: -129.39
+  Rot: 90.0
+  Side: top
+  Val: JTAG
+- '# Ref': J2
+  Package: Pin_Header_Straight_1x05_Pitch2.54mm_SMD
+  PosX: 147.32
+  PosY: -119.38
+  Rot: 90.0
+  Side: top
+  Val: JTAG
+- '# Ref': J3
+  Package: Pin_Header_Straight_1x06_Pitch2.54mm
+  PosX: 139.7
+  PosY: -109.22
+  Rot: 0.0
+  Side: top
+  Val: ICSP
+- '# Ref': J4
+  Package: Pin_Header_Straight_1x06_Pitch2.54mm
+  PosX: 154.94
+  PosY: -104.14
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X06
+- '# Ref': U1
+  Package: QFN-16-1EP_4x4mm_Pitch0.65mm
+  PosX: 144.5514
+  PosY: -114.8788
+  Rot: 0.0
+  Side: top
+  Val: PIC16F1455-QFN16
+- '# Ref': U2
+  Package: SOT23
+  PosX: 150.7744
+  PosY: -113.8174
+  Rot: 0.0
+  Side: top
+  Val: MIC5504-3.3YM5-TR
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 1uF | C_0603 | 150.9776 | -110.6678\
+  \ | 180.0 | top | \n| C2 | 1uF | C_0603 | 150.9776 | -116.4082 | 180.0 | top | \n\
+  | C3 | 100nF | C_0603 | 144.5514 | -111.0488 | 0.0 | top | \n| C4 | 1uF | C_0603\
+  \ | 148.1074 | -115.6716 | 90.0 | top | \n| J1 | USB | FCI-Micro-USB | 147.32 |\
+  \ -101.7825 | 180.0 | top | \n| J2 | JTAG | Pin_Header_Straight_1x05_Pitch2.54mm\
+  \ | 142.24 | -124.46 | 90.0 | top | \n| J2 | JTAG | Pin_Header_Straight_1x05_Pitch2.54mm\
+  \ | 142.24 | -126.873 | 90.0 | top | \n| J2 | JTAG | Pin_Header_Straight_1x05_Pitch2.54mm\
+  \ | 142.24 | -129.39 | 90.0 | top | \n| J2 | JTAG | Pin_Header_Straight_1x05_Pitch2.54mm_SMD\
+  \ | 147.32 | -119.38 | 90.0 | top | \n| J3 | ICSP | Pin_Header_Straight_1x06_Pitch2.54mm\
+  \ | 139.7 | -109.22 | 0.0 | top | \n| J4 | CONN_01X06 | Pin_Header_Straight_1x06_Pitch2.54mm\
+  \ | 154.94 | -104.14 | 0.0 | top | \n| U1 | PIC16F1455-QFN16 | QFN-16-1EP_4x4mm_Pitch0.65mm\
+  \ | 144.5514 | -114.8788 | 0.0 | top | \n| U2 | MIC5504-3.3YM5-TR | SOT23 | 150.7744\
+  \ | -113.8174 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_circuitpython_jtag_tinyfpga_a_programmer/current_version/working
 repo:
   allow_forking: true

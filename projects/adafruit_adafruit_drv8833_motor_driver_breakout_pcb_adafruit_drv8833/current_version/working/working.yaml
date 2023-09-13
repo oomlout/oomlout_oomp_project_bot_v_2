@@ -1,9 +1,502 @@
 board: adafruit_drv8833
+bom:
+- Id: '1'
+  Designator: J1
+  Footprint: TERMBLOCK_1X2-3.5MM
+  Quantity: '1'
+  Designation: VMOTORIN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: JP2,JP3,JP4
+  Footprint: 1X02_ROUND
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R2,R1
+  Footprint: _1206
+  Quantity: '2'
+  Designation: "0.2\xCE\xA9"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: JP5
+  Footprint: 1X08_ROUND_70
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$13,U$14
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C3
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U$15
+  Footprint: SYMBOL_PLUS
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U1
+  Footprint: HTSSOP16
+  Quantity: '1'
+  Designation: DRV8833PWPR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: C4,C1
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: "10\xC2\xB5F/16V"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: FID1,FID2
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: Q1
+  Footprint: SOT23-WIDE
+  Quantity: '1'
+  Designation: DMG3415U
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U$16
+  Footprint: SYMBOL_MINUS
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: C2
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: "10\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: SJ2
+  Footprint: SOLDERJUMPER_ARROW_NOPASTE
+  Quantity: '1'
+  Designation: ISENSEB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: SJ1
+  Footprint: SOLDERJUMPER_ARROW_NOPASTE
+  Quantity: '1'
+  Designation: ISENSEA
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: U$17
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1\
+  \ | TERMBLOCK_1X2-3.5MM | 1 | VMOTORIN |  |  | [''] | \n| 2 | JP2,JP3,JP4 | 1X02_ROUND\
+  \ | 3 |  |  |  | [''] | \n| 3 | R2,R1 | _1206 | 2 | 0.2\xCE\xA9 |  |  | [''] | \n\
+  | 4 | JP5 | 1X08_ROUND_70 | 1 |  |  |  | [''] | \n| 5 | U$13,U$14 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 2 | MOUNTINGHOLE2.5 |  |  | [''] | \n| 6 | C3 | 0805-NO | 1 | 0.1uF |  |  |\
+  \ [''] | \n| 7 | U$15 | SYMBOL_PLUS | 1 |  |  |  | [''] | \n| 8 | U1 | HTSSOP16\
+  \ | 1 | DRV8833PWPR |  |  | [''] | \n| 9 | C4,C1 | 0805-NO | 2 | 10\xC2\xB5F/16V\
+  \ |  |  | [''] | \n| 10 | FID1,FID2 | FIDUCIAL_1MM | 2 | FIDUCIAL\" |  |  | ['']\
+  \ | \n| 11 | Q1 | SOT23-WIDE | 1 | DMG3415U |  |  | [''] | \n| 12 | U$16 | SYMBOL_MINUS\
+  \ | 1 |  |  |  | [''] | \n| 13 | C2 | 0805-NO | 1 | 10\xC2\xB5F |  |  | [''] | \n\
+  | 14 | SJ2 | SOLDERJUMPER_ARROW_NOPASTE | 1 | ISENSEB |  |  | [''] | \n| 15 | SJ1\
+  \ | SOLDERJUMPER_ARROW_NOPASTE | 1 | ISENSEA |  |  | [''] | \n| 16 | U$17 | ADAFRUIT_3.5MM\
+  \ | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C1, C4
+  Value: "10\xC2\xB5F/16V"
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C2
+  Value: "10\xC2\xB5F"
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C3
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: TERMBLOCK_1X2
+  DNP: ''
+  Description: ''
+  Footprint: working:TERMBLOCK_1X2-3.5MM
+  Qnty: '1'
+  Ref: J1
+  Value: VMOTORIN
+  Vendor: ''
+- Cmp name: HEADER-1X2ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X02_ROUND
+  Qnty: '3'
+  Ref: JP2, JP3, JP4
+  Value: HEADER-1X2ROUND
+  Vendor: ''
+- Cmp name: HEADER-1X870MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X08_ROUND_70
+  Qnty: '1'
+  Ref: JP5
+  Value: HEADER-1X870MIL
+  Vendor: ''
+- Cmp name: MOSFET-PWIDE
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-WIDE
+  Qnty: '1'
+  Ref: Q1
+  Value: DMG3415U
+  Vendor: ''
+- Cmp name: RESISTOR_1206
+  DNP: ''
+  Description: ''
+  Footprint: working:_1206
+  Qnty: '2'
+  Ref: R1, R2
+  Value: "0.2\xCE\xA9"
+  Vendor: ''
+- Cmp name: SOLDERJUMPER
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_ARROW_NOPASTE
+  Qnty: '1'
+  Ref: SJ1
+  Value: ISENSEA
+  Vendor: ''
+- Cmp name: SOLDERJUMPER
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_ARROW_NOPASTE
+  Qnty: '1'
+  Ref: SJ2
+  Value: ISENSEB
+  Vendor: ''
+- Cmp name: DRV8833
+  DNP: ''
+  Description: ''
+  Footprint: working:HTSSOP16
+  Qnty: '1'
+  Ref: U1
+  Value: DRV8833PWPR
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '2'
+  Ref: U$13, U$14
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C4\
+  \ | 2 | 10\xC2\xB5F/16V | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  |\
+  \ \n| C2 | 1 | 10\xC2\xB5F | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |\
+  \  | \n| C3 | 1 | 0.1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  |\
+  \ \n| FID1, FID2 | 2 | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM\
+  \ |  |  |  | \n| J1 | 1 | VMOTORIN | TERMBLOCK_1X2 | working:TERMBLOCK_1X2-3.5MM\
+  \ |  |  |  | \n| JP2, JP3, JP4 | 3 | HEADER-1X2ROUND | HEADER-1X2ROUND | working:1X02_ROUND\
+  \ |  |  |  | \n| JP5 | 1 | HEADER-1X870MIL | HEADER-1X870MIL | working:1X08_ROUND_70\
+  \ |  |  |  | \n| Q1 | 1 | DMG3415U | MOSFET-PWIDE | working:SOT23-WIDE |  |  | \
+  \ | \n| R1, R2 | 2 | 0.2\xCE\xA9 | RESISTOR_1206 | working:_1206 |  |  |  | \n|\
+  \ SJ1 | 1 | ISENSEA | SOLDERJUMPER | working:SOLDERJUMPER_ARROW_NOPASTE |  |  |\
+  \  | \n| SJ2 | 1 | ISENSEB | SOLDERJUMPER | working:SOLDERJUMPER_ARROW_NOPASTE |\
+  \  |  |  | \n| U1 | 1 | DRV8833PWPR | DRV8833 | working:HTSSOP16 |  |  |  | \n|\
+  \ U$13, U$14 | 2 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_drv8833_motor_driver_breakout_pcb_adafruit_drv8833/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_drv8833_motor_driver_breakout_pcb_adafruit_drv8833/current_version/working/working.sch
 id: adafruit_adafruit_drv8833_motor_driver_breakout_pcb_adafruit_drv8833
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$13
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '20.320000000000007'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$14
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 20.320000000000007 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$13 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$14 | m3 | \n"
 name: adafruit_drv8833_motor_driver_breakout_pcb
+position_bottom:
+- '# Ref': SJ1
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 147.9931
+  PosY: -115.9256
+  Rot: 180.0
+  Side: bottom
+  Val: ISENSEA
+- '# Ref': SJ2
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 147.9931
+  PosY: -113.5126
+  Rot: 180.0
+  Side: bottom
+  Val: ISENSEB
+- '# Ref': U$17
+  Package: ADAFRUIT_3.5MM
+  PosX: 146.0881
+  PosY: -96.2406
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| SJ1 | ISENSEA | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 147.9931 | -115.9256 | 180.0 | bottom | \n| SJ2 | ISENSEB | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 147.9931 | -113.5126 | 180.0 | bottom | \n| U$17 | nan | ADAFRUIT_3.5MM | 146.0881\
+  \ | -96.2406 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 144.3101
+  PosY: -94.4626
+  Rot: 90.0
+  Side: top
+  Val: "10\xC2\xB5F/16V"
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 146.3421
+  PosY: -111.2266
+  Rot: 0.0
+  Side: top
+  Val: "10\xC2\xB5F"
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 145.9611
+  PosY: -101.4476
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C4
+  Package: 0805-NO
+  PosX: 147.8661
+  PosY: -101.4476
+  Rot: -90.0
+  Side: top
+  Val: "10\xC2\xB5F/16V"
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 153.4541
+  PosY: -99.9236
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 141.8971
+  PosY: -116.4336
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': J1
+  Package: TERMBLOCK_1X2-3.5MM
+  PosX: 149.0091
+  PosY: -96.1136
+  Rot: 180.0
+  Side: top
+  Val: VMOTORIN
+- '# Ref': JP2
+  Package: 1X02_ROUND
+  PosX: 154.8511
+  PosY: -110.0836
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP3
+  Package: 1X02_ROUND
+  PosX: 154.8511
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP4
+  Package: 1X02_ROUND
+  PosX: 154.8511
+  PosY: -99.9236
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP5
+  Package: 1X08_ROUND_70
+  PosX: 142.1511
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': Q1
+  Package: SOT23-WIDE
+  PosX: 151.0411
+  PosY: -101.3206
+  Rot: 0.0
+  Side: top
+  Val: DMG3415U
+- '# Ref': R1
+  Package: _1206
+  PosX: 147.9931
+  PosY: -113.5126
+  Rot: 0.0
+  Side: top
+  Val: "0.2\xCE\xA9"
+- '# Ref': R2
+  Package: _1206
+  PosX: 147.9931
+  PosY: -115.9256
+  Rot: 0.0
+  Side: top
+  Val: "0.2\xCE\xA9"
+- '# Ref': U$13
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 154.8511
+  PosY: -94.8436
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$14
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 154.8511
+  PosY: -115.1636
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$15
+  Package: SYMBOL_PLUS
+  PosX: 144.3101
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$16
+  Package: SYMBOL_MINUS
+  PosX: 153.3271
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U1
+  Package: HTSSOP16
+  PosX: 148.7551
+  PosY: -107.2896
+  Rot: 90.0
+  Side: top
+  Val: DRV8833PWPR
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 10\xC2\xB5F/16V | 0805-NO | 144.3101\
+  \ | -94.4626 | 90.0 | top | \n| C2 | 10\xC2\xB5F | 0805-NO | 146.3421 | -111.2266\
+  \ | 0.0 | top | \n| C3 | 0.1uF | 0805-NO | 145.9611 | -101.4476 | -90.0 | top |\
+  \ \n| C4 | 10\xC2\xB5F/16V | 0805-NO | 147.8661 | -101.4476 | -90.0 | top | \n|\
+  \ FID1 | FIDUCIAL\"\" | FIDUCIAL_1MM | 153.4541 | -99.9236 | 0.0 | top | \n| FID2\
+  \ | FIDUCIAL\"\" | FIDUCIAL_1MM | 141.8971 | -116.4336 | 0.0 | top | \n| J1 | VMOTORIN\
+  \ | TERMBLOCK_1X2-3.5MM | 149.0091 | -96.1136 | 180.0 | top | \n| JP2 | nan | 1X02_ROUND\
+  \ | 154.8511 | -110.0836 | -90.0 | top | \n| JP3 | nan | 1X02_ROUND | 154.8511 |\
+  \ -105.0036 | -90.0 | top | \n| JP4 | nan | 1X02_ROUND | 154.8511 | -99.9236 | 90.0\
+  \ | top | \n| JP5 | nan | 1X08_ROUND_70 | 142.1511 | -105.0036 | -90.0 | top | \n\
+  | Q1 | DMG3415U | SOT23-WIDE | 151.0411 | -101.3206 | 0.0 | top | \n| R1 | 0.2\xCE\
+  \xA9 | _1206 | 147.9931 | -113.5126 | 0.0 | top | \n| R2 | 0.2\xCE\xA9 | _1206 |\
+  \ 147.9931 | -115.9256 | 0.0 | top | \n| U$13 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 154.8511 | -94.8436 | 0.0 | top | \n| U$14 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 154.8511 | -115.1636 | 0.0 | top | \n| U$15 | nan | SYMBOL_PLUS | 144.3101 |\
+  \ -97.3836 | 0.0 | top | \n| U$16 | nan | SYMBOL_MINUS | 153.3271 | -97.3836 | 0.0\
+  \ | top | \n| U1 | DRV8833PWPR | HTSSOP16 | 148.7551 | -107.2896 | 90.0 | top |\
+  \ \n"
 projects_flat: projects/adafruit_adafruit_drv8833_motor_driver_breakout_pcb_adafruit_drv8833/current_version/working
 repo:
   allow_forking: true

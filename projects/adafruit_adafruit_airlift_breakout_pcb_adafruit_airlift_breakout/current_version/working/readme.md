@@ -70,40 +70,7 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 135.1661 | -91.1606 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$15 | m3 | 
-| 161.3281 | -91.6686 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$16 | m3 | 
+| 0.0 | 0.5079999999999956 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$15 | m3 | 
+| 26.162000000000006 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$16 | m3 | 
 
-
-## positions
-### top
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 10uF | 0805-NO | 135.6741 | -96.7486 | 180.0 | top | 
-| C2 | 10uF | 0805-NO | 135.6741 | -106.1466 | 0.0 | top | 
-| C3 | 10uF | 0805-NO | 135.6741 | -100.5586 | 180.0 | top | 
-| C4 | 10uF | 0805-NO | 135.6741 | -98.6536 | 180.0 | top | 
-| C5 | 0.1uF | 0603-NO | 163.3601 | -97.5106 | -90.0 | top | 
-| D1 | GREEN | CHIPLED_0603_NOOUTLINE | 137.7061 | -107.9246 | 90.0 | top | 
-| D2 | BLUE | CHIPLED_0603_NOOUTLINE | 137.7061 | -110.5916 | 90.0 | top | 
-| D3 | RED | CHIPLED_0603_NOOUTLINE | 137.7061 | -109.1946 | 90.0 | top | 
-| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM | 133.3881 | -114.2746 | 0.0 | top | 
-| FID3 | FIDUCIAL_1MM | FIDUCIAL_1MM | 163.1061 | -94.4626 | 0.0 | top | 
-| IC1 | 74AHC1G125 | SOT23-5L | 160.4391 | -97.7646 | -90.0 | top | 
-| JP1 | nan | 1X12_ROUND | 148.5011 | -118.9736 | 0.0 | top | 
-| Q3 | BSS138 | SOT23-WIDE | 159.9311 | -114.1476 | 180.0 | top | 
-| R2 | 10K | RESPACK_4X0603 | 160.3121 | -110.7186 | 0.0 | top | 
-| R6 | 1K | RESPACK_4X0603 | 134.9121 | -109.1946 | -90.0 | top | 
-| U$15 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 135.1661 | -91.1606 | 0.0 | top | 
-| U$16 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 161.3281 | -91.6686 | 0.0 | top | 
-| U$21 | nan | ADAFRUIT_5MM | 133.6421 | -116.1796 | 0.0 | top | 
-| U1 | AP2112-3.3 | SOT23-5 | 135.6741 | -103.4796 | -90.0 | top | 
-| U2 | 74AHC4050 | TSSOP16 | 161.0741 | -104.3686 | 0.0 | top | 
-| X1 | ESP32_WROOM32 | WROOM32 | 148.5011 | -101.1936 | 0.0 | top | 
-
-### bottom
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| U$2 | nan | ADAFRUIT_3.5MM | 162.7251 | -112.7506 | 180.0 | bottom | 
-| U$13 | nan | PCBFEAT-REV-040 | 136.8171 | -113.7666 | 180.0 | bottom | 
-| U$24 | nan | AIRLIFT | 157.5181 | -106.7816 | 180.0 | bottom | 
 

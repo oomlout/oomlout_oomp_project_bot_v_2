@@ -14,6 +14,7 @@
 * src_file_repo_brd_link: {{ p.repo.html_url }}/tree/{{ p.repo.default_branch }}/{{ p.src_file_repo_brd }}{% endif %}
 {% if p,src_file_repo_sch %}* src_file_repo_sch: {{ p.src_file_repo_sch }}
 * src_file_repo_sch_link: {{ p.repo.html_url }}/tree/{{ p.repo.default_branch }}/{{ p.src_file_repo_sch }}{% endif %}
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/{{ p.id }}/current_version/working  
 
 {% if "working_schematic.png" in p.files %}## schematic  
 ![](working_schematic_600.png)  
@@ -35,9 +36,11 @@
 {% if "mounting_holes" in p %}## mounting_holes
 {{ p.mounting_holes_markdown }}
 {% endif %}
+{#
 {% if "position_top" in p %}## positions
 ### top
 {{ p.position_top_markdown }}
 ### bottom
 {{ p.position_bottom_markdown }}
 {% endif %}
+#}

@@ -64,35 +64,3 @@
 
 
 
-## positions
-### top
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| RPI1 | RASPBERRYPI_BPLUS_BONNETSMT | PI_BONNET_SMT | 116.0011 | -120.3338 | 0.0 | top | 
-| U$11 | nan | STEMMAQT | 124.1037 | -120.3338 | 0.0 | top | 
-| U$33 | 2.23_INCH_OLEDBOTTOM_CONTACT_24_PIN_OLED | 2.23OLED_BOTTOM_CONTACT | 148.4757 | -105.5818 | 0.0 | top | 
-
-### bottom
-| # Ref | Val | Package | PosX | PosY | Rot | Side | 
-| --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 0.1uF | 0603-NO | 144.2967 | -111.1898 | -90.0 | bottom | 
-| C2 | 10uF | 0805-NO | 142.5187 | -111.2278 | -90.0 | bottom | 
-| C4 | 10uF | 0805-NO | 157.3877 | -109.6475 | -90.0 | bottom | 
-| C5 | 10uF | 0805-NO | 159.5046 | -109.6475 | -90.0 | bottom | 
-| C6 | 10uF | 0805-NO | 167.1797 | -105.8458 | 0.0 | bottom | 
-| C7 | 2.2uF | 0805-NO | 140.4477 | -111.2278 | 90.0 | bottom | 
-| C8 | 10uF | 0805-NO | 154.5737 | -111.5328 | 90.0 | bottom | 
-| C9 | 0.1uF | 0603-NO | 161.626 | -109.6475 | 90.0 | bottom | 
-| CONN1 | STEMMA_I2C_QT | JST_SH4 | 128.6757 | -117.1588 | 180.0 | bottom | 
-| D4 | MBR120 | SOD-123 | 159.1607 | -112.2648 | 0.0 | bottom | 
-| IC1 | APX803S-29SA | SOT23 | 147.3067 | -111.1464 | 90.0 | bottom | 
-| L1 | 10uH | INDUCTOR_1007 | 167.1797 | -112.2648 | 180.0 | bottom | 
-| R1 | 10K | 0603-NO | 150.2612 | -111.2788 | -90.0 | bottom | 
-| R2 | 10K | 0603-NO | 158.2667 | -105.7288 | 90.0 | bottom | 
-| R3 | 910K | 0805-NO | 152.5116 | -111.5328 | 90.0 | bottom | 
-| R7 | 100K | 0603-NO | 163.7517 | -109.6475 | -90.0 | bottom | 
-| R8 | 10K | 0603-NO | 160.6387 | -106.5938 | 0.0 | bottom | 
-| SJ1 | nan | SOLDERJUMPER_ARROW_NOPASTE | 160.4257 | -103.8238 | 90.0 | bottom | 
-| U$2 | nan | PCBFEAT-REV-040 | 175.5387 | -91.3778 | 180.0 | bottom | 
-| U1 | FAN5331 | SOT23-5 | 167.1797 | -108.7978 | 90.0 | bottom | 
-

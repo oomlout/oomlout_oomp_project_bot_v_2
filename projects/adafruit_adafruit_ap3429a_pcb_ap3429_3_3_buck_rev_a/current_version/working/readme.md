@@ -16,6 +16,12 @@
 ![](working_schematic_600.png)  
 [schematic (pdf)](working_schematic.pdf)  
 
+## pcb  
+![](working_3d_600.png) 
+![](working_3d_front_600.png)  
+![](working_3d_back_600.png)  
+![](working_600.png)  
+[board (pdf)](working.pdf)  
 
 
 ## bom_schematic

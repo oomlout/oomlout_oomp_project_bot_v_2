@@ -1,9 +1,521 @@
 board: adafruit_bluefruit_ez_key
+bom:
+- Id: '1'
+  Designator: LED1
+  Footprint: CHIPLED_0805_NOOUTLINE
+  Quantity: '1'
+  Designation: RED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R3,R2
+  Footprint: R0805
+  Quantity: '2'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: JP3
+  Footprint: 1X06-BIG
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C4,C1
+  Footprint: C0805
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: JP1,JP2
+  Footprint: 1X12-CB
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U2
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: MIC5225
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: '@HOLE2,@HOLE0,@HOLE1,@HOLE3'
+  Footprint: ''
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R4,R1
+  Footprint: R0805
+  Quantity: '2'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: SW1
+  Footprint: KMR2
+  Quantity: '1'
+  Designation: SPST_TACT-KMR2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R5
+  Footprint: R0805
+  Quantity: '1'
+  Designation: 2.2K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: D1
+  Footprint: SOD-323
+  Quantity: '1'
+  Designation: 1N4148
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: FID1,FID2,FID3
+  Footprint: FIDUCIAL_1MM
+  Quantity: '3'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: LED2
+  Footprint: CHIPLED_0805_NOOUTLINE
+  Quantity: '1'
+  Designation: GREEN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: U$4
+  Footprint: ADAFRUIT_TEXT_20MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U1
+  Footprint: BLUETOOTH_MODULE
+  Quantity: '1'
+  Designation: BlueFruit
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: U$3
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: U$2
+  Footprint: BLUEFRUITLOGO_150MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | LED1\
+  \ | CHIPLED_0805_NOOUTLINE | 1 | RED |  |  | [''] | \n| 2 | R3,R2 | R0805 | 2 |\
+  \ 1K |  |  | [''] | \n| 3 | JP3 | 1X06-BIG | 1 |  |  |  | [''] | \n| 4 | C4,C1 |\
+  \ C0805 | 2 | 10uF |  |  | [''] | \n| 5 | JP1,JP2 | 1X12-CB | 2 |  |  |  | ['']\
+  \ | \n| 6 | U2 | SOT23-5 | 1 | MIC5225 |  |  | [''] | \n| 7 | @HOLE2,@HOLE0,@HOLE1,@HOLE3\
+  \ |  | 4 |  |  |  | [''] | \n| 8 | R4,R1 | R0805 | 2 | 10K |  |  | [''] | \n| 9\
+  \ | SW1 | KMR2 | 1 | SPST_TACT-KMR2 |  |  | [''] | \n| 10 | R5 | R0805 | 1 | 2.2K\
+  \ |  |  | [''] | \n| 11 | D1 | SOD-323 | 1 | 1N4148 |  |  | [''] | \n| 12 | FID1,FID2,FID3\
+  \ | FIDUCIAL_1MM | 3 | FIDUCIAL\" |  |  | [''] | \n| 13 | LED2 | CHIPLED_0805_NOOUTLINE\
+  \ | 1 | GREEN |  |  | [''] | \n| 14 | U$4 | ADAFRUIT_TEXT_20MM | 1 |  |  |  | ['']\
+  \ | \n| 15 | U1 | BLUETOOTH_MODULE | 1 | BlueFruit |  |  | [''] | \n| 16 | U$3 |\
+  \ ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n| 17 | U$2 | BLUEFRUITLOGO_150MM | 1 |\
+  \  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C-USC0805
+  DNP: ''
+  Description: ''
+  Footprint: working:C0805
+  Qnty: '2'
+  Ref: C1, C4
+  Value: 10uF
+  Vendor: ''
+- Cmp name: DIODESOD-323
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-323
+  Qnty: '1'
+  Ref: D1
+  Value: 1N4148
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '3'
+  Ref: FID1, FID2, FID3
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: PINHD-1X12-CB
+  DNP: ''
+  Description: ''
+  Footprint: working:1X12-CB
+  Qnty: '2'
+  Ref: JP1, JP2
+  Value: PINHD-1X12-CB
+  Vendor: ''
+- Cmp name: PINHD-1X6B
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06-BIG
+  Qnty: '1'
+  Ref: JP3
+  Value: PINHD-1X6B
+  Vendor: ''
+- Cmp name: LED0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805_NOOUTLINE
+  Qnty: '1'
+  Ref: LED1
+  Value: RED
+  Vendor: ''
+- Cmp name: LED0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805_NOOUTLINE
+  Qnty: '1'
+  Ref: LED2
+  Value: GREEN
+  Vendor: ''
+- Cmp name: R-US_R0805
+  DNP: ''
+  Description: ''
+  Footprint: working:R0805
+  Qnty: '2'
+  Ref: R1, R4
+  Value: 10K
+  Vendor: ''
+- Cmp name: R-US_R0805
+  DNP: ''
+  Description: ''
+  Footprint: working:R0805
+  Qnty: '2'
+  Ref: R2, R3
+  Value: 1K
+  Vendor: ''
+- Cmp name: R-US_R0805
+  DNP: ''
+  Description: ''
+  Footprint: working:R0805
+  Qnty: '1'
+  Ref: R5
+  Value: 2.2K
+  Vendor: ''
+- Cmp name: SPST_TACT-KMR2
+  DNP: ''
+  Description: ''
+  Footprint: working:KMR2
+  Qnty: '1'
+  Ref: SW1
+  Value: SPST_TACT-KMR2
+  Vendor: ''
+- Cmp name: BLUETOOTH_MODULE
+  DNP: ''
+  Description: ''
+  Footprint: working:BLUETOOTH_MODULE
+  Qnty: '1'
+  Ref: U1
+  Value: BlueFruit
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U2
+  Value: MIC5225
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C4\
+  \ | 2 | 10uF | C-USC0805 | working:C0805 |  |  |  | \n| D1 | 1 | 1N4148 | DIODESOD-323\
+  \ | working:SOD-323 |  |  |  | \n| FID1, FID2, FID3 | 3 | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote}\
+  \ | working:FIDUCIAL_1MM |  |  |  | \n| JP1, JP2 | 2 | PINHD-1X12-CB | PINHD-1X12-CB\
+  \ | working:1X12-CB |  |  |  | \n| JP3 | 1 | PINHD-1X6B | PINHD-1X6B | working:1X06-BIG\
+  \ |  |  |  | \n| LED1 | 1 | RED | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE\
+  \ |  |  |  | \n| LED2 | 1 | GREEN | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE\
+  \ |  |  |  | \n| R1, R4 | 2 | 10K | R-US_R0805 | working:R0805 |  |  |  | \n| R2,\
+  \ R3 | 2 | 1K | R-US_R0805 | working:R0805 |  |  |  | \n| R5 | 1 | 2.2K | R-US_R0805\
+  \ | working:R0805 |  |  |  | \n| SW1 | 1 | SPST_TACT-KMR2 | SPST_TACT-KMR2 | working:KMR2\
+  \ |  |  |  | \n| U1 | 1 | BlueFruit | BLUETOOTH_MODULE | working:BLUETOOTH_MODULE\
+  \ |  |  |  | \n| U2 | 1 | MIC5225 | VREG_SOT23-5 | working:SOT23-5 |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_bluefruit_ez_key_pcb_adafruit_bluefruit_ez_key/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_bluefruit_ez_key_pcb_adafruit_bluefruit_ez_key/current_version/working/working.sch
 id: adafruit_adafruit_bluefruit_ez_key_pcb_adafruit_bluefruit_ez_key
 name: adafruit_bluefruit_ez_key_pcb
+position_bottom:
+- '# Ref': U$2
+  Package: BLUEFRUITLOGO_150MM
+  PosX: 155.4861
+  PosY: -100.4316
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$3
+  Package: ADAFRUIT_3.5MM
+  PosX: 150.6601
+  PosY: -112.8776
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$2 | nan | BLUEFRUITLOGO_150MM\
+  \ | 155.4861 | -100.4316 | 180.0 | bottom | \n| U$3 | nan | ADAFRUIT_3.5MM | 150.6601\
+  \ | -112.8776 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 138.9761
+  PosY: -122.7836
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 158.0261
+  PosY: -122.7836
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE2'
+  Package: .nan
+  PosX: 138.9761
+  PosY: -87.2236
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE3'
+  Package: .nan
+  PosX: 158.0261
+  PosY: -87.2236
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: C0805
+  PosX: 142.4051
+  PosY: -115.2906
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C4
+  Package: C0805
+  PosX: 141.6431
+  PosY: -119.6086
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': D1
+  Package: SOD-323
+  PosX: 154.3431
+  PosY: -120.3706
+  Rot: 0.0
+  Side: top
+  Val: 1N4148
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 144.4371
+  PosY: -101.5746
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 151.9301
+  PosY: -111.0996
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 152.6921
+  PosY: -101.4476
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': JP1
+  Package: 1X12-CB
+  PosX: 138.3411
+  PosY: -105.6386
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X12-CB
+  PosX: 158.6611
+  PosY: -105.6386
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP3
+  Package: 1X06-BIG
+  PosX: 148.5011
+  PosY: -123.4186
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': LED1
+  Package: CHIPLED_0805_NOOUTLINE
+  PosX: 157.6451
+  PosY: -89.6366
+  Rot: -90.0
+  Side: top
+  Val: RED
+- '# Ref': LED2
+  Package: CHIPLED_0805_NOOUTLINE
+  PosX: 139.3571
+  PosY: -89.6366
+  Rot: -90.0
+  Side: top
+  Val: GREEN
+- '# Ref': R1
+  Package: R0805
+  PosX: 154.8511
+  PosY: -115.2906
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: R0805
+  PosX: 150.0251
+  PosY: -115.2906
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': R3
+  Package: R0805
+  PosX: 146.0881
+  PosY: -116.4336
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': R4
+  Package: R0805
+  PosX: 154.8511
+  PosY: -117.4496
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R5
+  Package: R0805
+  PosX: 150.5331
+  PosY: -117.3226
+  Rot: 0.0
+  Side: top
+  Val: 2.2K
+- '# Ref': SW1
+  Package: KMR2
+  PosX: 149.3901
+  PosY: -119.9896
+  Rot: 180.0
+  Side: top
+  Val: SPST_TACT-KMR2
+- '# Ref': U$4
+  Package: ADAFRUIT_TEXT_20MM
+  PosX: 145.7071
+  PosY: -89.8906
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': U1
+  Package: BLUETOOTH_MODULE
+  PosX: 148.5011
+  PosY: -99.2886
+  Rot: 0.0
+  Side: top
+  Val: BlueFruit
+- '# Ref': U2
+  Package: SOT23-5
+  PosX: 144.5641
+  PosY: -119.8626
+  Rot: 0.0
+  Side: top
+  Val: MIC5225
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 138.9761 | -122.7836\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 158.0261 | -122.7836 | 0.0 | top | \n|\
+  \ @HOLE2 | nan | nan | 138.9761 | -87.2236 | 0.0 | top | \n| @HOLE3 | nan | nan\
+  \ | 158.0261 | -87.2236 | 0.0 | top | \n| C1 | 10uF | C0805 | 142.4051 | -115.2906\
+  \ | 0.0 | top | \n| C4 | 10uF | C0805 | 141.6431 | -119.6086 | -90.0 | top | \n\
+  | D1 | 1N4148 | SOD-323 | 154.3431 | -120.3706 | 0.0 | top | \n| FID1 | FIDUCIAL\"\
+  \" | FIDUCIAL_1MM | 144.4371 | -101.5746 | 0.0 | top | \n| FID2 | FIDUCIAL\"\" |\
+  \ FIDUCIAL_1MM | 151.9301 | -111.0996 | 0.0 | top | \n| FID3 | FIDUCIAL\"\" | FIDUCIAL_1MM\
+  \ | 152.6921 | -101.4476 | 0.0 | top | \n| JP1 | nan | 1X12-CB | 138.3411 | -105.6386\
+  \ | -90.0 | top | \n| JP2 | nan | 1X12-CB | 158.6611 | -105.6386 | -90.0 | top |\
+  \ \n| JP3 | nan | 1X06-BIG | 148.5011 | -123.4186 | 180.0 | top | \n| LED1 | RED\
+  \ | CHIPLED_0805_NOOUTLINE | 157.6451 | -89.6366 | -90.0 | top | \n| LED2 | GREEN\
+  \ | CHIPLED_0805_NOOUTLINE | 139.3571 | -89.6366 | -90.0 | top | \n| R1 | 10K |\
+  \ R0805 | 154.8511 | -115.2906 | 0.0 | top | \n| R2 | 1K | R0805 | 150.0251 | -115.2906\
+  \ | 180.0 | top | \n| R3 | 1K | R0805 | 146.0881 | -116.4336 | 180.0 | top | \n\
+  | R4 | 10K | R0805 | 154.8511 | -117.4496 | 180.0 | top | \n| R5 | 2.2K | R0805\
+  \ | 150.5331 | -117.3226 | 0.0 | top | \n| SW1 | SPST_TACT-KMR2 | KMR2 | 149.3901\
+  \ | -119.9896 | 180.0 | top | \n| U$4 | nan | ADAFRUIT_TEXT_20MM | 145.7071 | -89.8906\
+  \ | -90.0 | top | \n| U1 | BlueFruit | BLUETOOTH_MODULE | 148.5011 | -99.2886 |\
+  \ 0.0 | top | \n| U2 | MIC5225 | SOT23-5 | 144.5641 | -119.8626 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_bluefruit_ez_key_pcb_adafruit_bluefruit_ez_key/current_version/working
 repo:
   allow_forking: true
