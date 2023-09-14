@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\npoole_3d_soldering_kits_v1\current_version\working\working.kicad_sch</source>
+    <date>14/09/2023 13:51:38</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>BATTERY-20MM_SMD_4LEGS</value>
+      <footprint>working:BATTCON_20MM_4LEGS</footprint>
+      <libsource lib="working-eagle-import" part="BATTERY-20MM_SMD_4LEGS" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a91f27e3-16f3-41cf-9957-1e0e5b0ca1fd</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED5MM</value>
+      <footprint>working:LED_5MM</footprint>
+      <libsource lib="working-eagle-import" part="LED5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f19c206-ec19-435f-b337-4f54a8d104c7</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1KOHM-HORIZ-1/4W-1%</value>
+      <footprint>working:AXIAL-0.3</footprint>
+      <libsource lib="working-eagle-import" part="1KOHM-HORIZ-1/4W-1%" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f52e155e-af71-4d01-80b5-20e1bb16487f</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>MOMENTARY-SWITCH-SPST-PTH-6.0MM</value>
+      <footprint>working:TACTILE_SWITCH_PTH_6.0MM</footprint>
+      <libsource lib="working-eagle-import" part="MOMENTARY-SWITCH-SPST-PTH-6.0MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e050808c-4fdb-4421-a4f7-9fe1c1b1b9b1</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="working-eagle-import" part="1KOHM-HORIZ-1/4W-1%">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">working:AXIAL-0.3</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="1" type="passive"/>
+        <pin num="P$2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="working-eagle-import" part="BATTERY-20MM_SMD_4LEGS">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Footprint">working:BATTCON_20MM_4LEGS</field>
+      </fields>
+      <pins>
+        <pin num="NEGATIVE" name="-" type="power_in"/>
+        <pin num="POSITIVE@1" name="+" type="power_in"/>
+        <pin num="POSITIVE@2" name="+" type="power_in"/>
+        <pin num="POSITIVE@3" name="+" type="power_in"/>
+        <pin num="POSITIVE@4" name="+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="working-eagle-import" part="LED5MM">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Footprint">working:LED_5MM</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="K" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="working-eagle-import" part="MOMENTARY-SWITCH-SPST-PTH-6.0MM">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Footprint">working:TACTILE_SWITCH_PTH_6.0MM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="3" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="Net-(BT1--)">
+      <node ref="BT1" pin="NEGATIVE" pinfunction="-" pintype="power_in"/>
+      <node ref="S1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(D1-C)">
+      <node ref="D1" pin="K" pinfunction="C" pintype="passive"/>
+      <node ref="S1" pin="3" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(R1-1)">
+      <node ref="BT1" pin="POSITIVE@1" pinfunction="+" pintype="power_in"/>
+      <node ref="BT1" pin="POSITIVE@2" pinfunction="+" pintype="power_in"/>
+      <node ref="BT1" pin="POSITIVE@3" pinfunction="+" pintype="power_in"/>
+      <node ref="BT1" pin="POSITIVE@4" pinfunction="+" pintype="power_in"/>
+      <node ref="R1" pin="P$1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(R1-2)">
+      <node ref="D1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="P$2" pinfunction="2" pintype="passive"/>
+    </net>
+  </nets>
+</export>

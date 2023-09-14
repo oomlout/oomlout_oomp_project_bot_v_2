@@ -11,7 +11,7 @@ def go_through_directories():
             
             filename = os.path.join(root, file)
             filter = ["sparkfun","adafruit","omerk"]
-            filter = ["omerk"]
+            filter = ["npoole"]
             filter = [""]
 
 
@@ -20,6 +20,7 @@ def go_through_directories():
  
             #if any of filter is in filename
             if any(x in filename for x in filter):
+                print(f"checking {filename}")
                 if file.endswith(".kicad_pcb"):
                     counter = oom_kicad.generate_outputs(filename=filename, overwrite=False, computer="surface")
                     #oom_kicad.generate_outputs(filename=filename, computer="desktop")

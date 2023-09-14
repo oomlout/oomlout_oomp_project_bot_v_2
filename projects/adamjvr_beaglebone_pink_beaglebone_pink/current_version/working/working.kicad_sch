@@ -1,0 +1,95 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 5eff1106-c3c6-49f6-8ae4-361e41717b46)
+
+  (paper "A4")
+
+  (title_block
+    (date "2016-10-16")
+    (rev "0.1a")
+    (company "GhostPCB")
+    (comment 1 "Engineer Drawn By Adam Vadala-Roth")
+    (comment 2 "Designed By Adam Vadala-Roth")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "Beaglebone Pink Wireless" (at 78.74 27.94 0)
+    (effects (font (size 8.001 8.001) (thickness 1.6002) bold) (justify left bottom))
+    (uuid 48416b94-d4e8-4168-b45f-2292f7602514)
+  )
+
+  (sheet (at 38.1 37.465) (size 45.72 35.56) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005804022f)
+    (property "Sheetname" "Beaglebone System In Package" (at 38.1 36.6264 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Sheetfile" "../../../../tmp/Beaglebone-Pink/PCB/SiP_OSD3358.sch" (at 38.1 73.7112 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "Beaglebone-Pink"
+        (path "/5eff1106-c3c6-49f6-8ae4-361e41717b46" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 177.8 85.725) (size 71.12 37.465) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000058040242)
+    (property "Sheetname" "Power" (at 177.8 84.8864 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Sheetfile" "../../../../tmp/Beaglebone-Pink/PCB/Power.sch" (at 177.8 123.8762 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "Beaglebone-Pink"
+        (path "/5eff1106-c3c6-49f6-8ae4-361e41717b46" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 177.8 36.83) (size 71.12 36.195) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000580402ef)
+    (property "Sheetname" "USB Connectivity" (at 177.8 35.9914 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Sheetfile" "../../../../tmp/Beaglebone-Pink/PCB/USB_Hub.sch" (at 177.8 73.7112 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "Beaglebone-Pink"
+        (path "/5eff1106-c3c6-49f6-8ae4-361e41717b46" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 37.465 90.805) (size 57.15 50.8) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005882f261)
+    (property "Sheetname" "RF Transceiver - ADF7023" (at 37.465 89.9664 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Sheetfile" "../../../../tmp/Beaglebone-Pink/PCB/RF-Transceiver-ADF7023.sch" (at 37.465 142.2912 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "Beaglebone-Pink"
+        (path "/5eff1106-c3c6-49f6-8ae4-361e41717b46" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

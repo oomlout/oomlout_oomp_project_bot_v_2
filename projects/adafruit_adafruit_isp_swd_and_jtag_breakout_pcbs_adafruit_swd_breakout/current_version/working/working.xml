@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\adafruit_adafruit_isp_swd_and_jtag_breakout_pcbs_adafruit_swd_breakout\current_version\working\working.kicad_sch</source>
+    <date>14/09/2023 12:01:13</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="ISP1">
+      <value>AVRISP-BOX</value>
+      <footprint>working:AVRISP-BOX</footprint>
+      <libsource lib="working-eagle-import" part="AVRISP-BOX" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce4a3264-eb59-43c4-82b3-bd4b342e6d6f</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>PINHD-1X3CB</value>
+      <footprint>working:1X03-CLEANBIG</footprint>
+      <libsource lib="working-eagle-import" part="PINHD-1X3CB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abf0a254-917e-45d0-a696-3e222f1ffab9</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>PINHD-1X3CB</value>
+      <footprint>working:1X03-CLEANBIG</footprint>
+      <libsource lib="working-eagle-import" part="PINHD-1X3CB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f29331d-2c2a-4483-8f79-7bc9f359a392</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="working-eagle-import" part="AVRISP-BOX">
+      <fields>
+        <field name="Reference">ISP</field>
+        <field name="Footprint">working:AVRISP-BOX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="input"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="SCK" type="output"/>
+        <pin num="4" name="MOSI" type="output"/>
+        <pin num="5" name="RST" type="output"/>
+        <pin num="6" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="working-eagle-import" part="PINHD-1X3CB">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Footprint">working:1X03-CLEANBIG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="Net-(ISP1-GND)">
+      <node ref="ISP1" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="JP2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(ISP1-MISO)">
+      <node ref="ISP1" pin="1" pinfunction="MISO" pintype="input"/>
+      <node ref="JP1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(ISP1-MOSI)">
+      <node ref="ISP1" pin="4" pinfunction="MOSI" pintype="output"/>
+      <node ref="JP2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(ISP1-RST)">
+      <node ref="ISP1" pin="5" pinfunction="RST" pintype="output"/>
+      <node ref="JP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(ISP1-SCK)">
+      <node ref="ISP1" pin="3" pinfunction="SCK" pintype="output"/>
+      <node ref="JP1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(ISP1-VCC)">
+      <node ref="ISP1" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="JP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

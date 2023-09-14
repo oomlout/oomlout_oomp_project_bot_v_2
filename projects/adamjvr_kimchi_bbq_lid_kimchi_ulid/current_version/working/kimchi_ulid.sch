@@ -1,0 +1,1519 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLedger 17000 11000
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1500 1000 1500 1250
+$Comp
+L kimchi_ulid-rescue:GND-power #PWR03
+U 1 1 5D90F565
+P 1500 2000
+F 0 "#PWR03" H 1500 1750 50  0001 C CNN
+F 1 "GND" H 1505 1827 50  0000 C CNN
+F 2 "" H 1500 2000 50  0001 C CNN
+F 3 "" H 1500 2000 50  0001 C CNN
+	1    1500 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2000 1500 1850
+$Comp
+L kimchi_ulid-rescue:GND-power #PWR04
+U 1 1 5D93779A
+P 2000 2000
+F 0 "#PWR04" H 2000 1750 50  0001 C CNN
+F 1 "GND" H 2005 1827 50  0000 C CNN
+F 2 "" H 2000 2000 50  0001 C CNN
+F 3 "" H 2000 2000 50  0001 C CNN
+	1    2000 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1650 2000 1650
+Wire Wire Line
+	2000 1650 2000 2000
+Wire Wire Line
+	2100 1550 1900 1550
+Wire Wire Line
+	2100 1450 1900 1450
+$Comp
+L kimchi_ulid-rescue:24LC16-Memory_EEPROM U1
+U 1 1 5D8EE848
+P 1500 1550
+F 0 "U1" H 1250 1800 50  0000 C CNN
+F 1 "24C32" H 1700 1800 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm" H 1500 1550 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/80/4e/8c/54/f2/63/4c/4a/CD00001012.pdf/files/CD00001012.pdf/jcr:content/translations/en.CD00001012.pdf" H 1500 1550 50  0001 C CNN
+F 4 "ST" H 1500 1550 50  0001 C CNN "Mfgr"
+F 5 "M24C32-FMC6TG" H 1500 1550 50  0001 C CNN "Part"
+F 6 "497-15757-1-ND" H 1500 1550 50  0001 C CNN "Vendorpart"
+	1    1500 1550
+	1    0    0    -1  
+$EndComp
+Text Label 2100 1550 0    50   ~ 0
+I2C4_SCL
+Text Label 2100 1450 0    50   ~ 0
+I2C4_SDA
+Text Notes 2050 1250 0    50   ~ 0
+7-bit addr: 0x57/0x5F
+Wire Wire Line
+	1050 1300 1050 1450
+Wire Wire Line
+	1050 1650 1100 1650
+Wire Wire Line
+	1100 1550 1050 1550
+Connection ~ 1050 1550
+Wire Wire Line
+	1050 1550 1050 1650
+Wire Wire Line
+	1100 1450 1050 1450
+Connection ~ 1050 1450
+Wire Wire Line
+	1050 1450 1050 1550
+$Comp
+L kimchi_ulid-rescue:Logo_Open_Hardware_Small-Graphic LOGO1
+U 1 1 5EA00236
+P 11250 10300
+F 0 "LOGO1" H 11250 10575 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 11250 10075 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo_5.7x6mm_SilkScreen" H 11250 10300 50  0001 C CNN
+F 3 "~" H 11250 10300 50  0001 C CNN
+	1    11250 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid-rescue:Conn_02x30_Counter_Clockwise-Connector_Generic J3
+U 1 1 5E5E151A
+P 9650 2650
+AR Path="/5E5E151A" Ref="J3"  Part="1" 
+AR Path="/5E34BAA5/5E5E151A" Ref="J?"  Part="1" 
+F 0 "J3" H 9700 4267 50  0000 C CNN
+F 1 "DF40HC(3.5)-60DS" H 9700 4176 50  0000 C CNN
+F 2 "kimchi_ulid:DF40HC(3.5)-60DS" H 9650 2650 50  0001 C CNN
+F 3 "~" H 9650 2650 50  0001 C CNN
+	1    9650 2650
+	1    0    0    -1  
+$EndComp
+Text Label 7350 2750 0    50   ~ 0
+CAM_CK_N
+Text Label 7350 2650 0    50   ~ 0
+CAM_CK_P
+Text Label 7350 3150 0    50   ~ 0
+CAM_D0_N
+Text Label 7350 3050 0    50   ~ 0
+CAM_D0_P
+Text Label 7350 2950 0    50   ~ 0
+CAM_D1_N
+Text Label 7350 2850 0    50   ~ 0
+CAM_D1_P
+Text Label 7350 2550 0    50   ~ 0
+CAM_D2_N
+Text Label 7350 2450 0    50   ~ 0
+CAM_D2_P
+Text Label 7350 2350 0    50   ~ 0
+CAM_D3_N
+Text Label 7350 2250 0    50   ~ 0
+CAM_D3_P
+Text Label 7350 3750 0    50   ~ 0
+DISP_CK_N
+Text Label 7350 3650 0    50   ~ 0
+DISP_CK_P
+Text Label 7350 4150 0    50   ~ 0
+DISP_D0_N
+Text Label 7350 4050 0    50   ~ 0
+DISP_D0_P
+Text Label 7350 3950 0    50   ~ 0
+DISP_D1_N
+Text Label 7350 3850 0    50   ~ 0
+DISP_D1_P
+Text Label 7350 3550 0    50   ~ 0
+DISP_D2_N
+Text Label 7350 3450 0    50   ~ 0
+DISP_D2_P
+Text Label 7350 3350 0    50   ~ 0
+DISP_D3_N
+Text Label 7350 3250 0    50   ~ 0
+DISP_D3_P
+Text GLabel 7350 1550 2    50   Input ~ 0
+USB2_VBUS
+Text GLabel 7350 1350 2    50   Input ~ 0
+USB2_DN
+Text GLabel 7350 1250 2    50   Input ~ 0
+USB2_DP
+Text GLabel 7350 1450 2    50   Input ~ 0
+USB2_ID
+Text Label 9450 1350 2    50   ~ 0
+ENET_MDC
+Text Label 9450 1250 2    50   ~ 0
+ENET_MDIO
+Text Label 9450 2450 2    50   ~ 0
+ENET_TX_CTL
+Text Label 9450 2550 2    50   ~ 0
+ENET_TXC
+Text Label 9450 2150 2    50   ~ 0
+ENET_TD0
+Text Label 9450 2050 2    50   ~ 0
+ENET_TD1
+Text Label 9450 2350 2    50   ~ 0
+ENET_TD2
+Text Label 9450 2250 2    50   ~ 0
+ENET_TD3
+Text Label 9450 1950 2    50   ~ 0
+ENET_RX_CTL
+Text Label 9450 1850 2    50   ~ 0
+ENET_RXC
+Text Label 9450 1750 2    50   ~ 0
+ENET_RD0
+Text Label 9450 1550 2    50   ~ 0
+ENET_RD1
+Text Label 9450 1650 2    50   ~ 0
+ENET_RD2
+Text Label 9450 1450 2    50   ~ 0
+ENET_RD3
+Text Label 6850 1550 2    50   ~ 0
+USDHC3_DATA0
+Text Label 6850 1750 2    50   ~ 0
+USDHC3_DATA2
+Text Label 6850 1650 2    50   ~ 0
+USDHC3_DATA1
+Text GLabel 6850 3850 0    50   Input ~ 0
+ECSPI2_SCLK
+Text GLabel 6850 4150 0    50   Input ~ 0
+ECSPI2_MISO
+Text GLabel 6850 4050 0    50   Input ~ 0
+ECSPI2_MOSI
+Text GLabel 6850 3950 0    50   Input ~ 0
+ECSPI2_SS0
+Text GLabel 6850 3450 0    50   Input ~ 0
+ECSPI1_SCLK
+Text GLabel 6850 3750 0    50   Input ~ 0
+ECSPI1_MISO
+Text GLabel 6850 3650 0    50   Input ~ 0
+ECSPI1_MOSI
+Text GLabel 6850 3550 0    50   Input ~ 0
+ECSPI1_SS0
+Text GLabel 6850 3350 0    50   Input ~ 0
+I2C1_SCL
+Text GLabel 6850 3250 0    50   Input ~ 0
+I2C1_SDA
+Text GLabel 6850 3050 0    50   Input ~ 0
+I2C2_SDA
+Text GLabel 6850 2850 0    50   Input ~ 0
+I2C3_SDA
+Text GLabel 6850 2650 0    50   Input ~ 0
+I2C4_SDA
+Text GLabel 6850 3150 0    50   Input ~ 0
+I2C2_SCL
+Text GLabel 6850 2950 0    50   Input ~ 0
+I2C3_SCL
+Text GLabel 6850 2750 0    50   Input ~ 0
+I2C4_SCL
+Text GLabel 7350 1950 2    50   Input ~ 0
+UIM_RESET_N
+Text GLabel 7350 1850 2    50   Input ~ 0
+UIM_CLK
+Text GLabel 7350 1750 2    50   Input ~ 0
+UIM_DATA
+Text GLabel 7350 1650 2    50   Input ~ 0
+UIM_PWR
+Text GLabel 7350 2050 2    50   Input ~ 0
+UIM_VPP
+$Comp
+L kimchi_ulid-rescue:GND-power #PWR09
+U 1 1 5E5E155E
+P 7900 2250
+F 0 "#PWR09" H 7900 2000 50  0001 C CNN
+F 1 "GND" H 7905 2077 50  0000 C CNN
+F 2 "" H 7900 2250 50  0001 C CNN
+F 3 "" H 7900 2250 50  0001 C CNN
+	1    7900 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2250 7900 2150
+Wire Wire Line
+	7900 2150 7350 2150
+$Comp
+L kimchi_ulid:VDD_5V #PWR07
+U 1 1 5E5E1566
+P 5800 1850
+F 0 "#PWR07" H 5800 1700 50  0001 C CNN
+F 1 "VDD_5V" H 5815 2023 50  0000 C CNN
+F 2 "" H 5800 1850 50  0001 C CNN
+F 3 "" H 5800 1850 50  0001 C CNN
+	1    5800 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2150 5800 2050
+Connection ~ 5800 1850
+Connection ~ 5800 2050
+Wire Wire Line
+	5800 2050 5800 1950
+Connection ~ 5800 1950
+Wire Wire Line
+	5800 1950 5800 1850
+$Comp
+L kimchi_ulid-rescue:GND-power #PWR08
+U 1 1 5E5E1572
+P 5800 2550
+F 0 "#PWR08" H 5800 2300 50  0001 C CNN
+F 1 "GND" H 5805 2377 50  0000 C CNN
+F 2 "" H 5800 2550 50  0001 C CNN
+F 3 "" H 5800 2550 50  0001 C CNN
+	1    5800 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2450 5800 2550
+Connection ~ 5800 2550
+Wire Wire Line
+	5800 2350 5800 2450
+Connection ~ 5800 2450
+Wire Wire Line
+	5800 2250 5800 2350
+Connection ~ 5800 2350
+$Comp
+L kimchi_ulid:VDD_1V8 #PWR012
+U 1 1 5E5E157E
+P 10800 2750
+F 0 "#PWR012" H 10800 2600 50  0001 C CNN
+F 1 "VDD_1V8" H 10815 2923 50  0000 C CNN
+F 2 "" H 10800 2750 50  0001 C CNN
+F 3 "" H 10800 2750 50  0001 C CNN
+	1    10800 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 2950 9950 2950
+Wire Wire Line
+	9950 2850 10800 2850
+Connection ~ 10800 2850
+Wire Wire Line
+	10800 2850 10800 2950
+Wire Wire Line
+	10800 2750 9950 2750
+Wire Wire Line
+	10800 2750 10800 2850
+Text GLabel 9950 1250 2    50   Input ~ 0
+PCIE_USB_D_N
+Text GLabel 9950 1350 2    50   Input ~ 0
+PCIE_USB_D_P
+Text GLabel 9950 2450 2    50   Input ~ 0
+UART3_TX
+Text GLabel 9950 2350 2    50   Input ~ 0
+UART3_RX
+Text GLabel 9950 2550 2    50   Input ~ 0
+UART1_RX
+Text GLabel 9950 2650 2    50   Input ~ 0
+UART1_TX
+Text GLabel 9450 3950 0    50   Input ~ 0
+GPIO1[9]
+Text GLabel 9450 3750 0    50   Input ~ 0
+GPIO1[11]
+Text GLabel 9450 3450 0    50   Input ~ 0
+GPIO1[14]
+Text GLabel 9450 3350 0    50   Input ~ 0
+GPIO1[15]
+$Comp
+L kimchi_ulid-rescue:GND-power #PWR013
+U 1 1 5E5E1594
+P 10800 3450
+F 0 "#PWR013" H 10800 3200 50  0001 C CNN
+F 1 "GND" H 10805 3277 50  0000 C CNN
+F 2 "" H 10800 3450 50  0001 C CNN
+F 3 "" H 10800 3450 50  0001 C CNN
+	1    10800 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 3350 10800 3350
+Wire Wire Line
+	9950 3150 10800 3150
+Wire Wire Line
+	10800 3150 10800 3250
+Wire Wire Line
+	9950 3250 10800 3250
+Connection ~ 10800 3250
+Wire Wire Line
+	10800 3250 10800 3350
+$Comp
+L kimchi_ulid:VDD_3V3 #PWR010
+U 1 1 5E5E15A0
+P 10800 1550
+F 0 "#PWR010" H 10800 1400 50  0001 C CNN
+F 1 "VDD_3V3" H 10815 1723 50  0000 C CNN
+F 2 "" H 10800 1550 50  0001 C CNN
+F 3 "" H 10800 1550 50  0001 C CNN
+	1    10800 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 1550 9950 1550
+Wire Wire Line
+	10800 1550 10800 1650
+Wire Wire Line
+	10800 1650 9950 1650
+Connection ~ 10800 1550
+Wire Wire Line
+	9950 1750 10800 1750
+Wire Wire Line
+	10800 1750 10800 1650
+Connection ~ 10800 1650
+$Comp
+L kimchi_ulid-rescue:GND-power #PWR011
+U 1 1 5E5E15AD
+P 10800 2250
+F 0 "#PWR011" H 10800 2000 50  0001 C CNN
+F 1 "GND" H 10805 2077 50  0000 C CNN
+F 2 "" H 10800 2250 50  0001 C CNN
+F 3 "" H 10800 2250 50  0001 C CNN
+	1    10800 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 2050 9950 2050
+Wire Wire Line
+	9950 2150 10800 2150
+Connection ~ 10800 2150
+Wire Wire Line
+	10800 2150 10800 2050
+Connection ~ 10800 2250
+Wire Wire Line
+	10800 2250 10800 2150
+Wire Wire Line
+	9950 2250 10800 2250
+Text GLabel 9950 3550 2    50   Input ~ 0
+SAI3_MCLK
+Text GLabel 9950 4050 2    50   Input ~ 0
+SAI3_TXD
+Text GLabel 9950 4150 2    50   Input ~ 0
+SAI3_TXC
+Text GLabel 9950 3650 2    50   Input ~ 0
+SAI3_TXFS
+Text GLabel 9950 3950 2    50   Input ~ 0
+SAI3_RXD
+Text GLabel 9950 3750 2    50   Input ~ 0
+SAI3_RXC
+Text GLabel 9950 3850 2    50   Input ~ 0
+SAI3_RXFS
+Text GLabel 9450 3150 0    50   Input ~ 0
+SAI2_MCLK
+Text GLabel 9450 2950 0    50   Input ~ 0
+SAI2_TXD0
+Text GLabel 9450 3050 0    50   Input ~ 0
+SAI2_TXC
+Text GLabel 9450 2750 0    50   Input ~ 0
+SAI2_TXFS
+Text GLabel 9450 2650 0    50   Input ~ 0
+SAI2_RXD0
+Text GLabel 9450 2850 0    50   Input ~ 0
+SAI2_RXC
+Text GLabel 9450 3250 0    50   Input ~ 0
+SAI2_RXFS
+Text GLabel 9450 4150 0    50   Input ~ 0
+GPIO1[0]
+Text GLabel 9450 4050 0    50   Input ~ 0
+GPIO1[1]
+Text GLabel 9450 3850 0    50   Input ~ 0
+GPIO1[10]
+Text GLabel 9450 3650 0    50   Input ~ 0
+GPIO1[12]
+Text GLabel 9450 3550 0    50   Input ~ 0
+GPIO1[13]
+Text Label 6850 1250 2    50   ~ 0
+USDHC3_CMD
+Text Label 6850 1350 2    50   ~ 0
+USDHC3_CLK
+Text Label 6850 1450 2    50   ~ 0
+USDHC3_DATA3
+Wire Notes Line
+	8750 2600 9450 2600
+Wire Notes Line
+	9450 2600 9450 4200
+Wire Notes Line
+	9450 4200 8750 4200
+Wire Notes Line
+	8750 4200 8750 2600
+Text Notes 8900 3450 1    50   ~ 0
+VDD_1V8
+Wire Notes Line
+	9950 3500 9950 4200
+Wire Notes Line
+	9950 4200 10600 4200
+Wire Notes Line
+	10600 4200 10600 3500
+Wire Notes Line
+	10600 3500 9950 3500
+Text Notes 10600 4000 1    50   ~ 0
+VDD_3V3
+Wire Notes Line
+	6850 3400 6000 3400
+Wire Notes Line
+	6000 4200 6850 4200
+Text Notes 6100 3950 1    50   ~ 0
+VDD_3V3
+Wire Notes Line
+	6850 2600 6000 2600
+Wire Notes Line
+	6000 3000 6850 3000
+Text Notes 6100 3350 1    50   ~ 0
+VDD_1V8
+Wire Notes Line
+	6000 2600 6000 4200
+Wire Notes Line
+	6850 2600 6850 4200
+Text Notes 6100 2950 1    50   ~ 0
+VDD_3V3
+Wire Notes Line
+	6850 1150 6000 1150
+Wire Notes Line
+	6000 1150 6000 1800
+Wire Notes Line
+	6000 1800 6850 1800
+Wire Notes Line
+	6850 1150 6850 1800
+Text Notes 6100 1650 1    50   ~ 0
+VDD_1V8
+Wire Notes Line
+	10600 2300 10600 2700
+Wire Notes Line
+	10600 2700 9950 2700
+Wire Notes Line
+	9950 2700 9950 2300
+Wire Notes Line
+	9950 2300 10600 2300
+Text Notes 10600 2650 1    50   ~ 0
+VDD_1V8
+Wire Wire Line
+	10800 2950 10800 3050
+Wire Wire Line
+	9950 3050 10800 3050
+Connection ~ 10800 2950
+Wire Wire Line
+	9950 3450 10800 3450
+Wire Wire Line
+	10800 3450 10800 3350
+Connection ~ 10800 3350
+Connection ~ 10800 3450
+Connection ~ 10800 2750
+Wire Wire Line
+	9950 1950 10800 1950
+Wire Wire Line
+	10800 1950 10800 2050
+Connection ~ 10800 2050
+Wire Wire Line
+	9950 1850 10800 1850
+Wire Wire Line
+	10800 1850 10800 1750
+Connection ~ 10800 1750
+Wire Wire Line
+	5800 1850 6850 1850
+Wire Wire Line
+	6850 1950 5800 1950
+Wire Wire Line
+	6850 2050 5800 2050
+Wire Wire Line
+	6850 2150 5800 2150
+Wire Wire Line
+	6850 2250 5800 2250
+Wire Wire Line
+	6850 2350 5800 2350
+Wire Wire Line
+	6850 2450 5800 2450
+Wire Wire Line
+	6850 2550 5800 2550
+$Comp
+L kimchi_ulid-rescue:Conn_02x30_Counter_Clockwise-Connector_Generic J2
+U 1 1 5E5E1603
+P 7050 2650
+AR Path="/5E5E1603" Ref="J2"  Part="1" 
+AR Path="/5E34BAA5/5E5E1603" Ref="J?"  Part="1" 
+F 0 "J2" H 7100 4267 50  0000 C CNN
+F 1 "DF40HC(3.5)-60DS" H 7100 4176 50  0000 C CNN
+F 2 "kimchi_ulid:DF40HC(3.5)-60DS" H 7050 2650 50  0001 C CNN
+F 3 "~" H 7050 2650 50  0001 C CNN
+	1    7050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid-rescue:PWR_FLAG-power #FLG01
+U 1 1 5E5F10BC
+P 5400 1850
+F 0 "#FLG01" H 5400 1925 50  0001 C CNN
+F 1 "PWR_FLAG" H 5400 2023 50  0000 C CNN
+F 2 "" H 5400 1850 50  0001 C CNN
+F 3 "~" H 5400 1850 50  0001 C CNN
+	1    5400 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 1850 5800 1850
+$Comp
+L kimchi_ulid-rescue:PWR_FLAG-power #FLG02
+U 1 1 5E5F3411
+P 11250 1550
+F 0 "#FLG02" H 11250 1625 50  0001 C CNN
+F 1 "PWR_FLAG" H 11250 1723 50  0000 C CNN
+F 2 "" H 11250 1550 50  0001 C CNN
+F 3 "~" H 11250 1550 50  0001 C CNN
+	1    11250 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 1550 10800 1550
+$Comp
+L kimchi_ulid-rescue:PWR_FLAG-power #FLG03
+U 1 1 5E5F4DE1
+P 11250 2750
+F 0 "#FLG03" H 11250 2825 50  0001 C CNN
+F 1 "PWR_FLAG" H 11250 2923 50  0000 C CNN
+F 2 "" H 11250 2750 50  0001 C CNN
+F 3 "~" H 11250 2750 50  0001 C CNN
+	1    11250 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 2750 10800 2750
+$Comp
+L kimchi_ulid-rescue:MountingHole_Pad-Mechanical H1
+U 1 1 5E6294CA
+P 13950 2500
+F 0 "H1" H 14050 2549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 14050 2458 50  0000 L CNN
+F 2 "kimchi_ulid:MountingHole_3mm_Pad" H 14050 2412 50  0001 L CNN
+F 3 "~" H 13950 2500 50  0001 C CNN
+	1    13950 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid-rescue:MountingHole_Pad-Mechanical H2
+U 1 1 5E62A27E
+P 13950 3000
+F 0 "H2" H 14050 3049 50  0000 L CNN
+F 1 "MountingHole_Pad" H 14050 2958 50  0000 L CNN
+F 2 "kimchi_ulid:MountingHole_3mm_Pad" H 13950 3000 50  0001 C CNN
+F 3 "~" H 13950 3000 50  0001 C CNN
+	1    13950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid-rescue:MountingHole_Pad-Mechanical H3
+U 1 1 5E62A6D2
+P 15050 2500
+F 0 "H3" H 15150 2549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 15150 2458 50  0000 L CNN
+F 2 "kimchi_ulid:MountingHole_3mm_Pad" H 15050 2500 50  0001 C CNN
+F 3 "~" H 15050 2500 50  0001 C CNN
+	1    15050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid-rescue:MountingHole_Pad-Mechanical H4
+U 1 1 5E62AAC7
+P 15050 3000
+F 0 "H4" H 15150 3049 50  0000 L CNN
+F 1 "MountingHole_Pad" H 15150 2958 50  0000 L CNN
+F 2 "kimchi_ulid:MountingHole_3mm_Pad" H 15050 3000 50  0001 C CNN
+F 3 "~" H 15050 3000 50  0001 C CNN
+	1    15050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid-rescue:GND-power #PWR014
+U 1 1 5E62AE37
+P 13950 2600
+F 0 "#PWR014" H 13950 2350 50  0001 C CNN
+F 1 "GND" H 13955 2427 50  0000 C CNN
+F 2 "" H 13950 2600 50  0001 C CNN
+F 3 "" H 13950 2600 50  0001 C CNN
+	1    13950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid-rescue:GND-power #PWR015
+U 1 1 5E62F6CE
+P 13950 3100
+F 0 "#PWR015" H 13950 2850 50  0001 C CNN
+F 1 "GND" H 13955 2927 50  0000 C CNN
+F 2 "" H 13950 3100 50  0001 C CNN
+F 3 "" H 13950 3100 50  0001 C CNN
+	1    13950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid-rescue:GND-power #PWR016
+U 1 1 5E62F90F
+P 15050 2600
+F 0 "#PWR016" H 15050 2350 50  0001 C CNN
+F 1 "GND" H 15055 2427 50  0000 C CNN
+F 2 "" H 15050 2600 50  0001 C CNN
+F 3 "" H 15050 2600 50  0001 C CNN
+	1    15050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid-rescue:GND-power #PWR017
+U 1 1 5E6301E3
+P 15050 3100
+F 0 "#PWR017" H 15050 2850 50  0001 C CNN
+F 1 "GND" H 15055 2927 50  0000 C CNN
+F 2 "" H 15050 3100 50  0001 C CNN
+F 3 "" H 15050 3100 50  0001 C CNN
+	1    15050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid:VDD_3V3 #PWR02
+U 1 1 5E5E1B2B
+P 1500 1000
+F 0 "#PWR02" H 1500 850 50  0001 C CNN
+F 1 "VDD_3V3" H 1515 1173 50  0000 C CNN
+F 2 "" H 1500 1000 50  0001 C CNN
+F 3 "" H 1500 1000 50  0001 C CNN
+	1    1500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid:VDD_3V3 #PWR01
+U 1 1 5E5E1EC4
+P 1050 1300
+F 0 "#PWR01" H 1050 1150 50  0001 C CNN
+F 1 "VDD_3V3" H 1065 1473 50  0000 C CNN
+F 2 "" H 1050 1300 50  0001 C CNN
+F 3 "" H 1050 1300 50  0001 C CNN
+	1    1050 1300
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 8400 5750 2250 3600
+U 60193EAA
+F0 "Base Display and Controls" 50
+F1 "Base_Display_Controls.sch" 50
+F2 "LEFT_UP_D" O R 10650 5950 50 
+F3 "LEFT_L_R" O R 10650 6050 50 
+F4 "RIGHT_UP_D" O R 10650 6400 50 
+F5 "RIGHT_L_R" O R 10650 6500 50 
+F6 "BTTM_DSP_Brightness" I L 8400 8600 50 
+F7 "TOUCH_I2C_SCL" I L 8400 8200 50 
+F8 "TOUCH_I2C_SDA" B L 8400 8300 50 
+F9 "TOUCH_I2C_IRQ" I L 8400 8400 50 
+F10 "TOUCH_I2C_RST" I L 8400 8500 50 
+F11 "SPI_SDO" B L 8400 8750 50 
+F12 "SPI_SDA" B L 8400 8850 50 
+F13 "SPI_SCL" I L 8400 8950 50 
+F14 "SPI_D_CX" I L 8400 9050 50 
+F15 "SPI_CS" I L 8400 9200 50 
+F16 "IOXP_SCL" I L 8400 6000 50 
+F17 "IOXP_SDA" I L 8400 6150 50 
+F18 "IOXP_RST" I L 8400 6250 50 
+F19 "IOXP_INTA" I L 8400 6500 50 
+F20 "IOXP_INTB" I L 8400 6700 50 
+$EndSheet
+$Comp
+L kimchi_ulid:M2.5HOLE H5
+U 1 1 6094C28C
+P 13950 3800
+F 0 "H5" V 14150 3700 50  0000 R CNN
+F 1 "M2.5HOLE" V 14050 3700 50  0000 R CNN
+F 2 "kimchi_ulid:M2.5HOLE" H 13850 4100 50  0001 C CNN
+F 3 "" H 13950 3800 50  0001 C CNN
+	1    13950 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kimchi_ulid:M2.5HOLE H7
+U 1 1 6094DEEA
+P 15050 3800
+F 0 "H7" V 15250 3700 50  0000 R CNN
+F 1 "M2.5HOLE" V 15150 3700 50  0000 R CNN
+F 2 "kimchi_ulid:M2.5HOLE" H 14950 4100 50  0001 C CNN
+F 3 "" H 15050 3800 50  0001 C CNN
+	1    15050 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kimchi_ulid:M2.5HOLE H6
+U 1 1 6094E3F4
+P 13950 4550
+F 0 "H6" V 14150 4450 50  0000 R CNN
+F 1 "M2.5HOLE" V 14050 4450 50  0000 R CNN
+F 2 "kimchi_ulid:M2.5HOLE" H 13850 4850 50  0001 C CNN
+F 3 "" H 13950 4550 50  0001 C CNN
+	1    13950 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kimchi_ulid:M2.5HOLE H8
+U 1 1 6094EDD7
+P 15050 4550
+F 0 "H8" V 15250 4450 50  0000 R CNN
+F 1 "M2.5HOLE" V 15150 4450 50  0000 R CNN
+F 2 "kimchi_ulid:M2.5HOLE" H 14950 4850 50  0001 C CNN
+F 3 "" H 15050 4550 50  0001 C CNN
+	1    15050 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15050 4000 13950 4000
+Wire Wire Line
+	13400 4000 13400 4750
+Wire Wire Line
+	13400 4750 13950 4750
+Connection ~ 13950 4000
+Wire Wire Line
+	13950 4000 13400 4000
+Connection ~ 13950 4750
+Wire Wire Line
+	13950 4750 15050 4750
+$Comp
+L kimchi_ulid-rescue:GND-power #PWR0101
+U 1 1 60950EF0
+P 13400 4750
+F 0 "#PWR0101" H 13400 4500 50  0001 C CNN
+F 1 "GND" H 13405 4577 50  0000 C CNN
+F 2 "" H 13400 4750 50  0001 C CNN
+F 3 "" H 13400 4750 50  0001 C CNN
+	1    13400 4750
+	1    0    0    -1  
+$EndComp
+Connection ~ 13400 4750
+$Comp
+L kimchi_ulid:M1.5HOLE H9
+U 1 1 6095F00C
+P 13550 5200
+F 0 "H9" V 13588 5072 50  0000 R CNN
+F 1 "M1.5HOLE" V 13497 5072 50  0000 R CNN
+F 2 "kimchi_ulid:M1.5HOLE" H 13450 5500 50  0001 C CNN
+F 3 "" H 13550 5200 50  0001 C CNN
+	1    13550 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kimchi_ulid:M1.5HOLE H11
+U 1 1 6095FD55
+P 14200 5200
+F 0 "H11" V 14238 5072 50  0000 R CNN
+F 1 "M1.5HOLE" V 14147 5072 50  0000 R CNN
+F 2 "kimchi_ulid:M1.5HOLE" H 14100 5500 50  0001 C CNN
+F 3 "" H 14200 5200 50  0001 C CNN
+	1    14200 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kimchi_ulid:M1.5HOLE H10
+U 1 1 60961A3D
+P 13550 5950
+F 0 "H10" V 13588 5822 50  0000 R CNN
+F 1 "M1.5HOLE" V 13497 5822 50  0000 R CNN
+F 2 "kimchi_ulid:M1.5HOLE" H 13450 6250 50  0001 C CNN
+F 3 "" H 13550 5950 50  0001 C CNN
+	1    13550 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kimchi_ulid:M1.5HOLE H12
+U 1 1 60961A43
+P 14200 5950
+F 0 "H12" V 14238 5822 50  0000 R CNN
+F 1 "M1.5HOLE" V 14147 5822 50  0000 R CNN
+F 2 "kimchi_ulid:M1.5HOLE" H 14100 6250 50  0001 C CNN
+F 3 "" H 14200 5950 50  0001 C CNN
+	1    14200 5950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15050 5400 14200 5400
+Wire Wire Line
+	13400 5400 13400 6150
+Wire Wire Line
+	13400 6150 13550 6150
+$Comp
+L kimchi_ulid-rescue:GND-power #PWR0102
+U 1 1 609683A1
+P 13400 6150
+F 0 "#PWR0102" H 13400 5900 50  0001 C CNN
+F 1 "GND" H 13405 5977 50  0000 C CNN
+F 2 "" H 13400 6150 50  0001 C CNN
+F 3 "" H 13400 6150 50  0001 C CNN
+	1    13400 6150
+	1    0    0    -1  
+$EndComp
+Connection ~ 13400 6150
+Connection ~ 13550 6150
+Connection ~ 13550 5400
+Connection ~ 14200 5400
+Connection ~ 14200 6150
+Wire Wire Line
+	14200 6150 15050 6150
+$Comp
+L kimchi_ulid:M1.5HOLE H20
+U 1 1 6096DA54
+P 15050 5950
+F 0 "H20" V 15088 5822 50  0000 R CNN
+F 1 "M1.5HOLE" V 14997 5822 50  0000 R CNN
+F 2 "kimchi_ulid:M1.5HOLE" H 14950 6250 50  0001 C CNN
+F 3 "" H 15050 5950 50  0001 C CNN
+	1    15050 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kimchi_ulid:M1.5HOLE H13
+U 1 1 60973B61
+P 13500 6700
+F 0 "H13" V 13538 6572 50  0000 R CNN
+F 1 "M1.5HOLE" V 13447 6572 50  0000 R CNN
+F 2 "kimchi_ulid:M1.5HOLE" H 13400 7000 50  0001 C CNN
+F 3 "" H 13500 6700 50  0001 C CNN
+	1    13500 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kimchi_ulid:M1.5HOLE H15
+U 1 1 60973B67
+P 14150 6700
+F 0 "H15" V 14188 6572 50  0000 R CNN
+F 1 "M1.5HOLE" V 14097 6572 50  0000 R CNN
+F 2 "kimchi_ulid:M1.5HOLE" H 14050 7000 50  0001 C CNN
+F 3 "" H 14150 6700 50  0001 C CNN
+	1    14150 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kimchi_ulid:M1.5HOLE H14
+U 1 1 60973B6D
+P 13500 7450
+F 0 "H14" V 13538 7322 50  0000 R CNN
+F 1 "M1.5HOLE" V 13447 7322 50  0000 R CNN
+F 2 "kimchi_ulid:M1.5HOLE" H 13400 7750 50  0001 C CNN
+F 3 "" H 13500 7450 50  0001 C CNN
+	1    13500 7450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kimchi_ulid:M1.5HOLE H16
+U 1 1 60973B73
+P 14150 7450
+F 0 "H16" V 14188 7322 50  0000 R CNN
+F 1 "M1.5HOLE" V 14097 7322 50  0000 R CNN
+F 2 "kimchi_ulid:M1.5HOLE" H 14050 7750 50  0001 C CNN
+F 3 "" H 14150 7450 50  0001 C CNN
+	1    14150 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15000 6900 14150 6900
+Wire Wire Line
+	13350 6900 13350 7650
+Wire Wire Line
+	13350 7650 13500 7650
+$Comp
+L kimchi_ulid-rescue:GND-power #PWR0103
+U 1 1 60973B80
+P 13350 7650
+F 0 "#PWR0103" H 13350 7400 50  0001 C CNN
+F 1 "GND" H 13355 7477 50  0000 C CNN
+F 2 "" H 13350 7650 50  0001 C CNN
+F 3 "" H 13350 7650 50  0001 C CNN
+	1    13350 7650
+	1    0    0    -1  
+$EndComp
+Connection ~ 13350 7650
+Connection ~ 13500 7650
+Connection ~ 13500 6900
+Connection ~ 14150 6900
+Connection ~ 14150 7650
+Wire Wire Line
+	14150 7650 15000 7650
+$Comp
+L kimchi_ulid:M1.5HOLE H18
+U 1 1 60973B97
+P 15000 7450
+F 0 "H18" V 15038 7322 50  0000 R CNN
+F 1 "M1.5HOLE" V 14947 7322 50  0000 R CNN
+F 2 "kimchi_ulid:M1.5HOLE" H 14900 7750 50  0001 C CNN
+F 3 "" H 15000 7450 50  0001 C CNN
+	1    15000 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13550 5400 14200 5400
+Wire Wire Line
+	13550 6150 14200 6150
+Wire Wire Line
+	13400 5400 13550 5400
+Wire Wire Line
+	13500 6900 14150 6900
+Wire Wire Line
+	13500 7650 14150 7650
+Wire Wire Line
+	13350 6900 13500 6900
+$Comp
+L kimchi_ulid:Kimchi_SBC M1
+U 1 1 609C6C55
+P 7200 4300
+F 0 "M1" H 7428 4221 50  0000 L CNN
+F 1 "Kimchi_SBC" H 7428 4130 50  0000 L CNN
+F 2 "kimchi_ulid:kimchi-micro-3d-model" H 7200 4300 50  0001 C CNN
+F 3 "" H 7200 4300 50  0001 C CNN
+	1    7200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid:M2.5HOLE H17
+U 1 1 609CCEC2
+P 15700 4550
+F 0 "H17" V 15900 4450 50  0000 R CNN
+F 1 "M2.5HOLE" V 15800 4450 50  0000 R CNN
+F 2 "kimchi_ulid:M2.5HOLE" H 15600 4850 50  0001 C CNN
+F 3 "" H 15700 4550 50  0001 C CNN
+	1    15700 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15050 4750 15700 4750
+Connection ~ 15050 4750
+Text GLabel 7900 8950 0    50   Input ~ 0
+ECSPI1_SCLK
+Text GLabel 7900 8750 0    50   Input ~ 0
+ECSPI1_MISO
+Text GLabel 7900 8850 0    50   Input ~ 0
+ECSPI1_MOSI
+Text GLabel 7900 9200 0    50   Input ~ 0
+ECSPI1_SS0
+Wire Wire Line
+	8400 8950 7900 8950
+Wire Wire Line
+	7900 9200 8400 9200
+Wire Wire Line
+	7900 8850 8400 8850
+Wire Wire Line
+	8400 8750 7900 8750
+Text GLabel 7750 8300 0    50   Input ~ 0
+I2C3_SDA
+Text GLabel 7750 8200 0    50   Input ~ 0
+I2C3_SCL
+Wire Wire Line
+	8400 8200 7750 8200
+Wire Wire Line
+	7750 8300 8400 8300
+$Sheet
+S 950  8700 2100 1550
+U 603637CD
+F0 "USB & Accesories" 50
+F1 "USB_IMU_Accesories.sch" 50
+$EndSheet
+$Comp
+L kimchi_ulid:VDD_3V3 #PWR0118
+U 1 1 60AB87DF
+P 4050 6400
+F 0 "#PWR0118" H 4050 6250 50  0001 C CNN
+F 1 "VDD_3V3" H 4065 6573 50  0000 C CNN
+F 2 "" H 4050 6400 50  0001 C CNN
+F 3 "" H 4050 6400 50  0001 C CNN
+	1    4050 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid:VDD_1V8 #PWR0119
+U 1 1 60AB6CB2
+P 3700 6400
+F 0 "#PWR0119" H 3700 6250 50  0001 C CNN
+F 1 "VDD_1V8" H 3715 6573 50  0000 C CNN
+F 2 "" H 3700 6400 50  0001 C CNN
+F 3 "" H 3700 6400 50  0001 C CNN
+	1    3700 6400
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 7700
+Connection ~ 1250 7400
+Wire Wire Line
+	1250 7600 1250 7700
+Wire Wire Line
+	1250 7300 1250 7400
+Text Label 2500 5800 0    50   ~ 0
+DISP_D0_N
+Text Label 2500 5900 0    50   ~ 0
+DISP_D0_P
+Text Label 2500 6100 0    50   ~ 0
+DISP_D1_N
+Text Label 2500 6200 0    50   ~ 0
+DISP_D1_P
+Text Label 2500 6400 0    50   ~ 0
+DISP_CK_N
+Text Label 2500 6500 0    50   ~ 0
+DISP_CK_P
+Text Label 2500 6700 0    50   ~ 0
+DISP_D2_N
+Text Label 2500 6800 0    50   ~ 0
+DISP_D2_P
+Text Label 2500 7000 0    50   ~ 0
+DISP_D3_N
+Text Label 2500 7100 0    50   ~ 0
+DISP_D3_P
+$Comp
+L kimchi_ulid-rescue:GND-power #PWR0117
+U 1 1 60A45625
+P 3500 8400
+F 0 "#PWR0117" H 3500 8150 50  0001 C CNN
+F 1 "GND" H 3505 8227 50  0000 C CNN
+F 2 "" H 3500 8400 50  0001 C CNN
+F 3 "" H 3500 8400 50  0001 C CNN
+	1    3500 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid:SFV30R-4STBE1HLF T2
+U 1 1 609E5D98
+P 900 5300
+F 0 "T2" H 1050 5450 50  0000 L CNN
+F 1 "SFV30R-4STBE1HLF" H 400 2250 50  0000 L CNN
+F 2 "kimchi_ulid:SFV30R-4STBE1HLF" H 1800 2600 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/gs-12-645.pdf" H 900 5300 50  0001 C CNN
+	1    900  5300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 5600 5250 5600
+Wire Wire Line
+	5550 5500 5250 5500
+Wire Wire Line
+	5550 5400 5250 5400
+Wire Wire Line
+	5550 5300 5250 5300
+Text GLabel 5550 5600 2    50   Input ~ 0
+GPIO1[13]
+Text GLabel 5550 5400 2    50   Input ~ 0
+GPIO1[1]
+Text GLabel 5550 5300 2    50   Input ~ 0
+GPIO1[0]
+Text GLabel 5550 5500 2    50   Input ~ 0
+GPIO1[11]
+Text Notes 3150 5050 2    100  ~ 20
+Upper Display Interface
+$Sheet
+S 4250 7200 2100 1550
+U 6016717B
+F0 "Audio Codec and Speakers" 50
+F1 "Audio_Codec.sch" 50
+F2 "SPK_L" O L 4250 8100 50 
+F3 "SPK_R" O L 4250 8200 50 
+F4 "SMIC_L" I L 4250 8000 50 
+F5 "SMIC_R" I L 4250 7900 50 
+$EndSheet
+Wire Wire Line
+	1250 7500 1250 7400
+Wire Wire Line
+	1250 7800 1250 7700
+Wire Wire Line
+	4050 6400 4050 7700
+$Comp
+L kimchi_ulid:TXB0104RUTR U6
+U 1 1 60ADD86E
+P 4350 5000
+F 0 "U6" H 4400 5050 60  0000 C CNN
+F 1 "TXB0104RUTR" H 4650 4150 60  0000 C CNN
+F 2 "kimchi_ulid:TXB0104RUTR" H 5250 5040 60  0001 C CNN
+F 3 "" H 4350 5000 60  0000 C CNN
+	1    4350 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid-rescue:GND-power #PWR0120
+U 1 1 60B089FD
+P 4050 5850
+F 0 "#PWR0120" H 4050 5600 50  0001 C CNN
+F 1 "GND" H 4055 5677 50  0000 C CNN
+F 2 "" H 4050 5850 50  0001 C CNN
+F 3 "" H 4050 5850 50  0001 C CNN
+	1    4050 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 5700 4050 5850
+Wire Wire Line
+	4050 5200 4050 4500
+$Comp
+L kimchi_ulid:C0402C104K9PACTU C2
+U 1 1 60B1C58E
+P 3500 4700
+F 0 "C2" V 3479 4828 50  0000 L CNN
+F 1 "C0402C104K9PACTU" H 3550 4900 50  0001 C CNN
+F 2 "kimchi_ulid:C0402" H 3300 4700 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H 3400 4800 50  0001 C CNN
+F 4 "0.10000" H 3600 4950 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.01139" H 3700 5050 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.01035" H 3800 5150 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00952" H 3900 5250 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00756" H 4000 5350 50  0001 C CNN "Cost QTY: 10000"
+F 9 "KEMET" H 4100 5450 50  0001 C CNN "MFR"
+F 10 "C0402C104K9PACTU" H 4200 5550 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 4300 5650 50  0001 C CNN "Vendor"
+F 12 "399-3026-6-ND" H 4400 5750 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 4500 5850 50  0001 C CNN "Designer"
+F 14 "0.55mm" H 4600 5950 50  0001 C CNN "Height"
+F 15 "12/7/2019" H 5700 7050 50  0001 C CNN "Date Created"
+F 16 "12/7/2019" H 4700 6050 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 4800 6150 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 4900 6250 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 5000 6350 50  0001 C CNN "Mounting"
+F 20 "2" H 5100 6450 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 5200 6550 50  0001 C CNN "Status"
+F 22 "10%" H 5300 6650 50  0001 C CNN "Tolerance"
+F 23 "Ceramic Cap" H 5400 6750 50  0001 C CNN "Type"
+F 24 "6.3V" H 5500 6850 50  0001 C CNN "Voltage"
+F 25 "0402" H 5600 7000 50  0001 C CNN "Package"
+F 26 "0.1µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)" H 6000 7400 50  0001 C CNN "Description"
+F 27 "0.1uF" V 3570 4828 50  0000 L CNN "_Value_"
+F 28 "*" H 5900 7300 50  0001 C CNN "Management_ID"
+	1    3500 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L kimchi_ulid:C0402C104K9PACTU C8
+U 1 1 60B22B6A
+P 6300 5400
+F 0 "C8" V 6279 5528 50  0000 L CNN
+F 1 "C0402C104K9PACTU" H 6350 5600 50  0001 C CNN
+F 2 "kimchi_ulid:C0402" H 6100 5400 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H 6200 5500 50  0001 C CNN
+F 4 "0.10000" H 6400 5650 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.01139" H 6500 5750 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.01035" H 6600 5850 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00952" H 6700 5950 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00756" H 6800 6050 50  0001 C CNN "Cost QTY: 10000"
+F 9 "KEMET" H 6900 6150 50  0001 C CNN "MFR"
+F 10 "C0402C104K9PACTU" H 7000 6250 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 7100 6350 50  0001 C CNN "Vendor"
+F 12 "399-3026-6-ND" H 7200 6450 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 7300 6550 50  0001 C CNN "Designer"
+F 14 "0.55mm" H 7400 6650 50  0001 C CNN "Height"
+F 15 "12/7/2019" H 8500 7750 50  0001 C CNN "Date Created"
+F 16 "12/7/2019" H 7500 6750 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 7600 6850 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 7700 6950 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 7800 7050 50  0001 C CNN "Mounting"
+F 20 "2" H 7900 7150 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 8000 7250 50  0001 C CNN "Status"
+F 22 "10%" H 8100 7350 50  0001 C CNN "Tolerance"
+F 23 "Ceramic Cap" H 8200 7450 50  0001 C CNN "Type"
+F 24 "6.3V" H 8300 7550 50  0001 C CNN "Voltage"
+F 25 "0402" H 8400 7700 50  0001 C CNN "Package"
+F 26 "0.1µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)" H 8800 8100 50  0001 C CNN "Description"
+F 27 "0.1uF" V 6370 5528 50  0000 L CNN "_Value_"
+F 28 "*" H 8700 8000 50  0001 C CNN "Management_ID"
+	1    6300 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 5200 6300 5200
+Wire Wire Line
+	6300 5650 6300 5800
+$Comp
+L kimchi_ulid-rescue:GND-power #PWR0121
+U 1 1 60B3A405
+P 6300 5800
+F 0 "#PWR0121" H 6300 5550 50  0001 C CNN
+F 1 "GND" H 6305 5627 50  0000 C CNN
+F 2 "" H 6300 5800 50  0001 C CNN
+F 3 "" H 6300 5800 50  0001 C CNN
+	1    6300 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L kimchi_ulid:VDD_3V3 #PWR0122
+U 1 1 60B3BFCC
+P 6300 5200
+F 0 "#PWR0122" H 6300 5050 50  0001 C CNN
+F 1 "VDD_3V3" H 6315 5373 50  0000 C CNN
+F 2 "" H 6300 5200 50  0001 C CNN
+F 3 "" H 6300 5200 50  0001 C CNN
+	1    6300 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 6300 5200
+$Comp
+L kimchi_ulid:RC0603JR-074K7L R?
+U 1 1 60B493B1
+P 5600 4900
+AR Path="/603637CD/60B493B1" Ref="R?"  Part="1" 
+AR Path="/60B493B1" Ref="R7"  Part="1" 
+F 0 "R7" V 5550 4750 50  0000 L CNN
+F 1 "RC0603JR-074K7L" V 5600 4988 50  0001 L CNN
+F 2 "kimchi_ulid:R0603" H 5600 4900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5600 4900 50  0001 C CNN
+F 4 "0.10000" H 5700 5150 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.00313" H 5800 5250 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.00272" H 5900 5350 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00224" H 6000 5450 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00195" H 6100 5550 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 6200 5650 50  0001 C CNN "MFR"
+F 10 "RC0603JR-074K7L" H 6300 5750 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 6400 5850 50  0001 C CNN "Vendor"
+F 12 "311-4.7KGRCT-ND" H 6500 5950 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 6600 6050 50  0001 C CNN "Designer"
+F 14 "0.4mm" H 6700 6150 50  0001 C CNN "Height"
+F 15 "1/27/2021" H 7800 7250 50  0001 C CNN "Date Created"
+F 16 "1/27/2021" H 6800 6250 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 6900 6350 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 7000 6450 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 7100 6550 50  0001 C CNN "Mounting"
+F 20 "2" H 7200 6650 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 7300 6750 50  0001 C CNN "Status"
+F 22 "1%" H 7400 6850 50  0001 C CNN "Tolerance"
+F 23 "Thick Film Resistor" H 7500 6950 50  0001 C CNN "Type"
+F 24 "*" H 7600 7050 50  0001 C CNN "Voltage"
+F 25 "0603" H 7700 7200 50  0001 C CNN "Package"
+F 26 "4.7K" V 5650 4700 50  0000 L CNN "_Value_"
+F 27 "*" H 8000 7500 50  0001 C CNN "Management_ID"
+F 28 "4.7 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film" H 8000 7500 50  0001 C CNN "Description"
+	1    5600 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L kimchi_ulid:VDD_3V3 #PWR0123
+U 1 1 60B4FC28
+P 5600 4600
+F 0 "#PWR0123" H 5600 4450 50  0001 C CNN
+F 1 "VDD_3V3" H 5615 4773 50  0000 C CNN
+F 2 "" H 5600 4600 50  0001 C CNN
+F 3 "" H 5600 4600 50  0001 C CNN
+	1    5600 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 5100 5250 5100
+Wire Wire Line
+	5600 4600 5600 4700
+$Comp
+L kimchi_ulid:VDD_1V8 #PWR0124
+U 1 1 60B5F34C
+P 3850 5750
+F 0 "#PWR0124" H 3850 5600 50  0001 C CNN
+F 1 "VDD_1V8" H 3865 5923 50  0000 C CNN
+F 2 "" H 3850 5750 50  0001 C CNN
+F 3 "" H 3850 5750 50  0001 C CNN
+	1    3850 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4500 4050 4500
+Wire Wire Line
+	3500 4950 3500 5700
+Wire Wire Line
+	1100 5900 1850 5900
+Wire Wire Line
+	1100 5800 1850 5800
+Wire Wire Line
+	1100 6200 1850 6200
+Wire Wire Line
+	1100 6100 1850 6100
+Wire Wire Line
+	1100 6500 1850 6500
+Wire Wire Line
+	1100 6400 1850 6400
+Wire Wire Line
+	1100 6800 1850 6800
+Wire Wire Line
+	1100 6700 1850 6700
+Wire Wire Line
+	1100 7100 1850 7100
+Wire Wire Line
+	1100 7000 1850 7000
+Wire Wire Line
+	1100 6000 2000 6000
+Connection ~ 3500 6000
+Wire Wire Line
+	3500 6000 3500 6300
+Wire Wire Line
+	1100 6300 2000 6300
+Connection ~ 3500 6300
+Wire Wire Line
+	3500 6300 3500 6600
+Wire Wire Line
+	1100 6600 2000 6600
+Connection ~ 3500 6600
+Wire Wire Line
+	3500 6600 3500 6900
+Wire Wire Line
+	1100 6900 2000 6900
+Connection ~ 3500 6900
+Wire Wire Line
+	3500 6900 3500 7200
+Wire Wire Line
+	1100 7200 2000 7200
+Connection ~ 3500 7200
+Wire Wire Line
+	3500 7200 3500 8400
+Wire Wire Line
+	1100 7300 1250 7300
+Wire Wire Line
+	1100 7400 1250 7400
+Wire Wire Line
+	1100 7500 1250 7500
+Wire Wire Line
+	1100 7600 1250 7600
+Wire Wire Line
+	1100 7700 1250 7700
+Wire Wire Line
+	1100 7800 1250 7800
+Wire Wire Line
+	1250 7400 3700 7400
+Wire Wire Line
+	3700 7400 3700 6400
+Wire Wire Line
+	1250 7700 4050 7700
+$Comp
+L kimchi_ulid:LCFE121002 L4
+U 1 1 60C59024
+P 2000 5850
+F 0 "L4" H 2200 5750 50  0000 C CNN
+F 1 "LCFE121002" H 2000 6090 50  0001 C CNN
+F 2 "kimchi_ulid:LCFE121002" H 2000 5850 50  0001 C CNN
+F 3 "" H 2000 5850 50  0001 C CNN
+	1    2000 5850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2150 5800 2500 5800
+Wire Wire Line
+	2150 5900 2500 5900
+Connection ~ 2000 6000
+Wire Wire Line
+	2000 6000 3500 6000
+$Comp
+L kimchi_ulid:LCFE121002 L5
+U 1 1 60C5E81F
+P 2000 6150
+F 0 "L5" H 2250 6050 50  0000 C CNN
+F 1 "LCFE121002" H 2000 6390 50  0001 C CNN
+F 2 "kimchi_ulid:LCFE121002" H 2000 6150 50  0001 C CNN
+F 3 "" H 2000 6150 50  0001 C CNN
+	1    2000 6150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2150 6100 2500 6100
+Wire Wire Line
+	2150 6200 2500 6200
+Connection ~ 2000 6300
+Wire Wire Line
+	2000 6300 3500 6300
+$Comp
+L kimchi_ulid:LCFE121002 L6
+U 1 1 60C61666
+P 2000 6450
+F 0 "L6" H 2200 6350 50  0000 C CNN
+F 1 "LCFE121002" H 2000 6690 50  0001 C CNN
+F 2 "kimchi_ulid:LCFE121002" H 2000 6450 50  0001 C CNN
+F 3 "" H 2000 6450 50  0001 C CNN
+	1    2000 6450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2150 6400 2500 6400
+Wire Wire Line
+	2150 6500 2500 6500
+Connection ~ 2000 6600
+Wire Wire Line
+	2000 6600 3500 6600
+$Comp
+L kimchi_ulid:LCFE121002 L7
+U 1 1 60C62C43
+P 2000 6750
+F 0 "L7" H 2200 6650 50  0000 C CNN
+F 1 "LCFE121002" H 2000 6990 50  0001 C CNN
+F 2 "kimchi_ulid:LCFE121002" H 2000 6750 50  0001 C CNN
+F 3 "" H 2000 6750 50  0001 C CNN
+	1    2000 6750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2150 6700 2500 6700
+Wire Wire Line
+	2150 6800 2500 6800
+Connection ~ 2000 6900
+Wire Wire Line
+	2000 6900 3500 6900
+$Comp
+L kimchi_ulid:LCFE121002 L8
+U 1 1 60C655D5
+P 2000 7050
+F 0 "L8" H 2200 6950 50  0000 C CNN
+F 1 "LCFE121002" H 2000 7290 50  0001 C CNN
+F 2 "kimchi_ulid:LCFE121002" H 2000 7050 50  0001 C CNN
+F 3 "" H 2000 7050 50  0001 C CNN
+	1    2000 7050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2150 7000 2500 7000
+Wire Wire Line
+	2150 7100 2500 7100
+Connection ~ 2000 7200
+Wire Wire Line
+	2000 7200 3500 7200
+Text Label 1250 5800 0    50   ~ 0
+DISP1_D0_N
+Text Label 1250 5900 0    50   ~ 0
+DISP1_D0_P
+Text Label 1250 6100 0    50   ~ 0
+DISP1_D1_N
+Text Label 1250 6200 0    50   ~ 0
+DISP1_D1_P
+Text Label 1250 6400 0    50   ~ 0
+DISP1_CK_N
+Text Label 1250 6500 0    50   ~ 0
+DISP1_CK_P
+Text Label 1250 6800 0    50   ~ 0
+DISP1_D2_P
+Text Label 1250 6700 0    50   ~ 0
+DISP1_D2_N
+Text Label 1250 7000 0    50   ~ 0
+DISP1_D3_N
+Text Label 1250 7100 0    50   ~ 0
+DISP1_D3_P
+Wire Wire Line
+	1100 5700 2000 5700
+Connection ~ 3500 5700
+Wire Wire Line
+	3500 5700 3500 6000
+Connection ~ 2000 5700
+Wire Wire Line
+	2000 5700 3500 5700
+Wire Wire Line
+	4050 5600 1100 5600
+Wire Wire Line
+	1100 5500 4050 5500
+Wire Wire Line
+	4050 5400 1100 5400
+Wire Wire Line
+	1100 5300 4050 5300
+Wire Wire Line
+	1100 7900 4250 7900
+Wire Wire Line
+	1100 8000 4250 8000
+Wire Wire Line
+	1100 8100 4250 8100
+Wire Wire Line
+	1100 8200 4250 8200
+Text GLabel 8200 6150 0    50   Input ~ 0
+I2C3_SDA
+Text GLabel 8200 6000 0    50   Input ~ 0
+I2C3_SCL
+Wire Wire Line
+	8200 6000 8400 6000
+Wire Wire Line
+	8200 6150 8400 6150
+$EndSCHEMATC
