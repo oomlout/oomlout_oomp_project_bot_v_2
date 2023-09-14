@@ -1,0 +1,1381 @@
+EESchema Schematic File Version 4
+LIBS:iggie-driver-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title "IGGie Driver Board"
+Date "2019-09-26"
+Rev "1"
+Comp ""
+Comment1 "Anode and Cathode Shift Registers"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L agg-kicad:74HC595 IC?
+U 1 1 7CD4AD77
+P 3150 2900
+AR Path="/7CD4AD77" Ref="IC?"  Part="1" 
+AR Path="/636F06DD/7CD4AD77" Ref="IC?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4AD77" Ref="IC701"  Part="1" 
+F 0 "IC701" H 2850 3400 50  0000 L CNN
+F 1 "74HC595" H 2850 2400 50  0000 L CNN
+F 2 "agg:TSSOP-16" H 2850 2300 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2032055.pdf" H 2850 2200 50  0001 L CNN
+F 4 "1607848" H 2850 2100 50  0001 L CNN "Farnell"
+	1    3150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:74HC595 IC?
+U 1 1 7CD4AD86
+P 5200 2900
+AR Path="/7CD4AD86" Ref="IC?"  Part="1" 
+AR Path="/636F06DD/7CD4AD86" Ref="IC?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4AD86" Ref="IC703"  Part="1" 
+F 0 "IC703" H 4900 3400 50  0000 L CNN
+F 1 "74HC595" H 4900 2400 50  0000 L CNN
+F 2 "agg:TSSOP-16" H 4900 2300 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2032055.pdf" H 4900 2200 50  0001 L CNN
+F 4 "1607848" H 4900 2100 50  0001 L CNN "Farnell"
+	1    5200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 7CD4AD94
+P 4750 2450
+AR Path="/7CD4AD94" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4AD94" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4AD94" Ref="#PWR0721"  Part="1" 
+F 0 "#PWR0721" H 4750 2560 50  0001 L CNN
+F 1 "3v3" H 4750 2540 50  0000 C CNN
+F 2 "" H 4750 2450 50  0001 C CNN
+F 3 "" H 4750 2450 50  0001 C CNN
+	1    4750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 7CD4AD9A
+P 4750 2600
+AR Path="/7CD4AD9A" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4AD9A" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4AD9A" Ref="#PWR0722"  Part="1" 
+F 0 "#PWR0722" H 4620 2640 50  0001 L CNN
+F 1 "GND" H 4750 2500 50  0000 C CNN
+F 2 "" H 4750 2600 50  0001 C CNN
+F 3 "" H 4750 2600 50  0001 C CNN
+	1    4750 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 2500 4750 2500
+Wire Wire Line
+	4750 2500 4750 2450
+Wire Wire Line
+	4800 2600 4750 2600
+Wire Wire Line
+	4800 2800 4700 2800
+Wire Wire Line
+	4800 2900 4700 2900
+Wire Wire Line
+	4800 3000 4700 3000
+Wire Wire Line
+	4800 3100 4700 3100
+Wire Wire Line
+	4700 3300 4700 3200
+Wire Wire Line
+	4700 3200 4800 3200
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 7CD4ADAC
+P 2700 2450
+AR Path="/7CD4ADAC" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4ADAC" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4ADAC" Ref="#PWR0717"  Part="1" 
+F 0 "#PWR0717" H 2700 2560 50  0001 L CNN
+F 1 "3v3" H 2700 2540 50  0000 C CNN
+F 2 "" H 2700 2450 50  0001 C CNN
+F 3 "" H 2700 2450 50  0001 C CNN
+	1    2700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 7CD4ADB2
+P 2700 2600
+AR Path="/7CD4ADB2" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4ADB2" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4ADB2" Ref="#PWR0718"  Part="1" 
+F 0 "#PWR0718" H 2570 2640 50  0001 L CNN
+F 1 "GND" H 2700 2500 50  0000 C CNN
+F 2 "" H 2700 2600 50  0001 C CNN
+F 3 "" H 2700 2600 50  0001 C CNN
+	1    2700 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 2500 2700 2500
+Wire Wire Line
+	2700 2500 2700 2450
+Wire Wire Line
+	2750 2600 2700 2600
+Wire Wire Line
+	2750 2800 2650 2800
+Wire Wire Line
+	2750 2900 2650 2900
+Wire Wire Line
+	2750 3000 2650 3000
+Wire Wire Line
+	2750 3100 2650 3100
+$Comp
+L agg-kicad:74HC595 IC?
+U 1 1 7CD4ADC5
+P 7250 2900
+AR Path="/7CD4ADC5" Ref="IC?"  Part="1" 
+AR Path="/636F06DD/7CD4ADC5" Ref="IC?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4ADC5" Ref="IC705"  Part="1" 
+F 0 "IC705" H 6950 3400 50  0000 L CNN
+F 1 "74HC595" H 6950 2400 50  0000 L CNN
+F 2 "agg:TSSOP-16" H 6950 2300 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2032055.pdf" H 6950 2200 50  0001 L CNN
+F 4 "1607848" H 6950 2100 50  0001 L CNN "Farnell"
+	1    7250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 7CD4ADD3
+P 6800 2450
+AR Path="/7CD4ADD3" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4ADD3" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4ADD3" Ref="#PWR0725"  Part="1" 
+F 0 "#PWR0725" H 6800 2560 50  0001 L CNN
+F 1 "3v3" H 6800 2540 50  0000 C CNN
+F 2 "" H 6800 2450 50  0001 C CNN
+F 3 "" H 6800 2450 50  0001 C CNN
+	1    6800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 7CD4ADD9
+P 6800 2600
+AR Path="/7CD4ADD9" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4ADD9" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4ADD9" Ref="#PWR0726"  Part="1" 
+F 0 "#PWR0726" H 6670 2640 50  0001 L CNN
+F 1 "GND" H 6800 2500 50  0000 C CNN
+F 2 "" H 6800 2600 50  0001 C CNN
+F 3 "" H 6800 2600 50  0001 C CNN
+	1    6800 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 2500 6800 2500
+Wire Wire Line
+	6800 2500 6800 2450
+Wire Wire Line
+	6850 2600 6800 2600
+Wire Wire Line
+	6850 2800 6750 2800
+Wire Wire Line
+	6850 2900 6750 2900
+Wire Wire Line
+	6850 3000 6750 3000
+Wire Wire Line
+	6850 3100 6750 3100
+Wire Wire Line
+	6750 3300 6750 3200
+Wire Wire Line
+	6750 3200 6850 3200
+$Comp
+L agg-kicad:74HC595 IC?
+U 1 1 7CD4ADED
+P 9300 2900
+AR Path="/7CD4ADED" Ref="IC?"  Part="1" 
+AR Path="/636F06DD/7CD4ADED" Ref="IC?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4ADED" Ref="IC707"  Part="1" 
+F 0 "IC707" H 9000 3400 50  0000 L CNN
+F 1 "74HC595" H 9000 2400 50  0000 L CNN
+F 2 "agg:TSSOP-16" H 9000 2300 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2032055.pdf" H 9000 2200 50  0001 L CNN
+F 4 "1607848" H 9000 2100 50  0001 L CNN "Farnell"
+	1    9300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 7CD4AE22
+P 8850 2450
+AR Path="/7CD4AE22" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4AE22" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4AE22" Ref="#PWR0729"  Part="1" 
+F 0 "#PWR0729" H 8850 2560 50  0001 L CNN
+F 1 "3v3" H 8850 2540 50  0000 C CNN
+F 2 "" H 8850 2450 50  0001 C CNN
+F 3 "" H 8850 2450 50  0001 C CNN
+	1    8850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 7CD4AE28
+P 8850 2600
+AR Path="/7CD4AE28" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4AE28" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4AE28" Ref="#PWR0730"  Part="1" 
+F 0 "#PWR0730" H 8720 2640 50  0001 L CNN
+F 1 "GND" H 8850 2500 50  0000 C CNN
+F 2 "" H 8850 2600 50  0001 C CNN
+F 3 "" H 8850 2600 50  0001 C CNN
+	1    8850 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 2500 8850 2500
+Wire Wire Line
+	8850 2500 8850 2450
+Wire Wire Line
+	8900 2600 8850 2600
+Wire Wire Line
+	8900 2800 8800 2800
+Wire Wire Line
+	8900 2900 8800 2900
+Wire Wire Line
+	8900 3000 8800 3000
+Wire Wire Line
+	8900 3100 8800 3100
+$Comp
+L agg-kicad:74HC595 IC?
+U 1 1 7CD4AEAF
+P 3150 4500
+AR Path="/7CD4AEAF" Ref="IC?"  Part="1" 
+AR Path="/636F06DD/7CD4AEAF" Ref="IC?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4AEAF" Ref="IC702"  Part="1" 
+F 0 "IC702" H 2850 5000 50  0000 L CNN
+F 1 "74HC595" H 2850 4000 50  0000 L CNN
+F 2 "agg:TSSOP-16" H 2850 3900 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2032055.pdf" H 2850 3800 50  0001 L CNN
+F 4 "1607848" H 2850 3700 50  0001 L CNN "Farnell"
+	1    3150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:74HC595 IC?
+U 1 1 7CD4AEBE
+P 5200 4500
+AR Path="/7CD4AEBE" Ref="IC?"  Part="1" 
+AR Path="/636F06DD/7CD4AEBE" Ref="IC?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4AEBE" Ref="IC704"  Part="1" 
+F 0 "IC704" H 4900 5000 50  0000 L CNN
+F 1 "74HC595" H 4900 4000 50  0000 L CNN
+F 2 "agg:TSSOP-16" H 4900 3900 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2032055.pdf" H 4900 3800 50  0001 L CNN
+F 4 "1607848" H 4900 3700 50  0001 L CNN "Farnell"
+	1    5200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 7CD4AECC
+P 4750 4050
+AR Path="/7CD4AECC" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4AECC" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4AECC" Ref="#PWR0723"  Part="1" 
+F 0 "#PWR0723" H 4750 4160 50  0001 L CNN
+F 1 "3v3" H 4750 4140 50  0000 C CNN
+F 2 "" H 4750 4050 50  0001 C CNN
+F 3 "" H 4750 4050 50  0001 C CNN
+	1    4750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 7CD4AED2
+P 4750 4200
+AR Path="/7CD4AED2" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4AED2" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4AED2" Ref="#PWR0724"  Part="1" 
+F 0 "#PWR0724" H 4620 4240 50  0001 L CNN
+F 1 "GND" H 4750 4100 50  0000 C CNN
+F 2 "" H 4750 4200 50  0001 C CNN
+F 3 "" H 4750 4200 50  0001 C CNN
+	1    4750 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 4100 4750 4100
+Wire Wire Line
+	4750 4100 4750 4050
+Wire Wire Line
+	4800 4200 4750 4200
+Wire Wire Line
+	4800 4400 4700 4400
+Wire Wire Line
+	4800 4500 4700 4500
+Wire Wire Line
+	4800 4600 4700 4600
+Wire Wire Line
+	4800 4700 4700 4700
+Wire Wire Line
+	4700 4900 4700 4800
+Wire Wire Line
+	4700 4800 4800 4800
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 7CD4AEE4
+P 2700 4050
+AR Path="/7CD4AEE4" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4AEE4" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4AEE4" Ref="#PWR0719"  Part="1" 
+F 0 "#PWR0719" H 2700 4160 50  0001 L CNN
+F 1 "3v3" H 2700 4140 50  0000 C CNN
+F 2 "" H 2700 4050 50  0001 C CNN
+F 3 "" H 2700 4050 50  0001 C CNN
+	1    2700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 7CD4AEEA
+P 2700 4200
+AR Path="/7CD4AEEA" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4AEEA" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4AEEA" Ref="#PWR0720"  Part="1" 
+F 0 "#PWR0720" H 2570 4240 50  0001 L CNN
+F 1 "GND" H 2700 4100 50  0000 C CNN
+F 2 "" H 2700 4200 50  0001 C CNN
+F 3 "" H 2700 4200 50  0001 C CNN
+	1    2700 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 4100 2700 4100
+Wire Wire Line
+	2700 4100 2700 4050
+Wire Wire Line
+	2750 4200 2700 4200
+Wire Wire Line
+	2750 4400 2650 4400
+Wire Wire Line
+	2750 4500 2650 4500
+Wire Wire Line
+	2750 4600 2650 4600
+Wire Wire Line
+	2750 4700 2650 4700
+$Comp
+L agg-kicad:74HC595 IC?
+U 1 1 7CD4AEFD
+P 7250 4500
+AR Path="/7CD4AEFD" Ref="IC?"  Part="1" 
+AR Path="/636F06DD/7CD4AEFD" Ref="IC?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4AEFD" Ref="IC706"  Part="1" 
+F 0 "IC706" H 6950 5000 50  0000 L CNN
+F 1 "74HC595" H 6950 4000 50  0000 L CNN
+F 2 "agg:TSSOP-16" H 6950 3900 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2032055.pdf" H 6950 3800 50  0001 L CNN
+F 4 "1607848" H 6950 3700 50  0001 L CNN "Farnell"
+	1    7250 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 7CD4AF0B
+P 6800 4050
+AR Path="/7CD4AF0B" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4AF0B" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4AF0B" Ref="#PWR0727"  Part="1" 
+F 0 "#PWR0727" H 6800 4160 50  0001 L CNN
+F 1 "3v3" H 6800 4140 50  0000 C CNN
+F 2 "" H 6800 4050 50  0001 C CNN
+F 3 "" H 6800 4050 50  0001 C CNN
+	1    6800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 7CD4AF11
+P 6800 4200
+AR Path="/7CD4AF11" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4AF11" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4AF11" Ref="#PWR0728"  Part="1" 
+F 0 "#PWR0728" H 6670 4240 50  0001 L CNN
+F 1 "GND" H 6800 4100 50  0000 C CNN
+F 2 "" H 6800 4200 50  0001 C CNN
+F 3 "" H 6800 4200 50  0001 C CNN
+	1    6800 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 4100 6800 4100
+Wire Wire Line
+	6800 4100 6800 4050
+Wire Wire Line
+	6850 4200 6800 4200
+Wire Wire Line
+	6850 4400 6750 4400
+Wire Wire Line
+	6850 4500 6750 4500
+Wire Wire Line
+	6850 4600 6750 4600
+Wire Wire Line
+	6850 4700 6750 4700
+Wire Wire Line
+	6750 4900 6750 4800
+Wire Wire Line
+	6750 4800 6850 4800
+$Comp
+L agg-kicad:74HC595 IC?
+U 1 1 7CD4AF99
+P 9300 4500
+AR Path="/7CD4AF99" Ref="IC?"  Part="1" 
+AR Path="/636F06DD/7CD4AF99" Ref="IC?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4AF99" Ref="IC708"  Part="1" 
+F 0 "IC708" H 9000 5000 50  0000 L CNN
+F 1 "74HC595" H 9000 4000 50  0000 L CNN
+F 2 "agg:TSSOP-16" H 9000 3900 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2032055.pdf" H 9000 3800 50  0001 L CNN
+F 4 "1607848" H 9000 3700 50  0001 L CNN "Farnell"
+	1    9300 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 7CD4AFA7
+P 8850 4050
+AR Path="/7CD4AFA7" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4AFA7" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4AFA7" Ref="#PWR0731"  Part="1" 
+F 0 "#PWR0731" H 8850 4160 50  0001 L CNN
+F 1 "3v3" H 8850 4140 50  0000 C CNN
+F 2 "" H 8850 4050 50  0001 C CNN
+F 3 "" H 8850 4050 50  0001 C CNN
+	1    8850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 7CD4AFAD
+P 8850 4200
+AR Path="/7CD4AFAD" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4AFAD" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4AFAD" Ref="#PWR0732"  Part="1" 
+F 0 "#PWR0732" H 8720 4240 50  0001 L CNN
+F 1 "GND" H 8850 4100 50  0000 C CNN
+F 2 "" H 8850 4200 50  0001 C CNN
+F 3 "" H 8850 4200 50  0001 C CNN
+	1    8850 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 4100 8850 4100
+Wire Wire Line
+	8850 4100 8850 4050
+Wire Wire Line
+	8900 4200 8850 4200
+Wire Wire Line
+	8900 4400 8800 4400
+Wire Wire Line
+	8900 4500 8800 4500
+Wire Wire Line
+	8900 4600 8800 4600
+Wire Wire Line
+	8900 4700 8800 4700
+Wire Wire Line
+	8800 4900 8800 4800
+Wire Wire Line
+	8800 4800 8900 4800
+Text Label 3650 3200 0    50   ~ 0
+GA1
+Text Label 3650 3100 0    50   ~ 0
+GA2
+Text Label 3650 3000 0    50   ~ 0
+GA3
+Text Label 3650 2900 0    50   ~ 0
+GA4
+Text Label 3650 2800 0    50   ~ 0
+GA5
+Text Label 3650 2700 0    50   ~ 0
+GA6
+Text Label 3650 2600 0    50   ~ 0
+GA7
+Text Label 3650 2500 0    50   ~ 0
+GA8
+Text Label 5650 3200 0    50   ~ 0
+GA9
+Text Label 5650 3100 0    50   ~ 0
+GA10
+Text Label 5650 3000 0    50   ~ 0
+GA11
+Text Label 5650 2900 0    50   ~ 0
+GA12
+Text Label 5650 2800 0    50   ~ 0
+GA13
+Text Label 5650 2700 0    50   ~ 0
+GA14
+Text Label 5650 2600 0    50   ~ 0
+GA15
+Text Label 5650 2500 0    50   ~ 0
+GA16
+Text Label 7700 3200 0    50   ~ 0
+GA17
+Text Label 7700 3100 0    50   ~ 0
+GA18
+Text Label 7700 3000 0    50   ~ 0
+GA19
+Text Label 7700 2900 0    50   ~ 0
+GA20
+Text Label 7700 2800 0    50   ~ 0
+GA21
+Text Label 7700 2700 0    50   ~ 0
+GA22
+Text Label 7700 2600 0    50   ~ 0
+GA23
+Text Label 7700 2500 0    50   ~ 0
+GA24
+Text Label 9750 3200 0    50   ~ 0
+GA25
+Text Label 9750 3100 0    50   ~ 0
+GA26
+Text Label 9750 3000 0    50   ~ 0
+GA27
+Text Label 9750 2900 0    50   ~ 0
+GA28
+Text Label 9750 2800 0    50   ~ 0
+GA29
+Text Label 9750 2700 0    50   ~ 0
+GA30
+Text Label 9750 2600 0    50   ~ 0
+GA31
+Text Label 9750 2500 0    50   ~ 0
+GA32
+Text Label 3600 4100 0    50   ~ 0
+GK1
+Text Label 3600 4200 0    50   ~ 0
+GK2
+Text Label 3600 4300 0    50   ~ 0
+GK3
+Text Label 3600 4400 0    50   ~ 0
+GK4
+Text Label 3600 4500 0    50   ~ 0
+GK5
+Text Label 3600 4600 0    50   ~ 0
+GK6
+Text Label 3600 4700 0    50   ~ 0
+GK7
+Text Label 3600 4800 0    50   ~ 0
+GK8
+Text Label 5650 4100 0    50   ~ 0
+GK9
+Text Label 5650 4200 0    50   ~ 0
+GK10
+Text Label 5650 4300 0    50   ~ 0
+GK11
+Text Label 5650 4400 0    50   ~ 0
+GK12
+Text Label 5650 4500 0    50   ~ 0
+GK13
+Text Label 5650 4600 0    50   ~ 0
+GK14
+Text Label 5650 4700 0    50   ~ 0
+GK15
+Text Label 5650 4800 0    50   ~ 0
+GK16
+Text Label 7700 4100 0    50   ~ 0
+GK17
+Text Label 7700 4200 0    50   ~ 0
+GK18
+Text Label 7700 4300 0    50   ~ 0
+GK19
+Text Label 7700 4400 0    50   ~ 0
+GK20
+Text Label 7700 4500 0    50   ~ 0
+GK21
+Text Label 7700 4600 0    50   ~ 0
+GK22
+Text Label 7700 4700 0    50   ~ 0
+GK23
+Text Label 7700 4800 0    50   ~ 0
+GK24
+Text Label 9750 4100 0    50   ~ 0
+GK25
+Text Label 9750 4200 0    50   ~ 0
+GK26
+Text Label 9750 4300 0    50   ~ 0
+GK27
+Text Label 9750 4400 0    50   ~ 0
+GK28
+Text Label 9750 4500 0    50   ~ 0
+GK29
+Text Label 9750 4600 0    50   ~ 0
+GK30
+Text Label 9750 4700 0    50   ~ 0
+GK31
+Text Label 9750 4800 0    50   ~ 0
+GK32
+$Comp
+L agg-kicad:C C701
+U 1 1 7CD4B088
+P 1350 2800
+F 0 "C701" H 1400 2870 50  0000 C CNN
+F 1 "100n" H 1400 2730 50  0000 C CNN
+F 2 "agg:0603" H 1350 2800 50  0001 C CNN
+F 3 "" H 1350 2800 50  0001 C CNN
+F 4 "2320803" H 1350 2800 50  0001 C CNN "Farnell"
+F 5 "50V" H 1350 2800 50  0001 C CNN "Voltage"
+	1    1350 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 7CD4B08E
+P 1350 2750
+AR Path="/7CD4B08E" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4B08E" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4B08E" Ref="#PWR0701"  Part="1" 
+F 0 "#PWR0701" H 1350 2860 50  0001 L CNN
+F 1 "3v3" H 1350 2840 50  0000 C CNN
+F 2 "" H 1350 2750 50  0001 C CNN
+F 3 "" H 1350 2750 50  0001 C CNN
+	1    1350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 7CD4B094
+P 1350 2950
+AR Path="/7CD4B094" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4B094" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4B094" Ref="#PWR0702"  Part="1" 
+F 0 "#PWR0702" H 1220 2990 50  0001 L CNN
+F 1 "GND" H 1350 2850 50  0000 C CNN
+F 2 "" H 1350 2950 50  0001 C CNN
+F 3 "" H 1350 2950 50  0001 C CNN
+	1    1350 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2950 1350 2900
+Wire Wire Line
+	1350 2750 1350 2800
+$Comp
+L agg-kicad:C C703
+U 1 1 7CD4B09C
+P 1600 2800
+F 0 "C703" H 1650 2870 50  0000 C CNN
+F 1 "100n" H 1650 2730 50  0000 C CNN
+F 2 "agg:0603" H 1600 2800 50  0001 C CNN
+F 3 "" H 1600 2800 50  0001 C CNN
+F 4 "2320803" H 1600 2800 50  0001 C CNN "Farnell"
+F 5 "50V" H 1600 2800 50  0001 C CNN "Voltage"
+	1    1600 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 7CD4B0A2
+P 1600 2750
+AR Path="/7CD4B0A2" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4B0A2" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4B0A2" Ref="#PWR0705"  Part="1" 
+F 0 "#PWR0705" H 1600 2860 50  0001 L CNN
+F 1 "3v3" H 1600 2840 50  0000 C CNN
+F 2 "" H 1600 2750 50  0001 C CNN
+F 3 "" H 1600 2750 50  0001 C CNN
+	1    1600 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 7CD4B0A8
+P 1600 2950
+AR Path="/7CD4B0A8" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4B0A8" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4B0A8" Ref="#PWR0706"  Part="1" 
+F 0 "#PWR0706" H 1470 2990 50  0001 L CNN
+F 1 "GND" H 1600 2850 50  0000 C CNN
+F 2 "" H 1600 2950 50  0001 C CNN
+F 3 "" H 1600 2950 50  0001 C CNN
+	1    1600 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2950 1600 2900
+Wire Wire Line
+	1600 2750 1600 2800
+$Comp
+L agg-kicad:C C705
+U 1 1 7CD4B0B0
+P 1850 2800
+F 0 "C705" H 1900 2870 50  0000 C CNN
+F 1 "100n" H 1900 2730 50  0000 C CNN
+F 2 "agg:0603" H 1850 2800 50  0001 C CNN
+F 3 "" H 1850 2800 50  0001 C CNN
+F 4 "2320803" H 1850 2800 50  0001 C CNN "Farnell"
+F 5 "50V" H 1850 2800 50  0001 C CNN "Voltage"
+	1    1850 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 7CD4B0B6
+P 1850 2750
+AR Path="/7CD4B0B6" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4B0B6" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4B0B6" Ref="#PWR0709"  Part="1" 
+F 0 "#PWR0709" H 1850 2860 50  0001 L CNN
+F 1 "3v3" H 1850 2840 50  0000 C CNN
+F 2 "" H 1850 2750 50  0001 C CNN
+F 3 "" H 1850 2750 50  0001 C CNN
+	1    1850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 7CD4B0BC
+P 1850 2950
+AR Path="/7CD4B0BC" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4B0BC" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4B0BC" Ref="#PWR0710"  Part="1" 
+F 0 "#PWR0710" H 1720 2990 50  0001 L CNN
+F 1 "GND" H 1850 2850 50  0000 C CNN
+F 2 "" H 1850 2950 50  0001 C CNN
+F 3 "" H 1850 2950 50  0001 C CNN
+	1    1850 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2950 1850 2900
+Wire Wire Line
+	1850 2750 1850 2800
+$Comp
+L agg-kicad:C C707
+U 1 1 7CD4B0C4
+P 2100 2800
+F 0 "C707" H 2150 2870 50  0000 C CNN
+F 1 "100n" H 2150 2730 50  0000 C CNN
+F 2 "agg:0603" H 2100 2800 50  0001 C CNN
+F 3 "" H 2100 2800 50  0001 C CNN
+F 4 "2320803" H 2100 2800 50  0001 C CNN "Farnell"
+F 5 "50V" H 2100 2800 50  0001 C CNN "Voltage"
+	1    2100 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 7CD4B0CA
+P 2100 2750
+AR Path="/7CD4B0CA" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4B0CA" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4B0CA" Ref="#PWR0713"  Part="1" 
+F 0 "#PWR0713" H 2100 2860 50  0001 L CNN
+F 1 "3v3" H 2100 2840 50  0000 C CNN
+F 2 "" H 2100 2750 50  0001 C CNN
+F 3 "" H 2100 2750 50  0001 C CNN
+	1    2100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 7CD4B0D0
+P 2100 2950
+AR Path="/7CD4B0D0" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4B0D0" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4B0D0" Ref="#PWR0714"  Part="1" 
+F 0 "#PWR0714" H 1970 2990 50  0001 L CNN
+F 1 "GND" H 2100 2850 50  0000 C CNN
+F 2 "" H 2100 2950 50  0001 C CNN
+F 3 "" H 2100 2950 50  0001 C CNN
+	1    2100 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2950 2100 2900
+Wire Wire Line
+	2100 2750 2100 2800
+$Comp
+L agg-kicad:C C702
+U 1 1 7CD4B0D8
+P 1350 4400
+F 0 "C702" H 1400 4470 50  0000 C CNN
+F 1 "100n" H 1400 4330 50  0000 C CNN
+F 2 "agg:0603" H 1350 4400 50  0001 C CNN
+F 3 "" H 1350 4400 50  0001 C CNN
+F 4 "2320803" H 1350 4400 50  0001 C CNN "Farnell"
+F 5 "50V" H 1350 4400 50  0001 C CNN "Voltage"
+	1    1350 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 7CD4B0DE
+P 1350 4350
+AR Path="/7CD4B0DE" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4B0DE" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4B0DE" Ref="#PWR0703"  Part="1" 
+F 0 "#PWR0703" H 1350 4460 50  0001 L CNN
+F 1 "3v3" H 1350 4440 50  0000 C CNN
+F 2 "" H 1350 4350 50  0001 C CNN
+F 3 "" H 1350 4350 50  0001 C CNN
+	1    1350 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 7CD4B0E4
+P 1350 4550
+AR Path="/7CD4B0E4" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4B0E4" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4B0E4" Ref="#PWR0704"  Part="1" 
+F 0 "#PWR0704" H 1220 4590 50  0001 L CNN
+F 1 "GND" H 1350 4450 50  0000 C CNN
+F 2 "" H 1350 4550 50  0001 C CNN
+F 3 "" H 1350 4550 50  0001 C CNN
+	1    1350 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 4550 1350 4500
+Wire Wire Line
+	1350 4350 1350 4400
+$Comp
+L agg-kicad:C C704
+U 1 1 7CD4B0EC
+P 1600 4400
+F 0 "C704" H 1650 4470 50  0000 C CNN
+F 1 "100n" H 1650 4330 50  0000 C CNN
+F 2 "agg:0603" H 1600 4400 50  0001 C CNN
+F 3 "" H 1600 4400 50  0001 C CNN
+F 4 "2320803" H 1600 4400 50  0001 C CNN "Farnell"
+F 5 "50V" H 1600 4400 50  0001 C CNN "Voltage"
+	1    1600 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 7CD4B0F2
+P 1600 4350
+AR Path="/7CD4B0F2" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4B0F2" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4B0F2" Ref="#PWR0707"  Part="1" 
+F 0 "#PWR0707" H 1600 4460 50  0001 L CNN
+F 1 "3v3" H 1600 4440 50  0000 C CNN
+F 2 "" H 1600 4350 50  0001 C CNN
+F 3 "" H 1600 4350 50  0001 C CNN
+	1    1600 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 7CD4B0F8
+P 1600 4550
+AR Path="/7CD4B0F8" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4B0F8" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4B0F8" Ref="#PWR0708"  Part="1" 
+F 0 "#PWR0708" H 1470 4590 50  0001 L CNN
+F 1 "GND" H 1600 4450 50  0000 C CNN
+F 2 "" H 1600 4550 50  0001 C CNN
+F 3 "" H 1600 4550 50  0001 C CNN
+	1    1600 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 4550 1600 4500
+Wire Wire Line
+	1600 4350 1600 4400
+$Comp
+L agg-kicad:C C706
+U 1 1 7CD4B100
+P 1850 4400
+F 0 "C706" H 1900 4470 50  0000 C CNN
+F 1 "100n" H 1900 4330 50  0000 C CNN
+F 2 "agg:0603" H 1850 4400 50  0001 C CNN
+F 3 "" H 1850 4400 50  0001 C CNN
+F 4 "2320803" H 1850 4400 50  0001 C CNN "Farnell"
+F 5 "50V" H 1850 4400 50  0001 C CNN "Voltage"
+	1    1850 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 7CD4B106
+P 1850 4350
+AR Path="/7CD4B106" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4B106" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4B106" Ref="#PWR0711"  Part="1" 
+F 0 "#PWR0711" H 1850 4460 50  0001 L CNN
+F 1 "3v3" H 1850 4440 50  0000 C CNN
+F 2 "" H 1850 4350 50  0001 C CNN
+F 3 "" H 1850 4350 50  0001 C CNN
+	1    1850 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 7CD4B10C
+P 1850 4550
+AR Path="/7CD4B10C" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4B10C" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4B10C" Ref="#PWR0712"  Part="1" 
+F 0 "#PWR0712" H 1720 4590 50  0001 L CNN
+F 1 "GND" H 1850 4450 50  0000 C CNN
+F 2 "" H 1850 4550 50  0001 C CNN
+F 3 "" H 1850 4550 50  0001 C CNN
+	1    1850 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 4550 1850 4500
+Wire Wire Line
+	1850 4350 1850 4400
+$Comp
+L agg-kicad:C C708
+U 1 1 7CD4B114
+P 2100 4400
+F 0 "C708" H 2150 4470 50  0000 C CNN
+F 1 "100n" H 2150 4330 50  0000 C CNN
+F 2 "agg:0603" H 2100 4400 50  0001 C CNN
+F 3 "" H 2100 4400 50  0001 C CNN
+F 4 "2320803" H 2100 4400 50  0001 C CNN "Farnell"
+F 5 "50V" H 2100 4400 50  0001 C CNN "Voltage"
+	1    2100 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 7CD4B11A
+P 2100 4350
+AR Path="/7CD4B11A" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4B11A" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4B11A" Ref="#PWR0715"  Part="1" 
+F 0 "#PWR0715" H 2100 4460 50  0001 L CNN
+F 1 "3v3" H 2100 4440 50  0000 C CNN
+F 2 "" H 2100 4350 50  0001 C CNN
+F 3 "" H 2100 4350 50  0001 C CNN
+	1    2100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 7CD4B120
+P 2100 4550
+AR Path="/7CD4B120" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CD4B120" Ref="#PWR?"  Part="1" 
+AR Path="/636F06DD/7CCBE6C5/7CD4B120" Ref="#PWR0716"  Part="1" 
+F 0 "#PWR0716" H 1970 4590 50  0001 L CNN
+F 1 "GND" H 2100 4450 50  0000 C CNN
+F 2 "" H 2100 4550 50  0001 C CNN
+F 3 "" H 2100 4550 50  0001 C CNN
+	1    2100 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4550 2100 4500
+Wire Wire Line
+	2100 4350 2100 4400
+Wire Wire Line
+	3550 4100 3800 4100
+Wire Wire Line
+	3550 4200 3800 4200
+Wire Wire Line
+	3550 4300 3800 4300
+Wire Wire Line
+	3550 4400 3800 4400
+Wire Wire Line
+	3550 4500 3800 4500
+Wire Wire Line
+	3550 4600 3800 4600
+Wire Wire Line
+	3550 4700 3800 4700
+Wire Wire Line
+	3550 4800 3800 4800
+Wire Wire Line
+	3550 2500 3800 2500
+Wire Wire Line
+	3550 2600 3800 2600
+Wire Wire Line
+	3550 2700 3800 2700
+Wire Wire Line
+	3550 2800 3800 2800
+Wire Wire Line
+	3550 2900 3800 2900
+Wire Wire Line
+	3550 3000 3800 3000
+Wire Wire Line
+	3550 3100 3800 3100
+Wire Wire Line
+	3550 3200 3800 3200
+Wire Wire Line
+	5600 4100 5850 4100
+Wire Wire Line
+	5600 4200 5850 4200
+Wire Wire Line
+	5600 4300 5850 4300
+Wire Wire Line
+	5600 4400 5850 4400
+Wire Wire Line
+	5600 4500 5850 4500
+Wire Wire Line
+	5600 4600 5850 4600
+Wire Wire Line
+	5600 4700 5850 4700
+Wire Wire Line
+	5600 4800 5850 4800
+Wire Wire Line
+	5600 2500 5850 2500
+Wire Wire Line
+	5600 2600 5850 2600
+Wire Wire Line
+	5600 2700 5850 2700
+Wire Wire Line
+	5600 2800 5850 2800
+Wire Wire Line
+	5600 2900 5850 2900
+Wire Wire Line
+	5600 3000 5850 3000
+Wire Wire Line
+	5600 3100 5850 3100
+Wire Wire Line
+	5600 3200 5850 3200
+Wire Wire Line
+	7650 4100 7900 4100
+Wire Wire Line
+	7650 4200 7900 4200
+Wire Wire Line
+	7650 4300 7900 4300
+Wire Wire Line
+	7650 4400 7900 4400
+Wire Wire Line
+	7650 4500 7900 4500
+Wire Wire Line
+	7650 4600 7900 4600
+Wire Wire Line
+	7650 4700 7900 4700
+Wire Wire Line
+	7650 4800 7900 4800
+Wire Wire Line
+	7650 2500 7900 2500
+Wire Wire Line
+	7650 2600 7900 2600
+Wire Wire Line
+	7650 2700 7900 2700
+Wire Wire Line
+	7650 2800 7900 2800
+Wire Wire Line
+	7650 2900 7900 2900
+Wire Wire Line
+	7650 3000 7900 3000
+Wire Wire Line
+	7650 3100 7900 3100
+Wire Wire Line
+	7650 3200 7900 3200
+Wire Wire Line
+	9700 4100 9950 4100
+Wire Wire Line
+	9700 4200 9950 4200
+Wire Wire Line
+	9700 4300 9950 4300
+Wire Wire Line
+	9700 4400 9950 4400
+Wire Wire Line
+	9700 4500 9950 4500
+Wire Wire Line
+	9700 4600 9950 4600
+Wire Wire Line
+	9700 4700 9950 4700
+Wire Wire Line
+	9700 4800 9950 4800
+Wire Wire Line
+	9700 2500 9950 2500
+Wire Wire Line
+	9700 2600 9950 2600
+Wire Wire Line
+	9700 2700 9950 2700
+Wire Wire Line
+	9700 2800 9950 2800
+Wire Wire Line
+	9700 2900 9950 2900
+Wire Wire Line
+	9700 3000 9950 3000
+Wire Wire Line
+	9700 3100 9950 3100
+Wire Wire Line
+	9700 3200 9950 3200
+Entry Wire Line
+	3800 4100 3900 4000
+Entry Wire Line
+	3800 4200 3900 4100
+Entry Wire Line
+	3800 4300 3900 4200
+Entry Wire Line
+	3800 4400 3900 4300
+Entry Wire Line
+	3800 4500 3900 4400
+Entry Wire Line
+	3800 4600 3900 4500
+Entry Wire Line
+	3800 4700 3900 4600
+Entry Wire Line
+	3800 4800 3900 4700
+Entry Wire Line
+	3800 2600 3900 2500
+Entry Wire Line
+	3800 2700 3900 2600
+Entry Wire Line
+	3800 2800 3900 2700
+Entry Wire Line
+	3800 2900 3900 2800
+Entry Wire Line
+	3800 3000 3900 2900
+Entry Wire Line
+	3800 3100 3900 3000
+Entry Wire Line
+	3800 3200 3900 3100
+Entry Wire Line
+	5850 4100 5950 4000
+Entry Wire Line
+	5850 4200 5950 4100
+Entry Wire Line
+	5850 4300 5950 4200
+Entry Wire Line
+	5850 4400 5950 4300
+Entry Wire Line
+	5850 4500 5950 4400
+Entry Wire Line
+	5850 4600 5950 4500
+Entry Wire Line
+	5850 4700 5950 4600
+Entry Wire Line
+	5850 4800 5950 4700
+Entry Wire Line
+	5850 2600 5950 2500
+Entry Wire Line
+	5850 2700 5950 2600
+Entry Wire Line
+	5850 2800 5950 2700
+Entry Wire Line
+	5850 2900 5950 2800
+Entry Wire Line
+	5850 3000 5950 2900
+Entry Wire Line
+	5850 3100 5950 3000
+Entry Wire Line
+	5850 3200 5950 3100
+Entry Wire Line
+	7900 4100 8000 4000
+Entry Wire Line
+	7900 4200 8000 4100
+Entry Wire Line
+	7900 4300 8000 4200
+Entry Wire Line
+	7900 4400 8000 4300
+Entry Wire Line
+	7900 4500 8000 4400
+Entry Wire Line
+	7900 4600 8000 4500
+Entry Wire Line
+	7900 4700 8000 4600
+Entry Wire Line
+	7900 4800 8000 4700
+Entry Wire Line
+	7900 2600 8000 2500
+Entry Wire Line
+	7900 2700 8000 2600
+Entry Wire Line
+	7900 2800 8000 2700
+Entry Wire Line
+	7900 2900 8000 2800
+Entry Wire Line
+	7900 3000 8000 2900
+Entry Wire Line
+	7900 3100 8000 3000
+Entry Wire Line
+	7900 3200 8000 3100
+Entry Wire Line
+	9950 4100 10050 4000
+Entry Wire Line
+	9950 4200 10050 4100
+Entry Wire Line
+	9950 4300 10050 4200
+Entry Wire Line
+	9950 4400 10050 4300
+Entry Wire Line
+	9950 4500 10050 4400
+Entry Wire Line
+	9950 4600 10050 4500
+Entry Wire Line
+	9950 4700 10050 4600
+Entry Wire Line
+	9950 4800 10050 4700
+Entry Wire Line
+	9950 2500 10050 2400
+Entry Wire Line
+	9950 2600 10050 2500
+Entry Wire Line
+	9950 2700 10050 2600
+Entry Wire Line
+	9950 2800 10050 2700
+Entry Wire Line
+	9950 2900 10050 2800
+Entry Wire Line
+	9950 3000 10050 2900
+Entry Wire Line
+	9950 3100 10050 3000
+Entry Wire Line
+	9950 3200 10050 3100
+Entry Wire Line
+	3800 2500 3900 2400
+Entry Wire Line
+	5850 2500 5950 2400
+Entry Wire Line
+	7900 2500 8000 2400
+Wire Bus Line
+	3900 3950 3950 3950
+Text HLabel 3950 3950 2    50   Output ~ 0
+GK[1..32]
+Wire Bus Line
+	5950 3950 6000 3950
+Wire Bus Line
+	8000 3950 8050 3950
+Wire Bus Line
+	10050 3950 10100 3950
+Text HLabel 6000 3950 2    50   Output ~ 0
+GK[1..32]
+Text HLabel 8050 3950 2    50   Output ~ 0
+GK[1..32]
+Text HLabel 10100 3950 2    50   Output ~ 0
+GK[1..32]
+Text HLabel 3950 2350 2    50   Output ~ 0
+GA[1..32]
+Wire Bus Line
+	3950 2350 3900 2350
+Text HLabel 6000 2350 2    50   Output ~ 0
+GA[1..32]
+Text HLabel 8050 2350 2    50   Output ~ 0
+GA[1..32]
+Text HLabel 10100 2350 2    50   Output ~ 0
+GA[1..32]
+Wire Bus Line
+	5950 2350 6000 2350
+Wire Bus Line
+	8000 2350 8050 2350
+Wire Bus Line
+	10050 2350 10100 2350
+Text HLabel 2650 2800 0    50   Input ~ 0
+~MR
+Text HLabel 2650 2900 0    50   Input ~ 0
+SHCPA
+Text HLabel 2650 3000 0    50   Input ~ 0
+STCP
+Text HLabel 2650 3100 0    50   Input ~ 0
+~OE
+Text HLabel 2650 3200 0    50   Input ~ 0
+DSA
+Wire Wire Line
+	2650 3200 2750 3200
+Wire Wire Line
+	3550 3300 4700 3300
+Wire Wire Line
+	5600 3300 6750 3300
+Wire Wire Line
+	7650 3300 8800 3300
+Wire Wire Line
+	8800 3300 8800 3200
+Wire Wire Line
+	8800 3200 8900 3200
+Text HLabel 4700 2800 0    50   Input ~ 0
+~MR
+Text HLabel 4700 2900 0    50   Input ~ 0
+SHCPA
+Text HLabel 4700 3000 0    50   Input ~ 0
+STCP
+Text HLabel 4700 3100 0    50   Input ~ 0
+~OE
+Text HLabel 6750 2800 0    50   Input ~ 0
+~MR
+Text HLabel 6750 2900 0    50   Input ~ 0
+SHCPA
+Text HLabel 6750 3000 0    50   Input ~ 0
+STCP
+Text HLabel 6750 3100 0    50   Input ~ 0
+~OE
+Text HLabel 8800 2800 0    50   Input ~ 0
+~MR
+Text HLabel 8800 2900 0    50   Input ~ 0
+SHCPA
+Text HLabel 8800 3000 0    50   Input ~ 0
+STCP
+Text HLabel 8800 3100 0    50   Input ~ 0
+~OE
+Wire Wire Line
+	9700 3300 9800 3300
+Text HLabel 2650 4400 0    50   Input ~ 0
+~MR
+Text HLabel 2650 4500 0    50   Input ~ 0
+SHCPK
+Text HLabel 2650 4600 0    50   Input ~ 0
+STCP
+Text HLabel 2650 4700 0    50   Input ~ 0
+~OE
+Text HLabel 2650 4800 0    50   Input ~ 0
+DSK
+Wire Wire Line
+	2650 4800 2750 4800
+Wire Wire Line
+	3550 4900 4700 4900
+Text HLabel 4700 4400 0    50   Input ~ 0
+~MR
+Text HLabel 4700 4500 0    50   Input ~ 0
+SHCPK
+Text HLabel 4700 4600 0    50   Input ~ 0
+STCP
+Text HLabel 4700 4700 0    50   Input ~ 0
+~OE
+Text HLabel 6750 4400 0    50   Input ~ 0
+~MR
+Text HLabel 6750 4500 0    50   Input ~ 0
+SHCPK
+Text HLabel 6750 4600 0    50   Input ~ 0
+STCP
+Text HLabel 6750 4700 0    50   Input ~ 0
+~OE
+Wire Wire Line
+	5600 4900 6750 4900
+Wire Wire Line
+	7650 4900 8800 4900
+Text HLabel 8800 4400 0    50   Input ~ 0
+~MR
+Text HLabel 8800 4500 0    50   Input ~ 0
+SHCPK
+Text HLabel 8800 4600 0    50   Input ~ 0
+STCP
+Text HLabel 8800 4700 0    50   Input ~ 0
+~OE
+Wire Wire Line
+	9700 4900 9800 4900
+Text HLabel 9800 3300 2    50   Output ~ 0
+DSAO
+Text HLabel 9800 4900 2    50   Output ~ 0
+DSKO
+Wire Bus Line
+	10050 2350 10050 3100
+Wire Bus Line
+	8000 2350 8000 3100
+Wire Bus Line
+	5950 2350 5950 3100
+Wire Bus Line
+	3900 2350 3900 3100
+Wire Bus Line
+	10050 3950 10050 4700
+Wire Bus Line
+	8000 3950 8000 4700
+Wire Bus Line
+	5950 3950 5950 4700
+Wire Bus Line
+	3900 3950 3900 4700
+$EndSCHEMATC

@@ -1,0 +1,1206 @@
+EESchema Schematic File Version 4
+LIBS:iggie-driver-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 7
+Title "IGGie Driver Board"
+Date "2019-09-26"
+Rev "1"
+Comp ""
+Comment1 "Anode and Cathode Channels"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2200 1750 950  1700
+U 637212C6
+F0 "CH1-8" 50
+F1 "8ch.sch" 50
+F2 "A1" U R 3150 1800 50 
+F3 "K1" U R 3150 2700 50 
+F4 "GK1" I L 2200 2700 50 
+F5 "GA1" I L 2200 1800 50 
+F6 "A2" U R 3150 1900 50 
+F7 "K2" U R 3150 2800 50 
+F8 "GK2" I L 2200 2800 50 
+F9 "GA2" I L 2200 1900 50 
+F10 "A3" U R 3150 2000 50 
+F11 "K3" U R 3150 2900 50 
+F12 "GK3" I L 2200 2900 50 
+F13 "GA3" I L 2200 2000 50 
+F14 "A4" U R 3150 2100 50 
+F15 "K4" U R 3150 3000 50 
+F16 "GK4" I L 2200 3000 50 
+F17 "GA4" I L 2200 2100 50 
+F18 "A5" U R 3150 2200 50 
+F19 "K5" U R 3150 3100 50 
+F20 "GA5" I L 2200 2200 50 
+F21 "A6" U R 3150 2300 50 
+F22 "K6" U R 3150 3200 50 
+F23 "GK6" I L 2200 3200 50 
+F24 "GA6" I L 2200 2300 50 
+F25 "A7" U R 3150 2400 50 
+F26 "K7" U R 3150 3300 50 
+F27 "GK7" I L 2200 3300 50 
+F28 "GA7" I L 2200 2400 50 
+F29 "A8" U R 3150 2500 50 
+F30 "K8" U R 3150 3400 50 
+F31 "GK8" I L 2200 3400 50 
+F32 "GA8" I L 2200 2500 50 
+F33 "GK5" I L 2200 3100 50 
+$EndSheet
+Wire Wire Line
+	3150 1800 3250 1800
+Text Label 3250 1800 0    50   ~ 0
+A1
+Text Label 3250 1900 0    50   ~ 0
+A2
+Text Label 3250 2000 0    50   ~ 0
+A3
+Text Label 3250 2100 0    50   ~ 0
+A4
+Text Label 3250 2200 0    50   ~ 0
+A5
+Text Label 3250 2300 0    50   ~ 0
+A6
+Text Label 3250 2400 0    50   ~ 0
+A7
+Text Label 3250 2500 0    50   ~ 0
+A8
+Wire Wire Line
+	3150 1900 3250 1900
+Wire Wire Line
+	3150 2000 3250 2000
+Wire Wire Line
+	3150 2100 3250 2100
+Wire Wire Line
+	3150 2200 3250 2200
+Wire Wire Line
+	3150 2300 3250 2300
+Wire Wire Line
+	3150 2400 3250 2400
+Wire Wire Line
+	3150 2500 3250 2500
+Wire Wire Line
+	3150 2700 3250 2700
+Wire Wire Line
+	3150 2800 3250 2800
+Wire Wire Line
+	3150 2900 3250 2900
+Wire Wire Line
+	3150 3000 3250 3000
+Wire Wire Line
+	3150 3100 3250 3100
+Wire Wire Line
+	3150 3200 3250 3200
+Wire Wire Line
+	3150 3300 3250 3300
+Wire Wire Line
+	3150 3400 3250 3400
+Text Label 3250 2700 0    50   ~ 0
+K1
+Text Label 3250 2800 0    50   ~ 0
+K2
+Text Label 3250 2900 0    50   ~ 0
+K3
+Text Label 3250 3000 0    50   ~ 0
+K4
+Text Label 3250 3100 0    50   ~ 0
+K5
+Text Label 3250 3200 0    50   ~ 0
+K6
+Text Label 3250 3300 0    50   ~ 0
+K7
+Text Label 3250 3400 0    50   ~ 0
+K8
+Text Label 2200 1800 2    50   ~ 0
+GA1
+Text Label 2200 1900 2    50   ~ 0
+GA2
+Text Label 2200 2000 2    50   ~ 0
+GA3
+Text Label 2200 2100 2    50   ~ 0
+GA4
+Text Label 2200 2200 2    50   ~ 0
+GA5
+Text Label 2200 2300 2    50   ~ 0
+GA6
+Text Label 2200 2400 2    50   ~ 0
+GA7
+Text Label 2200 2500 2    50   ~ 0
+GA8
+Text Label 2200 2700 2    50   ~ 0
+GK1
+Text Label 2200 2800 2    50   ~ 0
+GK2
+Text Label 2200 2900 2    50   ~ 0
+GK3
+Text Label 2200 3000 2    50   ~ 0
+GK4
+Text Label 2200 3100 2    50   ~ 0
+GK5
+Text Label 2200 3200 2    50   ~ 0
+GK6
+Text Label 2200 3300 2    50   ~ 0
+GK7
+Text Label 2200 3400 2    50   ~ 0
+GK8
+$Sheet
+S 4200 1750 950  1700
+U 63721328
+F0 "CH9-16" 50
+F1 "8ch.sch" 50
+F2 "A1" U R 5150 1800 50 
+F3 "K1" U R 5150 2700 50 
+F4 "GK1" I L 4200 2700 50 
+F5 "GA1" I L 4200 1800 50 
+F6 "A2" U R 5150 1900 50 
+F7 "K2" U R 5150 2800 50 
+F8 "GK2" I L 4200 2800 50 
+F9 "GA2" I L 4200 1900 50 
+F10 "A3" U R 5150 2000 50 
+F11 "K3" U R 5150 2900 50 
+F12 "GK3" I L 4200 2900 50 
+F13 "GA3" I L 4200 2000 50 
+F14 "A4" U R 5150 2100 50 
+F15 "K4" U R 5150 3000 50 
+F16 "GK4" I L 4200 3000 50 
+F17 "GA4" I L 4200 2100 50 
+F18 "A5" U R 5150 2200 50 
+F19 "K5" U R 5150 3100 50 
+F20 "GA5" I L 4200 2200 50 
+F21 "A6" U R 5150 2300 50 
+F22 "K6" U R 5150 3200 50 
+F23 "GK6" I L 4200 3200 50 
+F24 "GA6" I L 4200 2300 50 
+F25 "A7" U R 5150 2400 50 
+F26 "K7" U R 5150 3300 50 
+F27 "GK7" I L 4200 3300 50 
+F28 "GA7" I L 4200 2400 50 
+F29 "A8" U R 5150 2500 50 
+F30 "K8" U R 5150 3400 50 
+F31 "GK8" I L 4200 3400 50 
+F32 "GA8" I L 4200 2500 50 
+F33 "GK5" I L 4200 3100 50 
+$EndSheet
+Wire Wire Line
+	5150 1800 5250 1800
+Wire Wire Line
+	5150 1900 5250 1900
+Wire Wire Line
+	5150 2000 5250 2000
+Wire Wire Line
+	5150 2100 5250 2100
+Wire Wire Line
+	5150 2200 5250 2200
+Wire Wire Line
+	5150 2300 5250 2300
+Wire Wire Line
+	5150 2400 5250 2400
+Wire Wire Line
+	5150 2500 5250 2500
+Wire Wire Line
+	5150 2700 5250 2700
+Wire Wire Line
+	5150 2800 5250 2800
+Wire Wire Line
+	5150 2900 5250 2900
+Wire Wire Line
+	5150 3000 5250 3000
+Wire Wire Line
+	5150 3100 5250 3100
+Wire Wire Line
+	5150 3200 5250 3200
+Wire Wire Line
+	5150 3300 5250 3300
+Wire Wire Line
+	5150 3400 5250 3400
+Text Label 5250 1800 0    50   ~ 0
+A9
+Text Label 5250 1900 0    50   ~ 0
+A10
+Text Label 5250 2000 0    50   ~ 0
+A11
+Text Label 5250 2100 0    50   ~ 0
+A12
+Text Label 5250 2200 0    50   ~ 0
+A13
+Text Label 5250 2300 0    50   ~ 0
+A14
+Text Label 5250 2400 0    50   ~ 0
+A15
+Text Label 5250 2500 0    50   ~ 0
+A16
+Text Label 5250 2700 0    50   ~ 0
+K9
+Text Label 5250 2800 0    50   ~ 0
+K10
+Text Label 5250 2900 0    50   ~ 0
+K11
+Text Label 5250 3000 0    50   ~ 0
+K12
+Text Label 5250 3100 0    50   ~ 0
+K13
+Text Label 5250 3200 0    50   ~ 0
+K14
+Text Label 5250 3300 0    50   ~ 0
+K15
+Text Label 5250 3400 0    50   ~ 0
+K16
+$Sheet
+S 6200 1750 950  1700
+U 6372138A
+F0 "CH17-24" 50
+F1 "8ch.sch" 50
+F2 "A1" U R 7150 1800 50 
+F3 "K1" U R 7150 2700 50 
+F4 "GK1" I L 6200 2700 50 
+F5 "GA1" I L 6200 1800 50 
+F6 "A2" U R 7150 1900 50 
+F7 "K2" U R 7150 2800 50 
+F8 "GK2" I L 6200 2800 50 
+F9 "GA2" I L 6200 1900 50 
+F10 "A3" U R 7150 2000 50 
+F11 "K3" U R 7150 2900 50 
+F12 "GK3" I L 6200 2900 50 
+F13 "GA3" I L 6200 2000 50 
+F14 "A4" U R 7150 2100 50 
+F15 "K4" U R 7150 3000 50 
+F16 "GK4" I L 6200 3000 50 
+F17 "GA4" I L 6200 2100 50 
+F18 "A5" U R 7150 2200 50 
+F19 "K5" U R 7150 3100 50 
+F20 "GA5" I L 6200 2200 50 
+F21 "A6" U R 7150 2300 50 
+F22 "K6" U R 7150 3200 50 
+F23 "GK6" I L 6200 3200 50 
+F24 "GA6" I L 6200 2300 50 
+F25 "A7" U R 7150 2400 50 
+F26 "K7" U R 7150 3300 50 
+F27 "GK7" I L 6200 3300 50 
+F28 "GA7" I L 6200 2400 50 
+F29 "A8" U R 7150 2500 50 
+F30 "K8" U R 7150 3400 50 
+F31 "GK8" I L 6200 3400 50 
+F32 "GA8" I L 6200 2500 50 
+F33 "GK5" I L 6200 3100 50 
+$EndSheet
+Wire Wire Line
+	7150 1800 7250 1800
+Wire Wire Line
+	7150 1900 7250 1900
+Wire Wire Line
+	7150 2000 7250 2000
+Wire Wire Line
+	7150 2100 7250 2100
+Wire Wire Line
+	7150 2200 7250 2200
+Wire Wire Line
+	7150 2300 7250 2300
+Wire Wire Line
+	7150 2400 7250 2400
+Wire Wire Line
+	7150 2500 7250 2500
+Wire Wire Line
+	7150 2700 7250 2700
+Wire Wire Line
+	7150 2800 7250 2800
+Wire Wire Line
+	7150 2900 7250 2900
+Wire Wire Line
+	7150 3000 7250 3000
+Wire Wire Line
+	7150 3100 7250 3100
+Wire Wire Line
+	7150 3200 7250 3200
+Wire Wire Line
+	7150 3300 7250 3300
+Wire Wire Line
+	7150 3400 7250 3400
+Text Label 7250 1800 0    50   ~ 0
+A17
+Text Label 7250 1900 0    50   ~ 0
+A18
+Text Label 7250 2000 0    50   ~ 0
+A19
+Text Label 7250 2100 0    50   ~ 0
+A20
+Text Label 7250 2200 0    50   ~ 0
+A21
+Text Label 7250 2300 0    50   ~ 0
+A22
+Text Label 7250 2400 0    50   ~ 0
+A23
+Text Label 7250 2500 0    50   ~ 0
+A24
+Text Label 7250 2700 0    50   ~ 0
+K17
+Text Label 7250 2800 0    50   ~ 0
+K18
+Text Label 7250 2900 0    50   ~ 0
+K19
+Text Label 7250 3000 0    50   ~ 0
+K20
+Text Label 7250 3100 0    50   ~ 0
+K21
+Text Label 7250 3200 0    50   ~ 0
+K22
+Text Label 7250 3300 0    50   ~ 0
+K23
+Text Label 7250 3400 0    50   ~ 0
+K24
+Text Label 6200 1800 2    50   ~ 0
+GA17
+Text Label 6200 1900 2    50   ~ 0
+GA18
+Text Label 6200 2000 2    50   ~ 0
+GA19
+Text Label 6200 2100 2    50   ~ 0
+GA20
+Text Label 6200 2200 2    50   ~ 0
+GA21
+Text Label 6200 2300 2    50   ~ 0
+GA22
+Text Label 6200 2400 2    50   ~ 0
+GA23
+Text Label 6200 2500 2    50   ~ 0
+GA24
+Text Label 6200 2700 2    50   ~ 0
+GK17
+Text Label 6200 2800 2    50   ~ 0
+GK18
+Text Label 6200 2900 2    50   ~ 0
+GK19
+Text Label 6200 3000 2    50   ~ 0
+GK20
+Text Label 6200 3100 2    50   ~ 0
+GK21
+Text Label 6200 3200 2    50   ~ 0
+GK22
+Text Label 6200 3300 2    50   ~ 0
+GK23
+Text Label 6200 3400 2    50   ~ 0
+GK24
+$Sheet
+S 8200 1750 950  1700
+U 637213EC
+F0 "CH25-32" 50
+F1 "8ch.sch" 50
+F2 "A1" U R 9150 1800 50 
+F3 "K1" U R 9150 2700 50 
+F4 "GK1" I L 8200 2700 50 
+F5 "GA1" I L 8200 1800 50 
+F6 "A2" U R 9150 1900 50 
+F7 "K2" U R 9150 2800 50 
+F8 "GK2" I L 8200 2800 50 
+F9 "GA2" I L 8200 1900 50 
+F10 "A3" U R 9150 2000 50 
+F11 "K3" U R 9150 2900 50 
+F12 "GK3" I L 8200 2900 50 
+F13 "GA3" I L 8200 2000 50 
+F14 "A4" U R 9150 2100 50 
+F15 "K4" U R 9150 3000 50 
+F16 "GK4" I L 8200 3000 50 
+F17 "GA4" I L 8200 2100 50 
+F18 "A5" U R 9150 2200 50 
+F19 "K5" U R 9150 3100 50 
+F20 "GA5" I L 8200 2200 50 
+F21 "A6" U R 9150 2300 50 
+F22 "K6" U R 9150 3200 50 
+F23 "GK6" I L 8200 3200 50 
+F24 "GA6" I L 8200 2300 50 
+F25 "A7" U R 9150 2400 50 
+F26 "K7" U R 9150 3300 50 
+F27 "GK7" I L 8200 3300 50 
+F28 "GA7" I L 8200 2400 50 
+F29 "A8" U R 9150 2500 50 
+F30 "K8" U R 9150 3400 50 
+F31 "GK8" I L 8200 3400 50 
+F32 "GA8" I L 8200 2500 50 
+F33 "GK5" I L 8200 3100 50 
+$EndSheet
+Wire Wire Line
+	9150 2700 9250 2700
+Wire Wire Line
+	9150 2800 9250 2800
+Wire Wire Line
+	9150 2900 9250 2900
+Wire Wire Line
+	9150 3000 9250 3000
+Wire Wire Line
+	9150 3100 9250 3100
+Wire Wire Line
+	9150 3200 9250 3200
+Wire Wire Line
+	9150 3300 9250 3300
+Wire Wire Line
+	9150 3400 9250 3400
+Text Label 8200 1800 2    50   ~ 0
+GA25
+Text Label 8200 1900 2    50   ~ 0
+GA26
+Text Label 8200 2000 2    50   ~ 0
+GA27
+Text Label 8200 2100 2    50   ~ 0
+GA28
+Text Label 8200 2200 2    50   ~ 0
+GA29
+Text Label 8200 2300 2    50   ~ 0
+GA30
+Text Label 8200 2400 2    50   ~ 0
+GA31
+Text Label 8200 2500 2    50   ~ 0
+GA32
+Text Label 8200 2700 2    50   ~ 0
+GK25
+Text Label 8200 2800 2    50   ~ 0
+GK26
+Text Label 8200 2900 2    50   ~ 0
+GK27
+Text Label 8200 3000 2    50   ~ 0
+GK28
+Text Label 8200 3100 2    50   ~ 0
+GK29
+Text Label 8200 3200 2    50   ~ 0
+GK30
+Text Label 8200 3300 2    50   ~ 0
+GK31
+Text Label 8200 3400 2    50   ~ 0
+GK32
+Text Label 9250 2700 0    50   ~ 0
+K25
+Text Label 9250 2800 0    50   ~ 0
+K26
+Text Label 9250 2900 0    50   ~ 0
+K27
+Text Label 9250 3000 0    50   ~ 0
+K28
+Text Label 9250 3100 0    50   ~ 0
+K29
+Text Label 9250 3200 0    50   ~ 0
+K30
+Text Label 9250 3300 0    50   ~ 0
+K31
+Text Label 9250 3400 0    50   ~ 0
+K32
+Wire Wire Line
+	9150 2500 9250 2500
+Wire Wire Line
+	9150 2400 9250 2400
+Wire Wire Line
+	9150 2300 9250 2300
+Wire Wire Line
+	9150 2200 9250 2200
+Wire Wire Line
+	9150 2100 9250 2100
+Wire Wire Line
+	9150 2000 9250 2000
+Wire Wire Line
+	9150 1900 9250 1900
+Wire Wire Line
+	9150 1800 9250 1800
+Text Label 9250 2500 0    50   ~ 0
+A32
+Text Label 9250 2400 0    50   ~ 0
+A31
+Text Label 9250 2300 0    50   ~ 0
+A30
+Text Label 9250 2200 0    50   ~ 0
+A29
+Text Label 9250 2100 0    50   ~ 0
+A28
+Text Label 9250 2000 0    50   ~ 0
+A27
+Text Label 9250 1900 0    50   ~ 0
+A26
+Text Label 9250 1800 0    50   ~ 0
+A25
+Entry Wire Line
+	1900 1700 2000 1800
+Entry Wire Line
+	1900 1800 2000 1900
+Entry Wire Line
+	1900 1900 2000 2000
+Entry Wire Line
+	1900 2000 2000 2100
+Entry Wire Line
+	1900 2100 2000 2200
+Entry Wire Line
+	1900 2200 2000 2300
+Entry Wire Line
+	1900 2300 2000 2400
+Entry Wire Line
+	1900 2400 2000 2500
+Entry Wire Line
+	1900 2600 2000 2700
+Entry Wire Line
+	1900 2700 2000 2800
+Entry Wire Line
+	1900 2800 2000 2900
+Entry Wire Line
+	1900 2900 2000 3000
+Entry Wire Line
+	1900 3000 2000 3100
+Entry Wire Line
+	1900 3100 2000 3200
+Entry Wire Line
+	1900 3200 2000 3300
+Entry Wire Line
+	1900 3300 2000 3400
+Text Label 4200 1800 2    50   ~ 0
+GA9
+Text Label 4200 1900 2    50   ~ 0
+GA10
+Text Label 4200 2000 2    50   ~ 0
+GA11
+Text Label 4200 2100 2    50   ~ 0
+GA12
+Text Label 4200 2200 2    50   ~ 0
+GA13
+Text Label 4200 2300 2    50   ~ 0
+GA14
+Text Label 4200 2400 2    50   ~ 0
+GA15
+Text Label 4200 2500 2    50   ~ 0
+GA16
+Text Label 4200 2700 2    50   ~ 0
+GK9
+Text Label 4200 2800 2    50   ~ 0
+GK10
+Text Label 4200 2900 2    50   ~ 0
+GK11
+Text Label 4200 3000 2    50   ~ 0
+GK12
+Text Label 4200 3100 2    50   ~ 0
+GK13
+Text Label 4200 3200 2    50   ~ 0
+GK14
+Text Label 4200 3300 2    50   ~ 0
+GK15
+Text Label 4200 3400 2    50   ~ 0
+GK16
+Wire Wire Line
+	4000 1800 4200 1800
+Wire Wire Line
+	4000 1900 4200 1900
+Wire Wire Line
+	4000 2000 4200 2000
+Wire Wire Line
+	4000 2100 4200 2100
+Wire Wire Line
+	4000 2200 4200 2200
+Wire Wire Line
+	4000 2300 4200 2300
+Wire Wire Line
+	4000 2400 4200 2400
+Wire Wire Line
+	4000 2500 4200 2500
+Wire Wire Line
+	4000 2700 4200 2700
+Wire Wire Line
+	4000 2800 4200 2800
+Wire Wire Line
+	4000 2900 4200 2900
+Wire Wire Line
+	4000 3000 4200 3000
+Wire Wire Line
+	4000 3100 4200 3100
+Wire Wire Line
+	4000 3200 4200 3200
+Wire Wire Line
+	4000 3300 4200 3300
+Wire Wire Line
+	4000 3400 4200 3400
+Wire Wire Line
+	2000 1800 2200 1800
+Wire Wire Line
+	2000 1900 2200 1900
+Wire Wire Line
+	2000 2000 2200 2000
+Wire Wire Line
+	2000 2100 2200 2100
+Wire Wire Line
+	2000 2200 2200 2200
+Wire Wire Line
+	2000 2300 2200 2300
+Wire Wire Line
+	2000 2400 2200 2400
+Wire Wire Line
+	2000 2500 2200 2500
+Wire Wire Line
+	2000 2700 2200 2700
+Wire Wire Line
+	2000 2800 2200 2800
+Wire Wire Line
+	2000 2900 2200 2900
+Wire Wire Line
+	2000 3000 2200 3000
+Wire Wire Line
+	2000 3100 2200 3100
+Wire Wire Line
+	2000 3200 2200 3200
+Wire Wire Line
+	2000 3300 2200 3300
+Wire Wire Line
+	2000 3400 2200 3400
+Entry Wire Line
+	3900 1700 4000 1800
+Entry Wire Line
+	3900 1800 4000 1900
+Entry Wire Line
+	3900 1900 4000 2000
+Entry Wire Line
+	3900 2000 4000 2100
+Entry Wire Line
+	3900 2100 4000 2200
+Entry Wire Line
+	3900 2200 4000 2300
+Entry Wire Line
+	3900 2300 4000 2400
+Entry Wire Line
+	3900 2400 4000 2500
+Entry Wire Line
+	3900 2600 4000 2700
+Entry Wire Line
+	3900 2700 4000 2800
+Entry Wire Line
+	3900 2800 4000 2900
+Entry Wire Line
+	3900 2900 4000 3000
+Entry Wire Line
+	3900 3000 4000 3100
+Entry Wire Line
+	3900 3100 4000 3200
+Entry Wire Line
+	3900 3200 4000 3300
+Entry Wire Line
+	3900 3300 4000 3400
+Text Label 1900 1650 2    50   ~ 0
+GA[1..32]
+Text Label 1900 2550 2    50   ~ 0
+GK[1..32]
+Text Label 3900 1650 2    50   ~ 0
+GA[1..32]
+Text Label 3900 2550 2    50   ~ 0
+GK[1..32]
+Wire Wire Line
+	6000 1800 6200 1800
+Wire Wire Line
+	6000 1900 6200 1900
+Wire Wire Line
+	6000 2000 6200 2000
+Wire Wire Line
+	6000 2100 6200 2100
+Wire Wire Line
+	6000 2200 6200 2200
+Wire Wire Line
+	6000 2300 6200 2300
+Wire Wire Line
+	6000 2400 6200 2400
+Wire Wire Line
+	6000 2500 6200 2500
+Wire Wire Line
+	6000 2700 6200 2700
+Wire Wire Line
+	6000 2800 6200 2800
+Wire Wire Line
+	6000 2900 6200 2900
+Wire Wire Line
+	6000 3000 6200 3000
+Wire Wire Line
+	6000 3100 6200 3100
+Wire Wire Line
+	6000 3200 6200 3200
+Wire Wire Line
+	6000 3300 6200 3300
+Wire Wire Line
+	6000 3400 6200 3400
+Entry Wire Line
+	5900 1700 6000 1800
+Entry Wire Line
+	5900 1800 6000 1900
+Entry Wire Line
+	5900 1900 6000 2000
+Entry Wire Line
+	5900 2000 6000 2100
+Entry Wire Line
+	5900 2100 6000 2200
+Entry Wire Line
+	5900 2200 6000 2300
+Entry Wire Line
+	5900 2300 6000 2400
+Entry Wire Line
+	5900 2400 6000 2500
+Entry Wire Line
+	5900 2600 6000 2700
+Entry Wire Line
+	5900 2700 6000 2800
+Entry Wire Line
+	5900 2800 6000 2900
+Entry Wire Line
+	5900 2900 6000 3000
+Entry Wire Line
+	5900 3000 6000 3100
+Entry Wire Line
+	5900 3100 6000 3200
+Entry Wire Line
+	5900 3200 6000 3300
+Entry Wire Line
+	5900 3300 6000 3400
+Wire Wire Line
+	8000 1800 8200 1800
+Wire Wire Line
+	8000 1900 8200 1900
+Wire Wire Line
+	8000 2000 8200 2000
+Wire Wire Line
+	8000 2100 8200 2100
+Wire Wire Line
+	8000 2200 8200 2200
+Wire Wire Line
+	8000 2300 8200 2300
+Wire Wire Line
+	8000 2400 8200 2400
+Wire Wire Line
+	8000 2500 8200 2500
+Wire Wire Line
+	8000 2700 8200 2700
+Wire Wire Line
+	8000 2800 8200 2800
+Wire Wire Line
+	8000 2900 8200 2900
+Wire Wire Line
+	8000 3000 8200 3000
+Wire Wire Line
+	8000 3100 8200 3100
+Wire Wire Line
+	8000 3200 8200 3200
+Wire Wire Line
+	8000 3300 8200 3300
+Wire Wire Line
+	8000 3400 8200 3400
+Entry Wire Line
+	7900 1700 8000 1800
+Entry Wire Line
+	7900 1800 8000 1900
+Entry Wire Line
+	7900 1900 8000 2000
+Entry Wire Line
+	7900 2000 8000 2100
+Entry Wire Line
+	7900 2100 8000 2200
+Entry Wire Line
+	7900 2200 8000 2300
+Entry Wire Line
+	7900 2300 8000 2400
+Entry Wire Line
+	7900 2400 8000 2500
+Entry Wire Line
+	7900 2600 8000 2700
+Entry Wire Line
+	7900 2700 8000 2800
+Entry Wire Line
+	7900 2800 8000 2900
+Entry Wire Line
+	7900 2900 8000 3000
+Entry Wire Line
+	7900 3000 8000 3100
+Entry Wire Line
+	7900 3100 8000 3200
+Entry Wire Line
+	7900 3200 8000 3300
+Entry Wire Line
+	7900 3300 8000 3400
+Text Label 5900 1650 2    50   ~ 0
+GA[1..32]
+Text Label 7900 1650 2    50   ~ 0
+GA[1..32]
+Text Label 5900 2550 2    50   ~ 0
+GK[1..32]
+Text Label 7900 2550 2    50   ~ 0
+GK[1..32]
+$Sheet
+S 6650 4700 900  1000
+U 7CCBE6C5
+F0 "Shift Registers" 50
+F1 "shiftregs.sch" 50
+F2 "GK[1..32]" O R 7550 5100 50 
+F3 "GA[1..32]" O R 7550 4800 50 
+F4 "~MR" I L 6650 5600 50 
+F5 "SHCPA" I L 6650 4900 50 
+F6 "STCP" I L 6650 5400 50 
+F7 "~OE" I L 6650 5500 50 
+F8 "DSA" I L 6650 4800 50 
+F9 "SHCPK" I L 6650 5200 50 
+F10 "DSK" I L 6650 5100 50 
+F11 "DSAO" O R 7550 5400 50 
+F12 "DSKO" O R 7550 5500 50 
+$EndSheet
+Text Label 7650 5100 0    50   ~ 0
+GK[1..32]
+Text Label 7650 4800 0    50   ~ 0
+GA[1..32]
+Text HLabel 6550 5600 0    50   Input ~ 0
+~MR
+Wire Wire Line
+	6550 5600 6650 5600
+Text HLabel 6550 4900 0    50   Input ~ 0
+ACLK
+Wire Wire Line
+	6550 4900 6650 4900
+Text HLabel 6550 5400 0    50   Input ~ 0
+STCP
+Wire Wire Line
+	6550 5400 6650 5400
+Text HLabel 6550 5500 0    50   Input ~ 0
+~OE
+Wire Wire Line
+	6550 5500 6650 5500
+Text HLabel 6550 4800 0    50   Input ~ 0
+ADAT
+Wire Wire Line
+	6550 4800 6650 4800
+Text HLabel 6550 5200 0    50   Input ~ 0
+KCLK
+Wire Wire Line
+	6550 5200 6650 5200
+Text HLabel 6550 5100 0    50   Input ~ 0
+KDAT
+Wire Wire Line
+	6550 5100 6650 5100
+Wire Bus Line
+	7650 4800 7550 4800
+Wire Bus Line
+	7650 5100 7550 5100
+Text HLabel 7650 5400 2    50   Output ~ 0
+AOUT
+Text HLabel 7650 5500 2    50   Output ~ 0
+KOUT
+Wire Wire Line
+	7650 5500 7550 5500
+Wire Wire Line
+	7550 5400 7650 5400
+$Comp
+L agg-kicad:CONN_01x16 J201
+U 1 1 5DA5D3E1
+P 2700 4500
+F 0 "J201" H 2650 4600 50  0000 L CNN
+F 1 "A_1_16" H 2650 2900 50  0000 L CNN
+F 2 "agg:IPL1-116-02-L-SH" H 2700 4500 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/ipl1.pdf" H 2700 4500 50  0001 C CNN
+F 4 "IPL1-116-02-L-SH-K" H 2700 4500 50  0001 C CNN "Samtec"
+	1    2700 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4500 2500 4500
+Text Label 2500 4500 2    50   ~ 0
+A1
+Text Label 2500 4600 2    50   ~ 0
+A2
+Text Label 2500 4700 2    50   ~ 0
+A3
+Text Label 2500 4800 2    50   ~ 0
+A4
+Text Label 2500 4900 2    50   ~ 0
+A5
+Text Label 2500 5000 2    50   ~ 0
+A6
+Text Label 2500 5100 2    50   ~ 0
+A7
+Text Label 2500 5200 2    50   ~ 0
+A8
+Text Label 2500 5300 2    50   ~ 0
+A9
+Text Label 2500 5400 2    50   ~ 0
+A10
+Text Label 2500 5500 2    50   ~ 0
+A11
+Text Label 2500 5600 2    50   ~ 0
+A12
+Text Label 2500 5700 2    50   ~ 0
+A13
+Text Label 2500 5800 2    50   ~ 0
+A14
+Text Label 2500 5900 2    50   ~ 0
+A15
+Text Label 2500 6000 2    50   ~ 0
+A16
+Wire Wire Line
+	2600 4600 2500 4600
+Wire Wire Line
+	2600 4700 2500 4700
+Wire Wire Line
+	2600 4800 2500 4800
+Wire Wire Line
+	2600 4900 2500 4900
+Wire Wire Line
+	2600 5000 2500 5000
+Wire Wire Line
+	2600 5100 2500 5100
+Wire Wire Line
+	2600 5200 2500 5200
+Wire Wire Line
+	2600 5300 2500 5300
+Wire Wire Line
+	2600 5400 2500 5400
+Wire Wire Line
+	2600 5500 2500 5500
+Wire Wire Line
+	2600 5600 2500 5600
+Wire Wire Line
+	2600 5700 2500 5700
+Wire Wire Line
+	2600 5800 2500 5800
+Wire Wire Line
+	2600 5900 2500 5900
+Wire Wire Line
+	2600 6000 2500 6000
+$Comp
+L agg-kicad:CONN_01x16 J202
+U 1 1 5DAB9A02
+P 3400 4500
+F 0 "J202" H 3350 4600 50  0000 L CNN
+F 1 "A_17_32" H 3350 2900 50  0000 L CNN
+F 2 "agg:IPL1-116-02-L-SH" H 3400 4500 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/ipl1.pdf" H 3400 4500 50  0001 C CNN
+F 4 "IPL1-116-02-L-SH-K" H 3400 4500 50  0001 C CNN "Samtec"
+	1    3400 4500
+	-1   0    0    -1  
+$EndComp
+Text Label 3200 4500 2    50   ~ 0
+A17
+Text Label 3200 4600 2    50   ~ 0
+A18
+Text Label 3200 4700 2    50   ~ 0
+A19
+Text Label 3200 4800 2    50   ~ 0
+A20
+Text Label 3200 4900 2    50   ~ 0
+A21
+Text Label 3200 5000 2    50   ~ 0
+A22
+Text Label 3200 5100 2    50   ~ 0
+A23
+Text Label 3200 5200 2    50   ~ 0
+A24
+Text Label 3200 5300 2    50   ~ 0
+A25
+Text Label 3200 5400 2    50   ~ 0
+A26
+Text Label 3200 5500 2    50   ~ 0
+A27
+Text Label 3200 5600 2    50   ~ 0
+A28
+Text Label 3200 5700 2    50   ~ 0
+A29
+Text Label 3200 5800 2    50   ~ 0
+A30
+Text Label 3200 5900 2    50   ~ 0
+A31
+Text Label 3200 6000 2    50   ~ 0
+A32
+Wire Wire Line
+	3200 4500 3300 4500
+Wire Wire Line
+	3200 4600 3300 4600
+Wire Wire Line
+	3200 4700 3300 4700
+Wire Wire Line
+	3200 4800 3300 4800
+Wire Wire Line
+	3200 4900 3300 4900
+Wire Wire Line
+	3200 5000 3300 5000
+Wire Wire Line
+	3200 5100 3300 5100
+Wire Wire Line
+	3200 5200 3300 5200
+Wire Wire Line
+	3200 5300 3300 5300
+Wire Wire Line
+	3200 5400 3300 5400
+Wire Wire Line
+	3200 5500 3300 5500
+Wire Wire Line
+	3200 5600 3300 5600
+Wire Wire Line
+	3200 5700 3300 5700
+Wire Wire Line
+	3200 5800 3300 5800
+Wire Wire Line
+	3200 5900 3300 5900
+Wire Wire Line
+	3200 6000 3300 6000
+$Comp
+L agg-kicad:CONN_01x16 J203
+U 1 1 5DAF577B
+P 3750 6000
+F 0 "J203" H 3700 6100 50  0000 L CNN
+F 1 "K_1_16" H 3700 4400 50  0000 L CNN
+F 2 "agg:IPL1-116-02-L-SH" H 3750 6000 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/ipl1.pdf" H 3750 6000 50  0001 C CNN
+F 4 "IPL1-116-02-L-SH-K" H 3750 6000 50  0001 C CNN "Samtec"
+	1    3750 6000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3850 4500 3950 4500
+Wire Wire Line
+	3850 4600 3950 4600
+Wire Wire Line
+	3850 4700 3950 4700
+Wire Wire Line
+	3850 4800 3950 4800
+Wire Wire Line
+	3850 4900 3950 4900
+Wire Wire Line
+	3850 5000 3950 5000
+Wire Wire Line
+	3850 5100 3950 5100
+Wire Wire Line
+	3850 5200 3950 5200
+Wire Wire Line
+	3850 5300 3950 5300
+Wire Wire Line
+	3850 5400 3950 5400
+Wire Wire Line
+	3850 5500 3950 5500
+Wire Wire Line
+	3850 5600 3950 5600
+Wire Wire Line
+	3850 5700 3950 5700
+Wire Wire Line
+	3850 5800 3950 5800
+Wire Wire Line
+	3850 5900 3950 5900
+Wire Wire Line
+	3850 6000 3950 6000
+$Comp
+L agg-kicad:CONN_01x16 J204
+U 1 1 5DB088AA
+P 4450 6000
+F 0 "J204" H 4400 6100 50  0000 L CNN
+F 1 "K_1_16" H 4400 4400 50  0000 L CNN
+F 2 "agg:IPL1-116-02-L-SH" H 4450 6000 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/ipl1.pdf" H 4450 6000 50  0001 C CNN
+F 4 "IPL1-116-02-L-SH-K" H 4450 6000 50  0001 C CNN "Samtec"
+	1    4450 6000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4550 4500 4650 4500
+Wire Wire Line
+	4550 4600 4650 4600
+Wire Wire Line
+	4550 4700 4650 4700
+Wire Wire Line
+	4550 4800 4650 4800
+Wire Wire Line
+	4550 4900 4650 4900
+Wire Wire Line
+	4550 5000 4650 5000
+Wire Wire Line
+	4550 5100 4650 5100
+Wire Wire Line
+	4550 5200 4650 5200
+Wire Wire Line
+	4550 5300 4650 5300
+Wire Wire Line
+	4550 5400 4650 5400
+Wire Wire Line
+	4550 5500 4650 5500
+Wire Wire Line
+	4550 5600 4650 5600
+Wire Wire Line
+	4550 5700 4650 5700
+Wire Wire Line
+	4550 5800 4650 5800
+Wire Wire Line
+	4550 5900 4650 5900
+Wire Wire Line
+	4550 6000 4650 6000
+Text Label 3950 4500 0    50   ~ 0
+K1
+Text Label 3950 4600 0    50   ~ 0
+K2
+Text Label 3950 4700 0    50   ~ 0
+K3
+Text Label 3950 4800 0    50   ~ 0
+K4
+Text Label 3950 4900 0    50   ~ 0
+K5
+Text Label 3950 5000 0    50   ~ 0
+K6
+Text Label 3950 5100 0    50   ~ 0
+K7
+Text Label 3950 5200 0    50   ~ 0
+K8
+Text Label 3950 5300 0    50   ~ 0
+K9
+Text Label 3950 5400 0    50   ~ 0
+K10
+Text Label 3950 5500 0    50   ~ 0
+K11
+Text Label 3950 5600 0    50   ~ 0
+K12
+Text Label 3950 5700 0    50   ~ 0
+K13
+Text Label 3950 5800 0    50   ~ 0
+K14
+Text Label 3950 5900 0    50   ~ 0
+K15
+Text Label 3950 6000 0    50   ~ 0
+K16
+Text Label 4650 4500 0    50   ~ 0
+K17
+Text Label 4650 4600 0    50   ~ 0
+K18
+Text Label 4650 4700 0    50   ~ 0
+K19
+Text Label 4650 4800 0    50   ~ 0
+K20
+Text Label 4650 4900 0    50   ~ 0
+K21
+Text Label 4650 5000 0    50   ~ 0
+K22
+Text Label 4650 5100 0    50   ~ 0
+K23
+Text Label 4650 5200 0    50   ~ 0
+K24
+Text Label 4650 5300 0    50   ~ 0
+K25
+Text Label 4650 5400 0    50   ~ 0
+K26
+Text Label 4650 5500 0    50   ~ 0
+K27
+Text Label 4650 5600 0    50   ~ 0
+K28
+Text Label 4650 5700 0    50   ~ 0
+K29
+Text Label 4650 5800 0    50   ~ 0
+K30
+Text Label 4650 5900 0    50   ~ 0
+K31
+Text Label 4650 6000 0    50   ~ 0
+K32
+Wire Bus Line
+	7900 2550 7900 3300
+Wire Bus Line
+	7900 1650 7900 2400
+Wire Bus Line
+	5900 2550 5900 3300
+Wire Bus Line
+	5900 1650 5900 2400
+Wire Bus Line
+	3900 2550 3900 3300
+Wire Bus Line
+	3900 1650 3900 2400
+Wire Bus Line
+	1900 2550 1900 3300
+Wire Bus Line
+	1900 1650 1900 2400
+$EndSCHEMATC

@@ -1,0 +1,507 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title "Ethernet Extension"
+Date "Di 23 Jun 2015"
+Rev "1.1"
+Comp "Tinkerforge GmbH"
+Comment1 "Licensed under CERN OHL v.1.1"
+Comment2 "Copyright (©) 2015, B.Nordmeyer <bastian@tinkerforge.com>"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 10300 5550
+Wire Wire Line
+	10650 5550 10200 5550
+Wire Wire Line
+	4900 5800 5950 5800
+Connection ~ 2100 2250
+Connection ~ 2000 2050
+Wire Wire Line
+	2500 1550 1700 1550
+Wire Wire Line
+	1700 1550 1700 4600
+Wire Wire Line
+	4900 2550 6250 2550
+Wire Wire Line
+	4900 5500 6250 5500
+Wire Wire Line
+	4900 5300 5550 5300
+Wire Wire Line
+	5550 5300 5550 2250
+Wire Wire Line
+	2500 5500 1650 5500
+Wire Wire Line
+	2500 2550 2350 2550
+Wire Wire Line
+	2350 2550 2350 5900
+Wire Wire Line
+	2350 5900 2500 5900
+Wire Wire Line
+	2500 2350 2450 2350
+Wire Wire Line
+	2450 2350 2450 5700
+Wire Wire Line
+	2450 5700 2500 5700
+Wire Wire Line
+	2500 5300 2100 5300
+Wire Wire Line
+	2100 5300 2100 2250
+Wire Wire Line
+	2500 5100 2000 5100
+Wire Wire Line
+	2000 5100 2000 2050
+Wire Wire Line
+	2500 4900 1850 4900
+Wire Wire Line
+	1850 4900 1850 1850
+Wire Wire Line
+	1850 1850 2500 1850
+Wire Wire Line
+	2500 4700 1750 4700
+Wire Wire Line
+	1750 4700 1750 1650
+Connection ~ 5050 1450
+Wire Wire Line
+	5500 1450 4900 1450
+Wire Wire Line
+	4900 2850 6000 2850
+Wire Wire Line
+	6000 2850 6000 5900
+Wire Wire Line
+	4900 2650 5900 2650
+Wire Wire Line
+	4900 2350 5600 2350
+Wire Wire Line
+	3700 3250 3700 3200
+Wire Wire Line
+	9000 6200 9000 6100
+Connection ~ 10200 2500
+Wire Wire Line
+	10300 5550 10300 2500
+Wire Wire Line
+	10300 2500 10200 2500
+Connection ~ 7700 5600
+Wire Wire Line
+	7700 6000 7700 2550
+Connection ~ 10200 5550
+Wire Wire Line
+	6250 2050 6250 1950
+Wire Wire Line
+	4900 5200 5500 5200
+Wire Wire Line
+	5500 5200 5500 2150
+Wire Wire Line
+	5500 2150 4900 2150
+Wire Wire Line
+	4900 5000 5400 5000
+Wire Wire Line
+	5400 5000 5400 1950
+Wire Wire Line
+	5400 1950 4900 1950
+Wire Wire Line
+	4900 4800 5300 4800
+Wire Wire Line
+	5300 4800 5300 1750
+Wire Wire Line
+	5300 1750 4900 1750
+Wire Wire Line
+	4900 4600 5100 4600
+Wire Wire Line
+	5100 4600 5100 1550
+Wire Wire Line
+	2500 4500 1650 4500
+Wire Wire Line
+	1650 4500 1650 1450
+Wire Wire Line
+	7650 1850 7650 4900
+Wire Wire Line
+	7600 2800 7600 5850
+Wire Wire Line
+	7600 2800 7800 2800
+Connection ~ 7800 1850
+Wire Wire Line
+	7650 1850 7800 1850
+Connection ~ 7800 4900
+Wire Wire Line
+	7650 4900 7800 4900
+Connection ~ 7800 2550
+Wire Wire Line
+	7700 2550 7800 2550
+Connection ~ 7800 5600
+Wire Wire Line
+	7800 5600 7700 5600
+Connection ~ 7800 5650
+Connection ~ 10200 4650
+Connection ~ 10200 4850
+Connection ~ 10200 5050
+Connection ~ 10200 5250
+Connection ~ 7800 5250
+Connection ~ 7800 5150
+Wire Wire Line
+	7800 5350 7800 4450
+Connection ~ 7800 4950
+Connection ~ 7800 5050
+Connection ~ 7800 4850
+Connection ~ 7800 4650
+Connection ~ 7800 2600
+Wire Wire Line
+	7800 2400 7800 2700
+Connection ~ 10200 2100
+Connection ~ 10200 1900
+Connection ~ 10200 1600
+Connection ~ 7800 2100
+Connection ~ 7800 1900
+Connection ~ 7800 1700
+Connection ~ 7800 1500
+Connection ~ 7800 1600
+Connection ~ 7800 1800
+Connection ~ 7800 2000
+Wire Wire Line
+	7800 1400 7800 2300
+Connection ~ 7800 2200
+Connection ~ 10200 1500
+Connection ~ 10200 1700
+Connection ~ 10200 1800
+Connection ~ 10200 2000
+Wire Wire Line
+	10200 1400 10200 2300
+Connection ~ 10200 2200
+Connection ~ 7800 2500
+Connection ~ 7800 4550
+Connection ~ 7800 4750
+Connection ~ 10200 5150
+Connection ~ 10200 4950
+Connection ~ 10200 4750
+Wire Wire Line
+	10200 5350 10200 4450
+Connection ~ 10200 4550
+Wire Wire Line
+	7800 5750 7800 5450
+Connection ~ 7800 5550
+Wire Wire Line
+	10200 4900 10350 4900
+Connection ~ 10200 4900
+Wire Wire Line
+	10350 4900 10350 1850
+Wire Wire Line
+	10350 1850 10200 1850
+Connection ~ 10200 1850
+Wire Wire Line
+	10200 2800 10400 2800
+Wire Wire Line
+	10400 2800 10400 5850
+Wire Wire Line
+	10400 5850 10200 5850
+Wire Wire Line
+	1700 4600 2500 4600
+Wire Wire Line
+	7600 5850 7800 5850
+Wire Wire Line
+	4900 4500 5050 4500
+Wire Wire Line
+	5050 4500 5050 1450
+Wire Wire Line
+	4900 4700 5250 4700
+Wire Wire Line
+	5250 4700 5250 1650
+Wire Wire Line
+	5250 1650 4900 1650
+Wire Wire Line
+	4900 1850 5350 1850
+Wire Wire Line
+	5350 1850 5350 4900
+Wire Wire Line
+	5350 4900 4900 4900
+Wire Wire Line
+	4900 2050 5450 2050
+Wire Wire Line
+	5450 2050 5450 5100
+Wire Wire Line
+	5450 5100 4900 5100
+Wire Wire Line
+	10200 5650 10200 5450
+Wire Wire Line
+	10200 5750 10650 5750
+Wire Wire Line
+	10200 2400 10200 2600
+Wire Wire Line
+	10200 2700 10450 2700
+Wire Wire Line
+	10450 2700 10450 5750
+Connection ~ 10450 5750
+Wire Wire Line
+	9000 3150 9000 3050
+Wire Wire Line
+	3700 6300 3700 6250
+Wire Wire Line
+	5550 2250 4900 2250
+Wire Wire Line
+	4900 2450 5750 2450
+Wire Wire Line
+	5750 2450 5750 5600
+Wire Wire Line
+	5750 5600 4900 5600
+Wire Wire Line
+	4900 2750 5950 2750
+Wire Wire Line
+	5500 1550 4900 1550
+Connection ~ 5100 1550
+Wire Wire Line
+	2500 4800 1800 4800
+Wire Wire Line
+	1800 4800 1800 1750
+Wire Wire Line
+	1800 1750 2500 1750
+Wire Wire Line
+	2500 5000 1900 5000
+Wire Wire Line
+	1900 5000 1900 1950
+Wire Wire Line
+	1900 1950 2500 1950
+Wire Wire Line
+	2500 5200 2050 5200
+Wire Wire Line
+	2050 5200 2050 2150
+Wire Wire Line
+	2500 2450 2400 2450
+Wire Wire Line
+	2400 2450 2400 5800
+Wire Wire Line
+	2400 5800 2500 5800
+Wire Wire Line
+	4900 5400 5600 5400
+Wire Wire Line
+	5600 5400 5600 2350
+Wire Wire Line
+	1750 1650 2500 1650
+Wire Wire Line
+	1650 1450 2500 1450
+Connection ~ 2050 2150
+Wire Wire Line
+	6000 5900 4900 5900
+Wire Wire Line
+	5950 2750 5950 5800
+Wire Wire Line
+	5900 2650 5900 5700
+Wire Wire Line
+	5900 5700 4900 5700
+$Comp
+L tinkerforge:+5V #PWR041
+U 1 1 5060B124
+P 10650 5550
+F 0 "#PWR041" H 10650 5640 20  0001 C CNN
+F 1 "+5V" H 10650 5640 30  0000 C CNN
+F 2 "" H 10650 5550 60  0001 C CNN
+F 3 "" H 10650 5550 60  0001 C CNN
+	1    10650 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L tinkerforge:VCC #PWR042
+U 1 1 505C6A54
+P 6250 1950
+F 0 "#PWR042" H 6250 2050 30  0001 C CNN
+F 1 "VCC" H 6250 2050 30  0000 C CNN
+F 2 "" H 6250 1950 60  0001 C CNN
+F 3 "" H 6250 1950 60  0001 C CNN
+	1    6250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L tinkerforge:VCC #PWR043
+U 1 1 505C6A4E
+P 10650 5750
+F 0 "#PWR043" H 10650 5850 30  0001 C CNN
+F 1 "VCC" H 10650 5850 30  0000 C CNN
+F 2 "" H 10650 5750 60  0001 C CNN
+F 3 "" H 10650 5750 60  0001 C CNN
+	1    10650 5750
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 5500 0    60   Input ~ 0
+INT
+NoConn ~ 2500 2650
+NoConn ~ 2500 2750
+NoConn ~ 2500 2850
+$Comp
+L tinkerforge:DRILL U6
+U 1 1 4D2AE2E5
+P 10650 6350
+F 0 "U6" H 10700 6400 60  0001 C CNN
+F 1 "DRILL" H 10650 6350 60  0000 C CNN
+F 2 "DRILL_NP" H 10650 6350 60  0001 C CNN
+F 3 "" H 10650 6350 60  0001 C CNN
+	1    10650 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L tinkerforge:DRILL U5
+U 1 1 4D2AE2E4
+P 10650 6100
+F 0 "U5" H 10700 6150 60  0001 C CNN
+F 1 "DRILL" H 10650 6100 60  0000 C CNN
+F 2 "DRILL_NP" H 10650 6100 60  0001 C CNN
+F 3 "" H 10650 6100 60  0001 C CNN
+	1    10650 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L tinkerforge:GND #PWR044
+U 1 1 4CCF436E
+P 9000 6200
+F 0 "#PWR044" H 9000 6200 30  0001 C CNN
+F 1 "GND" H 9000 6130 30  0001 C CNN
+F 2 "" H 9000 6200 60  0001 C CNN
+F 3 "" H 9000 6200 60  0001 C CNN
+	1    9000 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L tinkerforge:GND #PWR045
+U 1 1 4CCF436A
+P 9000 3150
+F 0 "#PWR045" H 9000 3150 30  0001 C CNN
+F 1 "GND" H 9000 3080 30  0001 C CNN
+F 2 "" H 9000 3150 60  0001 C CNN
+F 3 "" H 9000 3150 60  0001 C CNN
+	1    9000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L tinkerforge:GND #PWR046
+U 1 1 4CCF4366
+P 3700 3250
+F 0 "#PWR046" H 3700 3250 30  0001 C CNN
+F 1 "GND" H 3700 3180 30  0001 C CNN
+F 2 "" H 3700 3250 60  0001 C CNN
+F 3 "" H 3700 3250 60  0001 C CNN
+	1    3700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L tinkerforge:GND #PWR047
+U 1 1 4CCF4362
+P 3700 6300
+F 0 "#PWR047" H 3700 6300 30  0001 C CNN
+F 1 "GND" H 3700 6230 30  0001 C CNN
+F 2 "" H 3700 6300 60  0001 C CNN
+F 3 "" H 3700 6300 60  0001 C CNN
+	1    3700 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L tinkerforge:GND #PWR048
+U 1 1 4CC048B4
+P 7700 6000
+F 0 "#PWR048" H 7700 6000 30  0001 C CNN
+F 1 "GND" H 7700 5930 30  0001 C CNN
+F 2 "" H 7700 6000 60  0001 C CNN
+F 3 "" H 7700 6000 60  0001 C CNN
+	1    7700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L tinkerforge:DRILL U8
+U 1 1 4CC046E6
+P 11000 6350
+F 0 "U8" H 11050 6400 60  0001 C CNN
+F 1 "DRILL" H 11000 6350 60  0000 C CNN
+F 2 "DRILL_NP" H 11000 6350 60  0001 C CNN
+F 3 "" H 11000 6350 60  0001 C CNN
+	1    11000 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L tinkerforge:DRILL U7
+U 1 1 4CC046E1
+P 11000 6100
+F 0 "U7" H 11050 6150 60  0001 C CNN
+F 1 "DRILL" H 11000 6100 60  0000 C CNN
+F 2 "DRILL_NP" H 11000 6100 60  0001 C CNN
+F 3 "" H 11000 6100 60  0001 C CNN
+	1    11000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L tinkerforge:R R31
+U 1 1 4CC046A4
+P 6250 2300
+F 0 "R31" V 6330 2300 50  0000 C CNN
+F 1 "1k" V 6250 2300 50  0000 C CNN
+F 2 "R0603" H 6250 2300 60  0001 C CNN
+F 3 "" H 6250 2300 60  0001 C CNN
+	1    6250 2300
+	1    0    0    -1  
+$EndComp
+Text GLabel 6250 5500 2    60   Output ~ 0
+SELECT
+$Comp
+L tinkerforge:STACK-DOWN-1 J2
+U 1 1 4C46D30D
+P 3700 5200
+F 0 "J2" H 2850 6050 60  0000 C CNN
+F 1 "STACK-DOWN" H 4200 6050 60  0000 C CNN
+F 2 "BTB08-ACS-BTM" H 3700 5200 60  0001 C CNN
+F 3 "" H 3700 5200 60  0001 C CNN
+	1    3700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L tinkerforge:STACK-UP-2 J3
+U 1 1 4C46D315
+P 9000 2100
+F 0 "J3" H 8150 2950 60  0000 C CNN
+F 1 "STACK-UP-HIGH" H 9600 2950 60  0000 C CNN
+F 2 "BTB08-ACS-TOP" H 9000 2100 60  0001 C CNN
+F 3 "" H 9000 2100 60  0001 C CNN
+	1    9000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L tinkerforge:STACK-DOWN-2 J4
+U 1 1 4C46D31B
+P 9000 5150
+F 0 "J4" H 8150 6000 60  0000 C CNN
+F 1 "STACK-DOWN" H 9550 6000 60  0000 C CNN
+F 2 "BTB08-ACS-BTM" H 9000 5150 60  0001 C CNN
+F 3 "" H 9000 5150 60  0001 C CNN
+	1    9000 5150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 5400 0    60   Output ~ 0
+nRESET
+Text GLabel 1500 2250 0    60   Input ~ 0
+SCK
+Text GLabel 1500 2050 0    60   Input ~ 0
+MISO
+Text GLabel 1500 2150 0    60   Input ~ 0
+MOSI
+Text GLabel 5500 1550 2    60   Input ~ 0
+SCL
+Text GLabel 5500 1450 2    60   Input ~ 0
+SDA
+$Comp
+L tinkerforge:STACK-UP-1 J1
+U 1 1 4C46D305
+P 3700 2150
+F 0 "J1" H 2850 3000 60  0000 C CNN
+F 1 "STACK-UP-HIGH" H 4300 3000 60  0000 C CNN
+F 2 "BTB08-ACS-TOP" H 3700 2150 60  0001 C CNN
+F 3 "" H 3700 2150 60  0001 C CNN
+	1    3700 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2250 2500 2250
+Wire Wire Line
+	1500 2150 2500 2150
+Wire Wire Line
+	1500 2050 2500 2050
+NoConn ~ 2500 5600
+Wire Wire Line
+	2500 5400 1650 5400
+$EndSCHEMATC

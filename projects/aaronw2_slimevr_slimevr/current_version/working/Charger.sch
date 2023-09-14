@@ -1,0 +1,599 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:VBUS #PWR0134
+U 1 1 61EF25A0
+P 2250 4300
+F 0 "#PWR0134" H 2250 4150 50  0001 C CNN
+F 1 "VBUS" H 2265 4473 50  0000 C CNN
+F 2 "" H 2250 4300 50  0001 C CNN
+F 3 "" H 2250 4300 50  0001 C CNN
+	1    2250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0136
+U 1 1 61EF0B57
+P 4800 4600
+F 0 "#PWR0136" H 4800 4350 50  0001 C CNN
+F 1 "GND" H 4805 4427 50  0000 C CNN
+F 2 "" H 4800 4600 50  0001 C CNN
+F 3 "" H 4800 4600 50  0001 C CNN
+	1    4800 4600
+	1    0    0    -1  
+$EndComp
+Text GLabel 3150 1000 0    50   BiDi ~ 0
+USB_CC1
+Text GLabel 3600 1100 0    50   BiDi ~ 0
+USB_CC2
+Text Label 2350 4300 0    50   ~ 0
+VBUS
+$Comp
+L Device:LED_Small D301
+U 1 1 61F660B0
+P 1150 5950
+F 0 "D301" V 1196 5880 50  0000 R CNN
+F 1 "Green" V 1105 5880 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1150 5950 50  0001 C CNN
+F 3 "https://www.we-online.com/katalog/datasheet/150060VS55040.pdf" V 1150 5950 50  0001 C CNN
+F 4 "Würth Elektronik" H 1150 5950 50  0001 C CNN "MFR"
+F 5 "150060VS55040" H 1150 5950 50  0001 C CNN "MPN"
+F 6 "Digikey" H 1150 5950 50  0001 C CNN "SPR"
+F 7 "732-12017-1-ND" H 1150 5950 50  0001 C CNN "SPN"
+F 8 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060VS55040/8557182" H 1150 5950 50  0001 C CNN "SPURL"
+F 9 "Green 573nm LED Indication - Discrete 2V 0603 (1608 Metric)" H 1150 5950 50  0001 C CNN "DESC"
+	1    1150 5950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1150 6050 1150 6350
+Text Label 1650 6350 0    50   ~ 0
+STAT
+$Comp
+L Device:R R302
+U 1 1 61F68C7B
+P 1150 5700
+F 0 "R302" H 1080 5654 50  0000 R CNN
+F 1 "470" H 1080 5745 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1080 5700 50  0001 C CNN
+F 3 "~" H 1150 5700 50  0001 C CNN
+	1    1150 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VS #PWR0142
+U 1 1 61F696C8
+P 1150 5550
+F 0 "#PWR0142" H 950 5400 50  0001 C CNN
+F 1 "VS" H 1165 5723 50  0000 C CNN
+F 2 "" H 1150 5550 50  0001 C CNN
+F 3 "" H 1150 5550 50  0001 C CNN
+	1    1150 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Aaron:MAX77975EFD U?
+U 1 1 61FB2D2A
+P 2950 5700
+F 0 "U?" H 2950 6867 50  0000 C CNN
+F 1 "MAX77975EFD" H 2950 6776 50  0000 C CNN
+F 2 "Aaron:MAX77975EFD" H 2950 5700 50  0001 L BNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX77975-MAX77976.pdf" H 2950 5700 50  0001 L BNN
+F 4 "Maxim Integrated" H 2950 5700 50  0001 L BNN "MANUFACTURER"
+F 5 "Rev 1" H 2950 5700 50  0001 L BNN "PARTREV"
+F 6 "Manufacturer recommendations" H 2950 5700 50  0001 L BNN "STANDARD"
+F 7 "0.6mm" H 2950 5700 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+	1    2950 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61FB3BA1
+P 4000 5500
+F 0 "L?" V 4190 5500 50  0000 C CNN
+F 1 "1uH" V 4099 5500 50  0000 C CNN
+F 2 "" H 4000 5500 50  0001 C CNN
+F 3 "~" H 4000 5500 50  0001 C CNN
+	1    4000 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 61FB579E
+P 2950 4300
+F 0 "D?" H 2950 4083 50  0000 C CNN
+F 1 "PMEG3050EP,115" H 2950 4174 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-128" H 2950 4300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG3050EP.pdf" H 2950 4300 50  0001 C CNN
+F 4 "Nexperia USA Inc." H 2950 4300 50  0001 C CNN "MFR"
+F 5 "PMEG3050EP,115" H 2950 4300 50  0001 C CNN "MPN"
+F 6 "digikey" H 2950 4300 50  0001 C CNN "SPR"
+F 7 "1727-5317-1-ND" H 2950 4300 50  0001 C CNN "SPN"
+F 8 "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PMEG3050EP-115/2228695" H 2950 4300 50  0001 C CNN "SPURL"
+F 9 "Diode Schottky 30 V 5A Surface Mount SOD-128/CFP5" H 2950 4300 50  0001 C CNN "DESC"
+	1    2950 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 4300 2250 4300
+$Comp
+L Device:C C?
+U 1 1 61FB634F
+P 4250 4450
+F 0 "C?" H 4365 4496 50  0000 L CNN
+F 1 "10uF 35V" H 4365 4405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4288 4300 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 4250 4450 50  0001 C CNN
+F 4 "Murata Electronics" H 4250 4450 50  0001 C CNN "MFR"
+F 5 "GRM188R6YA106MA73D" H 4250 4450 50  0001 C CNN "MPN"
+F 6 "Digikey" H 4250 4450 50  0001 C CNN "SPR"
+F 7 "490-13248-1-ND" H 4250 4450 50  0001 C CNN "SPN"
+F 8 "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R6YA106MA73D/5877411" H 4250 4450 50  0001 C CNN "SPURL"
+F 9 "10 µF ±20% 35V Ceramic Capacitor X5R 0603 (1608 Metric)" H 4250 4450 50  0001 C CNN "DESC"
+	1    4250 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61FB6621
+P 4800 4450
+F 0 "C?" H 4915 4496 50  0000 L CNN
+F 1 "10uF 35V" H 4915 4405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4838 4300 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 4800 4450 50  0001 C CNN
+F 4 "Murata Electronics" H 4800 4450 50  0001 C CNN "MFR"
+F 5 "GRM188R6YA106MA73D" H 4800 4450 50  0001 C CNN "MPN"
+F 6 "Digikey" H 4800 4450 50  0001 C CNN "SPR"
+F 7 "490-13248-1-ND" H 4800 4450 50  0001 C CNN "SPN"
+F 8 "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R6YA106MA73D/5877411" H 4800 4450 50  0001 C CNN "SPURL"
+F 9 "10 µF ±20% 35V Ceramic Capacitor X5R 0603 (1608 Metric)" H 4800 4450 50  0001 C CNN "DESC"
+	1    4800 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 4600 4800 4600
+Wire Wire Line
+	3850 5500 3800 5500
+Text Label 3650 5500 0    50   ~ 0
+LX
+Wire Wire Line
+	3650 5700 4150 5700
+Wire Wire Line
+	4150 5700 4150 5500
+Text Label 3750 5700 0    50   ~ 0
+SYS
+Wire Wire Line
+	3100 4300 3650 4300
+Wire Wire Line
+	3650 4300 3650 4900
+Wire Wire Line
+	2250 4900 2250 4300
+Connection ~ 2250 4300
+Wire Wire Line
+	3650 4300 4250 4300
+Connection ~ 3650 4300
+Connection ~ 4250 4300
+Wire Wire Line
+	4250 4300 4800 4300
+Connection ~ 4800 4600
+$Comp
+L Device:C C?
+U 1 1 61FBEFF5
+P 3800 5350
+F 0 "C?" H 3850 5450 50  0000 L CNN
+F 1 "0.1uF" H 3500 5450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3838 5200 50  0001 C CNN
+F 3 "" H 3800 5350 50  0001 C CNN
+F 4 "Digikey" H 3800 5350 50  0001 C CNN "SPR"
+	1    3800 5350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 5500
+Wire Wire Line
+	3800 5500 3650 5500
+Wire Wire Line
+	3800 5200 3650 5200
+Text Label 3650 5200 0    50   ~ 0
+BST
+$Comp
+L Device:C C?
+U 1 1 61FC13C0
+P 4600 5650
+F 0 "C?" H 4650 5750 50  0000 L CNN
+F 1 "22uF" H 4400 5750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4638 5500 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A226MP8NUNC_Spec.pdf" H 4600 5650 50  0001 C CNN
+F 4 "Digikey" H 4600 5650 50  0001 C CNN "SPR"
+F 5 "Samsung Electro-Mechanics" H 4600 5650 50  0001 C CNN "MFR"
+F 6 "CL10A226MP8NUNE" H 4600 5650 50  0001 C CNN "MPN"
+F 7 "1276-1274-1-ND" H 4600 5650 50  0001 C CNN "SPN"
+F 8 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A226MP8NUNE/3886932" H 4600 5650 50  0001 C CNN "SPURL"
+F 9 "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" H 4600 5650 50  0001 C CNN "DESC"
+	1    4600 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61FC196E
+P 5050 5650
+F 0 "C?" H 5100 5750 50  0000 L CNN
+F 1 "22uF" H 4850 5750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5088 5500 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A226MP8NUNC_Spec.pdf" H 5050 5650 50  0001 C CNN
+F 4 "Digikey" H 5050 5650 50  0001 C CNN "SPR"
+F 5 "Samsung Electro-Mechanics" H 5050 5650 50  0001 C CNN "MFR"
+F 6 "CL10A226MP8NUNE" H 5050 5650 50  0001 C CNN "MPN"
+F 7 "1276-1274-1-ND" H 5050 5650 50  0001 C CNN "SPN"
+F 8 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A226MP8NUNE/3886932" H 5050 5650 50  0001 C CNN "SPURL"
+F 9 "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" H 5050 5650 50  0001 C CNN "DESC"
+	1    5050 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 5500 4600 5500
+Connection ~ 4150 5500
+Connection ~ 4600 5500
+Wire Wire Line
+	4600 5500 5050 5500
+$Comp
+L power:GND #PWR?
+U 1 1 61FC26FC
+P 5050 5800
+F 0 "#PWR?" H 5050 5550 50  0001 C CNN
+F 1 "GND" H 5055 5627 50  0000 C CNN
+F 2 "" H 5050 5800 50  0001 C CNN
+F 3 "" H 5050 5800 50  0001 C CNN
+	1    5050 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 5800 4600 5800
+Connection ~ 5050 5800
+$Comp
+L power:VS #PWR?
+U 1 1 61FC362C
+P 5050 5500
+F 0 "#PWR?" H 4850 5350 50  0001 C CNN
+F 1 "VS" H 5065 5673 50  0000 C CNN
+F 2 "" H 5050 5500 50  0001 C CNN
+F 3 "" H 5050 5500 50  0001 C CNN
+	1    5050 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 5050 5500
+Text Label 4350 5500 0    50   ~ 0
+SYS
+$Comp
+L Device:C C?
+U 1 1 61FC3B00
+P 4400 6100
+F 0 "C?" H 4515 6146 50  0000 L CNN
+F 1 "10uF" H 4515 6055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 5950 50  0001 C CNN
+F 3 "" H 4400 6100 50  0001 C CNN
+	1    4400 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 5950 3650 5950
+Text Label 3650 5950 0    50   ~ 0
+BATT_P
+$Comp
+L power:GND #PWR?
+U 1 1 61FC5600
+P 4400 6250
+F 0 "#PWR?" H 4400 6000 50  0001 C CNN
+F 1 "GND" H 4405 6077 50  0000 C CNN
+F 2 "" H 4400 6250 50  0001 C CNN
+F 3 "" H 4400 6250 50  0001 C CNN
+	1    4400 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61FC58DB
+P 4050 5800
+F 0 "#PWR?" H 4050 5550 50  0001 C CNN
+F 1 "GND" H 4150 5800 50  0000 C CNN
+F 2 "" H 4050 5800 50  0001 C CNN
+F 3 "" H 4050 5800 50  0001 C CNN
+	1    4050 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 5800 4050 5600
+Wire Wire Line
+	4050 5600 3650 5600
+$Comp
+L Device:C C?
+U 1 1 61FC737C
+P 1850 5450
+F 0 "C?" H 1900 5550 50  0000 L CNN
+F 1 "1uF" H 1550 5550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 5300 50  0001 C CNN
+F 3 "" H 1850 5450 50  0001 C CNN
+F 4 "Digikey" H 1850 5450 50  0001 C CNN "SPR"
+	1    1850 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61FC880D
+P 1500 5250
+F 0 "C?" H 1550 5350 50  0000 L CNN
+F 1 "1uF" H 1200 5350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1538 5100 50  0001 C CNN
+F 3 "" H 1500 5250 50  0001 C CNN
+F 4 "Digikey" H 1500 5250 50  0001 C CNN "SPR"
+	1    1500 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61FC8E4B
+P 1500 5600
+F 0 "#PWR?" H 1500 5350 50  0001 C CNN
+F 1 "GND" H 1500 5450 50  0000 C CNN
+F 2 "" H 1500 5600 50  0001 C CNN
+F 3 "" H 1500 5600 50  0001 C CNN
+	1    1500 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 5600 1500 5600
+Wire Wire Line
+	1500 5600 1500 5400
+Connection ~ 1500 5600
+Wire Wire Line
+	1850 5300 2250 5300
+Wire Wire Line
+	1500 5100 2250 5100
+Wire Wire Line
+	2250 5500 2250 5600
+Wire Wire Line
+	2250 5600 1850 5600
+Connection ~ 1850 5600
+Wire Wire Line
+	1850 5700 2250 5700
+Text Label 1900 5700 0    50   ~ 0
+VIO
+Text Label 2000 5300 0    50   ~ 0
+VDD
+Text Label 2000 5100 0    50   ~ 0
+PVDD
+Text Label 3800 4300 0    50   ~ 0
+BYP
+$Comp
+L power:GND #PWR?
+U 1 1 61FCBE05
+P 2100 6150
+F 0 "#PWR?" H 2100 5900 50  0001 C CNN
+F 1 "GND" H 2250 6100 50  0000 C CNN
+F 2 "" H 2100 6150 50  0001 C CNN
+F 3 "" H 2100 6150 50  0001 C CNN
+	1    2100 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 6150 2250 6150
+Wire Wire Line
+	1150 6350 2250 6350
+Wire Wire Line
+	1850 6050 2250 6050
+Wire Wire Line
+	2250 5950 1850 5950
+Wire Wire Line
+	1850 5850 2250 5850
+Text Label 1850 5850 0    50   ~ 0
+~INT
+Text Label 1850 5950 0    50   ~ 0
+SCL
+Text Label 1850 6050 0    50   ~ 0
+SDA
+$Comp
+L Aaron:BQ24298RTWR U?
+U 1 1 6200D43B
+P 7600 3100
+F 0 "U?" H 7600 4686 60  0000 C CNN
+F 1 "BQ24298RTWR" H 7600 4580 60  0000 C CNN
+F 2 "Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 7600 3040 60  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/bq24298.pdf" H 7600 3100 60  0001 C CNN
+	1    7600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 6200E7AA
+P 9050 2200
+F 0 "L?" V 9150 2200 50  0000 C CNN
+F 1 "1uH" V 9000 2200 50  0000 C CNN
+F 2 "" H 9050 2200 50  0001 C CNN
+F 3 "~" H 9050 2200 50  0001 C CNN
+	1    9050 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 2300 8300 2200
+Connection ~ 8300 2200
+Text Label 8300 2200 0    50   ~ 0
+SW
+Wire Wire Line
+	8300 2600 8300 2500
+Wire Wire Line
+	9200 2500 9200 2200
+$Comp
+L Device:C C?
+U 1 1 62011165
+P 9500 2350
+F 0 "C?" H 9615 2396 50  0000 L CNN
+F 1 "10uF" H 9615 2305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9538 2200 50  0001 C CNN
+F 3 "" H 9500 2350 50  0001 C CNN
+	1    9500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62012757
+P 9950 2350
+F 0 "C?" H 10065 2396 50  0000 L CNN
+F 1 "10uF" H 10065 2305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9988 2200 50  0001 C CNN
+F 3 "" H 9950 2350 50  0001 C CNN
+	1    9950 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 2200 9500 2200
+Connection ~ 9200 2200
+Connection ~ 9500 2200
+Wire Wire Line
+	9500 2200 9200 2200
+$Comp
+L power:GND #PWR?
+U 1 1 620135E7
+P 9950 2500
+F 0 "#PWR?" H 9950 2250 50  0001 C CNN
+F 1 "GND" H 9955 2327 50  0000 C CNN
+F 2 "" H 9950 2500 50  0001 C CNN
+F 3 "" H 9950 2500 50  0001 C CNN
+	1    9950 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 2500 9500 2500
+Connection ~ 9950 2500
+$Comp
+L Device:C C?
+U 1 1 62014832
+P 8850 3250
+F 0 "C?" H 8965 3296 50  0000 L CNN
+F 1 "10uF" H 8965 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8888 3100 50  0001 C CNN
+F 3 "" H 8850 3250 50  0001 C CNN
+	1    8850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62014F1A
+P 8850 3400
+F 0 "#PWR?" H 8850 3150 50  0001 C CNN
+F 1 "GND" H 8855 3227 50  0000 C CNN
+F 2 "" H 8850 3400 50  0001 C CNN
+F 3 "" H 8850 3400 50  0001 C CNN
+	1    8850 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 3100 8300 3100
+Wire Wire Line
+	8300 3100 8300 3200
+Connection ~ 8300 3100
+$Comp
+L Device:C C?
+U 1 1 620160AE
+P 9100 2750
+F 0 "C?" H 9215 2796 50  0000 L CNN
+F 1 "4.7uF" H 9215 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9138 2600 50  0001 C CNN
+F 3 "" H 9100 2750 50  0001 C CNN
+	1    9100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62018703
+P 9100 2900
+F 0 "#PWR?" H 9100 2650 50  0001 C CNN
+F 1 "GND" H 9105 2727 50  0000 C CNN
+F 2 "" H 9100 2900 50  0001 C CNN
+F 3 "" H 9100 2900 50  0001 C CNN
+	1    9100 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 2800 8450 2800
+Wire Wire Line
+	8450 2800 8450 2600
+Text Label 8450 2600 0    50   ~ 0
+REGN
+$Comp
+L Device:C C?
+U 1 1 62019BED
+P 8650 1900
+F 0 "C?" V 8550 2000 50  0000 L CNN
+F 1 ".047uF" V 8700 1950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8688 1750 50  0001 C CNN
+F 3 "" H 8650 1900 50  0001 C CNN
+	1    8650 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 2600 9100 2600
+Wire Wire Line
+	8300 2200 8900 2200
+Wire Wire Line
+	8300 2500 9200 2500
+Connection ~ 8300 2500
+Wire Wire Line
+	8500 1900 8300 1900
+Text Label 8300 1900 0    50   ~ 0
+BTST
+Wire Wire Line
+	8800 1900 8900 1900
+Wire Wire Line
+	8900 1900 8900 2200
+Connection ~ 8900 2200
+Text Label 9300 2200 0    50   ~ 0
+SYS
+$Comp
+L power:GND #PWR?
+U 1 1 62021FA9
+P 8300 4450
+F 0 "#PWR?" H 8300 4200 50  0001 C CNN
+F 1 "GND" H 8305 4277 50  0000 C CNN
+F 2 "" H 8300 4450 50  0001 C CNN
+F 3 "" H 8300 4450 50  0001 C CNN
+	1    8300 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 4450 8300 4300
+Connection ~ 8300 4200
+Wire Wire Line
+	8300 4200 8300 4100
+Connection ~ 8300 4300
+Wire Wire Line
+	8300 4300 8300 4200
+$Comp
+L Device:Thermistor_PTC TH?
+U 1 1 62023833
+P 9600 3750
+F 0 "TH?" H 9698 3796 50  0000 L CNN
+F 1 "Thermistor_PTC" H 9698 3705 50  0000 L CNN
+F 2 "Aaron:103AT-2" H 9650 3550 50  0001 L CNN
+F 3 "https://atcsemitec.co.uk/wp-content/uploads/2018/02/Semitec-AT-2-Series-NTC-Thermistors.pdf" H 9600 3750 50  0001 C CNN
+F 4 "Semitec" H 9600 3750 50  0001 C CNN "MFR"
+F 5 "103AT-2" H 9600 3750 50  0001 C CNN "MPN"
+F 6 "Mouser" H 9600 3750 50  0001 C CNN "SPR"
+F 7 "954-103AT-2" H 9600 3750 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/Semitec/103AT-2?qs=wgO0AD0o1vvcDzsKguD%252Bew%3D%3D" H 9600 3750 50  0001 C CNN "SPURL"
+F 9 "NTC Thermistors 10kohm 1%" H 9600 3750 50  0001 C CNN "DESC"
+	1    9600 3750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

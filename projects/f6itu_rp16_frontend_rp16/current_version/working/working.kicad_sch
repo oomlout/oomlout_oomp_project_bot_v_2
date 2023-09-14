@@ -1,0 +1,56 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid aa9d756b-1a6b-49f5-9ffa-38b4d0855edb)
+
+  (paper "A4")
+
+  (title_block
+    (title "RF Frontend for Red Pitaya")
+    (date "2 Oct.2019")
+    (rev "1.0")
+    (company "OpenHPSDR/KF7O")
+    (comment 1 "mixed by DJ F6ITU")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 134.62 59.69) (size 60.96 33.02) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005eb94940)
+    (property "Sheetname" "TX" (at 134.62 58.9784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "../../../../tmp/RP16_Frontend/TX.sch" (at 134.62 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "rp16"
+        (path "/aa9d756b-1a6b-49f5-9ffa-38b4d0855edb" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 29.21 55.88) (size 85.09 38.1) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ebd9366)
+    (property "Sheetname" "RX" (at 29.21 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "../../../../tmp/RP16_Frontend/RX.sch" (at 29.21 94.5646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "rp16"
+        (path "/aa9d756b-1a6b-49f5-9ffa-38b4d0855edb" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

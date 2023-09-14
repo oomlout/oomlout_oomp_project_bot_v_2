@@ -13,12 +13,15 @@ def go_through_directories():
             filter = ["sparkfun","adafruit","omerk"]
             filter = ["omerk"]
             filter = [""]
-             
-                        
+
+
+
+
+ 
             #if any of filter is in filename
             if any(x in filename for x in filter):
                 if file.endswith(".kicad_pcb"):
-                    counter = oom_kicad.generate_outputs(filename=filename, computer="surface")
+                    counter = oom_kicad.generate_outputs(filename=filename, overwrite=False, computer="surface")
                     #oom_kicad.generate_outputs(filename=filename, computer="desktop")
                     count  += counter
                     print(f"count: {count}")

@@ -1,0 +1,706 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:PiBot
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:ir
+LIBS:Lattice
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:motor_drivers
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:ttl_ieee
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:zetex
+LIBS:Zilog
+LIBS:MF_Connectors
+LIBS:PiBot-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DMG2302U U?
+U 1 1 586935AF
+P 4000 4700
+AR Path="/586935AF" Ref="U?"  Part="1" 
+AR Path="/5869317C/586935AF" Ref="U3"  Part="1" 
+F 0 "U3" V 3825 4825 60  0000 C CNN
+F 1 "N-FET" V 4190 4700 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4000 4700 60  0001 C CNN
+F 3 "" H 4000 4700 60  0001 C CNN
+F 4 "DMG2302U" V 4000 4700 60  0001 C CNN "Part Number"
+	1    4000 4700
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #PWR039
+U 1 1 586935B0
+P 4750 4750
+F 0 "#PWR039" H 4750 4500 50  0001 C CNN
+F 1 "GND" H 4700 4600 50  0001 C CNN
+F 2 "" H 4750 4750 50  0000 C CNN
+F 3 "" H 4750 4750 50  0000 C CNN
+	1    4750 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Cell BT?
+U 1 1 586935B2
+P 1450 5050
+AR Path="/586935B2" Ref="BT?"  Part="1" 
+AR Path="/5869317C/586935B2" Ref="BT4"  Part="1" 
+F 0 "BT4" H 1550 5100 50  0000 L CNN
+F 1 "Battery" H 1350 4800 50  0001 L CNN
+F 2 "PiBot:AA_Batt" V 1450 5090 50  0001 C CNN
+F 3 "" V 1450 5090 50  0000 C CNN
+F 4 "BK-92" H 1450 5050 60  0001 C CNN "Part Number"
+	1    1450 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C9
+U 1 1 586935B3
+P 3500 4425
+F 0 "C9" H 3525 4525 50  0000 L CNN
+F 1 "0.1uF" H 3525 4325 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 3538 4275 50  0001 C CNN
+F 3 "" H 3500 4425 50  0000 C CNN
+	1    3500 4425
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C10
+U 1 1 586935B4
+P 4750 4425
+F 0 "C10" H 4775 4525 50  0000 L CNN
+F 1 "0.1uF" H 4775 4325 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 4788 4275 50  0001 C CNN
+F 3 "" H 4750 4425 50  0000 C CNN
+	1    4750 4425
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Zener_Small D8
+U 1 1 586935B5
+P 2500 4325
+F 0 "D8" V 2500 4425 50  0000 C CNN
+F 1 "5.1V" H 2500 4250 50  0000 C CNN
+F 2 "Diodes_SMD:SMA_Standard" H 2500 4325 50  0001 C CNN
+F 3 "" H 2500 4325 50  0000 C CNN
+F 4 "SMAZ5V1-13-F" V 2500 4325 60  0001 C CNN "Part Number"
+	1    2500 4325
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Zener_Small D9
+U 1 1 586935B6
+P 2500 4575
+F 0 "D9" V 2500 4475 50  0000 C CNN
+F 1 "5.1V" H 2500 4650 50  0000 C CNN
+F 2 "Diodes_SMD:SMA_Standard" H 2500 4575 50  0001 C CNN
+F 3 "" H 2500 4575 50  0000 C CNN
+F 4 "SMAZ5V1-13-F" V 2500 4575 60  0001 C CNN "Part Number"
+	1    2500 4575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L L L1
+U 1 1 586935B7
+P 6500 3350
+F 0 "L1" H 6350 3450 50  0000 C CNN
+F 1 "1 uH" V 6600 3350 50  0000 C CNN
+F 2 "Inductors_NEOSID:Neosid_Inductor_SM-NE29_SMD1008" H 6500 3350 50  0001 C CNN
+F 3 "" H 6500 3350 50  0000 C CNN
+F 4 "SRN2512-1R0M" H 6500 3350 60  0001 C CNN "Part Number"
+	1    6500 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C11
+U 1 1 586935B9
+P 5100 3850
+F 0 "C11" H 5125 3950 50  0000 L CNN
+F 1 "10uF" V 4950 3750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 5138 3700 50  0001 C CNN
+F 3 "" H 5100 3850 50  0000 C CNN
+	1    5100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C12
+U 1 1 586935BA
+P 5350 3850
+F 0 "C12" H 5375 3950 50  0000 L CNN
+F 1 "10uF" H 5375 3750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 5388 3700 50  0001 C CNN
+F 3 "" H 5350 3850 50  0000 C CNN
+	1    5350 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR040
+U 1 1 586935BB
+P 5650 4150
+F 0 "#PWR040" H 5650 3900 50  0001 C CNN
+F 1 "GND" H 5650 4000 50  0001 C CNN
+F 2 "" H 5650 4150 50  0000 C CNN
+F 3 "" H 5650 4150 50  0000 C CNN
+	1    5650 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C13
+U 1 1 586935BC
+P 7200 4150
+F 0 "C13" H 7225 4250 50  0000 L CNN
+F 1 "0.1uF" V 7050 4000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7238 4000 50  0001 C CNN
+F 3 "" H 7200 4150 50  0000 C CNN
+	1    7200 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR041
+U 1 1 586935BD
+P 7200 4350
+F 0 "#PWR041" H 7200 4100 50  0001 C CNN
+F 1 "GND" H 7200 4200 50  0001 C CNN
+F 2 "" H 7200 4350 50  0000 C CNN
+F 3 "" H 7200 4350 50  0000 C CNN
+	1    7200 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R13
+U 1 1 586935BF
+P 5750 3350
+F 0 "R13" H 5780 3370 50  0000 L CNN
+F 1 "1M" V 5750 3300 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 5750 3350 50  0001 C CNN
+F 3 "" H 5750 3350 50  0000 C CNN
+	1    5750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R14
+U 1 1 586935C0
+P 7750 3850
+F 0 "R14" H 7780 3870 50  0000 L CNN
+F 1 "1M" V 7750 3800 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 7750 3850 50  0001 C CNN
+F 3 "" H 7750 3850 50  0000 C CNN
+	1    7750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R15
+U 1 1 586935C1
+P 7750 4100
+F 0 "R15" H 7780 4120 50  0000 L CNN
+F 1 "111k" V 7750 4000 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 7750 4100 50  0001 C CNN
+F 3 "" H 7750 4100 50  0000 C CNN
+	1    7750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C14
+U 1 1 586935C2
+P 7550 4100
+F 0 "C14" H 7575 4200 50  0000 L CNN
+F 1 "10pf" V 7500 4150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7588 3950 50  0001 C CNN
+F 3 "" H 7550 4100 50  0000 C CNN
+	1    7550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C15
+U 1 1 586935C3
+P 8200 3950
+F 0 "C15" H 8225 4050 50  0000 L CNN
+F 1 "22uf" H 8225 3850 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 8238 3800 50  0001 C CNN
+F 3 "" H 8200 3950 50  0000 C CNN
+	1    8200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C16
+U 1 1 586935C4
+P 8450 3950
+F 0 "C16" H 8475 4050 50  0000 L CNN
+F 1 "22uf" H 8475 3850 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 8488 3800 50  0001 C CNN
+F 3 "" H 8450 3950 50  0000 C CNN
+	1    8450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C17
+U 1 1 586935C5
+P 8700 3950
+F 0 "C17" H 8725 4050 50  0000 L CNN
+F 1 "22uf" H 8725 3850 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 8738 3800 50  0001 C CNN
+F 3 "" H 8700 3950 50  0000 C CNN
+	1    8700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPS63060 U4
+U 1 1 586935C6
+P 6300 3700
+F 0 "U4" H 6510 3950 60  0000 C CNN
+F 1 "TPS63060" V 6580 3550 60  0000 C CNB
+F 2 "PiBot:DFN-10-w_pad" H 6300 3700 60  0001 C CNN
+F 3 "" H 6300 3700 60  0001 C CNN
+	1    6300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_SPST SW1
+U 1 1 586935C7
+P 2975 4300
+F 0 "SW1" H 2975 4250 50  0000 C CNN
+F 1 "SPST" H 2975 4200 50  0001 C CNN
+F 2 "PiBot:JS202011SCQN" H 2975 4300 50  0001 C CNN
+F 3 "" H 2975 4300 50  0000 C CNN
+F 4 "JS202011SCQN" H 2975 4300 60  0001 C CNN "Part Number"
+	1    2975 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR042
+U 1 1 586935C8
+P 5125 4750
+F 0 "#PWR042" H 5125 4550 50  0001 C CNN
+F 1 "GNDPWR" H 5175 4600 50  0000 C CNN
+F 2 "" H 5125 4700 50  0000 C CNN
+F 3 "" H 5125 4700 50  0000 C CNN
+	1    5125 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Zener_Small D10
+U 1 1 586935C9
+P 4450 4425
+F 0 "D10" V 4450 4300 50  0000 C CNN
+F 1 "7.5V" H 4450 4525 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-323" H 4450 4425 50  0001 C CNN
+F 3 "" H 4450 4425 50  0000 C CNN
+F 4 "DZ2J075M0L" V 4450 4425 60  0001 C CNN "Part Number"
+	1    4450 4425
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R11
+U 1 1 586935CB
+P 4050 3950
+F 0 "R11" V 3950 3900 50  0000 L CNN
+F 1 "0" V 4050 3925 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 4050 3950 50  0001 C CNN
+F 3 "" H 4050 3950 50  0000 C CNN
+	1    4050 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R16
+U 1 1 586935CC
+P 7950 2950
+F 0 "R16" V 7850 2900 50  0000 L CNN
+F 1 "0" V 7950 2925 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 7950 2950 50  0001 C CNN
+F 3 "" H 7950 2950 50  0000 C CNN
+	1    7950 2950
+	-1   0    0    1   
+$EndComp
+Text Notes 7350 7500 0    60   ~ 12
+PycoBot (Teensy uPython Robot)
+Text Notes 7050 7050 0    60   ~ 12
+By:\nBroderick Carlin\nTyler Holmes
+Text Notes 7950 7050 0    60   ~ 12
+MIT License\n
+Text Label 7250 3700 0    39   ~ 0
+PSU_VOUT
+Text Label 7150 3800 0    39   ~ 0
+PSU_FB
+Text Label 5950 3350 0    39   ~ 0
+PSU_IND
+Text Label 2100 4700 0    30   ~ 0
+BATT_GND_TERM
+Text Label 2100 4175 2    30   ~ 0
+BATT_V+_TERM
+Text Label 5125 4700 0    30   ~ 0
+-BATT_ISOLATED
+$Comp
+L R_Small R12
+U 1 1 586935CE
+P 5250 3450
+F 0 "R12" V 5150 3400 50  0000 L CNN
+F 1 "0" V 5250 3425 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 5250 3450 50  0001 C CNN
+F 3 "" H 5250 3450 50  0000 C CNN
+	1    5250 3450
+	0    -1   -1   0   
+$EndComp
+Text HLabel 8050 2800 2    60   Output ~ 0
+5v_out
+Text HLabel 5000 3450 0    60   Output ~ 0
+PG
+Text HLabel 4200 3800 2    60   Output ~ 0
+vbatt_out
+$Comp
+L Jumper_NO_Small JP4
+U 1 1 586DB13F
+P 4000 5000
+F 0 "JP4" H 4000 4925 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4010 4940 50  0001 C CNN
+F 2 "PiBot:Jumper-NO" H 4000 5000 50  0001 C CNN
+F 3 "" H 4000 5000 50  0000 C CNN
+	1    4000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Cell BT3
+U 1 1 586E837E
+P 1450 4700
+F 0 "BT3" H 1550 4750 50  0000 L CNN
+F 1 "Battery" H 1300 4950 50  0001 L CNN
+F 2 "PiBot:AA_Batt" V 1450 4740 50  0001 C CNN
+F 3 "" V 1450 4740 50  0000 C CNN
+F 4 "BK-92" H 1450 4700 60  0001 C CNN "Part Number"
+	1    1450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Cell BT2
+U 1 1 586E892D
+P 1450 4350
+F 0 "BT2" H 1550 4400 50  0000 L CNN
+F 1 "Battery" H 1450 4250 50  0001 L CNN
+F 2 "PiBot:AA_Batt" V 1450 4390 50  0001 C CNN
+F 3 "" V 1450 4390 50  0000 C CNN
+F 4 "BK-92" H 1450 4350 60  0001 C CNN "Part Number"
+	1    1450 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Cell BT1
+U 1 1 586E8EA5
+P 1450 4000
+F 0 "BT1" H 1550 4050 50  0000 L CNN
+F 1 "Battery" H 1450 3900 50  0001 L CNN
+F 2 "PiBot:AA_Batt" V 1450 4040 50  0001 C CNN
+F 3 "" V 1450 4040 50  0000 C CNN
+F 4 "BK-92" H 1450 4000 60  0001 C CNN "Part Number"
+	1    1450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NC_Small JP17
+U 1 1 58761413
+P 4925 4700
+F 0 "JP17" H 4925 4780 50  0001 C CNN
+F 1 "Jumper_NC_Small" H 4935 4640 50  0001 C CNN
+F 2 "Oddities:NetTie-I_Connected_SMD" H 4925 4700 50  0001 C CNN
+F 3 "" H 4925 4700 50  0000 C CNN
+	1    4925 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L DMG2302U U17
+U 1 1 58778179
+P 3000 4700
+F 0 "U17" V 2825 4825 60  0000 C CNN
+F 1 "N-FET" V 3190 4700 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3000 4700 60  0001 C CNN
+F 3 "" H 3000 4700 60  0001 C CNN
+F 4 "DMG2302U" V 3000 4700 60  0001 C CNN "Part Number"
+	1    3000 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R32
+U 1 1 58778FDC
+P 2725 4575
+F 0 "R32" H 2755 4595 50  0000 L CNN
+F 1 "10k" V 2725 4525 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 2725 4575 50  0001 C CNN
+F 3 "" H 2725 4575 50  0000 C CNN
+	1    2725 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP18
+U 1 1 5877CD55
+P 3000 5000
+F 0 "JP18" H 3000 4925 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3010 4940 50  0001 C CNN
+F 2 "PiBot:Jumper-NO" H 3000 5000 50  0001 C CNN
+F 3 "" H 3000 5000 50  0000 C CNN
+	1    3000 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2850 7950 2850
+Connection ~ 7950 3150
+Wire Wire Line
+	5750 3150 7950 3150
+Wire Wire Line
+	4050 3700 4050 3850
+Wire Wire Line
+	4450 5000 4100 5000
+Wire Wire Line
+	3100 5000 3900 5000
+Connection ~ 4450 4175
+Wire Wire Line
+	4450 4175 4450 4325
+Connection ~ 4450 4700
+Wire Wire Line
+	4450 4525 4450 5000
+Wire Wire Line
+	4750 4175 4750 4275
+Wire Wire Line
+	5125 4700 5125 4750
+Connection ~ 3500 4175
+Wire Wire Line
+	5750 4000 5900 4000
+Wire Wire Line
+	5750 3450 5750 4000
+Wire Wire Line
+	5750 3150 5750 3250
+Wire Wire Line
+	5650 3900 5900 3900
+Wire Wire Line
+	5650 3900 5650 4150
+Wire Wire Line
+	5100 4100 5900 4100
+Connection ~ 7750 3700
+Wire Wire Line
+	7750 3750 7750 3700
+Connection ~ 8450 3700
+Wire Wire Line
+	8700 3700 8700 3800
+Connection ~ 8200 3700
+Wire Wire Line
+	8450 3700 8450 3800
+Connection ~ 7950 3700
+Wire Wire Line
+	8200 3700 8200 3800
+Connection ~ 8450 4300
+Wire Wire Line
+	8700 4300 8700 4100
+Connection ~ 8200 4300
+Wire Wire Line
+	8450 4300 8450 4100
+Wire Wire Line
+	8200 4300 8200 4100
+Connection ~ 7550 4300
+Wire Wire Line
+	7550 4300 7550 4250
+Wire Wire Line
+	7550 3800 7100 3800
+Wire Wire Line
+	7550 3950 7550 3800
+Connection ~ 7750 3950
+Wire Wire Line
+	7750 3950 7750 4000
+Wire Wire Line
+	7550 3950 7750 3950
+Connection ~ 7750 4300
+Connection ~ 7400 4300
+Wire Wire Line
+	7750 4300 7750 4200
+Wire Wire Line
+	7100 3700 8700 3700
+Wire Wire Line
+	7950 3050 7950 3700
+Wire Wire Line
+	7200 4300 8700 4300
+Wire Wire Line
+	7400 3900 7400 4300
+Wire Wire Line
+	7100 3900 7400 3900
+Wire Wire Line
+	7100 4000 7200 4000
+Wire Wire Line
+	7200 4300 7200 4350
+Connection ~ 5350 3700
+Wire Wire Line
+	4050 3700 5900 3700
+Wire Wire Line
+	7100 3350 7100 3600
+Wire Wire Line
+	6650 3350 7100 3350
+Wire Wire Line
+	5900 3350 5900 3600
+Wire Wire Line
+	5900 3350 6350 3350
+Connection ~ 4750 4700
+Wire Wire Line
+	4250 4700 4825 4700
+Wire Wire Line
+	4750 4575 4750 4750
+Wire Wire Line
+	1750 4175 4750 4175
+Wire Wire Line
+	3500 4175 3500 4275
+Connection ~ 3500 4700
+Wire Wire Line
+	3500 4575 3500 5000
+Wire Wire Line
+	1750 4700 2750 4700
+Wire Wire Line
+	3250 4700 3750 4700
+Connection ~ 4050 4175
+Wire Wire Line
+	4050 4050 4050 4450
+Wire Wire Line
+	5100 4100 5100 4000
+Connection ~ 5650 4100
+Wire Wire Line
+	5350 4000 5350 4100
+Connection ~ 5350 4100
+Wire Wire Line
+	5900 3800 5850 3800
+Wire Wire Line
+	5850 3800 5850 3700
+Connection ~ 5850 3700
+Wire Wire Line
+	5150 3450 5000 3450
+Wire Wire Line
+	7950 2850 7950 2800
+Wire Wire Line
+	7950 2800 8050 2800
+Wire Wire Line
+	4050 3800 4200 3800
+Connection ~ 4050 3800
+Connection ~ 5100 3700
+Wire Wire Line
+	5350 3450 5750 3450
+Wire Wire Line
+	1750 5150 1750 4700
+Wire Wire Line
+	1750 4175 1750 3800
+Wire Wire Line
+	1750 3800 1450 3800
+Wire Wire Line
+	1750 5150 1450 5150
+Wire Wire Line
+	1450 4800 1450 4850
+Wire Wire Line
+	1450 4500 1450 4450
+Wire Wire Line
+	1450 4150 1450 4100
+Wire Wire Line
+	5025 4700 5125 4700
+Wire Wire Line
+	2725 4675 2725 5000
+Connection ~ 2725 4700
+Wire Wire Line
+	2725 4475 2725 4450
+Wire Wire Line
+	2725 4450 2950 4450
+Wire Wire Line
+	2775 4300 2775 4450
+Connection ~ 2775 4450
+Wire Wire Line
+	3175 4300 3175 4175
+Connection ~ 3175 4175
+Connection ~ 3500 5000
+Wire Wire Line
+	2725 5000 2900 5000
+Wire Wire Line
+	2500 4225 2500 4175
+Connection ~ 2500 4175
+Wire Wire Line
+	2500 4675 2500 4700
+Connection ~ 2500 4700
+Wire Wire Line
+	2500 4475 2500 4425
+$EndSCHEMATC

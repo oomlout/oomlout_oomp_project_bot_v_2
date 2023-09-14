@@ -1,0 +1,1684 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keyboard_parts:KEYSW K_NUM_LOCK_0
+U 1 1 5FF5BFD5
+P 2000 2000
+F 0 "K_NUM_LOCK_0" H 2000 2233 60  0000 C CNN
+F 1 "KEYSW" H 2000 1900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 2000 2000 60  0001 C CNN
+F 3 "" H 2000 2000 60  0000 C CNN
+	1    2000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_NUM_LOCK_0
+U 2 1 5FF5BFCB
+P 2000 8250
+F 0 "K_NUM_LOCK_0" H 2000 8381 60  0000 C CNN
+F 1 "KEYSW" H 2000 8100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 2000 8250 60  0001 C CNN
+F 3 "" H 2000 8250 60  0000 C CNN
+	2    2000 8250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D_NUM_LOCK_0
+U 1 1 CA2E6DD0
+P 1650 2250
+F 0 "D_NUM_LOCK_0" V 1696 2171 50  0000 R CNN
+F 1 "D" V 1595 2171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 1650 2250 50  0001 C CNN
+F 3 "~" H 1650 2250 50  0001 C CNN
+	1    1650 2250
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1400 2400 0    50   Input ~ 0
+row0
+Wire Wire Line
+	1400 2400 1650 2400
+Text GLabel 2300 1650 0    50   Input ~ 0
+col0
+Wire Wire Line
+	2300 1650 2300 2000
+Wire Wire Line
+	1700 2000 1650 2000
+Wire Wire Line
+	1650 2000 1650 2100
+Connection ~ 2300 2000
+Connection ~ 1650 2400
+$Comp
+L keyboard_parts:KEYSW K_SLASH_0
+U 1 1 CA2EE836
+P 3000 2000
+F 0 "K_SLASH_0" H 3000 2233 60  0000 C CNN
+F 1 "KEYSW" H 3000 1900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3000 2000 60  0001 C CNN
+F 3 "" H 3000 2000 60  0000 C CNN
+	1    3000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_SLASH_0
+U 2 1 5FF5BFC8
+P 3000 8250
+F 0 "K_SLASH_0" H 3000 8381 60  0000 C CNN
+F 1 "KEYSW" H 3000 8100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3000 8250 60  0001 C CNN
+F 3 "" H 3000 8250 60  0000 C CNN
+	2    3000 8250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D_SLASH_0
+U 1 1 5FF5BFDB
+P 2650 2250
+F 0 "D_SLASH_0" V 2696 2171 50  0000 R CNN
+F 1 "D" V 2595 2171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 2650 2250 50  0001 C CNN
+F 3 "~" H 2650 2250 50  0001 C CNN
+	1    2650 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 2400 2650 2400
+Text GLabel 3300 1650 0    50   Input ~ 0
+col1
+Wire Wire Line
+	3300 1650 3300 2000
+Wire Wire Line
+	2700 2000 2650 2000
+Wire Wire Line
+	2650 2000 2650 2100
+Connection ~ 3300 2000
+Connection ~ 2650 2400
+$Comp
+L keyboard_parts:KEYSW K_*_0
+U 1 1 CA2E2A45
+P 4000 2000
+F 0 "K_*_0" H 4000 2233 60  0000 C CNN
+F 1 "KEYSW" H 4000 1900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 4000 2000 60  0001 C CNN
+F 3 "" H 4000 2000 60  0000 C CNN
+	1    4000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_*_0
+U 2 1 5FF5BFC5
+P 4000 8250
+F 0 "K_*_0" H 4000 8381 60  0000 C CNN
+F 1 "KEYSW" H 4000 8100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 4000 8250 60  0001 C CNN
+F 3 "" H 4000 8250 60  0000 C CNN
+	2    4000 8250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D_*_0
+U 1 1 5FF5BFCE
+P 3650 2250
+F 0 "D_*_0" V 3696 2171 50  0000 R CNN
+F 1 "D" V 3595 2171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 3650 2250 50  0001 C CNN
+F 3 "~" H 3650 2250 50  0001 C CNN
+	1    3650 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2650 2400 3650 2400
+Text GLabel 4300 1650 0    50   Input ~ 0
+col2
+Wire Wire Line
+	4300 1650 4300 2000
+Wire Wire Line
+	3700 2000 3650 2000
+Wire Wire Line
+	3650 2000 3650 2100
+Connection ~ 4300 2000
+Connection ~ 3650 2400
+$Comp
+L keyboard_parts:KEYSW K_MINUS_0
+U 1 1 CA2E3E80
+P 5000 2000
+F 0 "K_MINUS_0" H 5000 2233 60  0000 C CNN
+F 1 "KEYSW" H 5000 1900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 5000 2000 60  0001 C CNN
+F 3 "" H 5000 2000 60  0000 C CNN
+	1    5000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_MINUS_0
+U 2 1 5FF5BFC3
+P 5000 8250
+F 0 "K_MINUS_0" H 5000 8381 60  0000 C CNN
+F 1 "KEYSW" H 5000 8100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 5000 8250 60  0001 C CNN
+F 3 "" H 5000 8250 60  0000 C CNN
+	2    5000 8250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D_MINUS_0
+U 1 1 5FF5BFD0
+P 4650 2250
+F 0 "D_MINUS_0" V 4696 2171 50  0000 R CNN
+F 1 "D" V 4595 2171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 4650 2250 50  0001 C CNN
+F 3 "~" H 4650 2250 50  0001 C CNN
+	1    4650 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3650 2400 4650 2400
+Text GLabel 5300 1650 0    50   Input ~ 0
+col3
+Wire Wire Line
+	5300 1650 5300 2000
+Wire Wire Line
+	4700 2000 4650 2000
+Wire Wire Line
+	4650 2000 4650 2100
+Connection ~ 5300 2000
+$Comp
+L keyboard_parts:KEYSW K_HOME_0
+U 1 1 CA2EE9D3
+P 2000 3000
+F 0 "K_HOME_0" H 2000 3233 60  0000 C CNN
+F 1 "KEYSW" H 2000 2900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 2000 3000 60  0001 C CNN
+F 3 "" H 2000 3000 60  0000 C CNN
+	1    2000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_HOME_0
+U 2 1 5FF5BFC0
+P 2000 9250
+F 0 "K_HOME_0" H 2000 9381 60  0000 C CNN
+F 1 "KEYSW" H 2000 9100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 2000 9250 60  0001 C CNN
+F 3 "" H 2000 9250 60  0000 C CNN
+	2    2000 9250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D_HOME_0
+U 1 1 5FF5BFDC
+P 1650 3250
+F 0 "D_HOME_0" V 1696 3171 50  0000 R CNN
+F 1 "D" V 1595 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 1650 3250 50  0001 C CNN
+F 3 "~" H 1650 3250 50  0001 C CNN
+	1    1650 3250
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1400 3400 0    50   Input ~ 0
+row1
+Wire Wire Line
+	1400 3400 1650 3400
+Wire Wire Line
+	2300 2000 2300 3000
+Wire Wire Line
+	1700 3000 1650 3000
+Wire Wire Line
+	1650 3000 1650 3100
+Connection ~ 2300 3000
+Connection ~ 1650 3400
+$Comp
+L keyboard_parts:KEYSW K_UP_0
+U 1 1 CA2EB033
+P 3000 3000
+F 0 "K_UP_0" H 3000 3233 60  0000 C CNN
+F 1 "KEYSW" H 3000 2900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3000 3000 60  0001 C CNN
+F 3 "" H 3000 3000 60  0000 C CNN
+	1    3000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_UP_0
+U 2 1 5FF5BFBD
+P 3000 9250
+F 0 "K_UP_0" H 3000 9381 60  0000 C CNN
+F 1 "KEYSW" H 3000 9100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3000 9250 60  0001 C CNN
+F 3 "" H 3000 9250 60  0000 C CNN
+	2    3000 9250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D_UP_0
+U 1 1 5FF5BFD8
+P 2650 3250
+F 0 "D_UP_0" V 2696 3171 50  0000 R CNN
+F 1 "D" V 2595 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 2650 3250 50  0001 C CNN
+F 3 "~" H 2650 3250 50  0001 C CNN
+	1    2650 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 3400 2650 3400
+Wire Wire Line
+	3300 2000 3300 3000
+Wire Wire Line
+	2700 3000 2650 3000
+Wire Wire Line
+	2650 3000 2650 3100
+Connection ~ 3300 3000
+Connection ~ 2650 3400
+$Comp
+L keyboard_parts:KEYSW K_PGUP_0
+U 1 1 CA2E82CD
+P 4000 3000
+F 0 "K_PGUP_0" H 4000 3233 60  0000 C CNN
+F 1 "KEYSW" H 4000 2900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 4000 3000 60  0001 C CNN
+F 3 "" H 4000 3000 60  0000 C CNN
+	1    4000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_PGUP_0
+U 2 1 5FF5BFC2
+P 4000 9250
+F 0 "K_PGUP_0" H 4000 9381 60  0000 C CNN
+F 1 "KEYSW" H 4000 9100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 4000 9250 60  0001 C CNN
+F 3 "" H 4000 9250 60  0000 C CNN
+	2    4000 9250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D_PGUP_0
+U 1 1 5FF5BFD7
+P 3650 3250
+F 0 "D_PGUP_0" V 3696 3171 50  0000 R CNN
+F 1 "D" V 3595 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 3650 3250 50  0001 C CNN
+F 3 "~" H 3650 3250 50  0001 C CNN
+	1    3650 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2650 3400 3650 3400
+Wire Wire Line
+	4300 2000 4300 3000
+Wire Wire Line
+	3700 3000 3650 3000
+Wire Wire Line
+	3650 3000 3650 3100
+Connection ~ 4300 3000
+Connection ~ 3650 3400
+$Comp
+L keyboard_parts:KEYSW K_+_0
+U 1 1 5FF5BFCC
+P 5000 3000
+F 0 "K_+_0" H 5000 3233 60  0000 C CNN
+F 1 "KEYSW" H 5000 2900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U" H 5000 3000 60  0001 C CNN
+F 3 "" H 5000 3000 60  0000 C CNN
+	1    5000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_+_0
+U 2 1 5FF5BFBC
+P 5000 9250
+F 0 "K_+_0" H 5000 9381 60  0000 C CNN
+F 1 "KEYSW" H 5000 9100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U" H 5000 9250 60  0001 C CNN
+F 3 "" H 5000 9250 60  0000 C CNN
+	2    5000 9250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D_+_0
+U 1 1 CA2E1DC1
+P 4650 3250
+F 0 "D_+_0" V 4696 3171 50  0000 R CNN
+F 1 "D" V 4595 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 4650 3250 50  0001 C CNN
+F 3 "~" H 4650 3250 50  0001 C CNN
+	1    4650 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3650 3400 4650 3400
+Wire Wire Line
+	5300 2000 5300 3000
+Wire Wire Line
+	4700 3000 4650 3000
+Wire Wire Line
+	4650 3000 4650 3100
+$Comp
+L keyboard_parts:KEYSW K_LEFT_0
+U 1 1 CA2E6ECB
+P 2000 4000
+F 0 "K_LEFT_0" H 2000 4233 60  0000 C CNN
+F 1 "KEYSW" H 2000 3900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 2000 4000 60  0001 C CNN
+F 3 "" H 2000 4000 60  0000 C CNN
+	1    2000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_LEFT_0
+U 2 1 5FF5BFC6
+P 2000 10250
+F 0 "K_LEFT_0" H 2000 10381 60  0000 C CNN
+F 1 "KEYSW" H 2000 10100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 2000 10250 60  0001 C CNN
+F 3 "" H 2000 10250 60  0000 C CNN
+	2    2000 10250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D_LEFT_0
+U 1 1 5FF5BFD6
+P 1650 4250
+F 0 "D_LEFT_0" V 1696 4171 50  0000 R CNN
+F 1 "D" V 1595 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 1650 4250 50  0001 C CNN
+F 3 "~" H 1650 4250 50  0001 C CNN
+	1    1650 4250
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1400 4400 0    50   Input ~ 0
+row2
+Wire Wire Line
+	1400 4400 1650 4400
+Wire Wire Line
+	2300 3000 2300 4000
+Wire Wire Line
+	1700 4000 1650 4000
+Wire Wire Line
+	1650 4000 1650 4100
+Connection ~ 2300 4000
+Connection ~ 1650 4400
+$Comp
+L keyboard_parts:KEYSW K_5_0
+U 1 1 CA2E2482
+P 3000 4000
+F 0 "K_5_0" H 3000 4233 60  0000 C CNN
+F 1 "KEYSW" H 3000 3900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3000 4000 60  0001 C CNN
+F 3 "" H 3000 4000 60  0000 C CNN
+	1    3000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_5_0
+U 2 1 5E751ADB
+P 3000 10250
+F 0 "K_5_0" H 3000 10381 60  0000 C CNN
+F 1 "KEYSW" H 3000 10100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3000 10250 60  0001 C CNN
+F 3 "" H 3000 10250 60  0000 C CNN
+	2    3000 10250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D_5_0
+U 1 1 5FF5BFCD
+P 2650 4250
+F 0 "D_5_0" V 2696 4171 50  0000 R CNN
+F 1 "D" V 2595 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 2650 4250 50  0001 C CNN
+F 3 "~" H 2650 4250 50  0001 C CNN
+	1    2650 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 4400 2650 4400
+Wire Wire Line
+	3300 3000 3300 4000
+Wire Wire Line
+	2700 4000 2650 4000
+Wire Wire Line
+	2650 4000 2650 4100
+Connection ~ 3300 4000
+Connection ~ 2650 4400
+$Comp
+L keyboard_parts:KEYSW K_RIGHT_0
+U 1 1 CA2E35BD
+P 4000 4000
+F 0 "K_RIGHT_0" H 4000 4233 60  0000 C CNN
+F 1 "KEYSW" H 4000 3900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 4000 4000 60  0001 C CNN
+F 3 "" H 4000 4000 60  0000 C CNN
+	1    4000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_RIGHT_0
+U 2 1 5FF5BFBF
+P 4000 10250
+F 0 "K_RIGHT_0" H 4000 10381 60  0000 C CNN
+F 1 "KEYSW" H 4000 10100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 4000 10250 60  0001 C CNN
+F 3 "" H 4000 10250 60  0000 C CNN
+	2    4000 10250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D_RIGHT_0
+U 1 1 5FF5BFCF
+P 3650 4250
+F 0 "D_RIGHT_0" V 3696 4171 50  0000 R CNN
+F 1 "D" V 3595 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 3650 4250 50  0001 C CNN
+F 3 "~" H 3650 4250 50  0001 C CNN
+	1    3650 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2650 4400 3650 4400
+Wire Wire Line
+	4300 3000 4300 4000
+Wire Wire Line
+	3700 4000 3650 4000
+Wire Wire Line
+	3650 4000 3650 4100
+Connection ~ 4300 4000
+$Comp
+L keyboard_parts:KEYSW K_END_0
+U 1 1 CA2EB914
+P 2000 5000
+F 0 "K_END_0" H 2000 5233 60  0000 C CNN
+F 1 "KEYSW" H 2000 4900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 2000 5000 60  0001 C CNN
+F 3 "" H 2000 5000 60  0000 C CNN
+	1    2000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_END_0
+U 2 1 5FF5BFC9
+P 2000 11250
+F 0 "K_END_0" H 2000 11381 60  0000 C CNN
+F 1 "KEYSW" H 2000 11100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 2000 11250 60  0001 C CNN
+F 3 "" H 2000 11250 60  0000 C CNN
+	2    2000 11250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D_END_0
+U 1 1 5FF5BFD9
+P 1650 5250
+F 0 "D_END_0" V 1696 5171 50  0000 R CNN
+F 1 "D" V 1595 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 1650 5250 50  0001 C CNN
+F 3 "~" H 1650 5250 50  0001 C CNN
+	1    1650 5250
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1400 5400 0    50   Input ~ 0
+row3
+Wire Wire Line
+	1400 5400 1650 5400
+Wire Wire Line
+	2300 4000 2300 5000
+Wire Wire Line
+	1700 5000 1650 5000
+Wire Wire Line
+	1650 5000 1650 5100
+Connection ~ 2300 5000
+Connection ~ 1650 5400
+$Comp
+L keyboard_parts:KEYSW K_DOWN_0
+U 1 1 CA2E48F0
+P 3000 5000
+F 0 "K_DOWN_0" H 3000 5233 60  0000 C CNN
+F 1 "KEYSW" H 3000 4900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3000 5000 60  0001 C CNN
+F 3 "" H 3000 5000 60  0000 C CNN
+	1    3000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_DOWN_0
+U 2 1 5FF5BFC1
+P 3000 11250
+F 0 "K_DOWN_0" H 3000 11381 60  0000 C CNN
+F 1 "KEYSW" H 3000 11100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3000 11250 60  0001 C CNN
+F 3 "" H 3000 11250 60  0000 C CNN
+	2    3000 11250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D_DOWN_0
+U 1 1 5FF5BFD2
+P 2650 5250
+F 0 "D_DOWN_0" V 2696 5171 50  0000 R CNN
+F 1 "D" V 2595 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 2650 5250 50  0001 C CNN
+F 3 "~" H 2650 5250 50  0001 C CNN
+	1    2650 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 5400 2650 5400
+Wire Wire Line
+	3300 4000 3300 5000
+Wire Wire Line
+	2700 5000 2650 5000
+Wire Wire Line
+	2650 5000 2650 5100
+Connection ~ 2650 5400
+$Comp
+L keyboard_parts:KEYSW K_PGDN_0
+U 1 1 5FF5BFD4
+P 4000 5000
+F 0 "K_PGDN_0" H 4000 5233 60  0000 C CNN
+F 1 "KEYSW" H 4000 4900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 4000 5000 60  0001 C CNN
+F 3 "" H 4000 5000 60  0000 C CNN
+	1    4000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_PGDN_0
+U 2 1 5FF5BFC4
+P 4000 11250
+F 0 "K_PGDN_0" H 4000 11381 60  0000 C CNN
+F 1 "KEYSW" H 4000 11100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 4000 11250 60  0001 C CNN
+F 3 "" H 4000 11250 60  0000 C CNN
+	2    4000 11250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D_PGDN_0
+U 1 1 CA2E6D9B
+P 3650 5250
+F 0 "D_PGDN_0" V 3696 5171 50  0000 R CNN
+F 1 "D" V 3595 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 3650 5250 50  0001 C CNN
+F 3 "~" H 3650 5250 50  0001 C CNN
+	1    3650 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2650 5400 3650 5400
+Wire Wire Line
+	4300 4000 4300 5000
+Wire Wire Line
+	3700 5000 3650 5000
+Wire Wire Line
+	3650 5000 3650 5100
+Connection ~ 3650 5400
+$Comp
+L keyboard_parts:KEYSW K_ENTER_0
+U 1 1 5FF5BFD1
+P 5000 5000
+F 0 "K_ENTER_0" H 5000 5233 60  0000 C CNN
+F 1 "KEYSW" H 5000 4900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U" H 5000 5000 60  0001 C CNN
+F 3 "" H 5000 5000 60  0000 C CNN
+	1    5000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_ENTER_0
+U 2 1 5FF5BFBE
+P 5000 11250
+F 0 "K_ENTER_0" H 5000 11381 60  0000 C CNN
+F 1 "KEYSW" H 5000 11100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U" H 5000 11250 60  0001 C CNN
+F 3 "" H 5000 11250 60  0000 C CNN
+	2    5000 11250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D_ENTER_0
+U 1 1 CA2E4364
+P 4650 5250
+F 0 "D_ENTER_0" V 4696 5171 50  0000 R CNN
+F 1 "D" V 4595 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 4650 5250 50  0001 C CNN
+F 3 "~" H 4650 5250 50  0001 C CNN
+	1    4650 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3650 5400 4650 5400
+Wire Wire Line
+	4700 5000 4650 5000
+Wire Wire Line
+	4650 5000 4650 5100
+$Comp
+L keyboard_parts:KEYSW K_INS_0
+U 1 1 5FF5BFD3
+P 2000 6000
+F 0 "K_INS_0" H 2000 6233 60  0000 C CNN
+F 1 "KEYSW" H 2000 5900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U" H 2000 6000 60  0001 C CNN
+F 3 "" H 2000 6000 60  0000 C CNN
+	1    2000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_INS_0
+U 2 1 5FF5BFC7
+P 2000 12250
+F 0 "K_INS_0" H 2000 12381 60  0000 C CNN
+F 1 "KEYSW" H 2000 12100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U" H 2000 12250 60  0001 C CNN
+F 3 "" H 2000 12250 60  0000 C CNN
+	2    2000 12250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D_INS_0
+U 1 1 CA2E6A64
+P 1650 6250
+F 0 "D_INS_0" V 1696 6171 50  0000 R CNN
+F 1 "D" V 1595 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 1650 6250 50  0001 C CNN
+F 3 "~" H 1650 6250 50  0001 C CNN
+	1    1650 6250
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1400 6400 0    50   Input ~ 0
+row4
+Wire Wire Line
+	1400 6400 1650 6400
+Wire Wire Line
+	2300 5000 2300 6000
+Wire Wire Line
+	1700 6000 1650 6000
+Wire Wire Line
+	1650 6000 1650 6100
+Connection ~ 1650 6400
+$Comp
+L keyboard_parts:KEYSW K_DEL_0
+U 1 1 5FF5BFDA
+P 4000 6000
+F 0 "K_DEL_0" H 4000 6233 60  0000 C CNN
+F 1 "KEYSW" H 4000 5900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 4000 6000 60  0001 C CNN
+F 3 "" H 4000 6000 60  0000 C CNN
+	1    4000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_DEL_0
+U 2 1 5FF5BFCA
+P 3000 12250
+F 0 "K_DEL_0" H 3000 12381 60  0000 C CNN
+F 1 "KEYSW" H 3000 12100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3000 12250 60  0001 C CNN
+F 3 "" H 3000 12250 60  0000 C CNN
+	2    3000 12250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D_DEL_0
+U 1 1 CA2EE79A
+P 3650 6250
+F 0 "D_DEL_0" V 3696 6171 50  0000 R CNN
+F 1 "D" V 3595 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 3650 6250 50  0001 C CNN
+F 3 "~" H 3650 6250 50  0001 C CNN
+	1    3650 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3700 6000 3650 6000
+Wire Wire Line
+	3650 6000 3650 6100
+$Sheet
+S 13550 1950 2750 650 
+U 5FF9299E
+F0 "reciever_matrix" 50
+F1 "reciever_matrix.sch" 50
+$EndSheet
+$Comp
+L gigahawk:SSD1306_I2C_MODULE A1
+U 1 1 5FF7E53C
+P 7700 2050
+F 0 "A1" H 8267 2625 50  0000 C CNN
+F 1 "SSD1306_I2C_MODULE" H 8267 2534 50  0000 C CNN
+F 2 "Gigahawk:SSD1306_MODULE_128x32" H 8300 2500 50  0001 C CNN
+F 3 "" H 7750 2200 50  0001 C CNN
+	1    7700 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3000 5300 5000
+Connection ~ 5300 3000
+Text GLabel 7500 1700 0    50   Input ~ 0
+SDA
+Text GLabel 7500 1800 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	7500 1700 7600 1700
+Wire Wire Line
+	7500 1800 7600 1800
+Wire Wire Line
+	7600 1900 7200 1900
+Wire Wire Line
+	7200 1900 7200 1800
+$Comp
+L power:GND #PWR?
+U 1 1 5FFA13F9
+P 7200 2100
+AR Path="/5FF53271/5FFA13F9" Ref="#PWR?"  Part="1" 
+AR Path="/5FF53271/5FF7CBCC/5FFA13F9" Ref="#PWR?"  Part="1" 
+AR Path="/5FF5604D/5FF9299E/5FFA13F9" Ref="#PWR?"  Part="1" 
+AR Path="/5FF77C9D/5FFA13F9" Ref="#PWR?"  Part="1" 
+AR Path="/5FF5604D/5FFA13F9" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 7200 1850 50  0001 C CNN
+F 1 "GND" H 7205 1927 50  0000 C CNN
+F 2 "" H 7200 2100 50  0001 C CNN
+F 3 "" H 7200 2100 50  0001 C CNN
+	1    7200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 2000 7200 2000
+Wire Wire Line
+	7200 2000 7200 2100
+Text Notes 7400 2300 0    50   ~ 0
+I2C Address 0x3C
+Text GLabel 10400 5100 0    50   Input ~ 0
+SDA
+Text GLabel 10400 5200 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	10400 5100 10500 5100
+Wire Wire Line
+	10400 5200 10500 5200
+Wire Wire Line
+	10500 6000 10400 6000
+$Comp
+L power:GND #PWR?
+U 1 1 5FFB65B2
+P 11200 7100
+AR Path="/5FF53271/5FFB65B2" Ref="#PWR?"  Part="1" 
+AR Path="/5FF53271/5FF7CBCC/5FFB65B2" Ref="#PWR?"  Part="1" 
+AR Path="/5FF5604D/5FF9299E/5FFB65B2" Ref="#PWR?"  Part="1" 
+AR Path="/5FF77C9D/5FFB65B2" Ref="#PWR?"  Part="1" 
+AR Path="/5FF5604D/5FFB65B2" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 11200 6850 50  0001 C CNN
+F 1 "GND" H 11205 6927 50  0000 C CNN
+F 2 "" H 11200 7100 50  0001 C CNN
+F 3 "" H 11200 7100 50  0001 C CNN
+	1    11200 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 7100 11200 7000
+$Comp
+L power:GND #PWR?
+U 1 1 5FFB8C8E
+P 10400 6800
+AR Path="/5FF53271/5FFB8C8E" Ref="#PWR?"  Part="1" 
+AR Path="/5FF53271/5FF7CBCC/5FFB8C8E" Ref="#PWR?"  Part="1" 
+AR Path="/5FF5604D/5FF9299E/5FFB8C8E" Ref="#PWR?"  Part="1" 
+AR Path="/5FF77C9D/5FFB8C8E" Ref="#PWR?"  Part="1" 
+AR Path="/5FF5604D/5FFB8C8E" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 10400 6550 50  0001 C CNN
+F 1 "GND" H 10405 6627 50  0000 C CNN
+F 2 "" H 10400 6800 50  0001 C CNN
+F 3 "" H 10400 6800 50  0001 C CNN
+	1    10400 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 6700 10400 6700
+Wire Wire Line
+	10400 6700 10400 6800
+Wire Wire Line
+	10500 6600 10400 6600
+Wire Wire Line
+	10400 6600 10400 6700
+Connection ~ 10400 6700
+Wire Wire Line
+	10500 6500 10400 6500
+Wire Wire Line
+	10400 6500 10400 6600
+Connection ~ 10400 6600
+Text GLabel 1500 3400 1    50   Input ~ 0
+D1
+Text GLabel 1500 4400 1    50   Input ~ 0
+D2
+Text GLabel 1500 5400 1    50   Input ~ 0
+D3
+Text GLabel 1500 6400 1    50   Input ~ 0
+A1
+Text GLabel 12000 6000 2    50   Input ~ 0
+GPA0
+Text GLabel 12000 6100 2    50   Input ~ 0
+GPA1
+Text GLabel 12000 6200 2    50   Input ~ 0
+GPA2
+Text GLabel 12000 6300 2    50   Input ~ 0
+GPA3
+Wire Wire Line
+	12000 6000 11900 6000
+Wire Wire Line
+	11900 6100 12000 6100
+Wire Wire Line
+	12000 6200 11900 6200
+Wire Wire Line
+	11900 6300 12000 6300
+$Comp
+L Device:R R3
+U 1 1 5FFE7D3D
+P 11200 4550
+F 0 "R3" H 11270 4596 50  0000 L CNN
+F 1 "0R" H 11270 4505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 11130 4550 50  0001 C CNN
+F 3 "~" H 11200 4550 50  0001 C CNN
+	1    11200 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 4300 11200 4400
+Wire Wire Line
+	11200 4700 11200 4800
+Text GLabel 13500 6500 2    50   Input ~ 0
+GPA3
+Text GLabel 13500 6200 2    50   Input ~ 0
+GPA2
+Wire Wire Line
+	13500 6350 13400 6350
+Wire Wire Line
+	13400 6050 13500 6050
+Wire Wire Line
+	13100 6500 13500 6500
+Connection ~ 12800 6500
+Wire Wire Line
+	12800 6350 12800 6500
+Wire Wire Line
+	13100 6350 12800 6350
+Wire Wire Line
+	12650 6500 12800 6500
+$Comp
+L Device:R R11
+U 1 1 60014C06
+P 13250 6350
+F 0 "R11" V 13150 6350 50  0000 C CNN
+F 1 "DNI" V 13250 6350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13180 6350 50  0001 C CNN
+F 3 "~" H 13250 6350 50  0001 C CNN
+	1    13250 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 60014BFC
+P 12950 6500
+F 0 "R7" V 12850 6500 50  0000 C CNN
+F 1 "0R" V 12950 6500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12880 6500 50  0001 C CNN
+F 3 "~" H 12950 6500 50  0001 C CNN
+	1    12950 6500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13100 6200 13500 6200
+Connection ~ 12800 6200
+Wire Wire Line
+	12800 6050 12800 6200
+Wire Wire Line
+	13100 6050 12800 6050
+Wire Wire Line
+	12650 6200 12800 6200
+$Comp
+L Device:R R10
+U 1 1 6000A917
+P 13250 6050
+F 0 "R10" V 13150 6050 50  0000 C CNN
+F 1 "DNI" V 13250 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13180 6050 50  0001 C CNN
+F 3 "~" H 13250 6050 50  0001 C CNN
+	1    13250 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 6000A90D
+P 12950 6200
+F 0 "R6" V 12850 6200 50  0000 C CNN
+F 1 "0R" V 12950 6200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12880 6200 50  0001 C CNN
+F 3 "~" H 12950 6200 50  0001 C CNN
+	1    12950 6200
+	0    1    1    0   
+$EndComp
+Text GLabel 13500 5900 2    50   Input ~ 0
+GPA1
+Wire Wire Line
+	13100 5900 13500 5900
+Wire Wire Line
+	13400 5750 13500 5750
+Connection ~ 12800 5900
+Wire Wire Line
+	12800 5750 12800 5900
+Wire Wire Line
+	13100 5750 12800 5750
+Wire Wire Line
+	12650 5900 12800 5900
+$Comp
+L Device:R R9
+U 1 1 60002FAF
+P 13250 5750
+F 0 "R9" V 13150 5750 50  0000 C CNN
+F 1 "DNI" V 13250 5750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13180 5750 50  0001 C CNN
+F 3 "~" H 13250 5750 50  0001 C CNN
+	1    13250 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 60002FA5
+P 12950 5900
+F 0 "R5" V 12850 5900 50  0000 C CNN
+F 1 "0R" V 12950 5900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12880 5900 50  0001 C CNN
+F 3 "~" H 12950 5900 50  0001 C CNN
+	1    12950 5900
+	0    1    1    0   
+$EndComp
+Text GLabel 13500 5600 2    50   Input ~ 0
+GPA0
+Wire Wire Line
+	13100 5600 13500 5600
+Wire Wire Line
+	13400 5450 13500 5450
+Connection ~ 12800 5600
+Wire Wire Line
+	12800 5450 12800 5600
+Wire Wire Line
+	13100 5450 12800 5450
+Wire Wire Line
+	12650 5600 12800 5600
+$Comp
+L Device:R R8
+U 1 1 5FFF013B
+P 13250 5450
+F 0 "R8" V 13150 5450 50  0000 C CNN
+F 1 "DNI" V 13250 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13180 5450 50  0001 C CNN
+F 3 "~" H 13250 5450 50  0001 C CNN
+	1    13250 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5FFEFADE
+P 12950 5600
+F 0 "R4" V 12850 5600 50  0000 C CNN
+F 1 "0R" V 12950 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12880 5600 50  0001 C CNN
+F 3 "~" H 12950 5600 50  0001 C CNN
+	1    12950 5600
+	0    1    1    0   
+$EndComp
+Text GLabel 12650 6500 0    50   Input ~ 0
+col3
+Text GLabel 12650 6200 0    50   Input ~ 0
+col2
+Text GLabel 12650 5900 0    50   Input ~ 0
+col1
+Text GLabel 12650 5600 0    50   Input ~ 0
+col0
+Text GLabel 13500 5450 2    50   Input ~ 0
+A2
+Text GLabel 13500 5750 2    50   Input ~ 0
+A3
+Text GLabel 13500 6050 2    50   Input ~ 0
+A4
+Text GLabel 13500 6350 2    50   Input ~ 0
+A5
+$Comp
+L Driver_LED:IS31FL3731-SA U2
+U 1 1 60051D24
+P 15200 6000
+F 0 "U2" H 14850 7050 50  0000 C CNN
+F 1 "IS31FL3731-SA" H 15550 4950 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 15200 6000 50  0001 C CNN
+F 3 "http://www.issi.com/WW/pdf/31FL3731.pdf" H 15200 6000 50  0001 C CNN
+	1    15200 6000
+	1    0    0    -1  
+$EndComp
+Connection ~ 11200 4400
+Connection ~ 11650 4700
+Wire Wire Line
+	11500 4700 11650 4700
+$Comp
+L power:GND #PWR?
+U 1 1 6004D912
+P 11650 4700
+AR Path="/5FF53271/6004D912" Ref="#PWR?"  Part="1" 
+AR Path="/5FF53271/5FF7CBCC/6004D912" Ref="#PWR?"  Part="1" 
+AR Path="/5FF5604D/5FF9299E/6004D912" Ref="#PWR?"  Part="1" 
+AR Path="/5FF77C9D/6004D912" Ref="#PWR?"  Part="1" 
+AR Path="/5FF5604D/6004D912" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 11650 4450 50  0001 C CNN
+F 1 "GND" H 11655 4527 50  0000 C CNN
+F 2 "" H 11650 4700 50  0001 C CNN
+F 3 "" H 11650 4700 50  0001 C CNN
+	1    11650 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 11500 4400
+$Comp
+L Device:C C2
+U 1 1 600418E4
+P 11850 4550
+F 0 "C2" H 11965 4596 50  0000 L CNN
+F 1 "0.1u" H 11965 4505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11888 4400 50  0001 C CNN
+F 3 "~" H 11850 4550 50  0001 C CNN
+	1    11850 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 4400 11200 4400
+$Comp
+L Device:C C1
+U 1 1 6003A7A4
+P 11500 4550
+F 0 "C1" H 11615 4596 50  0000 L CNN
+F 1 "1u" H 11615 4505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11538 4400 50  0001 C CNN
+F 3 "~" H 11500 4550 50  0001 C CNN
+	1    11500 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_Expansion:MCP23017_SS U1
+U 1 1 5FFAABEE
+P 11200 5900
+F 0 "U1" H 10750 6850 50  0000 C CNN
+F 1 "MCP23017_SS" H 11500 4950 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 11400 4900 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 11400 4800 50  0001 L CNN
+	1    11200 5900
+	1    0    0    -1  
+$EndComp
+Connection ~ 15500 4750
+Wire Wire Line
+	15350 4750 15500 4750
+$Comp
+L power:GND #PWR?
+U 1 1 60058B07
+P 15500 4750
+AR Path="/5FF53271/60058B07" Ref="#PWR?"  Part="1" 
+AR Path="/5FF53271/5FF7CBCC/60058B07" Ref="#PWR?"  Part="1" 
+AR Path="/5FF5604D/5FF9299E/60058B07" Ref="#PWR?"  Part="1" 
+AR Path="/5FF77C9D/60058B07" Ref="#PWR?"  Part="1" 
+AR Path="/5FF5604D/60058B07" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 15500 4500 50  0001 C CNN
+F 1 "GND" H 15505 4577 50  0000 C CNN
+F 2 "" H 15500 4750 50  0001 C CNN
+F 3 "" H 15500 4750 50  0001 C CNN
+	1    15500 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 60058B0F
+P 15700 4600
+F 0 "C4" H 15815 4646 50  0000 L CNN
+F 1 "0.1u" H 15815 4555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 15738 4450 50  0001 C CNN
+F 3 "~" H 15700 4600 50  0001 C CNN
+	1    15700 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 60058B16
+P 15350 4600
+F 0 "C3" H 15465 4646 50  0000 L CNN
+F 1 "1u" H 15465 4555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 15388 4450 50  0001 C CNN
+F 3 "~" H 15350 4600 50  0001 C CNN
+	1    15350 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15200 4350 15200 4450
+Wire Wire Line
+	15350 4450 15200 4450
+Connection ~ 15350 4450
+Connection ~ 15200 4450
+Wire Wire Line
+	15200 4450 15200 4900
+Wire Wire Line
+	11500 4400 11850 4400
+Wire Wire Line
+	11650 4700 11850 4700
+Wire Wire Line
+	15350 4450 15700 4450
+Wire Wire Line
+	15500 4750 15700 4750
+$Comp
+L power:GND #PWR?
+U 1 1 6007F1C6
+P 15200 7200
+AR Path="/5FF53271/6007F1C6" Ref="#PWR?"  Part="1" 
+AR Path="/5FF53271/5FF7CBCC/6007F1C6" Ref="#PWR?"  Part="1" 
+AR Path="/5FF5604D/5FF9299E/6007F1C6" Ref="#PWR?"  Part="1" 
+AR Path="/5FF77C9D/6007F1C6" Ref="#PWR?"  Part="1" 
+AR Path="/5FF5604D/6007F1C6" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 15200 6950 50  0001 C CNN
+F 1 "GND" H 15205 7027 50  0000 C CNN
+F 2 "" H 15200 7200 50  0001 C CNN
+F 3 "" H 15200 7200 50  0001 C CNN
+	1    15200 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15200 7200 15200 7100
+Text GLabel 14600 5100 0    50   Input ~ 0
+SDA
+Text GLabel 14600 5200 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	14600 5100 14700 5100
+Wire Wire Line
+	14600 5200 14700 5200
+$Comp
+L power:GND #PWR?
+U 1 1 60088011
+P 14450 5300
+AR Path="/5FF53271/60088011" Ref="#PWR?"  Part="1" 
+AR Path="/5FF53271/5FF7CBCC/60088011" Ref="#PWR?"  Part="1" 
+AR Path="/5FF5604D/5FF9299E/60088011" Ref="#PWR?"  Part="1" 
+AR Path="/5FF77C9D/60088011" Ref="#PWR?"  Part="1" 
+AR Path="/5FF5604D/60088011" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 14450 5050 50  0001 C CNN
+F 1 "GND" H 14455 5127 50  0000 C CNN
+F 2 "" H 14450 5300 50  0001 C CNN
+F 3 "" H 14450 5300 50  0001 C CNN
+	1    14450 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14450 5300 14700 5300
+Text GLabel 15800 5100 2    50   Input ~ 0
+CA1
+Wire Wire Line
+	15800 5100 15700 5100
+Text GLabel 15800 5200 2    50   Input ~ 0
+CA2
+Wire Wire Line
+	15800 5200 15700 5200
+Text GLabel 15800 5300 2    50   Input ~ 0
+CA3
+Wire Wire Line
+	15800 5300 15700 5300
+Text GLabel 15800 5400 2    50   Input ~ 0
+CA4
+Wire Wire Line
+	15800 5400 15700 5400
+Text GLabel 15800 5500 2    50   Input ~ 0
+CA5
+Wire Wire Line
+	15800 5500 15700 5500
+Wire Wire Line
+	2000 12050 3000 12050
+Wire Wire Line
+	2000 9050 2200 9050
+Connection ~ 3000 9050
+Connection ~ 4000 9050
+Wire Wire Line
+	2000 10050 3000 10050
+Connection ~ 3000 10050
+Wire Wire Line
+	3000 10050 3200 10050
+Wire Wire Line
+	2000 11050 3000 11050
+Connection ~ 3000 11050
+Wire Wire Line
+	3000 11050 4000 11050
+Connection ~ 4000 11050
+Wire Wire Line
+	4000 11050 4200 11050
+Wire Wire Line
+	2000 8050 3000 8050
+Connection ~ 3000 8050
+Wire Wire Line
+	3000 8050 4000 8050
+Connection ~ 4000 8050
+Wire Wire Line
+	4000 8050 5000 8050
+Connection ~ 2000 8050
+Connection ~ 2000 9050
+Connection ~ 2000 10050
+Connection ~ 2000 11050
+Connection ~ 2000 12050
+Text GLabel 1400 8050 0    50   Input ~ 0
+CA1
+Text GLabel 1400 9050 0    50   Input ~ 0
+CA2
+Text GLabel 1400 10050 0    50   Input ~ 0
+CA3
+Text GLabel 1400 11050 0    50   Input ~ 0
+CA4
+Text GLabel 1400 12050 0    50   Input ~ 0
+CA5
+Wire Wire Line
+	2000 8450 2000 8650
+Wire Wire Line
+	2000 8650 2200 8650
+Wire Wire Line
+	2200 8650 2200 9050
+Connection ~ 2200 9050
+Wire Wire Line
+	2200 9050 3000 9050
+Wire Wire Line
+	3000 8450 3000 8600
+Wire Wire Line
+	3000 8600 3200 8600
+Wire Wire Line
+	4000 8450 4000 8650
+Wire Wire Line
+	4000 8650 4200 8650
+Wire Wire Line
+	5000 8450 5000 8600
+Wire Wire Line
+	5000 8600 5200 8600
+Wire Wire Line
+	2000 9450 2000 9600
+Wire Wire Line
+	2000 9600 1850 9600
+Wire Wire Line
+	1850 8050 2000 8050
+Wire Wire Line
+	1400 9050 2000 9050
+Wire Wire Line
+	1850 8050 1850 9600
+Wire Wire Line
+	1400 8050 1850 8050
+Connection ~ 1850 8050
+Wire Wire Line
+	3000 9450 3000 9600
+Wire Wire Line
+	3000 9600 3200 9600
+Wire Wire Line
+	3200 9600 3200 10050
+Connection ~ 3200 10050
+Wire Wire Line
+	3200 10050 4000 10050
+Wire Wire Line
+	4000 9450 4000 9600
+Wire Wire Line
+	4000 9600 4200 9600
+Wire Wire Line
+	3000 9050 4000 9050
+Wire Wire Line
+	3200 8600 3200 9600
+Connection ~ 3200 9600
+Wire Wire Line
+	4000 9050 5000 9050
+Wire Wire Line
+	5000 9450 5000 9600
+Wire Wire Line
+	5000 9600 5200 9600
+Wire Wire Line
+	1400 10050 2000 10050
+Wire Wire Line
+	2000 10450 2000 10600
+Wire Wire Line
+	2000 10600 1850 10600
+Wire Wire Line
+	1850 10600 1850 9600
+Connection ~ 1850 9600
+Wire Wire Line
+	1400 11050 2000 11050
+Wire Wire Line
+	1400 12050 2000 12050
+Wire Wire Line
+	2000 11450 2000 11600
+Wire Wire Line
+	2000 11600 1850 11600
+Wire Wire Line
+	1850 11600 1850 10600
+Connection ~ 1850 10600
+Wire Wire Line
+	2000 12450 2000 12600
+Wire Wire Line
+	2000 12600 1850 12600
+Wire Wire Line
+	1850 12600 1850 11600
+Connection ~ 1850 11600
+Wire Wire Line
+	4200 8650 4200 9600
+Wire Wire Line
+	4000 10450 4000 10600
+Wire Wire Line
+	4000 10600 4200 10600
+Wire Wire Line
+	4200 10600 4200 11050
+Connection ~ 4200 11050
+Wire Wire Line
+	4200 11050 5000 11050
+Wire Wire Line
+	4200 9600 4200 10600
+Connection ~ 4200 9600
+Connection ~ 4200 10600
+Wire Wire Line
+	2200 9050 2200 10600
+Wire Wire Line
+	2200 10600 3000 10600
+Wire Wire Line
+	3000 10600 3000 10450
+Wire Wire Line
+	3000 11450 3000 11550
+Wire Wire Line
+	3000 11550 2200 11550
+Wire Wire Line
+	2200 11550 2200 10600
+Connection ~ 2200 10600
+Wire Wire Line
+	3000 12450 3000 12600
+Wire Wire Line
+	3000 12600 2200 12600
+Wire Wire Line
+	2200 12600 2200 11550
+Connection ~ 2200 11550
+Wire Wire Line
+	4000 11450 4000 11550
+Wire Wire Line
+	4000 11550 3200 11550
+Wire Wire Line
+	3200 11550 3200 10050
+Wire Wire Line
+	5200 8600 5200 9600
+Wire Wire Line
+	3000 12050 5200 12050
+Wire Wire Line
+	5200 12050 5200 11600
+Connection ~ 3000 12050
+Connection ~ 5200 9600
+Wire Wire Line
+	5000 11450 5000 11600
+Wire Wire Line
+	5000 11600 5200 11600
+Connection ~ 5200 11600
+Wire Wire Line
+	5200 11600 5200 9600
+NoConn ~ 15700 6100
+NoConn ~ 15700 6200
+NoConn ~ 15700 6300
+NoConn ~ 15700 6400
+NoConn ~ 15700 6500
+NoConn ~ 15700 6600
+NoConn ~ 15700 6700
+NoConn ~ 15700 6800
+NoConn ~ 15700 6900
+NoConn ~ 15700 5600
+NoConn ~ 15700 5700
+NoConn ~ 15700 5800
+NoConn ~ 15700 5900
+Wire Wire Line
+	14700 5500 14450 5500
+NoConn ~ 14700 5600
+NoConn ~ 14700 5800
+NoConn ~ 14700 5900
+$Comp
+L Device:R R12
+U 1 1 60401601
+P 14600 6350
+F 0 "R12" V 14500 6350 50  0000 C CNN
+F 1 "20k" V 14600 6350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14530 6350 50  0001 C CNN
+F 3 "~" H 14600 6350 50  0001 C CNN
+	1    14600 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 6100 14600 6100
+Wire Wire Line
+	14600 6100 14600 6200
+$Comp
+L power:GND #PWR?
+U 1 1 6040E265
+P 14600 6600
+AR Path="/5FF53271/6040E265" Ref="#PWR?"  Part="1" 
+AR Path="/5FF53271/5FF7CBCC/6040E265" Ref="#PWR?"  Part="1" 
+AR Path="/5FF5604D/5FF9299E/6040E265" Ref="#PWR?"  Part="1" 
+AR Path="/5FF77C9D/6040E265" Ref="#PWR?"  Part="1" 
+AR Path="/5FF5604D/6040E265" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 14600 6350 50  0001 C CNN
+F 1 "GND" H 14605 6427 50  0000 C CNN
+F 2 "" H 14600 6600 50  0001 C CNN
+F 3 "" H 14600 6600 50  0001 C CNN
+	1    14600 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14600 6500 14600 6600
+$Comp
+L Device:Rotary_Encoder_Switch SW1
+U 1 1 60427655
+P 6450 6150
+F 0 "SW1" V 6404 6380 50  0000 L CNN
+F 1 "Rotary_Encoder_Switch" V 6495 6380 50  0000 L CNN
+F 2 "Gigahawk:482016514001" H 6300 6310 50  0001 C CNN
+F 3 "~" H 6450 6410 50  0001 C CNN
+	1    6450 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_ROT_0
+U 1 1 6042AE4C
+P 4650 6250
+F 0 "D_ROT_0" V 4696 6171 50  0000 R CNN
+F 1 "D" V 4595 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 4650 6250 50  0001 C CNN
+F 3 "~" H 4650 6250 50  0001 C CNN
+	1    4650 6250
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6550 5850 1    50   Input ~ 0
+ROT_S1
+Text GLabel 6350 5850 1    50   Input ~ 0
+ROT_S2
+Text GLabel 4700 6000 1    50   Input ~ 0
+ROT_S1
+Wire Wire Line
+	4650 6100 4650 6000
+Wire Wire Line
+	4650 6000 4700 6000
+Text GLabel 5300 6000 0    50   Input ~ 0
+ROT_S2
+Wire Wire Line
+	5300 5000 5300 6000
+Connection ~ 5300 5000
+$Comp
+L power:GND #PWR?
+U 1 1 60463F22
+P 6450 6650
+AR Path="/5FF53271/60463F22" Ref="#PWR?"  Part="1" 
+AR Path="/5FF53271/5FF7CBCC/60463F22" Ref="#PWR?"  Part="1" 
+AR Path="/5FF5604D/5FF9299E/60463F22" Ref="#PWR?"  Part="1" 
+AR Path="/5FF77C9D/60463F22" Ref="#PWR?"  Part="1" 
+AR Path="/5FF5604D/60463F22" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 6450 6400 50  0001 C CNN
+F 1 "GND" H 6455 6477 50  0000 C CNN
+F 2 "" H 6450 6650 50  0001 C CNN
+F 3 "" H 6450 6650 50  0001 C CNN
+	1    6450 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 6650 6450 6450
+$Comp
+L Device:R R2
+U 1 1 60471535
+P 6750 6500
+F 0 "R2" V 6650 6500 50  0000 C CNN
+F 1 "20k" V 6750 6500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6680 6500 50  0001 C CNN
+F 3 "~" H 6750 6500 50  0001 C CNN
+	1    6750 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6047216C
+P 6150 6500
+F 0 "R1" V 6050 6500 50  0000 C CNN
+F 1 "20k" V 6150 6500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6080 6500 50  0001 C CNN
+F 3 "~" H 6150 6500 50  0001 C CNN
+	1    6150 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 6500 6350 6500
+Wire Wire Line
+	6350 6500 6350 6550
+Wire Wire Line
+	6350 6450 6350 6500
+Connection ~ 6350 6500
+Wire Wire Line
+	6550 6450 6550 6500
+Wire Wire Line
+	6600 6500 6550 6500
+Connection ~ 6550 6500
+Wire Wire Line
+	6550 6500 6550 6550
+Wire Wire Line
+	5900 6500 6000 6500
+Wire Wire Line
+	6900 6500 7000 6500
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 60488DA6
+P 7200 1800
+F 0 "#PWR0101" H 7200 1650 50  0001 C CNN
+F 1 "+3V3" H 7215 1973 50  0000 C CNN
+F 2 "" H 7200 1800 50  0001 C CNN
+F 3 "" H 7200 1800 50  0001 C CNN
+	1    7200 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 1500 2400 1    50   Input ~ 0
+D0
+Text GLabel 6350 6550 3    50   Input ~ 0
+A5
+Text GLabel 6550 6550 3    50   Input ~ 0
+A4
+$Sheet
+S 12350 8850 3750 1050
+U 5FFADEAF
+F0 "mount_hole_numpad" 50
+F1 "mount_hole_numpad.sch" 50
+$EndSheet
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 6049B8FB
+P 7000 6500
+F 0 "#PWR0103" H 7000 6350 50  0001 C CNN
+F 1 "+3V3" H 7015 6673 50  0000 C CNN
+F 2 "" H 7000 6500 50  0001 C CNN
+F 3 "" H 7000 6500 50  0001 C CNN
+	1    7000 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0107
+U 1 1 604A934F
+P 5900 6500
+F 0 "#PWR0107" H 5900 6350 50  0001 C CNN
+F 1 "+3V3" H 5915 6673 50  0000 C CNN
+F 2 "" H 5900 6500 50  0001 C CNN
+F 3 "" H 5900 6500 50  0001 C CNN
+	1    5900 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0108
+U 1 1 604A96DA
+P 11200 4300
+F 0 "#PWR0108" H 11200 4150 50  0001 C CNN
+F 1 "+3V3" H 11215 4473 50  0000 C CNN
+F 2 "" H 11200 4300 50  0001 C CNN
+F 3 "" H 11200 4300 50  0001 C CNN
+	1    11200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0109
+U 1 1 604AA0CB
+P 15200 4350
+F 0 "#PWR0109" H 15200 4200 50  0001 C CNN
+F 1 "+3V3" H 15215 4523 50  0000 C CNN
+F 2 "" H 15200 4350 50  0001 C CNN
+F 3 "" H 15200 4350 50  0001 C CNN
+	1    15200 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3650 6400
+Wire Wire Line
+	3650 6400 4650 6400
+Wire Wire Line
+	1650 6400 3650 6400
+Wire Wire Line
+	4300 6000 4300 5000
+Connection ~ 4300 5000
+$Comp
+L power:+3V3 #PWR03
+U 1 1 604FDB56
+P 14450 5500
+F 0 "#PWR03" H 14450 5350 50  0001 C CNN
+F 1 "+3V3" H 14465 5673 50  0000 C CNN
+F 2 "" H 14450 5500 50  0001 C CNN
+F 3 "" H 14450 5500 50  0001 C CNN
+	1    14450 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 612EBB22
+P 10250 6000
+F 0 "R13" V 10150 6000 50  0000 C CNN
+F 1 "20k" V 10250 6000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10180 6000 50  0001 C CNN
+F 3 "~" H 10250 6000 50  0001 C CNN
+	1    10250 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR01
+U 1 1 612EC1C6
+P 10000 6000
+F 0 "#PWR01" H 10000 5850 50  0001 C CNN
+F 1 "+3V3" H 10015 6173 50  0000 C CNN
+F 2 "" H 10000 6000 50  0001 C CNN
+F 3 "" H 10000 6000 50  0001 C CNN
+	1    10000 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10000 6000 10100 6000
+NoConn ~ 10500 5700
+NoConn ~ 10500 5800
+$EndSCHEMATC

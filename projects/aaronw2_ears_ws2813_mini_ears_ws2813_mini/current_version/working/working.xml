@@ -1,0 +1,2649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\aaronw2_ears_ws2813_mini_ears_ws2813_mini\current_version\working\working.kicad_sch</source>
+    <date>13/09/2023 16:23:08</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Flex Ears WS2813-mini</title>
+        <company>Copyright © 2019 Aaron Williams</company>
+        <rev>1.0</rev>
+        <date>2019-05-05</date>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Ears-top and bypass/" tstamps="/00000000-0000-0000-0000-00005d200054/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Eears-top-bypass.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="-"/>
+      <property name="MPN" value="-"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ed31562</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL10B104KO8WPNC</field>
+        <field name="SPN">1276-6582-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="Samsung"/>
+      <property name="MPN" value="CL10B104KO8WPNC"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="1276-6582-1-ND"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ed974f8</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cd316e0</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cd34961</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cd369a8</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cd370fd</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cd37617</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cd37be7</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cd382b4</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cd4585d</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cd45867</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cd45871</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cd4587b</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cd45885</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cd4588f</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cd45899</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d49e8da</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d4a1176</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d9a9093</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d9a9099</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d9a909f</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d9a90a5</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d9a90ab</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d9a90b1</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d9a90b7</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d9a90bd</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d9a90c3</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d9a90c9</tstamps>
+    </comp>
+    <comp ref="D27">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d9a90cf</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d9a90d5</tstamps>
+    </comp>
+    <comp ref="D29">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d9a90db</tstamps>
+    </comp>
+    <comp ref="D30">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d9a90e1</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e4d51da</tstamps>
+    </comp>
+    <comp ref="D32">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e4d51e0</tstamps>
+    </comp>
+    <comp ref="D33">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e4d51e6</tstamps>
+    </comp>
+    <comp ref="D34">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e4d51ec</tstamps>
+    </comp>
+    <comp ref="D35">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e4d51f2</tstamps>
+    </comp>
+    <comp ref="D36">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e4d51f8</tstamps>
+    </comp>
+    <comp ref="D37">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e4d51fe</tstamps>
+    </comp>
+    <comp ref="D38">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e4d5204</tstamps>
+    </comp>
+    <comp ref="D39">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e4d520a</tstamps>
+    </comp>
+    <comp ref="D40">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e4d5210</tstamps>
+    </comp>
+    <comp ref="D41">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e4d5216</tstamps>
+    </comp>
+    <comp ref="D42">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e4d521c</tstamps>
+    </comp>
+    <comp ref="D43">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e4d5222</tstamps>
+    </comp>
+    <comp ref="D44">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e4d5228</tstamps>
+    </comp>
+    <comp ref="D45">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cdc6c31</tstamps>
+    </comp>
+    <comp ref="D46">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cdc6c37</tstamps>
+    </comp>
+    <comp ref="D47">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cdc6c3d</tstamps>
+    </comp>
+    <comp ref="D48">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cdc6c43</tstamps>
+    </comp>
+    <comp ref="D49">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cdc6c49</tstamps>
+    </comp>
+    <comp ref="D50">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cdc6c4f</tstamps>
+    </comp>
+    <comp ref="D51">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cdc6c55</tstamps>
+    </comp>
+    <comp ref="D52">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cdc6c5b</tstamps>
+    </comp>
+    <comp ref="D53">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cdc6c61</tstamps>
+    </comp>
+    <comp ref="D54">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cdc6c67</tstamps>
+    </comp>
+    <comp ref="D55">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cdc6c6d</tstamps>
+    </comp>
+    <comp ref="D56">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cdc6c73</tstamps>
+    </comp>
+    <comp ref="D57">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ce77d16</tstamps>
+    </comp>
+    <comp ref="D58">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ce77d20</tstamps>
+    </comp>
+    <comp ref="D59">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ce77d2a</tstamps>
+    </comp>
+    <comp ref="D60">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ce77d34</tstamps>
+    </comp>
+    <comp ref="D61">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ce77d3e</tstamps>
+    </comp>
+    <comp ref="D62">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ce77d48</tstamps>
+    </comp>
+    <comp ref="D63">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ce77d52</tstamps>
+    </comp>
+    <comp ref="D64">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ce77d5c</tstamps>
+    </comp>
+    <comp ref="D65">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ce77d66</tstamps>
+    </comp>
+    <comp ref="D66">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ce77d70</tstamps>
+    </comp>
+    <comp ref="D67">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ce77d7a</tstamps>
+    </comp>
+    <comp ref="D68">
+      <value>WS2813</value>
+      <footprint>LED_WS2813-mini:LED_WS2813-MINI</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2813B-Mini</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <property name="MFR" value="World Semi"/>
+      <property name="MPN" value="WS2813B-Mini"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ce77d84</tstamps>
+    </comp>
+    <comp ref="D97">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_2010_5025Metric</footprint>
+      <datasheet>http://www.comchiptech.com/admin/files/product/ACDBAT320-HF%20Thru784701.%20ACDBAT3100-HF%20RevB.pdf</datasheet>
+      <fields>
+        <field name="MFR">Comchip Technology</field>
+        <field name="MPN">ACDBAT3100-HF</field>
+        <field name="SPN">641-1607-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/product-detail/en/comchip-technology/ACDBAT3100-HF/641-1607-1-ND/5013812</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="MFR" value="Comchip Technology"/>
+      <property name="MPN" value="ACDBAT3100-HF"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="641-1607-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/product-detail/en/comchip-technology/ACDBAT3100-HF/641-1607-1-ND/5013812"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ceedea3</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x08</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR" value="-"/>
+      <property name="MPN" value="-"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ea65bcd</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR" value="-"/>
+      <property name="MPN" value="-"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d19b972</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR" value="-"/>
+      <property name="MPN" value="-"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d321087</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR" value="-"/>
+      <property name="MPN" value="-"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d320474</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="-"/>
+      <property name="MPN" value="-"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cd75b1f</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="-"/>
+      <property name="MPN" value="-"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005eaca97d</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="-"/>
+      <property name="MPN" value="-"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005cd75418</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="-"/>
+      <property name="MPN" value="-"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005eb2f733</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2813">
+      <description>RGB LED with integrated controller</description>
+      <docs>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P1.6mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2813</field>
+        <field name="Footprint">LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</field>
+        <field name="Datasheet">http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="DOUT" type="output"/>
+        <pin num="4" name="DIN" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="BIN" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/LED.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D1" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D10" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D10" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D11" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D11" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D12" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D12" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D13" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D13" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D14" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D14" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D15" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D15" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D16" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D16" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D17" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D17" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D18" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D18" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D19" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D19" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D2" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D2" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D20" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D20" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D21" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D21" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D22" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D22" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D23" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D23" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D24" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D24" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D25" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D25" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D26" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D26" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D27" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D27" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D28" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D28" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D29" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D29" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D3" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D3" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D30" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D30" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D31" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D31" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D32" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D32" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D33" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D33" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D34" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D34" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D35" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D35" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D36" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D36" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D37" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D37" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D38" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D38" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D39" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D39" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D4" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D4" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D40" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D40" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D41" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D41" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D42" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D42" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D43" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D43" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D44" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D44" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D45" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D45" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D46" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D46" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D47" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D47" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D48" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D48" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D49" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D49" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D5" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D5" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D50" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D50" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D51" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D51" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D52" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D52" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D53" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D53" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D54" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D54" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D55" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D55" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D56" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D56" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D57" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D57" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D58" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D58" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D59" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D59" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D6" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D6" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D60" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D60" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D61" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D61" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D62" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D62" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D63" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D63" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D64" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D64" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D65" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D65" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D66" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D66" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D67" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D67" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D68" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D68" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D7" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D7" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D8" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D8" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D9" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="D9" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D97" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="2" name="/DIN">
+      <node ref="D1" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D2" pin="6" pinfunction="BIN" pintype="input"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/DINB">
+      <node ref="D1" pin="6" pinfunction="BIN" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/DOUT">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/DOUT1">
+      <node ref="D16" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D17" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D18" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="6" name="/DOUT2">
+      <node ref="D30" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D31" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D32" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="7" name="/DOUT3">
+      <node ref="D44" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D45" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D46" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="8" name="/DOUT4">
+      <node ref="D56" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D57" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D58" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="9" name="/DOUTB">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/DOUTB1">
+      <node ref="D15" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D16" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D17" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="11" name="/DOUTB2">
+      <node ref="D29" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D30" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D31" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="12" name="/DOUTB3">
+      <node ref="D43" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D44" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D45" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="13" name="/DOUTB4">
+      <node ref="D55" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D56" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D57" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="14" name="/DOUT_CONT">
+      <node ref="D13" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D14" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D15" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="15" name="/DOUT_CONTB">
+      <node ref="D12" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D13" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D14" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="16" name="DOUT5">
+      <node ref="D68" pin="3" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="17" name="DOUTB5">
+      <node ref="D67" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D68" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="18" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D1" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D10" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D11" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D12" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D13" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D14" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D15" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D16" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D17" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D18" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D19" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D2" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D20" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D21" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D22" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D23" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D24" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D25" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D26" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D27" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D28" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D29" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D3" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D30" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D31" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D32" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D33" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D34" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D35" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D36" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D37" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D38" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D39" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D4" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D40" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D41" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D42" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D43" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D44" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D45" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D46" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D47" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D48" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D49" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D5" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D50" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D51" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D52" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D53" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D54" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D55" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D56" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D57" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D58" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D59" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D6" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D60" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D61" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D62" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D63" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D64" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D65" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D66" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D67" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D68" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D7" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D8" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D9" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="D97" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D1-DOUT)">
+      <node ref="D1" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D2" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D3" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(D2-DOUT)">
+      <node ref="D2" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D3" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D4" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(D3-DOUT)">
+      <node ref="D3" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D4" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D5" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(D4-DOUT)">
+      <node ref="D4" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D5" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D6" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(D5-DOUT)">
+      <node ref="D5" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D6" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D7" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="24" name="Net-(D6-DOUT)">
+      <node ref="D6" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D7" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D8" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(D7-DOUT)">
+      <node ref="D7" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D8" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D9" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(D10-BIN)">
+      <node ref="D10" pin="6" pinfunction="BIN" pintype="input"/>
+      <node ref="D8" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D9" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(D10-DIN)">
+      <node ref="D10" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D11" pin="6" pinfunction="BIN" pintype="input"/>
+      <node ref="D9" pin="3" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="28" name="Net-(D10-DOUT)">
+      <node ref="D10" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D11" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D12" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(D11-DOUT)">
+      <node ref="D11" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D12" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D13" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(D14-DOUT)">
+      <node ref="D14" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D15" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D16" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(D17-DOUT)">
+      <node ref="D17" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D18" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D19" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(D18-DOUT)">
+      <node ref="D18" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D19" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D20" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(D19-DOUT)">
+      <node ref="D19" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D20" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D21" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(D20-DOUT)">
+      <node ref="D20" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D21" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D22" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(D21-DOUT)">
+      <node ref="D21" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D22" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D23" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="36" name="Net-(D22-DOUT)">
+      <node ref="D22" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D23" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D24" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="37" name="Net-(D23-DOUT)">
+      <node ref="D23" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D24" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D25" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="38" name="Net-(D24-DOUT)">
+      <node ref="D24" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D25" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D26" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(D25-DOUT)">
+      <node ref="D25" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D26" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D27" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="40" name="Net-(D26-DOUT)">
+      <node ref="D26" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D27" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D28" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(D27-DOUT)">
+      <node ref="D27" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D28" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D29" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="42" name="Net-(D28-DOUT)">
+      <node ref="D28" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D29" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D30" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="43" name="Net-(D31-DOUT)">
+      <node ref="D31" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D32" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D33" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="44" name="Net-(D32-DOUT)">
+      <node ref="D32" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D33" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D34" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="45" name="Net-(D33-DOUT)">
+      <node ref="D33" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D34" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D35" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(D34-DOUT)">
+      <node ref="D34" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D35" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D36" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(D35-DOUT)">
+      <node ref="D35" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D36" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D37" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(D36-DOUT)">
+      <node ref="D36" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D37" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D38" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(D37-DOUT)">
+      <node ref="D37" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D38" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D39" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="50" name="Net-(D38-DOUT)">
+      <node ref="D38" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D39" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D40" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(D39-DOUT)">
+      <node ref="D39" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D40" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D41" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="52" name="Net-(D40-DOUT)">
+      <node ref="D40" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D41" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D42" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="53" name="Net-(D41-DOUT)">
+      <node ref="D41" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D42" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D43" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="54" name="Net-(D42-DOUT)">
+      <node ref="D42" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D43" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D44" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="55" name="Net-(D45-DOUT)">
+      <node ref="D45" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D46" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D47" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="56" name="Net-(D46-DOUT)">
+      <node ref="D46" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D47" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D48" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="57" name="Net-(D47-DOUT)">
+      <node ref="D47" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D48" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D49" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="58" name="Net-(D48-DOUT)">
+      <node ref="D48" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D49" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D50" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="59" name="Net-(D49-DOUT)">
+      <node ref="D49" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D50" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D51" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="60" name="Net-(D50-DOUT)">
+      <node ref="D50" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D51" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D52" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="61" name="Net-(D51-DOUT)">
+      <node ref="D51" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D52" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D53" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="62" name="Net-(D52-DOUT)">
+      <node ref="D52" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D53" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D54" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="63" name="Net-(D53-DOUT)">
+      <node ref="D53" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D54" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D55" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="64" name="Net-(D54-DOUT)">
+      <node ref="D54" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D55" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D56" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="65" name="Net-(D57-DOUT)">
+      <node ref="D57" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D58" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D59" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="66" name="Net-(D58-DOUT)">
+      <node ref="D58" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D59" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D60" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="67" name="Net-(D59-DOUT)">
+      <node ref="D59" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D60" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D61" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="68" name="Net-(D60-DOUT)">
+      <node ref="D60" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D61" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D62" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="69" name="Net-(D61-DOUT)">
+      <node ref="D61" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D62" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D63" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="70" name="Net-(D62-DOUT)">
+      <node ref="D62" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D63" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D64" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="71" name="Net-(D63-DOUT)">
+      <node ref="D63" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D64" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D65" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="72" name="Net-(D64-DOUT)">
+      <node ref="D64" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D65" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D66" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="73" name="Net-(D65-DOUT)">
+      <node ref="D65" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D66" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D67" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="74" name="Net-(D66-DOUT)">
+      <node ref="D66" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="D67" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D68" pin="6" pinfunction="BIN" pintype="input"/>
+    </net>
+    <net code="75" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(J1-Pin_2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(J1-Pin_3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(J1-Pin_4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+  </nets>
+</export>

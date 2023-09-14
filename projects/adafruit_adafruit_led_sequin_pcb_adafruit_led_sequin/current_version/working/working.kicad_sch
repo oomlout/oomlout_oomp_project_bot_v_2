@@ -1,0 +1,300 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 7a30c05a-9ac7-4d82-b357-4dddafaf8fbf)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "working-eagle-import:LEDSMT1206" (in_bom yes) (on_board yes)
+      (property "Reference" "LED" (at 3.556 -4.572 90)
+        (effects (font (size 1.778 1.5113)) (justify left bottom))
+      )
+      (property "Value" "" (at 5.715 -4.572 90)
+        (effects (font (size 1.778 1.5113)) (justify left bottom))
+      )
+      (property "Footprint" "working:1206" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (symbol "LEDSMT1206_1_0"
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy -3.429 -2.159)
+          )
+          (stroke (width 0.1524) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.905 -1.905)
+            (xy -3.302 -3.302)
+          )
+          (stroke (width 0.1524) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -2.54)
+            (xy -1.27 -2.54)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -2.54)
+            (xy -1.27 0)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0.1524) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -2.54)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy 0 0)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.429 -2.159)
+            (xy -3.048 -1.27)
+            (xy -2.54 -1.778)
+          )
+          (stroke (width 0.1524) (type solid))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy -3.302 -3.302)
+            (xy -2.921 -2.413)
+            (xy -2.413 -2.921)
+          )
+          (stroke (width 0.1524) (type solid))
+          (fill (type outline))
+        )
+        (pin passive line (at 0 2.54 270) (length 2.54)
+          (name "A" (effects (font (size 0 0))))
+          (number "A" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 0 -5.08 90) (length 2.54)
+          (name "C" (effects (font (size 0 0))))
+          (number "C" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "working-eagle-import:R-US_R0603" (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at -3.81 1.4986 0)
+        (effects (font (size 1.778 1.5113)) (justify left bottom))
+      )
+      (property "Value" "" (at -3.81 -3.302 0)
+        (effects (font (size 1.778 1.5113)) (justify left bottom))
+      )
+      (property "Footprint" "working:R0603" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (symbol "R-US_R0603_1_0"
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy -2.159 1.016)
+          )
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.159 1.016)
+            (xy -1.524 -1.016)
+          )
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 -1.016)
+            (xy -0.889 1.016)
+          )
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.889 1.016)
+            (xy -0.254 -1.016)
+          )
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.254 -1.016)
+            (xy 0.381 1.016)
+          )
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.381 1.016)
+            (xy 1.016 -1.016)
+          )
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 -1.016)
+            (xy 1.651 1.016)
+          )
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.651 1.016)
+            (xy 2.286 -1.016)
+          )
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.286 -1.016)
+            (xy 2.54 0)
+          )
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 0 0) (length 2.54)
+          (name "1" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 5.08 0 180) (length 2.54)
+          (name "2" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
+        )
+      )
+    )
+  )
+
+
+  (wire (pts (xy 147.32 93.98) (xy 147.32 83.82))
+    (stroke (width 0.1524) (type solid))
+    (uuid 6dbf1782-6294-40a9-aef6-2e1a0b731577)
+  )
+  (wire (pts (xy 147.32 111.76) (xy 147.32 121.92))
+    (stroke (width 0.1524) (type solid))
+    (uuid c8d72b18-d2c7-41c9-8b15-e3f683b5bc44)
+  )
+
+  (label "-" (at 147.32 116.84 90) (fields_autoplaced)
+    (effects (font (size 1.2446 1.2446)) (justify left bottom))
+    (uuid 6d85f90c-6ff7-46eb-8d8c-5dbb3427be27)
+  )
+  (label "+" (at 147.32 88.9 90) (fields_autoplaced)
+    (effects (font (size 1.2446 1.2446)) (justify left bottom))
+    (uuid 8d9ee7fa-5eb5-4696-9ac6-41218cb22366)
+  )
+
+  (symbol (lib_id "working-eagle-import:LEDSMT1206") (at 147.32 96.52 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 24712976-f72f-4cd0-aa53-e7eae465dacc)
+    (property "Reference" "LED1" (at 150.876 101.092 90)
+      (effects (font (size 1.778 1.5113)) (justify left bottom))
+    )
+    (property "Value" "LEDSMT1206" (at 153.035 101.092 90)
+      (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
+    )
+    (property "Footprint" "working:1206" (at 147.32 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 147.32 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "A" (uuid 8a43e967-44f5-4267-86eb-eda666bde288))
+    (pin "C" (uuid 3b91c651-f1d1-426d-bdf3-1e476aa49295))
+    (instances
+      (project "working"
+        (path "/7a30c05a-9ac7-4d82-b357-4dddafaf8fbf"
+          (reference "LED1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "working-eagle-import:R-US_R0603") (at 147.32 106.68 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6e8e1874-11f8-4ce9-bd48-47440c11737d)
+    (property "Reference" "R1" (at 145.8214 110.49 0)
+      (effects (font (size 1.778 1.5113)) (justify left bottom))
+    )
+    (property "Value" "R-US_R0603" (at 150.622 110.49 0)
+      (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
+    )
+    (property "Footprint" "working:R0603" (at 147.32 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 147.32 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 578b988b-dcdd-4cb7-8011-41356938a4e8))
+    (pin "2" (uuid 649b5c40-9815-41f6-8e7c-56fe60f7101e))
+    (instances
+      (project "working"
+        (path "/7a30c05a-9ac7-4d82-b357-4dddafaf8fbf"
+          (reference "R1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
