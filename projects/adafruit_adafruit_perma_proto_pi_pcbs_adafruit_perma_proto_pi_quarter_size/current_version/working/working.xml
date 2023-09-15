@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\adafruit_adafruit_perma_proto_pi_pcbs_adafruit_perma_proto_pi_quarter_size\current_version\working\working.kicad_sch</source>
+    <date>15/09/2023 22:06:59</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="JP1">
+      <value>RASBERRYPI_IDC</value>
+      <footprint>working:RASBERRYPI_IDC</footprint>
+      <libsource lib="working-eagle-import" part="RASBERRYPI_IDC" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>044dcf29-740b-44da-bc9d-99fb5a6f62a5</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="working-eagle-import" part="RASBERRYPI_IDC">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Footprint">working:RASBERRYPI_IDC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3.3V" type="power_in"/>
+        <pin num="2" name="5.0V" type="power_in"/>
+        <pin num="3" name="SDA" type="bidirectional"/>
+        <pin num="4" name="5.0V@1" type="power_in"/>
+        <pin num="5" name="SCL" type="bidirectional"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GPIO4" type="bidirectional"/>
+        <pin num="8" name="TXD" type="output"/>
+        <pin num="9" name="GND@4" type="power_in"/>
+        <pin num="10" name="RXD" type="input"/>
+        <pin num="11" name="GPIO17" type="bidirectional"/>
+        <pin num="12" name="GPIO18" type="bidirectional"/>
+        <pin num="13" name="GPIO21" type="bidirectional"/>
+        <pin num="14" name="GND@1" type="power_in"/>
+        <pin num="15" name="GPIO22_27" type="bidirectional"/>
+        <pin num="16" name="GPIO23" type="bidirectional"/>
+        <pin num="17" name="3.3V@1" type="power_in"/>
+        <pin num="18" name="GPIO24" type="bidirectional"/>
+        <pin num="19" name="SPI_MOSI" type="bidirectional"/>
+        <pin num="20" name="GND@2" type="power_in"/>
+        <pin num="21" name="SPI_MISO" type="input"/>
+        <pin num="22" name="GPIO25" type="bidirectional"/>
+        <pin num="23" name="SPI_SCLK" type="bidirectional"/>
+        <pin num="24" name="#SPI_CE0" type="bidirectional"/>
+        <pin num="25" name="GND@3" type="power_in"/>
+        <pin num="26" name="#SPI_CE1" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/3.3V">
+      <node ref="JP1" pin="1" pinfunction="3.3V" pintype="power_in"/>
+    </net>
+    <net code="2" name="/3.3V_2">
+      <node ref="JP1" pin="17" pinfunction="3.3V@1" pintype="power_in"/>
+    </net>
+    <net code="3" name="/5.0V">
+      <node ref="JP1" pin="2" pinfunction="5.0V" pintype="power_in"/>
+    </net>
+    <net code="4" name="/5.0V_2">
+      <node ref="JP1" pin="4" pinfunction="5.0V@1" pintype="power_in"/>
+    </net>
+    <net code="5" name="/CE0">
+      <node ref="JP1" pin="24" pinfunction="#SPI_CE0" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/CE1">
+      <node ref="JP1" pin="26" pinfunction="#SPI_CE1" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/GND">
+      <node ref="JP1" pin="9" pinfunction="GND@4" pintype="power_in"/>
+    </net>
+    <net code="8" name="/GND3">
+      <node ref="JP1" pin="25" pinfunction="GND@3" pintype="power_in"/>
+    </net>
+    <net code="9" name="/GND4">
+      <node ref="JP1" pin="20" pinfunction="GND@2" pintype="power_in"/>
+    </net>
+    <net code="10" name="/GND5">
+      <node ref="JP1" pin="14" pinfunction="GND@1" pintype="power_in"/>
+    </net>
+    <net code="11" name="/GPIO1">
+      <node ref="JP1" pin="6" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="12" name="/GPIO4">
+      <node ref="JP1" pin="7" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/GPIO17">
+      <node ref="JP1" pin="11" pinfunction="GPIO17" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/GPIO18">
+      <node ref="JP1" pin="12" pinfunction="GPIO18" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/GPIO22">
+      <node ref="JP1" pin="15" pinfunction="GPIO22_27" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/GPIO23">
+      <node ref="JP1" pin="16" pinfunction="GPIO23" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/GPIO24">
+      <node ref="JP1" pin="18" pinfunction="GPIO24" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/GPIO25">
+      <node ref="JP1" pin="22" pinfunction="GPIO25" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/GPIO27">
+      <node ref="JP1" pin="13" pinfunction="GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/MISO">
+      <node ref="JP1" pin="21" pinfunction="SPI_MISO" pintype="input"/>
+    </net>
+    <net code="21" name="/MOSI">
+      <node ref="JP1" pin="19" pinfunction="SPI_MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/RXD">
+      <node ref="JP1" pin="10" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="23" name="/SCL">
+      <node ref="JP1" pin="5" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/SCLK">
+      <node ref="JP1" pin="23" pinfunction="SPI_SCLK" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/SDA">
+      <node ref="JP1" pin="3" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/TXD">
+      <node ref="JP1" pin="8" pinfunction="TXD" pintype="output"/>
+    </net>
+  </nets>
+</export>
