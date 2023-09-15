@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\adafruit_adafruit_learning_system_guides_joy_button_pcb\current_version\working\working.kicad_sch</source>
+    <date>14/09/2023 21:21:02</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="HEADER0">
+      <value>PINHD-1X6</value>
+      <footprint>working:1X06</footprint>
+      <libsource lib="working-eagle-import" part="PINHD-1X6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>836e4df4-ea42-4c54-a4de-43e86e5166ad</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>SOFT_SWITCH</value>
+      <footprint>working:8MM_SWITCH</footprint>
+      <libsource lib="working-eagle-import" part="SOFT_SWITCH" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41c6f9cd-c51d-4245-966c-8f39c0d5992a</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>SOFT_SWITCH</value>
+      <footprint>working:8MM_SWITCH</footprint>
+      <libsource lib="working-eagle-import" part="SOFT_SWITCH" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6babc399-1ac3-4520-a462-ee0c6e86dd71</tstamps>
+    </comp>
+    <comp ref="S3">
+      <value>SOFT_SWITCH</value>
+      <footprint>working:8MM_SWITCH</footprint>
+      <libsource lib="working-eagle-import" part="SOFT_SWITCH" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55abcf06-be9e-4af8-ae9f-d20659916a55</tstamps>
+    </comp>
+    <comp ref="S4">
+      <value>SOFT_SWITCH</value>
+      <footprint>working:8MM_SWITCH</footprint>
+      <libsource lib="working-eagle-import" part="SOFT_SWITCH" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1e66f46-8d44-4838-be10-f1732740cc14</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="working-eagle-import" part="PINHD-1X6">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Footprint">working:1X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="working-eagle-import" part="SOFT_SWITCH">
+      <fields>
+        <field name="Footprint">working:8MM_SWITCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P" type="passive"/>
+        <pin num="2" name="P1" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="S1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/A">
+      <node ref="HEADER0" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="S1" pin="1" pinfunction="P" pintype="passive"/>
+      <node ref="S1" pin="2" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="2" name="/B">
+      <node ref="HEADER0" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="S2" pin="1" pinfunction="P" pintype="passive"/>
+      <node ref="S2" pin="2" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="3" name="/GND">
+      <node ref="HEADER0" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="HEADER0" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="S4" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="S4" pin="4" pinfunction="S1" pintype="passive"/>
+    </net>
+    <net code="4" name="/X">
+      <node ref="HEADER0" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="S3" pin="1" pinfunction="P" pintype="passive"/>
+      <node ref="S3" pin="2" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="5" name="/Y">
+      <node ref="HEADER0" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="S4" pin="1" pinfunction="P" pintype="passive"/>
+      <node ref="S4" pin="2" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(S1-S)">
+      <node ref="S1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="S1" pin="4" pinfunction="S1" pintype="passive"/>
+      <node ref="S2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="S2" pin="4" pinfunction="S1" pintype="passive"/>
+      <node ref="S3" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="S3" pin="4" pinfunction="S1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
