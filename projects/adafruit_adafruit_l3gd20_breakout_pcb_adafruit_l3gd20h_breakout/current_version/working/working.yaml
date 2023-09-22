@@ -1,9 +1,479 @@
 board: adafruit_l3gd20h_breakout
+bom:
+- Id: '1'
+  Designator: U$12,U$11,U$14,U$13
+  Footprint: MOUNTINGHOLE_2.0_PLATED
+  Quantity: '4'
+  Designation: MOUNTINGHOLE2.0
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$15,U$16
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R6,R3
+  Footprint: _0805MP
+  Quantity: '2'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R2,R5,R4,R7
+  Footprint: 0805-NO
+  Quantity: '4'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: IC2
+  Footprint: L3GD20H_LGA16L
+  Quantity: '1'
+  Designation: LGD20H
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C4,C1
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: D1
+  Footprint: SOD-323F
+  Quantity: '1'
+  Designation: 1N4148
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: IC1
+  Footprint: SOT23-5L
+  Quantity: '1'
+  Designation: MIC5225-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U$3
+  Footprint: SYMBOL_GYROXYZ_10MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: Q1,Q2
+  Footprint: SOT23
+  Quantity: '2'
+  Designation: BSS138
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: C5,C3
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: JP1
+  Footprint: 1X09_ROUND_76
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U$10
+  Footprint: ADAFRUIT_TEXT_20MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U$12,U$11,U$14,U$13\
+  \ | MOUNTINGHOLE_2.0_PLATED | 4 | MOUNTINGHOLE2.0 |  |  | [''] | \n| 2 | U$15,U$16\
+  \ | FIDUCIAL_1MM | 2 | FIDUCIAL |  |  | [''] | \n| 3 | R6,R3 | _0805MP | 2 | 10K\
+  \ |  |  | [''] | \n| 4 | R2,R5,R4,R7 | 0805-NO | 4 | 10K |  |  | [''] | \n| 5 |\
+  \ IC2 | L3GD20H_LGA16L | 1 | LGD20H |  |  | [''] | \n| 6 | C4,C1 | 0805-NO | 2 |\
+  \ 0.1uF |  |  | [''] | \n| 7 | D1 | SOD-323F | 1 | 1N4148 |  |  | [''] | \n| 8 |\
+  \ IC1 | SOT23-5L | 1 | MIC5225-3.3 |  |  | [''] | \n| 9 | U$3 | SYMBOL_GYROXYZ_10MM\
+  \ | 1 |  |  |  | [''] | \n| 10 | Q1,Q2 | SOT23 | 2 | BSS138 |  |  | [''] | \n| 11\
+  \ | C5,C3 | 0805-NO | 2 | 10uF |  |  | [''] | \n| 12 | JP1 | 1X09_ROUND_76 | 1 |\
+  \  |  |  | [''] | \n| 13 | U$10 | ADAFRUIT_TEXT_20MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C1, C4
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C3, C5
+  Value: 10uF
+  Vendor: ''
+- Cmp name: DIODESOD-323F
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-323F
+  Qnty: '1'
+  Ref: D1
+  Value: 1N4148
+  Vendor: ''
+- Cmp name: LP298XS
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5L
+  Qnty: '1'
+  Ref: IC1
+  Value: LP298XS
+  Vendor: ''
+- Cmp name: GYRO_L3GD20H
+  DNP: ''
+  Description: ''
+  Footprint: working:L3GD20H_LGA16L
+  Qnty: '1'
+  Ref: IC2
+  Value: LGD20H
+  Vendor: ''
+- Cmp name: HEADER-1X976MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X09_ROUND_76
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X976MIL
+  Vendor: ''
+- Cmp name: MOSFET-NREFLOW
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23
+  Qnty: '2'
+  Ref: Q1, Q2
+  Value: BSS138
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '4'
+  Ref: R2, R4, R5, R7
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_0805MP
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805MP
+  Qnty: '2'
+  Ref: R3, R6
+  Value: 10K
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.0
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.0_PLATED
+  Qnty: '4'
+  Ref: U$11, U$12, U$13, U$14
+  Value: MOUNTINGHOLE2.0
+  Vendor: ''
+- Cmp name: FIDUCIAL
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: U$15, U$16
+  Value: FIDUCIAL
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C4\
+  \ | 2 | 0.1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C3, C5\
+  \ | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| D1 | 1\
+  \ | 1N4148 | DIODESOD-323F | working:SOD-323F |  |  |  | \n| IC1 | 1 | LP298XS |\
+  \ LP298XS | working:SOT23-5L |  |  |  | \n| IC2 | 1 | LGD20H | GYRO_L3GD20H | working:L3GD20H_LGA16L\
+  \ |  |  |  | \n| JP1 | 1 | HEADER-1X976MIL | HEADER-1X976MIL | working:1X09_ROUND_76\
+  \ |  |  |  | \n| Q1, Q2 | 2 | BSS138 | MOSFET-NREFLOW | working:SOT23 |  |  |  |\
+  \ \n| R2, R4, R5, R7 | 4 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO |  | \
+  \ |  | \n| R3, R6 | 2 | 10K | RESISTOR_0805MP | working:_0805MP |  |  |  | \n| U$11,\
+  \ U$12, U$13, U$14 | 4 | MOUNTINGHOLE2.0 | MOUNTINGHOLE2.0 | working:MOUNTINGHOLE_2.0_PLATED\
+  \ |  |  |  | \n| U$15, U$16 | 2 | FIDUCIAL | FIDUCIAL | working:FIDUCIAL_1MM | \
+  \ |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_l3gd20_breakout_pcb_adafruit_l3gd20h_breakout/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_l3gd20_breakout_pcb_adafruit_l3gd20h_breakout/current_version/working/working.sch
 id: adafruit_adafruit_l3gd20_breakout_pcb_adafruit_l3gd20h_breakout
+mounting_holes:
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$11
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '25.400000000000006'
+  y: '12.826999999999998'
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$12
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '0.0'
+  y: '12.826999999999998'
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$13
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$14
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '25.400000000000006'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 25.400000000000006 | 12.826999999999998 | MOUNTINGHOLE_2.0_PLATED\
+  \ | MOUNTINGHOLE2.0 | U$11 | m3 | \n| 0.0 | 12.826999999999998 | MOUNTINGHOLE_2.0_PLATED\
+  \ | MOUNTINGHOLE2.0 | U$12 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0\
+  \ | U$13 | m3 | \n| 25.400000000000006 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0\
+  \ | U$14 | m3 | \n"
 name: adafruit_l3gd20_breakout_pcb
+position_bottom:
+- '# Ref': U$10
+  Package: ADAFRUIT_TEXT_20MM
+  PosX: 158.4071
+  PosY: -111.7346
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$10 | nan | ADAFRUIT_TEXT_20MM\
+  \ | 158.4071 | -111.7346 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 143.6751
+  PosY: -103.7336
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 154.3431
+  PosY: -104.7496
+  Rot: 90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C4
+  Package: 0805-NO
+  PosX: 145.4531
+  PosY: -100.8126
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C5
+  Package: 0805-NO
+  PosX: 154.9781
+  PosY: -107.9246
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': D1
+  Package: SOD-323F
+  PosX: 150.4061
+  PosY: -108.0516
+  Rot: 180.0
+  Side: top
+  Val: 1N4148
+- '# Ref': IC1
+  Package: SOT23-5L
+  PosX: 156.8831
+  PosY: -104.8766
+  Rot: 0.0
+  Side: top
+  Val: MIC5225-3.3
+- '# Ref': IC2
+  Package: L3GD20H_LGA16L
+  PosX: 148.5011
+  PosY: -104.6226
+  Rot: 90.0
+  Side: top
+  Val: LGD20H
+- '# Ref': JP1
+  Package: 1X09_ROUND_76
+  PosX: 148.5011
+  PosY: -113.0046
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': Q1
+  Package: SOT23
+  PosX: 141.6431
+  PosY: -99.9236
+  Rot: 90.0
+  Side: top
+  Val: BSS138
+- '# Ref': Q2
+  Package: SOT23
+  PosX: 139.1031
+  PosY: -105.1306
+  Rot: 180.0
+  Side: top
+  Val: BSS138
+- '# Ref': R2
+  Package: 0805-NO
+  PosX: 139.2301
+  PosY: -101.5746
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: _0805MP
+  PosX: 138.9761
+  PosY: -108.4326
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R4
+  Package: 0805-NO
+  PosX: 142.5321
+  PosY: -108.4326
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R5
+  Package: 0805-NO
+  PosX: 143.6751
+  PosY: -105.5116
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R6
+  Package: _0805MP
+  PosX: 152.4381
+  PosY: -105.1306
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R7
+  Package: 0805-NO
+  PosX: 146.2151
+  PosY: -108.4326
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': U$3
+  Package: SYMBOL_GYROXYZ_10MM
+  PosX: 148.8821
+  PosY: -102.5906
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$11
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 161.2011
+  PosY: -98.0186
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U$12
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 135.8011
+  PosY: -98.0186
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U$13
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 135.8011
+  PosY: -110.8456
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U$14
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 161.2011
+  PosY: -110.8456
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U$15
+  Package: FIDUCIAL_1MM
+  PosX: 147.7391
+  PosY: -99.2886
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': U$16
+  Package: FIDUCIAL_1MM
+  PosX: 159.2961
+  PosY: -107.7976
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | 0805-NO | 143.6751 | -103.7336\
+  \ | 0.0 | top | \n| C3 | 10uF | 0805-NO | 154.3431 | -104.7496 | 90.0 | top | \n\
+  | C4 | 0.1uF | 0805-NO | 145.4531 | -100.8126 | -90.0 | top | \n| C5 | 10uF | 0805-NO\
+  \ | 154.9781 | -107.9246 | 0.0 | top | \n| D1 | 1N4148 | SOD-323F | 150.4061 | -108.0516\
+  \ | 180.0 | top | \n| IC1 | MIC5225-3.3 | SOT23-5L | 156.8831 | -104.8766 | 0.0\
+  \ | top | \n| IC2 | LGD20H | L3GD20H_LGA16L | 148.5011 | -104.6226 | 90.0 | top\
+  \ | \n| JP1 | nan | 1X09_ROUND_76 | 148.5011 | -113.0046 | 0.0 | top | \n| Q1 |\
+  \ BSS138 | SOT23 | 141.6431 | -99.9236 | 90.0 | top | \n| Q2 | BSS138 | SOT23 |\
+  \ 139.1031 | -105.1306 | 180.0 | top | \n| R2 | 10K | 0805-NO | 139.2301 | -101.5746\
+  \ | 0.0 | top | \n| R3 | 10K | _0805MP | 138.9761 | -108.4326 | 0.0 | top | \n|\
+  \ R4 | 10K | 0805-NO | 142.5321 | -108.4326 | 0.0 | top | \n| R5 | 10K | 0805-NO\
+  \ | 143.6751 | -105.5116 | 180.0 | top | \n| R6 | 10K | _0805MP | 152.4381 | -105.1306\
+  \ | -90.0 | top | \n| R7 | 10K | 0805-NO | 146.2151 | -108.4326 | 0.0 | top | \n\
+  | U$3 | nan | SYMBOL_GYROXYZ_10MM | 148.8821 | -102.5906 | 0.0 | top | \n| U$11\
+  \ | MOUNTINGHOLE2.0 | MOUNTINGHOLE_2.0_PLATED | 161.2011 | -98.0186 | 0.0 | top\
+  \ | \n| U$12 | MOUNTINGHOLE2.0 | MOUNTINGHOLE_2.0_PLATED | 135.8011 | -98.0186 |\
+  \ 0.0 | top | \n| U$13 | MOUNTINGHOLE2.0 | MOUNTINGHOLE_2.0_PLATED | 135.8011 |\
+  \ -110.8456 | 0.0 | top | \n| U$14 | MOUNTINGHOLE2.0 | MOUNTINGHOLE_2.0_PLATED |\
+  \ 161.2011 | -110.8456 | 0.0 | top | \n| U$15 | FIDUCIAL | FIDUCIAL_1MM | 147.7391\
+  \ | -99.2886 | 0.0 | top | \n| U$16 | FIDUCIAL | FIDUCIAL_1MM | 159.2961 | -107.7976\
+  \ | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_l3gd20_breakout_pcb_adafruit_l3gd20h_breakout/current_version/working
 repo:
   allow_forking: true

@@ -1,9 +1,378 @@
 board: adafruit_adxl345_triple_axis_accelerometer
+bom:
+- Id: '1'
+  Designator: JP1
+  Footprint: 1X09_ROUND_70
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R3,R6,R5,R7,R1,R2
+  Footprint: 0805-NO
+  Quantity: '6'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C1
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$1,U$3
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C3
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: "10\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U1
+  Footprint: LGA14
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: Q1,Q2
+  Footprint: SOT23-WIDE
+  Quantity: '2'
+  Designation: BSS138
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U2
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: D1
+  Footprint: SOD-323_MINI
+  Quantity: '1'
+  Designation: 1N4148
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U$4,U$6
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U$7
+  Footprint: ADAFRUIT_TEXT_20MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | JP1\
+  \ | 1X09_ROUND_70 | 1 |  |  |  | [''] | \n| 2 | R3,R6,R5,R7,R1,R2 | 0805-NO | 6\
+  \ | 10K |  |  | [''] | \n| 3 | C1 | 0805-NO | 1 | 0.1uF |  |  | [''] | \n| 4 | U$1,U$3\
+  \ | FIDUCIAL_1MM | 2 | FIDUCIAL |  |  | [''] | \n| 5 | C3 | 0805-NO | 1 | 10\xC2\
+  \xB5F |  |  | [''] | \n| 6 | U1 | LGA14 | 1 |  |  |  | [''] | \n| 7 | Q1,Q2 | SOT23-WIDE\
+  \ | 2 | BSS138 |  |  | [''] | \n| 8 | U2 | SOT23-5 | 1 |  |  |  | [''] | \n| 9 |\
+  \ D1 | SOD-323_MINI | 1 | 1N4148 |  |  | [''] | \n| 10 | U$4,U$6 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 2 | MOUNTINGHOLE2.5 |  |  | [''] | \n| 11 | U$7 | ADAFRUIT_TEXT_20MM | 1 | \
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C1
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C3
+  Value: "10\xC2\xB5F"
+  Vendor: ''
+- Cmp name: DIODE_SOD323MINI
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-323_MINI
+  Qnty: '1'
+  Ref: D1
+  Value: 1N4148
+  Vendor: ''
+- Cmp name: HEADER-1X970MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X09_ROUND_70
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X970MIL
+  Vendor: ''
+- Cmp name: MOSFET-NWIDE
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-WIDE
+  Qnty: '2'
+  Ref: Q1, Q2
+  Value: BSS138
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '6'
+  Ref: R1, R2, R3, R5, R6, R7
+  Value: 10K
+  Vendor: ''
+- Cmp name: ACCEL_ADXL345
+  DNP: ''
+  Description: ''
+  Footprint: working:LGA14
+  Qnty: '1'
+  Ref: U1
+  Value: ACCEL_ADXL345
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U2
+  Value: VREG_SOT23-5
+  Vendor: ''
+- Cmp name: FIDUCIAL
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: U$1, U$3
+  Value: FIDUCIAL
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '2'
+  Ref: U$4, U$6
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 0.1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C3 | 1\
+  \ | 10\xC2\xB5F | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| D1\
+  \ | 1 | 1N4148 | DIODE_SOD323MINI | working:SOD-323_MINI |  |  |  | \n| JP1 | 1\
+  \ | HEADER-1X970MIL | HEADER-1X970MIL | working:1X09_ROUND_70 |  |  |  | \n| Q1,\
+  \ Q2 | 2 | BSS138 | MOSFET-NWIDE | working:SOT23-WIDE |  |  |  | \n| R1, R2, R3,\
+  \ R5, R6, R7 | 6 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | \n\
+  | U1 | 1 | ACCEL_ADXL345 | ACCEL_ADXL345 | working:LGA14 |  |  |  | \n| U2 | 1 |\
+  \ VREG_SOT23-5 | VREG_SOT23-5 | working:SOT23-5 |  |  |  | \n| U$1, U$3 | 2 | FIDUCIAL\
+  \ | FIDUCIAL | working:FIDUCIAL_1MM |  |  |  | \n| U$4, U$6 | 2 | MOUNTINGHOLE2.5\
+  \ | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_adxl345_pcb_adafruit_adxl345_triple_axis_accelerometer/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_adxl345_pcb_adafruit_adxl345_triple_axis_accelerometer/current_version/working/working.sch
 id: adafruit_adafruit_adxl345_pcb_adafruit_adxl345_triple_axis_accelerometer
 name: adafruit_adxl345_pcb
+position_bottom:
+- '# Ref': U$4
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 158.0261
+  PosY: -98.0186
+  Rot: 180.0
+  Side: bottom
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$6
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 138.9761
+  PosY: -98.0186
+  Rot: 180.0
+  Side: bottom
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$7
+  Package: ADAFRUIT_TEXT_20MM
+  PosX: 158.1531
+  PosY: -106.7816
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$4 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 158.0261 | -98.0186 | 180.0 | bottom | \n| U$6 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 138.9761 | -98.0186 | 180.0 | bottom | \n| U$7 | nan | ADAFRUIT_TEXT_20MM |\
+  \ 158.1531 | -106.7816 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 144.8181
+  PosY: -101.0666
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 140.2461
+  PosY: -103.7336
+  Rot: 0.0
+  Side: top
+  Val: "10\xC2\xB5F"
+- '# Ref': D1
+  Package: SOD-323_MINI
+  PosX: 145.3261
+  PosY: -108.0516
+  Rot: 0.0
+  Side: top
+  Val: 1N4148
+- '# Ref': JP1
+  Package: 1X09_ROUND_70
+  PosX: 148.7551
+  PosY: -111.9886
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': Q1
+  Package: SOT23-WIDE
+  PosX: 150.9141
+  PosY: -105.6386
+  Rot: -90.0
+  Side: top
+  Val: BSS138
+- '# Ref': Q2
+  Package: SOT23-WIDE
+  PosX: 155.3591
+  PosY: -101.4476
+  Rot: -90.0
+  Side: top
+  Val: BSS138
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 157.2641
+  PosY: -104.8766
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: 0805-NO
+  PosX: 144.8181
+  PosY: -105.1306
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: 0805-NO
+  PosX: 152.6921
+  PosY: -101.7016
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R5
+  Package: 0805-NO
+  PosX: 154.2161
+  PosY: -106.0196
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R6
+  Package: 0805-NO
+  PosX: 157.1371
+  PosY: -106.9086
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R7
+  Package: 0805-NO
+  PosX: 140.2461
+  PosY: -101.5746
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': U$1
+  Package: FIDUCIAL_1MM
+  PosX: 141.5923
+  PosY: -99.441
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': U$3
+  Package: FIDUCIAL_1MM
+  PosX: 157.5181
+  PosY: -109.0676
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': U1
+  Package: LGA14
+  PosX: 148.8821
+  PosY: -101.7016
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U2
+  Package: SOT23-5
+  PosX: 140.2461
+  PosY: -106.4006
+  Rot: -90.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | 0805-NO | 144.8181 | -101.0666\
+  \ | -90.0 | top | \n| C3 | 10\xC2\xB5F | 0805-NO | 140.2461 | -103.7336 | 0.0 |\
+  \ top | \n| D1 | 1N4148 | SOD-323_MINI | 145.3261 | -108.0516 | 0.0 | top | \n|\
+  \ JP1 | nan | 1X09_ROUND_70 | 148.7551 | -111.9886 | 0.0 | top | \n| Q1 | BSS138\
+  \ | SOT23-WIDE | 150.9141 | -105.6386 | -90.0 | top | \n| Q2 | BSS138 | SOT23-WIDE\
+  \ | 155.3591 | -101.4476 | -90.0 | top | \n| R1 | 10K | 0805-NO | 157.2641 | -104.8766\
+  \ | 0.0 | top | \n| R2 | 10K | 0805-NO | 144.8181 | -105.1306 | -90.0 | top | \n\
+  | R3 | 10K | 0805-NO | 152.6921 | -101.7016 | 90.0 | top | \n| R5 | 10K | 0805-NO\
+  \ | 154.2161 | -106.0196 | 90.0 | top | \n| R6 | 10K | 0805-NO | 157.1371 | -106.9086\
+  \ | 180.0 | top | \n| R7 | 10K | 0805-NO | 140.2461 | -101.5746 | 0.0 | top | \n\
+  | U$1 | FIDUCIAL | FIDUCIAL_1MM | 141.5923 | -99.441 | 0.0 | top | \n| U$3 | FIDUCIAL\
+  \ | FIDUCIAL_1MM | 157.5181 | -109.0676 | 0.0 | top | \n| U1 | nan | LGA14 | 148.8821\
+  \ | -101.7016 | 0.0 | top | \n| U2 | nan | SOT23-5 | 140.2461 | -106.4006 | -90.0\
+  \ | top | \n"
 projects_flat: projects/adafruit_adafruit_adxl345_pcb_adafruit_adxl345_triple_axis_accelerometer/current_version/working
 repo:
   allow_forking: true

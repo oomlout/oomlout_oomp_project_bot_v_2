@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit-16-channel-PWM-Servo-Shield/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_16_channel_pwm_servo_shield_adafruit_pwm_servo_shield/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

@@ -1,9 +1,1291 @@
 board: dmx_eth_dimmer
+bom:
+- Id: '1'
+  Designator: C1,C2
+  Footprint: C_Disc_D3.0mm_W1.6mm_P2.50mm
+  Quantity: '2'
+  Designation: 33pF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C3
+  Footprint: CP_Radial_D10.0mm_P5.00mm
+  Quantity: '1'
+  Designation: 1000uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C5,C6,C7,C8,C9,C10,C11,C12,C13
+  Footprint: C_Disc_D3.0mm_W1.6mm_P2.50mm
+  Quantity: '9'
+  Designation: 0.01uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: D1
+  Footprint: LED_D3.0mm
+  Quantity: '1'
+  Designation: CFG Status
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: D2
+  Footprint: LED_D3.0mm
+  Quantity: '1'
+  Designation: Ethernet Status
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: D4,D5,D6,D7,D8,D9,D10,D11
+  Footprint: TO-220-3_Vertical
+  Quantity: '8'
+  Designation: BTA08-600
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: J1
+  Footprint: TerminalBlock_bornier-2_P5.08mm
+  Quantity: '1'
+  Designation: MAINS IN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: J2
+  Footprint: Pin_Header_Straight_2x06_Pitch2.54mm
+  Quantity: '1'
+  Designation: STANDARD ENC28J60
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: J3
+  Footprint: Pin_Header_Straight_2x05_Pitch2.54mm
+  Quantity: '1'
+  Designation: MINI ENC28J60
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: J4
+  Footprint: Pin_Header_Straight_1x06_Pitch2.54mm
+  Quantity: '1'
+  Designation: MASTER PROG
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: J5,J7,J9,J11,J13,J15,J17,J19
+  Footprint: Pin_Header_Straight_1x06_Pitch2.54mm
+  Quantity: '8'
+  Designation: PRG
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: J6,J8,J10,J12,J14,J16,J18,J20
+  Footprint: TerminalBlock_bornier-2_P5.08mm
+  Quantity: '8'
+  Designation: LOAD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: SW7
+  Footprint: SW_DIP_x8_W7.62mm_Slide
+  Quantity: '1'
+  Designation: SW_DIP_x08
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: U2
+  Footprint: TO-220-3_Vertical
+  Quantity: '1'
+  Designation: 3.3v Regulator
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U3
+  Footprint: DIP-14_W7.62mm
+  Quantity: '1'
+  Designation: 74HCT08
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: U4
+  Footprint: DIP-6_W7.62mm
+  Quantity: '1'
+  Designation: 4N25
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: U5,U7,U9,U11,U13,U15,U17,U19
+  Footprint: DIP-8_W7.62mm
+  Quantity: '8'
+  Designation: PIC12(L)F1571/2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: U6,U8,U10,U12,U14,U16,U18,U20
+  Footprint: DIP-6_W7.62mm
+  Quantity: '8'
+  Designation: MOC3020M
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: Y1
+  Footprint: Crystal_HC50_Vertical
+  Quantity: '1'
+  Designation: 20MHz
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: F1
+  Footprint: Fuseholder5x20_horiz_open_inline_Type-I
+  Quantity: '1'
+  Designation: 100mA
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '21'
+  Designator: F2,F3,F4,F5,F6,F7,F8,F9
+  Footprint: Fuseholder5x20_horiz_open_inline_Type-I
+  Quantity: '8'
+  Designation: 5A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '22'
+  Designator: R16,R18,R20,R22,R24,R26,R12,R14
+  Footprint: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  Quantity: '8'
+  Designation: '240'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '23'
+  Designator: R17,R19,R21,R23,R25,R27,R13,R15
+  Footprint: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  Quantity: '8'
+  Designation: '180'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '24'
+  Designator: R1,R2,R3,R8,R9,R10,R11,R30
+  Footprint: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  Quantity: '8'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '25'
+  Designator: R4,R5,R6,R7
+  Footprint: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  Quantity: '4'
+  Designation: '300'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '26'
+  Designator: R28
+  Footprint: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  Quantity: '1'
+  Designation: 100K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '27'
+  Designator: R29
+  Footprint: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  Quantity: '1'
+  Designation: '120'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '28'
+  Designator: D3
+  Footprint: Diode_Bridge_W08
+  Quantity: '1'
+  Designation: BRIDGE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '29'
+  Designator: SW1
+  Footprint: SW_PUSH_6mm_4pin
+  Quantity: '1'
+  Designation: IP1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '30'
+  Designator: SW2
+  Footprint: SW_PUSH_6mm_4pin
+  Quantity: '1'
+  Designation: IP2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '31'
+  Designator: SW3
+  Footprint: SW_PUSH_6mm_4pin
+  Quantity: '1'
+  Designation: IP3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '32'
+  Designator: SW4
+  Footprint: SW_PUSH_6mm_4pin
+  Quantity: '1'
+  Designation: IP4
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '33'
+  Designator: SW5
+  Footprint: SW_PUSH_6mm_4pin
+  Quantity: '1'
+  Designation: DMXAH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '34'
+  Designator: SW6
+  Footprint: SW_PUSH_6mm_4pin
+  Quantity: '1'
+  Designation: DMXAL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '35'
+  Designator: U***1
+  Footprint: DIP-40_W15.24mm
+  Quantity: '1'
+  Designation: PIC16F877A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '36'
+  Designator: U1
+  Footprint: HLK-PM01
+  Quantity: '1'
+  Designation: PSU-5VDC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C2\
+  \ | C_Disc_D3.0mm_W1.6mm_P2.50mm | 2 | 33pF |  |  | [''] | \n| 2 | C3 | CP_Radial_D10.0mm_P5.00mm\
+  \ | 1 | 1000uF |  |  | [''] | \n| 3 | C5,C6,C7,C8,C9,C10,C11,C12,C13 | C_Disc_D3.0mm_W1.6mm_P2.50mm\
+  \ | 9 | 0.01uF |  |  | [''] | \n| 4 | D1 | LED_D3.0mm | 1 | CFG Status |  |  | ['']\
+  \ | \n| 5 | D2 | LED_D3.0mm | 1 | Ethernet Status |  |  | [''] | \n| 6 | D4,D5,D6,D7,D8,D9,D10,D11\
+  \ | TO-220-3_Vertical | 8 | BTA08-600 |  |  | [''] | \n| 7 | J1 | TerminalBlock_bornier-2_P5.08mm\
+  \ | 1 | MAINS IN |  |  | [''] | \n| 8 | J2 | Pin_Header_Straight_2x06_Pitch2.54mm\
+  \ | 1 | STANDARD ENC28J60 |  |  | [''] | \n| 9 | J3 | Pin_Header_Straight_2x05_Pitch2.54mm\
+  \ | 1 | MINI ENC28J60 |  |  | [''] | \n| 10 | J4 | Pin_Header_Straight_1x06_Pitch2.54mm\
+  \ | 1 | MASTER PROG |  |  | [''] | \n| 11 | J5,J7,J9,J11,J13,J15,J17,J19 | Pin_Header_Straight_1x06_Pitch2.54mm\
+  \ | 8 | PRG |  |  | [''] | \n| 12 | J6,J8,J10,J12,J14,J16,J18,J20 | TerminalBlock_bornier-2_P5.08mm\
+  \ | 8 | LOAD |  |  | [''] | \n| 13 | SW7 | SW_DIP_x8_W7.62mm_Slide | 1 | SW_DIP_x08\
+  \ |  |  | [''] | \n| 14 | U2 | TO-220-3_Vertical | 1 | 3.3v Regulator |  |  | ['']\
+  \ | \n| 15 | U3 | DIP-14_W7.62mm | 1 | 74HCT08 |  |  | [''] | \n| 16 | U4 | DIP-6_W7.62mm\
+  \ | 1 | 4N25 |  |  | [''] | \n| 17 | U5,U7,U9,U11,U13,U15,U17,U19 | DIP-8_W7.62mm\
+  \ | 8 | PIC12(L)F1571/2 |  |  | [''] | \n| 18 | U6,U8,U10,U12,U14,U16,U18,U20 |\
+  \ DIP-6_W7.62mm | 8 | MOC3020M |  |  | [''] | \n| 19 | Y1 | Crystal_HC50_Vertical\
+  \ | 1 | 20MHz |  |  | [''] | \n| 20 | F1 | Fuseholder5x20_horiz_open_inline_Type-I\
+  \ | 1 | 100mA |  |  | [''] | \n| 21 | F2,F3,F4,F5,F6,F7,F8,F9 | Fuseholder5x20_horiz_open_inline_Type-I\
+  \ | 8 | 5A |  |  | [''] | \n| 22 | R16,R18,R20,R22,R24,R26,R12,R14 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 8 | 240 |  |  | [''] | \n| 23 | R17,R19,R21,R23,R25,R27,R13,R15 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 8 | 180 |  |  | [''] | \n| 24 | R1,R2,R3,R8,R9,R10,R11,R30 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 8 | 10K |  |  | [''] | \n| 25 | R4,R5,R6,R7 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 4 | 300 |  |  | [''] | \n| 26 | R28 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 1 | 100K |  |  | [''] | \n| 27 | R29 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 1 | 120 |  |  | [''] | \n| 28 | D3 | Diode_Bridge_W08 | 1 | BRIDGE |  |  | ['']\
+  \ | \n| 29 | SW1 | SW_PUSH_6mm_4pin | 1 | IP1 |  |  | [''] | \n| 30 | SW2 | SW_PUSH_6mm_4pin\
+  \ | 1 | IP2 |  |  | [''] | \n| 31 | SW3 | SW_PUSH_6mm_4pin | 1 | IP3 |  |  | ['']\
+  \ | \n| 32 | SW4 | SW_PUSH_6mm_4pin | 1 | IP4 |  |  | [''] | \n| 33 | SW5 | SW_PUSH_6mm_4pin\
+  \ | 1 | DMXAH |  |  | [''] | \n| 34 | SW6 | SW_PUSH_6mm_4pin | 1 | DMXAL |  |  |\
+  \ [''] | \n| 35 | U***1 | DIP-40_W15.24mm | 1 | PIC16F877A |  |  | [''] | \n| 36\
+  \ | U1 | HLK-PM01 | 1 | PSU-5VDC |  |  | [''] | \n"
 counter: 1
 file_kicad_pcb_flat: projects/carnivalben_dmx_eth_dimmer_dmx_eth_dimmer/current_version/working/working.kicad_pcb
 file_sch_flat: projects/carnivalben_dmx_eth_dimmer_dmx_eth_dimmer/current_version/working/working.sch
 id: carnivalben_dmx_eth_dimmer_dmx_eth_dimmer
 name: dmx_eth_dimmer
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_Disc_D3.0mm_W1.6mm_P2.50mm
+  PosX: 90.805
+  PosY: -116.84
+  Rot: -90.0
+  Side: top
+  Val: 33pF
+- '# Ref': C2
+  Package: C_Disc_D3.0mm_W1.6mm_P2.50mm
+  PosX: 93.345
+  PosY: -116.84
+  Rot: -90.0
+  Side: top
+  Val: 33pF
+- '# Ref': C3
+  Package: CP_Radial_D10.0mm_P5.00mm
+  PosX: 35.56
+  PosY: -124.46
+  Rot: 0.0
+  Side: top
+  Val: 1000uF
+- '# Ref': C5
+  Package: C_Disc_D3.0mm_W1.6mm_P2.50mm
+  PosX: 87.63
+  PosY: -93.98
+  Rot: 0.0
+  Side: top
+  Val: 0.01uF
+- '# Ref': C6
+  Package: C_Disc_D3.0mm_W1.6mm_P2.50mm
+  PosX: 142.24
+  PosY: -112.395
+  Rot: 180.0
+  Side: top
+  Val: 0.01uF
+- '# Ref': C7
+  Package: C_Disc_D3.0mm_W1.6mm_P2.50mm
+  PosX: 120.015
+  PosY: -111.76
+  Rot: 90.0
+  Side: top
+  Val: 0.01uF
+- '# Ref': C8
+  Package: C_Disc_D3.0mm_W1.6mm_P2.50mm
+  PosX: 110.49
+  PosY: -55.245
+  Rot: 0.0
+  Side: top
+  Val: 0.01uF
+- '# Ref': C9
+  Package: C_Disc_D3.0mm_W1.6mm_P2.50mm
+  PosX: 64.135
+  PosY: -66.04
+  Rot: 0.0
+  Side: top
+  Val: 0.01uF
+- '# Ref': C10
+  Package: C_Disc_D3.0mm_W1.6mm_P2.50mm
+  PosX: 149.86
+  PosY: -71.12
+  Rot: 0.0
+  Side: top
+  Val: 0.01uF
+- '# Ref': C11
+  Package: C_Disc_D3.0mm_W1.6mm_P2.50mm
+  PosX: 144.78
+  PosY: -81.28
+  Rot: -90.0
+  Side: top
+  Val: 0.01uF
+- '# Ref': C12
+  Package: C_Disc_D3.0mm_W1.6mm_P2.50mm
+  PosX: 121.285
+  PosY: -92.075
+  Rot: -90.0
+  Side: top
+  Val: 0.01uF
+- '# Ref': C13
+  Package: C_Disc_D3.0mm_W1.6mm_P2.50mm
+  PosX: 148.59
+  PosY: -102.87
+  Rot: -90.0
+  Side: top
+  Val: 0.01uF
+- '# Ref': D1
+  Package: LED_D3.0mm
+  PosX: 80.01
+  PosY: -107.95
+  Rot: 90.0
+  Side: top
+  Val: CFG_Status
+- '# Ref': D2
+  Package: LED_D3.0mm
+  PosX: 85.09
+  PosY: -107.95
+  Rot: 90.0
+  Side: top
+  Val: Ethernet_Status
+- '# Ref': D3
+  Package: Diode_Bridge_W08
+  PosX: 41.91
+  PosY: -67.31
+  Rot: -90.0
+  Side: top
+  Val: BRIDGE
+- '# Ref': D4
+  Package: TO-220-3_Vertical
+  PosX: 158.75
+  PosY: -121.285
+  Rot: 0.0
+  Side: top
+  Val: BTA08-600
+- '# Ref': D5
+  Package: TO-220-3_Vertical
+  PosX: 88.265
+  PosY: -134.62
+  Rot: 180.0
+  Side: top
+  Val: BTA08-600
+- '# Ref': D6
+  Package: TO-220-3_Vertical
+  PosX: 97.79
+  PosY: -36.83
+  Rot: -90.0
+  Side: top
+  Val: BTA08-600
+- '# Ref': D7
+  Package: TO-220-3_Vertical
+  PosX: 62.865
+  PosY: -35.56
+  Rot: -90.0
+  Side: top
+  Val: BTA08-600
+- '# Ref': D8
+  Package: TO-220-3_Vertical
+  PosX: 145.415
+  PosY: -35.56
+  Rot: -90.0
+  Side: top
+  Val: BTA08-600
+- '# Ref': D9
+  Package: TO-220-3_Vertical
+  PosX: 179.705
+  PosY: -35.56
+  Rot: -90.0
+  Side: top
+  Val: BTA08-600
+- '# Ref': D10
+  Package: TO-220-3_Vertical
+  PosX: 191.77
+  PosY: -70.485
+  Rot: 180.0
+  Side: top
+  Val: BTA08-600
+- '# Ref': D11
+  Package: TO-220-3_Vertical
+  PosX: 193.04
+  PosY: -107.315
+  Rot: 180.0
+  Side: top
+  Val: BTA08-600
+- '# Ref': F1
+  Package: Fuseholder5x20_horiz_open_inline_Type-I
+  PosX: 27.94
+  PosY: -73.66
+  Rot: 90.0
+  Side: top
+  Val: 100mA
+- '# Ref': F2
+  Package: Fuseholder5x20_horiz_open_inline_Type-I
+  PosX: 196.215
+  PosY: -128.905
+  Rot: 180.0
+  Side: top
+  Val: 5A
+- '# Ref': F3
+  Package: Fuseholder5x20_horiz_open_inline_Type-I
+  PosX: 151.13
+  PosY: -134.62
+  Rot: 180.0
+  Side: top
+  Val: 5A
+- '# Ref': F4
+  Package: Fuseholder5x20_horiz_open_inline_Type-I
+  PosX: 75.565
+  PosY: -24.13
+  Rot: -90.0
+  Side: top
+  Val: 5A
+- '# Ref': F5
+  Package: Fuseholder5x20_horiz_open_inline_Type-I
+  PosX: 40.005
+  PosY: -24.13
+  Rot: -90.0
+  Side: top
+  Val: 5A
+- '# Ref': F6
+  Package: Fuseholder5x20_horiz_open_inline_Type-I
+  PosX: 102.87
+  PosY: -29.845
+  Rot: 0.0
+  Side: top
+  Val: 5A
+- '# Ref': F7
+  Package: Fuseholder5x20_horiz_open_inline_Type-I
+  PosX: 156.845
+  PosY: -24.13
+  Rot: -90.0
+  Side: top
+  Val: 5A
+- '# Ref': F8
+  Package: Fuseholder5x20_horiz_open_inline_Type-I
+  PosX: 190.5
+  PosY: -24.13
+  Rot: -90.0
+  Side: top
+  Val: 5A
+- '# Ref': F9
+  Package: Fuseholder5x20_horiz_open_inline_Type-I
+  PosX: 196.215
+  PosY: -81.915
+  Rot: 180.0
+  Side: top
+  Val: 5A
+- '# Ref': J1
+  Package: TerminalBlock_bornier-2_P5.08mm
+  PosX: 27.94
+  PosY: -38.1
+  Rot: -90.0
+  Side: top
+  Val: MAINS_IN
+- '# Ref': J2
+  Package: Pin_Header_Straight_2x06_Pitch2.54mm
+  PosX: 111.76
+  PosY: -70.485
+  Rot: -90.0
+  Side: top
+  Val: STANDARD_ENC28J60
+- '# Ref': J3
+  Package: Pin_Header_Straight_2x05_Pitch2.54mm
+  PosX: 119.38
+  PosY: -73.025
+  Rot: 90.0
+  Side: top
+  Val: MINI_ENC28J60
+- '# Ref': J4
+  Package: Pin_Header_Straight_1x06_Pitch2.54mm
+  PosX: 51.435
+  PosY: -86.36
+  Rot: 0.0
+  Side: top
+  Val: MASTER_PROG
+- '# Ref': J5
+  Package: Pin_Header_Straight_1x06_Pitch2.54mm
+  PosX: 133.985
+  PosY: -127.0
+  Rot: 90.0
+  Side: top
+  Val: PRG
+- '# Ref': J6
+  Package: TerminalBlock_bornier-2_P5.08mm
+  PosX: 162.56
+  PosY: -131.445
+  Rot: 0.0
+  Side: top
+  Val: LOAD
+- '# Ref': J7
+  Package: Pin_Header_Straight_1x06_Pitch2.54mm
+  PosX: 103.505
+  PosY: -106.68
+  Rot: 0.0
+  Side: top
+  Val: PRG
+- '# Ref': J8
+  Package: TerminalBlock_bornier-2_P5.08mm
+  PosX: 102.235
+  PosY: -133.35
+  Rot: 0.0
+  Side: top
+  Val: LOAD
+- '# Ref': J9
+  Package: Pin_Header_Straight_1x06_Pitch2.54mm
+  PosX: 120.015
+  PosY: -40.005
+  Rot: -90.0
+  Side: top
+  Val: PRG
+- '# Ref': J10
+  Package: TerminalBlock_bornier-2_P5.08mm
+  PosX: 88.9
+  PosY: -32.385
+  Rot: 180.0
+  Side: top
+  Val: LOAD
+- '# Ref': J11
+  Package: Pin_Header_Straight_1x06_Pitch2.54mm
+  PosX: 71.755
+  PosY: -50.8
+  Rot: -90.0
+  Side: top
+  Val: PRG
+- '# Ref': J12
+  Package: TerminalBlock_bornier-2_P5.08mm
+  PosX: 53.34
+  PosY: -32.385
+  Rot: 180.0
+  Side: top
+  Val: LOAD
+- '# Ref': J13
+  Package: Pin_Header_Straight_1x06_Pitch2.54mm
+  PosX: 157.48
+  PosY: -55.245
+  Rot: -90.0
+  Side: top
+  Val: PRG
+- '# Ref': J14
+  Package: TerminalBlock_bornier-2_P5.08mm
+  PosX: 135.89
+  PosY: -32.385
+  Rot: 180.0
+  Side: top
+  Val: LOAD
+- '# Ref': J15
+  Package: Pin_Header_Straight_1x06_Pitch2.54mm
+  PosX: 160.655
+  PosY: -86.36
+  Rot: 180.0
+  Side: top
+  Val: PRG
+- '# Ref': J16
+  Package: TerminalBlock_bornier-2_P5.08mm
+  PosX: 170.18
+  PosY: -32.385
+  Rot: 180.0
+  Side: top
+  Val: LOAD
+- '# Ref': J17
+  Package: Pin_Header_Straight_1x06_Pitch2.54mm
+  PosX: 137.795
+  PosY: -101.6
+  Rot: 180.0
+  Side: top
+  Val: PRG
+- '# Ref': J18
+  Package: TerminalBlock_bornier-2_P5.08mm
+  PosX: 195.58
+  PosY: -61.595
+  Rot: 90.0
+  Side: top
+  Val: LOAD
+- '# Ref': J19
+  Package: Pin_Header_Straight_1x06_Pitch2.54mm
+  PosX: 165.1
+  PosY: -109.22
+  Rot: 180.0
+  Side: top
+  Val: PRG
+- '# Ref': J20
+  Package: TerminalBlock_bornier-2_P5.08mm
+  PosX: 195.58
+  PosY: -98.425
+  Rot: 90.0
+  Side: top
+  Val: LOAD
+- '# Ref': R1
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 50.8
+  PosY: -109.22
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 47.625
+  PosY: -109.22
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 47.625
+  PosY: -132.08
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R4
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 81.28
+  PosY: -120.65
+  Rot: 90.0
+  Side: top
+  Val: '300'
+- '# Ref': R5
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 78.105
+  PosY: -120.65
+  Rot: 90.0
+  Side: top
+  Val: '300'
+- '# Ref': R6
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 84.455
+  PosY: -120.65
+  Rot: 90.0
+  Side: top
+  Val: '300'
+- '# Ref': R7
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 87.63
+  PosY: -120.65
+  Rot: 90.0
+  Side: top
+  Val: '300'
+- '# Ref': R8
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 50.8
+  PosY: -132.08
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R9
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 66.675
+  PosY: -125.095
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R10
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 66.675
+  PosY: -128.27
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R11
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 55.88
+  PosY: -80.01
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R12
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 159.385
+  PosY: -113.03
+  Rot: 0.0
+  Side: top
+  Val: '240'
+- '# Ref': R13
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 182.245
+  PosY: -121.285
+  Rot: 180.0
+  Side: top
+  Val: '180'
+- '# Ref': R14
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 107.95
+  PosY: -119.38
+  Rot: 0.0
+  Side: top
+  Val: '240'
+- '# Ref': R15
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 116.205
+  PosY: -132.08
+  Rot: 0.0
+  Side: top
+  Val: '180'
+- '# Ref': R16
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 103.505
+  PosY: -50.165
+  Rot: 180.0
+  Side: top
+  Val: '240'
+- '# Ref': R17
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 81.915
+  PosY: -42.545
+  Rot: 0.0
+  Side: top
+  Val: '180'
+- '# Ref': R18
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 56.515
+  PosY: -55.88
+  Rot: 180.0
+  Side: top
+  Val: '240'
+- '# Ref': R19
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 46.355
+  PosY: -42.545
+  Rot: 0.0
+  Side: top
+  Val: '180'
+- '# Ref': R20
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 141.605
+  PosY: -62.865
+  Rot: 90.0
+  Side: top
+  Val: '240'
+- '# Ref': R21
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 128.905
+  PosY: -43.18
+  Rot: 0.0
+  Side: top
+  Val: '180'
+- '# Ref': R22
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 163.195
+  PosY: -57.785
+  Rot: 90.0
+  Side: top
+  Val: '240'
+- '# Ref': R23
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 163.195
+  PosY: -40.64
+  Rot: 0.0
+  Side: top
+  Val: '180'
+- '# Ref': R24
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 173.355
+  PosY: -66.04
+  Rot: 90.0
+  Side: top
+  Val: '240'
+- '# Ref': R25
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 180.34
+  PosY: -50.165
+  Rot: 0.0
+  Side: top
+  Val: '180'
+- '# Ref': R26
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 171.45
+  PosY: -100.965
+  Rot: 90.0
+  Side: top
+  Val: '240'
+- '# Ref': R27
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 176.53
+  PosY: -89.535
+  Rot: 0.0
+  Side: top
+  Val: '180'
+- '# Ref': R28
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 45.72
+  PosY: -76.2
+  Rot: 180.0
+  Side: top
+  Val: 100K
+- '# Ref': R29
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 45.72
+  PosY: -63.5
+  Rot: 180.0
+  Side: top
+  Val: '120'
+- '# Ref': R30
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 58.42
+  PosY: -82.55
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': SW1
+  Package: SW_PUSH_6mm_4pin
+  PosX: 60.96
+  PosY: -111.125
+  Rot: 180.0
+  Side: top
+  Val: IP1
+- '# Ref': SW2
+  Package: SW_PUSH_6mm_4pin
+  PosX: 60.96
+  PosY: -120.015
+  Rot: 180.0
+  Side: top
+  Val: IP2
+- '# Ref': SW3
+  Package: SW_PUSH_6mm_4pin
+  PosX: 60.96
+  PosY: -128.905
+  Rot: 180.0
+  Side: top
+  Val: IP3
+- '# Ref': SW4
+  Package: SW_PUSH_6mm_4pin
+  PosX: 60.96
+  PosY: -137.795
+  Rot: 180.0
+  Side: top
+  Val: IP4
+- '# Ref': SW5
+  Package: SW_PUSH_6mm_4pin
+  PosX: 74.93
+  PosY: -113.03
+  Rot: 180.0
+  Side: top
+  Val: DMXAH
+- '# Ref': SW6
+  Package: SW_PUSH_6mm_4pin
+  PosX: 74.93
+  PosY: -121.92
+  Rot: 180.0
+  Side: top
+  Val: DMXAL
+- '# Ref': SW7
+  Package: SW_DIP_x8_W7.62mm_Slide
+  PosX: 62.23
+  PosY: -80.645
+  Rot: 90.0
+  Side: top
+  Val: SW_DIP_x08
+- '# Ref': U***1
+  Package: DIP-40_W15.24mm
+  PosX: 62.23
+  PosY: -100.33
+  Rot: 90.0
+  Side: top
+  Val: PIC16F877A
+- '# Ref': U1
+  Package: HLK-PM01
+  PosX: 40.64
+  PosY: -113.03
+  Rot: -90.0
+  Side: top
+  Val: PSU-5VDC
+- '# Ref': U2
+  Package: TO-220-3_Vertical
+  PosX: 135.255
+  PosY: -73.025
+  Rot: 90.0
+  Side: top
+  Val: 3.3v_Regulator
+- '# Ref': U3
+  Package: DIP-14_W7.62mm
+  PosX: 92.075
+  PosY: -80.01
+  Rot: 180.0
+  Side: top
+  Val: 74HCT08
+- '# Ref': U4
+  Package: DIP-6_W7.62mm
+  PosX: 45.72
+  PosY: -67.31
+  Rot: 0.0
+  Side: top
+  Val: 4N25
+- '# Ref': U5
+  Package: DIP-8_W7.62mm
+  PosX: 136.8425
+  PosY: -115.2525
+  Rot: 0.0
+  Side: top
+  Val: PIC12(L)F1571/2
+- '# Ref': U6
+  Package: DIP-6_W7.62mm
+  PosX: 173.99
+  PosY: -108.585
+  Rot: 0.0
+  Side: top
+  Val: MOC3020M
+- '# Ref': U7
+  Package: DIP-8_W7.62mm
+  PosX: 117.475
+  PosY: -106.68
+  Rot: -90.0
+  Side: top
+  Val: PIC12(L)F1571/2
+- '# Ref': U8
+  Package: DIP-6_W7.62mm
+  PosX: 126.365
+  PosY: -120.65
+  Rot: -90.0
+  Side: top
+  Val: MOC3020M
+- '# Ref': U9
+  Package: DIP-8_W7.62mm
+  PosX: 115.57
+  PosY: -52.705
+  Rot: 180.0
+  Side: top
+  Val: PIC12(L)F1571/2
+- '# Ref': U10
+  Package: DIP-6_W7.62mm
+  PosX: 81.915
+  PosY: -52.705
+  Rot: 90.0
+  Side: top
+  Val: MOC3020M
+- '# Ref': U11
+  Package: DIP-8_W7.62mm
+  PosX: 69.215
+  PosY: -63.5
+  Rot: 180.0
+  Side: top
+  Val: PIC12(L)F1571/2
+- '# Ref': U12
+  Package: DIP-6_W7.62mm
+  PosX: 46.355
+  PosY: -52.705
+  Rot: 90.0
+  Side: top
+  Val: MOC3020M
+- '# Ref': U13
+  Package: DIP-8_W7.62mm
+  PosX: 154.94
+  PosY: -68.58
+  Rot: 180.0
+  Side: top
+  Val: PIC12(L)F1571/2
+- '# Ref': U14
+  Package: DIP-6_W7.62mm
+  PosX: 128.905
+  PosY: -53.34
+  Rot: 90.0
+  Side: top
+  Val: MOC3020M
+- '# Ref': U15
+  Package: DIP-8_W7.62mm
+  PosX: 147.32
+  PosY: -86.36
+  Rot: 90.0
+  Side: top
+  Val: PIC12(L)F1571/2
+- '# Ref': U16
+  Package: DIP-6_W7.62mm
+  PosX: 166.37
+  PosY: -51.435
+  Rot: 90.0
+  Side: top
+  Val: MOC3020M
+- '# Ref': U17
+  Package: DIP-8_W7.62mm
+  PosX: 123.825
+  PosY: -97.155
+  Rot: 90.0
+  Side: top
+  Val: PIC12(L)F1571/2
+- '# Ref': U18
+  Package: DIP-6_W7.62mm
+  PosX: 176.53
+  PosY: -55.88
+  Rot: 0.0
+  Side: top
+  Val: MOC3020M
+- '# Ref': U19
+  Package: DIP-8_W7.62mm
+  PosX: 151.13
+  PosY: -107.95
+  Rot: 90.0
+  Side: top
+  Val: PIC12(L)F1571/2
+- '# Ref': U20
+  Package: DIP-6_W7.62mm
+  PosX: 176.53
+  PosY: -95.25
+  Rot: 0.0
+  Side: top
+  Val: MOC3020M
+- '# Ref': Y1
+  Package: Crystal_HC50_Vertical
+  PosX: 97.155
+  PosY: -113.03
+  Rot: 180.0
+  Side: top
+  Val: 20MHz
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 33pF | C_Disc_D3.0mm_W1.6mm_P2.50mm\
+  \ | 90.805 | -116.84 | -90.0 | top | \n| C2 | 33pF | C_Disc_D3.0mm_W1.6mm_P2.50mm\
+  \ | 93.345 | -116.84 | -90.0 | top | \n| C3 | 1000uF | CP_Radial_D10.0mm_P5.00mm\
+  \ | 35.56 | -124.46 | 0.0 | top | \n| C5 | 0.01uF | C_Disc_D3.0mm_W1.6mm_P2.50mm\
+  \ | 87.63 | -93.98 | 0.0 | top | \n| C6 | 0.01uF | C_Disc_D3.0mm_W1.6mm_P2.50mm\
+  \ | 142.24 | -112.395 | 180.0 | top | \n| C7 | 0.01uF | C_Disc_D3.0mm_W1.6mm_P2.50mm\
+  \ | 120.015 | -111.76 | 90.0 | top | \n| C8 | 0.01uF | C_Disc_D3.0mm_W1.6mm_P2.50mm\
+  \ | 110.49 | -55.245 | 0.0 | top | \n| C9 | 0.01uF | C_Disc_D3.0mm_W1.6mm_P2.50mm\
+  \ | 64.135 | -66.04 | 0.0 | top | \n| C10 | 0.01uF | C_Disc_D3.0mm_W1.6mm_P2.50mm\
+  \ | 149.86 | -71.12 | 0.0 | top | \n| C11 | 0.01uF | C_Disc_D3.0mm_W1.6mm_P2.50mm\
+  \ | 144.78 | -81.28 | -90.0 | top | \n| C12 | 0.01uF | C_Disc_D3.0mm_W1.6mm_P2.50mm\
+  \ | 121.285 | -92.075 | -90.0 | top | \n| C13 | 0.01uF | C_Disc_D3.0mm_W1.6mm_P2.50mm\
+  \ | 148.59 | -102.87 | -90.0 | top | \n| D1 | CFG_Status | LED_D3.0mm | 80.01 |\
+  \ -107.95 | 90.0 | top | \n| D2 | Ethernet_Status | LED_D3.0mm | 85.09 | -107.95\
+  \ | 90.0 | top | \n| D3 | BRIDGE | Diode_Bridge_W08 | 41.91 | -67.31 | -90.0 | top\
+  \ | \n| D4 | BTA08-600 | TO-220-3_Vertical | 158.75 | -121.285 | 0.0 | top | \n\
+  | D5 | BTA08-600 | TO-220-3_Vertical | 88.265 | -134.62 | 180.0 | top | \n| D6 |\
+  \ BTA08-600 | TO-220-3_Vertical | 97.79 | -36.83 | -90.0 | top | \n| D7 | BTA08-600\
+  \ | TO-220-3_Vertical | 62.865 | -35.56 | -90.0 | top | \n| D8 | BTA08-600 | TO-220-3_Vertical\
+  \ | 145.415 | -35.56 | -90.0 | top | \n| D9 | BTA08-600 | TO-220-3_Vertical | 179.705\
+  \ | -35.56 | -90.0 | top | \n| D10 | BTA08-600 | TO-220-3_Vertical | 191.77 | -70.485\
+  \ | 180.0 | top | \n| D11 | BTA08-600 | TO-220-3_Vertical | 193.04 | -107.315 |\
+  \ 180.0 | top | \n| F1 | 100mA | Fuseholder5x20_horiz_open_inline_Type-I | 27.94\
+  \ | -73.66 | 90.0 | top | \n| F2 | 5A | Fuseholder5x20_horiz_open_inline_Type-I\
+  \ | 196.215 | -128.905 | 180.0 | top | \n| F3 | 5A | Fuseholder5x20_horiz_open_inline_Type-I\
+  \ | 151.13 | -134.62 | 180.0 | top | \n| F4 | 5A | Fuseholder5x20_horiz_open_inline_Type-I\
+  \ | 75.565 | -24.13 | -90.0 | top | \n| F5 | 5A | Fuseholder5x20_horiz_open_inline_Type-I\
+  \ | 40.005 | -24.13 | -90.0 | top | \n| F6 | 5A | Fuseholder5x20_horiz_open_inline_Type-I\
+  \ | 102.87 | -29.845 | 0.0 | top | \n| F7 | 5A | Fuseholder5x20_horiz_open_inline_Type-I\
+  \ | 156.845 | -24.13 | -90.0 | top | \n| F8 | 5A | Fuseholder5x20_horiz_open_inline_Type-I\
+  \ | 190.5 | -24.13 | -90.0 | top | \n| F9 | 5A | Fuseholder5x20_horiz_open_inline_Type-I\
+  \ | 196.215 | -81.915 | 180.0 | top | \n| J1 | MAINS_IN | TerminalBlock_bornier-2_P5.08mm\
+  \ | 27.94 | -38.1 | -90.0 | top | \n| J2 | STANDARD_ENC28J60 | Pin_Header_Straight_2x06_Pitch2.54mm\
+  \ | 111.76 | -70.485 | -90.0 | top | \n| J3 | MINI_ENC28J60 | Pin_Header_Straight_2x05_Pitch2.54mm\
+  \ | 119.38 | -73.025 | 90.0 | top | \n| J4 | MASTER_PROG | Pin_Header_Straight_1x06_Pitch2.54mm\
+  \ | 51.435 | -86.36 | 0.0 | top | \n| J5 | PRG | Pin_Header_Straight_1x06_Pitch2.54mm\
+  \ | 133.985 | -127.0 | 90.0 | top | \n| J6 | LOAD | TerminalBlock_bornier-2_P5.08mm\
+  \ | 162.56 | -131.445 | 0.0 | top | \n| J7 | PRG | Pin_Header_Straight_1x06_Pitch2.54mm\
+  \ | 103.505 | -106.68 | 0.0 | top | \n| J8 | LOAD | TerminalBlock_bornier-2_P5.08mm\
+  \ | 102.235 | -133.35 | 0.0 | top | \n| J9 | PRG | Pin_Header_Straight_1x06_Pitch2.54mm\
+  \ | 120.015 | -40.005 | -90.0 | top | \n| J10 | LOAD | TerminalBlock_bornier-2_P5.08mm\
+  \ | 88.9 | -32.385 | 180.0 | top | \n| J11 | PRG | Pin_Header_Straight_1x06_Pitch2.54mm\
+  \ | 71.755 | -50.8 | -90.0 | top | \n| J12 | LOAD | TerminalBlock_bornier-2_P5.08mm\
+  \ | 53.34 | -32.385 | 180.0 | top | \n| J13 | PRG | Pin_Header_Straight_1x06_Pitch2.54mm\
+  \ | 157.48 | -55.245 | -90.0 | top | \n| J14 | LOAD | TerminalBlock_bornier-2_P5.08mm\
+  \ | 135.89 | -32.385 | 180.0 | top | \n| J15 | PRG | Pin_Header_Straight_1x06_Pitch2.54mm\
+  \ | 160.655 | -86.36 | 180.0 | top | \n| J16 | LOAD | TerminalBlock_bornier-2_P5.08mm\
+  \ | 170.18 | -32.385 | 180.0 | top | \n| J17 | PRG | Pin_Header_Straight_1x06_Pitch2.54mm\
+  \ | 137.795 | -101.6 | 180.0 | top | \n| J18 | LOAD | TerminalBlock_bornier-2_P5.08mm\
+  \ | 195.58 | -61.595 | 90.0 | top | \n| J19 | PRG | Pin_Header_Straight_1x06_Pitch2.54mm\
+  \ | 165.1 | -109.22 | 180.0 | top | \n| J20 | LOAD | TerminalBlock_bornier-2_P5.08mm\
+  \ | 195.58 | -98.425 | 90.0 | top | \n| R1 | 10K | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 50.8 | -109.22 | -90.0 | top | \n| R2 | 10K | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 47.625 | -109.22 | -90.0 | top | \n| R3 | 10K | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 47.625 | -132.08 | 90.0 | top | \n| R4 | 300 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 81.28 | -120.65 | 90.0 | top | \n| R5 | 300 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 78.105 | -120.65 | 90.0 | top | \n| R6 | 300 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 84.455 | -120.65 | 90.0 | top | \n| R7 | 300 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 87.63 | -120.65 | 90.0 | top | \n| R8 | 10K | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 50.8 | -132.08 | 90.0 | top | \n| R9 | 10K | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 66.675 | -125.095 | 0.0 | top | \n| R10 | 10K | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 66.675 | -128.27 | 0.0 | top | \n| R11 | 10K | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 55.88 | -80.01 | 90.0 | top | \n| R12 | 240 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 159.385 | -113.03 | 0.0 | top | \n| R13 | 180 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 182.245 | -121.285 | 180.0 | top | \n| R14 | 240 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 107.95 | -119.38 | 0.0 | top | \n| R15 | 180 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 116.205 | -132.08 | 0.0 | top | \n| R16 | 240 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 103.505 | -50.165 | 180.0 | top | \n| R17 | 180 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 81.915 | -42.545 | 0.0 | top | \n| R18 | 240 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 56.515 | -55.88 | 180.0 | top | \n| R19 | 180 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 46.355 | -42.545 | 0.0 | top | \n| R20 | 240 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 141.605 | -62.865 | 90.0 | top | \n| R21 | 180 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 128.905 | -43.18 | 0.0 | top | \n| R22 | 240 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 163.195 | -57.785 | 90.0 | top | \n| R23 | 180 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 163.195 | -40.64 | 0.0 | top | \n| R24 | 240 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 173.355 | -66.04 | 90.0 | top | \n| R25 | 180 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 180.34 | -50.165 | 0.0 | top | \n| R26 | 240 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 171.45 | -100.965 | 90.0 | top | \n| R27 | 180 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 176.53 | -89.535 | 0.0 | top | \n| R28 | 100K | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 45.72 | -76.2 | 180.0 | top | \n| R29 | 120 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 45.72 | -63.5 | 180.0 | top | \n| R30 | 10K | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 58.42 | -82.55 | 180.0 | top | \n| SW1 | IP1 | SW_PUSH_6mm_4pin | 60.96 | -111.125\
+  \ | 180.0 | top | \n| SW2 | IP2 | SW_PUSH_6mm_4pin | 60.96 | -120.015 | 180.0 |\
+  \ top | \n| SW3 | IP3 | SW_PUSH_6mm_4pin | 60.96 | -128.905 | 180.0 | top | \n|\
+  \ SW4 | IP4 | SW_PUSH_6mm_4pin | 60.96 | -137.795 | 180.0 | top | \n| SW5 | DMXAH\
+  \ | SW_PUSH_6mm_4pin | 74.93 | -113.03 | 180.0 | top | \n| SW6 | DMXAL | SW_PUSH_6mm_4pin\
+  \ | 74.93 | -121.92 | 180.0 | top | \n| SW7 | SW_DIP_x08 | SW_DIP_x8_W7.62mm_Slide\
+  \ | 62.23 | -80.645 | 90.0 | top | \n| U***1 | PIC16F877A | DIP-40_W15.24mm | 62.23\
+  \ | -100.33 | 90.0 | top | \n| U1 | PSU-5VDC | HLK-PM01 | 40.64 | -113.03 | -90.0\
+  \ | top | \n| U2 | 3.3v_Regulator | TO-220-3_Vertical | 135.255 | -73.025 | 90.0\
+  \ | top | \n| U3 | 74HCT08 | DIP-14_W7.62mm | 92.075 | -80.01 | 180.0 | top | \n\
+  | U4 | 4N25 | DIP-6_W7.62mm | 45.72 | -67.31 | 0.0 | top | \n| U5 | PIC12(L)F1571/2\
+  \ | DIP-8_W7.62mm | 136.8425 | -115.2525 | 0.0 | top | \n| U6 | MOC3020M | DIP-6_W7.62mm\
+  \ | 173.99 | -108.585 | 0.0 | top | \n| U7 | PIC12(L)F1571/2 | DIP-8_W7.62mm | 117.475\
+  \ | -106.68 | -90.0 | top | \n| U8 | MOC3020M | DIP-6_W7.62mm | 126.365 | -120.65\
+  \ | -90.0 | top | \n| U9 | PIC12(L)F1571/2 | DIP-8_W7.62mm | 115.57 | -52.705 |\
+  \ 180.0 | top | \n| U10 | MOC3020M | DIP-6_W7.62mm | 81.915 | -52.705 | 90.0 | top\
+  \ | \n| U11 | PIC12(L)F1571/2 | DIP-8_W7.62mm | 69.215 | -63.5 | 180.0 | top | \n\
+  | U12 | MOC3020M | DIP-6_W7.62mm | 46.355 | -52.705 | 90.0 | top | \n| U13 | PIC12(L)F1571/2\
+  \ | DIP-8_W7.62mm | 154.94 | -68.58 | 180.0 | top | \n| U14 | MOC3020M | DIP-6_W7.62mm\
+  \ | 128.905 | -53.34 | 90.0 | top | \n| U15 | PIC12(L)F1571/2 | DIP-8_W7.62mm |\
+  \ 147.32 | -86.36 | 90.0 | top | \n| U16 | MOC3020M | DIP-6_W7.62mm | 166.37 | -51.435\
+  \ | 90.0 | top | \n| U17 | PIC12(L)F1571/2 | DIP-8_W7.62mm | 123.825 | -97.155 |\
+  \ 90.0 | top | \n| U18 | MOC3020M | DIP-6_W7.62mm | 176.53 | -55.88 | 0.0 | top\
+  \ | \n| U19 | PIC12(L)F1571/2 | DIP-8_W7.62mm | 151.13 | -107.95 | 90.0 | top |\
+  \ \n| U20 | MOC3020M | DIP-6_W7.62mm | 176.53 | -95.25 | 0.0 | top | \n| Y1 | 20MHz\
+  \ | Crystal_HC50_Vertical | 97.155 | -113.03 | 180.0 | top | \n"
 projects_flat: projects/carnivalben_dmx_eth_dimmer_dmx_eth_dimmer/current_version/working
 repo:
   allow_forking: true

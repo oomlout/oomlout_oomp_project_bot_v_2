@@ -1,10 +1,921 @@
 board: centralcommand
+bom:
+- Id: '1'
+  Designator: D301,D302
+  Footprint: Diode-SMA_Standard
+  Quantity: '2'
+  Designation: D_Schottky
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D303,D304
+  Footprint: LED-0805
+  Quantity: '2'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: L301
+  Footprint: Neosid_Inductor_SM1206
+  Quantity: '1'
+  Designation: FERRITE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: P101,P102
+  Footprint: Pin_Header_Straight_1x10
+  Quantity: '2'
+  Designation: CONN_01X10
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: P103,P105
+  Footprint: Pin_Header_Straight_1x04
+  Quantity: '2'
+  Designation: CONN_01X04
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: P104,P106,P302
+  Footprint: Pin_Header_Straight_1x02
+  Quantity: '3'
+  Designation: CONN_01X02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: P201
+  Footprint: Pin_Header_Straight_1x06
+  Quantity: '1'
+  Designation: CONN_01X06
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: P204
+  Footprint: Pin_Header_Straight_1x03
+  Quantity: '1'
+  Designation: CONN_01X03
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U101
+  Footprint: LQFP-48_7x7mm_Pitch0.5mm
+  Quantity: '1'
+  Designation: STM32F030C8
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U301
+  Footprint: SOT-23
+  Quantity: '1'
+  Designation: MCP1700T-3302E/TT_
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U302
+  Footprint: QFN-32-1EP_5x5mm_Pitch0.5mm
+  Quantity: '1'
+  Designation: FT232RQ
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: Y101
+  Footprint: Crystal_HC49-U_Vertical
+  Quantity: '1'
+  Designation: Crystal
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: P301
+  Footprint: '10118193'
+  Quantity: '1'
+  Designation: USB_B
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: P202,P203
+  Footprint: Grove-2mm
+  Quantity: '2'
+  Designation: CONN_01X04
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: SW201
+  Footprint: FSM2JSMAA-ND
+  Quantity: '1'
+  Designation: FSM2JSMAA-ND
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: REF**,REF**,REF**,REF**
+  Footprint: MountingHole_3mm
+  Quantity: '4'
+  Designation: MountingHole_3mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: C101,C201
+  Footprint: C_0805
+  Quantity: '2'
+  Designation: C
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: C102,C103
+  Footprint: C_0805
+  Quantity: '2'
+  Designation: 20P
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: C301,C302,C304,C104,C107
+  Footprint: C_0805
+  Quantity: '5'
+  Designation: .1U
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: C303
+  Footprint: C_1210
+  Quantity: '1'
+  Designation: 4.7U
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '21'
+  Designator: C305,C306
+  Footprint: C_1210
+  Quantity: '2'
+  Designation: 10U
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '22'
+  Designator: L101
+  Footprint: Neosid_Inductor_SM1206
+  Quantity: '1'
+  Designation: INDUCTOR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '23'
+  Designator: R201,R202,R204
+  Footprint: R_0805
+  Quantity: '3'
+  Designation: R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '24'
+  Designator: R203,R301,R302,R303,R206,R207,R208,R209
+  Footprint: R_0805
+  Quantity: '8'
+  Designation: '0'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '25'
+  Designator: R304,R305
+  Footprint: R_0805
+  Quantity: '2'
+  Designation: NOPE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '26'
+  Designator: R306,R307
+  Footprint: R_0805
+  Quantity: '2'
+  Designation: '270'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '27'
+  Designator: C105,C108
+  Footprint: C_1206
+  Quantity: '2'
+  Designation: 1U
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '28'
+  Designator: C106,C109
+  Footprint: C_1206
+  Quantity: '2'
+  Designation: 10U
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '29'
+  Designator: G***
+  Footprint: CClogo-small
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D301,D302\
+  \ | Diode-SMA_Standard | 2 | D_Schottky |  |  | [''] | \n| 2 | D303,D304 | LED-0805\
+  \ | 2 | LED |  |  | [''] | \n| 3 | L301 | Neosid_Inductor_SM1206 | 1 | FERRITE |\
+  \  |  | [''] | \n| 4 | P101,P102 | Pin_Header_Straight_1x10 | 2 | CONN_01X10 | \
+  \ |  | [''] | \n| 5 | P103,P105 | Pin_Header_Straight_1x04 | 2 | CONN_01X04 |  |\
+  \  | [''] | \n| 6 | P104,P106,P302 | Pin_Header_Straight_1x02 | 3 | CONN_01X02 |\
+  \  |  | [''] | \n| 7 | P201 | Pin_Header_Straight_1x06 | 1 | CONN_01X06 |  |  |\
+  \ [''] | \n| 8 | P204 | Pin_Header_Straight_1x03 | 1 | CONN_01X03 |  |  | [''] |\
+  \ \n| 9 | U101 | LQFP-48_7x7mm_Pitch0.5mm | 1 | STM32F030C8 |  |  | [''] | \n| 10\
+  \ | U301 | SOT-23 | 1 | MCP1700T-3302E/TT_ |  |  | [''] | \n| 11 | U302 | QFN-32-1EP_5x5mm_Pitch0.5mm\
+  \ | 1 | FT232RQ |  |  | [''] | \n| 12 | Y101 | Crystal_HC49-U_Vertical | 1 | Crystal\
+  \ |  |  | [''] | \n| 13 | P301 | 10118193 | 1 | USB_B |  |  | [''] | \n| 14 | P202,P203\
+  \ | Grove-2mm | 2 | CONN_01X04 |  |  | [''] | \n| 15 | SW201 | FSM2JSMAA-ND | 1\
+  \ | FSM2JSMAA-ND |  |  | [''] | \n| 16 | REF**,REF**,REF**,REF** | MountingHole_3mm\
+  \ | 4 | MountingHole_3mm |  |  | [''] | \n| 17 | C101,C201 | C_0805 | 2 | C |  |\
+  \  | [''] | \n| 18 | C102,C103 | C_0805 | 2 | 20P |  |  | [''] | \n| 19 | C301,C302,C304,C104,C107\
+  \ | C_0805 | 5 | .1U |  |  | [''] | \n| 20 | C303 | C_1210 | 1 | 4.7U |  |  | ['']\
+  \ | \n| 21 | C305,C306 | C_1210 | 2 | 10U |  |  | [''] | \n| 22 | L101 | Neosid_Inductor_SM1206\
+  \ | 1 | INDUCTOR |  |  | [''] | \n| 23 | R201,R202,R204 | R_0805 | 3 | R |  |  |\
+  \ [''] | \n| 24 | R203,R301,R302,R303,R206,R207,R208,R209 | R_0805 | 8 | 0 |  |\
+  \  | [''] | \n| 25 | R304,R305 | R_0805 | 2 | NOPE |  |  | [''] | \n| 26 | R306,R307\
+  \ | R_0805 | 2 | 270 |  |  | [''] | \n| 27 | C105,C108 | C_1206 | 2 | 1U |  |  |\
+  \ [''] | \n| 28 | C106,C109 | C_1206 | 2 | 10U |  |  | [''] | \n| 29 | G*** | CClogo-small\
+  \ | 1 | LOGO |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_SMD:C_0805
+  Qnty: '3'
+  Ref: C101, C104, C107
+  Value: .1U
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_SMD:C_0805
+  Qnty: '2'
+  Ref: C102, C103
+  Value: 20P
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_SMD:C_1206
+  Qnty: '2'
+  Ref: C105, C108
+  Value: 1U
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_SMD:C_1206
+  Qnty: '2'
+  Ref: C106, C109
+  Value: 10U
+  Vendor: ''
+- Cmp name: INDUCTOR
+  DNP: ''
+  Description: ''
+  Footprint: Inductors_NEOSID:Neosid_Inductor_SM1206
+  Qnty: '1'
+  Ref: L101
+  Value: 10uH
+  Vendor: ''
+- Cmp name: CONN_01X10
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x10
+  Qnty: '2'
+  Ref: P101, P102
+  Value: CONN_01X10
+  Vendor: ''
+- Cmp name: CONN_01X04
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x04
+  Qnty: '2'
+  Ref: P103, P105
+  Value: CONN_01X04
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x02
+  Qnty: '2'
+  Ref: P104, P106
+  Value: CONN_01X02
+  Vendor: ''
+- Cmp name: STM32F030C8
+  DNP: ''
+  Description: ''
+  Footprint: Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm
+  Qnty: '1'
+  Ref: U101
+  Value: STM32F030C8
+  Vendor: ''
+- Cmp name: Crystal
+  DNP: ''
+  Description: ''
+  Footprint: Crystals:Crystal_HC49-U_Vertical
+  Qnty: '1'
+  Ref: Y101
+  Value: Crystal
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C101,\
+  \ C104, C107 | 3 | .1U | C | Capacitors_SMD:C_0805 |  |  |  | \n| C102, C103 | 2\
+  \ | 20P | C | Capacitors_SMD:C_0805 |  |  |  | \n| C105, C108 | 2 | 1U | C | Capacitors_SMD:C_1206\
+  \ |  |  |  | \n| C106, C109 | 2 | 10U | C | Capacitors_SMD:C_1206 |  |  |  | \n\
+  | L101 | 1 | 10uH | INDUCTOR | Inductors_NEOSID:Neosid_Inductor_SM1206 |  |  | \
+  \ | \n| P101, P102 | 2 | CONN_01X10 | CONN_01X10 | Pin_Headers:Pin_Header_Straight_1x10\
+  \ |  |  |  | \n| P103, P105 | 2 | CONN_01X04 | CONN_01X04 | Pin_Headers:Pin_Header_Straight_1x04\
+  \ |  |  |  | \n| P104, P106 | 2 | CONN_01X02 | CONN_01X02 | Pin_Headers:Pin_Header_Straight_1x02\
+  \ |  |  |  | \n| U101 | 1 | STM32F030C8 | STM32F030C8 | Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm\
+  \ |  |  |  | \n| Y101 | 1 | Crystal | Crystal | Crystals:Crystal_HC49-U_Vertical\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/contextualelectronics_central_command_centralcommand/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/contextualelectronics_central_command_centralcommand/current_version/working/working.kicad_pcb
 file_sch_flat: projects/contextualelectronics_central_command_centralcommand/current_version/working/working.sch
 id: contextualelectronics_central_command_centralcommand
+mounting_holes:
+- package: MountingHole_3mm
+  ref: REF**
+  size: m3
+  value: MountingHole_3mm
+  x: '0.06350000000000477'
+  y: '44.17060000000001'
+- package: MountingHole_3mm
+  ref: REF**
+  size: m3
+  value: MountingHole_3mm
+  x: '0.0'
+  y: '0.0'
+- package: MountingHole_3mm
+  ref: REF**
+  size: m3
+  value: MountingHole_3mm
+  x: '44.2341'
+  y: '0.0'
+- package: MountingHole_3mm
+  ref: REF**
+  size: m3
+  value: MountingHole_3mm
+  x: '44.18330000000002'
+  y: '44.1452'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.06350000000000477 | 44.17060000000001 | MountingHole_3mm\
+  \ | MountingHole_3mm | REF** | m3 | \n| 0.0 | 0.0 | MountingHole_3mm | MountingHole_3mm\
+  \ | REF** | m3 | \n| 44.2341 | 0.0 | MountingHole_3mm | MountingHole_3mm | REF**\
+  \ | m3 | \n| 44.18330000000002 | 44.1452 | MountingHole_3mm | MountingHole_3mm |\
+  \ REF** | m3 | \n"
 name: central_command
+position_bottom:
+- '# Ref': C101
+  Package: C_0805
+  PosX: 119.2276
+  PosY: -108.7628
+  Rot: -90.0
+  Side: bottom
+  Val: C
+- '# Ref': C102
+  Package: C_0805
+  PosX: 114.5794
+  PosY: -114.1476
+  Rot: 180.0
+  Side: bottom
+  Val: 20P
+- '# Ref': C103
+  Package: C_0805
+  PosX: 115.7224
+  PosY: -117.094
+  Rot: -90.0
+  Side: bottom
+  Val: 20P
+- '# Ref': C104
+  Package: C_0805
+  PosX: 130.7211
+  PosY: -102.6541
+  Rot: 0.0
+  Side: bottom
+  Val: .1U
+- '# Ref': C105
+  Package: C_1206
+  PosX: 131.2545
+  PosY: -107.7595
+  Rot: 0.0
+  Side: bottom
+  Val: 1U
+- '# Ref': C106
+  Package: C_1206
+  PosX: 131.2291
+  PosY: -105.1941
+  Rot: 0.0
+  Side: bottom
+  Val: 10U
+- '# Ref': C107
+  Package: C_0805
+  PosX: 118.6053
+  PosY: -105.4862
+  Rot: 180.0
+  Side: bottom
+  Val: .1U
+- '# Ref': C108
+  Package: C_1206
+  PosX: 119.0752
+  PosY: -103.0224
+  Rot: 180.0
+  Side: bottom
+  Val: 1U
+- '# Ref': C109
+  Package: C_1206
+  PosX: 119.1006
+  PosY: -100.6475
+  Rot: 180.0
+  Side: bottom
+  Val: 10U
+- '# Ref': C201
+  Package: C_0805
+  PosX: 107.6993
+  PosY: -98.8314
+  Rot: 0.0
+  Side: bottom
+  Val: C
+- '# Ref': C301
+  Package: C_0805
+  PosX: 129.6924
+  PosY: -84.4804
+  Rot: 0.0
+  Side: bottom
+  Val: .1U
+- '# Ref': C302
+  Package: C_0805
+  PosX: 120.65
+  PosY: -82.042
+  Rot: 0.0
+  Side: bottom
+  Val: .1U
+- '# Ref': C303
+  Package: C_1210
+  PosX: 115.3668
+  PosY: -81.5594
+  Rot: 180.0
+  Side: bottom
+  Val: 4.7U
+- '# Ref': C304
+  Package: C_0805
+  PosX: 118.3894
+  PosY: -88.5444
+  Rot: 180.0
+  Side: bottom
+  Val: .1U
+- '# Ref': C305
+  Package: C_1210
+  PosX: 123.4186
+  PosY: -87.9094
+  Rot: -90.0
+  Side: bottom
+  Val: 10U
+- '# Ref': C306
+  Package: C_1210
+  PosX: 126.746
+  PosY: -87.884
+  Rot: -90.0
+  Side: bottom
+  Val: 10U
+- '# Ref': G***
+  Package: CClogo-small
+  PosX: 138.3063
+  PosY: -91.3638
+  Rot: 90.0
+  Side: bottom
+  Val: LOGO
+- '# Ref': L101
+  Package: Neosid_Inductor_SM1206
+  PosX: 115.316
+  PosY: -106.0704
+  Rot: -90.0
+  Side: bottom
+  Val: INDUCTOR
+- '# Ref': R201
+  Package: R_0805
+  PosX: 106.95
+  PosY: -92.1131
+  Rot: -90.0
+  Side: bottom
+  Val: R
+- '# Ref': R202
+  Package: R_0805
+  PosX: 109.6678
+  PosY: -94.1324
+  Rot: -90.0
+  Side: bottom
+  Val: R
+- '# Ref': R203
+  Package: R_0805
+  PosX: 107.8644
+  PosY: -88.5063
+  Rot: 180.0
+  Side: bottom
+  Val: '0'
+- '# Ref': R204
+  Package: R_0805
+  PosX: 107.6612
+  PosY: -101.2952
+  Rot: 0.0
+  Side: bottom
+  Val: R
+- '# Ref': R206
+  Package: R_0805
+  PosX: 145.034
+  PosY: -112.014
+  Rot: 0.0
+  Side: bottom
+  Val: '0'
+- '# Ref': R207
+  Package: R_0805
+  PosX: 145.034
+  PosY: -114.173
+  Rot: 0.0
+  Side: bottom
+  Val: '0'
+- '# Ref': R208
+  Package: R_0805
+  PosX: 145.0627
+  PosY: -116.2304
+  Rot: 0.0
+  Side: bottom
+  Val: '0'
+- '# Ref': R209
+  Package: R_0805
+  PosX: 145.0627
+  PosY: -118.3005
+  Rot: 0.0
+  Side: bottom
+  Val: '0'
+- '# Ref': R301
+  Package: R_0805
+  PosX: 118.3894
+  PosY: -86.5124
+  Rot: 180.0
+  Side: bottom
+  Val: '0'
+- '# Ref': R302
+  Package: R_0805
+  PosX: 122.8852
+  PosY: -104.7496
+  Rot: 90.0
+  Side: bottom
+  Val: '0'
+- '# Ref': R303
+  Package: R_0805
+  PosX: 125.1712
+  PosY: -104.6988
+  Rot: 90.0
+  Side: bottom
+  Val: '0'
+- '# Ref': R304
+  Package: R_0805
+  PosX: 117.1448
+  PosY: -90.424
+  Rot: 180.0
+  Side: bottom
+  Val: NOPE
+- '# Ref': R305
+  Package: R_0805
+  PosX: 121.4882
+  PosY: -91.4146
+  Rot: 180.0
+  Side: bottom
+  Val: NOPE
+- '# Ref': R306
+  Package: R_0805
+  PosX: 115.5446
+  PosY: -84.3534
+  Rot: 180.0
+  Side: bottom
+  Val: '270'
+- '# Ref': R307
+  Package: R_0805
+  PosX: 119.9388
+  PosY: -84.2518
+  Rot: 0.0
+  Side: bottom
+  Val: '270'
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C101 | C | C_0805 | 119.2276 | -108.7628\
+  \ | -90.0 | bottom | \n| C102 | 20P | C_0805 | 114.5794 | -114.1476 | 180.0 | bottom\
+  \ | \n| C103 | 20P | C_0805 | 115.7224 | -117.094 | -90.0 | bottom | \n| C104 |\
+  \ .1U | C_0805 | 130.7211 | -102.6541 | 0.0 | bottom | \n| C105 | 1U | C_1206 |\
+  \ 131.2545 | -107.7595 | 0.0 | bottom | \n| C106 | 10U | C_1206 | 131.2291 | -105.1941\
+  \ | 0.0 | bottom | \n| C107 | .1U | C_0805 | 118.6053 | -105.4862 | 180.0 | bottom\
+  \ | \n| C108 | 1U | C_1206 | 119.0752 | -103.0224 | 180.0 | bottom | \n| C109 |\
+  \ 10U | C_1206 | 119.1006 | -100.6475 | 180.0 | bottom | \n| C201 | C | C_0805 |\
+  \ 107.6993 | -98.8314 | 0.0 | bottom | \n| C301 | .1U | C_0805 | 129.6924 | -84.4804\
+  \ | 0.0 | bottom | \n| C302 | .1U | C_0805 | 120.65 | -82.042 | 0.0 | bottom | \n\
+  | C303 | 4.7U | C_1210 | 115.3668 | -81.5594 | 180.0 | bottom | \n| C304 | .1U |\
+  \ C_0805 | 118.3894 | -88.5444 | 180.0 | bottom | \n| C305 | 10U | C_1210 | 123.4186\
+  \ | -87.9094 | -90.0 | bottom | \n| C306 | 10U | C_1210 | 126.746 | -87.884 | -90.0\
+  \ | bottom | \n| G*** | LOGO | CClogo-small | 138.3063 | -91.3638 | 90.0 | bottom\
+  \ | \n| L101 | INDUCTOR | Neosid_Inductor_SM1206 | 115.316 | -106.0704 | -90.0 |\
+  \ bottom | \n| R201 | R | R_0805 | 106.95 | -92.1131 | -90.0 | bottom | \n| R202\
+  \ | R | R_0805 | 109.6678 | -94.1324 | -90.0 | bottom | \n| R203 | 0 | R_0805 |\
+  \ 107.8644 | -88.5063 | 180.0 | bottom | \n| R204 | R | R_0805 | 107.6612 | -101.2952\
+  \ | 0.0 | bottom | \n| R206 | 0 | R_0805 | 145.034 | -112.014 | 0.0 | bottom | \n\
+  | R207 | 0 | R_0805 | 145.034 | -114.173 | 0.0 | bottom | \n| R208 | 0 | R_0805\
+  \ | 145.0627 | -116.2304 | 0.0 | bottom | \n| R209 | 0 | R_0805 | 145.0627 | -118.3005\
+  \ | 0.0 | bottom | \n| R301 | 0 | R_0805 | 118.3894 | -86.5124 | 180.0 | bottom\
+  \ | \n| R302 | 0 | R_0805 | 122.8852 | -104.7496 | 90.0 | bottom | \n| R303 | 0\
+  \ | R_0805 | 125.1712 | -104.6988 | 90.0 | bottom | \n| R304 | NOPE | R_0805 | 117.1448\
+  \ | -90.424 | 180.0 | bottom | \n| R305 | NOPE | R_0805 | 121.4882 | -91.4146 |\
+  \ 180.0 | bottom | \n| R306 | 270 | R_0805 | 115.5446 | -84.3534 | 180.0 | bottom\
+  \ | \n| R307 | 270 | R_0805 | 119.9388 | -84.2518 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': D301
+  Package: Diode-SMA_Standard
+  PosX: 138.5316
+  PosY: -84.7852
+  Rot: 90.0
+  Side: top
+  Val: D_Schottky
+- '# Ref': D302
+  Package: Diode-SMA_Standard
+  PosX: 134.4676
+  PosY: -84.7852
+  Rot: 90.0
+  Side: top
+  Val: D_Schottky
+- '# Ref': D303
+  Package: LED-0805
+  PosX: 114.9858
+  PosY: -83.693
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D304
+  Package: LED-0805
+  PosX: 116.6876
+  PosY: -83.7184
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': L301
+  Package: Neosid_Inductor_SM1206
+  PosX: 129.9464
+  PosY: -84.4804
+  Rot: 0.0
+  Side: top
+  Val: FERRITE
+- '# Ref': P101
+  Package: Pin_Header_Straight_1x10
+  PosX: 150.241
+  PosY: -107.7468
+  Rot: 180.0
+  Side: top
+  Val: CONN_01X10
+- '# Ref': P102
+  Package: Pin_Header_Straight_1x10
+  PosX: 109.728
+  PosY: -124.206
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X10
+- '# Ref': P103
+  Package: Pin_Header_Straight_1x04
+  PosX: 119.126
+  PosY: -78.232
+  Rot: -90.0
+  Side: top
+  Val: CONN_01X04
+- '# Ref': P104
+  Package: Pin_Header_Straight_1x02
+  PosX: 143.5006
+  PosY: -78.3209
+  Rot: -90.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': P105
+  Package: Pin_Header_Straight_1x04
+  PosX: 136.144
+  PosY: -124.206
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X04
+- '# Ref': P106
+  Package: Pin_Header_Straight_1x02
+  PosX: 104.2449
+  PosY: -105.0417
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': P201
+  Package: Pin_Header_Straight_1x06
+  PosX: 104.1941
+  PosY: -88.5444
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X06
+- '# Ref': P202
+  Package: Grove-2mm
+  PosX: 138.43
+  PosY: -109.982
+  Rot: -90.0
+  Side: top
+  Val: CONN_01X04
+- '# Ref': P203
+  Package: Grove-2mm
+  PosX: 151.892
+  PosY: -119.888
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X04
+- '# Ref': P204
+  Package: Pin_Header_Straight_1x03
+  PosX: 104.1433
+  PosY: -113.03
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X03
+- '# Ref': P301
+  Package: '10118193'
+  PosX: 126.7968
+  PosY: -77.8764
+  Rot: 180.0
+  Side: top
+  Val: USB_B
+- '# Ref': P302
+  Package: Pin_Header_Straight_1x02
+  PosX: 136.7536
+  PosY: -78.4352
+  Rot: -90.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': REF**
+  Package: MountingHole_3mm
+  PosX: 104.8926
+  PosY: -79.4639
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3mm
+- '# Ref': REF**
+  Package: MountingHole_3mm
+  PosX: 104.8291
+  PosY: -123.6345
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3mm
+- '# Ref': REF**
+  Package: MountingHole_3mm
+  PosX: 149.0632
+  PosY: -123.6345
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3mm
+- '# Ref': REF**
+  Package: MountingHole_3mm
+  PosX: 149.0124
+  PosY: -79.4893
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3mm
+- '# Ref': SW201
+  Package: FSM2JSMAA-ND
+  PosX: 133.1628
+  PosY: -95.1103
+  Rot: 90.0
+  Side: top
+  Val: FSM2JSMAA-ND
+- '# Ref': U101
+  Package: LQFP-48_7x7mm_Pitch0.5mm
+  PosX: 124.206
+  PosY: -105.41
+  Rot: 45.0
+  Side: top
+  Val: STM32F030C8
+- '# Ref': U301
+  Package: SOT-23
+  PosX: 124.7902
+  PosY: -86.4108
+  Rot: 0.0
+  Side: top
+  Val: MCP1700T-3302E/TT_
+- '# Ref': U302
+  Package: QFN-32-1EP_5x5mm_Pitch0.5mm
+  PosX: 117.348
+  PosY: -88.7222
+  Rot: 90.0
+  Side: top
+  Val: FT232RQ
+- '# Ref': Y101
+  Package: Crystal_HC49-U_Vertical
+  PosX: 116.4844
+  PosY: -113.8682
+  Rot: -45.0
+  Side: top
+  Val: Crystal
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| D301 | D_Schottky | Diode-SMA_Standard\
+  \ | 138.5316 | -84.7852 | 90.0 | top | \n| D302 | D_Schottky | Diode-SMA_Standard\
+  \ | 134.4676 | -84.7852 | 90.0 | top | \n| D303 | LED | LED-0805 | 114.9858 | -83.693\
+  \ | 90.0 | top | \n| D304 | LED | LED-0805 | 116.6876 | -83.7184 | 90.0 | top |\
+  \ \n| L301 | FERRITE | Neosid_Inductor_SM1206 | 129.9464 | -84.4804 | 0.0 | top\
+  \ | \n| P101 | CONN_01X10 | Pin_Header_Straight_1x10 | 150.241 | -107.7468 | 180.0\
+  \ | top | \n| P102 | CONN_01X10 | Pin_Header_Straight_1x10 | 109.728 | -124.206\
+  \ | 90.0 | top | \n| P103 | CONN_01X04 | Pin_Header_Straight_1x04 | 119.126 | -78.232\
+  \ | -90.0 | top | \n| P104 | CONN_01X02 | Pin_Header_Straight_1x02 | 143.5006 |\
+  \ -78.3209 | -90.0 | top | \n| P105 | CONN_01X04 | Pin_Header_Straight_1x04 | 136.144\
+  \ | -124.206 | 90.0 | top | \n| P106 | CONN_01X02 | Pin_Header_Straight_1x02 | 104.2449\
+  \ | -105.0417 | 0.0 | top | \n| P201 | CONN_01X06 | Pin_Header_Straight_1x06 | 104.1941\
+  \ | -88.5444 | 0.0 | top | \n| P202 | CONN_01X04 | Grove-2mm | 138.43 | -109.982\
+  \ | -90.0 | top | \n| P203 | CONN_01X04 | Grove-2mm | 151.892 | -119.888 | 90.0\
+  \ | top | \n| P204 | CONN_01X03 | Pin_Header_Straight_1x03 | 104.1433 | -113.03\
+  \ | 0.0 | top | \n| P301 | USB_B | 10118193 | 126.7968 | -77.8764 | 180.0 | top\
+  \ | \n| P302 | CONN_01X02 | Pin_Header_Straight_1x02 | 136.7536 | -78.4352 | -90.0\
+  \ | top | \n| REF** | MountingHole_3mm | MountingHole_3mm | 104.8926 | -79.4639\
+  \ | 0.0 | top | \n| REF** | MountingHole_3mm | MountingHole_3mm | 104.8291 | -123.6345\
+  \ | 0.0 | top | \n| REF** | MountingHole_3mm | MountingHole_3mm | 149.0632 | -123.6345\
+  \ | 0.0 | top | \n| REF** | MountingHole_3mm | MountingHole_3mm | 149.0124 | -79.4893\
+  \ | 0.0 | top | \n| SW201 | FSM2JSMAA-ND | FSM2JSMAA-ND | 133.1628 | -95.1103 |\
+  \ 90.0 | top | \n| U101 | STM32F030C8 | LQFP-48_7x7mm_Pitch0.5mm | 124.206 | -105.41\
+  \ | 45.0 | top | \n| U301 | MCP1700T-3302E/TT_ | SOT-23 | 124.7902 | -86.4108 |\
+  \ 0.0 | top | \n| U302 | FT232RQ | QFN-32-1EP_5x5mm_Pitch0.5mm | 117.348 | -88.7222\
+  \ | 90.0 | top | \n| Y101 | Crystal | Crystal_HC49-U_Vertical | 116.4844 | -113.8682\
+  \ | -45.0 | top | \n"
 projects_flat: projects/contextualelectronics_central_command_centralcommand/current_version/working
 repo:
   allow_forking: true

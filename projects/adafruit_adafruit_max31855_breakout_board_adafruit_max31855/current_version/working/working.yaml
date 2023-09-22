@@ -1,9 +1,425 @@
 board: adafruit_max31855
+bom:
+- Id: '1'
+  Designator: D1
+  Footprint: SOD-323F
+  Quantity: '1'
+  Designation: 1n4148
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$5,U$4
+  Footprint: MOUNTINGHOLE_2.0_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.0
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C3
+  Footprint: _0805
+  Quantity: '1'
+  Designation: "0.01\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R2,R1
+  Footprint: R0805
+  Quantity: '2'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$1,U$2
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: JP1
+  Footprint: 1X06_ROUND_76
+  Quantity: '1'
+  Designation: Breakout
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: J1
+  Footprint: 1X2-3.5MM
+  Quantity: '1'
+  Designation: 1X2-3.5MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: D2
+  Footprint: SOD-323F
+  Quantity: '1'
+  Designation: 1N4148
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: FB2,FB1
+  Footprint: _0805
+  Quantity: '2'
+  Designation: Ferrite
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: C2,C1
+  Footprint: C0805K
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: IC1
+  Footprint: SO08
+  Quantity: '1'
+  Designation: MAX31855
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: IC2
+  Footprint: SOT23-5L
+  Quantity: '1'
+  Designation: LP298XS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U$6
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D1\
+  \ | SOD-323F | 1 | 1n4148 |  |  | [''] | \n| 2 | U$5,U$4 | MOUNTINGHOLE_2.0_PLATED\
+  \ | 2 | MOUNTINGHOLE2.0 |  |  | [''] | \n| 3 | C3 | _0805 | 1 | 0.01\xC2\xB5F |\
+  \  |  | [''] | \n| 4 | R2,R1 | R0805 | 2 | 10K |  |  | [''] | \n| 5 | U$1,U$2 |\
+  \ FIDUCIAL_1MM | 2 | FIDUCIAL |  |  | [''] | \n| 6 | JP1 | 1X06_ROUND_76 | 1 | Breakout\
+  \ |  |  | [''] | \n| 7 | J1 | 1X2-3.5MM | 1 | 1X2-3.5MM |  |  | [''] | \n| 8 | D2\
+  \ | SOD-323F | 1 | 1N4148 |  |  | [''] | \n| 9 | FB2,FB1 | _0805 | 2 | Ferrite |\
+  \  |  | [''] | \n| 10 | C2,C1 | C0805K | 2 | 10uF |  |  | [''] | \n| 11 | IC1 |\
+  \ SO08 | 1 | MAX31855 |  |  | [''] | \n| 12 | IC2 | SOT23-5L | 1 | LP298XS |  |\
+  \  | [''] | \n| 13 | U$6 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C-USC0805K
+  DNP: ''
+  Description: ''
+  Footprint: working:C0805K
+  Qnty: '2'
+  Ref: C1, C2
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC_0805
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805
+  Qnty: '1'
+  Ref: C3
+  Value: "0.01\xC2\xB5F"
+  Vendor: ''
+- Cmp name: DIODESOD-323F
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-323F
+  Qnty: '1'
+  Ref: D1
+  Value: 1n4148
+  Vendor: ''
+- Cmp name: DIODESOD-323F
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-323F
+  Qnty: '1'
+  Ref: D2
+  Value: 1N4148
+  Vendor: ''
+- Cmp name: FERRITE_0805
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805
+  Qnty: '2'
+  Ref: FB1, FB2
+  Value: Ferrite
+  Vendor: ''
+- Cmp name: MAX6675
+  DNP: ''
+  Description: ''
+  Footprint: working:SO08
+  Qnty: '1'
+  Ref: IC1
+  Value: MAX6675
+  Vendor: ''
+- Cmp name: LP298XS
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5L
+  Qnty: '1'
+  Ref: IC2
+  Value: LP298XS
+  Vendor: ''
+- Cmp name: 1X2-3.5MM
+  DNP: ''
+  Description: ''
+  Footprint: working:1X2-3.5MM
+  Qnty: '1'
+  Ref: J1
+  Value: 1X2-3.5MM
+  Vendor: ''
+- Cmp name: HEADER-1X676MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06_ROUND_76
+  Qnty: '1'
+  Ref: JP1
+  Value: Breakout
+  Vendor: ''
+- Cmp name: R-US_R0805
+  DNP: ''
+  Description: ''
+  Footprint: working:R0805
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 10K
+  Vendor: ''
+- Cmp name: FIDUCIAL
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: U$1, U$2
+  Value: FIDUCIAL
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.0
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.0_PLATED
+  Qnty: '2'
+  Ref: U$4, U$5
+  Value: MOUNTINGHOLE2.0
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2\
+  \ | 2 | 10uF | C-USC0805K | working:C0805K |  |  |  | \n| C3 | 1 | 0.01\xC2\xB5\
+  F | CAP_CERAMIC_0805 | working:_0805 |  |  |  | \n| D1 | 1 | 1n4148 | DIODESOD-323F\
+  \ | working:SOD-323F |  |  |  | \n| D2 | 1 | 1N4148 | DIODESOD-323F | working:SOD-323F\
+  \ |  |  |  | \n| FB1, FB2 | 2 | Ferrite | FERRITE_0805 | working:_0805 |  |  | \
+  \ | \n| IC1 | 1 | MAX6675 | MAX6675 | working:SO08 |  |  |  | \n| IC2 | 1 | LP298XS\
+  \ | LP298XS | working:SOT23-5L |  |  |  | \n| J1 | 1 | 1X2-3.5MM | 1X2-3.5MM | working:1X2-3.5MM\
+  \ |  |  |  | \n| JP1 | 1 | Breakout | HEADER-1X676MIL | working:1X06_ROUND_76 |\
+  \  |  |  | \n| R1, R2 | 2 | 10K | R-US_R0805 | working:R0805 |  |  |  | \n| U$1,\
+  \ U$2 | 2 | FIDUCIAL | FIDUCIAL | working:FIDUCIAL_1MM |  |  |  | \n| U$4, U$5 |\
+  \ 2 | MOUNTINGHOLE2.0 | MOUNTINGHOLE2.0 | working:MOUNTINGHOLE_2.0_PLATED |  | \
+  \ |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_max31855_breakout_board_adafruit_max31855/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_max31855_breakout_board_adafruit_max31855/current_version/working/working.sch
 id: adafruit_adafruit_max31855_breakout_board_adafruit_max31855
+mounting_holes:
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$4
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '15.240000000000009'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$5
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '0.0'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 15.240000000000009 | 0.0 | MOUNTINGHOLE_2.0_PLATED\
+  \ | MOUNTINGHOLE2.0 | U$4 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0\
+  \ | U$5 | m3 | \n"
 name: adafruit_max31855_breakout_board
+position_bottom:
+- '# Ref': U$6
+  Package: ADAFRUIT_3.5MM
+  PosX: 154.5894
+  PosY: -97.6503
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$6 | nan | ADAFRUIT_3.5MM | 154.5894\
+  \ | -97.6503 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: C0805K
+  PosX: 141.3814
+  PosY: -102.9843
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': C2
+  Package: C0805K
+  PosX: 141.3814
+  PosY: -109.0803
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': C3
+  Package: _0805
+  PosX: 148.7474
+  PosY: -102.2223
+  Rot: 0.0
+  Side: top
+  Val: "0.01\xC2\xB5F"
+- '# Ref': D1
+  Package: SOD-323F
+  PosX: 155.3514
+  PosY: -107.0483
+  Rot: 0.0
+  Side: top
+  Val: 1n4148
+- '# Ref': D2
+  Package: SOD-323F
+  PosX: 155.3514
+  PosY: -105.0163
+  Rot: 0.0
+  Side: top
+  Val: 1N4148
+- '# Ref': FB1
+  Package: _0805
+  PosX: 140.8734
+  PosY: -100.4443
+  Rot: 0.0
+  Side: top
+  Val: Ferrite
+- '# Ref': FB2
+  Package: _0805
+  PosX: 156.1134
+  PosY: -100.1903
+  Rot: 180.0
+  Side: top
+  Val: Ferrite
+- '# Ref': IC1
+  Package: SO08
+  PosX: 148.4934
+  PosY: -106.2863
+  Rot: -90.0
+  Side: top
+  Val: MAX31855
+- '# Ref': IC2
+  Package: SOT23-5L
+  PosX: 141.3814
+  PosY: -106.0323
+  Rot: 180.0
+  Side: top
+  Val: LP298XS
+- '# Ref': J1
+  Package: 1X2-3.5MM
+  PosX: 148.4934
+  PosY: -97.3963
+  Rot: 0.0
+  Side: top
+  Val: 1X2-3.5MM
+- '# Ref': JP1
+  Package: 1X06_ROUND_76
+  PosX: 148.4934
+  PosY: -114.4143
+  Rot: 0.0
+  Side: top
+  Val: Breakout
+- '# Ref': R1
+  Package: R0805
+  PosX: 155.0974
+  PosY: -109.3343
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: R0805
+  PosX: 155.8594
+  PosY: -102.7303
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': U$1
+  Package: FIDUCIAL_1MM
+  PosX: 153.3702
+  PosY: -94.7039
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': U$2
+  Package: FIDUCIAL_1MM
+  PosX: 140.2638
+  PosY: -112.0013
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': U$4
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 156.1134
+  PosY: -96.1263
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U$5
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 140.8734
+  PosY: -96.1263
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 10uF | C0805K | 141.3814 | -102.9843\
+  \ | 180.0 | top | \n| C2 | 10uF | C0805K | 141.3814 | -109.0803 | 180.0 | top |\
+  \ \n| C3 | 0.01\xC2\xB5F | _0805 | 148.7474 | -102.2223 | 0.0 | top | \n| D1 | 1n4148\
+  \ | SOD-323F | 155.3514 | -107.0483 | 0.0 | top | \n| D2 | 1N4148 | SOD-323F | 155.3514\
+  \ | -105.0163 | 0.0 | top | \n| FB1 | Ferrite | _0805 | 140.8734 | -100.4443 | 0.0\
+  \ | top | \n| FB2 | Ferrite | _0805 | 156.1134 | -100.1903 | 180.0 | top | \n| IC1\
+  \ | MAX31855 | SO08 | 148.4934 | -106.2863 | -90.0 | top | \n| IC2 | LP298XS | SOT23-5L\
+  \ | 141.3814 | -106.0323 | 180.0 | top | \n| J1 | 1X2-3.5MM | 1X2-3.5MM | 148.4934\
+  \ | -97.3963 | 0.0 | top | \n| JP1 | Breakout | 1X06_ROUND_76 | 148.4934 | -114.4143\
+  \ | 0.0 | top | \n| R1 | 10K | R0805 | 155.0974 | -109.3343 | 180.0 | top | \n|\
+  \ R2 | 10K | R0805 | 155.8594 | -102.7303 | 180.0 | top | \n| U$1 | FIDUCIAL | FIDUCIAL_1MM\
+  \ | 153.3702 | -94.7039 | 0.0 | top | \n| U$2 | FIDUCIAL | FIDUCIAL_1MM | 140.2638\
+  \ | -112.0013 | 0.0 | top | \n| U$4 | MOUNTINGHOLE2.0 | MOUNTINGHOLE_2.0_PLATED\
+  \ | 156.1134 | -96.1263 | 0.0 | top | \n| U$5 | MOUNTINGHOLE2.0 | MOUNTINGHOLE_2.0_PLATED\
+  \ | 140.8734 | -96.1263 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_max31855_breakout_board_adafruit_max31855/current_version/working
 repo:
   allow_forking: true

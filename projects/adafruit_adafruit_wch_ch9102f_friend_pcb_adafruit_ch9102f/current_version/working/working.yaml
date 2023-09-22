@@ -1,9 +1,571 @@
 board: adafruit_ch9102f
+bom:
+- Id: '1'
+  Designator: R4,R3,R1,R2
+  Footprint: 0603-NO
+  Quantity: '4'
+  Designation: 5.1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: X2
+  Footprint: USB_C_CUSB31-CFM2AX-01-X
+  Quantity: '1'
+  Designation: USB TYPE C
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: JP1
+  Footprint: 1X06_ROUND_76
+  Quantity: '1'
+  Designation: FTDI
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: JP4
+  Footprint: 1X08_ROUND_70
+  Quantity: '1'
+  Designation: Control
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$18,U$19
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: IC1
+  Footprint: QFN24_4MM_SMSC
+  Quantity: '1'
+  Designation: CH9102F
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U$8
+  Footprint: ADAFRUIT_2.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C3,C5,C2
+  Footprint: 0805-NO
+  Quantity: '3'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: JP2
+  Footprint: 1X08_ROUND_70
+  Quantity: '1'
+  Designation: Modem
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R6
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 20K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: R5
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 47K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: D2
+  Footprint: CHIPLED_0603_NOOUTLINE
+  Quantity: '1'
+  Designation: GREEN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: FID1,FID2
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: C1,C4
+  Footprint: 0603-NO
+  Quantity: '2'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: D1
+  Footprint: CHIPLED_0603_NOOUTLINE
+  Quantity: '1'
+  Designation: RED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: SJ1
+  Footprint: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: U$22
+  Footprint: ADAFRUIT_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: U$17
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R4,R3,R1,R2\
+  \ | 0603-NO | 4 | 5.1K |  |  | [''] | \n| 2 | X2 | USB_C_CUSB31-CFM2AX-01-X | 1\
+  \ | USB TYPE C |  |  | [''] | \n| 3 | JP1 | 1X06_ROUND_76 | 1 | FTDI |  |  | ['']\
+  \ | \n| 4 | JP4 | 1X08_ROUND_70 | 1 | Control |  |  | [''] | \n| 5 | U$18,U$19 |\
+  \ MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5 |  |  | [''] | \n| 6 | IC1 | QFN24_4MM_SMSC\
+  \ | 1 | CH9102F |  |  | [''] | \n| 7 | U$8 | ADAFRUIT_2.5MM | 1 |  |  |  | ['']\
+  \ | \n| 8 | C3,C5,C2 | 0805-NO | 3 | 10uF |  |  | [''] | \n| 9 | JP2 | 1X08_ROUND_70\
+  \ | 1 | Modem |  |  | [''] | \n| 10 | R6 | 0603-NO | 1 | 20K |  |  | [''] | \n|\
+  \ 11 | R5 | 0603-NO | 1 | 47K |  |  | [''] | \n| 12 | D2 | CHIPLED_0603_NOOUTLINE\
+  \ | 1 | GREEN |  |  | [''] | \n| 13 | FID1,FID2 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM\
+  \ |  |  | [''] | \n| 14 | C1,C4 | 0603-NO | 2 | 0.1uF |  |  | [''] | \n| 15 | D1\
+  \ | CHIPLED_0603_NOOUTLINE | 1 | RED |  |  | [''] | \n| 16 | SJ1 | SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ | 1 |  |  |  | [''] | \n| 17 | U$22 | ADAFRUIT_5MM | 1 |  |  |  | [''] | \n| 18\
+  \ | U$17 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: C1, C4
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '3'
+  Ref: C2, C3, C5
+  Value: 10uF
+  Vendor: ''
+- Cmp name: LED0603_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0603_NOOUTLINE
+  Qnty: '1'
+  Ref: D1
+  Value: RED
+  Vendor: ''
+- Cmp name: LED0603_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0603_NOOUTLINE
+  Qnty: '1'
+  Ref: D2
+  Value: GREEN
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: CP2102N-24
+  DNP: ''
+  Description: ''
+  Footprint: working:QFN24_4MM_SMSC
+  Qnty: '1'
+  Ref: IC1
+  Value: CP2102N-24
+  Vendor: ''
+- Cmp name: HEADER-1X676MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06_ROUND_76
+  Qnty: '1'
+  Ref: JP1
+  Value: FTDI
+  Vendor: ''
+- Cmp name: HEADER-1X870MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X08_ROUND_70
+  Qnty: '1'
+  Ref: JP2
+  Value: Modem
+  Vendor: ''
+- Cmp name: HEADER-1X870MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X08_ROUND_70
+  Qnty: '1'
+  Ref: JP4
+  Value: Control
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '4'
+  Ref: R1, R2, R3, R4
+  Value: 5.1K
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R5
+  Value: 47K
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R6
+  Value: 20K
+  Vendor: ''
+- Cmp name: SOLDERJUMPER_2WAY
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  Qnty: '1'
+  Ref: SJ1
+  Value: SOLDERJUMPER_2WAY
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '2'
+  Ref: U$18, U$19
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+- Cmp name: USB_C
+  DNP: ''
+  Description: ''
+  Footprint: working:USB_C_CUSB31-CFM2AX-01-X
+  Qnty: '1'
+  Ref: X2
+  Value: USB TYPE C
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C4\
+  \ | 2 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| C2, C3, C5 |\
+  \ 3 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| D1 | 1 |\
+  \ RED | LED0603_NOOUTLINE | working:CHIPLED_0603_NOOUTLINE |  |  |  | \n| D2 | 1\
+  \ | GREEN | LED0603_NOOUTLINE | working:CHIPLED_0603_NOOUTLINE |  |  |  | \n| FID1,\
+  \ FID2 | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| IC1\
+  \ | 1 | CP2102N-24 | CP2102N-24 | working:QFN24_4MM_SMSC |  |  |  | \n| JP1 | 1\
+  \ | FTDI | HEADER-1X676MIL | working:1X06_ROUND_76 |  |  |  | \n| JP2 | 1 | Modem\
+  \ | HEADER-1X870MIL | working:1X08_ROUND_70 |  |  |  | \n| JP4 | 1 | Control | HEADER-1X870MIL\
+  \ | working:1X08_ROUND_70 |  |  |  | \n| R1, R2, R3, R4 | 4 | 5.1K | RESISTOR_0603_NOOUT\
+  \ | working:0603-NO |  |  |  | \n| R5 | 1 | 47K | RESISTOR_0603_NOOUT | working:0603-NO\
+  \ |  |  |  | \n| R6 | 1 | 20K | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  |\
+  \ \n| SJ1 | 1 | SOLDERJUMPER_2WAY | SOLDERJUMPER_2WAY | working:SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ |  |  |  | \n| U$18, U$19 | 2 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED\
+  \ |  |  |  | \n| X2 | 1 | USB TYPE C | USB_C | working:USB_C_CUSB31-CFM2AX-01-X\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_wch_ch9102f_friend_pcb_adafruit_ch9102f/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_wch_ch9102f_friend_pcb_adafruit_ch9102f/current_version/working/working.sch
 id: adafruit_adafruit_wch_ch9102f_friend_pcb_adafruit_ch9102f
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$18
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '13.716000000000008'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$19
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 13.716000000000008 | 0.0 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$18 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$19 | m3 | \n"
 name: adafruit_wch_ch9102f_friend_pcb
+position_bottom:
+- '# Ref': SJ1
+  Package: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  PosX: 149.3266
+  PosY: -102.0191
+  Rot: 0.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$17
+  Package: PCBFEAT-REV-040
+  PosX: 148.2471
+  PosY: -92.4306
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$22
+  Package: ADAFRUIT_5MM
+  PosX: 151.1046
+  PosY: -98.7171
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| SJ1 | nan | SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ | 149.3266 | -102.0191 | 0.0 | bottom | \n| U$17 | nan | PCBFEAT-REV-040 | 148.2471\
+  \ | -92.4306 | 180.0 | bottom | \n| U$22 | nan | ADAFRUIT_5MM | 151.1046 | -98.7171\
+  \ | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0603-NO
+  PosX: 145.9611
+  PosY: -102.9081
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 151.4856
+  PosY: -100.6221
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 145.1991
+  PosY: -100.5586
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C4
+  Package: 0603-NO
+  PosX: 144.8816
+  PosY: -112.6236
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C5
+  Package: 0805-NO
+  PosX: 151.8666
+  PosY: -112.4331
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': D1
+  Package: CHIPLED_0603_NOOUTLINE
+  PosX: 148.9456
+  PosY: -112.8776
+  Rot: 0.0
+  Side: top
+  Val: RED
+- '# Ref': D2
+  Package: CHIPLED_0603_NOOUTLINE
+  PosX: 147.8026
+  PosY: -112.8776
+  Rot: 0.0
+  Side: top
+  Val: GREEN
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 140.5001
+  PosY: -115.0366
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 151.6126
+  PosY: -103.2256
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': IC1
+  Package: QFN24_4MM_SMSC
+  PosX: 150.2791
+  PosY: -106.6546
+  Rot: -90.0
+  Side: top
+  Val: CH9102F
+- '# Ref': JP1
+  Package: 1X06_ROUND_76
+  PosX: 148.5011
+  PosY: -116.4336
+  Rot: 0.0
+  Side: top
+  Val: FTDI
+- '# Ref': JP2
+  Package: 1X08_ROUND_70
+  PosX: 154.8511
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: Modem
+- '# Ref': JP4
+  Package: 1X08_ROUND_70
+  PosX: 142.1511
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: Control
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 150.2791
+  PosY: -112.6871
+  Rot: 90.0
+  Side: top
+  Val: 5.1K
+- '# Ref': R2
+  Package: 0603-NO
+  PosX: 146.4056
+  PosY: -112.6236
+  Rot: 90.0
+  Side: top
+  Val: 5.1K
+- '# Ref': R3
+  Package: 0603-NO
+  PosX: 147.2946
+  PosY: -100.5586
+  Rot: 90.0
+  Side: top
+  Val: 5.1K
+- '# Ref': R4
+  Package: 0603-NO
+  PosX: 149.5806
+  PosY: -100.6856
+  Rot: 90.0
+  Side: top
+  Val: 5.1K
+- '# Ref': R5
+  Package: 0603-NO
+  PosX: 145.7071
+  PosY: -106.2101
+  Rot: 0.0
+  Side: top
+  Val: 47K
+- '# Ref': R6
+  Package: 0603-NO
+  PosX: 146.0246
+  PosY: -104.6861
+  Rot: 0.0
+  Side: top
+  Val: 20K
+- '# Ref': U$8
+  Package: ADAFRUIT_2.5MM
+  PosX: 145.0721
+  PosY: -109.1946
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$18
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 155.3591
+  PosY: -93.0656
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$19
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 141.6431
+  PosY: -93.0656
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': X2
+  Package: USB_C_CUSB31-CFM2AX-01-X
+  PosX: 148.5011
+  PosY: -95.2246
+  Rot: 180.0
+  Side: top
+  Val: USB_TYPE_C
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | 0603-NO | 145.9611 | -102.9081\
+  \ | 180.0 | top | \n| C2 | 10uF | 0805-NO | 151.4856 | -100.6221 | -90.0 | top |\
+  \ \n| C3 | 10uF | 0805-NO | 145.1991 | -100.5586 | -90.0 | top | \n| C4 | 0.1uF\
+  \ | 0603-NO | 144.8816 | -112.6236 | 90.0 | top | \n| C5 | 10uF | 0805-NO | 151.8666\
+  \ | -112.4331 | -90.0 | top | \n| D1 | RED | CHIPLED_0603_NOOUTLINE | 148.9456 |\
+  \ -112.8776 | 0.0 | top | \n| D2 | GREEN | CHIPLED_0603_NOOUTLINE | 147.8026 | -112.8776\
+  \ | 0.0 | top | \n| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM | 140.5001 | -115.0366 |\
+  \ 0.0 | top | \n| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM | 151.6126 | -103.2256 | 0.0\
+  \ | top | \n| IC1 | CH9102F | QFN24_4MM_SMSC | 150.2791 | -106.6546 | -90.0 | top\
+  \ | \n| JP1 | FTDI | 1X06_ROUND_76 | 148.5011 | -116.4336 | 0.0 | top | \n| JP2\
+  \ | Modem | 1X08_ROUND_70 | 154.8511 | -105.0036 | 90.0 | top | \n| JP4 | Control\
+  \ | 1X08_ROUND_70 | 142.1511 | -105.0036 | -90.0 | top | \n| R1 | 5.1K | 0603-NO\
+  \ | 150.2791 | -112.6871 | 90.0 | top | \n| R2 | 5.1K | 0603-NO | 146.4056 | -112.6236\
+  \ | 90.0 | top | \n| R3 | 5.1K | 0603-NO | 147.2946 | -100.5586 | 90.0 | top | \n\
+  | R4 | 5.1K | 0603-NO | 149.5806 | -100.6856 | 90.0 | top | \n| R5 | 47K | 0603-NO\
+  \ | 145.7071 | -106.2101 | 0.0 | top | \n| R6 | 20K | 0603-NO | 146.0246 | -104.6861\
+  \ | 0.0 | top | \n| U$8 | nan | ADAFRUIT_2.5MM | 145.0721 | -109.1946 | 0.0 | top\
+  \ | \n| U$18 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 155.3591 | -93.0656 |\
+  \ 0.0 | top | \n| U$19 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 141.6431 |\
+  \ -93.0656 | 0.0 | top | \n| X2 | USB_TYPE_C | USB_C_CUSB31-CFM2AX-01-X | 148.5011\
+  \ | -95.2246 | 180.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_wch_ch9102f_friend_pcb_adafruit_ch9102f/current_version/working
 repo:
   allow_forking: true

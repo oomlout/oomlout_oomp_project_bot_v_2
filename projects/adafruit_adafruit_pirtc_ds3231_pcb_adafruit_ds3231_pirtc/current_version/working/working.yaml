@@ -1,9 +1,287 @@
 board: adafruit_ds3231_pirtc
+bom:
+- Id: '1'
+  Designator: U$2
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: RPI1
+  Footprint: RASPBERRYPI_2X3_THMSMT
+  Quantity: '1'
+  Designation: RASPBERRYPI_2X3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: JP1
+  Footprint: 1X02_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$4
+  Footprint: MOUNTINGHOLE_3.0_PLATEDTHIN
+  Quantity: '1'
+  Designation: MOUNTINGHOLE3.0THIN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: B1
+  Footprint: CR1220
+  Quantity: '1'
+  Designation: CR1220
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: FID1,FID2,FID4,FID3
+  Footprint: FIDUCIAL_1MM
+  Quantity: '4'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U$3
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C1
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: IC2
+  Footprint: SO16W
+  Quantity: '1'
+  Designation: DS3231/SO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U$2\
+  \ | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n| 2 | RPI1 | RASPBERRYPI_2X3_THMSMT |\
+  \ 1 | RASPBERRYPI_2X3 |  |  | [''] | \n| 3 | JP1 | 1X02_ROUND | 1 |  |  |  | ['']\
+  \ | \n| 4 | U$4 | MOUNTINGHOLE_3.0_PLATEDTHIN | 1 | MOUNTINGHOLE3.0THIN |  |  |\
+  \ [''] | \n| 5 | B1 | CR1220 | 1 | CR1220 |  |  | [''] | \n| 6 | FID1,FID2,FID4,FID3\
+  \ | FIDUCIAL_1MM | 4 | FIDUCIAL_1MM |  |  | [''] | \n| 7 | U$3 | PCBFEAT-REV-040\
+  \ | 1 |  |  |  | [''] | \n| 8 | C1 | 0805-NO | 1 | 10uF |  |  | [''] | \n| 9 | IC2\
+  \ | SO16W | 1 | DS3231/SO |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: BATTERYCR1220_SMT
+  DNP: ''
+  Description: ''
+  Footprint: working:CR1220
+  Qnty: '1'
+  Ref: B1
+  Value: CR1220
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C1
+  Value: 10uF
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '4'
+  Ref: FID1, FID2, FID3, FID4
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: DS3231/SO
+  DNP: ''
+  Description: ''
+  Footprint: working:SO16W
+  Qnty: '1'
+  Ref: IC2
+  Value: DS3231/SO
+  Vendor: ''
+- Cmp name: HEADER-1X2ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X02_ROUND
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X2ROUND
+  Vendor: ''
+- Cmp name: RASPBERRYPI_2X3
+  DNP: ''
+  Description: ''
+  Footprint: working:RASPBERRYPI_2X3_THMSMT
+  Qnty: '1'
+  Ref: RPI1
+  Value: RASPBERRYPI_2X3
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE3.0THIN
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_3.0_PLATEDTHIN
+  Qnty: '1'
+  Ref: U$4
+  Value: MOUNTINGHOLE3.0THIN
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| B1 |\
+  \ 1 | CR1220 | BATTERYCR1220_SMT | working:CR1220 |  |  |  | \n| C1 | 1 | 10uF |\
+  \ CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| FID1, FID2, FID3, FID4\
+  \ | 4 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| IC2 |\
+  \ 1 | DS3231/SO | DS3231/SO | working:SO16W |  |  |  | \n| JP1 | 1 | HEADER-1X2ROUND\
+  \ | HEADER-1X2ROUND | working:1X02_ROUND |  |  |  | \n| RPI1 | 1 | RASPBERRYPI_2X3\
+  \ | RASPBERRYPI_2X3 | working:RASPBERRYPI_2X3_THMSMT |  |  |  | \n| U$4 | 1 | MOUNTINGHOLE3.0THIN\
+  \ | MOUNTINGHOLE3.0THIN | working:MOUNTINGHOLE_3.0_PLATEDTHIN |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_pirtc_ds3231_pcb_adafruit_ds3231_pirtc/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_pirtc_ds3231_pcb_adafruit_ds3231_pirtc/current_version/working/working.sch
 id: adafruit_adafruit_pirtc_ds3231_pcb_adafruit_ds3231_pirtc
+mounting_holes:
+- package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  ref: U$4
+  size: m3
+  value: MOUNTINGHOLE3.0THIN
+  x: '0.0'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN\
+  \ | U$4 | m3 | \n"
 name: adafruit_pirtc_ds3231_pcb
+position_bottom:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 143.5612
+  PosY: -97.3709
+  Rot: 0.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 150.0636
+  PosY: -113.0681
+  Rot: 180.0
+  Side: bottom
+  Val: FIDUCIAL_1MM
+- '# Ref': FID4
+  Package: FIDUCIAL_1MM
+  PosX: 139.6496
+  PosY: -95.5421
+  Rot: 180.0
+  Side: bottom
+  Val: FIDUCIAL_1MM
+- '# Ref': IC2
+  Package: SO16W
+  PosX: 145.1614
+  PosY: -104.9655
+  Rot: 0.0
+  Side: bottom
+  Val: DS3231/SO
+- '# Ref': U$3
+  Package: PCBFEAT-REV-040
+  PosX: 140.0052
+  PosY: -97.8535
+  Rot: 0.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C1 | 10uF | 0805-NO | 143.5612 |\
+  \ -97.3709 | 0.0 | bottom | \n| FID3 | FIDUCIAL_1MM | FIDUCIAL_1MM | 150.0636 |\
+  \ -113.0681 | 180.0 | bottom | \n| FID4 | FIDUCIAL_1MM | FIDUCIAL_1MM | 139.6496\
+  \ | -95.5421 | 180.0 | bottom | \n| IC2 | DS3231/SO | SO16W | 145.1614 | -104.9655\
+  \ | 0.0 | bottom | \n| U$3 | nan | PCBFEAT-REV-040 | 140.0052 | -97.8535 | 0.0 |\
+  \ bottom | \n"
+position_top:
+- '# Ref': B1
+  Package: CR1220
+  PosX: 145.1106
+  PosY: -104.9401
+  Rot: 90.0
+  Side: top
+  Val: CR1220
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 139.802
+  PosY: -96.9137
+  Rot: 180.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 157.1248
+  PosY: -100.4951
+  Rot: 180.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': JP1
+  Package: 1X02_ROUND
+  PosX: 149.8604
+  PosY: -97.0915
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': RPI1
+  Package: RASPBERRYPI_2X3_THMSMT
+  PosX: 154.5086
+  PosY: -105.3211
+  Rot: 0.0
+  Side: top
+  Val: RASPBERRYPI_2X3
+- '# Ref': U$2
+  Package: ADAFRUIT_3.5MM
+  PosX: 139.2686
+  PosY: -115.4811
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$4
+  Package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  PosX: 154.5086
+  PosY: -97.9043
+  Rot: 180.0
+  Side: top
+  Val: MOUNTINGHOLE3.0THIN
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| B1 | CR1220 | CR1220 | 145.1106 | -104.9401\
+  \ | 90.0 | top | \n| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM | 139.802 | -96.9137 | 180.0\
+  \ | top | \n| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM | 157.1248 | -100.4951 | 180.0\
+  \ | top | \n| JP1 | nan | 1X02_ROUND | 149.8604 | -97.0915 | 180.0 | top | \n| RPI1\
+  \ | RASPBERRYPI_2X3 | RASPBERRYPI_2X3_THMSMT | 154.5086 | -105.3211 | 0.0 | top\
+  \ | \n| U$2 | nan | ADAFRUIT_3.5MM | 139.2686 | -115.4811 | 0.0 | top | \n| U$4\
+  \ | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN | 154.5086 | -97.9043 | 180.0\
+  \ | top | \n"
 projects_flat: projects/adafruit_adafruit_pirtc_ds3231_pcb_adafruit_ds3231_pirtc/current_version/working
 repo:
   allow_forking: true

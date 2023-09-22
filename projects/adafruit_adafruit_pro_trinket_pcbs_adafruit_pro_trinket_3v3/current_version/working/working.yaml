@@ -1,9 +1,688 @@
 board: adafruit_pro_trinket_3v3
+bom:
+- Id: '1'
+  Designator: IC2
+  Footprint: SOT23-5L
+  Quantity: '1'
+  Designation: MIC5225-3.3v
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D2,D3
+  Footprint: SOD-123FL
+  Quantity: '2'
+  Designation: SCHOTTKY
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: JP2
+  Footprint: 1X02_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: '@HOLE1,@HOLE2,@HOLE0'
+  Footprint: ''
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: IC1
+  Footprint: MLF32-TH
+  Quantity: '1'
+  Designation: ATmega328P
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U$1,U$6
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C2
+  Footprint: _0805MP
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: CN1
+  Footprint: 4UCONN_20329
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R3
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 1.5K (0603)
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R4,R5
+  Footprint: 0603-NO
+  Quantity: '2'
+  Designation: 470 (0603)
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: JP4,JP1
+  Footprint: 1X12-CB
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: Y1
+  Footprint: RESONATOR-SMD
+  Quantity: '1'
+  Designation: 12MHz
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U$7
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: C3
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: PWR0
+  Footprint: CHIPLED_0805_NOOUTLINE
+  Quantity: '1'
+  Designation: green
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: Q1
+  Footprint: BTN_KMR2_4.6X2.8
+  Quantity: '1'
+  Designation: reset
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: R1,R2
+  Footprint: 0603-NO
+  Quantity: '2'
+  Designation: 68 (0603)
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: C1,C8
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: B1
+  Footprint: CHIPLED_0805_NOOUTLINE
+  Quantity: '1'
+  Designation: red
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: R6
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10K (0603)
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '21'
+  Designator: FTDI0
+  Footprint: 1X06-CLEANBIG
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '22'
+  Designator: U$9
+  Footprint: ADAFRUIT_9MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '23'
+  Designator: BAT0
+  Footprint: JSTPH2
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | IC2\
+  \ | SOT23-5L | 1 | MIC5225-3.3v |  |  | [''] | \n| 2 | D2,D3 | SOD-123FL | 2 | SCHOTTKY\
+  \ |  |  | [''] | \n| 3 | JP2 | 1X02_ROUND | 1 |  |  |  | [''] | \n| 4 | @HOLE1,@HOLE2,@HOLE0\
+  \ |  | 3 |  |  |  | [''] | \n| 5 | IC1 | MLF32-TH | 1 | ATmega328P |  |  | ['']\
+  \ | \n| 6 | U$1,U$6 | FIDUCIAL_1MM | 2 | FIDUCIAL |  |  | [''] | \n| 7 | C2 | _0805MP\
+  \ | 1 | 0.1uF |  |  | [''] | \n| 8 | CN1 | 4UCONN_20329 | 1 |  |  |  | [''] | \n\
+  | 9 | R3 | 0603-NO | 1 | 1.5K (0603) |  |  | [''] | \n| 10 | R4,R5 | 0603-NO | 2\
+  \ | 470 (0603) |  |  | [''] | \n| 11 | JP4,JP1 | 1X12-CB | 2 |  |  |  | [''] | \n\
+  | 12 | Y1 | RESONATOR-SMD | 1 | 12MHz |  |  | [''] | \n| 13 | U$7 | ADAFRUIT_3.5MM\
+  \ | 1 |  |  |  | [''] | \n| 14 | C3 | 0805-NO | 1 | 0.1uF |  |  | [''] | \n| 15\
+  \ | PWR0 | CHIPLED_0805_NOOUTLINE | 1 | green |  |  | [''] | \n| 16 | Q1 | BTN_KMR2_4.6X2.8\
+  \ | 1 | reset |  |  | [''] | \n| 17 | R1,R2 | 0603-NO | 2 | 68 (0603) |  |  | ['']\
+  \ | \n| 18 | C1,C8 | 0805-NO | 2 | 10uF |  |  | [''] | \n| 19 | B1 | CHIPLED_0805_NOOUTLINE\
+  \ | 1 | red |  |  | [''] | \n| 20 | R6 | 0805-NO | 1 | 10K (0603) |  |  | [''] |\
+  \ \n| 21 | FTDI0 | 1X06-CLEANBIG | 1 |  |  |  | [''] | \n| 22 | U$9 | ADAFRUIT_9MM\
+  \ | 1 |  |  |  | [''] | \n| 23 | BAT0 | JSTPH2 | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: LED0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805_NOOUTLINE
+  Qnty: '1'
+  Ref: B1
+  Value: red
+  Vendor: ''
+- Cmp name: CON_JST_PH_2PIN
+  DNP: ''
+  Description: ''
+  Footprint: working:JSTPH2
+  Qnty: '1'
+  Ref: BAT0
+  Value: CON_JST_PH_2PIN
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C1, C8
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC_0805MP
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805MP
+  Qnty: '1'
+  Ref: C2
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C3
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: USBMICRO_20329
+  DNP: ''
+  Description: ''
+  Footprint: working:4UCONN_20329
+  Qnty: '1'
+  Ref: CN1
+  Value: USBMICRO_20329
+  Vendor: ''
+- Cmp name: DIODE_SOD-123FL
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-123FL
+  Qnty: '2'
+  Ref: D2, D3
+  Value: SCHOTTKY
+  Vendor: ''
+- Cmp name: PINHD-1X6CB
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06-CLEANBIG
+  Qnty: '1'
+  Ref: FTDI0
+  Value: PINHD-1X6CB
+  Vendor: ''
+- Cmp name: MEGA8-MI
+  DNP: ''
+  Description: ''
+  Footprint: working:MLF32-TH
+  Qnty: '1'
+  Ref: IC1
+  Value: MEGA8-MI
+  Vendor: ''
+- Cmp name: LP298XS
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5L
+  Qnty: '1'
+  Ref: IC2
+  Value: LP298XS
+  Vendor: ''
+- Cmp name: PINHD-1X12-CB
+  DNP: ''
+  Description: ''
+  Footprint: working:1X12-CB
+  Qnty: '2'
+  Ref: JP1, JP4
+  Value: PINHD-1X12-CB
+  Vendor: ''
+- Cmp name: HEADER-1X2ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X02_ROUND
+  Qnty: '1'
+  Ref: JP2
+  Value: HEADER-1X2ROUND
+  Vendor: ''
+- Cmp name: LED0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805_NOOUTLINE
+  Qnty: '1'
+  Ref: PWR0
+  Value: green
+  Vendor: ''
+- Cmp name: SWITCH_TACT_SMT4.6X2.8
+  DNP: ''
+  Description: ''
+  Footprint: working:BTN_KMR2_4.6X2.8
+  Qnty: '1'
+  Ref: Q1
+  Value: reset
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 68 (0603)
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R3
+  Value: 1.5K (0603)
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: R4, R5
+  Value: 470 (0603)
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: R6
+  Value: 10K (0603)
+  Vendor: ''
+- Cmp name: FIDUCIAL
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: U$1, U$6
+  Value: FIDUCIAL
+  Vendor: ''
+- Cmp name: RESONATORSMD
+  DNP: ''
+  Description: ''
+  Footprint: working:RESONATOR-SMD
+  Qnty: '1'
+  Ref: Y1
+  Value: RESONATORSMD
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| B1 |\
+  \ 1 | red | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | \n| BAT0\
+  \ | 1 | CON_JST_PH_2PIN | CON_JST_PH_2PIN | working:JSTPH2 |  |  |  | \n| C1, C8\
+  \ | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C2 | 1\
+  \ | 0.1uF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | \n| C3 | 1 | 0.1uF |\
+  \ CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| CN1 | 1 | USBMICRO_20329\
+  \ | USBMICRO_20329 | working:4UCONN_20329 |  |  |  | \n| D2, D3 | 2 | SCHOTTKY |\
+  \ DIODE_SOD-123FL | working:SOD-123FL |  |  |  | \n| FTDI0 | 1 | PINHD-1X6CB | PINHD-1X6CB\
+  \ | working:1X06-CLEANBIG |  |  |  | \n| IC1 | 1 | MEGA8-MI | MEGA8-MI | working:MLF32-TH\
+  \ |  |  |  | \n| IC2 | 1 | LP298XS | LP298XS | working:SOT23-5L |  |  |  | \n| JP1,\
+  \ JP4 | 2 | PINHD-1X12-CB | PINHD-1X12-CB | working:1X12-CB |  |  |  | \n| JP2 |\
+  \ 1 | HEADER-1X2ROUND | HEADER-1X2ROUND | working:1X02_ROUND |  |  |  | \n| PWR0\
+  \ | 1 | green | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | \n\
+  | Q1 | 1 | reset | SWITCH_TACT_SMT4.6X2.8 | working:BTN_KMR2_4.6X2.8 |  |  |  |\
+  \ \n| R1, R2 | 2 | 68 (0603) | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  |\
+  \ \n| R3 | 1 | 1.5K (0603) | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n\
+  | R4, R5 | 2 | 470 (0603) | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n\
+  | R6 | 1 | 10K (0603) | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | \n|\
+  \ U$1, U$6 | 2 | FIDUCIAL | FIDUCIAL | working:FIDUCIAL_1MM |  |  |  | \n| Y1 |\
+  \ 1 | RESONATORSMD | RESONATORSMD | working:RESONATOR-SMD |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_pro_trinket_pcbs_adafruit_pro_trinket_3v3/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_pro_trinket_pcbs_adafruit_pro_trinket_3v3/current_version/working/working.sch
 id: adafruit_adafruit_pro_trinket_pcbs_adafruit_pro_trinket_3v3
 name: adafruit_pro_trinket_pcbs
+position_bottom:
+- '# Ref': BAT0
+  Package: JSTPH2
+  PosX: 148.5011
+  PosY: -89.8906
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$9
+  Package: ADAFRUIT_9MM
+  PosX: 144.8181
+  PosY: -114.0206
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| BAT0 | nan | JSTPH2 | 148.5011 |\
+  \ -89.8906 | 180.0 | bottom | \n| U$9 | nan | ADAFRUIT_9MM | 144.8181 | -114.0206\
+  \ | 90.0 | bottom | \n"
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 141.5161
+  PosY: -88.1126
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 155.4861
+  PosY: -88.1126
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE2'
+  Package: .nan
+  PosX: 148.5011
+  PosY: -113.8936
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': B1
+  Package: CHIPLED_0805_NOOUTLINE
+  PosX: 144.8181
+  PosY: -93.5736
+  Rot: -90.0
+  Side: top
+  Val: red
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 145.4531
+  PosY: -101.1936
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C2
+  Package: _0805MP
+  PosX: 143.8021
+  PosY: -101.8286
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 152.3111
+  PosY: -116.8146
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C8
+  Package: 0805-NO
+  PosX: 151.5237
+  PosY: -101.0666
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': CN1
+  Package: 4UCONN_20329
+  PosX: 148.5011
+  PosY: -90.6526
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': D2
+  Package: SOD-123FL
+  PosX: 151.4221
+  PosY: -96.9264
+  Rot: 90.0
+  Side: top
+  Val: SCHOTTKY
+- '# Ref': D3
+  Package: SOD-123FL
+  PosX: 145.1991
+  PosY: -96.8756
+  Rot: 90.0
+  Side: top
+  Val: SCHOTTKY
+- '# Ref': FTDI0
+  Package: 1X06-CLEANBIG
+  PosX: 148.5011
+  PosY: -121.1326
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': IC1
+  Package: MLF32-TH
+  PosX: 148.5011
+  PosY: -108.3056
+  Rot: 180.0
+  Side: top
+  Val: ATmega328P
+- '# Ref': IC2
+  Package: SOT23-5L
+  PosX: 148.5011
+  PosY: -101.0666
+  Rot: -90.0
+  Side: top
+  Val: MIC5225-3.3v
+- '# Ref': JP1
+  Package: 1X12-CB
+  PosX: 156.1211
+  PosY: -104.6226
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X02_ROUND
+  PosX: 143.4211
+  PosY: -107.1626
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP4
+  Package: 1X12-CB
+  PosX: 140.8811
+  PosY: -104.6226
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': PWR0
+  Package: CHIPLED_0805_NOOUTLINE
+  PosX: 152.3111
+  PosY: -93.5101
+  Rot: 90.0
+  Side: top
+  Val: green
+- '# Ref': Q1
+  Package: BTN_KMR2_4.6X2.8
+  PosX: 148.5011
+  PosY: -117.3226
+  Rot: 0.0
+  Side: top
+  Val: reset
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 148.3741
+  PosY: -97.1296
+  Rot: -90.0
+  Side: top
+  Val: 68_(0603)
+- '# Ref': R2
+  Package: 0603-NO
+  PosX: 146.9771
+  PosY: -97.1296
+  Rot: -90.0
+  Side: top
+  Val: 68_(0603)
+- '# Ref': R3
+  Package: 0603-NO
+  PosX: 149.7711
+  PosY: -97.1296
+  Rot: -90.0
+  Side: top
+  Val: 1.5K_(0603)
+- '# Ref': R4
+  Package: 0603-NO
+  PosX: 153.3271
+  PosY: -100.0506
+  Rot: -90.0
+  Side: top
+  Val: 470_(0603)
+- '# Ref': R5
+  Package: 0603-NO
+  PosX: 143.5481
+  PosY: -96.8756
+  Rot: -90.0
+  Side: top
+  Val: 470_(0603)
+- '# Ref': R6
+  Package: 0805-NO
+  PosX: 144.6911
+  PosY: -116.9416
+  Rot: -90.0
+  Side: top
+  Val: 10K_(0603)
+- '# Ref': U$1
+  Package: FIDUCIAL_1MM
+  PosX: 152.9461
+  PosY: -96.6216
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': U$6
+  Package: FIDUCIAL_1MM
+  PosX: 148.5011
+  PosY: -117.3226
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': U$7
+  Package: ADAFRUIT_3.5MM
+  PosX: 143.6751
+  PosY: -115.1636
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': Y1
+  Package: RESONATOR-SMD
+  PosX: 153.0731
+  PosY: -106.7816
+  Rot: 90.0
+  Side: top
+  Val: 12MHz
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 141.5161 | -88.1126\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 155.4861 | -88.1126 | 0.0 | top | \n| @HOLE2\
+  \ | nan | nan | 148.5011 | -113.8936 | 0.0 | top | \n| B1 | red | CHIPLED_0805_NOOUTLINE\
+  \ | 144.8181 | -93.5736 | -90.0 | top | \n| C1 | 10uF | 0805-NO | 145.4531 | -101.1936\
+  \ | -90.0 | top | \n| C2 | 0.1uF | _0805MP | 143.8021 | -101.8286 | 90.0 | top |\
+  \ \n| C3 | 0.1uF | 0805-NO | 152.3111 | -116.8146 | -90.0 | top | \n| C8 | 10uF\
+  \ | 0805-NO | 151.5237 | -101.0666 | -90.0 | top | \n| CN1 | nan | 4UCONN_20329\
+  \ | 148.5011 | -90.6526 | 180.0 | top | \n| D2 | SCHOTTKY | SOD-123FL | 151.4221\
+  \ | -96.9264 | 90.0 | top | \n| D3 | SCHOTTKY | SOD-123FL | 145.1991 | -96.8756\
+  \ | 90.0 | top | \n| FTDI0 | nan | 1X06-CLEANBIG | 148.5011 | -121.1326 | 0.0 |\
+  \ top | \n| IC1 | ATmega328P | MLF32-TH | 148.5011 | -108.3056 | 180.0 | top | \n\
+  | IC2 | MIC5225-3.3v | SOT23-5L | 148.5011 | -101.0666 | -90.0 | top | \n| JP1 |\
+  \ nan | 1X12-CB | 156.1211 | -104.6226 | -90.0 | top | \n| JP2 | nan | 1X02_ROUND\
+  \ | 143.4211 | -107.1626 | -90.0 | top | \n| JP4 | nan | 1X12-CB | 140.8811 | -104.6226\
+  \ | -90.0 | top | \n| PWR0 | green | CHIPLED_0805_NOOUTLINE | 152.3111 | -93.5101\
+  \ | 90.0 | top | \n| Q1 | reset | BTN_KMR2_4.6X2.8 | 148.5011 | -117.3226 | 0.0\
+  \ | top | \n| R1 | 68_(0603) | 0603-NO | 148.3741 | -97.1296 | -90.0 | top | \n\
+  | R2 | 68_(0603) | 0603-NO | 146.9771 | -97.1296 | -90.0 | top | \n| R3 | 1.5K_(0603)\
+  \ | 0603-NO | 149.7711 | -97.1296 | -90.0 | top | \n| R4 | 470_(0603) | 0603-NO\
+  \ | 153.3271 | -100.0506 | -90.0 | top | \n| R5 | 470_(0603) | 0603-NO | 143.5481\
+  \ | -96.8756 | -90.0 | top | \n| R6 | 10K_(0603) | 0805-NO | 144.6911 | -116.9416\
+  \ | -90.0 | top | \n| U$1 | FIDUCIAL | FIDUCIAL_1MM | 152.9461 | -96.6216 | 0.0\
+  \ | top | \n| U$6 | FIDUCIAL | FIDUCIAL_1MM | 148.5011 | -117.3226 | 0.0 | top |\
+  \ \n| U$7 | nan | ADAFRUIT_3.5MM | 143.6751 | -115.1636 | 0.0 | top | \n| Y1 | 12MHz\
+  \ | RESONATOR-SMD | 153.0731 | -106.7816 | 90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_pro_trinket_pcbs_adafruit_pro_trinket_3v3/current_version/working
 repo:
   allow_forking: true

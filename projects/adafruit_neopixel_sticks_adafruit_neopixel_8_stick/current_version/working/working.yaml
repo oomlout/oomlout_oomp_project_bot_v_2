@@ -1,9 +1,369 @@
 board: adafruit_neopixel_8_stick
+bom:
+- Id: '1'
+  Designator: C7,C4,C1,C5,C3,C2,C6
+  Footprint: C0805K
+  Quantity: '7'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: LED2,LED1,LED7,LED4,LED8,LED5,LED6,LED3
+  Footprint: WS2812B-NARROW
+  Quantity: '8'
+  Designation: WS2812B5050
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: FID1,FID3
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$2,U$3
+  Footprint: MOUNTINGHOLE_2.0_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.0
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R1
+  Footprint: _0805MP
+  Quantity: '1'
+  Designation: 470 OHM,
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U$4
+  Footprint: ADAFRUIT_2.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U$1
+  Footprint: ADAFRUIT_TEXT_20MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: CN2,CN1
+  Footprint: 1X4-SMT
+  Quantity: '2'
+  Designation: 1X4SMT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C7,C4,C1,C5,C3,C2,C6\
+  \ | C0805K | 7 |  |  |  | [''] | \n| 2 | LED2,LED1,LED7,LED4,LED8,LED5,LED6,LED3\
+  \ | WS2812B-NARROW | 8 | WS2812B5050 |  |  | [''] | \n| 3 | FID1,FID3 | FIDUCIAL_1MM\
+  \ | 2 | FIDUCIAL\" |  |  | [''] | \n| 4 | U$2,U$3 | MOUNTINGHOLE_2.0_PLATED | 2\
+  \ | MOUNTINGHOLE2.0 |  |  | [''] | \n| 5 | R1 | _0805MP | 1 | 470 OHM, |  |  | ['']\
+  \ | \n| 6 | U$4 | ADAFRUIT_2.5MM | 1 |  |  |  | [''] | \n| 7 | U$1 | ADAFRUIT_TEXT_20MM\
+  \ | 1 |  |  |  | [''] | \n| 8 | CN2,CN1 | 1X4-SMT | 2 | 1X4SMT |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C-USC0805K
+  DNP: ''
+  Description: ''
+  Footprint: working:C0805K
+  Qnty: '7'
+  Ref: C1, C2, C3, C4, C5, C6, C7
+  Value: C-USC0805K
+  Vendor: ''
+- Cmp name: 1X4SMT
+  DNP: ''
+  Description: ''
+  Footprint: working:1X4-SMT
+  Qnty: '2'
+  Ref: CN1, CN2
+  Value: 1X4SMT
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID3
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: WS2812B5050
+  DNP: ''
+  Description: ''
+  Footprint: working:WS2812B
+  Qnty: '8'
+  Ref: LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8
+  Value: WS2812B5050
+  Vendor: ''
+- Cmp name: RESISTOR_0805MP
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805MP
+  Qnty: '1'
+  Ref: R1
+  Value: 470 OHM,
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.0
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.0_PLATED
+  Qnty: '2'
+  Ref: U$2, U$3
+  Value: MOUNTINGHOLE2.0
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3, C4, C5, C6, C7 | 7 | C-USC0805K | C-USC0805K | working:C0805K |  |  |  | \n\
+  | CN1, CN2 | 2 | 1X4SMT | 1X4SMT | working:1X4-SMT |  |  |  | \n| FID1, FID3 | 2\
+  \ | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  | \
+  \ | \n| LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8 | 8 | WS2812B5050 | WS2812B5050\
+  \ | working:WS2812B |  |  |  | \n| R1 | 1 | 470 OHM, | RESISTOR_0805MP | working:_0805MP\
+  \ |  |  |  | \n| U$2, U$3 | 2 | MOUNTINGHOLE2.0 | MOUNTINGHOLE2.0 | working:MOUNTINGHOLE_2.0_PLATED\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_neopixel_sticks_adafruit_neopixel_8_stick/current_version/working/working.brd
 file_sch_flat: projects/adafruit_neopixel_sticks_adafruit_neopixel_8_stick/current_version/working/working.sch
 id: adafruit_neopixel_sticks_adafruit_neopixel_8_stick
+mounting_holes:
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$2
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$3
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '25.400000000000006'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0\
+  \ | U$2 | m3 | \n| 25.400000000000006 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0\
+  \ | U$3 | m3 | \n"
 name: neopixel_sticks
+position_bottom:
+- '# Ref': CN1
+  Package: 1X4-SMT
+  PosX: 172.5041
+  PosY: -105.0036
+  Rot: -90.0
+  Side: bottom
+  Val: 1X4SMT
+- '# Ref': CN2
+  Package: 1X4-SMT
+  PosX: 124.4981
+  PosY: -105.0036
+  Rot: 90.0
+  Side: bottom
+  Val: 1X4SMT
+- '# Ref': U$1
+  Package: ADAFRUIT_TEXT_20MM
+  PosX: 158.2801
+  PosY: -109.7026
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| CN1 | 1X4SMT | 1X4-SMT | 172.5041\
+  \ | -105.0036 | -90.0 | bottom | \n| CN2 | 1X4SMT | 1X4-SMT | 124.4981 | -105.0036\
+  \ | 90.0 | bottom | \n| U$1 | nan | ADAFRUIT_TEXT_20MM | 158.2801 | -109.7026 |\
+  \ 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: C0805K
+  PosX: 131.4831
+  PosY: -101.7016
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': C2
+  Package: C0805K
+  PosX: 139.9921
+  PosY: -101.7016
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': C3
+  Package: C0805K
+  PosX: 145.3261
+  PosY: -101.7016
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': C4
+  Package: C0805K
+  PosX: 151.6761
+  PosY: -101.7016
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': C5
+  Package: C0805K
+  PosX: 156.7561
+  PosY: -101.7016
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': C6
+  Package: C0805K
+  PosX: 165.1381
+  PosY: -101.7016
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': C7
+  Package: C0805K
+  PosX: 171.3611
+  PosY: -101.7016
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 128.4351
+  PosY: -101.7016
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 168.1861
+  PosY: -101.7016
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': LED1
+  Package: WS2812B-NARROW
+  PosX: 126.2761
+  PosY: -106.2736
+  Rot: 0.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED2
+  Package: WS2812B-NARROW
+  PosX: 132.6261
+  PosY: -106.2736
+  Rot: 0.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED3
+  Package: WS2812B-NARROW
+  PosX: 138.9761
+  PosY: -106.2736
+  Rot: 0.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED4
+  Package: WS2812B-NARROW
+  PosX: 145.3261
+  PosY: -106.2736
+  Rot: 0.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED5
+  Package: WS2812B-NARROW
+  PosX: 151.6761
+  PosY: -106.2736
+  Rot: 0.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED6
+  Package: WS2812B-NARROW
+  PosX: 158.0261
+  PosY: -106.2736
+  Rot: 0.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED7
+  Package: WS2812B-NARROW
+  PosX: 164.3761
+  PosY: -106.2736
+  Rot: 0.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED8
+  Package: WS2812B-NARROW
+  PosX: 170.7261
+  PosY: -106.2736
+  Rot: 0.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': R1
+  Package: _0805MP
+  PosX: 125.5141
+  PosY: -101.7016
+  Rot: 0.0
+  Side: top
+  Val: 470_OHM,
+- '# Ref': U$2
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 135.8011
+  PosY: -101.9556
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U$3
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 161.2011
+  PosY: -101.9556
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U$4
+  Package: ADAFRUIT_2.5MM
+  PosX: 147.3581
+  PosY: -102.5906
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | nan | C0805K | 131.4831 | -101.7016\
+  \ | 180.0 | top | \n| C2 | nan | C0805K | 139.9921 | -101.7016 | 180.0 | top | \n\
+  | C3 | nan | C0805K | 145.3261 | -101.7016 | 180.0 | top | \n| C4 | nan | C0805K\
+  \ | 151.6761 | -101.7016 | 180.0 | top | \n| C5 | nan | C0805K | 156.7561 | -101.7016\
+  \ | 180.0 | top | \n| C6 | nan | C0805K | 165.1381 | -101.7016 | 180.0 | top | \n\
+  | C7 | nan | C0805K | 171.3611 | -101.7016 | 180.0 | top | \n| FID1 | FIDUCIAL\"\
+  \" | FIDUCIAL_1MM | 128.4351 | -101.7016 | 0.0 | top | \n| FID3 | FIDUCIAL\"\" |\
+  \ FIDUCIAL_1MM | 168.1861 | -101.7016 | 0.0 | top | \n| LED1 | WS2812B5050 | WS2812B-NARROW\
+  \ | 126.2761 | -106.2736 | 0.0 | top | \n| LED2 | WS2812B5050 | WS2812B-NARROW |\
+  \ 132.6261 | -106.2736 | 0.0 | top | \n| LED3 | WS2812B5050 | WS2812B-NARROW | 138.9761\
+  \ | -106.2736 | 0.0 | top | \n| LED4 | WS2812B5050 | WS2812B-NARROW | 145.3261 |\
+  \ -106.2736 | 0.0 | top | \n| LED5 | WS2812B5050 | WS2812B-NARROW | 151.6761 | -106.2736\
+  \ | 0.0 | top | \n| LED6 | WS2812B5050 | WS2812B-NARROW | 158.0261 | -106.2736 |\
+  \ 0.0 | top | \n| LED7 | WS2812B5050 | WS2812B-NARROW | 164.3761 | -106.2736 | 0.0\
+  \ | top | \n| LED8 | WS2812B5050 | WS2812B-NARROW | 170.7261 | -106.2736 | 0.0 |\
+  \ top | \n| R1 | 470_OHM, | _0805MP | 125.5141 | -101.7016 | 0.0 | top | \n| U$2\
+  \ | MOUNTINGHOLE2.0 | MOUNTINGHOLE_2.0_PLATED | 135.8011 | -101.9556 | 0.0 | top\
+  \ | \n| U$3 | MOUNTINGHOLE2.0 | MOUNTINGHOLE_2.0_PLATED | 161.2011 | -101.9556 |\
+  \ 0.0 | top | \n| U$4 | nan | ADAFRUIT_2.5MM | 147.3581 | -102.5906 | 0.0 | top\
+  \ | \n"
 projects_flat: projects/adafruit_neopixel_sticks_adafruit_neopixel_8_stick/current_version/working
 repo:
   allow_forking: true

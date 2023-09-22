@@ -1,4 +1,204 @@
 board: unified_daughterboard
+bom:
+- Id: '1'
+  Designator: J1
+  Footprint: TYPE-C-31-M-12
+  Quantity: '1'
+  Designation: TYPE-C-31-M12_13
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J2
+  Footprint: JST-SR-4
+  Quantity: '1'
+  Designation: SM04B-SRSS-TB(LF)(SN)
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: D1
+  Footprint: D_SOD-123_Bidirectional
+  Quantity: '1'
+  Designation: SMF9.0CA
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: F1
+  Footprint: Fuse_1206_3216Metric
+  Quantity: '1'
+  Designation: ASMD1206-150
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U1
+  Footprint: USON-10_2.5x1.0mm_P0.5mm
+  Quantity: '1'
+  Designation: TPD4E05U06DQAR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R2,R1
+  Footprint: R_0603
+  Quantity: '2'
+  Designation: 5.1k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: L1
+  Footprint: L_1206_3216Metric
+  Quantity: '1'
+  Designation: 60R@100MHz
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: G2
+  Footprint: Unified-Daughterboard-Name.pretty
+  Quantity: '1'
+  Designation: Unified-Daughterboard-Name
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: G1
+  Footprint: Unified-Daughterboard-Logo.pretty
+  Quantity: '1'
+  Designation: Unified-Daughterboard-Logo
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1\
+  \ | TYPE-C-31-M-12 | 1 | TYPE-C-31-M12_13 |  |  | [''] | \n| 2 | J2 | JST-SR-4 |\
+  \ 1 | SM04B-SRSS-TB(LF)(SN) |  |  | [''] | \n| 3 | D1 | D_SOD-123_Bidirectional\
+  \ | 1 | SMF9.0CA |  |  | [''] | \n| 4 | F1 | Fuse_1206_3216Metric | 1 | ASMD1206-150\
+  \ |  |  | [''] | \n| 5 | U1 | USON-10_2.5x1.0mm_P0.5mm | 1 | TPD4E05U06DQAR |  |\
+  \  | [''] | \n| 6 | R2,R1 | R_0603 | 2 | 5.1k |  |  | [''] | \n| 7 | L1 | L_1206_3216Metric\
+  \ | 1 | 60R@100MHz |  |  | [''] | \n| 8 | G2 | Unified-Daughterboard-Name.pretty\
+  \ | 1 | Unified-Daughterboard-Name |  |  | [''] | \n| 9 | G1 | Unified-Daughterboard-Logo.pretty\
+  \ | 1 | Unified-Daughterboard-Logo |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: D_TVS
+  DNP: ''
+  Description: Bidirectional transient-voltage-suppression diode
+  Footprint: acheron_Components:D_SOD-123_Bidirectional
+  Qnty: '1'
+  Ref: D1
+  Value: SMF9.0CA
+  Vendor: ''
+- Cmp name: Polyfuse
+  DNP: ''
+  Description: Resettable fuse, polymeric positive temperature coefficient
+  Footprint: Fuse:Fuse_1206_3216Metric
+  Qnty: '1'
+  Ref: F1
+  Value: ASMD1206-150
+  Vendor: ''
+- Cmp name: MountingHole
+  DNP: ''
+  Description: Mounting Hole without connection
+  Footprint: Unified-Daughterboard-Logo:Unified-Daughterboard-Logo.pretty
+  Qnty: '1'
+  Ref: G1
+  Value: Unified-Daughterboard-Logo
+  Vendor: ''
+- Cmp name: MountingHole
+  DNP: ''
+  Description: Mounting Hole without connection
+  Footprint: Unified-Daughterboard-Logo:Unified-Daughterboard-Name.pretty
+  Qnty: '1'
+  Ref: G2
+  Value: Unified-Daughterboard-Name
+  Vendor: ''
+- Cmp name: TYPE-C-31-M12_13-acheronSymbols
+  DNP: ''
+  Description: ''
+  Footprint: acheron_Connectors:TYPE-C-31-M-12
+  Qnty: '1'
+  Ref: J1
+  Value: TYPE-C-31-M12_13
+  Vendor: ''
+- Cmp name: Conn_01x04
+  DNP: ''
+  Description: Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: random-keyboard-parts:JST-SR-4
+  Qnty: '1'
+  Ref: J2
+  Value: SM04B-SRSS-TB(LF)(SN)
+  Vendor: ''
+- Cmp name: L_Core_Ferrite-Device
+  DNP: ''
+  Description: ''
+  Footprint: Inductor_SMD:L_1206_3216Metric
+  Qnty: '1'
+  Ref: L1
+  Value: 60R@100MHz
+  Vendor: ''
+- Cmp name: Conn_01x01
+  DNP: ''
+  Description: Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: random-keyboard-parts:Generic-Mounthole
+  Qnty: '4'
+  Ref: MH1, MH2, MH3, MH4
+  Value: Mount-M2
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistors_SMD:R_0603
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 5.1k
+  Vendor: ''
+- Cmp name: TPD4E05U06DQAR-acheronSymbols
+  DNP: ''
+  Description: ''
+  Footprint: acheron_Components:USON-10_2.5x1.0mm_P0.5mm
+  Qnty: '1'
+  Ref: U1
+  Value: TPD4E05U06DQAR
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| D1 |\
+  \ 1 | SMF9.0CA | D_TVS | acheron_Components:D_SOD-123_Bidirectional | Bidirectional\
+  \ transient-voltage-suppression diode |  |  | \n| F1 | 1 | ASMD1206-150 | Polyfuse\
+  \ | Fuse:Fuse_1206_3216Metric | Resettable fuse, polymeric positive temperature\
+  \ coefficient |  |  | \n| G1 | 1 | Unified-Daughterboard-Logo | MountingHole | Unified-Daughterboard-Logo:Unified-Daughterboard-Logo.pretty\
+  \ | Mounting Hole without connection |  |  | \n| G2 | 1 | Unified-Daughterboard-Name\
+  \ | MountingHole | Unified-Daughterboard-Logo:Unified-Daughterboard-Name.pretty\
+  \ | Mounting Hole without connection |  |  | \n| J1 | 1 | TYPE-C-31-M12_13 | TYPE-C-31-M12_13-acheronSymbols\
+  \ | acheron_Connectors:TYPE-C-31-M-12 |  |  |  | \n| J2 | 1 | SM04B-SRSS-TB(LF)(SN)\
+  \ | Conn_01x04 | random-keyboard-parts:JST-SR-4 | Generic connector, single row,\
+  \ 01x04, script generated (kicad-library-utils/schlib/autogen/connector/) |  | \
+  \ | \n| L1 | 1 | 60R@100MHz | L_Core_Ferrite-Device | Inductor_SMD:L_1206_3216Metric\
+  \ |  |  |  | \n| MH1, MH2, MH3, MH4 | 4 | Mount-M2 | Conn_01x01 | random-keyboard-parts:Generic-Mounthole\
+  \ | Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| R1, R2 | 2 | 5.1k | R_Small | Resistors_SMD:R_0603 | Resistor, small\
+  \ symbol |  |  | \n| U1 | 1 | TPD4E05U06DQAR | TPD4E05U06DQAR-acheronSymbols | acheron_Components:USON-10_2.5x1.0mm_P0.5mm\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/aaarsene_unified_daughterboard_unified_daughterboard/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/aaarsene_unified_daughterboard_unified_daughterboard/current_version/working/working.kicad_pcb
@@ -6,6 +206,92 @@ file_repo_bom_csv_flat: projects/aaarsene_unified_daughterboard_unified_daughter
 file_sch_flat: projects/aaarsene_unified_daughterboard_unified_daughterboard/current_version/working/working.sch
 id: aaarsene_unified_daughterboard_unified_daughterboard
 name: unified_daughterboard
+position_bottom:
+- '# Ref': G1
+  Package: Unified-Daughterboard-Logo.pretty
+  PosX: 75.0025
+  PosY: -66.509
+  Rot: 180.0
+  Side: bottom
+  Val: Unified-Daughterboard-Logo
+- '# Ref': G2
+  Package: Unified-Daughterboard-Name.pretty
+  PosX: 75.0025
+  PosY: -58.62
+  Rot: 180.0
+  Side: bottom
+  Val: Unified-Daughterboard-Name
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G1 | Unified-Daughterboard-Logo\
+  \ | Unified-Daughterboard-Logo.pretty | 75.0025 | -66.509 | 180.0 | bottom | \n\
+  | G2 | Unified-Daughterboard-Name | Unified-Daughterboard-Name.pretty | 75.0025\
+  \ | -58.62 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': D1
+  Package: D_SOD-123_Bidirectional
+  PosX: 68.6525
+  PosY: -66.89
+  Rot: 180.0
+  Side: top
+  Val: SMF9.0CA
+- '# Ref': F1
+  Package: Fuse_1206_3216Metric
+  PosX: 67.8905
+  PosY: -63.207
+  Rot: -90.0
+  Side: top
+  Val: ASMD1206-150
+- '# Ref': J1
+  Package: TYPE-C-31-M-12
+  PosX: 75.0025
+  PosY: -63.343
+  Rot: 180.0
+  Side: top
+  Val: TYPE-C-31-M12_13
+- '# Ref': J2
+  Package: JST-SR-4
+  PosX: 75.0045
+  PosY: -72.793
+  Rot: 0.0
+  Side: top
+  Val: SM04B-SRSS-TB(LF)(SN)
+- '# Ref': L1
+  Package: L_1206_3216Metric
+  PosX: 81.9875
+  PosY: -65.874
+  Rot: 90.0
+  Side: top
+  Val: 60R@100MHz
+- '# Ref': R1
+  Package: R_0603
+  PosX: 77.9235
+  PosY: -67.129
+  Rot: -90.0
+  Side: top
+  Val: 5.1k
+- '# Ref': R2
+  Package: R_0603
+  PosX: 71.9545
+  PosY: -67.129
+  Rot: -90.0
+  Side: top
+  Val: 5.1k
+- '# Ref': U1
+  Package: USON-10_2.5x1.0mm_P0.5mm
+  PosX: 75.0025
+  PosY: -66.0264
+  Rot: 90.0
+  Side: top
+  Val: TPD4E05U06DQAR
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| D1 | SMF9.0CA | D_SOD-123_Bidirectional\
+  \ | 68.6525 | -66.89 | 180.0 | top | \n| F1 | ASMD1206-150 | Fuse_1206_3216Metric\
+  \ | 67.8905 | -63.207 | -90.0 | top | \n| J1 | TYPE-C-31-M12_13 | TYPE-C-31-M-12\
+  \ | 75.0025 | -63.343 | 180.0 | top | \n| J2 | SM04B-SRSS-TB(LF)(SN) | JST-SR-4\
+  \ | 75.0045 | -72.793 | 0.0 | top | \n| L1 | 60R@100MHz | L_1206_3216Metric | 81.9875\
+  \ | -65.874 | 90.0 | top | \n| R1 | 5.1k | R_0603 | 77.9235 | -67.129 | -90.0 |\
+  \ top | \n| R2 | 5.1k | R_0603 | 71.9545 | -67.129 | -90.0 | top | \n| U1 | TPD4E05U06DQAR\
+  \ | USON-10_2.5x1.0mm_P0.5mm | 75.0025 | -66.0264 | 90.0 | top | \n"
 projects_flat: projects/aaarsene_unified_daughterboard_unified_daughterboard/current_version/working
 repo:
   allow_forking: true

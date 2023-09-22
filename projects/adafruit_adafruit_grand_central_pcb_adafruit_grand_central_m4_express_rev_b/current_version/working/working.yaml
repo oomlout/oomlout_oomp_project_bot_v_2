@@ -1,4 +1,429 @@
 board: adafruit_grand_central_m4_express_rev_b
+bom_schematic:
+- Cmp name: HEADER-1X8OVALWAVE
+  DNP: ''
+  Description: ''
+  Footprint: working:1X08_OVALWAVE
+  Qnty: '1'
+  Ref: ANALOGH0
+  Value: '20610'
+  Vendor: ''
+- Cmp name: HEADER-1X8OVALWAVE
+  DNP: ''
+  Description: ''
+  Footprint: working:1X08_OVALWAVE
+  Qnty: '1'
+  Ref: ANALOGL0
+  Value: '20610'
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '3'
+  Ref: C1, C2, C3
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '16'
+  Ref: C4, C6, C8, C10, C11, C14, C15, C16, C18, C19, C20, C21, C22, C23, C24, C25
+  Value: .1u
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: C5, C7
+  Value: 22pF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: C9
+  Value: 1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '3'
+  Ref: C12, C13, C17
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: DIODE-SCHOTTKYSOD-123
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-123
+  Qnty: '1'
+  Ref: D1
+  Value: MBR120
+  Vendor: ''
+- Cmp name: PTCFUSE-1206
+  DNP: ''
+  Description: ''
+  Footprint: working:R1206
+  Qnty: '1'
+  Ref: F2
+  Value: 500mA
+  Vendor: ''
+- Cmp name: FERRITE-0805NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: FB2
+  Value: FERRITE
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '5'
+  Ref: FD1, FD2, FD3, FD4, FD5
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: SOLDERJUMPERCLOSED
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_CLOSEDWIRE
+  Qnty: '1'
+  Ref: GROUND1
+  Value: SOLDERJUMPERCLOSED
+  Vendor: ''
+- Cmp name: 741G125DBV
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: IC3
+  Value: 741G125DBV
+  Vendor: ''
+- Cmp name: HEADER-2X3
+  DNP: ''
+  Description: ''
+  Footprint: working:2X03_ROUND_70MIL
+  Qnty: '1'
+  Ref: ICSP0
+  Value: 3x2 M
+  Vendor: ''
+- Cmp name: HEADER-1X10OVALWAVE
+  DNP: ''
+  Description: ''
+  Footprint: working:1X10_OVALWAVE
+  Qnty: '1'
+  Ref: IOH0
+  Value: '20611'
+  Vendor: ''
+- Cmp name: HEADER-1X8OVALWAVE
+  DNP: ''
+  Description: ''
+  Footprint: working:1X08_OVALWAVE
+  Qnty: '1'
+  Ref: IOL0
+  Value: '20610'
+  Vendor: ''
+- Cmp name: HEADER-1X1ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X01_ROUND
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X1ROUND
+  Vendor: ''
+- Cmp name: PINHD-2X18_THICKWAV
+  DNP: ''
+  Description: ''
+  Footprint: working:2X18_THICKWAVE
+  Qnty: '1'
+  Ref: JP2
+  Value: PINHD-2X18_THICKWAV
+  Vendor: ''
+- Cmp name: LED0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805_NOOUTLINE
+  Qnty: '1'
+  Ref: L0
+  Value: RED
+  Vendor: ''
+- Cmp name: INDUCTOR
+  DNP: ''
+  Description: ''
+  Footprint: working:INDUCTOR_1007
+  Qnty: '1'
+  Ref: L1
+  Value: 10uH
+  Vendor: ''
+- Cmp name: WS2812B3535
+  DNP: ''
+  Description: ''
+  Footprint: working:LED3535
+  Qnty: '1'
+  Ref: LED1
+  Value: WS2812B3535
+  Vendor: ''
+- Cmp name: LED0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805_NOOUTLINE
+  Qnty: '1'
+  Ref: ON0
+  Value: GREEN
+  Vendor: ''
+- Cmp name: CAP_ELECTROLYTICPANASONIC_D
+  DNP: ''
+  Description: ''
+  Footprint: working:PANASONIC_D
+  Qnty: '1'
+  Ref: PC1
+  Value: 47uF/25V
+  Vendor: ''
+- Cmp name: CAP_ELECTROLYTICPANASONIC_D
+  DNP: ''
+  Description: ''
+  Footprint: working:PANASONIC_D
+  Qnty: '1'
+  Ref: PC2
+  Value: 47uF+/6.3V+
+  Vendor: ''
+- Cmp name: HEADER-1X8OVALWAVE
+  DNP: ''
+  Description: ''
+  Footprint: working:1X08_OVALWAVE
+  Qnty: '1'
+  Ref: POWER0
+  Value: '20610'
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603
+  Qnty: '1'
+  Ref: R1
+  Value: 100K
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603
+  Qnty: '1'
+  Ref: R2
+  Value: 1K
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '3'
+  Ref: R3, R5, R7
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R4
+  Value: 1K
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R11
+  Value: 330R
+  Vendor: ''
+- Cmp name: SWITCH_TACT_SMT_EVQQ2_SMALL
+  DNP: ''
+  Description: ''
+  Footprint: working:EVQ-Q2_SMALLER
+  Qnty: '1'
+  Ref: RESET0
+  Value: EVQQ 6mm
+  Vendor: ''
+- Cmp name: LED0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805_NOOUTLINE
+  Qnty: '1'
+  Ref: RXLED0
+  Value: YELLOW
+  Vendor: ''
+- Cmp name: SOLDERJUMPERCLOSED
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_CLOSEDWIRE
+  Qnty: '1'
+  Ref: SJ1
+  Value: AREF_3V
+  Vendor: ''
+- Cmp name: SWITCH_SPDT
+  DNP: ''
+  Description: ''
+  Footprint: working:SPDT_SMT_SSSS811101
+  Qnty: '1'
+  Ref: SW1
+  Value: SWITCH_SPDT
+  Vendor: ''
+- Cmp name: PMOSSOT23
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT-23
+  Qnty: '1'
+  Ref: T2
+  Value: DMP3098L-7
+  Vendor: ''
+- Cmp name: 0297_PMV48XP
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT-23
+  Qnty: '1'
+  Ref: TR1
+  Value: DMP3098L-7
+  Vendor: ''
+- Cmp name: LED0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805_NOOUTLINE
+  Qnty: '1'
+  Ref: TXLED0
+  Value: YELLOW
+  Vendor: ''
+- Cmp name: LM1117SOT223-REFLOW
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT223-R
+  Qnty: '1'
+  Ref: U1
+  Value: NCP1117ST50T3G
+  Vendor: ''
+- Cmp name: LP2985-XXDBVR
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-DBV
+  Qnty: '1'
+  Ref: U2
+  Value: LP2985-XXDBVR
+  Vendor: ''
+- Cmp name: SPIFLASH_SOIC8208MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:SOIC8_208MIL
+  Qnty: '1'
+  Ref: U3
+  Value: GD25Q64
+  Vendor: ''
+- Cmp name: SAMD51PXXA
+  DNP: ''
+  Description: ''
+  Footprint: working:SQFP-S-14X14-128
+  Qnty: '1'
+  Ref: U$1
+  Value: SAMD51PXXA
+  Vendor: ''
+- Cmp name: HEADER-1X8OVALWAVE
+  DNP: ''
+  Description: ''
+  Footprint: working:1X08_OVALWAVE
+  Qnty: '1'
+  Ref: UART0
+  Value: '20610'
+  Vendor: ''
+- Cmp name: MICROSD
+  DNP: ''
+  Description: ''
+  Footprint: working:MICROSD
+  Qnty: '1'
+  Ref: X1
+  Value: microsd
+  Vendor: ''
+- Cmp name: JTAG-CORTEXBOXPOSTS
+  DNP: ''
+  Description: ''
+  Footprint: working:2X05_1.27MM_BOX_POSTS
+  Qnty: '1'
+  Ref: X2
+  Value: 2x5 0.05" SWD
+  Vendor: ''
+- Cmp name: USB_W_SHIELD_V2
+  DNP: ''
+  Description: ''
+  Footprint: working:4UCONN_20329_V2
+  Qnty: '1'
+  Ref: X3
+  Value: USB_W_SHIELD_V2
+  Vendor: ''
+- Cmp name: XTAL-3.2X1.5
+  DNP: ''
+  Description: ''
+  Footprint: working:XTAL3215
+  Qnty: '1'
+  Ref: X4
+  Value: '32.768'
+  Vendor: ''
+- Cmp name: DCBARRELPTH
+  DNP: ''
+  Description: ''
+  Footprint: working:DCJACK_2MM_PTH
+  Qnty: '1'
+  Ref: X5
+  Value: 2.1mm
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| ANALOGH0\
+  \ | 1 | 20610 | HEADER-1X8OVALWAVE | working:1X08_OVALWAVE |  |  |  | \n| ANALOGL0\
+  \ | 1 | 20610 | HEADER-1X8OVALWAVE | working:1X08_OVALWAVE |  |  |  | \n| C1, C2,\
+  \ C3 | 3 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C4,\
+  \ C6, C8, C10, C11, C14, C15, C16, C18, C19, C20, C21, C22, C23, C24, C25 | 16 |\
+  \ .1u | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| C5, C7 | 2 | 22pF |\
+  \ CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| C9 | 1 | 1uF | CAP_CERAMIC0603_NO\
+  \ | working:0603-NO |  |  |  | \n| C12, C13, C17 | 3 | 0.1uF | CAP_CERAMIC0603_NO\
+  \ | working:0603-NO |  |  |  | \n| D1 | 1 | MBR120 | DIODE-SCHOTTKYSOD-123 | working:SOD-123\
+  \ |  |  |  | \n| F2 | 1 | 500mA | PTCFUSE-1206 | working:R1206 |  |  |  | \n| FB2\
+  \ | 1 | FERRITE | FERRITE-0805NO | working:0805-NO |  |  |  | \n| FD1, FD2, FD3,\
+  \ FD4, FD5 | 5 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n\
+  | GROUND1 | 1 | SOLDERJUMPERCLOSED | SOLDERJUMPERCLOSED | working:SOLDERJUMPER_CLOSEDWIRE\
+  \ |  |  |  | \n| IC3 | 1 | 741G125DBV | 741G125DBV | working:SOT23-5 |  |  |  |\
+  \ \n| ICSP0 | 1 | 3x2 M | HEADER-2X3 | working:2X03_ROUND_70MIL |  |  |  | \n| IOH0\
+  \ | 1 | 20611 | HEADER-1X10OVALWAVE | working:1X10_OVALWAVE |  |  |  | \n| IOL0\
+  \ | 1 | 20610 | HEADER-1X8OVALWAVE | working:1X08_OVALWAVE |  |  |  | \n| JP1 |\
+  \ 1 | HEADER-1X1ROUND | HEADER-1X1ROUND | working:1X01_ROUND |  |  |  | \n| JP2\
+  \ | 1 | PINHD-2X18_THICKWAV | PINHD-2X18_THICKWAV | working:2X18_THICKWAVE |  |\
+  \  |  | \n| L0 | 1 | RED | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |\
+  \  |  |  | \n| L1 | 1 | 10uH | INDUCTOR | working:INDUCTOR_1007 |  |  |  | \n| LED1\
+  \ | 1 | WS2812B3535 | WS2812B3535 | working:LED3535 |  |  |  | \n| ON0 | 1 | GREEN\
+  \ | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | \n| PC1 | 1 |\
+  \ 47uF/25V | CAP_ELECTROLYTICPANASONIC_D | working:PANASONIC_D |  |  |  | \n| PC2\
+  \ | 1 | 47uF+/6.3V+ | CAP_ELECTROLYTICPANASONIC_D | working:PANASONIC_D |  |  |\
+  \  | \n| POWER0 | 1 | 20610 | HEADER-1X8OVALWAVE | working:1X08_OVALWAVE |  |  |\
+  \  | \n| R1 | 1 | 100K | RESISTOR_4PACK | working:RESPACK_4X0603 |  |  |  | \n|\
+  \ R2 | 1 | 1K | RESISTOR_4PACK | working:RESPACK_4X0603 |  |  |  | \n| R3, R5, R7\
+  \ | 3 | 10K | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n| R4 | 1 | 1K |\
+  \ RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n| R11 | 1 | 330R | RESISTOR_0603_NOOUT\
+  \ | working:0603-NO |  |  |  | \n| RESET0 | 1 | EVQQ 6mm | SWITCH_TACT_SMT_EVQQ2_SMALL\
+  \ | working:EVQ-Q2_SMALLER |  |  |  | \n| RXLED0 | 1 | YELLOW | LED0805_NOOUTLINE\
+  \ | working:CHIPLED_0805_NOOUTLINE |  |  |  | \n| SJ1 | 1 | AREF_3V | SOLDERJUMPERCLOSED\
+  \ | working:SOLDERJUMPER_CLOSEDWIRE |  |  |  | \n| SW1 | 1 | SWITCH_SPDT | SWITCH_SPDT\
+  \ | working:SPDT_SMT_SSSS811101 |  |  |  | \n| T2 | 1 | DMP3098L-7 | PMOSSOT23 |\
+  \ working:SOT-23 |  |  |  | \n| TR1 | 1 | DMP3098L-7 | 0297_PMV48XP | working:SOT-23\
+  \ |  |  |  | \n| TXLED0 | 1 | YELLOW | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE\
+  \ |  |  |  | \n| U1 | 1 | NCP1117ST50T3G | LM1117SOT223-REFLOW | working:SOT223-R\
+  \ |  |  |  | \n| U2 | 1 | LP2985-XXDBVR | LP2985-XXDBVR | working:SOT23-DBV |  |\
+  \  |  | \n| U3 | 1 | GD25Q64 | SPIFLASH_SOIC8208MIL | working:SOIC8_208MIL |  |\
+  \  |  | \n| U$1 | 1 | SAMD51PXXA | SAMD51PXXA | working:SQFP-S-14X14-128 |  |  |\
+  \  | \n| UART0 | 1 | 20610 | HEADER-1X8OVALWAVE | working:1X08_OVALWAVE |  |  |\
+  \  | \n| X1 | 1 | microsd | MICROSD | working:MICROSD |  |  |  | \n| X2 | 1 | 2x5\
+  \ 0.05\" SWD | JTAG-CORTEXBOXPOSTS | working:2X05_1.27MM_BOX_POSTS |  |  |  | \n\
+  | X3 | 1 | USB_W_SHIELD_V2 | USB_W_SHIELD_V2 | working:4UCONN_20329_V2 |  |  | \
+  \ | \n| X4 | 1 | 32.768 | XTAL-3.2X1.5 | working:XTAL3215 |  |  |  | \n| X5 | 1\
+  \ | 2.1mm | DCBARRELPTH | working:DCJACK_2MM_PTH |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_grand_central_pcb_adafruit_grand_central_m4_express_rev_b/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_grand_central_pcb_adafruit_grand_central_m4_express_rev_b/current_version/working/working.sch

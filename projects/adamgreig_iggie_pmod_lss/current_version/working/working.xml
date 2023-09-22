@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\adamgreig_iggie_pmod_lss\current_version\working\working.kicad_sch</source>
+    <date>17/09/2023 22:25:40</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>IGGie Low-Side Switch PMOD</title>
+        <company/>
+        <rev>1</rev>
+        <date>2021-03-15</date>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9219ab84-7c05-4d88-bf31-659e193f60f5</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11cb3ced-da79-418e-a863-de07f43aa2a3</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>74HC4514</value>
+      <footprint>agg:SOIC-24-W</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1870944.pdf</datasheet>
+      <fields>
+        <field name="Farnell">2444987</field>
+      </fields>
+      <libsource lib="agg" part="74HC4514" description="4-to-16 line decoder/demultiplexer with input latches"/>
+      <property name="Farnell" value="2444987"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="4-to-16 line decoder/demultiplexer with input latches"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3269cf75-9249-4836-8eb0-0ec9a3f585bc</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>HV</value>
+      <footprint>agg:MOLEX-KK-254P-03</footprint>
+      <fields>
+        <field name="Farnell">1360131</field>
+      </fields>
+      <libsource lib="agg" part="CONN_01x03" description=""/>
+      <property name="Farnell" value="1360131"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c69745f2-b0c9-4130-b015-f921a326d62f</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>HV</value>
+      <footprint>agg:MOLEX-KK-254P-03</footprint>
+      <fields>
+        <field name="Farnell">1360131</field>
+      </fields>
+      <libsource lib="agg" part="CONN_01x03" description=""/>
+      <property name="Farnell" value="1360131"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9a5dd3f-8907-4701-a488-3bbe9d910239</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>PMOD</value>
+      <footprint>agg:DIL-254P-12</footprint>
+      <fields>
+        <field name="Farnell">2779668</field>
+      </fields>
+      <libsource lib="agg" part="CONN_02x06" description=""/>
+      <property name="Farnell" value="2779668"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38e6b51e-f517-4319-9762-d7fafa7aeba4</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>CATHODES</value>
+      <footprint>agg:DIL-254P-16</footprint>
+      <fields>
+        <field name="Farnell">2578721</field>
+      </fields>
+      <libsource lib="agg" part="CONN_02x08" description=""/>
+      <property name="Farnell" value="2578721"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77f571e4-4c19-490f-adea-eb5565d5ffef</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>SJ2</value>
+      <footprint>agg:SJ2</footprint>
+      <libsource lib="agg" part="SJ2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5400f85f-03ee-4fd0-afe8-88feece8182a</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMN60H080DS-7</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2814411.pdf</datasheet>
+      <fields>
+        <field name="Farnell">3127344</field>
+      </fields>
+      <libsource lib="agg" part="NFET" description="Generic N-channel FET"/>
+      <property name="Farnell" value="3127344"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic N-channel FET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aae542d5-05b3-4c40-b4f8-857ba950524d</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>DMN60H080DS-7</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2814411.pdf</datasheet>
+      <fields>
+        <field name="Farnell">3127344</field>
+      </fields>
+      <libsource lib="agg" part="NFET" description="Generic N-channel FET"/>
+      <property name="Farnell" value="3127344"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic N-channel FET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edf358f9-1adf-457e-9474-35ff8fdf461c</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>DMN60H080DS-7</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2814411.pdf</datasheet>
+      <fields>
+        <field name="Farnell">3127344</field>
+      </fields>
+      <libsource lib="agg" part="NFET" description="Generic N-channel FET"/>
+      <property name="Farnell" value="3127344"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic N-channel FET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33abc6ef-5f58-4852-a035-6dbaf0c5eeb2</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>DMN60H080DS-7</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2814411.pdf</datasheet>
+      <fields>
+        <field name="Farnell">3127344</field>
+      </fields>
+      <libsource lib="agg" part="NFET" description="Generic N-channel FET"/>
+      <property name="Farnell" value="3127344"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic N-channel FET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b68a97e4-aba5-4c4f-a8ef-c8da6fb0a443</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>DMN60H080DS-7</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2814411.pdf</datasheet>
+      <fields>
+        <field name="Farnell">3127344</field>
+      </fields>
+      <libsource lib="agg" part="NFET" description="Generic N-channel FET"/>
+      <property name="Farnell" value="3127344"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic N-channel FET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80a46ea6-3086-4d16-9976-1bd3810951cc</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>DMN60H080DS-7</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2814411.pdf</datasheet>
+      <fields>
+        <field name="Farnell">3127344</field>
+      </fields>
+      <libsource lib="agg" part="NFET" description="Generic N-channel FET"/>
+      <property name="Farnell" value="3127344"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic N-channel FET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bdf539ba-9794-448f-9eed-b915745a85c4</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>DMN60H080DS-7</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2814411.pdf</datasheet>
+      <fields>
+        <field name="Farnell">3127344</field>
+      </fields>
+      <libsource lib="agg" part="NFET" description="Generic N-channel FET"/>
+      <property name="Farnell" value="3127344"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic N-channel FET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64cc39ee-056a-46c5-826e-bea5821e3892</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>DMN60H080DS-7</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2814411.pdf</datasheet>
+      <fields>
+        <field name="Farnell">3127344</field>
+      </fields>
+      <libsource lib="agg" part="NFET" description="Generic N-channel FET"/>
+      <property name="Farnell" value="3127344"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic N-channel FET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d9b1507-d070-49f6-991d-d102943688b0</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>DMN60H080DS-7</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2814411.pdf</datasheet>
+      <fields>
+        <field name="Farnell">3127344</field>
+      </fields>
+      <libsource lib="agg" part="NFET" description="Generic N-channel FET"/>
+      <property name="Farnell" value="3127344"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic N-channel FET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12976b5d-0c5e-41aa-b1dc-5f21052c395a</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>DMN60H080DS-7</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2814411.pdf</datasheet>
+      <fields>
+        <field name="Farnell">3127344</field>
+      </fields>
+      <libsource lib="agg" part="NFET" description="Generic N-channel FET"/>
+      <property name="Farnell" value="3127344"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic N-channel FET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a156b5e-7458-42ec-b2c2-5d076eb8e42f</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>DMN60H080DS-7</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2814411.pdf</datasheet>
+      <fields>
+        <field name="Farnell">3127344</field>
+      </fields>
+      <libsource lib="agg" part="NFET" description="Generic N-channel FET"/>
+      <property name="Farnell" value="3127344"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic N-channel FET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c29be5d-e992-4fed-929f-5653d0bc54a7</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>DMN60H080DS-7</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2814411.pdf</datasheet>
+      <fields>
+        <field name="Farnell">3127344</field>
+      </fields>
+      <libsource lib="agg" part="NFET" description="Generic N-channel FET"/>
+      <property name="Farnell" value="3127344"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic N-channel FET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24c61242-8d9d-4706-857c-f5c520aa4c12</tstamps>
+    </comp>
+    <comp ref="Q13">
+      <value>DMN60H080DS-7</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2814411.pdf</datasheet>
+      <fields>
+        <field name="Farnell">3127344</field>
+      </fields>
+      <libsource lib="agg" part="NFET" description="Generic N-channel FET"/>
+      <property name="Farnell" value="3127344"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic N-channel FET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>daca4ce8-f407-442b-8f86-35ea9f18d80a</tstamps>
+    </comp>
+    <comp ref="Q14">
+      <value>DMN60H080DS-7</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2814411.pdf</datasheet>
+      <fields>
+        <field name="Farnell">3127344</field>
+      </fields>
+      <libsource lib="agg" part="NFET" description="Generic N-channel FET"/>
+      <property name="Farnell" value="3127344"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic N-channel FET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cdcc79d-c37b-48be-b6f6-551838e71a25</tstamps>
+    </comp>
+    <comp ref="Q15">
+      <value>DMN60H080DS-7</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2814411.pdf</datasheet>
+      <fields>
+        <field name="Farnell">3127344</field>
+      </fields>
+      <libsource lib="agg" part="NFET" description="Generic N-channel FET"/>
+      <property name="Farnell" value="3127344"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic N-channel FET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e336a3cc-4385-47ec-b9a8-edbe6a022116</tstamps>
+    </comp>
+    <comp ref="Q16">
+      <value>DMN60H080DS-7</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2814411.pdf</datasheet>
+      <fields>
+        <field name="Farnell">3127344</field>
+      </fields>
+      <libsource lib="agg" part="NFET" description="Generic N-channel FET"/>
+      <property name="Farnell" value="3127344"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic N-channel FET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b72d506-d439-402c-b6a9-a62456c422a1</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="agg" part="74HC4514">
+      <description>4-to-16 line decoder/demultiplexer with input latches</description>
+      <docs>http://www.farnell.com/datasheets/1870944.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">74HC4514</field>
+        <field name="Footprint">agg:SOIC-24-W</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1870944.pdf</field>
+        <field name="Farnell">2444987</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LE" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="A1" type="input"/>
+        <pin num="4" name="Q7" type="output"/>
+        <pin num="5" name="Q6" type="output"/>
+        <pin num="6" name="Q5" type="output"/>
+        <pin num="7" name="Q4" type="output"/>
+        <pin num="8" name="Q3" type="output"/>
+        <pin num="9" name="Q1" type="output"/>
+        <pin num="10" name="Q2" type="output"/>
+        <pin num="11" name="Q0" type="output"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="Q13" type="output"/>
+        <pin num="14" name="Q12" type="output"/>
+        <pin num="15" name="Q15" type="output"/>
+        <pin num="16" name="Q14" type="output"/>
+        <pin num="17" name="Q9" type="output"/>
+        <pin num="18" name="Q8" type="output"/>
+        <pin num="19" name="Q11" type="output"/>
+        <pin num="20" name="Q10" type="output"/>
+        <pin num="21" name="A2" type="input"/>
+        <pin num="22" name="A3" type="input"/>
+        <pin num="23" name="~{E}" type="input"/>
+        <pin num="24" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg" part="CONN_01x03">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg" part="CONN_02x06">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_02x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg" part="CONN_02x08">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_02x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg" part="NFET">
+      <description>Generic N-channel FET</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NFET</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg" part="SJ2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SJ2</field>
+        <field name="Footprint">agg:SJ2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/A0">
+      <node ref="IC1" pin="2" pinfunction="A0" pintype="input"/>
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="2" name="/A1">
+      <node ref="IC1" pin="3" pinfunction="A1" pintype="input"/>
+      <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="3" name="/A2">
+      <node ref="IC1" pin="21" pinfunction="A2" pintype="input"/>
+      <node ref="J3" pin="8" pinfunction="8" pintype="passive"/>
+    </net>
+    <net code="4" name="/A3">
+      <node ref="IC1" pin="22" pinfunction="A3" pintype="input"/>
+      <node ref="J3" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="5" name="/G1">
+      <node ref="IC1" pin="11" pinfunction="Q0" pintype="output"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="passive"/>
+    </net>
+    <net code="6" name="/G2">
+      <node ref="IC1" pin="9" pinfunction="Q1" pintype="output"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="passive"/>
+    </net>
+    <net code="7" name="/G3">
+      <node ref="IC1" pin="10" pinfunction="Q2" pintype="output"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="passive"/>
+    </net>
+    <net code="8" name="/G4">
+      <node ref="IC1" pin="8" pinfunction="Q3" pintype="output"/>
+      <node ref="Q4" pin="1" pinfunction="G" pintype="passive"/>
+    </net>
+    <net code="9" name="/G5">
+      <node ref="IC1" pin="7" pinfunction="Q4" pintype="output"/>
+      <node ref="Q5" pin="1" pinfunction="G" pintype="passive"/>
+    </net>
+    <net code="10" name="/G6">
+      <node ref="IC1" pin="6" pinfunction="Q5" pintype="output"/>
+      <node ref="Q6" pin="1" pinfunction="G" pintype="passive"/>
+    </net>
+    <net code="11" name="/G7">
+      <node ref="IC1" pin="5" pinfunction="Q6" pintype="output"/>
+      <node ref="Q7" pin="1" pinfunction="G" pintype="passive"/>
+    </net>
+    <net code="12" name="/G8">
+      <node ref="IC1" pin="4" pinfunction="Q7" pintype="output"/>
+      <node ref="Q8" pin="1" pinfunction="G" pintype="passive"/>
+    </net>
+    <net code="13" name="/G9">
+      <node ref="IC1" pin="18" pinfunction="Q8" pintype="output"/>
+      <node ref="Q9" pin="1" pinfunction="G" pintype="passive"/>
+    </net>
+    <net code="14" name="/G10">
+      <node ref="IC1" pin="17" pinfunction="Q9" pintype="output"/>
+      <node ref="Q10" pin="1" pinfunction="G" pintype="passive"/>
+    </net>
+    <net code="15" name="/G11">
+      <node ref="IC1" pin="20" pinfunction="Q10" pintype="output"/>
+      <node ref="Q11" pin="1" pinfunction="G" pintype="passive"/>
+    </net>
+    <net code="16" name="/G12">
+      <node ref="IC1" pin="19" pinfunction="Q11" pintype="output"/>
+      <node ref="Q12" pin="1" pinfunction="G" pintype="passive"/>
+    </net>
+    <net code="17" name="/G13">
+      <node ref="IC1" pin="14" pinfunction="Q12" pintype="output"/>
+      <node ref="Q13" pin="1" pinfunction="G" pintype="passive"/>
+    </net>
+    <net code="18" name="/G14">
+      <node ref="IC1" pin="13" pinfunction="Q13" pintype="output"/>
+      <node ref="Q14" pin="1" pinfunction="G" pintype="passive"/>
+    </net>
+    <net code="19" name="/G15">
+      <node ref="IC1" pin="16" pinfunction="Q14" pintype="output"/>
+      <node ref="Q15" pin="1" pinfunction="G" pintype="passive"/>
+    </net>
+    <net code="20" name="/G16">
+      <node ref="IC1" pin="15" pinfunction="Q15" pintype="output"/>
+      <node ref="Q16" pin="1" pinfunction="G" pintype="passive"/>
+    </net>
+    <net code="21" name="/HV-">
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q10" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q11" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q12" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q13" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q14" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q15" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q16" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q9" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="22" name="/K1">
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="23" name="/K2">
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="24" name="/K3">
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="25" name="/K4">
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="26" name="/K5">
+      <node ref="J4" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="27" name="/K6">
+      <node ref="J4" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="28" name="/K7">
+      <node ref="J4" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="29" name="/K8">
+      <node ref="J4" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="30" name="/K9">
+      <node ref="J4" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="Q9" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="31" name="/K10">
+      <node ref="J4" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="Q10" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="32" name="/K11">
+      <node ref="J4" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="Q11" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="33" name="/K12">
+      <node ref="J4" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="Q12" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="34" name="/K13">
+      <node ref="J4" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="Q13" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="35" name="/K14">
+      <node ref="J4" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="Q14" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="36" name="/K15">
+      <node ref="J4" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="Q15" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="37" name="/K16">
+      <node ref="J4" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="Q16" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="38" name="/LE">
+      <node ref="IC1" pin="1" pinfunction="LE" pintype="input"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="39" name="/~{E}">
+      <node ref="IC1" pin="23" pinfunction="~{E}" pintype="input"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="40" name="3v3">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="J3" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J3" pin="12" pinfunction="12" pintype="passive"/>
+    </net>
+    <net code="41" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="J3" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="43" name="unconnected-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(J3-Pad5)">
+      <node ref="J3" pin="5" pinfunction="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(J3-Pad7)">
+      <node ref="J3" pin="7" pinfunction="7" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

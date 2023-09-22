@@ -1,9 +1,409 @@
 board: adafruit_ina260
+bom:
+- Id: '1'
+  Designator: JP2
+  Footprint: 1X08_ROUND_70
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R4,R3,R1,R2
+  Footprint: 0603-NO
+  Quantity: '4'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$1
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: SJ4,SJ3
+  Footprint: SOLDERJUMPER_ARROW_NOPASTE
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: X1
+  Footprint: TERMBLOCK_508_1X2
+  Quantity: '1'
+  Designation: 5.08mm Term
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: FID3,FID4
+  Footprint: MICROBUILDER_FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: MICROBUILDER_FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C1
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U$7,U$8
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: SJ1
+  Footprint: SOLDERJUMPER_CLOSEDWIRE
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: IC1
+  Footprint: TSSOP16
+  Quantity: '1'
+  Designation: INA260
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: TP1,TP2
+  Footprint: TESTPOINT_ROUND_1.5MM
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U$6
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | JP2\
+  \ | 1X08_ROUND_70 | 1 |  |  |  | [''] | \n| 2 | R4,R3,R1,R2 | 0603-NO | 4 | 10K\
+  \ |  |  | [''] | \n| 3 | U$1 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n| 4 | SJ4,SJ3\
+  \ | SOLDERJUMPER_ARROW_NOPASTE | 2 |  |  |  | [''] | \n| 5 | X1 | TERMBLOCK_508_1X2\
+  \ | 1 | 5.08mm Term |  |  | [''] | \n| 6 | FID3,FID4 | MICROBUILDER_FIDUCIAL_1MM\
+  \ | 2 | MICROBUILDER_FIDUCIAL\" |  |  | [''] | \n| 7 | C1 | 0603-NO | 1 | 1uF |\
+  \  |  | [''] | \n| 8 | U$7,U$8 | MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5 |\
+  \  |  | [''] | \n| 9 | SJ1 | SOLDERJUMPER_CLOSEDWIRE | 1 |  |  |  | [''] | \n| 10\
+  \ | IC1 | TSSOP16 | 1 | INA260 |  |  | [''] | \n| 11 | TP1,TP2 | TESTPOINT_ROUND_1.5MM\
+  \ | 2 |  |  |  | [''] | \n| 12 | U$6 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: C1
+  Value: 1uF
+  Vendor: ''
+- Cmp name: MICROBUILDER_FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:MICROBUILDER_FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID3, FID4
+  Value: MICROBUILDER_FIDUCIAL""
+  Vendor: ''
+- Cmp name: INA260
+  DNP: ''
+  Description: ''
+  Footprint: working:TSSOP16
+  Qnty: '1'
+  Ref: IC1
+  Value: INA260
+  Vendor: ''
+- Cmp name: HEADER-1X870MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X08_ROUND_70
+  Qnty: '1'
+  Ref: JP2
+  Value: HEADER-1X870MIL
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '4'
+  Ref: R1, R2, R3, R4
+  Value: 10K
+  Vendor: ''
+- Cmp name: SOLDERJUMPER_CLOSED
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_CLOSEDWIRE
+  Qnty: '1'
+  Ref: SJ1
+  Value: SOLDERJUMPER_CLOSED
+  Vendor: ''
+- Cmp name: SOLDERJUMPER
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_ARROW_NOPASTE
+  Qnty: '2'
+  Ref: SJ3, SJ4
+  Value: SOLDERJUMPER
+  Vendor: ''
+- Cmp name: TESTPOINTROUND1.5MM
+  DNP: ''
+  Description: ''
+  Footprint: working:TESTPOINT_ROUND_1.5MM
+  Qnty: '2'
+  Ref: TP1, TP2
+  Value: TESTPOINTROUND1.5MM
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '2'
+  Ref: U$7, U$8
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+- Cmp name: TERMBLOCK_1X2_5.08MM
+  DNP: ''
+  Description: ''
+  Footprint: working:TERMBLOCK_508_1X2
+  Qnty: '1'
+  Ref: X1
+  Value: 5.08mm Term
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| FID3, FID4 | 2 |\
+  \ MICROBUILDER_FIDUCIAL\"\" | MICROBUILDER_FIDUCIAL{dblquote}{dblquote} | working:MICROBUILDER_FIDUCIAL_1MM\
+  \ |  |  |  | \n| IC1 | 1 | INA260 | INA260 | working:TSSOP16 |  |  |  | \n| JP2\
+  \ | 1 | HEADER-1X870MIL | HEADER-1X870MIL | working:1X08_ROUND_70 |  |  |  | \n\
+  | R1, R2, R3, R4 | 4 | 10K | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n\
+  | SJ1 | 1 | SOLDERJUMPER_CLOSED | SOLDERJUMPER_CLOSED | working:SOLDERJUMPER_CLOSEDWIRE\
+  \ |  |  |  | \n| SJ3, SJ4 | 2 | SOLDERJUMPER | SOLDERJUMPER | working:SOLDERJUMPER_ARROW_NOPASTE\
+  \ |  |  |  | \n| TP1, TP2 | 2 | TESTPOINTROUND1.5MM | TESTPOINTROUND1.5MM | working:TESTPOINT_ROUND_1.5MM\
+  \ |  |  |  | \n| U$7, U$8 | 2 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED\
+  \ |  |  |  | \n| X1 | 1 | 5.08mm Term | TERMBLOCK_1X2_5.08MM | working:TERMBLOCK_508_1X2\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_ina260_pcb_adafruit_ina260/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_ina260_pcb_adafruit_ina260/current_version/working/working.sch
 id: adafruit_adafruit_ina260_pcb_adafruit_ina260
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$7
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '17.78'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$8
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 17.78 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$7 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$8 |\
+  \ m3 | \n"
 name: adafruit_ina260_pcb
+position_bottom:
+- '# Ref': TP1
+  Package: TESTPOINT_ROUND_1.5MM
+  PosX: 140.6258
+  PosY: -106.6545
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': TP2
+  Package: TESTPOINT_ROUND_1.5MM
+  PosX: 140.6258
+  PosY: -110.5915
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$6
+  Package: PCBFEAT-REV-040
+  PosX: 148.4998
+  PosY: -95.0975
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| TP1 | nan | TESTPOINT_ROUND_1.5MM\
+  \ | 140.6258 | -106.6545 | 180.0 | bottom | \n| TP2 | nan | TESTPOINT_ROUND_1.5MM\
+  \ | 140.6258 | -110.5915 | 180.0 | bottom | \n| U$6 | nan | PCBFEAT-REV-040 | 148.4998\
+  \ | -95.0975 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0603-NO
+  PosX: 152.8305
+  PosY: -109.7787
+  Rot: -90.0
+  Side: top
+  Val: 1uF
+- '# Ref': FID3
+  Package: MICROBUILDER_FIDUCIAL_1MM
+  PosX: 157.3898
+  PosY: -110.9471
+  Rot: 0.0
+  Side: top
+  Val: MICROBUILDER_FIDUCIAL""
+- '# Ref': FID4
+  Package: MICROBUILDER_FIDUCIAL_1MM
+  PosX: 138.289
+  PosY: -98.9837
+  Rot: 0.0
+  Side: top
+  Val: MICROBUILDER_FIDUCIAL""
+- '# Ref': IC1
+  Package: TSSOP16
+  PosX: 148.4998
+  PosY: -106.2735
+  Rot: -90.0
+  Side: top
+  Val: INA260
+- '# Ref': JP2
+  Package: 1X08_ROUND_70
+  PosX: 148.4998
+  PosY: -113.8935
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 145.2994
+  PosY: -110.2809
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: 0603-NO
+  PosX: 150.5191
+  PosY: -109.8999
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: 0603-NO
+  PosX: 140.5733
+  PosY: -109.0109
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R4
+  Package: 0603-NO
+  PosX: 140.5733
+  PosY: -107.4927
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': SJ1
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 154.5958
+  PosY: -108.0515
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ3
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 140.6258
+  PosY: -110.648
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ4
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 140.6258
+  PosY: -105.8163
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$1
+  Package: ADAFRUIT_3.5MM
+  PosX: 155.8658
+  PosY: -106.0195
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': U$7
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 157.3898
+  PosY: -96.1135
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$8
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 139.6098
+  PosY: -96.1135
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': X1
+  Package: TERMBLOCK_508_1X2
+  PosX: 148.4998
+  PosY: -97.3835
+  Rot: 0.0
+  Side: top
+  Val: 5.08mm_Term
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 1uF | 0603-NO | 152.8305 | -109.7787\
+  \ | -90.0 | top | \n| FID3 | MICROBUILDER_FIDUCIAL\"\" | MICROBUILDER_FIDUCIAL_1MM\
+  \ | 157.3898 | -110.9471 | 0.0 | top | \n| FID4 | MICROBUILDER_FIDUCIAL\"\" | MICROBUILDER_FIDUCIAL_1MM\
+  \ | 138.289 | -98.9837 | 0.0 | top | \n| IC1 | INA260 | TSSOP16 | 148.4998 | -106.2735\
+  \ | -90.0 | top | \n| JP2 | nan | 1X08_ROUND_70 | 148.4998 | -113.8935 | 0.0 | top\
+  \ | \n| R1 | 10K | 0603-NO | 145.2994 | -110.2809 | 180.0 | top | \n| R2 | 10K |\
+  \ 0603-NO | 150.5191 | -109.8999 | 0.0 | top | \n| R3 | 10K | 0603-NO | 140.5733\
+  \ | -109.0109 | 180.0 | top | \n| R4 | 10K | 0603-NO | 140.5733 | -107.4927 | 180.0\
+  \ | top | \n| SJ1 | nan | SOLDERJUMPER_CLOSEDWIRE | 154.5958 | -108.0515 | 90.0\
+  \ | top | \n| SJ3 | nan | SOLDERJUMPER_ARROW_NOPASTE | 140.6258 | -110.648 | 0.0\
+  \ | top | \n| SJ4 | nan | SOLDERJUMPER_ARROW_NOPASTE | 140.6258 | -105.8163 | 0.0\
+  \ | top | \n| U$1 | nan | ADAFRUIT_3.5MM | 155.8658 | -106.0195 | 90.0 | top | \n\
+  | U$7 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 157.3898 | -96.1135 | 0.0 |\
+  \ top | \n| U$8 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 139.6098 | -96.1135\
+  \ | 0.0 | top | \n| X1 | 5.08mm_Term | TERMBLOCK_508_1X2 | 148.4998 | -97.3835 |\
+  \ 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_ina260_pcb_adafruit_ina260/current_version/working
 repo:
   allow_forking: true

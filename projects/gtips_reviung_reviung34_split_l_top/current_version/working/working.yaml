@@ -1,10 +1,147 @@
 board: reviung34_split_l_top
+bom:
+- Id: '1'
+  Designator: breakaway,breakaway,breakaway,breakaway
+  Footprint: Stamp_Holes_7.5mm
+  Quantity: '4'
+  Designation: Stamp_Holes_7.5mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: breakaway,breakaway,breakaway,breakaway
+  Footprint: Stamp_Holes_5mm
+  Quantity: '4'
+  Designation: Stamp_Holes_5mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: G***
+  Footprint: R-x4-ver1
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | breakaway,breakaway,breakaway,breakaway\
+  \ | Stamp_Holes_7.5mm | 4 | Stamp_Holes_7.5mm |  |  | [''] | \n| 2 | breakaway,breakaway,breakaway,breakaway\
+  \ | Stamp_Holes_5mm | 4 | Stamp_Holes_5mm |  |  | [''] | \n| 3 | G*** | R-x4-ver1\
+  \ | 1 | LOGO |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: MountingHole_Pad
+  DNP: ''
+  Description: Mounting Hole with connection
+  Footprint: MountingHole:MountingHole_2.2mm_M2_Pad
+  Qnty: '2'
+  Ref: H1, H2
+  Value: MountingHole_Pad
+  Vendor: ''
+- Cmp name: MountingHole_Pad
+  DNP: ''
+  Description: Mounting Hole with connection
+  Footprint: _reviung-kbd:MountingHole_2.2mm_M2_Pad
+  Qnty: '1'
+  Ref: H3
+  Value: MountingHole_Pad
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| H1, H2\
+  \ | 2 | MountingHole_Pad | MountingHole_Pad | MountingHole:MountingHole_2.2mm_M2_Pad\
+  \ | Mounting Hole with connection |  |  | \n| H3 | 1 | MountingHole_Pad | MountingHole_Pad\
+  \ | _reviung-kbd:MountingHole_2.2mm_M2_Pad | Mounting Hole with connection |  |\
+  \  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/gtips_reviung_reviung34_split_l_top/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/gtips_reviung_reviung34_split_l_top/current_version/working/working.kicad_pcb
 file_sch_flat: projects/gtips_reviung_reviung34_split_l_top/current_version/working/working.sch
 id: gtips_reviung_reviung34_split_l_top
 name: reviung
+position_bottom:
+- '# Ref': G***
+  Package: R-x4-ver1
+  PosX: 146.65
+  PosY: -87.95
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | R-x4-ver1 | 146.65\
+  \ | -87.95 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': breakaway
+  Package: Stamp_Holes_7.5mm
+  PosX: 100.33
+  PosY: -31.8
+  Rot: 90.0
+  Side: top
+  Val: Stamp_Holes_7.5mm
+- '# Ref': breakaway
+  Package: Stamp_Holes_7.5mm
+  PosX: 102.09
+  PosY: -31.81
+  Rot: -90.0
+  Side: top
+  Val: Stamp_Holes_7.5mm
+- '# Ref': breakaway
+  Package: Stamp_Holes_7.5mm
+  PosX: 100.34
+  PosY: -69.92
+  Rot: 90.0
+  Side: top
+  Val: Stamp_Holes_7.5mm
+- '# Ref': breakaway
+  Package: Stamp_Holes_7.5mm
+  PosX: 102.08
+  PosY: -69.93
+  Rot: -90.0
+  Side: top
+  Val: Stamp_Holes_7.5mm
+- '# Ref': breakaway
+  Package: Stamp_Holes_5mm
+  PosX: 109.98
+  PosY: -18.26
+  Rot: 0.0
+  Side: top
+  Val: Stamp_Holes_5mm
+- '# Ref': breakaway
+  Package: Stamp_Holes_5mm
+  PosX: 109.99
+  PosY: -20.5
+  Rot: 180.0
+  Side: top
+  Val: Stamp_Holes_5mm
+- '# Ref': breakaway
+  Package: Stamp_Holes_5mm
+  PosX: 92.45
+  PosY: -18.26
+  Rot: 0.0
+  Side: top
+  Val: Stamp_Holes_5mm
+- '# Ref': breakaway
+  Package: Stamp_Holes_5mm
+  PosX: 92.44
+  PosY: -20.5
+  Rot: 180.0
+  Side: top
+  Val: Stamp_Holes_5mm
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| breakaway | Stamp_Holes_7.5mm | Stamp_Holes_7.5mm\
+  \ | 100.33 | -31.8 | 90.0 | top | \n| breakaway | Stamp_Holes_7.5mm | Stamp_Holes_7.5mm\
+  \ | 102.09 | -31.81 | -90.0 | top | \n| breakaway | Stamp_Holes_7.5mm | Stamp_Holes_7.5mm\
+  \ | 100.34 | -69.92 | 90.0 | top | \n| breakaway | Stamp_Holes_7.5mm | Stamp_Holes_7.5mm\
+  \ | 102.08 | -69.93 | -90.0 | top | \n| breakaway | Stamp_Holes_5mm | Stamp_Holes_5mm\
+  \ | 109.98 | -18.26 | 0.0 | top | \n| breakaway | Stamp_Holes_5mm | Stamp_Holes_5mm\
+  \ | 109.99 | -20.5 | 180.0 | top | \n| breakaway | Stamp_Holes_5mm | Stamp_Holes_5mm\
+  \ | 92.45 | -18.26 | 0.0 | top | \n| breakaway | Stamp_Holes_5mm | Stamp_Holes_5mm\
+  \ | 92.44 | -20.5 | 180.0 | top | \n"
 projects_flat: projects/gtips_reviung_reviung34_split_l_top/current_version/working
 repo:
   allow_forking: true

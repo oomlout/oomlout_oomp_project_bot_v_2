@@ -1,9 +1,295 @@
 board: adafruit_flora_tsl2561_lux
+bom:
+- Id: '1'
+  Designator: SDA1,SCL1,SCL2,SDA2,VCC0,GND0
+  Footprint: SEWINGTAP_0.5
+  Quantity: '6'
+  Designation: SEWTAP0.5IN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R3,R2
+  Footprint: _0805
+  Quantity: '2'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$4,U$3
+  Footprint: ADAFRUIT_2.5MM
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U2
+  Footprint: TSL2561_FN
+  Quantity: '1'
+  Designation: TSL2561
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: FID2,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C1
+  Footprint: C0805K
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: SJ1
+  Footprint: SJ_2
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | SDA1,SCL1,SCL2,SDA2,VCC0,GND0\
+  \ | SEWINGTAP_0.5 | 6 | SEWTAP0.5IN |  |  | [''] | \n| 2 | R3,R2 | _0805 | 2 | 10K\
+  \ |  |  | [''] | \n| 3 | U$4,U$3 | ADAFRUIT_2.5MM | 2 |  |  |  | [''] | \n| 4 |\
+  \ U2 | TSL2561_FN | 1 | TSL2561 |  |  | [''] | \n| 5 | FID2,FID1 | FIDUCIAL_1MM\
+  \ | 2 | FIDUCIAL\" |  |  | [''] | \n| 6 | C1 | C0805K | 1 | 0.1uF |  |  | [''] |\
+  \ \n| 7 | SJ1 | SJ_2 | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C-USC0805K
+  DNP: ''
+  Description: ''
+  Footprint: working:C0805K
+  Qnty: '1'
+  Ref: C1
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: SEWTAP0.5IN
+  DNP: ''
+  Description: ''
+  Footprint: working:SEWINGTAP_0.5
+  Qnty: '1'
+  Ref: GND0
+  Value: SEWTAP0.5IN
+  Vendor: ''
+- Cmp name: RESISTOR_0805
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805
+  Qnty: '2'
+  Ref: R2, R3
+  Value: 10K
+  Vendor: ''
+- Cmp name: SEWTAP0.5IN
+  DNP: ''
+  Description: ''
+  Footprint: working:SEWINGTAP_0.5
+  Qnty: '2'
+  Ref: SCL1, SCL2
+  Value: SEWTAP0.5IN
+  Vendor: ''
+- Cmp name: SEWTAP0.5IN
+  DNP: ''
+  Description: ''
+  Footprint: working:SEWINGTAP_0.5
+  Qnty: '2'
+  Ref: SDA1, SDA2
+  Value: SEWTAP0.5IN
+  Vendor: ''
+- Cmp name: SJ2W
+  DNP: ''
+  Description: ''
+  Footprint: working:SJ_2
+  Qnty: '1'
+  Ref: SJ1
+  Value: SJ2W
+  Vendor: ''
+- Cmp name: TSL2561
+  DNP: ''
+  Description: ''
+  Footprint: working:TSL2561_FN
+  Qnty: '1'
+  Ref: U2
+  Value: TSL2561
+  Vendor: ''
+- Cmp name: SEWTAP0.5IN
+  DNP: ''
+  Description: ''
+  Footprint: working:SEWINGTAP_0.5
+  Qnty: '1'
+  Ref: VCC0
+  Value: SEWTAP0.5IN
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 0.1uF | C-USC0805K | working:C0805K |  |  |  | \n| FID1, FID2 | 2 | FIDUCIAL\"\
+  \" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | \n| GND0 | 1\
+  \ | SEWTAP0.5IN | SEWTAP0.5IN | working:SEWINGTAP_0.5 |  |  |  | \n| R2, R3 | 2\
+  \ | 10K | RESISTOR_0805 | working:_0805 |  |  |  | \n| SCL1, SCL2 | 2 | SEWTAP0.5IN\
+  \ | SEWTAP0.5IN | working:SEWINGTAP_0.5 |  |  |  | \n| SDA1, SDA2 | 2 | SEWTAP0.5IN\
+  \ | SEWTAP0.5IN | working:SEWINGTAP_0.5 |  |  |  | \n| SJ1 | 1 | SJ2W | SJ2W | working:SJ_2\
+  \ |  |  |  | \n| U2 | 1 | TSL2561 | TSL2561 | working:TSL2561_FN |  |  |  | \n|\
+  \ VCC0 | 1 | SEWTAP0.5IN | SEWTAP0.5IN | working:SEWINGTAP_0.5 |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_flora_tsl2561_lux_sensor_pcb_adafruit_flora_tsl2561_lux/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_flora_tsl2561_lux_sensor_pcb_adafruit_flora_tsl2561_lux/current_version/working/working.sch
 id: adafruit_adafruit_flora_tsl2561_lux_sensor_pcb_adafruit_flora_tsl2561_lux
 name: adafruit_flora_tsl2561_lux_sensor_pcb
+position_bottom:
+- '# Ref': SJ1
+  Package: SJ_2
+  PosX: 148.5011
+  PosY: -104.1146
+  Rot: 0.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$3
+  Package: ADAFRUIT_2.5MM
+  PosX: 146.8501
+  PosY: -101.1936
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| SJ1 | nan | SJ_2 | 148.5011 | -104.1146\
+  \ | 0.0 | bottom | \n| U$3 | nan | ADAFRUIT_2.5MM | 146.8501 | -101.1936 | 180.0\
+  \ | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: C0805K
+  PosX: 151.4221
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 145.5801
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 151.4221
+  PosY: -109.7026
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': GND0
+  Package: SEWINGTAP_0.5
+  PosX: 148.5011
+  PosY: -99.2886
+  Rot: 0.0
+  Side: top
+  Val: SEWTAP0.5IN
+- '# Ref': R2
+  Package: _0805
+  PosX: 148.5011
+  PosY: -107.9246
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: _0805
+  PosX: 148.5011
+  PosY: -102.0826
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': SCL1
+  Package: SEWINGTAP_0.5
+  PosX: 153.4541
+  PosY: -102.0826
+  Rot: -60.0
+  Side: top
+  Val: SEWTAP0.5IN
+- '# Ref': SCL2
+  Package: SEWINGTAP_0.5
+  PosX: 143.5481
+  PosY: -102.0826
+  Rot: 60.0
+  Side: top
+  Val: SEWTAP0.5IN
+- '# Ref': SDA1
+  Package: SEWINGTAP_0.5
+  PosX: 153.4541
+  PosY: -107.9246
+  Rot: -120.0
+  Side: top
+  Val: SEWTAP0.5IN
+- '# Ref': SDA2
+  Package: SEWINGTAP_0.5
+  PosX: 143.5481
+  PosY: -107.9246
+  Rot: 120.0
+  Side: top
+  Val: SEWTAP0.5IN
+- '# Ref': U$4
+  Package: ADAFRUIT_2.5MM
+  PosX: 150.0251
+  PosY: -101.1936
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U2
+  Package: TSL2561_FN
+  PosX: 148.5011
+  PosY: -105.0036
+  Rot: 180.0
+  Side: top
+  Val: TSL2561
+- '# Ref': VCC0
+  Package: SEWINGTAP_0.5
+  PosX: 148.5011
+  PosY: -110.8456
+  Rot: 180.0
+  Side: top
+  Val: SEWTAP0.5IN
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | C0805K | 151.4221 | -105.0036\
+  \ | 90.0 | top | \n| FID1 | FIDUCIAL\"\" | FIDUCIAL_1MM | 145.5801 | -105.0036 |\
+  \ 0.0 | top | \n| FID2 | FIDUCIAL\"\" | FIDUCIAL_1MM | 151.4221 | -109.7026 | 0.0\
+  \ | top | \n| GND0 | SEWTAP0.5IN | SEWINGTAP_0.5 | 148.5011 | -99.2886 | 0.0 | top\
+  \ | \n| R2 | 10K | _0805 | 148.5011 | -107.9246 | 0.0 | top | \n| R3 | 10K | _0805\
+  \ | 148.5011 | -102.0826 | 0.0 | top | \n| SCL1 | SEWTAP0.5IN | SEWINGTAP_0.5 |\
+  \ 153.4541 | -102.0826 | -60.0 | top | \n| SCL2 | SEWTAP0.5IN | SEWINGTAP_0.5 |\
+  \ 143.5481 | -102.0826 | 60.0 | top | \n| SDA1 | SEWTAP0.5IN | SEWINGTAP_0.5 | 153.4541\
+  \ | -107.9246 | -120.0 | top | \n| SDA2 | SEWTAP0.5IN | SEWINGTAP_0.5 | 143.5481\
+  \ | -107.9246 | 120.0 | top | \n| U$4 | nan | ADAFRUIT_2.5MM | 150.0251 | -101.1936\
+  \ | 0.0 | top | \n| U2 | TSL2561 | TSL2561_FN | 148.5011 | -105.0036 | 180.0 | top\
+  \ | \n| VCC0 | SEWTAP0.5IN | SEWINGTAP_0.5 | 148.5011 | -110.8456 | 180.0 | top\
+  \ | \n"
 projects_flat: projects/adafruit_adafruit_flora_tsl2561_lux_sensor_pcb_adafruit_flora_tsl2561_lux/current_version/working
 repo:
   allow_forking: true

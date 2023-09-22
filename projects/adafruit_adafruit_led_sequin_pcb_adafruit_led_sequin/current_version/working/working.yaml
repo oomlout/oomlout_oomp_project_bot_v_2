@@ -1,9 +1,94 @@
 board: adafruit_led_sequin
+bom:
+- Id: '1'
+  Designator: R1
+  Footprint: R0603
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: LED1
+  Footprint: '1206'
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$1
+  Footprint: ADAFRUIT_2.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R1\
+  \ | R0603 | 1 |  |  |  | [''] | \n| 2 | LED1 | 1206 | 1 |  |  |  | [''] | \n| 3\
+  \ | U$1 | ADAFRUIT_2.5MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: LEDSMT1206
+  DNP: ''
+  Description: ''
+  Footprint: working:1206
+  Qnty: '1'
+  Ref: LED1
+  Value: LEDSMT1206
+  Vendor: ''
+- Cmp name: R-US_R0603
+  DNP: ''
+  Description: ''
+  Footprint: working:R0603
+  Qnty: '1'
+  Ref: R1
+  Value: R-US_R0603
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| LED1\
+  \ | 1 | LEDSMT1206 | LEDSMT1206 | working:1206 |  |  |  | \n| R1 | 1 | R-US_R0603\
+  \ | R-US_R0603 | working:R0603 |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_led_sequin_pcb_adafruit_led_sequin/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_led_sequin_pcb_adafruit_led_sequin/current_version/working/working.sch
 id: adafruit_adafruit_led_sequin_pcb_adafruit_led_sequin
 name: adafruit_led_sequin_pcb
+position_bottom:
+- '# Ref': U$1
+  Package: ADAFRUIT_2.5MM
+  PosX: 148.2471
+  PosY: -105.636
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$1 | nan | ADAFRUIT_2.5MM | 148.2471\
+  \ | -105.636 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': LED1
+  Package: '1206'
+  PosX: 148.5011
+  PosY: -105.763
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: R0603
+  PosX: 148.5011
+  PosY: -103.985
+  Rot: 180.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| LED1 | nan | 1206 | 148.5011 | -105.763\
+  \ | 0.0 | top | \n| R1 | nan | R0603 | 148.5011 | -103.985 | 180.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_led_sequin_pcb_adafruit_led_sequin/current_version/working
 repo:
   allow_forking: true

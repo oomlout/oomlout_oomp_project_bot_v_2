@@ -1,10 +1,732 @@
 board: paw_controller
+bom:
+- Id: '1'
+  Designator: RN1,RN2
+  Footprint: R_Array_Convex_4x0603
+  Quantity: '2'
+  Designation: 100K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: SW1
+  Footprint: SW_SPST_KMR2
+  Quantity: '1'
+  Designation: SW_SPST_KMR2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U3
+  Footprint: SOT-23
+  Quantity: '1'
+  Designation: DRV5032FCDBZT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C9,C11
+  Footprint: C_0603_1608Metric
+  Quantity: '2'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: RN3
+  Footprint: R_Array_Convex_4x0603
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C10,C6,C5,C7
+  Footprint: C_0603_1608Metric
+  Quantity: '4'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R4
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: '330'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: D1
+  Footprint: LED_0603_1608Metric
+  Quantity: '1'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U1
+  Footprint: TO-PMOD-7_TabPin4
+  Quantity: '1'
+  Designation: LMZ10503
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R1
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 82.5K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: R3
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 30K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: C4
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 0.022uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: R2
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 1.27K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: C3
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 91pF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U2
+  Footprint: QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm
+  Quantity: '1'
+  Designation: ATSAMD21E18A-AF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: Q2,Q1,Q3,Q8
+  Footprint: SOT-23
+  Quantity: '4'
+  Designation: DMN1019USN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: C2,C8
+  Footprint: C_0805_2012Metric
+  Quantity: '2'
+  Designation: 47uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: J3
+  Footprint: PinHeader_1x02_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: C1
+  Footprint: C_0805_2012Metric
+  Quantity: '1'
+  Designation: 22uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: Q4,Q5,Q6,Q7
+  Footprint: TSOP-6_1.65x3.05mm_P0.95mm
+  Quantity: '4'
+  Designation: SI3407DV-T1-GE3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '21'
+  Designator: J1
+  Footprint: PinHeader_2x07_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_02x07_Odd_Even
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '22'
+  Designator: J2
+  Footprint: PinHeader_1x10_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x10
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | RN1,RN2\
+  \ | R_Array_Convex_4x0603 | 2 | 100K |  |  | [''] | \n| 2 | SW1 | SW_SPST_KMR2 |\
+  \ 1 | SW_SPST_KMR2 |  |  | [''] | \n| 3 | U3 | SOT-23 | 1 | DRV5032FCDBZT |  | \
+  \ | [''] | \n| 4 | C9,C11 | C_0603_1608Metric | 2 | 0.1uF |  |  | [''] | \n| 5 |\
+  \ RN3 | R_Array_Convex_4x0603 | 1 | 10K |  |  | [''] | \n| 6 | C10,C6,C5,C7 | C_0603_1608Metric\
+  \ | 4 | 1uF |  |  | [''] | \n| 7 | R4 | R_0603_1608Metric | 1 | 330 |  |  | ['']\
+  \ | \n| 8 | D1 | LED_0603_1608Metric | 1 | LED |  |  | [''] | \n| 9 | U1 | TO-PMOD-7_TabPin4\
+  \ | 1 | LMZ10503 |  |  | [''] | \n| 10 | R1 | R_0603_1608Metric | 1 | 82.5K |  |\
+  \  | [''] | \n| 11 | R3 | R_0603_1608Metric | 1 | 30K |  |  | [''] | \n| 12 | C4\
+  \ | C_0603_1608Metric | 1 | 0.022uF |  |  | [''] | \n| 13 | R2 | R_0603_1608Metric\
+  \ | 1 | 1.27K |  |  | [''] | \n| 14 | C3 | C_0603_1608Metric | 1 | 91pF |  |  |\
+  \ [''] | \n| 15 | U2 | QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm | 1 | ATSAMD21E18A-AF\
+  \ |  |  | [''] | \n| 16 | Q2,Q1,Q3,Q8 | SOT-23 | 4 | DMN1019USN |  |  | [''] | \n\
+  | 17 | C2,C8 | C_0805_2012Metric | 2 | 47uF |  |  | [''] | \n| 18 | J3 | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 1 | Conn_01x02 |  |  | [''] | \n| 19 | C1 | C_0805_2012Metric | 1 | 22uF | \
+  \ |  | [''] | \n| 20 | Q4,Q5,Q6,Q7 | TSOP-6_1.65x3.05mm_P0.95mm | 4 | SI3407DV-T1-GE3\
+  \ |  |  | [''] | \n| 21 | J1 | PinHeader_2x07_P2.54mm_Vertical | 1 | Conn_02x07_Odd_Even\
+  \ |  |  | [''] | \n| 22 | J2 | PinHeader_1x10_P2.54mm_Vertical | 1 | Conn_01x10\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0805_2012Metric
+  Qnty: '1'
+  Ref: C1
+  Value: 22uF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0805_2012Metric
+  Qnty: '2'
+  Ref: C2, C8
+  Value: 47uF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C3
+  Value: 91pF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C4
+  Value: 0.022uF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '4'
+  Ref: C5, C6, C7, C10
+  Value: 1uF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '2'
+  Ref: C9, C11
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: LED_SMD:LED_0603_1608Metric
+  Qnty: '1'
+  Ref: D1
+  Value: LED
+  Vendor: ''
+- Cmp name: Conn_02x07_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x07, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_02x07_Odd_Even
+  Vendor: ''
+- Cmp name: Conn_01x10
+  DNP: ''
+  Description: Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J2
+  Value: Conn_01x10
+  Vendor: ''
+- Cmp name: Conn_01x02
+  DNP: ''
+  Description: Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J3
+  Value: Conn_01x02
+  Vendor: ''
+- Cmp name: DMN1019USN-Aaron
+  DNP: ''
+  Description: ''
+  Footprint: Package_TO_SOT_SMD:SOT-23
+  Qnty: '4'
+  Ref: Q1, Q2, Q3, Q8
+  Value: DMN1019USN
+  Vendor: ''
+- Cmp name: SI3407DV-T1-GE3-Aaron
+  DNP: ''
+  Description: ''
+  Footprint: Package_SO:TSOP-6_1.65x3.05mm_P0.95mm
+  Qnty: '4'
+  Ref: Q4, Q5, Q6, Q7
+  Value: SI3407DV-T1-GE3
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R1
+  Value: 82.5K
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R2
+  Value: 1.27K
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R3
+  Value: 30K
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R4
+  Value: '330'
+  Vendor: ''
+- Cmp name: R_Pack04-device
+  DNP: ''
+  Description: ''
+  Footprint: Resistor_SMD:R_Array_Convex_4x0603
+  Qnty: '2'
+  Ref: RN1, RN2
+  Value: 100K
+  Vendor: ''
+- Cmp name: R_Pack04-device
+  DNP: ''
+  Description: ''
+  Footprint: Resistor_SMD:R_Array_Convex_4x0603
+  Qnty: '1'
+  Ref: RN3
+  Value: 10K
+  Vendor: ''
+- Cmp name: SW_SPST_KMR2-switch_tact_smt
+  DNP: ''
+  Description: ''
+  Footprint: Aaron:SW_SPST_KMR2
+  Qnty: '1'
+  Ref: SW1
+  Value: SW_SPST_KMR2
+  Vendor: ''
+- Cmp name: LMZ10503-Aaron
+  DNP: ''
+  Description: ''
+  Footprint: Aaron:TO-PMOD-7_TabPin4
+  Qnty: '1'
+  Ref: U1
+  Value: LMZ10503
+  Vendor: ''
+- Cmp name: ATSAMD21E18A-AF-Aaron
+  DNP: ''
+  Description: ''
+  Footprint: Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm
+  Qnty: '1'
+  Ref: U2
+  Value: ATSAMD21E18A-AF
+  Vendor: ''
+- Cmp name: DRV5032FCDBZT-Aaron
+  DNP: ''
+  Description: ''
+  Footprint: Package_TO_SOT_SMD:SOT-23
+  Qnty: '1'
+  Ref: U3
+  Value: DRV5032FCDBZT
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 22uF | C | Capacitor_SMD:C_0805_2012Metric | Unpolarized capacitor |  |  |\
+  \ \n| C2, C8 | 2 | 47uF | C | Capacitor_SMD:C_0805_2012Metric | Unpolarized capacitor\
+  \ |  |  | \n| C3 | 1 | 91pF | C | Capacitor_SMD:C_0603_1608Metric | Unpolarized\
+  \ capacitor |  |  | \n| C4 | 1 | 0.022uF | C | Capacitor_SMD:C_0603_1608Metric |\
+  \ Unpolarized capacitor |  |  | \n| C5, C6, C7, C10 | 4 | 1uF | C | Capacitor_SMD:C_0603_1608Metric\
+  \ | Unpolarized capacitor |  |  | \n| C9, C11 | 2 | 0.1uF | C | Capacitor_SMD:C_0603_1608Metric\
+  \ | Unpolarized capacitor |  |  | \n| D1 | 1 | LED | LED | LED_SMD:LED_0603_1608Metric\
+  \ | Light emitting diode |  |  | \n| J1 | 1 | Conn_02x07_Odd_Even | Conn_02x07_Odd_Even\
+  \ | Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical | Generic connector,\
+  \ double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even\
+  \ numbers), script generated (kicad-library-utils/schlib/autogen/connector/) | \
+  \ |  | \n| J2 | 1 | Conn_01x10 | Conn_01x10 | Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J3 | 1 | Conn_01x02 | Conn_01x02 | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| Q1, Q2, Q3, Q8 | 4 | DMN1019USN | DMN1019USN-Aaron | Package_TO_SOT_SMD:SOT-23\
+  \ |  |  |  | \n| Q4, Q5, Q6, Q7 | 4 | SI3407DV-T1-GE3 | SI3407DV-T1-GE3-Aaron |\
+  \ Package_SO:TSOP-6_1.65x3.05mm_P0.95mm |  |  |  | \n| R1 | 1 | 82.5K | R | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor |  |  | \n| R2 | 1 | 1.27K | R | Resistor_SMD:R_0603_1608Metric | Resistor\
+  \ |  |  | \n| R3 | 1 | 30K | R | Resistor_SMD:R_0603_1608Metric | Resistor |  |\
+  \  | \n| R4 | 1 | 330 | R | Resistor_SMD:R_0603_1608Metric | Resistor |  |  | \n\
+  | RN1, RN2 | 2 | 100K | R_Pack04-device | Resistor_SMD:R_Array_Convex_4x0603 | \
+  \ |  |  | \n| RN3 | 1 | 10K | R_Pack04-device | Resistor_SMD:R_Array_Convex_4x0603\
+  \ |  |  |  | \n| SW1 | 1 | SW_SPST_KMR2 | SW_SPST_KMR2-switch_tact_smt | Aaron:SW_SPST_KMR2\
+  \ |  |  |  | \n| U1 | 1 | LMZ10503 | LMZ10503-Aaron | Aaron:TO-PMOD-7_TabPin4 |\
+  \  |  |  | \n| U2 | 1 | ATSAMD21E18A-AF | ATSAMD21E18A-AF-Aaron | Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm\
+  \ |  |  |  | \n| U3 | 1 | DRV5032FCDBZT | DRV5032FCDBZT-Aaron | Package_TO_SOT_SMD:SOT-23\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/aaronw2_3v_pwm_controller_paw_controller/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/aaronw2_3v_pwm_controller_paw_controller/current_version/working/working.kicad_pcb
 file_sch_flat: projects/aaronw2_3v_pwm_controller_paw_controller/current_version/working/working.sch
 id: aaronw2_3v_pwm_controller_paw_controller
 name: 3v_pwm_controller
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_0805_2012Metric
+  PosX: 51.825
+  PosY: -82.15
+  Rot: 180.0
+  Side: top
+  Val: 22uF
+- '# Ref': C2
+  Package: C_0805_2012Metric
+  PosX: 65.575
+  PosY: -82.9
+  Rot: -90.0
+  Side: top
+  Val: 47uF
+- '# Ref': C3
+  Package: C_0603_1608Metric
+  PosX: 63.875
+  PosY: -82.7125
+  Rot: -90.0
+  Side: top
+  Val: 91pF
+- '# Ref': C4
+  Package: C_0603_1608Metric
+  PosX: 57.0375
+  PosY: -82.275
+  Rot: 0.0
+  Side: top
+  Val: 0.022uF
+- '# Ref': C5
+  Package: C_0603_1608Metric
+  PosX: 62.925
+  PosY: -69.625
+  Rot: 90.0
+  Side: top
+  Val: 1uF
+- '# Ref': C6
+  Package: C_0603_1608Metric
+  PosX: 65.8625
+  PosY: -70.275
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C7
+  Package: C_0603_1608Metric
+  PosX: 63.1
+  PosY: -78.9
+  Rot: -90.0
+  Side: top
+  Val: 1uF
+- '# Ref': C8
+  Package: C_0805_2012Metric
+  PosX: 75.5
+  PosY: -65.3125
+  Rot: 90.0
+  Side: top
+  Val: 47uF
+- '# Ref': C9
+  Package: C_0603_1608Metric
+  PosX: 83.7625
+  PosY: -66.275
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C10
+  Package: C_0603_1608Metric
+  PosX: 62.925
+  PosY: -66.6625
+  Rot: 90.0
+  Side: top
+  Val: 1uF
+- '# Ref': C11
+  Package: C_0603_1608Metric
+  PosX: 66.625
+  PosY: -68.025
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': D1
+  Package: LED_0603_1608Metric
+  PosX: 64.7
+  PosY: -67.8625
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': J1
+  Package: PinHeader_2x07_P2.54mm_Vertical
+  PosX: 87.4
+  PosY: -64.05
+  Rot: 0.0
+  Side: top
+  Val: Conn_02x07_Odd_Even
+- '# Ref': J2
+  Package: PinHeader_1x10_P2.54mm_Vertical
+  PosX: 91.25
+  PosY: -83.4
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x10
+- '# Ref': J3
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 54.615
+  PosY: -85.0
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': Q1
+  Package: SOT-23
+  PosX: 83.4
+  PosY: -72.3
+  Rot: 90.0
+  Side: top
+  Val: DMN1019USN
+- '# Ref': Q2
+  Package: SOT-23
+  PosX: 79.9
+  PosY: -72.3
+  Rot: 90.0
+  Side: top
+  Val: DMN1019USN
+- '# Ref': Q3
+  Package: SOT-23
+  PosX: 76.4
+  PosY: -72.3
+  Rot: 90.0
+  Side: top
+  Val: DMN1019USN
+- '# Ref': Q4
+  Package: TSOP-6_1.65x3.05mm_P0.95mm
+  PosX: 83.5
+  PosY: -68.8
+  Rot: 180.0
+  Side: top
+  Val: SI3407DV-T1-GE3
+- '# Ref': Q5
+  Package: TSOP-6_1.65x3.05mm_P0.95mm
+  PosX: 79.925
+  PosY: -68.8
+  Rot: 180.0
+  Side: top
+  Val: SI3407DV-T1-GE3
+- '# Ref': Q6
+  Package: TSOP-6_1.65x3.05mm_P0.95mm
+  PosX: 76.375
+  PosY: -68.8
+  Rot: 180.0
+  Side: top
+  Val: SI3407DV-T1-GE3
+- '# Ref': Q7
+  Package: TSOP-6_1.65x3.05mm_P0.95mm
+  PosX: 72.8
+  PosY: -68.8
+  Rot: 180.0
+  Side: top
+  Val: SI3407DV-T1-GE3
+- '# Ref': Q8
+  Package: SOT-23
+  PosX: 72.85
+  PosY: -72.3
+  Rot: 90.0
+  Side: top
+  Val: DMN1019USN
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 61.6125
+  PosY: -82.25
+  Rot: 180.0
+  Side: top
+  Val: 82.5K
+- '# Ref': R2
+  Package: R_0603_1608Metric
+  PosX: 61.6
+  PosY: -83.75
+  Rot: 180.0
+  Side: top
+  Val: 1.27K
+- '# Ref': R3
+  Package: R_0603_1608Metric
+  PosX: 58.6125
+  PosY: -83.75
+  Rot: 180.0
+  Side: top
+  Val: 30K
+- '# Ref': R4
+  Package: R_0603_1608Metric
+  PosX: 65.4375
+  PosY: -65.625
+  Rot: 180.0
+  Side: top
+  Val: '330'
+- '# Ref': RN1
+  Package: R_Array_Convex_4x0603
+  PosX: 79.5
+  PosY: -65.4
+  Rot: 90.0
+  Side: top
+  Val: 100K
+- '# Ref': RN2
+  Package: R_Array_Convex_4x0603
+  PosX: 78.55
+  PosY: -75.675
+  Rot: 90.0
+  Side: top
+  Val: 100K
+- '# Ref': RN3
+  Package: R_Array_Convex_4x0603
+  PosX: 65.7
+  PosY: -79.65
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': SW1
+  Package: SW_SPST_KMR2
+  PosX: 69.175
+  PosY: -68.25
+  Rot: 90.0
+  Side: top
+  Val: SW_SPST_KMR2
+- '# Ref': U1
+  Package: TO-PMOD-7_TabPin4
+  PosX: 56.525
+  PosY: -72.8
+  Rot: 90.0
+  Side: top
+  Val: LMZ10503
+- '# Ref': U2
+  Package: QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm
+  PosX: 65.4
+  PosY: -74.3
+  Rot: 0.0
+  Side: top
+  Val: ATSAMD21E18A-AF
+- '# Ref': U3
+  Package: SOT-23
+  PosX: 77.225
+  PosY: -78.95
+  Rot: 90.0
+  Side: top
+  Val: DRV5032FCDBZT
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 22uF | C_0805_2012Metric | 51.825\
+  \ | -82.15 | 180.0 | top | \n| C2 | 47uF | C_0805_2012Metric | 65.575 | -82.9 |\
+  \ -90.0 | top | \n| C3 | 91pF | C_0603_1608Metric | 63.875 | -82.7125 | -90.0 |\
+  \ top | \n| C4 | 0.022uF | C_0603_1608Metric | 57.0375 | -82.275 | 0.0 | top | \n\
+  | C5 | 1uF | C_0603_1608Metric | 62.925 | -69.625 | 90.0 | top | \n| C6 | 1uF |\
+  \ C_0603_1608Metric | 65.8625 | -70.275 | 0.0 | top | \n| C7 | 1uF | C_0603_1608Metric\
+  \ | 63.1 | -78.9 | -90.0 | top | \n| C8 | 47uF | C_0805_2012Metric | 75.5 | -65.3125\
+  \ | 90.0 | top | \n| C9 | 0.1uF | C_0603_1608Metric | 83.7625 | -66.275 | 0.0 |\
+  \ top | \n| C10 | 1uF | C_0603_1608Metric | 62.925 | -66.6625 | 90.0 | top | \n\
+  | C11 | 0.1uF | C_0603_1608Metric | 66.625 | -68.025 | -90.0 | top | \n| D1 | LED\
+  \ | LED_0603_1608Metric | 64.7 | -67.8625 | -90.0 | top | \n| J1 | Conn_02x07_Odd_Even\
+  \ | PinHeader_2x07_P2.54mm_Vertical | 87.4 | -64.05 | 0.0 | top | \n| J2 | Conn_01x10\
+  \ | PinHeader_1x10_P2.54mm_Vertical | 91.25 | -83.4 | -90.0 | top | \n| J3 | Conn_01x02\
+  \ | PinHeader_1x02_P2.54mm_Vertical | 54.615 | -85.0 | -90.0 | top | \n| Q1 | DMN1019USN\
+  \ | SOT-23 | 83.4 | -72.3 | 90.0 | top | \n| Q2 | DMN1019USN | SOT-23 | 79.9 | -72.3\
+  \ | 90.0 | top | \n| Q3 | DMN1019USN | SOT-23 | 76.4 | -72.3 | 90.0 | top | \n|\
+  \ Q4 | SI3407DV-T1-GE3 | TSOP-6_1.65x3.05mm_P0.95mm | 83.5 | -68.8 | 180.0 | top\
+  \ | \n| Q5 | SI3407DV-T1-GE3 | TSOP-6_1.65x3.05mm_P0.95mm | 79.925 | -68.8 | 180.0\
+  \ | top | \n| Q6 | SI3407DV-T1-GE3 | TSOP-6_1.65x3.05mm_P0.95mm | 76.375 | -68.8\
+  \ | 180.0 | top | \n| Q7 | SI3407DV-T1-GE3 | TSOP-6_1.65x3.05mm_P0.95mm | 72.8 |\
+  \ -68.8 | 180.0 | top | \n| Q8 | DMN1019USN | SOT-23 | 72.85 | -72.3 | 90.0 | top\
+  \ | \n| R1 | 82.5K | R_0603_1608Metric | 61.6125 | -82.25 | 180.0 | top | \n| R2\
+  \ | 1.27K | R_0603_1608Metric | 61.6 | -83.75 | 180.0 | top | \n| R3 | 30K | R_0603_1608Metric\
+  \ | 58.6125 | -83.75 | 180.0 | top | \n| R4 | 330 | R_0603_1608Metric | 65.4375\
+  \ | -65.625 | 180.0 | top | \n| RN1 | 100K | R_Array_Convex_4x0603 | 79.5 | -65.4\
+  \ | 90.0 | top | \n| RN2 | 100K | R_Array_Convex_4x0603 | 78.55 | -75.675 | 90.0\
+  \ | top | \n| RN3 | 10K | R_Array_Convex_4x0603 | 65.7 | -79.65 | -90.0 | top |\
+  \ \n| SW1 | SW_SPST_KMR2 | SW_SPST_KMR2 | 69.175 | -68.25 | 90.0 | top | \n| U1\
+  \ | LMZ10503 | TO-PMOD-7_TabPin4 | 56.525 | -72.8 | 90.0 | top | \n| U2 | ATSAMD21E18A-AF\
+  \ | QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm | 65.4 | -74.3 | 0.0 | top | \n| U3 | DRV5032FCDBZT\
+  \ | SOT-23 | 77.225 | -78.95 | 90.0 | top | \n"
 projects_flat: projects/aaronw2_3v_pwm_controller_paw_controller/current_version/working
 repo:
   allow_forking: true

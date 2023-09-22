@@ -12,6 +12,7 @@
 
 * src_file_repo_sch: KiCAD/DIY-CAD_Mixtape.sch
 * src_file_repo_sch_link: https://github.com/8BitMixtape/DIY-CAD_MixtapeFootprints/tree/master/KiCAD/DIY-CAD_Mixtape.sch
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/8bitmixtape_diy_cad_mixtapefootprints_diy_cad_mixtape/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

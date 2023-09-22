@@ -11,9 +11,38 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit-PC-Joystick-to-seesaw-PCB/tree/main/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_pc_joystick_to_seesaw_pcb_adafruit_pc_joystick_seesaw_breakout/current_version/working  
+
+## schematic  
+![](working_schematic_600.png)  
+[schematic (pdf)](working_schematic.pdf)  
+
+## pcb  
+![](working_3d_600.png) 
+![](working_3d_front_600.png)  
+![](working_3d_back_600.png)  
+![](working_600.png)  
+[board (pdf)](working.pdf)  
 
 
-
+## bom_schematic
+| Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| C2, C3, C4 | 3 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C5 | 1 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
+| C6 | 1 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
+| CONN3, CONN4 | 2 | STEMMA_I2C_QT | STEMMA_I2C_QT | working:JST_SH4 |  |  |  | 
+| D3 | 1 | GREEN | LED0603_NOOUTLINE | working:CHIPLED_0603_NOOUTLINE |  |  |  | 
+| D4 | 1 | RED | LED0603_NOOUTLINE | working:CHIPLED_0603_NOOUTLINE |  |  |  | 
+| FID1, FID2 | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | 
+| IC1 | 1 | AP3602 | AP3602 | working:SOT23-6 |  |  |  | 
+| JP1 | 1 | HEADER-1X670MIL | HEADER-1X670MIL | working:1X06_ROUND_70 |  |  |  | 
+| R1 | 1 | 47K | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | 
+| R2, R3, R4, R5 | 4 | 10K | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | 
+| R6 | 1 | 10K Pack | RESISTOR_4PACK | working:RESPACK_4X0603 |  |  |  | 
+| U$6, U$18 | 2 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  | 
+| X1 | 1 | ATTINY8X6_QFN | ATTINY8X6_QFN | working:QFN20_3MM |  |  |  | 
+| X2 | 1 | DE-15 Female | F15H | working:F15H |  |  |  | 
 
 
 

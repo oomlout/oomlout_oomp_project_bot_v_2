@@ -1,0 +1,795 @@
+EESchema Schematic File Version 5
+EELAYER 31 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp "Alexis Lockwood"
+Comment1 "CC BY-SA-NC"
+Comment2 ""
+Comment3 "in all areas. Contact may KILL. System may retain charge."
+Comment4 "DANGER! HIGH VOLTAGE in excess of ±400V with lethal current"
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 4000 3250
+Connection ~ 3550 3550
+Connection ~ 3550 4350
+Connection ~ 4000 4950
+Connection ~ 6500 5250
+Connection ~ 3400 3550
+Connection ~ 3000 2000
+Connection ~ 7500 4950
+Connection ~ 7500 5250
+Connection ~ 2500 3550
+Connection ~ 6500 5150
+Connection ~ 5150 4950
+Connection ~ 3400 2900
+Connection ~ 8350 5250
+Wire Wire Line
+	1350 3550 2500 3550
+Wire Wire Line
+	1350 3650 2500 3650
+Wire Wire Line
+	1550 2800 1550 3450
+Wire Wire Line
+	1550 3450 1350 3450
+Wire Wire Line
+	1800 2000 2650 2000
+Wire Wire Line
+	2000 4200 2000 4150
+Wire Wire Line
+	2000 4400 2000 4450
+Wire Wire Line
+	2100 4300 2500 4300
+Wire Wire Line
+	2500 2800 2500 3100
+Wire Wire Line
+	2500 3300 2500 3550
+Wire Wire Line
+	2500 3550 2750 3550
+Wire Wire Line
+	2500 3650 2500 3800
+Wire Wire Line
+	2500 4000 2500 4300
+Wire Wire Line
+	2750 4350 2900 4350
+Wire Wire Line
+	2750 4400 2750 4350
+Wire Wire Line
+	2850 2000 3000 2000
+Wire Wire Line
+	2950 3550 3400 3550
+Wire Wire Line
+	3000 1600 3000 1650
+Wire Wire Line
+	3000 1850 3000 2000
+Wire Wire Line
+	3000 2000 3250 2000
+Wire Wire Line
+	3100 4350 3550 4350
+Wire Wire Line
+	3250 2900 3400 2900
+Wire Wire Line
+	3400 1600 3400 1850
+Wire Wire Line
+	3400 2150 3400 2900
+Wire Wire Line
+	3400 2900 3400 3550
+Wire Wire Line
+	3400 3550 3550 3550
+Wire Wire Line
+	3550 3250 3650 3250
+Wire Wire Line
+	3550 3400 3550 3250
+Wire Wire Line
+	3550 3550 3550 3750
+Wire Wire Line
+	3550 3550 3850 3550
+Wire Wire Line
+	3550 3950 3550 4050
+Wire Wire Line
+	3550 4350 3550 4600
+Wire Wire Line
+	3550 4350 3850 4350
+Wire Wire Line
+	3550 4800 3550 5700
+Wire Wire Line
+	3850 3250 4000 3250
+Wire Wire Line
+	4000 2800 4000 2900
+Wire Wire Line
+	4000 3100 4000 3250
+Wire Wire Line
+	4000 3250 4000 3400
+Wire Wire Line
+	4000 3700 4000 4200
+Wire Wire Line
+	4000 4500 4000 4950
+Wire Wire Line
+	4000 4950 4000 5400
+Wire Wire Line
+	4000 4950 4200 4950
+Wire Wire Line
+	4000 5600 4000 5700
+Wire Wire Line
+	4400 4950 5150 4950
+Wire Wire Line
+	5000 950  5000 1000
+Wire Wire Line
+	5000 1000 5550 1000
+Wire Wire Line
+	5000 1750 5000 1900
+Wire Wire Line
+	5000 2100 5000 2300
+Wire Wire Line
+	5000 2500 5000 5700
+Wire Wire Line
+	5100 2400 8950 2400
+Wire Wire Line
+	5150 4950 7500 4950
+Wire Wire Line
+	5150 5150 5150 4950
+Wire Wire Line
+	5250 5150 5150 5150
+Wire Wire Line
+	5750 1000 8950 1000
+Wire Wire Line
+	6000 5150 5650 5150
+Wire Wire Line
+	6500 3800 6500 3900
+Wire Wire Line
+	6500 4100 6500 4500
+Wire Wire Line
+	6500 4700 6500 5150
+Wire Wire Line
+	6500 5150 6400 5150
+Wire Wire Line
+	6500 5150 6500 5250
+Wire Wire Line
+	6500 5250 6500 5400
+Wire Wire Line
+	6500 5250 7500 5250
+Wire Wire Line
+	6500 5600 6500 5700
+Wire Wire Line
+	7500 4950 7500 5000
+Wire Wire Line
+	7500 4950 9300 4950
+Wire Wire Line
+	7500 5200 7500 5250
+Wire Wire Line
+	7500 5250 8350 5250
+Wire Wire Line
+	8350 5250 9300 5250
+Wire Wire Line
+	8350 5400 8350 5250
+Wire Wire Line
+	8350 5700 8350 5600
+Wire Wire Line
+	8450 5500 8950 5500
+Wire Wire Line
+	9150 5500 9300 5500
+Text Notes 1850 4650 0    50   ~ 0
+grid bias
+Text Notes 5150 2250 0    50   ~ 0
+-106V
+Text Notes 5150 2600 0    50   ~ 0
+-400V
+Text Notes 6900 4950 0    50   ~ 0
+-(400-310)V
+Text Notes 7000 5250 0    50   ~ 0
+-310V
+Text Label 3250 4350 0    30   ~ 0
+NC250_3
+Text Label 4000 4000 1    30   ~ 0
+NC250_2
+Text Label 4000 5250 1    30   ~ 0
+NC400_3
+Text Label 5700 5150 0    30   ~ 0
+NC250_5
+Text Label 6500 4400 1    30   ~ 0
+NC250_1
+Text Label 8600 5500 0    30   ~ 0
+NC250_4
+Text HLabel 1350 3450 0    50   Output ~ 0
+INTEN_T
+Text HLabel 1350 3550 0    50   Input ~ 0
+INTEN_W
+Text HLabel 1350 3650 0    50   Output ~ 0
+INTEN_B
+Text HLabel 1800 2000 0    50   Input ~ 0
+~BLANK
+Text HLabel 8950 1000 2    50   Output ~ 0
+A2
+Text HLabel 8950 2400 2    50   Output ~ 0
+A1
+Text HLabel 9300 4950 2    50   Output ~ 0
+G
+Text HLabel 9300 5250 2    50   Output ~ 0
+K
+Text HLabel 9300 5500 2    50   Output ~ 0
+F
+$Comp
+L power-all:+9V_wave #PWR?
+U 1 1 5E89F65B
+P 1550 2800
+F 0 "#PWR?" H 1550 3000 50  0001 C CNN
+F 1 "+9V_wave" H 1550 3000 50  0001 C CNN
+F 2 "" H 1550 2800 50  0001 C CNN
+F 3 "" H 1550 2800 50  0001 C CNN
+F 4 "+9V" H 1550 2900 50  0000 C CNN "Net"
+	1    1550 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:+9V_wave #PWR?
+U 1 1 5E8A3B99
+P 2000 4150
+F 0 "#PWR?" H 2000 4350 50  0001 C CNN
+F 1 "+9V_wave" H 2000 4350 50  0001 C CNN
+F 2 "" H 2000 4150 50  0001 C CNN
+F 3 "" H 2000 4150 50  0001 C CNN
+F 4 "+9V" H 2000 4250 50  0000 C CNN "Net"
+	1    2000 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:+9V_wave #PWR?
+U 1 1 5E89D453
+P 2500 2800
+F 0 "#PWR?" H 2500 3000 50  0001 C CNN
+F 1 "+9V_wave" H 2500 3000 50  0001 C CNN
+F 2 "" H 2500 2800 50  0001 C CNN
+F 3 "" H 2500 2800 50  0001 C CNN
+F 4 "+9V" H 2500 2900 50  0000 C CNN "Net"
+	1    2500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:+9V_wave #PWR?
+U 1 1 5E89A6C4
+P 3000 1600
+F 0 "#PWR?" H 3000 1800 50  0001 C CNN
+F 1 "+9V_wave" H 3000 1800 50  0001 C CNN
+F 2 "" H 3000 1600 50  0001 C CNN
+F 3 "" H 3000 1600 50  0001 C CNN
+F 4 "+9V" H 3000 1700 50  0000 C CNN "Net"
+	1    3000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:+9V_wave #PWR?
+U 1 1 5E89B226
+P 3400 1600
+F 0 "#PWR?" H 3400 1800 50  0001 C CNN
+F 1 "+9V_wave" H 3400 1800 50  0001 C CNN
+F 2 "" H 3400 1600 50  0001 C CNN
+F 3 "" H 3400 1600 50  0001 C CNN
+F 4 "+9V" H 3400 1700 50  0000 C CNN "Net"
+	1    3400 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:-400V_wave #PWR?
+U 1 1 5E8ACBF8
+P 3550 5700
+F 0 "#PWR?" H 3550 5900 50  0001 C CNN
+F 1 "-400V_wave" H 3550 5900 50  0001 C CNN
+F 2 "" H 3550 5700 50  0001 C CNN
+F 3 "" H 3550 5700 50  0001 C CNN
+F 4 "-400V" H 3550 5800 50  0000 C CNN "Net"
+	1    3550 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power-all:+9V_wave #PWR?
+U 1 1 5E89C743
+P 4000 2800
+F 0 "#PWR?" H 4000 3000 50  0001 C CNN
+F 1 "+9V_wave" H 4000 3000 50  0001 C CNN
+F 2 "" H 4000 2800 50  0001 C CNN
+F 3 "" H 4000 2800 50  0001 C CNN
+F 4 "+9V" H 4000 2900 50  0000 C CNN "Net"
+	1    4000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:-400V_wave #PWR?
+U 1 1 5E8AD33E
+P 4000 5700
+F 0 "#PWR?" H 4000 5900 50  0001 C CNN
+F 1 "-400V_wave" H 4000 5900 50  0001 C CNN
+F 2 "" H 4000 5700 50  0001 C CNN
+F 3 "" H 4000 5700 50  0001 C CNN
+F 4 "-400V" H 4000 5800 50  0000 C CNN "Net"
+	1    4000 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power-all:+400V_wave #PWR?
+U 1 1 5E8BA1D2
+P 5000 950
+F 0 "#PWR?" H 5000 1150 50  0001 C CNN
+F 1 "+400V_wave" H 5000 1150 50  0001 C CNN
+F 2 "" H 5000 950 50  0001 C CNN
+F 3 "" H 5000 950 50  0001 C CNN
+F 4 "+400V" H 5000 1050 50  0000 C CNN "Net"
+	1    5000 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:-400V_wave #PWR?
+U 1 1 5E8AE2CC
+P 5000 5700
+F 0 "#PWR?" H 5000 5900 50  0001 C CNN
+F 1 "-400V_wave" H 5000 5900 50  0001 C CNN
+F 2 "" H 5000 5700 50  0001 C CNN
+F 3 "" H 5000 5700 50  0001 C CNN
+F 4 "-400V" H 5000 5800 50  0000 C CNN "Net"
+	1    5000 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power-all:-400V_wave #PWR?
+U 1 1 5E8AED0D
+P 6500 5700
+F 0 "#PWR?" H 6500 5900 50  0001 C CNN
+F 1 "-400V_wave" H 6500 5900 50  0001 C CNN
+F 2 "" H 6500 5700 50  0001 C CNN
+F 3 "" H 6500 5700 50  0001 C CNN
+F 4 "-400V" H 6500 5800 50  0000 C CNN "Net"
+	1    6500 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power-all:-400V_wave #PWR?
+U 1 1 5E8AFA90
+P 8350 5700
+F 0 "#PWR?" H 8350 5900 50  0001 C CNN
+F 1 "-400V_wave" H 8350 5900 50  0001 C CNN
+F 2 "" H 8350 5700 50  0001 C CNN
+F 3 "" H 8350 5700 50  0001 C CNN
+F 4 "-400V" H 8350 5800 50  0000 C CNN "Net"
+	1    8350 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power-all:GND #PWR?
+U 1 1 5E8A30A5
+P 2000 4450
+F 0 "#PWR?" H 2000 4250 50  0001 C CNN
+F 1 "GND" H 2000 4250 50  0001 C CNN
+F 2 "" H 2000 4450 50  0001 C CNN
+F 3 "" H 2000 4450 50  0001 C CNN
+F 4 "GND" H 2000 4350 50  0001 C CNN "Net"
+	1    2000 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:GND #PWR?
+U 1 1 5E8A252E
+P 2750 4400
+F 0 "#PWR?" H 2750 4200 50  0001 C CNN
+F 1 "GND" H 2750 4200 50  0001 C CNN
+F 2 "" H 2750 4400 50  0001 C CNN
+F 3 "" H 2750 4400 50  0001 C CNN
+F 4 "GND" H 2750 4300 50  0001 C CNN "Net"
+	1    2750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:GND #PWR?
+U 1 1 5E8B7564
+P 3550 3400
+F 0 "#PWR?" H 3550 3200 50  0001 C CNN
+F 1 "GND" H 3550 3200 50  0001 C CNN
+F 2 "" H 3550 3400 50  0001 C CNN
+F 3 "" H 3550 3400 50  0001 C CNN
+F 4 "GND" H 3550 3300 50  0001 C CNN "Net"
+	1    3550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:GND #PWR?
+U 1 1 5E8A1109
+P 3550 4050
+F 0 "#PWR?" H 3550 3850 50  0001 C CNN
+F 1 "GND" H 3550 3850 50  0001 C CNN
+F 2 "" H 3550 4050 50  0001 C CNN
+F 3 "" H 3550 4050 50  0001 C CNN
+F 4 "GND" H 3550 3950 50  0001 C CNN "Net"
+	1    3550 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:GND #PWR?
+U 1 1 5E89BF72
+P 5000 1750
+F 0 "#PWR?" H 5000 1550 50  0001 C CNN
+F 1 "GND" H 5000 1550 50  0001 C CNN
+F 2 "" H 5000 1750 50  0001 C CNN
+F 3 "" H 5000 1750 50  0001 C CNN
+F 4 "GND" H 5000 1650 50  0001 C CNN "Net"
+	1    5000 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power-all:GND #PWR?
+U 1 1 5E8A791F
+P 6500 3800
+F 0 "#PWR?" H 6500 3600 50  0001 C CNN
+F 1 "GND" H 6500 3600 50  0001 C CNN
+F 2 "" H 6500 3800 50  0001 C CNN
+F 3 "" H 6500 3800 50  0001 C CNN
+F 4 "GND" H 6500 3700 50  0001 C CNN "Net"
+	1    6500 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR067
+U 1 1 5E8FF1C2
+P 3250 3150
+F 0 "#PWR067" H 3250 2900 50  0001 C CNN
+F 1 "GND" H 3250 3000 50  0001 C CNN
+F 2 "" H 3250 3150 50  0001 C CNN
+F 3 "" H 3250 3150 50  0001 C CNN
+	1    3250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:R R24
+U 1 1 5E7E66C8
+P 2500 3200
+F 0 "R24" H 2668 3245 50  0000 C CNN
+F 1 "470k" H 2668 3155 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2540 3190 50  0001 C CNN
+F 3 "~" H 2500 3200 50  0001 C CNN
+F 4 "Stock:res/470k" H 2500 3200 50  0001 C CNN "BOM"
+	1    2500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:R R25
+U 1 1 5E8AF96F
+P 2500 3900
+F 0 "R25" H 2668 3945 50  0000 C CNN
+F 1 "1k" H 2668 3855 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2540 3890 50  0001 C CNN
+F 3 "~" H 2500 3900 50  0001 C CNN
+F 4 "Stock:res/1k" H 2500 3900 50  0001 C CNN "BOM"
+	1    2500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:R R26
+U 1 1 5E84268E
+P 2750 2000
+F 0 "R26" V 2954 2000 50  0000 C CNN
+F 1 "33k" V 2863 2000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2790 1990 50  0001 C CNN
+F 3 "~" H 2750 2000 50  0001 C CNN
+F 4 "Stock:res/33k" H 2750 2000 50  0001 C CNN "BOM"
+	1    2750 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AltDevice:R R27
+U 1 1 5E8298B3
+P 2850 3550
+F 0 "R27" V 2950 3550 50  0000 C CNN
+F 1 "10k" V 2750 3550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2890 3540 50  0001 C CNN
+F 3 "~" H 2850 3550 50  0001 C CNN
+F 4 "Stock:res/10k" H 2850 3550 50  0001 C CNN "BOM"
+	1    2850 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AltDevice:R R28
+U 1 1 5E83FBD0
+P 3000 1750
+F 0 "R28" H 3168 1795 50  0000 C CNN
+F 1 "180k" H 3168 1705 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3040 1740 50  0001 C CNN
+F 3 "~" H 3000 1750 50  0001 C CNN
+F 4 "Stock:res/180k" H 3000 1750 50  0001 C CNN "BOM"
+	1    3000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:R_HW R29
+U 1 1 5E607C75
+P 3000 4350
+F 0 "R29" V 3194 4350 50  0000 C CNN
+F 1 "220k" V 3103 4350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3040 4340 50  0001 C CNN
+F 3 "~" H 3000 4350 50  0001 C CNN
+F 4 "Stock:res/220k/HW" H 3000 4350 50  0001 C CNN "BOM"
+	1    3000 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AltDevice:R_HW R30
+U 1 1 5E607C8F
+P 3550 4700
+F 0 "R30" H 3392 4655 50  0000 C CNN
+F 1 "220k" H 3392 4745 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3590 4690 50  0001 C CNN
+F 3 "~" H 3550 4700 50  0001 C CNN
+F 4 "Stock:res/220k/HW" H 3550 4700 50  0001 C CNN "BOM"
+	1    3550 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L AltDevice:R R31
+U 1 1 5E607C9C
+P 4000 3000
+F 0 "R31" H 4168 3045 50  0000 C CNN
+F 1 "20k" H 4168 2955 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4040 2990 50  0001 C CNN
+F 3 "~" H 4000 3000 50  0001 C CNN
+F 4 "Stock:res/20k/1%" H 4000 3000 50  0001 C CNN "BOM"
+	1    4000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:R_HW R32
+U 1 1 5E607CA9
+P 4000 5500
+F 0 "R32" H 3842 5455 50  0000 C CNN
+F 1 "220k" H 3842 5545 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 4040 5490 50  0001 C CNN
+F 3 "~" H 4000 5500 50  0001 C CNN
+F 4 "Stock:res/220k/HW" H 4000 5500 50  0001 C CNN "BOM"
+	1    4000 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L AltDevice:R_HW R33
+U 1 1 5E607CB6
+P 4300 4950
+F 0 "R33" V 4504 4950 50  0000 C CNN
+F 1 "100k/HW" V 4413 4950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 4340 4940 50  0001 C CNN
+F 3 "~" H 4300 4950 50  0001 C CNN
+F 4 "Stock:res/100k/HW" H 4300 4950 50  0001 C CNN "BOM"
+	1    4300 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AltDevice:R_QW R34
+U 1 1 5E694037
+P 5000 2000
+F 0 "R34" H 5168 2045 50  0000 C CNN
+F 1 "180k" H 5168 1955 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5040 1990 50  0001 C CNN
+F 3 "~" H 5000 2000 50  0001 C CNN
+F 4 "Stock:res/180k/1%" H 5000 2000 50  0001 C CNN "BOM"
+	1    5000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:R_HW R36
+U 1 1 5E607CEA
+P 5650 1000
+F 0 "R36" V 5854 1000 50  0000 C CNN
+F 1 "10k/HW" V 5763 1000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5690 990 50  0001 C CNN
+F 3 "~" H 5650 1000 50  0001 C CNN
+F 4 "Stock:10k/HW" H 5650 1000 50  0001 C CNN "BOM"
+	1    5650 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AltDevice:R_HW R37
+U 1 1 5E7767F9
+P 6500 4000
+F 0 "R37" H 6658 4045 50  0000 C CNN
+F 1 "390k" H 6658 3955 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6540 3990 50  0001 C CNN
+F 3 "~" H 6500 4000 50  0001 C CNN
+F 4 "Stock:res/390k/HW" H 6500 4000 50  0001 C CNN "BOM"
+	1    6500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:R_HW R38
+U 1 1 5E800373
+P 6500 4600
+F 0 "R38" H 6658 4645 50  0000 C CNN
+F 1 "390k" H 6658 4555 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6540 4590 50  0001 C CNN
+F 3 "~" H 6500 4600 50  0001 C CNN
+F 4 "Stock:res/390k/HW" H 6500 4600 50  0001 C CNN "BOM"
+	1    6500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:R_HW R39
+U 1 1 5E7FFCC7
+P 6500 5500
+F 0 "R39" H 6658 5545 50  0000 C CNN
+F 1 "220k" H 6658 5455 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6540 5490 50  0001 C CNN
+F 3 "~" H 6500 5500 50  0001 C CNN
+F 4 "Stock:220k/HW" H 6500 5500 50  0001 C CNN "BOM"
+	1    6500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:R_HW R40
+U 1 1 5E87EBA3
+P 9050 5500
+F 0 "R40" V 9244 5500 50  0000 C CNN
+F 1 "100k" V 9153 5500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9090 5490 50  0001 C CNN
+F 3 "~" H 9050 5500 50  0001 C CNN
+F 4 "Stock:res/100k/HW" H 9050 5500 50  0001 C CNN "BOM"
+	1    9050 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AltDevice:D D2
+U 1 1 5E923EB2
+P 3550 3850
+F 0 "D2" V 3505 4078 50  0000 C CNN
+F 1 "1N4007" V 3595 4078 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3550 3675 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3550 3850 50  0001 C CNN
+F 4 "Stock:1N4007" H 3550 3850 50  0001 C CNN "BOM"
+	1    3550 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L AltDevice:D D3
+U 1 1 5E925108
+P 3750 3250
+F 0 "D3" H 3750 3466 50  0000 C CNN
+F 1 "1N4007" H 3750 3375 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3750 3075 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3750 3250 50  0001 C CNN
+F 4 "Stock:1N4007" H 3750 3250 50  0001 C CNN "BOM"
+	1    3750 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L AltDevice:D D4
+U 1 1 5E8781B5
+P 7500 5100
+F 0 "D4" V 7545 4872 50  0000 C CNN
+F 1 "1N4007" V 7455 4872 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7500 4925 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 7500 5100 50  0001 C CNN
+F 4 "Stock:1N4007" H 7500 5100 50  0001 C CNN "BOM"
+	1    7500 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint_Probe TP5
+U 1 1 5E8EB5E7
+P 3250 2900
+F 0 "TP5" H 3491 3000 50  0000 C CNN
+F 1 "INTEN" H 3491 2910 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.4mm_Beaded" H 3450 2900 50  0001 C CNN
+F 3 "~" H 3450 2900 50  0001 C CNN
+F 4 "M:534-4952, DK:36-4952-ND" H 3250 2900 50  0001 C CNN "BOM"
+	1    3250 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Probe TP6
+U 1 1 5E8FE859
+P 3250 3150
+F 0 "TP6" H 3491 3250 50  0000 C CNN
+F 1 "GND" H 3491 3160 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.4mm_Beaded" H 3450 3150 50  0001 C CNN
+F 3 "~" H 3450 3150 50  0001 C CNN
+F 4 "36-4952-ND" H 3250 3150 50  0001 C CNN "DKPN"
+F 5 "M:534-4952, DK:36-4952-ND" H 3250 3150 50  0001 C CNN "BOM"
+	1    3250 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L AltDevice:R_POT_TRIM RV2
+U 1 1 5E7EB193
+P 2000 4300
+F 0 "RV2" H 1837 4345 50  0000 C CNN
+F 1 "5k" H 1837 4255 50  0000 C CNN
+F 2 "mini-audioscope:stock_pot" H 2000 4300 50  0001 C CNN
+F 3 "~" H 2000 4300 50  0001 C CNN
+F 4 "Stock:rtrim/5k" H 2000 4300 50  0001 C CNN "BOM"
+	1    2000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:R_POT_TRIM RV3
+U 1 1 5E607D79
+P 5000 2400
+F 0 "RV3" H 4837 2445 50  0000 C CNN
+F 1 "500k" H 4837 2355 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" H 5000 2400 50  0001 C CNN
+F 3 "~" H 5000 2400 50  0001 C CNN
+F 4 "M:652-3386P-1-504LF, DK:3386P-504LF-ND" H 5000 2400 50  0001 C CNN "BOM"
+	1    5000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:R_POT_TRIM RV4
+U 1 1 5E859848
+P 8350 5500
+F 0 "RV4" H 8206 5545 50  0000 C CNN
+F 1 "1M" H 8206 5455 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" H 8350 5500 50  0001 C CNN
+F 3 "~" H 8350 5500 50  0001 C CNN
+F 4 "M:652-3386P-1-105LF, DK:3386P-105LF-ND" H 8350 5500 50  0001 C CNN "BOM"
+	1    8350 5500
+	1    0    0    1   
+$EndComp
+$Comp
+L AltDevice:Q_PNP_EBC Q8
+U 1 1 5E83B301
+P 3300 2000
+F 0 "Q8" H 3644 1955 50  0000 C CNN
+F 1 "2N3906" H 3644 2045 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3500 1925 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 3300 2000 50  0001 L CNN
+F 4 "Stock:2N3906" H 3300 2000 50  0001 C CNN "BOM"
+	1    3300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:Q_PNP_EBC Q9
+U 1 1 5E607DE1
+P 3900 3550
+F 0 "Q9" H 4245 3505 50  0000 C CNN
+F 1 "MPSA92" H 4245 3595 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-5-3" H 4100 3475 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 3900 3550 50  0001 L CNN
+F 4 "Stock:MPSA92, M:575-9174710341005000, DK:ED11270-ND" H 3900 3550 50  0001 C CNN "BOM"
+	1    3900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:Q_PNP_EBC Q10
+U 1 1 5E607DEE
+P 3900 4350
+F 0 "Q10" H 4240 4305 50  0000 C CNN
+F 1 "MPSA92" H 4240 4395 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-5-3" H 4100 4275 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 3900 4350 50  0001 L CNN
+F 4 "Stock:MPSA92, M:575-9174710341005000, DK:ED11270-ND" H 3900 4350 50  0001 C CNN "BOM"
+	1    3900 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Lamp_Neon NE2
+U 1 1 5E8A6E52
+P 5450 5150
+F 0 "NE2" V 5623 5150 50  0000 C CNN
+F 1 "A9A" V 5714 5150 50  0000 C CNN
+F 2 "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm" V 5450 5250 50  0001 C CNN
+F 3 "~" V 5450 5250 50  0001 C CNN
+F 4 "M:606-A9A, DK:A9A-ND" H 5450 5150 50  0001 C CNN "BOM"
+	1    5450 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Lamp_Neon NE3
+U 1 1 5E608825
+P 6200 5150
+F 0 "NE3" V 6373 5150 50  0000 C CNN
+F 1 "A9A" V 6464 5150 50  0000 C CNN
+F 2 "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm" V 6200 5250 50  0001 C CNN
+F 3 "~" V 6200 5250 50  0001 C CNN
+F 4 "M:606-A9A, DK:A9A-ND" H 6200 5150 50  0001 C CNN "BOM"
+	1    6200 5150
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

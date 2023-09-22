@@ -1,4 +1,204 @@
 board: m3pyro_prototype
+bom:
+- Id: '1'
+  Designator: L1
+  Footprint: XFL4020
+  Quantity: '1'
+  Designation: "2\xC2\xB52"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: TP1
+  Footprint: TESTPAD
+  Quantity: '1'
+  Designation: TESTPAD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J1
+  Footprint: SIL-254P-02
+  Quantity: '1'
+  Designation: INPUT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J2
+  Footprint: SIL-254P-02
+  Quantity: '1'
+  Designation: ENABLE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J3
+  Footprint: SIL-254P-02
+  Quantity: '1'
+  Designation: OUTPUT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: IC1
+  Footprint: QFN-16-EP-TI
+  Quantity: '1'
+  Designation: TPS62130
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C1,C4
+  Footprint: '0603'
+  Quantity: '2'
+  Designation: "10\xC2\xB5"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C2
+  Footprint: '0603'
+  Quantity: '1'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: C3,R1,R2
+  Footprint: '0603'
+  Quantity: '3'
+  Designation: DNP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: REF**,REF**,REF**,REF**
+  Footprint: M3_MOUNT
+  Quantity: '4'
+  Designation: M3_MOUNT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | L1\
+  \ | XFL4020 | 1 | 2\xC2\xB52 |  |  | [''] | \n| 2 | TP1 | TESTPAD | 1 | TESTPAD\
+  \ |  |  | [''] | \n| 3 | J1 | SIL-254P-02 | 1 | INPUT |  |  | [''] | \n| 4 | J2\
+  \ | SIL-254P-02 | 1 | ENABLE |  |  | [''] | \n| 5 | J3 | SIL-254P-02 | 1 | OUTPUT\
+  \ |  |  | [''] | \n| 6 | IC1 | QFN-16-EP-TI | 1 | TPS62130 |  |  | [''] | \n| 7\
+  \ | C1,C4 | 0603 | 2 | 10\xC2\xB5 |  |  | [''] | \n| 8 | C2 | 0603 | 1 | 100n |\
+  \  |  | [''] | \n| 9 | C3,R1,R2 | 0603 | 3 | DNP |  |  | [''] | \n| 10 | REF**,REF**,REF**,REF**\
+  \ | M3_MOUNT | 4 | M3_MOUNT |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '2'
+  Ref: C1, C4
+  Value: "10\xC2\xB5"
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '1'
+  Ref: C2
+  Value: 100n
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '1'
+  Ref: C3
+  Value: DNP
+  Vendor: ''
+- Cmp name: TPS62130
+  DNP: ''
+  Description: ''
+  Footprint: agg:QFN-16-EP-TI
+  Qnty: '1'
+  Ref: IC1
+  Value: TPS62130
+  Vendor: ''
+- Cmp name: CONN_01x02
+  DNP: ''
+  Description: ''
+  Footprint: agg:SIL-254P-02
+  Qnty: '1'
+  Ref: J1
+  Value: INPUT
+  Vendor: ''
+- Cmp name: CONN_01x02
+  DNP: ''
+  Description: ''
+  Footprint: agg:SIL-254P-02
+  Qnty: '1'
+  Ref: J2
+  Value: ENABLE
+  Vendor: ''
+- Cmp name: CONN_01x02
+  DNP: ''
+  Description: ''
+  Footprint: agg:SIL-254P-02
+  Qnty: '1'
+  Ref: J3
+  Value: OUTPUT
+  Vendor: ''
+- Cmp name: L
+  DNP: ''
+  Description: ''
+  Footprint: agg:XFL4020
+  Qnty: '1'
+  Ref: L1
+  Value: "2\xC2\xB52"
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '2'
+  Ref: R1, R2
+  Value: DNP
+  Vendor: ''
+- Cmp name: TESTPAD
+  DNP: ''
+  Description: ''
+  Footprint: agg:TESTPAD
+  Qnty: '1'
+  Ref: TP1
+  Value: TESTPAD
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C4\
+  \ | 2 | 10\xC2\xB5 | C | agg:0603 |  |  |  | \n| C2 | 1 | 100n | C | agg:0603 |\
+  \  |  |  | \n| C3 | 1 | DNP | C | agg:0603 |  |  |  | \n| IC1 | 1 | TPS62130 | TPS62130\
+  \ | agg:QFN-16-EP-TI |  |  |  | \n| J1 | 1 | INPUT | CONN_01x02 | agg:SIL-254P-02\
+  \ |  |  |  | \n| J2 | 1 | ENABLE | CONN_01x02 | agg:SIL-254P-02 |  |  |  | \n| J3\
+  \ | 1 | OUTPUT | CONN_01x02 | agg:SIL-254P-02 |  |  |  | \n| L1 | 1 | 2\xC2\xB5\
+  2 | L | agg:XFL4020 |  |  |  | \n| R1, R2 | 2 | DNP | R | agg:0603 |  |  |  | \n\
+  | TP1 | 1 | TESTPAD | TESTPAD | agg:TESTPAD |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_m3_avionics_m3pyro_prototype/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_m3_avionics_m3pyro_prototype/current_version/working/working.kicad_pcb
@@ -6,6 +206,135 @@ file_repo_bom_xlsx_flat: projects/adamgreig_m3_avionics_m3pyro_prototype/current
 file_sch_flat: projects/adamgreig_m3_avionics_m3pyro_prototype/current_version/working/working.sch
 id: adamgreig_m3_avionics_m3pyro_prototype
 name: m3_avionics
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: '0603'
+  PosX: 120.0
+  PosY: -90.0
+  Rot: 90.0
+  Side: top
+  Val: "10\xC2\xB5"
+- '# Ref': C2
+  Package: '0603'
+  PosX: 122.0
+  PosY: -90.0
+  Rot: 90.0
+  Side: top
+  Val: 100n
+- '# Ref': C3
+  Package: '0603'
+  PosX: 121.0
+  PosY: -87.0
+  Rot: 180.0
+  Side: top
+  Val: DNP
+- '# Ref': C4
+  Package: '0603'
+  PosX: 135.0
+  PosY: -90.0
+  Rot: 90.0
+  Side: top
+  Val: "10\xC2\xB5"
+- '# Ref': IC1
+  Package: QFN-16-EP-TI
+  PosX: 126.0
+  PosY: -90.0
+  Rot: 180.0
+  Side: top
+  Val: TPS62130
+- '# Ref': J1
+  Package: SIL-254P-02
+  PosX: 117.0
+  PosY: -90.0
+  Rot: -90.0
+  Side: top
+  Val: INPUT
+- '# Ref': J2
+  Package: SIL-254P-02
+  PosX: 126.0
+  PosY: -96.0
+  Rot: 180.0
+  Side: top
+  Val: ENABLE
+- '# Ref': J3
+  Package: SIL-254P-02
+  PosX: 138.0
+  PosY: -90.0
+  Rot: -90.0
+  Side: top
+  Val: OUTPUT
+- '# Ref': L1
+  Package: XFL4020
+  PosX: 131.0
+  PosY: -90.0
+  Rot: 0.0
+  Side: top
+  Val: "2\xC2\xB52"
+- '# Ref': R1
+  Package: '0603'
+  PosX: 131.0
+  PosY: -86.0
+  Rot: 180.0
+  Side: top
+  Val: DNP
+- '# Ref': R2
+  Package: '0603'
+  PosX: 126.0
+  PosY: -86.0
+  Rot: 180.0
+  Side: top
+  Val: DNP
+- '# Ref': REF**
+  Package: M3_MOUNT
+  PosX: 117.0
+  PosY: -82.0
+  Rot: 0.0
+  Side: top
+  Val: M3_MOUNT
+- '# Ref': REF**
+  Package: M3_MOUNT
+  PosX: 138.0
+  PosY: -82.0
+  Rot: 0.0
+  Side: top
+  Val: M3_MOUNT
+- '# Ref': REF**
+  Package: M3_MOUNT
+  PosX: 138.0
+  PosY: -98.0
+  Rot: 0.0
+  Side: top
+  Val: M3_MOUNT
+- '# Ref': REF**
+  Package: M3_MOUNT
+  PosX: 117.0
+  PosY: -98.0
+  Rot: 0.0
+  Side: top
+  Val: M3_MOUNT
+- '# Ref': TP1
+  Package: TESTPAD
+  PosX: 128.5
+  PosY: -87.0
+  Rot: 0.0
+  Side: top
+  Val: TESTPAD
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 10\xC2\xB5 | 0603 | 120.0 | -90.0\
+  \ | 90.0 | top | \n| C2 | 100n | 0603 | 122.0 | -90.0 | 90.0 | top | \n| C3 | DNP\
+  \ | 0603 | 121.0 | -87.0 | 180.0 | top | \n| C4 | 10\xC2\xB5 | 0603 | 135.0 | -90.0\
+  \ | 90.0 | top | \n| IC1 | TPS62130 | QFN-16-EP-TI | 126.0 | -90.0 | 180.0 | top\
+  \ | \n| J1 | INPUT | SIL-254P-02 | 117.0 | -90.0 | -90.0 | top | \n| J2 | ENABLE\
+  \ | SIL-254P-02 | 126.0 | -96.0 | 180.0 | top | \n| J3 | OUTPUT | SIL-254P-02 |\
+  \ 138.0 | -90.0 | -90.0 | top | \n| L1 | 2\xC2\xB52 | XFL4020 | 131.0 | -90.0 |\
+  \ 0.0 | top | \n| R1 | DNP | 0603 | 131.0 | -86.0 | 180.0 | top | \n| R2 | DNP |\
+  \ 0603 | 126.0 | -86.0 | 180.0 | top | \n| REF** | M3_MOUNT | M3_MOUNT | 117.0 |\
+  \ -82.0 | 0.0 | top | \n| REF** | M3_MOUNT | M3_MOUNT | 138.0 | -82.0 | 0.0 | top\
+  \ | \n| REF** | M3_MOUNT | M3_MOUNT | 138.0 | -98.0 | 0.0 | top | \n| REF** | M3_MOUNT\
+  \ | M3_MOUNT | 117.0 | -98.0 | 0.0 | top | \n| TP1 | TESTPAD | TESTPAD | 128.5 |\
+  \ -87.0 | 0.0 | top | \n"
 projects_flat: projects/adamgreig_m3_avionics_m3pyro_prototype/current_version/working
 repo:
   allow_forking: true

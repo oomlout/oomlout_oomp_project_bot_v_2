@@ -1,9 +1,614 @@
 board: adafruit_pitft_2_8inch_resistive_pcb
+bom:
+- Id: '1'
+  Designator: C3,C2,C4
+  Footprint: C0805K
+  Quantity: '3'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R6,R7,R8
+  Footprint: R0805
+  Quantity: '3'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: Q1
+  Footprint: SOT23-BEC
+  Quantity: '1'
+  Designation: MMBT2222
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R11,R10
+  Footprint: R0805
+  Quantity: '2'
+  Designation: '22'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R1,R3,R2,R4
+  Footprint: R0805
+  Quantity: '4'
+  Designation: '100'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C5,C1
+  Footprint: C0805K
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: IC4
+  Footprint: SOT23-5L
+  Quantity: '1'
+  Designation: MIC5225-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U$10,U$11,U$18
+  Footprint: FIDUCIAL_1MM
+  Quantity: '3'
+  Designation: FIDUCIAL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R9,R5
+  Footprint: R0805
+  Quantity: '2'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U2
+  Footprint: QFN16_3MM
+  Quantity: '1'
+  Designation: STMPE610
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: IC5
+  Footprint: SOT23
+  Quantity: '1'
+  Designation: AXP803
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: JP1
+  Footprint: 2X13
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U$16,U$17,U$15
+  Footprint: MOUNTINGHOLE_2.5_PLATED_THICK
+  Quantity: '3'
+  Designation: MOUNTINGHOLE2.5_THICK
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: U$2
+  Footprint: TFT_2.83IN_240X320_50PIN
+  Quantity: '1'
+  Designation: DISP_LCD_1.28IN_240X320_50PIN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: SW1,SW2,SW4,SW3
+  Footprint: TACT_PANA-EVQ
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: U$3
+  Footprint: RASPBERRYPIV2_SHIELD
+  Quantity: '1'
+  Designation: RASPBERRYPI_B_MODELB_V2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: U$23
+  Footprint: ADAFRUIT_TEXT_20MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C3,C2,C4\
+  \ | C0805K | 3 | 0.1uF |  |  | [''] | \n| 2 | R6,R7,R8 | R0805 | 3 | 10K |  |  |\
+  \ [''] | \n| 3 | Q1 | SOT23-BEC | 1 | MMBT2222 |  |  | [''] | \n| 4 | R11,R10 |\
+  \ R0805 | 2 | 22 |  |  | [''] | \n| 5 | R1,R3,R2,R4 | R0805 | 4 | 100 |  |  | ['']\
+  \ | \n| 6 | C5,C1 | C0805K | 2 | 10uF |  |  | [''] | \n| 7 | IC4 | SOT23-5L | 1\
+  \ | MIC5225-3.3 |  |  | [''] | \n| 8 | U$10,U$11,U$18 | FIDUCIAL_1MM | 3 | FIDUCIAL\
+  \ |  |  | [''] | \n| 9 | R9,R5 | R0805 | 2 | 1K |  |  | [''] | \n| 10 | U2 | QFN16_3MM\
+  \ | 1 | STMPE610 |  |  | [''] | \n| 11 | IC5 | SOT23 | 1 | AXP803 |  |  | [''] |\
+  \ \n| 12 | JP1 | 2X13 | 1 |  |  |  | [''] | \n| 13 | U$16,U$17,U$15 | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | 3 | MOUNTINGHOLE2.5_THICK |  |  | [''] | \n| 14 | U$2 | TFT_2.83IN_240X320_50PIN\
+  \ | 1 | DISP_LCD_1.28IN_240X320_50PIN |  |  | [''] | \n| 15 | SW1,SW2,SW4,SW3 |\
+  \ TACT_PANA-EVQ | 4 |  |  |  | [''] | \n| 16 | U$3 | RASPBERRYPIV2_SHIELD | 1 |\
+  \ RASPBERRYPI_B_MODELB_V2 |  |  | [''] | \n| 17 | U$23 | ADAFRUIT_TEXT_20MM | 1\
+  \ |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C-USC0805K
+  DNP: ''
+  Description: ''
+  Footprint: working:C0805K
+  Qnty: '2'
+  Ref: C1, C5
+  Value: 10uF
+  Vendor: ''
+- Cmp name: C-USC0805K
+  DNP: ''
+  Description: ''
+  Footprint: working:C0805K
+  Qnty: '3'
+  Ref: C2, C3, C4
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: LP298XS
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5L
+  Qnty: '1'
+  Ref: IC4
+  Value: LP298XS
+  Vendor: ''
+- Cmp name: AXP083-SAG
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23
+  Qnty: '1'
+  Ref: IC5
+  Value: AXP803
+  Vendor: ''
+- Cmp name: HEADER-2X13
+  DNP: ''
+  Description: ''
+  Footprint: working:2X13
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-2X13
+  Vendor: ''
+- Cmp name: -NPN-SOT23-BEC
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-BEC
+  Qnty: '1'
+  Ref: Q1
+  Value: MMBT2222
+  Vendor: ''
+- Cmp name: R-US_R0805
+  DNP: ''
+  Description: ''
+  Footprint: working:R0805
+  Qnty: '4'
+  Ref: R1, R2, R3, R4
+  Value: '100'
+  Vendor: ''
+- Cmp name: R-US_R0805
+  DNP: ''
+  Description: ''
+  Footprint: working:R0805
+  Qnty: '2'
+  Ref: R5, R9
+  Value: 1K
+  Vendor: ''
+- Cmp name: R-US_R0805
+  DNP: ''
+  Description: ''
+  Footprint: working:R0805
+  Qnty: '3'
+  Ref: R6, R7, R8
+  Value: 10K
+  Vendor: ''
+- Cmp name: R-US_R0805
+  DNP: ''
+  Description: ''
+  Footprint: working:R0805
+  Qnty: '2'
+  Ref: R10, R11
+  Value: '22'
+  Vendor: ''
+- Cmp name: SWITCH_PUSHBUTTONEVQ-PE
+  DNP: ''
+  Description: ''
+  Footprint: working:TACT_PANA-EVQ
+  Qnty: '4'
+  Ref: SW1, SW2, SW3, SW4
+  Value: SWITCH_PUSHBUTTONEVQ-PE
+  Vendor: ''
+- Cmp name: STMPE610
+  DNP: ''
+  Description: ''
+  Footprint: working:QFN16_3MM
+  Qnty: '1'
+  Ref: U2
+  Value: STMPE610
+  Vendor: ''
+- Cmp name: DISP_LCD_1.28IN_240X320_50PIN
+  DNP: ''
+  Description: ''
+  Footprint: working:TFT_2.83IN_240X320_50PIN
+  Qnty: '1'
+  Ref: U$2
+  Value: DISP_LCD_1.28IN_240X320_50PIN
+  Vendor: ''
+- Cmp name: RASPBERRYPI_B_MODELB_V2
+  DNP: ''
+  Description: ''
+  Footprint: working:RASPBERRYPIV2_SHIELD
+  Qnty: '1'
+  Ref: U$3
+  Value: RASPBERRYPI_B_MODELB_V2
+  Vendor: ''
+- Cmp name: FIDUCIAL
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '3'
+  Ref: U$10, U$11, U$18
+  Value: FIDUCIAL
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5_THICK
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED_THICK
+  Qnty: '3'
+  Ref: U$15, U$16, U$17
+  Value: MOUNTINGHOLE2.5_THICK
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C5\
+  \ | 2 | 10uF | C-USC0805K | working:C0805K |  |  |  | \n| C2, C3, C4 | 3 | 0.1uF\
+  \ | C-USC0805K | working:C0805K |  |  |  | \n| IC4 | 1 | LP298XS | LP298XS | working:SOT23-5L\
+  \ |  |  |  | \n| IC5 | 1 | AXP803 | AXP083-SAG | working:SOT23 |  |  |  | \n| JP1\
+  \ | 1 | HEADER-2X13 | HEADER-2X13 | working:2X13 |  |  |  | \n| Q1 | 1 | MMBT2222\
+  \ | -NPN-SOT23-BEC | working:SOT23-BEC |  |  |  | \n| R1, R2, R3, R4 | 4 | 100 |\
+  \ R-US_R0805 | working:R0805 |  |  |  | \n| R5, R9 | 2 | 1K | R-US_R0805 | working:R0805\
+  \ |  |  |  | \n| R6, R7, R8 | 3 | 10K | R-US_R0805 | working:R0805 |  |  |  | \n\
+  | R10, R11 | 2 | 22 | R-US_R0805 | working:R0805 |  |  |  | \n| SW1, SW2, SW3, SW4\
+  \ | 4 | SWITCH_PUSHBUTTONEVQ-PE | SWITCH_PUSHBUTTONEVQ-PE | working:TACT_PANA-EVQ\
+  \ |  |  |  | \n| U2 | 1 | STMPE610 | STMPE610 | working:QFN16_3MM |  |  |  | \n\
+  | U$2 | 1 | DISP_LCD_1.28IN_240X320_50PIN | DISP_LCD_1.28IN_240X320_50PIN | working:TFT_2.83IN_240X320_50PIN\
+  \ |  |  |  | \n| U$3 | 1 | RASPBERRYPI_B_MODELB_V2 | RASPBERRYPI_B_MODELB_V2 | working:RASPBERRYPIV2_SHIELD\
+  \ |  |  |  | \n| U$10, U$11, U$18 | 3 | FIDUCIAL | FIDUCIAL | working:FIDUCIAL_1MM\
+  \ |  |  |  | \n| U$15, U$16, U$17 | 3 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE2.5_THICK\
+  \ | working:MOUNTINGHOLE_2.5_PLATED_THICK |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_pitft_2_8_inch_display_pcb_adafruit_pitft_2_8inch_resistive_pcb/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_pitft_2_8_inch_display_pcb_adafruit_pitft_2_8inch_resistive_pcb/current_version/working/working.sch
 id: adafruit_adafruit_pitft_2_8_inch_display_pcb_adafruit_pitft_2_8inch_resistive_pcb
 name: adafruit_pitft_2_8_inch_display_pcb
+position_bottom:
+- '# Ref': SW1
+  Package: TACT_PANA-EVQ
+  PosX: 123.4221
+  PosY: -134.8036
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SW2
+  Package: TACT_PANA-EVQ
+  PosX: 123.4221
+  PosY: -124.6436
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SW3
+  Package: TACT_PANA-EVQ
+  PosX: 123.4221
+  PosY: -114.4836
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SW4
+  Package: TACT_PANA-EVQ
+  PosX: 123.4221
+  PosY: -104.3236
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$2
+  Package: TFT_2.83IN_240X320_50PIN
+  PosX: 151.7431
+  PosY: -102.5456
+  Rot: 180.0
+  Side: bottom
+  Val: DISP_LCD_1.28IN_240X320_50PIN
+- '# Ref': U$3
+  Package: RASPBERRYPIV2_SHIELD
+  PosX: 120.5011
+  PosY: -147.5036
+  Rot: 180.0
+  Side: bottom
+  Val: RASPBERRYPI_B_MODELB_V2
+- '# Ref': U$15
+  Package: MOUNTINGHOLE_2.5_PLATED_THICK
+  PosX: 124.3111
+  PosY: -143.6936
+  Rot: 90.0
+  Side: bottom
+  Val: MOUNTINGHOLE2.5_THICK
+- '# Ref': U$16
+  Package: MOUNTINGHOLE_2.5_PLATED_THICK
+  PosX: 172.5711
+  PosY: -66.2236
+  Rot: 90.0
+  Side: bottom
+  Val: MOUNTINGHOLE2.5_THICK
+- '# Ref': U$17
+  Package: MOUNTINGHOLE_2.5_PLATED_THICK
+  PosX: 172.5711
+  PosY: -143.6936
+  Rot: 180.0
+  Side: bottom
+  Val: MOUNTINGHOLE2.5_THICK
+- '# Ref': U$23
+  Package: ADAFRUIT_TEXT_20MM
+  PosX: 148.1871
+  PosY: -148.1386
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| SW1 | nan | TACT_PANA-EVQ | 123.4221\
+  \ | -134.8036 | -90.0 | bottom | \n| SW2 | nan | TACT_PANA-EVQ | 123.4221 | -124.6436\
+  \ | -90.0 | bottom | \n| SW3 | nan | TACT_PANA-EVQ | 123.4221 | -114.4836 | -90.0\
+  \ | bottom | \n| SW4 | nan | TACT_PANA-EVQ | 123.4221 | -104.3236 | -90.0 | bottom\
+  \ | \n| U$2 | DISP_LCD_1.28IN_240X320_50PIN | TFT_2.83IN_240X320_50PIN | 151.7431\
+  \ | -102.5456 | 180.0 | bottom | \n| U$3 | RASPBERRYPI_B_MODELB_V2 | RASPBERRYPIV2_SHIELD\
+  \ | 120.5011 | -147.5036 | 180.0 | bottom | \n| U$15 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | 124.3111 | -143.6936 | 90.0 | bottom | \n| U$16 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | 172.5711 | -66.2236 | 90.0 | bottom | \n| U$17 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | 172.5711 | -143.6936 | 180.0 | bottom | \n| U$23 | nan | ADAFRUIT_TEXT_20MM\
+  \ | 148.1871 | -148.1386 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: C0805K
+  PosX: 155.0451
+  PosY: -102.2916
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C2
+  Package: C0805K
+  PosX: 161.6491
+  PosY: -102.5456
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C3
+  Package: C0805K
+  PosX: 147.6791
+  PosY: -104.8316
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C4
+  Package: C0805K
+  PosX: 161.6491
+  PosY: -100.2596
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C5
+  Package: C0805K
+  PosX: 155.0451
+  PosY: -109.1496
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': IC4
+  Package: SOT23-5L
+  PosX: 154.7911
+  PosY: -105.8476
+  Rot: 0.0
+  Side: top
+  Val: MIC5225-3.3
+- '# Ref': IC5
+  Package: SOT23
+  PosX: 147.9331
+  PosY: -108.1336
+  Rot: -90.0
+  Side: top
+  Val: AXP803
+- '# Ref': JP1
+  Package: 2X13
+  PosX: 148.9491
+  PosY: -66.4776
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': Q1
+  Package: SOT23-BEC
+  PosX: 134.4711
+  PosY: -107.3716
+  Rot: 180.0
+  Side: top
+  Val: MMBT2222
+- '# Ref': R1
+  Package: R0805
+  PosX: 137.5191
+  PosY: -104.8316
+  Rot: -90.0
+  Side: top
+  Val: '100'
+- '# Ref': R2
+  Package: R0805
+  PosX: 139.8051
+  PosY: -104.8316
+  Rot: -90.0
+  Side: top
+  Val: '100'
+- '# Ref': R3
+  Package: R0805
+  PosX: 142.0911
+  PosY: -104.8316
+  Rot: -90.0
+  Side: top
+  Val: '100'
+- '# Ref': R4
+  Package: R0805
+  PosX: 144.3771
+  PosY: -104.8316
+  Rot: -90.0
+  Side: top
+  Val: '100'
+- '# Ref': R5
+  Package: R0805
+  PosX: 135.2331
+  PosY: -102.5456
+  Rot: -90.0
+  Side: top
+  Val: 1K
+- '# Ref': R6
+  Package: R0805
+  PosX: 151.2351
+  PosY: -108.6416
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R7
+  Package: R0805
+  PosX: 164.6971
+  PosY: -103.5616
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R8
+  Package: R0805
+  PosX: 166.9831
+  PosY: -110.0386
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R9
+  Package: R0805
+  PosX: 138.7891
+  PosY: -101.5296
+  Rot: 0.0
+  Side: top
+  Val: 1K
+- '# Ref': R10
+  Package: R0805
+  PosX: 132.4391
+  PosY: -117.2776
+  Rot: 0.0
+  Side: top
+  Val: '22'
+- '# Ref': R11
+  Package: R0805
+  PosX: 132.0581
+  PosY: -114.4836
+  Rot: 0.0
+  Side: top
+  Val: '22'
+- '# Ref': U$10
+  Package: FIDUCIAL_1MM
+  PosX: 171.8091
+  PosY: -128.7076
+  Rot: 90.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': U$11
+  Package: FIDUCIAL_1MM
+  PosX: 131.9311
+  PosY: -128.4536
+  Rot: 180.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': U$18
+  Package: FIDUCIAL_1MM
+  PosX: 172.0631
+  PosY: -72.4466
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': U2
+  Package: QFN16_3MM
+  PosX: 161.6491
+  PosY: -107.6256
+  Rot: 180.0
+  Side: top
+  Val: STMPE610
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 10uF | C0805K | 155.0451 | -102.2916\
+  \ | 0.0 | top | \n| C2 | 0.1uF | C0805K | 161.6491 | -102.5456 | 0.0 | top | \n\
+  | C3 | 0.1uF | C0805K | 147.6791 | -104.8316 | 180.0 | top | \n| C4 | 0.1uF | C0805K\
+  \ | 161.6491 | -100.2596 | 0.0 | top | \n| C5 | 10uF | C0805K | 155.0451 | -109.1496\
+  \ | 180.0 | top | \n| IC4 | MIC5225-3.3 | SOT23-5L | 154.7911 | -105.8476 | 0.0\
+  \ | top | \n| IC5 | AXP803 | SOT23 | 147.9331 | -108.1336 | -90.0 | top | \n| JP1\
+  \ | nan | 2X13 | 148.9491 | -66.4776 | 0.0 | top | \n| Q1 | MMBT2222 | SOT23-BEC\
+  \ | 134.4711 | -107.3716 | 180.0 | top | \n| R1 | 100 | R0805 | 137.5191 | -104.8316\
+  \ | -90.0 | top | \n| R2 | 100 | R0805 | 139.8051 | -104.8316 | -90.0 | top | \n\
+  | R3 | 100 | R0805 | 142.0911 | -104.8316 | -90.0 | top | \n| R4 | 100 | R0805 |\
+  \ 144.3771 | -104.8316 | -90.0 | top | \n| R5 | 1K | R0805 | 135.2331 | -102.5456\
+  \ | -90.0 | top | \n| R6 | 10K | R0805 | 151.2351 | -108.6416 | 90.0 | top | \n\
+  | R7 | 10K | R0805 | 164.6971 | -103.5616 | 90.0 | top | \n| R8 | 10K | R0805 |\
+  \ 166.9831 | -110.0386 | 180.0 | top | \n| R9 | 1K | R0805 | 138.7891 | -101.5296\
+  \ | 0.0 | top | \n| R10 | 22 | R0805 | 132.4391 | -117.2776 | 0.0 | top | \n| R11\
+  \ | 22 | R0805 | 132.0581 | -114.4836 | 0.0 | top | \n| U$10 | FIDUCIAL | FIDUCIAL_1MM\
+  \ | 171.8091 | -128.7076 | 90.0 | top | \n| U$11 | FIDUCIAL | FIDUCIAL_1MM | 131.9311\
+  \ | -128.4536 | 180.0 | top | \n| U$18 | FIDUCIAL | FIDUCIAL_1MM | 172.0631 | -72.4466\
+  \ | 0.0 | top | \n| U2 | STMPE610 | QFN16_3MM | 161.6491 | -107.6256 | 180.0 | top\
+  \ | \n"
 projects_flat: projects/adafruit_adafruit_pitft_2_8_inch_display_pcb_adafruit_pitft_2_8inch_resistive_pcb/current_version/working
 repo:
   allow_forking: true

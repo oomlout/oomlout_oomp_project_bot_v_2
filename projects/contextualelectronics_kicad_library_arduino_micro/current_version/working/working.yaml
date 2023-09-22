@@ -1,4 +1,71 @@
 board: arduino_micro
+bom:
+- Id: '1'
+  Designator: P1
+  Footprint: Socket_Strip_Arduino_1x17
+  Quantity: '1'
+  Designation: Digital
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: P2
+  Footprint: Socket_Strip_Arduino_1x17
+  Quantity: '1'
+  Designation: Analog
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: P3,P4,P5,P6
+  Footprint: 1pin_Micro
+  Quantity: '4'
+  Designation: CONN_1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | P1\
+  \ | Socket_Strip_Arduino_1x17 | 1 | Digital |  |  | [''] | \n| 2 | P2 | Socket_Strip_Arduino_1x17\
+  \ | 1 | Analog |  |  | [''] | \n| 3 | P3,P4,P5,P6 | 1pin_Micro | 4 | CONN_1 |  |\
+  \  | [''] | \n"
+bom_schematic:
+- Cmp name: CONN_17
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Micro:Socket_Strip_Arduino_1x17
+  Qnty: '1'
+  Ref: P1
+  Value: Digital
+  Vendor: ''
+- Cmp name: CONN_17
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Micro:Socket_Strip_Arduino_1x17
+  Qnty: '1'
+  Ref: P2
+  Value: Analog
+  Vendor: ''
+- Cmp name: CONN_1
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Micro:1pin_Micro
+  Qnty: '4'
+  Ref: P3, P4, P5, P6
+  Value: CONN_1
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| P1 |\
+  \ 1 | Digital | CONN_17 | Socket_Arduino_Micro:Socket_Strip_Arduino_1x17 |  |  |\
+  \  | \n| P2 | 1 | Analog | CONN_17 | Socket_Arduino_Micro:Socket_Strip_Arduino_1x17\
+  \ |  |  |  | \n| P3, P4, P5, P6 | 4 | CONN_1 | CONN_1 | Socket_Arduino_Micro:1pin_Micro\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/contextualelectronics_kicad_library_wire_pads/current_version/working/working.brd
 file_kicad_pcb_flat: projects/contextualelectronics_kicad_library_arduino_micro/current_version/working/working.kicad_pcb
@@ -6,6 +73,58 @@ file_kicad_sch_flat: projects/contextualelectronics_kicad_library_arduino_micro/
 file_sch_flat: projects/contextualelectronics_kicad_library_arduino_micro/current_version/working/working.sch
 id: contextualelectronics_kicad_library_arduino_micro
 name: kicad_library
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': P1
+  Package: Socket_Strip_Arduino_1x17
+  PosX: 1.27
+  PosY: 44.45
+  Rot: -90.0
+  Side: top
+  Val: Digital
+- '# Ref': P2
+  Package: Socket_Strip_Arduino_1x17
+  PosX: 16.51
+  PosY: 44.45
+  Rot: -90.0
+  Side: top
+  Val: Analog
+- '# Ref': P3
+  Package: 1pin_Micro
+  PosX: 1.27
+  PosY: 46.99
+  Rot: 0.0
+  Side: top
+  Val: CONN_1
+- '# Ref': P4
+  Package: 1pin_Micro
+  PosX: 1.27
+  PosY: 1.27
+  Rot: 0.0
+  Side: top
+  Val: CONN_1
+- '# Ref': P5
+  Package: 1pin_Micro
+  PosX: 16.51
+  PosY: 1.27
+  Rot: 0.0
+  Side: top
+  Val: CONN_1
+- '# Ref': P6
+  Package: 1pin_Micro
+  PosX: 16.51
+  PosY: 46.99
+  Rot: 0.0
+  Side: top
+  Val: CONN_1
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| P1 | Digital | Socket_Strip_Arduino_1x17\
+  \ | 1.27 | 44.45 | -90.0 | top | \n| P2 | Analog | Socket_Strip_Arduino_1x17 | 16.51\
+  \ | 44.45 | -90.0 | top | \n| P3 | CONN_1 | 1pin_Micro | 1.27 | 46.99 | 0.0 | top\
+  \ | \n| P4 | CONN_1 | 1pin_Micro | 1.27 | 1.27 | 0.0 | top | \n| P5 | CONN_1 | 1pin_Micro\
+  \ | 16.51 | 1.27 | 0.0 | top | \n| P6 | CONN_1 | 1pin_Micro | 16.51 | 46.99 | 0.0\
+  \ | top | \n"
 projects_flat: projects/contextualelectronics_kicad_library_arduino_micro/current_version/working
 repo:
   allow_forking: true

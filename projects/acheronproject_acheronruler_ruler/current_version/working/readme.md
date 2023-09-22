@@ -12,6 +12,7 @@
 
 * src_file_repo_sch: kicadFiles/ruler.sch
 * src_file_repo_sch_link: https://github.com/AcheronProject/AcheronRuler/tree/master/kicadFiles/ruler.sch
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/acheronproject_acheronruler_ruler/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

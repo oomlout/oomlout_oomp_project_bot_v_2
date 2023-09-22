@@ -1,10 +1,77 @@
 board: reviung61_top_plate
+bom:
+- Id: '1'
+  Designator: Ref**
+  Footprint: HOLE_4.2mm
+  Quantity: '1'
+  Designation: Val**
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: H1
+  Footprint: HOLE_4.2mm
+  Quantity: '1'
+  Designation: MountingHole
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: G***
+  Footprint: R-x4-ver1
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | Ref**\
+  \ | HOLE_4.2mm | 1 | Val** |  |  | [''] | \n| 2 | H1 | HOLE_4.2mm | 1 | MountingHole\
+  \ |  |  | [''] | \n| 3 | G*** | R-x4-ver1 | 1 | LOGO |  |  | [''] | \n"
+bom_schematic: []
+bom_schematic_markdown: no data
 counter: 1
 file_kicad_pcb_flat: projects/gtips_reviung_reviung61_top_plate/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/gtips_reviung_reviung61_top_plate/current_version/working/working.kicad_pcb
 file_sch_flat: projects/gtips_reviung_reviung61_top_plate/current_version/working/working.sch
 id: gtips_reviung_reviung61_top_plate
 name: reviung
+position_bottom:
+- '# Ref': G***
+  Package: R-x4-ver1
+  PosX: 105.0
+  PosY: -85.75
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | R-x4-ver1 | 105.0\
+  \ | -85.75 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': H1
+  Package: HOLE_4.2mm
+  PosX: 25.41
+  PosY: -28.35
+  Rot: 0.0
+  Side: top
+  Val: MountingHole
+- '# Ref': Ref**
+  Package: HOLE_4.2mm
+  PosX: 190.76
+  PosY: -85.65
+  Rot: 0.0
+  Side: top
+  Val: Val**
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| H1 | MountingHole | HOLE_4.2mm | 25.41\
+  \ | -28.35 | 0.0 | top | \n| Ref** | Val** | HOLE_4.2mm | 190.76 | -85.65 | 0.0\
+  \ | top | \n"
 projects_flat: projects/gtips_reviung_reviung61_top_plate/current_version/working
 repo:
   allow_forking: true

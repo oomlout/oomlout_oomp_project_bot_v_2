@@ -1,9 +1,228 @@
 board: bpu_display_v1d_20inch
+bom:
+- Id: '1'
+  Designator: '@HOLE3,@HOLE2,@HOLE1,@HOLE0'
+  Footprint: ''
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: DISP1
+  Footprint: HT020SQV003NS_QT020HLCG00
+  Quantity: '1'
+  Designation: DISP_TFT20_HT020SQV003NS_QT020HLCG00
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: PAGE1
+  Footprint: DP_LOGO
+  Quantity: '1'
+  Designation: FRAME_DINA4_L
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J1
+  Footprint: X05B20L10T
+  Quantity: '1'
+  Designation: CON-FPC_X05B20L10T
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: Q1
+  Footprint: SOT-23
+  Quantity: '1'
+  Designation: MMBF170
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R2
+  Footprint: R0603
+  Quantity: '1'
+  Designation: 10R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R1
+  Footprint: R0603
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | @HOLE3,@HOLE2,@HOLE1,@HOLE0\
+  \ |  | 4 |  |  |  | [''] | \n| 2 | DISP1 | HT020SQV003NS_QT020HLCG00 | 1 | DISP_TFT20_HT020SQV003NS_QT020HLCG00\
+  \ |  |  | [''] | \n| 3 | PAGE1 | DP_LOGO | 1 | FRAME_DINA4_L |  |  | [''] | \n|\
+  \ 4 | J1 | X05B20L10T | 1 | CON-FPC_X05B20L10T |  |  | [''] | \n| 5 | Q1 | SOT-23\
+  \ | 1 | MMBF170 |  |  | [''] | \n| 6 | R2 | R0603 | 1 | 10R |  |  | [''] | \n| 7\
+  \ | R1 | R0603 | 1 | 10K |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: DISP_TFT20_HT020SQV003NS_QT020HLCG00
+  DNP: ''
+  Description: ''
+  Footprint: working:HT020SQV003NS_QT020HLCG00
+  Qnty: '1'
+  Ref: DISP1
+  Value: DISP_TFT20_HT020SQV003NS_QT020HLCG00
+  Vendor: ''
+- Cmp name: CON-FPC_X05B20L10T
+  DNP: ''
+  Description: ''
+  Footprint: working:X05B20L10T
+  Qnty: '1'
+  Ref: J1
+  Value: CON-FPC_X05B20L10T
+  Vendor: ''
+- Cmp name: FRAME_DINA4_L
+  DNP: ''
+  Description: ''
+  Footprint: working:DP_LOGO
+  Qnty: '1'
+  Ref: PAGE1
+  Value: FRAME_DINA4_L
+  Vendor: ''
+- Cmp name: TRANSISTOR_FET_BS170-SOT-23
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT-23
+  Qnty: '1'
+  Ref: Q1
+  Value: MMBF170
+  Vendor: ''
+- Cmp name: R-EU_R0603
+  DNP: ''
+  Description: ''
+  Footprint: working:R0603
+  Qnty: '1'
+  Ref: R1
+  Value: 10K
+  Vendor: ''
+- Cmp name: R-EU_R0603
+  DNP: ''
+  Description: ''
+  Footprint: working:R0603
+  Qnty: '1'
+  Ref: R2
+  Value: 10R
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| DISP1\
+  \ | 1 | DISP_TFT20_HT020SQV003NS_QT020HLCG00 | DISP_TFT20_HT020SQV003NS_QT020HLCG00\
+  \ | working:HT020SQV003NS_QT020HLCG00 |  |  |  | \n| J1 | 1 | CON-FPC_X05B20L10T\
+  \ | CON-FPC_X05B20L10T | working:X05B20L10T |  |  |  | \n| PAGE1 | 1 | FRAME_DINA4_L\
+  \ | FRAME_DINA4_L | working:DP_LOGO |  |  |  | \n| Q1 | 1 | MMBF170 | TRANSISTOR_FET_BS170-SOT-23\
+  \ | working:SOT-23 |  |  |  | \n| R1 | 1 | 10K | R-EU_R0603 | working:R0603 |  |\
+  \  |  | \n| R2 | 1 | 10R | R-EU_R0603 | working:R0603 |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/dangerousprototypes_buspirateultrahardware_bpu_display_v1d_20inch/current_version/working/working.brd
 file_sch_flat: projects/dangerousprototypes_buspirateultrahardware_bpu_display_v1d_20inch/current_version/working/working.sch
 id: dangerousprototypes_buspirateultrahardware_bpu_display_v1d_20inch
 name: buspirateultrahardware
+position_bottom:
+- '# Ref': J1
+  Package: X05B20L10T
+  PosX: 113.8301
+  PosY: -93.1926
+  Rot: 0.0
+  Side: bottom
+  Val: CON-FPC_X05B20L10T
+- '# Ref': Q1
+  Package: SOT-23
+  PosX: 165.6461
+  PosY: -98.6536
+  Rot: 0.0
+  Side: bottom
+  Val: MMBF170
+- '# Ref': R1
+  Package: R0603
+  PosX: 165.0111
+  PosY: -94.8436
+  Rot: 90.0
+  Side: bottom
+  Val: 10K
+- '# Ref': R2
+  Package: R0603
+  PosX: 169.3291
+  PosY: -99.7966
+  Rot: 0.0
+  Side: bottom
+  Val: 10R
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J1 | CON-FPC_X05B20L10T | X05B20L10T\
+  \ | 113.8301 | -93.1926 | 0.0 | bottom | \n| Q1 | MMBF170 | SOT-23 | 165.6461 |\
+  \ -98.6536 | 0.0 | bottom | \n| R1 | 10K | R0603 | 165.0111 | -94.8436 | 90.0 |\
+  \ bottom | \n| R2 | 10R | R0603 | 169.3291 | -99.7966 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 102.5011
+  PosY: -126.0036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 194.5011
+  PosY: -126.0036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE2'
+  Package: .nan
+  PosX: 194.5011
+  PosY: -84.0036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE3'
+  Package: .nan
+  PosX: 102.5011
+  PosY: -84.0036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': DISP1
+  Package: HT020SQV003NS_QT020HLCG00
+  PosX: 166.1491
+  PosY: -105.5066
+  Rot: 90.0
+  Side: top
+  Val: DISP_TFT20_HT020SQV003NS_QT020HLCG00
+- '# Ref': PAGE1
+  Package: DP_LOGO
+  PosX: 135.1661
+  PosY: -129.7686
+  Rot: 0.0
+  Side: top
+  Val: FRAME_DINA4_L
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 102.5011 | -126.0036\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 194.5011 | -126.0036 | 0.0 | top | \n|\
+  \ @HOLE2 | nan | nan | 194.5011 | -84.0036 | 0.0 | top | \n| @HOLE3 | nan | nan\
+  \ | 102.5011 | -84.0036 | 0.0 | top | \n| DISP1 | DISP_TFT20_HT020SQV003NS_QT020HLCG00\
+  \ | HT020SQV003NS_QT020HLCG00 | 166.1491 | -105.5066 | 90.0 | top | \n| PAGE1 |\
+  \ FRAME_DINA4_L | DP_LOGO | 135.1661 | -129.7686 | 0.0 | top | \n"
 projects_flat: projects/dangerousprototypes_buspirateultrahardware_bpu_display_v1d_20inch/current_version/working
 repo:
   allow_forking: true

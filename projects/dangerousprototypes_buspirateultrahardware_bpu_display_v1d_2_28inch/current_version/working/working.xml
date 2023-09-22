@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\dangerousprototypes_buspirateultrahardware_bpu_display_v1d_2_28inch\current_version\working\working.kicad_sch</source>
+    <date>21/09/2023 19:48:12</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="DISP1">
+      <value>DISP_TFT20_HT020SQV003NS_QT020HLCG00</value>
+      <footprint>working:HT020SQV003NS_QT020HLCG00</footprint>
+      <libsource lib="working-eagle-import" part="DISP_TFT20_HT020SQV003NS_QT020HLCG00" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5434804-e80d-4b92-9217-9022aaed93e1</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>CON-FPC_X05B20L10T</value>
+      <footprint>working:X05B20L10T</footprint>
+      <libsource lib="working-eagle-import" part="CON-FPC_X05B20L10T" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebe84c03-4499-4e77-a8f0-1708dc1e03a9</tstamps>
+    </comp>
+    <comp ref="PAGE1">
+      <value>FRAME_DINA4_L</value>
+      <footprint>working:DP_LOGO</footprint>
+      <libsource lib="working-eagle-import" part="FRAME_DINA4_L" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a60d3f0f-93bf-4334-99d4-3bea536edd58 99e802e5-77a4-4dcd-ac04-677cf88cbe5e</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBF170</value>
+      <footprint>working:SOT-23</footprint>
+      <libsource lib="working-eagle-import" part="TRANSISTOR_FET_BS170-SOT-23" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3bf405f-135d-47fa-807e-01d253cf9dd6</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>working:R0603</footprint>
+      <libsource lib="working-eagle-import" part="R-EU_R0603" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69af6fb5-a87a-4393-8850-fa365e6559aa</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10R</value>
+      <footprint>working:R0603</footprint>
+      <libsource lib="working-eagle-import" part="R-EU_R0603" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2867871-7101-4935-98ad-528858d5cb24</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="working-eagle-import" part="CON-FPC_X05B20L10T">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Footprint">working:X05B20L10T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="working-eagle-import" part="DISP_TFT20_HT020SQV003NS_QT020HLCG00">
+      <fields>
+        <field name="Reference">DISP</field>
+        <field name="Footprint">working:HT020SQV003NS_QT020HLCG00</field>
+      </fields>
+      <pins>
+        <pin num="P1" name="GND" type="power_in"/>
+        <pin num="P2" name="LED-K" type="power_in"/>
+        <pin num="P3" name="LED-A" type="power_in"/>
+        <pin num="P4" name="VCC" type="power_in"/>
+        <pin num="P5" name="GND" type="power_in"/>
+        <pin num="P6" name="GND" type="power_in"/>
+        <pin num="P7" name="WR/SPI_A0" type="input"/>
+        <pin num="P8" name="CS" type="input"/>
+        <pin num="P9" name="RS/SPI_SCL" type="input"/>
+        <pin num="P10" name="SPI_SDA" type="bidirectional"/>
+        <pin num="P11" name="RESET" type="input"/>
+        <pin num="P12" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="working-eagle-import" part="FRAME_DINA4_L">
+      <fields>
+        <field name="Reference">PAGE</field>
+        <field name="Footprint">working:DP_LOGO</field>
+      </fields>
+    </libpart>
+    <libpart lib="working-eagle-import" part="R-EU_R0603">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">working:R0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="working-eagle-import" part="TRANSISTOR_FET_BS170-SOT-23">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Footprint">working:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="DISP1" pin="P3" pinfunction="LED-A" pintype="power_in"/>
+      <node ref="DISP1" pin="P4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="2" name="/DISPLAY_AUX1">
+      <node ref="J1" pin="9" pinfunction="9" pintype="passive"/>
+    </net>
+    <net code="3" name="/DISPLAY_CS">
+      <node ref="DISP1" pin="P8" pinfunction="CS" pintype="input"/>
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="4" name="/DISPLAY_D{slash}P">
+      <node ref="DISP1" pin="P7" pinfunction="WR/SPI_A0" pintype="input"/>
+      <node ref="J1" pin="7" pinfunction="7" pintype="passive"/>
+    </net>
+    <net code="5" name="/DISPLAY_PWM">
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/DISPLAY_RESET">
+      <node ref="DISP1" pin="P11" pinfunction="RESET" pintype="input"/>
+      <node ref="J1" pin="10" pinfunction="10" pintype="passive"/>
+    </net>
+    <net code="7" name="/DISPLAY_SPI_CLOCK">
+      <node ref="DISP1" pin="P9" pinfunction="RS/SPI_SCL" pintype="input"/>
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="8" name="/DISPLAY_SPI_MISO">
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="9" name="/DISPLAY_SPI_MOSI">
+      <node ref="DISP1" pin="P10" pinfunction="SPI_SDA" pintype="bidirectional"/>
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="10" name="/LED-K">
+      <node ref="DISP1" pin="P2" pinfunction="LED-K" pintype="power_in"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="DISP1" pin="P1" pinfunction="GND" pintype="power_in"/>
+      <node ref="DISP1" pin="P12" pinfunction="GND" pintype="power_in"/>
+      <node ref="DISP1" pin="P5" pinfunction="GND" pintype="power_in"/>
+      <node ref="DISP1" pin="P6" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(Q1-D)">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

@@ -1,9 +1,372 @@
 board: adafruit_tsl2591
+bom:
+- Id: '1'
+  Designator: C2,C3
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: Q1,Q2
+  Footprint: SOT23-WIDE
+  Quantity: '2'
+  Designation: BSS138
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U2
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: MIC5225-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$15
+  Footprint: ADAFRUIT_2.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$19,U$18
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U1
+  Footprint: DFN6_TAOS
+  Quantity: '1'
+  Designation: TSL2591
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: FID2,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R4,R2,R3
+  Footprint: 0805-NO
+  Quantity: '3'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: JP1
+  Footprint: 1X06_ROUND_FULL_76
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R5
+  Footprint: _0805MP
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U$20
+  Footprint: ADAFRUIT_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C2,C3\
+  \ | 0805-NO | 2 | 10uF |  |  | [''] | \n| 2 | Q1,Q2 | SOT23-WIDE | 2 | BSS138 |\
+  \  |  | [''] | \n| 3 | U2 | SOT23-5 | 1 | MIC5225-3.3 |  |  | [''] | \n| 4 | U$15\
+  \ | ADAFRUIT_2.5MM | 1 |  |  |  | [''] | \n| 5 | U$19,U$18 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 2 | MOUNTINGHOLE2.5 |  |  | [''] | \n| 6 | U1 | DFN6_TAOS | 1 | TSL2591 |  |\
+  \  | [''] | \n| 7 | FID2,FID1 | FIDUCIAL_1MM | 2 | FIDUCIAL\" |  |  | [''] | \n\
+  | 8 | R4,R2,R3 | 0805-NO | 3 | 10K |  |  | [''] | \n| 9 | JP1 | 1X06_ROUND_FULL_76\
+  \ | 1 |  |  |  | [''] | \n| 10 | R5 | _0805MP | 1 | 10K |  |  | [''] | \n| 11 |\
+  \ U$20 | ADAFRUIT_5MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C2, C3
+  Value: 10uF
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: HEADER-1X676MIL_FULLROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06_ROUND_FULL_76
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X676MIL_FULLROUND
+  Vendor: ''
+- Cmp name: MOSFET-NWIDE
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-WIDE
+  Qnty: '2'
+  Ref: Q1, Q2
+  Value: BSS138
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '3'
+  Ref: R2, R3, R4
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_0805MP
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805MP
+  Qnty: '1'
+  Ref: R5
+  Value: 10K
+  Vendor: ''
+- Cmp name: LIGHT_TSL2591
+  DNP: ''
+  Description: ''
+  Footprint: working:DFN6_TAOS
+  Qnty: '1'
+  Ref: U1
+  Value: TSL2591
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U2
+  Value: MIC5225-3.3
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '2'
+  Ref: U$18, U$19
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C2, C3\
+  \ | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| FID1,\
+  \ FID2 | 2 | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM\
+  \ |  |  |  | \n| JP1 | 1 | HEADER-1X676MIL_FULLROUND | HEADER-1X676MIL_FULLROUND\
+  \ | working:1X06_ROUND_FULL_76 |  |  |  | \n| Q1, Q2 | 2 | BSS138 | MOSFET-NWIDE\
+  \ | working:SOT23-WIDE |  |  |  | \n| R2, R3, R4 | 3 | 10K | RESISTOR0805_NOOUTLINE\
+  \ | working:0805-NO |  |  |  | \n| R5 | 1 | 10K | RESISTOR_0805MP | working:_0805MP\
+  \ |  |  |  | \n| U1 | 1 | TSL2591 | LIGHT_TSL2591 | working:DFN6_TAOS |  |  |  |\
+  \ \n| U2 | 1 | MIC5225-3.3 | VREG_SOT23-5 | working:SOT23-5 |  |  |  | \n| U$18,\
+  \ U$19 | 2 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_tsl2591_breakout_pcb_adafruit_tsl2591/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_tsl2591_breakout_pcb_adafruit_tsl2591/current_version/working/working.sch
 id: adafruit_adafruit_tsl2591_breakout_pcb_adafruit_tsl2591
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$18
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$19
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '13.969999999999999'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$18 | m3 | \n| 13.969999999999999 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$19 | m3 | \n"
 name: adafruit_tsl2591_breakout_pcb
+position_bottom:
+- '# Ref': U$20
+  Package: ADAFRUIT_5MM
+  PosX: 144.0561
+  PosY: -110.3376
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$20 | nan | ADAFRUIT_5MM | 144.0561\
+  \ | -110.3376 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 142.6591
+  PosY: -107.6706
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 142.1511
+  PosY: -102.3366
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 153.0731
+  PosY: -101.8286
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 139.9921
+  PosY: -110.0836
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': JP1
+  Package: 1X06_ROUND_FULL_76
+  PosX: 148.5011
+  PosY: -110.7186
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': Q1
+  Package: SOT23-WIDE
+  PosX: 148.7551
+  PosY: -106.9086
+  Rot: 180.0
+  Side: top
+  Val: BSS138
+- '# Ref': Q2
+  Package: SOT23-WIDE
+  PosX: 155.3591
+  PosY: -105.0036
+  Rot: 180.0
+  Side: top
+  Val: BSS138
+- '# Ref': R2
+  Package: 0805-NO
+  PosX: 145.7071
+  PosY: -102.9716
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: 0805-NO
+  PosX: 151.9301
+  PosY: -104.6226
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R4
+  Package: 0805-NO
+  PosX: 145.7071
+  PosY: -106.6546
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R5
+  Package: _0805MP
+  PosX: 153.5811
+  PosY: -107.5436
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': U$15
+  Package: ADAFRUIT_2.5MM
+  PosX: 155.4861
+  PosY: -109.8296
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$18
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 141.5161
+  PosY: -99.2886
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$19
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 155.4861
+  PosY: -99.2886
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U1
+  Package: DFN6_TAOS
+  PosX: 148.7551
+  PosY: -103.7336
+  Rot: 180.0
+  Side: top
+  Val: TSL2591
+- '# Ref': U2
+  Package: SOT23-5
+  PosX: 142.5321
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: MIC5225-3.3
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C2 | 10uF | 0805-NO | 142.6591 | -107.6706\
+  \ | 0.0 | top | \n| C3 | 10uF | 0805-NO | 142.1511 | -102.3366 | 180.0 | top | \n\
+  | FID1 | FIDUCIAL\"\" | FIDUCIAL_1MM | 153.0731 | -101.8286 | 0.0 | top | \n| FID2\
+  \ | FIDUCIAL\"\" | FIDUCIAL_1MM | 139.9921 | -110.0836 | 0.0 | top | \n| JP1 | nan\
+  \ | 1X06_ROUND_FULL_76 | 148.5011 | -110.7186 | 0.0 | top | \n| Q1 | BSS138 | SOT23-WIDE\
+  \ | 148.7551 | -106.9086 | 180.0 | top | \n| Q2 | BSS138 | SOT23-WIDE | 155.3591\
+  \ | -105.0036 | 180.0 | top | \n| R2 | 10K | 0805-NO | 145.7071 | -102.9716 | 90.0\
+  \ | top | \n| R3 | 10K | 0805-NO | 151.9301 | -104.6226 | -90.0 | top | \n| R4 |\
+  \ 10K | 0805-NO | 145.7071 | -106.6546 | 90.0 | top | \n| R5 | 10K | _0805MP | 153.5811\
+  \ | -107.5436 | 0.0 | top | \n| U$15 | nan | ADAFRUIT_2.5MM | 155.4861 | -109.8296\
+  \ | 0.0 | top | \n| U$18 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 141.5161\
+  \ | -99.2886 | 0.0 | top | \n| U$19 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 155.4861 | -99.2886 | 0.0 | top | \n| U1 | TSL2591 | DFN6_TAOS | 148.7551 |\
+  \ -103.7336 | 180.0 | top | \n| U2 | MIC5225-3.3 | SOT23-5 | 142.5321 | -105.0036\
+  \ | -90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_tsl2591_breakout_pcb_adafruit_tsl2591/current_version/working
 repo:
   allow_forking: true

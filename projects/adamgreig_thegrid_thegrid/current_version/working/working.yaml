@@ -1,10 +1,744 @@
 board: thegrid
+bom:
+- Id: '1'
+  Designator: U1
+  Footprint: TO220_VERT
+  Quantity: '1'
+  Designation: UA7805CKCS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U2
+  Footprint: DIP-16__300
+  Quantity: '1'
+  Designation: TPIC6C595
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: D1,D2,D3,D4,D5,D6,D7
+  Footprint: LED-5MM
+  Quantity: '7'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C3
+  Footprint: C1
+  Quantity: '1'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: P1
+  Footprint: SIL-2
+  Quantity: '1'
+  Designation: POWER
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: P2
+  Footprint: SIL-4
+  Quantity: '1'
+  Designation: SHIFT_IN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: P3
+  Footprint: SIL-4
+  Quantity: '1'
+  Designation: SHIFT_OUT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: Q1,Q2,Q3,Q4,Q5,Q6,Q7
+  Footprint: TO220_VERT
+  Quantity: '7'
+  Designation: FQP7P06
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R1,R3,R5,R7,R9,R13,R11
+  Footprint: R3
+  Quantity: '7'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R2,R4,R6,R8,R10,R12,R14
+  Footprint: R3
+  Quantity: '7'
+  Designation: '100'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: R15,R16,R17,R18,R19,R20,R21
+  Footprint: R3
+  Quantity: '7'
+  Designation: '680'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: P4,P6,P7,P8,P9,P10,P5
+  Footprint: SIL-2
+  Quantity: '7'
+  Designation: CONN_2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: MH,MH,MH,MH
+  Footprint: MountingHole_3mm
+  Quantity: '4'
+  Designation: MountingHole_3mm_RevA_Date21Jun2010
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: C2
+  Footprint: C1
+  Quantity: '1'
+  Designation: .1u
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: C1
+  Footprint: C1
+  Quantity: '1'
+  Designation: .33u
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U1\
+  \ | TO220_VERT | 1 | UA7805CKCS |  |  | [''] | \n| 2 | U2 | DIP-16__300 | 1 | TPIC6C595\
+  \ |  |  | [''] | \n| 3 | D1,D2,D3,D4,D5,D6,D7 | LED-5MM | 7 | LED |  |  | [''] |\
+  \ \n| 4 | C3 | C1 | 1 | 100n |  |  | [''] | \n| 5 | P1 | SIL-2 | 1 | POWER |  |\
+  \  | [''] | \n| 6 | P2 | SIL-4 | 1 | SHIFT_IN |  |  | [''] | \n| 7 | P3 | SIL-4\
+  \ | 1 | SHIFT_OUT |  |  | [''] | \n| 8 | Q1,Q2,Q3,Q4,Q5,Q6,Q7 | TO220_VERT | 7 |\
+  \ FQP7P06 |  |  | [''] | \n| 9 | R1,R3,R5,R7,R9,R13,R11 | R3 | 7 | 10k |  |  | ['']\
+  \ | \n| 10 | R2,R4,R6,R8,R10,R12,R14 | R3 | 7 | 100 |  |  | [''] | \n| 11 | R15,R16,R17,R18,R19,R20,R21\
+  \ | R3 | 7 | 680 |  |  | [''] | \n| 12 | P4,P6,P7,P8,P9,P10,P5 | SIL-2 | 7 | CONN_2\
+  \ |  |  | [''] | \n| 13 | MH,MH,MH,MH | MountingHole_3mm | 4 | MountingHole_3mm_RevA_Date21Jun2010\
+  \ |  |  | [''] | \n| 14 | C2 | C1 | 1 | .1u |  |  | [''] | \n| 15 | C1 | C1 | 1\
+  \ | .33u |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: C1
+  Value: .33u
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '2'
+  Ref: C2, C3
+  Value: .1u
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '7'
+  Ref: D1, D2, D3, D4, D5, D6, D7
+  Value: LED
+  Vendor: ''
+- Cmp name: CONN_2
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: P1
+  Value: POWER
+  Vendor: ''
+- Cmp name: CONN_4
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: P2
+  Value: SHIFT_IN
+  Vendor: ''
+- Cmp name: CONN_4
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: P3
+  Value: SHIFT_OUT
+  Vendor: ''
+- Cmp name: CONN_2
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '7'
+  Ref: P4, P5, P6, P7, P8, P9, P10
+  Value: CONN_2
+  Vendor: ''
+- Cmp name: FQP7P06
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '7'
+  Ref: Q1, Q2, Q3, Q4, Q5, Q6, Q7
+  Value: FQP7P06
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '7'
+  Ref: R1, R3, R5, R7, R9, R11, R13
+  Value: 10k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '7'
+  Ref: R2, R4, R6, R8, R10, R12, R14
+  Value: '100'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '7'
+  Ref: R15, R16, R17, R18, R19, R20, R21
+  Value: '680'
+  Vendor: ''
+- Cmp name: '7805'
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: U1
+  Value: UA7805CKCS
+  Vendor: ''
+- Cmp name: TPIC6C595
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: U2
+  Value: TPIC6C595
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | .33u | C |  |  |  |  | \n| C2, C3 | 2 | .1u | C |  |  |  |  | \n| D1, D2,\
+  \ D3, D4, D5, D6, D7 | 7 | LED | LED |  |  |  |  | \n| P1 | 1 | POWER | CONN_2 |\
+  \  |  |  |  | \n| P2 | 1 | SHIFT_IN | CONN_4 |  |  |  |  | \n| P3 | 1 | SHIFT_OUT\
+  \ | CONN_4 |  |  |  |  | \n| P4, P5, P6, P7, P8, P9, P10 | 7 | CONN_2 | CONN_2 |\
+  \  |  |  |  | \n| Q1, Q2, Q3, Q4, Q5, Q6, Q7 | 7 | FQP7P06 | FQP7P06 |  |  |  |\
+  \  | \n| R1, R3, R5, R7, R9, R11, R13 | 7 | 10k | R |  |  |  |  | \n| R2, R4, R6,\
+  \ R8, R10, R12, R14 | 7 | 100 | R |  |  |  |  | \n| R15, R16, R17, R18, R19, R20,\
+  \ R21 | 7 | 680 | R |  |  |  |  | \n| U1 | 1 | UA7805CKCS | 7805 |  |  |  |  | \n\
+  | U2 | 1 | TPIC6C595 | TPIC6C595 |  |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_thegrid_thegrid/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_thegrid_thegrid/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adamgreig_thegrid_thegrid/current_version/working/working.sch
 id: adamgreig_thegrid_thegrid
+mounting_holes:
+- package: MountingHole_3mm
+  ref: MH
+  size: m3
+  value: MountingHole_3mm_RevA_Date21Jun2010
+  x: '0.0'
+  y: '13.207999999999998'
+- package: MountingHole_3mm
+  ref: MH
+  size: m3
+  value: MountingHole_3mm_RevA_Date21Jun2010
+  x: '36.06800000000001'
+  y: '67.31'
+- package: MountingHole_3mm
+  ref: MH
+  size: m3
+  value: MountingHole_3mm_RevA_Date21Jun2010
+  x: '8.382000000000005'
+  y: '78.994'
+- package: MountingHole_3mm
+  ref: MH
+  size: m3
+  value: MountingHole_3mm_RevA_Date21Jun2010
+  x: '35.56'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 13.207999999999998 | MountingHole_3mm | MountingHole_3mm_RevA_Date21Jun2010\
+  \ | MH | m3 | \n| 36.06800000000001 | 67.31 | MountingHole_3mm | MountingHole_3mm_RevA_Date21Jun2010\
+  \ | MH | m3 | \n| 8.382000000000005 | 78.994 | MountingHole_3mm | MountingHole_3mm_RevA_Date21Jun2010\
+  \ | MH | m3 | \n| 35.56 | 0.0 | MountingHole_3mm | MountingHole_3mm_RevA_Date21Jun2010\
+  \ | MH | m3 | \n"
 name: thegrid
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C1
+  PosX: 129.286
+  PosY: -84.074
+  Rot: 90.0
+  Side: top
+  Val: .33u
+- '# Ref': C2
+  Package: C1
+  PosX: 129.286
+  PosY: -78.232
+  Rot: -90.0
+  Side: top
+  Val: .1u
+- '# Ref': C3
+  Package: C1
+  PosX: 130.175
+  PosY: -49.53
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': D1
+  Package: LED-5MM
+  PosX: 161.29
+  PosY: -34.798
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D2
+  Package: LED-5MM
+  PosX: 161.036
+  PosY: -48.006
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D3
+  Package: LED-5MM
+  PosX: 161.798
+  PosY: -61.976
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D4
+  Package: LED-5MM
+  PosX: 161.29
+  PosY: -75.184
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D5
+  Package: LED-5MM
+  PosX: 161.036
+  PosY: -88.9
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D6
+  Package: LED-5MM
+  PosX: 161.036
+  PosY: -102.362
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D7
+  Package: LED-5MM
+  PosX: 161.036
+  PosY: -115.062
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': MH
+  Package: MountingHole_3mm
+  PosX: 125.476
+  PosY: -95.504
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3mm_RevA_Date21Jun2010
+- '# Ref': MH
+  Package: MountingHole_3mm
+  PosX: 161.544
+  PosY: -41.402
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3mm_RevA_Date21Jun2010
+- '# Ref': MH
+  Package: MountingHole_3mm
+  PosX: 133.858
+  PosY: -29.718
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3mm_RevA_Date21Jun2010
+- '# Ref': MH
+  Package: MountingHole_3mm
+  PosX: 161.036
+  PosY: -108.712
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3mm_RevA_Date21Jun2010
+- '# Ref': P1
+  Package: SIL-2
+  PosX: 129.54
+  PosY: -107.188
+  Rot: 180.0
+  Side: top
+  Val: POWER
+- '# Ref': P2
+  Package: SIL-4
+  PosX: 123.825
+  PosY: -26.67
+  Rot: 90.0
+  Side: top
+  Val: SHIFT_IN
+- '# Ref': P3
+  Package: SIL-4
+  PosX: 168.91
+  PosY: -26.67
+  Rot: 90.0
+  Side: top
+  Val: SHIFT_OUT
+- '# Ref': P4
+  Package: SIL-2
+  PosX: 162.56
+  PosY: -26.67
+  Rot: 90.0
+  Side: top
+  Val: CONN_2
+- '# Ref': P5
+  Package: SIL-2
+  PosX: 168.402
+  PosY: -41.656
+  Rot: 90.0
+  Side: top
+  Val: CONN_2
+- '# Ref': P6
+  Package: SIL-2
+  PosX: 168.275
+  PosY: -55.88
+  Rot: 90.0
+  Side: top
+  Val: CONN_2
+- '# Ref': P7
+  Package: SIL-2
+  PosX: 168.275
+  PosY: -70.485
+  Rot: 90.0
+  Side: top
+  Val: CONN_2
+- '# Ref': P8
+  Package: SIL-2
+  PosX: 168.275
+  PosY: -85.09
+  Rot: 90.0
+  Side: top
+  Val: CONN_2
+- '# Ref': P9
+  Package: SIL-2
+  PosX: 168.275
+  PosY: -99.695
+  Rot: 90.0
+  Side: top
+  Val: CONN_2
+- '# Ref': P10
+  Package: SIL-2
+  PosX: 168.402
+  PosY: -113.792
+  Rot: 90.0
+  Side: top
+  Val: CONN_2
+- '# Ref': Q1
+  Package: TO220_VERT
+  PosX: 147.574
+  PosY: -26.162
+  Rot: 90.0
+  Side: top
+  Val: FQP7P06
+- '# Ref': Q2
+  Package: TO220_VERT
+  PosX: 147.574
+  PosY: -40.132
+  Rot: 90.0
+  Side: top
+  Val: FQP7P06
+- '# Ref': Q3
+  Package: TO220_VERT
+  PosX: 147.574
+  PosY: -54.102
+  Rot: 90.0
+  Side: top
+  Val: FQP7P06
+- '# Ref': Q4
+  Package: TO220_VERT
+  PosX: 147.574
+  PosY: -68.072
+  Rot: 90.0
+  Side: top
+  Val: FQP7P06
+- '# Ref': Q5
+  Package: TO220_VERT
+  PosX: 147.574
+  PosY: -82.042
+  Rot: 90.0
+  Side: top
+  Val: FQP7P06
+- '# Ref': Q6
+  Package: TO220_VERT
+  PosX: 147.574
+  PosY: -96.012
+  Rot: 90.0
+  Side: top
+  Val: FQP7P06
+- '# Ref': Q7
+  Package: TO220_VERT
+  PosX: 147.574
+  PosY: -109.474
+  Rot: 90.0
+  Side: top
+  Val: FQP7P06
+- '# Ref': R1
+  Package: R3
+  PosX: 147.066
+  PosY: -30.48
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R2
+  Package: R3
+  PosX: 140.208
+  PosY: -34.036
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R3
+  Package: R3
+  PosX: 148.59
+  PosY: -44.45
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R4
+  Package: R3
+  PosX: 140.716
+  PosY: -48.006
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R5
+  Package: R3
+  PosX: 148.844
+  PosY: -58.547
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R6
+  Package: R3
+  PosX: 142.494
+  PosY: -61.976
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R7
+  Package: R3
+  PosX: 148.844
+  PosY: -72.517
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R8
+  Package: R3
+  PosX: 141.732
+  PosY: -75.946
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R9
+  Package: R3
+  PosX: 148.844
+  PosY: -100.457
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R10
+  Package: R3
+  PosX: 142.875
+  PosY: -103.505
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R11
+  Package: R3
+  PosX: 148.844
+  PosY: -113.792
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R12
+  Package: R3
+  PosX: 142.494
+  PosY: -117.094
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R13
+  Package: R3
+  PosX: 147.955
+  PosY: -86.36
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R14
+  Package: R3
+  PosX: 141.478
+  PosY: -89.916
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R15
+  Package: R3
+  PosX: 151.384
+  PosY: -34.036
+  Rot: 180.0
+  Side: top
+  Val: '680'
+- '# Ref': R16
+  Package: R3
+  PosX: 151.892
+  PosY: -48.006
+  Rot: 180.0
+  Side: top
+  Val: '680'
+- '# Ref': R17
+  Package: R3
+  PosX: 153.416
+  PosY: -61.976
+  Rot: 180.0
+  Side: top
+  Val: '680'
+- '# Ref': R18
+  Package: R3
+  PosX: 152.908
+  PosY: -75.946
+  Rot: 180.0
+  Side: top
+  Val: '680'
+- '# Ref': R19
+  Package: R3
+  PosX: 152.654
+  PosY: -89.916
+  Rot: 180.0
+  Side: top
+  Val: '680'
+- '# Ref': R20
+  Package: R3
+  PosX: 152.908
+  PosY: -103.886
+  Rot: 180.0
+  Side: top
+  Val: '680'
+- '# Ref': R21
+  Package: R3
+  PosX: 152.908
+  PosY: -117.094
+  Rot: 180.0
+  Side: top
+  Val: '680'
+- '# Ref': U1
+  Package: TO220_VERT
+  PosX: 125.222
+  PosY: -79.756
+  Rot: 180.0
+  Side: top
+  Val: UA7805CKCS
+- '# Ref': U2
+  Package: DIP-16__300
+  PosX: 130.175
+  PosY: -63.5
+  Rot: -90.0
+  Side: top
+  Val: TPIC6C595
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | .33u | C1 | 129.286 | -84.074 |\
+  \ 90.0 | top | \n| C2 | .1u | C1 | 129.286 | -78.232 | -90.0 | top | \n| C3 | 100n\
+  \ | C1 | 130.175 | -49.53 | 0.0 | top | \n| D1 | LED | LED-5MM | 161.29 | -34.798\
+  \ | 0.0 | top | \n| D2 | LED | LED-5MM | 161.036 | -48.006 | 0.0 | top | \n| D3\
+  \ | LED | LED-5MM | 161.798 | -61.976 | 0.0 | top | \n| D4 | LED | LED-5MM | 161.29\
+  \ | -75.184 | 0.0 | top | \n| D5 | LED | LED-5MM | 161.036 | -88.9 | 0.0 | top |\
+  \ \n| D6 | LED | LED-5MM | 161.036 | -102.362 | 0.0 | top | \n| D7 | LED | LED-5MM\
+  \ | 161.036 | -115.062 | 0.0 | top | \n| MH | MountingHole_3mm_RevA_Date21Jun2010\
+  \ | MountingHole_3mm | 125.476 | -95.504 | 0.0 | top | \n| MH | MountingHole_3mm_RevA_Date21Jun2010\
+  \ | MountingHole_3mm | 161.544 | -41.402 | 0.0 | top | \n| MH | MountingHole_3mm_RevA_Date21Jun2010\
+  \ | MountingHole_3mm | 133.858 | -29.718 | 0.0 | top | \n| MH | MountingHole_3mm_RevA_Date21Jun2010\
+  \ | MountingHole_3mm | 161.036 | -108.712 | 0.0 | top | \n| P1 | POWER | SIL-2 |\
+  \ 129.54 | -107.188 | 180.0 | top | \n| P2 | SHIFT_IN | SIL-4 | 123.825 | -26.67\
+  \ | 90.0 | top | \n| P3 | SHIFT_OUT | SIL-4 | 168.91 | -26.67 | 90.0 | top | \n\
+  | P4 | CONN_2 | SIL-2 | 162.56 | -26.67 | 90.0 | top | \n| P5 | CONN_2 | SIL-2 |\
+  \ 168.402 | -41.656 | 90.0 | top | \n| P6 | CONN_2 | SIL-2 | 168.275 | -55.88 |\
+  \ 90.0 | top | \n| P7 | CONN_2 | SIL-2 | 168.275 | -70.485 | 90.0 | top | \n| P8\
+  \ | CONN_2 | SIL-2 | 168.275 | -85.09 | 90.0 | top | \n| P9 | CONN_2 | SIL-2 | 168.275\
+  \ | -99.695 | 90.0 | top | \n| P10 | CONN_2 | SIL-2 | 168.402 | -113.792 | 90.0\
+  \ | top | \n| Q1 | FQP7P06 | TO220_VERT | 147.574 | -26.162 | 90.0 | top | \n| Q2\
+  \ | FQP7P06 | TO220_VERT | 147.574 | -40.132 | 90.0 | top | \n| Q3 | FQP7P06 | TO220_VERT\
+  \ | 147.574 | -54.102 | 90.0 | top | \n| Q4 | FQP7P06 | TO220_VERT | 147.574 | -68.072\
+  \ | 90.0 | top | \n| Q5 | FQP7P06 | TO220_VERT | 147.574 | -82.042 | 90.0 | top\
+  \ | \n| Q6 | FQP7P06 | TO220_VERT | 147.574 | -96.012 | 90.0 | top | \n| Q7 | FQP7P06\
+  \ | TO220_VERT | 147.574 | -109.474 | 90.0 | top | \n| R1 | 10k | R3 | 147.066 |\
+  \ -30.48 | 0.0 | top | \n| R2 | 100 | R3 | 140.208 | -34.036 | 180.0 | top | \n\
+  | R3 | 10k | R3 | 148.59 | -44.45 | 0.0 | top | \n| R4 | 100 | R3 | 140.716 | -48.006\
+  \ | 180.0 | top | \n| R5 | 10k | R3 | 148.844 | -58.547 | 0.0 | top | \n| R6 | 100\
+  \ | R3 | 142.494 | -61.976 | 180.0 | top | \n| R7 | 10k | R3 | 148.844 | -72.517\
+  \ | 0.0 | top | \n| R8 | 100 | R3 | 141.732 | -75.946 | 180.0 | top | \n| R9 | 10k\
+  \ | R3 | 148.844 | -100.457 | 0.0 | top | \n| R10 | 100 | R3 | 142.875 | -103.505\
+  \ | 180.0 | top | \n| R11 | 10k | R3 | 148.844 | -113.792 | 0.0 | top | \n| R12\
+  \ | 100 | R3 | 142.494 | -117.094 | 180.0 | top | \n| R13 | 10k | R3 | 147.955 |\
+  \ -86.36 | 0.0 | top | \n| R14 | 100 | R3 | 141.478 | -89.916 | 180.0 | top | \n\
+  | R15 | 680 | R3 | 151.384 | -34.036 | 180.0 | top | \n| R16 | 680 | R3 | 151.892\
+  \ | -48.006 | 180.0 | top | \n| R17 | 680 | R3 | 153.416 | -61.976 | 180.0 | top\
+  \ | \n| R18 | 680 | R3 | 152.908 | -75.946 | 180.0 | top | \n| R19 | 680 | R3 |\
+  \ 152.654 | -89.916 | 180.0 | top | \n| R20 | 680 | R3 | 152.908 | -103.886 | 180.0\
+  \ | top | \n| R21 | 680 | R3 | 152.908 | -117.094 | 180.0 | top | \n| U1 | UA7805CKCS\
+  \ | TO220_VERT | 125.222 | -79.756 | 180.0 | top | \n| U2 | TPIC6C595 | DIP-16__300\
+  \ | 130.175 | -63.5 | -90.0 | top | \n"
 projects_flat: projects/adamgreig_thegrid_thegrid/current_version/working
 repo:
   allow_forking: true

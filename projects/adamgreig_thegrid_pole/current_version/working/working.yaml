@@ -1,10 +1,564 @@
 board: pole
+bom:
+- Id: '1'
+  Designator: C1,C3,C5,C6
+  Footprint: '0603'
+  Quantity: '4'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C2
+  Footprint: '0603'
+  Quantity: '1'
+  Designation: 4u7
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C4
+  Footprint: '0603'
+  Quantity: '1'
+  Designation: 10n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C7
+  Footprint: '0603'
+  Quantity: '1'
+  Designation: 10u
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: IC1
+  Footprint: SOIC-8
+  Quantity: '1'
+  Designation: LMx93
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: P2
+  Footprint: S02B-PASK-2
+  Quantity: '1'
+  Designation: BUS_IN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: P3
+  Footprint: S02B-PASK-2
+  Quantity: '1'
+  Designation: BUS_OUT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: P4
+  Footprint: TC2030-NL
+  Quantity: '1'
+  Designation: SWD_TC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: P5
+  Footprint: Pin_Header_Straight_1x04
+  Quantity: '1'
+  Designation: LEDs
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R1,R2
+  Footprint: '0603'
+  Quantity: '2'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U1
+  Footprint: TO-252-3
+  Quantity: '1'
+  Designation: LD1117S33TR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: IC2
+  Footprint: QFN-32-EP-ST
+  Quantity: '1'
+  Designation: STM32F0xxKxUx
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: Q1,Q2,Q3,Q4
+  Footprint: SOT-323
+  Quantity: '4'
+  Designation: MTM232270LBF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: C8
+  Footprint: '0603'
+  Quantity: '1'
+  Designation: 1u
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: TP1
+  Footprint: TESTPAD
+  Quantity: '1'
+  Designation: RST
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: R3
+  Footprint: '0603'
+  Quantity: '1'
+  Designation: 1M
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: P1
+  Footprint: minipow_edge
+  Quantity: '1'
+  Designation: POWER_IN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: SP1
+  Footprint: piezo
+  Quantity: '1'
+  Designation: SPEAKER
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C3,C5,C6\
+  \ | 0603 | 4 | 100n |  |  | [''] | \n| 2 | C2 | 0603 | 1 | 4u7 |  |  | [''] | \n\
+  | 3 | C4 | 0603 | 1 | 10n |  |  | [''] | \n| 4 | C7 | 0603 | 1 | 10u |  |  | ['']\
+  \ | \n| 5 | IC1 | SOIC-8 | 1 | LMx93 |  |  | [''] | \n| 6 | P2 | S02B-PASK-2 | 1\
+  \ | BUS_IN |  |  | [''] | \n| 7 | P3 | S02B-PASK-2 | 1 | BUS_OUT |  |  | [''] |\
+  \ \n| 8 | P4 | TC2030-NL | 1 | SWD_TC |  |  | [''] | \n| 9 | P5 | Pin_Header_Straight_1x04\
+  \ | 1 | LEDs |  |  | [''] | \n| 10 | R1,R2 | 0603 | 2 | 10k |  |  | [''] | \n| 11\
+  \ | U1 | TO-252-3 | 1 | LD1117S33TR |  |  | [''] | \n| 12 | IC2 | QFN-32-EP-ST |\
+  \ 1 | STM32F0xxKxUx |  |  | [''] | \n| 13 | Q1,Q2,Q3,Q4 | SOT-323 | 4 | MTM232270LBF\
+  \ |  |  | [''] | \n| 14 | C8 | 0603 | 1 | 1u |  |  | [''] | \n| 15 | TP1 | TESTPAD\
+  \ | 1 | RST |  |  | [''] | \n| 16 | R3 | 0603 | 1 | 1M |  |  | [''] | \n| 17 | P1\
+  \ | minipow_edge | 1 | POWER_IN |  |  | [''] | \n| 18 | SP1 | piezo | 1 | SPEAKER\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '4'
+  Ref: C1, C3, C5, C6
+  Value: 100n
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '1'
+  Ref: C2
+  Value: 4u7
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '1'
+  Ref: C4
+  Value: 10n
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '1'
+  Ref: C7
+  Value: 10u
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '1'
+  Ref: C8
+  Value: 1u
+  Vendor: ''
+- Cmp name: LMx93
+  DNP: ''
+  Description: ''
+  Footprint: agg:SOIC-8
+  Qnty: '1'
+  Ref: IC1
+  Value: LMx93
+  Vendor: ''
+- Cmp name: STM32F0xxKxUx
+  DNP: ''
+  Description: ''
+  Footprint: agg:QFN-32-EP-ST
+  Qnty: '1'
+  Ref: IC2
+  Value: STM32F0xxKxUx
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: thegrid:minipow_edge
+  Qnty: '1'
+  Ref: P1
+  Value: POWER_IN
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: agg:S02B-PASK-2
+  Qnty: '1'
+  Ref: P2
+  Value: BUS_IN
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: agg:S02B-PASK-2
+  Qnty: '1'
+  Ref: P3
+  Value: BUS_OUT
+  Vendor: ''
+- Cmp name: SWD_TC
+  DNP: ''
+  Description: ''
+  Footprint: agg:TC2030-NL
+  Qnty: '1'
+  Ref: P4
+  Value: SWD_TC
+  Vendor: ''
+- Cmp name: CONN_01X04
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x04
+  Qnty: '1'
+  Ref: P5
+  Value: LEDs
+  Vendor: ''
+- Cmp name: Q_NMOS_GSD
+  DNP: ''
+  Description: ''
+  Footprint: agg:SOT-323
+  Qnty: '4'
+  Ref: Q1, Q2, Q3, Q4
+  Value: MTM232270LBF
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 10k
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '1'
+  Ref: R3
+  Value: 1M
+  Vendor: ''
+- Cmp name: SPEAKER
+  DNP: ''
+  Description: ''
+  Footprint: thegrid:piezo
+  Qnty: '1'
+  Ref: SP1
+  Value: SPEAKER
+  Vendor: ''
+- Cmp name: TESTPAD
+  DNP: ''
+  Description: ''
+  Footprint: agg:TESTPAD
+  Qnty: '1'
+  Ref: TP1
+  Value: RST
+  Vendor: ''
+- Cmp name: LD1117S33TR
+  DNP: ''
+  Description: ''
+  Footprint: thegrid:TO-252-3
+  Qnty: '1'
+  Ref: U1
+  Value: LD1117DT33CTR
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C3,\
+  \ C5, C6 | 4 | 100n | C | agg:0603 |  |  |  | \n| C2 | 1 | 4u7 | C_Small | agg:0603\
+  \ |  |  |  | \n| C4 | 1 | 10n | C_Small | agg:0603 |  |  |  | \n| C7 | 1 | 10u |\
+  \ C | agg:0603 |  |  |  | \n| C8 | 1 | 1u | C_Small | agg:0603 |  |  |  | \n| IC1\
+  \ | 1 | LMx93 | LMx93 | agg:SOIC-8 |  |  |  | \n| IC2 | 1 | STM32F0xxKxUx | STM32F0xxKxUx\
+  \ | agg:QFN-32-EP-ST |  |  |  | \n| P1 | 1 | POWER_IN | CONN_01X02 | thegrid:minipow_edge\
+  \ |  |  |  | \n| P2 | 1 | BUS_IN | CONN_01X02 | agg:S02B-PASK-2 |  |  |  | \n| P3\
+  \ | 1 | BUS_OUT | CONN_01X02 | agg:S02B-PASK-2 |  |  |  | \n| P4 | 1 | SWD_TC |\
+  \ SWD_TC | agg:TC2030-NL |  |  |  | \n| P5 | 1 | LEDs | CONN_01X04 | Pin_Headers:Pin_Header_Straight_1x04\
+  \ |  |  |  | \n| Q1, Q2, Q3, Q4 | 4 | MTM232270LBF | Q_NMOS_GSD | agg:SOT-323 |\
+  \  |  |  | \n| R1, R2 | 2 | 10k | R_Small | agg:0603 |  |  |  | \n| R3 | 1 | 1M\
+  \ | R_Small | agg:0603 |  |  |  | \n| SP1 | 1 | SPEAKER | SPEAKER | thegrid:piezo\
+  \ |  |  |  | \n| TP1 | 1 | RST | TESTPAD | agg:TESTPAD |  |  |  | \n| U1 | 1 | LD1117DT33CTR\
+  \ | LD1117S33TR | thegrid:TO-252-3 |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_thegrid_pole/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_thegrid_pole/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adamgreig_thegrid_pole/current_version/working/working.sch
 id: adamgreig_thegrid_pole
 name: thegrid
+position_bottom:
+- '# Ref': P1
+  Package: minipow_edge
+  PosX: 123.25
+  PosY: -114.75
+  Rot: 180.0
+  Side: bottom
+  Val: POWER_IN
+- '# Ref': SP1
+  Package: piezo
+  PosX: 122.75
+  PosY: -91.0
+  Rot: 20.0
+  Side: bottom
+  Val: SPEAKER
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| P1 | POWER_IN | minipow_edge | 123.25\
+  \ | -114.75 | 180.0 | bottom | \n| SP1 | SPEAKER | piezo | 122.75 | -91.0 | 20.0\
+  \ | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: '0603'
+  PosX: 118.0
+  PosY: -93.25
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': C2
+  Package: '0603'
+  PosX: 117.5
+  PosY: -84.3
+  Rot: 90.0
+  Side: top
+  Val: 4u7
+- '# Ref': C3
+  Package: '0603'
+  PosX: 119.0
+  PosY: -84.3
+  Rot: 90.0
+  Side: top
+  Val: 100n
+- '# Ref': C4
+  Package: '0603'
+  PosX: 119.1
+  PosY: -88.5
+  Rot: -90.0
+  Side: top
+  Val: 10n
+- '# Ref': C5
+  Package: '0603'
+  PosX: 127.5
+  PosY: -89.8
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': C6
+  Package: '0603'
+  PosX: 127.5
+  PosY: -102.0
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': C7
+  Package: '0603'
+  PosX: 122.25
+  PosY: -93.25
+  Rot: 180.0
+  Side: top
+  Val: 10u
+- '# Ref': C8
+  Package: '0603'
+  PosX: 117.6
+  PosY: -88.5
+  Rot: -90.0
+  Side: top
+  Val: 1u
+- '# Ref': IC1
+  Package: SOIC-8
+  PosX: 120.75
+  PosY: -98.0
+  Rot: 90.0
+  Side: top
+  Val: LMx93
+- '# Ref': IC2
+  Package: QFN-32-EP-ST
+  PosX: 122.8
+  PosY: -85.9
+  Rot: 0.0
+  Side: top
+  Val: STM32F0xxKxUx
+- '# Ref': P2
+  Package: S02B-PASK-2
+  PosX: 119.5
+  PosY: -106.5
+  Rot: 180.0
+  Side: top
+  Val: BUS_IN
+- '# Ref': P3
+  Package: S02B-PASK-2
+  PosX: 127.5
+  PosY: -106.5
+  Rot: 180.0
+  Side: top
+  Val: BUS_OUT
+- '# Ref': P4
+  Package: TC2030-NL
+  PosX: 127.6
+  PosY: -83.9
+  Rot: 90.0
+  Side: top
+  Val: SWD_TC
+- '# Ref': P5
+  Package: Pin_Header_Straight_1x04
+  PosX: 127.1
+  PosY: -77.4
+  Rot: -90.0
+  Side: top
+  Val: LEDs
+- '# Ref': Q1
+  Package: SOT-323
+  PosX: 123.4
+  PosY: -80.1
+  Rot: 90.0
+  Side: top
+  Val: MTM232270LBF
+- '# Ref': Q2
+  Package: SOT-323
+  PosX: 120.8
+  PosY: -80.5
+  Rot: 90.0
+  Side: top
+  Val: MTM232270LBF
+- '# Ref': Q3
+  Package: SOT-323
+  PosX: 118.2
+  PosY: -80.5
+  Rot: 90.0
+  Side: top
+  Val: MTM232270LBF
+- '# Ref': Q4
+  Package: SOT-323
+  PosX: 122.5
+  PosY: -90.7
+  Rot: -90.0
+  Side: top
+  Val: MTM232270LBF
+- '# Ref': R1
+  Package: '0603'
+  PosX: 117.5
+  PosY: -98.0
+  Rot: -90.0
+  Side: top
+  Val: 10k
+- '# Ref': R2
+  Package: '0603'
+  PosX: 120.5
+  PosY: -104.0
+  Rot: -90.0
+  Side: top
+  Val: 10k
+- '# Ref': R3
+  Package: '0603'
+  PosX: 118.5
+  PosY: -103.5
+  Rot: -90.0
+  Side: top
+  Val: 1M
+- '# Ref': TP1
+  Package: TESTPAD
+  PosX: 117.5
+  PosY: -86.4
+  Rot: 0.0
+  Side: top
+  Val: RST
+- '# Ref': U1
+  Package: TO-252-3
+  PosX: 127.5
+  PosY: -94.25
+  Rot: 0.0
+  Side: top
+  Val: LD1117S33TR
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 100n | 0603 | 118.0 | -93.25 |\
+  \ 0.0 | top | \n| C2 | 4u7 | 0603 | 117.5 | -84.3 | 90.0 | top | \n| C3 | 100n |\
+  \ 0603 | 119.0 | -84.3 | 90.0 | top | \n| C4 | 10n | 0603 | 119.1 | -88.5 | -90.0\
+  \ | top | \n| C5 | 100n | 0603 | 127.5 | -89.8 | 0.0 | top | \n| C6 | 100n | 0603\
+  \ | 127.5 | -102.0 | -90.0 | top | \n| C7 | 10u | 0603 | 122.25 | -93.25 | 180.0\
+  \ | top | \n| C8 | 1u | 0603 | 117.6 | -88.5 | -90.0 | top | \n| IC1 | LMx93 | SOIC-8\
+  \ | 120.75 | -98.0 | 90.0 | top | \n| IC2 | STM32F0xxKxUx | QFN-32-EP-ST | 122.8\
+  \ | -85.9 | 0.0 | top | \n| P2 | BUS_IN | S02B-PASK-2 | 119.5 | -106.5 | 180.0 |\
+  \ top | \n| P3 | BUS_OUT | S02B-PASK-2 | 127.5 | -106.5 | 180.0 | top | \n| P4 |\
+  \ SWD_TC | TC2030-NL | 127.6 | -83.9 | 90.0 | top | \n| P5 | LEDs | Pin_Header_Straight_1x04\
+  \ | 127.1 | -77.4 | -90.0 | top | \n| Q1 | MTM232270LBF | SOT-323 | 123.4 | -80.1\
+  \ | 90.0 | top | \n| Q2 | MTM232270LBF | SOT-323 | 120.8 | -80.5 | 90.0 | top |\
+  \ \n| Q3 | MTM232270LBF | SOT-323 | 118.2 | -80.5 | 90.0 | top | \n| Q4 | MTM232270LBF\
+  \ | SOT-323 | 122.5 | -90.7 | -90.0 | top | \n| R1 | 10k | 0603 | 117.5 | -98.0\
+  \ | -90.0 | top | \n| R2 | 10k | 0603 | 120.5 | -104.0 | -90.0 | top | \n| R3 |\
+  \ 1M | 0603 | 118.5 | -103.5 | -90.0 | top | \n| TP1 | RST | TESTPAD | 117.5 | -86.4\
+  \ | 0.0 | top | \n| U1 | LD1117S33TR | TO-252-3 | 127.5 | -94.25 | 0.0 | top | \n"
 projects_flat: projects/adamgreig_thegrid_pole/current_version/working
 repo:
   allow_forking: true

@@ -1,0 +1,1445 @@
+EESchema Schematic File Version 4
+LIBS:DAF021_ECM_3G-cache
+EELAYER 29 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 6 8
+Title ""
+Date "2020-06-04"
+Rev ""
+Comp "Veenema Design Works"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2800 4850 2800 4900
+$Comp
+L power:+5V #PWR?
+U 1 1 5F282ECC
+P 2800 4850
+AR Path="/5F282ECC" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5F282ECC" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5F282ECC" Ref="#PWR079"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282ECC" Ref="#PWR079"  Part="1" 
+F 0 "#PWR079" H 2800 4700 50  0001 C CNN
+F 1 "+5V" H 2800 5000 50  0000 C CNN
+F 2 "" H 2800 4850 50  0001 C CNN
+F 3 "" H 2800 4850 50  0001 C CNN
+	1    2800 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F282ED2
+P 2200 4850
+AR Path="/5C2E7DBE/5F282ED2" Ref="#PWR?"  Part="1" 
+AR Path="/5F282ED2" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5F282ED2" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5F282ED2" Ref="#PWR075"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282ED2" Ref="#PWR075"  Part="1" 
+F 0 "#PWR075" H 2200 4700 50  0001 C CNN
+F 1 "+3V3" H 2200 5000 50  0000 C CNN
+F 2 "" H 2200 4850 50  0001 C CNN
+F 3 "" H 2200 4850 50  0001 C CNN
+	1    2200 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4850 2500 4850
+Connection ~ 2200 4850
+Wire Wire Line
+	2200 4900 2200 4850
+Wire Wire Line
+	2200 5150 2200 5100
+Wire Wire Line
+	2300 5150 2200 5150
+$Comp
+L Device:R_Small R?
+U 1 1 5F282EE2
+P 2200 5000
+AR Path="/5C2E7DBE/5F282EE2" Ref="R?"  Part="1" 
+AR Path="/5F282EE2" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5F282EE2" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5F282EE2" Ref="R30"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282EE2" Ref="R30"  Part="1" 
+F 0 "R30" H 2230 5020 50  0000 L CNN
+F 1 "10k" H 2230 4960 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 5000 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2200 5000 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 2200 5000 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 2200 5000 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 2200 5000 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 2200 5000 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 2200 5000 50  0001 C CNN "Alt Vendor P/N"
+	1    2200 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 5150 2700 5150
+Wire Wire Line
+	2800 5100 2800 5150
+$Comp
+L Device:R_Small R?
+U 1 1 5F282EEF
+P 2800 5000
+AR Path="/5C2E7DBE/5F282EEF" Ref="R?"  Part="1" 
+AR Path="/5F282EEF" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5F282EEF" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5F282EEF" Ref="R34"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282EEF" Ref="R34"  Part="1" 
+F 0 "R34" H 2830 5020 50  0000 L CNN
+F 1 "10k" H 2830 4960 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2800 5000 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2800 5000 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 2800 5000 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 2800 5000 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 2800 5000 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 2800 5000 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 2800 5000 50  0001 C CNN "Alt Vendor P/N"
+	1    2800 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4050 2800 4100
+$Comp
+L power:+5V #PWR?
+U 1 1 5F282EF6
+P 2800 4050
+AR Path="/5F282EF6" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5F282EF6" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5F282EF6" Ref="#PWR078"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282EF6" Ref="#PWR078"  Part="1" 
+F 0 "#PWR078" H 2800 3900 50  0001 C CNN
+F 1 "+5V" H 2800 4200 50  0000 C CNN
+F 2 "" H 2800 4050 50  0001 C CNN
+F 3 "" H 2800 4050 50  0001 C CNN
+	1    2800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F282EFC
+P 2200 4050
+AR Path="/5C2E7DBE/5F282EFC" Ref="#PWR?"  Part="1" 
+AR Path="/5F282EFC" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5F282EFC" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5F282EFC" Ref="#PWR074"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282EFC" Ref="#PWR074"  Part="1" 
+F 0 "#PWR074" H 2200 3900 50  0001 C CNN
+F 1 "+3V3" H 2200 4200 50  0000 C CNN
+F 2 "" H 2200 4050 50  0001 C CNN
+F 3 "" H 2200 4050 50  0001 C CNN
+	1    2200 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4050 2500 4050
+Wire Wire Line
+	2200 4350 2200 4300
+Wire Wire Line
+	2300 4350 2200 4350
+$Comp
+L Device:R_Small R?
+U 1 1 5F282F0A
+P 2200 4200
+AR Path="/5C2E7DBE/5F282F0A" Ref="R?"  Part="1" 
+AR Path="/5F282F0A" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5F282F0A" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5F282F0A" Ref="R29"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282F0A" Ref="R29"  Part="1" 
+F 0 "R29" H 2230 4220 50  0000 L CNN
+F 1 "10k" H 2230 4160 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 4200 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2200 4200 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 2200 4200 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 2200 4200 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 2200 4200 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 2200 4200 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 2200 4200 50  0001 C CNN "Alt Vendor P/N"
+	1    2200 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 4350 2700 4350
+Wire Wire Line
+	2800 4300 2800 4350
+$Comp
+L Device:R_Small R?
+U 1 1 5F282F17
+P 2800 4200
+AR Path="/5C2E7DBE/5F282F17" Ref="R?"  Part="1" 
+AR Path="/5F282F17" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5F282F17" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5F282F17" Ref="R33"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282F17" Ref="R33"  Part="1" 
+F 0 "R33" H 2830 4220 50  0000 L CNN
+F 1 "10k" H 2830 4160 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2800 4200 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2800 4200 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 2800 4200 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 2800 4200 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 2800 4200 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 2800 4200 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 2800 4200 50  0001 C CNN "Alt Vendor P/N"
+	1    2800 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3300 2800 3350
+$Comp
+L power:+5V #PWR?
+U 1 1 5F282F1E
+P 2800 3300
+AR Path="/5F282F1E" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5F282F1E" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5F282F1E" Ref="#PWR077"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282F1E" Ref="#PWR077"  Part="1" 
+F 0 "#PWR077" H 2800 3150 50  0001 C CNN
+F 1 "+5V" H 2800 3450 50  0000 C CNN
+F 2 "" H 2800 3300 50  0001 C CNN
+F 3 "" H 2800 3300 50  0001 C CNN
+	1    2800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F282F24
+P 2200 3300
+AR Path="/5C2E7DBE/5F282F24" Ref="#PWR?"  Part="1" 
+AR Path="/5F282F24" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5F282F24" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5F282F24" Ref="#PWR073"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282F24" Ref="#PWR073"  Part="1" 
+F 0 "#PWR073" H 2200 3150 50  0001 C CNN
+F 1 "+3V3" H 2200 3450 50  0000 C CNN
+F 2 "" H 2200 3300 50  0001 C CNN
+F 3 "" H 2200 3300 50  0001 C CNN
+	1    2200 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3300 2500 3300
+Connection ~ 2200 3300
+Wire Wire Line
+	2200 3350 2200 3300
+Wire Wire Line
+	2200 3600 2200 3550
+Wire Wire Line
+	2300 3600 2200 3600
+$Comp
+L Device:R_Small R?
+U 1 1 5F282F34
+P 2200 3450
+AR Path="/5C2E7DBE/5F282F34" Ref="R?"  Part="1" 
+AR Path="/5F282F34" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5F282F34" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5F282F34" Ref="R28"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282F34" Ref="R28"  Part="1" 
+F 0 "R28" H 2230 3470 50  0000 L CNN
+F 1 "10k" H 2230 3410 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 3450 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2200 3450 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 2200 3450 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 2200 3450 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 2200 3450 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 2200 3450 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 2200 3450 50  0001 C CNN "Alt Vendor P/N"
+	1    2200 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 3600 2700 3600
+Wire Wire Line
+	2800 3550 2800 3600
+$Comp
+L Device:R_Small R?
+U 1 1 5F282F41
+P 2800 3450
+AR Path="/5C2E7DBE/5F282F41" Ref="R?"  Part="1" 
+AR Path="/5F282F41" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5F282F41" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5F282F41" Ref="R32"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282F41" Ref="R32"  Part="1" 
+F 0 "R32" H 2830 3470 50  0000 L CNN
+F 1 "10k" H 2830 3410 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2800 3450 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2800 3450 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 2800 3450 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 2800 3450 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 2800 3450 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 2800 3450 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 2800 3450 50  0001 C CNN "Alt Vendor P/N"
+	1    2800 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2550 2800 2600
+$Comp
+L power:+5V #PWR?
+U 1 1 5F282F48
+P 2800 2550
+AR Path="/5F282F48" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5F282F48" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5F282F48" Ref="#PWR076"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282F48" Ref="#PWR076"  Part="1" 
+F 0 "#PWR076" H 2800 2400 50  0001 C CNN
+F 1 "+5V" H 2800 2700 50  0000 C CNN
+F 2 "" H 2800 2550 50  0001 C CNN
+F 3 "" H 2800 2550 50  0001 C CNN
+	1    2800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F282F4E
+P 2200 2550
+AR Path="/5C2E7DBE/5F282F4E" Ref="#PWR?"  Part="1" 
+AR Path="/5F282F4E" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5F282F4E" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5F282F4E" Ref="#PWR072"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282F4E" Ref="#PWR072"  Part="1" 
+F 0 "#PWR072" H 2200 2400 50  0001 C CNN
+F 1 "+3V3" H 2200 2700 50  0000 C CNN
+F 2 "" H 2200 2550 50  0001 C CNN
+F 3 "" H 2200 2550 50  0001 C CNN
+	1    2200 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2550 2500 2550
+Connection ~ 2200 2550
+Wire Wire Line
+	2200 2600 2200 2550
+Wire Wire Line
+	2200 2850 2200 2800
+Wire Wire Line
+	2300 2850 2200 2850
+$Comp
+L Device:R_Small R?
+U 1 1 5F282F5E
+P 2200 2700
+AR Path="/5C2E7DBE/5F282F5E" Ref="R?"  Part="1" 
+AR Path="/5F282F5E" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5F282F5E" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5F282F5E" Ref="R27"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282F5E" Ref="R27"  Part="1" 
+F 0 "R27" H 2230 2720 50  0000 L CNN
+F 1 "10k" H 2230 2660 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 2700 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2200 2700 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 2200 2700 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 2200 2700 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 2200 2700 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 2200 2700 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 2200 2700 50  0001 C CNN "Alt Vendor P/N"
+	1    2200 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 2850 2700 2850
+Wire Wire Line
+	2800 2800 2800 2850
+$Comp
+L Device:R_Small R?
+U 1 1 5F282F6B
+P 2800 2700
+AR Path="/5C2E7DBE/5F282F6B" Ref="R?"  Part="1" 
+AR Path="/5F282F6B" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5F282F6B" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5F282F6B" Ref="R31"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282F6B" Ref="R31"  Part="1" 
+F 0 "R31" H 2830 2720 50  0000 L CNN
+F 1 "10k" H 2830 2660 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2800 2700 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2800 2700 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 2800 2700 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 2800 2700 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 2800 2700 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 2800 2700 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 2800 2700 50  0001 C CNN "Alt Vendor P/N"
+	1    2800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5F282F76
+P 2500 2750
+AR Path="/5C2E7DBE/5F282F76" Ref="Q?"  Part="1" 
+AR Path="/5F282F76" Ref="Q?"  Part="1" 
+AR Path="/5CA037C4/5F282F76" Ref="Q?"  Part="1" 
+AR Path="/5EFFF345/5F282F76" Ref="Q1"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282F76" Ref="Q1"  Part="1" 
+F 0 "Q1" V 2750 2750 50  0000 C CNN
+F 1 "Q_NMOS_GSD" H 2700 2700 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2700 2850 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS123-D.PDF" H 2500 2750 50  0001 C CNN
+F 4 "BSS123L" H 2500 2750 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 2500 2750 50  0001 C CNN "Vendor"
+F 6 "BSS123LCT-ND" H 2500 2750 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 2500 2750 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 2500 2750 50  0001 C CNN "Alt Vendor P/N"
+	1    2500 2750
+	0    1    1    0   
+$EndComp
+Text HLabel 2050 2850 0    60   Input ~ 0
+LV1_Red
+Wire Wire Line
+	2050 2850 2200 2850
+Connection ~ 2200 2850
+Text HLabel 2950 2850 2    60   Input ~ 0
+HV1_Red
+Wire Wire Line
+	2950 2850 2800 2850
+Connection ~ 2800 2850
+Text HLabel 2050 3600 0    60   Input ~ 0
+LV2_Red
+Text HLabel 2050 4350 0    60   Input ~ 0
+LV3_Red
+Text HLabel 2050 5150 0    60   Input ~ 0
+LV4_Red
+Text HLabel 2950 3600 2    60   Input ~ 0
+HV2_Red
+Text HLabel 2950 4350 2    60   Input ~ 0
+HV3_Red
+Text HLabel 2950 5150 2    60   Input ~ 0
+HV4_Red
+Wire Wire Line
+	2200 4100 2200 4050
+Connection ~ 2200 4050
+Wire Wire Line
+	2050 3600 2200 3600
+Connection ~ 2200 3600
+Wire Wire Line
+	2050 4350 2200 4350
+Connection ~ 2200 4350
+Wire Wire Line
+	2050 5150 2200 5150
+Connection ~ 2200 5150
+Wire Wire Line
+	2950 5150 2800 5150
+Connection ~ 2800 5150
+Wire Wire Line
+	2950 4350 2800 4350
+Connection ~ 2800 4350
+Wire Wire Line
+	2950 3600 2800 3600
+Connection ~ 2800 3600
+Wire Wire Line
+	5800 4850 5800 4900
+$Comp
+L power:+5V #PWR?
+U 1 1 5F282F97
+P 5800 4850
+AR Path="/5F282F97" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5F282F97" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5F282F97" Ref="#PWR087"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282F97" Ref="#PWR087"  Part="1" 
+F 0 "#PWR087" H 5800 4700 50  0001 C CNN
+F 1 "+5V" H 5800 5000 50  0000 C CNN
+F 2 "" H 5800 4850 50  0001 C CNN
+F 3 "" H 5800 4850 50  0001 C CNN
+	1    5800 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F282F9D
+P 5200 4850
+AR Path="/5C2E7DBE/5F282F9D" Ref="#PWR?"  Part="1" 
+AR Path="/5F282F9D" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5F282F9D" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5F282F9D" Ref="#PWR083"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282F9D" Ref="#PWR083"  Part="1" 
+F 0 "#PWR083" H 5200 4700 50  0001 C CNN
+F 1 "+3V3" H 5200 5000 50  0000 C CNN
+F 2 "" H 5200 4850 50  0001 C CNN
+F 3 "" H 5200 4850 50  0001 C CNN
+	1    5200 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4850 5500 4850
+Connection ~ 5200 4850
+Wire Wire Line
+	5200 4900 5200 4850
+Wire Wire Line
+	5200 5150 5200 5100
+Wire Wire Line
+	5300 5150 5200 5150
+$Comp
+L Device:R_Small R?
+U 1 1 5F282FAD
+P 5200 5000
+AR Path="/5C2E7DBE/5F282FAD" Ref="R?"  Part="1" 
+AR Path="/5F282FAD" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5F282FAD" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5F282FAD" Ref="R38"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282FAD" Ref="R38"  Part="1" 
+F 0 "R38" H 5230 5020 50  0000 L CNN
+F 1 "10k" H 5230 4960 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5200 5000 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5200 5000 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 5200 5000 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 5200 5000 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 5200 5000 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 5200 5000 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 5200 5000 50  0001 C CNN "Alt Vendor P/N"
+	1    5200 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 5150 5700 5150
+Wire Wire Line
+	5800 5100 5800 5150
+$Comp
+L Device:R_Small R?
+U 1 1 5F282FBA
+P 5800 5000
+AR Path="/5C2E7DBE/5F282FBA" Ref="R?"  Part="1" 
+AR Path="/5F282FBA" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5F282FBA" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5F282FBA" Ref="R42"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282FBA" Ref="R42"  Part="1" 
+F 0 "R42" H 5830 5020 50  0000 L CNN
+F 1 "10k" H 5830 4960 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 5000 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5800 5000 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 5800 5000 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 5800 5000 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 5800 5000 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 5800 5000 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 5800 5000 50  0001 C CNN "Alt Vendor P/N"
+	1    5800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5F282FC5
+P 5500 5050
+AR Path="/5C2E7DBE/5F282FC5" Ref="Q?"  Part="1" 
+AR Path="/5F282FC5" Ref="Q?"  Part="1" 
+AR Path="/5CA037C4/5F282FC5" Ref="Q?"  Part="1" 
+AR Path="/5EFFF345/5F282FC5" Ref="Q8"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282FC5" Ref="Q8"  Part="1" 
+F 0 "Q8" V 5750 5050 50  0000 C CNN
+F 1 "Q_NMOS_GSD" H 5700 5000 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 5150 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS123-D.PDF" H 5500 5050 50  0001 C CNN
+F 4 "BSS123L" H 5500 5050 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 5500 5050 50  0001 C CNN "Vendor"
+F 6 "BSS123LCT-ND" H 5500 5050 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 5500 5050 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 5500 5050 50  0001 C CNN "Alt Vendor P/N"
+	1    5500 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 4050 5800 4100
+$Comp
+L power:+5V #PWR?
+U 1 1 5F282FCC
+P 5800 4050
+AR Path="/5F282FCC" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5F282FCC" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5F282FCC" Ref="#PWR086"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282FCC" Ref="#PWR086"  Part="1" 
+F 0 "#PWR086" H 5800 3900 50  0001 C CNN
+F 1 "+5V" H 5800 4200 50  0000 C CNN
+F 2 "" H 5800 4050 50  0001 C CNN
+F 3 "" H 5800 4050 50  0001 C CNN
+	1    5800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F282FD2
+P 5200 4050
+AR Path="/5C2E7DBE/5F282FD2" Ref="#PWR?"  Part="1" 
+AR Path="/5F282FD2" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5F282FD2" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5F282FD2" Ref="#PWR082"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282FD2" Ref="#PWR082"  Part="1" 
+F 0 "#PWR082" H 5200 3900 50  0001 C CNN
+F 1 "+3V3" H 5200 4200 50  0000 C CNN
+F 2 "" H 5200 4050 50  0001 C CNN
+F 3 "" H 5200 4050 50  0001 C CNN
+	1    5200 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4050 5500 4050
+Wire Wire Line
+	5200 4350 5200 4300
+Wire Wire Line
+	5300 4350 5200 4350
+$Comp
+L Device:R_Small R?
+U 1 1 5F282FE0
+P 5200 4200
+AR Path="/5C2E7DBE/5F282FE0" Ref="R?"  Part="1" 
+AR Path="/5F282FE0" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5F282FE0" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5F282FE0" Ref="R37"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282FE0" Ref="R37"  Part="1" 
+F 0 "R37" H 5230 4220 50  0000 L CNN
+F 1 "10k" H 5230 4160 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5200 4200 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5200 4200 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 5200 4200 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 5200 4200 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 5200 4200 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 5200 4200 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 5200 4200 50  0001 C CNN "Alt Vendor P/N"
+	1    5200 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 4350 5700 4350
+Wire Wire Line
+	5800 4300 5800 4350
+$Comp
+L Device:R_Small R?
+U 1 1 5F282FED
+P 5800 4200
+AR Path="/5C2E7DBE/5F282FED" Ref="R?"  Part="1" 
+AR Path="/5F282FED" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5F282FED" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5F282FED" Ref="R41"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282FED" Ref="R41"  Part="1" 
+F 0 "R41" H 5830 4220 50  0000 L CNN
+F 1 "10k" H 5830 4160 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 4200 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5800 4200 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 5800 4200 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 5800 4200 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 5800 4200 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 5800 4200 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 5800 4200 50  0001 C CNN "Alt Vendor P/N"
+	1    5800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5F282FF8
+P 5500 4250
+AR Path="/5C2E7DBE/5F282FF8" Ref="Q?"  Part="1" 
+AR Path="/5F282FF8" Ref="Q?"  Part="1" 
+AR Path="/5CA037C4/5F282FF8" Ref="Q?"  Part="1" 
+AR Path="/5EFFF345/5F282FF8" Ref="Q7"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282FF8" Ref="Q7"  Part="1" 
+F 0 "Q7" V 5750 4250 50  0000 C CNN
+F 1 "Q_NMOS_GSD" H 5700 4200 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 4350 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS123-D.PDF" H 5500 4250 50  0001 C CNN
+F 4 "BSS123L" H 5500 4250 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 5500 4250 50  0001 C CNN "Vendor"
+F 6 "BSS123LCT-ND" H 5500 4250 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 5500 4250 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 5500 4250 50  0001 C CNN "Alt Vendor P/N"
+	1    5500 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 3300 5800 3350
+$Comp
+L power:+5V #PWR?
+U 1 1 5F282FFF
+P 5800 3300
+AR Path="/5F282FFF" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5F282FFF" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5F282FFF" Ref="#PWR085"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F282FFF" Ref="#PWR085"  Part="1" 
+F 0 "#PWR085" H 5800 3150 50  0001 C CNN
+F 1 "+5V" H 5800 3450 50  0000 C CNN
+F 2 "" H 5800 3300 50  0001 C CNN
+F 3 "" H 5800 3300 50  0001 C CNN
+	1    5800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F283005
+P 5200 3300
+AR Path="/5C2E7DBE/5F283005" Ref="#PWR?"  Part="1" 
+AR Path="/5F283005" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5F283005" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5F283005" Ref="#PWR081"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F283005" Ref="#PWR081"  Part="1" 
+F 0 "#PWR081" H 5200 3150 50  0001 C CNN
+F 1 "+3V3" H 5200 3450 50  0000 C CNN
+F 2 "" H 5200 3300 50  0001 C CNN
+F 3 "" H 5200 3300 50  0001 C CNN
+	1    5200 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3300 5500 3300
+Connection ~ 5200 3300
+Wire Wire Line
+	5200 3350 5200 3300
+Wire Wire Line
+	5200 3600 5200 3550
+Wire Wire Line
+	5300 3600 5200 3600
+$Comp
+L Device:R_Small R?
+U 1 1 5F283015
+P 5200 3450
+AR Path="/5C2E7DBE/5F283015" Ref="R?"  Part="1" 
+AR Path="/5F283015" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5F283015" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5F283015" Ref="R36"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F283015" Ref="R36"  Part="1" 
+F 0 "R36" H 5230 3470 50  0000 L CNN
+F 1 "10k" H 5230 3410 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5200 3450 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5200 3450 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 5200 3450 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 5200 3450 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 5200 3450 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 5200 3450 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 5200 3450 50  0001 C CNN "Alt Vendor P/N"
+	1    5200 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 3600 5700 3600
+Wire Wire Line
+	5800 3550 5800 3600
+$Comp
+L Device:R_Small R?
+U 1 1 5F283022
+P 5800 3450
+AR Path="/5C2E7DBE/5F283022" Ref="R?"  Part="1" 
+AR Path="/5F283022" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5F283022" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5F283022" Ref="R40"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F283022" Ref="R40"  Part="1" 
+F 0 "R40" H 5830 3470 50  0000 L CNN
+F 1 "10k" H 5830 3410 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 3450 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5800 3450 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 5800 3450 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 5800 3450 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 5800 3450 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 5800 3450 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 5800 3450 50  0001 C CNN "Alt Vendor P/N"
+	1    5800 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5F28302D
+P 5500 3500
+AR Path="/5C2E7DBE/5F28302D" Ref="Q?"  Part="1" 
+AR Path="/5F28302D" Ref="Q?"  Part="1" 
+AR Path="/5CA037C4/5F28302D" Ref="Q?"  Part="1" 
+AR Path="/5EFFF345/5F28302D" Ref="Q6"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F28302D" Ref="Q6"  Part="1" 
+F 0 "Q6" V 5750 3500 50  0000 C CNN
+F 1 "Q_NMOS_GSD" H 5700 3450 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 3600 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS123-D.PDF" H 5500 3500 50  0001 C CNN
+F 4 "BSS123L" H 5500 3500 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 5500 3500 50  0001 C CNN "Vendor"
+F 6 "BSS123LCT-ND" H 5500 3500 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 5500 3500 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 5500 3500 50  0001 C CNN "Alt Vendor P/N"
+	1    5500 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 2550 5800 2600
+$Comp
+L power:+5V #PWR?
+U 1 1 5F283034
+P 5800 2550
+AR Path="/5F283034" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5F283034" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5F283034" Ref="#PWR084"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F283034" Ref="#PWR084"  Part="1" 
+F 0 "#PWR084" H 5800 2400 50  0001 C CNN
+F 1 "+5V" H 5800 2700 50  0000 C CNN
+F 2 "" H 5800 2550 50  0001 C CNN
+F 3 "" H 5800 2550 50  0001 C CNN
+	1    5800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F28303A
+P 5200 2550
+AR Path="/5C2E7DBE/5F28303A" Ref="#PWR?"  Part="1" 
+AR Path="/5F28303A" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5F28303A" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5F28303A" Ref="#PWR080"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F28303A" Ref="#PWR080"  Part="1" 
+F 0 "#PWR080" H 5200 2400 50  0001 C CNN
+F 1 "+3V3" H 5200 2700 50  0000 C CNN
+F 2 "" H 5200 2550 50  0001 C CNN
+F 3 "" H 5200 2550 50  0001 C CNN
+	1    5200 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2550 5500 2550
+Connection ~ 5200 2550
+Wire Wire Line
+	5200 2600 5200 2550
+Wire Wire Line
+	5200 2850 5200 2800
+Wire Wire Line
+	5300 2850 5200 2850
+$Comp
+L Device:R_Small R?
+U 1 1 5F28304A
+P 5200 2700
+AR Path="/5C2E7DBE/5F28304A" Ref="R?"  Part="1" 
+AR Path="/5F28304A" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5F28304A" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5F28304A" Ref="R35"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F28304A" Ref="R35"  Part="1" 
+F 0 "R35" H 5230 2720 50  0000 L CNN
+F 1 "10k" H 5230 2660 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5200 2700 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5200 2700 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 5200 2700 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 5200 2700 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 5200 2700 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 5200 2700 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 5200 2700 50  0001 C CNN "Alt Vendor P/N"
+	1    5200 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 2850 5700 2850
+Wire Wire Line
+	5800 2800 5800 2850
+$Comp
+L Device:R_Small R?
+U 1 1 5F283057
+P 5800 2700
+AR Path="/5C2E7DBE/5F283057" Ref="R?"  Part="1" 
+AR Path="/5F283057" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5F283057" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5F283057" Ref="R39"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F283057" Ref="R39"  Part="1" 
+F 0 "R39" H 5830 2720 50  0000 L CNN
+F 1 "10k" H 5830 2660 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 2700 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5800 2700 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 5800 2700 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 5800 2700 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 5800 2700 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 5800 2700 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 5800 2700 50  0001 C CNN "Alt Vendor P/N"
+	1    5800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5F283062
+P 5500 2750
+AR Path="/5C2E7DBE/5F283062" Ref="Q?"  Part="1" 
+AR Path="/5F283062" Ref="Q?"  Part="1" 
+AR Path="/5CA037C4/5F283062" Ref="Q?"  Part="1" 
+AR Path="/5EFFF345/5F283062" Ref="Q5"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F283062" Ref="Q5"  Part="1" 
+F 0 "Q5" V 5750 2750 50  0000 C CNN
+F 1 "Q_NMOS_GSD" H 5700 2700 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 2850 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS123-D.PDF" H 5500 2750 50  0001 C CNN
+F 4 "BSS123L" H 5500 2750 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 5500 2750 50  0001 C CNN "Vendor"
+F 6 "BSS123LCT-ND" H 5500 2750 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 5500 2750 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 5500 2750 50  0001 C CNN "Alt Vendor P/N"
+	1    5500 2750
+	0    1    1    0   
+$EndComp
+Text HLabel 5050 2850 0    60   Input ~ 0
+LV1_Blue
+Wire Wire Line
+	5050 2850 5200 2850
+Connection ~ 5200 2850
+Text HLabel 5950 2850 2    60   Input ~ 0
+HV1_Blue
+Wire Wire Line
+	5950 2850 5800 2850
+Connection ~ 5800 2850
+Text HLabel 5050 3600 0    60   Input ~ 0
+LV2_Blue
+Text HLabel 5050 4350 0    60   Input ~ 0
+LV3_Blue
+Text HLabel 5050 5150 0    60   Input ~ 0
+LV4_Blue
+Text HLabel 5950 3600 2    60   Input ~ 0
+HV2_Blue
+Text HLabel 5950 4350 2    60   Input ~ 0
+HV3_Blue
+Text HLabel 5950 5150 2    60   Input ~ 0
+HV4_Blue
+Wire Wire Line
+	5200 4100 5200 4050
+Connection ~ 5200 4050
+Wire Wire Line
+	5050 3600 5200 3600
+Connection ~ 5200 3600
+Wire Wire Line
+	5050 4350 5200 4350
+Connection ~ 5200 4350
+Wire Wire Line
+	5050 5150 5200 5150
+Connection ~ 5200 5150
+Wire Wire Line
+	5950 5150 5800 5150
+Connection ~ 5800 5150
+Wire Wire Line
+	5950 4350 5800 4350
+Connection ~ 5800 4350
+Wire Wire Line
+	5950 3600 5800 3600
+Connection ~ 5800 3600
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5F283087
+P 2500 5050
+AR Path="/5C2E7DBE/5F283087" Ref="Q?"  Part="1" 
+AR Path="/5F283087" Ref="Q?"  Part="1" 
+AR Path="/5CA037C4/5F283087" Ref="Q?"  Part="1" 
+AR Path="/5EFFF345/5F283087" Ref="Q4"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F283087" Ref="Q4"  Part="1" 
+F 0 "Q4" V 2750 5050 50  0000 C CNN
+F 1 "Q_NMOS_GSD" H 2700 5000 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2700 5150 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS123-D.PDF" H 2500 5050 50  0001 C CNN
+F 4 "BSS123L" H 2500 5050 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 2500 5050 50  0001 C CNN "Vendor"
+F 6 "BSS123LCT-ND" H 2500 5050 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 2500 5050 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 2500 5050 50  0001 C CNN "Alt Vendor P/N"
+	1    2500 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5F283092
+P 2500 4250
+AR Path="/5C2E7DBE/5F283092" Ref="Q?"  Part="1" 
+AR Path="/5F283092" Ref="Q?"  Part="1" 
+AR Path="/5CA037C4/5F283092" Ref="Q?"  Part="1" 
+AR Path="/5EFFF345/5F283092" Ref="Q3"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F283092" Ref="Q3"  Part="1" 
+F 0 "Q3" V 2750 4250 50  0000 C CNN
+F 1 "Q_NMOS_GSD" H 2700 4200 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2700 4350 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS123-D.PDF" H 2500 4250 50  0001 C CNN
+F 4 "BSS123L" H 2500 4250 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 2500 4250 50  0001 C CNN "Vendor"
+F 6 "BSS123LCT-ND" H 2500 4250 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 2500 4250 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 2500 4250 50  0001 C CNN "Alt Vendor P/N"
+	1    2500 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5F28309D
+P 2500 3500
+AR Path="/5C2E7DBE/5F28309D" Ref="Q?"  Part="1" 
+AR Path="/5F28309D" Ref="Q?"  Part="1" 
+AR Path="/5CA037C4/5F28309D" Ref="Q?"  Part="1" 
+AR Path="/5EFFF345/5F28309D" Ref="Q2"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5F28309D" Ref="Q2"  Part="1" 
+F 0 "Q2" V 2750 3500 50  0000 C CNN
+F 1 "Q_NMOS_GSD" H 2700 3450 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2700 3600 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS123-D.PDF" H 2500 3500 50  0001 C CNN
+F 4 "BSS123L" H 2500 3500 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 2500 3500 50  0001 C CNN "Vendor"
+F 6 "BSS123LCT-ND" H 2500 3500 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 2500 3500 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 2500 3500 50  0001 C CNN "Alt Vendor P/N"
+	1    2500 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8950 4850 8950 4900
+$Comp
+L power:+5V #PWR?
+U 1 1 5EED8DEB
+P 8950 4850
+AR Path="/5EED8DEB" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5EED8DEB" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5EED8DEB" Ref="#PWR?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8DEB" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 8950 4700 50  0001 C CNN
+F 1 "+5V" H 8950 5000 50  0000 C CNN
+F 2 "" H 8950 4850 50  0001 C CNN
+F 3 "" H 8950 4850 50  0001 C CNN
+	1    8950 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EED8DF5
+P 8350 4850
+AR Path="/5C2E7DBE/5EED8DF5" Ref="#PWR?"  Part="1" 
+AR Path="/5EED8DF5" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5EED8DF5" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5EED8DF5" Ref="#PWR?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8DF5" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 8350 4700 50  0001 C CNN
+F 1 "+3V3" H 8350 5000 50  0000 C CNN
+F 2 "" H 8350 4850 50  0001 C CNN
+F 3 "" H 8350 4850 50  0001 C CNN
+	1    8350 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4850 8650 4850
+Connection ~ 8350 4850
+Wire Wire Line
+	8350 4900 8350 4850
+Wire Wire Line
+	8350 5150 8350 5100
+Wire Wire Line
+	8450 5150 8350 5150
+$Comp
+L Device:R_Small R?
+U 1 1 5EED8E09
+P 8350 5000
+AR Path="/5C2E7DBE/5EED8E09" Ref="R?"  Part="1" 
+AR Path="/5EED8E09" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5EED8E09" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5EED8E09" Ref="R?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8E09" Ref="R65"  Part="1" 
+F 0 "R65" H 8380 5020 50  0000 L CNN
+F 1 "10k" H 8380 4960 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8350 5000 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8350 5000 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 8350 5000 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 8350 5000 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 8350 5000 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 8350 5000 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 8350 5000 50  0001 C CNN "Alt Vendor P/N"
+	1    8350 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8950 5150 8850 5150
+Wire Wire Line
+	8950 5100 8950 5150
+$Comp
+L Device:R_Small R?
+U 1 1 5EED8E1A
+P 8950 5000
+AR Path="/5C2E7DBE/5EED8E1A" Ref="R?"  Part="1" 
+AR Path="/5EED8E1A" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5EED8E1A" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5EED8E1A" Ref="R?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8E1A" Ref="R69"  Part="1" 
+F 0 "R69" H 8980 5020 50  0000 L CNN
+F 1 "10k" H 8980 4960 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8950 5000 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8950 5000 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 8950 5000 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 8950 5000 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 8950 5000 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 8950 5000 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 8950 5000 50  0001 C CNN "Alt Vendor P/N"
+	1    8950 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5EED8E29
+P 8650 5050
+AR Path="/5C2E7DBE/5EED8E29" Ref="Q?"  Part="1" 
+AR Path="/5EED8E29" Ref="Q?"  Part="1" 
+AR Path="/5CA037C4/5EED8E29" Ref="Q?"  Part="1" 
+AR Path="/5EFFF345/5EED8E29" Ref="Q?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8E29" Ref="Q21"  Part="1" 
+F 0 "Q21" V 8900 5050 50  0000 C CNN
+F 1 "Q_NMOS_GSD" H 8850 5000 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8850 5150 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS123-D.PDF" H 8650 5050 50  0001 C CNN
+F 4 "BSS123L" H 8650 5050 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 8650 5050 50  0001 C CNN "Vendor"
+F 6 "BSS123LCT-ND" H 8650 5050 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 8650 5050 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 8650 5050 50  0001 C CNN "Alt Vendor P/N"
+	1    8650 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8950 4050 8950 4100
+$Comp
+L power:+5V #PWR?
+U 1 1 5EED8E34
+P 8950 4050
+AR Path="/5EED8E34" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5EED8E34" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5EED8E34" Ref="#PWR?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8E34" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 8950 3900 50  0001 C CNN
+F 1 "+5V" H 8950 4200 50  0000 C CNN
+F 2 "" H 8950 4050 50  0001 C CNN
+F 3 "" H 8950 4050 50  0001 C CNN
+	1    8950 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EED8E3E
+P 8350 4050
+AR Path="/5C2E7DBE/5EED8E3E" Ref="#PWR?"  Part="1" 
+AR Path="/5EED8E3E" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5EED8E3E" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5EED8E3E" Ref="#PWR?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8E3E" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 8350 3900 50  0001 C CNN
+F 1 "+3V3" H 8350 4200 50  0000 C CNN
+F 2 "" H 8350 4050 50  0001 C CNN
+F 3 "" H 8350 4050 50  0001 C CNN
+	1    8350 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4050 8650 4050
+Wire Wire Line
+	8350 4350 8350 4300
+Wire Wire Line
+	8450 4350 8350 4350
+$Comp
+L Device:R_Small R?
+U 1 1 5EED8E50
+P 8350 4200
+AR Path="/5C2E7DBE/5EED8E50" Ref="R?"  Part="1" 
+AR Path="/5EED8E50" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5EED8E50" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5EED8E50" Ref="R?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8E50" Ref="R64"  Part="1" 
+F 0 "R64" H 8380 4220 50  0000 L CNN
+F 1 "10k" H 8380 4160 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8350 4200 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8350 4200 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 8350 4200 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 8350 4200 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 8350 4200 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 8350 4200 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 8350 4200 50  0001 C CNN "Alt Vendor P/N"
+	1    8350 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8950 4350 8850 4350
+Wire Wire Line
+	8950 4300 8950 4350
+$Comp
+L Device:R_Small R?
+U 1 1 5EED8E61
+P 8950 4200
+AR Path="/5C2E7DBE/5EED8E61" Ref="R?"  Part="1" 
+AR Path="/5EED8E61" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5EED8E61" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5EED8E61" Ref="R?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8E61" Ref="R68"  Part="1" 
+F 0 "R68" H 8980 4220 50  0000 L CNN
+F 1 "10k" H 8980 4160 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8950 4200 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8950 4200 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 8950 4200 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 8950 4200 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 8950 4200 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 8950 4200 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 8950 4200 50  0001 C CNN "Alt Vendor P/N"
+	1    8950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5EED8E70
+P 8650 4250
+AR Path="/5C2E7DBE/5EED8E70" Ref="Q?"  Part="1" 
+AR Path="/5EED8E70" Ref="Q?"  Part="1" 
+AR Path="/5CA037C4/5EED8E70" Ref="Q?"  Part="1" 
+AR Path="/5EFFF345/5EED8E70" Ref="Q?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8E70" Ref="Q20"  Part="1" 
+F 0 "Q20" V 8900 4250 50  0000 C CNN
+F 1 "Q_NMOS_GSD" H 8850 4200 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8850 4350 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS123-D.PDF" H 8650 4250 50  0001 C CNN
+F 4 "BSS123L" H 8650 4250 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 8650 4250 50  0001 C CNN "Vendor"
+F 6 "BSS123LCT-ND" H 8650 4250 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 8650 4250 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 8650 4250 50  0001 C CNN "Alt Vendor P/N"
+	1    8650 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8950 3300 8950 3350
+$Comp
+L power:+5V #PWR?
+U 1 1 5EED8E7B
+P 8950 3300
+AR Path="/5EED8E7B" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5EED8E7B" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5EED8E7B" Ref="#PWR?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8E7B" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 8950 3150 50  0001 C CNN
+F 1 "+5V" H 8950 3450 50  0000 C CNN
+F 2 "" H 8950 3300 50  0001 C CNN
+F 3 "" H 8950 3300 50  0001 C CNN
+	1    8950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EED8E85
+P 8350 3300
+AR Path="/5C2E7DBE/5EED8E85" Ref="#PWR?"  Part="1" 
+AR Path="/5EED8E85" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5EED8E85" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5EED8E85" Ref="#PWR?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8E85" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 8350 3150 50  0001 C CNN
+F 1 "+3V3" H 8350 3450 50  0000 C CNN
+F 2 "" H 8350 3300 50  0001 C CNN
+F 3 "" H 8350 3300 50  0001 C CNN
+	1    8350 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 3300 8650 3300
+Connection ~ 8350 3300
+Wire Wire Line
+	8350 3350 8350 3300
+Wire Wire Line
+	8350 3600 8350 3550
+Wire Wire Line
+	8450 3600 8350 3600
+$Comp
+L Device:R_Small R?
+U 1 1 5EED8E99
+P 8350 3450
+AR Path="/5C2E7DBE/5EED8E99" Ref="R?"  Part="1" 
+AR Path="/5EED8E99" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5EED8E99" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5EED8E99" Ref="R?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8E99" Ref="R63"  Part="1" 
+F 0 "R63" H 8380 3470 50  0000 L CNN
+F 1 "10k" H 8380 3410 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8350 3450 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8350 3450 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 8350 3450 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 8350 3450 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 8350 3450 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 8350 3450 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 8350 3450 50  0001 C CNN "Alt Vendor P/N"
+	1    8350 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8950 3600 8850 3600
+Wire Wire Line
+	8950 3550 8950 3600
+$Comp
+L Device:R_Small R?
+U 1 1 5EED8EAA
+P 8950 3450
+AR Path="/5C2E7DBE/5EED8EAA" Ref="R?"  Part="1" 
+AR Path="/5EED8EAA" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5EED8EAA" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5EED8EAA" Ref="R?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8EAA" Ref="R67"  Part="1" 
+F 0 "R67" H 8980 3470 50  0000 L CNN
+F 1 "10k" H 8980 3410 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8950 3450 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8950 3450 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 8950 3450 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 8950 3450 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 8950 3450 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 8950 3450 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 8950 3450 50  0001 C CNN "Alt Vendor P/N"
+	1    8950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5EED8EB9
+P 8650 3500
+AR Path="/5C2E7DBE/5EED8EB9" Ref="Q?"  Part="1" 
+AR Path="/5EED8EB9" Ref="Q?"  Part="1" 
+AR Path="/5CA037C4/5EED8EB9" Ref="Q?"  Part="1" 
+AR Path="/5EFFF345/5EED8EB9" Ref="Q?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8EB9" Ref="Q19"  Part="1" 
+F 0 "Q19" V 8900 3500 50  0000 C CNN
+F 1 "Q_NMOS_GSD" H 8850 3450 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8850 3600 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS123-D.PDF" H 8650 3500 50  0001 C CNN
+F 4 "BSS123L" H 8650 3500 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 8650 3500 50  0001 C CNN "Vendor"
+F 6 "BSS123LCT-ND" H 8650 3500 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 8650 3500 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 8650 3500 50  0001 C CNN "Alt Vendor P/N"
+	1    8650 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8950 2550 8950 2600
+$Comp
+L power:+5V #PWR?
+U 1 1 5EED8EC4
+P 8950 2550
+AR Path="/5EED8EC4" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5EED8EC4" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5EED8EC4" Ref="#PWR?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8EC4" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 8950 2400 50  0001 C CNN
+F 1 "+5V" H 8950 2700 50  0000 C CNN
+F 2 "" H 8950 2550 50  0001 C CNN
+F 3 "" H 8950 2550 50  0001 C CNN
+	1    8950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EED8ECE
+P 8350 2550
+AR Path="/5C2E7DBE/5EED8ECE" Ref="#PWR?"  Part="1" 
+AR Path="/5EED8ECE" Ref="#PWR?"  Part="1" 
+AR Path="/5CA037C4/5EED8ECE" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF345/5EED8ECE" Ref="#PWR?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8ECE" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 8350 2400 50  0001 C CNN
+F 1 "+3V3" H 8350 2700 50  0000 C CNN
+F 2 "" H 8350 2550 50  0001 C CNN
+F 3 "" H 8350 2550 50  0001 C CNN
+	1    8350 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2550 8650 2550
+Connection ~ 8350 2550
+Wire Wire Line
+	8350 2600 8350 2550
+Wire Wire Line
+	8350 2850 8350 2800
+Wire Wire Line
+	8450 2850 8350 2850
+$Comp
+L Device:R_Small R?
+U 1 1 5EED8EE2
+P 8350 2700
+AR Path="/5C2E7DBE/5EED8EE2" Ref="R?"  Part="1" 
+AR Path="/5EED8EE2" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5EED8EE2" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5EED8EE2" Ref="R?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8EE2" Ref="R62"  Part="1" 
+F 0 "R62" H 8380 2720 50  0000 L CNN
+F 1 "10k" H 8380 2660 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8350 2700 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8350 2700 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 8350 2700 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 8350 2700 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 8350 2700 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 8350 2700 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 8350 2700 50  0001 C CNN "Alt Vendor P/N"
+	1    8350 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8950 2850 8850 2850
+Wire Wire Line
+	8950 2800 8950 2850
+$Comp
+L Device:R_Small R?
+U 1 1 5EED8EF3
+P 8950 2700
+AR Path="/5C2E7DBE/5EED8EF3" Ref="R?"  Part="1" 
+AR Path="/5EED8EF3" Ref="R?"  Part="1" 
+AR Path="/5CA037C4/5EED8EF3" Ref="R?"  Part="1" 
+AR Path="/5EFFF345/5EED8EF3" Ref="R?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8EF3" Ref="R66"  Part="1" 
+F 0 "R66" H 8980 2720 50  0000 L CNN
+F 1 "10k" H 8980 2660 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8950 2700 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8950 2700 50  0001 C CNN
+F 4 "RMCF0805JG10K0" H 8950 2700 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 8950 2700 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JG10K0CT-ND" H 8950 2700 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 8950 2700 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 8950 2700 50  0001 C CNN "Alt Vendor P/N"
+	1    8950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5EED8F02
+P 8650 2750
+AR Path="/5C2E7DBE/5EED8F02" Ref="Q?"  Part="1" 
+AR Path="/5EED8F02" Ref="Q?"  Part="1" 
+AR Path="/5CA037C4/5EED8F02" Ref="Q?"  Part="1" 
+AR Path="/5EFFF345/5EED8F02" Ref="Q?"  Part="1" 
+AR Path="/5EE2ECA3/5EE852C3/5EED8F02" Ref="Q18"  Part="1" 
+F 0 "Q18" V 8900 2750 50  0000 C CNN
+F 1 "Q_NMOS_GSD" H 8850 2700 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8850 2850 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS123-D.PDF" H 8650 2750 50  0001 C CNN
+F 4 "BSS123L" H 8650 2750 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 8650 2750 50  0001 C CNN "Vendor"
+F 6 "BSS123LCT-ND" H 8650 2750 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 8650 2750 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 8650 2750 50  0001 C CNN "Alt Vendor P/N"
+	1    8650 2750
+	0    1    1    0   
+$EndComp
+Text HLabel 8200 2850 0    60   Input ~ 0
+LV1_CoBlend
+Wire Wire Line
+	8200 2850 8350 2850
+Connection ~ 8350 2850
+Text HLabel 9100 2850 2    60   Input ~ 0
+HV1_CoBlend
+Wire Wire Line
+	9100 2850 8950 2850
+Connection ~ 8950 2850
+Text HLabel 8200 3600 0    60   Input ~ 0
+LV2_CoBlend
+Text HLabel 8200 4350 0    60   Input ~ 0
+LV3_CoBlend
+Text HLabel 8200 5150 0    60   Input ~ 0
+LV4_CoBlend
+Text HLabel 9100 3600 2    60   Input ~ 0
+HV2_CoBlend
+Text HLabel 9100 4350 2    60   Input ~ 0
+HV3_CoBlend
+Text HLabel 9100 5150 2    60   Input ~ 0
+HV4_CoBlend
+Wire Wire Line
+	8350 4100 8350 4050
+Connection ~ 8350 4050
+Wire Wire Line
+	8200 3600 8350 3600
+Connection ~ 8350 3600
+Wire Wire Line
+	8200 4350 8350 4350
+Connection ~ 8350 4350
+Wire Wire Line
+	8200 5150 8350 5150
+Connection ~ 8350 5150
+Wire Wire Line
+	9100 5150 8950 5150
+Connection ~ 8950 5150
+Wire Wire Line
+	9100 4350 8950 4350
+Connection ~ 8950 4350
+Wire Wire Line
+	9100 3600 8950 3600
+Connection ~ 8950 3600
+$EndSCHEMATC

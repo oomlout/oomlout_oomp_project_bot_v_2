@@ -1,9 +1,285 @@
 board: adafruit_had_proto_hat_rev_a
+bom:
+- Id: '1'
+  Designator: SJ1
+  Footprint: SOLDERJUMPER_CLOSEDWIRE
+  Quantity: '1'
+  Designation: WP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R2,R3,R1
+  Footprint: 0805-NO
+  Quantity: '3'
+  Designation: 3.9K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: RPI1
+  Footprint: PI_HAT_NOSLOTS
+  Quantity: '1'
+  Designation: RASPBERRYPI_BPLUS_HATNOSLOTS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$2
+  Footprint: PIHATLOGO
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$1
+  Footprint: ADAFRUIT_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: FID2,FID3
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: CONN1
+  Footprint: 1X25_ROUND_70MIL
+  Quantity: '1'
+  Designation: HEADER-1X25
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U$5
+  Footprint: HAD_LOGO_200MIL
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U1
+  Footprint: SOIC8_150MIL
+  Quantity: '1'
+  Designation: CAT24C32
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U$3
+  Footprint: PCBFEAT-REV-056
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | SJ1\
+  \ | SOLDERJUMPER_CLOSEDWIRE | 1 | WP |  |  | [''] | \n| 2 | R2,R3,R1 | 0805-NO |\
+  \ 3 | 3.9K |  |  | [''] | \n| 3 | RPI1 | PI_HAT_NOSLOTS | 1 | RASPBERRYPI_BPLUS_HATNOSLOTS\
+  \ |  |  | [''] | \n| 4 | U$2 | PIHATLOGO | 1 |  |  |  | [''] | \n| 5 | U$1 | ADAFRUIT_5MM\
+  \ | 1 |  |  |  | [''] | \n| 6 | FID2,FID3 | FIDUCIAL_1MM | 2 | FIDUCIAL\" |  | \
+  \ | [''] | \n| 7 | CONN1 | 1X25_ROUND_70MIL | 1 | HEADER-1X25 |  |  | [''] | \n\
+  | 8 | U$5 | HAD_LOGO_200MIL | 1 |  |  |  | [''] | \n| 9 | U1 | SOIC8_150MIL | 1\
+  \ | CAT24C32 |  |  | [''] | \n| 10 | U$3 | PCBFEAT-REV-056 | 1 |  |  |  | [''] |\
+  \ \n"
+bom_schematic:
+- Cmp name: HEADER-1X25
+  DNP: ''
+  Description: ''
+  Footprint: working:1X25_ROUND_70MIL
+  Qnty: '1'
+  Ref: CONN1
+  Value: HEADER-1X25
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID2, FID3
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '3'
+  Ref: R1, R2, R3
+  Value: 3.9K
+  Vendor: ''
+- Cmp name: RASPBERRYPI_BPLUS_HATNOSLOTS
+  DNP: ''
+  Description: ''
+  Footprint: working:PI_HAT_NOSLOTS
+  Qnty: '1'
+  Ref: RPI1
+  Value: RASPBERRYPI_BPLUS_HATNOSLOTS
+  Vendor: ''
+- Cmp name: SOLDERJUMPER_CLOSED
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_CLOSEDWIRE
+  Qnty: '1'
+  Ref: SJ1
+  Value: WP
+  Vendor: ''
+- Cmp name: EEPROM_I2C_SOIC8_GENERIC
+  DNP: ''
+  Description: ''
+  Footprint: working:SOIC8_150MIL
+  Qnty: '1'
+  Ref: U1
+  Value: CAT24C32
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| CONN1\
+  \ | 1 | HEADER-1X25 | HEADER-1X25 | working:1X25_ROUND_70MIL |  |  |  | \n| FID2,\
+  \ FID3 | 2 | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM\
+  \ |  |  |  | \n| R1, R2, R3 | 3 | 3.9K | RESISTOR0805_NOOUTLINE | working:0805-NO\
+  \ |  |  |  | \n| RPI1 | 1 | RASPBERRYPI_BPLUS_HATNOSLOTS | RASPBERRYPI_BPLUS_HATNOSLOTS\
+  \ | working:PI_HAT_NOSLOTS |  |  |  | \n| SJ1 | 1 | WP | SOLDERJUMPER_CLOSED | working:SOLDERJUMPER_CLOSEDWIRE\
+  \ |  |  |  | \n| U1 | 1 | CAT24C32 | EEPROM_I2C_SOIC8_GENERIC | working:SOIC8_150MIL\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_perma_proto_hat_pcb_adafruit_had_proto_hat_rev_a/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_perma_proto_hat_pcb_adafruit_had_proto_hat_rev_a/current_version/working/working.sch
 id: adafruit_adafruit_perma_proto_hat_pcb_adafruit_had_proto_hat_rev_a
 name: adafruit_perma_proto_hat_pcb
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': CONN1
+  Package: 1X25_ROUND_70MIL
+  PosX: 148.7671
+  PosY: -86.0096
+  Rot: 0.0
+  Side: top
+  Val: HEADER-1X25
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 124.3831
+  PosY: -131.7296
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 174.4211
+  PosY: -83.7236
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 170.4841
+  PosY: -131.9836
+  Rot: 180.0
+  Side: top
+  Val: 3.9K
+- '# Ref': R2
+  Package: 0805-NO
+  PosX: 172.0081
+  PosY: -127.9196
+  Rot: 90.0
+  Side: top
+  Val: 3.9K
+- '# Ref': R3
+  Package: 0805-NO
+  PosX: 166.6741
+  PosY: -131.9836
+  Rot: 0.0
+  Side: top
+  Val: 3.9K
+- '# Ref': RPI1
+  Package: PI_HAT_NOSLOTS
+  PosX: 116.0011
+  PosY: -133.2536
+  Rot: 0.0
+  Side: top
+  Val: RASPBERRYPI_BPLUS_HATNOSLOTS
+- '# Ref': SJ1
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 163.1181
+  PosY: -131.9836
+  Rot: 0.0
+  Side: top
+  Val: WP
+- '# Ref': U$1
+  Package: ADAFRUIT_5MM
+  PosX: 116.5091
+  PosY: -126.0146
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$2
+  Package: PIHATLOGO
+  PosX: 173.9131
+  PosY: -112.1716
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$3
+  Package: PCBFEAT-REV-056
+  PosX: 118.5411
+  PosY: -116.9976
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$5
+  Package: HAD_LOGO_200MIL
+  PosX: 122.0971
+  PosY: -113.0606
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U1
+  Package: SOIC8_150MIL
+  PosX: 166.9281
+  PosY: -128.4276
+  Rot: -90.0
+  Side: top
+  Val: CAT24C32
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| CONN1 | HEADER-1X25 | 1X25_ROUND_70MIL\
+  \ | 148.7671 | -86.0096 | 0.0 | top | \n| FID2 | FIDUCIAL\"\" | FIDUCIAL_1MM | 124.3831\
+  \ | -131.7296 | 0.0 | top | \n| FID3 | FIDUCIAL\"\" | FIDUCIAL_1MM | 174.4211 |\
+  \ -83.7236 | 0.0 | top | \n| R1 | 3.9K | 0805-NO | 170.4841 | -131.9836 | 180.0\
+  \ | top | \n| R2 | 3.9K | 0805-NO | 172.0081 | -127.9196 | 90.0 | top | \n| R3 |\
+  \ 3.9K | 0805-NO | 166.6741 | -131.9836 | 0.0 | top | \n| RPI1 | RASPBERRYPI_BPLUS_HATNOSLOTS\
+  \ | PI_HAT_NOSLOTS | 116.0011 | -133.2536 | 0.0 | top | \n| SJ1 | WP | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 163.1181 | -131.9836 | 0.0 | top | \n| U$1 | nan | ADAFRUIT_5MM | 116.5091 |\
+  \ -126.0146 | 0.0 | top | \n| U$2 | nan | PIHATLOGO | 173.9131 | -112.1716 | 0.0\
+  \ | top | \n| U$3 | nan | PCBFEAT-REV-056 | 118.5411 | -116.9976 | 0.0 | top | \n\
+  | U$5 | nan | HAD_LOGO_200MIL | 122.0971 | -113.0606 | 0.0 | top | \n| U1 | CAT24C32\
+  \ | SOIC8_150MIL | 166.9281 | -128.4276 | -90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_perma_proto_hat_pcb_adafruit_had_proto_hat_rev_a/current_version/working
 repo:
   allow_forking: true

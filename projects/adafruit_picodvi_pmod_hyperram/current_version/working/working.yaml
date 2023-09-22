@@ -1,4 +1,92 @@
 board: pmod_hyperram
+bom:
+- Id: '1'
+  Designator: C2,C3,C1
+  Footprint: C_0402_1005Metric
+  Quantity: '3'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J1,J2
+  Footprint: PinSocket_2x06_P2.54mm_Horizontal
+  Quantity: '2'
+  Designation: 2.54mm_2x6
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R1
+  Footprint: R_0402_1005Metric
+  Quantity: '1'
+  Designation: 4k7
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U1
+  Footprint: S70KS128
+  Quantity: '1'
+  Designation: S70KS128
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C2,C3,C1\
+  \ | C_0402_1005Metric | 3 | 100n |  |  | [''] | \n| 2 | J1,J2 | PinSocket_2x06_P2.54mm_Horizontal\
+  \ | 2 | 2.54mm_2x6 |  |  | [''] | \n| 3 | R1 | R_0402_1005Metric | 1 | 4k7 |  |\
+  \  | [''] | \n| 4 | U1 | S70KS128 | 1 | S70KS128 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0402_1005Metric
+  Qnty: '3'
+  Ref: C1, C2, C3
+  Value: 100n
+  Vendor: ''
+- Cmp name: Conn_02x06_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x06, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal
+  Qnty: '2'
+  Ref: J1, J2
+  Value: 2.54mm_2x6
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0402_1005Metric
+  Qnty: '1'
+  Ref: R1
+  Value: 4k7
+  Vendor: ''
+- Cmp name: S70KS128
+  DNP: ''
+  Description: ''
+  Footprint: picodvi:S70KS128
+  Qnty: '1'
+  Ref: U1
+  Value: S70KS128
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3 | 3 | 100n | C | Capacitor_SMD:C_0402_1005Metric | Unpolarized capacitor |\
+  \  |  | \n| J1, J2 | 2 | 2.54mm_2x6 | Conn_02x06_Odd_Even | Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal\
+  \ | Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| R1 | 1 | 4k7 | R | Resistor_SMD:R_0402_1005Metric | Resistor |  |\
+  \  | \n| U1 | 1 | S70KS128 | S70KS128 | picodvi:S70KS128 |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adafruit_picodvi_pmod_hyperram/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adafruit_picodvi_pmod_hyperram/current_version/working/working.kicad_pcb

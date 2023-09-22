@@ -1,9 +1,313 @@
 board: combo
+bom:
+- Id: '1'
+  Designator: C1,C3
+  Footprint: C_0805
+  Quantity: '2'
+  Designation: .1U
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C2,C4
+  Footprint: C_1206
+  Quantity: '2'
+  Designation: 10U
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: P1,P3,P1,P2
+  Footprint: Pin_Header_Straight_1x02
+  Quantity: '4'
+  Designation: CONN_01X02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: P2
+  Footprint: Pin_Header_Straight_1x04
+  Quantity: '1'
+  Designation: CONN_01X04
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U1
+  Footprint: SSOP-20
+  Quantity: '1'
+  Designation: TB6593FNG
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C1
+  Footprint: C_0805_HandSoldering
+  Quantity: '1'
+  Designation: C
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R1
+  Footprint: R_0805_HandSoldering
+  Quantity: '1'
+  Designation: '100'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R2,R3,R4,R5
+  Footprint: R_0805_HandSoldering
+  Quantity: '4'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: TP1
+  Footprint: Measurement_Point_Round-SMD-Pad_Small
+  Quantity: '1'
+  Designation: OptoOut
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U2
+  Footprint: SOIC-8_3.9x4.9mm_Pitch1.27mm
+  Quantity: '1'
+  Designation: LM311N
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U1
+  Footprint: RPI-579N1
+  Quantity: '1'
+  Designation: RPI-579N1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: REF**,REF**
+  Footprint: MouseBite
+  Quantity: '2'
+  Designation: MouseBite
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C3\
+  \ | C_0805 | 2 | .1U |  |  | [''] | \n| 2 | C2,C4 | C_1206 | 2 | 10U |  |  | ['']\
+  \ | \n| 3 | P1,P3,P1,P2 | Pin_Header_Straight_1x02 | 4 | CONN_01X02 |  |  | ['']\
+  \ | \n| 4 | P2 | Pin_Header_Straight_1x04 | 1 | CONN_01X04 |  |  | [''] | \n| 5\
+  \ | U1 | SSOP-20 | 1 | TB6593FNG |  |  | [''] | \n| 6 | C1 | C_0805_HandSoldering\
+  \ | 1 | C |  |  | [''] | \n| 7 | R1 | R_0805_HandSoldering | 1 | 100 |  |  | ['']\
+  \ | \n| 8 | R2,R3,R4,R5 | R_0805_HandSoldering | 4 | 1K |  |  | [''] | \n| 9 | TP1\
+  \ | Measurement_Point_Round-SMD-Pad_Small | 1 | OptoOut |  |  | [''] | \n| 10 |\
+  \ U2 | SOIC-8_3.9x4.9mm_Pitch1.27mm | 1 | LM311N |  |  | [''] | \n| 11 | U1 | RPI-579N1\
+  \ | 1 | RPI-579N1 |  |  | [''] | \n| 12 | REF**,REF** | MouseBite | 2 | MouseBite\
+  \ |  |  | [''] | \n"
 counter: 1
 file_kicad_pcb_flat: projects/contextualelectronics_gogogo_combo/current_version/working/working.kicad_pcb
 file_sch_flat: projects/contextualelectronics_gogogo_combo/current_version/working/working.sch
 id: contextualelectronics_gogogo_combo
 name: gogogo
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_0805
+  PosX: 143.129
+  PosY: -90.0176
+  Rot: 0.0
+  Side: top
+  Val: .1U
+- '# Ref': C1
+  Package: C_0805_HandSoldering
+  PosX: 168.7068
+  PosY: -94.2848
+  Rot: 0.0
+  Side: top
+  Val: C
+- '# Ref': C2
+  Package: C_1206
+  PosX: 138.7475
+  PosY: -89.4715
+  Rot: 180.0
+  Side: top
+  Val: 10U
+- '# Ref': C3
+  Package: C_0805
+  PosX: 134.1755
+  PosY: -94.996
+  Rot: -90.0
+  Side: top
+  Val: .1U
+- '# Ref': C4
+  Package: C_1206
+  PosX: 144.5895
+  PosY: -94.0435
+  Rot: 0.0
+  Side: top
+  Val: 10U
+- '# Ref': P1
+  Package: Pin_Header_Straight_1x02
+  PosX: 137.541
+  PosY: -86.4616
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': P1
+  Package: Pin_Header_Straight_1x02
+  PosX: 151.9428
+  PosY: -86.2584
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': P2
+  Package: Pin_Header_Straight_1x04
+  PosX: 131.191
+  PosY: -86.5505
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X04
+- '# Ref': P2
+  Package: Pin_Header_Straight_1x02
+  PosX: 157.6324
+  PosY: -100.0252
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': P3
+  Package: Pin_Header_Straight_1x02
+  PosX: 137.795
+  PosY: -100.33
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': R1
+  Package: R_0805_HandSoldering
+  PosX: 155.8544
+  PosY: -87.5284
+  Rot: 90.0
+  Side: top
+  Val: '100'
+- '# Ref': R2
+  Package: R_0805_HandSoldering
+  PosX: 168.7068
+  PosY: -92.0496
+  Rot: 0.0
+  Side: top
+  Val: 1K
+- '# Ref': R3
+  Package: R_0805_HandSoldering
+  PosX: 154.2288
+  PosY: -93.5736
+  Rot: 0.0
+  Side: top
+  Val: 1K
+- '# Ref': R4
+  Package: R_0805_HandSoldering
+  PosX: 154.2796
+  PosY: -95.6056
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': R5
+  Package: R_0805_HandSoldering
+  PosX: 168.7068
+  PosY: -96.7232
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': REF**
+  Package: MouseBite
+  PosX: 148.082
+  PosY: -96.52
+  Rot: 0.0
+  Side: top
+  Val: MouseBite
+- '# Ref': REF**
+  Package: MouseBite
+  PosX: 148.082
+  PosY: -86.868
+  Rot: 0.0
+  Side: top
+  Val: MouseBite
+- '# Ref': TP1
+  Package: Measurement_Point_Round-SMD-Pad_Small
+  PosX: 172.466
+  PosY: -88.9
+  Rot: 0.0
+  Side: top
+  Val: OptoOut
+- '# Ref': U1
+  Package: SSOP-20
+  PosX: 138.684
+  PosY: -94.615
+  Rot: -90.0
+  Side: top
+  Val: TB6593FNG
+- '# Ref': U1
+  Package: RPI-579N1
+  PosX: 164.2745
+  PosY: -87.63
+  Rot: 0.0
+  Side: top
+  Val: RPI-579N1
+- '# Ref': U2
+  Package: SOIC-8_3.9x4.9mm_Pitch1.27mm
+  PosX: 160.6804
+  PosY: -94.9452
+  Rot: 0.0
+  Side: top
+  Val: LM311N
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | .1U | C_0805 | 143.129 | -90.0176\
+  \ | 0.0 | top | \n| C1 | C | C_0805_HandSoldering | 168.7068 | -94.2848 | 0.0 |\
+  \ top | \n| C2 | 10U | C_1206 | 138.7475 | -89.4715 | 180.0 | top | \n| C3 | .1U\
+  \ | C_0805 | 134.1755 | -94.996 | -90.0 | top | \n| C4 | 10U | C_1206 | 144.5895\
+  \ | -94.0435 | 0.0 | top | \n| P1 | CONN_01X02 | Pin_Header_Straight_1x02 | 137.541\
+  \ | -86.4616 | 90.0 | top | \n| P1 | CONN_01X02 | Pin_Header_Straight_1x02 | 151.9428\
+  \ | -86.2584 | 0.0 | top | \n| P2 | CONN_01X04 | Pin_Header_Straight_1x04 | 131.191\
+  \ | -86.5505 | 0.0 | top | \n| P2 | CONN_01X02 | Pin_Header_Straight_1x02 | 157.6324\
+  \ | -100.0252 | 90.0 | top | \n| P3 | CONN_01X02 | Pin_Header_Straight_1x02 | 137.795\
+  \ | -100.33 | 90.0 | top | \n| R1 | 100 | R_0805_HandSoldering | 155.8544 | -87.5284\
+  \ | 90.0 | top | \n| R2 | 1K | R_0805_HandSoldering | 168.7068 | -92.0496 | 0.0\
+  \ | top | \n| R3 | 1K | R_0805_HandSoldering | 154.2288 | -93.5736 | 0.0 | top |\
+  \ \n| R4 | 1K | R_0805_HandSoldering | 154.2796 | -95.6056 | 180.0 | top | \n| R5\
+  \ | 1K | R_0805_HandSoldering | 168.7068 | -96.7232 | 180.0 | top | \n| REF** |\
+  \ MouseBite | MouseBite | 148.082 | -96.52 | 0.0 | top | \n| REF** | MouseBite |\
+  \ MouseBite | 148.082 | -86.868 | 0.0 | top | \n| TP1 | OptoOut | Measurement_Point_Round-SMD-Pad_Small\
+  \ | 172.466 | -88.9 | 0.0 | top | \n| U1 | TB6593FNG | SSOP-20 | 138.684 | -94.615\
+  \ | -90.0 | top | \n| U1 | RPI-579N1 | RPI-579N1 | 164.2745 | -87.63 | 0.0 | top\
+  \ | \n| U2 | LM311N | SOIC-8_3.9x4.9mm_Pitch1.27mm | 160.6804 | -94.9452 | 0.0 |\
+  \ top | \n"
 projects_flat: projects/contextualelectronics_gogogo_combo/current_version/working
 repo:
   allow_forking: true

@@ -1,4 +1,102 @@
 board: '2015_10_22_20_31_01'
+bom:
+- Id: '1'
+  Designator: Freq,VOUT,GND1,GND,VIN
+  Footprint: TP-1502
+  Quantity: '5'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: Cin
+  Footprint: '1206'
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: Cbyp,Css,Rcomp,Ccomp
+  Footprint: 0805
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: Cout
+  Footprint: '1210'
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U1
+  Footprint: DRC0010A
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: Rfbb
+  Footprint: '0603'
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: Rfbt
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: L1
+  Footprint: SRU1048
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: D1
+  Footprint: SMA
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | Freq,VOUT,GND1,GND,VIN\
+  \ | TP-1502 | 5 |  |  |  | [''] | \n| 2 | Cin | 1206 | 1 |  |  |  | [''] | \n| 3\
+  \ | Cbyp,Css,Rcomp,Ccomp | 0805 | 4 |  |  |  | [''] | \n| 4 | Cout | 1210 | 1 |\
+  \  |  |  | [''] | \n| 5 | U1 | DRC0010A | 1 |  |  |  | [''] | \n| 6 | Rfbb | 0603\
+  \ | 1 |  |  |  | [''] | \n| 7 | Rfbt | 0402 | 1 |  |  |  | [''] | \n| 8 | L1 | SRU1048\
+  \ | 1 |  |  |  | [''] | \n| 9 | D1 | SMA | 1 |  |  |  | [''] | \n"
 counter: 1
 file_brd_flat: projects/contextualelectronics_powerswap_2015_10_22_20_31_01/current_version/working/working.brd
 file_kicad_pcb_flat: projects/contextualelectronics_powerswap_2015_10_22_20_31_01/current_version/working/working.kicad_pcb
@@ -7,6 +105,135 @@ file_repo_bom_xls_flat: projects/contextualelectronics_powerswap_2015_10_22_20_3
 file_sch_flat: projects/contextualelectronics_powerswap_referencecircuit/current_version/working/working.sch
 id: contextualelectronics_powerswap_2015_10_22_20_31_01
 name: powerswap
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': Cbyp
+  Package: 0805
+  PosX: 193.6877
+  PosY: -38.989
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': Ccomp
+  Package: 0805
+  PosX: 186.4233
+  PosY: -37.338
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': Cin
+  Package: '1206'
+  PosX: 193.6877
+  PosY: -36.6522
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': Cout
+  Package: '1210'
+  PosX: 193.5607
+  PosY: -61.6966
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': Css
+  Package: 0805
+  PosX: 186.4487
+  PosY: -35.052
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': D1
+  Package: SMA
+  PosX: 196.7611
+  PosY: -50.3936
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': Freq
+  Package: TP-1502
+  PosX: 207.1497
+  PosY: -31.369
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': GND
+  Package: TP-1502
+  PosX: 185.2803
+  PosY: -23.241
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': GND1
+  Package: TP-1502
+  PosX: 185.2803
+  PosY: -76.0984
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': L1
+  Package: SRU1048
+  PosX: 206.8195
+  PosY: -42.545
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': Rcomp
+  Package: 0805
+  PosX: 186.2709
+  PosY: -39.7256
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': Rfbb
+  Package: '0603'
+  PosX: 187.4647
+  PosY: -42.926
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': Rfbt
+  Package: '0402'
+  PosX: 185.1787
+  PosY: -42.926
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': U1
+  Package: DRC0010A
+  PosX: 192.6971
+  PosY: -42.545
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': VIN
+  Package: TP-1502
+  PosX: 201.8157
+  PosY: -23.241
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': VOUT
+  Package: TP-1502
+  PosX: 202.0443
+  PosY: -76.0984
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| Cbyp | nan | 0805 | 193.6877 | -38.989\
+  \ | 180.0 | top | \n| Ccomp | nan | 0805 | 186.4233 | -37.338 | 0.0 | top | \n|\
+  \ Cin | nan | 1206 | 193.6877 | -36.6522 | 180.0 | top | \n| Cout | nan | 1210 |\
+  \ 193.5607 | -61.6966 | 180.0 | top | \n| Css | nan | 0805 | 186.4487 | -35.052\
+  \ | 0.0 | top | \n| D1 | nan | SMA | 196.7611 | -50.3936 | 90.0 | top | \n| Freq\
+  \ | nan | TP-1502 | 207.1497 | -31.369 | 0.0 | top | \n| GND | nan | TP-1502 | 185.2803\
+  \ | -23.241 | 0.0 | top | \n| GND1 | nan | TP-1502 | 185.2803 | -76.0984 | 0.0 |\
+  \ top | \n| L1 | nan | SRU1048 | 206.8195 | -42.545 | -90.0 | top | \n| Rcomp |\
+  \ nan | 0805 | 186.2709 | -39.7256 | 180.0 | top | \n| Rfbb | nan | 0603 | 187.4647\
+  \ | -42.926 | -90.0 | top | \n| Rfbt | nan | 0402 | 185.1787 | -42.926 | 90.0 |\
+  \ top | \n| U1 | nan | DRC0010A | 192.6971 | -42.545 | 0.0 | top | \n| VIN | nan\
+  \ | TP-1502 | 201.8157 | -23.241 | 0.0 | top | \n| VOUT | nan | TP-1502 | 202.0443\
+  \ | -76.0984 | 0.0 | top | \n"
 projects_flat: projects/contextualelectronics_powerswap_2015_10_22_20_31_01/current_version/working
 repo:
   allow_forking: true

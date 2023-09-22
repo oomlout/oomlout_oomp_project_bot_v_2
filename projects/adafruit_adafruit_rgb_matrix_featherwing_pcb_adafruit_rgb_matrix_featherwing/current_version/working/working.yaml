@@ -1,9 +1,537 @@
 board: adafruit_rgb_matrix_featherwing
+bom:
+- Id: '1'
+  Designator: SW1
+  Footprint: BTN_KMR2_4.6X2.8
+  Quantity: '1'
+  Designation: KMR2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: IC2
+  Footprint: SOT23-5L
+  Quantity: '1'
+  Designation: AP2112K-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: JP3,JP2
+  Footprint: 1X08_ROUND_70
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: JP15
+  Footprint: 2X08_SHROUDED
+  Quantity: '1'
+  Designation: Shrouded 2x8
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: FID3,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: JP4
+  Footprint: 1X16_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: X2
+  Footprint: TERMBLOCK_508_1X2
+  Quantity: '1'
+  Designation: 5.08mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U$6
+  Footprint: SYMBOL_MINUS
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: Q2
+  Footprint: POWERDI3333
+  Quantity: '1'
+  Designation: AON7401
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: X1
+  Footprint: DCJACK_2MM_PTH
+  Quantity: '1'
+  Designation: 2.1mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: R1
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: '@HOLE1,@HOLE2,@HOLE0,@HOLE3'
+  Footprint: ''
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U$1
+  Footprint: SYMBOL_PLUS
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: MS1
+  Footprint: FEATHERWING
+  Quantity: '1'
+  Designation: FEATHERWING
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: JP1
+  Footprint: 1X12_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: C7,C6
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: U$7
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: U$2
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: U$3
+  Footprint: FEATHERLOGO_SMALL
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | SW1\
+  \ | BTN_KMR2_4.6X2.8 | 1 | KMR2 |  |  | [''] | \n| 2 | IC2 | SOT23-5L | 1 | AP2112K-3.3\
+  \ |  |  | [''] | \n| 3 | JP3,JP2 | 1X08_ROUND_70 | 2 |  |  |  | [''] | \n| 4 | JP15\
+  \ | 2X08_SHROUDED | 1 | Shrouded 2x8 |  |  | [''] | \n| 5 | FID3,FID1 | FIDUCIAL_1MM\
+  \ | 2 | FIDUCIAL_1MM |  |  | [''] | \n| 6 | JP4 | 1X16_ROUND | 1 |  |  |  | ['']\
+  \ | \n| 7 | X2 | TERMBLOCK_508_1X2 | 1 | 5.08mm |  |  | [''] | \n| 8 | U$6 | SYMBOL_MINUS\
+  \ | 1 |  |  |  | [''] | \n| 9 | Q2 | POWERDI3333 | 1 | AON7401 |  |  | [''] | \n\
+  | 10 | X1 | DCJACK_2MM_PTH | 1 | 2.1mm |  |  | [''] | \n| 11 | R1 | 0603-NO | 1\
+  \ | 10K |  |  | [''] | \n| 12 | @HOLE1,@HOLE2,@HOLE0,@HOLE3 |  | 4 |  |  |  | ['']\
+  \ | \n| 13 | U$1 | SYMBOL_PLUS | 1 |  |  |  | [''] | \n| 14 | MS1 | FEATHERWING\
+  \ | 1 | FEATHERWING |  |  | [''] | \n| 15 | JP1 | 1X12_ROUND | 1 |  |  |  | ['']\
+  \ | \n| 16 | C7,C6 | 0805-NO | 2 | 10uF |  |  | [''] | \n| 17 | U$7 | ADAFRUIT_3.5MM\
+  \ | 1 |  |  |  | [''] | \n| 18 | U$2 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n\
+  | 19 | U$3 | FEATHERLOGO_SMALL | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C6, C7
+  Value: 10uF
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID3
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: LP298XS
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5L
+  Qnty: '1'
+  Ref: IC2
+  Value: LP298XS
+  Vendor: ''
+- Cmp name: HEADER-1X12
+  DNP: ''
+  Description: ''
+  Footprint: working:1X12_ROUND
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X12
+  Vendor: ''
+- Cmp name: HEADER-1X870MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X08_ROUND_70
+  Qnty: '2'
+  Ref: JP2, JP3
+  Value: HEADER-1X870MIL
+  Vendor: ''
+- Cmp name: HEADER-1X16ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X16_ROUND
+  Qnty: '1'
+  Ref: JP4
+  Value: HEADER-1X16ROUND
+  Vendor: ''
+- Cmp name: HEADER-2X8_SHROUDED
+  DNP: ''
+  Description: ''
+  Footprint: working:2X08_SHROUDED
+  Qnty: '1'
+  Ref: JP15
+  Value: Shrouded 2x8
+  Vendor: ''
+- Cmp name: FEATHERWING
+  DNP: ''
+  Description: ''
+  Footprint: working:FEATHERWING
+  Qnty: '1'
+  Ref: MS1
+  Value: FEATHERWING
+  Vendor: ''
+- Cmp name: MOSFET-P-POWERDI3333
+  DNP: ''
+  Description: ''
+  Footprint: working:POWERDI3333
+  Qnty: '1'
+  Ref: Q2
+  Value: AON7401
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R1
+  Value: 10K
+  Vendor: ''
+- Cmp name: SWITCH_TACT_SMT4.6X2.8
+  DNP: ''
+  Description: ''
+  Footprint: working:BTN_KMR2_4.6X2.8
+  Qnty: '1'
+  Ref: SW1
+  Value: KMR2
+  Vendor: ''
+- Cmp name: DCBARRELPTH
+  DNP: ''
+  Description: ''
+  Footprint: working:DCJACK_2MM_PTH
+  Qnty: '1'
+  Ref: X1
+  Value: 2.1mm
+  Vendor: ''
+- Cmp name: TERMBLOCK_1X2_5.08MM
+  DNP: ''
+  Description: ''
+  Footprint: working:TERMBLOCK_508_1X2
+  Qnty: '1'
+  Ref: X2
+  Value: 5.08mm
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C6, C7\
+  \ | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| FID1,\
+  \ FID3 | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| IC2\
+  \ | 1 | LP298XS | LP298XS | working:SOT23-5L |  |  |  | \n| JP1 | 1 | HEADER-1X12\
+  \ | HEADER-1X12 | working:1X12_ROUND |  |  |  | \n| JP2, JP3 | 2 | HEADER-1X870MIL\
+  \ | HEADER-1X870MIL | working:1X08_ROUND_70 |  |  |  | \n| JP4 | 1 | HEADER-1X16ROUND\
+  \ | HEADER-1X16ROUND | working:1X16_ROUND |  |  |  | \n| JP15 | 1 | Shrouded 2x8\
+  \ | HEADER-2X8_SHROUDED | working:2X08_SHROUDED |  |  |  | \n| MS1 | 1 | FEATHERWING\
+  \ | FEATHERWING | working:FEATHERWING |  |  |  | \n| Q2 | 1 | AON7401 | MOSFET-P-POWERDI3333\
+  \ | working:POWERDI3333 |  |  |  | \n| R1 | 1 | 10K | RESISTOR_0603_NOOUT | working:0603-NO\
+  \ |  |  |  | \n| SW1 | 1 | KMR2 | SWITCH_TACT_SMT4.6X2.8 | working:BTN_KMR2_4.6X2.8\
+  \ |  |  |  | \n| X1 | 1 | 2.1mm | DCBARRELPTH | working:DCJACK_2MM_PTH |  |  | \
+  \ | \n| X2 | 1 | 5.08mm | TERMBLOCK_1X2_5.08MM | working:TERMBLOCK_508_1X2 |  |\
+  \  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_rgb_matrix_featherwing_pcb_adafruit_rgb_matrix_featherwing/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_rgb_matrix_featherwing_pcb_adafruit_rgb_matrix_featherwing/current_version/working/working.sch
 id: adafruit_adafruit_rgb_matrix_featherwing_pcb_adafruit_rgb_matrix_featherwing
 name: adafruit_rgb_matrix_featherwing_pcb
+position_bottom:
+- '# Ref': U$2
+  Package: PCBFEAT-REV-040
+  PosX: 130.3401
+  PosY: -104.2416
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$3
+  Package: FEATHERLOGO_SMALL
+  PosX: 162.0901
+  PosY: -111.7346
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$7
+  Package: ADAFRUIT_3.5MM
+  PosX: 128.9431
+  PosY: -100.9396
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$2 | nan | PCBFEAT-REV-040 | 130.3401\
+  \ | -104.2416 | 90.0 | bottom | \n| U$3 | nan | FEATHERLOGO_SMALL | 162.0901 | -111.7346\
+  \ | 90.0 | bottom | \n| U$7 | nan | ADAFRUIT_3.5MM | 128.9431 | -100.9396 | 90.0\
+  \ | bottom | \n"
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 138.3411
+  PosY: -103.7336
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 138.3411
+  PosY: -106.2736
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE2'
+  Package: .nan
+  PosX: 161.2011
+  PosY: -103.7336
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE3'
+  Package: .nan
+  PosX: 161.2011
+  PosY: -106.2736
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': C6
+  Package: 0805-NO
+  PosX: 130.2131
+  PosY: -99.2886
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': C7
+  Package: 0805-NO
+  PosX: 136.0551
+  PosY: -110.4646
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 171.9961
+  PosY: -110.0836
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 124.6251
+  PosY: -110.7186
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': IC2
+  Package: SOT23-5L
+  PosX: 135.9281
+  PosY: -95.2246
+  Rot: 90.0
+  Side: top
+  Val: AP2112K-3.3
+- '# Ref': JP1
+  Package: 1X12_ROUND
+  PosX: 153.5811
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X08_ROUND_70
+  PosX: 149.7711
+  PosY: -99.6696
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP3
+  Package: 1X08_ROUND_70
+  PosX: 149.7711
+  PosY: -110.3376
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': JP4
+  Package: 1X16_ROUND
+  PosX: 148.5011
+  PosY: -112.6236
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': JP15
+  Package: 2X08_SHROUDED
+  PosX: 149.7711
+  PosY: -105.0036
+  Rot: 180.0
+  Side: top
+  Val: Shrouded_2x8
+- '# Ref': MS1
+  Package: FEATHERWING
+  PosX: 123.1011
+  PosY: -116.4336
+  Rot: 0.0
+  Side: top
+  Val: FEATHERWING
+- '# Ref': Q2
+  Package: POWERDI3333
+  PosX: 134.2771
+  PosY: -98.5266
+  Rot: 180.0
+  Side: top
+  Val: AON7401
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 137.8331
+  PosY: -98.6536
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': SW1
+  Package: BTN_KMR2_4.6X2.8
+  PosX: 130.7211
+  PosY: -95.2246
+  Rot: 0.0
+  Side: top
+  Val: KMR2
+- '# Ref': U$1
+  Package: SYMBOL_PLUS
+  PosX: 169.4561
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$6
+  Package: SYMBOL_MINUS
+  PosX: 169.4561
+  PosY: -112.6236
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': X1
+  Package: DCJACK_2MM_PTH
+  PosX: 119.9261
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: 2.1mm
+- '# Ref': X2
+  Package: TERMBLOCK_508_1X2
+  PosX: 168.8211
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: 5.08mm
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 138.3411 | -103.7336\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 138.3411 | -106.2736 | 0.0 | top | \n|\
+  \ @HOLE2 | nan | nan | 161.2011 | -103.7336 | 0.0 | top | \n| @HOLE3 | nan | nan\
+  \ | 161.2011 | -106.2736 | 0.0 | top | \n| C6 | 10uF | 0805-NO | 130.2131 | -99.2886\
+  \ | 180.0 | top | \n| C7 | 10uF | 0805-NO | 136.0551 | -110.4646 | 0.0 | top | \n\
+  | FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM | 171.9961 | -110.0836 | 0.0 | top | \n| FID3\
+  \ | FIDUCIAL_1MM | FIDUCIAL_1MM | 124.6251 | -110.7186 | 0.0 | top | \n| IC2 | AP2112K-3.3\
+  \ | SOT23-5L | 135.9281 | -95.2246 | 90.0 | top | \n| JP1 | nan | 1X12_ROUND | 153.5811\
+  \ | -97.3836 | 0.0 | top | \n| JP2 | nan | 1X08_ROUND_70 | 149.7711 | -99.6696 |\
+  \ 0.0 | top | \n| JP3 | nan | 1X08_ROUND_70 | 149.7711 | -110.3376 | 180.0 | top\
+  \ | \n| JP4 | nan | 1X16_ROUND | 148.5011 | -112.6236 | 180.0 | top | \n| JP15 |\
+  \ Shrouded_2x8 | 2X08_SHROUDED | 149.7711 | -105.0036 | 180.0 | top | \n| MS1 |\
+  \ FEATHERWING | FEATHERWING | 123.1011 | -116.4336 | 0.0 | top | \n| Q2 | AON7401\
+  \ | POWERDI3333 | 134.2771 | -98.5266 | 180.0 | top | \n| R1 | 10K | 0603-NO | 137.8331\
+  \ | -98.6536 | -90.0 | top | \n| SW1 | KMR2 | BTN_KMR2_4.6X2.8 | 130.7211 | -95.2246\
+  \ | 0.0 | top | \n| U$1 | nan | SYMBOL_PLUS | 169.4561 | -97.3836 | 0.0 | top |\
+  \ \n| U$6 | nan | SYMBOL_MINUS | 169.4561 | -112.6236 | 0.0 | top | \n| X1 | 2.1mm\
+  \ | DCJACK_2MM_PTH | 119.9261 | -105.0036 | 0.0 | top | \n| X2 | 5.08mm | TERMBLOCK_508_1X2\
+  \ | 168.8211 | -105.0036 | 90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_rgb_matrix_featherwing_pcb_adafruit_rgb_matrix_featherwing/current_version/working
 repo:
   allow_forking: true

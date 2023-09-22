@@ -1,9 +1,814 @@
 board: adafruit_tftcaptouchshield_rev_c
+bom:
+- Id: '1'
+  Designator: C5,C4,C1
+  Footprint: 0805-NO
+  Quantity: '3'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: SW1
+  Footprint: EVQ-Q2
+  Quantity: '1'
+  Designation: SPST_TACT-EVQQ2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: SCL_A5,SDA_A4
+  Footprint: SOLDERJUMPER_REFLOW_NOPASTE
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C3,C2
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$3
+  Footprint: MICROSD
+  Quantity: '1'
+  Designation: MICROSD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U$19,U$11,U$10
+  Footprint: FIDUCIAL_1MM
+  Quantity: '3'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R16,R15,R14,R6,R8,R13
+  Footprint: 0805-NO
+  Quantity: '6'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: D1
+  Footprint: SOD-323F
+  Quantity: '1'
+  Designation: 1N4148
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: D7,SJ2,SJ3,D5,SJ1
+  Footprint: SOLDERJUMPER_ARROW_NOPASTE
+  Quantity: '5'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R4,R3,R2
+  Footprint: 0805-NO
+  Quantity: '3'
+  Designation: 68 ohm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: IC5
+  Footprint: SOT23
+  Quantity: '1'
+  Designation: AXP803
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: SJ4
+  Footprint: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U$7
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: U$20
+  Footprint: ADAFRUIT_TEXT_30MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: Q2,Q3,Q4
+  Footprint: SOT23-WIDE
+  Quantity: '3'
+  Designation: BSS138
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: U3
+  Footprint: SOIC16
+  Quantity: '1'
+  Designation: 74HC4050
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: R9
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 2.2K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: ICSP_SO0,ICSP_SI0,ICSP_CLK0
+  Footprint: SOLDERJUMPER_CLOSEDWIRE
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: R1
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: '68'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: IC4
+  Footprint: SOT23-5L
+  Quantity: '1'
+  Designation: MIC5225-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '21'
+  Designator: U$17
+  Footprint: ARDUINOR3_ICSP_SMT
+  Quantity: '1'
+  Designation: ARDUINO_R3_ICSPSMT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '22'
+  Designator: U$2
+  Footprint: TFT_2.83IN_240X320_50PIN
+  Quantity: '1'
+  Designation: 2.8 TFT + CTP"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C5,C4,C1\
+  \ | 0805-NO | 3 | 10uF |  |  | [''] | \n| 2 | SW1 | EVQ-Q2 | 1 | SPST_TACT-EVQQ2\
+  \ |  |  | [''] | \n| 3 | SCL_A5,SDA_A4 | SOLDERJUMPER_REFLOW_NOPASTE | 2 |  |  |\
+  \  | [''] | \n| 4 | C3,C2 | 0805-NO | 2 | 0.1uF |  |  | [''] | \n| 5 | U$3 | MICROSD\
+  \ | 1 | MICROSD |  |  | [''] | \n| 6 | U$19,U$11,U$10 | FIDUCIAL_1MM | 3 | FIDUCIAL_1MM\
+  \ |  |  | [''] | \n| 7 | R16,R15,R14,R6,R8,R13 | 0805-NO | 6 | 10K |  |  | ['']\
+  \ | \n| 8 | D1 | SOD-323F | 1 | 1N4148 |  |  | [''] | \n| 9 | D7,SJ2,SJ3,D5,SJ1\
+  \ | SOLDERJUMPER_ARROW_NOPASTE | 5 |  |  |  | [''] | \n| 10 | R4,R3,R2 | 0805-NO\
+  \ | 3 | 68 ohm |  |  | [''] | \n| 11 | IC5 | SOT23 | 1 | AXP803 |  |  | [''] | \n\
+  | 12 | SJ4 | SOLDERJUMPER_2WAY_OPEN_NOPASTE | 1 |  |  |  | [''] | \n| 13 | U$7 |\
+  \ PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n| 14 | U$20 | ADAFRUIT_TEXT_30MM | 1 |\
+  \  |  |  | [''] | \n| 15 | Q2,Q3,Q4 | SOT23-WIDE | 3 | BSS138 |  |  | [''] | \n\
+  | 16 | U3 | SOIC16 | 1 | 74HC4050 |  |  | [''] | \n| 17 | R9 | 0805-NO | 1 | 2.2K\
+  \ |  |  | [''] | \n| 18 | ICSP_SO0,ICSP_SI0,ICSP_CLK0 | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 3 |  |  |  | [''] | \n| 19 | R1 | 0805-NO | 1 | 68 |  |  | [''] | \n| 20 | IC4\
+  \ | SOT23-5L | 1 | MIC5225-3.3 |  |  | [''] | \n| 21 | U$17 | ARDUINOR3_ICSP_SMT\
+  \ | 1 | ARDUINO_R3_ICSPSMT |  |  | [''] | \n| 22 | U$2 | TFT_2.83IN_240X320_50PIN\
+  \ | 1 | 2.8 TFT + CTP\" |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '3'
+  Ref: C1, C4, C5
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C2, C3
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: DIODESOD-323F
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-323F
+  Qnty: '1'
+  Ref: D1
+  Value: 1N4148
+  Vendor: ''
+- Cmp name: SOLDERJUMPER
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_ARROW_NOPASTE
+  Qnty: '2'
+  Ref: D5, D7
+  Value: SOLDERJUMPER
+  Vendor: ''
+- Cmp name: LP298XS
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5L
+  Qnty: '1'
+  Ref: IC4
+  Value: LP298XS
+  Vendor: ''
+- Cmp name: AXP083-SAG
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23
+  Qnty: '1'
+  Ref: IC5
+  Value: AXP803
+  Vendor: ''
+- Cmp name: SOLDERJUMPERCLOSED
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_CLOSEDWIRE
+  Qnty: '1'
+  Ref: ICSP_CLK0
+  Value: SOLDERJUMPERCLOSED
+  Vendor: ''
+- Cmp name: SOLDERJUMPERCLOSED
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_CLOSEDWIRE
+  Qnty: '1'
+  Ref: ICSP_SI0
+  Value: SOLDERJUMPERCLOSED
+  Vendor: ''
+- Cmp name: SOLDERJUMPERCLOSED
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_CLOSEDWIRE
+  Qnty: '1'
+  Ref: ICSP_SO0
+  Value: SOLDERJUMPERCLOSED
+  Vendor: ''
+- Cmp name: MOSFET-NWIDE
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-WIDE
+  Qnty: '3'
+  Ref: Q2, Q3, Q4
+  Value: BSS138
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: R1
+  Value: '68'
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '3'
+  Ref: R2, R3, R4
+  Value: 68 ohm
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '6'
+  Ref: R6, R8, R13, R14, R15, R16
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: R9
+  Value: 2.2K
+  Vendor: ''
+- Cmp name: SOLDERJUMPERREFLOW_NOPASTE
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_REFLOW_NOPASTE
+  Qnty: '1'
+  Ref: SCL_A5
+  Value: SOLDERJUMPERREFLOW_NOPASTE
+  Vendor: ''
+- Cmp name: SOLDERJUMPERREFLOW_NOPASTE
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_REFLOW_NOPASTE
+  Qnty: '1'
+  Ref: SDA_A4
+  Value: SOLDERJUMPERREFLOW_NOPASTE
+  Vendor: ''
+- Cmp name: SOLDERJUMPER
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_ARROW_NOPASTE
+  Qnty: '3'
+  Ref: SJ1, SJ2, SJ3
+  Value: SOLDERJUMPER
+  Vendor: ''
+- Cmp name: SOLDERJUMPER_2WAY
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  Qnty: '1'
+  Ref: SJ4
+  Value: SOLDERJUMPER_2WAY
+  Vendor: ''
+- Cmp name: SPST_TACT-EVQQ2
+  DNP: ''
+  Description: ''
+  Footprint: working:EVQ-Q2
+  Qnty: '1'
+  Ref: SW1
+  Value: SPST_TACT-EVQQ2
+  Vendor: ''
+- Cmp name: 74HC4050D
+  DNP: ''
+  Description: ''
+  Footprint: working:SOIC16
+  Qnty: '1'
+  Ref: U3
+  Value: 74HC4050
+  Vendor: ''
+- Cmp name: DISP_LCD_CTP28_SAMPLE
+  DNP: ''
+  Description: ''
+  Footprint: working:TFT_2.83IN_240X320_50PIN
+  Qnty: '1'
+  Ref: U$2
+  Value: 2.8" TFT + CTP
+  Vendor: ''
+- Cmp name: MICROSD
+  DNP: ''
+  Description: ''
+  Footprint: working:MICROSD
+  Qnty: '1'
+  Ref: U$3
+  Value: MICROSD
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '3'
+  Ref: U$10, U$11, U$19
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: ARDUINO_R3_ICSPSMT
+  DNP: ''
+  Description: ''
+  Footprint: working:ARDUINOR3_ICSP_SMT
+  Qnty: '1'
+  Ref: U$17
+  Value: ARDUINO_R3_ICSPSMT
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C4,\
+  \ C5 | 3 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C2,\
+  \ C3 | 2 | 0.1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| D1\
+  \ | 1 | 1N4148 | DIODESOD-323F | working:SOD-323F |  |  |  | \n| D5, D7 | 2 | SOLDERJUMPER\
+  \ | SOLDERJUMPER | working:SOLDERJUMPER_ARROW_NOPASTE |  |  |  | \n| IC4 | 1 | LP298XS\
+  \ | LP298XS | working:SOT23-5L |  |  |  | \n| IC5 | 1 | AXP803 | AXP083-SAG | working:SOT23\
+  \ |  |  |  | \n| ICSP_CLK0 | 1 | SOLDERJUMPERCLOSED | SOLDERJUMPERCLOSED | working:SOLDERJUMPER_CLOSEDWIRE\
+  \ |  |  |  | \n| ICSP_SI0 | 1 | SOLDERJUMPERCLOSED | SOLDERJUMPERCLOSED | working:SOLDERJUMPER_CLOSEDWIRE\
+  \ |  |  |  | \n| ICSP_SO0 | 1 | SOLDERJUMPERCLOSED | SOLDERJUMPERCLOSED | working:SOLDERJUMPER_CLOSEDWIRE\
+  \ |  |  |  | \n| Q2, Q3, Q4 | 3 | BSS138 | MOSFET-NWIDE | working:SOT23-WIDE | \
+  \ |  |  | \n| R1 | 1 | 68 | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  |\
+  \ \n| R2, R3, R4 | 3 | 68 ohm | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |\
+  \  | \n| R6, R8, R13, R14, R15, R16 | 6 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO\
+  \ |  |  |  | \n| R9 | 1 | 2.2K | RESISTOR0805_NOOUTLINE | working:0805-NO |  | \
+  \ |  | \n| SCL_A5 | 1 | SOLDERJUMPERREFLOW_NOPASTE | SOLDERJUMPERREFLOW_NOPASTE\
+  \ | working:SOLDERJUMPER_REFLOW_NOPASTE |  |  |  | \n| SDA_A4 | 1 | SOLDERJUMPERREFLOW_NOPASTE\
+  \ | SOLDERJUMPERREFLOW_NOPASTE | working:SOLDERJUMPER_REFLOW_NOPASTE |  |  |  |\
+  \ \n| SJ1, SJ2, SJ3 | 3 | SOLDERJUMPER | SOLDERJUMPER | working:SOLDERJUMPER_ARROW_NOPASTE\
+  \ |  |  |  | \n| SJ4 | 1 | SOLDERJUMPER_2WAY | SOLDERJUMPER_2WAY | working:SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ |  |  |  | \n| SW1 | 1 | SPST_TACT-EVQQ2 | SPST_TACT-EVQQ2 | working:EVQ-Q2 |\
+  \  |  |  | \n| U3 | 1 | 74HC4050 | 74HC4050D | working:SOIC16 |  |  |  | \n| U$2\
+  \ | 1 | 2.8\" TFT + CTP | DISP_LCD_CTP28_SAMPLE | working:TFT_2.83IN_240X320_50PIN\
+  \ |  |  |  | \n| U$3 | 1 | MICROSD | MICROSD | working:MICROSD |  |  |  | \n| U$10,\
+  \ U$11, U$19 | 3 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  |\
+  \ \n| U$17 | 1 | ARDUINO_R3_ICSPSMT | ARDUINO_R3_ICSPSMT | working:ARDUINOR3_ICSP_SMT\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_2_8_tft_shield_v2_pcb_adafruit_tftcaptouchshield_rev_c/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_2_8_tft_shield_v2_pcb_adafruit_tftcaptouchshield_rev_c/current_version/working/working.sch
 id: adafruit_adafruit_2_8_tft_shield_v2_pcb_adafruit_tftcaptouchshield_rev_c
 name: adafruit_2_8_tft_shield_v2_pcb
+position_bottom:
+- '# Ref': U$2
+  Package: TFT_2.83IN_240X320_50PIN
+  PosX: 145.3261
+  PosY: -105.0036
+  Rot: -90.0
+  Side: bottom
+  Val: 2.8"_TFT_+_CTP
+- '# Ref': U$17
+  Package: ARDUINOR3_ICSP_SMT
+  PosX: 113.8301
+  PosY: -78.3336
+  Rot: 0.0
+  Side: bottom
+  Val: ARDUINO_R3_ICSPSMT
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$2 | 2.8\"_TFT_+_CTP | TFT_2.83IN_240X320_50PIN\
+  \ | 145.3261 | -105.0036 | -90.0 | bottom | \n| U$17 | ARDUINO_R3_ICSPSMT | ARDUINOR3_ICSP_SMT\
+  \ | 113.8301 | -78.3336 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 151.6761
+  PosY: -90.5256
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 151.6761
+  PosY: -92.3036
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 151.9301
+  PosY: -109.8296
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C4
+  Package: 0805-NO
+  PosX: 119.4181
+  PosY: -90.5256
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C5
+  Package: 0805-NO
+  PosX: 154.9781
+  PosY: -85.9536
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': D1
+  Package: SOD-323F
+  PosX: 146.5961
+  PosY: -86.4616
+  Rot: 90.0
+  Side: top
+  Val: 1N4148
+- '# Ref': D5
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 168.4401
+  PosY: -124.5616
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': D7
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 160.0581
+  PosY: -124.8156
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': IC4
+  Package: SOT23-5L
+  PosX: 151.6761
+  PosY: -86.9696
+  Rot: 180.0
+  Side: top
+  Val: MIC5225-3.3
+- '# Ref': IC5
+  Package: SOT23
+  PosX: 147.3581
+  PosY: -90.5256
+  Rot: 180.0
+  Side: top
+  Val: AXP803
+- '# Ref': ICSP_CLK0
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 175.9331
+  PosY: -112.7506
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': ICSP_SI0
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 180.5051
+  PosY: -112.7506
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': ICSP_SO0
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 178.2191
+  PosY: -112.7506
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': Q2
+  Package: SOT23-WIDE
+  PosX: 143.5481
+  PosY: -123.4186
+  Rot: 90.0
+  Side: top
+  Val: BSS138
+- '# Ref': Q3
+  Package: SOT23-WIDE
+  PosX: 139.7381
+  PosY: -123.4186
+  Rot: 90.0
+  Side: top
+  Val: BSS138
+- '# Ref': Q4
+  Package: SOT23-WIDE
+  PosX: 154.9781
+  PosY: -122.7836
+  Rot: -90.0
+  Side: top
+  Val: BSS138
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 150.9141
+  PosY: -119.2276
+  Rot: 0.0
+  Side: top
+  Val: '68'
+- '# Ref': R2
+  Package: 0805-NO
+  PosX: 150.9141
+  PosY: -117.1956
+  Rot: 0.0
+  Side: top
+  Val: 68_ohm
+- '# Ref': R3
+  Package: 0805-NO
+  PosX: 150.9141
+  PosY: -115.1636
+  Rot: 0.0
+  Side: top
+  Val: 68_ohm
+- '# Ref': R4
+  Package: 0805-NO
+  PosX: 150.9141
+  PosY: -113.1316
+  Rot: 0.0
+  Side: top
+  Val: 68_ohm
+- '# Ref': R6
+  Package: 0805-NO
+  PosX: 144.0561
+  PosY: -90.5256
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R8
+  Package: 0805-NO
+  PosX: 164.6301
+  PosY: -122.7836
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R9
+  Package: 0805-NO
+  PosX: 147.8661
+  PosY: -120.2436
+  Rot: 90.0
+  Side: top
+  Val: 2.2K
+- '# Ref': R13
+  Package: 0805-NO
+  PosX: 132.3721
+  PosY: -123.7996
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R14
+  Package: 0805-NO
+  PosX: 136.0551
+  PosY: -123.7996
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R15
+  Package: 0805-NO
+  PosX: 147.1041
+  PosY: -95.0976
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R16
+  Package: 0805-NO
+  PosX: 144.4371
+  PosY: -97.3836
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': SCL_A5
+  Package: SOLDERJUMPER_REFLOW_NOPASTE
+  PosX: 179.8701
+  PosY: -79.6036
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': SDA_A4
+  Package: SOLDERJUMPER_REFLOW_NOPASTE
+  PosX: 182.4101
+  PosY: -79.6036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ1
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 180.5051
+  PosY: -118.7196
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ2
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 178.2191
+  PosY: -118.7196
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ3
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 175.9331
+  PosY: -118.7196
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ4
+  Package: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  PosX: 135.8011
+  PosY: -81.5086
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': SW1
+  Package: EVQ-Q2
+  PosX: 119.1641
+  PosY: -128.8796
+  Rot: 0.0
+  Side: top
+  Val: SPST_TACT-EVQQ2
+- '# Ref': U$3
+  Package: MICROSD
+  PosX: 130.0861
+  PosY: -93.5736
+  Rot: -90.0
+  Side: top
+  Val: MICROSD
+- '# Ref': U$7
+  Package: PCBFEAT-REV-040
+  PosX: 141.3891
+  PosY: -90.2716
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$10
+  Package: FIDUCIAL_1MM
+  PosX: 167.0431
+  PosY: -87.9856
+  Rot: 180.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': U$11
+  Package: FIDUCIAL_1MM
+  PosX: 119.1641
+  PosY: -128.8796
+  Rot: 180.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': U$19
+  Package: FIDUCIAL_1MM
+  PosX: 115.8621
+  PosY: -80.8736
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': U$20
+  Package: ADAFRUIT_TEXT_30MM
+  PosX: 113.5761
+  PosY: -119.3546
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U3
+  Package: SOIC16
+  PosX: 143.5481
+  PosY: -103.9876
+  Rot: -90.0
+  Side: top
+  Val: 74HC4050
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 10uF | 0805-NO | 151.6761 | -90.5256\
+  \ | 180.0 | top | \n| C2 | 0.1uF | 0805-NO | 151.6761 | -92.3036 | 180.0 | top |\
+  \ \n| C3 | 0.1uF | 0805-NO | 151.9301 | -109.8296 | -90.0 | top | \n| C4 | 10uF\
+  \ | 0805-NO | 119.4181 | -90.5256 | 0.0 | top | \n| C5 | 10uF | 0805-NO | 154.9781\
+  \ | -85.9536 | -90.0 | top | \n| D1 | 1N4148 | SOD-323F | 146.5961 | -86.4616 |\
+  \ 90.0 | top | \n| D5 | nan | SOLDERJUMPER_ARROW_NOPASTE | 168.4401 | -124.5616\
+  \ | 180.0 | top | \n| D7 | nan | SOLDERJUMPER_ARROW_NOPASTE | 160.0581 | -124.8156\
+  \ | 0.0 | top | \n| IC4 | MIC5225-3.3 | SOT23-5L | 151.6761 | -86.9696 | 180.0 |\
+  \ top | \n| IC5 | AXP803 | SOT23 | 147.3581 | -90.5256 | 180.0 | top | \n| ICSP_CLK0\
+  \ | nan | SOLDERJUMPER_CLOSEDWIRE | 175.9331 | -112.7506 | 90.0 | top | \n| ICSP_SI0\
+  \ | nan | SOLDERJUMPER_CLOSEDWIRE | 180.5051 | -112.7506 | 90.0 | top | \n| ICSP_SO0\
+  \ | nan | SOLDERJUMPER_CLOSEDWIRE | 178.2191 | -112.7506 | 90.0 | top | \n| Q2 |\
+  \ BSS138 | SOT23-WIDE | 143.5481 | -123.4186 | 90.0 | top | \n| Q3 | BSS138 | SOT23-WIDE\
+  \ | 139.7381 | -123.4186 | 90.0 | top | \n| Q4 | BSS138 | SOT23-WIDE | 154.9781\
+  \ | -122.7836 | -90.0 | top | \n| R1 | 68 | 0805-NO | 150.9141 | -119.2276 | 0.0\
+  \ | top | \n| R2 | 68_ohm | 0805-NO | 150.9141 | -117.1956 | 0.0 | top | \n| R3\
+  \ | 68_ohm | 0805-NO | 150.9141 | -115.1636 | 0.0 | top | \n| R4 | 68_ohm | 0805-NO\
+  \ | 150.9141 | -113.1316 | 0.0 | top | \n| R6 | 10K | 0805-NO | 144.0561 | -90.5256\
+  \ | -90.0 | top | \n| R8 | 10K | 0805-NO | 164.6301 | -122.7836 | 180.0 | top |\
+  \ \n| R9 | 2.2K | 0805-NO | 147.8661 | -120.2436 | 90.0 | top | \n| R13 | 10K |\
+  \ 0805-NO | 132.3721 | -123.7996 | 0.0 | top | \n| R14 | 10K | 0805-NO | 136.0551\
+  \ | -123.7996 | 180.0 | top | \n| R15 | 10K | 0805-NO | 147.1041 | -95.0976 | 0.0\
+  \ | top | \n| R16 | 10K | 0805-NO | 144.4371 | -97.3836 | 180.0 | top | \n| SCL_A5\
+  \ | nan | SOLDERJUMPER_REFLOW_NOPASTE | 179.8701 | -79.6036 | -90.0 | top | \n|\
+  \ SDA_A4 | nan | SOLDERJUMPER_REFLOW_NOPASTE | 182.4101 | -79.6036 | 90.0 | top\
+  \ | \n| SJ1 | nan | SOLDERJUMPER_ARROW_NOPASTE | 180.5051 | -118.7196 | 90.0 | top\
+  \ | \n| SJ2 | nan | SOLDERJUMPER_ARROW_NOPASTE | 178.2191 | -118.7196 | 90.0 | top\
+  \ | \n| SJ3 | nan | SOLDERJUMPER_ARROW_NOPASTE | 175.9331 | -118.7196 | 90.0 | top\
+  \ | \n| SJ4 | nan | SOLDERJUMPER_2WAY_OPEN_NOPASTE | 135.8011 | -81.5086 | 0.0 |\
+  \ top | \n| SW1 | SPST_TACT-EVQQ2 | EVQ-Q2 | 119.1641 | -128.8796 | 0.0 | top |\
+  \ \n| U$3 | MICROSD | MICROSD | 130.0861 | -93.5736 | -90.0 | top | \n| U$7 | nan\
+  \ | PCBFEAT-REV-040 | 141.3891 | -90.2716 | 0.0 | top | \n| U$10 | FIDUCIAL_1MM\
+  \ | FIDUCIAL_1MM | 167.0431 | -87.9856 | 180.0 | top | \n| U$11 | FIDUCIAL_1MM |\
+  \ FIDUCIAL_1MM | 119.1641 | -128.8796 | 180.0 | top | \n| U$19 | FIDUCIAL_1MM |\
+  \ FIDUCIAL_1MM | 115.8621 | -80.8736 | 0.0 | top | \n| U$20 | nan | ADAFRUIT_TEXT_30MM\
+  \ | 113.5761 | -119.3546 | 0.0 | top | \n| U3 | 74HC4050 | SOIC16 | 143.5481 | -103.9876\
+  \ | -90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_2_8_tft_shield_v2_pcb_adafruit_tftcaptouchshield_rev_c/current_version/working
 repo:
   allow_forking: true

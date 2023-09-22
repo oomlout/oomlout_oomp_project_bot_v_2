@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit-1.3inch-128x64-Mono-OLED-PCB/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_1_3inch_128x64_mono_oled_pcb_adafruit_1_3_128x64_oled_original/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

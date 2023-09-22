@@ -1,0 +1,229 @@
+(pcb C:\gh\oomlout_oomp_project_bot_v_2\projects\contextualelectronics_gogogo_gogogo_rev1\current_version\working\working_3d_back.png
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "7.0.6")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  143814 -113080  129744 -113080  129744 -99772  143814 -99772
+            143814 -113080)
+    )
+    (plane /VM (polygon F.Cu 0  138176 -105918  138176 -101600  133858 -101600  133858 -103378
+            130048 -103378  129794 -99822  140208 -99822  140208 -103886
+            138938 -105918  138176 -105918))
+    (plane /VIN (polygon F.Cu 0  136652 -105918  134112 -105918  134112 -106172  130048 -106172
+            130048 -103632  134112 -103632  134112 -101854  136652 -101854
+            136652 -105918))
+    (plane GND (polygon F.Cu 0  135636 -109474  135636 -107950  136906 -107950  136906 -101854
+            137922 -101854  137922 -107188  138938 -107188  139954 -108712
+            139954 -109474  135636 -109474))
+    (plane /OUT1 (polygon F.Cu 0  143637 -106426  138176 -106426  138176 -106172  139192 -106172
+            140462 -104140  140462 -100203  143510 -100203  143637 -106426))
+    (plane /OUT2 (polygon F.Cu 0  143637 -112903  140462 -112903  140462 -108712  139319 -106934
+            138176 -106934  138176 -106680  143637 -106680  143637 -112903))
+    (plane GND (polygon B.Cu 0  143764 -112903  129921 -112840  129984 -99885.5  143764 -99885.5
+            143764 -112903))
+    (via "Via[0-1]_600:300_um" "Via[0-1]_685.8:330.2_um")
+    (rule
+      (width 200)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Pin_Headers:Pin_Header_Straight_1x02
+      (place P2 141986.000000 -105410.000000 front 0.000000 (PN CONN_01X02))
+    )
+    (component "GoGoGo:PWSON-N8"
+      (place U1 137414.000000 -106553.000000 front -90.000000 (PN DRV8837DSGR))
+    )
+    (component Capacitors_SMD:C_0603
+      (place C1 136652.000000 -104394.000000 front 0.000000 (PN C))
+      (place C2 138176.000000 -102870.000000 front 180.000000 (PN C))
+    )
+    (component Pin_Headers:Pin_Header_Straight_1x03
+      (place P1 131826.000000 -107442.000000 front 180.000000 (PN CONN_01X03))
+      (place P3 136652.000000 -111252.000000 front -90.000000 (PN CONN_01X03))
+    )
+  )
+  (library
+    (image Pin_Headers:Pin_Header_Straight_1x02
+      (outline (path signal 150  -1550 1550  1550 1550))
+      (outline (path signal 150  -1550 0  -1550 1550))
+      (outline (path signal 150  -1270 -1270  -1270 -3810))
+      (outline (path signal 150  -1270 -3810  1270 -3810))
+      (outline (path signal 150  1270 -1270  -1270 -1270))
+      (outline (path signal 150  1270 -1270  1270 -3810))
+      (outline (path signal 150  1550 1550  1550 0))
+      (outline (path signal 50  -1750 1750  -1750 -4300))
+      (outline (path signal 50  -1750 1750  1750 1750))
+      (outline (path signal 50  -1750 -4300  1750 -4300))
+      (outline (path signal 50  1750 1750  1750 -4300))
+      (pin Rect[A]Pad_2032x2032_um 1 0 0)
+      (pin Oval[A]Pad_2032x2032_um 2 0 -2540)
+    )
+    (image "GoGoGo:PWSON-N8"
+      (outline (path signal 150  -1270 457.2  -1270 -965.2))
+      (outline (path signal 150  -1270 457.2  -812.8 914.4))
+      (outline (path signal 150  -812.8 914.4  1320.8 914.4))
+      (outline (path signal 150  1320.8 914.4  1320.8 -965.2))
+      (outline (path signal 150  1320.8 -965.2  -1270 -965.2))
+      (pin Rect[T]Pad_280x500_um 1 -750 950)
+      (pin Rect[T]Pad_280x500_um 2 -250 950)
+      (pin Rect[T]Pad_280x500_um 3 250 950)
+      (pin Rect[T]Pad_1600x900_um 4 0 0)
+      (pin Rect[T]Pad_280x500_um 4@1 750 950)
+      (pin Rect[T]Pad_280x500_um 5 750 -950)
+      (pin Rect[T]Pad_280x500_um 6 250 -950)
+      (pin Rect[T]Pad_280x500_um 7 -250 -950)
+      (pin Rect[T]Pad_280x500_um 8 -750 -950)
+    )
+    (image Capacitors_SMD:C_0603
+      (outline (path signal 150  -350 600  350 600))
+      (outline (path signal 150  350 -600  -350 -600))
+      (outline (path signal 50  -1450 750  -1450 -750))
+      (outline (path signal 50  -1450 750  1450 750))
+      (outline (path signal 50  -1450 -750  1450 -750))
+      (outline (path signal 50  1450 750  1450 -750))
+      (pin Rect[T]Pad_800x750_um 1 -750 0)
+      (pin Rect[T]Pad_800x750_um 2 750 0)
+    )
+    (image Pin_Headers:Pin_Header_Straight_1x03
+      (outline (path signal 150  -1550 1550  1550 1550))
+      (outline (path signal 150  -1550 0  -1550 1550))
+      (outline (path signal 150  -1270 -1270  -1270 -6350))
+      (outline (path signal 150  -1270 -6350  1270 -6350))
+      (outline (path signal 150  1270 -1270  -1270 -1270))
+      (outline (path signal 150  1270 -6350  1270 -1270))
+      (outline (path signal 150  1550 1550  1550 0))
+      (outline (path signal 50  -1750 1750  -1750 -6850))
+      (outline (path signal 50  -1750 1750  1750 1750))
+      (outline (path signal 50  -1750 -6850  1750 -6850))
+      (outline (path signal 50  1750 1750  1750 -6850))
+      (pin Rect[A]Pad_2032x1727.2_um 1 0 0)
+      (pin Oval[A]Pad_2032x1727.2_um 2 0 -2540)
+      (pin Oval[A]Pad_2032x1727.2_um 3 0 -5080)
+    )
+    (padstack Oval[A]Pad_2032x1727.2_um
+      (shape (path F.Cu 1727.2  -152.4 0  152.4 0))
+      (shape (path B.Cu 1727.2  -152.4 0  152.4 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_2032x2032_um
+      (shape (path F.Cu 2032  0 0  0 0))
+      (shape (path B.Cu 2032  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2032x2032_um
+      (shape (rect F.Cu -1016 -1016 1016 1016))
+      (shape (rect B.Cu -1016 -1016 1016 1016))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2032x1727.2_um
+      (shape (rect F.Cu -1016 -863.6 1016 863.6))
+      (shape (rect B.Cu -1016 -863.6 1016 863.6))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_280x500_um
+      (shape (rect F.Cu -140 -250 140 250))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_800x750_um
+      (shape (rect F.Cu -400 -375 400 375))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1600x900_um
+      (shape (rect F.Cu -800 -450 800 450))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+    (padstack "Via[0-1]_685.8:330.2_um"
+      (shape (circle F.Cu 685.8))
+      (shape (circle B.Cu 685.8))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins U1-4 U1-4@1 C1-2 C2-2 P1-1)
+    )
+    (net /VM
+      (pins U1-1 C2-1 P1-3)
+    )
+    (net /nSleep
+      (pins U1-7 P3-3)
+    )
+    (net /IN2
+      (pins U1-5 P3-1)
+    )
+    (net /IN1
+      (pins U1-6 P3-2)
+    )
+    (net /VIN
+      (pins U1-8 C1-1 P1-2)
+    )
+    (net /OUT1
+      (pins P2-1 U1-2)
+    )
+    (net /OUT2
+      (pins P2-2 U1-3)
+    )
+    (class kicad_default "" /IN1 /IN2 /OUT1 /OUT2 /VIN /VM /nSleep GND
+      (circuit
+        (use_via Via[0-1]_600:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 152.4  137148 -105017  137414 -105283)(net GND)(type route))
+    (wire (path F.Cu 152.4  137478 -107886  137668 -108077  138620 -108077)(net GND)(type route))
+    (wire (path F.Cu 152.4  139446 -108839  139192 -109093  138366 -109093)(net GND)(type route))
+    (wire (path F.Cu 152.4  137224 -108902  136716 -108394  136208 -108394)(net GND)(type route))
+    (wire (path F.Cu 152.4  137148 -104394  137148 -105017)(net GND)(type route))
+    (wire (path B.Cu 152.4  137414 -105283  137478 -105346  137478 -107886)(net GND)(type route))
+    (wire (path B.Cu 152.4  138620 -108077  139382 -108839  139446 -108839)(net GND)(type route))
+    (wire (path B.Cu 152.4  138366 -109093  138176 -108902  137224 -108902)(net GND)(type route))
+    (wire (path F.Cu 304.8  131572 -109792  132270 -109093  132652 -109093  133922 -107823
+            133922 -106998  134616 -106303  136464 -106303)(net /nSleep)(type route))
+    (wire (path F.Cu 304.8  131572 -111252  131572 -109792)(net /nSleep)(type route))
+    (wire (path F.Cu 304.8  136652 -110109  135446 -108902  135446 -107632  135700 -107378
+            136388 -107378  136464 -107303)(net /IN2)(type route))
+    (wire (path F.Cu 304.8  136652 -111252  136652 -110109)(net /IN2)(type route))
+    (wire (path F.Cu 304.8  135132 -106803  134556 -107378  134556 -108585  134112 -109030
+            134112 -111252)(net /IN1)(type route))
+    (wire (path F.Cu 304.8  136464 -106803  135132 -106803)(net /IN1)(type route))
+    (wire (path F.Cu 609.6  131826 -104902  134620 -104902)(net /VIN)(type route))
+    (via "Via[0-1]_685.8:330.2_um"  137414 -105283 (net GND)(type route))
+    (via "Via[0-1]_685.8:330.2_um"  136208 -108394 (net GND)(type route))
+    (via "Via[0-1]_685.8:330.2_um"  138620 -108077 (net GND)(type route))
+    (via "Via[0-1]_685.8:330.2_um"  138366 -109093 (net GND)(type route))
+    (via "Via[0-1]_685.8:330.2_um"  139446 -108839 (net GND)(type route))
+    (via "Via[0-1]_685.8:330.2_um"  137224 -108902 (net GND)(type route))
+    (via "Via[0-1]_685.8:330.2_um"  137478 -107886 (net GND)(type route))
+  )
+)

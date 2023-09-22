@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit-AR1100-Resistive-Touch-Controller-PCB/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_ar1100_resistive_touch_controller_pcb_adafruit_ar1100/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

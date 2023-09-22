@@ -1,9 +1,263 @@
 board: adafruit_joy_bonnet
+bom:
+- Id: '1'
+  Designator: U1
+  Footprint: MSOP10
+  Quantity: '1'
+  Designation: ADS1015
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: FID3,FID2
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: SW1,SW8,SW5,SW3,SW4,SW2
+  Footprint: EVQ-Q2_SMALLER
+  Quantity: '6'
+  Designation: EVQQ
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: RPI1
+  Footprint: PI_BONNET_SMT
+  Quantity: '1'
+  Designation: RASPBERRYPI_BPLUS_BONNETSMT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: UNK2,UNK1
+  Footprint: BTN_KMR2_4.6X2.8
+  Quantity: '2'
+  Designation: KMR2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: JOY1
+  Footprint: JOYSTICK_ANALOG_MINITHM
+  Quantity: '1'
+  Designation: JOYSTICK_ANALOG_XY
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U$7
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U1\
+  \ | MSOP10 | 1 | ADS1015 |  |  | [''] | \n| 2 | FID3,FID2 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM\
+  \ |  |  | [''] | \n| 3 | SW1,SW8,SW5,SW3,SW4,SW2 | EVQ-Q2_SMALLER | 6 | EVQQ | \
+  \ |  | [''] | \n| 4 | RPI1 | PI_BONNET_SMT | 1 | RASPBERRYPI_BPLUS_BONNETSMT | \
+  \ |  | [''] | \n| 5 | UNK2,UNK1 | BTN_KMR2_4.6X2.8 | 2 | KMR2 |  |  | [''] | \n\
+  | 6 | JOY1 | JOYSTICK_ANALOG_MINITHM | 1 | JOYSTICK_ANALOG_XY |  |  | [''] | \n\
+  | 7 | U$7 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID2, FID3
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: JOYSTICK_ANALOG_XY
+  DNP: ''
+  Description: ''
+  Footprint: working:JOYSTICK_ANALOG_MINITHM
+  Qnty: '1'
+  Ref: JOY1
+  Value: JOYSTICK_ANALOG_XY
+  Vendor: ''
+- Cmp name: RASPBERRYPI_BPLUS_BONNETSMT
+  DNP: ''
+  Description: ''
+  Footprint: working:PI_BONNET_SMT
+  Qnty: '1'
+  Ref: RPI1
+  Value: RASPBERRYPI_BPLUS_BONNETSMT
+  Vendor: ''
+- Cmp name: SWITCH_TACT_SMT_EVQQ2_SMALL
+  DNP: ''
+  Description: ''
+  Footprint: working:EVQ-Q2_SMALLER
+  Qnty: '6'
+  Ref: SW1, SW2, SW3, SW4, SW5, SW8
+  Value: EVQQ
+  Vendor: ''
+- Cmp name: ADC_ADS1015
+  DNP: ''
+  Description: ''
+  Footprint: working:MSOP10
+  Qnty: '1'
+  Ref: U1
+  Value: ADS1015
+  Vendor: ''
+- Cmp name: SWITCH_TACT_SMT4.6X2.8
+  DNP: ''
+  Description: ''
+  Footprint: working:BTN_KMR2_4.6X2.8
+  Qnty: '2'
+  Ref: UNK1, UNK2
+  Value: KMR2
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| FID2,\
+  \ FID3 | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| JOY1\
+  \ | 1 | JOYSTICK_ANALOG_XY | JOYSTICK_ANALOG_XY | working:JOYSTICK_ANALOG_MINITHM\
+  \ |  |  |  | \n| RPI1 | 1 | RASPBERRYPI_BPLUS_BONNETSMT | RASPBERRYPI_BPLUS_BONNETSMT\
+  \ | working:PI_BONNET_SMT |  |  |  | \n| SW1, SW2, SW3, SW4, SW5, SW8 | 6 | EVQQ\
+  \ | SWITCH_TACT_SMT_EVQQ2_SMALL | working:EVQ-Q2_SMALLER |  |  |  | \n| U1 | 1 |\
+  \ ADS1015 | ADC_ADS1015 | working:MSOP10 |  |  |  | \n| UNK1, UNK2 | 2 | KMR2 |\
+  \ SWITCH_TACT_SMT4.6X2.8 | working:BTN_KMR2_4.6X2.8 |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_joy_bonnet_pcb_adafruit_joy_bonnet/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_joy_bonnet_pcb_adafruit_joy_bonnet/current_version/working/working.sch
 id: adafruit_adafruit_joy_bonnet_pcb_adafruit_joy_bonnet
 name: adafruit_joy_bonnet_pcb
+position_bottom:
+- '# Ref': U$7
+  Package: PCBFEAT-REV-040
+  PosX: 117.5646
+  PosY: -112.0254
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$7 | nan | PCBFEAT-REV-040 | 117.5646\
+  \ | -112.0254 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 169.3806
+  PosY: -95.5154
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 124.6131
+  PosY: -109.4854
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': JOY1
+  Package: JOYSTICK_ANALOG_MINITHM
+  PosX: 127.4706
+  PosY: -104.6594
+  Rot: 90.0
+  Side: top
+  Val: JOYSTICK_ANALOG_XY
+- '# Ref': RPI1
+  Package: PI_BONNET_SMT
+  PosX: 181.0011
+  PosY: -89.6734
+  Rot: 180.0
+  Side: top
+  Val: RASPBERRYPI_BPLUS_BONNETSMT
+- '# Ref': SW1
+  Package: EVQ-Q2_SMALLER
+  PosX: 152.0451
+  PosY: -104.6594
+  Rot: 180.0
+  Side: top
+  Val: EVQQ
+- '# Ref': SW2
+  Package: EVQ-Q2_SMALLER
+  PosX: 162.5226
+  PosY: -103.1354
+  Rot: 180.0
+  Side: top
+  Val: EVQQ
+- '# Ref': SW3
+  Package: EVQ-Q2_SMALLER
+  PosX: 169.3806
+  PosY: -95.5154
+  Rot: 0.0
+  Side: top
+  Val: EVQQ
+- '# Ref': SW4
+  Package: EVQ-Q2_SMALLER
+  PosX: 169.3806
+  PosY: -110.7554
+  Rot: 0.0
+  Side: top
+  Val: EVQQ
+- '# Ref': SW5
+  Package: EVQ-Q2_SMALLER
+  PosX: 176.2386
+  PosY: -103.1354
+  Rot: 180.0
+  Side: top
+  Val: EVQQ
+- '# Ref': SW8
+  Package: EVQ-Q2_SMALLER
+  PosX: 142.5201
+  PosY: -104.6594
+  Rot: 180.0
+  Side: top
+  Val: EVQQ
+- '# Ref': U1
+  Package: MSOP10
+  PosX: 147.2826
+  PosY: -98.1824
+  Rot: -90.0
+  Side: top
+  Val: ADS1015
+- '# Ref': UNK1
+  Package: BTN_KMR2_4.6X2.8
+  PosX: 142.5201
+  PosY: -93.1659
+  Rot: 180.0
+  Side: top
+  Val: KMR2
+- '# Ref': UNK2
+  Package: BTN_KMR2_4.6X2.8
+  PosX: 152.0451
+  PosY: -93.2294
+  Rot: 180.0
+  Side: top
+  Val: KMR2
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM |\
+  \ 169.3806 | -95.5154 | 0.0 | top | \n| FID3 | FIDUCIAL_1MM | FIDUCIAL_1MM | 124.6131\
+  \ | -109.4854 | 0.0 | top | \n| JOY1 | JOYSTICK_ANALOG_XY | JOYSTICK_ANALOG_MINITHM\
+  \ | 127.4706 | -104.6594 | 90.0 | top | \n| RPI1 | RASPBERRYPI_BPLUS_BONNETSMT |\
+  \ PI_BONNET_SMT | 181.0011 | -89.6734 | 180.0 | top | \n| SW1 | EVQQ | EVQ-Q2_SMALLER\
+  \ | 152.0451 | -104.6594 | 180.0 | top | \n| SW2 | EVQQ | EVQ-Q2_SMALLER | 162.5226\
+  \ | -103.1354 | 180.0 | top | \n| SW3 | EVQQ | EVQ-Q2_SMALLER | 169.3806 | -95.5154\
+  \ | 0.0 | top | \n| SW4 | EVQQ | EVQ-Q2_SMALLER | 169.3806 | -110.7554 | 0.0 | top\
+  \ | \n| SW5 | EVQQ | EVQ-Q2_SMALLER | 176.2386 | -103.1354 | 180.0 | top | \n| SW8\
+  \ | EVQQ | EVQ-Q2_SMALLER | 142.5201 | -104.6594 | 180.0 | top | \n| U1 | ADS1015\
+  \ | MSOP10 | 147.2826 | -98.1824 | -90.0 | top | \n| UNK1 | KMR2 | BTN_KMR2_4.6X2.8\
+  \ | 142.5201 | -93.1659 | 180.0 | top | \n| UNK2 | KMR2 | BTN_KMR2_4.6X2.8 | 152.0451\
+  \ | -93.2294 | 180.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_joy_bonnet_pcb_adafruit_joy_bonnet/current_version/working
 repo:
   allow_forking: true

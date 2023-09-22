@@ -1,10 +1,387 @@
 board: sensorboard
+bom:
+- Id: '1'
+  Designator: C1,C2,C3
+  Footprint: C_0805
+  Quantity: '3'
+  Designation: C
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D1,D2,D3,D4,D5,D6,D7,D8
+  Footprint: LED_0805
+  Quantity: '8'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R1,R2,R3,R4,R5,R7,R8,R9,R10,R11,R12,R13,R14,R15
+  Footprint: R_0805
+  Quantity: '14'
+  Designation: R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R6
+  Footprint: CP_Radial_Tantal_D5.5mm_P5.00mm
+  Quantity: '1'
+  Designation: Photo Resistor
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U1
+  Footprint: CE_Header
+  Quantity: '1'
+  Designation: CE_HEADER
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U2
+  Footprint: SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm
+  Quantity: '1'
+  Designation: DS7505
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U3
+  Footprint: SOIC-16_3.9x9.9mm_Pitch1.27mm
+  Quantity: '1'
+  Designation: 74HC595-PWR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C2,C3\
+  \ | C_0805 | 3 | C |  |  | [''] | \n| 2 | D1,D2,D3,D4,D5,D6,D7,D8 | LED_0805 | 8\
+  \ | LED |  |  | [''] | \n| 3 | R1,R2,R3,R4,R5,R7,R8,R9,R10,R11,R12,R13,R14,R15 |\
+  \ R_0805 | 14 | R |  |  | [''] | \n| 4 | R6 | CP_Radial_Tantal_D5.5mm_P5.00mm |\
+  \ 1 | Photo Resistor |  |  | [''] | \n| 5 | U1 | CE_Header | 1 | CE_HEADER |  |\
+  \  | [''] | \n| 6 | U2 | SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm | 1 | DS7505 |  |  | ['']\
+  \ | \n| 7 | U3 | SOIC-16_3.9x9.9mm_Pitch1.27mm | 1 | 74HC595-PWR |  |  | [''] |\
+  \ \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_SMD:C_0805
+  Qnty: '3'
+  Ref: C1, C2, C3
+  Value: C
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: ''
+  Footprint: LEDs:LED_0805
+  Qnty: '8'
+  Ref: D1, D2, D3, D4, D5, D6, D7, D8
+  Value: LED
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0805
+  Qnty: '14'
+  Ref: R1, R2, R3, R4, R5, R7, R8, R9, R10, R11, R12, R13, R14, R15
+  Value: R
+  Vendor: ''
+- Cmp name: R_PHOTO
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_ThroughHole:CP_Radial_Tantal_D5.5mm_P5.00mm
+  Qnty: '1'
+  Ref: R6
+  Value: Photo Resistor
+  Vendor: ''
+- Cmp name: CE_HEADER
+  DNP: ''
+  Description: ''
+  Footprint: SensorBoard:CE_Header
+  Qnty: '1'
+  Ref: U1
+  Value: CE_HEADER
+  Vendor: ''
+- Cmp name: DS7505
+  DNP: ''
+  Description: ''
+  Footprint: Housings_SOIC:SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm
+  Qnty: '1'
+  Ref: U2
+  Value: DS7505
+  Vendor: ''
+- Cmp name: 74HC595-PWR
+  DNP: ''
+  Description: 8 bits serial in // out Shift Register 3 State Out
+  Footprint: Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm
+  Qnty: '1'
+  Ref: U3
+  Value: 74HC595-PWR
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3 | 3 | C | C | Capacitors_SMD:C_0805 |  |  |  | \n| D1, D2, D3, D4, D5, D6,\
+  \ D7, D8 | 8 | LED | LED | LEDs:LED_0805 |  |  |  | \n| R1, R2, R3, R4, R5, R7,\
+  \ R8, R9, R10, R11, R12, R13, R14, R15 | 14 | R | R | Resistors_SMD:R_0805 |  |\
+  \  |  | \n| R6 | 1 | Photo Resistor | R_PHOTO | Capacitors_ThroughHole:CP_Radial_Tantal_D5.5mm_P5.00mm\
+  \ |  |  |  | \n| U1 | 1 | CE_HEADER | CE_HEADER | SensorBoard:CE_Header |  |  |\
+  \  | \n| U2 | 1 | DS7505 | DS7505 | Housings_SOIC:SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm\
+  \ |  |  |  | \n| U3 | 1 | 74HC595-PWR | 74HC595-PWR | Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm\
+  \ | 8 bits serial in // out Shift Register 3 State Out |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/contextualelectronics_ce_header_sensorboard/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/contextualelectronics_ce_header_sensorboard/current_version/working/working.kicad_pcb
 file_sch_flat: projects/contextualelectronics_ce_header_sensorboard/current_version/working/working.sch
 id: contextualelectronics_ce_header_sensorboard
 name: ce_header
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_0805
+  PosX: 202.5365
+  PosY: -106.869
+  Rot: 0.0
+  Side: top
+  Val: C
+- '# Ref': C2
+  Package: C_0805
+  PosX: 195.4365
+  PosY: -112.319
+  Rot: 0.0
+  Side: top
+  Val: C
+- '# Ref': C3
+  Package: C_0805
+  PosX: 191.0465
+  PosY: -117.769
+  Rot: 0.0
+  Side: top
+  Val: C
+- '# Ref': D1
+  Package: LED_0805
+  PosX: 206.6865
+  PosY: -106.819
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D2
+  Package: LED_0805
+  PosX: 180.4565
+  PosY: -132.839
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D3
+  Package: LED_0805
+  PosX: 188.4065
+  PosY: -123.019
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D4
+  Package: LED_0805
+  PosX: 184.0565
+  PosY: -127.389
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D5
+  Package: LED_0805
+  PosX: 199.5865
+  PosY: -112.269
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D6
+  Package: LED_0805
+  PosX: 195.1965
+  PosY: -117.719
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D7
+  Package: LED_0805
+  PosX: 176.1065
+  PosY: -132.839
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D8
+  Package: LED_0805
+  PosX: 195.1965
+  PosY: -122.769
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': R1
+  Package: R_0805
+  PosX: 191.6865
+  PosY: -107.019
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': R2
+  Package: R_0805
+  PosX: 176.5565
+  PosY: -121.069
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': R3
+  Package: R_0805
+  PosX: 168.6065
+  PosY: -130.119
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': R4
+  Package: R_0805
+  PosX: 180.1065
+  PosY: -122.139
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': R5
+  Package: R_0805
+  PosX: 180.1965
+  PosY: -116.689
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': R6
+  Package: CP_Radial_Tantal_D5.5mm_P5.00mm
+  PosX: 181.6691
+  PosY: -109.179
+  Rot: 0.0
+  Side: top
+  Val: Photo_Resistor
+- '# Ref': R7
+  Package: R_0805
+  PosX: 172.1565
+  PosY: -130.119
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': R8
+  Package: R_0805
+  PosX: 195.2365
+  PosY: -107.019
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': R9
+  Package: R_0805
+  PosX: 176.5565
+  PosY: -126.519
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': R10
+  Package: R_0805
+  PosX: 183.7465
+  PosY: -116.689
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': R11
+  Package: R_0805
+  PosX: 191.6865
+  PosY: -112.469
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': R12
+  Package: R_0805
+  PosX: 187.2965
+  PosY: -116.689
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': R13
+  Package: R_0805
+  PosX: 180.1065
+  PosY: -127.589
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': R14
+  Package: R_0805
+  PosX: 183.6565
+  PosY: -122.139
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': R15
+  Package: R_0805
+  PosX: 198.7865
+  PosY: -107.019
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': U1
+  Package: CE_Header
+  PosX: 161.172
+  PosY: -107.759
+  Rot: 0.0
+  Side: top
+  Val: CE_HEADER
+- '# Ref': U2
+  Package: SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm
+  PosX: 170.8065
+  PosY: -122.919
+  Rot: 0.0
+  Side: top
+  Val: DS7505
+- '# Ref': U3
+  Package: SOIC-16_3.9x9.9mm_Pitch1.27mm
+  PosX: 172.6267
+  PosY: -111.369
+  Rot: 0.0
+  Side: top
+  Val: 74HC595-PWR
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | C | C_0805 | 202.5365 | -106.869\
+  \ | 0.0 | top | \n| C2 | C | C_0805 | 195.4365 | -112.319 | 0.0 | top | \n| C3 |\
+  \ C | C_0805 | 191.0465 | -117.769 | 0.0 | top | \n| D1 | LED | LED_0805 | 206.6865\
+  \ | -106.819 | 0.0 | top | \n| D2 | LED | LED_0805 | 180.4565 | -132.839 | 0.0 |\
+  \ top | \n| D3 | LED | LED_0805 | 188.4065 | -123.019 | 0.0 | top | \n| D4 | LED\
+  \ | LED_0805 | 184.0565 | -127.389 | 0.0 | top | \n| D5 | LED | LED_0805 | 199.5865\
+  \ | -112.269 | 0.0 | top | \n| D6 | LED | LED_0805 | 195.1965 | -117.719 | 0.0 |\
+  \ top | \n| D7 | LED | LED_0805 | 176.1065 | -132.839 | 0.0 | top | \n| D8 | LED\
+  \ | LED_0805 | 195.1965 | -122.769 | 0.0 | top | \n| R1 | R | R_0805 | 191.6865\
+  \ | -107.019 | 0.0 | top | \n| R2 | R | R_0805 | 176.5565 | -121.069 | 0.0 | top\
+  \ | \n| R3 | R | R_0805 | 168.6065 | -130.119 | 0.0 | top | \n| R4 | R | R_0805\
+  \ | 180.1065 | -122.139 | 0.0 | top | \n| R5 | R | R_0805 | 180.1965 | -116.689\
+  \ | 0.0 | top | \n| R6 | Photo_Resistor | CP_Radial_Tantal_D5.5mm_P5.00mm | 181.6691\
+  \ | -109.179 | 0.0 | top | \n| R7 | R | R_0805 | 172.1565 | -130.119 | 0.0 | top\
+  \ | \n| R8 | R | R_0805 | 195.2365 | -107.019 | 0.0 | top | \n| R9 | R | R_0805\
+  \ | 176.5565 | -126.519 | 0.0 | top | \n| R10 | R | R_0805 | 183.7465 | -116.689\
+  \ | 0.0 | top | \n| R11 | R | R_0805 | 191.6865 | -112.469 | 0.0 | top | \n| R12\
+  \ | R | R_0805 | 187.2965 | -116.689 | 0.0 | top | \n| R13 | R | R_0805 | 180.1065\
+  \ | -127.589 | 0.0 | top | \n| R14 | R | R_0805 | 183.6565 | -122.139 | 0.0 | top\
+  \ | \n| R15 | R | R_0805 | 198.7865 | -107.019 | 0.0 | top | \n| U1 | CE_HEADER\
+  \ | CE_Header | 161.172 | -107.759 | 0.0 | top | \n| U2 | DS7505 | SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm\
+  \ | 170.8065 | -122.919 | 0.0 | top | \n| U3 | 74HC595-PWR | SOIC-16_3.9x9.9mm_Pitch1.27mm\
+  \ | 172.6267 | -111.369 | 0.0 | top | \n"
 projects_flat: projects/contextualelectronics_ce_header_sensorboard/current_version/working
 repo:
   allow_forking: true

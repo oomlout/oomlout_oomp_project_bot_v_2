@@ -1,0 +1,113 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 516dec08-0630-495e-b463-33dc38031c49)
+
+  (paper "A4")
+
+  (title_block
+    (title "Marconi-RF")
+    (date "2016-11-11")
+    (rev "0.1a")
+    (company "GhostPCB")
+    (comment 1 "Engineered and Drawn By: Adam Vadala-Roth")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "Marconi RF Open Source Sub 1GHZ RF Development Kit"
+    (at 46.355 26.035 0)
+    (effects (font (size 5.0038 5.0038) (thickness 1.0008) bold) (justify left bottom))
+    (uuid 46ccccf1-0856-4965-9235-e5a9f7db02ec)
+  )
+
+  (sheet (at 102.87 40.64) (size 57.15 42.545) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000058263681)
+    (property "Sheetname" "STM32F415RGT6 - MCU" (at 102.87 39.8014 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Sheetfile" "../../../../tmp/MarconiRF/PCB/STM32F415RGT6_MCU.sch" (at 102.87 83.8712 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "MarconiRF"
+        (path "/516dec08-0630-495e-b463-33dc38031c49" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 212.09 106.045) (size 59.69 35.56) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000582636ca)
+    (property "Sheetname" "Power" (at 212.09 105.2064 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Sheetfile" "../../../../tmp/MarconiRF/PCB/Power.sch" (at 212.09 142.2912 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "MarconiRF"
+        (path "/516dec08-0630-495e-b463-33dc38031c49" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 214.63 39.37) (size 57.15 46.355) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000582636dc)
+    (property "Sheetname" "ADF7023 RF Transceiver" (at 214.63 38.5314 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Sheetfile" "../../../../tmp/MarconiRF/PCB/ADF7023_RF.sch" (at 214.63 86.4112 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "MarconiRF"
+        (path "/516dec08-0630-495e-b463-33dc38031c49" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 102.235 96.52) (size 60.96 45.085) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000582636f5)
+    (property "Sheetname" "Connectors and Arduino Headers" (at 102.235 95.6814 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Sheetfile" "../../../../tmp/MarconiRF/PCB/Connectors_Arduino.sch" (at 102.235 142.2912 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "MarconiRF"
+        (path "/516dec08-0630-495e-b463-33dc38031c49" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 23.495 96.52) (size 64.77 46.355) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000058263759)
+    (property "Sheetname" "FTDI Serial Port" (at 23.495 95.6814 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Sheetfile" "../../../../tmp/MarconiRF/PCB/FTDI_COM.sch" (at 23.495 143.5612 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "MarconiRF"
+        (path "/516dec08-0630-495e-b463-33dc38031c49" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

@@ -18,8 +18,14 @@
 
 {% if "working_schematic.png" in p.files %}## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+{# do a loop from 1 to 9 #}
+{% for i in range(1, 10) %}
+{% if "working_" + i|string + "_schematic.png" in p.files %}![](working_{{ i }}_schematic_600.png)  
+[schematic {{ i|string }} (pdf)](working_{{ i|string }}_schematic.pdf) {% endif %}
+{% endfor %}
 {% endif %}
+
 {% if "working_3d.png" in p.files %}## pcb  
 ![](working_3d_600.png) 
 ![](working_3d_front_600.png)  

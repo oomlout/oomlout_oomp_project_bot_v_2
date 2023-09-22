@@ -1,9 +1,188 @@
 board: tpm_module_12pin_spi_reva1
+bom:
+- Id: '1'
+  Designator: C2,C3
+  Footprint: C_0402_1005Metric
+  Quantity: '2'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: IC1
+  Footprint: QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+  Quantity: '1'
+  Designation: Infineon-SLB9670
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C1
+  Footprint: C_0402_1005Metric
+  Quantity: '1'
+  Designation: 4u7
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R2,R1,R3
+  Footprint: R_0402_1005Metric
+  Quantity: '3'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J1
+  Footprint: PinSocket_2x06_P2.54mm_Horizontal
+  Quantity: '1'
+  Designation: Conn_02x06_Odd_Even
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C2,C3\
+  \ | C_0402_1005Metric | 2 | 100n |  |  | [''] | \n| 2 | IC1 | QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm\
+  \ | 1 | Infineon-SLB9670 |  |  | [''] | \n| 3 | C1 | C_0402_1005Metric | 1 | 4u7\
+  \ |  |  | [''] | \n| 4 | R2,R1,R3 | R_0402_1005Metric | 3 | 10k |  |  | [''] | \n\
+  | 5 | J1 | PinSocket_2x06_P2.54mm_Horizontal | 1 | Conn_02x06_Odd_Even |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0402_1005Metric
+  Qnty: '1'
+  Ref: C1
+  Value: 4u7
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0402_1005Metric
+  Qnty: '2'
+  Ref: C2, C3
+  Value: 100n
+  Vendor: ''
+- Cmp name: Infineon-SLB9670
+  DNP: ''
+  Description: ''
+  Footprint: Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+  Qnty: '1'
+  Ref: IC1
+  Value: Infineon-SLB9670
+  Vendor: ''
+- Cmp name: Conn_02x06_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x06, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_02x06_Odd_Even
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0402_1005Metric
+  Qnty: '3'
+  Ref: R1, R2, R3
+  Value: 10k
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 4u7 | C | Capacitor_SMD:C_0402_1005Metric | Unpolarized capacitor |  |  |\
+  \ \n| C2, C3 | 2 | 100n | C | Capacitor_SMD:C_0402_1005Metric | Unpolarized capacitor\
+  \ |  |  | \n| IC1 | 1 | Infineon-SLB9670 | Infineon-SLB9670 | Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm\
+  \ |  |  |  | \n| J1 | 1 | Conn_02x06_Odd_Even | Conn_02x06_Odd_Even | Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal\
+  \ | Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| R1, R2, R3 | 3 | 10k | R | Resistor_SMD:R_0402_1005Metric | Resistor\
+  \ |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/electrolama_tpm_modules_tpm_module_12pin_spi_reva1/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/electrolama_tpm_modules_tpm_module_12pin_spi_reva1/current_version/working/working.kicad_sch
 id: electrolama_tpm_modules_tpm_module_12pin_spi_reva1
 name: tpm_modules
+position_bottom:
+- '# Ref': J1
+  Package: PinSocket_2x06_P2.54mm_Horizontal
+  PosX: 120.56
+  PosY: -79.1
+  Rot: 90.0
+  Side: bottom
+  Val: Conn_02x06_Odd_Even
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J1 | Conn_02x06_Odd_Even | PinSocket_2x06_P2.54mm_Horizontal\
+  \ | 120.56 | -79.1 | 90.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: C_0402_1005Metric
+  PosX: 120.8
+  PosY: -76.0
+  Rot: 0.0
+  Side: top
+  Val: 4u7
+- '# Ref': C2
+  Package: C_0402_1005Metric
+  PosX: 110.0
+  PosY: -67.5
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': C3
+  Package: C_0402_1005Metric
+  PosX: 115.5
+  PosY: -73.75
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': IC1
+  Package: QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+  PosX: 114.25
+  PosY: -69.5
+  Rot: -90.0
+  Side: top
+  Val: Infineon-SLB9670
+- '# Ref': R1
+  Package: R_0402_1005Metric
+  PosX: 118.3
+  PosY: -76.0
+  Rot: 180.0
+  Side: top
+  Val: 10k
+- '# Ref': R2
+  Package: R_0402_1005Metric
+  PosX: 108.0
+  PosY: -76.0
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R3
+  Package: R_0402_1005Metric
+  PosX: 111.0
+  PosY: -76.0
+  Rot: 0.0
+  Side: top
+  Val: 10k
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 4u7 | C_0402_1005Metric | 120.8\
+  \ | -76.0 | 0.0 | top | \n| C2 | 100n | C_0402_1005Metric | 110.0 | -67.5 | -90.0\
+  \ | top | \n| C3 | 100n | C_0402_1005Metric | 115.5 | -73.75 | 0.0 | top | \n| IC1\
+  \ | Infineon-SLB9670 | QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm | 114.25 | -69.5 | -90.0\
+  \ | top | \n| R1 | 10k | R_0402_1005Metric | 118.3 | -76.0 | 180.0 | top | \n| R2\
+  \ | 10k | R_0402_1005Metric | 108.0 | -76.0 | 0.0 | top | \n| R3 | 10k | R_0402_1005Metric\
+  \ | 111.0 | -76.0 | 0.0 | top | \n"
 projects_flat: projects/electrolama_tpm_modules_tpm_module_12pin_spi_reva1/current_version/working
 repo:
   allow_forking: true

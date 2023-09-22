@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit-CSI-or-DSI-Cable-Extender-Thingy-for-Raspberry-Pi/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_csi_or_dsi_cable_extender_thingy_for_raspberry_pi_dsi_csi_extender/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

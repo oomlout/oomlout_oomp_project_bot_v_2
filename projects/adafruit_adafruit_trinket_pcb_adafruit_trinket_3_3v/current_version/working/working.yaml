@@ -1,9 +1,588 @@
 board: adafruit_trinket_3_3v
+bom:
+- Id: '1'
+  Designator: D3,D2
+  Footprint: SOD-123FL
+  Quantity: '2'
+  Designation: SCHOTTKY
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: Q1
+  Footprint: BTN_KMR2_4.6X2.8
+  Quantity: '1'
+  Designation: reset
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: IC3
+  Footprint: SOIC8
+  Quantity: '1'
+  Designation: ATTINY85-20S
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$1,U$6
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: PWR0
+  Footprint: CHIPLED_0805_NOOUTLINE
+  Quantity: '1'
+  Designation: green
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R2,R1
+  Footprint: 0603-NO
+  Quantity: '2'
+  Designation: 68 (0603)
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R5,R4
+  Footprint: 0603-NO
+  Quantity: '2'
+  Designation: 470 (0603)
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R3
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 1.5K (0603)
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: CN4,CN3
+  Footprint: 1X04-CLEANBIG
+  Quantity: '2'
+  Designation: 1X4-CLEANBIG
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U$9,U$8
+  Footprint: MOUNTINGHOLE_2.0_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.0
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: B1
+  Footprint: CHIPLED_0805_NOOUTLINE
+  Quantity: '1'
+  Designation: red
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: C1,C8
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: JP2,JP1
+  Footprint: 1X01-CLEANBIG
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: CN1
+  Footprint: USB-MINIB
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: '@HOLE0,@HOLE1'
+  Footprint: ''
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: IC2
+  Footprint: SOT23-5L
+  Quantity: '1'
+  Designation: MIC5225-3.3v
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: U$5
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: BAT0
+  Footprint: JSTPH2
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D3,D2\
+  \ | SOD-123FL | 2 | SCHOTTKY |  |  | [''] | \n| 2 | Q1 | BTN_KMR2_4.6X2.8 | 1 |\
+  \ reset |  |  | [''] | \n| 3 | IC3 | SOIC8 | 1 | ATTINY85-20S |  |  | [''] | \n\
+  | 4 | U$1,U$6 | FIDUCIAL_1MM | 2 | FIDUCIAL |  |  | [''] | \n| 5 | PWR0 | CHIPLED_0805_NOOUTLINE\
+  \ | 1 | green |  |  | [''] | \n| 6 | R2,R1 | 0603-NO | 2 | 68 (0603) |  |  | ['']\
+  \ | \n| 7 | R5,R4 | 0603-NO | 2 | 470 (0603) |  |  | [''] | \n| 8 | R3 | 0603-NO\
+  \ | 1 | 1.5K (0603) |  |  | [''] | \n| 9 | CN4,CN3 | 1X04-CLEANBIG | 2 | 1X4-CLEANBIG\
+  \ |  |  | [''] | \n| 10 | U$9,U$8 | MOUNTINGHOLE_2.0_PLATED | 2 | MOUNTINGHOLE2.0\
+  \ |  |  | [''] | \n| 11 | B1 | CHIPLED_0805_NOOUTLINE | 1 | red |  |  | [''] | \n\
+  | 12 | C1,C8 | 0805-NO | 2 | 10uF |  |  | [''] | \n| 13 | JP2,JP1 | 1X01-CLEANBIG\
+  \ | 2 |  |  |  | [''] | \n| 14 | CN1 | USB-MINIB | 1 |  |  |  | [''] | \n| 15 |\
+  \ @HOLE0,@HOLE1 |  | 2 |  |  |  | [''] | \n| 16 | IC2 | SOT23-5L | 1 | MIC5225-3.3v\
+  \ |  |  | [''] | \n| 17 | U$5 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n| 18 | BAT0\
+  \ | JSTPH2 | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: LED0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805_NOOUTLINE
+  Qnty: '1'
+  Ref: B1
+  Value: red
+  Vendor: ''
+- Cmp name: CON_JST_PH_2PIN
+  DNP: ''
+  Description: ''
+  Footprint: working:JSTPH2
+  Qnty: '1'
+  Ref: BAT0
+  Value: CON_JST_PH_2PIN
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C1, C8
+  Value: 10uF
+  Vendor: ''
+- Cmp name: USBMINIB
+  DNP: ''
+  Description: ''
+  Footprint: working:USB-MINIB
+  Qnty: '1'
+  Ref: CN1
+  Value: USBMINIB
+  Vendor: ''
+- Cmp name: 1X4-CLEANBIG
+  DNP: ''
+  Description: ''
+  Footprint: working:1X04-CLEANBIG
+  Qnty: '2'
+  Ref: CN3, CN4
+  Value: 1X4-CLEANBIG
+  Vendor: ''
+- Cmp name: DIODE_SOD-123FL
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-123FL
+  Qnty: '2'
+  Ref: D2, D3
+  Value: SCHOTTKY
+  Vendor: ''
+- Cmp name: LP298XS
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5L
+  Qnty: '1'
+  Ref: IC2
+  Value: LP298XS
+  Vendor: ''
+- Cmp name: ATTINY85S
+  DNP: ''
+  Description: ''
+  Footprint: working:SOIC8
+  Qnty: '1'
+  Ref: IC3
+  Value: ATTINY85S
+  Vendor: ''
+- Cmp name: PINHD-1X1CB
+  DNP: ''
+  Description: ''
+  Footprint: working:1X01-CLEANBIG
+  Qnty: '2'
+  Ref: JP1, JP2
+  Value: PINHD-1X1CB
+  Vendor: ''
+- Cmp name: LED0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805_NOOUTLINE
+  Qnty: '1'
+  Ref: PWR0
+  Value: green
+  Vendor: ''
+- Cmp name: SWITCH_TACT_SMT4.6X2.8
+  DNP: ''
+  Description: ''
+  Footprint: working:BTN_KMR2_4.6X2.8
+  Qnty: '1'
+  Ref: Q1
+  Value: reset
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 68 (0603)
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R3
+  Value: 1.5K (0603)
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: R4, R5
+  Value: 470 (0603)
+  Vendor: ''
+- Cmp name: FIDUCIAL
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: U$1, U$6
+  Value: FIDUCIAL
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.0
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.0_PLATED
+  Qnty: '2'
+  Ref: U$8, U$9
+  Value: MOUNTINGHOLE2.0
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| B1 |\
+  \ 1 | red | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | \n| BAT0\
+  \ | 1 | CON_JST_PH_2PIN | CON_JST_PH_2PIN | working:JSTPH2 |  |  |  | \n| C1, C8\
+  \ | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| CN1 |\
+  \ 1 | USBMINIB | USBMINIB | working:USB-MINIB |  |  |  | \n| CN3, CN4 | 2 | 1X4-CLEANBIG\
+  \ | 1X4-CLEANBIG | working:1X04-CLEANBIG |  |  |  | \n| D2, D3 | 2 | SCHOTTKY |\
+  \ DIODE_SOD-123FL | working:SOD-123FL |  |  |  | \n| IC2 | 1 | LP298XS | LP298XS\
+  \ | working:SOT23-5L |  |  |  | \n| IC3 | 1 | ATTINY85S | ATTINY85S | working:SOIC8\
+  \ |  |  |  | \n| JP1, JP2 | 2 | PINHD-1X1CB | PINHD-1X1CB | working:1X01-CLEANBIG\
+  \ |  |  |  | \n| PWR0 | 1 | green | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE\
+  \ |  |  |  | \n| Q1 | 1 | reset | SWITCH_TACT_SMT4.6X2.8 | working:BTN_KMR2_4.6X2.8\
+  \ |  |  |  | \n| R1, R2 | 2 | 68 (0603) | RESISTOR_0603_NOOUT | working:0603-NO\
+  \ |  |  |  | \n| R3 | 1 | 1.5K (0603) | RESISTOR_0603_NOOUT | working:0603-NO |\
+  \  |  |  | \n| R4, R5 | 2 | 470 (0603) | RESISTOR_0603_NOOUT | working:0603-NO |\
+  \  |  |  | \n| U$1, U$6 | 2 | FIDUCIAL | FIDUCIAL | working:FIDUCIAL_1MM |  |  |\
+  \  | \n| U$8, U$9 | 2 | MOUNTINGHOLE2.0 | MOUNTINGHOLE2.0 | working:MOUNTINGHOLE_2.0_PLATED\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_trinket_pcb_adafruit_trinket_3_3v/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_trinket_pcb_adafruit_trinket_3_3v/current_version/working/working.sch
 id: adafruit_adafruit_trinket_pcb_adafruit_trinket_3_3v
+mounting_holes:
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$8
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$9
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '11.430000000000007'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0\
+  \ | U$8 | m3 | \n| 11.430000000000007 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0\
+  \ | U$9 | m3 | \n"
 name: adafruit_trinket_pcb
+position_bottom:
+- '# Ref': BAT0
+  Package: JSTPH2
+  PosX: 148.5011
+  PosY: -93.7006
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$5
+  Package: ADAFRUIT_3.5MM
+  PosX: 155.9941
+  PosY: -100.8126
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| BAT0 | nan | JSTPH2 | 148.5011 |\
+  \ -93.7006 | 180.0 | bottom | \n| U$5 | nan | ADAFRUIT_3.5MM | 155.9941 | -100.8126\
+  \ | 180.0 | bottom | \n"
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 142.7861
+  PosY: -94.4626
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 154.2161
+  PosY: -94.4626
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': B1
+  Package: CHIPLED_0805_NOOUTLINE
+  PosX: 154.9781
+  PosY: -98.1456
+  Rot: 0.0
+  Side: top
+  Val: red
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 151.2951
+  PosY: -105.6386
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C8
+  Package: 0805-NO
+  PosX: 151.2951
+  PosY: -116.1796
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': CN1
+  Package: USB-MINIB
+  PosX: 148.5011
+  PosY: -93.8276
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': CN3
+  Package: 1X04-CLEANBIG
+  PosX: 142.1511
+  PosY: -108.4326
+  Rot: 90.0
+  Side: top
+  Val: 1X4-CLEANBIG
+- '# Ref': CN4
+  Package: 1X04-CLEANBIG
+  PosX: 154.8511
+  PosY: -108.4326
+  Rot: 90.0
+  Side: top
+  Val: 1X4-CLEANBIG
+- '# Ref': D2
+  Package: SOD-123FL
+  PosX: 151.6761
+  PosY: -101.3714
+  Rot: 90.0
+  Side: top
+  Val: SCHOTTKY
+- '# Ref': D3
+  Package: SOD-123FL
+  PosX: 145.1991
+  PosY: -101.3206
+  Rot: 90.0
+  Side: top
+  Val: SCHOTTKY
+- '# Ref': IC2
+  Package: SOT23-5L
+  PosX: 147.8407
+  PosY: -104.6226
+  Rot: -90.0
+  Side: top
+  Val: MIC5225-3.3v
+- '# Ref': IC3
+  Package: SOIC8
+  PosX: 147.6121
+  PosY: -110.5916
+  Rot: 180.0
+  Side: top
+  Val: ATTINY85-20S
+- '# Ref': JP1
+  Package: 1X01-CLEANBIG
+  PosX: 154.8511
+  PosY: -102.0826
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X01-CLEANBIG
+  PosX: 142.1511
+  PosY: -102.0826
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': PWR0
+  Package: CHIPLED_0805_NOOUTLINE
+  PosX: 142.0241
+  PosY: -98.2726
+  Rot: 0.0
+  Side: top
+  Val: green
+- '# Ref': Q1
+  Package: BTN_KMR2_4.6X2.8
+  PosX: 147.6121
+  PosY: -116.6876
+  Rot: 0.0
+  Side: top
+  Val: reset
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 148.3741
+  PosY: -101.3206
+  Rot: -90.0
+  Side: top
+  Val: 68_(0603)
+- '# Ref': R2
+  Package: 0603-NO
+  PosX: 146.8501
+  PosY: -101.3206
+  Rot: -90.0
+  Side: top
+  Val: 68_(0603)
+- '# Ref': R3
+  Package: 0603-NO
+  PosX: 149.8981
+  PosY: -101.3206
+  Rot: -90.0
+  Side: top
+  Val: 1.5K_(0603)
+- '# Ref': R4
+  Package: 0603-NO
+  PosX: 151.2951
+  PosY: -112.6236
+  Rot: -90.0
+  Side: top
+  Val: 470_(0603)
+- '# Ref': R5
+  Package: 0603-NO
+  PosX: 151.2951
+  PosY: -109.1946
+  Rot: -90.0
+  Side: top
+  Val: 470_(0603)
+- '# Ref': U$1
+  Package: FIDUCIAL_1MM
+  PosX: 148.5011
+  PosY: -91.1606
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': U$6
+  Package: FIDUCIAL_1MM
+  PosX: 148.0566
+  PosY: -116.4336
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': U$8
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 142.7861
+  PosY: -116.0526
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U$9
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 154.2161
+  PosY: -116.0526
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 142.7861 | -94.4626\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 154.2161 | -94.4626 | 0.0 | top | \n| B1\
+  \ | red | CHIPLED_0805_NOOUTLINE | 154.9781 | -98.1456 | 0.0 | top | \n| C1 | 10uF\
+  \ | 0805-NO | 151.2951 | -105.6386 | -90.0 | top | \n| C8 | 10uF | 0805-NO | 151.2951\
+  \ | -116.1796 | -90.0 | top | \n| CN1 | nan | USB-MINIB | 148.5011 | -93.8276 |\
+  \ 180.0 | top | \n| CN3 | 1X4-CLEANBIG | 1X04-CLEANBIG | 142.1511 | -108.4326 |\
+  \ 90.0 | top | \n| CN4 | 1X4-CLEANBIG | 1X04-CLEANBIG | 154.8511 | -108.4326 | 90.0\
+  \ | top | \n| D2 | SCHOTTKY | SOD-123FL | 151.6761 | -101.3714 | 90.0 | top | \n\
+  | D3 | SCHOTTKY | SOD-123FL | 145.1991 | -101.3206 | 90.0 | top | \n| IC2 | MIC5225-3.3v\
+  \ | SOT23-5L | 147.8407 | -104.6226 | -90.0 | top | \n| IC3 | ATTINY85-20S | SOIC8\
+  \ | 147.6121 | -110.5916 | 180.0 | top | \n| JP1 | nan | 1X01-CLEANBIG | 154.8511\
+  \ | -102.0826 | 0.0 | top | \n| JP2 | nan | 1X01-CLEANBIG | 142.1511 | -102.0826\
+  \ | 0.0 | top | \n| PWR0 | green | CHIPLED_0805_NOOUTLINE | 142.0241 | -98.2726\
+  \ | 0.0 | top | \n| Q1 | reset | BTN_KMR2_4.6X2.8 | 147.6121 | -116.6876 | 0.0 |\
+  \ top | \n| R1 | 68_(0603) | 0603-NO | 148.3741 | -101.3206 | -90.0 | top | \n|\
+  \ R2 | 68_(0603) | 0603-NO | 146.8501 | -101.3206 | -90.0 | top | \n| R3 | 1.5K_(0603)\
+  \ | 0603-NO | 149.8981 | -101.3206 | -90.0 | top | \n| R4 | 470_(0603) | 0603-NO\
+  \ | 151.2951 | -112.6236 | -90.0 | top | \n| R5 | 470_(0603) | 0603-NO | 151.2951\
+  \ | -109.1946 | -90.0 | top | \n| U$1 | FIDUCIAL | FIDUCIAL_1MM | 148.5011 | -91.1606\
+  \ | 0.0 | top | \n| U$6 | FIDUCIAL | FIDUCIAL_1MM | 148.0566 | -116.4336 | 0.0 |\
+  \ top | \n| U$8 | MOUNTINGHOLE2.0 | MOUNTINGHOLE_2.0_PLATED | 142.7861 | -116.0526\
+  \ | 0.0 | top | \n| U$9 | MOUNTINGHOLE2.0 | MOUNTINGHOLE_2.0_PLATED | 154.2161 |\
+  \ -116.0526 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_trinket_pcb_adafruit_trinket_3_3v/current_version/working
 repo:
   allow_forking: true

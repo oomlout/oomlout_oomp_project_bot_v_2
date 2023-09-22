@@ -12,6 +12,7 @@
 
 * src_file_repo_sch: kicadFiles/ouroboros.sch
 * src_file_repo_sch_link: https://github.com/AcheronProject/Ouroboros/tree/master/kicadFiles/ouroboros.sch
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/acheronproject_ouroboros_ouroboros/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

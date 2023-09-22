@@ -1,10 +1,588 @@
 board: really_synced_485
+bom:
+- Id: '1'
+  Designator: D1,D2,D3,D4,D5
+  Footprint: LED_0805
+  Quantity: '5'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J1
+  Footprint: 195-4MST
+  Quantity: '1'
+  Designation: CONN_02X04
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J2,J3
+  Footprint: Pin_Header_Straight_1x03_Pitch2.54mm
+  Quantity: '2'
+  Designation: CONN_01X03
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J4
+  Footprint: 54602-908LF
+  Quantity: '1'
+  Designation: CONN_02X04
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R12,R15,R13,R14
+  Footprint: R_0805_HandSoldering
+  Quantity: '4'
+  Designation: NOPE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U1
+  Footprint: CE_Header
+  Quantity: '1'
+  Designation: CE_HEADER
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U2
+  Footprint: SOIC-8_3.9x4.9mm_Pitch1.27mm
+  Quantity: '1'
+  Designation: SN75179B
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U3
+  Footprint: SOIC-8_3.9x4.9mm_Pitch1.27mm
+  Quantity: '1'
+  Designation: SN65HVD82
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: C1,C2
+  Footprint: C_0805
+  Quantity: '2'
+  Designation: .1U
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R1,R4,R7,R8,R9
+  Footprint: R_0805_HandSoldering
+  Quantity: '5'
+  Designation: '220'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: R2,R3,R5,R6
+  Footprint: R_0805_HandSoldering
+  Quantity: '4'
+  Designation: 5K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: R10,R11
+  Footprint: R_0805_HandSoldering
+  Quantity: '2'
+  Designation: '120'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: R16,R18
+  Footprint: R_0805_HandSoldering
+  Quantity: '2'
+  Designation: '375'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: R17
+  Footprint: R_0805_HandSoldering
+  Quantity: '1'
+  Designation: '60'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: R19,R20
+  Footprint: R_0805_HandSoldering
+  Quantity: '2'
+  Designation: '0'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D1,D2,D3,D4,D5\
+  \ | LED_0805 | 5 | LED |  |  | [''] | \n| 2 | J1 | 195-4MST | 1 | CONN_02X04 | \
+  \ |  | [''] | \n| 3 | J2,J3 | Pin_Header_Straight_1x03_Pitch2.54mm | 2 | CONN_01X03\
+  \ |  |  | [''] | \n| 4 | J4 | 54602-908LF | 1 | CONN_02X04 |  |  | [''] | \n| 5\
+  \ | R12,R15,R13,R14 | R_0805_HandSoldering | 4 | NOPE |  |  | [''] | \n| 6 | U1\
+  \ | CE_Header | 1 | CE_HEADER |  |  | [''] | \n| 7 | U2 | SOIC-8_3.9x4.9mm_Pitch1.27mm\
+  \ | 1 | SN75179B |  |  | [''] | \n| 8 | U3 | SOIC-8_3.9x4.9mm_Pitch1.27mm | 1 |\
+  \ SN65HVD82 |  |  | [''] | \n| 9 | C1,C2 | C_0805 | 2 | .1U |  |  | [''] | \n| 10\
+  \ | R1,R4,R7,R8,R9 | R_0805_HandSoldering | 5 | 220 |  |  | [''] | \n| 11 | R2,R3,R5,R6\
+  \ | R_0805_HandSoldering | 4 | 5K |  |  | [''] | \n| 12 | R10,R11 | R_0805_HandSoldering\
+  \ | 2 | 120 |  |  | [''] | \n| 13 | R16,R18 | R_0805_HandSoldering | 2 | 375 | \
+  \ |  | [''] | \n| 14 | R17 | R_0805_HandSoldering | 1 | 60 |  |  | [''] | \n| 15\
+  \ | R19,R20 | R_0805_HandSoldering | 2 | 0 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_SMD:C_0805
+  Qnty: '2'
+  Ref: C1, C2
+  Value: .1U
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: ''
+  Footprint: LEDs:LED_0805
+  Qnty: '5'
+  Ref: D1, D2, D3, D4, D5
+  Value: LED
+  Vendor: ''
+- Cmp name: CONN_02X04
+  DNP: ''
+  Description: ''
+  Footprint: ReallySynced:195-4MST
+  Qnty: '1'
+  Ref: J1
+  Value: CONN_02X04
+  Vendor: ''
+- Cmp name: CONN_01X03
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm
+  Qnty: '2'
+  Ref: J2, J3
+  Value: CONN_01X03
+  Vendor: ''
+- Cmp name: CONN_02X04
+  DNP: ''
+  Description: ''
+  Footprint: ReallySynced:54602-908LF
+  Qnty: '1'
+  Ref: J4
+  Value: CONN_02X04
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0805_HandSoldering
+  Qnty: '5'
+  Ref: R1, R4, R7, R8, R9
+  Value: '220'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0805_HandSoldering
+  Qnty: '4'
+  Ref: R2, R3, R5, R6
+  Value: 5K
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0805_HandSoldering
+  Qnty: '2'
+  Ref: R10, R11
+  Value: '120'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0805_HandSoldering
+  Qnty: '4'
+  Ref: R12, R13, R14, R15
+  Value: NOPE
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0805_HandSoldering
+  Qnty: '2'
+  Ref: R16, R18
+  Value: '375'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0805_HandSoldering
+  Qnty: '1'
+  Ref: R17
+  Value: '60'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0805_HandSoldering
+  Qnty: '2'
+  Ref: R19, R20
+  Value: '0'
+  Vendor: ''
+- Cmp name: CE_HEADER
+  DNP: ''
+  Description: ''
+  Footprint: ReallySynced:CE_Header
+  Qnty: '1'
+  Ref: U1
+  Value: CE_HEADER
+  Vendor: ''
+- Cmp name: SN75179B
+  DNP: ''
+  Description: ''
+  Footprint: Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm
+  Qnty: '1'
+  Ref: U2
+  Value: SN75179B
+  Vendor: ''
+- Cmp name: SN65HVD82
+  DNP: ''
+  Description: ''
+  Footprint: Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm
+  Qnty: '1'
+  Ref: U3
+  Value: SN65HVD82
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2\
+  \ | 2 | .1U | C | Capacitors_SMD:C_0805 |  |  |  | \n| D1, D2, D3, D4, D5 | 5 |\
+  \ LED | LED | LEDs:LED_0805 |  |  |  | \n| J1 | 1 | CONN_02X04 | CONN_02X04 | ReallySynced:195-4MST\
+  \ |  |  |  | \n| J2, J3 | 2 | CONN_01X03 | CONN_01X03 | Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm\
+  \ |  |  |  | \n| J4 | 1 | CONN_02X04 | CONN_02X04 | ReallySynced:54602-908LF | \
+  \ |  |  | \n| R1, R4, R7, R8, R9 | 5 | 220 | R | Resistors_SMD:R_0805_HandSoldering\
+  \ |  |  |  | \n| R2, R3, R5, R6 | 4 | 5K | R | Resistors_SMD:R_0805_HandSoldering\
+  \ |  |  |  | \n| R10, R11 | 2 | 120 | R | Resistors_SMD:R_0805_HandSoldering | \
+  \ |  |  | \n| R12, R13, R14, R15 | 4 | NOPE | R | Resistors_SMD:R_0805_HandSoldering\
+  \ |  |  |  | \n| R16, R18 | 2 | 375 | R | Resistors_SMD:R_0805_HandSoldering | \
+  \ |  |  | \n| R17 | 1 | 60 | R | Resistors_SMD:R_0805_HandSoldering |  |  |  | \n\
+  | R19, R20 | 2 | 0 | R | Resistors_SMD:R_0805_HandSoldering |  |  |  | \n| U1 |\
+  \ 1 | CE_HEADER | CE_HEADER | ReallySynced:CE_Header |  |  |  | \n| U2 | 1 | SN75179B\
+  \ | SN75179B | Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm |  |  |  | \n| U3 | 1\
+  \ | SN65HVD82 | SN65HVD82 | Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm |  |  | \
+  \ | \n"
 counter: 1
 file_kicad_pcb_flat: projects/contextualelectronics_really_synced_485_really_synced_485/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/contextualelectronics_really_synced_485_really_synced_485/current_version/working/working.kicad_pcb
 file_sch_flat: projects/contextualelectronics_really_synced_485_really_synced_485/current_version/working/working.sch
 id: contextualelectronics_really_synced_485_really_synced_485
 name: really_synced_485
+position_bottom:
+- '# Ref': C1
+  Package: C_0805
+  PosX: 145.796
+  PosY: -107.188
+  Rot: -90.0
+  Side: bottom
+  Val: .1U
+- '# Ref': C2
+  Package: C_0805
+  PosX: 146.177
+  PosY: -124.333
+  Rot: 90.0
+  Side: bottom
+  Val: .1U
+- '# Ref': R1
+  Package: R_0805_HandSoldering
+  PosX: 141.097
+  PosY: -118.491
+  Rot: -90.0
+  Side: bottom
+  Val: '220'
+- '# Ref': R2
+  Package: R_0805_HandSoldering
+  PosX: 130.175
+  PosY: -109.601
+  Rot: 90.0
+  Side: bottom
+  Val: 5K
+- '# Ref': R3
+  Package: R_0805_HandSoldering
+  PosX: 132.842
+  PosY: -109.474
+  Rot: 90.0
+  Side: bottom
+  Val: 5K
+- '# Ref': R4
+  Package: R_0805_HandSoldering
+  PosX: 143.002
+  PosY: -118.491
+  Rot: -90.0
+  Side: bottom
+  Val: '220'
+- '# Ref': R5
+  Package: R_0805_HandSoldering
+  PosX: 135.382
+  PosY: -109.474
+  Rot: 90.0
+  Side: bottom
+  Val: 5K
+- '# Ref': R6
+  Package: R_0805_HandSoldering
+  PosX: 137.922
+  PosY: -109.474
+  Rot: 90.0
+  Side: bottom
+  Val: 5K
+- '# Ref': R7
+  Package: R_0805_HandSoldering
+  PosX: 139.192
+  PosY: -118.491
+  Rot: -90.0
+  Side: bottom
+  Val: '220'
+- '# Ref': R8
+  Package: R_0805_HandSoldering
+  PosX: 144.907
+  PosY: -118.491
+  Rot: -90.0
+  Side: bottom
+  Val: '220'
+- '# Ref': R9
+  Package: R_0805_HandSoldering
+  PosX: 146.812
+  PosY: -118.491
+  Rot: -90.0
+  Side: bottom
+  Val: '220'
+- '# Ref': R10
+  Package: R_0805_HandSoldering
+  PosX: 151.2824
+  PosY: -113.4364
+  Rot: 0.0
+  Side: bottom
+  Val: '120'
+- '# Ref': R11
+  Package: R_0805_HandSoldering
+  PosX: 154.7978
+  PosY: -117.8966
+  Rot: 90.0
+  Side: bottom
+  Val: '120'
+- '# Ref': R13
+  Package: R_0805_HandSoldering
+  PosX: 154.5793
+  PosY: -105.7351
+  Rot: 90.0
+  Side: bottom
+  Val: NOPE
+- '# Ref': R14
+  Package: R_0805_HandSoldering
+  PosX: 150.8455
+  PosY: -105.9332
+  Rot: 90.0
+  Side: bottom
+  Val: NOPE
+- '# Ref': R16
+  Package: R_0805_HandSoldering
+  PosX: 158.8414
+  PosY: -122.2045
+  Rot: -90.0
+  Side: bottom
+  Val: '375'
+- '# Ref': R17
+  Package: R_0805_HandSoldering
+  PosX: 156.911
+  PosY: -122.2248
+  Rot: 90.0
+  Side: bottom
+  Val: '60'
+- '# Ref': R18
+  Package: R_0805_HandSoldering
+  PosX: 158.496
+  PosY: -117.7747
+  Rot: 0.0
+  Side: bottom
+  Val: '375'
+- '# Ref': R19
+  Package: R_0805_HandSoldering
+  PosX: 154.559
+  PosY: -126.365
+  Rot: 90.0
+  Side: bottom
+  Val: '0'
+- '# Ref': R20
+  Package: R_0805_HandSoldering
+  PosX: 149.86
+  PosY: -126.4285
+  Rot: 90.0
+  Side: bottom
+  Val: '0'
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C1 | .1U | C_0805 | 145.796 | -107.188\
+  \ | -90.0 | bottom | \n| C2 | .1U | C_0805 | 146.177 | -124.333 | 90.0 | bottom\
+  \ | \n| R1 | 220 | R_0805_HandSoldering | 141.097 | -118.491 | -90.0 | bottom |\
+  \ \n| R2 | 5K | R_0805_HandSoldering | 130.175 | -109.601 | 90.0 | bottom | \n|\
+  \ R3 | 5K | R_0805_HandSoldering | 132.842 | -109.474 | 90.0 | bottom | \n| R4 |\
+  \ 220 | R_0805_HandSoldering | 143.002 | -118.491 | -90.0 | bottom | \n| R5 | 5K\
+  \ | R_0805_HandSoldering | 135.382 | -109.474 | 90.0 | bottom | \n| R6 | 5K | R_0805_HandSoldering\
+  \ | 137.922 | -109.474 | 90.0 | bottom | \n| R7 | 220 | R_0805_HandSoldering | 139.192\
+  \ | -118.491 | -90.0 | bottom | \n| R8 | 220 | R_0805_HandSoldering | 144.907 |\
+  \ -118.491 | -90.0 | bottom | \n| R9 | 220 | R_0805_HandSoldering | 146.812 | -118.491\
+  \ | -90.0 | bottom | \n| R10 | 120 | R_0805_HandSoldering | 151.2824 | -113.4364\
+  \ | 0.0 | bottom | \n| R11 | 120 | R_0805_HandSoldering | 154.7978 | -117.8966 |\
+  \ 90.0 | bottom | \n| R13 | NOPE | R_0805_HandSoldering | 154.5793 | -105.7351 |\
+  \ 90.0 | bottom | \n| R14 | NOPE | R_0805_HandSoldering | 150.8455 | -105.9332 |\
+  \ 90.0 | bottom | \n| R16 | 375 | R_0805_HandSoldering | 158.8414 | -122.2045 |\
+  \ -90.0 | bottom | \n| R17 | 60 | R_0805_HandSoldering | 156.911 | -122.2248 | 90.0\
+  \ | bottom | \n| R18 | 375 | R_0805_HandSoldering | 158.496 | -117.7747 | 0.0 |\
+  \ bottom | \n| R19 | 0 | R_0805_HandSoldering | 154.559 | -126.365 | 90.0 | bottom\
+  \ | \n| R20 | 0 | R_0805_HandSoldering | 149.86 | -126.4285 | 90.0 | bottom | \n"
+position_top:
+- '# Ref': D1
+  Package: LED_0805
+  PosX: 141.097
+  PosY: -118.745
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D2
+  Package: LED_0805
+  PosX: 143.002
+  PosY: -118.745
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D3
+  Package: LED_0805
+  PosX: 139.192
+  PosY: -118.745
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D4
+  Package: LED_0805
+  PosX: 144.907
+  PosY: -118.745
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D5
+  Package: LED_0805
+  PosX: 146.812
+  PosY: -118.745
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': J1
+  Package: 195-4MST
+  PosX: 134.112
+  PosY: -109.601
+  Rot: 0.0
+  Side: top
+  Val: CONN_02X04
+- '# Ref': J2
+  Package: Pin_Header_Straight_1x03_Pitch2.54mm
+  PosX: 134.62
+  PosY: -120.777
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X03
+- '# Ref': J3
+  Package: Pin_Header_Straight_1x03_Pitch2.54mm
+  PosX: 130.429
+  PosY: -120.904
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X03
+- '# Ref': J4
+  Package: 54602-908LF
+  PosX: 151.13
+  PosY: -120.65
+  Rot: 90.0
+  Side: top
+  Val: CONN_02X04
+- '# Ref': R12
+  Package: R_0805_HandSoldering
+  PosX: 157.2768
+  PosY: -111.76
+  Rot: 0.0
+  Side: top
+  Val: NOPE
+- '# Ref': R15
+  Package: R_0805_HandSoldering
+  PosX: 157.2768
+  PosY: -109.728
+  Rot: 0.0
+  Side: top
+  Val: NOPE
+- '# Ref': U1
+  Package: CE_Header
+  PosX: 123.0884
+  PosY: -104.648
+  Rot: 0.0
+  Side: top
+  Val: CE_HEADER
+- '# Ref': U2
+  Package: SOIC-8_3.9x4.9mm_Pitch1.27mm
+  PosX: 148.336
+  PosY: -107.823
+  Rot: 0.0
+  Side: top
+  Val: SN75179B
+- '# Ref': U3
+  Package: SOIC-8_3.9x4.9mm_Pitch1.27mm
+  PosX: 143.51
+  PosY: -124.46
+  Rot: 0.0
+  Side: top
+  Val: SN65HVD82
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| D1 | LED | LED_0805 | 141.097 | -118.745\
+  \ | -90.0 | top | \n| D2 | LED | LED_0805 | 143.002 | -118.745 | -90.0 | top | \n\
+  | D3 | LED | LED_0805 | 139.192 | -118.745 | -90.0 | top | \n| D4 | LED | LED_0805\
+  \ | 144.907 | -118.745 | -90.0 | top | \n| D5 | LED | LED_0805 | 146.812 | -118.745\
+  \ | -90.0 | top | \n| J1 | CONN_02X04 | 195-4MST | 134.112 | -109.601 | 0.0 | top\
+  \ | \n| J2 | CONN_01X03 | Pin_Header_Straight_1x03_Pitch2.54mm | 134.62 | -120.777\
+  \ | 0.0 | top | \n| J3 | CONN_01X03 | Pin_Header_Straight_1x03_Pitch2.54mm | 130.429\
+  \ | -120.904 | 0.0 | top | \n| J4 | CONN_02X04 | 54602-908LF | 151.13 | -120.65\
+  \ | 90.0 | top | \n| R12 | NOPE | R_0805_HandSoldering | 157.2768 | -111.76 | 0.0\
+  \ | top | \n| R15 | NOPE | R_0805_HandSoldering | 157.2768 | -109.728 | 0.0 | top\
+  \ | \n| U1 | CE_HEADER | CE_Header | 123.0884 | -104.648 | 0.0 | top | \n| U2 |\
+  \ SN75179B | SOIC-8_3.9x4.9mm_Pitch1.27mm | 148.336 | -107.823 | 0.0 | top | \n\
+  | U3 | SN65HVD82 | SOIC-8_3.9x4.9mm_Pitch1.27mm | 143.51 | -124.46 | 0.0 | top |\
+  \ \n"
 projects_flat: projects/contextualelectronics_really_synced_485_really_synced_485/current_version/working
 repo:
   allow_forking: true

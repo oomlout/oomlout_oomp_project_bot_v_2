@@ -1,10 +1,957 @@
 board: reviung34
+bom:
+- Id: '1'
+  Designator: RGB9,RGB1,RGB2,RGB3,RGB4,RGB5,RGB6,RGB7,RGB8
+  Footprint: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  Quantity: '9'
+  Designation: WS2812B
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW19,SW20,SW21,SW22,SW23,SW24,SW25,SW26,SW27,SW28,SW29,SW30,SW31,SW32,SW33,SW34
+  Footprint: MXOnly-1U-NoLED
+  Quantity: '32'
+  Designation: SW_PUSH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: SW17
+  Footprint: MXOnly-1U-5pinRcut
+  Quantity: '1'
+  Designation: SW_PUSH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: SW18
+  Footprint: MXOnly-1U-5pinLcut
+  Quantity: '1'
+  Designation: SW_PUSH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: SW35
+  Footprint: MXOnly-2U-NoLED-or1Ux2
+  Quantity: '1'
+  Designation: SW_PUSH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U1
+  Footprint: ProMicro
+  Quantity: '1'
+  Designation: ProMicro
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: H1,H2,H4,H3,H5,H7,H6,H8,H9
+  Footprint: HOLE_4.2mm
+  Quantity: '9'
+  Designation: HOLE_4.2mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32,D33,D34
+  Footprint: D3_SMD_1side
+  Quantity: '34'
+  Designation: 1N4148W
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: RESET1
+  Footprint: ResetSW_1side
+  Quantity: '1'
+  Designation: SW_PUSH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: G***
+  Footprint: QMK-x4-ver1
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: G***
+  Footprint: reviung-logo
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: G***
+  Footprint: R-x4-ver1
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | RGB9,RGB1,RGB2,RGB3,RGB4,RGB5,RGB6,RGB7,RGB8\
+  \ | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm | 9 | WS2812B |  |  | [''] | \n| 2 | SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW19,SW20,SW21,SW22,SW23,SW24,SW25,SW26,SW27,SW28,SW29,SW30,SW31,SW32,SW33,SW34\
+  \ | MXOnly-1U-NoLED | 32 | SW_PUSH |  |  | [''] | \n| 3 | SW17 | MXOnly-1U-5pinRcut\
+  \ | 1 | SW_PUSH |  |  | [''] | \n| 4 | SW18 | MXOnly-1U-5pinLcut | 1 | SW_PUSH |\
+  \  |  | [''] | \n| 5 | SW35 | MXOnly-2U-NoLED-or1Ux2 | 1 | SW_PUSH |  |  | ['']\
+  \ | \n| 6 | U1 | ProMicro | 1 | ProMicro |  |  | [''] | \n| 7 | H1,H2,H4,H3,H5,H7,H6,H8,H9\
+  \ | HOLE_4.2mm | 9 | HOLE_4.2mm |  |  | [''] | \n| 8 | D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32,D33,D34\
+  \ | D3_SMD_1side | 34 | 1N4148W |  |  | [''] | \n| 9 | RESET1 | ResetSW_1side |\
+  \ 1 | SW_PUSH |  |  | [''] | \n| 10 | G*** | QMK-x4-ver1 | 1 | LOGO |  |  | ['']\
+  \ | \n| 11 | G*** | reviung-logo | 1 | LOGO |  |  | [''] | \n| 12 | G*** | R-x4-ver1\
+  \ | 1 | LOGO |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: 1N4148W
+  DNP: ''
+  Description: 75V 0.15A Fast Switching Diode, SOD-123
+  Footprint: _reviung-kbd:D3_SMD_1side
+  Qnty: '34'
+  Ref: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17,
+    D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33,
+    D34
+  Value: 1N4148W
+  Vendor: ''
+- Cmp name: SW_PUSH-_reviung-kbd
+  DNP: ''
+  Description: ''
+  Footprint: _reviung-kbd:ResetSW_1side
+  Qnty: '1'
+  Ref: RESET1
+  Value: SW_PUSH
+  Vendor: ''
+- Cmp name: WS2812B
+  DNP: ''
+  Description: RGB LED with integrated controller
+  Footprint: _reviung-kbd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  Qnty: '9'
+  Ref: RGB1, RGB2, RGB3, RGB4, RGB5, RGB6, RGB7, RGB8, RGB9
+  Value: WS2812B
+  Vendor: ''
+- Cmp name: SW_PUSH-_reviung-kbd
+  DNP: ''
+  Description: ''
+  Footprint: _reviung-kbd:MXOnly-1U-NoLED
+  Qnty: '32'
+  Ref: SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12, SW13, SW14,
+    SW15, SW16, SW19, SW20, SW21, SW22, SW23, SW24, SW25, SW26, SW27, SW28, SW29,
+    SW30, SW31, SW32, SW33, SW34
+  Value: SW_PUSH
+  Vendor: ''
+- Cmp name: SW_PUSH-_reviung-kbd
+  DNP: ''
+  Description: ''
+  Footprint: _reviung-kbd:MXOnly-1U-5pinRcut
+  Qnty: '1'
+  Ref: SW17
+  Value: SW_PUSH
+  Vendor: ''
+- Cmp name: SW_PUSH-_reviung-kbd
+  DNP: ''
+  Description: ''
+  Footprint: _reviung-kbd:MXOnly-1U-5pinLcut
+  Qnty: '1'
+  Ref: SW18
+  Value: SW_PUSH
+  Vendor: ''
+- Cmp name: SW_PUSH-_reviung-kbd
+  DNP: ''
+  Description: ''
+  Footprint: _reviung-kbd:MXOnly-2U-NoLED-or1Ux2
+  Qnty: '1'
+  Ref: SW35
+  Value: SW_PUSH
+  Vendor: ''
+- Cmp name: ProMicro-_reviung-kbd
+  DNP: ''
+  Description: ''
+  Footprint: _reviung-kbd:ProMicro
+  Qnty: '1'
+  Ref: U1
+  Value: ProMicro
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| D1, D2,\
+  \ D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19,\
+  \ D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33, D34 | 34\
+  \ | 1N4148W | 1N4148W | _reviung-kbd:D3_SMD_1side | 75V 0.15A Fast Switching Diode,\
+  \ SOD-123 |  |  | \n| RESET1 | 1 | SW_PUSH | SW_PUSH-_reviung-kbd | _reviung-kbd:ResetSW_1side\
+  \ |  |  |  | \n| RGB1, RGB2, RGB3, RGB4, RGB5, RGB6, RGB7, RGB8, RGB9 | 9 | WS2812B\
+  \ | WS2812B | _reviung-kbd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm | RGB LED with integrated\
+  \ controller |  |  | \n| SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11,\
+  \ SW12, SW13, SW14, SW15, SW16, SW19, SW20, SW21, SW22, SW23, SW24, SW25, SW26,\
+  \ SW27, SW28, SW29, SW30, SW31, SW32, SW33, SW34 | 32 | SW_PUSH | SW_PUSH-_reviung-kbd\
+  \ | _reviung-kbd:MXOnly-1U-NoLED |  |  |  | \n| SW17 | 1 | SW_PUSH | SW_PUSH-_reviung-kbd\
+  \ | _reviung-kbd:MXOnly-1U-5pinRcut |  |  |  | \n| SW18 | 1 | SW_PUSH | SW_PUSH-_reviung-kbd\
+  \ | _reviung-kbd:MXOnly-1U-5pinLcut |  |  |  | \n| SW35 | 1 | SW_PUSH | SW_PUSH-_reviung-kbd\
+  \ | _reviung-kbd:MXOnly-2U-NoLED-or1Ux2 |  |  |  | \n| U1 | 1 | ProMicro | ProMicro-_reviung-kbd\
+  \ | _reviung-kbd:ProMicro |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/gtips_reviung_reviung34/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/gtips_reviung_reviung34/current_version/working/working.kicad_pcb
 file_sch_flat: projects/gtips_reviung_reviung34/current_version/working/working.sch
 id: gtips_reviung_reviung34
 name: reviung
+position_bottom:
+- '# Ref': D1
+  Package: D3_SMD_1side
+  PosX: 20.08
+  PosY: -26.9
+  Rot: -10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D2
+  Package: D3_SMD_1side
+  PosX: 39.33
+  PosY: -26.76
+  Rot: -10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D3
+  Package: D3_SMD_1side
+  PosX: 58.71
+  PosY: -26.71
+  Rot: -10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D4
+  Package: D3_SMD_1side
+  PosX: 77.03
+  PosY: -33.49
+  Rot: -10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D5
+  Package: D3_SMD_1side
+  PosX: 95.11
+  PosY: -40.2
+  Rot: -10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D6
+  Package: D3_SMD_1side
+  PosX: 16.74
+  PosY: -45.8
+  Rot: -10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D7
+  Package: D3_SMD_1side
+  PosX: 36.05
+  PosY: -45.49
+  Rot: -10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D8
+  Package: D3_SMD_1side
+  PosX: 55.56
+  PosY: -45.53
+  Rot: -10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D9
+  Package: D3_SMD_1side
+  PosX: 73.61
+  PosY: -52.1
+  Rot: -10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D10
+  Package: D3_SMD_1side
+  PosX: 91.71
+  PosY: -58.87
+  Rot: -10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D11
+  Package: D3_SMD_1side
+  PosX: 13.37
+  PosY: -64.42
+  Rot: -10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D12
+  Package: D3_SMD_1side
+  PosX: 32.76
+  PosY: -64.23
+  Rot: -10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D13
+  Package: D3_SMD_1side
+  PosX: 51.98
+  PosY: -64.26
+  Rot: -10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D14
+  Package: D3_SMD_1side
+  PosX: 70.26
+  PosY: -70.87
+  Rot: -10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D15
+  Package: D3_SMD_1side
+  PosX: 88.48
+  PosY: -77.56
+  Rot: -10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D16
+  Package: D3_SMD_1side
+  PosX: 75.56
+  PosY: -97.04
+  Rot: -15.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D17
+  Package: D3_SMD_1side
+  PosX: 88.8
+  PosY: -98.85
+  Rot: 0.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D18
+  Package: D3_SMD_1side
+  PosX: 127.02
+  PosY: -98.85
+  Rot: 0.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D19
+  Package: D3_SMD_1side
+  PosX: 121.06
+  PosY: -40.12
+  Rot: 10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D20
+  Package: D3_SMD_1side
+  PosX: 139.06
+  PosY: -33.43
+  Rot: 10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D21
+  Package: D3_SMD_1side
+  PosX: 157.26
+  PosY: -26.69
+  Rot: 10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D22
+  Package: D3_SMD_1side
+  PosX: 176.6
+  PosY: -26.78
+  Rot: 10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D23
+  Package: D3_SMD_1side
+  PosX: 124.35
+  PosY: -58.91
+  Rot: 10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D24
+  Package: D3_SMD_1side
+  PosX: 142.25
+  PosY: -52.25
+  Rot: 10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D25
+  Package: D3_SMD_1side
+  PosX: 160.54
+  PosY: -45.44
+  Rot: 10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D26
+  Package: D3_SMD_1side
+  PosX: 179.99
+  PosY: -45.59
+  Rot: 10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D27
+  Package: D3_SMD_1side
+  PosX: 127.61
+  PosY: -77.72
+  Rot: 10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D28
+  Package: D3_SMD_1side
+  PosX: 145.71
+  PosY: -70.92
+  Rot: 10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D29
+  Package: D3_SMD_1side
+  PosX: 163.9
+  PosY: -64.18
+  Rot: 10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D30
+  Package: D3_SMD_1side
+  PosX: 183.27
+  PosY: -64.25
+  Rot: 10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D31
+  Package: D3_SMD_1side
+  PosX: 196.16
+  PosY: -26.92
+  Rot: 10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D32
+  Package: D3_SMD_1side
+  PosX: 199.25
+  PosY: -45.73
+  Rot: 10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D33
+  Package: D3_SMD_1side
+  PosX: 202.64
+  PosY: -64.43
+  Rot: 10.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': D34
+  Package: D3_SMD_1side
+  PosX: 140.31
+  PosY: -97.03
+  Rot: 15.0
+  Side: bottom
+  Val: 1N4148W
+- '# Ref': G***
+  Package: R-x4-ver1
+  PosX: 107.91
+  PosY: -87.96
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+- '# Ref': G***
+  Package: QMK-x4-ver1
+  PosX: 45.96
+  PosY: -74.11
+  Rot: 160.0
+  Side: bottom
+  Val: LOGO
+- '# Ref': G***
+  Package: reviung-logo
+  PosX: 108.75
+  PosY: -12.0
+  Rot: 170.0
+  Side: bottom
+  Val: LOGO
+- '# Ref': RESET1
+  Package: ResetSW_1side
+  PosX: 138.08
+  PosY: -11.95
+  Rot: -10.0
+  Side: bottom
+  Val: SW_PUSH
+- '# Ref': RGB1
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 48.55
+  PosY: -29.85
+  Rot: 170.0
+  Side: bottom
+  Val: WS2812B
+- '# Ref': RGB2
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 26.34
+  PosY: -46.22
+  Rot: 170.0
+  Side: bottom
+  Val: WS2812B
+- '# Ref': RGB3
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 51.31
+  PosY: -69.01
+  Rot: 170.0
+  Side: bottom
+  Val: WS2812B
+- '# Ref': RGB4
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 88.89
+  PosY: -85.93
+  Rot: 180.0
+  Side: bottom
+  Val: WS2812B
+- '# Ref': RGB5
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 126.97
+  PosY: -85.93
+  Rot: 180.0
+  Side: bottom
+  Val: WS2812B
+- '# Ref': RGB6
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 164.51
+  PosY: -69.02
+  Rot: -170.0
+  Side: bottom
+  Val: WS2812B
+- '# Ref': RGB7
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 189.51
+  PosY: -46.2
+  Rot: -170.0
+  Side: bottom
+  Val: WS2812B
+- '# Ref': RGB8
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 167.33
+  PosY: -29.83
+  Rot: -170.0
+  Side: bottom
+  Val: WS2812B
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| D1 | 1N4148W | D3_SMD_1side | 20.08\
+  \ | -26.9 | -10.0 | bottom | \n| D2 | 1N4148W | D3_SMD_1side | 39.33 | -26.76 |\
+  \ -10.0 | bottom | \n| D3 | 1N4148W | D3_SMD_1side | 58.71 | -26.71 | -10.0 | bottom\
+  \ | \n| D4 | 1N4148W | D3_SMD_1side | 77.03 | -33.49 | -10.0 | bottom | \n| D5 |\
+  \ 1N4148W | D3_SMD_1side | 95.11 | -40.2 | -10.0 | bottom | \n| D6 | 1N4148W | D3_SMD_1side\
+  \ | 16.74 | -45.8 | -10.0 | bottom | \n| D7 | 1N4148W | D3_SMD_1side | 36.05 | -45.49\
+  \ | -10.0 | bottom | \n| D8 | 1N4148W | D3_SMD_1side | 55.56 | -45.53 | -10.0 |\
+  \ bottom | \n| D9 | 1N4148W | D3_SMD_1side | 73.61 | -52.1 | -10.0 | bottom | \n\
+  | D10 | 1N4148W | D3_SMD_1side | 91.71 | -58.87 | -10.0 | bottom | \n| D11 | 1N4148W\
+  \ | D3_SMD_1side | 13.37 | -64.42 | -10.0 | bottom | \n| D12 | 1N4148W | D3_SMD_1side\
+  \ | 32.76 | -64.23 | -10.0 | bottom | \n| D13 | 1N4148W | D3_SMD_1side | 51.98 |\
+  \ -64.26 | -10.0 | bottom | \n| D14 | 1N4148W | D3_SMD_1side | 70.26 | -70.87 |\
+  \ -10.0 | bottom | \n| D15 | 1N4148W | D3_SMD_1side | 88.48 | -77.56 | -10.0 | bottom\
+  \ | \n| D16 | 1N4148W | D3_SMD_1side | 75.56 | -97.04 | -15.0 | bottom | \n| D17\
+  \ | 1N4148W | D3_SMD_1side | 88.8 | -98.85 | 0.0 | bottom | \n| D18 | 1N4148W |\
+  \ D3_SMD_1side | 127.02 | -98.85 | 0.0 | bottom | \n| D19 | 1N4148W | D3_SMD_1side\
+  \ | 121.06 | -40.12 | 10.0 | bottom | \n| D20 | 1N4148W | D3_SMD_1side | 139.06\
+  \ | -33.43 | 10.0 | bottom | \n| D21 | 1N4148W | D3_SMD_1side | 157.26 | -26.69\
+  \ | 10.0 | bottom | \n| D22 | 1N4148W | D3_SMD_1side | 176.6 | -26.78 | 10.0 | bottom\
+  \ | \n| D23 | 1N4148W | D3_SMD_1side | 124.35 | -58.91 | 10.0 | bottom | \n| D24\
+  \ | 1N4148W | D3_SMD_1side | 142.25 | -52.25 | 10.0 | bottom | \n| D25 | 1N4148W\
+  \ | D3_SMD_1side | 160.54 | -45.44 | 10.0 | bottom | \n| D26 | 1N4148W | D3_SMD_1side\
+  \ | 179.99 | -45.59 | 10.0 | bottom | \n| D27 | 1N4148W | D3_SMD_1side | 127.61\
+  \ | -77.72 | 10.0 | bottom | \n| D28 | 1N4148W | D3_SMD_1side | 145.71 | -70.92\
+  \ | 10.0 | bottom | \n| D29 | 1N4148W | D3_SMD_1side | 163.9 | -64.18 | 10.0 | bottom\
+  \ | \n| D30 | 1N4148W | D3_SMD_1side | 183.27 | -64.25 | 10.0 | bottom | \n| D31\
+  \ | 1N4148W | D3_SMD_1side | 196.16 | -26.92 | 10.0 | bottom | \n| D32 | 1N4148W\
+  \ | D3_SMD_1side | 199.25 | -45.73 | 10.0 | bottom | \n| D33 | 1N4148W | D3_SMD_1side\
+  \ | 202.64 | -64.43 | 10.0 | bottom | \n| D34 | 1N4148W | D3_SMD_1side | 140.31\
+  \ | -97.03 | 15.0 | bottom | \n| G*** | LOGO | R-x4-ver1 | 107.91 | -87.96 | 180.0\
+  \ | bottom | \n| G*** | LOGO | QMK-x4-ver1 | 45.96 | -74.11 | 160.0 | bottom | \n\
+  | G*** | LOGO | reviung-logo | 108.75 | -12.0 | 170.0 | bottom | \n| RESET1 | SW_PUSH\
+  \ | ResetSW_1side | 138.08 | -11.95 | -10.0 | bottom | \n| RGB1 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | 48.55 | -29.85 | 170.0 | bottom | \n| RGB2 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | 26.34 | -46.22 | 170.0 | bottom | \n| RGB3 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | 51.31 | -69.01 | 170.0 | bottom | \n| RGB4 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | 88.89 | -85.93 | 180.0 | bottom | \n| RGB5 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | 126.97 | -85.93 | 180.0 | bottom | \n| RGB6 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | 164.51 | -69.02 | -170.0 | bottom | \n| RGB7 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | 189.51 | -46.2 | -170.0 | bottom | \n| RGB8 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | 167.33 | -29.83 | -170.0 | bottom | \n"
+position_top:
+- '# Ref': H1
+  Package: HOLE_4.2mm
+  PosX: 29.54
+  PosY: -28.03
+  Rot: 0.0
+  Side: top
+  Val: HOLE_4.2mm
+- '# Ref': H2
+  Package: HOLE_4.2mm
+  PosX: 22.92
+  PosY: -65.54
+  Rot: 0.0
+  Side: top
+  Val: HOLE_4.2mm
+- '# Ref': H3
+  Package: HOLE_4.2mm
+  PosX: 85.8
+  PosY: -37.94
+  Rot: 0.0
+  Side: top
+  Val: HOLE_4.2mm
+- '# Ref': H4
+  Package: HOLE_4.2mm
+  PosX: 62.02
+  PosY: -76.97
+  Rot: 0.0
+  Side: top
+  Val: HOLE_4.2mm
+- '# Ref': H5
+  Package: HOLE_4.2mm
+  PosX: 107.91
+  PosY: -79.96
+  Rot: 0.0
+  Side: top
+  Val: HOLE_4.2mm
+- '# Ref': H6
+  Package: HOLE_4.2mm
+  PosX: 130.02
+  PosY: -37.94
+  Rot: 0.0
+  Side: top
+  Val: HOLE_4.2mm
+- '# Ref': H7
+  Package: HOLE_4.2mm
+  PosX: 153.8
+  PosY: -76.98
+  Rot: 0.0
+  Side: top
+  Val: HOLE_4.2mm
+- '# Ref': H8
+  Package: HOLE_4.2mm
+  PosX: 186.32
+  PosY: -28.02
+  Rot: 0.0
+  Side: top
+  Val: HOLE_4.2mm
+- '# Ref': H9
+  Package: HOLE_4.2mm
+  PosX: 192.91
+  PosY: -65.53
+  Rot: 0.0
+  Side: top
+  Val: HOLE_4.2mm
+- '# Ref': RGB9
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 107.94
+  PosY: -64.36
+  Rot: 180.0
+  Side: top
+  Val: WS2812B
+- '# Ref': SW1
+  Package: MXOnly-1U-NoLED
+  PosX: 20.8
+  PosY: -22.42
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW2
+  Package: MXOnly-1U-NoLED
+  PosX: 40.15
+  PosY: -22.32
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW3
+  Package: MXOnly-1U-NoLED
+  PosX: 59.57
+  PosY: -22.14
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW4
+  Package: MXOnly-1U-NoLED
+  PosX: 77.73
+  PosY: -28.87
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW5
+  Package: MXOnly-1U-NoLED
+  PosX: 95.91
+  PosY: -35.59
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW6
+  Package: MXOnly-1U-NoLED
+  PosX: 17.52
+  PosY: -41.16
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW7
+  Package: MXOnly-1U-NoLED
+  PosX: 36.86
+  PosY: -41.03
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW8
+  Package: MXOnly-1U-NoLED
+  PosX: 56.28
+  PosY: -40.87
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW9
+  Package: MXOnly-1U-NoLED
+  PosX: 74.39
+  PosY: -47.62
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW10
+  Package: MXOnly-1U-NoLED
+  PosX: 92.56
+  PosY: -54.39
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW11
+  Package: MXOnly-1U-NoLED
+  PosX: 14.22
+  PosY: -59.93
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW12
+  Package: MXOnly-1U-NoLED
+  PosX: 33.59
+  PosY: -59.76
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW13
+  Package: MXOnly-1U-NoLED
+  PosX: 52.94
+  PosY: -59.68
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW14
+  Package: MXOnly-1U-NoLED
+  PosX: 71.08
+  PosY: -66.41
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW15
+  Package: MXOnly-1U-NoLED
+  PosX: 89.27
+  PosY: -73.11
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW16
+  Package: MXOnly-1U-NoLED
+  PosX: 76.73
+  PosY: -92.67
+  Rot: -15.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW17
+  Package: MXOnly-1U-5pinRcut
+  PosX: 98.39
+  PosY: -95.5
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW18
+  Package: MXOnly-1U-5pinLcut
+  PosX: 117.43
+  PosY: -95.5
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW19
+  Package: MXOnly-1U-NoLED
+  PosX: 119.95
+  PosY: -35.6
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW20
+  Package: MXOnly-1U-NoLED
+  PosX: 138.09
+  PosY: -28.87
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW21
+  Package: MXOnly-1U-NoLED
+  PosX: 156.26
+  PosY: -22.12
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW22
+  Package: MXOnly-1U-NoLED
+  PosX: 175.61
+  PosY: -22.25
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW23
+  Package: MXOnly-1U-NoLED
+  PosX: 123.25
+  PosY: -54.38
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW24
+  Package: MXOnly-1U-NoLED
+  PosX: 141.41
+  PosY: -47.61
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW25
+  Package: MXOnly-1U-NoLED
+  PosX: 159.55
+  PosY: -40.88
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW26
+  Package: MXOnly-1U-NoLED
+  PosX: 178.95
+  PosY: -41.01
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW27
+  Package: MXOnly-1U-NoLED
+  PosX: 126.55
+  PosY: -73.16
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW28
+  Package: MXOnly-1U-NoLED
+  PosX: 144.7
+  PosY: -66.38
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW29
+  Package: MXOnly-1U-NoLED
+  PosX: 162.87
+  PosY: -59.62
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW30
+  Package: MXOnly-1U-NoLED
+  PosX: 182.25
+  PosY: -59.75
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW31
+  Package: MXOnly-1U-NoLED
+  PosX: 195.01
+  PosY: -22.39
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW32
+  Package: MXOnly-1U-NoLED
+  PosX: 198.32
+  PosY: -41.13
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW33
+  Package: MXOnly-1U-NoLED
+  PosX: 201.59
+  PosY: -59.91
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW34
+  Package: MXOnly-1U-NoLED
+  PosX: 139.09
+  PosY: -92.66
+  Rot: 15.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW35
+  Package: MXOnly-2U-NoLED-or1Ux2
+  PosX: 107.87
+  PosY: -95.46
+  Rot: 180.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': U1
+  Package: ProMicro
+  PosX: 109.71
+  PosY: -12.23
+  Rot: 80.0
+  Side: top
+  Val: ProMicro
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| H1 | HOLE_4.2mm | HOLE_4.2mm | 29.54\
+  \ | -28.03 | 0.0 | top | \n| H2 | HOLE_4.2mm | HOLE_4.2mm | 22.92 | -65.54 | 0.0\
+  \ | top | \n| H3 | HOLE_4.2mm | HOLE_4.2mm | 85.8 | -37.94 | 0.0 | top | \n| H4\
+  \ | HOLE_4.2mm | HOLE_4.2mm | 62.02 | -76.97 | 0.0 | top | \n| H5 | HOLE_4.2mm |\
+  \ HOLE_4.2mm | 107.91 | -79.96 | 0.0 | top | \n| H6 | HOLE_4.2mm | HOLE_4.2mm |\
+  \ 130.02 | -37.94 | 0.0 | top | \n| H7 | HOLE_4.2mm | HOLE_4.2mm | 153.8 | -76.98\
+  \ | 0.0 | top | \n| H8 | HOLE_4.2mm | HOLE_4.2mm | 186.32 | -28.02 | 0.0 | top |\
+  \ \n| H9 | HOLE_4.2mm | HOLE_4.2mm | 192.91 | -65.53 | 0.0 | top | \n| RGB9 | WS2812B\
+  \ | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm | 107.94 | -64.36 | 180.0 | top | \n| SW1\
+  \ | SW_PUSH | MXOnly-1U-NoLED | 20.8 | -22.42 | -10.0 | top | \n| SW2 | SW_PUSH\
+  \ | MXOnly-1U-NoLED | 40.15 | -22.32 | -10.0 | top | \n| SW3 | SW_PUSH | MXOnly-1U-NoLED\
+  \ | 59.57 | -22.14 | -10.0 | top | \n| SW4 | SW_PUSH | MXOnly-1U-NoLED | 77.73 |\
+  \ -28.87 | -10.0 | top | \n| SW5 | SW_PUSH | MXOnly-1U-NoLED | 95.91 | -35.59 |\
+  \ -10.0 | top | \n| SW6 | SW_PUSH | MXOnly-1U-NoLED | 17.52 | -41.16 | -10.0 | top\
+  \ | \n| SW7 | SW_PUSH | MXOnly-1U-NoLED | 36.86 | -41.03 | -10.0 | top | \n| SW8\
+  \ | SW_PUSH | MXOnly-1U-NoLED | 56.28 | -40.87 | -10.0 | top | \n| SW9 | SW_PUSH\
+  \ | MXOnly-1U-NoLED | 74.39 | -47.62 | -10.0 | top | \n| SW10 | SW_PUSH | MXOnly-1U-NoLED\
+  \ | 92.56 | -54.39 | -10.0 | top | \n| SW11 | SW_PUSH | MXOnly-1U-NoLED | 14.22\
+  \ | -59.93 | -10.0 | top | \n| SW12 | SW_PUSH | MXOnly-1U-NoLED | 33.59 | -59.76\
+  \ | -10.0 | top | \n| SW13 | SW_PUSH | MXOnly-1U-NoLED | 52.94 | -59.68 | -10.0\
+  \ | top | \n| SW14 | SW_PUSH | MXOnly-1U-NoLED | 71.08 | -66.41 | -10.0 | top |\
+  \ \n| SW15 | SW_PUSH | MXOnly-1U-NoLED | 89.27 | -73.11 | -10.0 | top | \n| SW16\
+  \ | SW_PUSH | MXOnly-1U-NoLED | 76.73 | -92.67 | -15.0 | top | \n| SW17 | SW_PUSH\
+  \ | MXOnly-1U-5pinRcut | 98.39 | -95.5 | 0.0 | top | \n| SW18 | SW_PUSH | MXOnly-1U-5pinLcut\
+  \ | 117.43 | -95.5 | 0.0 | top | \n| SW19 | SW_PUSH | MXOnly-1U-NoLED | 119.95 |\
+  \ -35.6 | 10.0 | top | \n| SW20 | SW_PUSH | MXOnly-1U-NoLED | 138.09 | -28.87 |\
+  \ 10.0 | top | \n| SW21 | SW_PUSH | MXOnly-1U-NoLED | 156.26 | -22.12 | 10.0 | top\
+  \ | \n| SW22 | SW_PUSH | MXOnly-1U-NoLED | 175.61 | -22.25 | 10.0 | top | \n| SW23\
+  \ | SW_PUSH | MXOnly-1U-NoLED | 123.25 | -54.38 | 10.0 | top | \n| SW24 | SW_PUSH\
+  \ | MXOnly-1U-NoLED | 141.41 | -47.61 | 10.0 | top | \n| SW25 | SW_PUSH | MXOnly-1U-NoLED\
+  \ | 159.55 | -40.88 | 10.0 | top | \n| SW26 | SW_PUSH | MXOnly-1U-NoLED | 178.95\
+  \ | -41.01 | 10.0 | top | \n| SW27 | SW_PUSH | MXOnly-1U-NoLED | 126.55 | -73.16\
+  \ | 10.0 | top | \n| SW28 | SW_PUSH | MXOnly-1U-NoLED | 144.7 | -66.38 | 10.0 |\
+  \ top | \n| SW29 | SW_PUSH | MXOnly-1U-NoLED | 162.87 | -59.62 | 10.0 | top | \n\
+  | SW30 | SW_PUSH | MXOnly-1U-NoLED | 182.25 | -59.75 | 10.0 | top | \n| SW31 | SW_PUSH\
+  \ | MXOnly-1U-NoLED | 195.01 | -22.39 | 10.0 | top | \n| SW32 | SW_PUSH | MXOnly-1U-NoLED\
+  \ | 198.32 | -41.13 | 10.0 | top | \n| SW33 | SW_PUSH | MXOnly-1U-NoLED | 201.59\
+  \ | -59.91 | 10.0 | top | \n| SW34 | SW_PUSH | MXOnly-1U-NoLED | 139.09 | -92.66\
+  \ | 15.0 | top | \n| SW35 | SW_PUSH | MXOnly-2U-NoLED-or1Ux2 | 107.87 | -95.46 |\
+  \ 180.0 | top | \n| U1 | ProMicro | ProMicro | 109.71 | -12.23 | 80.0 | top | \n"
 projects_flat: projects/gtips_reviung_reviung34/current_version/working
 repo:
   allow_forking: true

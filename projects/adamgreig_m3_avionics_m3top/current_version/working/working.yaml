@@ -1,4 +1,255 @@
 board: m3top
+bom:
+- Id: '1'
+  Designator: J1
+  Footprint: B02B-PASK
+  Quantity: '1'
+  Designation: PYRO5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J3
+  Footprint: B02B-PASK
+  Quantity: '1'
+  Designation: PYRO6
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J5
+  Footprint: B02B-PASK
+  Quantity: '1'
+  Designation: PYRO7
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J6
+  Footprint: B02B-PASK
+  Quantity: '1'
+  Designation: PYRO8
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J7
+  Footprint: B02B-PASK
+  Quantity: '1'
+  Designation: 5v_CAM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J8
+  Footprint: B02B-PASK
+  Quantity: '1'
+  Designation: ARM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: J9
+  Footprint: B02B-PASK
+  Quantity: '1'
+  Designation: PWR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: J10
+  Footprint: B02B-PASK
+  Quantity: '1'
+  Designation: CHARGE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: J2
+  Footprint: SFML-110-02-L-D-LC
+  Quantity: '1'
+  Designation: WEST BOT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: J4
+  Footprint: SFML-110-02-L-D-LC
+  Quantity: '1'
+  Designation: EAST BOT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: D1,D2,D3,D4,D5,D9,D8,D7,D6
+  Footprint: '0402'
+  Quantity: '9'
+  Designation: ESD_DIODE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: R1
+  Footprint: '0603'
+  Quantity: '1'
+  Designation: '120'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: G***
+  Footprint: cusf_logo_small
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1\
+  \ | B02B-PASK | 1 | PYRO5 |  |  | [''] | \n| 2 | J3 | B02B-PASK | 1 | PYRO6 |  |\
+  \  | [''] | \n| 3 | J5 | B02B-PASK | 1 | PYRO7 |  |  | [''] | \n| 4 | J6 | B02B-PASK\
+  \ | 1 | PYRO8 |  |  | [''] | \n| 5 | J7 | B02B-PASK | 1 | 5v_CAM |  |  | [''] |\
+  \ \n| 6 | J8 | B02B-PASK | 1 | ARM |  |  | [''] | \n| 7 | J9 | B02B-PASK | 1 | PWR\
+  \ |  |  | [''] | \n| 8 | J10 | B02B-PASK | 1 | CHARGE |  |  | [''] | \n| 9 | J2\
+  \ | SFML-110-02-L-D-LC | 1 | WEST BOT |  |  | [''] | \n| 10 | J4 | SFML-110-02-L-D-LC\
+  \ | 1 | EAST BOT |  |  | [''] | \n| 11 | D1,D2,D3,D4,D5,D9,D8,D7,D6 | 0402 | 9 |\
+  \ ESD_DIODE |  |  | [''] | \n| 12 | R1 | 0603 | 1 | 120 |  |  | [''] | \n| 13 |\
+  \ G*** | cusf_logo_small | 1 | LOGO |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: ESD_DIODE
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '9'
+  Ref: D1, D2, D3, D4, D5, D6, D7, D8, D9
+  Value: ESD_DIODE
+  Vendor: ''
+- Cmp name: CONN_01x02
+  DNP: ''
+  Description: ''
+  Footprint: agg:B02B-PASK
+  Qnty: '1'
+  Ref: J1
+  Value: PYRO5
+  Vendor: ''
+- Cmp name: CONN_02x10
+  DNP: ''
+  Description: ''
+  Footprint: agg:SFML-110-02-L-D-LC
+  Qnty: '1'
+  Ref: J2
+  Value: WEST BOT
+  Vendor: ''
+- Cmp name: CONN_01x02
+  DNP: ''
+  Description: ''
+  Footprint: agg:B02B-PASK
+  Qnty: '1'
+  Ref: J3
+  Value: PYRO6
+  Vendor: ''
+- Cmp name: CONN_02x10
+  DNP: ''
+  Description: ''
+  Footprint: agg:SFML-110-02-L-D-LC
+  Qnty: '1'
+  Ref: J4
+  Value: EAST BOT
+  Vendor: ''
+- Cmp name: CONN_01x02
+  DNP: ''
+  Description: ''
+  Footprint: agg:B02B-PASK
+  Qnty: '1'
+  Ref: J5
+  Value: PYRO7
+  Vendor: ''
+- Cmp name: CONN_01x02
+  DNP: ''
+  Description: ''
+  Footprint: agg:B02B-PASK
+  Qnty: '1'
+  Ref: J6
+  Value: PYRO8
+  Vendor: ''
+- Cmp name: CONN_01x02
+  DNP: ''
+  Description: ''
+  Footprint: agg:B02B-PASK
+  Qnty: '1'
+  Ref: J7
+  Value: 5v_CAM
+  Vendor: ''
+- Cmp name: CONN_01x02
+  DNP: ''
+  Description: ''
+  Footprint: agg:B02B-PASK
+  Qnty: '1'
+  Ref: J8
+  Value: ARM
+  Vendor: ''
+- Cmp name: CONN_01x02
+  DNP: ''
+  Description: ''
+  Footprint: agg:B02B-PASK
+  Qnty: '1'
+  Ref: J9
+  Value: PWR
+  Vendor: ''
+- Cmp name: CONN_01x02
+  DNP: ''
+  Description: ''
+  Footprint: agg:B02B-PASK
+  Qnty: '1'
+  Ref: J10
+  Value: CHARGE
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '1'
+  Ref: R1
+  Value: '120'
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| D1, D2,\
+  \ D3, D4, D5, D6, D7, D8, D9 | 9 | ESD_DIODE | ESD_DIODE | agg:0402 |  |  |  | \n\
+  | J1 | 1 | PYRO5 | CONN_01x02 | agg:B02B-PASK |  |  |  | \n| J2 | 1 | WEST BOT |\
+  \ CONN_02x10 | agg:SFML-110-02-L-D-LC |  |  |  | \n| J3 | 1 | PYRO6 | CONN_01x02\
+  \ | agg:B02B-PASK |  |  |  | \n| J4 | 1 | EAST BOT | CONN_02x10 | agg:SFML-110-02-L-D-LC\
+  \ |  |  |  | \n| J5 | 1 | PYRO7 | CONN_01x02 | agg:B02B-PASK |  |  |  | \n| J6 |\
+  \ 1 | PYRO8 | CONN_01x02 | agg:B02B-PASK |  |  |  | \n| J7 | 1 | 5v_CAM | CONN_01x02\
+  \ | agg:B02B-PASK |  |  |  | \n| J8 | 1 | ARM | CONN_01x02 | agg:B02B-PASK |  |\
+  \  |  | \n| J9 | 1 | PWR | CONN_01x02 | agg:B02B-PASK |  |  |  | \n| J10 | 1 | CHARGE\
+  \ | CONN_01x02 | agg:B02B-PASK |  |  |  | \n| R1 | 1 | 120 | R | agg:0603 |  | \
+  \ |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_m3_avionics_m3top/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_m3_avionics_m3top/current_version/working/working.kicad_pcb
@@ -6,6 +257,175 @@ file_repo_bom_xlsx_flat: projects/adamgreig_m3_avionics_m3top/current_version/wo
 file_sch_flat: projects/adamgreig_m3_avionics_m3top/current_version/working/working.sch
 id: adamgreig_m3_avionics_m3top
 name: m3_avionics
+position_bottom:
+- '# Ref': D1
+  Package: '0402'
+  PosX: 96.75
+  PosY: -93.25
+  Rot: 180.0
+  Side: bottom
+  Val: ESD_DIODE
+- '# Ref': D2
+  Package: '0402'
+  PosX: 90.25
+  PosY: -93.25
+  Rot: 180.0
+  Side: bottom
+  Val: ESD_DIODE
+- '# Ref': D3
+  Package: '0402'
+  PosX: 90.25
+  PosY: -106.75
+  Rot: 0.0
+  Side: bottom
+  Val: ESD_DIODE
+- '# Ref': D4
+  Package: '0402'
+  PosX: 96.75
+  PosY: -106.75
+  Rot: 0.0
+  Side: bottom
+  Val: ESD_DIODE
+- '# Ref': D5
+  Package: '0402'
+  PosX: 103.25
+  PosY: -106.75
+  Rot: 0.0
+  Side: bottom
+  Val: ESD_DIODE
+- '# Ref': D6
+  Package: '0402'
+  PosX: 107.25
+  PosY: -94.5
+  Rot: 90.0
+  Side: bottom
+  Val: ESD_DIODE
+- '# Ref': D7
+  Package: '0402'
+  PosX: 109.75
+  PosY: -93.0
+  Rot: 180.0
+  Side: bottom
+  Val: ESD_DIODE
+- '# Ref': D8
+  Package: '0402'
+  PosX: 103.25
+  PosY: -93.25
+  Rot: 180.0
+  Side: bottom
+  Val: ESD_DIODE
+- '# Ref': D9
+  Package: '0402'
+  PosX: 109.75
+  PosY: -106.75
+  Rot: 0.0
+  Side: bottom
+  Val: ESD_DIODE
+- '# Ref': G***
+  Package: cusf_logo_small
+  PosX: 102.2
+  PosY: -101.2
+  Rot: 90.0
+  Side: bottom
+  Val: LOGO
+- '# Ref': J2
+  Package: SFML-110-02-L-D-LC
+  PosX: 85.0
+  PosY: -100.0
+  Rot: -90.0
+  Side: bottom
+  Val: WEST_BOT
+- '# Ref': J4
+  Package: SFML-110-02-L-D-LC
+  PosX: 115.0
+  PosY: -100.0
+  Rot: -90.0
+  Side: bottom
+  Val: EAST_BOT
+- '# Ref': R1
+  Package: '0603'
+  PosX: 89.55
+  PosY: -101.4
+  Rot: -90.0
+  Side: bottom
+  Val: '120'
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| D1 | ESD_DIODE | 0402 | 96.75 |\
+  \ -93.25 | 180.0 | bottom | \n| D2 | ESD_DIODE | 0402 | 90.25 | -93.25 | 180.0 |\
+  \ bottom | \n| D3 | ESD_DIODE | 0402 | 90.25 | -106.75 | 0.0 | bottom | \n| D4 |\
+  \ ESD_DIODE | 0402 | 96.75 | -106.75 | 0.0 | bottom | \n| D5 | ESD_DIODE | 0402\
+  \ | 103.25 | -106.75 | 0.0 | bottom | \n| D6 | ESD_DIODE | 0402 | 107.25 | -94.5\
+  \ | 90.0 | bottom | \n| D7 | ESD_DIODE | 0402 | 109.75 | -93.0 | 180.0 | bottom\
+  \ | \n| D8 | ESD_DIODE | 0402 | 103.25 | -93.25 | 180.0 | bottom | \n| D9 | ESD_DIODE\
+  \ | 0402 | 109.75 | -106.75 | 0.0 | bottom | \n| G*** | LOGO | cusf_logo_small |\
+  \ 102.2 | -101.2 | 90.0 | bottom | \n| J2 | WEST_BOT | SFML-110-02-L-D-LC | 85.0\
+  \ | -100.0 | -90.0 | bottom | \n| J4 | EAST_BOT | SFML-110-02-L-D-LC | 115.0 | -100.0\
+  \ | -90.0 | bottom | \n| R1 | 120 | 0603 | 89.55 | -101.4 | -90.0 | bottom | \n"
+position_top:
+- '# Ref': J1
+  Package: B02B-PASK
+  PosX: 96.75
+  PosY: -94.5
+  Rot: 0.0
+  Side: top
+  Val: PYRO5
+- '# Ref': J3
+  Package: B02B-PASK
+  PosX: 90.25
+  PosY: -94.5
+  Rot: 0.0
+  Side: top
+  Val: PYRO6
+- '# Ref': J5
+  Package: B02B-PASK
+  PosX: 90.25
+  PosY: -105.5
+  Rot: 180.0
+  Side: top
+  Val: PYRO7
+- '# Ref': J6
+  Package: B02B-PASK
+  PosX: 96.75
+  PosY: -105.5
+  Rot: 180.0
+  Side: top
+  Val: PYRO8
+- '# Ref': J7
+  Package: B02B-PASK
+  PosX: 103.25
+  PosY: -105.5
+  Rot: 180.0
+  Side: top
+  Val: 5v_CAM
+- '# Ref': J8
+  Package: B02B-PASK
+  PosX: 109.75
+  PosY: -94.5
+  Rot: 0.0
+  Side: top
+  Val: ARM
+- '# Ref': J9
+  Package: B02B-PASK
+  PosX: 103.25
+  PosY: -94.5
+  Rot: 0.0
+  Side: top
+  Val: PWR
+- '# Ref': J10
+  Package: B02B-PASK
+  PosX: 109.75
+  PosY: -105.5
+  Rot: 180.0
+  Side: top
+  Val: CHARGE
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J1 | PYRO5 | B02B-PASK | 96.75 | -94.5\
+  \ | 0.0 | top | \n| J3 | PYRO6 | B02B-PASK | 90.25 | -94.5 | 0.0 | top | \n| J5\
+  \ | PYRO7 | B02B-PASK | 90.25 | -105.5 | 180.0 | top | \n| J6 | PYRO8 | B02B-PASK\
+  \ | 96.75 | -105.5 | 180.0 | top | \n| J7 | 5v_CAM | B02B-PASK | 103.25 | -105.5\
+  \ | 180.0 | top | \n| J8 | ARM | B02B-PASK | 109.75 | -94.5 | 0.0 | top | \n| J9\
+  \ | PWR | B02B-PASK | 103.25 | -94.5 | 0.0 | top | \n| J10 | CHARGE | B02B-PASK\
+  \ | 109.75 | -105.5 | 180.0 | top | \n"
 projects_flat: projects/adamgreig_m3_avionics_m3top/current_version/working
 repo:
   allow_forking: true

@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit-1.47in-320x172-Round-Rectangle-TFT-PCB/tree/main/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_1_47in_320x172_round_rectangle_tft_pcb_adafruit_1_47in_320x172_round_rectangle_tft/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

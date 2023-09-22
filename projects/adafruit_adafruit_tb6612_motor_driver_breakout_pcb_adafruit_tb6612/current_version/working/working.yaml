@@ -1,9 +1,349 @@
 board: adafruit_tb6612
+bom:
+- Id: '1'
+  Designator: FID1,FID2
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$14,U$13
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C2,C3
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: "10\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: JP1
+  Footprint: 1X10_ROUND_76
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J1
+  Footprint: TERMBLOCK_1X2-3.5MM
+  Quantity: '1'
+  Designation: VMOTORIN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: Q1
+  Footprint: SOT23-WIDE
+  Quantity: '1'
+  Designation: DMG3415
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U1
+  Footprint: SSOP24
+  Quantity: '1'
+  Designation: TB6612 SSOP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U$15
+  Footprint: ADAFRUIT_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R1
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: JP3
+  Footprint: 1X06-CLEANBIG
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U$11
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | FID1,FID2\
+  \ | FIDUCIAL_1MM | 2 | FIDUCIAL\" |  |  | [''] | \n| 2 | U$14,U$13 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 2 | MOUNTINGHOLE2.5 |  |  | [''] | \n| 3 | C2,C3 | 0805-NO | 2 | 10\xC2\xB5\
+  F |  |  | [''] | \n| 4 | JP1 | 1X10_ROUND_76 | 1 |  |  |  | [''] | \n| 5 | J1 |\
+  \ TERMBLOCK_1X2-3.5MM | 1 | VMOTORIN |  |  | [''] | \n| 6 | Q1 | SOT23-WIDE | 1\
+  \ | DMG3415 |  |  | [''] | \n| 7 | U1 | SSOP24 | 1 | TB6612 SSOP |  |  | [''] |\
+  \ \n| 8 | U$15 | ADAFRUIT_5MM | 1 |  |  |  | [''] | \n| 9 | R1 | 0805-NO | 1 | 10K\
+  \ |  |  | [''] | \n| 10 | JP3 | 1X06-CLEANBIG | 1 |  |  |  | [''] | \n| 11 | U$11\
+  \ | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C2, C3
+  Value: "10\xC2\xB5F"
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: TERMBLOCK_1X2
+  DNP: ''
+  Description: ''
+  Footprint: working:TERMBLOCK_1X2-3.5MM
+  Qnty: '1'
+  Ref: J1
+  Value: VMOTORIN
+  Vendor: ''
+- Cmp name: HEADER-1X10THICKER
+  DNP: ''
+  Description: ''
+  Footprint: working:1X10_ROUND_76
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X10THICKER
+  Vendor: ''
+- Cmp name: PINHD-1X6CB
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06-CLEANBIG
+  Qnty: '1'
+  Ref: JP3
+  Value: PINHD-1X6CB
+  Vendor: ''
+- Cmp name: MOSFET-PWIDE
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-WIDE
+  Qnty: '1'
+  Ref: Q1
+  Value: DMG3415
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: R1
+  Value: 10K
+  Vendor: ''
+- Cmp name: TB6612FNGSSOP
+  DNP: ''
+  Description: ''
+  Footprint: working:SSOP24
+  Qnty: '1'
+  Ref: U1
+  Value: TB6612 SSOP
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '2'
+  Ref: U$13, U$14
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C2, C3\
+  \ | 2 | 10\xC2\xB5F | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n\
+  | FID1, FID2 | 2 | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM\
+  \ |  |  |  | \n| J1 | 1 | VMOTORIN | TERMBLOCK_1X2 | working:TERMBLOCK_1X2-3.5MM\
+  \ |  |  |  | \n| JP1 | 1 | HEADER-1X10THICKER | HEADER-1X10THICKER | working:1X10_ROUND_76\
+  \ |  |  |  | \n| JP3 | 1 | PINHD-1X6CB | PINHD-1X6CB | working:1X06-CLEANBIG | \
+  \ |  |  | \n| Q1 | 1 | DMG3415 | MOSFET-PWIDE | working:SOT23-WIDE |  |  |  | \n\
+  | R1 | 1 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | \n| U1 | 1\
+  \ | TB6612 SSOP | TB6612FNGSSOP | working:SSOP24 |  |  |  | \n| U$13, U$14 | 2 |\
+  \ MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  |\
+  \ \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_tb6612_motor_driver_breakout_pcb_adafruit_tb6612/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_tb6612_motor_driver_breakout_pcb_adafruit_tb6612/current_version/working/working.sch
 id: adafruit_adafruit_tb6612_motor_driver_breakout_pcb_adafruit_tb6612
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$13
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '21.58999999999999'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$14
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 21.58999999999999 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$13 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$14 | m3 | \n"
 name: adafruit_tb6612_motor_driver_breakout_pcb
+position_bottom:
+- '# Ref': U$11
+  Package: ADAFRUIT_3.5MM
+  PosX: 152.9461
+  PosY: -102.9716
+  Rot: 0.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$11 | nan | ADAFRUIT_3.5MM | 152.9461\
+  \ | -102.9716 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 151.0411
+  PosY: -109.7266
+  Rot: -90.0
+  Side: top
+  Val: "10\xC2\xB5F"
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 145.3261
+  PosY: -109.8296
+  Rot: -90.0
+  Side: top
+  Val: "10\xC2\xB5F"
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 144.9261
+  PosY: -114.7436
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 152.9571
+  PosY: -96.1646
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': J1
+  Package: TERMBLOCK_1X2-3.5MM
+  PosX: 148.3741
+  PosY: -95.2246
+  Rot: 180.0
+  Side: top
+  Val: VMOTORIN
+- '# Ref': JP1
+  Package: 1X10_ROUND_76
+  PosX: 141.5161
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP3
+  Package: 1X06-CLEANBIG
+  PosX: 156.7561
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': Q1
+  Package: SOT23-WIDE
+  PosX: 148.2231
+  PosY: -109.7026
+  Rot: 180.0
+  Side: top
+  Val: DMG3415
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 151.6761
+  PosY: -114.1476
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': U$13
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 155.4861
+  PosY: -94.2086
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$14
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 155.4861
+  PosY: -115.7986
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$15
+  Package: ADAFRUIT_5MM
+  PosX: 146.0881
+  PosY: -118.2116
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U1
+  Package: SSOP24
+  PosX: 148.8821
+  PosY: -103.3526
+  Rot: 90.0
+  Side: top
+  Val: TB6612_SSOP
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C2 | 10\xC2\xB5F | 0805-NO | 151.0411\
+  \ | -109.7266 | -90.0 | top | \n| C3 | 10\xC2\xB5F | 0805-NO | 145.3261 | -109.8296\
+  \ | -90.0 | top | \n| FID1 | FIDUCIAL\"\" | FIDUCIAL_1MM | 144.9261 | -114.7436\
+  \ | 0.0 | top | \n| FID2 | FIDUCIAL\"\" | FIDUCIAL_1MM | 152.9571 | -96.1646 | 0.0\
+  \ | top | \n| J1 | VMOTORIN | TERMBLOCK_1X2-3.5MM | 148.3741 | -95.2246 | 180.0\
+  \ | top | \n| JP1 | nan | 1X10_ROUND_76 | 141.5161 | -105.0036 | -90.0 | top | \n\
+  | JP3 | nan | 1X06-CLEANBIG | 156.7561 | -105.0036 | 90.0 | top | \n| Q1 | DMG3415\
+  \ | SOT23-WIDE | 148.2231 | -109.7026 | 180.0 | top | \n| R1 | 10K | 0805-NO | 151.6761\
+  \ | -114.1476 | 0.0 | top | \n| U$13 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 155.4861 | -94.2086 | 0.0 | top | \n| U$14 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 155.4861 | -115.7986 | 0.0 | top | \n| U$15 | nan | ADAFRUIT_5MM | 146.0881\
+  \ | -118.2116 | 0.0 | top | \n| U1 | TB6612_SSOP | SSOP24 | 148.8821 | -103.3526\
+  \ | 90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_tb6612_motor_driver_breakout_pcb_adafruit_tb6612/current_version/working
 repo:
   allow_forking: true

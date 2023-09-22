@@ -1,9 +1,299 @@
 board: adafruit_sht31_d_stemma_qt_breakout
+bom:
+- Id: '1'
+  Designator: R4,R2,R1
+  Footprint: 0805-NO
+  Quantity: '3'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: JP2
+  Footprint: 1X07_ROUND_70
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R3
+  Footprint: _0805MP
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: FID3,FID2
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C1
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U$1,U$2
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U1
+  Footprint: SHT3X
+  Quantity: '1'
+  Designation: SHT31-DIS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U$13
+  Footprint: ADAFRUIT_2.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U$11
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R4,R2,R1\
+  \ | 0805-NO | 3 | 10K |  |  | [''] | \n| 2 | JP2 | 1X07_ROUND_70 | 1 |  |  |  |\
+  \ [''] | \n| 3 | R3 | _0805MP | 1 | 10K |  |  | [''] | \n| 4 | FID3,FID2 | FIDUCIAL_1MM\
+  \ | 2 | FIDUCIAL\" |  |  | [''] | \n| 5 | C1 | 0805-NO | 1 | 10uF |  |  | [''] |\
+  \ \n| 6 | U$1,U$2 | MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5 |  |  | [''] |\
+  \ \n| 7 | U1 | SHT3X | 1 | SHT31-DIS |  |  | [''] | \n| 8 | U$13 | ADAFRUIT_2.5MM\
+  \ | 1 |  |  |  | [''] | \n| 9 | U$11 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C1
+  Value: 10uF
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID2, FID3
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: HEADER-1X770MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X07_ROUND_70
+  Qnty: '1'
+  Ref: JP2
+  Value: HEADER-1X770MIL
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '3'
+  Ref: R1, R2, R4
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_0805MP
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805MP
+  Qnty: '1'
+  Ref: R3
+  Value: 10K
+  Vendor: ''
+- Cmp name: SHT3X
+  DNP: ''
+  Description: ''
+  Footprint: working:SHT3X
+  Qnty: '1'
+  Ref: U1
+  Value: SHT31-DIS
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '2'
+  Ref: U$1, U$2
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| FID2, FID3\
+  \ | 2 | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |\
+  \  |  | \n| JP2 | 1 | HEADER-1X770MIL | HEADER-1X770MIL | working:1X07_ROUND_70\
+  \ |  |  |  | \n| R1, R2, R4 | 3 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO\
+  \ |  |  |  | \n| R3 | 1 | 10K | RESISTOR_0805MP | working:_0805MP |  |  |  | \n\
+  | U1 | 1 | SHT31-DIS | SHT3X | working:SHT3X |  |  |  | \n| U$1, U$2 | 2 | MOUNTINGHOLE2.5\
+  \ | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_sht31_sensor_breakout_pcb_adafruit_sht31_d_stemma_qt_breakout/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_sht31_sensor_breakout_pcb_adafruit_sht31_d_stemma_qt_breakout/current_version/working/working.sch
 id: adafruit_adafruit_sht31_sensor_breakout_pcb_adafruit_sht31_d_stemma_qt_breakout
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$1
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$2
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '12.699999999999989'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$1 | m3 | \n| 12.699999999999989 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$2 | m3 | \n"
 name: adafruit_sht31_sensor_breakout_pcb
+position_bottom:
+- '# Ref': U$11
+  Package: PCBFEAT-REV-040
+  PosX: 140.7541
+  PosY: -103.9876
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$11 | nan | PCBFEAT-REV-040 | 140.7541\
+  \ | -103.9876 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 141.7701
+  PosY: -105.8926
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 140.7541
+  PosY: -103.9876
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 156.3751
+  PosY: -103.9876
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': JP2
+  Package: 1X07_ROUND_70
+  PosX: 148.5011
+  PosY: -108.8136
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 145.0721
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: 0805-NO
+  PosX: 148.3741
+  PosY: -105.8926
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: _0805MP
+  PosX: 151.4221
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R4
+  Package: 0805-NO
+  PosX: 154.7241
+  PosY: -105.8926
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': U$1
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 142.1511
+  PosY: -101.1936
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$2
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 154.8511
+  PosY: -101.1936
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$13
+  Package: ADAFRUIT_2.5MM
+  PosX: 154.5971
+  PosY: -105.1306
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': U1
+  Package: SHT3X
+  PosX: 148.5011
+  PosY: -103.3526
+  Rot: 0.0
+  Side: top
+  Val: SHT31-DIS
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 10uF | 0805-NO | 141.7701 | -105.8926\
+  \ | 0.0 | top | \n| FID2 | FIDUCIAL\"\" | FIDUCIAL_1MM | 140.7541 | -103.9876 |\
+  \ 0.0 | top | \n| FID3 | FIDUCIAL\"\" | FIDUCIAL_1MM | 156.3751 | -103.9876 | 0.0\
+  \ | top | \n| JP2 | nan | 1X07_ROUND_70 | 148.5011 | -108.8136 | 0.0 | top | \n\
+  | R1 | 10K | 0805-NO | 145.0721 | -105.0036 | -90.0 | top | \n| R2 | 10K | 0805-NO\
+  \ | 148.3741 | -105.8926 | 0.0 | top | \n| R3 | 10K | _0805MP | 151.4221 | -105.0036\
+  \ | -90.0 | top | \n| R4 | 10K | 0805-NO | 154.7241 | -105.8926 | 0.0 | top | \n\
+  | U$1 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 142.1511 | -101.1936 | 0.0 |\
+  \ top | \n| U$2 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 154.8511 | -101.1936\
+  \ | 0.0 | top | \n| U$13 | nan | ADAFRUIT_2.5MM | 154.5971 | -105.1306 | 90.0 |\
+  \ top | \n| U1 | SHT31-DIS | SHT3X | 148.5011 | -103.3526 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_sht31_sensor_breakout_pcb_adafruit_sht31_d_stemma_qt_breakout/current_version/working
 repo:
   allow_forking: true

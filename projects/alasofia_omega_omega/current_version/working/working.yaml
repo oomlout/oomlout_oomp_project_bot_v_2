@@ -1,4 +1,115 @@
 board: omega
+bom:
+- Id: '1'
+  Designator: D1,D7,D8,D9,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D25,D26,D27,D28,D29,D24,D10,D6,D5,D4,D3,D2,D11
+  Footprint: Diode-Hybrid-Back
+  Quantity: '29'
+  Designation: D_Small
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: MX1,MX2,MX4,MX5,MX6,MX7,MX8,MX9,MX10,MX11,MX12,MX13,MX14,MX15,MX16,MX17,MX18,MX19,MX20,MX21,MX22,MX23,MX24,MX26,MX27,MX28,MX29,MX3
+  Footprint: MXOnly-1U-Hotswap
+  Quantity: '28'
+  Designation: MX-NoLED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: MX25
+  Footprint: MXOnly-2U-Hotswap-ReversedStabilizers
+  Quantity: '1'
+  Designation: MX-NoLED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R1
+  Footprint: R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+  Quantity: '1'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: SW1
+  Footprint: SKQG-1155865
+  Quantity: '1'
+  Designation: SW_Push
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U1
+  Footprint: ProMicro
+  Quantity: '1'
+  Designation: ProMicro
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D1,D7,D8,D9,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D25,D26,D27,D28,D29,D24,D10,D6,D5,D4,D3,D2,D11\
+  \ | Diode-Hybrid-Back | 29 | D_Small |  |  | [''] | \n| 2 | MX1,MX2,MX4,MX5,MX6,MX7,MX8,MX9,MX10,MX11,MX12,MX13,MX14,MX15,MX16,MX17,MX18,MX19,MX20,MX21,MX22,MX23,MX24,MX26,MX27,MX28,MX29,MX3\
+  \ | MXOnly-1U-Hotswap | 28 | MX-NoLED |  |  | [''] | \n| 3 | MX25 | MXOnly-2U-Hotswap-ReversedStabilizers\
+  \ | 1 | MX-NoLED |  |  | [''] | \n| 4 | R1 | R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal\
+  \ | 1 | 10k |  |  | [''] | \n| 5 | SW1 | SKQG-1155865 | 1 | SW_Push |  |  | ['']\
+  \ | \n| 6 | U1 | ProMicro | 1 | ProMicro |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: D_Small
+  DNP: ''
+  Description: Diode, small symbol
+  Footprint: Keebio-Parts:Diode-Hybrid-Back
+  Qnty: '29'
+  Ref: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17,
+    D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29
+  Value: D_Small
+  Vendor: ''
+- Cmp name: MountingHole
+  DNP: ''
+  Description: Mounting Hole without connection
+  Footprint: MountingHole:MountingHole_2.2mm_M2_Pad
+  Qnty: '4'
+  Ref: H1, H2, H3, H4
+  Value: MountingHole
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+  Qnty: '1'
+  Ref: R1
+  Value: 10k
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: Push button switch, generic, two pins
+  Footprint: random-keyboard-parts:SKQG-1155865
+  Qnty: '1'
+  Ref: SW1
+  Value: SW_Push
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| D1, D2,\
+  \ D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19,\
+  \ D20, D21, D22, D23, D24, D25, D26, D27, D28, D29 | 29 | D_Small | D_Small | Keebio-Parts:Diode-Hybrid-Back\
+  \ | Diode, small symbol |  |  | \n| H1, H2, H3, H4 | 4 | MountingHole | MountingHole\
+  \ | MountingHole:MountingHole_2.2mm_M2_Pad | Mounting Hole without connection |\
+  \  |  | \n| R1 | 1 | 10k | R_Small | Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal\
+  \ | Resistor, small symbol |  |  | \n| SW1 | 1 | SW_Push | SW_Push | random-keyboard-parts:SKQG-1155865\
+  \ | Push button switch, generic, two pins |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/alasofia_omega_omega/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/alasofia_omega_omega/current_version/working/working.kicad_pcb
@@ -6,6 +117,494 @@ file_repo_bom_csv_flat: projects/alasofia_omega_omega/current_version/working/bo
 file_sch_flat: projects/alasofia_omega_omega/current_version/working/working.sch
 id: alasofia_omega_omega
 name: omega
+position_bottom:
+- '# Ref': R1
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+  PosX: 95.885
+  PosY: -53.467
+  Rot: 0.0
+  Side: bottom
+  Val: 10k
+- '# Ref': SW1
+  Package: SKQG-1155865
+  PosX: 100.33
+  PosY: -57.785
+  Rot: 0.0
+  Side: bottom
+  Val: SW_Push
+- '# Ref': U1
+  Package: ProMicro
+  PosX: 73.0504
+  PosY: -50.546
+  Rot: 0.0
+  Side: bottom
+  Val: ProMicro
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| R1 | 10k | R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal\
+  \ | 95.885 | -53.467 | 0.0 | bottom | \n| SW1 | SW_Push | SKQG-1155865 | 100.33\
+  \ | -57.785 | 0.0 | bottom | \n| U1 | ProMicro | ProMicro | 73.0504 | -50.546 |\
+  \ 0.0 | bottom | \n"
+position_top:
+- '# Ref': D1
+  Package: Diode-Hybrid-Back
+  PosX: 74.0156
+  PosY: -51.3588
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D2
+  Package: Diode-Hybrid-Back
+  PosX: 91.694
+  PosY: -53.4416
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D3
+  Package: Diode-Hybrid-Back
+  PosX: 111.76
+  PosY: -53.3908
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D4
+  Package: Diode-Hybrid-Back
+  PosX: 130.81
+  PosY: -53.3908
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D5
+  Package: Diode-Hybrid-Back
+  PosX: 149.86
+  PosY: -53.3908
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D6
+  Package: Diode-Hybrid-Back
+  PosX: 168.91
+  PosY: -53.34
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D7
+  Package: Diode-Hybrid-Back
+  PosX: 187.96
+  PosY: -53.34
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D8
+  Package: Diode-Hybrid-Back
+  PosX: 207.01
+  PosY: -53.3908
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D9
+  Package: Diode-Hybrid-Back
+  PosX: 226.06
+  PosY: -53.34
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D10
+  Package: Diode-Hybrid-Back
+  PosX: 244.5512
+  PosY: -53.3908
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D11
+  Package: Diode-Hybrid-Back
+  PosX: 77.3684
+  PosY: -72.4408
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D12
+  Package: Diode-Hybrid-Back
+  PosX: 97.3836
+  PosY: -72.39
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D13
+  Package: Diode-Hybrid-Back
+  PosX: 116.4336
+  PosY: -72.39
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D14
+  Package: Diode-Hybrid-Back
+  PosX: 135.5344
+  PosY: -72.4408
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D15
+  Package: Diode-Hybrid-Back
+  PosX: 154.5336
+  PosY: -72.4408
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D16
+  Package: Diode-Hybrid-Back
+  PosX: 173.6344
+  PosY: -72.4408
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D17
+  Package: Diode-Hybrid-Back
+  PosX: 192.6844
+  PosY: -72.4408
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D18
+  Package: Diode-Hybrid-Back
+  PosX: 211.7344
+  PosY: -72.4408
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D19
+  Package: Diode-Hybrid-Back
+  PosX: 229.6668
+  PosY: -72.4916
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D20
+  Package: Diode-Hybrid-Back
+  PosX: 249.5804
+  PosY: -72.4408
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D21
+  Package: Diode-Hybrid-Back
+  PosX: 83.1596
+  PosY: -91.4908
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D22
+  Package: Diode-Hybrid-Back
+  PosX: 102.2604
+  PosY: -91.4908
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D23
+  Package: Diode-Hybrid-Back
+  PosX: 121.3612
+  PosY: -91.4908
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D24
+  Package: Diode-Hybrid-Back
+  PosX: 140.3604
+  PosY: -91.44
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D25
+  Package: Diode-Hybrid-Back
+  PosX: 168.91
+  PosY: -91.44
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D26
+  Package: Diode-Hybrid-Back
+  PosX: 197.5104
+  PosY: -91.44
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D27
+  Package: Diode-Hybrid-Back
+  PosX: 216.5096
+  PosY: -91.4908
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D28
+  Package: Diode-Hybrid-Back
+  PosX: 235.5596
+  PosY: -91.4908
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': D29
+  Package: Diode-Hybrid-Back
+  PosX: 254.3556
+  PosY: -91.4908
+  Rot: -90.0
+  Side: top
+  Val: D_Small
+- '# Ref': MX1
+  Package: MXOnly-1U-Hotswap
+  PosX: 65.532
+  PosY: -50.927
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX2
+  Package: MXOnly-1U-Hotswap
+  PosX: 84.582
+  PosY: -50.927
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX3
+  Package: MXOnly-1U-Hotswap
+  PosX: 103.632
+  PosY: -50.927
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX4
+  Package: MXOnly-1U-Hotswap
+  PosX: 122.682
+  PosY: -50.927
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX5
+  Package: MXOnly-1U-Hotswap
+  PosX: 141.732
+  PosY: -50.927
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX6
+  Package: MXOnly-1U-Hotswap
+  PosX: 160.782
+  PosY: -50.927
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX7
+  Package: MXOnly-1U-Hotswap
+  PosX: 179.832
+  PosY: -50.927
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX8
+  Package: MXOnly-1U-Hotswap
+  PosX: 198.882
+  PosY: -50.927
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX9
+  Package: MXOnly-1U-Hotswap
+  PosX: 217.932
+  PosY: -50.927
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX10
+  Package: MXOnly-1U-Hotswap
+  PosX: 236.982
+  PosY: -50.927
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX11
+  Package: MXOnly-1U-Hotswap
+  PosX: 70.231
+  PosY: -69.977
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX12
+  Package: MXOnly-1U-Hotswap
+  PosX: 89.281
+  PosY: -69.977
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX13
+  Package: MXOnly-1U-Hotswap
+  PosX: 108.331
+  PosY: -69.977
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX14
+  Package: MXOnly-1U-Hotswap
+  PosX: 127.381
+  PosY: -69.977
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX15
+  Package: MXOnly-1U-Hotswap
+  PosX: 146.431
+  PosY: -69.977
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX16
+  Package: MXOnly-1U-Hotswap
+  PosX: 165.481
+  PosY: -69.977
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX17
+  Package: MXOnly-1U-Hotswap
+  PosX: 184.531
+  PosY: -69.977
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX18
+  Package: MXOnly-1U-Hotswap
+  PosX: 203.581
+  PosY: -69.977
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX19
+  Package: MXOnly-1U-Hotswap
+  PosX: 222.631
+  PosY: -69.977
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX20
+  Package: MXOnly-1U-Hotswap
+  PosX: 241.681
+  PosY: -69.977
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX21
+  Package: MXOnly-1U-Hotswap
+  PosX: 75.057
+  PosY: -89.027
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX22
+  Package: MXOnly-1U-Hotswap
+  PosX: 94.107
+  PosY: -89.027
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX23
+  Package: MXOnly-1U-Hotswap
+  PosX: 113.157
+  PosY: -89.027
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX24
+  Package: MXOnly-1U-Hotswap
+  PosX: 132.207
+  PosY: -89.027
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX25
+  Package: MXOnly-2U-Hotswap-ReversedStabilizers
+  PosX: 160.782
+  PosY: -89.027
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX26
+  Package: MXOnly-1U-Hotswap
+  PosX: 189.357
+  PosY: -89.027
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX27
+  Package: MXOnly-1U-Hotswap
+  PosX: 208.407
+  PosY: -89.027
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX28
+  Package: MXOnly-1U-Hotswap
+  PosX: 227.457
+  PosY: -89.027
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX29
+  Package: MXOnly-1U-Hotswap
+  PosX: 246.507
+  PosY: -89.027
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| D1 | D_Small | Diode-Hybrid-Back | 74.0156\
+  \ | -51.3588 | -90.0 | top | \n| D2 | D_Small | Diode-Hybrid-Back | 91.694 | -53.4416\
+  \ | -90.0 | top | \n| D3 | D_Small | Diode-Hybrid-Back | 111.76 | -53.3908 | -90.0\
+  \ | top | \n| D4 | D_Small | Diode-Hybrid-Back | 130.81 | -53.3908 | -90.0 | top\
+  \ | \n| D5 | D_Small | Diode-Hybrid-Back | 149.86 | -53.3908 | -90.0 | top | \n\
+  | D6 | D_Small | Diode-Hybrid-Back | 168.91 | -53.34 | -90.0 | top | \n| D7 | D_Small\
+  \ | Diode-Hybrid-Back | 187.96 | -53.34 | -90.0 | top | \n| D8 | D_Small | Diode-Hybrid-Back\
+  \ | 207.01 | -53.3908 | -90.0 | top | \n| D9 | D_Small | Diode-Hybrid-Back | 226.06\
+  \ | -53.34 | -90.0 | top | \n| D10 | D_Small | Diode-Hybrid-Back | 244.5512 | -53.3908\
+  \ | -90.0 | top | \n| D11 | D_Small | Diode-Hybrid-Back | 77.3684 | -72.4408 | -90.0\
+  \ | top | \n| D12 | D_Small | Diode-Hybrid-Back | 97.3836 | -72.39 | -90.0 | top\
+  \ | \n| D13 | D_Small | Diode-Hybrid-Back | 116.4336 | -72.39 | -90.0 | top | \n\
+  | D14 | D_Small | Diode-Hybrid-Back | 135.5344 | -72.4408 | -90.0 | top | \n| D15\
+  \ | D_Small | Diode-Hybrid-Back | 154.5336 | -72.4408 | -90.0 | top | \n| D16 |\
+  \ D_Small | Diode-Hybrid-Back | 173.6344 | -72.4408 | -90.0 | top | \n| D17 | D_Small\
+  \ | Diode-Hybrid-Back | 192.6844 | -72.4408 | -90.0 | top | \n| D18 | D_Small |\
+  \ Diode-Hybrid-Back | 211.7344 | -72.4408 | -90.0 | top | \n| D19 | D_Small | Diode-Hybrid-Back\
+  \ | 229.6668 | -72.4916 | -90.0 | top | \n| D20 | D_Small | Diode-Hybrid-Back |\
+  \ 249.5804 | -72.4408 | -90.0 | top | \n| D21 | D_Small | Diode-Hybrid-Back | 83.1596\
+  \ | -91.4908 | -90.0 | top | \n| D22 | D_Small | Diode-Hybrid-Back | 102.2604 |\
+  \ -91.4908 | -90.0 | top | \n| D23 | D_Small | Diode-Hybrid-Back | 121.3612 | -91.4908\
+  \ | -90.0 | top | \n| D24 | D_Small | Diode-Hybrid-Back | 140.3604 | -91.44 | -90.0\
+  \ | top | \n| D25 | D_Small | Diode-Hybrid-Back | 168.91 | -91.44 | -90.0 | top\
+  \ | \n| D26 | D_Small | Diode-Hybrid-Back | 197.5104 | -91.44 | -90.0 | top | \n\
+  | D27 | D_Small | Diode-Hybrid-Back | 216.5096 | -91.4908 | -90.0 | top | \n| D28\
+  \ | D_Small | Diode-Hybrid-Back | 235.5596 | -91.4908 | -90.0 | top | \n| D29 |\
+  \ D_Small | Diode-Hybrid-Back | 254.3556 | -91.4908 | -90.0 | top | \n| MX1 | MX-NoLED\
+  \ | MXOnly-1U-Hotswap | 65.532 | -50.927 | 0.0 | top | \n| MX2 | MX-NoLED | MXOnly-1U-Hotswap\
+  \ | 84.582 | -50.927 | 0.0 | top | \n| MX3 | MX-NoLED | MXOnly-1U-Hotswap | 103.632\
+  \ | -50.927 | 0.0 | top | \n| MX4 | MX-NoLED | MXOnly-1U-Hotswap | 122.682 | -50.927\
+  \ | 0.0 | top | \n| MX5 | MX-NoLED | MXOnly-1U-Hotswap | 141.732 | -50.927 | 0.0\
+  \ | top | \n| MX6 | MX-NoLED | MXOnly-1U-Hotswap | 160.782 | -50.927 | 0.0 | top\
+  \ | \n| MX7 | MX-NoLED | MXOnly-1U-Hotswap | 179.832 | -50.927 | 0.0 | top | \n\
+  | MX8 | MX-NoLED | MXOnly-1U-Hotswap | 198.882 | -50.927 | 0.0 | top | \n| MX9 |\
+  \ MX-NoLED | MXOnly-1U-Hotswap | 217.932 | -50.927 | 0.0 | top | \n| MX10 | MX-NoLED\
+  \ | MXOnly-1U-Hotswap | 236.982 | -50.927 | 0.0 | top | \n| MX11 | MX-NoLED | MXOnly-1U-Hotswap\
+  \ | 70.231 | -69.977 | 0.0 | top | \n| MX12 | MX-NoLED | MXOnly-1U-Hotswap | 89.281\
+  \ | -69.977 | 0.0 | top | \n| MX13 | MX-NoLED | MXOnly-1U-Hotswap | 108.331 | -69.977\
+  \ | 0.0 | top | \n| MX14 | MX-NoLED | MXOnly-1U-Hotswap | 127.381 | -69.977 | 0.0\
+  \ | top | \n| MX15 | MX-NoLED | MXOnly-1U-Hotswap | 146.431 | -69.977 | 0.0 | top\
+  \ | \n| MX16 | MX-NoLED | MXOnly-1U-Hotswap | 165.481 | -69.977 | 0.0 | top | \n\
+  | MX17 | MX-NoLED | MXOnly-1U-Hotswap | 184.531 | -69.977 | 0.0 | top | \n| MX18\
+  \ | MX-NoLED | MXOnly-1U-Hotswap | 203.581 | -69.977 | 0.0 | top | \n| MX19 | MX-NoLED\
+  \ | MXOnly-1U-Hotswap | 222.631 | -69.977 | 0.0 | top | \n| MX20 | MX-NoLED | MXOnly-1U-Hotswap\
+  \ | 241.681 | -69.977 | 0.0 | top | \n| MX21 | MX-NoLED | MXOnly-1U-Hotswap | 75.057\
+  \ | -89.027 | 0.0 | top | \n| MX22 | MX-NoLED | MXOnly-1U-Hotswap | 94.107 | -89.027\
+  \ | 0.0 | top | \n| MX23 | MX-NoLED | MXOnly-1U-Hotswap | 113.157 | -89.027 | 0.0\
+  \ | top | \n| MX24 | MX-NoLED | MXOnly-1U-Hotswap | 132.207 | -89.027 | 0.0 | top\
+  \ | \n| MX25 | MX-NoLED | MXOnly-2U-Hotswap-ReversedStabilizers | 160.782 | -89.027\
+  \ | 0.0 | top | \n| MX26 | MX-NoLED | MXOnly-1U-Hotswap | 189.357 | -89.027 | 0.0\
+  \ | top | \n| MX27 | MX-NoLED | MXOnly-1U-Hotswap | 208.407 | -89.027 | 0.0 | top\
+  \ | \n| MX28 | MX-NoLED | MXOnly-1U-Hotswap | 227.457 | -89.027 | 0.0 | top | \n\
+  | MX29 | MX-NoLED | MXOnly-1U-Hotswap | 246.507 | -89.027 | 0.0 | top | \n"
 projects_flat: projects/alasofia_omega_omega/current_version/working
 repo:
   allow_forking: true

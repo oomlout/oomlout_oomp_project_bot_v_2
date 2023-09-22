@@ -1,10 +1,585 @@
 board: yuletronics
+bom:
+- Id: '1'
+  Designator: IC1
+  Footprint: TSSOP-20
+  Quantity: '1'
+  Designation: STM32F042F6P6
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: P1
+  Footprint: TC2030-NL
+  Quantity: '1'
+  Designation: SWD_TC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: IC2
+  Footprint: SOT-23
+  Quantity: '1'
+  Designation: MCP1700
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: IC3
+  Footprint: SC-70-6
+  Quantity: '1'
+  Designation: TLV61225
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J2
+  Footprint: MICROUSB_MOLEX_47589-0001
+  Quantity: '1'
+  Designation: MICROUSB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: L1
+  Footprint: 2016M
+  Quantity: '1'
+  Designation: "4\xC2\xB57"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: D4,D1,D2,D5,D6,D7,D8,D3
+  Footprint: 0805-LED
+  Quantity: '8'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C2,C3
+  Footprint: 0805
+  Quantity: '2'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: C1,C4,C7
+  Footprint: 0805
+  Quantity: '3'
+  Designation: "10\xC2\xB5"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: C5,C6
+  Footprint: 0805
+  Quantity: '2'
+  Designation: "1\xC2\xB5"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: R1,R2,R3
+  Footprint: 0805
+  Quantity: '3'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: R11,R10,R9,R8,R7,R6,R4,R5
+  Footprint: 0805
+  Quantity: '8'
+  Designation: R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: SW2
+  Footprint: SPDT_SWITCH
+  Quantity: '1'
+  Designation: PWR_SWITCH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: SW1
+  Footprint: MOM_SWITCH
+  Quantity: '1'
+  Designation: BOOTLOAD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: J1
+  Footprint: AAA_HOLDER
+  Quantity: '1'
+  Designation: BATT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | IC1\
+  \ | TSSOP-20 | 1 | STM32F042F6P6 |  |  | [''] | \n| 2 | P1 | TC2030-NL | 1 | SWD_TC\
+  \ |  |  | [''] | \n| 3 | IC2 | SOT-23 | 1 | MCP1700 |  |  | [''] | \n| 4 | IC3 |\
+  \ SC-70-6 | 1 | TLV61225 |  |  | [''] | \n| 5 | J2 | MICROUSB_MOLEX_47589-0001 |\
+  \ 1 | MICROUSB |  |  | [''] | \n| 6 | L1 | 2016M | 1 | 4\xC2\xB57 |  |  | [''] |\
+  \ \n| 7 | D4,D1,D2,D5,D6,D7,D8,D3 | 0805-LED | 8 | LED |  |  | [''] | \n| 8 | C2,C3\
+  \ | 0805 | 2 | 100n |  |  | [''] | \n| 9 | C1,C4,C7 | 0805 | 3 | 10\xC2\xB5 |  |\
+  \  | [''] | \n| 10 | C5,C6 | 0805 | 2 | 1\xC2\xB5 |  |  | [''] | \n| 11 | R1,R2,R3\
+  \ | 0805 | 3 | 10k |  |  | [''] | \n| 12 | R11,R10,R9,R8,R7,R6,R4,R5 | 0805 | 8\
+  \ | R |  |  | [''] | \n| 13 | SW2 | SPDT_SWITCH | 1 | PWR_SWITCH |  |  | [''] |\
+  \ \n| 14 | SW1 | MOM_SWITCH | 1 | BOOTLOAD |  |  | [''] | \n| 15 | J1 | AAA_HOLDER\
+  \ | 1 | BATT |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0805
+  Qnty: '3'
+  Ref: C1, C4, C7
+  Value: "10\xC2\xB5"
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0805
+  Qnty: '2'
+  Ref: C2, C3
+  Value: 100n
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0805
+  Qnty: '2'
+  Ref: C5, C6
+  Value: "1\xC2\xB5"
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: ''
+  Footprint: agg:0805-LED
+  Qnty: '8'
+  Ref: D1, D2, D3, D4, D5, D6, D7, D8
+  Value: LED
+  Vendor: ''
+- Cmp name: STM32F0xxFxPx
+  DNP: ''
+  Description: ''
+  Footprint: agg:TSSOP-20
+  Qnty: '1'
+  Ref: IC1
+  Value: STM32F042F6P6
+  Vendor: ''
+- Cmp name: MCP1700
+  DNP: ''
+  Description: ''
+  Footprint: agg:SOT-23
+  Qnty: '1'
+  Ref: IC2
+  Value: MCP1700
+  Vendor: ''
+- Cmp name: TLV61225
+  DNP: ''
+  Description: ''
+  Footprint: agg:SC-70-6
+  Qnty: '1'
+  Ref: IC3
+  Value: TLV61225
+  Vendor: ''
+- Cmp name: CONN_01x02
+  DNP: ''
+  Description: ''
+  Footprint: agg:AAA_HOLDER
+  Qnty: '1'
+  Ref: J1
+  Value: BATT
+  Vendor: ''
+- Cmp name: MICROUSB
+  DNP: ''
+  Description: ''
+  Footprint: agg:MICROUSB_MOLEX_47589-0001
+  Qnty: '1'
+  Ref: J2
+  Value: MICROUSB
+  Vendor: ''
+- Cmp name: L
+  DNP: ''
+  Description: ''
+  Footprint: agg:2016M
+  Qnty: '1'
+  Ref: L1
+  Value: "4\xC2\xB57"
+  Vendor: ''
+- Cmp name: SWD_TC
+  DNP: ''
+  Description: ''
+  Footprint: agg:TC2030-NL
+  Qnty: '1'
+  Ref: P1
+  Value: SWD_TC
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:0805
+  Qnty: '3'
+  Ref: R1, R2, R3
+  Value: 10k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:0805
+  Qnty: '8'
+  Ref: R4, R5, R6, R7, R8, R9, R10, R11
+  Value: R
+  Vendor: ''
+- Cmp name: SWITCH_MOM
+  DNP: ''
+  Description: ''
+  Footprint: agg:MOM_SWITCH
+  Qnty: '1'
+  Ref: SW1
+  Value: BOOTLOAD
+  Vendor: ''
+- Cmp name: SWITCH_SPDT
+  DNP: ''
+  Description: ''
+  Footprint: agg:SPDT_SWITCH
+  Qnty: '1'
+  Ref: SW2
+  Value: PWR_SWITCH
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C4,\
+  \ C7 | 3 | 10\xC2\xB5 | C | agg:0805 |  |  |  | \n| C2, C3 | 2 | 100n | C | agg:0805\
+  \ |  |  |  | \n| C5, C6 | 2 | 1\xC2\xB5 | C | agg:0805 |  |  |  | \n| D1, D2, D3,\
+  \ D4, D5, D6, D7, D8 | 8 | LED | LED | agg:0805-LED |  |  |  | \n| IC1 | 1 | STM32F042F6P6\
+  \ | STM32F0xxFxPx | agg:TSSOP-20 |  |  |  | \n| IC2 | 1 | MCP1700 | MCP1700 | agg:SOT-23\
+  \ |  |  |  | \n| IC3 | 1 | TLV61225 | TLV61225 | agg:SC-70-6 |  |  |  | \n| J1 |\
+  \ 1 | BATT | CONN_01x02 | agg:AAA_HOLDER |  |  |  | \n| J2 | 1 | MICROUSB | MICROUSB\
+  \ | agg:MICROUSB_MOLEX_47589-0001 |  |  |  | \n| L1 | 1 | 4\xC2\xB57 | L | agg:2016M\
+  \ |  |  |  | \n| P1 | 1 | SWD_TC | SWD_TC | agg:TC2030-NL |  |  |  | \n| R1, R2,\
+  \ R3 | 3 | 10k | R | agg:0805 |  |  |  | \n| R4, R5, R6, R7, R8, R9, R10, R11 |\
+  \ 8 | R | R | agg:0805 |  |  |  | \n| SW1 | 1 | BOOTLOAD | SWITCH_MOM | agg:MOM_SWITCH\
+  \ |  |  |  | \n| SW2 | 1 | PWR_SWITCH | SWITCH_SPDT | agg:SPDT_SWITCH |  |  |  |\
+  \ \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_yuletronics_yuletronics/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_yuletronics_yuletronics/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adamgreig_yuletronics_yuletronics/current_version/working/working.sch
 id: adamgreig_yuletronics_yuletronics
 name: yuletronics
+position_bottom:
+- '# Ref': J1
+  Package: AAA_HOLDER
+  PosX: 130.0
+  PosY: -110.0
+  Rot: -90.0
+  Side: bottom
+  Val: BATT
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J1 | BATT | AAA_HOLDER | 130.0 |\
+  \ -110.0 | -90.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0805
+  PosX: 137.0
+  PosY: -119.5
+  Rot: 90.0
+  Side: top
+  Val: "10\xC2\xB5"
+- '# Ref': C2
+  Package: 0805
+  PosX: 135.0
+  PosY: -119.5
+  Rot: 90.0
+  Side: top
+  Val: 100n
+- '# Ref': C3
+  Package: 0805
+  PosX: 124.5
+  PosY: -117.0
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': C4
+  Package: 0805
+  PosX: 125.5
+  PosY: -133.5
+  Rot: 180.0
+  Side: top
+  Val: "10\xC2\xB5"
+- '# Ref': C5
+  Package: 0805
+  PosX: 134.5
+  PosY: -133.5
+  Rot: 0.0
+  Side: top
+  Val: "1\xC2\xB5"
+- '# Ref': C6
+  Package: 0805
+  PosX: 134.5
+  PosY: -127.5
+  Rot: 0.0
+  Side: top
+  Val: "1\xC2\xB5"
+- '# Ref': C7
+  Package: 0805
+  PosX: 125.5
+  PosY: -125.5
+  Rot: 0.0
+  Side: top
+  Val: "10\xC2\xB5"
+- '# Ref': D1
+  Package: 0805-LED
+  PosX: 114.0
+  PosY: -113.0
+  Rot: 63.4
+  Side: top
+  Val: LED
+- '# Ref': D2
+  Package: 0805-LED
+  PosX: 120.5
+  PosY: -98.5
+  Rot: 63.4
+  Side: top
+  Val: LED
+- '# Ref': D3
+  Package: 0805-LED
+  PosX: 118.5
+  PosY: -98.0
+  Rot: 63.4
+  Side: top
+  Val: LED
+- '# Ref': D4
+  Package: 0805-LED
+  PosX: 125.0
+  PosY: -90.0
+  Rot: -45.0
+  Side: top
+  Val: LED
+- '# Ref': D5
+  Package: 0805-LED
+  PosX: 146.0
+  PosY: -113.0
+  Rot: 116.6
+  Side: top
+  Val: LED
+- '# Ref': D6
+  Package: 0805-LED
+  PosX: 135.0
+  PosY: -90.0
+  Rot: -135.0
+  Side: top
+  Val: LED
+- '# Ref': D7
+  Package: 0805-LED
+  PosX: 141.5
+  PosY: -98.0
+  Rot: 116.6
+  Side: top
+  Val: LED
+- '# Ref': D8
+  Package: 0805-LED
+  PosX: 139.5
+  PosY: -98.5
+  Rot: 116.6
+  Side: top
+  Val: LED
+- '# Ref': IC1
+  Package: TSSOP-20
+  PosX: 130.0
+  PosY: -118.5
+  Rot: 0.0
+  Side: top
+  Val: STM32F042F6P6
+- '# Ref': IC2
+  Package: SOT-23
+  PosX: 134.5
+  PosY: -130.5
+  Rot: -90.0
+  Side: top
+  Val: MCP1700
+- '# Ref': IC3
+  Package: SC-70-6
+  PosX: 125.5
+  PosY: -128.0
+  Rot: 180.0
+  Side: top
+  Val: TLV61225
+- '# Ref': J2
+  Package: MICROUSB_MOLEX_47589-0001
+  PosX: 148.3919
+  PosY: -125.1022
+  Rot: 116.6
+  Side: top
+  Val: MICROUSB
+- '# Ref': L1
+  Package: 2016M
+  PosX: 125.5
+  PosY: -131.0
+  Rot: 180.0
+  Side: top
+  Val: "4\xC2\xB57"
+- '# Ref': P1
+  Package: TC2030-NL
+  PosX: 138.5
+  PosY: -113.0
+  Rot: 90.0
+  Side: top
+  Val: SWD_TC
+- '# Ref': R1
+  Package: 0805
+  PosX: 115.0
+  PosY: -120.0
+  Rot: 180.0
+  Side: top
+  Val: 10k
+- '# Ref': R2
+  Package: 0805
+  PosX: 130.0
+  PosY: -129.5
+  Rot: 180.0
+  Side: top
+  Val: 10k
+- '# Ref': R3
+  Package: 0805
+  PosX: 130.0
+  PosY: -127.5
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R4
+  Package: 0805
+  PosX: 117.5
+  PosY: -112.5
+  Rot: 180.0
+  Side: top
+  Val: R
+- '# Ref': R5
+  Package: 0805
+  PosX: 124.0
+  PosY: -98.0
+  Rot: 180.0
+  Side: top
+  Val: R
+- '# Ref': R6
+  Package: 0805
+  PosX: 124.0
+  PosY: -96.0
+  Rot: 180.0
+  Side: top
+  Val: R
+- '# Ref': R7
+  Package: 0805
+  PosX: 124.0
+  PosY: -94.0
+  Rot: 180.0
+  Side: top
+  Val: R
+- '# Ref': R8
+  Package: 0805
+  PosX: 142.5
+  PosY: -112.5
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': R9
+  Package: 0805
+  PosX: 136.0
+  PosY: -94.0
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': R10
+  Package: 0805
+  PosX: 136.0
+  PosY: -96.0
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': R11
+  Package: 0805
+  PosX: 136.0
+  PosY: -98.0
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': SW1
+  Package: MOM_SWITCH
+  PosX: 115.0
+  PosY: -125.5
+  Rot: 90.0
+  Side: top
+  Val: BOOTLOAD
+- '# Ref': SW2
+  Package: SPDT_SWITCH
+  PosX: 121.0
+  PosY: -124.5
+  Rot: 90.0
+  Side: top
+  Val: PWR_SWITCH
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 10\xC2\xB5 | 0805 | 137.0 | -119.5\
+  \ | 90.0 | top | \n| C2 | 100n | 0805 | 135.0 | -119.5 | 90.0 | top | \n| C3 | 100n\
+  \ | 0805 | 124.5 | -117.0 | -90.0 | top | \n| C4 | 10\xC2\xB5 | 0805 | 125.5 | -133.5\
+  \ | 180.0 | top | \n| C5 | 1\xC2\xB5 | 0805 | 134.5 | -133.5 | 0.0 | top | \n| C6\
+  \ | 1\xC2\xB5 | 0805 | 134.5 | -127.5 | 0.0 | top | \n| C7 | 10\xC2\xB5 | 0805 |\
+  \ 125.5 | -125.5 | 0.0 | top | \n| D1 | LED | 0805-LED | 114.0 | -113.0 | 63.4 |\
+  \ top | \n| D2 | LED | 0805-LED | 120.5 | -98.5 | 63.4 | top | \n| D3 | LED | 0805-LED\
+  \ | 118.5 | -98.0 | 63.4 | top | \n| D4 | LED | 0805-LED | 125.0 | -90.0 | -45.0\
+  \ | top | \n| D5 | LED | 0805-LED | 146.0 | -113.0 | 116.6 | top | \n| D6 | LED\
+  \ | 0805-LED | 135.0 | -90.0 | -135.0 | top | \n| D7 | LED | 0805-LED | 141.5 |\
+  \ -98.0 | 116.6 | top | \n| D8 | LED | 0805-LED | 139.5 | -98.5 | 116.6 | top |\
+  \ \n| IC1 | STM32F042F6P6 | TSSOP-20 | 130.0 | -118.5 | 0.0 | top | \n| IC2 | MCP1700\
+  \ | SOT-23 | 134.5 | -130.5 | -90.0 | top | \n| IC3 | TLV61225 | SC-70-6 | 125.5\
+  \ | -128.0 | 180.0 | top | \n| J2 | MICROUSB | MICROUSB_MOLEX_47589-0001 | 148.3919\
+  \ | -125.1022 | 116.6 | top | \n| L1 | 4\xC2\xB57 | 2016M | 125.5 | -131.0 | 180.0\
+  \ | top | \n| P1 | SWD_TC | TC2030-NL | 138.5 | -113.0 | 90.0 | top | \n| R1 | 10k\
+  \ | 0805 | 115.0 | -120.0 | 180.0 | top | \n| R2 | 10k | 0805 | 130.0 | -129.5 |\
+  \ 180.0 | top | \n| R3 | 10k | 0805 | 130.0 | -127.5 | 0.0 | top | \n| R4 | R |\
+  \ 0805 | 117.5 | -112.5 | 180.0 | top | \n| R5 | R | 0805 | 124.0 | -98.0 | 180.0\
+  \ | top | \n| R6 | R | 0805 | 124.0 | -96.0 | 180.0 | top | \n| R7 | R | 0805 |\
+  \ 124.0 | -94.0 | 180.0 | top | \n| R8 | R | 0805 | 142.5 | -112.5 | 0.0 | top |\
+  \ \n| R9 | R | 0805 | 136.0 | -94.0 | 0.0 | top | \n| R10 | R | 0805 | 136.0 | -96.0\
+  \ | 0.0 | top | \n| R11 | R | 0805 | 136.0 | -98.0 | 0.0 | top | \n| SW1 | BOOTLOAD\
+  \ | MOM_SWITCH | 115.0 | -125.5 | 90.0 | top | \n| SW2 | PWR_SWITCH | SPDT_SWITCH\
+  \ | 121.0 | -124.5 | 90.0 | top | \n"
 projects_flat: projects/adamgreig_yuletronics_yuletronics/current_version/working
 repo:
   allow_forking: true

@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit-ALS-PT19-Sensor-Breakout-PCB/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_als_pt19_sensor_breakout_pcb_adafruit_als_pt19_315c_breakout/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

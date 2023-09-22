@@ -12,6 +12,7 @@
 
 * src_file_repo_sch: KiCAD/MixtapeNEO-3000.sch
 * src_file_repo_sch_link: https://github.com/8BitMixtape/MutanMonkey_Mixtape3000/tree/master/KiCAD/MixtapeNEO-3000.sch
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/8bitmixtape_mutanmonkey_mixtape3000_mixtapeneo_3000/current_version/working  
 
 
 

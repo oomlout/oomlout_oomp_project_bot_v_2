@@ -1,9 +1,132 @@
 board: adafruit_qspi_dip_breakout
+bom:
+- Id: '1'
+  Designator: JP3,JP2
+  Footprint: 1X04_ROUND_76
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '1'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U1
+  Footprint: SOIC8_208MIL
+  Quantity: '1'
+  Designation: GENERIC QSPI
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$4
+  Footprint: ADAFRUIT_2.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | JP3,JP2\
+  \ | 1X04_ROUND_76 | 2 |  |  |  | [''] | \n| 2 | FID1 | FIDUCIAL_1MM | 1 | FIDUCIAL_1MM\
+  \ |  |  | [''] | \n| 3 | U1 | SOIC8_208MIL | 1 | GENERIC QSPI |  |  | [''] | \n\
+  | 4 | U$4 | ADAFRUIT_2.5MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '1'
+  Ref: FID1
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: HEADER-1X476MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X04_ROUND_76
+  Qnty: '2'
+  Ref: JP2, JP3
+  Value: HEADER-1X476MIL
+  Vendor: ''
+- Cmp name: SPIFLASH_8PIN208MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:SOIC8_208MIL
+  Qnty: '1'
+  Ref: U1
+  Value: GENERIC QSPI
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| FID1\
+  \ | 1 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| JP2, JP3\
+  \ | 2 | HEADER-1X476MIL | HEADER-1X476MIL | working:1X04_ROUND_76 |  |  |  | \n\
+  | U1 | 1 | GENERIC QSPI | SPIFLASH_8PIN208MIL | working:SOIC8_208MIL |  |  |  |\
+  \ \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_qspi_dip_breakout_pcb_adafruit_qspi_dip_breakout/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_qspi_dip_breakout_pcb_adafruit_qspi_dip_breakout/current_version/working/working.sch
 id: adafruit_adafruit_qspi_dip_breakout_pcb_adafruit_qspi_dip_breakout
 name: adafruit_qspi_dip_breakout_pcb
+position_bottom:
+- '# Ref': U$4
+  Package: ADAFRUIT_2.5MM
+  PosX: 149.6441
+  PosY: -101.8286
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$4 | nan | ADAFRUIT_2.5MM | 149.6441\
+  \ | -101.8286 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 148.1201
+  PosY: -104.6226
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': JP2
+  Package: 1X04_ROUND_76
+  PosX: 152.3111
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP3
+  Package: 1X04_ROUND_76
+  PosX: 144.6911
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': U1
+  Package: SOIC8_208MIL
+  PosX: 148.5011
+  PosY: -104.6226
+  Rot: 180.0
+  Side: top
+  Val: GENERIC_QSPI
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM |\
+  \ 148.1201 | -104.6226 | 0.0 | top | \n| JP2 | nan | 1X04_ROUND_76 | 152.3111 |\
+  \ -105.0036 | -90.0 | top | \n| JP3 | nan | 1X04_ROUND_76 | 144.6911 | -105.0036\
+  \ | -90.0 | top | \n| U1 | GENERIC_QSPI | SOIC8_208MIL | 148.5011 | -104.6226 |\
+  \ 180.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_qspi_dip_breakout_pcb_adafruit_qspi_dip_breakout/current_version/working
 repo:
   allow_forking: true

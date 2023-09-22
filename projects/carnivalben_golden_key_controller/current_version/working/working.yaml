@@ -1,10 +1,908 @@
 board: controller
+bom:
+- Id: '1'
+  Designator: C5,C1,C3
+  Footprint: C_Disc_D3.0mm_W1.6mm_P2.50mm
+  Quantity: '3'
+  Designation: 10nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D1,D17,D10,D12,D15
+  Footprint: LED_D5.0mm
+  Quantity: '5'
+  Designation: WHITE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: D3
+  Footprint: LED_D5.0mm
+  Quantity: '1'
+  Designation: W REV3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: D4
+  Footprint: LED_D5.0mm
+  Quantity: '1'
+  Designation: W REV2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: D5
+  Footprint: LED_D5.0mm
+  Quantity: '1'
+  Designation: W REV1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: D6
+  Footprint: LED_D5.0mm
+  Quantity: '1'
+  Designation: W FWD1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: D7
+  Footprint: LED_D5.0mm
+  Quantity: '1'
+  Designation: W FWD2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: D8
+  Footprint: LED_D5.0mm
+  Quantity: '1'
+  Designation: W FWD3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: D9,D13,D14,D11
+  Footprint: D_A-405_P7.62mm_Horizontal
+  Quantity: '4'
+  Designation: 1N4001
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: Q2,Q3
+  Footprint: TO-220-3_Horizontal
+  Quantity: '2'
+  Designation: TIP32
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: Q4,Q5,Q15
+  Footprint: TO-92_Inline_Wide
+  Quantity: '3'
+  Designation: 2N2222
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: Q12,Q13
+  Footprint: TO-220-3_Horizontal
+  Quantity: '2'
+  Designation: TIP31
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: R2,R15,R16,R18,R19,R20,R27,R17
+  Footprint: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  Quantity: '8'
+  Designation: 330R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: R3,R1
+  Footprint: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  Quantity: '2'
+  Designation: 165R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: R11,R12
+  Footprint: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  Quantity: '2'
+  Designation: 100R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: R25
+  Footprint: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  Quantity: '1'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: U1
+  Footprint: TO-220-3_Horizontal
+  Quantity: '1'
+  Designation: LM78M05
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: U2
+  Footprint: DIP-8_W7.62mm_Socket_LongPads
+  Quantity: '1'
+  Designation: PIC12F1501-ISN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: U3
+  Footprint: DIP-16_W7.62mm_Socket_LongPads
+  Quantity: '1'
+  Designation: 74HC595
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: D2
+  Footprint: D_A-405_P7.62mm_Horizontal
+  Quantity: '1'
+  Designation: 12v
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '21'
+  Designator: D16
+  Footprint: LED_D5.0mm
+  Quantity: '1'
+  Designation: W STOP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '22'
+  Designator: J2
+  Footprint: Potentiometer_WirePads_Small
+  Quantity: '1'
+  Designation: 10K POT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '23'
+  Designator: C4,C2
+  Footprint: CP_Radial_D6.3mm_P2.50mm
+  Quantity: '2'
+  Designation: 400uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '24'
+  Designator: J1
+  Footprint: Barrier_Terminal_P8.27_1x4
+  Quantity: '1'
+  Designation: POWER
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '25'
+  Designator: J3
+  Footprint: Pin_Header_Straight_1x03_Pitch2.54mm
+  Quantity: '1'
+  Designation: Gradient
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C5,C1,C3\
+  \ | C_Disc_D3.0mm_W1.6mm_P2.50mm | 3 | 10nF |  |  | [''] | \n| 2 | D1,D17,D10,D12,D15\
+  \ | LED_D5.0mm | 5 | WHITE |  |  | [''] | \n| 3 | D3 | LED_D5.0mm | 1 | W REV3 |\
+  \  |  | [''] | \n| 4 | D4 | LED_D5.0mm | 1 | W REV2 |  |  | [''] | \n| 5 | D5 |\
+  \ LED_D5.0mm | 1 | W REV1 |  |  | [''] | \n| 6 | D6 | LED_D5.0mm | 1 | W FWD1 |\
+  \  |  | [''] | \n| 7 | D7 | LED_D5.0mm | 1 | W FWD2 |  |  | [''] | \n| 8 | D8 |\
+  \ LED_D5.0mm | 1 | W FWD3 |  |  | [''] | \n| 9 | D9,D13,D14,D11 | D_A-405_P7.62mm_Horizontal\
+  \ | 4 | 1N4001 |  |  | [''] | \n| 10 | Q2,Q3 | TO-220-3_Horizontal | 2 | TIP32 |\
+  \  |  | [''] | \n| 11 | Q4,Q5,Q15 | TO-92_Inline_Wide | 3 | 2N2222 |  |  | ['']\
+  \ | \n| 12 | Q12,Q13 | TO-220-3_Horizontal | 2 | TIP31 |  |  | [''] | \n| 13 | R2,R15,R16,R18,R19,R20,R27,R17\
+  \ | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal | 8 | 330R |  |  | [''] |\
+  \ \n| 14 | R3,R1 | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal | 2 | 165R\
+  \ |  |  | [''] | \n| 15 | R11,R12 | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 2 | 100R |  |  | [''] | \n| 16 | R25 | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 1 | 1K |  |  | [''] | \n| 17 | U1 | TO-220-3_Horizontal | 1 | LM78M05 |  | \
+  \ | [''] | \n| 18 | U2 | DIP-8_W7.62mm_Socket_LongPads | 1 | PIC12F1501-ISN |  |\
+  \  | [''] | \n| 19 | U3 | DIP-16_W7.62mm_Socket_LongPads | 1 | 74HC595 |  |  | ['']\
+  \ | \n| 20 | D2 | D_A-405_P7.62mm_Horizontal | 1 | 12v |  |  | [''] | \n| 21 | D16\
+  \ | LED_D5.0mm | 1 | W STOP |  |  | [''] | \n| 22 | J2 | Potentiometer_WirePads_Small\
+  \ | 1 | 10K POT |  |  | [''] | \n| 23 | C4,C2 | CP_Radial_D6.3mm_P2.50mm | 2 | 400uF\
+  \ |  |  | [''] | \n| 24 | J1 | Barrier_Terminal_P8.27_1x4 | 1 | POWER |  |  | ['']\
+  \ | \n| 25 | J3 | Pin_Header_Straight_1x03_Pitch2.54mm | 1 | Gradient |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm
+  Qnty: '3'
+  Ref: C1, C3, C5
+  Value: 10nF
+  Vendor: ''
+- Cmp name: CP-Device
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_THT:CP_Radial_D6.3mm_P2.50mm
+  Qnty: '2'
+  Ref: C2, C4
+  Value: 400uF
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: LEDs:LED_D5.0mm
+  Qnty: '5'
+  Ref: D1, D10, D12, D15, D17
+  Value: WHITE
+  Vendor: ''
+- Cmp name: D_Zener
+  DNP: ''
+  Description: Zener diode
+  Footprint: Diodes_THT:D_A-405_P7.62mm_Horizontal
+  Qnty: '1'
+  Ref: D2
+  Value: 12v
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: LEDs:LED_D5.0mm
+  Qnty: '1'
+  Ref: D3
+  Value: W REV3
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: LEDs:LED_D5.0mm
+  Qnty: '1'
+  Ref: D4
+  Value: W REV2
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: LEDs:LED_D5.0mm
+  Qnty: '1'
+  Ref: D5
+  Value: W REV1
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: LEDs:LED_D5.0mm
+  Qnty: '1'
+  Ref: D6
+  Value: W FWD1
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: LEDs:LED_D5.0mm
+  Qnty: '1'
+  Ref: D7
+  Value: W FWD2
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: LEDs:LED_D5.0mm
+  Qnty: '1'
+  Ref: D8
+  Value: W FWD3
+  Vendor: ''
+- Cmp name: D
+  DNP: ''
+  Description: Diode
+  Footprint: Diodes_THT:D_A-405_P7.62mm_Horizontal
+  Qnty: '4'
+  Ref: D9, D11, D13, D14
+  Value: 1N4001
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: LEDs:LED_D5.0mm
+  Qnty: '1'
+  Ref: D16
+  Value: W STOP
+  Vendor: ''
+- Cmp name: Conn_01x04
+  DNP: ''
+  Description: Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: carnivalben:Barrier_Terminal_P8.27_1x4
+  Qnty: '1'
+  Ref: J1
+  Value: POWER
+  Vendor: ''
+- Cmp name: Conn_01x03
+  DNP: ''
+  Description: Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Potentiometers:Potentiometer_WirePads_Small
+  Qnty: '1'
+  Ref: J2
+  Value: 10K POT
+  Vendor: ''
+- Cmp name: Conn_01x03
+  DNP: ''
+  Description: Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm
+  Qnty: '1'
+  Ref: J3
+  Value: Gradient
+  Vendor: ''
+- Cmp name: TIP42
+  DNP: ''
+  Description: -6A Ic, -40V Vce, Power PNP Transistor, TO-220
+  Footprint: TO_SOT_Packages_THT:TO-220-3_Horizontal
+  Qnty: '2'
+  Ref: Q2, Q3
+  Value: TIP32
+  Vendor: ''
+- Cmp name: BC237
+  DNP: ''
+  Description: 100mA Ic, 50V Vce, Epitaxial Silicon NPN Transistor, TO-92
+  Footprint: TO_SOT_Packages_THT:TO-92_Inline_Wide
+  Qnty: '3'
+  Ref: Q4, Q5, Q15
+  Value: 2N2222
+  Vendor: ''
+- Cmp name: TIP41
+  DNP: ''
+  Description: 6A Ic, 40V Vce, Power NPN Transistor, TO-220
+  Footprint: TO_SOT_Packages_THT:TO-220-3_Horizontal
+  Qnty: '2'
+  Ref: Q12, Q13
+  Value: TIP31
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  Qnty: '2'
+  Ref: R1, R3
+  Value: 165R
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  Qnty: '8'
+  Ref: R2, R15, R16, R17, R18, R19, R20, R27
+  Value: 330R
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  Qnty: '2'
+  Ref: R11, R12
+  Value: 100R
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  Qnty: '1'
+  Ref: R25
+  Value: 1K
+  Vendor: ''
+- Cmp name: LM78M05_TO220
+  DNP: ''
+  Description: Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-220
+  Footprint: TO_SOT_Packages_THT:TO-220-3_Horizontal
+  Qnty: '1'
+  Ref: U1
+  Value: LM78M05_TO220
+  Vendor: ''
+- Cmp name: PIC12F1501-ISN
+  DNP: ''
+  Description: PIC12F1501, 1024W FLASH, 64B SRAM, SO8
+  Footprint: Housings_DIP:DIP-8_W7.62mm_Socket_LongPads
+  Qnty: '1'
+  Ref: U2
+  Value: PIC12F1501-ISN
+  Vendor: ''
+- Cmp name: 74HC595
+  DNP: ''
+  Description: 8-bit serial in/out Shift Register 3-State Outputs
+  Footprint: Housings_DIP:DIP-16_W7.62mm_Socket_LongPads
+  Qnty: '1'
+  Ref: U3
+  Value: 74HC595
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C3,\
+  \ C5 | 3 | 10nF | C | Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm | Unpolarized\
+  \ capacitor |  |  | \n| C2, C4 | 2 | 400uF | CP-Device | Capacitors_THT:CP_Radial_D6.3mm_P2.50mm\
+  \ |  |  |  | \n| D1, D10, D12, D15, D17 | 5 | WHITE | LED | LEDs:LED_D5.0mm | Light\
+  \ emitting diode |  |  | \n| D2 | 1 | 12v | D_Zener | Diodes_THT:D_A-405_P7.62mm_Horizontal\
+  \ | Zener diode |  |  | \n| D3 | 1 | W REV3 | LED | LEDs:LED_D5.0mm | Light emitting\
+  \ diode |  |  | \n| D4 | 1 | W REV2 | LED | LEDs:LED_D5.0mm | Light emitting diode\
+  \ |  |  | \n| D5 | 1 | W REV1 | LED | LEDs:LED_D5.0mm | Light emitting diode | \
+  \ |  | \n| D6 | 1 | W FWD1 | LED | LEDs:LED_D5.0mm | Light emitting diode |  | \
+  \ | \n| D7 | 1 | W FWD2 | LED | LEDs:LED_D5.0mm | Light emitting diode |  |  | \n\
+  | D8 | 1 | W FWD3 | LED | LEDs:LED_D5.0mm | Light emitting diode |  |  | \n| D9,\
+  \ D11, D13, D14 | 4 | 1N4001 | D | Diodes_THT:D_A-405_P7.62mm_Horizontal | Diode\
+  \ |  |  | \n| D16 | 1 | W STOP | LED | LEDs:LED_D5.0mm | Light emitting diode |\
+  \  |  | \n| J1 | 1 | POWER | Conn_01x04 | carnivalben:Barrier_Terminal_P8.27_1x4\
+  \ | Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J2 | 1 | 10K POT | Conn_01x03 | Potentiometers:Potentiometer_WirePads_Small\
+  \ | Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J3 | 1 | Gradient | Conn_01x03 | Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm\
+  \ | Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| Q2, Q3 | 2 | TIP32 | TIP42 | TO_SOT_Packages_THT:TO-220-3_Horizontal\
+  \ | -6A Ic, -40V Vce, Power PNP Transistor, TO-220 |  |  | \n| Q4, Q5, Q15 | 3 |\
+  \ 2N2222 | BC237 | TO_SOT_Packages_THT:TO-92_Inline_Wide | 100mA Ic, 50V Vce, Epitaxial\
+  \ Silicon NPN Transistor, TO-92 |  |  | \n| Q12, Q13 | 2 | TIP31 | TIP41 | TO_SOT_Packages_THT:TO-220-3_Horizontal\
+  \ | 6A Ic, 40V Vce, Power NPN Transistor, TO-220 |  |  | \n| R1, R3 | 2 | 165R |\
+  \ R | Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal | Resistor\
+  \ |  |  | \n| R2, R15, R16, R17, R18, R19, R20, R27 | 8 | 330R | R | Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | Resistor |  |  | \n| R11, R12 | 2 | 100R | R | Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | Resistor |  |  | \n| R25 | 1 | 1K | R | Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | Resistor |  |  | \n| U1 | 1 | LM78M05_TO220 | LM78M05_TO220 | TO_SOT_Packages_THT:TO-220-3_Horizontal\
+  \ | Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-220 |  |  | \n| U2\
+  \ | 1 | PIC12F1501-ISN | PIC12F1501-ISN | Housings_DIP:DIP-8_W7.62mm_Socket_LongPads\
+  \ | PIC12F1501, 1024W FLASH, 64B SRAM, SO8 |  |  | \n| U3 | 1 | 74HC595 | 74HC595\
+  \ | Housings_DIP:DIP-16_W7.62mm_Socket_LongPads | 8-bit serial in/out Shift Register\
+  \ 3-State Outputs |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/carnivalben_golden_key_controller/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/carnivalben_golden_key_controller/current_version/working/working.kicad_pcb
 file_sch_flat: projects/carnivalben_golden_key_controller/current_version/working/working.sch
 id: carnivalben_golden_key_controller
 name: golden_key
+position_bottom:
+- '# Ref': J1
+  Package: Barrier_Terminal_P8.27_1x4
+  PosX: 78.74
+  PosY: -85.344
+  Rot: 0.0
+  Side: bottom
+  Val: POWER
+- '# Ref': J3
+  Package: Pin_Header_Straight_1x03_Pitch2.54mm
+  PosX: 81.534
+  PosY: -134.62
+  Rot: 0.0
+  Side: bottom
+  Val: Gradient
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J1 | POWER | Barrier_Terminal_P8.27_1x4\
+  \ | 78.74 | -85.344 | 0.0 | bottom | \n| J3 | Gradient | Pin_Header_Straight_1x03_Pitch2.54mm\
+  \ | 81.534 | -134.62 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: C_Disc_D3.0mm_W1.6mm_P2.50mm
+  PosX: 75.692
+  PosY: -121.92
+  Rot: 180.0
+  Side: top
+  Val: 10nF
+- '# Ref': C2
+  Package: CP_Radial_D6.3mm_P2.50mm
+  PosX: 68.072
+  PosY: -97.028
+  Rot: 90.0
+  Side: top
+  Val: 400uF
+- '# Ref': C3
+  Package: C_Disc_D3.0mm_W1.6mm_P2.50mm
+  PosX: 112.776
+  PosY: -134.62
+  Rot: -90.0
+  Side: top
+  Val: 10nF
+- '# Ref': C4
+  Package: CP_Radial_D6.3mm_P2.50mm
+  PosX: 67.056
+  PosY: -148.336
+  Rot: -90.0
+  Side: top
+  Val: 400uF
+- '# Ref': C5
+  Package: C_Disc_D3.0mm_W1.6mm_P2.50mm
+  PosX: 86.868
+  PosY: -139.192
+  Rot: 0.0
+  Side: top
+  Val: 10nF
+- '# Ref': D1
+  Package: LED_D5.0mm
+  PosX: 91.44
+  PosY: -67.056
+  Rot: 90.0
+  Side: top
+  Val: WHITE
+- '# Ref': D2
+  Package: D_A-405_P7.62mm_Horizontal
+  PosX: 76.2
+  PosY: -117.856
+  Rot: 180.0
+  Side: top
+  Val: 12v
+- '# Ref': D3
+  Package: LED_D5.0mm
+  PosX: 49.1744
+  PosY: -58.3184
+  Rot: -90.0
+  Side: top
+  Val: W_REV3
+- '# Ref': D4
+  Package: LED_D5.0mm
+  PosX: 62.2808
+  PosY: -50.1142
+  Rot: -90.0
+  Side: top
+  Val: W_REV2
+- '# Ref': D5
+  Package: LED_D5.0mm
+  PosX: 76.8858
+  PosY: -44.9834
+  Rot: -90.0
+  Side: top
+  Val: W_REV1
+- '# Ref': D6
+  Package: LED_D5.0mm
+  PosX: 106.5022
+  PosY: -45.0596
+  Rot: -90.0
+  Side: top
+  Val: W_FWD1
+- '# Ref': D7
+  Package: LED_D5.0mm
+  PosX: 121.1326
+  PosY: -50.038
+  Rot: -90.0
+  Side: top
+  Val: W_FWD2
+- '# Ref': D8
+  Package: LED_D5.0mm
+  PosX: 134.2898
+  PosY: -58.293
+  Rot: -90.0
+  Side: top
+  Val: W_FWD3
+- '# Ref': D9
+  Package: D_A-405_P7.62mm_Horizontal
+  PosX: 92.456
+  PosY: -91.948
+  Rot: -90.0
+  Side: top
+  Val: 1N4001
+- '# Ref': D10
+  Package: LED_D5.0mm
+  PosX: 114.808
+  PosY: -67.056
+  Rot: 90.0
+  Side: top
+  Val: WHITE
+- '# Ref': D11
+  Package: D_A-405_P7.62mm_Horizontal
+  PosX: 95.504
+  PosY: -99.568
+  Rot: 90.0
+  Side: top
+  Val: 1N4001
+- '# Ref': D12
+  Package: LED_D5.0mm
+  PosX: 68.072
+  PosY: -67.056
+  Rot: 90.0
+  Side: top
+  Val: WHITE
+- '# Ref': D13
+  Package: D_A-405_P7.62mm_Horizontal
+  PosX: 86.36
+  PosY: -91.948
+  Rot: -90.0
+  Side: top
+  Val: 1N4001
+- '# Ref': D14
+  Package: D_A-405_P7.62mm_Horizontal
+  PosX: 89.408
+  PosY: -99.568
+  Rot: 90.0
+  Side: top
+  Val: 1N4001
+- '# Ref': D15
+  Package: LED_D5.0mm
+  PosX: 103.124
+  PosY: -67.056
+  Rot: 90.0
+  Side: top
+  Val: WHITE
+- '# Ref': D16
+  Package: LED_D5.0mm
+  PosX: 91.7702
+  PosY: -43.2308
+  Rot: -90.0
+  Side: top
+  Val: W_STOP
+- '# Ref': D17
+  Package: LED_D5.0mm
+  PosX: 79.756
+  PosY: -67.056
+  Rot: 90.0
+  Side: top
+  Val: WHITE
+- '# Ref': J2
+  Package: Potentiometer_WirePads_Small
+  PosX: 115.316
+  PosY: -170.688
+  Rot: 90.0
+  Side: top
+  Val: 10K_POT
+- '# Ref': Q2
+  Package: TO-220-3_Horizontal
+  PosX: 77.216
+  PosY: -160.02
+  Rot: 180.0
+  Side: top
+  Val: TIP32
+- '# Ref': Q3
+  Package: TO-220-3_Horizontal
+  PosX: 110.744
+  PosY: -160.02
+  Rot: 180.0
+  Side: top
+  Val: TIP32
+- '# Ref': Q4
+  Package: TO-92_Inline_Wide
+  PosX: 67.564
+  PosY: -168.148
+  Rot: 180.0
+  Side: top
+  Val: 2N2222
+- '# Ref': Q5
+  Package: TO-92_Inline_Wide
+  PosX: 67.564
+  PosY: -162.052
+  Rot: 180.0
+  Side: top
+  Val: 2N2222
+- '# Ref': Q12
+  Package: TO-220-3_Horizontal
+  PosX: 99.568
+  PosY: -160.02
+  Rot: 180.0
+  Side: top
+  Val: TIP31
+- '# Ref': Q13
+  Package: TO-220-3_Horizontal
+  PosX: 88.392
+  PosY: -160.02
+  Rot: 180.0
+  Side: top
+  Val: TIP31
+- '# Ref': Q15
+  Package: TO-92_Inline_Wide
+  PosX: 62.484
+  PosY: -85.852
+  Rot: 90.0
+  Side: top
+  Val: 2N2222
+- '# Ref': R1
+  Package: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  PosX: 115.57
+  PosY: -99.568
+  Rot: 180.0
+  Side: top
+  Val: 165R
+- '# Ref': R2
+  Package: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  PosX: 115.57
+  PosY: -95.504
+  Rot: 180.0
+  Side: top
+  Val: 330R
+- '# Ref': R3
+  Package: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  PosX: 115.57
+  PosY: -91.44
+  Rot: 180.0
+  Side: top
+  Val: 165R
+- '# Ref': R11
+  Package: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  PosX: 76.2
+  PosY: -155.956
+  Rot: 180.0
+  Side: top
+  Val: 100R
+- '# Ref': R12
+  Package: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  PosX: 93.472
+  PosY: -155.956
+  Rot: 180.0
+  Side: top
+  Val: 100R
+- '# Ref': R15
+  Package: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  PosX: 67.564
+  PosY: -101.6
+  Rot: -90.0
+  Side: top
+  Val: 330R
+- '# Ref': R16
+  Package: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  PosX: 71.628
+  PosY: -101.6
+  Rot: -90.0
+  Side: top
+  Val: 330R
+- '# Ref': R17
+  Package: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  PosX: 75.692
+  PosY: -101.6
+  Rot: -90.0
+  Side: top
+  Val: 330R
+- '# Ref': R18
+  Package: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  PosX: 106.172
+  PosY: -105.664
+  Rot: -90.0
+  Side: top
+  Val: 330R
+- '# Ref': R19
+  Package: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  PosX: 110.236
+  PosY: -105.664
+  Rot: -90.0
+  Side: top
+  Val: 330R
+- '# Ref': R20
+  Package: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  PosX: 114.3
+  PosY: -105.664
+  Rot: -90.0
+  Side: top
+  Val: 330R
+- '# Ref': R25
+  Package: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  PosX: 62.484
+  PosY: -89.916
+  Rot: 0.0
+  Side: top
+  Val: 1K
+- '# Ref': R27
+  Package: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  PosX: 79.756
+  PosY: -101.6
+  Rot: -90.0
+  Side: top
+  Val: 330R
+- '# Ref': U1
+  Package: TO-220-3_Horizontal
+  PosX: 75.692
+  PosY: -125.476
+  Rot: 180.0
+  Side: top
+  Val: LM78M05
+- '# Ref': U2
+  Package: DIP-8_W7.62mm_Socket_LongPads
+  PosX: 84.328
+  PosY: -142.24
+  Rot: 0.0
+  Side: top
+  Val: PIC12F1501-ISN
+- '# Ref': U3
+  Package: DIP-16_W7.62mm_Socket_LongPads
+  PosX: 101.092
+  PosY: -132.08
+  Rot: 0.0
+  Side: top
+  Val: 74HC595
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 10nF | C_Disc_D3.0mm_W1.6mm_P2.50mm\
+  \ | 75.692 | -121.92 | 180.0 | top | \n| C2 | 400uF | CP_Radial_D6.3mm_P2.50mm |\
+  \ 68.072 | -97.028 | 90.0 | top | \n| C3 | 10nF | C_Disc_D3.0mm_W1.6mm_P2.50mm |\
+  \ 112.776 | -134.62 | -90.0 | top | \n| C4 | 400uF | CP_Radial_D6.3mm_P2.50mm |\
+  \ 67.056 | -148.336 | -90.0 | top | \n| C5 | 10nF | C_Disc_D3.0mm_W1.6mm_P2.50mm\
+  \ | 86.868 | -139.192 | 0.0 | top | \n| D1 | WHITE | LED_D5.0mm | 91.44 | -67.056\
+  \ | 90.0 | top | \n| D2 | 12v | D_A-405_P7.62mm_Horizontal | 76.2 | -117.856 | 180.0\
+  \ | top | \n| D3 | W_REV3 | LED_D5.0mm | 49.1744 | -58.3184 | -90.0 | top | \n|\
+  \ D4 | W_REV2 | LED_D5.0mm | 62.2808 | -50.1142 | -90.0 | top | \n| D5 | W_REV1\
+  \ | LED_D5.0mm | 76.8858 | -44.9834 | -90.0 | top | \n| D6 | W_FWD1 | LED_D5.0mm\
+  \ | 106.5022 | -45.0596 | -90.0 | top | \n| D7 | W_FWD2 | LED_D5.0mm | 121.1326\
+  \ | -50.038 | -90.0 | top | \n| D8 | W_FWD3 | LED_D5.0mm | 134.2898 | -58.293 |\
+  \ -90.0 | top | \n| D9 | 1N4001 | D_A-405_P7.62mm_Horizontal | 92.456 | -91.948\
+  \ | -90.0 | top | \n| D10 | WHITE | LED_D5.0mm | 114.808 | -67.056 | 90.0 | top\
+  \ | \n| D11 | 1N4001 | D_A-405_P7.62mm_Horizontal | 95.504 | -99.568 | 90.0 | top\
+  \ | \n| D12 | WHITE | LED_D5.0mm | 68.072 | -67.056 | 90.0 | top | \n| D13 | 1N4001\
+  \ | D_A-405_P7.62mm_Horizontal | 86.36 | -91.948 | -90.0 | top | \n| D14 | 1N4001\
+  \ | D_A-405_P7.62mm_Horizontal | 89.408 | -99.568 | 90.0 | top | \n| D15 | WHITE\
+  \ | LED_D5.0mm | 103.124 | -67.056 | 90.0 | top | \n| D16 | W_STOP | LED_D5.0mm\
+  \ | 91.7702 | -43.2308 | -90.0 | top | \n| D17 | WHITE | LED_D5.0mm | 79.756 | -67.056\
+  \ | 90.0 | top | \n| J2 | 10K_POT | Potentiometer_WirePads_Small | 115.316 | -170.688\
+  \ | 90.0 | top | \n| Q2 | TIP32 | TO-220-3_Horizontal | 77.216 | -160.02 | 180.0\
+  \ | top | \n| Q3 | TIP32 | TO-220-3_Horizontal | 110.744 | -160.02 | 180.0 | top\
+  \ | \n| Q4 | 2N2222 | TO-92_Inline_Wide | 67.564 | -168.148 | 180.0 | top | \n|\
+  \ Q5 | 2N2222 | TO-92_Inline_Wide | 67.564 | -162.052 | 180.0 | top | \n| Q12 |\
+  \ TIP31 | TO-220-3_Horizontal | 99.568 | -160.02 | 180.0 | top | \n| Q13 | TIP31\
+  \ | TO-220-3_Horizontal | 88.392 | -160.02 | 180.0 | top | \n| Q15 | 2N2222 | TO-92_Inline_Wide\
+  \ | 62.484 | -85.852 | 90.0 | top | \n| R1 | 165R | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 115.57 | -99.568 | 180.0 | top | \n| R2 | 330R | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 115.57 | -95.504 | 180.0 | top | \n| R3 | 165R | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 115.57 | -91.44 | 180.0 | top | \n| R11 | 100R | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 76.2 | -155.956 | 180.0 | top | \n| R12 | 100R | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 93.472 | -155.956 | 180.0 | top | \n| R15 | 330R | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 67.564 | -101.6 | -90.0 | top | \n| R16 | 330R | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 71.628 | -101.6 | -90.0 | top | \n| R17 | 330R | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 75.692 | -101.6 | -90.0 | top | \n| R18 | 330R | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 106.172 | -105.664 | -90.0 | top | \n| R19 | 330R | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 110.236 | -105.664 | -90.0 | top | \n| R20 | 330R | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 114.3 | -105.664 | -90.0 | top | \n| R25 | 1K | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 62.484 | -89.916 | 0.0 | top | \n| R27 | 330R | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 79.756 | -101.6 | -90.0 | top | \n| U1 | LM78M05 | TO-220-3_Horizontal | 75.692\
+  \ | -125.476 | 180.0 | top | \n| U2 | PIC12F1501-ISN | DIP-8_W7.62mm_Socket_LongPads\
+  \ | 84.328 | -142.24 | 0.0 | top | \n| U3 | 74HC595 | DIP-16_W7.62mm_Socket_LongPads\
+  \ | 101.092 | -132.08 | 0.0 | top | \n"
 projects_flat: projects/carnivalben_golden_key_controller/current_version/working
 repo:
   allow_forking: true

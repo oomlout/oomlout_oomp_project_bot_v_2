@@ -1,0 +1,34 @@
+# uv_box
+ 
+## summary 
+* id: cylindric3d_uv_box_led_panels_veroboard
+* user: cylindric3d
+* name: uv_box
+* board: led_panels_veroboard
+* repo: https://github.com/Cylindric3D/uv-box
+* src_file_repo_kicad_pcb: Electronics/led_panels/Veroboard/led_panels-veroboard.kicad_pcb
+* src_file_repo_kicad_pcb_link: https://github.com/Cylindric3D/uv-box/tree/master/Electronics/led_panels/Veroboard/led_panels-veroboard.kicad_pcb
+
+
+* src_file_repo_sch: Electronics/led_panels/led_panels.sch
+* src_file_repo_sch_link: https://github.com/Cylindric3D/uv-box/tree/master/Electronics/led_panels/led_panels.sch
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/cylindric3d_uv_box_led_panels_veroboard/current_version/working  
+
+
+## pcb  
+![](working_3d_600.png) 
+![](working_3d_front_600.png)  
+![](working_3d_back_600.png)  
+![](working_600.png)  
+[board (pdf)](working.pdf)  
+
+## working_bom
+| Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| 1 | D2,D20,D18,D16,D14,D12,D10,D8,D6,D4,D1,D21,D19,D17,D15,D13,D11,D9,D7,D5,D3,D60,D78,D70,D75,D56,D74,D73,D55,D57,D59,D82,D31,D77,D76,D81,D80,D79,D84,D83,D71,D66,D65,D64,D69,D68,D67,D72,D22,D39,D38,D37,D42,D41,D40,D24,D23,D34,D27,D26,D25,D30,D29,D28,D33,D32,D46,D63,D62,D61,D45,D44,D43,D48,D47,D58,D51,D50,D49,D54,D53,D52,D36,D35 | LED-5MM | 84 | LED |  |  | [''] | 
+| 2 | R1,R2,R3,R4,R5,R6,R7,R19,R18,R24,R12,R17,R23,R25,R13,R22,R14,R16,R8,R28,R15,R11,R9,R27,R10,R20,R21,R26 | R3 | 28 | 120 |  |  | [''] | 
+| 3 | P1 | bornier2 | 1 | CONN_2 |  |  | [''] | 
+
+
+
+

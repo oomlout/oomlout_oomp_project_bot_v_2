@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit-ESP32-S2-Reverse-TFT-Feather-PCB/tree/main/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_esp32_s2_reverse_tft_feather_pcb_adafruit_feather_esp32_s2_reverse_tft/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

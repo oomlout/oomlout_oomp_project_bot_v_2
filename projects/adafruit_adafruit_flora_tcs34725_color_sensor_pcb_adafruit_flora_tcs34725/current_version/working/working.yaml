@@ -1,9 +1,298 @@
 board: adafruit_flora_tcs34725
+bom:
+- Id: '1'
+  Designator: Q3
+  Footprint: SOT23-WIDE
+  Quantity: '1'
+  Designation: BSS138
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: TP3,TP1,TP2,TP4,TP5,TP6
+  Footprint: SEWINGTAP_0.5
+  Quantity: '6'
+  Designation: SEWTAP0.5IN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U1
+  Footprint: TCS3472_FN6
+  Quantity: '1'
+  Designation: TCS34725
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R1,R6,R2
+  Footprint: _0805
+  Quantity: '3'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: FID1,FID2
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: LED1
+  Footprint: EVERLIGHT_45-21
+  Quantity: '1'
+  Designation: 45-21/LK2C-B38452C4CB2/2T
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C1
+  Footprint: _0805
+  Quantity: '1'
+  Designation: "0.1\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U$8
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | Q3\
+  \ | SOT23-WIDE | 1 | BSS138 |  |  | [''] | \n| 2 | TP3,TP1,TP2,TP4,TP5,TP6 | SEWINGTAP_0.5\
+  \ | 6 | SEWTAP0.5IN |  |  | [''] | \n| 3 | U1 | TCS3472_FN6 | 1 | TCS34725 |  |\
+  \  | [''] | \n| 4 | R1,R6,R2 | _0805 | 3 | 10K |  |  | [''] | \n| 5 | FID1,FID2\
+  \ | FIDUCIAL_1MM | 2 | FIDUCIAL\" |  |  | [''] | \n| 6 | LED1 | EVERLIGHT_45-21\
+  \ | 1 | 45-21/LK2C-B38452C4CB2/2T |  |  | [''] | \n| 7 | C1 | _0805 | 1 | 0.1\xC2\
+  \xB5F |  |  | [''] | \n| 8 | U$8 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC_0805
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805
+  Qnty: '1'
+  Ref: C1
+  Value: "0.1\xC2\xB5F"
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: LEDEV45-21
+  DNP: ''
+  Description: ''
+  Footprint: working:EVERLIGHT_45-21
+  Qnty: '1'
+  Ref: LED1
+  Value: 45-21/LK2C-B38452C4CB2/2T
+  Vendor: ''
+- Cmp name: MOSFET-NWIDE
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-WIDE
+  Qnty: '1'
+  Ref: Q3
+  Value: BSS138
+  Vendor: ''
+- Cmp name: RESISTOR_0805
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805
+  Qnty: '3'
+  Ref: R1, R2, R6
+  Value: 10K
+  Vendor: ''
+- Cmp name: SEWTAP0.5IN
+  DNP: ''
+  Description: ''
+  Footprint: working:SEWINGTAP_0.5
+  Qnty: '6'
+  Ref: TP1, TP2, TP3, TP4, TP5, TP6
+  Value: SEWTAP0.5IN
+  Vendor: ''
+- Cmp name: LIGHT_TCS3472
+  DNP: ''
+  Description: ''
+  Footprint: working:TCS3472_FN6
+  Qnty: '1'
+  Ref: U1
+  Value: TCS34725
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 0.1\xC2\xB5F | CAP_CERAMIC_0805 | working:_0805 |  |  |  | \n| FID1, FID2\
+  \ | 2 | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |\
+  \  |  | \n| LED1 | 1 | 45-21/LK2C-B38452C4CB2/2T | LEDEV45-21 | working:EVERLIGHT_45-21\
+  \ |  |  |  | \n| Q3 | 1 | BSS138 | MOSFET-NWIDE | working:SOT23-WIDE |  |  |  |\
+  \ \n| R1, R2, R6 | 3 | 10K | RESISTOR_0805 | working:_0805 |  |  |  | \n| TP1, TP2,\
+  \ TP3, TP4, TP5, TP6 | 6 | SEWTAP0.5IN | SEWTAP0.5IN | working:SEWINGTAP_0.5 | \
+  \ |  |  | \n| U1 | 1 | TCS34725 | LIGHT_TCS3472 | working:TCS3472_FN6 |  |  |  |\
+  \ \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_flora_tcs34725_color_sensor_pcb_adafruit_flora_tcs34725/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_flora_tcs34725_color_sensor_pcb_adafruit_flora_tcs34725/current_version/working/working.sch
 id: adafruit_adafruit_flora_tcs34725_color_sensor_pcb_adafruit_flora_tcs34725
 name: adafruit_flora_tcs34725_color_sensor_pcb
+position_bottom:
+- '# Ref': U$8
+  Package: ADAFRUIT_3.5MM
+  PosX: 152.9461
+  PosY: -102.2096
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$8 | nan | ADAFRUIT_3.5MM | 152.9461\
+  \ | -102.2096 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: _0805
+  PosX: 146.3761
+  PosY: -108.6216
+  Rot: 0.0
+  Side: top
+  Val: "0.1\xC2\xB5F"
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 145.7071
+  PosY: -99.0346
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 151.1681
+  PosY: -110.7186
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': LED1
+  Package: EVERLIGHT_45-21
+  PosX: 145.1971
+  PosY: -105.3596
+  Rot: 90.0
+  Side: top
+  Val: 45-21/LK2C-B38452C4CB2/2T
+- '# Ref': Q3
+  Package: SOT23-WIDE
+  PosX: 146.7391
+  PosY: -101.8356
+  Rot: 180.0
+  Side: top
+  Val: BSS138
+- '# Ref': R1
+  Package: _0805
+  PosX: 151.7701
+  PosY: -105.2236
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: _0805
+  PosX: 150.5401
+  PosY: -108.6006
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R6
+  Package: _0805
+  PosX: 150.5331
+  PosY: -101.5746
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': TP1
+  Package: SEWINGTAP_0.5
+  PosX: 148.5011
+  PosY: -111.3536
+  Rot: 180.0
+  Side: top
+  Val: SEWTAP0.5IN
+- '# Ref': TP2
+  Package: SEWINGTAP_0.5
+  PosX: 148.5011
+  PosY: -98.6536
+  Rot: 0.0
+  Side: top
+  Val: SEWTAP0.5IN
+- '# Ref': TP3
+  Package: SEWINGTAP_0.5
+  PosX: 142.9131
+  PosY: -108.1786
+  Rot: 120.0
+  Side: top
+  Val: SEWTAP0.5IN
+- '# Ref': TP4
+  Package: SEWINGTAP_0.5
+  PosX: 154.0891
+  PosY: -108.1786
+  Rot: -120.0
+  Side: top
+  Val: SEWTAP0.5IN
+- '# Ref': TP5
+  Package: SEWINGTAP_0.5
+  PosX: 142.9131
+  PosY: -101.8286
+  Rot: 60.0
+  Side: top
+  Val: SEWTAP0.5IN
+- '# Ref': TP6
+  Package: SEWINGTAP_0.5
+  PosX: 154.0891
+  PosY: -101.8286
+  Rot: -60.0
+  Side: top
+  Val: SEWTAP0.5IN
+- '# Ref': U1
+  Package: TCS3472_FN6
+  PosX: 148.6281
+  PosY: -105.1306
+  Rot: 180.0
+  Side: top
+  Val: TCS34725
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1\xC2\xB5F | _0805 | 146.3761\
+  \ | -108.6216 | 0.0 | top | \n| FID1 | FIDUCIAL\"\" | FIDUCIAL_1MM | 145.7071 |\
+  \ -99.0346 | 0.0 | top | \n| FID2 | FIDUCIAL\"\" | FIDUCIAL_1MM | 151.1681 | -110.7186\
+  \ | 0.0 | top | \n| LED1 | 45-21/LK2C-B38452C4CB2/2T | EVERLIGHT_45-21 | 145.1971\
+  \ | -105.3596 | 90.0 | top | \n| Q3 | BSS138 | SOT23-WIDE | 146.7391 | -101.8356\
+  \ | 180.0 | top | \n| R1 | 10K | _0805 | 151.7701 | -105.2236 | -90.0 | top | \n\
+  | R2 | 10K | _0805 | 150.5401 | -108.6006 | 180.0 | top | \n| R6 | 10K | _0805 |\
+  \ 150.5331 | -101.5746 | 0.0 | top | \n| TP1 | SEWTAP0.5IN | SEWINGTAP_0.5 | 148.5011\
+  \ | -111.3536 | 180.0 | top | \n| TP2 | SEWTAP0.5IN | SEWINGTAP_0.5 | 148.5011 |\
+  \ -98.6536 | 0.0 | top | \n| TP3 | SEWTAP0.5IN | SEWINGTAP_0.5 | 142.9131 | -108.1786\
+  \ | 120.0 | top | \n| TP4 | SEWTAP0.5IN | SEWINGTAP_0.5 | 154.0891 | -108.1786 |\
+  \ -120.0 | top | \n| TP5 | SEWTAP0.5IN | SEWINGTAP_0.5 | 142.9131 | -101.8286 |\
+  \ 60.0 | top | \n| TP6 | SEWTAP0.5IN | SEWINGTAP_0.5 | 154.0891 | -101.8286 | -60.0\
+  \ | top | \n| U1 | TCS34725 | TCS3472_FN6 | 148.6281 | -105.1306 | 180.0 | top |\
+  \ \n"
 projects_flat: projects/adafruit_adafruit_flora_tcs34725_color_sensor_pcb_adafruit_flora_tcs34725/current_version/working
 repo:
   allow_forking: true

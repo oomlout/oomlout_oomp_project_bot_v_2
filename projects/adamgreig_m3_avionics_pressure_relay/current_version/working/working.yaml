@@ -1,4 +1,245 @@
 board: pressure_relay
+bom:
+- Id: '1'
+  Designator: C1,C2
+  Footprint: 0402-L
+  Quantity: '2'
+  Designation: 1u
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D1
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: ESD_DIODE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: IC1
+  Footprint: DFN-6-EP-ONSEMI
+  Quantity: '1'
+  Designation: NCP380
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: IC2
+  Footprint: SOIC-8
+  Quantity: '1'
+  Designation: ADuM1201
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J1
+  Footprint: TFML-110-02-L-D
+  Quantity: '1'
+  Designation: WEST TOP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J2
+  Footprint: TFML-110-02-L-D
+  Quantity: '1'
+  Designation: EAST TOP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: J4
+  Footprint: S04B-PASK-2
+  Quantity: '1'
+  Designation: UART
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: J6
+  Footprint: TFML-110-02-L-D
+  Quantity: '1'
+  Designation: SOUTH TOP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R1
+  Footprint: 0402-L
+  Quantity: '1'
+  Designation: 110k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: J3
+  Footprint: SFML-110-02-L-D-LC
+  Quantity: '1'
+  Designation: WEST BOT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: J5
+  Footprint: SFML-110-02-L-D-LC
+  Quantity: '1'
+  Designation: EAST BOT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: J7
+  Footprint: SFML-110-02-L-D-LC
+  Quantity: '1'
+  Designation: SOUTH BOT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C2\
+  \ | 0402-L | 2 | 1u |  |  | [''] | \n| 2 | D1 | 0402 | 1 | ESD_DIODE |  |  | ['']\
+  \ | \n| 3 | IC1 | DFN-6-EP-ONSEMI | 1 | NCP380 |  |  | [''] | \n| 4 | IC2 | SOIC-8\
+  \ | 1 | ADuM1201 |  |  | [''] | \n| 5 | J1 | TFML-110-02-L-D | 1 | WEST TOP |  |\
+  \  | [''] | \n| 6 | J2 | TFML-110-02-L-D | 1 | EAST TOP |  |  | [''] | \n| 7 | J4\
+  \ | S04B-PASK-2 | 1 | UART |  |  | [''] | \n| 8 | J6 | TFML-110-02-L-D | 1 | SOUTH\
+  \ TOP |  |  | [''] | \n| 9 | R1 | 0402-L | 1 | 110k |  |  | [''] | \n| 10 | J3 |\
+  \ SFML-110-02-L-D-LC | 1 | WEST BOT |  |  | [''] | \n| 11 | J5 | SFML-110-02-L-D-LC\
+  \ | 1 | EAST BOT |  |  | [''] | \n| 12 | J7 | SFML-110-02-L-D-LC | 1 | SOUTH BOT\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C_Small
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402-L
+  Qnty: '2'
+  Ref: C1, C2
+  Value: 1u
+  Vendor: ''
+- Cmp name: ESD_DIODE
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '1'
+  Ref: D1
+  Value: ESD_DIODE
+  Vendor: ''
+- Cmp name: NCP380
+  DNP: ''
+  Description: ''
+  Footprint: agg:DFN-6-EP-ONSEMI
+  Qnty: '1'
+  Ref: IC1
+  Value: NCP380
+  Vendor: ''
+- Cmp name: ADuM1201
+  DNP: ''
+  Description: ''
+  Footprint: agg:SOIC-8
+  Qnty: '1'
+  Ref: IC2
+  Value: ADuM1201
+  Vendor: ''
+- Cmp name: CONN_02x10
+  DNP: ''
+  Description: ''
+  Footprint: agg:TFML-110-02-L-D
+  Qnty: '1'
+  Ref: J1
+  Value: WEST TOP
+  Vendor: ''
+- Cmp name: CONN_02x10
+  DNP: ''
+  Description: ''
+  Footprint: agg:TFML-110-02-L-D
+  Qnty: '1'
+  Ref: J2
+  Value: EAST TOP
+  Vendor: ''
+- Cmp name: CONN_02x10
+  DNP: ''
+  Description: ''
+  Footprint: agg:SFML-110-02-L-D-LC
+  Qnty: '1'
+  Ref: J3
+  Value: WEST BOT
+  Vendor: ''
+- Cmp name: CONN_01x04
+  DNP: ''
+  Description: ''
+  Footprint: agg:S04B-PASK-2
+  Qnty: '1'
+  Ref: J4
+  Value: UART
+  Vendor: ''
+- Cmp name: CONN_02x10
+  DNP: ''
+  Description: ''
+  Footprint: agg:SFML-110-02-L-D-LC
+  Qnty: '1'
+  Ref: J5
+  Value: EAST BOT
+  Vendor: ''
+- Cmp name: CONN_02x10
+  DNP: ''
+  Description: ''
+  Footprint: agg:TFML-110-02-L-D
+  Qnty: '1'
+  Ref: J6
+  Value: SOUTH TOP
+  Vendor: ''
+- Cmp name: CONN_02x10
+  DNP: ''
+  Description: ''
+  Footprint: agg:SFML-110-02-L-D-LC
+  Qnty: '1'
+  Ref: J7
+  Value: SOUTH BOT
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402-L
+  Qnty: '1'
+  Ref: R1
+  Value: 110k
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2\
+  \ | 2 | 1u | C_Small | agg:0402-L |  |  |  | \n| D1 | 1 | ESD_DIODE | ESD_DIODE\
+  \ | agg:0402 |  |  |  | \n| IC1 | 1 | NCP380 | NCP380 | agg:DFN-6-EP-ONSEMI |  |\
+  \  |  | \n| IC2 | 1 | ADuM1201 | ADuM1201 | agg:SOIC-8 |  |  |  | \n| J1 | 1 | WEST\
+  \ TOP | CONN_02x10 | agg:TFML-110-02-L-D |  |  |  | \n| J2 | 1 | EAST TOP | CONN_02x10\
+  \ | agg:TFML-110-02-L-D |  |  |  | \n| J3 | 1 | WEST BOT | CONN_02x10 | agg:SFML-110-02-L-D-LC\
+  \ |  |  |  | \n| J4 | 1 | UART | CONN_01x04 | agg:S04B-PASK-2 |  |  |  | \n| J5\
+  \ | 1 | EAST BOT | CONN_02x10 | agg:SFML-110-02-L-D-LC |  |  |  | \n| J6 | 1 | SOUTH\
+  \ TOP | CONN_02x10 | agg:TFML-110-02-L-D |  |  |  | \n| J7 | 1 | SOUTH BOT | CONN_02x10\
+  \ | agg:SFML-110-02-L-D-LC |  |  |  | \n| R1 | 1 | 110k | R | agg:0402-L |  |  |\
+  \  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_m3_avionics_pressure_relay/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_m3_avionics_pressure_relay/current_version/working/working.kicad_pcb
@@ -6,6 +247,114 @@ file_repo_bom_xlsx_flat: projects/adamgreig_m3_avionics_pressure_relay/current_v
 file_sch_flat: projects/adamgreig_m3_avionics_pressure_relay/current_version/working/working.sch
 id: adamgreig_m3_avionics_pressure_relay
 name: m3_avionics
+position_bottom:
+- '# Ref': J3
+  Package: SFML-110-02-L-D-LC
+  PosX: 85.0
+  PosY: -100.0
+  Rot: -90.0
+  Side: bottom
+  Val: WEST_BOT
+- '# Ref': J5
+  Package: SFML-110-02-L-D-LC
+  PosX: 115.0
+  PosY: -100.0
+  Rot: -90.0
+  Side: bottom
+  Val: EAST_BOT
+- '# Ref': J7
+  Package: SFML-110-02-L-D-LC
+  PosX: 100.0
+  PosY: -115.0
+  Rot: 0.0
+  Side: bottom
+  Val: SOUTH_BOT
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J3 | WEST_BOT | SFML-110-02-L-D-LC\
+  \ | 85.0 | -100.0 | -90.0 | bottom | \n| J5 | EAST_BOT | SFML-110-02-L-D-LC | 115.0\
+  \ | -100.0 | -90.0 | bottom | \n| J7 | SOUTH_BOT | SFML-110-02-L-D-LC | 100.0 |\
+  \ -115.0 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0402-L
+  PosX: 91.5
+  PosY: -101.3
+  Rot: 0.0
+  Side: top
+  Val: 1u
+- '# Ref': C2
+  Package: 0402-L
+  PosX: 91.35
+  PosY: -106.35
+  Rot: -90.0
+  Side: top
+  Val: 1u
+- '# Ref': D1
+  Package: '0402'
+  PosX: 102.0
+  PosY: -97.1
+  Rot: 0.0
+  Side: top
+  Val: ESD_DIODE
+- '# Ref': IC1
+  Package: DFN-6-EP-ONSEMI
+  PosX: 92.0
+  PosY: -103.4
+  Rot: 90.0
+  Side: top
+  Val: NCP380
+- '# Ref': IC2
+  Package: SOIC-8
+  PosX: 100.0
+  PosY: -103.5
+  Rot: 180.0
+  Side: top
+  Val: ADuM1201
+- '# Ref': J1
+  Package: TFML-110-02-L-D
+  PosX: 85.0
+  PosY: -100.0
+  Rot: -90.0
+  Side: top
+  Val: WEST_TOP
+- '# Ref': J2
+  Package: TFML-110-02-L-D
+  PosX: 115.0
+  PosY: -100.0
+  Rot: -90.0
+  Side: top
+  Val: EAST_TOP
+- '# Ref': J4
+  Package: S04B-PASK-2
+  PosX: 100.0
+  PosY: -95.5
+  Rot: 0.0
+  Side: top
+  Val: UART
+- '# Ref': J6
+  Package: TFML-110-02-L-D
+  PosX: 100.0
+  PosY: -115.0
+  Rot: 0.0
+  Side: top
+  Val: SOUTH_TOP
+- '# Ref': R1
+  Package: 0402-L
+  PosX: 94.0
+  PosY: -103.4
+  Rot: 90.0
+  Side: top
+  Val: 110k
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 1u | 0402-L | 91.5 | -101.3 | 0.0\
+  \ | top | \n| C2 | 1u | 0402-L | 91.35 | -106.35 | -90.0 | top | \n| D1 | ESD_DIODE\
+  \ | 0402 | 102.0 | -97.1 | 0.0 | top | \n| IC1 | NCP380 | DFN-6-EP-ONSEMI | 92.0\
+  \ | -103.4 | 90.0 | top | \n| IC2 | ADuM1201 | SOIC-8 | 100.0 | -103.5 | 180.0 |\
+  \ top | \n| J1 | WEST_TOP | TFML-110-02-L-D | 85.0 | -100.0 | -90.0 | top | \n|\
+  \ J2 | EAST_TOP | TFML-110-02-L-D | 115.0 | -100.0 | -90.0 | top | \n| J4 | UART\
+  \ | S04B-PASK-2 | 100.0 | -95.5 | 0.0 | top | \n| J6 | SOUTH_TOP | TFML-110-02-L-D\
+  \ | 100.0 | -115.0 | 0.0 | top | \n| R1 | 110k | 0402-L | 94.0 | -103.4 | 90.0 |\
+  \ top | \n"
 projects_flat: projects/adamgreig_m3_avionics_pressure_relay/current_version/working
 repo:
   allow_forking: true

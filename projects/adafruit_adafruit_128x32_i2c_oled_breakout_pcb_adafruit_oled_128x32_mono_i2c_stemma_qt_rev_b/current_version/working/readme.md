@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit-128x32-I2C-OLED-Breakout-PCB/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_128x32_i2c_oled_breakout_pcb_adafruit_oled_128x32_mono_i2c_stemma_qt_rev_b/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

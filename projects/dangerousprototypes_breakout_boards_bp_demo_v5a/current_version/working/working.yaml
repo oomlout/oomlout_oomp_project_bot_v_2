@@ -1,9 +1,420 @@
 board: bp_demo_v5a
+bom:
+- Id: '1'
+  Designator: '@HOLE2,@HOLE0,@HOLE3,@HOLE1'
+  Footprint: ''
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: RN1,RN2
+  Footprint: RN8P-4R-CRA06S
+  Quantity: '2'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: LED2,LED1
+  Footprint: LED-805
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R2,R1
+  Footprint: R603
+  Quantity: '2'
+  Designation: 1k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: DEVICE0,PROTOCOL0
+  Footprint: 2X02
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U$9,U$10
+  Footprint: JUMP2X2_DESC
+  Quantity: '2'
+  Designation: JUMP2X2_DESC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U1
+  Footprint: SSOP20
+  Quantity: '1'
+  Designation: PIC16F1829SS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: ICSP1
+  Footprint: HEADER_PRG_1X05_ICSP_B
+  Quantity: '1'
+  Designation: HEADER_PRG_PIC_ICSPB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: ANALOG0
+  Footprint: 1X02
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: C1
+  Footprint: C603
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U$1,U$2
+  Footprint: DP_LOGO
+  Quantity: '2'
+  Designation: DINA4_L
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: BP0
+  Footprint: HDR-BUSPIRATE
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | @HOLE2,@HOLE0,@HOLE3,@HOLE1\
+  \ |  | 4 |  |  |  | [''] | \n| 2 | RN1,RN2 | RN8P-4R-CRA06S | 2 | 10k |  |  | ['']\
+  \ | \n| 3 | LED2,LED1 | LED-805 | 2 |  |  |  | [''] | \n| 4 | R2,R1 | R603 | 2 |\
+  \ 1k |  |  | [''] | \n| 5 | DEVICE0,PROTOCOL0 | 2X02 | 2 |  |  |  | [''] | \n| 6\
+  \ | U$9,U$10 | JUMP2X2_DESC | 2 | JUMP2X2_DESC |  |  | [''] | \n| 7 | U1 | SSOP20\
+  \ | 1 | PIC16F1829SS |  |  | [''] | \n| 8 | ICSP1 | HEADER_PRG_1X05_ICSP_B | 1 |\
+  \ HEADER_PRG_PIC_ICSPB |  |  | [''] | \n| 9 | ANALOG0 | 1X02 | 1 |  |  |  | ['']\
+  \ | \n| 10 | C1 | C603 | 1 | 0.1uF |  |  | [''] | \n| 11 | U$1,U$2 | DP_LOGO | 2\
+  \ | DINA4_L |  |  | [''] | \n| 12 | BP0 | HDR-BUSPIRATE | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: PINHD-1X2
+  DNP: ''
+  Description: ''
+  Footprint: working:1X02
+  Qnty: '1'
+  Ref: ANALOG0
+  Value: PINHD-1X2
+  Vendor: ''
+- Cmp name: HDR-BUSPIRATE
+  DNP: ''
+  Description: ''
+  Footprint: working:HDR-BUSPIRATE
+  Qnty: '1'
+  Ref: BP0
+  Value: HDR-BUSPIRATE
+  Vendor: ''
+- Cmp name: CAPC603
+  DNP: ''
+  Description: ''
+  Footprint: working:C603
+  Qnty: '1'
+  Ref: C1
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: PINHD-2X2
+  DNP: ''
+  Description: ''
+  Footprint: working:2X02
+  Qnty: '1'
+  Ref: DEVICE0
+  Value: PINHD-2X2
+  Vendor: ''
+- Cmp name: HEADER_PRG_PIC_ICSPB
+  DNP: ''
+  Description: ''
+  Footprint: working:HEADER_PRG_1X05_ICSP_B
+  Qnty: '1'
+  Ref: ICSP1
+  Value: HEADER_PRG_PIC_ICSPB
+  Vendor: ''
+- Cmp name: LED805
+  DNP: ''
+  Description: ''
+  Footprint: working:LED-805
+  Qnty: '2'
+  Ref: LED1, LED2
+  Value: LED805
+  Vendor: ''
+- Cmp name: PINHD-2X2
+  DNP: ''
+  Description: ''
+  Footprint: working:2X02
+  Qnty: '1'
+  Ref: PROTOCOL0
+  Value: PINHD-2X2
+  Vendor: ''
+- Cmp name: RESISTORR603
+  DNP: ''
+  Description: ''
+  Footprint: working:R603
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 1k
+  Vendor: ''
+- Cmp name: RNETWORK
+  DNP: ''
+  Description: ''
+  Footprint: working:RN8P-4R-CRA06S
+  Qnty: '2'
+  Ref: RN1, RN2
+  Value: 10k
+  Vendor: ''
+- Cmp name: PIC16F1829SS
+  DNP: ''
+  Description: ''
+  Footprint: working:SSOP20
+  Qnty: '1'
+  Ref: U1
+  Value: PIC16F1829SS
+  Vendor: ''
+- Cmp name: DINA4_L
+  DNP: ''
+  Description: ''
+  Footprint: working:DP_LOGO
+  Qnty: '1'
+  Ref: U$1
+  Value: DINA4_L
+  Vendor: ''
+- Cmp name: JUMP2X2_DESC
+  DNP: ''
+  Description: ''
+  Footprint: working:JUMP2X2_DESC
+  Qnty: '2'
+  Ref: U$9, U$10
+  Value: JUMP2X2_DESC
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| ANALOG0\
+  \ | 1 | PINHD-1X2 | PINHD-1X2 | working:1X02 |  |  |  | \n| BP0 | 1 | HDR-BUSPIRATE\
+  \ | HDR-BUSPIRATE | working:HDR-BUSPIRATE |  |  |  | \n| C1 | 1 | 0.1uF | CAPC603\
+  \ | working:C603 |  |  |  | \n| DEVICE0 | 1 | PINHD-2X2 | PINHD-2X2 | working:2X02\
+  \ |  |  |  | \n| ICSP1 | 1 | HEADER_PRG_PIC_ICSPB | HEADER_PRG_PIC_ICSPB | working:HEADER_PRG_1X05_ICSP_B\
+  \ |  |  |  | \n| LED1, LED2 | 2 | LED805 | LED805 | working:LED-805 |  |  |  | \n\
+  | PROTOCOL0 | 1 | PINHD-2X2 | PINHD-2X2 | working:2X02 |  |  |  | \n| R1, R2 | 2\
+  \ | 1k | RESISTORR603 | working:R603 |  |  |  | \n| RN1, RN2 | 2 | 10k | RNETWORK\
+  \ | working:RN8P-4R-CRA06S |  |  |  | \n| U1 | 1 | PIC16F1829SS | PIC16F1829SS |\
+  \ working:SSOP20 |  |  |  | \n| U$1 | 1 | DINA4_L | DINA4_L | working:DP_LOGO |\
+  \  |  |  | \n| U$9, U$10 | 2 | JUMP2X2_DESC | JUMP2X2_DESC | working:JUMP2X2_DESC\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/dangerousprototypes_breakout_boards_bp_demo_v5a/current_version/working/working.brd
 file_sch_flat: projects/dangerousprototypes_breakout_boards_bp_demo_v5a/current_version/working/working.sch
 id: dangerousprototypes_breakout_boards_bp_demo_v5a
 name: breakout_boards
+position_bottom:
+- '# Ref': U$2
+  Package: DP_LOGO
+  PosX: 158.6611
+  PosY: -106.2736
+  Rot: 180.0
+  Side: bottom
+  Val: DINA4_L
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$2 | DINA4_L | DP_LOGO | 158.6611\
+  \ | -106.2736 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 125.6411
+  PosY: -118.9736
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 171.3611
+  PosY: -118.9736
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE2'
+  Package: .nan
+  PosX: 171.3611
+  PosY: -91.0336
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE3'
+  Package: .nan
+  PosX: 125.6411
+  PosY: -91.0336
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': ANALOG0
+  Package: 1X02
+  PosX: 148.5011
+  PosY: -91.0336
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': BP0
+  Package: HDR-BUSPIRATE
+  PosX: 125.6411
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: C603
+  PosX: 144.6911
+  PosY: -97.3836
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': DEVICE0
+  Package: 2X02
+  PosX: 168.8211
+  PosY: -98.6536
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': ICSP1
+  Package: HEADER_PRG_1X05_ICSP_B
+  PosX: 148.5011
+  PosY: -118.9736
+  Rot: 0.0
+  Side: top
+  Val: HEADER_PRG_PIC_ICSPB
+- '# Ref': LED1
+  Package: LED-805
+  PosX: 133.2611
+  PosY: -117.7036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': LED2
+  Package: LED-805
+  PosX: 133.2611
+  PosY: -119.9896
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': PROTOCOL0
+  Package: 2X02
+  PosX: 168.8211
+  PosY: -111.3536
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: R603
+  PosX: 137.0711
+  PosY: -117.7036
+  Rot: 0.0
+  Side: top
+  Val: 1k
+- '# Ref': R2
+  Package: R603
+  PosX: 137.0711
+  PosY: -119.9896
+  Rot: 0.0
+  Side: top
+  Val: 1k
+- '# Ref': RN1
+  Package: RN8P-4R-CRA06S
+  PosX: 168.8211
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: 10k
+- '# Ref': RN2
+  Package: RN8P-4R-CRA06S
+  PosX: 148.5011
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': U$1
+  Package: DP_LOGO
+  PosX: 137.3251
+  PosY: -105.2576
+  Rot: 90.0
+  Side: top
+  Val: DINA4_L
+- '# Ref': U$9
+  Package: JUMP2X2_DESC
+  PosX: 161.2011
+  PosY: -110.7186
+  Rot: 0.0
+  Side: top
+  Val: JUMP2X2_DESC
+- '# Ref': U$10
+  Package: JUMP2X2_DESC
+  PosX: 161.2011
+  PosY: -98.0186
+  Rot: 0.0
+  Side: top
+  Val: JUMP2X2_DESC
+- '# Ref': U1
+  Package: SSOP20
+  PosX: 148.5011
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: PIC16F1829SS
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 125.6411 | -118.9736\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 171.3611 | -118.9736 | 0.0 | top | \n|\
+  \ @HOLE2 | nan | nan | 171.3611 | -91.0336 | 0.0 | top | \n| @HOLE3 | nan | nan\
+  \ | 125.6411 | -91.0336 | 0.0 | top | \n| ANALOG0 | nan | 1X02 | 148.5011 | -91.0336\
+  \ | 180.0 | top | \n| BP0 | nan | HDR-BUSPIRATE | 125.6411 | -105.0036 | -90.0 |\
+  \ top | \n| C1 | 0.1uF | C603 | 144.6911 | -97.3836 | 90.0 | top | \n| DEVICE0 |\
+  \ nan | 2X02 | 168.8211 | -98.6536 | -90.0 | top | \n| ICSP1 | HEADER_PRG_PIC_ICSPB\
+  \ | HEADER_PRG_1X05_ICSP_B | 148.5011 | -118.9736 | 0.0 | top | \n| LED1 | nan |\
+  \ LED-805 | 133.2611 | -117.7036 | 90.0 | top | \n| LED2 | nan | LED-805 | 133.2611\
+  \ | -119.9896 | 90.0 | top | \n| PROTOCOL0 | nan | 2X02 | 168.8211 | -111.3536 |\
+  \ -90.0 | top | \n| R1 | 1k | R603 | 137.0711 | -117.7036 | 0.0 | top | \n| R2 |\
+  \ 1k | R603 | 137.0711 | -119.9896 | 0.0 | top | \n| RN1 | 10k | RN8P-4R-CRA06S\
+  \ | 168.8211 | -105.0036 | -90.0 | top | \n| RN2 | 10k | RN8P-4R-CRA06S | 148.5011\
+  \ | -97.3836 | 0.0 | top | \n| U$1 | DINA4_L | DP_LOGO | 137.3251 | -105.2576 |\
+  \ 90.0 | top | \n| U$9 | JUMP2X2_DESC | JUMP2X2_DESC | 161.2011 | -110.7186 | 0.0\
+  \ | top | \n| U$10 | JUMP2X2_DESC | JUMP2X2_DESC | 161.2011 | -98.0186 | 0.0 | top\
+  \ | \n| U1 | PIC16F1829SS | SSOP20 | 148.5011 | -105.0036 | -90.0 | top | \n"
 projects_flat: projects/dangerousprototypes_breakout_boards_bp_demo_v5a/current_version/working
 repo:
   allow_forking: true

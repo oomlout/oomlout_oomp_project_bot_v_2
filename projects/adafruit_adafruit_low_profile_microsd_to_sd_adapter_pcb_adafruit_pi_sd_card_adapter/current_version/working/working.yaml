@@ -1,9 +1,150 @@
 board: adafruit_pi_sd_card_adapter
+bom:
+- Id: '1'
+  Designator: FID2,FID1
+  Footprint: FIDUCIAL-1X2.5
+  Quantity: '2'
+  Designation: FIDUCIAL1X2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$5
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: CN1
+  Footprint: MICROSD
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$6
+  Footprint: ADAFRUIT_TEXT_20MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$2
+  Footprint: SDCARD_PCBCARRIER_DOCU
+  Quantity: '1'
+  Designation: SDCARD_PCBCARRIERTDOCU
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | FID2,FID1\
+  \ | FIDUCIAL-1X2.5 | 2 | FIDUCIAL1X2.5 |  |  | [''] | \n| 2 | U$5 | ADAFRUIT_3.5MM\
+  \ | 1 |  |  |  | [''] | \n| 3 | CN1 | MICROSD | 1 |  |  |  | [''] | \n| 4 | U$6\
+  \ | ADAFRUIT_TEXT_20MM | 1 |  |  |  | [''] | \n| 5 | U$2 | SDCARD_PCBCARRIER_DOCU\
+  \ | 1 | SDCARD_PCBCARRIERTDOCU |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: MICROSD
+  DNP: ''
+  Description: ''
+  Footprint: working:MICROSD
+  Qnty: '1'
+  Ref: CN1
+  Value: MICROSD
+  Vendor: ''
+- Cmp name: FIDUCIAL1X2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL-1X2.5
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL1X2.5
+  Vendor: ''
+- Cmp name: SDCARD_PCBCARRIERTDOCU
+  DNP: ''
+  Description: ''
+  Footprint: working:SDCARD_PCBCARRIER_DOCU
+  Qnty: '1'
+  Ref: U$2
+  Value: SDCARD_PCBCARRIERTDOCU
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| CN1 |\
+  \ 1 | MICROSD | MICROSD | working:MICROSD |  |  |  | \n| FID1, FID2 | 2 | FIDUCIAL1X2.5\
+  \ | FIDUCIAL1X2.5 | working:FIDUCIAL-1X2.5 |  |  |  | \n| U$2 | 1 | SDCARD_PCBCARRIERTDOCU\
+  \ | SDCARD_PCBCARRIERTDOCU | working:SDCARD_PCBCARRIER_DOCU |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_low_profile_microsd_to_sd_adapter_pcb_adafruit_pi_sd_card_adapter/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_low_profile_microsd_to_sd_adapter_pcb_adafruit_pi_sd_card_adapter/current_version/working/working.sch
 id: adafruit_adafruit_low_profile_microsd_to_sd_adapter_pcb_adafruit_pi_sd_card_adapter
 name: adafruit_low_profile_microsd_to_sd_adapter_pcb
+position_bottom:
+- '# Ref': U$2
+  Package: SDCARD_PCBCARRIER_DOCU
+  PosX: 148.5011
+  PosY: -99.9499
+  Rot: 180.0
+  Side: bottom
+  Val: SDCARD_PCBCARRIERTDOCU
+- '# Ref': U$6
+  Package: ADAFRUIT_TEXT_20MM
+  PosX: 157.6339
+  PosY: -110.5751
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$2 | SDCARD_PCBCARRIERTDOCU | SDCARD_PCBCARRIER_DOCU\
+  \ | 148.5011 | -99.9499 | 180.0 | bottom | \n| U$6 | nan | ADAFRUIT_TEXT_20MM |\
+  \ 157.6339 | -110.5751 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': CN1
+  Package: MICROSD
+  PosX: 141.5811
+  PosY: -97.4433
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': FID1
+  Package: FIDUCIAL-1X2.5
+  PosX: 157.9133
+  PosY: -101.2787
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL1X2.5
+- '# Ref': FID2
+  Package: FIDUCIAL-1X2.5
+  PosX: 138.3045
+  PosY: -111.1847
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL1X2.5
+- '# Ref': U$5
+  Package: ADAFRUIT_3.5MM
+  PosX: 155.9321
+  PosY: -111.3117
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| CN1 | nan | MICROSD | 141.5811 | -97.4433\
+  \ | 0.0 | top | \n| FID1 | FIDUCIAL1X2.5 | FIDUCIAL-1X2.5 | 157.9133 | -101.2787\
+  \ | 0.0 | top | \n| FID2 | FIDUCIAL1X2.5 | FIDUCIAL-1X2.5 | 138.3045 | -111.1847\
+  \ | 0.0 | top | \n| U$5 | nan | ADAFRUIT_3.5MM | 155.9321 | -111.3117 | 0.0 | top\
+  \ | \n"
 projects_flat: projects/adafruit_adafruit_low_profile_microsd_to_sd_adapter_pcb_adafruit_pi_sd_card_adapter/current_version/working
 repo:
   allow_forking: true

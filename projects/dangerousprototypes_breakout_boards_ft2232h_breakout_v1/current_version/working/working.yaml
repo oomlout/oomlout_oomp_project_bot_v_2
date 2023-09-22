@@ -1,9 +1,671 @@
 board: ft2232h_breakout_v1
+bom:
+- Id: '1'
+  Designator: C3
+  Footprint: SMC_A
+  Quantity: '1'
+  Designation: 3.3uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: L2,L1
+  Footprint: FB805
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C6,C5
+  Footprint: C805
+  Quantity: '2'
+  Designation: 27pF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C12,C11,C14,C17,C10,C1,C9,C15,C16,C4,C13,C2
+  Footprint: C805
+  Quantity: '12'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: IC1
+  Footprint: LQFP64
+  Quantity: '1'
+  Designation: FT2232H
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R1,R9,R8
+  Footprint: R805
+  Quantity: '3'
+  Designation: '470'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: IC2
+  Footprint: SOIC8
+  Quantity: '1'
+  Designation: 93C46
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: RX0,PWR0,TX0
+  Footprint: LED-805
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R7,R5,R3,R6
+  Footprint: R805
+  Quantity: '4'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: X1
+  Footprint: 4X6
+  Quantity: '1'
+  Designation: 12MHz
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: IC3
+  Footprint: SOT223
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: C7,C8
+  Footprint: SMC_A
+  Quantity: '2'
+  Designation: 4.7uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: R4
+  Footprint: R805
+  Quantity: '1'
+  Designation: 2.2k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: CONN1
+  Footprint: CONN_USB_MINI-B
+  Quantity: '1'
+  Designation: CONN_USB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U$7,U$8
+  Footprint: DP_LOGO
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: JP2,JP3
+  Footprint: 1X22
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: R2
+  Footprint: R805
+  Quantity: '1'
+  Designation: 12k 1%
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C3\
+  \ | SMC_A | 1 | 3.3uF |  |  | [''] | \n| 2 | L2,L1 | FB805 | 2 |  |  |  | [''] |\
+  \ \n| 3 | C6,C5 | C805 | 2 | 27pF |  |  | [''] | \n| 4 | C12,C11,C14,C17,C10,C1,C9,C15,C16,C4,C13,C2\
+  \ | C805 | 12 | 0.1uF |  |  | [''] | \n| 5 | IC1 | LQFP64 | 1 | FT2232H |  |  |\
+  \ [''] | \n| 6 | R1,R9,R8 | R805 | 3 | 470 |  |  | [''] | \n| 7 | IC2 | SOIC8 |\
+  \ 1 | 93C46 |  |  | [''] | \n| 8 | RX0,PWR0,TX0 | LED-805 | 3 |  |  |  | [''] |\
+  \ \n| 9 | R7,R5,R3,R6 | R805 | 4 | 10k |  |  | [''] | \n| 10 | X1 | 4X6 | 1 | 12MHz\
+  \ |  |  | [''] | \n| 11 | IC3 | SOT223 | 1 |  |  |  | [''] | \n| 12 | C7,C8 | SMC_A\
+  \ | 2 | 4.7uF |  |  | [''] | \n| 13 | R4 | R805 | 1 | 2.2k |  |  | [''] | \n| 14\
+  \ | CONN1 | CONN_USB_MINI-B | 1 | CONN_USB |  |  | [''] | \n| 15 | U$7,U$8 | DP_LOGO\
+  \ | 2 |  |  |  | [''] | \n| 16 | JP2,JP3 | 1X22 | 2 |  |  |  | [''] | \n| 17 | R2\
+  \ | R805 | 1 | 12k 1% |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAPC805
+  DNP: ''
+  Description: ''
+  Footprint: working:C805
+  Qnty: '12'
+  Ref: C1, C2, C4, C9, C10, C11, C12, C13, C14, C15, C16, C17
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: CAP_POLSMC_A
+  DNP: ''
+  Description: ''
+  Footprint: working:SMC_A
+  Qnty: '1'
+  Ref: C3
+  Value: 3.3uF
+  Vendor: ''
+- Cmp name: CAPC805
+  DNP: ''
+  Description: ''
+  Footprint: working:C805
+  Qnty: '2'
+  Ref: C5, C6
+  Value: 27pF
+  Vendor: ''
+- Cmp name: CAP_POLSMC_A
+  DNP: ''
+  Description: ''
+  Footprint: working:SMC_A
+  Qnty: '2'
+  Ref: C7, C8
+  Value: 4.7uF
+  Vendor: ''
+- Cmp name: CONN_USB
+  DNP: ''
+  Description: ''
+  Footprint: working:CONN_USB_MINI-B
+  Qnty: '1'
+  Ref: CONN1
+  Value: CONN_USB
+  Vendor: ''
+- Cmp name: FT2232H
+  DNP: ''
+  Description: ''
+  Footprint: working:LQFP64
+  Qnty: '1'
+  Ref: IC1
+  Value: FT2232H
+  Vendor: ''
+- Cmp name: 93C46
+  DNP: ''
+  Description: ''
+  Footprint: working:SOIC8
+  Qnty: '1'
+  Ref: IC2
+  Value: 93C46
+  Vendor: ''
+- Cmp name: LD1117-3.3SOT223
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT223
+  Qnty: '1'
+  Ref: IC3
+  Value: LD1117-3.3SOT223
+  Vendor: ''
+- Cmp name: PINHD-1X22
+  DNP: ''
+  Description: ''
+  Footprint: working:1X22
+  Qnty: '2'
+  Ref: JP2, JP3
+  Value: PINHD-1X22
+  Vendor: ''
+- Cmp name: FERRITE_BEAD805
+  DNP: ''
+  Description: ''
+  Footprint: working:FB805
+  Qnty: '2'
+  Ref: L1, L2
+  Value: FERRITE_BEAD805
+  Vendor: ''
+- Cmp name: LED805
+  DNP: ''
+  Description: ''
+  Footprint: working:LED-805
+  Qnty: '1'
+  Ref: PWR0
+  Value: LED805
+  Vendor: ''
+- Cmp name: RESISTORR805
+  DNP: ''
+  Description: ''
+  Footprint: working:R805
+  Qnty: '3'
+  Ref: R1, R8, R9
+  Value: '470'
+  Vendor: ''
+- Cmp name: RESISTORR805
+  DNP: ''
+  Description: ''
+  Footprint: working:R805
+  Qnty: '1'
+  Ref: R2
+  Value: 12k 1%
+  Vendor: ''
+- Cmp name: RESISTORR805
+  DNP: ''
+  Description: ''
+  Footprint: working:R805
+  Qnty: '4'
+  Ref: R3, R5, R6, R7
+  Value: 10k
+  Vendor: ''
+- Cmp name: RESISTORR805
+  DNP: ''
+  Description: ''
+  Footprint: working:R805
+  Qnty: '1'
+  Ref: R4
+  Value: 2.2k
+  Vendor: ''
+- Cmp name: LED805
+  DNP: ''
+  Description: ''
+  Footprint: working:LED-805
+  Qnty: '1'
+  Ref: RX0
+  Value: LED805
+  Vendor: ''
+- Cmp name: LED805
+  DNP: ''
+  Description: ''
+  Footprint: working:LED-805
+  Qnty: '1'
+  Ref: TX0
+  Value: LED805
+  Vendor: ''
+- Cmp name: CRYSTAL_212M_
+  DNP: ''
+  Description: ''
+  Footprint: working:4X6
+  Qnty: '1'
+  Ref: X1
+  Value: CRYSTAL_212M_
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C4, C9, C10, C11, C12, C13, C14, C15, C16, C17 | 12 | 0.1uF | CAPC805 | working:C805\
+  \ |  |  |  | \n| C3 | 1 | 3.3uF | CAP_POLSMC_A | working:SMC_A |  |  |  | \n| C5,\
+  \ C6 | 2 | 27pF | CAPC805 | working:C805 |  |  |  | \n| C7, C8 | 2 | 4.7uF | CAP_POLSMC_A\
+  \ | working:SMC_A |  |  |  | \n| CONN1 | 1 | CONN_USB | CONN_USB | working:CONN_USB_MINI-B\
+  \ |  |  |  | \n| IC1 | 1 | FT2232H | FT2232H | working:LQFP64 |  |  |  | \n| IC2\
+  \ | 1 | 93C46 | 93C46 | working:SOIC8 |  |  |  | \n| IC3 | 1 | LD1117-3.3SOT223\
+  \ | LD1117-3.3SOT223 | working:SOT223 |  |  |  | \n| JP2, JP3 | 2 | PINHD-1X22 |\
+  \ PINHD-1X22 | working:1X22 |  |  |  | \n| L1, L2 | 2 | FERRITE_BEAD805 | FERRITE_BEAD805\
+  \ | working:FB805 |  |  |  | \n| PWR0 | 1 | LED805 | LED805 | working:LED-805 |\
+  \  |  |  | \n| R1, R8, R9 | 3 | 470 | RESISTORR805 | working:R805 |  |  |  | \n\
+  | R2 | 1 | 12k 1% | RESISTORR805 | working:R805 |  |  |  | \n| R3, R5, R6, R7 |\
+  \ 4 | 10k | RESISTORR805 | working:R805 |  |  |  | \n| R4 | 1 | 2.2k | RESISTORR805\
+  \ | working:R805 |  |  |  | \n| RX0 | 1 | LED805 | LED805 | working:LED-805 |  |\
+  \  |  | \n| TX0 | 1 | LED805 | LED805 | working:LED-805 |  |  |  | \n| X1 | 1 |\
+  \ CRYSTAL_212M_ | CRYSTAL_212M_ | working:4X6 |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/dangerousprototypes_breakout_boards_ft2232h_breakout_v1/current_version/working/working.brd
 file_sch_flat: projects/dangerousprototypes_breakout_boards_ft2232h_breakout_v1/current_version/working/working.sch
 id: dangerousprototypes_breakout_boards_ft2232h_breakout_v1
 name: breakout_boards
+position_bottom:
+- '# Ref': U$8
+  Package: DP_LOGO
+  PosX: 146.3421
+  PosY: -103.8606
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$8 | nan | DP_LOGO | 146.3421 |\
+  \ -103.8606 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: C805
+  PosX: 132.6261
+  PosY: -113.0046
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C2
+  Package: C805
+  PosX: 132.6261
+  PosY: -116.1796
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C3
+  Package: SMC_A
+  PosX: 159.2961
+  PosY: -94.9706
+  Rot: 90.0
+  Side: top
+  Val: 3.3uF
+- '# Ref': C4
+  Package: C805
+  PosX: 171.8691
+  PosY: -92.9386
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C5
+  Package: C805
+  PosX: 145.0721
+  PosY: -97.0026
+  Rot: 180.0
+  Side: top
+  Val: 27pF
+- '# Ref': C6
+  Package: C805
+  PosX: 139.7381
+  PosY: -97.0026
+  Rot: 0.0
+  Side: top
+  Val: 27pF
+- '# Ref': C7
+  Package: SMC_A
+  PosX: 138.4681
+  PosY: -108.6866
+  Rot: 180.0
+  Side: top
+  Val: 4.7uF
+- '# Ref': C8
+  Package: SMC_A
+  PosX: 133.1341
+  PosY: -97.0026
+  Rot: 180.0
+  Side: top
+  Val: 4.7uF
+- '# Ref': C9
+  Package: C805
+  PosX: 138.4681
+  PosY: -106.5276
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C10
+  Package: C805
+  PosX: 133.1341
+  PosY: -99.7966
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C11
+  Package: C805
+  PosX: 144.8181
+  PosY: -106.9086
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C12
+  Package: C805
+  PosX: 168.1861
+  PosY: -108.8136
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C13
+  Package: C805
+  PosX: 149.1361
+  PosY: -94.5896
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C14
+  Package: C805
+  PosX: 151.0411
+  PosY: -115.1636
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C15
+  Package: C805
+  PosX: 159.4231
+  PosY: -115.1636
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C16
+  Package: C805
+  PosX: 168.1861
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C17
+  Package: C805
+  PosX: 155.7401
+  PosY: -94.8436
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': CONN1
+  Package: CONN_USB_MINI-B
+  PosX: 125.5141
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: CONN_USB
+- '# Ref': IC1
+  Package: LQFP64
+  PosX: 155.4861
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: FT2232H
+- '# Ref': IC2
+  Package: SOIC8
+  PosX: 172.7581
+  PosY: -98.5266
+  Rot: 0.0
+  Side: top
+  Val: 93C46
+- '# Ref': IC3
+  Package: SOT223
+  PosX: 125.5141
+  PosY: -114.5286
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X22
+  PosX: 148.5011
+  PosY: -89.7636
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP3
+  Package: 1X22
+  PosX: 148.5011
+  PosY: -120.2436
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': L1
+  Package: FB805
+  PosX: 138.4681
+  PosY: -110.8456
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': L2
+  Package: FB805
+  PosX: 133.1341
+  PosY: -94.2086
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': PWR0
+  Package: LED-805
+  PosX: 122.8471
+  PosY: -94.2086
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: R805
+  PosX: 127.6731
+  PosY: -94.2086
+  Rot: 180.0
+  Side: top
+  Val: '470'
+- '# Ref': R2
+  Package: R805
+  PosX: 133.1341
+  PosY: -102.5906
+  Rot: 0.0
+  Side: top
+  Val: 12k_1%
+- '# Ref': R3
+  Package: R805
+  PosX: 144.9451
+  PosY: -110.3376
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R4
+  Package: R805
+  PosX: 173.9011
+  PosY: -104.3686
+  Rot: 180.0
+  Side: top
+  Val: 2.2k
+- '# Ref': R5
+  Package: R805
+  PosX: 173.9011
+  PosY: -107.1626
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R6
+  Package: R805
+  PosX: 173.9011
+  PosY: -112.2426
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R7
+  Package: R805
+  PosX: 173.9011
+  PosY: -109.7026
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R8
+  Package: R805
+  PosX: 168.1861
+  PosY: -117.3226
+  Rot: 0.0
+  Side: top
+  Val: '470'
+- '# Ref': R9
+  Package: R805
+  PosX: 168.1861
+  PosY: -115.0366
+  Rot: 0.0
+  Side: top
+  Val: '470'
+- '# Ref': RX0
+  Package: LED-805
+  PosX: 173.7741
+  PosY: -117.3226
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': TX0
+  Package: LED-805
+  PosX: 173.7741
+  PosY: -115.0366
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': U$7
+  Package: DP_LOGO
+  PosX: 139.4841
+  PosY: -116.1796
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': X1
+  Package: 4X6
+  PosX: 142.2781
+  PosY: -100.3046
+  Rot: 180.0
+  Side: top
+  Val: 12MHz
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | C805 | 132.6261 | -113.0046\
+  \ | 0.0 | top | \n| C2 | 0.1uF | C805 | 132.6261 | -116.1796 | 0.0 | top | \n| C3\
+  \ | 3.3uF | SMC_A | 159.2961 | -94.9706 | 90.0 | top | \n| C4 | 0.1uF | C805 | 171.8691\
+  \ | -92.9386 | 0.0 | top | \n| C5 | 27pF | C805 | 145.0721 | -97.0026 | 180.0 |\
+  \ top | \n| C6 | 27pF | C805 | 139.7381 | -97.0026 | 0.0 | top | \n| C7 | 4.7uF\
+  \ | SMC_A | 138.4681 | -108.6866 | 180.0 | top | \n| C8 | 4.7uF | SMC_A | 133.1341\
+  \ | -97.0026 | 180.0 | top | \n| C9 | 0.1uF | C805 | 138.4681 | -106.5276 | 180.0\
+  \ | top | \n| C10 | 0.1uF | C805 | 133.1341 | -99.7966 | 180.0 | top | \n| C11 |\
+  \ 0.1uF | C805 | 144.8181 | -106.9086 | 180.0 | top | \n| C12 | 0.1uF | C805 | 168.1861\
+  \ | -108.8136 | 0.0 | top | \n| C13 | 0.1uF | C805 | 149.1361 | -94.5896 | 90.0\
+  \ | top | \n| C14 | 0.1uF | C805 | 151.0411 | -115.1636 | -90.0 | top | \n| C15\
+  \ | 0.1uF | C805 | 159.4231 | -115.1636 | -90.0 | top | \n| C16 | 0.1uF | C805 |\
+  \ 168.1861 | -105.0036 | 0.0 | top | \n| C17 | 0.1uF | C805 | 155.7401 | -94.8436\
+  \ | 90.0 | top | \n| CONN1 | CONN_USB | CONN_USB_MINI-B | 125.5141 | -105.0036 |\
+  \ -90.0 | top | \n| IC1 | FT2232H | LQFP64 | 155.4861 | -105.0036 | 0.0 | top |\
+  \ \n| IC2 | 93C46 | SOIC8 | 172.7581 | -98.5266 | 0.0 | top | \n| IC3 | nan | SOT223\
+  \ | 125.5141 | -114.5286 | 90.0 | top | \n| JP2 | nan | 1X22 | 148.5011 | -89.7636\
+  \ | 0.0 | top | \n| JP3 | nan | 1X22 | 148.5011 | -120.2436 | 0.0 | top | \n| L1\
+  \ | nan | FB805 | 138.4681 | -110.8456 | 180.0 | top | \n| L2 | nan | FB805 | 133.1341\
+  \ | -94.2086 | 180.0 | top | \n| PWR0 | nan | LED-805 | 122.8471 | -94.2086 | -90.0\
+  \ | top | \n| R1 | 470 | R805 | 127.6731 | -94.2086 | 180.0 | top | \n| R2 | 12k_1%\
+  \ | R805 | 133.1341 | -102.5906 | 0.0 | top | \n| R3 | 10k | R805 | 144.9451 | -110.3376\
+  \ | 0.0 | top | \n| R4 | 2.2k | R805 | 173.9011 | -104.3686 | 180.0 | top | \n|\
+  \ R5 | 10k | R805 | 173.9011 | -107.1626 | 0.0 | top | \n| R6 | 10k | R805 | 173.9011\
+  \ | -112.2426 | 0.0 | top | \n| R7 | 10k | R805 | 173.9011 | -109.7026 | 0.0 | top\
+  \ | \n| R8 | 470 | R805 | 168.1861 | -117.3226 | 0.0 | top | \n| R9 | 470 | R805\
+  \ | 168.1861 | -115.0366 | 0.0 | top | \n| RX0 | nan | LED-805 | 173.7741 | -117.3226\
+  \ | 90.0 | top | \n| TX0 | nan | LED-805 | 173.7741 | -115.0366 | 90.0 | top | \n\
+  | U$7 | nan | DP_LOGO | 139.4841 | -116.1796 | 0.0 | top | \n| X1 | 12MHz | 4X6\
+  \ | 142.2781 | -100.3046 | 180.0 | top | \n"
 projects_flat: projects/dangerousprototypes_breakout_boards_ft2232h_breakout_v1/current_version/working
 repo:
   allow_forking: true

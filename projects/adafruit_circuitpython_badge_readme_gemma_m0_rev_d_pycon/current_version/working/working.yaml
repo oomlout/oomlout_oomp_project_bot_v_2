@@ -1,9 +1,632 @@
 board: gemma_m0_rev_d_pycon
+bom:
+- Id: '1'
+  Designator: D2,D1
+  Footprint: SOD-123FL
+  Quantity: '2'
+  Designation: SCHOTTKY
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: B0,VBAT0,B1,UNK3V3,GND0,B2
+  Footprint: SEWALLI
+  Quantity: '6'
+  Designation: SEWTAP-ALLIGATOR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$8
+  Footprint: GEMMA_M0_TOP
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C3,C2
+  Footprint: 0603-NO
+  Quantity: '2'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: SW1
+  Footprint: EG1390
+  Quantity: '1'
+  Designation: EG1218
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: Q1
+  Footprint: BTN_KMR2_4.6X2.8
+  Quantity: '1'
+  Designation: reset
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: LED1
+  Footprint: APA102_2020
+  Quantity: '1'
+  Designation: AP102-2020
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: PWR0
+  Footprint: CHIPLED_0603_NOOUTLINE
+  Quantity: '1'
+  Designation: red
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U$1,U$6
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: CN1
+  Footprint: JSTPH2
+  Quantity: '1'
+  Designation: JST-PH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: IC1
+  Footprint: QFN32_5MM
+  Quantity: '1'
+  Designation: ATSAMD21E
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: C8,C1
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U1
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: AP2112K-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: X2
+  Footprint: 4UCONN_20329_V2
+  Quantity: '1'
+  Designation: MicroUSB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: R5
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: TP1
+  Footprint: TP16R
+  Quantity: '1'
+  Designation: TPTP16R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: U$2
+  Footprint: GEMMA_M0_PYCON_BOTTOM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: SWC0,SWD0
+  Footprint: TP15R
+  Quantity: '2'
+  Designation: TPTP15R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: U$10
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D2,D1\
+  \ | SOD-123FL | 2 | SCHOTTKY |  |  | [''] | \n| 2 | B0,VBAT0,B1,UNK3V3,GND0,B2 |\
+  \ SEWALLI | 6 | SEWTAP-ALLIGATOR |  |  | [''] | \n| 3 | U$8 | GEMMA_M0_TOP | 1 |\
+  \  |  |  | [''] | \n| 4 | C3,C2 | 0603-NO | 2 | 1uF |  |  | [''] | \n| 5 | SW1 |\
+  \ EG1390 | 1 | EG1218 |  |  | [''] | \n| 6 | Q1 | BTN_KMR2_4.6X2.8 | 1 | reset |\
+  \  |  | [''] | \n| 7 | LED1 | APA102_2020 | 1 | AP102-2020 |  |  | [''] | \n| 8\
+  \ | PWR0 | CHIPLED_0603_NOOUTLINE | 1 | red |  |  | [''] | \n| 9 | U$1,U$6 | FIDUCIAL_1MM\
+  \ | 2 | FIDUCIAL_1MM |  |  | [''] | \n| 10 | CN1 | JSTPH2 | 1 | JST-PH |  |  | ['']\
+  \ | \n| 11 | IC1 | QFN32_5MM | 1 | ATSAMD21E |  |  | [''] | \n| 12 | C8,C1 | 0805-NO\
+  \ | 2 | 10uF |  |  | [''] | \n| 13 | U1 | SOT23-5 | 1 | AP2112K-3.3 |  |  | ['']\
+  \ | \n| 14 | X2 | 4UCONN_20329_V2 | 1 | MicroUSB |  |  | [''] | \n| 15 | R5 | 0603-NO\
+  \ | 1 | 1K |  |  | [''] | \n| 16 | TP1 | TP16R | 1 | TPTP16R |  |  | [''] | \n|\
+  \ 17 | U$2 | GEMMA_M0_PYCON_BOTTOM | 1 |  |  |  | [''] | \n| 18 | SWC0,SWD0 | TP15R\
+  \ | 2 | TPTP15R |  |  | [''] | \n| 19 | U$10 | PCBFEAT-REV-040 | 1 |  |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: SEWTAP-ALLIGATOR
+  DNP: ''
+  Description: ''
+  Footprint: working:SEWALLI
+  Qnty: '3'
+  Ref: B0, B1, B2
+  Value: SEWTAP-ALLIGATOR
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C1, C8
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: C2, C3
+  Value: 1uF
+  Vendor: ''
+- Cmp name: CON_JST_PH_2PIN
+  DNP: ''
+  Description: ''
+  Footprint: working:JSTPH2
+  Qnty: '1'
+  Ref: CN1
+  Value: JST-PH
+  Vendor: ''
+- Cmp name: DIODE_SOD-123FL
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-123FL
+  Qnty: '2'
+  Ref: D1, D2
+  Value: SCHOTTKY
+  Vendor: ''
+- Cmp name: SEWTAP-ALLIGATOR
+  DNP: ''
+  Description: ''
+  Footprint: working:SEWALLI
+  Qnty: '1'
+  Ref: GND0
+  Value: SEWTAP-ALLIGATOR
+  Vendor: ''
+- Cmp name: ATSAMD21E
+  DNP: ''
+  Description: ''
+  Footprint: working:QFN32_5MM
+  Qnty: '1'
+  Ref: IC1
+  Value: ATSAMD21E
+  Vendor: ''
+- Cmp name: APA1022020
+  DNP: ''
+  Description: ''
+  Footprint: working:APA102_2020
+  Qnty: '1'
+  Ref: LED1
+  Value: AP102-2020
+  Vendor: ''
+- Cmp name: LED0603_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0603_NOOUTLINE
+  Qnty: '1'
+  Ref: PWR0
+  Value: red
+  Vendor: ''
+- Cmp name: SWITCH_TACT_SMT4.6X2.8
+  DNP: ''
+  Description: ''
+  Footprint: working:BTN_KMR2_4.6X2.8
+  Qnty: '1'
+  Ref: Q1
+  Value: reset
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R5
+  Value: 1K
+  Vendor: ''
+- Cmp name: SWITCH_DPDTEG1390
+  DNP: ''
+  Description: ''
+  Footprint: working:EG1390
+  Qnty: '1'
+  Ref: SW1
+  Value: EG1218
+  Vendor: ''
+- Cmp name: TPTP15R
+  DNP: ''
+  Description: ''
+  Footprint: working:TP15R
+  Qnty: '1'
+  Ref: SWC0
+  Value: TPTP15R
+  Vendor: ''
+- Cmp name: TPTP15R
+  DNP: ''
+  Description: ''
+  Footprint: working:TP15R
+  Qnty: '1'
+  Ref: SWD0
+  Value: TPTP15R
+  Vendor: ''
+- Cmp name: TPTP16R
+  DNP: ''
+  Description: ''
+  Footprint: working:TP16R
+  Qnty: '1'
+  Ref: TP1
+  Value: TPTP16R
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U1
+  Value: AP2112K-3.3
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: U$1, U$6
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: SEWTAP-ALLIGATOR
+  DNP: ''
+  Description: ''
+  Footprint: working:SEWALLI
+  Qnty: '1'
+  Ref: UNK3V3
+  Value: SEWTAP-ALLIGATOR
+  Vendor: ''
+- Cmp name: SEWTAP-ALLIGATOR
+  DNP: ''
+  Description: ''
+  Footprint: working:SEWALLI
+  Qnty: '1'
+  Ref: VBAT0
+  Value: SEWTAP-ALLIGATOR
+  Vendor: ''
+- Cmp name: USB_MICRO_20329_V2
+  DNP: ''
+  Description: ''
+  Footprint: working:4UCONN_20329_V2
+  Qnty: '1'
+  Ref: X2
+  Value: MicroUSB
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| B0, B1,\
+  \ B2 | 3 | SEWTAP-ALLIGATOR | SEWTAP-ALLIGATOR | working:SEWALLI |  |  |  | \n|\
+  \ C1, C8 | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n\
+  | C2, C3 | 2 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| CN1 | 1\
+  \ | JST-PH | CON_JST_PH_2PIN | working:JSTPH2 |  |  |  | \n| D1, D2 | 2 | SCHOTTKY\
+  \ | DIODE_SOD-123FL | working:SOD-123FL |  |  |  | \n| GND0 | 1 | SEWTAP-ALLIGATOR\
+  \ | SEWTAP-ALLIGATOR | working:SEWALLI |  |  |  | \n| IC1 | 1 | ATSAMD21E | ATSAMD21E\
+  \ | working:QFN32_5MM |  |  |  | \n| LED1 | 1 | AP102-2020 | APA1022020 | working:APA102_2020\
+  \ |  |  |  | \n| PWR0 | 1 | red | LED0603_NOOUTLINE | working:CHIPLED_0603_NOOUTLINE\
+  \ |  |  |  | \n| Q1 | 1 | reset | SWITCH_TACT_SMT4.6X2.8 | working:BTN_KMR2_4.6X2.8\
+  \ |  |  |  | \n| R5 | 1 | 1K | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  |\
+  \ \n| SW1 | 1 | EG1218 | SWITCH_DPDTEG1390 | working:EG1390 |  |  |  | \n| SWC0\
+  \ | 1 | TPTP15R | TPTP15R | working:TP15R |  |  |  | \n| SWD0 | 1 | TPTP15R | TPTP15R\
+  \ | working:TP15R |  |  |  | \n| TP1 | 1 | TPTP16R | TPTP16R | working:TP16R | \
+  \ |  |  | \n| U1 | 1 | AP2112K-3.3 | VREG_SOT23-5 | working:SOT23-5 |  |  |  | \n\
+  | U$1, U$6 | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n\
+  | UNK3V3 | 1 | SEWTAP-ALLIGATOR | SEWTAP-ALLIGATOR | working:SEWALLI |  |  |  |\
+  \ \n| VBAT0 | 1 | SEWTAP-ALLIGATOR | SEWTAP-ALLIGATOR | working:SEWALLI |  |  |\
+  \  | \n| X2 | 1 | MicroUSB | USB_MICRO_20329_V2 | working:4UCONN_20329_V2 |  | \
+  \ |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_circuitpython_badge_readme_gemma_m0_rev_d_pycon/current_version/working/working.brd
 file_sch_flat: projects/adafruit_circuitpython_badge_readme_gemma_m0_rev_d_pycon/current_version/working/working.sch
 id: adafruit_circuitpython_badge_readme_gemma_m0_rev_d_pycon
 name: circuitpython_badge_readme
+position_bottom:
+- '# Ref': SWC0
+  Package: TP15R
+  PosX: 145.9611
+  PosY: -99.022
+  Rot: 180.0
+  Side: bottom
+  Val: TPTP15R
+- '# Ref': SWD0
+  Package: TP15R
+  PosX: 143.0401
+  PosY: -99.022
+  Rot: 180.0
+  Side: bottom
+  Val: TPTP15R
+- '# Ref': TP1
+  Package: TP16R
+  PosX: 149.0091
+  PosY: -99.022
+  Rot: 180.0
+  Side: bottom
+  Val: TPTP16R
+- '# Ref': U$2
+  Package: GEMMA_M0_PYCON_BOTTOM
+  PosX: 134.5311
+  PosY: -91.402
+  Rot: 0.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$10
+  Package: PCBFEAT-REV-040
+  PosX: 148.5011
+  PosY: -92.799
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| SWC0 | TPTP15R | TP15R | 145.9611\
+  \ | -99.022 | 180.0 | bottom | \n| SWD0 | TPTP15R | TP15R | 143.0401 | -99.022 |\
+  \ 180.0 | bottom | \n| TP1 | TPTP16R | TP16R | 149.0091 | -99.022 | 180.0 | bottom\
+  \ | \n| U$2 | nan | GEMMA_M0_PYCON_BOTTOM | 134.5311 | -91.402 | 0.0 | bottom |\
+  \ \n| U$10 | nan | PCBFEAT-REV-040 | 148.5011 | -92.799 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': B0
+  Package: SEWALLI
+  PosX: 137.1981
+  PosY: -104.737
+  Rot: 90.0
+  Side: top
+  Val: SEWTAP-ALLIGATOR
+- '# Ref': B1
+  Package: SEWALLI
+  PosX: 159.8041
+  PosY: -104.737
+  Rot: -90.0
+  Side: top
+  Val: SEWTAP-ALLIGATOR
+- '# Ref': B2
+  Package: SEWALLI
+  PosX: 140.5001
+  PosY: -96.736
+  Rot: 45.0
+  Side: top
+  Val: SEWTAP-ALLIGATOR
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 144.9546
+  PosY: -109.2455
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': C2
+  Package: 0603-NO
+  PosX: 142.8496
+  PosY: -110.5155
+  Rot: 135.0
+  Side: top
+  Val: 1uF
+- '# Ref': C3
+  Package: 0603-NO
+  PosX: 141.7733
+  PosY: -108.3796
+  Rot: 180.0
+  Side: top
+  Val: 1uF
+- '# Ref': C8
+  Package: 0805-NO
+  PosX: 144.5006
+  PosY: -106.642
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': CN1
+  Package: JSTPH2
+  PosX: 148.5011
+  PosY: -114.77
+  Rot: 180.0
+  Side: top
+  Val: JST-PH
+- '# Ref': D1
+  Package: SOD-123FL
+  PosX: 152.6191
+  PosY: -109.236
+  Rot: 180.0
+  Side: top
+  Val: SCHOTTKY
+- '# Ref': D2
+  Package: SOD-123FL
+  PosX: 152.1206
+  PosY: -98.387
+  Rot: 180.0
+  Side: top
+  Val: SCHOTTKY
+- '# Ref': GND0
+  Package: SEWALLI
+  PosX: 156.5021
+  PosY: -96.736
+  Rot: -45.0
+  Side: top
+  Val: SEWTAP-ALLIGATOR
+- '# Ref': IC1
+  Package: QFN32_5MM
+  PosX: 146.7295
+  PosY: -101.7897
+  Rot: 0.0
+  Side: top
+  Val: ATSAMD21E
+- '# Ref': LED1
+  Package: APA102_2020
+  PosX: 142.1511
+  PosY: -100.546
+  Rot: 90.0
+  Side: top
+  Val: AP102-2020
+- '# Ref': PWR0
+  Package: CHIPLED_0603_NOOUTLINE
+  PosX: 154.4701
+  PosY: -100.165
+  Rot: -90.0
+  Side: top
+  Val: red
+- '# Ref': Q1
+  Package: BTN_KMR2_4.6X2.8
+  PosX: 141.0716
+  PosY: -105.0545
+  Rot: -90.0
+  Side: top
+  Val: reset
+- '# Ref': R5
+  Package: 0603-NO
+  PosX: 151.7319
+  PosY: -100.199
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': SW1
+  Package: EG1390
+  PosX: 153.8351
+  PosY: -104.61
+  Rot: 90.0
+  Side: top
+  Val: EG1218
+- '# Ref': U$1
+  Package: FIDUCIAL_1MM
+  PosX: 138.7331
+  PosY: -101.0555
+  Rot: 90.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': U$6
+  Package: FIDUCIAL_1MM
+  PosX: 148.3741
+  PosY: -116.4875
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': U$8
+  Package: GEMMA_M0_TOP
+  PosX: 134.5311
+  PosY: -118.707
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U1
+  Package: SOT23-5
+  PosX: 148.1201
+  PosY: -106.7055
+  Rot: -90.0
+  Side: top
+  Val: AP2112K-3.3
+- '# Ref': UNK3V3
+  Package: SEWALLI
+  PosX: 140.5001
+  PosY: -112.738
+  Rot: 135.0
+  Side: top
+  Val: SEWTAP-ALLIGATOR
+- '# Ref': VBAT0
+  Package: SEWALLI
+  PosX: 156.5021
+  PosY: -112.738
+  Rot: -135.0
+  Side: top
+  Val: SEWTAP-ALLIGATOR
+- '# Ref': X2
+  Package: 4UCONN_20329_V2
+  PosX: 148.5011
+  PosY: -95.593
+  Rot: 180.0
+  Side: top
+  Val: MicroUSB
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| B0 | SEWTAP-ALLIGATOR | SEWALLI | 137.1981\
+  \ | -104.737 | 90.0 | top | \n| B1 | SEWTAP-ALLIGATOR | SEWALLI | 159.8041 | -104.737\
+  \ | -90.0 | top | \n| B2 | SEWTAP-ALLIGATOR | SEWALLI | 140.5001 | -96.736 | 45.0\
+  \ | top | \n| C1 | 10uF | 0805-NO | 144.9546 | -109.2455 | 180.0 | top | \n| C2\
+  \ | 1uF | 0603-NO | 142.8496 | -110.5155 | 135.0 | top | \n| C3 | 1uF | 0603-NO\
+  \ | 141.7733 | -108.3796 | 180.0 | top | \n| C8 | 10uF | 0805-NO | 144.5006 | -106.642\
+  \ | -90.0 | top | \n| CN1 | JST-PH | JSTPH2 | 148.5011 | -114.77 | 180.0 | top |\
+  \ \n| D1 | SCHOTTKY | SOD-123FL | 152.6191 | -109.236 | 180.0 | top | \n| D2 | SCHOTTKY\
+  \ | SOD-123FL | 152.1206 | -98.387 | 180.0 | top | \n| GND0 | SEWTAP-ALLIGATOR |\
+  \ SEWALLI | 156.5021 | -96.736 | -45.0 | top | \n| IC1 | ATSAMD21E | QFN32_5MM |\
+  \ 146.7295 | -101.7897 | 0.0 | top | \n| LED1 | AP102-2020 | APA102_2020 | 142.1511\
+  \ | -100.546 | 90.0 | top | \n| PWR0 | red | CHIPLED_0603_NOOUTLINE | 154.4701 |\
+  \ -100.165 | -90.0 | top | \n| Q1 | reset | BTN_KMR2_4.6X2.8 | 141.0716 | -105.0545\
+  \ | -90.0 | top | \n| R5 | 1K | 0603-NO | 151.7319 | -100.199 | 180.0 | top | \n\
+  | SW1 | EG1218 | EG1390 | 153.8351 | -104.61 | 90.0 | top | \n| U$1 | FIDUCIAL_1MM\
+  \ | FIDUCIAL_1MM | 138.7331 | -101.0555 | 90.0 | top | \n| U$6 | FIDUCIAL_1MM |\
+  \ FIDUCIAL_1MM | 148.3741 | -116.4875 | 0.0 | top | \n| U$8 | nan | GEMMA_M0_TOP\
+  \ | 134.5311 | -118.707 | 0.0 | top | \n| U1 | AP2112K-3.3 | SOT23-5 | 148.1201\
+  \ | -106.7055 | -90.0 | top | \n| UNK3V3 | SEWTAP-ALLIGATOR | SEWALLI | 140.5001\
+  \ | -112.738 | 135.0 | top | \n| VBAT0 | SEWTAP-ALLIGATOR | SEWALLI | 156.5021 |\
+  \ -112.738 | -135.0 | top | \n| X2 | MicroUSB | 4UCONN_20329_V2 | 148.5011 | -95.593\
+  \ | 180.0 | top | \n"
 projects_flat: projects/adafruit_circuitpython_badge_readme_gemma_m0_rev_d_pycon/current_version/working
 repo:
   allow_forking: true

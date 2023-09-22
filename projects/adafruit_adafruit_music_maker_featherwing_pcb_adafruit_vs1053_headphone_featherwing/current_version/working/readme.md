@@ -11,9 +11,90 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit-Music-Maker-FeatherWing-PCB/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_music_maker_featherwing_pcb_adafruit_vs1053_headphone_featherwing/current_version/working  
+
+## schematic  
+![](working_schematic_600.png)  
+[schematic (pdf)](working_schematic.pdf)  
+
+## pcb  
+![](working_3d_600.png) 
+![](working_3d_front_600.png)  
+![](working_3d_back_600.png)  
+![](working_600.png)  
+[board (pdf)](working.pdf)  
+
+## working_bom
+| Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| 1 | MS1 | FEATHERWING_NODIM | 1 | FEATHERWING_NODIM |  |  | [''] | 
+| 2 | C2,C26,C8 | 0603-NO | 3 | 0.1µF |  |  | [''] | 
+| 3 | Y1 | CRYSTAL_3.2X2.5 | 1 | ABM8G-12.288MHZ-4Y-T3 |  |  | [''] | 
+| 4 | FB1,FB2 | 0805-NO | 2 | FERITTE |  |  | [''] | 
+| 5 | U2 | SOT23-6 | 1 | AP7312-1833W6-7 |  |  | [''] | 
+| 6 | R4,R3 | 0603-NO | 2 | 22 |  |  | [''] | 
+| 7 | R6,R7 | 0603-NO | 2 | 100 |  |  | [''] | 
+| 8 | C3 | 0603-NO | 1 | 1uF |  |  | [''] | 
+| 9 | C21,C22 | 0603-NO | 2 | 10nF |  |  | [''] | 
+| 10 | C10,C11,C9,C7,C19 | 0603-NO | 5 | 1µF |  |  | [''] | 
+| 11 | R9 | _0603MP | 1 | 100K |  |  | [''] | 
+| 12 | R16 | RESPACK_4X0603 | 1 | 100K |  |  | [''] | 
+| 13 | C5,C4 | 0603-NO | 2 | 22pF |  |  | [''] | 
+| 14 | JP5 | 1X01_ROUND | 1 |  |  |  | [''] | 
+| 15 | C20,C1 | 0805-NO | 2 | 10µF |  |  | [''] | 
+| 16 | D1,D2 | SOD-123 | 2 | MBR120 |  |  | [''] | 
+| 17 | J1,J2 | TERMBLOCK_1X2-3.5MM | 2 | 3.5mm |  |  | [''] | 
+| 18 | U3 | WQFN20 | 1 | TPA2012 |  |  | [''] | 
+| 19 | FID2,FID1 | FIDUCIAL_1MM | 2 | FIDUCIAL" |  |  | [''] | 
+| 20 | SW1 | BTN_KMR2_4.6X2.8 | 1 | KMR2 |  |  | [''] | 
+| 21 | R1 | 0603-NO | 1 | 1M |  |  | [''] | 
+| 22 | U$36 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | 
+| 23 | R2,R5,R8 | 0603-NO | 3 | 100K |  |  | [''] | 
+| 24 | JP1 | 1X12_ROUND | 1 |  |  |  | [''] | 
+| 25 | U1 | LQFP48 | 1 | VS1053B |  |  | [''] | 
+| 26 | C6 | _0805MP | 1 | 10µF |  |  | [''] | 
+| 27 | CN1 | MICROSD | 1 | 2908-05WB-M6 |  |  | [''] | 
+| 28 | JP3 | 1X13_ROUND_70 | 1 |  |  |  | [''] | 
+| 29 | G0,G1,MIDI0 | SOLDERJUMPER_ARROW_NOPASTE | 3 |  |  |  | [''] | 
+| 30 | RST0 | SOLDERJUMPER_CLOSEDWIRE | 1 |  |  |  | [''] | 
+| 31 | U$43 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | 
+| 32 | U$55 | ADAFRUIT_TEXT_20MM | 1 |  |  |  | [''] | 
+| 33 | U$37 | FEATHERLOGO_SMALL | 1 |  |  |  | [''] | 
 
 
-
+## bom_schematic
+| Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| C1, C20 | 2 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C2, C8, C26 | 3 | 0.1µF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
+| C3 | 1 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
+| C4, C5 | 2 | 22pF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
+| C6 | 1 | 10µF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
+| C7, C9, C10, C11, C19 | 5 | 1µF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
+| C21, C22 | 2 | 10nF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
+| CN1 | 1 | 2908-05WB-M6 | MICROSD | working:MICROSD |  |  |  | 
+| D1, D2 | 2 | MBR120 | DIODE-SCHOTTKYSOD-123 | working:SOD-123 |  |  |  | 
+| FB1, FB2 | 2 | FERITTE | FERRITE-0805NO | working:0805-NO |  |  |  | 
+| FID1, FID2 | 2 | FIDUCIAL"" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | 
+| G0, G1 | 2 | SOLDERJUMPER | SOLDERJUMPER | working:SOLDERJUMPER_ARROW_NOPASTE |  |  |  | 
+| J1, J2 | 2 | 3.5mm | TERMBLOCK_1X2 | working:TERMBLOCK_1X2-3.5MM |  |  |  | 
+| JP1 | 1 | HEADER-1X12 | HEADER-1X12 | working:1X12_ROUND |  |  |  | 
+| JP3 | 1 | HEADER-1X13 | HEADER-1X13 | working:1X13_ROUND_70 |  |  |  | 
+| JP5 | 1 | HEADER-1X1ROUND | HEADER-1X1ROUND | working:1X01_ROUND |  |  |  | 
+| MIDI0 | 1 | SOLDERJUMPER | SOLDERJUMPER | working:SOLDERJUMPER_ARROW_NOPASTE |  |  |  | 
+| MS1 | 1 | FEATHERWING_NODIM | FEATHERWING_NODIM | working:FEATHERWING_NODIM |  |  |  | 
+| R1 | 1 | 1M | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | 
+| R2, R5, R8 | 3 | 100K | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | 
+| R3, R4 | 2 | 22 | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | 
+| R6, R7 | 2 | 100 | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | 
+| R9 | 1 | 100K | RESISTOR_0603MP | working:_0603MP |  |  |  | 
+| R16 | 1 | 100K | RESISTOR_4PACK | working:RESPACK_4X0603 |  |  |  | 
+| RST0 | 1 | SOLDERJUMPERCLOSED | SOLDERJUMPERCLOSED | working:SOLDERJUMPER_CLOSEDWIRE |  |  |  | 
+| SW1 | 1 | KMR2 | SWITCH_TACT_SMT4.6X2.8 | working:BTN_KMR2_4.6X2.8 |  |  |  | 
+| U1 | 1 | VS1053B | VS1053B | working:LQFP48 |  |  |  | 
+| U2 | 1 | AP7312-1833W6-7 | VREG_SOT23-6_DUALAP7312 | working:SOT23-6 |  |  |  | 
+| U3 | 1 | TPA2012 | AUDIOAMP_TPA2012D2 | working:WQFN20 |  |  |  | 
+| Y1 | 1 | ABM8G-12.288MHZ-4Y-T3 | CRYSTAL3.2X2.5 | working:CRYSTAL_3.2X2.5 |  |  |  | 
 
 
 

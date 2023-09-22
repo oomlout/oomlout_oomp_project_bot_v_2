@@ -1,9 +1,331 @@
 board: iot_button_with_neopixel_bff
+bom:
+- Id: '1'
+  Designator: PLABEL3
+  Footprint: PLABEL3
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$6,U$8
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: SJ7,SJ1
+  Footprint: SOLDERJUMPER_CLOSEDWIRE
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: LED1
+  Footprint: LED3535_FULLPADS
+  Quantity: '1'
+  Designation: WS2812B_3535FULL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: TP2,TP1
+  Footprint: PAD-1.5X2.0
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: PLABEL1
+  Footprint: PLABEL1
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: SW1
+  Footprint: B3F-40XX-SMT
+  Quantity: '1'
+  Designation: 12mm Tact
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: PLABEL14
+  Footprint: PLABEL14
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: PLABEL6
+  Footprint: PLABEL6
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U$3
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: JP1,JP3
+  Footprint: 1X07_CASTEL
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U$2
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | PLABEL3\
+  \ | PLABEL3 | 1 |  |  |  | [''] | \n| 2 | U$6,U$8 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM\
+  \ |  |  | [''] | \n| 3 | SJ7,SJ1 | SOLDERJUMPER_CLOSEDWIRE | 2 |  |  |  | [''] |\
+  \ \n| 4 | LED1 | LED3535_FULLPADS | 1 | WS2812B_3535FULL |  |  | [''] | \n| 5 |\
+  \ TP2,TP1 | PAD-1.5X2.0 | 2 |  |  |  | [''] | \n| 6 | PLABEL1 | PLABEL1 | 1 |  |\
+  \  |  | [''] | \n| 7 | SW1 | B3F-40XX-SMT | 1 | 12mm Tact |  |  | [''] | \n| 8 |\
+  \ PLABEL14 | PLABEL14 | 1 |  |  |  | [''] | \n| 9 | PLABEL6 | PLABEL6 | 1 |  | \
+  \ |  | [''] | \n| 10 | U$3 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n| 11 | JP1,JP3\
+  \ | 1X07_CASTEL | 2 |  |  |  | [''] | \n| 12 | U$2 | ADAFRUIT_3.5MM | 1 |  |  |\
+  \  | [''] | \n"
+bom_schematic:
+- Cmp name: HEADER-1X7_CASTEL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X07_CASTEL
+  Qnty: '2'
+  Ref: JP1, JP3
+  Value: HEADER-1X7_CASTEL
+  Vendor: ''
+- Cmp name: WS2812B_3535FULL
+  DNP: ''
+  Description: ''
+  Footprint: working:LED3535_FULLPADS
+  Qnty: '1'
+  Ref: LED1
+  Value: WS2812B_3535FULL
+  Vendor: ''
+- Cmp name: SOLDERJUMPERCLOSED
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_CLOSEDWIRE
+  Qnty: '2'
+  Ref: SJ1, SJ7
+  Value: SOLDERJUMPERCLOSED
+  Vendor: ''
+- Cmp name: SWITCH_TACT_SMT_12MM
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-40XX-SMT
+  Qnty: '1'
+  Ref: SW1
+  Value: 12mm Tact
+  Vendor: ''
+- Cmp name: TESTPOINT1.5X2.0MM_NOCREAM
+  DNP: ''
+  Description: ''
+  Footprint: working:PAD-1.5X2.0
+  Qnty: '2'
+  Ref: TP1, TP2
+  Value: TESTPOINT1.5X2.0MM_NOCREAM
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: U$6, U$8
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| JP1,\
+  \ JP3 | 2 | HEADER-1X7_CASTEL | HEADER-1X7_CASTEL | working:1X07_CASTEL |  |  |\
+  \  | \n| LED1 | 1 | WS2812B_3535FULL | WS2812B_3535FULL | working:LED3535_FULLPADS\
+  \ |  |  |  | \n| SJ1, SJ7 | 2 | SOLDERJUMPERCLOSED | SOLDERJUMPERCLOSED | working:SOLDERJUMPER_CLOSEDWIRE\
+  \ |  |  |  | \n| SW1 | 1 | 12mm Tact | SWITCH_TACT_SMT_12MM | working:B3F-40XX-SMT\
+  \ |  |  |  | \n| TP1, TP2 | 2 | TESTPOINT1.5X2.0MM_NOCREAM | TESTPOINT1.5X2.0MM_NOCREAM\
+  \ | working:PAD-1.5X2.0 |  |  |  | \n| U$6, U$8 | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM\
+  \ | working:FIDUCIAL_1MM |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_iot_button_with_neopixel_bff_pcb_iot_button_with_neopixel_bff/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_iot_button_with_neopixel_bff_pcb_iot_button_with_neopixel_bff/current_version/working/working.sch
 id: adafruit_adafruit_iot_button_with_neopixel_bff_pcb_iot_button_with_neopixel_bff
 name: adafruit_iot_button_with_neopixel_bff_pcb
+position_bottom:
+- '# Ref': JP1
+  Package: 1X07_CASTEL
+  PosX: 156.1211
+  PosY: -105.0036
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': JP3
+  Package: 1X07_CASTEL
+  PosX: 140.8811
+  PosY: -105.0036
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$2
+  Package: ADAFRUIT_3.5MM
+  PosX: 145.9611
+  PosY: -112.9411
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$3
+  Package: PCBFEAT-REV-040
+  PosX: 152.9461
+  PosY: -97.0661
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| JP1 | nan | 1X07_CASTEL | 156.1211\
+  \ | -105.0036 | -90.0 | bottom | \n| JP3 | nan | 1X07_CASTEL | 140.8811 | -105.0036\
+  \ | 90.0 | bottom | \n| U$2 | nan | ADAFRUIT_3.5MM | 145.9611 | -112.9411 | 180.0\
+  \ | bottom | \n| U$3 | nan | PCBFEAT-REV-040 | 152.9461 | -97.0661 | 180.0 | bottom\
+  \ | \n"
+position_top:
+- '# Ref': LED1
+  Package: LED3535_FULLPADS
+  PosX: 148.5011
+  PosY: -96.8121
+  Rot: 0.0
+  Side: top
+  Val: WS2812B_3535FULL
+- '# Ref': PLABEL1
+  Package: PLABEL1
+  PosX: 155.2321
+  PosY: -114.2111
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': PLABEL3
+  Package: PLABEL3
+  PosX: 141.5796
+  PosY: -95.6691
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': PLABEL6
+  Package: PLABEL6
+  PosX: 155.3591
+  PosY: -95.7961
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': PLABEL14
+  Package: PLABEL14
+  PosX: 141.7066
+  PosY: -114.2111
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ1
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 143.4211
+  PosY: -98.8441
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ7
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 153.5811
+  PosY: -98.8441
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': SW1
+  Package: B3F-40XX-SMT
+  PosX: 148.5011
+  PosY: -106.9721
+  Rot: -90.0
+  Side: top
+  Val: 12mm_Tact
+- '# Ref': TP1
+  Package: PAD-1.5X2.0
+  PosX: 144.6911
+  PosY: -95.7961
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': TP2
+  Package: PAD-1.5X2.0
+  PosX: 152.3111
+  PosY: -95.7961
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': U$6
+  Package: FIDUCIAL_1MM
+  PosX: 143.6878
+  PosY: -114.2746
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': U$8
+  Package: FIDUCIAL_1MM
+  PosX: 153.2636
+  PosY: -114.2746
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| LED1 | WS2812B_3535FULL | LED3535_FULLPADS\
+  \ | 148.5011 | -96.8121 | 0.0 | top | \n| PLABEL1 | nan | PLABEL1 | 155.2321 | -114.2111\
+  \ | 0.0 | top | \n| PLABEL3 | nan | PLABEL3 | 141.5796 | -95.6691 | 0.0 | top |\
+  \ \n| PLABEL6 | nan | PLABEL6 | 155.3591 | -95.7961 | 0.0 | top | \n| PLABEL14 |\
+  \ nan | PLABEL14 | 141.7066 | -114.2111 | 0.0 | top | \n| SJ1 | nan | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 143.4211 | -98.8441 | 90.0 | top | \n| SJ7 | nan | SOLDERJUMPER_CLOSEDWIRE |\
+  \ 153.5811 | -98.8441 | 90.0 | top | \n| SW1 | 12mm_Tact | B3F-40XX-SMT | 148.5011\
+  \ | -106.9721 | -90.0 | top | \n| TP1 | nan | PAD-1.5X2.0 | 144.6911 | -95.7961\
+  \ | 90.0 | top | \n| TP2 | nan | PAD-1.5X2.0 | 152.3111 | -95.7961 | 90.0 | top\
+  \ | \n| U$6 | FIDUCIAL_1MM | FIDUCIAL_1MM | 143.6878 | -114.2746 | 0.0 | top | \n\
+  | U$8 | FIDUCIAL_1MM | FIDUCIAL_1MM | 153.2636 | -114.2746 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_iot_button_with_neopixel_bff_pcb_iot_button_with_neopixel_bff/current_version/working
 repo:
   allow_forking: true

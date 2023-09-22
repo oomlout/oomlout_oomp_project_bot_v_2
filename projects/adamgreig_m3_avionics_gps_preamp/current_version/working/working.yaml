@@ -1,4 +1,184 @@
 board: gps_preamp
+bom:
+- Id: '1'
+  Designator: C1
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: "1\xC2\xB5"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C2
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C3
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: 200p
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: IC1
+  Footprint: DFN-6-EP-BGM
+  Quantity: '1'
+  Designation: BGM1043N7
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: L1
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: 9n1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: L2
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: 8n2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: L3,L4,L5
+  Footprint: '0402'
+  Quantity: '3'
+  Designation: 92n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: P2
+  Footprint: SMA-PTH
+  Quantity: '1'
+  Designation: ANTENNA
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: P3
+  Footprint: SMA-EDGE
+  Quantity: '1'
+  Designation: RECEIVER
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1\
+  \ | 0402 | 1 | 1\xC2\xB5 |  |  | [''] | \n| 2 | C2 | 0402 | 1 | 100n |  |  | ['']\
+  \ | \n| 3 | C3 | 0402 | 1 | 200p |  |  | [''] | \n| 4 | IC1 | DFN-6-EP-BGM | 1 |\
+  \ BGM1043N7 |  |  | [''] | \n| 5 | L1 | 0402 | 1 | 9n1 |  |  | [''] | \n| 6 | L2\
+  \ | 0402 | 1 | 8n2 |  |  | [''] | \n| 7 | L3,L4,L5 | 0402 | 3 | 92n |  |  | ['']\
+  \ | \n| 8 | P2 | SMA-PTH | 1 | ANTENNA |  |  | [''] | \n| 9 | P3 | SMA-EDGE | 1\
+  \ | RECEIVER |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '1'
+  Ref: C1
+  Value: "1\xC2\xB5"
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '1'
+  Ref: C2
+  Value: 100n
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '1'
+  Ref: C3
+  Value: 200p
+  Vendor: ''
+- Cmp name: BGM1043N7
+  DNP: ''
+  Description: ''
+  Footprint: agg:DFN-6-EP-BGM
+  Qnty: '1'
+  Ref: IC1
+  Value: BGM1043N7
+  Vendor: ''
+- Cmp name: L
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '1'
+  Ref: L1
+  Value: 9n1
+  Vendor: ''
+- Cmp name: L
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '1'
+  Ref: L2
+  Value: 8n2
+  Vendor: ''
+- Cmp name: L
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '3'
+  Ref: L3, L4, L5
+  Value: 92n
+  Vendor: ''
+- Cmp name: COAX
+  DNP: ''
+  Description: ''
+  Footprint: agg:SMA-PTH
+  Qnty: '1'
+  Ref: P2
+  Value: ANTENNA
+  Vendor: ''
+- Cmp name: COAX
+  DNP: ''
+  Description: ''
+  Footprint: agg:SMA-EDGE
+  Qnty: '1'
+  Ref: P3
+  Value: RECEIVER
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 1\xC2\xB5 | C | agg:0402 |  |  |  | \n| C2 | 1 | 100n | C | agg:0402 |  |\
+  \  |  | \n| C3 | 1 | 200p | C | agg:0402 |  |  |  | \n| IC1 | 1 | BGM1043N7 | BGM1043N7\
+  \ | agg:DFN-6-EP-BGM |  |  |  | \n| L1 | 1 | 9n1 | L | agg:0402 |  |  |  | \n| L2\
+  \ | 1 | 8n2 | L | agg:0402 |  |  |  | \n| L3, L4, L5 | 3 | 92n | L | agg:0402 |\
+  \  |  |  | \n| P2 | 1 | ANTENNA | COAX | agg:SMA-PTH |  |  |  | \n| P3 | 1 | RECEIVER\
+  \ | COAX | agg:SMA-EDGE |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_m3_avionics_gps_preamp/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_m3_avionics_gps_preamp/current_version/working/working.kicad_pcb
@@ -6,6 +186,96 @@ file_repo_bom_xlsx_flat: projects/adamgreig_m3_avionics_gps_preamp/current_versi
 file_sch_flat: projects/adamgreig_m3_avionics_gps_preamp/current_version/working/working.sch
 id: adamgreig_m3_avionics_gps_preamp
 name: m3_avionics
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: '0402'
+  PosX: 136.5
+  PosY: -97.65
+  Rot: 0.0
+  Side: top
+  Val: "1\xC2\xB5"
+- '# Ref': C2
+  Package: '0402'
+  PosX: 136.5
+  PosY: -98.85
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': C3
+  Package: '0402'
+  PosX: 138.65
+  PosY: -102.05
+  Rot: 0.0
+  Side: top
+  Val: 200p
+- '# Ref': IC1
+  Package: DFN-6-EP-BGM
+  PosX: 136.5
+  PosY: -101.05
+  Rot: -90.0
+  Side: top
+  Val: BGM1043N7
+- '# Ref': L1
+  Package: '0402'
+  PosX: 134.8
+  PosY: -100.5
+  Rot: -90.0
+  Side: top
+  Val: 9n1
+- '# Ref': L2
+  Package: '0402'
+  PosX: 136.5
+  PosY: -103.25
+  Rot: 0.0
+  Side: top
+  Val: 8n2
+- '# Ref': L3
+  Package: '0402'
+  PosX: 138.2
+  PosY: -97.1
+  Rot: -90.0
+  Side: top
+  Val: 92n
+- '# Ref': L4
+  Package: '0402'
+  PosX: 138.65
+  PosY: -98.75
+  Rot: 0.0
+  Side: top
+  Val: 92n
+- '# Ref': L5
+  Package: '0402'
+  PosX: 139.1
+  PosY: -100.4
+  Rot: -90.0
+  Side: top
+  Val: 92n
+- '# Ref': P2
+  Package: SMA-PTH
+  PosX: 130.0
+  PosY: -100.0
+  Rot: 0.0
+  Side: top
+  Val: ANTENNA
+- '# Ref': P3
+  Package: SMA-EDGE
+  PosX: 142.45
+  PosY: -100.0
+  Rot: -90.0
+  Side: top
+  Val: RECEIVER
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 1\xC2\xB5 | 0402 | 136.5 | -97.65\
+  \ | 0.0 | top | \n| C2 | 100n | 0402 | 136.5 | -98.85 | 0.0 | top | \n| C3 | 200p\
+  \ | 0402 | 138.65 | -102.05 | 0.0 | top | \n| IC1 | BGM1043N7 | DFN-6-EP-BGM | 136.5\
+  \ | -101.05 | -90.0 | top | \n| L1 | 9n1 | 0402 | 134.8 | -100.5 | -90.0 | top |\
+  \ \n| L2 | 8n2 | 0402 | 136.5 | -103.25 | 0.0 | top | \n| L3 | 92n | 0402 | 138.2\
+  \ | -97.1 | -90.0 | top | \n| L4 | 92n | 0402 | 138.65 | -98.75 | 0.0 | top | \n\
+  | L5 | 92n | 0402 | 139.1 | -100.4 | -90.0 | top | \n| P2 | ANTENNA | SMA-PTH |\
+  \ 130.0 | -100.0 | 0.0 | top | \n| P3 | RECEIVER | SMA-EDGE | 142.45 | -100.0 |\
+  \ -90.0 | top | \n"
 projects_flat: projects/adamgreig_m3_avionics_gps_preamp/current_version/working
 repo:
   allow_forking: true

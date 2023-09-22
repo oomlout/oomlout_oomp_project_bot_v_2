@@ -1,9 +1,500 @@
 board: adafruit_cap1188
+bom:
+- Id: '1'
+  Designator: U2
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: MIC5225-3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: LED6,LED4,LED3,LED7,LED5,LED2,LED1,LED8
+  Footprint: CHIPLED_0805
+  Quantity: '8'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$7,U$10,U$9,U$8
+  Footprint: MOUNTINGHOLE_2.0_PLATED
+  Quantity: '4'
+  Designation: MOUNTINGHOLE2.0
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$13
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U1
+  Footprint: QFN24_4MM_SMSC
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R11,R12,R10,R9
+  Footprint: 0805-NO
+  Quantity: '4'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R2,R1
+  Footprint: RESPACK_4X0603
+  Quantity: '2'
+  Designation: '470'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: JP3,JP4
+  Footprint: 1X13_ROUND_70
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: FID2,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R13
+  Footprint: _0805MP
+  Quantity: '1'
+  Designation: 150K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: C2,C3
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U$14
+  Footprint: ADAFRUIT_9MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U2\
+  \ | SOT23-5 | 1 | MIC5225-3 |  |  | [''] | \n| 2 | LED6,LED4,LED3,LED7,LED5,LED2,LED1,LED8\
+  \ | CHIPLED_0805 | 8 |  |  |  | [''] | \n| 3 | U$7,U$10,U$9,U$8 | MOUNTINGHOLE_2.0_PLATED\
+  \ | 4 | MOUNTINGHOLE2.0 |  |  | [''] | \n| 4 | U$13 | ADAFRUIT_3.5MM | 1 |  |  |\
+  \  | [''] | \n| 5 | U1 | QFN24_4MM_SMSC | 1 |  |  |  | [''] | \n| 6 | R11,R12,R10,R9\
+  \ | 0805-NO | 4 | 10K |  |  | [''] | \n| 7 | R2,R1 | RESPACK_4X0603 | 2 | 470 |\
+  \  |  | [''] | \n| 8 | JP3,JP4 | 1X13_ROUND_70 | 2 |  |  |  | [''] | \n| 9 | FID2,FID1\
+  \ | FIDUCIAL_1MM | 2 | FIDUCIAL\" |  |  | [''] | \n| 10 | R13 | _0805MP | 1 | 150K\
+  \ |  |  | [''] | \n| 11 | C2,C3 | 0805-NO | 2 | 10uF |  |  | [''] | \n| 12 | U$14\
+  \ | ADAFRUIT_9MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C2, C3
+  Value: 10uF
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: HEADER-1X13
+  DNP: ''
+  Description: ''
+  Footprint: working:1X13_ROUND_70
+  Qnty: '2'
+  Ref: JP3, JP4
+  Value: HEADER-1X13
+  Vendor: ''
+- Cmp name: LED0805
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805
+  Qnty: '8'
+  Ref: LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8
+  Value: LED0805
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603
+  Qnty: '2'
+  Ref: R1, R2
+  Value: '470'
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '4'
+  Ref: R9, R10, R11, R12
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_0805MP
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805MP
+  Qnty: '1'
+  Ref: R13
+  Value: 150K
+  Vendor: ''
+- Cmp name: CAP1188
+  DNP: ''
+  Description: ''
+  Footprint: working:QFN24_4MM_SMSC
+  Qnty: '1'
+  Ref: U1
+  Value: CAP1188
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U2
+  Value: MIC5225-3
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.0
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.0_PLATED
+  Qnty: '4'
+  Ref: U$7, U$8, U$9, U$10
+  Value: MOUNTINGHOLE2.0
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C2, C3\
+  \ | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| FID1,\
+  \ FID2 | 2 | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM\
+  \ |  |  |  | \n| JP3, JP4 | 2 | HEADER-1X13 | HEADER-1X13 | working:1X13_ROUND_70\
+  \ |  |  |  | \n| LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8 | 8 | LED0805 |\
+  \ LED0805 | working:CHIPLED_0805 |  |  |  | \n| R1, R2 | 2 | 470 | RESISTOR_4PACK\
+  \ | working:RESPACK_4X0603 |  |  |  | \n| R9, R10, R11, R12 | 4 | 10K | RESISTOR0805_NOOUTLINE\
+  \ | working:0805-NO |  |  |  | \n| R13 | 1 | 150K | RESISTOR_0805MP | working:_0805MP\
+  \ |  |  |  | \n| U1 | 1 | CAP1188 | CAP1188 | working:QFN24_4MM_SMSC |  |  |  |\
+  \ \n| U2 | 1 | MIC5225-3 | VREG_SOT23-5 | working:SOT23-5 |  |  |  | \n| U$7, U$8,\
+  \ U$9, U$10 | 4 | MOUNTINGHOLE2.0 | MOUNTINGHOLE2.0 | working:MOUNTINGHOLE_2.0_PLATED\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_cap1188_pcb_adafruit_cap1188/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_cap1188_pcb_adafruit_cap1188/current_version/working/working.sch
 id: adafruit_adafruit_cap1188_pcb_adafruit_cap1188
+mounting_holes:
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$7
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$8
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '12.699999999999989'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$9
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '0.0'
+  y: '36.83'
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$10
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '12.699999999999989'
+  y: '36.83'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0\
+  \ | U$7 | m3 | \n| 12.699999999999989 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0\
+  \ | U$8 | m3 | \n| 0.0 | 36.83 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0 | U$9\
+  \ | m3 | \n| 12.699999999999989 | 36.83 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0\
+  \ | U$10 | m3 | \n"
 name: adafruit_cap1188_pcb
+position_bottom:
+- '# Ref': U$14
+  Package: ADAFRUIT_9MM
+  PosX: 152.6921
+  PosY: -125.5776
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$14 | nan | ADAFRUIT_9MM | 152.6921\
+  \ | -125.5776 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 145.6491
+  PosY: -96.3076
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 148.9151
+  PosY: -98.6886
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 153.8281
+  PosY: -119.1396
+  Rot: 90.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 145.2191
+  PosY: -93.6146
+  Rot: 90.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': JP3
+  Package: 1X13_ROUND_70
+  PosX: 156.1211
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP4
+  Package: 1X13_ROUND_70
+  PosX: 140.8811
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': LED1
+  Package: CHIPLED_0805
+  PosX: 145.1991
+  PosY: -99.9236
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': LED2
+  Package: CHIPLED_0805
+  PosX: 145.1991
+  PosY: -102.4636
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': LED3
+  Package: CHIPLED_0805
+  PosX: 145.1991
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': LED4
+  Package: CHIPLED_0805
+  PosX: 145.1991
+  PosY: -107.5436
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': LED5
+  Package: CHIPLED_0805
+  PosX: 145.1991
+  PosY: -110.0836
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': LED6
+  Package: CHIPLED_0805
+  PosX: 145.1991
+  PosY: -112.6236
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': LED7
+  Package: CHIPLED_0805
+  PosX: 145.1991
+  PosY: -115.1636
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': LED8
+  Package: CHIPLED_0805
+  PosX: 145.1991
+  PosY: -117.7036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: RESPACK_4X0603
+  PosX: 148.9351
+  PosY: -101.5426
+  Rot: -90.0
+  Side: top
+  Val: '470'
+- '# Ref': R2
+  Package: RESPACK_4X0603
+  PosX: 150.7131
+  PosY: -116.4376
+  Rot: -90.0
+  Side: top
+  Val: '470'
+- '# Ref': R9
+  Package: 0805-NO
+  PosX: 147.2371
+  PosY: -89.9436
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R10
+  Package: 0805-NO
+  PosX: 147.2291
+  PosY: -91.8086
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R11
+  Package: 0805-NO
+  PosX: 146.3671
+  PosY: -120.1016
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R12
+  Package: 0805-NO
+  PosX: 151.1431
+  PosY: -91.6036
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R13
+  Package: _0805MP
+  PosX: 151.1681
+  PosY: -120.1166
+  Rot: 0.0
+  Side: top
+  Val: 150K
+- '# Ref': U$7
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 142.1511
+  PosY: -123.4186
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U$8
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 154.8511
+  PosY: -123.4186
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U$9
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 142.1511
+  PosY: -86.5886
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U$10
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 154.8511
+  PosY: -86.5886
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U$13
+  Package: ADAFRUIT_3.5MM
+  PosX: 153.4541
+  PosY: -106.0196
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': U1
+  Package: QFN24_4MM_SMSC
+  PosX: 151.0411
+  PosY: -108.8136
+  Rot: -45.0
+  Side: top
+  Val: .nan
+- '# Ref': U2
+  Package: SOT23-5
+  PosX: 148.5571
+  PosY: -95.7666
+  Rot: 180.0
+  Side: top
+  Val: MIC5225-3
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C2 | 10uF | 0805-NO | 145.6491 | -96.3076\
+  \ | -90.0 | top | \n| C3 | 10uF | 0805-NO | 148.9151 | -98.6886 | 180.0 | top |\
+  \ \n| FID1 | FIDUCIAL\"\" | FIDUCIAL_1MM | 153.8281 | -119.1396 | 90.0 | top | \n\
+  | FID2 | FIDUCIAL\"\" | FIDUCIAL_1MM | 145.2191 | -93.6146 | 90.0 | top | \n| JP3\
+  \ | nan | 1X13_ROUND_70 | 156.1211 | -105.0036 | -90.0 | top | \n| JP4 | nan | 1X13_ROUND_70\
+  \ | 140.8811 | -105.0036 | -90.0 | top | \n| LED1 | nan | CHIPLED_0805 | 145.1991\
+  \ | -99.9236 | 90.0 | top | \n| LED2 | nan | CHIPLED_0805 | 145.1991 | -102.4636\
+  \ | 90.0 | top | \n| LED3 | nan | CHIPLED_0805 | 145.1991 | -105.0036 | 90.0 | top\
+  \ | \n| LED4 | nan | CHIPLED_0805 | 145.1991 | -107.5436 | 90.0 | top | \n| LED5\
+  \ | nan | CHIPLED_0805 | 145.1991 | -110.0836 | 90.0 | top | \n| LED6 | nan | CHIPLED_0805\
+  \ | 145.1991 | -112.6236 | 90.0 | top | \n| LED7 | nan | CHIPLED_0805 | 145.1991\
+  \ | -115.1636 | 90.0 | top | \n| LED8 | nan | CHIPLED_0805 | 145.1991 | -117.7036\
+  \ | 90.0 | top | \n| R1 | 470 | RESPACK_4X0603 | 148.9351 | -101.5426 | -90.0 |\
+  \ top | \n| R2 | 470 | RESPACK_4X0603 | 150.7131 | -116.4376 | -90.0 | top | \n\
+  | R9 | 10K | 0805-NO | 147.2371 | -89.9436 | 0.0 | top | \n| R10 | 10K | 0805-NO\
+  \ | 147.2291 | -91.8086 | 0.0 | top | \n| R11 | 10K | 0805-NO | 146.3671 | -120.1016\
+  \ | 0.0 | top | \n| R12 | 10K | 0805-NO | 151.1431 | -91.6036 | 0.0 | top | \n|\
+  \ R13 | 150K | _0805MP | 151.1681 | -120.1166 | 0.0 | top | \n| U$7 | MOUNTINGHOLE2.0\
+  \ | MOUNTINGHOLE_2.0_PLATED | 142.1511 | -123.4186 | 0.0 | top | \n| U$8 | MOUNTINGHOLE2.0\
+  \ | MOUNTINGHOLE_2.0_PLATED | 154.8511 | -123.4186 | 0.0 | top | \n| U$9 | MOUNTINGHOLE2.0\
+  \ | MOUNTINGHOLE_2.0_PLATED | 142.1511 | -86.5886 | 0.0 | top | \n| U$10 | MOUNTINGHOLE2.0\
+  \ | MOUNTINGHOLE_2.0_PLATED | 154.8511 | -86.5886 | 0.0 | top | \n| U$13 | nan |\
+  \ ADAFRUIT_3.5MM | 153.4541 | -106.0196 | 90.0 | top | \n| U1 | nan | QFN24_4MM_SMSC\
+  \ | 151.0411 | -108.8136 | -45.0 | top | \n| U2 | MIC5225-3 | SOT23-5 | 148.5571\
+  \ | -95.7666 | 180.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_cap1188_pcb_adafruit_cap1188/current_version/working
 repo:
   allow_forking: true

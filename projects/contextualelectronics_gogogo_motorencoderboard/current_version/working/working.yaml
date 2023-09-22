@@ -1,10 +1,248 @@
 board: motorencoderboard
+bom:
+- Id: '1'
+  Designator: C1
+  Footprint: C_0805_HandSoldering
+  Quantity: '1'
+  Designation: C
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: P1,P2
+  Footprint: Pin_Header_Straight_1x02
+  Quantity: '2'
+  Designation: CONN_01X02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R1
+  Footprint: R_0805_HandSoldering
+  Quantity: '1'
+  Designation: '100'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R2,R3,R4,R5
+  Footprint: R_0805_HandSoldering
+  Quantity: '4'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: TP1
+  Footprint: Measurement_Point_Round-SMD-Pad_Small
+  Quantity: '1'
+  Designation: OptoOut
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U2
+  Footprint: SOIC-8_3.9x4.9mm_Pitch1.27mm
+  Quantity: '1'
+  Designation: LM311N
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U1
+  Footprint: RPI-579N1
+  Quantity: '1'
+  Designation: RPI-579N1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1\
+  \ | C_0805_HandSoldering | 1 | C |  |  | [''] | \n| 2 | P1,P2 | Pin_Header_Straight_1x02\
+  \ | 2 | CONN_01X02 |  |  | [''] | \n| 3 | R1 | R_0805_HandSoldering | 1 | 100 |\
+  \  |  | [''] | \n| 4 | R2,R3,R4,R5 | R_0805_HandSoldering | 4 | 1K |  |  | ['']\
+  \ | \n| 5 | TP1 | Measurement_Point_Round-SMD-Pad_Small | 1 | OptoOut |  |  | ['']\
+  \ | \n| 6 | U2 | SOIC-8_3.9x4.9mm_Pitch1.27mm | 1 | LM311N |  |  | [''] | \n| 7\
+  \ | U1 | RPI-579N1 | 1 | RPI-579N1 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_SMD:C_0805_HandSoldering
+  Qnty: '1'
+  Ref: C1
+  Value: C
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x02
+  Qnty: '2'
+  Ref: P1, P2
+  Value: CONN_01X02
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0805_HandSoldering
+  Qnty: '1'
+  Ref: R1
+  Value: '100'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0805_HandSoldering
+  Qnty: '4'
+  Ref: R2, R3, R4, R5
+  Value: 1K
+  Vendor: ''
+- Cmp name: CONN_01X01
+  DNP: ''
+  Description: ''
+  Footprint: Measurement_Points:Measurement_Point_Round-SMD-Pad_Big
+  Qnty: '1'
+  Ref: TP1
+  Value: OptoOut
+  Vendor: ''
+- Cmp name: RPI-579N1
+  DNP: ''
+  Description: LTV-817, DIP-4, DC Optocoupler, Vce 35V, CTR 50%
+  Footprint: MotorEncoder:RPI-579N1
+  Qnty: '1'
+  Ref: U1
+  Value: RPI-579N1
+  Vendor: ''
+- Cmp name: LM311N
+  DNP: ''
+  Description: ''
+  Footprint: Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm
+  Qnty: '1'
+  Ref: U2
+  Value: LM311DR
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | C | C | Capacitors_SMD:C_0805_HandSoldering |  |  |  | \n| P1, P2 | 2 | CONN_01X02\
+  \ | CONN_01X02 | Pin_Headers:Pin_Header_Straight_1x02 |  |  |  | \n| R1 | 1 | 100\
+  \ | R | Resistors_SMD:R_0805_HandSoldering |  |  |  | \n| R2, R3, R4, R5 | 4 | 1K\
+  \ | R | Resistors_SMD:R_0805_HandSoldering |  |  |  | \n| TP1 | 1 | OptoOut | CONN_01X01\
+  \ | Measurement_Points:Measurement_Point_Round-SMD-Pad_Big |  |  |  | \n| U1 | 1\
+  \ | RPI-579N1 | RPI-579N1 | MotorEncoder:RPI-579N1 | LTV-817, DIP-4, DC Optocoupler,\
+  \ Vce 35V, CTR 50% |  |  | \n| U2 | 1 | LM311DR | LM311N | Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/contextualelectronics_gogogo_motorencoderboard/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/contextualelectronics_gogogo_motorencoderboard/current_version/working/working.kicad_pcb
 file_sch_flat: projects/contextualelectronics_gogogo_motorencoderboard/current_version/working/working.sch
 id: contextualelectronics_gogogo_motorencoderboard
 name: gogogo
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_0805_HandSoldering
+  PosX: 168.7068
+  PosY: -94.2848
+  Rot: 0.0
+  Side: top
+  Val: C
+- '# Ref': P1
+  Package: Pin_Header_Straight_1x02
+  PosX: 151.9428
+  PosY: -86.2584
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': P2
+  Package: Pin_Header_Straight_1x02
+  PosX: 157.6324
+  PosY: -100.0252
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': R1
+  Package: R_0805_HandSoldering
+  PosX: 155.8544
+  PosY: -87.5284
+  Rot: 90.0
+  Side: top
+  Val: '100'
+- '# Ref': R2
+  Package: R_0805_HandSoldering
+  PosX: 168.7068
+  PosY: -92.0496
+  Rot: 0.0
+  Side: top
+  Val: 1K
+- '# Ref': R3
+  Package: R_0805_HandSoldering
+  PosX: 154.2288
+  PosY: -93.5736
+  Rot: 0.0
+  Side: top
+  Val: 1K
+- '# Ref': R4
+  Package: R_0805_HandSoldering
+  PosX: 154.2796
+  PosY: -95.6056
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': R5
+  Package: R_0805_HandSoldering
+  PosX: 168.7068
+  PosY: -96.7232
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': TP1
+  Package: Measurement_Point_Round-SMD-Pad_Small
+  PosX: 172.466
+  PosY: -88.9
+  Rot: 0.0
+  Side: top
+  Val: OptoOut
+- '# Ref': U1
+  Package: RPI-579N1
+  PosX: 164.2745
+  PosY: -87.63
+  Rot: 0.0
+  Side: top
+  Val: RPI-579N1
+- '# Ref': U2
+  Package: SOIC-8_3.9x4.9mm_Pitch1.27mm
+  PosX: 160.6804
+  PosY: -94.9452
+  Rot: 0.0
+  Side: top
+  Val: LM311N
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | C | C_0805_HandSoldering | 168.7068\
+  \ | -94.2848 | 0.0 | top | \n| P1 | CONN_01X02 | Pin_Header_Straight_1x02 | 151.9428\
+  \ | -86.2584 | 0.0 | top | \n| P2 | CONN_01X02 | Pin_Header_Straight_1x02 | 157.6324\
+  \ | -100.0252 | 90.0 | top | \n| R1 | 100 | R_0805_HandSoldering | 155.8544 | -87.5284\
+  \ | 90.0 | top | \n| R2 | 1K | R_0805_HandSoldering | 168.7068 | -92.0496 | 0.0\
+  \ | top | \n| R3 | 1K | R_0805_HandSoldering | 154.2288 | -93.5736 | 0.0 | top |\
+  \ \n| R4 | 1K | R_0805_HandSoldering | 154.2796 | -95.6056 | 180.0 | top | \n| R5\
+  \ | 1K | R_0805_HandSoldering | 168.7068 | -96.7232 | 180.0 | top | \n| TP1 | OptoOut\
+  \ | Measurement_Point_Round-SMD-Pad_Small | 172.466 | -88.9 | 0.0 | top | \n| U1\
+  \ | RPI-579N1 | RPI-579N1 | 164.2745 | -87.63 | 0.0 | top | \n| U2 | LM311N | SOIC-8_3.9x4.9mm_Pitch1.27mm\
+  \ | 160.6804 | -94.9452 | 0.0 | top | \n"
 projects_flat: projects/contextualelectronics_gogogo_motorencoderboard/current_version/working
 repo:
   allow_forking: true

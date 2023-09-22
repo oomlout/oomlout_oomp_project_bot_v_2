@@ -12,6 +12,7 @@
 
 * src_file_repo_sch: corne-light/pcb/corne-light.sch
 * src_file_repo_sch_link: https://github.com/50an6xy06r6n/crkbd/tree/master/corne-light/pcb/corne-light.sch
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/50an6xy06r6n_crkbd_corne_light/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

@@ -1,0 +1,233 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 12 23
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 7850 3000 2    50   Output ~ 0
+OUT
+Wire Wire Line
+	7150 3000 7500 3000
+$Comp
+L Device:R R?
+U 1 1 5C996045
+P 5900 3350
+AR Path="/5C667F1A/5C996045" Ref="R?"  Part="1" 
+AR Path="/5C668FC1/5C996045" Ref="R?"  Part="1" 
+AR Path="/5C96AA00/5C996045" Ref="R29"  Part="1" 
+AR Path="/5CF6C998/5C996045" Ref="R46"  Part="1" 
+AR Path="/5CF868AF/5CF8D1CA/5C996045" Ref="R48"  Part="1" 
+F 0 "R48" H 5970 3441 50  0000 L CNN
+F 1 "10k" H 5970 3350 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5830 3350 50  0001 C CNN
+F 3 "~" H 5900 3350 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 0   0   50  0001 C CNN "DigiKey"
+	1    5900 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3000 5900 3000
+Wire Wire Line
+	5900 3000 5900 3200
+Wire Wire Line
+	5900 3500 5900 3700
+Wire Wire Line
+	5900 3700 6800 3700
+Wire Wire Line
+	6800 3700 6800 3300
+Wire Wire Line
+	5900 2800 5900 3000
+Connection ~ 5900 3000
+$Comp
+L Transistor_FET:2N7002 Q3
+U 1 1 5C99B4D7
+P 5800 4050
+AR Path="/5C96AA00/5C99B4D7" Ref="Q3"  Part="1" 
+AR Path="/5CF6C998/5C99B4D7" Ref="Q1"  Part="1" 
+AR Path="/5CF868AF/5CF8D1CA/5C99B4D7" Ref="Q1"  Part="1" 
+F 0 "Q1" H 6006 4141 50  0000 L CNN
+F 1 "2N7002" H 6006 4050 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6000 3975 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5800 4050 50  0001 L CNN
+F 4 "2N7002NCT-ND" H 0   0   50  0001 C CNN "DigiKey"
+	1    5800 4050
+	1    0    0    -1  
+$EndComp
+Text HLabel 4000 4050 0    50   Input ~ 0
+EN
+$Comp
+L power:GND #PWR065
+U 1 1 5C99B5CF
+P 5900 4800
+AR Path="/5C96AA00/5C99B5CF" Ref="#PWR065"  Part="1" 
+AR Path="/5CF6C998/5C99B5CF" Ref="#PWR092"  Part="1" 
+AR Path="/5CF868AF/5CF8D1CA/5C99B5CF" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 5900 4550 50  0001 C CNN
+F 1 "GND" H 5905 4627 50  0000 C CNN
+F 2 "" H 5900 4800 50  0001 C CNN
+F 3 "" H 5900 4800 50  0001 C CNN
+	1    5900 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3700 5900 3850
+Connection ~ 5900 3700
+Wire Wire Line
+	5600 4050 4900 4050
+Wire Wire Line
+	4250 4050 4000 4050
+Wire Wire Line
+	5900 4250 5900 4650
+$Comp
+L speeduino_mini:SQ3457EV Q5
+U 1 1 5C9A40B4
+P 6800 3100
+AR Path="/5C96AA00/5C9A40B4" Ref="Q5"  Part="1" 
+AR Path="/5CF6C998/5C9A40B4" Ref="Q2"  Part="1" 
+AR Path="/5CF868AF/5CF8D1CA/5C9A40B4" Ref="Q2"  Part="1" 
+F 0 "Q2" V 7366 3125 50  0000 C CNN
+F 1 "SQ3457EV" V 7275 3125 50  0000 C CNN
+F 2 "Housings_SSOP:TSOP-6_1.65x3.05mm_Pitch0.95mm" H 7000 2750 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/66715/sq3457ev.pdf" H 7000 2850 50  0001 L CNN
+F 4 "SQ3457EV-T1_GE3CT-ND" H 0   0   50  0001 C CNN "DigiKey"
+	1    6800 3100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7050 2850 7150 2850
+Wire Wire Line
+	7150 2850 7150 2950
+Wire Wire Line
+	7050 2950 7150 2950
+Connection ~ 7150 2950
+Wire Wire Line
+	7150 2950 7150 3000
+Wire Wire Line
+	7050 3050 7150 3050
+Wire Wire Line
+	7150 3050 7150 3000
+Connection ~ 7150 3000
+Wire Wire Line
+	7050 3150 7150 3150
+Wire Wire Line
+	7150 3150 7150 3050
+Connection ~ 7150 3050
+$Comp
+L Device:R R?
+U 1 1 5C9A4EFA
+P 4400 4050
+AR Path="/5C66F28B/5C9A4EFA" Ref="R?"  Part="1" 
+AR Path="/5C674DB1/5C9A4EFA" Ref="R?"  Part="1" 
+AR Path="/5C96AA00/5C9A4EFA" Ref="R11"  Part="1" 
+AR Path="/5CF6C998/5C9A4EFA" Ref="R44"  Part="1" 
+AR Path="/5CF868AF/5CF8D1CA/5C9A4EFA" Ref="R46"  Part="1" 
+F 0 "R46" V 4103 4050 50  0000 C CNN
+F 1 "150" V 4194 4050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4330 4050 50  0001 C CNN
+F 3 "~" H 4400 4050 50  0001 C CNN
+F 4 "311-150CRCT-ND" H 0   0   50  0001 C CNN "DigiKey"
+	1    4400 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C9A93FE
+P 4900 4350
+AR Path="/5C667F1A/5C9A93FE" Ref="R?"  Part="1" 
+AR Path="/5C668FC1/5C9A93FE" Ref="R?"  Part="1" 
+AR Path="/5C96AA00/5C9A93FE" Ref="R12"  Part="1" 
+AR Path="/5CF6C998/5C9A93FE" Ref="R45"  Part="1" 
+AR Path="/5CF868AF/5CF8D1CA/5C9A93FE" Ref="R47"  Part="1" 
+F 0 "R47" H 4970 4441 50  0000 L CNN
+F 1 "10k" H 4970 4350 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4830 4350 50  0001 C CNN
+F 3 "~" H 4900 4350 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 0   0   50  0001 C CNN "DigiKey"
+	1    4900 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4050 4900 4200
+Connection ~ 4900 4050
+Wire Wire Line
+	4900 4050 4550 4050
+Wire Wire Line
+	4900 4500 4900 4650
+Wire Wire Line
+	4900 4650 5900 4650
+Connection ~ 5900 4650
+Wire Wire Line
+	5900 4650 5900 4800
+$Comp
+L Device:LED D?
+U 1 1 5CF796F3
+P 7500 4250
+AR Path="/5C667F1A/5CF796F3" Ref="D?"  Part="1" 
+AR Path="/5C668FC1/5CF796F3" Ref="D?"  Part="1" 
+AR Path="/5C9BF5B5/5CF796F3" Ref="D?"  Part="1" 
+AR Path="/5C9C0039/5CF796F3" Ref="D?"  Part="1" 
+AR Path="/5C96AA00/5CF796F3" Ref="D16"  Part="1" 
+AR Path="/5CF6C998/5CF796F3" Ref="D17"  Part="1" 
+AR Path="/5CF868AF/5CF8D1CA/5CF796F3" Ref="D19"  Part="1" 
+F 0 "D19" V 7584 4132 50  0000 R CNN
+F 1 "LED GREEN 2.5mA 2.7V" V 7493 4132 50  0000 R CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 7500 4250 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150080GS75000.pdf" H 7500 4250 50  0001 C CNN
+F 4 "732-4983-1-ND" V 7402 4132 50  0000 R CNN "DigiKey"
+	1    7500 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5CF796F9
+P 7500 3600
+AR Path="/5C667F1A/5CF796F9" Ref="R?"  Part="1" 
+AR Path="/5C668FC1/5CF796F9" Ref="R?"  Part="1" 
+AR Path="/5C9BF5B5/5CF796F9" Ref="R?"  Part="1" 
+AR Path="/5C9C0039/5CF796F9" Ref="R?"  Part="1" 
+AR Path="/5CF6C998/5CF796F9" Ref="R47"  Part="1" 
+AR Path="/5C96AA00/5CF796F9" Ref="R43"  Part="1" 
+AR Path="/5CF868AF/5CF8D1CA/5CF796F9" Ref="R49"  Part="1" 
+F 0 "R49" H 7432 3509 50  0000 R CNN
+F 1 "3.74k" H 7432 3600 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7540 3590 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 7500 3600 50  0001 C CNN
+F 4 "P3.74KCCT-ND" H 7432 3691 50  0000 R CNN "DigiKey"
+	1    7500 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 3750 7500 4100
+Wire Wire Line
+	7500 3450 7500 3000
+Connection ~ 7500 3000
+Wire Wire Line
+	7500 3000 7850 3000
+$Comp
+L power:GND #PWR051
+U 1 1 5CF7C77F
+P 7500 4700
+AR Path="/5C96AA00/5CF7C77F" Ref="#PWR051"  Part="1" 
+AR Path="/5CF6C998/5CF7C77F" Ref="#PWR093"  Part="1" 
+AR Path="/5CF868AF/5CF8D1CA/5CF7C77F" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 7500 4450 50  0001 C CNN
+F 1 "GND" H 7505 4527 50  0000 C CNN
+F 2 "" H 7500 4700 50  0001 C CNN
+F 3 "" H 7500 4700 50  0001 C CNN
+	1    7500 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4400 7500 4700
+Text HLabel 5900 2800 1    50   Input ~ 0
++12V
+$EndSCHEMATC

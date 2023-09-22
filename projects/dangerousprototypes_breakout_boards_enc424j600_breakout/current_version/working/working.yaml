@@ -1,9 +1,604 @@
 board: enc424j600_breakout
+bom:
+- Id: '1'
+  Designator: R2
+  Footprint: R0603
+  Quantity: '1'
+  Designation: 10R, 1/12W, 1%
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C6,C11,C8,C5,C7
+  Footprint: C0603
+  Quantity: '5'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C3,C4
+  Footprint: C0603
+  Quantity: '2'
+  Designation: 27pf
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$1,U$2
+  Footprint: DP_LOGO
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R12,R11,R13,R10
+  Footprint: R0603
+  Quantity: '4'
+  Designation: 49R9 1%
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: Q2
+  Footprint: HC49UP
+  Quantity: '1'
+  Designation: 25Mhz
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C10,C9
+  Footprint: C0603
+  Quantity: '2'
+  Designation: 0.01uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: JP2,JP1
+  Footprint: 1X14
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R5,R4
+  Footprint: R0603
+  Quantity: '2'
+  Designation: 1K1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: C13,C12
+  Footprint: C0603
+  Quantity: '2'
+  Designation: 6.8nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: R6
+  Footprint: R0603
+  Quantity: '1'
+  Designation: 1k1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: L1
+  Footprint: WE-KI_0805_B
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: J1
+  Footprint: HR911105A
+  Quantity: '1'
+  Designation: HR911105A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: PWR0
+  Footprint: LED-805
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: C2
+  Footprint: SMC_A
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: U1
+  Footprint: TQFP44
+  Quantity: '1'
+  Designation: ENC424J600
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: R3
+  Footprint: R0603
+  Quantity: '1'
+  Designation: 100K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: R1
+  Footprint: R0603
+  Quantity: '1'
+  Designation: 12.4K 1%
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R2\
+  \ | R0603 | 1 | 10R, 1/12W, 1% |  |  | [''] | \n| 2 | C6,C11,C8,C5,C7 | C0603 |\
+  \ 5 | 0.1uF |  |  | [''] | \n| 3 | C3,C4 | C0603 | 2 | 27pf |  |  | [''] | \n| 4\
+  \ | U$1,U$2 | DP_LOGO | 2 |  |  |  | [''] | \n| 5 | R12,R11,R13,R10 | R0603 | 4\
+  \ | 49R9 1% |  |  | [''] | \n| 6 | Q2 | HC49UP | 1 | 25Mhz |  |  | [''] | \n| 7\
+  \ | C10,C9 | C0603 | 2 | 0.01uF |  |  | [''] | \n| 8 | JP2,JP1 | 1X14 | 2 |  | \
+  \ |  | [''] | \n| 9 | R5,R4 | R0603 | 2 | 1K1 |  |  | [''] | \n| 10 | C13,C12 |\
+  \ C0603 | 2 | 6.8nF |  |  | [''] | \n| 11 | R6 | R0603 | 1 | 1k1 |  |  | [''] |\
+  \ \n| 12 | L1 | WE-KI_0805_B | 1 |  |  |  | [''] | \n| 13 | J1 | HR911105A | 1 |\
+  \ HR911105A |  |  | [''] | \n| 14 | PWR0 | LED-805 | 1 |  |  |  | [''] | \n| 15\
+  \ | C2 | SMC_A | 1 | 10uF |  |  | [''] | \n| 16 | U1 | TQFP44 | 1 | ENC424J600 |\
+  \  |  | [''] | \n| 17 | R3 | R0603 | 1 | 100K |  |  | [''] | \n| 18 | R1 | R0603\
+  \ | 1 | 12.4K 1% |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CPOL-EUSMCA
+  DNP: ''
+  Description: ''
+  Footprint: working:SMC_A
+  Qnty: '1'
+  Ref: C2
+  Value: 10uF
+  Vendor: ''
+- Cmp name: C-EUC0603
+  DNP: ''
+  Description: ''
+  Footprint: working:C0603
+  Qnty: '2'
+  Ref: C3, C4
+  Value: 27pf
+  Vendor: ''
+- Cmp name: C-EUC0603
+  DNP: ''
+  Description: ''
+  Footprint: working:C0603
+  Qnty: '5'
+  Ref: C5, C6, C7, C8, C11
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: C-EUC0603
+  DNP: ''
+  Description: ''
+  Footprint: working:C0603
+  Qnty: '2'
+  Ref: C9, C10
+  Value: 0.01uF
+  Vendor: ''
+- Cmp name: C-EUC0603
+  DNP: ''
+  Description: ''
+  Footprint: working:C0603
+  Qnty: '2'
+  Ref: C12, C13
+  Value: 6.8nF
+  Vendor: ''
+- Cmp name: HR911105A
+  DNP: ''
+  Description: ''
+  Footprint: working:HR911105A
+  Qnty: '1'
+  Ref: J1
+  Value: HR911105A
+  Vendor: ''
+- Cmp name: PINHD-1X14
+  DNP: ''
+  Description: ''
+  Footprint: working:1X14
+  Qnty: '2'
+  Ref: JP1, JP2
+  Value: PINHD-1X14
+  Vendor: ''
+- Cmp name: WE-KIL_0805
+  DNP: ''
+  Description: ''
+  Footprint: working:WE-KI_0805_B
+  Qnty: '1'
+  Ref: L1
+  Value: WE-KIL_0805
+  Vendor: ''
+- Cmp name: LED805
+  DNP: ''
+  Description: ''
+  Footprint: working:LED-805
+  Qnty: '1'
+  Ref: PWR0
+  Value: LED805
+  Vendor: ''
+- Cmp name: CRYSTALHC49UP
+  DNP: ''
+  Description: ''
+  Footprint: working:HC49UP
+  Qnty: '1'
+  Ref: Q2
+  Value: 25Mhz
+  Vendor: ''
+- Cmp name: R-EU_R0603
+  DNP: ''
+  Description: ''
+  Footprint: working:R0603
+  Qnty: '1'
+  Ref: R1
+  Value: 12.4K 1%
+  Vendor: ''
+- Cmp name: R-EU_R0603
+  DNP: ''
+  Description: ''
+  Footprint: working:R0603
+  Qnty: '1'
+  Ref: R2
+  Value: 10R, 1/12W, 1%
+  Vendor: ''
+- Cmp name: R-EU_R0603
+  DNP: ''
+  Description: ''
+  Footprint: working:R0603
+  Qnty: '1'
+  Ref: R3
+  Value: 100K
+  Vendor: ''
+- Cmp name: R-EU_R0603
+  DNP: ''
+  Description: ''
+  Footprint: working:R0603
+  Qnty: '2'
+  Ref: R4, R5
+  Value: 1K1
+  Vendor: ''
+- Cmp name: R-EU_R0603
+  DNP: ''
+  Description: ''
+  Footprint: working:R0603
+  Qnty: '1'
+  Ref: R6
+  Value: 1k1
+  Vendor: ''
+- Cmp name: R-EU_R0603
+  DNP: ''
+  Description: ''
+  Footprint: working:R0603
+  Qnty: '4'
+  Ref: R10, R11, R12, R13
+  Value: 49R9 1%
+  Vendor: ''
+- Cmp name: ENC424J600
+  DNP: ''
+  Description: ''
+  Footprint: working:TQFP44
+  Qnty: '1'
+  Ref: U1
+  Value: ENC424J600
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C2 |\
+  \ 1 | 10uF | CPOL-EUSMCA | working:SMC_A |  |  |  | \n| C3, C4 | 2 | 27pf | C-EUC0603\
+  \ | working:C0603 |  |  |  | \n| C5, C6, C7, C8, C11 | 5 | 0.1uF | C-EUC0603 | working:C0603\
+  \ |  |  |  | \n| C9, C10 | 2 | 0.01uF | C-EUC0603 | working:C0603 |  |  |  | \n\
+  | C12, C13 | 2 | 6.8nF | C-EUC0603 | working:C0603 |  |  |  | \n| J1 | 1 | HR911105A\
+  \ | HR911105A | working:HR911105A |  |  |  | \n| JP1, JP2 | 2 | PINHD-1X14 | PINHD-1X14\
+  \ | working:1X14 |  |  |  | \n| L1 | 1 | WE-KIL_0805 | WE-KIL_0805 | working:WE-KI_0805_B\
+  \ |  |  |  | \n| PWR0 | 1 | LED805 | LED805 | working:LED-805 |  |  |  | \n| Q2\
+  \ | 1 | 25Mhz | CRYSTALHC49UP | working:HC49UP |  |  |  | \n| R1 | 1 | 12.4K 1%\
+  \ | R-EU_R0603 | working:R0603 |  |  |  | \n| R2 | 1 | 10R, 1/12W, 1% | R-EU_R0603\
+  \ | working:R0603 |  |  |  | \n| R3 | 1 | 100K | R-EU_R0603 | working:R0603 |  |\
+  \  |  | \n| R4, R5 | 2 | 1K1 | R-EU_R0603 | working:R0603 |  |  |  | \n| R6 | 1\
+  \ | 1k1 | R-EU_R0603 | working:R0603 |  |  |  | \n| R10, R11, R12, R13 | 4 | 49R9\
+  \ 1% | R-EU_R0603 | working:R0603 |  |  |  | \n| U1 | 1 | ENC424J600 | ENC424J600\
+  \ | working:TQFP44 |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/dangerousprototypes_breakout_boards_enc424j600_breakout/current_version/working/working.brd
 file_sch_flat: projects/dangerousprototypes_breakout_boards_enc424j600_breakout/current_version/working/working.sch
 id: dangerousprototypes_breakout_boards_enc424j600_breakout
 name: breakout_boards
+position_bottom:
+- '# Ref': U$2
+  Package: DP_LOGO
+  PosX: 160.5661
+  PosY: -102.0826
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$2 | nan | DP_LOGO | 160.5661 |\
+  \ -102.0826 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C2
+  Package: SMC_A
+  PosX: 166.8526
+  PosY: -108.6231
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C3
+  Package: C0603
+  PosX: 169.7101
+  PosY: -98.6536
+  Rot: -90.0
+  Side: top
+  Val: 27pf
+- '# Ref': C4
+  Package: C0603
+  PosX: 169.6466
+  PosY: -104.3051
+  Rot: 90.0
+  Side: top
+  Val: 27pf
+- '# Ref': C5
+  Package: C0603
+  PosX: 160.0581
+  PosY: -97.3836
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C6
+  Package: C0603
+  PosX: 148.3741
+  PosY: -115.0366
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C7
+  Package: C0603
+  PosX: 148.3741
+  PosY: -99.9236
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C8
+  Package: C0603
+  PosX: 148.3741
+  PosY: -102.4636
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C9
+  Package: C0603
+  PosX: 144.5641
+  PosY: -103.7336
+  Rot: 0.0
+  Side: top
+  Val: 0.01uF
+- '# Ref': C10
+  Package: C0603
+  PosX: 144.5641
+  PosY: -112.6236
+  Rot: 0.0
+  Side: top
+  Val: 0.01uF
+- '# Ref': C11
+  Package: C0603
+  PosX: 166.9796
+  PosY: -103.0986
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C12
+  Package: C0603
+  PosX: 148.3741
+  PosY: -107.5436
+  Rot: 180.0
+  Side: top
+  Val: 6.8nF
+- '# Ref': C13
+  Package: C0603
+  PosX: 144.5641
+  PosY: -101.1936
+  Rot: 180.0
+  Side: top
+  Val: 6.8nF
+- '# Ref': J1
+  Package: HR911105A
+  PosX: 131.2291
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: HR911105A
+- '# Ref': JP1
+  Package: 1X14
+  PosX: 157.8991
+  PosY: -117.7036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X14
+  PosX: 157.8991
+  PosY: -92.3036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': L1
+  Package: WE-KI_0805_B
+  PosX: 152.1841
+  PosY: -113.5126
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': PWR0
+  Package: LED-805
+  PosX: 137.5791
+  PosY: -92.3036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': Q2
+  Package: HC49UP
+  PosX: 173.2153
+  PosY: -102.489
+  Rot: -90.0
+  Side: top
+  Val: 25Mhz
+- '# Ref': R1
+  Package: R0603
+  PosX: 148.3741
+  PosY: -97.3836
+  Rot: 180.0
+  Side: top
+  Val: 12.4K_1%
+- '# Ref': R2
+  Package: R0603
+  PosX: 144.5641
+  PosY: -110.0836
+  Rot: 180.0
+  Side: top
+  Val: 10R,_1/12W,_1%
+- '# Ref': R3
+  Package: R0603
+  PosX: 144.4371
+  PosY: -115.0366
+  Rot: 180.0
+  Side: top
+  Val: 100K
+- '# Ref': R4
+  Package: R0603
+  PosX: 137.7061
+  PosY: -95.6056
+  Rot: 180.0
+  Side: top
+  Val: 1K1
+- '# Ref': R5
+  Package: R0603
+  PosX: 140.5001
+  PosY: -115.0366
+  Rot: 180.0
+  Side: top
+  Val: 1K1
+- '# Ref': R6
+  Package: R0603
+  PosX: 137.5791
+  PosY: -93.9546
+  Rot: 180.0
+  Side: top
+  Val: 1k1
+- '# Ref': R10
+  Package: R0603
+  PosX: 144.5641
+  PosY: -106.2736
+  Rot: 180.0
+  Side: top
+  Val: 49R9_1%
+- '# Ref': R11
+  Package: R0603
+  PosX: 148.3741
+  PosY: -105.0036
+  Rot: 180.0
+  Side: top
+  Val: 49R9_1%
+- '# Ref': R12
+  Package: R0603
+  PosX: 148.3741
+  PosY: -112.6236
+  Rot: 180.0
+  Side: top
+  Val: 49R9_1%
+- '# Ref': R13
+  Package: R0603
+  PosX: 148.3741
+  PosY: -110.0836
+  Rot: 180.0
+  Side: top
+  Val: 49R9_1%
+- '# Ref': U$1
+  Package: DP_LOGO
+  PosX: 126.0221
+  PosY: -117.3226
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U1
+  Package: TQFP44
+  PosX: 158.5341
+  PosY: -106.2736
+  Rot: 180.0
+  Side: top
+  Val: ENC424J600
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C2 | 10uF | SMC_A | 166.8526 | -108.6231\
+  \ | -90.0 | top | \n| C3 | 27pf | C0603 | 169.7101 | -98.6536 | -90.0 | top | \n\
+  | C4 | 27pf | C0603 | 169.6466 | -104.3051 | 90.0 | top | \n| C5 | 0.1uF | C0603\
+  \ | 160.0581 | -97.3836 | 90.0 | top | \n| C6 | 0.1uF | C0603 | 148.3741 | -115.0366\
+  \ | 180.0 | top | \n| C7 | 0.1uF | C0603 | 148.3741 | -99.9236 | 180.0 | top | \n\
+  | C8 | 0.1uF | C0603 | 148.3741 | -102.4636 | 180.0 | top | \n| C9 | 0.01uF | C0603\
+  \ | 144.5641 | -103.7336 | 0.0 | top | \n| C10 | 0.01uF | C0603 | 144.5641 | -112.6236\
+  \ | 0.0 | top | \n| C11 | 0.1uF | C0603 | 166.9796 | -103.0986 | -90.0 | top | \n\
+  | C12 | 6.8nF | C0603 | 148.3741 | -107.5436 | 180.0 | top | \n| C13 | 6.8nF | C0603\
+  \ | 144.5641 | -101.1936 | 180.0 | top | \n| J1 | HR911105A | HR911105A | 131.2291\
+  \ | -105.0036 | 90.0 | top | \n| JP1 | nan | 1X14 | 157.8991 | -117.7036 | 0.0 |\
+  \ top | \n| JP2 | nan | 1X14 | 157.8991 | -92.3036 | 0.0 | top | \n| L1 | nan |\
+  \ WE-KI_0805_B | 152.1841 | -113.5126 | 180.0 | top | \n| PWR0 | nan | LED-805 |\
+  \ 137.5791 | -92.3036 | 90.0 | top | \n| Q2 | 25Mhz | HC49UP | 173.2153 | -102.489\
+  \ | -90.0 | top | \n| R1 | 12.4K_1% | R0603 | 148.3741 | -97.3836 | 180.0 | top\
+  \ | \n| R2 | 10R,_1/12W,_1% | R0603 | 144.5641 | -110.0836 | 180.0 | top | \n| R3\
+  \ | 100K | R0603 | 144.4371 | -115.0366 | 180.0 | top | \n| R4 | 1K1 | R0603 | 137.7061\
+  \ | -95.6056 | 180.0 | top | \n| R5 | 1K1 | R0603 | 140.5001 | -115.0366 | 180.0\
+  \ | top | \n| R6 | 1k1 | R0603 | 137.5791 | -93.9546 | 180.0 | top | \n| R10 | 49R9_1%\
+  \ | R0603 | 144.5641 | -106.2736 | 180.0 | top | \n| R11 | 49R9_1% | R0603 | 148.3741\
+  \ | -105.0036 | 180.0 | top | \n| R12 | 49R9_1% | R0603 | 148.3741 | -112.6236 |\
+  \ 180.0 | top | \n| R13 | 49R9_1% | R0603 | 148.3741 | -110.0836 | 180.0 | top |\
+  \ \n| U$1 | nan | DP_LOGO | 126.0221 | -117.3226 | 0.0 | top | \n| U1 | ENC424J600\
+  \ | TQFP44 | 158.5341 | -106.2736 | 180.0 | top | \n"
 projects_flat: projects/dangerousprototypes_breakout_boards_enc424j600_breakout/current_version/working
 repo:
   allow_forking: true

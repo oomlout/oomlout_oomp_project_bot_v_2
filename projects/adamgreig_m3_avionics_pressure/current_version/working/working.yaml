@@ -1,4 +1,265 @@
 board: pressure
+bom:
+- Id: '1'
+  Designator: C1,C2,C3,C4,C5
+  Footprint: 0603-L
+  Quantity: '5'
+  Designation: 1n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J1
+  Footprint: TFML-110-02-L-D
+  Quantity: '1'
+  Designation: WEST TOP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J2
+  Footprint: TFML-110-02-L-D
+  Quantity: '1'
+  Designation: EAST TOP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J5
+  Footprint: TFML-110-02-L-D
+  Quantity: '1'
+  Designation: SOUTH TOP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J7
+  Footprint: Connector_Molex_PicoBlade_53048-1010
+  Quantity: '1'
+  Designation: PRESSURE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R1,R2,R3,R4,R5
+  Footprint: 0603-L
+  Quantity: '5'
+  Designation: 3.74K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C6,C8
+  Footprint: 0402-L
+  Quantity: '2'
+  Designation: 1u
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: IC1
+  Footprint: DFN-6-EP-ONSEMI
+  Quantity: '1'
+  Designation: NCP380
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R7
+  Footprint: 0402-L
+  Quantity: '1'
+  Designation: 110k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: J3
+  Footprint: SFML-110-02-L-D-LC
+  Quantity: '1'
+  Designation: WEST BOT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: J4
+  Footprint: SFML-110-02-L-D-LC
+  Quantity: '1'
+  Designation: EAST BOT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: J6
+  Footprint: SFML-110-02-L-D-LC
+  Quantity: '1'
+  Designation: SOUTH BOT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: D1,D2,D3,D4,D5,D6
+  Footprint: '0402'
+  Quantity: '6'
+  Designation: ESD_DIODE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C2,C3,C4,C5\
+  \ | 0603-L | 5 | 1n |  |  | [''] | \n| 2 | J1 | TFML-110-02-L-D | 1 | WEST TOP |\
+  \  |  | [''] | \n| 3 | J2 | TFML-110-02-L-D | 1 | EAST TOP |  |  | [''] | \n| 4\
+  \ | J5 | TFML-110-02-L-D | 1 | SOUTH TOP |  |  | [''] | \n| 5 | J7 | Connector_Molex_PicoBlade_53048-1010\
+  \ | 1 | PRESSURE |  |  | [''] | \n| 6 | R1,R2,R3,R4,R5 | 0603-L | 5 | 3.74K |  |\
+  \  | [''] | \n| 7 | C6,C8 | 0402-L | 2 | 1u |  |  | [''] | \n| 8 | IC1 | DFN-6-EP-ONSEMI\
+  \ | 1 | NCP380 |  |  | [''] | \n| 9 | R7 | 0402-L | 1 | 110k |  |  | [''] | \n|\
+  \ 10 | J3 | SFML-110-02-L-D-LC | 1 | WEST BOT |  |  | [''] | \n| 11 | J4 | SFML-110-02-L-D-LC\
+  \ | 1 | EAST BOT |  |  | [''] | \n| 12 | J6 | SFML-110-02-L-D-LC | 1 | SOUTH BOT\
+  \ |  |  | [''] | \n| 13 | D1,D2,D3,D4,D5,D6 | 0402 | 6 | ESD_DIODE |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: C_Small
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_SMD:C_0603
+  Qnty: '5'
+  Ref: C1, C2, C3, C4, C5
+  Value: 1n
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402-L
+  Qnty: '2'
+  Ref: C6, C8
+  Value: 1u
+  Vendor: ''
+- Cmp name: ESD_DIODE
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '6'
+  Ref: D1, D2, D3, D4, D5, D6
+  Value: ESD_DIODE
+  Vendor: ''
+- Cmp name: NCP380
+  DNP: ''
+  Description: ''
+  Footprint: agg:DFN-6-EP-ONSEMI
+  Qnty: '1'
+  Ref: IC1
+  Value: NCP380
+  Vendor: ''
+- Cmp name: CONN_02x10
+  DNP: ''
+  Description: ''
+  Footprint: agg:TFML-110-02-L-D
+  Qnty: '1'
+  Ref: J1
+  Value: WEST TOP
+  Vendor: ''
+- Cmp name: CONN_02x10
+  DNP: ''
+  Description: ''
+  Footprint: agg:TFML-110-02-L-D
+  Qnty: '1'
+  Ref: J2
+  Value: EAST TOP
+  Vendor: ''
+- Cmp name: CONN_02x10
+  DNP: ''
+  Description: ''
+  Footprint: agg:SFML-110-02-L-D-LC
+  Qnty: '1'
+  Ref: J3
+  Value: WEST BOT
+  Vendor: ''
+- Cmp name: CONN_02x10
+  DNP: ''
+  Description: ''
+  Footprint: agg:SFML-110-02-L-D-LC
+  Qnty: '1'
+  Ref: J4
+  Value: EAST BOT
+  Vendor: ''
+- Cmp name: CONN_02x10
+  DNP: ''
+  Description: ''
+  Footprint: agg:TFML-110-02-L-D
+  Qnty: '1'
+  Ref: J5
+  Value: SOUTH TOP
+  Vendor: ''
+- Cmp name: CONN_02x10
+  DNP: ''
+  Description: ''
+  Footprint: agg:SFML-110-02-L-D-LC
+  Qnty: '1'
+  Ref: J6
+  Value: SOUTH BOT
+  Vendor: ''
+- Cmp name: CONN_02x05
+  DNP: ''
+  Description: ''
+  Footprint: Connectors_Molex:Connector_Molex_PicoBlade_53048-1010
+  Qnty: '1'
+  Ref: J7
+  Value: PRESSURE
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0603
+  Qnty: '5'
+  Ref: R1, R2, R3, R4, R5
+  Value: 3.74K
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402-L
+  Qnty: '1'
+  Ref: R7
+  Value: 110k
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3, C4, C5 | 5 | 1n | C_Small | Capacitors_SMD:C_0603 |  |  |  | \n| C6, C8 |\
+  \ 2 | 1u | C_Small | agg:0402-L |  |  |  | \n| D1, D2, D3, D4, D5, D6 | 6 | ESD_DIODE\
+  \ | ESD_DIODE | agg:0402 |  |  |  | \n| IC1 | 1 | NCP380 | NCP380 | agg:DFN-6-EP-ONSEMI\
+  \ |  |  |  | \n| J1 | 1 | WEST TOP | CONN_02x10 | agg:TFML-110-02-L-D |  |  |  |\
+  \ \n| J2 | 1 | EAST TOP | CONN_02x10 | agg:TFML-110-02-L-D |  |  |  | \n| J3 | 1\
+  \ | WEST BOT | CONN_02x10 | agg:SFML-110-02-L-D-LC |  |  |  | \n| J4 | 1 | EAST\
+  \ BOT | CONN_02x10 | agg:SFML-110-02-L-D-LC |  |  |  | \n| J5 | 1 | SOUTH TOP |\
+  \ CONN_02x10 | agg:TFML-110-02-L-D |  |  |  | \n| J6 | 1 | SOUTH BOT | CONN_02x10\
+  \ | agg:SFML-110-02-L-D-LC |  |  |  | \n| J7 | 1 | PRESSURE | CONN_02x05 | Connectors_Molex:Connector_Molex_PicoBlade_53048-1010\
+  \ |  |  |  | \n| R1, R2, R3, R4, R5 | 5 | 3.74K | R | Resistors_SMD:R_0603 |  |\
+  \  |  | \n| R7 | 1 | 110k | R | agg:0402-L |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_m3_avionics_pressure/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_m3_avionics_pressure/current_version/working/working.kicad_pcb
@@ -6,6 +267,221 @@ file_repo_bom_xlsx_flat: projects/adamgreig_m3_avionics_pressure/current_version
 file_sch_flat: projects/adamgreig_m3_avionics_pressure/current_version/working/working.sch
 id: adamgreig_m3_avionics_pressure
 name: m3_avionics
+position_bottom:
+- '# Ref': D1
+  Package: '0402'
+  PosX: 103.5
+  PosY: -90.45
+  Rot: -90.0
+  Side: bottom
+  Val: ESD_DIODE
+- '# Ref': D2
+  Package: '0402'
+  PosX: 102.25
+  PosY: -90.45
+  Rot: -90.0
+  Side: bottom
+  Val: ESD_DIODE
+- '# Ref': D3
+  Package: '0402'
+  PosX: 101.0
+  PosY: -90.45
+  Rot: -90.0
+  Side: bottom
+  Val: ESD_DIODE
+- '# Ref': D4
+  Package: '0402'
+  PosX: 99.75
+  PosY: -90.45
+  Rot: -90.0
+  Side: bottom
+  Val: ESD_DIODE
+- '# Ref': D5
+  Package: '0402'
+  PosX: 98.5
+  PosY: -90.45
+  Rot: -90.0
+  Side: bottom
+  Val: ESD_DIODE
+- '# Ref': D6
+  Package: '0402'
+  PosX: 105.35
+  PosY: -90.45
+  Rot: -90.0
+  Side: bottom
+  Val: ESD_DIODE
+- '# Ref': J3
+  Package: SFML-110-02-L-D-LC
+  PosX: 85.0
+  PosY: -100.0
+  Rot: -90.0
+  Side: bottom
+  Val: WEST_BOT
+- '# Ref': J4
+  Package: SFML-110-02-L-D-LC
+  PosX: 115.0
+  PosY: -100.0
+  Rot: -90.0
+  Side: bottom
+  Val: EAST_BOT
+- '# Ref': J6
+  Package: SFML-110-02-L-D-LC
+  PosX: 100.0
+  PosY: -115.0
+  Rot: 0.0
+  Side: bottom
+  Val: SOUTH_BOT
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| D1 | ESD_DIODE | 0402 | 103.5 |\
+  \ -90.45 | -90.0 | bottom | \n| D2 | ESD_DIODE | 0402 | 102.25 | -90.45 | -90.0\
+  \ | bottom | \n| D3 | ESD_DIODE | 0402 | 101.0 | -90.45 | -90.0 | bottom | \n| D4\
+  \ | ESD_DIODE | 0402 | 99.75 | -90.45 | -90.0 | bottom | \n| D5 | ESD_DIODE | 0402\
+  \ | 98.5 | -90.45 | -90.0 | bottom | \n| D6 | ESD_DIODE | 0402 | 105.35 | -90.45\
+  \ | -90.0 | bottom | \n| J3 | WEST_BOT | SFML-110-02-L-D-LC | 85.0 | -100.0 | -90.0\
+  \ | bottom | \n| J4 | EAST_BOT | SFML-110-02-L-D-LC | 115.0 | -100.0 | -90.0 | bottom\
+  \ | \n| J6 | SOUTH_BOT | SFML-110-02-L-D-LC | 100.0 | -115.0 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0603-L
+  PosX: 105.3
+  PosY: -108.3
+  Rot: 180.0
+  Side: top
+  Val: 1n
+- '# Ref': C2
+  Package: 0603-L
+  PosX: 96.8
+  PosY: -108.3
+  Rot: 180.0
+  Side: top
+  Val: 1n
+- '# Ref': C3
+  Package: 0603-L
+  PosX: 102.45
+  PosY: -108.3
+  Rot: 180.0
+  Side: top
+  Val: 1n
+- '# Ref': C4
+  Package: 0603-L
+  PosX: 94.0
+  PosY: -108.3
+  Rot: 180.0
+  Side: top
+  Val: 1n
+- '# Ref': C5
+  Package: 0603-L
+  PosX: 99.6
+  PosY: -108.3
+  Rot: 180.0
+  Side: top
+  Val: 1n
+- '# Ref': C6
+  Package: 0402-L
+  PosX: 90.4
+  PosY: -101.2
+  Rot: 0.0
+  Side: top
+  Val: 1u
+- '# Ref': C8
+  Package: 0402-L
+  PosX: 93.2
+  PosY: -101.2
+  Rot: 180.0
+  Side: top
+  Val: 1u
+- '# Ref': IC1
+  Package: DFN-6-EP-ONSEMI
+  PosX: 91.8
+  PosY: -99.35
+  Rot: 180.0
+  Side: top
+  Val: NCP380
+- '# Ref': J1
+  Package: TFML-110-02-L-D
+  PosX: 85.0
+  PosY: -100.0
+  Rot: -90.0
+  Side: top
+  Val: WEST_TOP
+- '# Ref': J2
+  Package: TFML-110-02-L-D
+  PosX: 115.0
+  PosY: -100.0
+  Rot: -90.0
+  Side: top
+  Val: EAST_TOP
+- '# Ref': J5
+  Package: TFML-110-02-L-D
+  PosX: 100.0
+  PosY: -115.0
+  Rot: 0.0
+  Side: top
+  Val: SOUTH_TOP
+- '# Ref': J7
+  Package: Connector_Molex_PicoBlade_53048-1010
+  PosX: 106.0
+  PosY: -92.0
+  Rot: 180.0
+  Side: top
+  Val: PRESSURE
+- '# Ref': R1
+  Package: 0603-L
+  PosX: 106.1
+  PosY: -106.0
+  Rot: 90.0
+  Side: top
+  Val: 3.74K
+- '# Ref': R2
+  Package: 0603-L
+  PosX: 97.55
+  PosY: -106.0
+  Rot: 90.0
+  Side: top
+  Val: 3.74K
+- '# Ref': R3
+  Package: 0603-L
+  PosX: 103.2
+  PosY: -106.0
+  Rot: 90.0
+  Side: top
+  Val: 3.74K
+- '# Ref': R4
+  Package: 0603-L
+  PosX: 94.75
+  PosY: -106.0
+  Rot: 90.0
+  Side: top
+  Val: 3.74K
+- '# Ref': R5
+  Package: 0603-L
+  PosX: 100.35
+  PosY: -106.0
+  Rot: 90.0
+  Side: top
+  Val: 3.74K
+- '# Ref': R7
+  Package: 0402-L
+  PosX: 93.8183
+  PosY: -99.0
+  Rot: 90.0
+  Side: top
+  Val: 110k
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 1n | 0603-L | 105.3 | -108.3 |\
+  \ 180.0 | top | \n| C2 | 1n | 0603-L | 96.8 | -108.3 | 180.0 | top | \n| C3 | 1n\
+  \ | 0603-L | 102.45 | -108.3 | 180.0 | top | \n| C4 | 1n | 0603-L | 94.0 | -108.3\
+  \ | 180.0 | top | \n| C5 | 1n | 0603-L | 99.6 | -108.3 | 180.0 | top | \n| C6 |\
+  \ 1u | 0402-L | 90.4 | -101.2 | 0.0 | top | \n| C8 | 1u | 0402-L | 93.2 | -101.2\
+  \ | 180.0 | top | \n| IC1 | NCP380 | DFN-6-EP-ONSEMI | 91.8 | -99.35 | 180.0 | top\
+  \ | \n| J1 | WEST_TOP | TFML-110-02-L-D | 85.0 | -100.0 | -90.0 | top | \n| J2 |\
+  \ EAST_TOP | TFML-110-02-L-D | 115.0 | -100.0 | -90.0 | top | \n| J5 | SOUTH_TOP\
+  \ | TFML-110-02-L-D | 100.0 | -115.0 | 0.0 | top | \n| J7 | PRESSURE | Connector_Molex_PicoBlade_53048-1010\
+  \ | 106.0 | -92.0 | 180.0 | top | \n| R1 | 3.74K | 0603-L | 106.1 | -106.0 | 90.0\
+  \ | top | \n| R2 | 3.74K | 0603-L | 97.55 | -106.0 | 90.0 | top | \n| R3 | 3.74K\
+  \ | 0603-L | 103.2 | -106.0 | 90.0 | top | \n| R4 | 3.74K | 0603-L | 94.75 | -106.0\
+  \ | 90.0 | top | \n| R5 | 3.74K | 0603-L | 100.35 | -106.0 | 90.0 | top | \n| R7\
+  \ | 110k | 0402-L | 93.8183 | -99.0 | 90.0 | top | \n"
 projects_flat: projects/adamgreig_m3_avionics_pressure/current_version/working
 repo:
   allow_forking: true

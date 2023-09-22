@@ -1,10 +1,547 @@
 board: el_driver
+bom:
+- Id: '1'
+  Designator: C1
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C2
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C3
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 4.7nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C5,C4
+  Footprint: C_0603_1608Metric
+  Quantity: '2'
+  Designation: 1nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C6
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 10nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C7
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 47nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: D1
+  Footprint: D_SOD-123
+  Quantity: '1'
+  Designation: SS24FL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: D2
+  Footprint: LED_0603_1608Metric
+  Quantity: '1'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: FID1,FID2
+  Footprint: Fiducial_0.5mm_Mask1mm
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: J1
+  Footprint: JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: J2
+  Footprint: JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x03
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: Q1
+  Footprint: SOT-323_SC-70
+  Quantity: '1'
+  Designation: BSS214NW
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: R1
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: '220'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: R2
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: '39.2'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: R3
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 100k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: R4
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: TR1
+  Footprint: Transformer_42XL_EI-14
+  Quantity: '1'
+  Designation: Transformer-EI14
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: U1
+  Footprint: SOIC-8_3.9x4.9mm_P1.27mm
+  Quantity: '1'
+  Designation: NE555D
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1\
+  \ | C_0603_1608Metric | 1 | 10uF |  |  | [''] | \n| 2 | C2 | C_0603_1608Metric |\
+  \ 1 | 1uF |  |  | [''] | \n| 3 | C3 | C_0603_1608Metric | 1 | 4.7nF |  |  | ['']\
+  \ | \n| 4 | C5,C4 | C_0603_1608Metric | 2 | 1nF |  |  | [''] | \n| 5 | C6 | C_0603_1608Metric\
+  \ | 1 | 10nF |  |  | [''] | \n| 6 | C7 | C_0603_1608Metric | 1 | 47nF |  |  | ['']\
+  \ | \n| 7 | D1 | D_SOD-123 | 1 | SS24FL |  |  | [''] | \n| 8 | D2 | LED_0603_1608Metric\
+  \ | 1 | LED |  |  | [''] | \n| 9 | FID1,FID2 | Fiducial_0.5mm_Mask1mm | 2 | FIDUCIAL_1MM\
+  \ |  |  | [''] | \n| 10 | J1 | JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical | 1 | Conn_01x02\
+  \ |  |  | [''] | \n| 11 | J2 | JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical | 1 | Conn_01x03\
+  \ |  |  | [''] | \n| 12 | Q1 | SOT-323_SC-70 | 1 | BSS214NW |  |  | [''] | \n| 13\
+  \ | R1 | R_0603_1608Metric | 1 | 220 |  |  | [''] | \n| 14 | R2 | R_0603_1608Metric\
+  \ | 1 | 39.2 |  |  | [''] | \n| 15 | R3 | R_0603_1608Metric | 1 | 100k |  |  | ['']\
+  \ | \n| 16 | R4 | R_0603_1608Metric | 1 | 10k |  |  | [''] | \n| 17 | TR1 | Transformer_42XL_EI-14\
+  \ | 1 | Transformer-EI14 |  |  | [''] | \n| 18 | U1 | SOIC-8_3.9x4.9mm_P1.27mm |\
+  \ 1 | NE555D |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C1
+  Value: 10uF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C2
+  Value: 1uF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C3
+  Value: 4.7nF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '2'
+  Ref: C4, C5
+  Value: 1nF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C6
+  Value: 10nF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C7
+  Value: 47nF
+  Vendor: ''
+- Cmp name: SS24FL-Aaron
+  DNP: ''
+  Description: ''
+  Footprint: Diode_SMD:D_SOD-123
+  Qnty: '1'
+  Ref: D1
+  Value: type="I" model="SS24FL" lib=""
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: LED_SMD:LED_0603_1608Metric
+  Qnty: '1'
+  Ref: D2
+  Value: LED
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM-fiducial
+  DNP: ''
+  Description: ''
+  Footprint: Fiducial:Fiducial_0.5mm_Mask1mm
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: MountingHole_Pad
+  DNP: ''
+  Description: Mounting Hole with connection
+  Footprint: MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad
+  Qnty: '4'
+  Ref: H1, H2, H3, H4
+  Value: MountingHole_Pad
+  Vendor: ''
+- Cmp name: Conn_01x02
+  DNP: ''
+  Description: Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_01x02
+  Vendor: ''
+- Cmp name: Conn_01x03
+  DNP: ''
+  Description: Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical
+  Qnty: '1'
+  Ref: J2
+  Value: Conn_01x03
+  Vendor: ''
+- Cmp name: BSS214NW
+  DNP: ''
+  Description: 20V Vds, 1.5A Id, N-Channel MOSFET, SOT-323
+  Footprint: Package_TO_SOT_SMD:SOT-323_SC-70
+  Qnty: '1'
+  Ref: Q1
+  Value: BSS214NW
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R1
+  Value: '220'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R2
+  Value: '39.2'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R3
+  Value: 100k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R4
+  Value: 10k
+  Vendor: ''
+- Cmp name: Transformer-EI14-Aaron
+  DNP: ''
+  Description: ''
+  Footprint: Aaron:Transformer_42XL_EI-14
+  Qnty: '1'
+  Ref: TR1
+  Value: Transformer-EI14
+  Vendor: ''
+- Cmp name: NE555D
+  DNP: ''
+  Description: Precision Timers, 555 compatible, SOIC-8
+  Footprint: Package_SO:SOIC-8_3.9x4.9mm_P1.27mm
+  Qnty: '1'
+  Ref: U1
+  Value: NE555D
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 10uF | C | Capacitor_SMD:C_0603_1608Metric | Unpolarized capacitor |  |  |\
+  \ \n| C2 | 1 | 1uF | C | Capacitor_SMD:C_0603_1608Metric | Unpolarized capacitor\
+  \ |  |  | \n| C3 | 1 | 4.7nF | C | Capacitor_SMD:C_0603_1608Metric | Unpolarized\
+  \ capacitor |  |  | \n| C4, C5 | 2 | 1nF | C | Capacitor_SMD:C_0603_1608Metric |\
+  \ Unpolarized capacitor |  |  | \n| C6 | 1 | 10nF | C | Capacitor_SMD:C_0603_1608Metric\
+  \ | Unpolarized capacitor |  |  | \n| C7 | 1 | 47nF | C | Capacitor_SMD:C_0603_1608Metric\
+  \ | Unpolarized capacitor |  |  | \n| D1 | 1 | type=\"I\" model=\"SS24FL\" lib=\"\
+  \" | SS24FL-Aaron | Diode_SMD:D_SOD-123 |  |  |  | \n| D2 | 1 | LED | LED | LED_SMD:LED_0603_1608Metric\
+  \ | Light emitting diode |  |  | \n| FID1, FID2 | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM-fiducial\
+  \ | Fiducial:Fiducial_0.5mm_Mask1mm |  |  |  | \n| H1, H2, H3, H4 | 4 | MountingHole_Pad\
+  \ | MountingHole_Pad | MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad | Mounting\
+  \ Hole with connection |  |  | \n| J1 | 1 | Conn_01x02 | Conn_01x02 | Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical\
+  \ | Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J2 | 1 | Conn_01x03 | Conn_01x03 | Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical\
+  \ | Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| Q1 | 1 | BSS214NW | BSS214NW | Package_TO_SOT_SMD:SOT-323_SC-70 |\
+  \ 20V Vds, 1.5A Id, N-Channel MOSFET, SOT-323 |  |  | \n| R1 | 1 | 220 | R | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor |  |  | \n| R2 | 1 | 39.2 | R | Resistor_SMD:R_0603_1608Metric | Resistor\
+  \ |  |  | \n| R3 | 1 | 100k | R | Resistor_SMD:R_0603_1608Metric | Resistor |  |\
+  \  | \n| R4 | 1 | 10k | R | Resistor_SMD:R_0603_1608Metric | Resistor |  |  | \n\
+  | TR1 | 1 | Transformer-EI14 | Transformer-EI14-Aaron | Aaron:Transformer_42XL_EI-14\
+  \ |  |  |  | \n| U1 | 1 | NE555D | NE555D | Package_SO:SOIC-8_3.9x4.9mm_P1.27mm\
+  \ | Precision Timers, 555 compatible, SOIC-8 |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/aaronw2_el_driver_el_driver/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/aaronw2_el_driver_el_driver/current_version/working/working.kicad_pcb
 file_sch_flat: projects/aaronw2_el_driver_el_driver/current_version/working/working.sch
 id: aaronw2_el_driver_el_driver
 name: el_driver
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_0603_1608Metric
+  PosX: 177.9
+  PosY: -91.2
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C2
+  Package: C_0603_1608Metric
+  PosX: 177.9
+  PosY: -88.2
+  Rot: 90.0
+  Side: top
+  Val: 1uF
+- '# Ref': C3
+  Package: C_0603_1608Metric
+  PosX: 186.5
+  PosY: -81.5
+  Rot: 0.0
+  Side: top
+  Val: 4.7nF
+- '# Ref': C4
+  Package: C_0603_1608Metric
+  PosX: 183.5
+  PosY: -80.0
+  Rot: 180.0
+  Side: top
+  Val: 1nF
+- '# Ref': C5
+  Package: C_0603_1608Metric
+  PosX: 183.5
+  PosY: -81.5
+  Rot: 180.0
+  Side: top
+  Val: 1nF
+- '# Ref': C6
+  Package: C_0603_1608Metric
+  PosX: 180.375
+  PosY: -93.6
+  Rot: 0.0
+  Side: top
+  Val: 10nF
+- '# Ref': C7
+  Package: C_0603_1608Metric
+  PosX: 183.0
+  PosY: -83.6
+  Rot: 0.0
+  Side: top
+  Val: 47nF
+- '# Ref': D1
+  Package: D_SOD-123
+  PosX: 185.7
+  PosY: -90.2
+  Rot: 90.0
+  Side: top
+  Val: SS24FL
+- '# Ref': D2
+  Package: LED_0603_1608Metric
+  PosX: 173.1
+  PosY: -93.6
+  Rot: 180.0
+  Side: top
+  Val: LED
+- '# Ref': FID1
+  Package: Fiducial_0.5mm_Mask1mm
+  PosX: 178.0
+  PosY: -80.0
+  Rot: 180.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID2
+  Package: Fiducial_0.5mm_Mask1mm
+  PosX: 200.5
+  PosY: -97.5
+  Rot: 180.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': J1
+  Package: JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical
+  PosX: 204.5
+  PosY: -87.8
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J2
+  Package: JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical
+  PosX: 173.8
+  PosY: -90.3
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x03
+- '# Ref': Q1
+  Package: SOT-323_SC-70
+  PosX: 186.3
+  PosY: -85.1
+  Rot: 0.0
+  Side: top
+  Val: BSS214NW
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 176.2
+  PosY: -93.6
+  Rot: 0.0
+  Side: top
+  Val: '220'
+- '# Ref': R2
+  Package: R_0603_1608Metric
+  PosX: 186.5
+  PosY: -83.0
+  Rot: 180.0
+  Side: top
+  Val: '39.2'
+- '# Ref': R3
+  Package: R_0603_1608Metric
+  PosX: 180.0
+  PosY: -83.6
+  Rot: 0.0
+  Side: top
+  Val: 100k
+- '# Ref': R4
+  Package: R_0603_1608Metric
+  PosX: 183.4
+  PosY: -93.6
+  Rot: 180.0
+  Side: top
+  Val: 10k
+- '# Ref': TR1
+  Package: Transformer_42XL_EI-14
+  PosX: 194.6
+  PosY: -88.5
+  Rot: 0.0
+  Side: top
+  Val: Transformer-EI14
+- '# Ref': U1
+  Package: SOIC-8_3.9x4.9mm_P1.27mm
+  PosX: 181.6
+  PosY: -88.5
+  Rot: -90.0
+  Side: top
+  Val: NE555D
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 10uF | C_0603_1608Metric | 177.9\
+  \ | -91.2 | -90.0 | top | \n| C2 | 1uF | C_0603_1608Metric | 177.9 | -88.2 | 90.0\
+  \ | top | \n| C3 | 4.7nF | C_0603_1608Metric | 186.5 | -81.5 | 0.0 | top | \n| C4\
+  \ | 1nF | C_0603_1608Metric | 183.5 | -80.0 | 180.0 | top | \n| C5 | 1nF | C_0603_1608Metric\
+  \ | 183.5 | -81.5 | 180.0 | top | \n| C6 | 10nF | C_0603_1608Metric | 180.375 |\
+  \ -93.6 | 0.0 | top | \n| C7 | 47nF | C_0603_1608Metric | 183.0 | -83.6 | 0.0 |\
+  \ top | \n| D1 | SS24FL | D_SOD-123 | 185.7 | -90.2 | 90.0 | top | \n| D2 | LED\
+  \ | LED_0603_1608Metric | 173.1 | -93.6 | 180.0 | top | \n| FID1 | FIDUCIAL_1MM\
+  \ | Fiducial_0.5mm_Mask1mm | 178.0 | -80.0 | 180.0 | top | \n| FID2 | FIDUCIAL_1MM\
+  \ | Fiducial_0.5mm_Mask1mm | 200.5 | -97.5 | 180.0 | top | \n| J1 | Conn_01x02 |\
+  \ JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical | 204.5 | -87.8 | -90.0 | top | \n| J2 |\
+  \ Conn_01x03 | JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical | 173.8 | -90.3 | 90.0 | top\
+  \ | \n| Q1 | BSS214NW | SOT-323_SC-70 | 186.3 | -85.1 | 0.0 | top | \n| R1 | 220\
+  \ | R_0603_1608Metric | 176.2 | -93.6 | 0.0 | top | \n| R2 | 39.2 | R_0603_1608Metric\
+  \ | 186.5 | -83.0 | 180.0 | top | \n| R3 | 100k | R_0603_1608Metric | 180.0 | -83.6\
+  \ | 0.0 | top | \n| R4 | 10k | R_0603_1608Metric | 183.4 | -93.6 | 180.0 | top |\
+  \ \n| TR1 | Transformer-EI14 | Transformer_42XL_EI-14 | 194.6 | -88.5 | 0.0 | top\
+  \ | \n| U1 | NE555D | SOIC-8_3.9x4.9mm_P1.27mm | 181.6 | -88.5 | -90.0 | top | \n"
 projects_flat: projects/aaronw2_el_driver_el_driver/current_version/working
 repo:
   allow_forking: true

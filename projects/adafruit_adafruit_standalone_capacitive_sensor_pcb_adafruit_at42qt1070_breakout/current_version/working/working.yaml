@@ -1,4 +1,115 @@
 board: adafruit_at42qt1070_breakout
+bom_schematic:
+- Cmp name: CAP_CERAMIC_0805
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805
+  Qnty: '1'
+  Ref: C1
+  Value: 22nF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC_0805
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805
+  Qnty: '1'
+  Ref: C3
+  Value: "0.1\xC2\xB5F"
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: HEADER-1X476MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X04_ROUND_76
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X476MIL
+  Vendor: ''
+- Cmp name: LEDPLCC2_REV
+  DNP: ''
+  Description: ''
+  Footprint: working:PLCC2_REVMOUNT
+  Qnty: '1'
+  Ref: LED1
+  Value: LS T77K-J1L2-1-0-2-R18-Z
+  Vendor: ''
+- Cmp name: RESISTOR_0805
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805
+  Qnty: '1'
+  Ref: R1
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_0805
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805
+  Qnty: '1'
+  Ref: R2
+  Value: 1K
+  Vendor: ''
+- Cmp name: SOLDERJUMPERCLOSED
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_CLOSEDWIRE
+  Qnty: '1'
+  Ref: SJ1
+  Value: LED
+  Vendor: ''
+- Cmp name: SOLDERJUMPER_2WAY
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  Qnty: '1'
+  Ref: SJ2
+  Value: MODE
+  Vendor: ''
+- Cmp name: SWITCH_CAPTOUCHATMELAT42QT
+  DNP: ''
+  Description: ''
+  Footprint: working:CAPTOUCH_SIMPLE_12.5MM
+  Qnty: '1'
+  Ref: SW1
+  Value: Cap pad
+  Vendor: ''
+- Cmp name: AT42QT1010/1
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-6
+  Qnty: '1'
+  Ref: U1
+  Value: AT42QT1010
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '4'
+  Ref: U$6, U$9, U$10, U$11
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 22nF | CAP_CERAMIC_0805 | working:_0805 |  |  |  | \n| C3 | 1 | 0.1\xC2\xB5\
+  F | CAP_CERAMIC_0805 | working:_0805 |  |  |  | \n| FID1, FID2 | 2 | FIDUCIAL\"\"\
+  \ | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | \n| JP1 | 1 |\
+  \ HEADER-1X476MIL | HEADER-1X476MIL | working:1X04_ROUND_76 |  |  |  | \n| LED1\
+  \ | 1 | LS T77K-J1L2-1-0-2-R18-Z | LEDPLCC2_REV | working:PLCC2_REVMOUNT |  |  |\
+  \  | \n| R1 | 1 | 10K | RESISTOR_0805 | working:_0805 |  |  |  | \n| R2 | 1 | 1K\
+  \ | RESISTOR_0805 | working:_0805 |  |  |  | \n| SJ1 | 1 | LED | SOLDERJUMPERCLOSED\
+  \ | working:SOLDERJUMPER_CLOSEDWIRE |  |  |  | \n| SJ2 | 1 | MODE | SOLDERJUMPER_2WAY\
+  \ | working:SOLDERJUMPER_2WAY_OPEN_NOPASTE |  |  |  | \n| SW1 | 1 | Cap pad | SWITCH_CAPTOUCHATMELAT42QT\
+  \ | working:CAPTOUCH_SIMPLE_12.5MM |  |  |  | \n| U1 | 1 | AT42QT1010 | AT42QT1010/1\
+  \ | working:SOT23-6 |  |  |  | \n| U$6, U$9, U$10, U$11 | 4 | MOUNTINGHOLE2.5 |\
+  \ MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_standalone_capacitive_sensor_pcb_adafruit_at42qt1070_breakout/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_standalone_capacitive_sensor_pcb_adafruit_at42qt1070_breakout/current_version/working/working.sch

@@ -1,9 +1,449 @@
 board: adafruit_st25dv16
+bom:
+- Id: '1'
+  Designator: '@HOLE0,@HOLE1'
+  Footprint: ''
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: CONN3,CONN4
+  Footprint: JST_SH4
+  Quantity: '2'
+  Designation: STEMMA_I2C_QT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$19,U$21
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: FID3,FID4
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: D1
+  Footprint: CHIPLED_0603_NOOUTLINE
+  Quantity: '1'
+  Designation: GREEN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C1
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R3
+  Footprint: RESPACK_4X0603
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C3
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: ANT1
+  Footprint: NFCANT_25X15
+  Quantity: '1'
+  Designation: NFC_ANTENNA_25X15
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: JP1
+  Footprint: 1X06_ROUND_70
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U$22
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: RF1
+  Footprint: TSSOP8-4.4MM
+  Quantity: '1'
+  Designation: ST25DVXX_TSSOP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U$1
+  Footprint: ADAFRUIT_TEXT_20MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: U$31,U$30
+  Footprint: STEMMAQT
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U$25
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | @HOLE0,@HOLE1\
+  \ |  | 2 |  |  |  | [''] | \n| 2 | CONN3,CONN4 | JST_SH4 | 2 | STEMMA_I2C_QT | \
+  \ |  | [''] | \n| 3 | U$19,U$21 | MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5\
+  \ |  |  | [''] | \n| 4 | FID3,FID4 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | ['']\
+  \ | \n| 5 | D1 | CHIPLED_0603_NOOUTLINE | 1 | GREEN |  |  | [''] | \n| 6 | C1 |\
+  \ 0603-NO | 1 | 0.1uF |  |  | [''] | \n| 7 | R3 | RESPACK_4X0603 | 1 | 10K |  |\
+  \  | [''] | \n| 8 | C3 | 0805-NO | 1 | 10uF |  |  | [''] | \n| 9 | ANT1 | NFCANT_25X15\
+  \ | 1 | NFC_ANTENNA_25X15 |  |  | [''] | \n| 10 | JP1 | 1X06_ROUND_70 | 1 |  | \
+  \ |  | [''] | \n| 11 | U$22 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n| 12 | RF1\
+  \ | TSSOP8-4.4MM | 1 | ST25DVXX_TSSOP |  |  | [''] | \n| 13 | U$1 | ADAFRUIT_TEXT_20MM\
+  \ | 1 |  |  |  | [''] | \n| 14 | U$31,U$30 | STEMMAQT | 2 |  |  |  | [''] | \n|\
+  \ 15 | U$25 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: NFC_ANTENNA_25X15
+  DNP: ''
+  Description: ''
+  Footprint: working:NFCANT_25X15
+  Qnty: '1'
+  Ref: ANT1
+  Value: NFC_ANTENNA_25X15
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: C1
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C3
+  Value: 10uF
+  Vendor: ''
+- Cmp name: STEMMA_I2C_QT
+  DNP: ''
+  Description: ''
+  Footprint: working:JST_SH4
+  Qnty: '2'
+  Ref: CONN3, CONN4
+  Value: STEMMA_I2C_QT
+  Vendor: ''
+- Cmp name: LED0603_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0603_NOOUTLINE
+  Qnty: '1'
+  Ref: D1
+  Value: GREEN
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID3, FID4
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: HEADER-1X670MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06_ROUND_70
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X670MIL
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603
+  Qnty: '1'
+  Ref: R3
+  Value: 10K
+  Vendor: ''
+- Cmp name: ST25DVXX_TSSOP
+  DNP: ''
+  Description: ''
+  Footprint: working:TSSOP8-4.4MM
+  Qnty: '1'
+  Ref: RF1
+  Value: ST25DVXX_TSSOP
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '2'
+  Ref: U$19, U$21
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| ANT1\
+  \ | 1 | NFC_ANTENNA_25X15 | NFC_ANTENNA_25X15 | working:NFCANT_25X15 |  |  |  |\
+  \ \n| C1 | 1 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| C3 |\
+  \ 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| CONN3, CONN4\
+  \ | 2 | STEMMA_I2C_QT | STEMMA_I2C_QT | working:JST_SH4 |  |  |  | \n| D1 | 1 |\
+  \ GREEN | LED0603_NOOUTLINE | working:CHIPLED_0603_NOOUTLINE |  |  |  | \n| FID3,\
+  \ FID4 | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| JP1\
+  \ | 1 | HEADER-1X670MIL | HEADER-1X670MIL | working:1X06_ROUND_70 |  |  |  | \n\
+  | R3 | 1 | 10K | RESISTOR_4PACK | working:RESPACK_4X0603 |  |  |  | \n| RF1 | 1\
+  \ | ST25DVXX_TSSOP | ST25DVXX_TSSOP | working:TSSOP8-4.4MM |  |  |  | \n| U$19,\
+  \ U$21 | 2 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_st25dv16_pcb_adafruit_st25dv16/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_st25dv16_pcb_adafruit_st25dv16/current_version/working/working.sch
 id: adafruit_adafruit_st25dv16_pcb_adafruit_st25dv16
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$19
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$21
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '20.319999999999993'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$19 | m3 | \n| 20.319999999999993 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$21 | m3 | \n"
 name: adafruit_st25dv16_pcb
+position_bottom:
+- '# Ref': U$1
+  Package: ADAFRUIT_TEXT_20MM
+  PosX: 158.6611
+  PosY: -106.0196
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$25
+  Package: PCBFEAT-REV-040
+  PosX: 141.1351
+  PosY: -90.7796
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$30
+  Package: STEMMAQT
+  PosX: 158.2801
+  PosY: -116.4336
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$31
+  Package: STEMMAQT
+  PosX: 138.7221
+  PosY: -107.5436
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$1 | nan | ADAFRUIT_TEXT_20MM |\
+  \ 158.6611 | -106.0196 | 180.0 | bottom | \n| U$25 | nan | PCBFEAT-REV-040 | 141.1351\
+  \ | -90.7796 | 180.0 | bottom | \n| U$30 | nan | STEMMAQT | 158.2801 | -116.4336\
+  \ | 90.0 | bottom | \n| U$31 | nan | STEMMAQT | 138.7221 | -107.5436 | -90.0 | bottom\
+  \ | \n"
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 138.3411
+  PosY: -91.1606
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 158.6611
+  PosY: -91.1606
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': ANT1
+  Package: NFCANT_25X15
+  PosX: 148.5011
+  PosY: -100.6856
+  Rot: 0.0
+  Side: top
+  Val: NFC_ANTENNA_25X15
+- '# Ref': C1
+  Package: 0603-NO
+  PosX: 150.7871
+  PosY: -113.3856
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 143.0401
+  PosY: -113.3856
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': CONN3
+  Package: JST_SH4
+  PosX: 158.6611
+  PosY: -112.6236
+  Rot: 90.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': CONN4
+  Package: JST_SH4
+  PosX: 138.3411
+  PosY: -112.6236
+  Rot: -90.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': D1
+  Package: CHIPLED_0603_NOOUTLINE
+  PosX: 150.7871
+  PosY: -115.0366
+  Rot: -90.0
+  Side: top
+  Val: GREEN
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 143.1671
+  PosY: -110.2106
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID4
+  Package: FIDUCIAL_1MM
+  PosX: 155.9941
+  PosY: -119.8626
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': JP1
+  Package: 1X06_ROUND_70
+  PosX: 148.5011
+  PosY: -118.3386
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': R3
+  Package: RESPACK_4X0603
+  PosX: 146.7231
+  PosY: -114.4016
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': RF1
+  Package: TSSOP8-4.4MM
+  PosX: 150.7871
+  PosY: -111.0996
+  Rot: 0.0
+  Side: top
+  Val: ST25DVXX_TSSOP
+- '# Ref': U$19
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 138.3411
+  PosY: -118.3386
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$21
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 158.6611
+  PosY: -118.3386
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$22
+  Package: ADAFRUIT_3.5MM
+  PosX: 146.5961
+  PosY: -102.5906
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 138.3411 | -91.1606\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 158.6611 | -91.1606 | 0.0 | top | \n| ANT1\
+  \ | NFC_ANTENNA_25X15 | NFCANT_25X15 | 148.5011 | -100.6856 | 0.0 | top | \n| C1\
+  \ | 0.1uF | 0603-NO | 150.7871 | -113.3856 | 180.0 | top | \n| C3 | 10uF | 0805-NO\
+  \ | 143.0401 | -113.3856 | -90.0 | top | \n| CONN3 | STEMMA_I2C_QT | JST_SH4 | 158.6611\
+  \ | -112.6236 | 90.0 | top | \n| CONN4 | STEMMA_I2C_QT | JST_SH4 | 138.3411 | -112.6236\
+  \ | -90.0 | top | \n| D1 | GREEN | CHIPLED_0603_NOOUTLINE | 150.7871 | -115.0366\
+  \ | -90.0 | top | \n| FID3 | FIDUCIAL_1MM | FIDUCIAL_1MM | 143.1671 | -110.2106\
+  \ | 0.0 | top | \n| FID4 | FIDUCIAL_1MM | FIDUCIAL_1MM | 155.9941 | -119.8626 |\
+  \ 0.0 | top | \n| JP1 | nan | 1X06_ROUND_70 | 148.5011 | -118.3386 | 0.0 | top |\
+  \ \n| R3 | 10K | RESPACK_4X0603 | 146.7231 | -114.4016 | 180.0 | top | \n| RF1 |\
+  \ ST25DVXX_TSSOP | TSSOP8-4.4MM | 150.7871 | -111.0996 | 0.0 | top | \n| U$19 |\
+  \ MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 138.3411 | -118.3386 | 0.0 | top |\
+  \ \n| U$21 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 158.6611 | -118.3386 |\
+  \ 0.0 | top | \n| U$22 | nan | ADAFRUIT_3.5MM | 146.5961 | -102.5906 | 0.0 | top\
+  \ | \n"
 projects_flat: projects/adafruit_adafruit_st25dv16_pcb_adafruit_st25dv16/current_version/working
 repo:
   allow_forking: true

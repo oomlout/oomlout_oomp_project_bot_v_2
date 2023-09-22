@@ -1,9 +1,452 @@
 board: adafruit_usb_power_gauge
+bom:
+- Id: '1'
+  Designator: U$3
+  Footprint: ADAFRUIT_2.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: FID2,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: JP1
+  Footprint: 1X01-CLEANBIG
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: L6,L3,L5,L1,L2
+  Footprint: CHIPLED_0805_NOOUTLINE
+  Quantity: '5'
+  Designation: Blue
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R1,R6,R3
+  Footprint: 0805-NO
+  Quantity: '3'
+  Designation: '470'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: IC3
+  Footprint: SOIC8
+  Quantity: '1'
+  Designation: ATTINY85V-10S
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: L4
+  Footprint: CHIPLED_0805_NOOUTLINE
+  Quantity: '1'
+  Designation: Green
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C8
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: RSHUNT0
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 0.1/1% 0.1W+
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R2
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10K 1%
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: X2
+  Footprint: USB_A-THM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: JP2
+  Footprint: 1X06-CLEANBIG
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U2
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: INA169
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: X3
+  Footprint: USB_HOST-PTH
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U$3\
+  \ | ADAFRUIT_2.5MM | 1 |  |  |  | [''] | \n| 2 | FID2,FID1 | FIDUCIAL_1MM | 2 |\
+  \ FIDUCIAL\" |  |  | [''] | \n| 3 | JP1 | 1X01-CLEANBIG | 1 |  |  |  | [''] | \n\
+  | 4 | L6,L3,L5,L1,L2 | CHIPLED_0805_NOOUTLINE | 5 | Blue |  |  | [''] | \n| 5 |\
+  \ R1,R6,R3 | 0805-NO | 3 | 470 |  |  | [''] | \n| 6 | IC3 | SOIC8 | 1 | ATTINY85V-10S\
+  \ |  |  | [''] | \n| 7 | L4 | CHIPLED_0805_NOOUTLINE | 1 | Green |  |  | [''] |\
+  \ \n| 8 | C8 | 0805-NO | 1 | 10uF |  |  | [''] | \n| 9 | RSHUNT0 | 0805-NO | 1 |\
+  \ 0.1/1% 0.1W+ |  |  | [''] | \n| 10 | R2 | 0805-NO | 1 | 10K 1% |  |  | [''] |\
+  \ \n| 11 | X2 | USB_A-THM | 1 |  |  |  | [''] | \n| 12 | JP2 | 1X06-CLEANBIG | 1\
+  \ |  |  |  | [''] | \n| 13 | U2 | SOT23-5 | 1 | INA169 |  |  | [''] | \n| 14 | X3\
+  \ | USB_HOST-PTH | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C8
+  Value: 10uF
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: ATTINY85S
+  DNP: ''
+  Description: ''
+  Footprint: working:SOIC8
+  Qnty: '1'
+  Ref: IC3
+  Value: ATTINY85S
+  Vendor: ''
+- Cmp name: PINHD-1X1CB
+  DNP: ''
+  Description: ''
+  Footprint: working:1X01-CLEANBIG
+  Qnty: '1'
+  Ref: JP1
+  Value: PINHD-1X1CB
+  Vendor: ''
+- Cmp name: PINHD-1X6CB
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06-CLEANBIG
+  Qnty: '1'
+  Ref: JP2
+  Value: PINHD-1X6CB
+  Vendor: ''
+- Cmp name: LED0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805_NOOUTLINE
+  Qnty: '5'
+  Ref: L1, L2, L3, L5, L6
+  Value: Blue
+  Vendor: ''
+- Cmp name: LED0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805_NOOUTLINE
+  Qnty: '1'
+  Ref: L4
+  Value: Green
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '3'
+  Ref: R1, R3, R6
+  Value: '470'
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: R2
+  Value: 10K 1%
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: RSHUNT0
+  Value: 0.1/1% 0.1W+
+  Vendor: ''
+- Cmp name: INA169
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U2
+  Value: INA169
+  Vendor: ''
+- Cmp name: USB_TYPEA_CLIENTTHM
+  DNP: ''
+  Description: ''
+  Footprint: working:USB_A-THM
+  Qnty: '1'
+  Ref: X2
+  Value: USB_TYPEA_CLIENTTHM
+  Vendor: ''
+- Cmp name: USB_TYPEAPTHFML
+  DNP: ''
+  Description: ''
+  Footprint: working:USB_HOST-PTH
+  Qnty: '1'
+  Ref: X3
+  Value: USB_TYPEAPTHFML
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C8 |\
+  \ 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| FID1, FID2\
+  \ | 2 | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |\
+  \  |  | \n| IC3 | 1 | ATTINY85S | ATTINY85S | working:SOIC8 |  |  |  | \n| JP1 |\
+  \ 1 | PINHD-1X1CB | PINHD-1X1CB | working:1X01-CLEANBIG |  |  |  | \n| JP2 | 1 |\
+  \ PINHD-1X6CB | PINHD-1X6CB | working:1X06-CLEANBIG |  |  |  | \n| L1, L2, L3, L5,\
+  \ L6 | 5 | Blue | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  |\
+  \ \n| L4 | 1 | Green | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  | \
+  \ |  | \n| R1, R3, R6 | 3 | 470 | RESISTOR0805_NOOUTLINE | working:0805-NO |  |\
+  \  |  | \n| R2 | 1 | 10K 1% | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  | \
+  \ | \n| RSHUNT0 | 1 | 0.1/1% 0.1W+ | RESISTOR0805_NOOUTLINE | working:0805-NO |\
+  \  |  |  | \n| U2 | 1 | INA169 | INA169 | working:SOT23-5 |  |  |  | \n| X2 | 1\
+  \ | USB_TYPEA_CLIENTTHM | USB_TYPEA_CLIENTTHM | working:USB_A-THM |  |  |  | \n\
+  | X3 | 1 | USB_TYPEAPTHFML | USB_TYPEAPTHFML | working:USB_HOST-PTH |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_usb_power_gauge_pcb_adafruit_usb_power_gauge/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_usb_power_gauge_pcb_adafruit_usb_power_gauge/current_version/working/working.sch
 id: adafruit_adafruit_usb_power_gauge_pcb_adafruit_usb_power_gauge
 name: adafruit_usb_power_gauge_pcb
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C8
+  Package: 0805-NO
+  PosX: 153.7716
+  PosY: -107.4166
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 140.0556
+  PosY: -112.8776
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 156.9466
+  PosY: -99.0346
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': IC3
+  Package: SOIC8
+  PosX: 148.4376
+  PosY: -108.1786
+  Rot: -90.0
+  Side: top
+  Val: ATTINY85V-10S
+- '# Ref': JP1
+  Package: 1X01-CLEANBIG
+  PosX: 141.5796
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X06-CLEANBIG
+  PosX: 148.4376
+  PosY: -112.6236
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': L1
+  Package: CHIPLED_0805_NOOUTLINE
+  PosX: 146.0246
+  PosY: -99.9236
+  Rot: 180.0
+  Side: top
+  Val: Blue
+- '# Ref': L2
+  Package: CHIPLED_0805_NOOUTLINE
+  PosX: 151.7396
+  PosY: -99.9236
+  Rot: 0.0
+  Side: top
+  Val: Blue
+- '# Ref': L3
+  Package: CHIPLED_0805_NOOUTLINE
+  PosX: 153.6446
+  PosY: -99.9236
+  Rot: 180.0
+  Side: top
+  Val: Blue
+- '# Ref': L4
+  Package: CHIPLED_0805_NOOUTLINE
+  PosX: 143.9926
+  PosY: -99.9236
+  Rot: 0.0
+  Side: top
+  Val: Green
+- '# Ref': L5
+  Package: CHIPLED_0805_NOOUTLINE
+  PosX: 149.8346
+  PosY: -99.9236
+  Rot: 0.0
+  Side: top
+  Val: Blue
+- '# Ref': L6
+  Package: CHIPLED_0805_NOOUTLINE
+  PosX: 147.9296
+  PosY: -99.9236
+  Rot: 180.0
+  Side: top
+  Val: Blue
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 148.8186
+  PosY: -103.4796
+  Rot: 90.0
+  Side: top
+  Val: '470'
+- '# Ref': R2
+  Package: 0805-NO
+  PosX: 146.5326
+  PosY: -103.4796
+  Rot: -90.0
+  Side: top
+  Val: 10K_1%
+- '# Ref': R3
+  Package: 0805-NO
+  PosX: 153.6446
+  PosY: -103.4796
+  Rot: 90.0
+  Side: top
+  Val: '470'
+- '# Ref': R6
+  Package: 0805-NO
+  PosX: 150.9776
+  PosY: -103.4796
+  Rot: 90.0
+  Side: top
+  Val: '470'
+- '# Ref': RSHUNT0
+  Package: 0805-NO
+  PosX: 142.2146
+  PosY: -108.5596
+  Rot: 90.0
+  Side: top
+  Val: 0.1/1%_0.1W+
+- '# Ref': U$3
+  Package: ADAFRUIT_2.5MM
+  PosX: 140.5636
+  PosY: -100.9396
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U2
+  Package: SOT23-5
+  PosX: 143.1036
+  PosY: -103.9876
+  Rot: -90.0
+  Side: top
+  Val: INA169
+- '# Ref': X2
+  Package: USB_A-THM
+  PosX: 137.8966
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': X3
+  Package: USB_HOST-PTH
+  PosX: 163.5506
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C8 | 10uF | 0805-NO | 153.7716 | -107.4166\
+  \ | -90.0 | top | \n| FID1 | FIDUCIAL\"\" | FIDUCIAL_1MM | 140.0556 | -112.8776\
+  \ | 0.0 | top | \n| FID2 | FIDUCIAL\"\" | FIDUCIAL_1MM | 156.9466 | -99.0346 | 0.0\
+  \ | top | \n| IC3 | ATTINY85V-10S | SOIC8 | 148.4376 | -108.1786 | -90.0 | top |\
+  \ \n| JP1 | nan | 1X01-CLEANBIG | 141.5796 | -97.3836 | 0.0 | top | \n| JP2 | nan\
+  \ | 1X06-CLEANBIG | 148.4376 | -112.6236 | 0.0 | top | \n| L1 | Blue | CHIPLED_0805_NOOUTLINE\
+  \ | 146.0246 | -99.9236 | 180.0 | top | \n| L2 | Blue | CHIPLED_0805_NOOUTLINE |\
+  \ 151.7396 | -99.9236 | 0.0 | top | \n| L3 | Blue | CHIPLED_0805_NOOUTLINE | 153.6446\
+  \ | -99.9236 | 180.0 | top | \n| L4 | Green | CHIPLED_0805_NOOUTLINE | 143.9926\
+  \ | -99.9236 | 0.0 | top | \n| L5 | Blue | CHIPLED_0805_NOOUTLINE | 149.8346 | -99.9236\
+  \ | 0.0 | top | \n| L6 | Blue | CHIPLED_0805_NOOUTLINE | 147.9296 | -99.9236 | 180.0\
+  \ | top | \n| R1 | 470 | 0805-NO | 148.8186 | -103.4796 | 90.0 | top | \n| R2 |\
+  \ 10K_1% | 0805-NO | 146.5326 | -103.4796 | -90.0 | top | \n| R3 | 470 | 0805-NO\
+  \ | 153.6446 | -103.4796 | 90.0 | top | \n| R6 | 470 | 0805-NO | 150.9776 | -103.4796\
+  \ | 90.0 | top | \n| RSHUNT0 | 0.1/1%_0.1W+ | 0805-NO | 142.2146 | -108.5596 | 90.0\
+  \ | top | \n| U$3 | nan | ADAFRUIT_2.5MM | 140.5636 | -100.9396 | 0.0 | top | \n\
+  | U2 | INA169 | SOT23-5 | 143.1036 | -103.9876 | -90.0 | top | \n| X2 | nan | USB_A-THM\
+  \ | 137.8966 | -105.0036 | 90.0 | top | \n| X3 | nan | USB_HOST-PTH | 163.5506 |\
+  \ -105.0036 | 90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_usb_power_gauge_pcb_adafruit_usb_power_gauge/current_version/working
 repo:
   allow_forking: true

@@ -1,9 +1,537 @@
 board: adafruit_16x8_monochrome_led_backpack
+bom:
+- Id: '1'
+  Designator: U$3
+  Footprint: ADAFRUIT_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R5,R6,R4,R3
+  Footprint: 0603-NO
+  Quantity: '4'
+  Designation: 47K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: A2,A1,A0
+  Footprint: SOLDERJUMPER_REFLOW_NOPASTE
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: '@HOLE3,@HOLE0,@HOLE1,@HOLE2'
+  Footprint: ''
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: LEDJMP0
+  Footprint: SOLDERJUMPER_CLOSEDWIRE
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R2,R1
+  Footprint: 0603-NO
+  Quantity: '2'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U2
+  Footprint: SOP28_300MIL_SKINNY
+  Quantity: '1'
+  Designation: HT16K33
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C1
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: CONN1,CONN2
+  Footprint: JST_SH4_RA
+  Quantity: '2'
+  Designation: STEMMA_I2C_QTRA
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U$8
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: JP1
+  Footprint: 1X05_ROUND_70
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U$7,U$6
+  Footprint: STEMMAQT
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: D2
+  Footprint: CHIPLED_0603_NOOUTLINE
+  Quantity: '1'
+  Designation: GREEN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: D3,D1
+  Footprint: SOD-323F
+  Quantity: '2'
+  Designation: CUS530
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U$2,U$1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: LED1,LED2
+  Footprint: SEGMENT_STARTBUST_DUAL_KWA-541CBB
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U$3\
+  \ | ADAFRUIT_5MM | 1 |  |  |  | [''] | \n| 2 | R5,R6,R4,R3 | 0603-NO | 4 | 47K |\
+  \  |  | [''] | \n| 3 | A2,A1,A0 | SOLDERJUMPER_REFLOW_NOPASTE | 3 |  |  |  | ['']\
+  \ | \n| 4 | @HOLE3,@HOLE0,@HOLE1,@HOLE2 |  | 4 |  |  |  | [''] | \n| 5 | LEDJMP0\
+  \ | SOLDERJUMPER_CLOSEDWIRE | 1 |  |  |  | [''] | \n| 6 | R2,R1 | 0603-NO | 2 |\
+  \ 10K |  |  | [''] | \n| 7 | U2 | SOP28_300MIL_SKINNY | 1 | HT16K33 |  |  | ['']\
+  \ | \n| 8 | C1 | 0805-NO | 1 | 10uF |  |  | [''] | \n| 9 | CONN1,CONN2 | JST_SH4_RA\
+  \ | 2 | STEMMA_I2C_QTRA |  |  | [''] | \n| 10 | U$8 | PCBFEAT-REV-040 | 1 |  | \
+  \ |  | [''] | \n| 11 | JP1 | 1X05_ROUND_70 | 1 |  |  |  | [''] | \n| 12 | U$7,U$6\
+  \ | STEMMAQT | 2 |  |  |  | [''] | \n| 13 | D2 | CHIPLED_0603_NOOUTLINE | 1 | GREEN\
+  \ |  |  | [''] | \n| 14 | D3,D1 | SOD-323F | 2 | CUS530 |  |  | [''] | \n| 15 |\
+  \ U$2,U$1 | FIDUCIAL_1MM | 2 | FIDUCIAL |  |  | [''] | \n| 16 | LED1,LED2 | SEGMENT_STARTBUST_DUAL_KWA-541CBB\
+  \ | 2 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: SOLDERJUMPERREFLOW_NOPASTE
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_REFLOW_NOPASTE
+  Qnty: '3'
+  Ref: A0, A1, A2
+  Value: SOLDERJUMPERREFLOW_NOPASTE
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C1
+  Value: 10uF
+  Vendor: ''
+- Cmp name: STEMMA_I2C_QTRA
+  DNP: ''
+  Description: ''
+  Footprint: working:JST_SH4_RA
+  Qnty: '2'
+  Ref: CONN1, CONN2
+  Value: STEMMA_I2C_QTRA
+  Vendor: ''
+- Cmp name: DIODESOD-323F
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-323F
+  Qnty: '2'
+  Ref: D1, D3
+  Value: CUS530
+  Vendor: ''
+- Cmp name: LED0603_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0603_NOOUTLINE
+  Qnty: '1'
+  Ref: D2
+  Value: GREEN
+  Vendor: ''
+- Cmp name: HEADER-1X570MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X05_ROUND_70
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X570MIL
+  Vendor: ''
+- Cmp name: DISP_SEGMENT_STARBURST_DUAL_COMMONCATHODE
+  DNP: ''
+  Description: ''
+  Footprint: working:SEGMENT_STARTBUST_DUAL_KWA-541CBB
+  Qnty: '2'
+  Ref: LED1, LED2
+  Value: DISP_SEGMENT_STARBURST_DUAL_COMMONCATHODE
+  Vendor: ''
+- Cmp name: SOLDERJUMPERCLOSED
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_CLOSEDWIRE
+  Qnty: '1'
+  Ref: LEDJMP0
+  Value: SOLDERJUMPERCLOSED
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '4'
+  Ref: R3, R4, R5, R6
+  Value: 47K
+  Vendor: ''
+- Cmp name: HT16K33_SOP28_SKINNY
+  DNP: ''
+  Description: ''
+  Footprint: working:SOP28_300MIL_SKINNY
+  Qnty: '1'
+  Ref: U2
+  Value: HT16K33
+  Vendor: ''
+- Cmp name: FIDUCIAL
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: U$1, U$2
+  Value: FIDUCIAL
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| A0, A1,\
+  \ A2 | 3 | SOLDERJUMPERREFLOW_NOPASTE | SOLDERJUMPERREFLOW_NOPASTE | working:SOLDERJUMPER_REFLOW_NOPASTE\
+  \ |  |  |  | \n| C1 | 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO | \
+  \ |  |  | \n| CONN1, CONN2 | 2 | STEMMA_I2C_QTRA | STEMMA_I2C_QTRA | working:JST_SH4_RA\
+  \ |  |  |  | \n| D1, D3 | 2 | CUS530 | DIODESOD-323F | working:SOD-323F |  |  |\
+  \  | \n| D2 | 1 | GREEN | LED0603_NOOUTLINE | working:CHIPLED_0603_NOOUTLINE | \
+  \ |  |  | \n| JP1 | 1 | HEADER-1X570MIL | HEADER-1X570MIL | working:1X05_ROUND_70\
+  \ |  |  |  | \n| LED1, LED2 | 2 | DISP_SEGMENT_STARBURST_DUAL_COMMONCATHODE | DISP_SEGMENT_STARBURST_DUAL_COMMONCATHODE\
+  \ | working:SEGMENT_STARTBUST_DUAL_KWA-541CBB |  |  |  | \n| LEDJMP0 | 1 | SOLDERJUMPERCLOSED\
+  \ | SOLDERJUMPERCLOSED | working:SOLDERJUMPER_CLOSEDWIRE |  |  |  | \n| R1, R2 |\
+  \ 2 | 10K | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n| R3, R4, R5, R6\
+  \ | 4 | 47K | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n| U2 | 1 | HT16K33\
+  \ | HT16K33_SOP28_SKINNY | working:SOP28_300MIL_SKINNY |  |  |  | \n| U$1, U$2 |\
+  \ 2 | FIDUCIAL | FIDUCIAL | working:FIDUCIAL_1MM |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_led_backpacks_adafruit_16x8_monochrome_led_backpack/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_led_backpacks_adafruit_16x8_monochrome_led_backpack/current_version/working/working.sch
 id: adafruit_adafruit_led_backpacks_adafruit_16x8_monochrome_led_backpack
 name: adafruit_led_backpacks
+position_bottom:
+- '# Ref': LED1
+  Package: SEGMENT_STARTBUST_DUAL_KWA-541CBB
+  PosX: 161.2011
+  PosY: -105.0036
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': LED2
+  Package: SEGMENT_STARTBUST_DUAL_KWA-541CBB
+  PosX: 135.8011
+  PosY: -105.0036
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| LED1 | nan | SEGMENT_STARTBUST_DUAL_KWA-541CBB\
+  \ | 161.2011 | -105.0036 | 180.0 | bottom | \n| LED2 | nan | SEGMENT_STARTBUST_DUAL_KWA-541CBB\
+  \ | 135.8011 | -105.0036 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 125.0061
+  PosY: -117.0686
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 171.9961
+  PosY: -117.0686
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE2'
+  Package: .nan
+  PosX: 125.0061
+  PosY: -92.9386
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE3'
+  Package: .nan
+  PosX: 171.9961
+  PosY: -92.9386
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': A0
+  Package: SOLDERJUMPER_REFLOW_NOPASTE
+  PosX: 164.3761
+  PosY: -109.0676
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': A1
+  Package: SOLDERJUMPER_REFLOW_NOPASTE
+  PosX: 161.8361
+  PosY: -109.0676
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': A2
+  Package: SOLDERJUMPER_REFLOW_NOPASTE
+  PosX: 159.2961
+  PosY: -109.0676
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 133.0071
+  PosY: -103.4796
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': CONN1
+  Package: JST_SH4_RA
+  PosX: 126.9111
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: STEMMA_I2C_QTRA
+- '# Ref': CONN2
+  Package: JST_SH4_RA
+  PosX: 170.0911
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: STEMMA_I2C_QTRA
+- '# Ref': D1
+  Package: SOD-323F
+  PosX: 161.8361
+  PosY: -101.1936
+  Rot: -90.0
+  Side: top
+  Val: CUS530
+- '# Ref': D2
+  Package: CHIPLED_0603_NOOUTLINE
+  PosX: 125.6411
+  PosY: -100.5586
+  Rot: 90.0
+  Side: top
+  Val: GREEN
+- '# Ref': D3
+  Package: SOD-323F
+  PosX: 134.5311
+  PosY: -100.5586
+  Rot: -90.0
+  Side: top
+  Val: CUS530
+- '# Ref': JP1
+  Package: 1X05_ROUND_70
+  PosX: 148.5011
+  PosY: -92.3036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': LEDJMP0
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 131.9911
+  PosY: -100.5586
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 167.0431
+  PosY: -108.8136
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: 0603-NO
+  PosX: 169.4561
+  PosY: -109.4486
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: 0603-NO
+  PosX: 161.8361
+  PosY: -104.4956
+  Rot: -90.0
+  Side: top
+  Val: 47K
+- '# Ref': R4
+  Package: 0603-NO
+  PosX: 164.3761
+  PosY: -104.4956
+  Rot: -90.0
+  Side: top
+  Val: 47K
+- '# Ref': R5
+  Package: 0603-NO
+  PosX: 159.2961
+  PosY: -104.4956
+  Rot: -90.0
+  Side: top
+  Val: 47K
+- '# Ref': R6
+  Package: 0603-NO
+  PosX: 128.6891
+  PosY: -100.5586
+  Rot: 180.0
+  Side: top
+  Val: 47K
+- '# Ref': U$1
+  Package: FIDUCIAL_1MM
+  PosX: 167.5511
+  PosY: -94.2086
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': U$2
+  Package: FIDUCIAL_1MM
+  PosX: 124.3711
+  PosY: -114.6556
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': U$3
+  Package: ADAFRUIT_5MM
+  PosX: 133.2611
+  PosY: -111.3536
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$6
+  Package: STEMMAQT
+  PosX: 123.3551
+  PosY: -111.3536
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$7
+  Package: STEMMAQT
+  PosX: 163.9951
+  PosY: -101.3206
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$8
+  Package: PCBFEAT-REV-040
+  PosX: 131.4831
+  PosY: -106.6546
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U2
+  Package: SOP28_300MIL_SKINNY
+  PosX: 148.5011
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: HT16K33
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 125.0061 | -117.0686\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 171.9961 | -117.0686 | 0.0 | top | \n|\
+  \ @HOLE2 | nan | nan | 125.0061 | -92.9386 | 0.0 | top | \n| @HOLE3 | nan | nan\
+  \ | 171.9961 | -92.9386 | 0.0 | top | \n| A0 | nan | SOLDERJUMPER_REFLOW_NOPASTE\
+  \ | 164.3761 | -109.0676 | -90.0 | top | \n| A1 | nan | SOLDERJUMPER_REFLOW_NOPASTE\
+  \ | 161.8361 | -109.0676 | -90.0 | top | \n| A2 | nan | SOLDERJUMPER_REFLOW_NOPASTE\
+  \ | 159.2961 | -109.0676 | -90.0 | top | \n| C1 | 10uF | 0805-NO | 133.0071 | -103.4796\
+  \ | -90.0 | top | \n| CONN1 | STEMMA_I2C_QTRA | JST_SH4_RA | 126.9111 | -105.0036\
+  \ | -90.0 | top | \n| CONN2 | STEMMA_I2C_QTRA | JST_SH4_RA | 170.0911 | -105.0036\
+  \ | 90.0 | top | \n| D1 | CUS530 | SOD-323F | 161.8361 | -101.1936 | -90.0 | top\
+  \ | \n| D2 | GREEN | CHIPLED_0603_NOOUTLINE | 125.6411 | -100.5586 | 90.0 | top\
+  \ | \n| D3 | CUS530 | SOD-323F | 134.5311 | -100.5586 | -90.0 | top | \n| JP1 |\
+  \ nan | 1X05_ROUND_70 | 148.5011 | -92.3036 | 0.0 | top | \n| LEDJMP0 | nan | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 131.9911 | -100.5586 | 180.0 | top | \n| R1 | 10K | 0603-NO | 167.0431 | -108.8136\
+  \ | 90.0 | top | \n| R2 | 10K | 0603-NO | 169.4561 | -109.4486 | 180.0 | top | \n\
+  | R3 | 47K | 0603-NO | 161.8361 | -104.4956 | -90.0 | top | \n| R4 | 47K | 0603-NO\
+  \ | 164.3761 | -104.4956 | -90.0 | top | \n| R5 | 47K | 0603-NO | 159.2961 | -104.4956\
+  \ | -90.0 | top | \n| R6 | 47K | 0603-NO | 128.6891 | -100.5586 | 180.0 | top |\
+  \ \n| U$1 | FIDUCIAL | FIDUCIAL_1MM | 167.5511 | -94.2086 | 0.0 | top | \n| U$2\
+  \ | FIDUCIAL | FIDUCIAL_1MM | 124.3711 | -114.6556 | 0.0 | top | \n| U$3 | nan |\
+  \ ADAFRUIT_5MM | 133.2611 | -111.3536 | 0.0 | top | \n| U$6 | nan | STEMMAQT | 123.3551\
+  \ | -111.3536 | 0.0 | top | \n| U$7 | nan | STEMMAQT | 163.9951 | -101.3206 | 0.0\
+  \ | top | \n| U$8 | nan | PCBFEAT-REV-040 | 131.4831 | -106.6546 | 0.0 | top | \n\
+  | U2 | HT16K33 | SOP28_300MIL_SKINNY | 148.5011 | -105.0036 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_led_backpacks_adafruit_16x8_monochrome_led_backpack/current_version/working
 repo:
   allow_forking: true

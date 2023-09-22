@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/DangerousPrototypes/HD44780_to_1.8TFT_adapter/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/dangerousprototypes_hd44780_to_1_8tft_adapter_hd44780_to_1_8tft_adapter_v1/current_version/working  
 
 
 

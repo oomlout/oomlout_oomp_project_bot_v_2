@@ -1,9 +1,367 @@
 board: adafruit_128x32_pi_oled
+bom:
+- Id: '1'
+  Designator: U$1
+  Footprint: ADAFRUIT_2.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: RPI1
+  Footprint: RASPBERRYPI_2X3_THMSMT
+  Quantity: '1'
+  Designation: RASPBERRYPI_2X3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: LCD1
+  Footprint: UG-2832HSWEG02_WRAPUNDER
+  Quantity: '1'
+  Designation: OLED 128x32
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$4
+  Footprint: MOUNTINGHOLE_3.0_PLATEDTHIN
+  Quantity: '1'
+  Designation: MOUNTINGHOLE3.0THIN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C4,C6,C5
+  Footprint: 0805-NO
+  Quantity: '3'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R3
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 390K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C3,C2
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: IC5
+  Footprint: SOT23
+  Quantity: '1'
+  Designation: APX803
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R2
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U$3
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: FID3,FID4
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U$8
+  Footprint: ADAFRUIT_TEXT_20MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U$1\
+  \ | ADAFRUIT_2.5MM | 1 |  |  |  | [''] | \n| 2 | RPI1 | RASPBERRYPI_2X3_THMSMT |\
+  \ 1 | RASPBERRYPI_2X3 |  |  | [''] | \n| 3 | LCD1 | UG-2832HSWEG02_WRAPUNDER | 1\
+  \ | OLED 128x32 |  |  | [''] | \n| 4 | U$4 | MOUNTINGHOLE_3.0_PLATEDTHIN | 1 | MOUNTINGHOLE3.0THIN\
+  \ |  |  | [''] | \n| 5 | C4,C6,C5 | 0805-NO | 3 | 10uF |  |  | [''] | \n| 6 | R3\
+  \ | 0805-NO | 1 | 390K |  |  | [''] | \n| 7 | C3,C2 | 0805-NO | 2 | 1uF |  |  |\
+  \ [''] | \n| 8 | IC5 | SOT23 | 1 | APX803 |  |  | [''] | \n| 9 | R2 | 0805-NO |\
+  \ 1 | 10K |  |  | [''] | \n| 10 | U$3 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n\
+  | 11 | FID3,FID4 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | [''] | \n| 12 | U$8 |\
+  \ ADAFRUIT_TEXT_20MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C2, C3
+  Value: 1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '3'
+  Ref: C4, C5, C6
+  Value: 10uF
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID3, FID4
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: AXP083-SAG
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23
+  Qnty: '1'
+  Ref: IC5
+  Value: APX803
+  Vendor: ''
+- Cmp name: DISP_OLED_UG-2832HSWEG02
+  DNP: ''
+  Description: ''
+  Footprint: working:UG-2832HSWEG02_WRAPUNDER
+  Qnty: '1'
+  Ref: LCD1
+  Value: OLED 128x32
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: R2
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: R3
+  Value: 390K
+  Vendor: ''
+- Cmp name: RASPBERRYPI_2X3
+  DNP: ''
+  Description: ''
+  Footprint: working:RASPBERRYPI_2X3_THMSMT
+  Qnty: '1'
+  Ref: RPI1
+  Value: RASPBERRYPI_2X3
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE3.0THIN
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_3.0_PLATEDTHIN
+  Qnty: '1'
+  Ref: U$4
+  Value: MOUNTINGHOLE3.0THIN
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C2, C3\
+  \ | 2 | 1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C4, C5,\
+  \ C6 | 3 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| FID3,\
+  \ FID4 | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| IC5\
+  \ | 1 | APX803 | AXP083-SAG | working:SOT23 |  |  |  | \n| LCD1 | 1 | OLED 128x32\
+  \ | DISP_OLED_UG-2832HSWEG02 | working:UG-2832HSWEG02_WRAPUNDER |  |  |  | \n| R2\
+  \ | 1 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | \n| R3 | 1 | 390K\
+  \ | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | \n| RPI1 | 1 | RASPBERRYPI_2X3\
+  \ | RASPBERRYPI_2X3 | working:RASPBERRYPI_2X3_THMSMT |  |  |  | \n| U$4 | 1 | MOUNTINGHOLE3.0THIN\
+  \ | MOUNTINGHOLE3.0THIN | working:MOUNTINGHOLE_3.0_PLATEDTHIN |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_pioled_128x32_pcb_adafruit_128x32_pi_oled/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_pioled_128x32_pcb_adafruit_128x32_pi_oled/current_version/working/working.sch
 id: adafruit_adafruit_pioled_128x32_pcb_adafruit_128x32_pi_oled
+mounting_holes:
+- package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  ref: U$4
+  size: m3
+  value: MOUNTINGHOLE3.0THIN
+  x: '0.0'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN\
+  \ | U$4 | m3 | \n"
 name: adafruit_pioled_128x32_pcb
+position_bottom:
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 139.7382
+  PosY: -112.2606
+  Rot: -90.0
+  Side: bottom
+  Val: 1uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 141.5162
+  PosY: -112.2606
+  Rot: -90.0
+  Side: bottom
+  Val: 1uF
+- '# Ref': C4
+  Package: 0805-NO
+  PosX: 143.2942
+  PosY: -110.3556
+  Rot: -90.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C5
+  Package: 0805-NO
+  PosX: 150.4062
+  PosY: -112.2606
+  Rot: -90.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C6
+  Package: 0805-NO
+  PosX: 148.6282
+  PosY: -112.2606
+  Rot: -90.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 150.1014
+  PosY: -119.7282
+  Rot: 180.0
+  Side: bottom
+  Val: FIDUCIAL_1MM
+- '# Ref': FID4
+  Package: FIDUCIAL_1MM
+  PosX: 141.0844
+  PosY: -89.2482
+  Rot: 180.0
+  Side: bottom
+  Val: FIDUCIAL_1MM
+- '# Ref': IC5
+  Package: SOT23
+  PosX: 144.4372
+  PosY: -106.7996
+  Rot: -90.0
+  Side: bottom
+  Val: APX803
+- '# Ref': R2
+  Package: 0805-NO
+  PosX: 144.1832
+  PosY: -113.0226
+  Rot: 180.0
+  Side: bottom
+  Val: 10K
+- '# Ref': R3
+  Package: 0805-NO
+  PosX: 146.8502
+  PosY: -112.2606
+  Rot: -90.0
+  Side: bottom
+  Val: 390K
+- '# Ref': U$3
+  Package: PCBFEAT-REV-040
+  PosX: 149.7712
+  PosY: -116.6294
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$8
+  Package: ADAFRUIT_TEXT_20MM
+  PosX: 150.4062
+  PosY: -88.6386
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C2 | 1uF | 0805-NO | 139.7382 |\
+  \ -112.2606 | -90.0 | bottom | \n| C3 | 1uF | 0805-NO | 141.5162 | -112.2606 | -90.0\
+  \ | bottom | \n| C4 | 10uF | 0805-NO | 143.2942 | -110.3556 | -90.0 | bottom | \n\
+  | C5 | 10uF | 0805-NO | 150.4062 | -112.2606 | -90.0 | bottom | \n| C6 | 10uF |\
+  \ 0805-NO | 148.6282 | -112.2606 | -90.0 | bottom | \n| FID3 | FIDUCIAL_1MM | FIDUCIAL_1MM\
+  \ | 150.1014 | -119.7282 | 180.0 | bottom | \n| FID4 | FIDUCIAL_1MM | FIDUCIAL_1MM\
+  \ | 141.0844 | -89.2482 | 180.0 | bottom | \n| IC5 | APX803 | SOT23 | 144.4372 |\
+  \ -106.7996 | -90.0 | bottom | \n| R2 | 10K | 0805-NO | 144.1832 | -113.0226 | 180.0\
+  \ | bottom | \n| R3 | 390K | 0805-NO | 146.8502 | -112.2606 | -90.0 | bottom | \n\
+  | U$3 | nan | PCBFEAT-REV-040 | 149.7712 | -116.6294 | -90.0 | bottom | \n| U$8\
+  \ | nan | ADAFRUIT_TEXT_20MM | 150.4062 | -88.6386 | -90.0 | bottom | \n"
+position_top:
+- '# Ref': LCD1
+  Package: UG-2832HSWEG02_WRAPUNDER
+  PosX: 145.3262
+  PosY: -120.0076
+  Rot: -90.0
+  Side: top
+  Val: OLED_128x32
+- '# Ref': RPI1
+  Package: RASPBERRYPI_2X3_THMSMT
+  PosX: 154.5464
+  PosY: -98.6462
+  Rot: 0.0
+  Side: top
+  Val: RASPBERRYPI_2X3
+- '# Ref': U$1
+  Package: ADAFRUIT_2.5MM
+  PosX: 158.2802
+  PosY: -95.2426
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': U$4
+  Package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  PosX: 154.5464
+  PosY: -91.2294
+  Rot: 180.0
+  Side: top
+  Val: MOUNTINGHOLE3.0THIN
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| LCD1 | OLED_128x32 | UG-2832HSWEG02_WRAPUNDER\
+  \ | 145.3262 | -120.0076 | -90.0 | top | \n| RPI1 | RASPBERRYPI_2X3 | RASPBERRYPI_2X3_THMSMT\
+  \ | 154.5464 | -98.6462 | 0.0 | top | \n| U$1 | nan | ADAFRUIT_2.5MM | 158.2802\
+  \ | -95.2426 | 90.0 | top | \n| U$4 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | 154.5464 | -91.2294 | 180.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_pioled_128x32_pcb_adafruit_128x32_pi_oled/current_version/working
 repo:
   allow_forking: true

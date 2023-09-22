@@ -1,9 +1,594 @@
 board: adafruit_usb_serial_char_lcd
+bom:
+- Id: '1'
+  Designator: IC2
+  Footprint: TQFP32-08
+  Quantity: '1'
+  Designation: AT90USB162
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C3,C2
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 18pF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: CN1
+  Footprint: USB-MINIB_LARGER
+  Quantity: '1'
+  Designation: miniB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: FID2,FID1
+  Footprint: FIDUCIAL-1X2.5
+  Quantity: '2'
+  Designation: FIDUCIAL1X2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R5,R7,R3,R6
+  Footprint: 0805-NO
+  Quantity: '4'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: ISP6
+  Footprint: ISP6
+  Quantity: '1'
+  Designation: PINHD-2X3THM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C1,C5
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: CN3
+  Footprint: JSTPH3
+  Quantity: '1'
+  Designation: JST-PH-3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R1,R2
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: '22'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: T2,T3,T1
+  Footprint: SOT23-BEC
+  Quantity: '3'
+  Designation: MMBT222
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: LED0
+  Footprint: CHIPLED_0805_NOOUTLINE
+  Quantity: '1'
+  Designation: RED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: USB0
+  Footprint: 1X05
+  Quantity: '1'
+  Designation: MALE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U$2
+  Footprint: ADAFRUIT_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: JP1
+  Footprint: 1X18-BIG
+  Quantity: '1'
+  Designation: CHARLCD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: C4
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: '@HOLE0'
+  Footprint: ''
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: F1
+  Footprint: R1206
+  Quantity: '1'
+  Designation: 500mA
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: X3
+  Footprint: NX5032
+  Quantity: '1'
+  Designation: 16MHz
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: U$1
+  Footprint: 1X10-BIG
+  Quantity: '1'
+  Designation: PINHD-1X10
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | IC2\
+  \ | TQFP32-08 | 1 | AT90USB162 |  |  | [''] | \n| 2 | C3,C2 | 0805-NO | 2 | 18pF\
+  \ |  |  | [''] | \n| 3 | CN1 | USB-MINIB_LARGER | 1 | miniB |  |  | [''] | \n| 4\
+  \ | FID2,FID1 | FIDUCIAL-1X2.5 | 2 | FIDUCIAL1X2.5 |  |  | [''] | \n| 5 | R5,R7,R3,R6\
+  \ | 0805-NO | 4 | 1K |  |  | [''] | \n| 6 | ISP6 | ISP6 | 1 | PINHD-2X3THM |  |\
+  \  | [''] | \n| 7 | C1,C5 | 0805-NO | 2 | 10uF |  |  | [''] | \n| 8 | CN3 | JSTPH3\
+  \ | 1 | JST-PH-3 |  |  | [''] | \n| 9 | R1,R2 | 0805-NO | 2 | 22 |  |  | [''] |\
+  \ \n| 10 | T2,T3,T1 | SOT23-BEC | 3 | MMBT222 |  |  | [''] | \n| 11 | LED0 | CHIPLED_0805_NOOUTLINE\
+  \ | 1 | RED |  |  | [''] | \n| 12 | USB0 | 1X05 | 1 | MALE |  |  | [''] | \n| 13\
+  \ | U$2 | ADAFRUIT_5MM | 1 |  |  |  | [''] | \n| 14 | JP1 | 1X18-BIG | 1 | CHARLCD\
+  \ |  |  | [''] | \n| 15 | C4 | 0805-NO | 1 | 0.1uF |  |  | [''] | \n| 16 | @HOLE0\
+  \ |  | 1 |  |  |  | [''] | \n| 17 | F1 | R1206 | 1 | 500mA |  |  | [''] | \n| 18\
+  \ | X3 | NX5032 | 1 | 16MHz |  |  | [''] | \n| 19 | U$1 | 1X10-BIG | 1 | PINHD-1X10\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C1, C5
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C2, C3
+  Value: 18pF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C4
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: USBMINIBLARGE
+  DNP: ''
+  Description: ''
+  Footprint: working:USB-MINIB_LARGER
+  Qnty: '1'
+  Ref: CN1
+  Value: miniB
+  Vendor: ''
+- Cmp name: JST_3PIN
+  DNP: ''
+  Description: ''
+  Footprint: working:JSTPH3
+  Qnty: '1'
+  Ref: CN3
+  Value: JST-PH-3
+  Vendor: ''
+- Cmp name: PTCFUSE-1206
+  DNP: ''
+  Description: ''
+  Footprint: working:R1206
+  Qnty: '1'
+  Ref: F1
+  Value: 500mA
+  Vendor: ''
+- Cmp name: FIDUCIAL1X2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL-1X2.5
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL1X2.5
+  Vendor: ''
+- Cmp name: ATMEGA32U2-TQFP
+  DNP: ''
+  Description: ''
+  Footprint: working:TQFP32-08
+  Qnty: '1'
+  Ref: IC2
+  Value: ATMEGA32U2-TQFP
+  Vendor: ''
+- Cmp name: PINHD-2X3THM
+  DNP: ''
+  Description: ''
+  Footprint: working:ISP6
+  Qnty: '1'
+  Ref: ISP6
+  Value: PINHD-2X3THM
+  Vendor: ''
+- Cmp name: PINHD-1X18-BIG
+  DNP: ''
+  Description: ''
+  Footprint: working:1X18-BIG
+  Qnty: '1'
+  Ref: JP1
+  Value: CHARLCD
+  Vendor: ''
+- Cmp name: LED0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805_NOOUTLINE
+  Qnty: '1'
+  Ref: LED0
+  Value: RED
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: R1, R2
+  Value: '22'
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '4'
+  Ref: R3, R5, R6, R7
+  Value: 1K
+  Vendor: ''
+- Cmp name: -NPN-SOT23-BEC
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-BEC
+  Qnty: '3'
+  Ref: T1, T2, T3
+  Value: MMBT222
+  Vendor: ''
+- Cmp name: PINHD-1X10
+  DNP: ''
+  Description: ''
+  Footprint: working:1X10-BIG
+  Qnty: '1'
+  Ref: U$1
+  Value: PINHD-1X10
+  Vendor: ''
+- Cmp name: PINHD-1X5
+  DNP: ''
+  Description: ''
+  Footprint: working:1X05
+  Qnty: '1'
+  Ref: USB0
+  Value: MALE
+  Vendor: ''
+- Cmp name: XTALNX5032
+  DNP: ''
+  Description: ''
+  Footprint: working:NX5032
+  Qnty: '1'
+  Ref: X3
+  Value: 16MHz
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C5\
+  \ | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C2, C3\
+  \ | 2 | 18pF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C4 | 1\
+  \ | 0.1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| CN1 | 1 |\
+  \ miniB | USBMINIBLARGE | working:USB-MINIB_LARGER |  |  |  | \n| CN3 | 1 | JST-PH-3\
+  \ | JST_3PIN | working:JSTPH3 |  |  |  | \n| F1 | 1 | 500mA | PTCFUSE-1206 | working:R1206\
+  \ |  |  |  | \n| FID1, FID2 | 2 | FIDUCIAL1X2.5 | FIDUCIAL1X2.5 | working:FIDUCIAL-1X2.5\
+  \ |  |  |  | \n| IC2 | 1 | ATMEGA32U2-TQFP | ATMEGA32U2-TQFP | working:TQFP32-08\
+  \ |  |  |  | \n| ISP6 | 1 | PINHD-2X3THM | PINHD-2X3THM | working:ISP6 |  |  | \
+  \ | \n| JP1 | 1 | CHARLCD | PINHD-1X18-BIG | working:1X18-BIG |  |  |  | \n| LED0\
+  \ | 1 | RED | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | \n|\
+  \ R1, R2 | 2 | 22 | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | \n| R3,\
+  \ R5, R6, R7 | 4 | 1K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | \n|\
+  \ T1, T2, T3 | 3 | MMBT222 | -NPN-SOT23-BEC | working:SOT23-BEC |  |  |  | \n| U$1\
+  \ | 1 | PINHD-1X10 | PINHD-1X10 | working:1X10-BIG |  |  |  | \n| USB0 | 1 | MALE\
+  \ | PINHD-1X5 | working:1X05 |  |  |  | \n| X3 | 1 | 16MHz | XTALNX5032 | working:NX5032\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_usb_serial_rgb_character_backpack_pcb_adafruit_usb_serial_char_lcd/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_usb_serial_rgb_character_backpack_pcb_adafruit_usb_serial_char_lcd/current_version/working/working.sch
 id: adafruit_adafruit_usb_serial_rgb_character_backpack_pcb_adafruit_usb_serial_char_lcd
 name: adafruit_usb_serial_rgb_character_backpack_pcb
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 124.0791
+  PosY: -116.9066
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 140.8941
+  PosY: -98.0686
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 137.8991
+  PosY: -111.5796
+  Rot: 180.0
+  Side: top
+  Val: 18pF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 148.1941
+  PosY: -111.5496
+  Rot: 0.0
+  Side: top
+  Val: 18pF
+- '# Ref': C4
+  Package: 0805-NO
+  PosX: 140.0181
+  PosY: -106.3466
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C5
+  Package: 0805-NO
+  PosX: 137.4521
+  PosY: -106.4006
+  Rot: 90.0
+  Side: top
+  Val: 10uF
+- '# Ref': CN1
+  Package: USB-MINIB_LARGER
+  PosX: 125.7681
+  PosY: -97.1296
+  Rot: -90.0
+  Side: top
+  Val: miniB
+- '# Ref': CN3
+  Package: JSTPH3
+  PosX: 126.4031
+  PosY: -109.1946
+  Rot: 90.0
+  Side: top
+  Val: JST-PH-3
+- '# Ref': F1
+  Package: R1206
+  PosX: 133.7691
+  PosY: -93.5736
+  Rot: 180.0
+  Side: top
+  Val: 500mA
+- '# Ref': FID1
+  Package: FIDUCIAL-1X2.5
+  PosX: 124.3711
+  PosY: -109.0676
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL1X2.5
+- '# Ref': FID2
+  Package: FIDUCIAL-1X2.5
+  PosX: 170.3451
+  PosY: -100.9396
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL1X2.5
+- '# Ref': IC2
+  Package: TQFP32-08
+  PosX: 146.9771
+  PosY: -103.2256
+  Rot: 90.0
+  Side: top
+  Val: AT90USB162
+- '# Ref': ISP6
+  Package: ISP6
+  PosX: 170.3541
+  PosY: -105.9226
+  Rot: -90.0
+  Side: top
+  Val: PINHD-2X3THM
+- '# Ref': JP1
+  Package: 1X18-BIG
+  PosX: 151.2951
+  PosY: -116.9416
+  Rot: 0.0
+  Side: top
+  Val: CHARLCD
+- '# Ref': LED0
+  Package: CHIPLED_0805_NOOUTLINE
+  PosX: 138.4491
+  PosY: -94.7336
+  Rot: 90.0
+  Side: top
+  Val: RED
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 137.7591
+  PosY: -101.2346
+  Rot: -90.0
+  Side: top
+  Val: '22'
+- '# Ref': R2
+  Package: 0805-NO
+  PosX: 139.5021
+  PosY: -101.2346
+  Rot: -90.0
+  Side: top
+  Val: '22'
+- '# Ref': R3
+  Package: 0805-NO
+  PosX: 142.3441
+  PosY: -94.7556
+  Rot: 0.0
+  Side: top
+  Val: 1K
+- '# Ref': R5
+  Package: 0805-NO
+  PosX: 161.8361
+  PosY: -98.9076
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': R6
+  Package: 0805-NO
+  PosX: 161.4551
+  PosY: -103.9876
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': R7
+  Package: 0805-NO
+  PosX: 161.8361
+  PosY: -109.0676
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': T1
+  Package: SOT23-BEC
+  PosX: 161.8361
+  PosY: -111.7346
+  Rot: -90.0
+  Side: top
+  Val: MMBT222
+- '# Ref': T2
+  Package: SOT23-BEC
+  PosX: 161.8361
+  PosY: -106.5276
+  Rot: -90.0
+  Side: top
+  Val: MMBT222
+- '# Ref': T3
+  Package: SOT23-BEC
+  PosX: 161.8361
+  PosY: -101.4476
+  Rot: -90.0
+  Side: top
+  Val: MMBT222
+- '# Ref': U$1
+  Package: 1X10-BIG
+  PosX: 161.4551
+  PosY: -94.0816
+  Rot: 180.0
+  Side: top
+  Val: PINHD-1X10
+- '# Ref': U$2
+  Package: ADAFRUIT_5MM
+  PosX: 152.5651
+  PosY: -105.7656
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': USB0
+  Package: 1X05
+  PosX: 134.5901
+  PosY: -100.9886
+  Rot: -90.0
+  Side: top
+  Val: MALE
+- '# Ref': X3
+  Package: NX5032
+  PosX: 143.0381
+  PosY: -111.2036
+  Rot: 0.0
+  Side: top
+  Val: 16MHz
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 124.0791 | -116.9066\
+  \ | 0.0 | top | \n| C1 | 10uF | 0805-NO | 140.8941 | -98.0686 | 180.0 | top | \n\
+  | C2 | 18pF | 0805-NO | 137.8991 | -111.5796 | 180.0 | top | \n| C3 | 18pF | 0805-NO\
+  \ | 148.1941 | -111.5496 | 0.0 | top | \n| C4 | 0.1uF | 0805-NO | 140.0181 | -106.3466\
+  \ | 90.0 | top | \n| C5 | 10uF | 0805-NO | 137.4521 | -106.4006 | 90.0 | top | \n\
+  | CN1 | miniB | USB-MINIB_LARGER | 125.7681 | -97.1296 | -90.0 | top | \n| CN3 |\
+  \ JST-PH-3 | JSTPH3 | 126.4031 | -109.1946 | 90.0 | top | \n| F1 | 500mA | R1206\
+  \ | 133.7691 | -93.5736 | 180.0 | top | \n| FID1 | FIDUCIAL1X2.5 | FIDUCIAL-1X2.5\
+  \ | 124.3711 | -109.0676 | 0.0 | top | \n| FID2 | FIDUCIAL1X2.5 | FIDUCIAL-1X2.5\
+  \ | 170.3451 | -100.9396 | 0.0 | top | \n| IC2 | AT90USB162 | TQFP32-08 | 146.9771\
+  \ | -103.2256 | 90.0 | top | \n| ISP6 | PINHD-2X3THM | ISP6 | 170.3541 | -105.9226\
+  \ | -90.0 | top | \n| JP1 | CHARLCD | 1X18-BIG | 151.2951 | -116.9416 | 0.0 | top\
+  \ | \n| LED0 | RED | CHIPLED_0805_NOOUTLINE | 138.4491 | -94.7336 | 90.0 | top |\
+  \ \n| R1 | 22 | 0805-NO | 137.7591 | -101.2346 | -90.0 | top | \n| R2 | 22 | 0805-NO\
+  \ | 139.5021 | -101.2346 | -90.0 | top | \n| R3 | 1K | 0805-NO | 142.3441 | -94.7556\
+  \ | 0.0 | top | \n| R5 | 1K | 0805-NO | 161.8361 | -98.9076 | 180.0 | top | \n|\
+  \ R6 | 1K | 0805-NO | 161.4551 | -103.9876 | 180.0 | top | \n| R7 | 1K | 0805-NO\
+  \ | 161.8361 | -109.0676 | 180.0 | top | \n| T1 | MMBT222 | SOT23-BEC | 161.8361\
+  \ | -111.7346 | -90.0 | top | \n| T2 | MMBT222 | SOT23-BEC | 161.8361 | -106.5276\
+  \ | -90.0 | top | \n| T3 | MMBT222 | SOT23-BEC | 161.8361 | -101.4476 | -90.0 |\
+  \ top | \n| U$1 | PINHD-1X10 | 1X10-BIG | 161.4551 | -94.0816 | 180.0 | top | \n\
+  | U$2 | nan | ADAFRUIT_5MM | 152.5651 | -105.7656 | 0.0 | top | \n| USB0 | MALE\
+  \ | 1X05 | 134.5901 | -100.9886 | -90.0 | top | \n| X3 | 16MHz | NX5032 | 143.0381\
+  \ | -111.2036 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_usb_serial_rgb_character_backpack_pcb_adafruit_usb_serial_char_lcd/current_version/working
 repo:
   allow_forking: true

@@ -1,0 +1,815 @@
+EESchema Schematic File Version 4
+LIBS:DAF021_ECM_3G-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 5FA848DA
+P 3250 2300
+F 0 "J2" H 3250 2450 50  0000 C CNN
+F 1 "Power" H 3250 2100 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Sabre_43160-2102_1x02_P7.50mm_Vertical_ThermalVias" H 3250 2300 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/431602102_sd.pdf" H 3250 2300 50  0001 C CNN
+F 4 "0431602102" H 0   0   50  0001 C CNN "MPN"
+F 5 "DigiKey" H 0   0   50  0001 C CNN "Vendor"
+F 6 "WM18478-ND" H 0   0   50  0001 C CNN "Vendor P/N"
+	1    3250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDW_Modules:SKM30 PS1
+U 1 1 5C4D04BC
+P 4350 4650
+F 0 "PS1" H 4350 5037 60  0000 C CNN
+F 1 "12V/5V Converter" H 4350 4931 60  0000 C CNN
+F 2 "VDW-Modules:MeanWell_Power_Supply_2x1in_Shielded" H 4600 5000 60  0001 C CNN
+F 3 "https://www.meanwelldirect.co.uk/wp-content/uploads/sites/55/2018/04/r1729r1729_3.pdf" H 4600 5000 60  0001 C CNN
+F 4 "~" H 650 3050 50  0001 C CNN "Alt Vendor"
+F 5 "~" H 650 3050 50  0001 C CNN "Alt Vendor P/N"
+F 6 "SKM30A-05" H 650 3050 50  0001 C CNN "MPN"
+F 7 "DigiKey" H 650 3050 50  0001 C CNN "Vendor"
+F 8 "1866-4643-ND" H 650 3050 50  0001 C CNN "Vendor P/N"
+	1    4350 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4650 4850 4900
+$Comp
+L power:GND #PWR042
+U 1 1 5C4D04D0
+P 3850 4900
+F 0 "#PWR042" H 3850 4650 50  0001 C CNN
+F 1 "GND" H 3850 4750 50  0000 C CNN
+F 2 "" H 3850 4900 50  0001 C CNN
+F 3 "" H 3850 4900 50  0001 C CNN
+	1    3850 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4900 3850 4650
+Wire Wire Line
+	3850 4650 3950 4650
+NoConn ~ 3950 4750
+NoConn ~ 4750 4750
+$Comp
+L power:GND #PWR097
+U 1 1 5C4D04F6
+P 4850 4900
+F 0 "#PWR097" H 4850 4650 50  0001 C CNN
+F 1 "GND" H 4850 4750 50  0000 C CNN
+F 2 "" H 4850 4900 50  0001 C CNN
+F 3 "" H 4850 4900 50  0001 C CNN
+	1    4850 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4650 4750 4650
+$Comp
+L Device:LED_ALT D16
+U 1 1 5C4D0579
+P 5650 5200
+F 0 "D16" H 5688 5083 50  0000 R CNN
+F 1 "+5V" H 5700 5300 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5650 5200 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150080GS75000.pdf" H 5650 5200 50  0001 C CNN
+F 4 "~" H 450 2900 50  0001 C CNN "Alt Vendor"
+F 5 "~" H 450 2900 50  0001 C CNN "Alt Vendor P/N"
+F 6 "150080GS75000" H 450 2900 50  0001 C CNN "MPN"
+F 7 "DigiKey" H 450 2900 50  0001 C CNN "Vendor"
+F 8 "732-4983-1-ND" H 450 2900 50  0001 C CNN "Vendor P/N"
+	1    5650 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0100
+U 1 1 5C4D0581
+P 5650 5550
+F 0 "#PWR0100" H 5650 5300 50  0001 C CNN
+F 1 "GND" H 5650 5400 50  0000 C CNN
+F 2 "" H 5650 5550 50  0001 C CNN
+F 3 "" H 5650 5550 50  0001 C CNN
+	1    5650 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ALT D9
+U 1 1 5C4D05B7
+P 3050 5200
+F 0 "D9" V 3088 5083 50  0000 R CNN
+F 1 "+12V" V 3000 5100 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3050 5200 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150080GS75000.pdf" H 3050 5200 50  0001 C CNN
+F 4 "~" H -650 3300 50  0001 C CNN "Alt Vendor"
+F 5 "~" H -650 3300 50  0001 C CNN "Alt Vendor P/N"
+F 6 "150080GS75000" H -650 3300 50  0001 C CNN "MPN"
+F 7 "DigiKey" H -650 3300 50  0001 C CNN "Vendor"
+F 8 "732-4983-1-ND" H -650 3300 50  0001 C CNN "Vendor P/N"
+	1    3050 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 5050 3050 4900
+$Comp
+L power:GND #PWR037
+U 1 1 5C4D05C2
+P 3050 5550
+F 0 "#PWR037" H 3050 5300 50  0001 C CNN
+F 1 "GND" H 3050 5400 50  0000 C CNN
+F 2 "" H 3050 5550 50  0001 C CNN
+F 3 "" H 3050 5550 50  0001 C CNN
+	1    3050 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 5550 3050 5350
+Wire Wire Line
+	3050 4550 3050 4700
+Wire Wire Line
+	3050 4400 3050 4550
+Connection ~ 3050 4550
+$Comp
+L power:+5V #PWR099
+U 1 1 5C4D04DA
+P 5650 4450
+F 0 "#PWR099" H 5650 4300 50  0001 C CNN
+F 1 "+5V" H 5650 4590 50  0000 C CNN
+F 2 "" H 5650 4450 50  0001 C CNN
+F 3 "" H 5650 4450 50  0001 C CNN
+	1    5650 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4450 5650 4550
+$Comp
+L Device:Polyfuse F1
+U 1 1 5C2DDCD2
+P 5000 4550
+F 0 "F1" V 4775 4550 50  0000 C CNN
+F 1 "3A" V 4866 4550 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" H 5050 4350 50  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/mflsmf.pdf" H 5000 4550 50  0001 C CNN
+F 4 "MF-LSMF300/24X-2" H 5000 4550 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 5000 4550 50  0001 C CNN "Vendor"
+F 6 "MF-LSMF300/24X-2CT-ND" H 5000 4550 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 5000 4550 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 5000 4550 50  0001 C CNN "Alt Vendor P/N"
+	1    5000 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 4550 4850 4550
+Wire Wire Line
+	5150 4550 5350 4550
+Connection ~ 5650 4550
+$Comp
+L Regulator_Linear:L7805 U7
+U 1 1 5C2E8EFD
+P 6850 4550
+F 0 "U7" H 6850 4792 50  0000 C CNN
+F 1 "5V/3V3 Regulator" H 6850 4701 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220F-3_Vertical" H 6875 4400 50  0001 L CIN
+F 3 "https://www.monolithicpower.com/pub/media/document/mEZD71201Ar1.5.pdf" H 6850 4500 50  0001 C CNN
+F 4 "MEZD71201A-F" H 6850 4550 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 6850 4550 50  0001 C CNN "Vendor"
+F 6 "1589-1457-ND" H 6850 4550 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 6850 4550 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 6850 4550 50  0001 C CNN "Alt Vendor P/N"
+	1    6850 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4550 6400 4550
+Wire Wire Line
+	6400 4550 6400 4650
+$Comp
+L power:GND #PWR0101
+U 1 1 5C2EC12C
+P 6850 5100
+F 0 "#PWR0101" H 6850 4850 50  0001 C CNN
+F 1 "GND" H 6850 4950 50  0000 C CNN
+F 2 "" H 6850 5100 50  0001 C CNN
+F 3 "" H 6850 5100 50  0001 C CNN
+	1    6850 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4850 6400 5000
+Wire Wire Line
+	6400 5000 6850 5000
+Wire Wire Line
+	6850 5000 6850 5100
+Wire Wire Line
+	6850 4850 6850 5000
+Connection ~ 6850 5000
+Wire Wire Line
+	7300 4850 7300 5000
+Wire Wire Line
+	7300 5000 6850 5000
+Wire Wire Line
+	7150 4550 7300 4550
+Wire Wire Line
+	7300 4550 7300 4650
+Connection ~ 6400 4550
+$Comp
+L Device:R_Small R55
+U 1 1 5C2F4A77
+P 8200 4800
+F 0 "R55" V 8300 4800 50  0000 C BNN
+F 1 "1k" V 8100 4800 50  0000 C TNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8200 4800 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 8200 4800 50  0001 C CNN
+F 4 "RNCP0805FTD1K00" H 3000 2850 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 3000 2850 50  0001 C CNN "Vendor"
+F 6 "RNCP0805FTD1K00CT-ND" H 3000 2850 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 3000 2850 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 3000 2850 50  0001 C CNN "Alt Vendor P/N"
+	1    8200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ALT D17
+U 1 1 5C2F4A82
+P 8200 5200
+F 0 "D17" H 8238 5083 50  0000 R CNN
+F 1 "3V3" H 8250 5300 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8200 5200 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150080GS75000.pdf" H 8200 5200 50  0001 C CNN
+F 4 "~" H 3000 2900 50  0001 C CNN "Alt Vendor"
+F 5 "~" H 3000 2900 50  0001 C CNN "Alt Vendor P/N"
+F 6 "150080GS75000" H 3000 2900 50  0001 C CNN "MPN"
+F 7 "DigiKey" H 3000 2900 50  0001 C CNN "Vendor"
+F 8 "732-4983-1-ND" H 3000 2900 50  0001 C CNN "Vendor P/N"
+	1    8200 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5C2F4A88
+P 8200 5550
+F 0 "#PWR0105" H 8200 5300 50  0001 C CNN
+F 1 "GND" H 8200 5400 50  0000 C CNN
+F 2 "" H 8200 5550 50  0001 C CNN
+F 3 "" H 8200 5550 50  0001 C CNN
+	1    8200 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 4450 8200 4550
+$Comp
+L Device:Polyfuse F6
+U 1 1 5C2F4A99
+P 7550 4550
+F 0 "F6" V 7325 4550 50  0000 C CNN
+F 1 "500mA" V 7416 4550 50  0000 C CNN
+F 2 "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7600 4350 50  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/mfpsmf.pdf" H 7550 4550 50  0001 C CNN
+F 4 "MF-PSMF050X-2" H 7550 4550 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 7550 4550 50  0001 C CNN "Vendor"
+F 6 "MF-PSMF050X-2CT-ND" H 7550 4550 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 7550 4550 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 7550 4550 50  0001 C CNN "Alt Vendor P/N"
+	1    7550 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7700 4550 7850 4550
+Connection ~ 8200 4550
+Wire Wire Line
+	7400 4550 7300 4550
+Connection ~ 7300 4550
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5C2F90BA
+P 8200 4450
+F 0 "#PWR0104" H 8200 4300 50  0001 C CNN
+F 1 "+3.3V" H 8215 4623 50  0000 C CNN
+F 2 "" H 8200 4450 50  0001 C CNN
+F 3 "" H 8200 4450 50  0001 C CNN
+	1    8200 4450
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	600  600  10400 600 
+Wire Wire Line
+	3950 2600 3950 2800
+$Comp
+L power:GND #PWR043
+U 1 1 5C8733FF
+P 3950 2950
+F 0 "#PWR043" H 3950 2700 50  0001 C CNN
+F 1 "GND" H 3950 2800 50  0000 C CNN
+F 2 "" H 3950 2950 50  0001 C CNN
+F 3 "" H 3950 2950 50  0001 C CNN
+	1    3950 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GDS Q14
+U 1 1 5CAC8A5F
+P 5050 2200
+F 0 "Q14" V 5300 2200 50  0000 C CNN
+F 1 "Q_PMOS_GDS" V 5302 2200 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-3_TabPin2" H 5250 2300 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/irf5210spbf.pdf?fileId=5546d462533600a4015355e35f77198e" H 5050 2200 50  0001 C CNN
+F 4 "IRF5210STRLPBF" H 5050 2200 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 5050 2200 50  0001 C CNN "Vendor"
+F 6 "IRF5210STRLPBFCT-ND" H 5050 2200 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 5050 2200 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 5050 2200 50  0001 C CNN "Alt Vendor P/N"
+	1    5050 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 2400 5050 2500
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 5CDE8427
+P 4100 2800
+F 0 "NT1" H 4100 2850 50  0000 C CNN
+F 1 "Net-Tie_2" H 4100 2750 50  0001 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 4100 2800 50  0001 C CNN
+F 3 "~" H 4100 2800 50  0001 C CNN
+F 4 "DNF" H 4100 2800 50  0001 C CNN "Config"
+F 5 "~" H 0   0   50  0001 C CNN "MPN"
+F 6 "~" H 0   0   50  0001 C CNN "Vendor"
+F 7 "~" H 0   0   50  0001 C CNN "Vendor P/N"
+	1    4100 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2800 3950 2800
+Connection ~ 3950 2800
+Wire Wire Line
+	3950 2800 3950 2950
+Connection ~ 3950 2600
+Wire Wire Line
+	4250 2950 4250 2800
+Wire Wire Line
+	4250 2800 4200 2800
+Wire Wire Line
+	4550 2600 4550 2950
+$Comp
+L power:GNDA #PWR095
+U 1 1 5CE2E111
+P 4250 2950
+F 0 "#PWR095" H 4250 2700 50  0001 C CNN
+F 1 "GNDA" H 4250 2800 50  0000 C CNN
+F 2 "" H 4250 2950 50  0001 C CNN
+F 3 "" H 4250 2950 50  0001 C CNN
+	1    4250 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CFC6D91
+P 5650 4800
+AR Path="/5CFC6D91" Ref="R?"  Part="1" 
+AR Path="/5C2E7DBE/5CFC6D91" Ref="R?"  Part="1" 
+AR Path="/5F9CEF98/5CFC6D91" Ref="R54"  Part="1" 
+F 0 "R54" V 5600 4800 50  0000 C BNN
+F 1 "4.7K" V 5700 4800 50  0000 C TNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5650 4800 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/PCNs/Stackpole/Global%20Part%20Number%20Change.pdf" H 5650 4800 50  0001 C CNN
+F 4 "RMCF0805JT4K70" H 5650 4800 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 750 -1400 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JT4K70CT-ND" H 5650 4800 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 750 -1400 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 750 -1400 50  0001 C CNN "Alt Vendor P/N"
+	1    5650 4800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CFDAD17
+P 6400 4750
+AR Path="/5CFDAD17" Ref="C?"  Part="1" 
+AR Path="/5C2E7DBE/5CFDAD17" Ref="C?"  Part="1" 
+AR Path="/5F9CEF98/5CFDAD17" Ref="C7"  Part="1" 
+F 0 "C7" H 6500 4700 50  0000 L CNN
+F 1 "2.2uF" H 6500 4800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6400 4750 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C225K8RACTU.pdf" H 6400 4750 50  0001 C CNN
+F 4 "~" H -1050 1300 50  0001 C CNN "Alt Vendor"
+F 5 "~" H -1050 1300 50  0001 C CNN "Alt Vendor P/N"
+F 6 "C0805C225K8RACTU" H -1050 1300 50  0001 C CNN "MPN"
+F 7 "DigiKey" H -1050 1300 50  0001 C CNN "Vendor"
+F 8 "399-3522-1-ND" H -1050 1300 50  0001 C CNN "Vendor P/N"
+	1    6400 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 5CFE2724
+P 7300 4750
+F 0 "C8" H 7400 4800 50  0000 L CNN
+F 1 "10uF" H 7400 4700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7300 4750 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A106KOQNNNG.jsp" H 7300 4750 50  0001 C CNN
+F 4 "CL21A106KOQNNNG" H 7300 4750 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 7300 4750 50  0001 C CNN "Vendor"
+F 6 "1276-6455-1-ND" H 7300 4750 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 7300 4750 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 7300 4750 50  0001 C CNN "Alt Vendor P/N"
+	1    7300 4750
+	1    0    0    -1  
+$EndComp
+Connection ~ 5050 2500
+$Comp
+L power:PWR_FLAG #FLG04
+U 1 1 5D58EDE4
+P 7750 1950
+F 0 "#FLG04" H 7750 2025 50  0001 C CNN
+F 1 "PWR_FLAG" H 7750 2100 50  0000 C CNN
+F 2 "" H 7750 1950 50  0001 C CNN
+F 3 "~" H 7750 1950 50  0001 C CNN
+	1    7750 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 1950 7750 2100
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 5D5AEE37
+P 5350 4450
+F 0 "#FLG03" H 5350 4525 50  0001 C CNN
+F 1 "PWR_FLAG" H 5350 4600 50  0000 C CNN
+F 2 "" H 5350 4450 50  0001 C CNN
+F 3 "~" H 5350 4450 50  0001 C CNN
+	1    5350 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 4450 5350 4550
+Connection ~ 5350 4550
+Wire Wire Line
+	5350 4550 5650 4550
+$Comp
+L VDW_Device:GNDM #PWR096
+U 1 1 5E2AE03F
+P 4550 3000
+F 0 "#PWR096" H 4550 2800 50  0001 C CNN
+F 1 "GNDM" H 4550 2900 50  0000 C CNN
+F 2 "" H 4850 3200 60  0001 C CNN
+F 3 "" H 4850 3200 60  0001 C CNN
+	1    4550 3000
+	1    0    0    -1  
+$EndComp
+Text Label 3650 2100 0    60   ~ 0
+VIN
+Wire Wire Line
+	3950 2600 4200 2600
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5C4BEAC1
+P 7850 4450
+AR Path="/5C4BEAC1" Ref="#FLG?"  Part="1" 
+AR Path="/5C2E7DBE/5C4BEAC1" Ref="#FLG?"  Part="1" 
+AR Path="/5F9CEF98/5C4BEAC1" Ref="#FLG05"  Part="1" 
+F 0 "#FLG05" H 7850 4525 50  0001 C CNN
+F 1 "PWR_FLAG" H 7850 4600 50  0000 C CNN
+F 2 "" H 7850 4450 50  0001 C CNN
+F 3 "~" H 7850 4450 50  0001 C CNN
+	1    7850 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 4450 7850 4550
+Connection ~ 7850 4550
+Wire Wire Line
+	7850 4550 8200 4550
+$Comp
+L Device:D_Zener_ALT D15
+U 1 1 5CC46CF3
+P 5350 2300
+F 0 "D15" V 5304 2379 50  0000 L CNN
+F 1 "10V" V 5395 2379 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 5350 2300 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds18015.pdf" H 5350 2300 50  0001 C CNN
+F 4 "SMAZ10-13-F" H 5350 2300 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 5350 2300 50  0001 C CNN "Vendor"
+F 6 "SMAZ10-FDICT-ND" H 5350 2300 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 5350 2300 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 5350 2300 50  0001 C CNN "Alt Vendor P/N"
+	1    5350 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 2500 5050 2600
+$Comp
+L Device:R_Small R53
+U 1 1 5CA20AB4
+P 5050 2700
+F 0 "R53" H 4850 2650 50  0000 L CNN
+F 1 "100k" H 4900 2750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4980 2700 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/PCNs/Stackpole/Global%20Part%20Number%20Change.pdf" H 5050 2700 50  0001 C CNN
+F 4 "RMCF0805JT100K" H 700 -1900 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 700 -1900 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JT100KCT-ND" H 700 -1900 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 700 -1900 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 700 -1900 50  0001 C CNN "Alt Vendor P/N"
+	1    5050 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0102
+U 1 1 5FB75D01
+P 7400 1950
+F 0 "#PWR0102" H 7400 1800 50  0001 C CNN
+F 1 "+12V" H 7400 2090 50  0000 C CNN
+F 2 "" H 7400 1950 50  0001 C CNN
+F 3 "" H 7400 1950 50  0001 C CNN
+	1    7400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR098
+U 1 1 5FB7AB02
+P 5050 2950
+F 0 "#PWR098" H 5050 2700 50  0001 C CNN
+F 1 "GND" H 5050 2800 50  0000 C CNN
+F 2 "" H 5050 2950 50  0001 C CNN
+F 3 "" H 5050 2950 50  0001 C CNN
+	1    5050 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2950 5050 2800
+Wire Wire Line
+	7400 2100 6900 2100
+Wire Wire Line
+	7400 1950 7400 2100
+$Comp
+L VDW_Device:Polyfuse F2
+U 1 1 5FB9EE36
+P 6700 2100
+F 0 "F2" H 6700 2200 50  0000 C CNN
+F 1 "10A" H 6700 2300 50  0000 C CNN
+F 2 "NoFootprint:NoFootprint" V 6900 2150 50  0001 L CNN
+F 3 "http://www.cooperindustries.com/content/dam/public/bussmann/Electronics/Resources/product-datasheets/Bus_Elx_DS_2000_ABC_Series.pdf" V 6700 2100 50  0001 C CNN
+F 4 "BK/ABC-10-R" H 6700 2100 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 6700 2100 50  0001 C CNN "Vendor"
+F 6 "283-2607-ND" H 6700 2100 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 6700 2100 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 6700 2100 50  0001 C CNN "Alt Vendor P/N"
+F 9 "DNF" H 5200 550 50  0001 C CNN "Config"
+	1    6700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDW_Device:Fuse_Holder F3
+U 1 1 5FB9EE45
+P 6700 2100
+F 0 "F3" H 6700 1900 50  0000 C CNN
+F 1 "Fuse" H 6700 2000 50  0000 C CNN
+F 2 "VDW-Modules:FUSE_HOLDER_.25inx1.25in_01220093Z" V 6900 2150 50  0001 L CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_102_122_datasheet.pdf.pdf" V 6700 2100 50  0001 C CNN
+F 4 "01220093Z" H 6700 2100 50  0001 C CNN "MPN"
+F 5 "DigiKey" H 6700 2100 50  0001 C CNN "Vendor"
+F 6 "F4185-ND" H 6700 2100 50  0001 C CNN "Vendor P/N"
+F 7 "~" H 6700 2100 50  0001 C CNN "Alt Vendor"
+F 8 "~" H 6700 2100 50  0001 C CNN "Alt Vendor P/N"
+	1    6700 2100
+	1    0    0    -1  
+$EndComp
+Text Label 5400 2100 0    60   ~ 0
+VIN_PROTECT
+Wire Wire Line
+	3050 4550 3950 4550
+Wire Wire Line
+	5650 5550 5650 5350
+Wire Wire Line
+	5650 5050 5650 4900
+Wire Wire Line
+	5650 4700 5650 4550
+Wire Wire Line
+	5650 4550 5950 4550
+$Comp
+L Device:R_Small R?
+U 1 1 5FBE2F7F
+P 3050 4800
+AR Path="/5FBE2F7F" Ref="R?"  Part="1" 
+AR Path="/5C2E7DBE/5FBE2F7F" Ref="R?"  Part="1" 
+AR Path="/5F9CEF98/5FBE2F7F" Ref="R20"  Part="1" 
+F 0 "R20" V 3000 4800 50  0000 C BNN
+F 1 "4.7K" V 3100 4800 50  0000 C TNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3050 4800 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/PCNs/Stackpole/Global%20Part%20Number%20Change.pdf" H 3050 4800 50  0001 C CNN
+F 4 "RMCF0805JT4K70" H 3050 4800 50  0001 C CNN "MPN"
+F 5 "DigiKey" H -1850 -1400 50  0001 C CNN "Vendor"
+F 6 "RMCF0805JT4K70CT-ND" H 3050 4800 50  0001 C CNN "Vendor P/N"
+F 7 "~" H -1850 -1400 50  0001 C CNN "Alt Vendor"
+F 8 "~" H -1850 -1400 50  0001 C CNN "Alt Vendor P/N"
+	1    3050 4800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 4550 8200 4700
+Wire Wire Line
+	8200 4900 8200 5050
+Wire Wire Line
+	8200 5350 8200 5550
+$Comp
+L power:+12V #PWR029
+U 1 1 5FC0067C
+P 3050 4400
+F 0 "#PWR029" H 3050 4250 50  0001 C CNN
+F 1 "+12V" H 3050 4540 50  0000 C CNN
+F 2 "" H 3050 4400 50  0001 C CNN
+F 3 "" H 3050 4400 50  0001 C CNN
+	1    3050 4400
+	1    0    0    -1  
+$EndComp
+Text Label 7400 2100 2    50   ~ 0
+SYSTEM_PWR
+Wire Wire Line
+	3600 2600 3950 2600
+Wire Wire Line
+	3600 2600 3600 2400
+Wire Wire Line
+	3600 2400 3450 2400
+Wire Wire Line
+	3450 2300 3600 2300
+Wire Wire Line
+	3600 2300 3600 2100
+Connection ~ 4250 2800
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5DCA2710
+P 4250 2800
+F 0 "#FLG02" H 4250 2875 50  0001 C CNN
+F 1 "PWR_FLAG" H 4250 2950 50  0001 C CNN
+F 2 "" H 4250 2800 50  0001 C CNN
+F 3 "~" H 4250 2800 50  0001 C CNN
+	1    4250 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2550 3950 2600
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5DC93F0F
+P 3950 2550
+F 0 "#FLG01" H 3950 2625 50  0001 C CNN
+F 1 "PWR_FLAG" H 3950 2700 50  0001 C CNN
+F 2 "" H 3950 2550 50  0001 C CNN
+F 3 "~" H 3950 2550 50  0001 C CNN
+	1    3950 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2100 7400 2100
+Connection ~ 7400 2100
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F32B78C
+P 8100 2000
+AR Path="/5F32B78C" Ref="TP?"  Part="1" 
+AR Path="/5C3B107B/5F32B78C" Ref="TP?"  Part="1" 
+AR Path="/5ED93B63/5C3B107B/5F32B78C" Ref="TP?"  Part="1" 
+AR Path="/5F7FD3CE/5F32B78C" Ref="TP?"  Part="1" 
+AR Path="/5F9CEF98/5F32B78C" Ref="TP33"  Part="1" 
+F 0 "TP33" H 8100 2300 50  0000 C BNN
+F 1 "+12V" H 8100 2250 50  0000 C TNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8300 2000 50  0001 C CNN
+F 3 "~" H 8300 2000 50  0001 C CNN
+F 4 "~" H -3000 -1250 50  0001 C CNN "Alt Vendor"
+F 5 "~" H -3000 -1250 50  0001 C CNN "Alt Vendor P/N"
+F 6 "~" H -3000 -1250 50  0001 C CNN "MPN"
+F 7 "~" H -3000 -1250 50  0001 C CNN "Vendor"
+F 8 "~" H -3000 -1250 50  0001 C CNN "Vendor P/N"
+F 9 "DNF" H -2850 -1150 50  0001 C CNN "Config"
+	1    8100 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 2000 8100 2100
+Wire Wire Line
+	8100 2100 7750 2100
+Connection ~ 7750 2100
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F32EF9D
+P 5950 4500
+AR Path="/5F32EF9D" Ref="TP?"  Part="1" 
+AR Path="/5C3B107B/5F32EF9D" Ref="TP?"  Part="1" 
+AR Path="/5ED93B63/5C3B107B/5F32EF9D" Ref="TP?"  Part="1" 
+AR Path="/5F7FD3CE/5F32EF9D" Ref="TP?"  Part="1" 
+AR Path="/5F9CEF98/5F32EF9D" Ref="TP32"  Part="1" 
+F 0 "TP32" H 5950 4800 50  0000 C BNN
+F 1 "+5V" H 5950 4750 50  0000 C TNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 6150 4500 50  0001 C CNN
+F 3 "~" H 6150 4500 50  0001 C CNN
+F 4 "~" H -5150 1250 50  0001 C CNN "Alt Vendor"
+F 5 "~" H -5150 1250 50  0001 C CNN "Alt Vendor P/N"
+F 6 "~" H -5150 1250 50  0001 C CNN "MPN"
+F 7 "~" H -5150 1250 50  0001 C CNN "Vendor"
+F 8 "~" H -5150 1250 50  0001 C CNN "Vendor P/N"
+F 9 "DNF" H -5000 1350 50  0001 C CNN "Config"
+	1    5950 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 4500 5950 4550
+Connection ~ 5950 4550
+Wire Wire Line
+	5950 4550 6400 4550
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F331F4A
+P 8500 4500
+AR Path="/5F331F4A" Ref="TP?"  Part="1" 
+AR Path="/5C3B107B/5F331F4A" Ref="TP?"  Part="1" 
+AR Path="/5ED93B63/5C3B107B/5F331F4A" Ref="TP?"  Part="1" 
+AR Path="/5F7FD3CE/5F331F4A" Ref="TP?"  Part="1" 
+AR Path="/5F9CEF98/5F331F4A" Ref="TP34"  Part="1" 
+F 0 "TP34" H 8500 4800 50  0000 C BNN
+F 1 "+3.3V" H 8500 4750 50  0000 C TNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8700 4500 50  0001 C CNN
+F 3 "~" H 8700 4500 50  0001 C CNN
+F 4 "~" H -2600 1250 50  0001 C CNN "Alt Vendor"
+F 5 "~" H -2600 1250 50  0001 C CNN "Alt Vendor P/N"
+F 6 "~" H -2600 1250 50  0001 C CNN "MPN"
+F 7 "~" H -2600 1250 50  0001 C CNN "Vendor"
+F 8 "~" H -2600 1250 50  0001 C CNN "Vendor P/N"
+F 9 "DNF" H -2450 1350 50  0001 C CNN "Config"
+	1    8500 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 4500 8500 4550
+Wire Wire Line
+	8500 4550 8200 4550
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F334F99
+P 4200 2600
+AR Path="/5F334F99" Ref="TP?"  Part="1" 
+AR Path="/5C3B107B/5F334F99" Ref="TP?"  Part="1" 
+AR Path="/5ED93B63/5C3B107B/5F334F99" Ref="TP?"  Part="1" 
+AR Path="/5F7FD3CE/5F334F99" Ref="TP?"  Part="1" 
+AR Path="/5F9CEF98/5F334F99" Ref="TP30"  Part="1" 
+F 0 "TP30" H 4200 2900 50  0000 C BNN
+F 1 "GND" H 4200 2850 50  0000 C TNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 4400 2600 50  0001 C CNN
+F 3 "~" H 4400 2600 50  0001 C CNN
+F 4 "~" H -6900 -650 50  0001 C CNN "Alt Vendor"
+F 5 "~" H -6900 -650 50  0001 C CNN "Alt Vendor P/N"
+F 6 "~" H -6900 -650 50  0001 C CNN "MPN"
+F 7 "~" H -6900 -650 50  0001 C CNN "Vendor"
+F 8 "~" H -6900 -650 50  0001 C CNN "Vendor P/N"
+F 9 "DNF" H -6750 -550 50  0001 C CNN "Config"
+	1    4200 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 4200 2600
+Wire Wire Line
+	4200 2600 4550 2600
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F336C4B
+P 4250 2800
+AR Path="/5F336C4B" Ref="TP?"  Part="1" 
+AR Path="/5C3B107B/5F336C4B" Ref="TP?"  Part="1" 
+AR Path="/5ED93B63/5C3B107B/5F336C4B" Ref="TP?"  Part="1" 
+AR Path="/5F7FD3CE/5F336C4B" Ref="TP?"  Part="1" 
+AR Path="/5F9CEF98/5F336C4B" Ref="TP31"  Part="1" 
+F 0 "TP31" V 4200 2950 50  0000 C BNN
+F 1 "GNDA" V 4300 2950 50  0000 C TNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 4450 2800 50  0001 C CNN
+F 3 "~" H 4450 2800 50  0001 C CNN
+F 4 "~" H -6850 -450 50  0001 C CNN "Alt Vendor"
+F 5 "~" H -6850 -450 50  0001 C CNN "Alt Vendor P/N"
+F 6 "~" H -6850 -450 50  0001 C CNN "MPN"
+F 7 "~" H -6850 -450 50  0001 C CNN "Vendor"
+F 8 "~" H -6850 -450 50  0001 C CNN "Vendor P/N"
+F 9 "DNF" H -6700 -350 50  0001 C CNN "Config"
+	1    4250 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 2100 5350 2100
+Wire Wire Line
+	5350 2150 5350 2100
+Connection ~ 5350 2100
+Wire Wire Line
+	5350 2100 6500 2100
+Wire Wire Line
+	5350 2450 5350 2500
+Wire Wire Line
+	5350 2500 5050 2500
+Wire Wire Line
+	3600 2100 4850 2100
+$EndSCHEMATC

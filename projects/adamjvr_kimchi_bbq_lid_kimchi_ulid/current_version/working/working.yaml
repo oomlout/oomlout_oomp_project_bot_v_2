@@ -1,10 +1,290 @@
 board: kimchi_ulid
+bom:
+- Id: '1'
+  Designator: H1,H2,H3,H4
+  Footprint: M2.5HOLE
+  Quantity: '4'
+  Designation: M2.5HOLE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J7
+  Footprint: HRS_FH19C-40S-0.5SH_1x40-1MP_P0.50mm
+  Quantity: '1'
+  Designation: FH19C-40S-0.5SH(10)
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: L3
+  Footprint: L_Taiyo-Yuden_MD-4040
+  Quantity: '1'
+  Designation: TYA4012220M-10
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C33
+  Footprint: C0603
+  Quantity: '1'
+  Designation: CGA3E3X7R1H224K080AB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C29
+  Footprint: C0603
+  Quantity: '1'
+  Designation: C0603C104M5RACAUTO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R11
+  Footprint: R0603
+  Quantity: '1'
+  Designation: RE0603FRE0710RL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U6
+  Footprint: SOT-23-6_Handsoldering
+  Quantity: '1'
+  Designation: AP3019AKTR-G1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: T1
+  Footprint: SFV30R-4STBE1HLF
+  Quantity: '1'
+  Designation: SFV30R-4STBE1HLF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: C32
+  Footprint: C0603
+  Quantity: '1'
+  Designation: C0603C105K4PAC7411
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | H1,H2,H3,H4\
+  \ | M2.5HOLE | 4 | M2.5HOLE |  |  | [''] | \n| 2 | J7 | HRS_FH19C-40S-0.5SH_1x40-1MP_P0.50mm\
+  \ | 1 | FH19C-40S-0.5SH(10) |  |  | [''] | \n| 3 | L3 | L_Taiyo-Yuden_MD-4040 |\
+  \ 1 | TYA4012220M-10 |  |  | [''] | \n| 4 | C33 | C0603 | 1 | CGA3E3X7R1H224K080AB\
+  \ |  |  | [''] | \n| 5 | C29 | C0603 | 1 | C0603C104M5RACAUTO |  |  | [''] | \n\
+  | 6 | R11 | R0603 | 1 | RE0603FRE0710RL |  |  | [''] | \n| 7 | U6 | SOT-23-6_Handsoldering\
+  \ | 1 | AP3019AKTR-G1 |  |  | [''] | \n| 8 | T1 | SFV30R-4STBE1HLF | 1 | SFV30R-4STBE1HLF\
+  \ |  |  | [''] | \n| 9 | C32 | C0603 | 1 | C0603C105K4PAC7411 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C0603C105K4PAC7411
+  DNP: ''
+  Description: ''
+  Footprint: kimchi_ulid:C0603
+  Qnty: '1'
+  Ref: C32
+  Value: C0603C105K4PAC7411
+  Vendor: Digikey
+- Cmp name: CGA3E3X7R1H224K080AB
+  DNP: ''
+  Description: ''
+  Footprint: kimchi_ulid:C0603
+  Qnty: '1'
+  Ref: C33
+  Value: CGA3E3X7R1H224K080AB
+  Vendor: Digikey
+- Cmp name: M2.5HOLE
+  DNP: ''
+  Description: ''
+  Footprint: kimchi_ulid:M2.5HOLE
+  Qnty: '4'
+  Ref: H1, H2, H3, H4
+  Value: M2.5HOLE
+  Vendor: ''
+- Cmp name: Conn_01x40_MountingPin
+  DNP: ''
+  Description: Generic connectable mounting pin connector, single row, 01x40, script
+    generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: kimchi_ulid:HRS_FH19C-40S-0.5SH_1x40-1MP_P0.50mm
+  Qnty: '1'
+  Ref: J7
+  Value: FH19C-40S-0.5SH(10)
+  Vendor: ''
+- Cmp name: TYA4012220M-10
+  DNP: ''
+  Description: ''
+  Footprint: kimchi_ulid:L_Taiyo-Yuden_MD-4040
+  Qnty: '1'
+  Ref: L3
+  Value: TYA4012220M-10
+  Vendor: Digikey
+- Cmp name: RE0603FRE0710RL
+  DNP: ''
+  Description: ''
+  Footprint: kimchi_ulid:R0603
+  Qnty: '1'
+  Ref: R11
+  Value: RE0603FRE0710RL
+  Vendor: Digikey
+- Cmp name: SFV30R-4STBE1HLF
+  DNP: ''
+  Description: ''
+  Footprint: kimchi_ulid:SFV30R-4STBE1HLF
+  Qnty: '1'
+  Ref: T1
+  Value: SFV30R-4STBE1HLF
+  Vendor: ''
+- Cmp name: AP3019AKTR-G1
+  DNP: ''
+  Description: ''
+  Footprint: kimchi_ulid:SOT-23-6_Handsoldering
+  Qnty: '1'
+  Ref: U6
+  Value: AP3019AKTR-G1
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C32 |\
+  \ 1 | C0603C105K4PAC7411 | C0603C105K4PAC7411 | kimchi_ulid:C0603 |  | Digikey |\
+  \  | \n| C33 | 1 | CGA3E3X7R1H224K080AB | CGA3E3X7R1H224K080AB | kimchi_ulid:C0603\
+  \ |  | Digikey |  | \n| H1, H2, H3, H4 | 4 | M2.5HOLE | M2.5HOLE | kimchi_ulid:M2.5HOLE\
+  \ |  |  |  | \n| J7 | 1 | FH19C-40S-0.5SH(10) | Conn_01x40_MountingPin | kimchi_ulid:HRS_FH19C-40S-0.5SH_1x40-1MP_P0.50mm\
+  \ | Generic connectable mounting pin connector, single row, 01x40, script generated\
+  \ (kicad-library-utils/schlib/autogen/connector/) |  |  | \n| L3 | 1 | TYA4012220M-10\
+  \ | TYA4012220M-10 | kimchi_ulid:L_Taiyo-Yuden_MD-4040 |  | Digikey |  | \n| R11\
+  \ | 1 | RE0603FRE0710RL | RE0603FRE0710RL | kimchi_ulid:R0603 |  | Digikey |  |\
+  \ \n| T1 | 1 | SFV30R-4STBE1HLF | SFV30R-4STBE1HLF | kimchi_ulid:SFV30R-4STBE1HLF\
+  \ |  |  |  | \n| U6 | 1 | AP3019AKTR-G1 | AP3019AKTR-G1 | kimchi_ulid:SOT-23-6_Handsoldering\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamjvr_kimchi_bbq_lid_kimchi_ulid/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamjvr_kimchi_bbq_lid_kimchi_ulid/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adamjvr_kimchi_bbq_lid_kimchi_ulid/current_version/working/working.sch
 id: adamjvr_kimchi_bbq_lid_kimchi_ulid
 name: kimchi_bbq_lid
+position_bottom:
+- '# Ref': C29
+  Package: C0603
+  PosX: 133.908
+  PosY: -84.335
+  Rot: 0.0
+  Side: bottom
+  Val: C0603C104M5RACAUTO
+- '# Ref': C32
+  Package: C0603
+  PosX: 132.842
+  PosY: -87.63
+  Rot: 0.0
+  Side: bottom
+  Val: C0603C105K4PAC7411
+- '# Ref': C33
+  Package: C0603
+  PosX: 133.658
+  PosY: -79.39
+  Rot: 90.0
+  Side: bottom
+  Val: CGA3E3X7R1H224K080AB
+- '# Ref': J7
+  Package: HRS_FH19C-40S-0.5SH_1x40-1MP_P0.50mm
+  PosX: 130.0
+  PosY: -65.75
+  Rot: 90.0
+  Side: bottom
+  Val: FH19C-40S-0.5SH(10)
+- '# Ref': L3
+  Package: L_Taiyo-Yuden_MD-4040
+  PosX: 130.308
+  PosY: -84.335
+  Rot: 180.0
+  Side: bottom
+  Val: TYA4012220M-10
+- '# Ref': R11
+  Package: R0603
+  PosX: 127.158
+  PosY: -79.39
+  Rot: -90.0
+  Side: bottom
+  Val: RE0603FRE0710RL
+- '# Ref': T1
+  Package: SFV30R-4STBE1HLF
+  PosX: 182.372
+  PosY: -40.0
+  Rot: 0.0
+  Side: bottom
+  Val: SFV30R-4STBE1HLF
+- '# Ref': U6
+  Package: SOT-23-6_Handsoldering
+  PosX: 130.408
+  PosY: -80.14
+  Rot: 0.0
+  Side: bottom
+  Val: AP3019AKTR-G1
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C29 | C0603C104M5RACAUTO | C0603\
+  \ | 133.908 | -84.335 | 0.0 | bottom | \n| C32 | C0603C105K4PAC7411 | C0603 | 132.842\
+  \ | -87.63 | 0.0 | bottom | \n| C33 | CGA3E3X7R1H224K080AB | C0603 | 133.658 | -79.39\
+  \ | 90.0 | bottom | \n| J7 | FH19C-40S-0.5SH(10) | HRS_FH19C-40S-0.5SH_1x40-1MP_P0.50mm\
+  \ | 130.0 | -65.75 | 90.0 | bottom | \n| L3 | TYA4012220M-10 | L_Taiyo-Yuden_MD-4040\
+  \ | 130.308 | -84.335 | 180.0 | bottom | \n| R11 | RE0603FRE0710RL | R0603 | 127.158\
+  \ | -79.39 | -90.0 | bottom | \n| T1 | SFV30R-4STBE1HLF | SFV30R-4STBE1HLF | 182.372\
+  \ | -40.0 | 0.0 | bottom | \n| U6 | AP3019AKTR-G1 | SOT-23-6_Handsoldering | 130.408\
+  \ | -80.14 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': H1
+  Package: M2.5HOLE
+  PosX: 103.378
+  PosY: -37.592
+  Rot: 0.0
+  Side: top
+  Val: M2.5HOLE
+- '# Ref': H2
+  Package: M2.5HOLE
+  PosX: 103.632
+  PosY: -96.52
+  Rot: 0.0
+  Side: top
+  Val: M2.5HOLE
+- '# Ref': H3
+  Package: M2.5HOLE
+  PosX: 216.408
+  PosY: -37.846
+  Rot: 0.0
+  Side: top
+  Val: M2.5HOLE
+- '# Ref': H4
+  Package: M2.5HOLE
+  PosX: 216.408
+  PosY: -96.266
+  Rot: 0.0
+  Side: top
+  Val: M2.5HOLE
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| H1 | M2.5HOLE | M2.5HOLE | 103.378 |\
+  \ -37.592 | 0.0 | top | \n| H2 | M2.5HOLE | M2.5HOLE | 103.632 | -96.52 | 0.0 |\
+  \ top | \n| H3 | M2.5HOLE | M2.5HOLE | 216.408 | -37.846 | 0.0 | top | \n| H4 |\
+  \ M2.5HOLE | M2.5HOLE | 216.408 | -96.266 | 0.0 | top | \n"
 projects_flat: projects/adamjvr_kimchi_bbq_lid_kimchi_ulid/current_version/working
 repo:
   allow_forking: true

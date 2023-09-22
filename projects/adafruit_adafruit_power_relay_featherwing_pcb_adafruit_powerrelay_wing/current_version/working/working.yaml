@@ -1,9 +1,496 @@
 board: adafruit_powerrelay_wing
+bom:
+- Id: '1'
+  Designator: D1
+  Footprint: SOD-323
+  Quantity: '1'
+  Designation: 1N4148
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$1
+  Footprint: RELAY_G5LE-1
+  Quantity: '1'
+  Designation: RELAY_G5LE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: D2
+  Footprint: CHIPLED_0805_NOOUTLINE
+  Quantity: '1'
+  Designation: RED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: SJ1
+  Footprint: SOLDERJUMPER_CLOSEDWIRE
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R3,R1
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: MS2
+  Footprint: FEATHERWING
+  Quantity: '1'
+  Designation: FEATHERWING
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R2
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U$5
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: SW1
+  Footprint: BTN_KMR2_4.6X2.8
+  Quantity: '1'
+  Designation: KMR2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: JP1
+  Footprint: TERMBLOCK_1X3_5.08MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: JP2
+  Footprint: 1X01_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: Q1
+  Footprint: SOT23-R
+  Quantity: '1'
+  Designation: MMBT2222
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U$6
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: SJ20,SJ17,SJ7,SJ9,SJ19,SJ4,SJ8,SJ2,SJ18,SJ3,SJ16
+  Footprint: SOLDERJUMPER_ARROW_NOPASTE
+  Quantity: '11'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U$7
+  Footprint: FEATHERLOGO_MED
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D1\
+  \ | SOD-323 | 1 | 1N4148 |  |  | [''] | \n| 2 | U$1 | RELAY_G5LE-1 | 1 | RELAY_G5LE\
+  \ |  |  | [''] | \n| 3 | D2 | CHIPLED_0805_NOOUTLINE | 1 | RED |  |  | [''] | \n\
+  | 4 | SJ1 | SOLDERJUMPER_CLOSEDWIRE | 1 |  |  |  | [''] | \n| 5 | R3,R1 | 0805-NO\
+  \ | 2 | 1K |  |  | [''] | \n| 6 | MS2 | FEATHERWING | 1 | FEATHERWING |  |  | ['']\
+  \ | \n| 7 | R2 | 0805-NO | 1 | 10K |  |  | [''] | \n| 8 | U$5 | PCBFEAT-REV-040\
+  \ | 1 |  |  |  | [''] | \n| 9 | SW1 | BTN_KMR2_4.6X2.8 | 1 | KMR2 |  |  | [''] |\
+  \ \n| 10 | JP1 | TERMBLOCK_1X3_5.08MM | 1 |  |  |  | [''] | \n| 11 | JP2 | 1X01_ROUND\
+  \ | 1 |  |  |  | [''] | \n| 12 | Q1 | SOT23-R | 1 | MMBT2222 |  |  | [''] | \n|\
+  \ 13 | U$6 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n| 14 | SJ20,SJ17,SJ7,SJ9,SJ19,SJ4,SJ8,SJ2,SJ18,SJ3,SJ16\
+  \ | SOLDERJUMPER_ARROW_NOPASTE | 11 |  |  |  | [''] | \n| 15 | U$7 | FEATHERLOGO_MED\
+  \ | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: DIODESOD-323
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-323
+  Qnty: '1'
+  Ref: D1
+  Value: 1N4148
+  Vendor: ''
+- Cmp name: LED0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805_NOOUTLINE
+  Qnty: '1'
+  Ref: D2
+  Value: RED
+  Vendor: ''
+- Cmp name: HEADER-1X3_508TERM
+  DNP: ''
+  Description: ''
+  Footprint: working:TERMBLOCK_1X3_5.08MM
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X3_508TERM
+  Vendor: ''
+- Cmp name: HEADER-1X1ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X01_ROUND
+  Qnty: '1'
+  Ref: JP2
+  Value: HEADER-1X1ROUND
+  Vendor: ''
+- Cmp name: FEATHERWING
+  DNP: ''
+  Description: ''
+  Footprint: working:FEATHERWING
+  Qnty: '1'
+  Ref: MS2
+  Value: FEATHERWING
+  Vendor: ''
+- Cmp name: TRANSISTOR_NPN
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-R
+  Qnty: '1'
+  Ref: Q1
+  Value: MMBT2222
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: R1, R3
+  Value: 1K
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: R2
+  Value: 10K
+  Vendor: ''
+- Cmp name: SOLDERJUMPER_CLOSED
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_CLOSEDWIRE
+  Qnty: '1'
+  Ref: SJ1
+  Value: SOLDERJUMPER_CLOSED
+  Vendor: ''
+- Cmp name: SOLDERJUMPER
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_ARROW_NOPASTE
+  Qnty: '11'
+  Ref: SJ2, SJ3, SJ4, SJ7, SJ8, SJ9, SJ16, SJ17, SJ18, SJ19, SJ20
+  Value: SOLDERJUMPER
+  Vendor: ''
+- Cmp name: SWITCH_TACT_SMT4.6X2.8
+  DNP: ''
+  Description: ''
+  Footprint: working:BTN_KMR2_4.6X2.8
+  Qnty: '1'
+  Ref: SW1
+  Value: KMR2
+  Vendor: ''
+- Cmp name: RELAY_G5LE
+  DNP: ''
+  Description: ''
+  Footprint: working:RELAY_G5LE-1
+  Qnty: '1'
+  Ref: U$1
+  Value: RELAY_G5LE
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| D1 |\
+  \ 1 | 1N4148 | DIODESOD-323 | working:SOD-323 |  |  |  | \n| D2 | 1 | RED | LED0805_NOOUTLINE\
+  \ | working:CHIPLED_0805_NOOUTLINE |  |  |  | \n| JP1 | 1 | HEADER-1X3_508TERM |\
+  \ HEADER-1X3_508TERM | working:TERMBLOCK_1X3_5.08MM |  |  |  | \n| JP2 | 1 | HEADER-1X1ROUND\
+  \ | HEADER-1X1ROUND | working:1X01_ROUND |  |  |  | \n| MS2 | 1 | FEATHERWING |\
+  \ FEATHERWING | working:FEATHERWING |  |  |  | \n| Q1 | 1 | MMBT2222 | TRANSISTOR_NPN\
+  \ | working:SOT23-R |  |  |  | \n| R1, R3 | 2 | 1K | RESISTOR0805_NOOUTLINE | working:0805-NO\
+  \ |  |  |  | \n| R2 | 1 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |\
+  \  | \n| SJ1 | 1 | SOLDERJUMPER_CLOSED | SOLDERJUMPER_CLOSED | working:SOLDERJUMPER_CLOSEDWIRE\
+  \ |  |  |  | \n| SJ2, SJ3, SJ4, SJ7, SJ8, SJ9, SJ16, SJ17, SJ18, SJ19, SJ20 | 11\
+  \ | SOLDERJUMPER | SOLDERJUMPER | working:SOLDERJUMPER_ARROW_NOPASTE |  |  |  |\
+  \ \n| SW1 | 1 | KMR2 | SWITCH_TACT_SMT4.6X2.8 | working:BTN_KMR2_4.6X2.8 |  |  |\
+  \  | \n| U$1 | 1 | RELAY_G5LE | RELAY_G5LE | working:RELAY_G5LE-1 |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_power_relay_featherwing_pcb_adafruit_powerrelay_wing/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_power_relay_featherwing_pcb_adafruit_powerrelay_wing/current_version/working/working.sch
 id: adafruit_adafruit_power_relay_featherwing_pcb_adafruit_powerrelay_wing
 name: adafruit_power_relay_featherwing_pcb
+position_bottom:
+- '# Ref': SJ2
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 139.6111
+  PosY: -112.3696
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SJ3
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 142.1511
+  PosY: -112.3696
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SJ4
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 144.6911
+  PosY: -112.3696
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SJ7
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 151.2951
+  PosY: -112.3696
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SJ8
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 153.5811
+  PosY: -112.3696
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SJ9
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 155.8671
+  PosY: -112.3696
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SJ16
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 155.8671
+  PosY: -98.6536
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SJ17
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 153.5811
+  PosY: -98.6536
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SJ18
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 145.7071
+  PosY: -98.6536
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SJ19
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 151.2951
+  PosY: -98.6536
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SJ20
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 143.1671
+  PosY: -98.6536
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$7
+  Package: FEATHERLOGO_MED
+  PosX: 141.6431
+  PosY: -106.5276
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| SJ2 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 139.6111 | -112.3696 | -90.0 | bottom | \n| SJ3 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 142.1511 | -112.3696 | -90.0 | bottom | \n| SJ4 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 144.6911 | -112.3696 | -90.0 | bottom | \n| SJ7 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 151.2951 | -112.3696 | -90.0 | bottom | \n| SJ8 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 153.5811 | -112.3696 | -90.0 | bottom | \n| SJ9 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 155.8671 | -112.3696 | -90.0 | bottom | \n| SJ16 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 155.8671 | -98.6536 | -90.0 | bottom | \n| SJ17 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 153.5811 | -98.6536 | -90.0 | bottom | \n| SJ18 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 145.7071 | -98.6536 | -90.0 | bottom | \n| SJ19 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 151.2951 | -98.6536 | -90.0 | bottom | \n| SJ20 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 143.1671 | -98.6536 | -90.0 | bottom | \n| U$7 | nan | FEATHERLOGO_MED | 141.6431\
+  \ | -106.5276 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': D1
+  Package: SOD-323
+  PosX: 141.1351
+  PosY: -105.2576
+  Rot: 90.0
+  Side: top
+  Val: 1N4148
+- '# Ref': D2
+  Package: CHIPLED_0805_NOOUTLINE
+  PosX: 133.5151
+  PosY: -102.2096
+  Rot: 0.0
+  Side: top
+  Val: RED
+- '# Ref': JP1
+  Package: TERMBLOCK_1X3_5.08MM
+  PosX: 170.4721
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X01_ROUND
+  PosX: 133.5151
+  PosY: -111.6076
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': MS2
+  Package: FEATHERWING
+  PosX: 123.1011
+  PosY: -116.4336
+  Rot: 0.0
+  Side: top
+  Val: FEATHERWING
+- '# Ref': Q1
+  Package: SOT23-R
+  PosX: 137.3251
+  PosY: -104.4956
+  Rot: 0.0
+  Side: top
+  Val: MMBT2222
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 136.3091
+  PosY: -110.5916
+  Rot: 90.0
+  Side: top
+  Val: 1K
+- '# Ref': R2
+  Package: 0805-NO
+  PosX: 137.3251
+  PosY: -107.2896
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: 0805-NO
+  PosX: 133.5151
+  PosY: -106.5276
+  Rot: -90.0
+  Side: top
+  Val: 1K
+- '# Ref': SJ1
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 136.5631
+  PosY: -101.1936
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': SW1
+  Package: BTN_KMR2_4.6X2.8
+  PosX: 128.1811
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: KMR2
+- '# Ref': U$1
+  Package: RELAY_G5LE-1
+  PosX: 154.8511
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: RELAY_G5LE
+- '# Ref': U$5
+  Package: PCBFEAT-REV-040
+  PosX: 140.3731
+  PosY: -101.1936
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$6
+  Package: ADAFRUIT_3.5MM
+  PosX: 125.8951
+  PosY: -111.6076
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| D1 | 1N4148 | SOD-323 | 141.1351 | -105.2576\
+  \ | 90.0 | top | \n| D2 | RED | CHIPLED_0805_NOOUTLINE | 133.5151 | -102.2096 |\
+  \ 0.0 | top | \n| JP1 | nan | TERMBLOCK_1X3_5.08MM | 170.4721 | -105.0036 | 90.0\
+  \ | top | \n| JP2 | nan | 1X01_ROUND | 133.5151 | -111.6076 | 0.0 | top | \n| MS2\
+  \ | FEATHERWING | FEATHERWING | 123.1011 | -116.4336 | 0.0 | top | \n| Q1 | MMBT2222\
+  \ | SOT23-R | 137.3251 | -104.4956 | 0.0 | top | \n| R1 | 1K | 0805-NO | 136.3091\
+  \ | -110.5916 | 90.0 | top | \n| R2 | 10K | 0805-NO | 137.3251 | -107.2896 | 180.0\
+  \ | top | \n| R3 | 1K | 0805-NO | 133.5151 | -106.5276 | -90.0 | top | \n| SJ1 |\
+  \ nan | SOLDERJUMPER_CLOSEDWIRE | 136.5631 | -101.1936 | 180.0 | top | \n| SW1 |\
+  \ KMR2 | BTN_KMR2_4.6X2.8 | 128.1811 | -105.0036 | -90.0 | top | \n| U$1 | RELAY_G5LE\
+  \ | RELAY_G5LE-1 | 154.8511 | -105.0036 | 0.0 | top | \n| U$5 | nan | PCBFEAT-REV-040\
+  \ | 140.3731 | -101.1936 | 0.0 | top | \n| U$6 | nan | ADAFRUIT_3.5MM | 125.8951\
+  \ | -111.6076 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_power_relay_featherwing_pcb_adafruit_powerrelay_wing/current_version/working
 repo:
   allow_forking: true

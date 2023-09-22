@@ -12,6 +12,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/AcheronProject/frog_tkl_plates/tree/main/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/acheronproject_frog_tkl_plates_frog_tkl_fullplate_ansi/current_version/working  
 
 
 

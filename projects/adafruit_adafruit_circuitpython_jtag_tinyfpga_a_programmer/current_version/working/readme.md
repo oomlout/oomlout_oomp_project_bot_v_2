@@ -12,6 +12,7 @@
 
 * src_file_repo_sch: board/TinyFPGA-A-Programmer.sch
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit_CircuitPython_JTAG/tree/main/board/TinyFPGA-A-Programmer.sch
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_circuitpython_jtag_tinyfpga_a_programmer/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

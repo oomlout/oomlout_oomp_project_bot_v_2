@@ -1,9 +1,405 @@
 board: adafruit_timesquare
+bom:
+- Id: '1'
+  Designator: FTDI0
+  Footprint: 1X06-CLEAN
+  Quantity: '1'
+  Designation: DNP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R1,R2,R5,R3,R6,R4,R8,R7
+  Footprint: '0204_7'
+  Quantity: '8'
+  Designation: '47'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: IC2
+  Footprint: DIL28-3-ROUND
+  Quantity: '1'
+  Designation: ATMEGA168PROUND
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C1
+  Footprint: C025-025X050
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: IC1
+  Footprint: DIL08-ROUND
+  Quantity: '1'
+  Designation: DS1337
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R10
+  Footprint: '0204_7'
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: BATT0
+  Footprint: CR2032-THRU
+  Quantity: '1'
+  Designation: CR2032
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: SET0,PLUS0
+  Footprint: B3F-31XX-SKINNIER
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: Q1
+  Footprint: TC38H
+  Quantity: '1'
+  Designation: 32.768KHz
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U$1
+  Footprint: ADAFRUIT_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U$2
+  Footprint: ADAFRUIT_9MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: LED1
+  Footprint: SEGMENT_BL-M15A881
+  Quantity: '1'
+  Designation: BL-M15881B
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | FTDI0\
+  \ | 1X06-CLEAN | 1 | DNP |  |  | [''] | \n| 2 | R1,R2,R5,R3,R6,R4,R8,R7 | 0204_7\
+  \ | 8 | 47 |  |  | [''] | \n| 3 | IC2 | DIL28-3-ROUND | 1 | ATMEGA168PROUND |  |\
+  \  | [''] | \n| 4 | C1 | C025-025X050 | 1 | 0.1uF |  |  | [''] | \n| 5 | IC1 | DIL08-ROUND\
+  \ | 1 | DS1337 |  |  | [''] | \n| 6 | R10 | 0204_7 | 1 | 10K |  |  | [''] | \n|\
+  \ 7 | BATT0 | CR2032-THRU | 1 | CR2032 |  |  | [''] | \n| 8 | SET0,PLUS0 | B3F-31XX-SKINNIER\
+  \ | 2 |  |  |  | [''] | \n| 9 | Q1 | TC38H | 1 | 32.768KHz |  |  | [''] | \n| 10\
+  \ | U$1 | ADAFRUIT_5MM | 1 |  |  |  | [''] | \n| 11 | U$2 | ADAFRUIT_9MM | 1 | \
+  \ |  |  | [''] | \n| 12 | LED1 | SEGMENT_BL-M15A881 | 1 | BL-M15881B |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: CR2032THM
+  DNP: ''
+  Description: ''
+  Footprint: working:CR2032-THRU
+  Qnty: '1'
+  Ref: BATT0
+  Value: CR2032
+  Vendor: ''
+- Cmp name: C-US025-025X050
+  DNP: ''
+  Description: ''
+  Footprint: working:C025-025X050
+  Qnty: '1'
+  Ref: C1
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: PINHD-1X6CLEAN
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06-CLEAN
+  Qnty: '1'
+  Ref: FTDI0
+  Value: DNP
+  Vendor: ''
+- Cmp name: DS1337
+  DNP: ''
+  Description: ''
+  Footprint: working:DIL08-ROUND
+  Qnty: '1'
+  Ref: IC1
+  Value: DS1337
+  Vendor: ''
+- Cmp name: ATMEGA168PROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:DIL28-3-ROUND
+  Qnty: '1'
+  Ref: IC2
+  Value: ATMEGA168PROUND
+  Vendor: ''
+- Cmp name: SEGMENT_8X8_ROWCATHODEBL-M15
+  DNP: ''
+  Description: ''
+  Footprint: working:SEGMENT_BL-M15A881
+  Qnty: '1'
+  Ref: LED1
+  Value: BL-M15881B
+  Vendor: ''
+- Cmp name: 31-XXSKINNY
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-31XX-SKINNIER
+  Qnty: '1'
+  Ref: PLUS0
+  Value: 31-XXSKINNY
+  Vendor: ''
+- Cmp name: CRYSTALTC38H
+  DNP: ''
+  Description: ''
+  Footprint: working:TC38H
+  Qnty: '1'
+  Ref: Q1
+  Value: 32.768KHz
+  Vendor: ''
+- Cmp name: R-US_0204/7
+  DNP: ''
+  Description: ''
+  Footprint: working:0204_7
+  Qnty: '8'
+  Ref: R1, R2, R3, R4, R5, R6, R7, R8
+  Value: '47'
+  Vendor: ''
+- Cmp name: R-US_0204/7
+  DNP: ''
+  Description: ''
+  Footprint: working:0204_7
+  Qnty: '1'
+  Ref: R10
+  Value: 10K
+  Vendor: ''
+- Cmp name: 31-XXSKINNY
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-31XX-SKINNIER
+  Qnty: '1'
+  Ref: SET0
+  Value: 31-XXSKINNY
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| BATT0\
+  \ | 1 | CR2032 | CR2032THM | working:CR2032-THRU |  |  |  | \n| C1 | 1 | 0.1uF |\
+  \ C-US025-025X050 | working:C025-025X050 |  |  |  | \n| FTDI0 | 1 | DNP | PINHD-1X6CLEAN\
+  \ | working:1X06-CLEAN |  |  |  | \n| IC1 | 1 | DS1337 | DS1337 | working:DIL08-ROUND\
+  \ |  |  |  | \n| IC2 | 1 | ATMEGA168PROUND | ATMEGA168PROUND | working:DIL28-3-ROUND\
+  \ |  |  |  | \n| LED1 | 1 | BL-M15881B | SEGMENT_8X8_ROWCATHODEBL-M15 | working:SEGMENT_BL-M15A881\
+  \ |  |  |  | \n| PLUS0 | 1 | 31-XXSKINNY | 31-XXSKINNY | working:B3F-31XX-SKINNIER\
+  \ |  |  |  | \n| Q1 | 1 | 32.768KHz | CRYSTALTC38H | working:TC38H |  |  |  | \n\
+  | R1, R2, R3, R4, R5, R6, R7, R8 | 8 | 47 | R-US_0204/7 | working:0204_7 |  |  |\
+  \  | \n| R10 | 1 | 10K | R-US_0204/7 | working:0204_7 |  |  |  | \n| SET0 | 1 |\
+  \ 31-XXSKINNY | 31-XXSKINNY | working:B3F-31XX-SKINNIER |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_timesquare_diy_watch_kit_adafruit_timesquare/current_version/working/working.brd
 file_sch_flat: projects/adafruit_timesquare_diy_watch_kit_adafruit_timesquare/current_version/working/working.sch
 id: adafruit_timesquare_diy_watch_kit_adafruit_timesquare
 name: timesquare_diy_watch_kit
+position_bottom:
+- '# Ref': LED1
+  Package: SEGMENT_BL-M15A881
+  PosX: 148.5011
+  PosY: -105.0036
+  Rot: 90.0
+  Side: bottom
+  Val: BL-M15881B
+- '# Ref': U$2
+  Package: ADAFRUIT_9MM
+  PosX: 153.2001
+  PosY: -121.0056
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| LED1 | BL-M15881B | SEGMENT_BL-M15A881\
+  \ | 148.5011 | -105.0036 | 90.0 | bottom | \n| U$2 | nan | ADAFRUIT_9MM | 153.2001\
+  \ | -121.0056 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': BATT0
+  Package: CR2032-THRU
+  PosX: 148.5011
+  PosY: -116.9416
+  Rot: 180.0
+  Side: top
+  Val: CR2032
+- '# Ref': C1
+  Package: C025-025X050
+  PosX: 131.7371
+  PosY: -97.3836
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': FTDI0
+  Package: 1X06-CLEAN
+  PosX: 148.5011
+  PosY: -84.1756
+  Rot: 180.0
+  Side: top
+  Val: DNP
+- '# Ref': IC1
+  Package: DIL08-ROUND
+  PosX: 146.2151
+  PosY: -100.6856
+  Rot: 90.0
+  Side: top
+  Val: DS1337
+- '# Ref': IC2
+  Package: DIL28-3-ROUND
+  PosX: 148.5011
+  PosY: -90.0176
+  Rot: 0.0
+  Side: top
+  Val: ATMEGA168PROUND
+- '# Ref': PLUS0
+  Package: B3F-31XX-SKINNIER
+  PosX: 166.1541
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': Q1
+  Package: TC38H
+  PosX: 153.3271
+  PosY: -105.2576
+  Rot: 0.0
+  Side: top
+  Val: 32.768KHz
+- '# Ref': R1
+  Package: '0204_7'
+  PosX: 157.1371
+  PosY: -100.4316
+  Rot: -90.0
+  Side: top
+  Val: '47'
+- '# Ref': R2
+  Package: '0204_7'
+  PosX: 137.0711
+  PosY: -100.4316
+  Rot: -90.0
+  Side: top
+  Val: '47'
+- '# Ref': R3
+  Package: '0204_7'
+  PosX: 139.3571
+  PosY: -100.4316
+  Rot: -90.0
+  Side: top
+  Val: '47'
+- '# Ref': R4
+  Package: '0204_7'
+  PosX: 168.5671
+  PosY: -95.0976
+  Rot: -90.0
+  Side: top
+  Val: '47'
+- '# Ref': R5
+  Package: '0204_7'
+  PosX: 131.3779
+  PosY: -115.6716
+  Rot: 90.0
+  Side: top
+  Val: '47'
+- '# Ref': R6
+  Package: '0204_7'
+  PosX: 165.5191
+  PosY: -116.4336
+  Rot: 90.0
+  Side: top
+  Val: '47'
+- '# Ref': R7
+  Package: '0204_7'
+  PosX: 168.5671
+  PosY: -114.9096
+  Rot: 90.0
+  Side: top
+  Val: '47'
+- '# Ref': R8
+  Package: '0204_7'
+  PosX: 159.6771
+  PosY: -100.4316
+  Rot: -90.0
+  Side: top
+  Val: '47'
+- '# Ref': R10
+  Package: '0204_7'
+  PosX: 128.1811
+  PosY: -94.5896
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': SET0
+  Package: B3F-31XX-SKINNIER
+  PosX: 130.8481
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': U$1
+  Package: ADAFRUIT_5MM
+  PosX: 135.6741
+  PosY: -110.0836
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| BATT0 | CR2032 | CR2032-THRU | 148.5011\
+  \ | -116.9416 | 180.0 | top | \n| C1 | 0.1uF | C025-025X050 | 131.7371 | -97.3836\
+  \ | 90.0 | top | \n| FTDI0 | DNP | 1X06-CLEAN | 148.5011 | -84.1756 | 180.0 | top\
+  \ | \n| IC1 | DS1337 | DIL08-ROUND | 146.2151 | -100.6856 | 90.0 | top | \n| IC2\
+  \ | ATMEGA168PROUND | DIL28-3-ROUND | 148.5011 | -90.0176 | 0.0 | top | \n| PLUS0\
+  \ | nan | B3F-31XX-SKINNIER | 166.1541 | -105.0036 | 90.0 | top | \n| Q1 | 32.768KHz\
+  \ | TC38H | 153.3271 | -105.2576 | 0.0 | top | \n| R1 | 47 | 0204_7 | 157.1371 |\
+  \ -100.4316 | -90.0 | top | \n| R2 | 47 | 0204_7 | 137.0711 | -100.4316 | -90.0\
+  \ | top | \n| R3 | 47 | 0204_7 | 139.3571 | -100.4316 | -90.0 | top | \n| R4 | 47\
+  \ | 0204_7 | 168.5671 | -95.0976 | -90.0 | top | \n| R5 | 47 | 0204_7 | 131.3779\
+  \ | -115.6716 | 90.0 | top | \n| R6 | 47 | 0204_7 | 165.5191 | -116.4336 | 90.0\
+  \ | top | \n| R7 | 47 | 0204_7 | 168.5671 | -114.9096 | 90.0 | top | \n| R8 | 47\
+  \ | 0204_7 | 159.6771 | -100.4316 | -90.0 | top | \n| R10 | 10K | 0204_7 | 128.1811\
+  \ | -94.5896 | 90.0 | top | \n| SET0 | nan | B3F-31XX-SKINNIER | 130.8481 | -105.0036\
+  \ | -90.0 | top | \n| U$1 | nan | ADAFRUIT_5MM | 135.6741 | -110.0836 | 0.0 | top\
+  \ | \n"
 projects_flat: projects/adafruit_timesquare_diy_watch_kit_adafruit_timesquare/current_version/working
 repo:
   allow_forking: true

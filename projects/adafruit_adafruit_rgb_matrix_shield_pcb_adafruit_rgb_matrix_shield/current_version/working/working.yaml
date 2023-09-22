@@ -1,9 +1,454 @@
 board: adafruit_rgb_matrix_shield
+bom:
+- Id: '1'
+  Designator: SJ2,SJ6,SJ14,SJ13,SJ12,SJ10,SJ7,SJ3,SJ5,SJ4,SJ9,SJ8,SJ1
+  Footprint: SOLDERJUMPER_CLOSEDWIRE
+  Quantity: '13'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: JP1,JP4
+  Footprint: 1X08-CLEANBIG
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$9
+  Footprint: ADAFRUIT_TEXT_20MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: S4
+  Footprint: B3F-10XX
+  Quantity: '1'
+  Designation: 6mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: JP15
+  Footprint: 2X08_SHROUDED
+  Quantity: '1'
+  Designation: Shrouded 2x8
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: JP3,JP2
+  Footprint: 1X08_ROUND_76
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: '@HOLE1,@HOLE0,@HOLE2'
+  Footprint: ''
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U$8
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: JP6
+  Footprint: 1X10_ROUND70
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: MATRIX_PWR0
+  Footprint: TERMBLOCK508
+  Quantity: '1'
+  Designation: PINHEAD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U$41
+  Footprint: ARDUINOR3_ICSP_NODIM
+  Quantity: '1'
+  Designation: ARDUINO_R3_ICSP_NODIM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: JP8
+  Footprint: 1X06-CLEANBIG
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | SJ2,SJ6,SJ14,SJ13,SJ12,SJ10,SJ7,SJ3,SJ5,SJ4,SJ9,SJ8,SJ1\
+  \ | SOLDERJUMPER_CLOSEDWIRE | 13 |  |  |  | [''] | \n| 2 | JP1,JP4 | 1X08-CLEANBIG\
+  \ | 2 |  |  |  | [''] | \n| 3 | U$9 | ADAFRUIT_TEXT_20MM | 1 |  |  |  | [''] | \n\
+  | 4 | S4 | B3F-10XX | 1 | 6mm |  |  | [''] | \n| 5 | JP15 | 2X08_SHROUDED | 1 |\
+  \ Shrouded 2x8 |  |  | [''] | \n| 6 | JP3,JP2 | 1X08_ROUND_76 | 2 |  |  |  | ['']\
+  \ | \n| 7 | @HOLE1,@HOLE0,@HOLE2 |  | 3 |  |  |  | [''] | \n| 8 | U$8 | PCBFEAT-REV-040\
+  \ | 1 |  |  |  | [''] | \n| 9 | JP6 | 1X10_ROUND70 | 1 |  |  |  | [''] | \n| 10\
+  \ | MATRIX_PWR0 | TERMBLOCK508 | 1 | PINHEAD |  |  | [''] | \n| 11 | U$41 | ARDUINOR3_ICSP_NODIM\
+  \ | 1 | ARDUINO_R3_ICSP_NODIM |  |  | [''] | \n| 12 | JP8 | 1X06-CLEANBIG | 1 |\
+  \  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: PINHD-1X8CLEANBIG
+  DNP: ''
+  Description: ''
+  Footprint: working:1X08-CLEANBIG
+  Qnty: '2'
+  Ref: JP1, JP4
+  Value: PINHD-1X8CLEANBIG
+  Vendor: ''
+- Cmp name: HEADER-1X876MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X08_ROUND_76
+  Qnty: '2'
+  Ref: JP2, JP3
+  Value: HEADER-1X876MIL
+  Vendor: ''
+- Cmp name: HEADER-1X1070MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X10_ROUND70
+  Qnty: '1'
+  Ref: JP6
+  Value: HEADER-1X1070MIL
+  Vendor: ''
+- Cmp name: PINHD-1X6CB
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06-CLEANBIG
+  Qnty: '1'
+  Ref: JP8
+  Value: PINHD-1X6CB
+  Vendor: ''
+- Cmp name: HEADER-2X8_SHROUDED
+  DNP: ''
+  Description: ''
+  Footprint: working:2X08_SHROUDED
+  Qnty: '1'
+  Ref: JP15
+  Value: Shrouded 2x8
+  Vendor: ''
+- Cmp name: PINHEAD
+  DNP: ''
+  Description: ''
+  Footprint: working:TERMBLOCK508
+  Qnty: '1'
+  Ref: MATRIX_PWR0
+  Value: PINHEAD
+  Vendor: ''
+- Cmp name: 10-XX
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-10XX
+  Qnty: '1'
+  Ref: S4
+  Value: 6mm
+  Vendor: ''
+- Cmp name: SOLDERJUMPERCLOSED
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_CLOSEDWIRE
+  Qnty: '13'
+  Ref: SJ1, SJ2, SJ3, SJ4, SJ5, SJ6, SJ7, SJ8, SJ9, SJ10, SJ12, SJ13, SJ14
+  Value: SOLDERJUMPERCLOSED
+  Vendor: ''
+- Cmp name: ARDUINO_R3_ICSP_NODIM
+  DNP: ''
+  Description: ''
+  Footprint: working:ARDUINOR3_ICSP_NODIM
+  Qnty: '1'
+  Ref: U$41
+  Value: ARDUINO_R3_ICSP_NODIM
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| JP1,\
+  \ JP4 | 2 | PINHD-1X8CLEANBIG | PINHD-1X8CLEANBIG | working:1X08-CLEANBIG |  | \
+  \ |  | \n| JP2, JP3 | 2 | HEADER-1X876MIL | HEADER-1X876MIL | working:1X08_ROUND_76\
+  \ |  |  |  | \n| JP6 | 1 | HEADER-1X1070MIL | HEADER-1X1070MIL | working:1X10_ROUND70\
+  \ |  |  |  | \n| JP8 | 1 | PINHD-1X6CB | PINHD-1X6CB | working:1X06-CLEANBIG | \
+  \ |  |  | \n| JP15 | 1 | Shrouded 2x8 | HEADER-2X8_SHROUDED | working:2X08_SHROUDED\
+  \ |  |  |  | \n| MATRIX_PWR0 | 1 | PINHEAD | PINHEAD | working:TERMBLOCK508 |  |\
+  \  |  | \n| S4 | 1 | 6mm | 10-XX | working:B3F-10XX |  |  |  | \n| SJ1, SJ2, SJ3,\
+  \ SJ4, SJ5, SJ6, SJ7, SJ8, SJ9, SJ10, SJ12, SJ13, SJ14 | 13 | SOLDERJUMPERCLOSED\
+  \ | SOLDERJUMPERCLOSED | working:SOLDERJUMPER_CLOSEDWIRE |  |  |  | \n| U$41 | 1\
+  \ | ARDUINO_R3_ICSP_NODIM | ARDUINO_R3_ICSP_NODIM | working:ARDUINOR3_ICSP_NODIM\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_rgb_matrix_shield_pcb_adafruit_rgb_matrix_shield/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_rgb_matrix_shield_pcb_adafruit_rgb_matrix_shield/current_version/working/working.sch
 id: adafruit_adafruit_rgb_matrix_shield_pcb_adafruit_rgb_matrix_shield
 name: adafruit_rgb_matrix_shield_pcb
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 129.4511
+  PosY: -80.8736
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 128.1811
+  PosY: -129.1336
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE2'
+  Package: .nan
+  PosX: 180.2511
+  PosY: -96.1136
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP1
+  Package: 1X08-CLEANBIG
+  PosX: 168.8211
+  PosY: -84.6836
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X08_ROUND_76
+  PosX: 152.3111
+  PosY: -94.8436
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP3
+  Package: 1X08_ROUND_76
+  PosX: 152.3111
+  PosY: -115.1636
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': JP4
+  Package: 1X08-CLEANBIG
+  PosX: 151.0411
+  PosY: -125.3236
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': JP6
+  Package: 1X10_ROUND70
+  PosX: 144.4371
+  PosY: -84.6836
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP8
+  Package: 1X06-CLEANBIG
+  PosX: 171.3611
+  PosY: -125.3236
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': JP15
+  Package: 2X08_SHROUDED
+  PosX: 152.3111
+  PosY: -105.0036
+  Rot: 180.0
+  Side: top
+  Val: Shrouded_2x8
+- '# Ref': MATRIX_PWR0
+  Package: TERMBLOCK508
+  PosX: 119.4181
+  PosY: -108.3056
+  Rot: -90.0
+  Side: top
+  Val: PINHEAD
+- '# Ref': S4
+  Package: B3F-10XX
+  PosX: 120.1801
+  PosY: -82.0166
+  Rot: 180.0
+  Side: top
+  Val: 6mm
+- '# Ref': SJ1
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 156.1211
+  PosY: -118.2116
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ2
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 161.2011
+  PosY: -91.7956
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ3
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 158.6611
+  PosY: -91.7956
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ4
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 156.1211
+  PosY: -91.7956
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ5
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 153.5811
+  PosY: -91.7956
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ6
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 151.0411
+  PosY: -91.7956
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ7
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 148.5011
+  PosY: -91.7956
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ8
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 145.9611
+  PosY: -91.7956
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ9
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 143.4211
+  PosY: -91.7956
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ10
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 161.2011
+  PosY: -118.2116
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ12
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 151.0411
+  PosY: -118.2116
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ13
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 148.5011
+  PosY: -118.2116
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ14
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 145.9611
+  PosY: -118.2116
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': U$8
+  Package: PCBFEAT-REV-040
+  PosX: 179.9971
+  PosY: -122.2756
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$9
+  Package: ADAFRUIT_TEXT_20MM
+  PosX: 115.8621
+  PosY: -123.7996
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$41
+  Package: ARDUINOR3_ICSP_NODIM
+  PosX: 114.2111
+  PosY: -131.6736
+  Rot: 0.0
+  Side: top
+  Val: ARDUINO_R3_ICSP_NODIM
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 129.4511 | -80.8736\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 128.1811 | -129.1336 | 0.0 | top | \n|\
+  \ @HOLE2 | nan | nan | 180.2511 | -96.1136 | 0.0 | top | \n| JP1 | nan | 1X08-CLEANBIG\
+  \ | 168.8211 | -84.6836 | 0.0 | top | \n| JP2 | nan | 1X08_ROUND_76 | 152.3111 |\
+  \ -94.8436 | 0.0 | top | \n| JP3 | nan | 1X08_ROUND_76 | 152.3111 | -115.1636 |\
+  \ 180.0 | top | \n| JP4 | nan | 1X08-CLEANBIG | 151.0411 | -125.3236 | 180.0 | top\
+  \ | \n| JP6 | nan | 1X10_ROUND70 | 144.4371 | -84.6836 | 0.0 | top | \n| JP8 | nan\
+  \ | 1X06-CLEANBIG | 171.3611 | -125.3236 | 180.0 | top | \n| JP15 | Shrouded_2x8\
+  \ | 2X08_SHROUDED | 152.3111 | -105.0036 | 180.0 | top | \n| MATRIX_PWR0 | PINHEAD\
+  \ | TERMBLOCK508 | 119.4181 | -108.3056 | -90.0 | top | \n| S4 | 6mm | B3F-10XX\
+  \ | 120.1801 | -82.0166 | 180.0 | top | \n| SJ1 | nan | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 156.1211 | -118.2116 | -90.0 | top | \n| SJ2 | nan | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 161.2011 | -91.7956 | -90.0 | top | \n| SJ3 | nan | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 158.6611 | -91.7956 | -90.0 | top | \n| SJ4 | nan | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 156.1211 | -91.7956 | -90.0 | top | \n| SJ5 | nan | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 153.5811 | -91.7956 | -90.0 | top | \n| SJ6 | nan | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 151.0411 | -91.7956 | -90.0 | top | \n| SJ7 | nan | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 148.5011 | -91.7956 | -90.0 | top | \n| SJ8 | nan | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 145.9611 | -91.7956 | -90.0 | top | \n| SJ9 | nan | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 143.4211 | -91.7956 | -90.0 | top | \n| SJ10 | nan | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 161.2011 | -118.2116 | -90.0 | top | \n| SJ12 | nan | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 151.0411 | -118.2116 | -90.0 | top | \n| SJ13 | nan | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 148.5011 | -118.2116 | -90.0 | top | \n| SJ14 | nan | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 145.9611 | -118.2116 | -90.0 | top | \n| U$8 | nan | PCBFEAT-REV-040 | 179.9971\
+  \ | -122.2756 | 0.0 | top | \n| U$9 | nan | ADAFRUIT_TEXT_20MM | 115.8621 | -123.7996\
+  \ | 0.0 | top | \n| U$41 | ARDUINO_R3_ICSP_NODIM | ARDUINOR3_ICSP_NODIM | 114.2111\
+  \ | -131.6736 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_rgb_matrix_shield_pcb_adafruit_rgb_matrix_shield/current_version/working
 repo:
   allow_forking: true

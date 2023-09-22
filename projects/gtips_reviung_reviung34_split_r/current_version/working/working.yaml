@@ -1,10 +1,379 @@
 board: reviung34_split_r
+bom:
+- Id: '1'
+  Designator: J1
+  Footprint: RJ45-DS1128-05-S8B8P
+  Quantity: '1'
+  Designation: 8P8C
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: SW19,SW20,SW21,SW22,SW23,SW24,SW25,SW26,SW27,SW28,SW29,SW30,SW31,SW32,SW33
+  Footprint: MXOnly-1U-Hotswap
+  Quantity: '15'
+  Designation: SW_PUSH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: SW34
+  Footprint: MXOnly-2U-Hotswap-ReversedStabilizers
+  Quantity: '1'
+  Designation: SW_PUSH_2U
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32,D33,D34
+  Footprint: D_DO-35_SOD27_P7.62mm_Horizontal
+  Quantity: '16'
+  Designation: 1N4148
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1\
+  \ | RJ45-DS1128-05-S8B8P | 1 | 8P8C |  |  | [''] | \n| 2 | SW19,SW20,SW21,SW22,SW23,SW24,SW25,SW26,SW27,SW28,SW29,SW30,SW31,SW32,SW33\
+  \ | MXOnly-1U-Hotswap | 15 | SW_PUSH |  |  | [''] | \n| 3 | SW34 | MXOnly-2U-Hotswap-ReversedStabilizers\
+  \ | 1 | SW_PUSH_2U |  |  | [''] | \n| 4 | D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32,D33,D34\
+  \ | D_DO-35_SOD27_P7.62mm_Horizontal | 16 | 1N4148 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: 1N4148
+  DNP: ''
+  Description: 100V 0.15A standard switching diode, DO-35
+  Footprint: Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal
+  Qnty: '16'
+  Ref: D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33,
+    D34
+  Value: 1N4148
+  Vendor: ''
+- Cmp name: MountingHole_Pad
+  DNP: ''
+  Description: Mounting Hole with connection
+  Footprint: MountingHole:MountingHole_4.3mm_M4_ISO14580_Pad
+  Qnty: '1'
+  Ref: H1
+  Value: MountingHole_Pad
+  Vendor: ''
+- Cmp name: 8P8C-_reviung-kbd
+  DNP: ''
+  Description: ''
+  Footprint: _reviung-kbd:RJ45-DS1128-05-S8B8P
+  Qnty: '1'
+  Ref: J1
+  Value: 8P8C
+  Vendor: ''
+- Cmp name: SW_PUSH-_reviung-kbd
+  DNP: ''
+  Description: ''
+  Footprint: _reviung-kbd:MXOnly-1U-Hotswap
+  Qnty: '15'
+  Ref: SW19, SW20, SW21, SW22, SW23, SW24, SW25, SW26, SW27, SW28, SW29, SW30, SW31,
+    SW32, SW33
+  Value: SW_PUSH
+  Vendor: ''
+- Cmp name: SW_PUSH-_reviung-kbd
+  DNP: ''
+  Description: ''
+  Footprint: _reviung-kbd:MXOnly-2U-Hotswap-ReversedStabilizers
+  Qnty: '1'
+  Ref: SW34
+  Value: SW_PUSH_2U
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| D19,\
+  \ D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33, D34 | 16\
+  \ | 1N4148 | 1N4148 | Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal | 100V 0.15A standard\
+  \ switching diode, DO-35 |  |  | \n| H1 | 1 | MountingHole_Pad | MountingHole_Pad\
+  \ | MountingHole:MountingHole_4.3mm_M4_ISO14580_Pad | Mounting Hole with connection\
+  \ |  |  | \n| J1 | 1 | 8P8C | 8P8C-_reviung-kbd | _reviung-kbd:RJ45-DS1128-05-S8B8P\
+  \ |  |  |  | \n| SW19, SW20, SW21, SW22, SW23, SW24, SW25, SW26, SW27, SW28, SW29,\
+  \ SW30, SW31, SW32, SW33 | 15 | SW_PUSH | SW_PUSH-_reviung-kbd | _reviung-kbd:MXOnly-1U-Hotswap\
+  \ |  |  |  | \n| SW34 | 1 | SW_PUSH_2U | SW_PUSH-_reviung-kbd | _reviung-kbd:MXOnly-2U-Hotswap-ReversedStabilizers\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/gtips_reviung_reviung34_split_r/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/gtips_reviung_reviung34_split_r/current_version/working/working.kicad_pcb
 file_sch_flat: projects/gtips_reviung_reviung34_split_r/current_version/working/working.sch
 id: gtips_reviung_reviung34_split_r
 name: reviung
+position_bottom:
+- '# Ref': D19
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 3.4
+  PosY: -39.3
+  Rot: 90.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': D20
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 39.2
+  PosY: -39.3
+  Rot: 90.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': D21
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 58.2
+  PosY: -39.3
+  Rot: 90.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': D22
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 60.8
+  PosY: -39.3
+  Rot: 90.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': D23
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 20.5
+  PosY: -58.4
+  Rot: 90.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': D24
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 39.2
+  PosY: -58.4
+  Rot: 90.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': D25
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 58.2
+  PosY: -58.4
+  Rot: 90.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': D26
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 60.8
+  PosY: -58.4
+  Rot: 90.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': D27
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 3.4
+  PosY: -77.4
+  Rot: 90.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': D28
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 39.2
+  PosY: -77.4
+  Rot: 90.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': D29
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 58.2
+  PosY: -77.4
+  Rot: 90.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': D30
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 60.8
+  PosY: -77.4
+  Rot: 90.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': D31
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 96.5
+  PosY: -39.3
+  Rot: 90.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': D32
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 79.82
+  PosY: -58.4
+  Rot: 90.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': D33
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 96.5
+  PosY: -77.4
+  Rot: 90.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': D34
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 39.2
+  PosY: -89.5
+  Rot: 90.0
+  Side: bottom
+  Val: 1N4148
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| D19 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 3.4 | -39.3 | 90.0 | bottom | \n| D20 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 39.2 | -39.3 | 90.0 | bottom | \n| D21 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 58.2 | -39.3 | 90.0 | bottom | \n| D22 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 60.8 | -39.3 | 90.0 | bottom | \n| D23 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 20.5 | -58.4 | 90.0 | bottom | \n| D24 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 39.2 | -58.4 | 90.0 | bottom | \n| D25 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 58.2 | -58.4 | 90.0 | bottom | \n| D26 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 60.8 | -58.4 | 90.0 | bottom | \n| D27 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 3.4 | -77.4 | 90.0 | bottom | \n| D28 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 39.2 | -77.4 | 90.0 | bottom | \n| D29 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 58.2 | -77.4 | 90.0 | bottom | \n| D30 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 60.8 | -77.4 | 90.0 | bottom | \n| D31 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 96.5 | -39.3 | 90.0 | bottom | \n| D32 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 79.82 | -58.4 | 90.0 | bottom | \n| D33 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 96.5 | -77.4 | 90.0 | bottom | \n| D34 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 39.2 | -89.5 | 90.0 | bottom | \n"
+position_top:
+- '# Ref': J1
+  Package: RJ45-DS1128-05-S8B8P
+  PosX: 10.05
+  PosY: -10.69
+  Rot: 180.0
+  Side: top
+  Val: 8P8C
+- '# Ref': SW19
+  Package: MXOnly-1U-Hotswap
+  PosX: 11.9
+  PosY: -30.9
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW20
+  Package: MXOnly-1U-Hotswap
+  PosX: 30.95
+  PosY: -30.9
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW21
+  Package: MXOnly-1U-Hotswap
+  PosX: 50.0
+  PosY: -30.9
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW22
+  Package: MXOnly-1U-Hotswap
+  PosX: 69.05
+  PosY: -30.9
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW23
+  Package: MXOnly-1U-Hotswap
+  PosX: 11.9
+  PosY: -49.95
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW24
+  Package: MXOnly-1U-Hotswap
+  PosX: 30.95
+  PosY: -49.95
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW25
+  Package: MXOnly-1U-Hotswap
+  PosX: 50.0
+  PosY: -49.95
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW26
+  Package: MXOnly-1U-Hotswap
+  PosX: 69.05
+  PosY: -49.95
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW27
+  Package: MXOnly-1U-Hotswap
+  PosX: 11.9
+  PosY: -69.0
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW28
+  Package: MXOnly-1U-Hotswap
+  PosX: 30.95
+  PosY: -69.0
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW29
+  Package: MXOnly-1U-Hotswap
+  PosX: 50.0
+  PosY: -69.0
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW30
+  Package: MXOnly-1U-Hotswap
+  PosX: 69.05
+  PosY: -69.0
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW31
+  Package: MXOnly-1U-Hotswap
+  PosX: 88.1
+  PosY: -30.9
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW32
+  Package: MXOnly-1U-Hotswap
+  PosX: 88.1
+  PosY: -49.95
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW33
+  Package: MXOnly-1U-Hotswap
+  PosX: 88.1
+  PosY: -69.0
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW34
+  Package: MXOnly-2U-Hotswap-ReversedStabilizers
+  PosX: 21.43
+  PosY: -88.05
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH_2U
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J1 | 8P8C | RJ45-DS1128-05-S8B8P | 10.05\
+  \ | -10.69 | 180.0 | top | \n| SW19 | SW_PUSH | MXOnly-1U-Hotswap | 11.9 | -30.9\
+  \ | 0.0 | top | \n| SW20 | SW_PUSH | MXOnly-1U-Hotswap | 30.95 | -30.9 | 0.0 | top\
+  \ | \n| SW21 | SW_PUSH | MXOnly-1U-Hotswap | 50.0 | -30.9 | 0.0 | top | \n| SW22\
+  \ | SW_PUSH | MXOnly-1U-Hotswap | 69.05 | -30.9 | 0.0 | top | \n| SW23 | SW_PUSH\
+  \ | MXOnly-1U-Hotswap | 11.9 | -49.95 | 0.0 | top | \n| SW24 | SW_PUSH | MXOnly-1U-Hotswap\
+  \ | 30.95 | -49.95 | 0.0 | top | \n| SW25 | SW_PUSH | MXOnly-1U-Hotswap | 50.0 |\
+  \ -49.95 | 0.0 | top | \n| SW26 | SW_PUSH | MXOnly-1U-Hotswap | 69.05 | -49.95 |\
+  \ 0.0 | top | \n| SW27 | SW_PUSH | MXOnly-1U-Hotswap | 11.9 | -69.0 | 0.0 | top\
+  \ | \n| SW28 | SW_PUSH | MXOnly-1U-Hotswap | 30.95 | -69.0 | 0.0 | top | \n| SW29\
+  \ | SW_PUSH | MXOnly-1U-Hotswap | 50.0 | -69.0 | 0.0 | top | \n| SW30 | SW_PUSH\
+  \ | MXOnly-1U-Hotswap | 69.05 | -69.0 | 0.0 | top | \n| SW31 | SW_PUSH | MXOnly-1U-Hotswap\
+  \ | 88.1 | -30.9 | 0.0 | top | \n| SW32 | SW_PUSH | MXOnly-1U-Hotswap | 88.1 | -49.95\
+  \ | 0.0 | top | \n| SW33 | SW_PUSH | MXOnly-1U-Hotswap | 88.1 | -69.0 | 0.0 | top\
+  \ | \n| SW34 | SW_PUSH_2U | MXOnly-2U-Hotswap-ReversedStabilizers | 21.43 | -88.05\
+  \ | 0.0 | top | \n"
 projects_flat: projects/gtips_reviung_reviung34_split_r/current_version/working
 repo:
   allow_forking: true

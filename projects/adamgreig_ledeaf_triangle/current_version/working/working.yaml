@@ -1,10 +1,298 @@
 board: triangle
+bom:
+- Id: '1'
+  Designator: X3,X2,X1
+  Footprint: M2.5_HOLE
+  Quantity: '3'
+  Designation: TOOLING
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C3,C2,C1
+  Footprint: '0402'
+  Quantity: '3'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J2
+  Footprint: M2_PTH
+  Quantity: '1'
+  Designation: DIN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J6,J3,J9
+  Footprint: M2_PTH
+  Quantity: '3'
+  Designation: 5V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: LED1,LED2,LED3
+  Footprint: WS2812B-4020
+  Quantity: '3'
+  Designation: WS2812B-4020
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J1,J7,J4
+  Footprint: M2_PTH
+  Quantity: '3'
+  Designation: GND
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: J5,J8
+  Footprint: M2_PTH
+  Quantity: '2'
+  Designation: DOUT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | X3,X2,X1\
+  \ | M2.5_HOLE | 3 | TOOLING |  |  | [''] | \n| 2 | C3,C2,C1 | 0402 | 3 | 100n |\
+  \  |  | [''] | \n| 3 | J2 | M2_PTH | 1 | DIN |  |  | [''] | \n| 4 | J6,J3,J9 | M2_PTH\
+  \ | 3 | 5V |  |  | [''] | \n| 5 | LED1,LED2,LED3 | WS2812B-4020 | 3 | WS2812B-4020\
+  \ |  |  | [''] | \n| 6 | J1,J7,J4 | M2_PTH | 3 | GND |  |  | [''] | \n| 7 | J5,J8\
+  \ | M2_PTH | 2 | DOUT |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '3'
+  Ref: C1, C2, C3
+  Value: 100n
+  Vendor: ''
+- Cmp name: CONN_01x01
+  DNP: ''
+  Description: ''
+  Footprint: agg:M2_PTH
+  Qnty: '3'
+  Ref: J1, J4, J7
+  Value: GND
+  Vendor: ''
+- Cmp name: CONN_01x01
+  DNP: ''
+  Description: ''
+  Footprint: agg:M2_PTH
+  Qnty: '1'
+  Ref: J2
+  Value: DIN
+  Vendor: ''
+- Cmp name: CONN_01x01
+  DNP: ''
+  Description: ''
+  Footprint: agg:M2_PTH
+  Qnty: '3'
+  Ref: J3, J6, J9
+  Value: 5V
+  Vendor: ''
+- Cmp name: CONN_01x01
+  DNP: ''
+  Description: ''
+  Footprint: agg:M2_PTH
+  Qnty: '2'
+  Ref: J5, J8
+  Value: DOUT
+  Vendor: ''
+- Cmp name: WS2812B-4020
+  DNP: ''
+  Description: Side-view RGB LED
+  Footprint: agg:WS2812B-4020
+  Qnty: '3'
+  Ref: LED1, LED2, LED3
+  Value: WS2812B-4020
+  Vendor: ''
+- Cmp name: PART
+  DNP: ''
+  Description: Generic placeholder part
+  Footprint: agg:M2.5_HOLE
+  Qnty: '3'
+  Ref: X1, X2, X3
+  Value: TOOLING
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3 | 3 | 100n | C | agg:0402 |  |  |  | \n| J1, J4, J7 | 3 | GND | CONN_01x01\
+  \ | agg:M2_PTH |  |  |  | \n| J2 | 1 | DIN | CONN_01x01 | agg:M2_PTH |  |  |  |\
+  \ \n| J3, J6, J9 | 3 | 5V | CONN_01x01 | agg:M2_PTH |  |  |  | \n| J5, J8 | 2 |\
+  \ DOUT | CONN_01x01 | agg:M2_PTH |  |  |  | \n| LED1, LED2, LED3 | 3 | WS2812B-4020\
+  \ | WS2812B-4020 | agg:WS2812B-4020 | Side-view RGB LED |  |  | \n| X1, X2, X3 |\
+  \ 3 | TOOLING | PART | agg:M2.5_HOLE | Generic placeholder part |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_ledeaf_triangle/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_ledeaf_triangle/current_version/working/working.kicad_sch
 file_repo_bom_xlsx_flat: projects/adamgreig_ledeaf_triangle/current_version/working/bom_src.xlsx
 id: adamgreig_ledeaf_triangle
 name: ledeaf
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: '0402'
+  PosX: 155.6699
+  PosY: -137.5
+  Rot: 60.0
+  Side: top
+  Val: 100n
+- '# Ref': C2
+  Package: '0402'
+  PosX: 104.3301
+  PosY: -137.5
+  Rot: -60.0
+  Side: top
+  Val: 100n
+- '# Ref': C3
+  Package: '0402'
+  PosX: 130.0
+  PosY: -93.0
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': J1
+  Package: M2_PTH
+  PosX: 122.0
+  PosY: -137.0
+  Rot: 0.0
+  Side: top
+  Val: GND
+- '# Ref': J2
+  Package: M2_PTH
+  PosX: 130.0
+  PosY: -137.0
+  Rot: 0.0
+  Side: top
+  Val: DIN
+- '# Ref': J3
+  Package: M2_PTH
+  PosX: 138.0
+  PosY: -137.0
+  Rot: 0.0
+  Side: top
+  Val: 5V
+- '# Ref': J4
+  Package: M2_PTH
+  PosX: 113.5981
+  PosY: -122.4474
+  Rot: 0.0
+  Side: top
+  Val: GND
+- '# Ref': J5
+  Package: M2_PTH
+  PosX: 117.5981
+  PosY: -115.5192
+  Rot: 0.0
+  Side: top
+  Val: DOUT
+- '# Ref': J6
+  Package: M2_PTH
+  PosX: 121.5981
+  PosY: -108.591
+  Rot: 0.0
+  Side: top
+  Val: 5V
+- '# Ref': J7
+  Package: M2_PTH
+  PosX: 138.4019
+  PosY: -108.591
+  Rot: 0.0
+  Side: top
+  Val: GND
+- '# Ref': J8
+  Package: M2_PTH
+  PosX: 142.4019
+  PosY: -115.5192
+  Rot: 0.0
+  Side: top
+  Val: DOUT
+- '# Ref': J9
+  Package: M2_PTH
+  PosX: 146.4019
+  PosY: -122.4474
+  Rot: 0.0
+  Side: top
+  Val: 5V
+- '# Ref': LED1
+  Package: WS2812B-4020
+  PosX: 153.3316
+  PosY: -136.15
+  Rot: 60.0
+  Side: top
+  Val: WS2812B-4020
+- '# Ref': LED2
+  Package: WS2812B-4020
+  PosX: 106.6684
+  PosY: -136.15
+  Rot: -60.0
+  Side: top
+  Val: WS2812B-4020
+- '# Ref': LED3
+  Package: WS2812B-4020
+  PosX: 130.0
+  PosY: -95.7
+  Rot: 180.0
+  Side: top
+  Val: WS2812B-4020
+- '# Ref': X1
+  Package: M2.5_HOLE
+  PosX: 154.9
+  PosY: -133.5
+  Rot: 0.0
+  Side: top
+  Val: TOOLING
+- '# Ref': X2
+  Package: M2.5_HOLE
+  PosX: 133.0
+  PosY: -95.4
+  Rot: 0.0
+  Side: top
+  Val: TOOLING
+- '# Ref': X3
+  Package: M2.5_HOLE
+  PosX: 104.9
+  PosY: -133.6
+  Rot: 0.0
+  Side: top
+  Val: TOOLING
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 100n | 0402 | 155.6699 | -137.5\
+  \ | 60.0 | top | \n| C2 | 100n | 0402 | 104.3301 | -137.5 | -60.0 | top | \n| C3\
+  \ | 100n | 0402 | 130.0 | -93.0 | 180.0 | top | \n| J1 | GND | M2_PTH | 122.0 |\
+  \ -137.0 | 0.0 | top | \n| J2 | DIN | M2_PTH | 130.0 | -137.0 | 0.0 | top | \n|\
+  \ J3 | 5V | M2_PTH | 138.0 | -137.0 | 0.0 | top | \n| J4 | GND | M2_PTH | 113.5981\
+  \ | -122.4474 | 0.0 | top | \n| J5 | DOUT | M2_PTH | 117.5981 | -115.5192 | 0.0\
+  \ | top | \n| J6 | 5V | M2_PTH | 121.5981 | -108.591 | 0.0 | top | \n| J7 | GND\
+  \ | M2_PTH | 138.4019 | -108.591 | 0.0 | top | \n| J8 | DOUT | M2_PTH | 142.4019\
+  \ | -115.5192 | 0.0 | top | \n| J9 | 5V | M2_PTH | 146.4019 | -122.4474 | 0.0 |\
+  \ top | \n| LED1 | WS2812B-4020 | WS2812B-4020 | 153.3316 | -136.15 | 60.0 | top\
+  \ | \n| LED2 | WS2812B-4020 | WS2812B-4020 | 106.6684 | -136.15 | -60.0 | top |\
+  \ \n| LED3 | WS2812B-4020 | WS2812B-4020 | 130.0 | -95.7 | 180.0 | top | \n| X1\
+  \ | TOOLING | M2.5_HOLE | 154.9 | -133.5 | 0.0 | top | \n| X2 | TOOLING | M2.5_HOLE\
+  \ | 133.0 | -95.4 | 0.0 | top | \n| X3 | TOOLING | M2.5_HOLE | 104.9 | -133.6 |\
+  \ 0.0 | top | \n"
 projects_flat: projects/adamgreig_ledeaf_triangle/current_version/working
 repo:
   allow_forking: true

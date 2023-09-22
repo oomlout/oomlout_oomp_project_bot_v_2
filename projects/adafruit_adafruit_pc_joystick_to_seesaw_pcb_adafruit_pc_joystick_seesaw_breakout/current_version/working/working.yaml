@@ -1,4 +1,141 @@
 board: adafruit_pc_joystick_seesaw_breakout
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '3'
+  Ref: C2, C3, C4
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: C5
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: C6
+  Value: 1uF
+  Vendor: ''
+- Cmp name: STEMMA_I2C_QT
+  DNP: ''
+  Description: ''
+  Footprint: working:JST_SH4
+  Qnty: '2'
+  Ref: CONN3, CONN4
+  Value: STEMMA_I2C_QT
+  Vendor: ''
+- Cmp name: LED0603_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0603_NOOUTLINE
+  Qnty: '1'
+  Ref: D3
+  Value: GREEN
+  Vendor: ''
+- Cmp name: LED0603_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0603_NOOUTLINE
+  Qnty: '1'
+  Ref: D4
+  Value: RED
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: AP3602
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-6
+  Qnty: '1'
+  Ref: IC1
+  Value: AP3602
+  Vendor: ''
+- Cmp name: HEADER-1X670MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06_ROUND_70
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X670MIL
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R1
+  Value: 47K
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '4'
+  Ref: R2, R3, R4, R5
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603
+  Qnty: '1'
+  Ref: R6
+  Value: 10K Pack
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '2'
+  Ref: U$6, U$18
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+- Cmp name: ATTINY8X6_QFN
+  DNP: ''
+  Description: ''
+  Footprint: working:QFN20_3MM
+  Qnty: '1'
+  Ref: X1
+  Value: ATTINY8X6_QFN
+  Vendor: ''
+- Cmp name: F15H
+  DNP: ''
+  Description: ''
+  Footprint: working:F15H
+  Qnty: '1'
+  Ref: X2
+  Value: DE-15 Female
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C2, C3,\
+  \ C4 | 3 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C5\
+  \ | 1 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| C6 | 1 | 1uF\
+  \ | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| CONN3, CONN4 | 2 | STEMMA_I2C_QT\
+  \ | STEMMA_I2C_QT | working:JST_SH4 |  |  |  | \n| D3 | 1 | GREEN | LED0603_NOOUTLINE\
+  \ | working:CHIPLED_0603_NOOUTLINE |  |  |  | \n| D4 | 1 | RED | LED0603_NOOUTLINE\
+  \ | working:CHIPLED_0603_NOOUTLINE |  |  |  | \n| FID1, FID2 | 2 | FIDUCIAL_1MM\
+  \ | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| IC1 | 1 | AP3602 | AP3602\
+  \ | working:SOT23-6 |  |  |  | \n| JP1 | 1 | HEADER-1X670MIL | HEADER-1X670MIL |\
+  \ working:1X06_ROUND_70 |  |  |  | \n| R1 | 1 | 47K | RESISTOR_0603_NOOUT | working:0603-NO\
+  \ |  |  |  | \n| R2, R3, R4, R5 | 4 | 10K | RESISTOR_0603_NOOUT | working:0603-NO\
+  \ |  |  |  | \n| R6 | 1 | 10K Pack | RESISTOR_4PACK | working:RESPACK_4X0603 | \
+  \ |  |  | \n| U$6, U$18 | 2 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED\
+  \ |  |  |  | \n| X1 | 1 | ATTINY8X6_QFN | ATTINY8X6_QFN | working:QFN20_3MM |  |\
+  \  |  | \n| X2 | 1 | DE-15 Female | F15H | working:F15H |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_pc_joystick_to_seesaw_pcb_adafruit_pc_joystick_seesaw_breakout/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_pc_joystick_to_seesaw_pcb_adafruit_pc_joystick_seesaw_breakout/current_version/working/working.sch

@@ -1,10 +1,203 @@
 board: pmod_qspi_psram
+bom:
+- Id: '1'
+  Designator: J1
+  Footprint: PinSocket_2x06_P2.54mm_Horizontal
+  Quantity: '1'
+  Designation: 2.54mm_2x06
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J3
+  Footprint: PinHeader_1x02_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: SW1,SW2
+  Footprint: SW_SPST_PTS815
+  Quantity: '2'
+  Designation: SW_Push
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U1
+  Footprint: SOIC-8_3.9x4.9mm_P1.27mm
+  Quantity: '1'
+  Designation: LY68L6400
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C1
+  Footprint: C_0402_1005Metric
+  Quantity: '1'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J2
+  Footprint: PinHeader_1x06_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x06
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1\
+  \ | PinSocket_2x06_P2.54mm_Horizontal | 1 | 2.54mm_2x06 |  |  | [''] | \n| 2 | J3\
+  \ | PinHeader_1x02_P2.54mm_Vertical | 1 | Conn_01x02 |  |  | [''] | \n| 3 | SW1,SW2\
+  \ | SW_SPST_PTS815 | 2 | SW_Push |  |  | [''] | \n| 4 | U1 | SOIC-8_3.9x4.9mm_P1.27mm\
+  \ | 1 | LY68L6400 |  |  | [''] | \n| 5 | C1 | C_0402_1005Metric | 1 | 100n |  |\
+  \  | [''] | \n| 6 | J2 | PinHeader_1x06_P2.54mm_Vertical | 1 | Conn_01x06 |  | \
+  \ | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0402_1005Metric
+  Qnty: '1'
+  Ref: C1
+  Value: 100n
+  Vendor: ''
+- Cmp name: Conn_02x06_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x06, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal
+  Qnty: '1'
+  Ref: J1
+  Value: 2.54mm_2x06
+  Vendor: ''
+- Cmp name: Conn_01x06
+  DNP: ''
+  Description: Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J2
+  Value: Conn_01x06
+  Vendor: ''
+- Cmp name: Conn_01x02
+  DNP: ''
+  Description: Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J3
+  Value: Conn_01x02
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: Push button switch, generic, two pins
+  Footprint: picodvi:SW_SPST_PTS815
+  Qnty: '2'
+  Ref: SW1, SW2
+  Value: SW_Push
+  Vendor: ''
+- Cmp name: AT25SF081-XMHF-X-Memory_Flash
+  DNP: ''
+  Description: ''
+  Footprint: Package_SO:SOIC-8_3.9x4.9mm_P1.27mm
+  Qnty: '1'
+  Ref: U1
+  Value: LY68L6400
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 100n | C | Capacitor_SMD:C_0402_1005Metric | Unpolarized capacitor |  |  |\
+  \ \n| J1 | 1 | 2.54mm_2x06 | Conn_02x06_Odd_Even | Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal\
+  \ | Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J2 | 1 | Conn_01x06 | Conn_01x06 | Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J3 | 1 | Conn_01x02 | Conn_01x02 | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| SW1, SW2 | 2 | SW_Push | SW_Push | picodvi:SW_SPST_PTS815 | Push button\
+  \ switch, generic, two pins |  |  | \n| U1 | 1 | LY68L6400 | AT25SF081-XMHF-X-Memory_Flash\
+  \ | Package_SO:SOIC-8_3.9x4.9mm_P1.27mm |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adafruit_picodvi_pmod_qspi_psram/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adafruit_picodvi_pmod_qspi_psram/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adafruit_picodvi_pmod_qspi_psram/current_version/working/working.sch
 id: adafruit_picodvi_pmod_qspi_psram
 name: picodvi
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_0402_1005Metric
+  PosX: 125.0
+  PosY: -102.25
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': J1
+  Package: PinSocket_2x06_P2.54mm_Horizontal
+  PosX: 115.0
+  PosY: -92.0
+  Rot: 0.0
+  Side: top
+  Val: 2.54mm_2x06
+- '# Ref': J2
+  Package: PinHeader_1x06_P2.54mm_Vertical
+  PosX: 118.99
+  PosY: -104.7
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x06
+- '# Ref': J3
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 125.29
+  PosY: -104.75
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': SW1
+  Package: SW_SPST_PTS815
+  PosX: 123.25
+  PosY: -93.0
+  Rot: 90.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW2
+  Package: SW_SPST_PTS815
+  PosX: 127.25
+  PosY: -93.0
+  Rot: 90.0
+  Side: top
+  Val: SW_Push
+- '# Ref': U1
+  Package: SOIC-8_3.9x4.9mm_P1.27mm
+  PosX: 125.0
+  PosY: -99.0
+  Rot: 180.0
+  Side: top
+  Val: LY68L6400
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 100n | C_0402_1005Metric | 125.0\
+  \ | -102.25 | 0.0 | top | \n| J1 | 2.54mm_2x06 | PinSocket_2x06_P2.54mm_Horizontal\
+  \ | 115.0 | -92.0 | 0.0 | top | \n| J2 | Conn_01x06 | PinHeader_1x06_P2.54mm_Vertical\
+  \ | 118.99 | -104.7 | 180.0 | top | \n| J3 | Conn_01x02 | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 125.29 | -104.75 | -90.0 | top | \n| SW1 | SW_Push | SW_SPST_PTS815 | 123.25\
+  \ | -93.0 | 90.0 | top | \n| SW2 | SW_Push | SW_SPST_PTS815 | 127.25 | -93.0 | 90.0\
+  \ | top | \n| U1 | LY68L6400 | SOIC-8_3.9x4.9mm_P1.27mm | 125.0 | -99.0 | 180.0\
+  \ | top | \n"
 projects_flat: projects/adafruit_picodvi_pmod_qspi_psram/current_version/working
 repo:
   allow_forking: true

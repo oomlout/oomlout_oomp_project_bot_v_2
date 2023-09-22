@@ -1,0 +1,618 @@
+EESchema Schematic File Version 2
+LIBS:qrpamp-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:mcus
+LIBS:transformers
+LIBS:relays
+LIBS:nu9j-transistors
+LIBS:qrpamp-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 8
+Title "ChibiOS 10W HF Amp"
+Date "04 Jul 2015"
+Rev "1.1"
+Comp "NU9J - Dr. Philip G. Lee"
+Comment1 "v1.0 (www.tapr.org/OHL)"
+Comment2 "Licensed under the TAPR Open Hardware License"
+Comment3 "Copyright 2015, Philip G. Lee"
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_6 P3
+U 1 1 5472469B
+P 3700 1550
+F 0 "P3" V 3650 1550 60  0000 C CNN
+F 1 "SWD" V 3750 1550 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 3700 1550 60  0001 C CNN
+F 3 "" H 3700 1550 60  0000 C CNN
+	1    3700 1550
+	-1   0    0    1   
+$EndComp
+Entry Wire Line
+	4300 1400 4400 1500
+Entry Wire Line
+	4300 1500 4400 1600
+Entry Wire Line
+	4300 1300 4400 1400
+Entry Wire Line
+	4300 1700 4400 1800
+Text Label 4050 1700 0    60   ~ 0
+SWCLK
+Text Label 4050 1500 0    60   ~ 0
+SWDIO
+Text Label 4050 1400 0    60   ~ 0
+NRST
+Text Label 4050 1300 0    60   ~ 0
+SWO
+$Comp
+L C-RESCUE-qrpamp C33
+U 1 1 547253DE
+P 6650 1600
+AR Path="/547253DE" Ref="C33"  Part="1" 
+AR Path="/5470F239/547253DE" Ref="C33"  Part="1" 
+F 0 "C33" H 6650 1700 40  0000 L CNN
+F 1 ".1u" H 6656 1515 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6688 1450 30  0001 C CNN
+F 3 "" H 6650 1600 60  0000 C CNN
+	1    6650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-qrpamp C34
+U 1 1 547253E9
+P 6850 1600
+AR Path="/547253E9" Ref="C34"  Part="1" 
+AR Path="/5470F239/547253E9" Ref="C34"  Part="1" 
+F 0 "C34" H 6850 1700 40  0000 L CNN
+F 1 ".1u" H 6856 1515 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6888 1450 30  0001 C CNN
+F 3 "" H 6850 1600 60  0000 C CNN
+	1    6850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V-RESCUE-qrpamp #PWR083
+U 1 1 547254E1
+P 5950 1400
+AR Path="/547254E1" Ref="#PWR083"  Part="1" 
+AR Path="/5470F239/547254E1" Ref="#PWR083"  Part="1" 
+F 0 "#PWR083" H 5950 1360 30  0001 C CNN
+F 1 "+3.3V" H 5950 1510 30  0000 C CNN
+F 2 "" H 5950 1400 60  0000 C CNN
+F 3 "" H 5950 1400 60  0000 C CNN
+	1    5950 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V-RESCUE-qrpamp #PWR084
+U 1 1 547254F3
+P 4050 1800
+AR Path="/547254F3" Ref="#PWR084"  Part="1" 
+AR Path="/5470F239/547254F3" Ref="#PWR084"  Part="1" 
+F 0 "#PWR084" H 4050 1760 30  0001 C CNN
+F 1 "+3.3V" H 4050 1910 30  0000 C CNN
+F 2 "" H 4050 1800 60  0000 C CNN
+F 3 "" H 4050 1800 60  0000 C CNN
+	1    4050 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3.3V-RESCUE-qrpamp #PWR085
+U 1 1 547256B9
+P 700 700
+AR Path="/547256B9" Ref="#PWR085"  Part="1" 
+AR Path="/5470F239/547256B9" Ref="#PWR085"  Part="1" 
+F 0 "#PWR085" H 700 660 30  0001 C CNN
+F 1 "+3.3V" H 700 810 30  0000 C CNN
+F 2 "" H 700 700 60  0000 C CNN
+F 3 "" H 700 700 60  0000 C CNN
+	1    700  700 
+	1    0    0    -1  
+$EndComp
+Text HLabel 900  700  2    60   Input ~ 0
+mcu_3v3
+Text HLabel 900  800  2    60   Input ~ 0
+mcu_gnd
+$Comp
+L +3.3V-RESCUE-qrpamp #PWR086
+U 1 1 54725A58
+P 4200 4100
+AR Path="/54725A58" Ref="#PWR086"  Part="1" 
+AR Path="/5470F239/54725A58" Ref="#PWR086"  Part="1" 
+F 0 "#PWR086" H 4200 4060 30  0001 C CNN
+F 1 "+3.3V" H 4200 4210 30  0000 C CNN
+F 2 "" H 4200 4100 60  0000 C CNN
+F 3 "" H 4200 4100 60  0000 C CNN
+	1    4200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LCD-2x16 U3
+U 1 1 54725AD2
+P 4150 4150
+F 0 "U3" H 3675 4375 60  0000 C CNN
+F 1 "LCD-2x16" H 3850 4275 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 4150 4150 60  0001 C CNN
+F 3 "" H 4150 4150 60  0000 C CNN
+	1    4150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F401xB/C-LQFP U4
+U 1 1 54725F07
+P 5200 2000
+F 0 "U4" H 6225 2100 60  0000 C CNN
+F 1 "STM32F401xB/C-LQFP" H 6700 2025 60  0000 C CNN
+F 2 "nu9j-footprints:LQFP64" H 7175 3100 60  0001 C CNN
+F 3 "" H 7175 3100 60  0000 C CNN
+	1    5200 2000
+	1    0    0    -1  
+$EndComp
+Text HLabel 6500 3550 2    60   Output ~ 0
+mcu_band1
+Text HLabel 6500 3450 2    60   Output ~ 0
+mcu_band2
+Text HLabel 6500 3350 2    60   Output ~ 0
+mcu_band3
+Text HLabel 6950 3950 2    60   Input ~ 0
+mcu_rfdet
+Text HLabel 4850 3450 0    60   Input ~ 0
+mcu_ptt
+Text HLabel 6950 3850 2    60   Input ~ 0
+mcu_swr_fwd
+Text HLabel 6950 3750 2    60   Input ~ 0
+mcu_swr_ref
+Text HLabel 6950 4050 2    60   Output ~ 0
+mcu_ant_sw
+Text HLabel 6500 3050 2    60   Output ~ 0
+mcu_amp_pwr_sw
+$Comp
+L +3.3V-RESCUE-qrpamp #PWR087
+U 1 1 54833E0A
+P 10650 750
+AR Path="/54833E0A" Ref="#PWR087"  Part="1" 
+AR Path="/5470F239/54833E0A" Ref="#PWR087"  Part="1" 
+F 0 "#PWR087" H 10650 710 30  0001 C CNN
+F 1 "+3.3V" H 10650 860 30  0000 C CNN
+F 2 "" H 10650 750 60  0000 C CNN
+F 3 "" H 10650 750 60  0000 C CNN
+	1    10650 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1-RESCUE-qrpamp C39
+U 1 1 548452A0
+P 3050 3250
+AR Path="/548452A0" Ref="C39"  Part="1" 
+AR Path="/5470F239/548452A0" Ref="C39"  Part="1" 
+F 0 "C39" H 3100 3350 50  0000 L CNN
+F 1 "1u" H 3100 3150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3050 3250 60  0001 C CNN
+F 3 "" H 3050 3250 60  0000 C CNN
+	1    3050 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L C-RESCUE-qrpamp C38
+U 1 1 54845340
+P 2750 3250
+AR Path="/54845340" Ref="C38"  Part="1" 
+AR Path="/5470F239/54845340" Ref="C38"  Part="1" 
+F 0 "C38" H 2750 3350 40  0000 L CNN
+F 1 ".01u" H 2756 3165 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2788 3100 30  0001 C CNN
+F 3 "" H 2750 3250 60  0000 C CNN
+	1    2750 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3.3V-RESCUE-qrpamp #PWR088
+U 1 1 54845508
+P 2750 3450
+AR Path="/54845508" Ref="#PWR088"  Part="1" 
+AR Path="/5470F239/54845508" Ref="#PWR088"  Part="1" 
+F 0 "#PWR088" H 2750 3410 30  0001 C CNN
+F 1 "+3.3V" H 2750 3560 30  0000 C CNN
+F 2 "" H 2750 3450 60  0000 C CNN
+F 3 "" H 2750 3450 60  0000 C CNN
+	1    2750 3450
+	-1   0    0    1   
+$EndComp
+Entry Wire Line
+	4300 2200 4400 2100
+$Comp
+L C-RESCUE-qrpamp C37
+U 1 1 54845A82
+P 3150 2400
+AR Path="/54845A82" Ref="C37"  Part="1" 
+AR Path="/5470F239/54845A82" Ref="C37"  Part="1" 
+F 0 "C37" H 3150 2500 40  0000 L CNN
+F 1 ".1u" H 3156 2315 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3188 2250 30  0001 C CNN
+F 3 "" H 3150 2400 60  0000 C CNN
+	1    3150 2400
+	1    0    0    -1  
+$EndComp
+Text Label 4050 2200 0    60   ~ 0
+NRST
+$Comp
+L DGND #PWR089
+U 1 1 54845B65
+P 3150 2850
+F 0 "#PWR089" H 3150 2850 40  0001 C CNN
+F 1 "DGND" H 3150 2780 40  0000 C CNN
+F 2 "" H 3150 2850 60  0000 C CNN
+F 3 "" H 3150 2850 60  0000 C CNN
+	1    3150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 54845BBA
+P 2750 2500
+F 0 "SW1" H 2900 2610 50  0000 C CNN
+F 1 "SW_PUSH" H 2750 2420 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 2750 2500 60  0001 C CNN
+F 3 "" H 2750 2500 60  0000 C CNN
+	1    2750 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L DGND #PWR090
+U 1 1 54845CF0
+P 2750 3000
+F 0 "#PWR090" H 2750 3000 40  0001 C CNN
+F 1 "DGND" H 2750 2930 40  0000 C CNN
+F 2 "" H 2750 3000 60  0000 C CNN
+F 3 "" H 2750 3000 60  0000 C CNN
+	1    2750 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L DGND #PWR091
+U 1 1 54845D08
+P 4200 4450
+F 0 "#PWR091" H 4200 4450 40  0001 C CNN
+F 1 "DGND" H 4200 4380 40  0000 C CNN
+F 2 "" H 4200 4450 60  0000 C CNN
+F 3 "" H 4200 4450 60  0000 C CNN
+	1    4200 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR092
+U 1 1 54845D53
+P 4200 1850
+F 0 "#PWR092" H 4200 1850 40  0001 C CNN
+F 1 "DGND" H 4200 1780 40  0000 C CNN
+F 2 "" H 4200 1850 60  0000 C CNN
+F 3 "" H 4200 1850 60  0000 C CNN
+	1    4200 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR093
+U 1 1 54845DAD
+P 4900 5450
+F 0 "#PWR093" H 4900 5450 40  0001 C CNN
+F 1 "DGND" H 4900 5380 40  0000 C CNN
+F 2 "" H 4900 5450 60  0000 C CNN
+F 3 "" H 4900 5450 60  0000 C CNN
+	1    4900 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR094
+U 1 1 54845DDF
+P 5150 1500
+F 0 "#PWR094" H 5150 1500 40  0001 C CNN
+F 1 "DGND" H 5150 1430 40  0000 C CNN
+F 2 "" H 5150 1500 60  0000 C CNN
+F 3 "" H 5150 1500 60  0000 C CNN
+	1    5150 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L DGND #PWR095
+U 1 1 54845E90
+P 6850 1800
+F 0 "#PWR095" H 6850 1800 40  0001 C CNN
+F 1 "DGND" H 6850 1730 40  0000 C CNN
+F 2 "" H 6850 1800 60  0000 C CNN
+F 3 "" H 6850 1800 60  0000 C CNN
+	1    6850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR096
+U 1 1 5484639A
+P 700 800
+F 0 "#PWR096" H 700 800 40  0001 C CNN
+F 1 "DGND" H 700 730 40  0000 C CNN
+F 2 "" H 700 800 60  0000 C CNN
+F 3 "" H 700 800 60  0000 C CNN
+	1    700  800 
+	0    1    1    0   
+$EndComp
+$Comp
+L C-RESCUE-qrpamp C31
+U 1 1 548C5B39
+P 6200 1600
+AR Path="/548C5B39" Ref="C31"  Part="1" 
+AR Path="/5470F239/548C5B39" Ref="C31"  Part="1" 
+F 0 "C31" H 6200 1700 40  0000 L CNN
+F 1 "4.7u" H 6206 1515 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6238 1450 30  0001 C CNN
+F 3 "" H 6200 1600 60  0000 C CNN
+	1    6200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-qrpamp C30
+U 1 1 548C5F55
+P 5350 1500
+AR Path="/548C5F55" Ref="C30"  Part="1" 
+AR Path="/5470F239/548C5F55" Ref="C30"  Part="1" 
+F 0 "C30" H 5350 1600 40  0000 L CNN
+F 1 "4.7u" H 5356 1415 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5388 1350 30  0001 C CNN
+F 3 "" H 5350 1500 60  0000 C CNN
+	1    5350 1500
+	0    -1   -1   0   
+$EndComp
+Entry Wire Line
+	4400 2250 4500 2350
+Entry Wire Line
+	4400 2350 4500 2450
+Entry Wire Line
+	4400 2450 4500 2550
+Entry Wire Line
+	4400 2550 4500 2650
+Text Label 4700 2350 0    60   ~ 0
+SWO
+Text Label 4650 2450 0    60   ~ 0
+NRST
+Text Label 4600 2550 0    60   ~ 0
+SWDIO
+Text Label 4600 2650 0    60   ~ 0
+SWCLK
+$Comp
+L R-RESCUE-qrpamp R24
+U 1 1 548C7F6B
+P 6700 3750
+AR Path="/548C7F6B" Ref="R24"  Part="1" 
+AR Path="/5470F239/548C7F6B" Ref="R24"  Part="1" 
+F 0 "R24" V 6780 3750 40  0000 C CNN
+F 1 "50k" V 6707 3751 40  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 6630 3750 30  0001 C CNN
+F 3 "" H 6700 3750 30  0000 C CNN
+	1    6700 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R-RESCUE-qrpamp R25
+U 1 1 548C7FD3
+P 6700 3850
+AR Path="/548C7FD3" Ref="R25"  Part="1" 
+AR Path="/5470F239/548C7FD3" Ref="R25"  Part="1" 
+F 0 "R25" V 6780 3850 40  0000 C CNN
+F 1 "50k" V 6707 3851 40  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 6630 3850 30  0001 C CNN
+F 3 "" H 6700 3850 30  0000 C CNN
+	1    6700 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-qrpamp R26
+U 1 1 54C3F323
+P 3650 3250
+AR Path="/54C3F323" Ref="R26"  Part="1" 
+AR Path="/5470F239/54C3F323" Ref="R26"  Part="1" 
+F 0 "R26" V 3730 3250 40  0000 C CNN
+F 1 "10k" V 3657 3251 40  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3580 3250 30  0001 C CNN
+F 3 "" H 3650 3250 30  0000 C CNN
+	1    3650 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DGND #PWR097
+U 1 1 54C3F3FC
+P 3400 3450
+F 0 "#PWR097" H 3400 3450 40  0001 C CNN
+F 1 "DGND" H 3400 3380 40  0000 C CNN
+F 2 "" H 3400 3450 60  0000 C CNN
+F 3 "" H 3400 3450 60  0000 C CNN
+	1    3400 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P7
+U 1 1 54C3F60F
+P 3900 3450
+F 0 "P7" H 3900 3550 50  0000 C CNN
+F 1 "TP" V 4000 3450 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 3450 60  0001 C CNN
+F 3 "" H 3900 3450 60  0000 C CNN
+	1    3900 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X06 P8
+U 1 1 54C3FB48
+P 10850 1000
+F 0 "P8" H 10850 1350 50  0000 C CNN
+F 1 "NAV_BUTTON" V 10950 1000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 10850 1000 60  0001 C CNN
+F 3 "" H 10850 1000 60  0000 C CNN
+	1    10850 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 1300 4300 1300
+Wire Wire Line
+	4050 1400 4300 1400
+Wire Wire Line
+	4050 1500 4300 1500
+Wire Wire Line
+	4050 1700 4300 1700
+Wire Wire Line
+	5550 1500 5550 1700
+Wire Wire Line
+	6200 1800 6850 1800
+Connection ~ 6650 1800
+Wire Wire Line
+	5950 1400 6850 1400
+Connection ~ 6650 1400
+Wire Wire Line
+	5950 1700 5950 1400
+Connection ~ 6200 1400
+Wire Wire Line
+	4050 1600 4200 1600
+Wire Wire Line
+	4200 1600 4200 1850
+Wire Wire Line
+	700  700  900  700 
+Wire Wire Line
+	900  800  700  800 
+Wire Wire Line
+	4900 4350 4150 4350
+Wire Wire Line
+	4150 4150 4200 4150
+Wire Wire Line
+	4200 4150 4200 4100
+Wire Wire Line
+	4150 4250 4200 4250
+Wire Wire Line
+	4200 4250 4200 4450
+Wire Wire Line
+	6500 3050 6450 3050
+Wire Wire Line
+	3250 3150 3250 3450
+Connection ~ 3050 3450
+Connection ~ 3050 3050
+Wire Wire Line
+	2750 3050 2750 3000
+Wire Wire Line
+	3250 3450 2750 3450
+Wire Wire Line
+	2750 2200 4300 2200
+Wire Wire Line
+	3150 2600 3150 2850
+Connection ~ 3150 2200
+Wire Wire Line
+	2750 2800 3150 2800
+Connection ~ 3150 2800
+Wire Wire Line
+	4900 3450 4850 3450
+Wire Wire Line
+	6450 3950 6950 3950
+Connection ~ 4900 5050
+Connection ~ 4900 5250
+Connection ~ 4900 5150
+Wire Wire Line
+	5650 1700 5950 1700
+Connection ~ 5750 1700
+Connection ~ 5850 1700
+Wire Wire Line
+	4900 5050 4900 5450
+Connection ~ 4900 5350
+Wire Bus Line
+	4400 1400 4400 2650
+Wire Wire Line
+	3250 3150 4900 3150
+Wire Wire Line
+	2750 3050 4900 3050
+Wire Wire Line
+	4500 2350 4900 2350
+Wire Wire Line
+	4900 2450 4500 2450
+Wire Wire Line
+	4500 2550 4900 2550
+Wire Wire Line
+	4900 2650 4500 2650
+Wire Wire Line
+	6450 3350 6500 3350
+Wire Wire Line
+	6500 3450 6450 3450
+Wire Wire Line
+	6450 3550 6500 3550
+Wire Wire Line
+	3400 3250 3400 3450
+Wire Wire Line
+	3900 3250 4900 3250
+Wire Wire Line
+	6450 2350 6550 2350
+Wire Wire Line
+	6450 2450 6550 2450
+Wire Wire Line
+	6450 2550 6550 2550
+Wire Wire Line
+	6450 4150 6550 4150
+Wire Wire Line
+	6450 4250 6550 4250
+Text Label 6550 4150 0    60   ~ 0
+nav_up
+Text Label 6550 4250 0    60   ~ 0
+nav_down
+Text Label 6550 2350 0    60   ~ 0
+nav_select
+Text Label 6550 2450 0    60   ~ 0
+nav_right
+Text Label 6550 2550 0    60   ~ 0
+nav_left
+Wire Wire Line
+	10650 850  10550 850 
+Wire Wire Line
+	10650 950  10550 950 
+Wire Wire Line
+	10650 1050 10550 1050
+Wire Wire Line
+	10650 1150 10550 1150
+Wire Wire Line
+	10650 1250 10550 1250
+Text Label 10550 850  2    60   ~ 0
+nav_up
+Text Label 10550 950  2    60   ~ 0
+nav_down
+Text Label 10550 1050 2    60   ~ 0
+nav_select
+Text Label 10550 1150 2    60   ~ 0
+nav_right
+Text Label 10550 1250 2    60   ~ 0
+nav_left
+Wire Wire Line
+	6950 4050 6450 4050
+$EndSCHEMATC

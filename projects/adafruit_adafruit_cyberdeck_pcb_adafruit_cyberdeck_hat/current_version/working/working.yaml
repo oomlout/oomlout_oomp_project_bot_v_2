@@ -1,9 +1,414 @@
 board: adafruit_cyberdeck_hat
+bom:
+- Id: '1'
+  Designator: D2,D1
+  Footprint: SOD-323
+  Quantity: '2'
+  Designation: 3.6V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: CONN3,CONN1
+  Footprint: JST_SH4
+  Quantity: '2'
+  Designation: STEMMA_I2C_QT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: '@HOLE2,@HOLE3,@HOLE0,@HOLE1'
+  Footprint: ''
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: SJ1
+  Footprint: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: RPI2
+  Footprint: RASPI_2X20_THMSMT_TOP
+  Quantity: '1'
+  Designation: RASPBERRYPI_BPLUS_2X20_THMSMT_TOP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R8,R7
+  Footprint: 0603-NO
+  Quantity: '2'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: FID3,FID2,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '3'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C1,C34
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: SENSE0,NEOPIX0
+  Footprint: JSTPH3
+  Quantity: '2'
+  Designation: JST PH 3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U$2
+  Footprint: CYBERDECK_BONNET_TOP
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: RPI1
+  Footprint: 2X20
+  Quantity: '1'
+  Designation: RASPBERRYPI_BPLUS_IDC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U$1
+  Footprint: CYBERDECK_BONNET_BOT
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D2,D1\
+  \ | SOD-323 | 2 | 3.6V |  |  | [''] | \n| 2 | CONN3,CONN1 | JST_SH4 | 2 | STEMMA_I2C_QT\
+  \ |  |  | [''] | \n| 3 | @HOLE2,@HOLE3,@HOLE0,@HOLE1 |  | 4 |  |  |  | [''] | \n\
+  | 4 | SJ1 | SOLDERJUMPER_2WAY_OPEN_NOPASTE | 1 |  |  |  | [''] | \n| 5 | RPI2 |\
+  \ RASPI_2X20_THMSMT_TOP | 1 | RASPBERRYPI_BPLUS_2X20_THMSMT_TOP |  |  | [''] | \n\
+  | 6 | R8,R7 | 0603-NO | 2 | 1K |  |  | [''] | \n| 7 | FID3,FID2,FID1 | FIDUCIAL_1MM\
+  \ | 3 | FIDUCIAL_1MM |  |  | [''] | \n| 8 | C1,C34 | 0805-NO | 2 | 10uF |  |  |\
+  \ [''] | \n| 9 | SENSE0,NEOPIX0 | JSTPH3 | 2 | JST PH 3 |  |  | [''] | \n| 10 |\
+  \ U$2 | CYBERDECK_BONNET_TOP | 1 |  |  |  | [''] | \n| 11 | RPI1 | 2X20 | 1 | RASPBERRYPI_BPLUS_IDC\
+  \ |  |  | [''] | \n| 12 | U$1 | CYBERDECK_BONNET_BOT | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C1, C34
+  Value: 10uF
+  Vendor: ''
+- Cmp name: STEMMA_I2C_QT
+  DNP: ''
+  Description: ''
+  Footprint: working:JST_SH4
+  Qnty: '2'
+  Ref: CONN1, CONN3
+  Value: STEMMA_I2C_QT
+  Vendor: ''
+- Cmp name: DIODE-ZENERSOD323
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-323
+  Qnty: '2'
+  Ref: D1, D2
+  Value: 3.6V
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '3'
+  Ref: FID1, FID2, FID3
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: CON_JST_PH_3PIN
+  DNP: ''
+  Description: ''
+  Footprint: working:JSTPH3
+  Qnty: '1'
+  Ref: NEOPIX0
+  Value: JST PH 3
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: R7, R8
+  Value: 1K
+  Vendor: ''
+- Cmp name: RASPBERRYPI_BPLUS_IDC
+  DNP: ''
+  Description: ''
+  Footprint: working:2X20
+  Qnty: '1'
+  Ref: RPI1
+  Value: RASPBERRYPI_BPLUS_IDC
+  Vendor: ''
+- Cmp name: RASPBERRYPI_BPLUS_2X20_THMSMT_TOP
+  DNP: ''
+  Description: ''
+  Footprint: working:RASPI_2X20_THMSMT_TOP
+  Qnty: '1'
+  Ref: RPI2
+  Value: RASPBERRYPI_BPLUS_2X20_THMSMT_TOP
+  Vendor: ''
+- Cmp name: CON_JST_PH_3PIN
+  DNP: ''
+  Description: ''
+  Footprint: working:JSTPH3
+  Qnty: '1'
+  Ref: SENSE0
+  Value: JST PH 3
+  Vendor: ''
+- Cmp name: SOLDERJUMPER_2WAY
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  Qnty: '1'
+  Ref: SJ1
+  Value: SOLDERJUMPER_2WAY
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C34\
+  \ | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| CONN1,\
+  \ CONN3 | 2 | STEMMA_I2C_QT | STEMMA_I2C_QT | working:JST_SH4 |  |  |  | \n| D1,\
+  \ D2 | 2 | 3.6V | DIODE-ZENERSOD323 | working:SOD-323 |  |  |  | \n| FID1, FID2,\
+  \ FID3 | 3 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| NEOPIX0\
+  \ | 1 | JST PH 3 | CON_JST_PH_3PIN | working:JSTPH3 |  |  |  | \n| R7, R8 | 2 |\
+  \ 1K | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n| RPI1 | 1 | RASPBERRYPI_BPLUS_IDC\
+  \ | RASPBERRYPI_BPLUS_IDC | working:2X20 |  |  |  | \n| RPI2 | 1 | RASPBERRYPI_BPLUS_2X20_THMSMT_TOP\
+  \ | RASPBERRYPI_BPLUS_2X20_THMSMT_TOP | working:RASPI_2X20_THMSMT_TOP |  |  |  |\
+  \ \n| SENSE0 | 1 | JST PH 3 | CON_JST_PH_3PIN | working:JSTPH3 |  |  |  | \n| SJ1\
+  \ | 1 | SOLDERJUMPER_2WAY | SOLDERJUMPER_2WAY | working:SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_cyberdeck_pcb_adafruit_cyberdeck_hat/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_cyberdeck_pcb_adafruit_cyberdeck_hat/current_version/working/working.sch
 id: adafruit_adafruit_cyberdeck_pcb_adafruit_cyberdeck_hat
 name: adafruit_cyberdeck_pcb
+position_bottom:
+- '# Ref': RPI1
+  Package: 2X20
+  PosX: 142.5956
+  PosY: -123.8
+  Rot: 0.0
+  Side: bottom
+  Val: RASPBERRYPI_BPLUS_IDC
+- '# Ref': U$1
+  Package: CYBERDECK_BONNET_BOT
+  PosX: 180.9496
+  PosY: -130.785
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| RPI1 | RASPBERRYPI_BPLUS_IDC | 2X20\
+  \ | 142.5956 | -123.8 | 0.0 | bottom | \n| U$1 | nan | CYBERDECK_BONNET_BOT | 180.9496\
+  \ | -130.785 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 119.4816
+  PosY: -83.4775
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 177.4571
+  PosY: -83.414
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE2'
+  Package: .nan
+  PosX: 177.4571
+  PosY: -106.4645
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE3'
+  Package: .nan
+  PosX: 119.4816
+  PosY: -106.4645
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 170.1546
+  PosY: -97.384
+  Rot: 90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C34
+  Package: 0805-NO
+  PosX: 126.6571
+  PosY: -99.4795
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': CONN1
+  Package: JST_SH4
+  PosX: 178.2826
+  PosY: -89.51
+  Rot: 90.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': CONN3
+  Package: JST_SH4
+  PosX: 118.7196
+  PosY: -89.51
+  Rot: -90.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': D1
+  Package: SOD-323
+  PosX: 128.4986
+  PosY: -99.3525
+  Rot: -90.0
+  Side: top
+  Val: 3.6V
+- '# Ref': D2
+  Package: SOD-323
+  PosX: 168.3766
+  PosY: -97.638
+  Rot: 90.0
+  Side: top
+  Val: 3.6V
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 117.7036
+  PosY: -128.245
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 166.9796
+  PosY: -128.372
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 121.1326
+  PosY: -80.747
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': NEOPIX0
+  Package: JSTPH3
+  PosX: 120.6246
+  PosY: -98.4
+  Rot: 90.0
+  Side: top
+  Val: JST_PH_3
+- '# Ref': R7
+  Package: 0603-NO
+  PosX: 127.4191
+  PosY: -96.4315
+  Rot: 0.0
+  Side: top
+  Val: 1K
+- '# Ref': R8
+  Package: 0603-NO
+  PosX: 169.2021
+  PosY: -100.432
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': RPI2
+  Package: RASPI_2X20_THMSMT_TOP
+  PosX: 148.5011
+  PosY: -83.414
+  Rot: 0.0
+  Side: top
+  Val: RASPBERRYPI_BPLUS_2X20_THMSMT_TOP
+- '# Ref': SENSE0
+  Package: JSTPH3
+  PosX: 176.3776
+  PosY: -98.4
+  Rot: -90.0
+  Side: top
+  Val: JST_PH_3
+- '# Ref': SJ1
+  Package: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  PosX: 126.9746
+  PosY: -93.8915
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$2
+  Package: CYBERDECK_BONNET_TOP
+  PosX: 115.9256
+  PosY: -130.785
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 119.4816 | -83.4775\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 177.4571 | -83.414 | 0.0 | top | \n| @HOLE2\
+  \ | nan | nan | 177.4571 | -106.4645 | 0.0 | top | \n| @HOLE3 | nan | nan | 119.4816\
+  \ | -106.4645 | 0.0 | top | \n| C1 | 10uF | 0805-NO | 170.1546 | -97.384 | 90.0\
+  \ | top | \n| C34 | 10uF | 0805-NO | 126.6571 | -99.4795 | -90.0 | top | \n| CONN1\
+  \ | STEMMA_I2C_QT | JST_SH4 | 178.2826 | -89.51 | 90.0 | top | \n| CONN3 | STEMMA_I2C_QT\
+  \ | JST_SH4 | 118.7196 | -89.51 | -90.0 | top | \n| D1 | 3.6V | SOD-323 | 128.4986\
+  \ | -99.3525 | -90.0 | top | \n| D2 | 3.6V | SOD-323 | 168.3766 | -97.638 | 90.0\
+  \ | top | \n| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM | 117.7036 | -128.245 | 0.0 | top\
+  \ | \n| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM | 166.9796 | -128.372 | 0.0 | top | \n\
+  | FID3 | FIDUCIAL_1MM | FIDUCIAL_1MM | 121.1326 | -80.747 | 0.0 | top | \n| NEOPIX0\
+  \ | JST_PH_3 | JSTPH3 | 120.6246 | -98.4 | 90.0 | top | \n| R7 | 1K | 0603-NO |\
+  \ 127.4191 | -96.4315 | 0.0 | top | \n| R8 | 1K | 0603-NO | 169.2021 | -100.432\
+  \ | 180.0 | top | \n| RPI2 | RASPBERRYPI_BPLUS_2X20_THMSMT_TOP | RASPI_2X20_THMSMT_TOP\
+  \ | 148.5011 | -83.414 | 0.0 | top | \n| SENSE0 | JST_PH_3 | JSTPH3 | 176.3776 |\
+  \ -98.4 | -90.0 | top | \n| SJ1 | nan | SOLDERJUMPER_2WAY_OPEN_NOPASTE | 126.9746\
+  \ | -93.8915 | 0.0 | top | \n| U$2 | nan | CYBERDECK_BONNET_TOP | 115.9256 | -130.785\
+  \ | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_cyberdeck_pcb_adafruit_cyberdeck_hat/current_version/working
 repo:
   allow_forking: true

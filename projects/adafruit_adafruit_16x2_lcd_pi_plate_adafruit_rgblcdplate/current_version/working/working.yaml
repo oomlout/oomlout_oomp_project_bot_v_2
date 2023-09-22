@@ -1,9 +1,359 @@
 board: adafruit_rgblcdplate
+bom:
+- Id: '1'
+  Designator: U$1
+  Footprint: LCD1602-RGB
+  Quantity: '1'
+  Designation: HD44780LCD_RGBLONGPINS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: SELECT0,LEFT0,UP0,DOWN0,RIGHT0
+  Footprint: B3F-10XX
+  Quantity: '5'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: BLUE0,RED0
+  Footprint: '0207_10'
+  Quantity: '2'
+  Designation: '220'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: TM1
+  Footprint: 6MM
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$4
+  Footprint: RASBERRYPI_SHIELD
+  Quantity: '1'
+  Designation: RASPBERRYPI_BB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: GREEN0
+  Footprint: '0207_10'
+  Quantity: '1'
+  Designation: '330'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: IC1
+  Footprint: DIL28-3-ROUND
+  Quantity: '1'
+  Designation: MCP23017SP2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U$2
+  Footprint: ADAFRUIT_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: A1,A0,A2
+  Footprint: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U$1\
+  \ | LCD1602-RGB | 1 | HD44780LCD_RGBLONGPINS |  |  | [''] | \n| 2 | SELECT0,LEFT0,UP0,DOWN0,RIGHT0\
+  \ | B3F-10XX | 5 |  |  |  | [''] | \n| 3 | BLUE0,RED0 | 0207_10 | 2 | 220 |  | \
+  \ | [''] | \n| 4 | TM1 | 6MM | 1 | 10K |  |  | [''] | \n| 5 | U$4 | RASBERRYPI_SHIELD\
+  \ | 1 | RASPBERRYPI_BB |  |  | [''] | \n| 6 | GREEN0 | 0207_10 | 1 | 330 |  |  |\
+  \ [''] | \n| 7 | IC1 | DIL28-3-ROUND | 1 | MCP23017SP2 |  |  | [''] | \n| 8 | U$2\
+  \ | ADAFRUIT_5MM | 1 |  |  |  | [''] | \n| 9 | A1,A0,A2 | SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ | 3 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: SOLDERJUMPER_2WAY
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  Qnty: '3'
+  Ref: A0, A1, A2
+  Value: SOLDERJUMPER_2WAY
+  Vendor: ''
+- Cmp name: R-US_0207/10
+  DNP: ''
+  Description: ''
+  Footprint: working:0207_10
+  Qnty: '1'
+  Ref: BLUE0
+  Value: '220'
+  Vendor: ''
+- Cmp name: 10-XX
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-10XX
+  Qnty: '1'
+  Ref: DOWN0
+  Value: 10-XX
+  Vendor: ''
+- Cmp name: R-US_0207/10
+  DNP: ''
+  Description: ''
+  Footprint: working:0207_10
+  Qnty: '1'
+  Ref: GREEN0
+  Value: '330'
+  Vendor: ''
+- Cmp name: MCP23017SP2
+  DNP: ''
+  Description: ''
+  Footprint: working:DIL28-3-ROUND
+  Qnty: '1'
+  Ref: IC1
+  Value: MCP23017SP2
+  Vendor: ''
+- Cmp name: 10-XX
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-10XX
+  Qnty: '1'
+  Ref: LEFT0
+  Value: 10-XX
+  Vendor: ''
+- Cmp name: R-US_0207/10
+  DNP: ''
+  Description: ''
+  Footprint: working:0207_10
+  Qnty: '1'
+  Ref: RED0
+  Value: '220'
+  Vendor: ''
+- Cmp name: 10-XX
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-10XX
+  Qnty: '1'
+  Ref: RIGHT0
+  Value: 10-XX
+  Vendor: ''
+- Cmp name: 10-XX
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-10XX
+  Qnty: '1'
+  Ref: SELECT0
+  Value: 10-XX
+  Vendor: ''
+- Cmp name: TRIM
+  DNP: ''
+  Description: ''
+  Footprint: working:6MM
+  Qnty: '1'
+  Ref: TM1
+  Value: 10K
+  Vendor: ''
+- Cmp name: HD44780LCD_RGBLONGPINS
+  DNP: ''
+  Description: ''
+  Footprint: working:LCD1602-RGB
+  Qnty: '1'
+  Ref: U$1
+  Value: HD44780LCD_RGBLONGPINS
+  Vendor: ''
+- Cmp name: RASPBERRYPI_BB
+  DNP: ''
+  Description: ''
+  Footprint: working:RASBERRYPI_SHIELD
+  Qnty: '1'
+  Ref: U$4
+  Value: RASPBERRYPI_BB
+  Vendor: ''
+- Cmp name: 10-XX
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-10XX
+  Qnty: '1'
+  Ref: UP0
+  Value: 10-XX
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| A0, A1,\
+  \ A2 | 3 | SOLDERJUMPER_2WAY | SOLDERJUMPER_2WAY | working:SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ |  |  |  | \n| BLUE0 | 1 | 220 | R-US_0207/10 | working:0207_10 |  |  |  | \n\
+  | DOWN0 | 1 | 10-XX | 10-XX | working:B3F-10XX |  |  |  | \n| GREEN0 | 1 | 330 |\
+  \ R-US_0207/10 | working:0207_10 |  |  |  | \n| IC1 | 1 | MCP23017SP2 | MCP23017SP2\
+  \ | working:DIL28-3-ROUND |  |  |  | \n| LEFT0 | 1 | 10-XX | 10-XX | working:B3F-10XX\
+  \ |  |  |  | \n| RED0 | 1 | 220 | R-US_0207/10 | working:0207_10 |  |  |  | \n|\
+  \ RIGHT0 | 1 | 10-XX | 10-XX | working:B3F-10XX |  |  |  | \n| SELECT0 | 1 | 10-XX\
+  \ | 10-XX | working:B3F-10XX |  |  |  | \n| TM1 | 1 | 10K | TRIM | working:6MM |\
+  \  |  |  | \n| U$1 | 1 | HD44780LCD_RGBLONGPINS | HD44780LCD_RGBLONGPINS | working:LCD1602-RGB\
+  \ |  |  |  | \n| U$4 | 1 | RASPBERRYPI_BB | RASPBERRYPI_BB | working:RASBERRYPI_SHIELD\
+  \ |  |  |  | \n| UP0 | 1 | 10-XX | 10-XX | working:B3F-10XX |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_16x2_lcd_pi_plate_adafruit_rgblcdplate/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_16x2_lcd_pi_plate_adafruit_rgblcdplate/current_version/working/working.sch
 id: adafruit_adafruit_16x2_lcd_pi_plate_adafruit_rgblcdplate
 name: adafruit_16x2_lcd_pi_plate
+position_bottom:
+- '# Ref': A0
+  Package: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  PosX: 108.9591
+  PosY: -126.3996
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': A1
+  Package: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  PosX: 112.7691
+  PosY: -126.3996
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': A2
+  Package: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  PosX: 116.5791
+  PosY: -126.3996
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| A0 | nan | SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ | 108.9591 | -126.3996 | 90.0 | bottom | \n| A1 | nan | SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ | 112.7691 | -126.3996 | 90.0 | bottom | \n| A2 | nan | SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ | 116.5791 | -126.3996 | 90.0 | bottom | \n"
+position_top:
+- '# Ref': BLUE0
+  Package: '0207_10'
+  PosX: 182.4921
+  PosY: -81.6956
+  Rot: 0.0
+  Side: top
+  Val: '220'
+- '# Ref': DOWN0
+  Package: B3F-10XX
+  PosX: 177.4121
+  PosY: -129.7016
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': GREEN0
+  Package: '0207_10'
+  PosX: 169.7921
+  PosY: -81.6956
+  Rot: 180.0
+  Side: top
+  Val: '330'
+- '# Ref': IC1
+  Package: DIL28-3-ROUND
+  PosX: 124.9611
+  PosY: -126.3996
+  Rot: 180.0
+  Side: top
+  Val: MCP23017SP2
+- '# Ref': LEFT0
+  Package: B3F-10XX
+  PosX: 167.7601
+  PosY: -126.1456
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': RED0
+  Package: '0207_10'
+  PosX: 157.0921
+  PosY: -81.6956
+  Rot: 0.0
+  Side: top
+  Val: '220'
+- '# Ref': RIGHT0
+  Package: B3F-10XX
+  PosX: 186.5561
+  PosY: -126.3996
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': SELECT0
+  Package: B3F-10XX
+  PosX: 157.8541
+  PosY: -125.8916
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': TM1
+  Package: 6MM
+  PosX: 148.4561
+  PosY: -126.1456
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': U$1
+  Package: LCD1602-RGB
+  PosX: 148.5831
+  PosY: -101.3806
+  Rot: 0.0
+  Side: top
+  Val: HD44780LCD_RGBLONGPINS
+- '# Ref': U$2
+  Package: ADAFRUIT_5MM
+  PosX: 141.2171
+  PosY: -82.8386
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$4
+  Package: RASBERRYPI_SHIELD
+  PosX: 191.0011
+  PosY: -133.0036
+  Rot: 90.0
+  Side: top
+  Val: RASPBERRYPI_BB
+- '# Ref': UP0
+  Package: B3F-10XX
+  PosX: 177.4121
+  PosY: -123.0976
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| BLUE0 | 220 | 0207_10 | 182.4921 | -81.6956\
+  \ | 0.0 | top | \n| DOWN0 | nan | B3F-10XX | 177.4121 | -129.7016 | 0.0 | top |\
+  \ \n| GREEN0 | 330 | 0207_10 | 169.7921 | -81.6956 | 180.0 | top | \n| IC1 | MCP23017SP2\
+  \ | DIL28-3-ROUND | 124.9611 | -126.3996 | 180.0 | top | \n| LEFT0 | nan | B3F-10XX\
+  \ | 167.7601 | -126.1456 | -90.0 | top | \n| RED0 | 220 | 0207_10 | 157.0921 | -81.6956\
+  \ | 0.0 | top | \n| RIGHT0 | nan | B3F-10XX | 186.5561 | -126.3996 | 90.0 | top\
+  \ | \n| SELECT0 | nan | B3F-10XX | 157.8541 | -125.8916 | 0.0 | top | \n| TM1 |\
+  \ 10K | 6MM | 148.4561 | -126.1456 | 0.0 | top | \n| U$1 | HD44780LCD_RGBLONGPINS\
+  \ | LCD1602-RGB | 148.5831 | -101.3806 | 0.0 | top | \n| U$2 | nan | ADAFRUIT_5MM\
+  \ | 141.2171 | -82.8386 | 0.0 | top | \n| U$4 | RASPBERRYPI_BB | RASBERRYPI_SHIELD\
+  \ | 191.0011 | -133.0036 | 90.0 | top | \n| UP0 | nan | B3F-10XX | 177.4121 | -123.0976\
+  \ | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_16x2_lcd_pi_plate_adafruit_rgblcdplate/current_version/working
 repo:
   allow_forking: true

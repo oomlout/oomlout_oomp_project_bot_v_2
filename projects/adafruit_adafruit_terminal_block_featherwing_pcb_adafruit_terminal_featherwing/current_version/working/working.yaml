@@ -1,9 +1,395 @@
 board: adafruit_terminal_featherwing
+bom:
+- Id: '1'
+  Designator: X1,X4,X3,X2
+  Footprint: TERMBLOCK_1X2-3.5MM
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: X9,X8,X11,X10,X6,X7,X5,X12
+  Footprint: TERMBLOCK_1X3-3.5MM
+  Quantity: '8'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$7,U$8
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: S2
+  Footprint: OS102011MA1Q
+  Quantity: '1'
+  Designation: OS102011MA1Q
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: JP3
+  Footprint: 1X16_ROUND_76MIL
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: MS1
+  Footprint: FEATHERWING_DIM
+  Quantity: '1'
+  Designation: FEATHERWING_NODIM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U$3,U$5,U$4,U$2
+  Footprint: MOUNTINGHOLE_3.0_PLATEDTHIN
+  Quantity: '4'
+  Designation: MOUNTINGHOLE3.0THIN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: JP1
+  Footprint: 1X12_ROUND_76MIL
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U$6
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | X1,X4,X3,X2\
+  \ | TERMBLOCK_1X2-3.5MM | 4 |  |  |  | [''] | \n| 2 | X9,X8,X11,X10,X6,X7,X5,X12\
+  \ | TERMBLOCK_1X3-3.5MM | 8 |  |  |  | [''] | \n| 3 | U$7,U$8 | ADAFRUIT_3.5MM |\
+  \ 2 |  |  |  | [''] | \n| 4 | S2 | OS102011MA1Q | 1 | OS102011MA1Q |  |  | ['']\
+  \ | \n| 5 | JP3 | 1X16_ROUND_76MIL | 1 |  |  |  | [''] | \n| 6 | MS1 | FEATHERWING_DIM\
+  \ | 1 | FEATHERWING_NODIM |  |  | [''] | \n| 7 | U$3,U$5,U$4,U$2 | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | 4 | MOUNTINGHOLE3.0THIN |  |  | [''] | \n| 8 | JP1 | 1X12_ROUND_76MIL | 1 |\
+  \  |  |  | [''] | \n| 9 | U$6 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: HEADER-1X1276MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X12_ROUND_76MIL
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X1276MIL
+  Vendor: ''
+- Cmp name: HEADER-1X16_76MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X16_ROUND_76MIL
+  Qnty: '1'
+  Ref: JP3
+  Value: HEADER-1X16_76MIL
+  Vendor: ''
+- Cmp name: FEATHERWING_NODIM
+  DNP: ''
+  Description: ''
+  Footprint: working:FEATHERWING_DIM
+  Qnty: '1'
+  Ref: MS1
+  Value: FEATHERWING_NODIM
+  Vendor: ''
+- Cmp name: OS102011MA1Q
+  DNP: ''
+  Description: ''
+  Footprint: working:OS102011MA1Q
+  Qnty: '1'
+  Ref: S2
+  Value: OS102011MA1Q
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE3.0THIN
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_3.0_PLATEDTHIN
+  Qnty: '4'
+  Ref: U$2, U$3, U$4, U$5
+  Value: MOUNTINGHOLE3.0THIN
+  Vendor: ''
+- Cmp name: TERMBLOCK_1X2
+  DNP: ''
+  Description: ''
+  Footprint: working:TERMBLOCK_1X2-3.5MM
+  Qnty: '4'
+  Ref: X1, X2, X3, X4
+  Value: TERMBLOCK_1X2
+  Vendor: ''
+- Cmp name: TERMBLOCK_1X3
+  DNP: ''
+  Description: ''
+  Footprint: working:TERMBLOCK_1X3-3.5MM
+  Qnty: '8'
+  Ref: X5, X6, X7, X8, X9, X10, X11, X12
+  Value: TERMBLOCK_1X3
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| JP1 |\
+  \ 1 | HEADER-1X1276MIL | HEADER-1X1276MIL | working:1X12_ROUND_76MIL |  |  |  |\
+  \ \n| JP3 | 1 | HEADER-1X16_76MIL | HEADER-1X16_76MIL | working:1X16_ROUND_76MIL\
+  \ |  |  |  | \n| MS1 | 1 | FEATHERWING_NODIM | FEATHERWING_NODIM | working:FEATHERWING_DIM\
+  \ |  |  |  | \n| S2 | 1 | OS102011MA1Q | OS102011MA1Q | working:OS102011MA1Q | \
+  \ |  |  | \n| U$2, U$3, U$4, U$5 | 4 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE3.0THIN\
+  \ | working:MOUNTINGHOLE_3.0_PLATEDTHIN |  |  |  | \n| X1, X2, X3, X4 | 4 | TERMBLOCK_1X2\
+  \ | TERMBLOCK_1X2 | working:TERMBLOCK_1X2-3.5MM |  |  |  | \n| X5, X6, X7, X8, X9,\
+  \ X10, X11, X12 | 8 | TERMBLOCK_1X3 | TERMBLOCK_1X3 | working:TERMBLOCK_1X3-3.5MM\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_terminal_block_featherwing_pcb_adafruit_terminal_featherwing/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_terminal_block_featherwing_pcb_adafruit_terminal_featherwing/current_version/working/working.sch
 id: adafruit_adafruit_terminal_block_featherwing_pcb_adafruit_terminal_featherwing
+mounting_holes:
+- package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  ref: U$2
+  size: m3
+  value: MOUNTINGHOLE3.0THIN
+  x: '0.0'
+  y: '20.320000000000007'
+- package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  ref: U$3
+  size: m3
+  value: MOUNTINGHOLE3.0THIN
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  ref: U$4
+  size: m3
+  value: MOUNTINGHOLE3.0THIN
+  x: '58.41999999999999'
+  y: '0.0'
+- package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  ref: U$5
+  size: m3
+  value: MOUNTINGHOLE3.0THIN
+  x: '58.41999999999999'
+  y: '20.320000000000007'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 20.320000000000007 | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | MOUNTINGHOLE3.0THIN | U$2 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | MOUNTINGHOLE3.0THIN | U$3 | m3 | \n| 58.41999999999999 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | MOUNTINGHOLE3.0THIN | U$4 | m3 | \n| 58.41999999999999 | 20.320000000000007\
+  \ | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$5 | m3 | \n"
 name: adafruit_terminal_block_featherwing_pcb
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': JP1
+  Package: 1X12_ROUND_76MIL
+  PosX: 153.5811
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP3
+  Package: 1X16_ROUND_76MIL
+  PosX: 148.5011
+  PosY: -112.6236
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': MS1
+  Package: FEATHERWING_DIM
+  PosX: 123.1011
+  PosY: -116.4336
+  Rot: 0.0
+  Side: top
+  Val: FEATHERWING_NODIM
+- '# Ref': S2
+  Package: OS102011MA1Q
+  PosX: 178.2191
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: OS102011MA1Q
+- '# Ref': U$2
+  Package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  PosX: 119.2911
+  PosY: -94.8436
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE3.0THIN
+- '# Ref': U$3
+  Package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  PosX: 119.2911
+  PosY: -115.1636
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE3.0THIN
+- '# Ref': U$4
+  Package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  PosX: 177.7111
+  PosY: -115.1636
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE3.0THIN
+- '# Ref': U$5
+  Package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  PosX: 177.7111
+  PosY: -94.8436
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE3.0THIN
+- '# Ref': U$6
+  Package: PCBFEAT-REV-040
+  PosX: 177.7111
+  PosY: -118.9736
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': U$7
+  Package: ADAFRUIT_3.5MM
+  PosX: 117.0051
+  PosY: -125.3236
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': U$8
+  Package: ADAFRUIT_3.5MM
+  PosX: 117.2591
+  PosY: -84.4296
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': X1
+  Package: TERMBLOCK_1X2-3.5MM
+  PosX: 123.8351
+  PosY: -122.6996
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': X2
+  Package: TERMBLOCK_1X2-3.5MM
+  PosX: 172.8351
+  PosY: -122.6996
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': X3
+  Package: TERMBLOCK_1X2-3.5MM
+  PosX: 124.0611
+  PosY: -87.1636
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': X4
+  Package: TERMBLOCK_1X2-3.5MM
+  PosX: 173.0611
+  PosY: -87.1636
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': X5
+  Package: TERMBLOCK_1X3-3.5MM
+  PosX: 132.5851
+  PosY: -122.6996
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': X6
+  Package: TERMBLOCK_1X3-3.5MM
+  PosX: 143.0851
+  PosY: -122.6996
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': X7
+  Package: TERMBLOCK_1X3-3.5MM
+  PosX: 153.5851
+  PosY: -122.6996
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': X8
+  Package: TERMBLOCK_1X3-3.5MM
+  PosX: 164.0851
+  PosY: -122.6996
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': X9
+  Package: TERMBLOCK_1X3-3.5MM
+  PosX: 132.8111
+  PosY: -87.1636
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': X10
+  Package: TERMBLOCK_1X3-3.5MM
+  PosX: 143.3111
+  PosY: -87.1636
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': X11
+  Package: TERMBLOCK_1X3-3.5MM
+  PosX: 153.8111
+  PosY: -87.1636
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': X12
+  Package: TERMBLOCK_1X3-3.5MM
+  PosX: 164.3111
+  PosY: -87.1636
+  Rot: 180.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| JP1 | nan | 1X12_ROUND_76MIL | 153.5811\
+  \ | -97.3836 | 0.0 | top | \n| JP3 | nan | 1X16_ROUND_76MIL | 148.5011 | -112.6236\
+  \ | 180.0 | top | \n| MS1 | FEATHERWING_NODIM | FEATHERWING_DIM | 123.1011 | -116.4336\
+  \ | 0.0 | top | \n| S2 | OS102011MA1Q | OS102011MA1Q | 178.2191 | -105.0036 | 90.0\
+  \ | top | \n| U$2 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN | 119.2911\
+  \ | -94.8436 | 0.0 | top | \n| U$3 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | 119.2911 | -115.1636 | 0.0 | top | \n| U$4 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | 177.7111 | -115.1636 | 0.0 | top | \n| U$5 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | 177.7111 | -94.8436 | 0.0 | top | \n| U$6 | nan | PCBFEAT-REV-040 | 177.7111\
+  \ | -118.9736 | 90.0 | top | \n| U$7 | nan | ADAFRUIT_3.5MM | 117.0051 | -125.3236\
+  \ | -90.0 | top | \n| U$8 | nan | ADAFRUIT_3.5MM | 117.2591 | -84.4296 | 0.0 | top\
+  \ | \n| X1 | nan | TERMBLOCK_1X2-3.5MM | 123.8351 | -122.6996 | 0.0 | top | \n|\
+  \ X2 | nan | TERMBLOCK_1X2-3.5MM | 172.8351 | -122.6996 | 0.0 | top | \n| X3 | nan\
+  \ | TERMBLOCK_1X2-3.5MM | 124.0611 | -87.1636 | 180.0 | top | \n| X4 | nan | TERMBLOCK_1X2-3.5MM\
+  \ | 173.0611 | -87.1636 | 180.0 | top | \n| X5 | nan | TERMBLOCK_1X3-3.5MM | 132.5851\
+  \ | -122.6996 | 0.0 | top | \n| X6 | nan | TERMBLOCK_1X3-3.5MM | 143.0851 | -122.6996\
+  \ | 0.0 | top | \n| X7 | nan | TERMBLOCK_1X3-3.5MM | 153.5851 | -122.6996 | 0.0\
+  \ | top | \n| X8 | nan | TERMBLOCK_1X3-3.5MM | 164.0851 | -122.6996 | 0.0 | top\
+  \ | \n| X9 | nan | TERMBLOCK_1X3-3.5MM | 132.8111 | -87.1636 | 180.0 | top | \n\
+  | X10 | nan | TERMBLOCK_1X3-3.5MM | 143.3111 | -87.1636 | 180.0 | top | \n| X11\
+  \ | nan | TERMBLOCK_1X3-3.5MM | 153.8111 | -87.1636 | 180.0 | top | \n| X12 | nan\
+  \ | TERMBLOCK_1X3-3.5MM | 164.3111 | -87.1636 | 180.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_terminal_block_featherwing_pcb_adafruit_terminal_featherwing/current_version/working
 repo:
   allow_forking: true

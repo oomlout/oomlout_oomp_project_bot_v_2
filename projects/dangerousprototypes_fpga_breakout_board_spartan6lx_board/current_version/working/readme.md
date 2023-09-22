@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/DangerousPrototypes/FPGA-Breakout-Board/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/dangerousprototypes_fpga_breakout_board_spartan6lx_board/current_version/working  
 
 
 

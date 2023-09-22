@@ -12,6 +12,7 @@
 
 * src_file_repo_sch: KiCAD/8Bit_EuroRack.sch
 * src_file_repo_sch_link: https://github.com/8BitMixtape/8Bit_EuroRack-7hp/tree/master/KiCAD/8Bit_EuroRack.sch
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/8bitmixtape_8bit_eurorack_7hp_8bit_eurorack_7hp/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

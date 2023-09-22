@@ -1,0 +1,57 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 06d94e45-1e41-43cb-a20d-f4e29162c685)
+
+  (paper "A4")
+
+  (title_block
+    (title "uPythonFeatherLora")
+    (date "2018-12-30")
+    (rev "v0.1a")
+    (company "Gregory S Davill")
+    (comment 3 "Featuring a LoRa tranciever")
+    (comment 4 "Feather form factor uPython compatible")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 109.22 68.58) (size 63.5 53.34) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005c28264e)
+    (property "Sheetname" "MCU" (at 109.22 67.7414 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Sheetfile" "../../../../tmp/uPythonFeatherLora/hardware/v0.1a/MCU.sch" (at 109.22 122.6062 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "uPythonFeatherLora"
+        (path "/06d94e45-1e41-43cb-a20d-f4e29162c685" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 40.64 68.58) (size 50.8 53.34) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005c282a27)
+    (property "Sheetname" "Power" (at 40.64 67.7414 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Sheetfile" "../../../../tmp/uPythonFeatherLora/hardware/v0.1a/Power.sch" (at 40.64 122.6062 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "uPythonFeatherLora"
+        (path "/06d94e45-1e41-43cb-a20d-f4e29162c685" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

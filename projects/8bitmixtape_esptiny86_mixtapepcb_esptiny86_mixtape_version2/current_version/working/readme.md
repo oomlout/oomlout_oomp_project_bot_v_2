@@ -12,6 +12,7 @@
 
 * src_file_repo_sch: KiCAD/ESPTINY86_Mixtape_version2.sch
 * src_file_repo_sch_link: https://github.com/8BitMixtape/ESPTINY86_MixtapePCB/tree/master/KiCAD/ESPTINY86_Mixtape_version2.sch
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/8bitmixtape_esptiny86_mixtapepcb_esptiny86_mixtape_version2/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

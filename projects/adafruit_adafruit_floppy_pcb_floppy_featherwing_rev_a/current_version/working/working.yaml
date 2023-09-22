@@ -1,9 +1,185 @@
 board: floppy_featherwing_rev_a
+bom:
+- Id: '1'
+  Designator: FDD1
+  Footprint: 2X17_FLOPPY_IDC
+  Quantity: '1'
+  Designation: FLOPPY_IDC_SHROUDED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: MS1
+  Footprint: FEATHERWING
+  Quantity: '1'
+  Designation: FEATHERWING
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: JP1
+  Footprint: 1X12_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: X1
+  Footprint: TERMBLOCK_1X2-3.5MM
+  Quantity: '1'
+  Designation: 3.5mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R1
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 2.2K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: JP3
+  Footprint: 1X16_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | FDD1\
+  \ | 2X17_FLOPPY_IDC | 1 | FLOPPY_IDC_SHROUDED |  |  | [''] | \n| 2 | MS1 | FEATHERWING\
+  \ | 1 | FEATHERWING |  |  | [''] | \n| 3 | JP1 | 1X12_ROUND | 1 |  |  |  | ['']\
+  \ | \n| 4 | X1 | TERMBLOCK_1X2-3.5MM | 1 | 3.5mm |  |  | [''] | \n| 5 | R1 | 0805-NO\
+  \ | 1 | 2.2K |  |  | [''] | \n| 6 | JP3 | 1X16_ROUND | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: FLOPPY_IDC_SHROUDED
+  DNP: ''
+  Description: ''
+  Footprint: working:2X17_FLOPPY_IDC
+  Qnty: '1'
+  Ref: FDD1
+  Value: FLOPPY_IDC_SHROUDED
+  Vendor: ''
+- Cmp name: HEADER-1X12
+  DNP: ''
+  Description: ''
+  Footprint: working:1X12_ROUND
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X12
+  Vendor: ''
+- Cmp name: HEADER-1X16ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X16_ROUND
+  Qnty: '1'
+  Ref: JP3
+  Value: HEADER-1X16ROUND
+  Vendor: ''
+- Cmp name: FEATHERWING
+  DNP: ''
+  Description: ''
+  Footprint: working:FEATHERWING
+  Qnty: '1'
+  Ref: MS1
+  Value: FEATHERWING
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: R1
+  Value: 2.2K
+  Vendor: ''
+- Cmp name: TERMBLOCK_1X2_3.5MM
+  DNP: ''
+  Description: ''
+  Footprint: working:TERMBLOCK_1X2-3.5MM
+  Qnty: '1'
+  Ref: X1
+  Value: 3.5mm
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| FDD1\
+  \ | 1 | FLOPPY_IDC_SHROUDED | FLOPPY_IDC_SHROUDED | working:2X17_FLOPPY_IDC |  |\
+  \  |  | \n| JP1 | 1 | HEADER-1X12 | HEADER-1X12 | working:1X12_ROUND |  |  |  |\
+  \ \n| JP3 | 1 | HEADER-1X16ROUND | HEADER-1X16ROUND | working:1X16_ROUND |  |  |\
+  \  | \n| MS1 | 1 | FEATHERWING | FEATHERWING | working:FEATHERWING |  |  |  | \n\
+  | R1 | 1 | 2.2K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | \n| X1 | 1\
+  \ | 3.5mm | TERMBLOCK_1X2_3.5MM | working:TERMBLOCK_1X2-3.5MM |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_floppy_pcb_floppy_featherwing_rev_a/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_floppy_pcb_floppy_featherwing_rev_a/current_version/working/working.sch
 id: adafruit_adafruit_floppy_pcb_floppy_featherwing_rev_a
 name: adafruit_floppy_pcb
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': FDD1
+  Package: 2X17_FLOPPY_IDC
+  PosX: 148.5011
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: FLOPPY_IDC_SHROUDED
+- '# Ref': JP1
+  Package: 1X12_ROUND
+  PosX: 153.5811
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP3
+  Package: 1X16_ROUND
+  PosX: 148.5011
+  PosY: -112.6236
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': MS1
+  Package: FEATHERWING
+  PosX: 123.1011
+  PosY: -116.4336
+  Rot: 0.0
+  Side: top
+  Val: FEATHERWING
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 163.1061
+  PosY: -110.4646
+  Rot: 180.0
+  Side: top
+  Val: 2.2K
+- '# Ref': X1
+  Package: TERMBLOCK_1X2-3.5MM
+  PosX: 132.8801
+  PosY: -96.7486
+  Rot: 180.0
+  Side: top
+  Val: 3.5mm
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| FDD1 | FLOPPY_IDC_SHROUDED | 2X17_FLOPPY_IDC\
+  \ | 148.5011 | -105.0036 | 90.0 | top | \n| JP1 | nan | 1X12_ROUND | 153.5811 |\
+  \ -97.3836 | 0.0 | top | \n| JP3 | nan | 1X16_ROUND | 148.5011 | -112.6236 | 180.0\
+  \ | top | \n| MS1 | FEATHERWING | FEATHERWING | 123.1011 | -116.4336 | 0.0 | top\
+  \ | \n| R1 | 2.2K | 0805-NO | 163.1061 | -110.4646 | 180.0 | top | \n| X1 | 3.5mm\
+  \ | TERMBLOCK_1X2-3.5MM | 132.8801 | -96.7486 | 180.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_floppy_pcb_floppy_featherwing_rev_a/current_version/working
 repo:
   allow_forking: true

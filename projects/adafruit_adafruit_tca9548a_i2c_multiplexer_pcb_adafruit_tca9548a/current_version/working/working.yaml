@@ -1,9 +1,319 @@
 board: adafruit_tca9548a
+bom:
+- Id: '1'
+  Designator: R6
+  Footprint: _0805MP
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R1,R2,R4,R5,R3
+  Footprint: 0805-NO
+  Quantity: '5'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: JP1,JP3
+  Footprint: 1X12_ROUND
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U1
+  Footprint: TSSOP24
+  Quantity: '1'
+  Designation: ' TCA9548APWR'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$5,U$4
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: FID1,FID3
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C1
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: A1,A2,A0
+  Footprint: SOLDERJUMPER_ARROW_NOPASTE
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: SCLPU0,SDAPU0
+  Footprint: SOLDERJUMPER_CLOSEDWIRE
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U$6
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U$7
+  Footprint: ADAFRUIT_TEXT_20MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R6\
+  \ | _0805MP | 1 | 10K |  |  | [''] | \n| 2 | R1,R2,R4,R5,R3 | 0805-NO | 5 | 10K\
+  \ |  |  | [''] | \n| 3 | JP1,JP3 | 1X12_ROUND | 2 |  |  |  | [''] | \n| 4 | U1 |\
+  \ TSSOP24 | 1 |  TCA9548APWR |  |  | [''] | \n| 5 | U$5,U$4 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 2 | MOUNTINGHOLE2.5 |  |  | [''] | \n| 6 | FID1,FID3 | FIDUCIAL_1MM | 2 | FIDUCIAL\"\
+  \ |  |  | [''] | \n| 7 | C1 | 0805-NO | 1 | 10uF |  |  | [''] | \n| 8 | A1,A2,A0\
+  \ | SOLDERJUMPER_ARROW_NOPASTE | 3 |  |  |  | [''] | \n| 9 | SCLPU0,SDAPU0 | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 2 |  |  |  | [''] | \n| 10 | U$6 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n\
+  | 11 | U$7 | ADAFRUIT_TEXT_20MM | 1 |  |  |  | [''] | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_tca9548a_i2c_multiplexer_pcb_adafruit_tca9548a/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_tca9548a_i2c_multiplexer_pcb_adafruit_tca9548a/current_version/working/working.sch
 id: adafruit_adafruit_tca9548a_i2c_multiplexer_pcb_adafruit_tca9548a
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$4
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$5
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '25.39999999999999'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$4 | m3 | \n| 0.0 | 25.39999999999999 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$5 | m3 | \n"
 name: adafruit_tca9548a_i2c_multiplexer_pcb
+position_bottom:
+- '# Ref': A0
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 143.5481
+  PosY: -103.7336
+  Rot: 0.0
+  Side: bottom
+  Val: .nan
+- '# Ref': A1
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 143.5481
+  PosY: -106.2736
+  Rot: 0.0
+  Side: bottom
+  Val: .nan
+- '# Ref': A2
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 143.5481
+  PosY: -108.8136
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SCLPU0
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 143.6751
+  PosY: -98.6536
+  Rot: 0.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SDAPU0
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 143.6751
+  PosY: -96.1136
+  Rot: 0.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$6
+  Package: PCBFEAT-REV-040
+  PosX: 143.8021
+  PosY: -93.0656
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$7
+  Package: ADAFRUIT_TEXT_20MM
+  PosX: 154.4701
+  PosY: -100.0506
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| A0 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 143.5481 | -103.7336 | 0.0 | bottom | \n| A1 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 143.5481 | -106.2736 | 0.0 | bottom | \n| A2 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 143.5481 | -108.8136 | 180.0 | bottom | \n| SCLPU0 | nan | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 143.6751 | -98.6536 | 0.0 | bottom | \n| SDAPU0 | nan | SOLDERJUMPER_CLOSEDWIRE\
+  \ | 143.6751 | -96.1136 | 0.0 | bottom | \n| U$6 | nan | PCBFEAT-REV-040 | 143.8021\
+  \ | -93.0656 | 180.0 | bottom | \n| U$7 | nan | ADAFRUIT_TEXT_20MM | 154.4701 |\
+  \ -100.0506 | -90.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 147.4851
+  PosY: -98.3996
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 145.4531
+  PosY: -90.7796
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 151.8031
+  PosY: -117.7036
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': JP1
+  Package: 1X12_ROUND
+  PosX: 156.1211
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP3
+  Package: 1X12_ROUND
+  PosX: 140.8811
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 151.4221
+  PosY: -98.3996
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: 0805-NO
+  PosX: 149.3901
+  PosY: -98.3996
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: 0805-NO
+  PosX: 150.4061
+  PosY: -109.9566
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R4
+  Package: 0805-NO
+  PosX: 148.3741
+  PosY: -109.9566
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R5
+  Package: 0805-NO
+  PosX: 146.4691
+  PosY: -109.9566
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R6
+  Package: _0805MP
+  PosX: 145.4531
+  PosY: -98.3996
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': U$4
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 148.5011
+  PosY: -117.7036
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$5
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 148.5011
+  PosY: -92.3036
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U1
+  Package: TSSOP24
+  PosX: 148.5011
+  PosY: -104.2416
+  Rot: -90.0
+  Side: top
+  Val: _TCA9548APWR
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 10uF | 0805-NO | 147.4851 | -98.3996\
+  \ | -90.0 | top | \n| FID1 | FIDUCIAL\"\" | FIDUCIAL_1MM | 145.4531 | -90.7796 |\
+  \ 0.0 | top | \n| FID3 | FIDUCIAL\"\" | FIDUCIAL_1MM | 151.8031 | -117.7036 | 0.0\
+  \ | top | \n| JP1 | nan | 1X12_ROUND | 156.1211 | -105.0036 | 90.0 | top | \n| JP3\
+  \ | nan | 1X12_ROUND | 140.8811 | -105.0036 | -90.0 | top | \n| R1 | 10K | 0805-NO\
+  \ | 151.4221 | -98.3996 | -90.0 | top | \n| R2 | 10K | 0805-NO | 149.3901 | -98.3996\
+  \ | 90.0 | top | \n| R3 | 10K | 0805-NO | 150.4061 | -109.9566 | -90.0 | top | \n\
+  | R4 | 10K | 0805-NO | 148.3741 | -109.9566 | 90.0 | top | \n| R5 | 10K | 0805-NO\
+  \ | 146.4691 | -109.9566 | 90.0 | top | \n| R6 | 10K | _0805MP | 145.4531 | -98.3996\
+  \ | 90.0 | top | \n| U$4 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 148.5011\
+  \ | -117.7036 | 0.0 | top | \n| U$5 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 148.5011 | -92.3036 | 0.0 | top | \n| U1 | _TCA9548APWR | TSSOP24 | 148.5011\
+  \ | -104.2416 | -90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_tca9548a_i2c_multiplexer_pcb_adafruit_tca9548a/current_version/working
 repo:
   allow_forking: true

@@ -1,9 +1,202 @@
 board: adafruit_dragontail
+bom:
+- Id: '1'
+  Designator: JP1,JP2
+  Footprint: 1X11_ROUND_76
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: JP4
+  Footprint: 1X02_OVAL
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$6
+  Footprint: TBREADBIT_TOP
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$10,U$9
+  Footprint: MOUNTINGHOLE_2.0_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.0
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: MB1
+  Footprint: 2X20_CARDEDGE_RA
+  Quantity: '1'
+  Designation: MICRO:BIT_RA
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U$3
+  Footprint: TBREADBIT_BOT
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | JP1,JP2\
+  \ | 1X11_ROUND_76 | 2 |  |  |  | [''] | \n| 2 | JP4 | 1X02_OVAL | 1 |  |  |  | ['']\
+  \ | \n| 3 | U$6 | TBREADBIT_TOP | 1 |  |  |  | [''] | \n| 4 | U$10,U$9 | MOUNTINGHOLE_2.0_PLATED\
+  \ | 2 | MOUNTINGHOLE2.0 |  |  | [''] | \n| 5 | MB1 | 2X20_CARDEDGE_RA | 1 | MICRO:BIT_RA\
+  \ |  |  | [''] | \n| 6 | U$3 | TBREADBIT_BOT | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: HEADER-1X1176MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X11_ROUND_76
+  Qnty: '2'
+  Ref: JP1, JP2
+  Value: HEADER-1X1176MIL
+  Vendor: ''
+- Cmp name: HEADER-1X2
+  DNP: ''
+  Description: ''
+  Footprint: working:1X02_OVAL
+  Qnty: '1'
+  Ref: JP4
+  Value: HEADER-1X2
+  Vendor: ''
+- Cmp name: MICRO{colon}BIT_RA
+  DNP: ''
+  Description: ''
+  Footprint: working:2X20_CARDEDGE_RA
+  Qnty: '1'
+  Ref: MB1
+  Value: MICRO:BIT_RA
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.0
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.0_PLATED
+  Qnty: '2'
+  Ref: U$9, U$10
+  Value: MOUNTINGHOLE2.0
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| JP1,\
+  \ JP2 | 2 | HEADER-1X1176MIL | HEADER-1X1176MIL | working:1X11_ROUND_76 |  |  |\
+  \  | \n| JP4 | 1 | HEADER-1X2 | HEADER-1X2 | working:1X02_OVAL |  |  |  | \n| MB1\
+  \ | 1 | MICRO:BIT_RA | MICRO{colon}BIT_RA | working:2X20_CARDEDGE_RA |  |  |  |\
+  \ \n| U$9, U$10 | 2 | MOUNTINGHOLE2.0 | MOUNTINGHOLE2.0 | working:MOUNTINGHOLE_2.0_PLATED\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_dragontail_for_micro_bit_pcb_adafruit_dragontail/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_dragontail_for_micro_bit_pcb_adafruit_dragontail/current_version/working/working.sch
 id: adafruit_adafruit_dragontail_for_micro_bit_pcb_adafruit_dragontail
+mounting_holes:
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$9
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '52.83200000000001'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$10
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '0.0'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 52.83200000000001 | 0.0 | MOUNTINGHOLE_2.0_PLATED\
+  \ | MOUNTINGHOLE2.0 | U$9 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0\
+  \ | U$10 | m3 | \n"
 name: adafruit_dragontail_for_micro_bit_pcb
+position_bottom:
+- '# Ref': U$3
+  Package: TBREADBIT_BOT
+  PosX: 176.9491
+  PosY: -131.8006
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$3 | nan | TBREADBIT_BOT | 176.9491\
+  \ | -131.8006 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': JP1
+  Package: 1X11_ROUND_76
+  PosX: 144.6911
+  PosY: -117.5766
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X11_ROUND_76
+  PosX: 152.3111
+  PosY: -117.5766
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP4
+  Package: 1X02_OVAL
+  PosX: 126.2761
+  PosY: -106.1466
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': MB1
+  Package: 2X20_CARDEDGE_RA
+  PosX: 148.5011
+  PosY: -92.1766
+  Rot: 0.0
+  Side: top
+  Val: MICRO:BIT_RA
+- '# Ref': U$6
+  Package: TBREADBIT_TOP
+  PosX: 120.0531
+  PosY: -131.8006
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$9
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 174.9171
+  PosY: -102.9716
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U$10
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 122.0851
+  PosY: -102.9716
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| JP1 | nan | 1X11_ROUND_76 | 144.6911\
+  \ | -117.5766 | -90.0 | top | \n| JP2 | nan | 1X11_ROUND_76 | 152.3111 | -117.5766\
+  \ | -90.0 | top | \n| JP4 | nan | 1X02_OVAL | 126.2761 | -106.1466 | 0.0 | top |\
+  \ \n| MB1 | MICRO:BIT_RA | 2X20_CARDEDGE_RA | 148.5011 | -92.1766 | 0.0 | top |\
+  \ \n| U$6 | nan | TBREADBIT_TOP | 120.0531 | -131.8006 | 0.0 | top | \n| U$9 | MOUNTINGHOLE2.0\
+  \ | MOUNTINGHOLE_2.0_PLATED | 174.9171 | -102.9716 | 0.0 | top | \n| U$10 | MOUNTINGHOLE2.0\
+  \ | MOUNTINGHOLE_2.0_PLATED | 122.0851 | -102.9716 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_dragontail_for_micro_bit_pcb_adafruit_dragontail/current_version/working
 repo:
   allow_forking: true

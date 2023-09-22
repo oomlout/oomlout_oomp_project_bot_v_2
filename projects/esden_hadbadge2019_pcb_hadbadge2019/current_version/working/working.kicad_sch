@@ -1,0 +1,75 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 1288eaea-9019-41f1-be73-a0faa01463b1)
+
+  (paper "A4")
+
+  (title_block
+    (title "Hackaday Badge 2019")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "Note: These are the schematics for the PRODUCTION version (black silkscreen)."
+    (at 50.8 29.21 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b8dc82df-10c2-4edb-864f-1fe88d3cc167)
+  )
+
+  (sheet (at 62.23 38.1) (size 24.13 16.51) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005c5e8849)
+    (property "Sheetname" "FPGA" (at 62.23 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "../../../../tmp/hadbadge2019_pcb/FPGA.sch" (at 62.23 55.1946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "hadbadge2019"
+        (path "/1288eaea-9019-41f1-be73-a0faa01463b1" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 99.06 39.37) (size 24.13 13.97) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005c5eee37)
+    (property "Sheetname" "Power" (at 99.06 38.6584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "../../../../tmp/hadbadge2019_pcb/power.sch" (at 99.06 53.9246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "hadbadge2019"
+        (path "/1288eaea-9019-41f1-be73-a0faa01463b1" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 62.23 62.23) (size 24.13 15.24) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005c6427b1)
+    (property "Sheetname" "Outputs" (at 62.23 61.5184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "../../../../tmp/hadbadge2019_pcb/outputs.sch" (at 62.23 78.0546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "hadbadge2019"
+        (path "/1288eaea-9019-41f1-be73-a0faa01463b1" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

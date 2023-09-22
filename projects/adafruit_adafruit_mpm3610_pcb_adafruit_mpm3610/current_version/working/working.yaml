@@ -1,9 +1,276 @@
 board: adafruit_mpm3610
+bom:
+- Id: '1'
+  Designator: R2,R1
+  Footprint: 0603-NO
+  Quantity: '2'
+  Designation: 75K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$11
+  Footprint: ADAFRUIT_2.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$9
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '1'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: JP1
+  Footprint: 1X04_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '1'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: IC1
+  Footprint: MPM3610
+  Quantity: '1'
+  Designation: MPM3610
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R3
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 24K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C2,C1
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 22uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U$10
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R2,R1\
+  \ | 0603-NO | 2 | 75K |  |  | [''] | \n| 2 | U$11 | ADAFRUIT_2.5MM | 1 |  |  | \
+  \ | [''] | \n| 3 | U$9 | MOUNTINGHOLE_2.5_PLATED | 1 | MOUNTINGHOLE2.5 |  |  | ['']\
+  \ | \n| 4 | JP1 | 1X04_ROUND | 1 |  |  |  | [''] | \n| 5 | FID1 | FIDUCIAL_1MM |\
+  \ 1 | FIDUCIAL_1MM |  |  | [''] | \n| 6 | IC1 | MPM3610 | 1 | MPM3610 |  |  | ['']\
+  \ | \n| 7 | R3 | 0603-NO | 1 | 24K |  |  | [''] | \n| 8 | C2,C1 | 0805-NO | 2 |\
+  \ 22uF |  |  | [''] | \n| 9 | U$10 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C1, C2
+  Value: 22uF
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '1'
+  Ref: FID1
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: MPM3610
+  DNP: ''
+  Description: ''
+  Footprint: working:MPM3610
+  Qnty: '1'
+  Ref: IC1
+  Value: MPM3610
+  Vendor: ''
+- Cmp name: HEADER-1X4ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X04_ROUND
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X4ROUND
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 75K
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R3
+  Value: 24K
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '1'
+  Ref: U$9
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2\
+  \ | 2 | 22uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| FID1 |\
+  \ 1 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| IC1 | 1\
+  \ | MPM3610 | MPM3610 | working:MPM3610 |  |  |  | \n| JP1 | 1 | HEADER-1X4ROUND\
+  \ | HEADER-1X4ROUND | working:1X04_ROUND |  |  |  | \n| R1, R2 | 2 | 75K | RESISTOR_0603_NOOUT\
+  \ | working:0603-NO |  |  |  | \n| R3 | 1 | 24K | RESISTOR_0603_NOOUT | working:0603-NO\
+  \ |  |  |  | \n| U$9 | 1 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_mpm3610_pcb_adafruit_mpm3610/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_mpm3610_pcb_adafruit_mpm3610/current_version/working/working.sch
 id: adafruit_adafruit_mpm3610_pcb_adafruit_mpm3610
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$9
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$9 | m3 | \n"
 name: adafruit_mpm3610_pcb
+position_bottom:
+- '# Ref': U$10
+  Package: PCBFEAT-REV-040
+  PosX: 145.1991
+  PosY: -98.9711
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$10 | nan | PCBFEAT-REV-040 | 145.1991\
+  \ | -98.9711 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 146.8501
+  PosY: -108.7501
+  Rot: 0.0
+  Side: top
+  Val: 22uF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 150.6601
+  PosY: -107.2261
+  Rot: -90.0
+  Side: top
+  Val: 22uF
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 145.1991
+  PosY: -97.9551
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': IC1
+  Package: MPM3610
+  PosX: 146.8501
+  PosY: -105.9561
+  Rot: -90.0
+  Side: top
+  Val: MPM3610
+- '# Ref': JP1
+  Package: 1X04_ROUND
+  PosX: 148.5011
+  PosY: -111.0361
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 151.2951
+  PosY: -104.8131
+  Rot: 180.0
+  Side: top
+  Val: 75K
+- '# Ref': R2
+  Package: 0603-NO
+  PosX: 150.2791
+  PosY: -102.7811
+  Rot: 180.0
+  Side: top
+  Val: 75K
+- '# Ref': R3
+  Package: 0603-NO
+  PosX: 147.2311
+  PosY: -102.7811
+  Rot: 180.0
+  Side: top
+  Val: 24K
+- '# Ref': U$9
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 148.5011
+  PosY: -98.9711
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$11
+  Package: ADAFRUIT_2.5MM
+  PosX: 146.2151
+  PosY: -102.2731
+  Rot: 90.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 22uF | 0805-NO | 146.8501 | -108.7501\
+  \ | 0.0 | top | \n| C2 | 22uF | 0805-NO | 150.6601 | -107.2261 | -90.0 | top | \n\
+  | FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM | 145.1991 | -97.9551 | 0.0 | top | \n| IC1\
+  \ | MPM3610 | MPM3610 | 146.8501 | -105.9561 | -90.0 | top | \n| JP1 | nan | 1X04_ROUND\
+  \ | 148.5011 | -111.0361 | 180.0 | top | \n| R1 | 75K | 0603-NO | 151.2951 | -104.8131\
+  \ | 180.0 | top | \n| R2 | 75K | 0603-NO | 150.2791 | -102.7811 | 180.0 | top |\
+  \ \n| R3 | 24K | 0603-NO | 147.2311 | -102.7811 | 180.0 | top | \n| U$9 | MOUNTINGHOLE2.5\
+  \ | MOUNTINGHOLE_2.5_PLATED | 148.5011 | -98.9711 | 0.0 | top | \n| U$11 | nan |\
+  \ ADAFRUIT_2.5MM | 146.2151 | -102.2731 | 90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_mpm3610_pcb_adafruit_mpm3610/current_version/working
 repo:
   allow_forking: true

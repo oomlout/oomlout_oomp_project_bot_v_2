@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit-BMP3xx-PCB/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_bmp3xx_pcb_adafruit_bmp388_qt/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

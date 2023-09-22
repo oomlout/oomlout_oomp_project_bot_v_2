@@ -1,9 +1,258 @@
 board: adafruit_mini_analog_thumbstick
+bom:
+- Id: '1'
+  Designator: U$13
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$5,U$6,U$1,U$4
+  Footprint: MOUNTINGHOLE_2.0_PLATED
+  Quantity: '4'
+  Designation: MOUNTINGHOLE2.0
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$11,U$12
+  Footprint: SYMBOL_MINUS
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: JOY1
+  Footprint: JOYSTICK_ANALOG_MINITHM
+  Quantity: '1'
+  Designation: JOYSTICK_ANALOG_XY
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$10,U$9
+  Footprint: SYMBOL_PLUS
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: JP1,JP2
+  Footprint: 1X04_ROUND_76
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U$8
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U$13\
+  \ | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n| 2 | U$5,U$6,U$1,U$4 | MOUNTINGHOLE_2.0_PLATED\
+  \ | 4 | MOUNTINGHOLE2.0 |  |  | [''] | \n| 3 | U$11,U$12 | SYMBOL_MINUS | 2 |  |\
+  \  |  | [''] | \n| 4 | JOY1 | JOYSTICK_ANALOG_MINITHM | 1 | JOYSTICK_ANALOG_XY |\
+  \  |  | [''] | \n| 5 | U$10,U$9 | SYMBOL_PLUS | 2 |  |  |  | [''] | \n| 6 | JP1,JP2\
+  \ | 1X04_ROUND_76 | 2 |  |  |  | [''] | \n| 7 | U$8 | ADAFRUIT_3.5MM | 1 |  |  |\
+  \  | [''] | \n"
+bom_schematic:
+- Cmp name: JOYSTICK_ANALOG_XY
+  DNP: ''
+  Description: ''
+  Footprint: working:JOYSTICK_ANALOG_MINITHM
+  Qnty: '1'
+  Ref: JOY1
+  Value: JOYSTICK_ANALOG_XY
+  Vendor: ''
+- Cmp name: HEADER-1X476MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X04_ROUND_76
+  Qnty: '2'
+  Ref: JP1, JP2
+  Value: HEADER-1X476MIL
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.0
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.0_PLATED
+  Qnty: '4'
+  Ref: U$1, U$4, U$5, U$6
+  Value: MOUNTINGHOLE2.0
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| JOY1\
+  \ | 1 | JOYSTICK_ANALOG_XY | JOYSTICK_ANALOG_XY | working:JOYSTICK_ANALOG_MINITHM\
+  \ |  |  |  | \n| JP1, JP2 | 2 | HEADER-1X476MIL | HEADER-1X476MIL | working:1X04_ROUND_76\
+  \ |  |  |  | \n| U$1, U$4, U$5, U$6 | 4 | MOUNTINGHOLE2.0 | MOUNTINGHOLE2.0 | working:MOUNTINGHOLE_2.0_PLATED\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_mini_analog_thumbstick_breakout_pcb_adafruit_mini_analog_thumbstick/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_mini_analog_thumbstick_breakout_pcb_adafruit_mini_analog_thumbstick/current_version/working/working.sch
 id: adafruit_adafruit_mini_analog_thumbstick_breakout_pcb_adafruit_mini_analog_thumbstick
+mounting_holes:
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$1
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '20.319999999999993'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$4
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$5
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '20.319999999999993'
+  y: '21.58999999999999'
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$6
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '0.0'
+  y: '21.58999999999999'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 20.319999999999993 | 0.0 | MOUNTINGHOLE_2.0_PLATED\
+  \ | MOUNTINGHOLE2.0 | U$1 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0\
+  \ | U$4 | m3 | \n| 20.319999999999993 | 21.58999999999999 | MOUNTINGHOLE_2.0_PLATED\
+  \ | MOUNTINGHOLE2.0 | U$5 | m3 | \n| 0.0 | 21.58999999999999 | MOUNTINGHOLE_2.0_PLATED\
+  \ | MOUNTINGHOLE2.0 | U$6 | m3 | \n"
 name: adafruit_mini_analog_thumbstick_breakout_pcb
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': JOY1
+  Package: JOYSTICK_ANALOG_MINITHM
+  PosX: 148.5011
+  PosY: -105.3846
+  Rot: 0.0
+  Side: top
+  Val: JOYSTICK_ANALOG_XY
+- '# Ref': JP1
+  Package: 1X04_ROUND_76
+  PosX: 148.5011
+  PosY: -116.4336
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X04_ROUND_76
+  PosX: 148.5011
+  PosY: -93.5736
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$1
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 158.6611
+  PosY: -115.7986
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U$4
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 138.3411
+  PosY: -115.7986
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U$5
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 158.6611
+  PosY: -94.2086
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U$6
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 138.3411
+  PosY: -94.2086
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U$8
+  Package: ADAFRUIT_3.5MM
+  PosX: 160.9471
+  PosY: -109.9566
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': U$9
+  Package: SYMBOL_PLUS
+  PosX: 142.5321
+  PosY: -116.4336
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$10
+  Package: SYMBOL_PLUS
+  PosX: 142.5321
+  PosY: -93.5736
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$11
+  Package: SYMBOL_MINUS
+  PosX: 154.4701
+  PosY: -93.5736
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$12
+  Package: SYMBOL_MINUS
+  PosX: 154.4701
+  PosY: -116.4336
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$13
+  Package: PCBFEAT-REV-040
+  PosX: 137.7061
+  PosY: -97.8916
+  Rot: 90.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| JOY1 | JOYSTICK_ANALOG_XY | JOYSTICK_ANALOG_MINITHM\
+  \ | 148.5011 | -105.3846 | 0.0 | top | \n| JP1 | nan | 1X04_ROUND_76 | 148.5011\
+  \ | -116.4336 | 0.0 | top | \n| JP2 | nan | 1X04_ROUND_76 | 148.5011 | -93.5736\
+  \ | 0.0 | top | \n| U$1 | MOUNTINGHOLE2.0 | MOUNTINGHOLE_2.0_PLATED | 158.6611 |\
+  \ -115.7986 | 0.0 | top | \n| U$4 | MOUNTINGHOLE2.0 | MOUNTINGHOLE_2.0_PLATED |\
+  \ 138.3411 | -115.7986 | 0.0 | top | \n| U$5 | MOUNTINGHOLE2.0 | MOUNTINGHOLE_2.0_PLATED\
+  \ | 158.6611 | -94.2086 | 0.0 | top | \n| U$6 | MOUNTINGHOLE2.0 | MOUNTINGHOLE_2.0_PLATED\
+  \ | 138.3411 | -94.2086 | 0.0 | top | \n| U$8 | nan | ADAFRUIT_3.5MM | 160.9471\
+  \ | -109.9566 | 180.0 | top | \n| U$9 | nan | SYMBOL_PLUS | 142.5321 | -116.4336\
+  \ | 0.0 | top | \n| U$10 | nan | SYMBOL_PLUS | 142.5321 | -93.5736 | 0.0 | top |\
+  \ \n| U$11 | nan | SYMBOL_MINUS | 154.4701 | -93.5736 | 0.0 | top | \n| U$12 | nan\
+  \ | SYMBOL_MINUS | 154.4701 | -116.4336 | 0.0 | top | \n| U$13 | nan | PCBFEAT-REV-040\
+  \ | 137.7061 | -97.8916 | 90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_mini_analog_thumbstick_breakout_pcb_adafruit_mini_analog_thumbstick/current_version/working
 repo:
   allow_forking: true

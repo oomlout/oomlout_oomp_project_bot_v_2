@@ -1,9 +1,312 @@
 board: adafruit_i2s_mic_spk0415hm4h
+bom:
+- Id: '1'
+  Designator: U$6,U$12
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R2
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: IC1
+  Footprint: SPH0645LM4H
+  Quantity: '1'
+  Designation: MIC_I2S_SPH0645
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: FID1,FID2
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C4
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C2
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 220pF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U$13
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: JP2
+  Footprint: 1X06_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R1
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: '68'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U$5
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U$6,U$12\
+  \ | MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5 |  |  | [''] | \n| 2 | R2 | 0603-NO\
+  \ | 1 | 10k |  |  | [''] | \n| 3 | IC1 | SPH0645LM4H | 1 | MIC_I2S_SPH0645 |  |\
+  \  | [''] | \n| 4 | FID1,FID2 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | [''] | \n\
+  | 5 | C4 | 0805-NO | 1 | 1uF |  |  | [''] | \n| 6 | C2 | 0805-NO | 1 | 220pF | \
+  \ |  | [''] | \n| 7 | U$13 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n| 8 | JP2 |\
+  \ 1X06_ROUND | 1 |  |  |  | [''] | \n| 9 | R1 | 0603-NO | 1 | 68 |  |  | [''] |\
+  \ \n| 10 | U$5 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C2
+  Value: 220pF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C4
+  Value: 1uF
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: MIC_I2S_SPH0645
+  DNP: ''
+  Description: ''
+  Footprint: working:SPH0645LM4H
+  Qnty: '1'
+  Ref: IC1
+  Value: MIC_I2S_SPH0645
+  Vendor: ''
+- Cmp name: HEADER-1X6ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06_ROUND
+  Qnty: '1'
+  Ref: JP2
+  Value: HEADER-1X6ROUND
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R1
+  Value: '68'
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R2
+  Value: 10k
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '2'
+  Ref: U$6, U$12
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C2 |\
+  \ 1 | 220pF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C4 | 1\
+  \ | 1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| FID1, FID2\
+  \ | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| IC1 |\
+  \ 1 | MIC_I2S_SPH0645 | MIC_I2S_SPH0645 | working:SPH0645LM4H |  |  |  | \n| JP2\
+  \ | 1 | HEADER-1X6ROUND | HEADER-1X6ROUND | working:1X06_ROUND |  |  |  | \n| R1\
+  \ | 1 | 68 | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n| R2 | 1 | 10k |\
+  \ RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n| U$6, U$12 | 2 | MOUNTINGHOLE2.5\
+  \ | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_i2s_microphone_breakout_pcb_adafruit_i2s_mic_spk0415hm4h/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_i2s_microphone_breakout_pcb_adafruit_i2s_mic_spk0415hm4h/current_version/working/working.sch
 id: adafruit_adafruit_i2s_microphone_breakout_pcb_adafruit_i2s_mic_spk0415hm4h
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$6
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$12
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '11.430000000000007'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$6 | m3 | \n| 11.430000000000007 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$12 | m3 | \n"
 name: adafruit_i2s_microphone_breakout_pcb
+position_bottom:
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 153.4541
+  PosY: -105.7656
+  Rot: 90.0
+  Side: bottom
+  Val: 220pF
+- '# Ref': C4
+  Package: 0805-NO
+  PosX: 155.3591
+  PosY: -105.7656
+  Rot: 90.0
+  Side: bottom
+  Val: 1uF
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 150.6601
+  PosY: -100.6856
+  Rot: 180.0
+  Side: bottom
+  Val: FIDUCIAL_1MM
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 144.8181
+  PosY: -106.5276
+  Rot: 180.0
+  Side: bottom
+  Val: FIDUCIAL_1MM
+- '# Ref': IC1
+  Package: SPH0645LM4H
+  PosX: 148.5011
+  PosY: -104.2416
+  Rot: 0.0
+  Side: bottom
+  Val: MIC_I2S_SPH0645
+- '# Ref': JP2
+  Package: 1X06_ROUND
+  PosX: 148.5011
+  PosY: -108.8136
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 147.8661
+  PosY: -106.7816
+  Rot: 180.0
+  Side: bottom
+  Val: '68'
+- '# Ref': R2
+  Package: 0603-NO
+  PosX: 142.1511
+  PosY: -106.7816
+  Rot: 0.0
+  Side: bottom
+  Val: 10k
+- '# Ref': U$5
+  Package: ADAFRUIT_3.5MM
+  PosX: 148.7551
+  PosY: -102.5906
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$13
+  Package: PCBFEAT-REV-040
+  PosX: 151.4221
+  PosY: -102.8446
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C2 | 220pF | 0805-NO | 153.4541\
+  \ | -105.7656 | 90.0 | bottom | \n| C4 | 1uF | 0805-NO | 155.3591 | -105.7656 |\
+  \ 90.0 | bottom | \n| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM | 150.6601 | -100.6856\
+  \ | 180.0 | bottom | \n| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM | 144.8181 | -106.5276\
+  \ | 180.0 | bottom | \n| IC1 | MIC_I2S_SPH0645 | SPH0645LM4H | 148.5011 | -104.2416\
+  \ | 0.0 | bottom | \n| JP2 | nan | 1X06_ROUND | 148.5011 | -108.8136 | 180.0 | bottom\
+  \ | \n| R1 | 68 | 0603-NO | 147.8661 | -106.7816 | 180.0 | bottom | \n| R2 | 10k\
+  \ | 0603-NO | 142.1511 | -106.7816 | 0.0 | bottom | \n| U$5 | nan | ADAFRUIT_3.5MM\
+  \ | 148.7551 | -102.5906 | 180.0 | bottom | \n| U$13 | nan | PCBFEAT-REV-040 | 151.4221\
+  \ | -102.8446 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': U$6
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 142.7861
+  PosY: -101.1936
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$12
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 154.2161
+  PosY: -101.1936
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| U$6 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 142.7861 | -101.1936 | 0.0 | top | \n| U$12 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 154.2161 | -101.1936 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_i2s_microphone_breakout_pcb_adafruit_i2s_mic_spk0415hm4h/current_version/working
 repo:
   allow_forking: true

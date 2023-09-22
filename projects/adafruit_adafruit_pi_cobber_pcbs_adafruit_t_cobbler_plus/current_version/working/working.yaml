@@ -1,9 +1,168 @@
 board: adafruit_t_cobbler_plus
+bom:
+- Id: '1'
+  Designator: JP1,JP2
+  Footprint: 1X20_ROUND
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$2,U$4,U$3,U$1
+  Footprint: MOUNTINGHOLE_2.5_PLATED_THICK
+  Quantity: '4'
+  Designation: MOUNTINGHOLE2.5_THICK
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: X1
+  Footprint: RASPBERRYPI_B+_IDC
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | JP1,JP2\
+  \ | 1X20_ROUND | 2 |  |  |  | [''] | \n| 2 | U$2,U$4,U$3,U$1 | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | 4 | MOUNTINGHOLE2.5_THICK |  |  | [''] | \n| 3 | X1 | RASPBERRYPI_B+_IDC | 1\
+  \ |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: HEADER-1X20ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X20_ROUND
+  Qnty: '2'
+  Ref: JP1, JP2
+  Value: HEADER-1X20ROUND
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5_THICK
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED_THICK
+  Qnty: '4'
+  Ref: U$1, U$2, U$3, U$4
+  Value: MOUNTINGHOLE2.5_THICK
+  Vendor: ''
+- Cmp name: RASPBERRYPI_B+_IDC
+  DNP: ''
+  Description: ''
+  Footprint: working:RASPBERRYPI_B+_IDC
+  Qnty: '1'
+  Ref: X1
+  Value: RASPBERRYPI_B+_IDC
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| JP1,\
+  \ JP2 | 2 | HEADER-1X20ROUND | HEADER-1X20ROUND | working:1X20_ROUND |  |  |  |\
+  \ \n| U$1, U$2, U$3, U$4 | 4 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE2.5_THICK | working:MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ |  |  |  | \n| X1 | 1 | RASPBERRYPI_B+_IDC | RASPBERRYPI_B+_IDC | working:RASPBERRYPI_B+_IDC\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_pi_cobber_pcbs_adafruit_t_cobbler_plus/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_pi_cobber_pcbs_adafruit_t_cobbler_plus/current_version/working/working.sch
 id: adafruit_adafruit_pi_cobber_pcbs_adafruit_t_cobbler_plus
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED_THICK
+  ref: U$1
+  size: m3
+  value: MOUNTINGHOLE2.5_THICK
+  x: '0.0'
+  y: '15.239999999999995'
+- package: MOUNTINGHOLE_2.5_PLATED_THICK
+  ref: U$2
+  size: m3
+  value: MOUNTINGHOLE2.5_THICK
+  x: '58.41999999999999'
+  y: '15.239999999999995'
+- package: MOUNTINGHOLE_2.5_PLATED_THICK
+  ref: U$3
+  size: m3
+  value: MOUNTINGHOLE2.5_THICK
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED_THICK
+  ref: U$4
+  size: m3
+  value: MOUNTINGHOLE2.5_THICK
+  x: '58.41999999999999'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 15.239999999999995 | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | MOUNTINGHOLE2.5_THICK | U$1 | m3 | \n| 58.41999999999999 | 15.239999999999995\
+  \ | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$2 | m3 | \n| 0.0 |\
+  \ 0.0 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$3 | m3 | \n| 58.41999999999999\
+  \ | 0.0 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$4 | m3 | \n"
 name: adafruit_pi_cobber_pcbs
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': JP1
+  Package: 1X20_ROUND
+  PosX: 148.5011
+  PosY: -112.6236
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X20_ROUND
+  PosX: 148.5011
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$1
+  Package: MOUNTINGHOLE_2.5_PLATED_THICK
+  PosX: 119.2911
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5_THICK
+- '# Ref': U$2
+  Package: MOUNTINGHOLE_2.5_PLATED_THICK
+  PosX: 177.7111
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5_THICK
+- '# Ref': U$3
+  Package: MOUNTINGHOLE_2.5_PLATED_THICK
+  PosX: 119.2911
+  PosY: -112.6236
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5_THICK
+- '# Ref': U$4
+  Package: MOUNTINGHOLE_2.5_PLATED_THICK
+  PosX: 177.7111
+  PosY: -112.6236
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5_THICK
+- '# Ref': X1
+  Package: RASPBERRYPI_B+_IDC
+  PosX: 148.5011
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| JP1 | nan | 1X20_ROUND | 148.5011 |\
+  \ -112.6236 | 0.0 | top | \n| JP2 | nan | 1X20_ROUND | 148.5011 | -97.3836 | 0.0\
+  \ | top | \n| U$1 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK | 119.2911\
+  \ | -97.3836 | 0.0 | top | \n| U$2 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | 177.7111 | -97.3836 | 0.0 | top | \n| U$3 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | 119.2911 | -112.6236 | 0.0 | top | \n| U$4 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | 177.7111 | -112.6236 | 0.0 | top | \n| X1 | nan | RASPBERRYPI_B+_IDC | 148.5011\
+  \ | -105.0036 | 90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_pi_cobber_pcbs_adafruit_t_cobbler_plus/current_version/working
 repo:
   allow_forking: true

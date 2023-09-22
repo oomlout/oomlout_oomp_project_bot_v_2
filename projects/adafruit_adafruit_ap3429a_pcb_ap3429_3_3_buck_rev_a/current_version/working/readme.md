@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit-AP3429A-PCB/tree/main/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_ap3429a_pcb_ap3429_3_3_buck_rev_a/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

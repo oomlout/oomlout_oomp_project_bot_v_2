@@ -1,10 +1,196 @@
 board: pedalfx
+bom:
+- Id: '1'
+  Designator: J1
+  Footprint: '694106301002'
+  Quantity: '1'
+  Designation: '694106301002'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: LED1
+  Footprint: LED0805Y
+  Quantity: '1'
+  Designation: 5988140107F
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: P1
+  Footprint: Pin_Header_Straight_1x06
+  Quantity: '1'
+  Designation: CONN_01X06
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R1
+  Footprint: R0603
+  Quantity: '1'
+  Designation: ERJ-3EKF1001V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: SW1
+  Footprint: Switches_Stomp_Switch_3PDT
+  Quantity: '1'
+  Designation: 3PDT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J2,J3
+  Footprint: RA49C12B
+  Quantity: '2'
+  Designation: RA49C12B
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1\
+  \ | 694106301002 | 1 | 694106301002 |  |  | [''] | \n| 2 | LED1 | LED0805Y | 1 |\
+  \ 5988140107F |  |  | [''] | \n| 3 | P1 | Pin_Header_Straight_1x06 | 1 | CONN_01X06\
+  \ |  |  | [''] | \n| 4 | R1 | R0603 | 1 | ERJ-3EKF1001V |  |  | [''] | \n| 5 | SW1\
+  \ | Switches_Stomp_Switch_3PDT | 1 | 3PDT |  |  | [''] | \n| 6 | J2,J3 | RA49C12B\
+  \ | 2 | RA49C12B |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: '694106301002'
+  DNP: ''
+  Description: ''
+  Footprint: AudioLibFootprints:694106301002
+  Qnty: '1'
+  Ref: J1
+  Value: '694106301002'
+  Vendor: ''
+- Cmp name: RA49C12B
+  DNP: ''
+  Description: ''
+  Footprint: AudioLibFootprints:RA49C12B
+  Qnty: '2'
+  Ref: J2, J3
+  Value: RA49C12B
+  Vendor: ''
+- Cmp name: 5988140107F
+  DNP: ''
+  Description: ''
+  Footprint: OnHand-Components:LED0805Y
+  Qnty: '1'
+  Ref: LED1
+  Value: 5988140107F
+  Vendor: ''
+- Cmp name: CONN_01X06
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x06
+  Qnty: '1'
+  Ref: P1
+  Value: CONN_01X06
+  Vendor: ''
+- Cmp name: ERJ-3EKF1001V
+  DNP: ''
+  Description: ''
+  Footprint: OnHand-Components:R0603
+  Qnty: '1'
+  Ref: R1
+  Value: ERJ-3EKF1001V
+  Vendor: ''
+- Cmp name: 3PDT
+  DNP: ''
+  Description: ''
+  Footprint: AudioLibFootprints:Switches_Stomp_Switch_3PDT
+  Qnty: '1'
+  Ref: SW1
+  Value: 3PDT
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| J1 |\
+  \ 1 | 694106301002 | 694106301002 | AudioLibFootprints:694106301002 |  |  |  | \n\
+  | J2, J3 | 2 | RA49C12B | RA49C12B | AudioLibFootprints:RA49C12B |  |  |  | \n|\
+  \ LED1 | 1 | 5988140107F | 5988140107F | OnHand-Components:LED0805Y |  |  |  | \n\
+  | P1 | 1 | CONN_01X06 | CONN_01X06 | Pin_Headers:Pin_Header_Straight_1x06 |  | \
+  \ |  | \n| R1 | 1 | ERJ-3EKF1001V | ERJ-3EKF1001V | OnHand-Components:R0603 |  |\
+  \  |  | \n| SW1 | 1 | 3PDT | 3PDT | AudioLibFootprints:Switches_Stomp_Switch_3PDT\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamjvr_audioexperiments_pedalfx/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamjvr_audioexperiments_pedalfx/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adamjvr_audioexperiments_pedalfx/current_version/working/working.sch
 id: adamjvr_audioexperiments_pedalfx
 name: audioexperiments
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': J1
+  Package: '694106301002'
+  PosX: 107.61
+  PosY: -118.94
+  Rot: 90.0
+  Side: top
+  Val: '694106301002'
+- '# Ref': J2
+  Package: RA49C12B
+  PosX: 119.38
+  PosY: -58.293
+  Rot: 180.0
+  Side: top
+  Val: RA49C12B
+- '# Ref': J3
+  Package: RA49C12B
+  PosX: 119.38
+  PosY: -75.565
+  Rot: 180.0
+  Side: top
+  Val: RA49C12B
+- '# Ref': LED1
+  Package: LED0805Y
+  PosX: 102.55
+  PosY: -100.59
+  Rot: 180.0
+  Side: top
+  Val: 5988140107F
+- '# Ref': P1
+  Package: Pin_Header_Straight_1x06
+  PosX: 123.825
+  PosY: -94.742
+  Rot: 180.0
+  Side: top
+  Val: CONN_01X06
+- '# Ref': R1
+  Package: R0603
+  PosX: 105.55
+  PosY: -100.58
+  Rot: 0.0
+  Side: top
+  Val: ERJ-3EKF1001V
+- '# Ref': SW1
+  Package: Switches_Stomp_Switch_3PDT
+  PosX: 107.59
+  PosY: -89.43
+  Rot: 0.0
+  Side: top
+  Val: 3PDT
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J1 | 694106301002 | 694106301002 | 107.61\
+  \ | -118.94 | 90.0 | top | \n| J2 | RA49C12B | RA49C12B | 119.38 | -58.293 | 180.0\
+  \ | top | \n| J3 | RA49C12B | RA49C12B | 119.38 | -75.565 | 180.0 | top | \n| LED1\
+  \ | 5988140107F | LED0805Y | 102.55 | -100.59 | 180.0 | top | \n| P1 | CONN_01X06\
+  \ | Pin_Header_Straight_1x06 | 123.825 | -94.742 | 180.0 | top | \n| R1 | ERJ-3EKF1001V\
+  \ | R0603 | 105.55 | -100.58 | 0.0 | top | \n| SW1 | 3PDT | Switches_Stomp_Switch_3PDT\
+  \ | 107.59 | -89.43 | 0.0 | top | \n"
 projects_flat: projects/adamjvr_audioexperiments_pedalfx/current_version/working
 repo:
   allow_forking: true

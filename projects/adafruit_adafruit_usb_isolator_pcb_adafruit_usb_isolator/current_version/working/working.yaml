@@ -1,9 +1,445 @@
 board: adafruit_usb_isolator
+bom:
+- Id: '1'
+  Designator: U2
+  Footprint: SOIC16WIDE
+  Quantity: '1'
+  Designation: ADuM5000
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: FID3,FID2,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '3'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R1,R2,R3
+  Footprint: 0805-NO
+  Quantity: '3'
+  Designation: '24'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C4,C7,C8,C5,C3,C2,C1,C10
+  Footprint: 0805-NO
+  Quantity: '8'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R4
+  Footprint: _0805MP
+  Quantity: '1'
+  Designation: '24'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: X3
+  Footprint: USB-MINIB_LARGER
+  Quantity: '1'
+  Designation: '06564'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U$9,U$8,U$7,U$10
+  Footprint: MOUNTINGHOLE_2.5_PLATED_THICK
+  Quantity: '4'
+  Designation: MOUNTINGHOLE2.5_THICK
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C6,C9
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R5
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: D1
+  Footprint: CHIPLED_0805_NOOUTLINE
+  Quantity: '1'
+  Designation: GREEN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: X2
+  Footprint: USB_HOST-PTH
+  Quantity: '1'
+  Designation: '05241'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U$14
+  Footprint: ADAFRUIT_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U1
+  Footprint: SOIC16WIDE
+  Quantity: '1'
+  Designation: ADuM4160
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: SW1
+  Footprint: EG1390
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U$16
+  Footprint: ADAFRUIT_TEXT_30MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U2\
+  \ | SOIC16WIDE | 1 | ADuM5000 |  |  | [''] | \n| 2 | FID3,FID2,FID1 | FIDUCIAL_1MM\
+  \ | 3 | FIDUCIAL\" |  |  | [''] | \n| 3 | R1,R2,R3 | 0805-NO | 3 | 24 |  |  | ['']\
+  \ | \n| 4 | C4,C7,C8,C5,C3,C2,C1,C10 | 0805-NO | 8 | 0.1uF |  |  | [''] | \n| 5\
+  \ | R4 | _0805MP | 1 | 24 |  |  | [''] | \n| 6 | X3 | USB-MINIB_LARGER | 1 | 06564\
+  \ |  |  | [''] | \n| 7 | U$9,U$8,U$7,U$10 | MOUNTINGHOLE_2.5_PLATED_THICK | 4 |\
+  \ MOUNTINGHOLE2.5_THICK |  |  | [''] | \n| 8 | C6,C9 | 0805-NO | 2 | 10uF |  | \
+  \ | [''] | \n| 9 | R5 | 0805-NO | 1 | 1K |  |  | [''] | \n| 10 | D1 | CHIPLED_0805_NOOUTLINE\
+  \ | 1 | GREEN |  |  | [''] | \n| 11 | X2 | USB_HOST-PTH | 1 | 05241 |  |  | ['']\
+  \ | \n| 12 | U$14 | ADAFRUIT_5MM | 1 |  |  |  | [''] | \n| 13 | U1 | SOIC16WIDE\
+  \ | 1 | ADuM4160 |  |  | [''] | \n| 14 | SW1 | EG1390 | 1 |  |  |  | [''] | \n|\
+  \ 15 | U$16 | ADAFRUIT_TEXT_30MM | 1 |  |  |  | [''] | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_usb_isolator_pcb_adafruit_usb_isolator/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_usb_isolator_pcb_adafruit_usb_isolator/current_version/working/working.sch
 id: adafruit_adafruit_usb_isolator_pcb_adafruit_usb_isolator
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED_THICK
+  ref: U$7
+  size: m3
+  value: MOUNTINGHOLE2.5_THICK
+  x: '38.099999999999994'
+  y: '22.86'
+- package: MOUNTINGHOLE_2.5_PLATED_THICK
+  ref: U$8
+  size: m3
+  value: MOUNTINGHOLE2.5_THICK
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED_THICK
+  ref: U$9
+  size: m3
+  value: MOUNTINGHOLE2.5_THICK
+  x: '0.0'
+  y: '22.86'
+- package: MOUNTINGHOLE_2.5_PLATED_THICK
+  ref: U$10
+  size: m3
+  value: MOUNTINGHOLE2.5_THICK
+  x: '38.099999999999994'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 38.099999999999994 | 22.86 | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | MOUNTINGHOLE2.5_THICK | U$7 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | MOUNTINGHOLE2.5_THICK | U$8 | m3 | \n| 0.0 | 22.86 | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | MOUNTINGHOLE2.5_THICK | U$9 | m3 | \n| 38.099999999999994 | 0.0 | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | MOUNTINGHOLE2.5_THICK | U$10 | m3 | \n"
 name: adafruit_usb_isolator_pcb
+position_bottom:
+- '# Ref': U$16
+  Package: ADAFRUIT_TEXT_30MM
+  PosX: 164.2491
+  PosY: -101.9556
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$16 | nan | ADAFRUIT_TEXT_30MM\
+  \ | 164.2491 | -101.9556 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 140.8811
+  PosY: -92.3036
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 139.6111
+  PosY: -95.6056
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 156.1211
+  PosY: -92.3036
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C4
+  Package: 0805-NO
+  PosX: 157.3911
+  PosY: -95.6056
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C5
+  Package: 0805-NO
+  PosX: 156.1211
+  PosY: -111.3536
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C6
+  Package: 0805-NO
+  PosX: 158.1531
+  PosY: -111.3536
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C7
+  Package: 0805-NO
+  PosX: 156.1211
+  PosY: -117.7036
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C8
+  Package: 0805-NO
+  PosX: 140.8811
+  PosY: -111.3536
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C9
+  Package: 0805-NO
+  PosX: 138.3411
+  PosY: -111.3536
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C10
+  Package: 0805-NO
+  PosX: 140.8811
+  PosY: -117.7036
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': D1
+  Package: CHIPLED_0805_NOOUTLINE
+  PosX: 161.4551
+  PosY: -117.7036
+  Rot: 0.0
+  Side: top
+  Val: GREEN
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 133.5151
+  PosY: -115.4176
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 163.2331
+  PosY: -93.5736
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 127.4191
+  PosY: -96.8756
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 139.6111
+  PosY: -98.6536
+  Rot: 0.0
+  Side: top
+  Val: '24'
+- '# Ref': R2
+  Package: 0805-NO
+  PosX: 139.6111
+  PosY: -101.1936
+  Rot: 0.0
+  Side: top
+  Val: '24'
+- '# Ref': R3
+  Package: 0805-NO
+  PosX: 157.3911
+  PosY: -98.6536
+  Rot: 0.0
+  Side: top
+  Val: '24'
+- '# Ref': R4
+  Package: _0805MP
+  PosX: 157.3911
+  PosY: -101.1936
+  Rot: 0.0
+  Side: top
+  Val: '24'
+- '# Ref': R5
+  Package: 0805-NO
+  PosX: 163.7411
+  PosY: -117.7036
+  Rot: -90.0
+  Side: top
+  Val: 1K
+- '# Ref': SW1
+  Package: EG1390
+  PosX: 148.5011
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': U$7
+  Package: MOUNTINGHOLE_2.5_PLATED_THICK
+  PosX: 167.5511
+  PosY: -93.5736
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5_THICK
+- '# Ref': U$8
+  Package: MOUNTINGHOLE_2.5_PLATED_THICK
+  PosX: 129.4511
+  PosY: -116.4336
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5_THICK
+- '# Ref': U$9
+  Package: MOUNTINGHOLE_2.5_PLATED_THICK
+  PosX: 129.4511
+  PosY: -93.5736
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5_THICK
+- '# Ref': U$10
+  Package: MOUNTINGHOLE_2.5_PLATED_THICK
+  PosX: 167.5511
+  PosY: -116.4336
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5_THICK
+- '# Ref': U$14
+  Package: ADAFRUIT_5MM
+  PosX: 136.5631
+  PosY: -97.6376
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': U1
+  Package: SOIC16WIDE
+  PosX: 148.5011
+  PosY: -95.6056
+  Rot: -90.0
+  Side: top
+  Val: ADuM4160
+- '# Ref': U2
+  Package: SOIC16WIDE
+  PosX: 148.5011
+  PosY: -114.4016
+  Rot: -90.0
+  Side: top
+  Val: ADuM5000
+- '# Ref': X2
+  Package: USB_HOST-PTH
+  PosX: 171.3611
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: '05241'
+- '# Ref': X3
+  Package: USB-MINIB_LARGER
+  PosX: 130.7211
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: '06564'
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | 0805-NO | 140.8811 | -92.3036\
+  \ | -90.0 | top | \n| C2 | 0.1uF | 0805-NO | 139.6111 | -95.6056 | 180.0 | top |\
+  \ \n| C3 | 0.1uF | 0805-NO | 156.1211 | -92.3036 | 90.0 | top | \n| C4 | 0.1uF |\
+  \ 0805-NO | 157.3911 | -95.6056 | 180.0 | top | \n| C5 | 0.1uF | 0805-NO | 156.1211\
+  \ | -111.3536 | -90.0 | top | \n| C6 | 10uF | 0805-NO | 158.1531 | -111.3536 | -90.0\
+  \ | top | \n| C7 | 0.1uF | 0805-NO | 156.1211 | -117.7036 | 90.0 | top | \n| C8\
+  \ | 0.1uF | 0805-NO | 140.8811 | -111.3536 | -90.0 | top | \n| C9 | 10uF | 0805-NO\
+  \ | 138.3411 | -111.3536 | -90.0 | top | \n| C10 | 0.1uF | 0805-NO | 140.8811 |\
+  \ -117.7036 | 90.0 | top | \n| D1 | GREEN | CHIPLED_0805_NOOUTLINE | 161.4551 |\
+  \ -117.7036 | 0.0 | top | \n| FID1 | FIDUCIAL\"\" | FIDUCIAL_1MM | 133.5151 | -115.4176\
+  \ | 0.0 | top | \n| FID2 | FIDUCIAL\"\" | FIDUCIAL_1MM | 163.2331 | -93.5736 | 0.0\
+  \ | top | \n| FID3 | FIDUCIAL\"\" | FIDUCIAL_1MM | 127.4191 | -96.8756 | 0.0 | top\
+  \ | \n| R1 | 24 | 0805-NO | 139.6111 | -98.6536 | 0.0 | top | \n| R2 | 24 | 0805-NO\
+  \ | 139.6111 | -101.1936 | 0.0 | top | \n| R3 | 24 | 0805-NO | 157.3911 | -98.6536\
+  \ | 0.0 | top | \n| R4 | 24 | _0805MP | 157.3911 | -101.1936 | 0.0 | top | \n| R5\
+  \ | 1K | 0805-NO | 163.7411 | -117.7036 | -90.0 | top | \n| SW1 | nan | EG1390 |\
+  \ 148.5011 | -105.0036 | 90.0 | top | \n| U$7 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | 167.5511 | -93.5736 | 0.0 | top | \n| U$8 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | 129.4511 | -116.4336 | 0.0 | top | \n| U$9 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | 129.4511 | -93.5736 | 0.0 | top | \n| U$10 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | 167.5511 | -116.4336 | 0.0 | top | \n| U$14 | nan | ADAFRUIT_5MM | 136.5631\
+  \ | -97.6376 | 90.0 | top | \n| U1 | ADuM4160 | SOIC16WIDE | 148.5011 | -95.6056\
+  \ | -90.0 | top | \n| U2 | ADuM5000 | SOIC16WIDE | 148.5011 | -114.4016 | -90.0\
+  \ | top | \n| X2 | 05241 | USB_HOST-PTH | 171.3611 | -105.0036 | 90.0 | top | \n\
+  | X3 | 06564 | USB-MINIB_LARGER | 130.7211 | -105.0036 | -90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_usb_isolator_pcb_adafruit_usb_isolator/current_version/working
 repo:
   allow_forking: true

@@ -1,10 +1,336 @@
 board: esp_09_bo_test
+bom:
+- Id: '1'
+  Designator: R8,R7,R5,R6
+  Footprint: R0402
+  Quantity: '4'
+  Designation: RC1005F103CS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R9
+  Footprint: R0402
+  Quantity: '1'
+  Designation: RC1005F102CS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: IC1
+  Footprint: ESP-09
+  Quantity: '1'
+  Designation: ESP_09
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C1,C2,C4
+  Footprint: C0402
+  Quantity: '3'
+  Designation: CL05B104JP5NNNC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: SW1
+  Footprint: B3U-1000P
+  Quantity: '1'
+  Designation: B3U-1000P
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: T1
+  Footprint: 1909763-1
+  Quantity: '1'
+  Designation: 1909763-1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: P1
+  Footprint: Pin_Header_Straight_1x08
+  Quantity: '1'
+  Designation: CONN_01X08
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: P2
+  Footprint: Pin_Header_Straight_1x06
+  Quantity: '1'
+  Designation: CONN_01X06
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: C3
+  Footprint: C0603
+  Quantity: '1'
+  Designation: CL10A106KQ8NNNC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U1
+  Footprint: AZ1117CR-3.3TRG1
+  Quantity: '1'
+  Designation: AZ1117CR-3.3TRG1_1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R8,R7,R5,R6\
+  \ | R0402 | 4 | RC1005F103CS |  |  | [''] | \n| 2 | R9 | R0402 | 1 | RC1005F102CS\
+  \ |  |  | [''] | \n| 3 | IC1 | ESP-09 | 1 | ESP_09 |  |  | [''] | \n| 4 | C1,C2,C4\
+  \ | C0402 | 3 | CL05B104JP5NNNC |  |  | [''] | \n| 5 | SW1 | B3U-1000P | 1 | B3U-1000P\
+  \ |  |  | [''] | \n| 6 | T1 | 1909763-1 | 1 | 1909763-1 |  |  | [''] | \n| 7 | P1\
+  \ | Pin_Header_Straight_1x08 | 1 | CONN_01X08 |  |  | [''] | \n| 8 | P2 | Pin_Header_Straight_1x06\
+  \ | 1 | CONN_01X06 |  |  | [''] | \n| 9 | C3 | C0603 | 1 | CL10A106KQ8NNNC |  |\
+  \  | [''] | \n| 10 | U1 | AZ1117CR-3.3TRG1 | 1 | AZ1117CR-3.3TRG1_1 |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: CL05B104JP5NNNC
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:C0402
+  Qnty: '3'
+  Ref: C1, C2, C4
+  Value: CL05B104JP5NNNC
+  Vendor: ''
+- Cmp name: CL10A106KQ8NNNC
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:C0603
+  Qnty: '1'
+  Ref: C3
+  Value: CL10A106KQ8NNNC
+  Vendor: ''
+- Cmp name: ESP_09
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:ESP-09
+  Qnty: '1'
+  Ref: IC1
+  Value: ESP_09
+  Vendor: ''
+- Cmp name: CONN_01X08
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x08
+  Qnty: '1'
+  Ref: P1
+  Value: CONN_01X08
+  Vendor: ''
+- Cmp name: CONN_01X06
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x06
+  Qnty: '1'
+  Ref: P2
+  Value: CONN_01X06
+  Vendor: ''
+- Cmp name: RC1005F103CS
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:R0402
+  Qnty: '4'
+  Ref: R5, R6, R7, R8
+  Value: RC1005F103CS
+  Vendor: ''
+- Cmp name: RC1005F102CS
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:R0402
+  Qnty: '1'
+  Ref: R9
+  Value: RC1005F102CS
+  Vendor: ''
+- Cmp name: B3U-1000P
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:B3U-1000P
+  Qnty: '1'
+  Ref: SW1
+  Value: B3U-1000P
+  Vendor: ''
+- Cmp name: 1909763-1
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:1909763-1
+  Qnty: '1'
+  Ref: T1
+  Value: 1909763-1
+  Vendor: ''
+- Cmp name: AZ1117CR-3.3TRG1_1
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:AZ1117CR-3.3TRG1
+  Qnty: '1'
+  Ref: U1
+  Value: AZ1117CR-3.3TRG1_1
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C4 | 3 | CL05B104JP5NNNC | CL05B104JP5NNNC | PCB_Footprints:C0402 |  |  |  | \n\
+  | C3 | 1 | CL10A106KQ8NNNC | CL10A106KQ8NNNC | PCB_Footprints:C0603 |  |  |  | \n\
+  | IC1 | 1 | ESP_09 | ESP_09 | PCB_Footprints:ESP-09 |  |  |  | \n| P1 | 1 | CONN_01X08\
+  \ | CONN_01X08 | Pin_Headers:Pin_Header_Straight_1x08 |  |  |  | \n| P2 | 1 | CONN_01X06\
+  \ | CONN_01X06 | Pin_Headers:Pin_Header_Straight_1x06 |  |  |  | \n| R5, R6, R7,\
+  \ R8 | 4 | RC1005F103CS | RC1005F103CS | PCB_Footprints:R0402 |  |  |  | \n| R9\
+  \ | 1 | RC1005F102CS | RC1005F102CS | PCB_Footprints:R0402 |  |  |  | \n| SW1 |\
+  \ 1 | B3U-1000P | B3U-1000P | PCB_Footprints:B3U-1000P |  |  |  | \n| T1 | 1 | 1909763-1\
+  \ | 1909763-1 | PCB_Footprints:1909763-1 |  |  |  | \n| U1 | 1 | AZ1117CR-3.3TRG1_1\
+  \ | AZ1117CR-3.3TRG1_1 | PCB_Footprints:AZ1117CR-3.3TRG1 |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamjvr_esp_09_test_esp_09_bo_test/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamjvr_esp_09_test_esp_09_bo_test/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adamjvr_esp_09_test_esp_09_bo_test/current_version/working/working.sch
 id: adamjvr_esp_09_test_esp_09_bo_test
 name: esp_09_test
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C0402
+  PosX: 125.3
+  PosY: -50.5
+  Rot: -90.0
+  Side: top
+  Val: CL05B104JP5NNNC
+- '# Ref': C2
+  Package: C0402
+  PosX: 130.175
+  PosY: -42.175
+  Rot: 0.0
+  Side: top
+  Val: CL05B104JP5NNNC
+- '# Ref': C3
+  Package: C0603
+  PosX: 137.25
+  PosY: -57.75
+  Rot: 180.0
+  Side: top
+  Val: CL10A106KQ8NNNC
+- '# Ref': C4
+  Package: C0402
+  PosX: 143.25
+  PosY: -54.0
+  Rot: 90.0
+  Side: top
+  Val: CL05B104JP5NNNC
+- '# Ref': IC1
+  Package: ESP-09
+  PosX: 126.6775
+  PosY: -44.4894
+  Rot: 0.0
+  Side: top
+  Val: ESP_09
+- '# Ref': P1
+  Package: Pin_Header_Straight_1x08
+  PosX: 141.5
+  PosY: -60.5
+  Rot: -90.0
+  Side: top
+  Val: CONN_01X08
+- '# Ref': P2
+  Package: Pin_Header_Straight_1x06
+  PosX: 141.62
+  PosY: -40.18
+  Rot: -90.0
+  Side: top
+  Val: CONN_01X06
+- '# Ref': R5
+  Package: R0402
+  PosX: 138.025
+  PosY: -52.675
+  Rot: -90.0
+  Side: top
+  Val: RC1005F103CS
+- '# Ref': R6
+  Package: R0402
+  PosX: 138.0
+  PosY: -50.3
+  Rot: 90.0
+  Side: top
+  Val: RC1005F103CS
+- '# Ref': R7
+  Package: R0402
+  PosX: 138.0
+  PosY: -47.875
+  Rot: 90.0
+  Side: top
+  Val: RC1005F103CS
+- '# Ref': R8
+  Package: R0402
+  PosX: 125.275
+  PosY: -52.9
+  Rot: -90.0
+  Side: top
+  Val: RC1005F103CS
+- '# Ref': R9
+  Package: R0402
+  PosX: 130.175
+  PosY: -43.15
+  Rot: 180.0
+  Side: top
+  Val: RC1005F102CS
+- '# Ref': SW1
+  Package: B3U-1000P
+  PosX: 124.325
+  PosY: -41.675
+  Rot: 90.0
+  Side: top
+  Val: B3U-1000P
+- '# Ref': T1
+  Package: 1909763-1
+  PosX: 123.65
+  PosY: -47.4
+  Rot: -90.0
+  Side: top
+  Val: 1909763-1
+- '# Ref': U1
+  Package: AZ1117CR-3.3TRG1
+  PosX: 141.25
+  PosY: -56.25
+  Rot: -90.0
+  Side: top
+  Val: AZ1117CR-3.3TRG1_1
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | CL05B104JP5NNNC | C0402 | 125.3\
+  \ | -50.5 | -90.0 | top | \n| C2 | CL05B104JP5NNNC | C0402 | 130.175 | -42.175 |\
+  \ 0.0 | top | \n| C3 | CL10A106KQ8NNNC | C0603 | 137.25 | -57.75 | 180.0 | top |\
+  \ \n| C4 | CL05B104JP5NNNC | C0402 | 143.25 | -54.0 | 90.0 | top | \n| IC1 | ESP_09\
+  \ | ESP-09 | 126.6775 | -44.4894 | 0.0 | top | \n| P1 | CONN_01X08 | Pin_Header_Straight_1x08\
+  \ | 141.5 | -60.5 | -90.0 | top | \n| P2 | CONN_01X06 | Pin_Header_Straight_1x06\
+  \ | 141.62 | -40.18 | -90.0 | top | \n| R5 | RC1005F103CS | R0402 | 138.025 | -52.675\
+  \ | -90.0 | top | \n| R6 | RC1005F103CS | R0402 | 138.0 | -50.3 | 90.0 | top | \n\
+  | R7 | RC1005F103CS | R0402 | 138.0 | -47.875 | 90.0 | top | \n| R8 | RC1005F103CS\
+  \ | R0402 | 125.275 | -52.9 | -90.0 | top | \n| R9 | RC1005F102CS | R0402 | 130.175\
+  \ | -43.15 | 180.0 | top | \n| SW1 | B3U-1000P | B3U-1000P | 124.325 | -41.675 |\
+  \ 90.0 | top | \n| T1 | 1909763-1 | 1909763-1 | 123.65 | -47.4 | -90.0 | top | \n\
+  | U1 | AZ1117CR-3.3TRG1_1 | AZ1117CR-3.3TRG1 | 141.25 | -56.25 | -90.0 | top | \n"
 projects_flat: projects/adamjvr_esp_09_test_esp_09_bo_test/current_version/working
 repo:
   allow_forking: true

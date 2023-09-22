@@ -1,9 +1,817 @@
 board: adafruit_neoparticle24
+bom:
+- Id: '1'
+  Designator: LED14,LED16,LED19,LED8,LED23,LED21,LED17,LED1,LED4,LED6,LED11,LED13,LED3,LED9,LED12,LED15,LED24,LED18,LED7,LED10,LED5,LED2,LED22,LED20
+  Footprint: WS2812B-NARROW
+  Quantity: '24'
+  Designation: WS2812B5050
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C20,C3,C5,C10,C2,C19,C4,C7,C12,C14,C16,C22,C17,C21,C8
+  Footprint: C0603
+  Quantity: '15'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$8
+  Footprint: SYMBOL_MINUS
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$9,U$3,U$5,U$4,U$6,U$10
+  Footprint: MOUNTINGHOLE_3.0_PLATEDTHIN
+  Quantity: '6'
+  Designation: MOUNTINGHOLE3.0THIN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$7
+  Footprint: SYMBOL_PLUS
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: FID2,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: JP1
+  Footprint: 1X01_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: JP2
+  Footprint: 1X01-CLEANBIG
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: SJ2
+  Footprint: SOLDERJUMPER_CLOSEDWIRE
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U$2
+  Footprint: SPARK_CORE_STACKABLE
+  Quantity: '1'
+  Designation: PHOTON
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: IC1
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: 74AHC1G125DBV
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U$1
+  Footprint: ADAFRUIT_9MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: D1
+  Footprint: SOD-123
+  Quantity: '1'
+  Designation: MBR120
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: X1
+  Footprint: JSTPH2
+  Quantity: '1'
+  Designation: JST-2PH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: R1
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 470 ohm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: U$11
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | LED14,LED16,LED19,LED8,LED23,LED21,LED17,LED1,LED4,LED6,LED11,LED13,LED3,LED9,LED12,LED15,LED24,LED18,LED7,LED10,LED5,LED2,LED22,LED20\
+  \ | WS2812B-NARROW | 24 | WS2812B5050 |  |  | [''] | \n| 2 | C20,C3,C5,C10,C2,C19,C4,C7,C12,C14,C16,C22,C17,C21,C8\
+  \ | C0603 | 15 | 1uF |  |  | [''] | \n| 3 | U$8 | SYMBOL_MINUS | 1 |  |  |  | ['']\
+  \ | \n| 4 | U$9,U$3,U$5,U$4,U$6,U$10 | MOUNTINGHOLE_3.0_PLATEDTHIN | 6 | MOUNTINGHOLE3.0THIN\
+  \ |  |  | [''] | \n| 5 | U$7 | SYMBOL_PLUS | 1 |  |  |  | [''] | \n| 6 | FID2,FID1\
+  \ | FIDUCIAL_1MM | 2 | FIDUCIAL\" |  |  | [''] | \n| 7 | JP1 | 1X01_ROUND | 1 |\
+  \  |  |  | [''] | \n| 8 | JP2 | 1X01-CLEANBIG | 1 |  |  |  | [''] | \n| 9 | SJ2\
+  \ | SOLDERJUMPER_CLOSEDWIRE | 1 |  |  |  | [''] | \n| 10 | U$2 | SPARK_CORE_STACKABLE\
+  \ | 1 | PHOTON |  |  | [''] | \n| 11 | IC1 | SOT23-5 | 1 | 74AHC1G125DBV |  |  |\
+  \ [''] | \n| 12 | U$1 | ADAFRUIT_9MM | 1 |  |  |  | [''] | \n| 13 | D1 | SOD-123\
+  \ | 1 | MBR120 |  |  | [''] | \n| 14 | X1 | JSTPH2 | 1 | JST-2PH |  |  | [''] |\
+  \ \n| 15 | R1 | 0603-NO | 1 | 470 ohm |  |  | [''] | \n| 16 | U$11 | PCBFEAT-REV-040\
+  \ | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C-EUC0603
+  DNP: ''
+  Description: ''
+  Footprint: working:C0603
+  Qnty: '15'
+  Ref: C2, C3, C4, C5, C7, C8, C10, C12, C14, C16, C17, C19, C20, C21, C22
+  Value: 1uF
+  Vendor: ''
+- Cmp name: DIODESOD-123
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-123
+  Qnty: '1'
+  Ref: D1
+  Value: MBR120
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: 741G125DBV
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: IC1
+  Value: 741G125DBV
+  Vendor: ''
+- Cmp name: HEADER-1X1ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X01_ROUND
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X1ROUND
+  Vendor: ''
+- Cmp name: PINHD-1X1CB
+  DNP: ''
+  Description: ''
+  Footprint: working:1X01-CLEANBIG
+  Qnty: '1'
+  Ref: JP2
+  Value: PINHD-1X1CB
+  Vendor: ''
+- Cmp name: WS2812B5050-NARROW
+  DNP: ''
+  Description: ''
+  Footprint: working:WS2812B-NARROW
+  Qnty: '24'
+  Ref: LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8, LED9, LED10, LED11, LED12,
+    LED13, LED14, LED15, LED16, LED17, LED18, LED19, LED20, LED21, LED22, LED23, LED24
+  Value: WS2812B5050-NARROW
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R1
+  Value: 470 ohm
+  Vendor: ''
+- Cmp name: SOLDERJUMPER_CLOSED
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_CLOSEDWIRE
+  Qnty: '1'
+  Ref: SJ2
+  Value: SOLDERJUMPER_CLOSED
+  Vendor: ''
+- Cmp name: SPARK_CORE
+  DNP: ''
+  Description: ''
+  Footprint: working:SPARK_CORE_STACKABLE
+  Qnty: '1'
+  Ref: U$2
+  Value: PHOTON
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE3.0THIN
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_3.0_PLATEDTHIN
+  Qnty: '6'
+  Ref: U$3, U$4, U$5, U$6, U$9, U$10
+  Value: MOUNTINGHOLE3.0THIN
+  Vendor: ''
+- Cmp name: CON_JST_PH_2PIN
+  DNP: ''
+  Description: ''
+  Footprint: working:JSTPH2
+  Qnty: '1'
+  Ref: X1
+  Value: JST-2PH
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C2, C3,\
+  \ C4, C5, C7, C8, C10, C12, C14, C16, C17, C19, C20, C21, C22 | 15 | 1uF | C-EUC0603\
+  \ | working:C0603 |  |  |  | \n| D1 | 1 | MBR120 | DIODESOD-123 | working:SOD-123\
+  \ |  |  |  | \n| FID1, FID2 | 2 | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote} |\
+  \ working:FIDUCIAL_1MM |  |  |  | \n| IC1 | 1 | 741G125DBV | 741G125DBV | working:SOT23-5\
+  \ |  |  |  | \n| JP1 | 1 | HEADER-1X1ROUND | HEADER-1X1ROUND | working:1X01_ROUND\
+  \ |  |  |  | \n| JP2 | 1 | PINHD-1X1CB | PINHD-1X1CB | working:1X01-CLEANBIG | \
+  \ |  |  | \n| LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8, LED9, LED10, LED11,\
+  \ LED12, LED13, LED14, LED15, LED16, LED17, LED18, LED19, LED20, LED21, LED22, LED23,\
+  \ LED24 | 24 | WS2812B5050-NARROW | WS2812B5050-NARROW | working:WS2812B-NARROW\
+  \ |  |  |  | \n| R1 | 1 | 470 ohm | RESISTOR_0603_NOOUT | working:0603-NO |  | \
+  \ |  | \n| SJ2 | 1 | SOLDERJUMPER_CLOSED | SOLDERJUMPER_CLOSED | working:SOLDERJUMPER_CLOSEDWIRE\
+  \ |  |  |  | \n| U$2 | 1 | PHOTON | SPARK_CORE | working:SPARK_CORE_STACKABLE |\
+  \  |  |  | \n| U$3, U$4, U$5, U$6, U$9, U$10 | 6 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE3.0THIN\
+  \ | working:MOUNTINGHOLE_3.0_PLATEDTHIN |  |  |  | \n| X1 | 1 | JST-2PH | CON_JST_PH_2PIN\
+  \ | working:JSTPH2 |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_particle_spark_neopixel_ring_pcb_adafruit_neoparticle24/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_particle_spark_neopixel_ring_pcb_adafruit_neoparticle24/current_version/working/working.sch
 id: adafruit_adafruit_particle_spark_neopixel_ring_pcb_adafruit_neoparticle24
+mounting_holes:
+- package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  ref: U$3
+  size: m3
+  value: MOUNTINGHOLE3.0THIN
+  x: '38.60600000000001'
+  y: '32.0'
+- package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  ref: U$4
+  size: m3
+  value: MOUNTINGHOLE3.0THIN
+  x: '6.606000000000009'
+  y: '32.0'
+- package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  ref: U$5
+  size: m3
+  value: MOUNTINGHOLE3.0THIN
+  x: '6.606000000000009'
+  y: '0.0'
+- package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  ref: U$6
+  size: m3
+  value: MOUNTINGHOLE3.0THIN
+  x: '38.60600000000001'
+  y: '0.0'
+- package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  ref: U$9
+  size: m3
+  value: MOUNTINGHOLE3.0THIN
+  x: '0.0'
+  y: '16.0'
+- package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  ref: U$10
+  size: m3
+  value: MOUNTINGHOLE3.0THIN
+  x: '45.212'
+  y: '16.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 38.60600000000001 | 32.0 | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | MOUNTINGHOLE3.0THIN | U$3 | m3 | \n| 6.606000000000009 | 32.0 | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | MOUNTINGHOLE3.0THIN | U$4 | m3 | \n| 6.606000000000009 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | MOUNTINGHOLE3.0THIN | U$5 | m3 | \n| 38.60600000000001 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | MOUNTINGHOLE3.0THIN | U$6 | m3 | \n| 0.0 | 16.0 | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | MOUNTINGHOLE3.0THIN | U$9 | m3 | \n| 45.212 | 16.0 | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | MOUNTINGHOLE3.0THIN | U$10 | m3 | \n"
 name: adafruit_particle_spark_neopixel_ring_pcb
+position_bottom:
+- '# Ref': U$11
+  Package: PCBFEAT-REV-040
+  PosX: 138.0871
+  PosY: -83.4136
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$11 | nan | PCBFEAT-REV-040 | 138.0871\
+  \ | -83.4136 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C2
+  Package: C0603
+  PosX: 160.3596
+  PosY: -76.3745
+  Rot: 67.5
+  Side: top
+  Val: 1uF
+- '# Ref': C3
+  Package: C0603
+  PosX: 167.3654
+  PosY: -80.4192
+  Rot: 52.5
+  Side: top
+  Val: 1uF
+- '# Ref': C4
+  Package: C0603
+  PosX: 173.0855
+  PosY: -86.1393
+  Rot: 37.5
+  Side: top
+  Val: 1uF
+- '# Ref': C5
+  Package: C0603
+  PosX: 177.1302
+  PosY: -93.1451
+  Rot: 22.5
+  Side: top
+  Val: 1uF
+- '# Ref': C7
+  Package: C0603
+  PosX: 179.2239
+  PosY: -109.0483
+  Rot: -7.5
+  Side: top
+  Val: 1uF
+- '# Ref': C8
+  Package: C0603
+  PosX: 177.1302
+  PosY: -116.8621
+  Rot: -22.5
+  Side: top
+  Val: 1uF
+- '# Ref': C10
+  Package: C0603
+  PosX: 167.3654
+  PosY: -129.588
+  Rot: -52.5
+  Side: top
+  Val: 1uF
+- '# Ref': C12
+  Package: C0603
+  PosX: 152.5458
+  PosY: -135.7264
+  Rot: -82.5
+  Side: top
+  Val: 1uF
+- '# Ref': C14
+  Package: C0603
+  PosX: 136.6426
+  PosY: -133.6327
+  Rot: -112.5
+  Side: top
+  Val: 1uF
+- '# Ref': C16
+  Package: C0603
+  PosX: 123.9167
+  PosY: -123.8679
+  Rot: -142.5
+  Side: top
+  Val: 1uF
+- '# Ref': C17
+  Package: C0603
+  PosX: 119.872
+  PosY: -116.8621
+  Rot: -157.5
+  Side: top
+  Val: 1uF
+- '# Ref': C19
+  Package: C0603
+  PosX: 117.7783
+  PosY: -100.9589
+  Rot: 172.5
+  Side: top
+  Val: 1uF
+- '# Ref': C20
+  Package: C0603
+  PosX: 119.872
+  PosY: -93.1451
+  Rot: 157.5
+  Side: top
+  Val: 1uF
+- '# Ref': C21
+  Package: C0603
+  PosX: 123.9167
+  PosY: -86.1393
+  Rot: 142.5
+  Side: top
+  Val: 1uF
+- '# Ref': C22
+  Package: C0603
+  PosX: 129.6368
+  PosY: -80.4192
+  Rot: 127.5
+  Side: top
+  Val: 1uF
+- '# Ref': D1
+  Package: SOD-123
+  PosX: 136.3731
+  PosY: -123.8696
+  Rot: 90.0
+  Side: top
+  Val: MBR120
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 116.8019
+  PosY: -109.1946
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 180.2003
+  PosY: -100.838
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': IC1
+  Package: SOT23-5
+  PosX: 145.4531
+  PosY: -83.1596
+  Rot: 90.0
+  Side: top
+  Val: 74AHC1G125DBV
+- '# Ref': JP1
+  Package: 1X01_ROUND
+  PosX: 148.5011
+  PosY: -80.6196
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X01-CLEANBIG
+  PosX: 136.4361
+  PosY: -75.7936
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': LED1
+  Package: WS2812B-NARROW
+  PosX: 148.5011
+  PosY: -75.7936
+  Rot: 0.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED2
+  Package: WS2812B-NARROW
+  PosX: 156.0612
+  PosY: -76.789
+  Rot: -15.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED3
+  Package: WS2812B-NARROW
+  PosX: 163.1061
+  PosY: -79.707
+  Rot: -30.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED4
+  Package: WS2812B-NARROW
+  PosX: 169.1556
+  PosY: -84.3491
+  Rot: -45.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED5
+  Package: WS2812B-NARROW
+  PosX: 173.7977
+  PosY: -90.3986
+  Rot: -60.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED6
+  Package: WS2812B-NARROW
+  PosX: 176.7157
+  PosY: -97.4435
+  Rot: -75.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED7
+  Package: WS2812B-NARROW
+  PosX: 177.7111
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED8
+  Package: WS2812B-NARROW
+  PosX: 176.7157
+  PosY: -112.5637
+  Rot: -105.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED9
+  Package: WS2812B-NARROW
+  PosX: 173.7977
+  PosY: -119.6086
+  Rot: -120.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED10
+  Package: WS2812B-NARROW
+  PosX: 169.1556
+  PosY: -125.6581
+  Rot: -135.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED11
+  Package: WS2812B-NARROW
+  PosX: 163.1061
+  PosY: -130.3002
+  Rot: -150.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED12
+  Package: WS2812B-NARROW
+  PosX: 156.0612
+  PosY: -133.2182
+  Rot: -165.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED13
+  Package: WS2812B-NARROW
+  PosX: 148.5011
+  PosY: -134.2136
+  Rot: 180.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED14
+  Package: WS2812B-NARROW
+  PosX: 140.941
+  PosY: -133.2182
+  Rot: 165.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED15
+  Package: WS2812B-NARROW
+  PosX: 133.8961
+  PosY: -130.3002
+  Rot: 150.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED16
+  Package: WS2812B-NARROW
+  PosX: 127.8466
+  PosY: -125.6581
+  Rot: 135.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED17
+  Package: WS2812B-NARROW
+  PosX: 123.2045
+  PosY: -119.6086
+  Rot: 120.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED18
+  Package: WS2812B-NARROW
+  PosX: 120.2865
+  PosY: -112.5637
+  Rot: 105.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED19
+  Package: WS2812B-NARROW
+  PosX: 119.2911
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED20
+  Package: WS2812B-NARROW
+  PosX: 120.2865
+  PosY: -97.4435
+  Rot: 75.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED21
+  Package: WS2812B-NARROW
+  PosX: 123.2045
+  PosY: -90.3986
+  Rot: 60.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED22
+  Package: WS2812B-NARROW
+  PosX: 127.8466
+  PosY: -84.3491
+  Rot: 45.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED23
+  Package: WS2812B-NARROW
+  PosX: 133.8961
+  PosY: -79.707
+  Rot: 30.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED24
+  Package: WS2812B-NARROW
+  PosX: 140.941
+  PosY: -76.789
+  Rot: 15.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 141.4698
+  PosY: -82.7115
+  Rot: 90.0
+  Side: top
+  Val: 470_ohm
+- '# Ref': SJ2
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 151.8031
+  PosY: -99.1616
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$1
+  Package: ADAFRUIT_9MM
+  PosX: 144.4371
+  PosY: -110.0836
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$2
+  Package: SPARK_CORE_STACKABLE
+  PosX: 148.5011
+  PosY: -100.4036
+  Rot: 0.0
+  Side: top
+  Val: PHOTON
+- '# Ref': U$3
+  Package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  PosX: 164.5011
+  PosY: -89.0036
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE3.0THIN
+- '# Ref': U$4
+  Package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  PosX: 132.5011
+  PosY: -89.0036
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE3.0THIN
+- '# Ref': U$5
+  Package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  PosX: 132.5011
+  PosY: -121.0036
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE3.0THIN
+- '# Ref': U$6
+  Package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  PosX: 164.5011
+  PosY: -121.0036
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE3.0THIN
+- '# Ref': U$7
+  Package: SYMBOL_PLUS
+  PosX: 138.8491
+  PosY: -126.8476
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$8
+  Package: SYMBOL_MINUS
+  PosX: 138.8491
+  PosY: -120.2436
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$9
+  Package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  PosX: 125.8951
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE3.0THIN
+- '# Ref': U$10
+  Package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  PosX: 171.1071
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE3.0THIN
+- '# Ref': X1
+  Package: JSTPH2
+  PosX: 144.6011
+  PosY: -123.5036
+  Rot: -90.0
+  Side: top
+  Val: JST-2PH
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C2 | 1uF | C0603 | 160.3596 | -76.3745\
+  \ | 67.5 | top | \n| C3 | 1uF | C0603 | 167.3654 | -80.4192 | 52.5 | top | \n| C4\
+  \ | 1uF | C0603 | 173.0855 | -86.1393 | 37.5 | top | \n| C5 | 1uF | C0603 | 177.1302\
+  \ | -93.1451 | 22.5 | top | \n| C7 | 1uF | C0603 | 179.2239 | -109.0483 | -7.5 |\
+  \ top | \n| C8 | 1uF | C0603 | 177.1302 | -116.8621 | -22.5 | top | \n| C10 | 1uF\
+  \ | C0603 | 167.3654 | -129.588 | -52.5 | top | \n| C12 | 1uF | C0603 | 152.5458\
+  \ | -135.7264 | -82.5 | top | \n| C14 | 1uF | C0603 | 136.6426 | -133.6327 | -112.5\
+  \ | top | \n| C16 | 1uF | C0603 | 123.9167 | -123.8679 | -142.5 | top | \n| C17\
+  \ | 1uF | C0603 | 119.872 | -116.8621 | -157.5 | top | \n| C19 | 1uF | C0603 | 117.7783\
+  \ | -100.9589 | 172.5 | top | \n| C20 | 1uF | C0603 | 119.872 | -93.1451 | 157.5\
+  \ | top | \n| C21 | 1uF | C0603 | 123.9167 | -86.1393 | 142.5 | top | \n| C22 |\
+  \ 1uF | C0603 | 129.6368 | -80.4192 | 127.5 | top | \n| D1 | MBR120 | SOD-123 |\
+  \ 136.3731 | -123.8696 | 90.0 | top | \n| FID1 | FIDUCIAL\"\" | FIDUCIAL_1MM | 116.8019\
+  \ | -109.1946 | 0.0 | top | \n| FID2 | FIDUCIAL\"\" | FIDUCIAL_1MM | 180.2003 |\
+  \ -100.838 | 0.0 | top | \n| IC1 | 74AHC1G125DBV | SOT23-5 | 145.4531 | -83.1596\
+  \ | 90.0 | top | \n| JP1 | nan | 1X01_ROUND | 148.5011 | -80.6196 | 0.0 | top |\
+  \ \n| JP2 | nan | 1X01-CLEANBIG | 136.4361 | -75.7936 | 0.0 | top | \n| LED1 | WS2812B5050\
+  \ | WS2812B-NARROW | 148.5011 | -75.7936 | 0.0 | top | \n| LED2 | WS2812B5050 |\
+  \ WS2812B-NARROW | 156.0612 | -76.789 | -15.0 | top | \n| LED3 | WS2812B5050 | WS2812B-NARROW\
+  \ | 163.1061 | -79.707 | -30.0 | top | \n| LED4 | WS2812B5050 | WS2812B-NARROW |\
+  \ 169.1556 | -84.3491 | -45.0 | top | \n| LED5 | WS2812B5050 | WS2812B-NARROW |\
+  \ 173.7977 | -90.3986 | -60.0 | top | \n| LED6 | WS2812B5050 | WS2812B-NARROW |\
+  \ 176.7157 | -97.4435 | -75.0 | top | \n| LED7 | WS2812B5050 | WS2812B-NARROW |\
+  \ 177.7111 | -105.0036 | -90.0 | top | \n| LED8 | WS2812B5050 | WS2812B-NARROW |\
+  \ 176.7157 | -112.5637 | -105.0 | top | \n| LED9 | WS2812B5050 | WS2812B-NARROW\
+  \ | 173.7977 | -119.6086 | -120.0 | top | \n| LED10 | WS2812B5050 | WS2812B-NARROW\
+  \ | 169.1556 | -125.6581 | -135.0 | top | \n| LED11 | WS2812B5050 | WS2812B-NARROW\
+  \ | 163.1061 | -130.3002 | -150.0 | top | \n| LED12 | WS2812B5050 | WS2812B-NARROW\
+  \ | 156.0612 | -133.2182 | -165.0 | top | \n| LED13 | WS2812B5050 | WS2812B-NARROW\
+  \ | 148.5011 | -134.2136 | 180.0 | top | \n| LED14 | WS2812B5050 | WS2812B-NARROW\
+  \ | 140.941 | -133.2182 | 165.0 | top | \n| LED15 | WS2812B5050 | WS2812B-NARROW\
+  \ | 133.8961 | -130.3002 | 150.0 | top | \n| LED16 | WS2812B5050 | WS2812B-NARROW\
+  \ | 127.8466 | -125.6581 | 135.0 | top | \n| LED17 | WS2812B5050 | WS2812B-NARROW\
+  \ | 123.2045 | -119.6086 | 120.0 | top | \n| LED18 | WS2812B5050 | WS2812B-NARROW\
+  \ | 120.2865 | -112.5637 | 105.0 | top | \n| LED19 | WS2812B5050 | WS2812B-NARROW\
+  \ | 119.2911 | -105.0036 | 90.0 | top | \n| LED20 | WS2812B5050 | WS2812B-NARROW\
+  \ | 120.2865 | -97.4435 | 75.0 | top | \n| LED21 | WS2812B5050 | WS2812B-NARROW\
+  \ | 123.2045 | -90.3986 | 60.0 | top | \n| LED22 | WS2812B5050 | WS2812B-NARROW\
+  \ | 127.8466 | -84.3491 | 45.0 | top | \n| LED23 | WS2812B5050 | WS2812B-NARROW\
+  \ | 133.8961 | -79.707 | 30.0 | top | \n| LED24 | WS2812B5050 | WS2812B-NARROW |\
+  \ 140.941 | -76.789 | 15.0 | top | \n| R1 | 470_ohm | 0603-NO | 141.4698 | -82.7115\
+  \ | 90.0 | top | \n| SJ2 | nan | SOLDERJUMPER_CLOSEDWIRE | 151.8031 | -99.1616 |\
+  \ 0.0 | top | \n| U$1 | nan | ADAFRUIT_9MM | 144.4371 | -110.0836 | 0.0 | top |\
+  \ \n| U$2 | PHOTON | SPARK_CORE_STACKABLE | 148.5011 | -100.4036 | 0.0 | top | \n\
+  | U$3 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN | 164.5011 | -89.0036\
+  \ | 0.0 | top | \n| U$4 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN | 132.5011\
+  \ | -89.0036 | 0.0 | top | \n| U$5 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | 132.5011 | -121.0036 | 0.0 | top | \n| U$6 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | 164.5011 | -121.0036 | 0.0 | top | \n| U$7 | nan | SYMBOL_PLUS | 138.8491 |\
+  \ -126.8476 | 0.0 | top | \n| U$8 | nan | SYMBOL_MINUS | 138.8491 | -120.2436 |\
+  \ 0.0 | top | \n| U$9 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN | 125.8951\
+  \ | -105.0036 | 0.0 | top | \n| U$10 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | 171.1071 | -105.0036 | 0.0 | top | \n| X1 | JST-2PH | JSTPH2 | 144.6011 | -123.5036\
+  \ | -90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_particle_spark_neopixel_ring_pcb_adafruit_neoparticle24/current_version/working
 repo:
   allow_forking: true

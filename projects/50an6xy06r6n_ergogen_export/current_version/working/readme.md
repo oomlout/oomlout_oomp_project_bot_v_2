@@ -12,6 +12,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/50an6xy06r6n/ergogen/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/50an6xy06r6n_ergogen_export/current_version/working  
 
 
 ## pcb  

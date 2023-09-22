@@ -1,4 +1,167 @@
 board: debugend_gpspreamp
+bom:
+- Id: '1'
+  Designator: J1
+  Footprint: TFML-110-02-L-D
+  Quantity: '1'
+  Designation: WEST TOP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J2
+  Footprint: TFML-110-02-L-D
+  Quantity: '1'
+  Designation: EAST TOP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R1
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: '120'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J5,J6,J7,J8
+  Footprint: SIL-254P-10
+  Quantity: '4'
+  Designation: CONN_01x10
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C1
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: "1\xC2\xB5"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C2
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C3
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: 200p
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: IC1
+  Footprint: DFN-6-EP-BGM
+  Quantity: '1'
+  Designation: BGM1043N7
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: L1
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: 9n1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: L2
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: 8n2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: L3,L4,L5
+  Footprint: '0402'
+  Quantity: '3'
+  Designation: 92n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: P2
+  Footprint: SMA-PTH
+  Quantity: '1'
+  Designation: ANTENNA
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: P3
+  Footprint: SMA-EDGE
+  Quantity: '1'
+  Designation: RECEIVER
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: J3
+  Footprint: SFML-110-02-L-D-LC
+  Quantity: '1'
+  Designation: WEST BOT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: J4
+  Footprint: SFML-110-02-L-D-LC
+  Quantity: '1'
+  Designation: EAST BOT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1\
+  \ | TFML-110-02-L-D | 1 | WEST TOP |  |  | [''] | \n| 2 | J2 | TFML-110-02-L-D |\
+  \ 1 | EAST TOP |  |  | [''] | \n| 3 | R1 | 0402 | 1 | 120 |  |  | [''] | \n| 4 |\
+  \ J5,J6,J7,J8 | SIL-254P-10 | 4 | CONN_01x10 |  |  | [''] | \n| 5 | C1 | 0402 |\
+  \ 1 | 1\xC2\xB5 |  |  | [''] | \n| 6 | C2 | 0402 | 1 | 100n |  |  | [''] | \n| 7\
+  \ | C3 | 0402 | 1 | 200p |  |  | [''] | \n| 8 | IC1 | DFN-6-EP-BGM | 1 | BGM1043N7\
+  \ |  |  | [''] | \n| 9 | L1 | 0402 | 1 | 9n1 |  |  | [''] | \n| 10 | L2 | 0402 |\
+  \ 1 | 8n2 |  |  | [''] | \n| 11 | L3,L4,L5 | 0402 | 3 | 92n |  |  | [''] | \n| 12\
+  \ | P2 | SMA-PTH | 1 | ANTENNA |  |  | [''] | \n| 13 | P3 | SMA-EDGE | 1 | RECEIVER\
+  \ |  |  | [''] | \n| 14 | J3 | SFML-110-02-L-D-LC | 1 | WEST BOT |  |  | [''] |\
+  \ \n| 15 | J4 | SFML-110-02-L-D-LC | 1 | EAST BOT |  |  | [''] | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_m3_avionics_debugend_gpspreamp/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_m3_avionics_m3debug_end/current_version/working/working.kicad_pcb
@@ -6,6 +169,167 @@ file_repo_bom_xlsx_flat: projects/adamgreig_m3_avionics_debugend_gpspreamp/curre
 file_sch_flat: projects/adamgreig_m3_avionics_m3debug_end/current_version/working/working.sch
 id: adamgreig_m3_avionics_debugend_gpspreamp
 name: m3_avionics
+position_bottom:
+- '# Ref': J3
+  Package: SFML-110-02-L-D-LC
+  PosX: 108.0
+  PosY: -113.0
+  Rot: -90.0
+  Side: bottom
+  Val: WEST_BOT
+- '# Ref': J4
+  Package: SFML-110-02-L-D-LC
+  PosX: 138.0
+  PosY: -113.0
+  Rot: -90.0
+  Side: bottom
+  Val: EAST_BOT
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J3 | WEST_BOT | SFML-110-02-L-D-LC\
+  \ | 108.0 | -113.0 | -90.0 | bottom | \n| J4 | EAST_BOT | SFML-110-02-L-D-LC | 138.0\
+  \ | -113.0 | -90.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: '0402'
+  PosX: 120.65
+  PosY: -111.95
+  Rot: 90.0
+  Side: top
+  Val: "1\xC2\xB5"
+- '# Ref': C2
+  Package: '0402'
+  PosX: 121.85
+  PosY: -111.95
+  Rot: 90.0
+  Side: top
+  Val: 100n
+- '# Ref': C3
+  Package: '0402'
+  PosX: 125.05
+  PosY: -109.8
+  Rot: 90.0
+  Side: top
+  Val: 200p
+- '# Ref': IC1
+  Package: DFN-6-EP-BGM
+  PosX: 124.05
+  PosY: -111.95
+  Rot: 0.0
+  Side: top
+  Val: BGM1043N7
+- '# Ref': J1
+  Package: TFML-110-02-L-D
+  PosX: 108.0
+  PosY: -113.0
+  Rot: -90.0
+  Side: top
+  Val: WEST_TOP
+- '# Ref': J2
+  Package: TFML-110-02-L-D
+  PosX: 138.0
+  PosY: -113.0
+  Rot: -90.0
+  Side: top
+  Val: EAST_TOP
+- '# Ref': J5
+  Package: SIL-254P-10
+  PosX: 102.0
+  PosY: -113.0
+  Rot: -90.0
+  Side: top
+  Val: CONN_01x10
+- '# Ref': J6
+  Package: SIL-254P-10
+  PosX: 114.0
+  PosY: -113.0
+  Rot: -90.0
+  Side: top
+  Val: CONN_01x10
+- '# Ref': J7
+  Package: SIL-254P-10
+  PosX: 132.0
+  PosY: -113.0
+  Rot: -90.0
+  Side: top
+  Val: CONN_01x10
+- '# Ref': J8
+  Package: SIL-254P-10
+  PosX: 144.0
+  PosY: -113.0
+  Rot: -90.0
+  Side: top
+  Val: CONN_01x10
+- '# Ref': L1
+  Package: '0402'
+  PosX: 123.5
+  PosY: -113.65
+  Rot: 0.0
+  Side: top
+  Val: 9n1
+- '# Ref': L2
+  Package: '0402'
+  PosX: 126.25
+  PosY: -111.95
+  Rot: 90.0
+  Side: top
+  Val: 8n2
+- '# Ref': L3
+  Package: '0402'
+  PosX: 120.1
+  PosY: -110.25
+  Rot: 0.0
+  Side: top
+  Val: 92n
+- '# Ref': L4
+  Package: '0402'
+  PosX: 121.75
+  PosY: -109.8
+  Rot: 90.0
+  Side: top
+  Val: 92n
+- '# Ref': L5
+  Package: '0402'
+  PosX: 123.4
+  PosY: -109.35
+  Rot: 0.0
+  Side: top
+  Val: 92n
+- '# Ref': P2
+  Package: SMA-PTH
+  PosX: 123.0
+  PosY: -118.45
+  Rot: 90.0
+  Side: top
+  Val: ANTENNA
+- '# Ref': P3
+  Package: SMA-EDGE
+  PosX: 123.0
+  PosY: -106.0
+  Rot: 0.0
+  Side: top
+  Val: RECEIVER
+- '# Ref': R1
+  Package: '0402'
+  PosX: 112.0
+  PosY: -117.5
+  Rot: 90.0
+  Side: top
+  Val: '120'
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 1\xC2\xB5 | 0402 | 120.65 | -111.95\
+  \ | 90.0 | top | \n| C2 | 100n | 0402 | 121.85 | -111.95 | 90.0 | top | \n| C3 |\
+  \ 200p | 0402 | 125.05 | -109.8 | 90.0 | top | \n| IC1 | BGM1043N7 | DFN-6-EP-BGM\
+  \ | 124.05 | -111.95 | 0.0 | top | \n| J1 | WEST_TOP | TFML-110-02-L-D | 108.0 |\
+  \ -113.0 | -90.0 | top | \n| J2 | EAST_TOP | TFML-110-02-L-D | 138.0 | -113.0 |\
+  \ -90.0 | top | \n| J5 | CONN_01x10 | SIL-254P-10 | 102.0 | -113.0 | -90.0 | top\
+  \ | \n| J6 | CONN_01x10 | SIL-254P-10 | 114.0 | -113.0 | -90.0 | top | \n| J7 |\
+  \ CONN_01x10 | SIL-254P-10 | 132.0 | -113.0 | -90.0 | top | \n| J8 | CONN_01x10\
+  \ | SIL-254P-10 | 144.0 | -113.0 | -90.0 | top | \n| L1 | 9n1 | 0402 | 123.5 | -113.65\
+  \ | 0.0 | top | \n| L2 | 8n2 | 0402 | 126.25 | -111.95 | 90.0 | top | \n| L3 | 92n\
+  \ | 0402 | 120.1 | -110.25 | 0.0 | top | \n| L4 | 92n | 0402 | 121.75 | -109.8 |\
+  \ 90.0 | top | \n| L5 | 92n | 0402 | 123.4 | -109.35 | 0.0 | top | \n| P2 | ANTENNA\
+  \ | SMA-PTH | 123.0 | -118.45 | 90.0 | top | \n| P3 | RECEIVER | SMA-EDGE | 123.0\
+  \ | -106.0 | 0.0 | top | \n| R1 | 120 | 0402 | 112.0 | -117.5 | 90.0 | top | \n"
 projects_flat: projects/adamgreig_m3_avionics_debugend_gpspreamp/current_version/working
 repo:
   allow_forking: true

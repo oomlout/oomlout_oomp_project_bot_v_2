@@ -1,9 +1,435 @@
 board: adafruit_at42qt1010_breakout
+bom:
+- Id: '1'
+  Designator: SJ1
+  Footprint: SOLDERJUMPER_CLOSEDWIRE
+  Quantity: '1'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$9,U$6,U$10,U$11
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '4'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: SJ2
+  Footprint: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  Quantity: '1'
+  Designation: MODE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: JP1
+  Footprint: 1X04_ROUND_76
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: LED1
+  Footprint: PLCC2_REVMOUNT
+  Quantity: '1'
+  Designation: LS T77K-J1L2-1-0-2-R18-Z
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R1
+  Footprint: _0805
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: FID1,FID2
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C3
+  Footprint: _0805
+  Quantity: '1'
+  Designation: "0.1\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: C1
+  Footprint: _0805
+  Quantity: '1'
+  Designation: 22nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U1
+  Footprint: SOT23-6
+  Quantity: '1'
+  Designation: AT42QT1010
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: R2
+  Footprint: _0805
+  Quantity: '1'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U$12
+  Footprint: ADAFRUIT_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: SW1
+  Footprint: CAPTOUCH_SIMPLE_12.5MM
+  Quantity: '1'
+  Designation: Cap pad
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | SJ1\
+  \ | SOLDERJUMPER_CLOSEDWIRE | 1 | LED |  |  | [''] | \n| 2 | U$9,U$6,U$10,U$11 |\
+  \ MOUNTINGHOLE_2.5_PLATED | 4 | MOUNTINGHOLE2.5 |  |  | [''] | \n| 3 | SJ2 | SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ | 1 | MODE |  |  | [''] | \n| 4 | JP1 | 1X04_ROUND_76 | 1 |  |  |  | [''] | \n\
+  | 5 | LED1 | PLCC2_REVMOUNT | 1 | LS T77K-J1L2-1-0-2-R18-Z |  |  | [''] | \n| 6\
+  \ | R1 | _0805 | 1 | 10K |  |  | [''] | \n| 7 | FID1,FID2 | FIDUCIAL_1MM | 2 | FIDUCIAL\"\
+  \ |  |  | [''] | \n| 8 | C3 | _0805 | 1 | 0.1\xC2\xB5F |  |  | [''] | \n| 9 | C1\
+  \ | _0805 | 1 | 22nF |  |  | [''] | \n| 10 | U1 | SOT23-6 | 1 | AT42QT1010 |  |\
+  \  | [''] | \n| 11 | R2 | _0805 | 1 | 1K |  |  | [''] | \n| 12 | U$12 | ADAFRUIT_5MM\
+  \ | 1 |  |  |  | [''] | \n| 13 | SW1 | CAPTOUCH_SIMPLE_12.5MM | 1 | Cap pad |  |\
+  \  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC_0805
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805
+  Qnty: '1'
+  Ref: C1
+  Value: 22nF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC_0805
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805
+  Qnty: '1'
+  Ref: C3
+  Value: "0.1\xC2\xB5F"
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: HEADER-1X476MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X04_ROUND_76
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X476MIL
+  Vendor: ''
+- Cmp name: LEDPLCC2_REV
+  DNP: ''
+  Description: ''
+  Footprint: working:PLCC2_REVMOUNT
+  Qnty: '1'
+  Ref: LED1
+  Value: LS T77K-J1L2-1-0-2-R18-Z
+  Vendor: ''
+- Cmp name: RESISTOR_0805
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805
+  Qnty: '1'
+  Ref: R1
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_0805
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805
+  Qnty: '1'
+  Ref: R2
+  Value: 1K
+  Vendor: ''
+- Cmp name: SOLDERJUMPERCLOSED
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_CLOSEDWIRE
+  Qnty: '1'
+  Ref: SJ1
+  Value: LED
+  Vendor: ''
+- Cmp name: SOLDERJUMPER_2WAY
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  Qnty: '1'
+  Ref: SJ2
+  Value: MODE
+  Vendor: ''
+- Cmp name: SWITCH_CAPTOUCHATMELAT42QT
+  DNP: ''
+  Description: ''
+  Footprint: working:CAPTOUCH_SIMPLE_12.5MM
+  Qnty: '1'
+  Ref: SW1
+  Value: Cap pad
+  Vendor: ''
+- Cmp name: AT42QT1010/1
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-6
+  Qnty: '1'
+  Ref: U1
+  Value: AT42QT1010
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '4'
+  Ref: U$6, U$9, U$10, U$11
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 22nF | CAP_CERAMIC_0805 | working:_0805 |  |  |  | \n| C3 | 1 | 0.1\xC2\xB5\
+  F | CAP_CERAMIC_0805 | working:_0805 |  |  |  | \n| FID1, FID2 | 2 | FIDUCIAL\"\"\
+  \ | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | \n| JP1 | 1 |\
+  \ HEADER-1X476MIL | HEADER-1X476MIL | working:1X04_ROUND_76 |  |  |  | \n| LED1\
+  \ | 1 | LS T77K-J1L2-1-0-2-R18-Z | LEDPLCC2_REV | working:PLCC2_REVMOUNT |  |  |\
+  \  | \n| R1 | 1 | 10K | RESISTOR_0805 | working:_0805 |  |  |  | \n| R2 | 1 | 1K\
+  \ | RESISTOR_0805 | working:_0805 |  |  |  | \n| SJ1 | 1 | LED | SOLDERJUMPERCLOSED\
+  \ | working:SOLDERJUMPER_CLOSEDWIRE |  |  |  | \n| SJ2 | 1 | MODE | SOLDERJUMPER_2WAY\
+  \ | working:SOLDERJUMPER_2WAY_OPEN_NOPASTE |  |  |  | \n| SW1 | 1 | Cap pad | SWITCH_CAPTOUCHATMELAT42QT\
+  \ | working:CAPTOUCH_SIMPLE_12.5MM |  |  |  | \n| U1 | 1 | AT42QT1010 | AT42QT1010/1\
+  \ | working:SOT23-6 |  |  |  | \n| U$6, U$9, U$10, U$11 | 4 | MOUNTINGHOLE2.5 |\
+  \ MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_standalone_capacitive_sensor_pcb_adafruit_at42qt1010_breakout/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_standalone_capacitive_sensor_pcb_adafruit_at42qt1010_breakout/current_version/working/working.sch
 id: adafruit_adafruit_standalone_capacitive_sensor_pcb_adafruit_at42qt1010_breakout
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$6
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '15.240000000000009'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$9
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$10
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '15.240000000000009'
+  y: '22.86'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$11
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '22.86'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 15.240000000000009 | 0.0 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$6 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$9 | m3 | \n| 15.240000000000009 | 22.86 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$10 | m3 | \n| 0.0 | 22.86 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$11\
+  \ | m3 | \n"
 name: adafruit_standalone_capacitive_sensor_pcb
+position_bottom:
+- '# Ref': SW1
+  Package: CAPTOUCH_SIMPLE_12.5MM
+  PosX: 148.5711
+  PosY: -101.7336
+  Rot: 180.0
+  Side: bottom
+  Val: Cap_pad
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| SW1 | Cap_pad | CAPTOUCH_SIMPLE_12.5MM\
+  \ | 148.5711 | -101.7336 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: _0805
+  PosX: 148.5711
+  PosY: -111.5776
+  Rot: 180.0
+  Side: top
+  Val: 22nF
+- '# Ref': C3
+  Package: _0805
+  PosX: 142.7971
+  PosY: -111.7776
+  Rot: 90.0
+  Side: top
+  Val: "0.1\xC2\xB5F"
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 157.4071
+  PosY: -113.3856
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 143.6751
+  PosY: -92.0496
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': JP1
+  Package: 1X04_ROUND_76
+  PosX: 148.5711
+  PosY: -117.0686
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': LED1
+  Package: PLCC2_REVMOUNT
+  PosX: 148.5711
+  PosY: -93.2166
+  Rot: 180.0
+  Side: top
+  Val: LS_T77K-J1L2-1-0-2-R18-Z
+- '# Ref': R1
+  Package: _0805
+  PosX: 151.7511
+  PosY: -111.4236
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: _0805
+  PosX: 155.2551
+  PosY: -111.3866
+  Rot: -90.0
+  Side: top
+  Val: 1K
+- '# Ref': SJ1
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 140.0161
+  PosY: -110.5916
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': SJ2
+  Package: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  PosX: 145.1991
+  PosY: -113.1316
+  Rot: 90.0
+  Side: top
+  Val: MODE
+- '# Ref': U$6
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 156.1211
+  PosY: -116.4336
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$9
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 140.8811
+  PosY: -116.4336
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$10
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 156.1211
+  PosY: -93.5736
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$11
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 140.8811
+  PosY: -93.5736
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$12
+  Package: ADAFRUIT_5MM
+  PosX: 146.2151
+  PosY: -107.7976
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U1
+  Package: SOT23-6
+  PosX: 148.5611
+  PosY: -114.1536
+  Rot: 90.0
+  Side: top
+  Val: AT42QT1010
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 22nF | _0805 | 148.5711 | -111.5776\
+  \ | 180.0 | top | \n| C3 | 0.1\xC2\xB5F | _0805 | 142.7971 | -111.7776 | 90.0 |\
+  \ top | \n| FID1 | FIDUCIAL\"\" | FIDUCIAL_1MM | 157.4071 | -113.3856 | 0.0 | top\
+  \ | \n| FID2 | FIDUCIAL\"\" | FIDUCIAL_1MM | 143.6751 | -92.0496 | 0.0 | top | \n\
+  | JP1 | nan | 1X04_ROUND_76 | 148.5711 | -117.0686 | 0.0 | top | \n| LED1 | LS_T77K-J1L2-1-0-2-R18-Z\
+  \ | PLCC2_REVMOUNT | 148.5711 | -93.2166 | 180.0 | top | \n| R1 | 10K | _0805 |\
+  \ 151.7511 | -111.4236 | 90.0 | top | \n| R2 | 1K | _0805 | 155.2551 | -111.3866\
+  \ | -90.0 | top | \n| SJ1 | LED | SOLDERJUMPER_CLOSEDWIRE | 140.0161 | -110.5916\
+  \ | 90.0 | top | \n| SJ2 | MODE | SOLDERJUMPER_2WAY_OPEN_NOPASTE | 145.1991 | -113.1316\
+  \ | 90.0 | top | \n| U$6 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 156.1211\
+  \ | -116.4336 | 0.0 | top | \n| U$9 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 140.8811 | -116.4336 | 0.0 | top | \n| U$10 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 156.1211 | -93.5736 | 0.0 | top | \n| U$11 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 140.8811 | -93.5736 | 0.0 | top | \n| U$12 | nan | ADAFRUIT_5MM | 146.2151 |\
+  \ -107.7976 | 0.0 | top | \n| U1 | AT42QT1010 | SOT23-6 | 148.5611 | -114.1536 |\
+  \ 90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_standalone_capacitive_sensor_pcb_adafruit_at42qt1010_breakout/current_version/working
 repo:
   allow_forking: true

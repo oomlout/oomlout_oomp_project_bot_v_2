@@ -1,10 +1,575 @@
 board: keyboard_controller
+bom:
+- Id: '1'
+  Designator: D1,D2,D3,D4,D5,D6,D7,D8,D9,D10
+  Footprint: LED_0805
+  Quantity: '10'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9
+  Footprint: PTS645SK43SMTR92
+  Quantity: '9'
+  Designation: SW_Push
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: REF**,REF**,REF**,REF**
+  Footprint: MountingHole_3mm
+  Quantity: '4'
+  Designation: MountingHole_3mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R1,R2,R3,R4,R5,R6,R7,R8,R9,R10
+  Footprint: R_0805_HandSoldering
+  Quantity: '10'
+  Designation: '500'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28
+  Footprint: R_0805_HandSoldering
+  Quantity: '18'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U1
+  Footprint: Teensy-32
+  Quantity: '1'
+  Designation: Teensy-3.2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D1,D2,D3,D4,D5,D6,D7,D8,D9,D10\
+  \ | LED_0805 | 10 | LED |  |  | [''] | \n| 2 | SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9\
+  \ | PTS645SK43SMTR92 | 9 | SW_Push |  |  | [''] | \n| 3 | REF**,REF**,REF**,REF**\
+  \ | MountingHole_3mm | 4 | MountingHole_3mm |  |  | [''] | \n| 4 | R1,R2,R3,R4,R5,R6,R7,R8,R9,R10\
+  \ | R_0805_HandSoldering | 10 | 500 |  |  | [''] | \n| 5 | R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28\
+  \ | R_0805_HandSoldering | 18 | 1K |  |  | [''] | \n| 6 | U1 | Teensy-32 | 1 | Teensy-3.2\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: LED
+  DNP: ''
+  Description: ''
+  Footprint: LEDs:LED_0805
+  Qnty: '10'
+  Ref: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10
+  Value: LED
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0805_HandSoldering
+  Qnty: '10'
+  Ref: R1, R2, R3, R4, R5, R6, R7, R8, R9, R10
+  Value: '500'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0805_HandSoldering
+  Qnty: '18'
+  Ref: R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25,
+    R26, R27, R28
+  Value: 1K
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: ''
+  Footprint: Key:PTS645SK43SMTR92
+  Qnty: '9'
+  Ref: SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9
+  Value: SW_Push
+  Vendor: ''
+- Cmp name: Teensy-3.2
+  DNP: ''
+  Description: ''
+  Footprint: Key:Teensy-32
+  Qnty: '1'
+  Ref: U1
+  Value: Teensy-3.2
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| D1, D2,\
+  \ D3, D4, D5, D6, D7, D8, D9, D10 | 10 | LED | LED | LEDs:LED_0805 |  |  |  | \n\
+  | R1, R2, R3, R4, R5, R6, R7, R8, R9, R10 | 10 | 500 | R | Resistors_SMD:R_0805_HandSoldering\
+  \ |  |  |  | \n| R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23,\
+  \ R24, R25, R26, R27, R28 | 18 | 1K | R | Resistors_SMD:R_0805_HandSoldering | \
+  \ |  |  | \n| SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9 | 9 | SW_Push | SW_Push\
+  \ | Key:PTS645SK43SMTR92 |  |  |  | \n| U1 | 1 | Teensy-3.2 | Teensy-3.2 | Key:Teensy-32\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/contextualelectronics_keyboard_controller_keyboard_controller/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/contextualelectronics_keyboard_controller_keyboard_controller/current_version/working/working.kicad_pcb
 file_sch_flat: projects/contextualelectronics_keyboard_controller_keyboard_controller/current_version/working/working.sch
 id: contextualelectronics_keyboard_controller_keyboard_controller
+mounting_holes:
+- package: MountingHole_3mm
+  ref: REF**
+  size: m3
+  value: MountingHole_3mm
+  x: '68.58'
+  y: '93.98'
+- package: MountingHole_3mm
+  ref: REF**
+  size: m3
+  value: MountingHole_3mm
+  x: '0.0'
+  y: '93.98'
+- package: MountingHole_3mm
+  ref: REF**
+  size: m3
+  value: MountingHole_3mm
+  x: '0.0'
+  y: '0.0'
+- package: MountingHole_3mm
+  ref: REF**
+  size: m3
+  value: MountingHole_3mm
+  x: '68.58'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 68.58 | 93.98 | MountingHole_3mm | MountingHole_3mm\
+  \ | REF** | m3 | \n| 0.0 | 93.98 | MountingHole_3mm | MountingHole_3mm | REF** |\
+  \ m3 | \n| 0.0 | 0.0 | MountingHole_3mm | MountingHole_3mm | REF** | m3 | \n| 68.58\
+  \ | 0.0 | MountingHole_3mm | MountingHole_3mm | REF** | m3 | \n"
 name: keyboard_controller
+position_bottom:
+- '# Ref': R1
+  Package: R_0805_HandSoldering
+  PosX: 134.62
+  PosY: -134.62
+  Rot: 180.0
+  Side: bottom
+  Val: '500'
+- '# Ref': R2
+  Package: R_0805_HandSoldering
+  PosX: 112.395
+  PosY: -47.625
+  Rot: 0.0
+  Side: bottom
+  Val: '500'
+- '# Ref': R3
+  Package: R_0805_HandSoldering
+  PosX: 137.795
+  PosY: -47.625
+  Rot: 0.0
+  Side: bottom
+  Val: '500'
+- '# Ref': R4
+  Package: R_0805_HandSoldering
+  PosX: 160.655
+  PosY: -47.625
+  Rot: 0.0
+  Side: bottom
+  Val: '500'
+- '# Ref': R5
+  Package: R_0805_HandSoldering
+  PosX: 112.395
+  PosY: -78.105
+  Rot: 0.0
+  Side: bottom
+  Val: '500'
+- '# Ref': R6
+  Package: R_0805_HandSoldering
+  PosX: 137.795
+  PosY: -83.82
+  Rot: 0.0
+  Side: bottom
+  Val: '500'
+- '# Ref': R7
+  Package: R_0805_HandSoldering
+  PosX: 160.02
+  PosY: -78.74
+  Rot: 0.0
+  Side: bottom
+  Val: '500'
+- '# Ref': R8
+  Package: R_0805_HandSoldering
+  PosX: 111.76
+  PosY: -109.22
+  Rot: 0.0
+  Side: bottom
+  Val: '500'
+- '# Ref': R9
+  Package: R_0805_HandSoldering
+  PosX: 137.16
+  PosY: -109.22
+  Rot: 0.0
+  Side: bottom
+  Val: '500'
+- '# Ref': R10
+  Package: R_0805_HandSoldering
+  PosX: 160.02
+  PosY: -109.22
+  Rot: 0.0
+  Side: bottom
+  Val: '500'
+- '# Ref': R11
+  Package: R_0805_HandSoldering
+  PosX: 111.125
+  PosY: -58.42
+  Rot: 180.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R12
+  Package: R_0805_HandSoldering
+  PosX: 111.125
+  PosY: -63.5
+  Rot: 0.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R13
+  Package: R_0805_HandSoldering
+  PosX: 136.525
+  PosY: -57.785
+  Rot: 180.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R14
+  Package: R_0805_HandSoldering
+  PosX: 136.525
+  PosY: -62.23
+  Rot: 0.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R15
+  Package: R_0805_HandSoldering
+  PosX: 158.115
+  PosY: -58.42
+  Rot: 180.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R16
+  Package: R_0805_HandSoldering
+  PosX: 158.115
+  PosY: -63.5
+  Rot: 0.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R17
+  Package: R_0805_HandSoldering
+  PosX: 111.125
+  PosY: -88.9
+  Rot: 180.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R18
+  Package: R_0805_HandSoldering
+  PosX: 111.125
+  PosY: -92.71
+  Rot: 0.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R19
+  Package: R_0805_HandSoldering
+  PosX: 137.16
+  PosY: -88.9
+  Rot: 180.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R20
+  Package: R_0805_HandSoldering
+  PosX: 137.16
+  PosY: -92.075
+  Rot: 0.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R21
+  Package: R_0805_HandSoldering
+  PosX: 158.75
+  PosY: -88.9
+  Rot: 180.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R22
+  Package: R_0805_HandSoldering
+  PosX: 158.75
+  PosY: -92.075
+  Rot: 0.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R23
+  Package: R_0805_HandSoldering
+  PosX: 109.22
+  PosY: -119.38
+  Rot: 180.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R24
+  Package: R_0805_HandSoldering
+  PosX: 109.22
+  PosY: -123.825
+  Rot: 0.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R25
+  Package: R_0805_HandSoldering
+  PosX: 136.525
+  PosY: -118.745
+  Rot: 180.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R26
+  Package: R_0805_HandSoldering
+  PosX: 136.525
+  PosY: -124.46
+  Rot: 0.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R27
+  Package: R_0805_HandSoldering
+  PosX: 159.385
+  PosY: -125.095
+  Rot: 0.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R28
+  Package: R_0805_HandSoldering
+  PosX: 159.385
+  PosY: -118.745
+  Rot: 180.0
+  Side: bottom
+  Val: 1K
+- '# Ref': U1
+  Package: Teensy-32
+  PosX: 136.525
+  PosY: -60.96
+  Rot: 180.0
+  Side: bottom
+  Val: Teensy-3.2
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| R1 | 500 | R_0805_HandSoldering\
+  \ | 134.62 | -134.62 | 180.0 | bottom | \n| R2 | 500 | R_0805_HandSoldering | 112.395\
+  \ | -47.625 | 0.0 | bottom | \n| R3 | 500 | R_0805_HandSoldering | 137.795 | -47.625\
+  \ | 0.0 | bottom | \n| R4 | 500 | R_0805_HandSoldering | 160.655 | -47.625 | 0.0\
+  \ | bottom | \n| R5 | 500 | R_0805_HandSoldering | 112.395 | -78.105 | 0.0 | bottom\
+  \ | \n| R6 | 500 | R_0805_HandSoldering | 137.795 | -83.82 | 0.0 | bottom | \n|\
+  \ R7 | 500 | R_0805_HandSoldering | 160.02 | -78.74 | 0.0 | bottom | \n| R8 | 500\
+  \ | R_0805_HandSoldering | 111.76 | -109.22 | 0.0 | bottom | \n| R9 | 500 | R_0805_HandSoldering\
+  \ | 137.16 | -109.22 | 0.0 | bottom | \n| R10 | 500 | R_0805_HandSoldering | 160.02\
+  \ | -109.22 | 0.0 | bottom | \n| R11 | 1K | R_0805_HandSoldering | 111.125 | -58.42\
+  \ | 180.0 | bottom | \n| R12 | 1K | R_0805_HandSoldering | 111.125 | -63.5 | 0.0\
+  \ | bottom | \n| R13 | 1K | R_0805_HandSoldering | 136.525 | -57.785 | 180.0 | bottom\
+  \ | \n| R14 | 1K | R_0805_HandSoldering | 136.525 | -62.23 | 0.0 | bottom | \n|\
+  \ R15 | 1K | R_0805_HandSoldering | 158.115 | -58.42 | 180.0 | bottom | \n| R16\
+  \ | 1K | R_0805_HandSoldering | 158.115 | -63.5 | 0.0 | bottom | \n| R17 | 1K |\
+  \ R_0805_HandSoldering | 111.125 | -88.9 | 180.0 | bottom | \n| R18 | 1K | R_0805_HandSoldering\
+  \ | 111.125 | -92.71 | 0.0 | bottom | \n| R19 | 1K | R_0805_HandSoldering | 137.16\
+  \ | -88.9 | 180.0 | bottom | \n| R20 | 1K | R_0805_HandSoldering | 137.16 | -92.075\
+  \ | 0.0 | bottom | \n| R21 | 1K | R_0805_HandSoldering | 158.75 | -88.9 | 180.0\
+  \ | bottom | \n| R22 | 1K | R_0805_HandSoldering | 158.75 | -92.075 | 0.0 | bottom\
+  \ | \n| R23 | 1K | R_0805_HandSoldering | 109.22 | -119.38 | 180.0 | bottom | \n\
+  | R24 | 1K | R_0805_HandSoldering | 109.22 | -123.825 | 0.0 | bottom | \n| R25 |\
+  \ 1K | R_0805_HandSoldering | 136.525 | -118.745 | 180.0 | bottom | \n| R26 | 1K\
+  \ | R_0805_HandSoldering | 136.525 | -124.46 | 0.0 | bottom | \n| R27 | 1K | R_0805_HandSoldering\
+  \ | 159.385 | -125.095 | 0.0 | bottom | \n| R28 | 1K | R_0805_HandSoldering | 159.385\
+  \ | -118.745 | 180.0 | bottom | \n| U1 | Teensy-3.2 | Teensy-32 | 136.525 | -60.96\
+  \ | 180.0 | bottom | \n"
+position_top:
+- '# Ref': D1
+  Package: LED_0805
+  PosX: 135.255
+  PosY: -137.16
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D2
+  Package: LED_0805
+  PosX: 111.76
+  PosY: -50.8
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D3
+  Package: LED_0805
+  PosX: 137.16
+  PosY: -50.8
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D4
+  Package: LED_0805
+  PosX: 160.02
+  PosY: -50.8
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D5
+  Package: LED_0805
+  PosX: 111.76
+  PosY: -81.28
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D6
+  Package: LED_0805
+  PosX: 137.16
+  PosY: -81.28
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D7
+  Package: LED_0805
+  PosX: 160.02
+  PosY: -81.28
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D8
+  Package: LED_0805
+  PosX: 111.76
+  PosY: -111.76
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D9
+  Package: LED_0805
+  PosX: 137.795
+  PosY: -111.76
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D10
+  Package: LED_0805
+  PosX: 160.02
+  PosY: -111.76
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': REF**
+  Package: MountingHole_3mm
+  PosX: 168.91
+  PosY: -44.45
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3mm
+- '# Ref': REF**
+  Package: MountingHole_3mm
+  PosX: 100.33
+  PosY: -44.45
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3mm
+- '# Ref': REF**
+  Package: MountingHole_3mm
+  PosX: 100.33
+  PosY: -138.43
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3mm
+- '# Ref': REF**
+  Package: MountingHole_3mm
+  PosX: 168.91
+  PosY: -138.43
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3mm
+- '# Ref': SW1
+  Package: PTS645SK43SMTR92
+  PosX: 106.68
+  PosY: -55.88
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW2
+  Package: PTS645SK43SMTR92
+  PosX: 132.08
+  PosY: -55.88
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW3
+  Package: PTS645SK43SMTR92
+  PosX: 154.94
+  PosY: -55.88
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW4
+  Package: PTS645SK43SMTR92
+  PosX: 106.68
+  PosY: -86.36
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW5
+  Package: PTS645SK43SMTR92
+  PosX: 132.08
+  PosY: -86.36
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW6
+  Package: PTS645SK43SMTR92
+  PosX: 154.94
+  PosY: -86.36
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW7
+  Package: PTS645SK43SMTR92
+  PosX: 106.68
+  PosY: -116.84
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW8
+  Package: PTS645SK43SMTR92
+  PosX: 132.08
+  PosY: -116.84
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW9
+  Package: PTS645SK43SMTR92
+  PosX: 154.94
+  PosY: -116.84
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| D1 | LED | LED_0805 | 135.255 | -137.16\
+  \ | 0.0 | top | \n| D2 | LED | LED_0805 | 111.76 | -50.8 | 0.0 | top | \n| D3 |\
+  \ LED | LED_0805 | 137.16 | -50.8 | 0.0 | top | \n| D4 | LED | LED_0805 | 160.02\
+  \ | -50.8 | 0.0 | top | \n| D5 | LED | LED_0805 | 111.76 | -81.28 | 0.0 | top |\
+  \ \n| D6 | LED | LED_0805 | 137.16 | -81.28 | 0.0 | top | \n| D7 | LED | LED_0805\
+  \ | 160.02 | -81.28 | 0.0 | top | \n| D8 | LED | LED_0805 | 111.76 | -111.76 | 0.0\
+  \ | top | \n| D9 | LED | LED_0805 | 137.795 | -111.76 | 0.0 | top | \n| D10 | LED\
+  \ | LED_0805 | 160.02 | -111.76 | 0.0 | top | \n| REF** | MountingHole_3mm | MountingHole_3mm\
+  \ | 168.91 | -44.45 | 0.0 | top | \n| REF** | MountingHole_3mm | MountingHole_3mm\
+  \ | 100.33 | -44.45 | 0.0 | top | \n| REF** | MountingHole_3mm | MountingHole_3mm\
+  \ | 100.33 | -138.43 | 0.0 | top | \n| REF** | MountingHole_3mm | MountingHole_3mm\
+  \ | 168.91 | -138.43 | 0.0 | top | \n| SW1 | SW_Push | PTS645SK43SMTR92 | 106.68\
+  \ | -55.88 | 0.0 | top | \n| SW2 | SW_Push | PTS645SK43SMTR92 | 132.08 | -55.88\
+  \ | 0.0 | top | \n| SW3 | SW_Push | PTS645SK43SMTR92 | 154.94 | -55.88 | 0.0 | top\
+  \ | \n| SW4 | SW_Push | PTS645SK43SMTR92 | 106.68 | -86.36 | 0.0 | top | \n| SW5\
+  \ | SW_Push | PTS645SK43SMTR92 | 132.08 | -86.36 | 0.0 | top | \n| SW6 | SW_Push\
+  \ | PTS645SK43SMTR92 | 154.94 | -86.36 | 0.0 | top | \n| SW7 | SW_Push | PTS645SK43SMTR92\
+  \ | 106.68 | -116.84 | 0.0 | top | \n| SW8 | SW_Push | PTS645SK43SMTR92 | 132.08\
+  \ | -116.84 | 0.0 | top | \n| SW9 | SW_Push | PTS645SK43SMTR92 | 154.94 | -116.84\
+  \ | 0.0 | top | \n"
 projects_flat: projects/contextualelectronics_keyboard_controller_keyboard_controller/current_version/working
 repo:
   allow_forking: true

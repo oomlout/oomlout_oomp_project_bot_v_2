@@ -1,0 +1,64 @@
+# basebandboard
+ 
+## summary 
+* id: adamgreig_basebandboard_adcdac
+* user: adamgreig
+* name: basebandboard
+* board: adcdac
+* repo: https://github.com/adamgreig/basebandboard
+* src_file_repo_kicad_pcb: hardware/prototype/adcdac/adcdac.kicad_pcb
+* src_file_repo_kicad_pcb_link: https://github.com/adamgreig/basebandboard/tree/master/hardware/prototype/adcdac/adcdac.kicad_pcb
+
+
+* src_file_repo_sch: hardware/prototype/adcdac/adcdac.sch
+* src_file_repo_sch_link: https://github.com/adamgreig/basebandboard/tree/master/hardware/prototype/adcdac/adcdac.sch
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adamgreig_basebandboard_adcdac/current_version/working  
+
+## schematic  
+![](working_schematic_600.png)  
+[schematic (pdf)](working_schematic.pdf)  
+
+## pcb  
+![](working_3d_600.png) 
+![](working_3d_front_600.png)  
+![](working_3d_back_600.png)  
+![](working_600.png)  
+[board (pdf)](working.pdf)  
+
+## working_bom
+| Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| 1 | IC5 | TSSOP-28 | 1 | AD9744 |  |  | [''] | 
+| 2 | IC8 | SOIC-8 | 1 | AD8041 |  |  | [''] | 
+| 3 | IC3,IC2 | SOIC-8 | 2 | AD8138 |  |  | [''] | 
+| 4 | J5 | SIL-254P-03 | 1 | DFS |  |  | [''] | 
+| 5 | J4 | SIL-254P-03 | 1 | S1 |  |  | [''] | 
+| 6 | J3 | SIL-254P-03 | 1 | S2 |  |  | [''] | 
+| 7 | J2 | SIL-254P-03 | 1 | MODE |  |  | [''] | 
+| 8 | IC1,IC6,IC4 | MSOP-8 | 3 | ADP3335 |  |  | [''] | 
+| 9 | IC9 | LQFP-48 | 1 | AD9218 |  |  | [''] | 
+| 10 | J1 | DIL-254P-40 | 1 | FPGA_GPIO0 |  |  | [''] | 
+| 11 | R14,R9,R11,R4,R12,R13,R26 | 0603 | 7 | 500 |  |  | [''] | 
+| 12 | R8,R10 | 0603 | 2 | 525 |  |  | [''] | 
+| 13 | C15,C10,C12 | 0603 | 3 | 15p |  |  | [''] | 
+| 14 | C2,C4,C6,C11,C16,C21,C22,C18,C23,C24,C25,C28,C26,C27 | 0603 | 14 | 100n |  |  | [''] | 
+| 15 | C3,C8,C17 | 0603 | 3 | 1n |  |  | [''] | 
+| 16 | C5,C7,C9,C13,C14,C19,C20,C1 | 0603 | 8 | 1µ |  |  | [''] | 
+| 17 | R6,R2 | 0603 | 2 | 10k |  |  | [''] | 
+| 18 | R5,R1 | 0603 | 2 | 50 |  |  | [''] | 
+| 19 | R7,R3 | 0603 | 2 | 5k |  |  | [''] | 
+| 20 | R17,R15,R16,R18,R19,R20 | 0603 | 6 | 25 |  |  | [''] | 
+| 21 | R25,R22 | 0603 | 2 | 225 |  |  | [''] | 
+| 22 | R24,R23 | 0603 | 2 | 1k |  |  | [''] | 
+| 23 | R21 | 0603 | 1 | 2k |  |  | [''] | 
+| 24 | D1,D2,D3 | 0402 | 3 | ESD_DIODE |  |  | [''] | 
+| 25 | P1,P3,P2 | BNC_PCB_RA_5-1634556-0 | 3 | COAX |  |  | [''] | 
+| 26 | IC7 | MSOP-8-EP-AD | 1 | ADP124 |  |  | [''] | 
+| 27 | TP5,TP1,TP2,TP3,TP4 | TESTPAD | 5 | TESTPAD |  |  | [''] | 
+| 28 | J6 | SIL-254P-01 | 1 | GND |  |  | [''] | 
+
+
+## bom_schematic
+no data
+
+

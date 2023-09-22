@@ -1,0 +1,188 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 11
+Title "lethallink - External Interface"
+Date "2020-06-13"
+Rev "0"
+Comp "Aki Van Ness"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+NoConn ~ 4950 3200
+NoConn ~ 4950 3300
+NoConn ~ 4950 3400
+NoConn ~ 4950 3500
+NoConn ~ 4950 3600
+NoConn ~ 4950 3700
+NoConn ~ 4950 3800
+NoConn ~ 4950 3900
+NoConn ~ 4950 4000
+NoConn ~ 4950 4100
+NoConn ~ 4950 4200
+NoConn ~ 4950 4300
+NoConn ~ 4950 4400
+NoConn ~ 4950 4500
+NoConn ~ 5850 4200
+NoConn ~ 5850 4100
+NoConn ~ 5850 4000
+NoConn ~ 5850 3900
+NoConn ~ 5850 3800
+NoConn ~ 5850 3700
+NoConn ~ 5850 3600
+NoConn ~ 5850 3500
+NoConn ~ 5850 3400
+NoConn ~ 5850 3300
+NoConn ~ 5850 3200
+$Comp
+L lethalbit:LFE5UM5G-85F-8BG381I U?
+U 2 1 5FD7F3DB
+P 5400 3250
+AR Path="/5EDAB834/5FD7F3DB" Ref="U?"  Part="2" 
+AR Path="/5EF6A128/5FD7F3DB" Ref="U1"  Part="2" 
+AR Path="/5FD7F3DB" Ref="U1"  Part="2" 
+F 0 "U1" H 5400 3598 50  0000 C CNN
+F 1 "ECP5UM5G-381caBGA" H 5400 3507 50  0000 C CNN
+F 2 "lethalbit:318caBGA" H 4050 3400 50  0001 C CNN
+F 3 "" H 4050 3400 50  0001 C CNN
+F 4 "Lattice" H 5400 3250 50  0001 C CNN "MFR"
+F 5 "LFE5UM5G-85F-8BG381I" H 5400 3250 50  0001 C CNN "MPN"
+F 6 "220-2112-ND" H 5400 3250 50  0001 C CNN "DIGIKEY_PN"
+	2    5400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L lethalbit:AX3 X?
+U 1 1 5FDEF1C0
+P 7000 4450
+AR Path="/5EDAB834/5FDEF1C0" Ref="X?"  Part="1" 
+AR Path="/5EF6A128/5FDEF1C0" Ref="X1"  Part="1" 
+F 0 "X1" H 7000 4825 50  0000 C CNN
+F 1 "100MHz" H 7000 4734 50  0000 C CNN
+F 2 "lethalbit:AX3" H 6650 4750 50  0001 C CNN
+F 3 "https://abracon.com/datasheets/AX3.pdf" H 6650 4750 50  0001 C CNN
+F 4 "Abracon LLC" H 7000 4450 50  0001 C CNN "MFR"
+F 5 "AX3DCF1-100.0000" H 7000 4450 50  0001 C CNN "MPN"
+	1    7000 4450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FDEF1C8
+P 6250 4350
+AR Path="/5EDAB834/5FDEF1C8" Ref="R?"  Part="1" 
+AR Path="/5EF6A128/5FDEF1C8" Ref="R56"  Part="1" 
+F 0 "R56" V 6150 4300 50  0000 L CNN
+F 1 "100" V 6350 4250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6250 4350 50  0001 C CNN
+F 3 "~" H 6250 4350 50  0001 C CNN
+F 4 "Vishay Dale" H 6250 4350 50  0001 C CNN "MFR"
+F 5 "RCS0402100RFKED" V 6250 4350 50  0001 C CNN "MPN"
+	1    6250 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 4400 6100 4400
+Wire Wire Line
+	6100 4400 6100 4500
+Wire Wire Line
+	6100 4500 6250 4500
+Wire Wire Line
+	6400 4500 6400 4400
+Wire Wire Line
+	6400 4400 6700 4400
+Wire Wire Line
+	6700 4300 6400 4300
+Wire Wire Line
+	6400 4300 6400 4200
+Wire Wire Line
+	6400 4200 6250 4200
+Wire Wire Line
+	6100 4200 6100 4300
+Wire Wire Line
+	6100 4300 5850 4300
+Wire Wire Line
+	6250 4200 6250 4250
+Connection ~ 6250 4200
+Wire Wire Line
+	6250 4200 6100 4200
+Wire Wire Line
+	6250 4450 6250 4500
+Connection ~ 6250 4500
+Wire Wire Line
+	6250 4500 6400 4500
+$Comp
+L power:GND #PWR?
+U 1 1 5FDEF1DE
+P 7400 4750
+AR Path="/5EDAB834/5FDEF1DE" Ref="#PWR?"  Part="1" 
+AR Path="/5EF6A128/5FDEF1DE" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR0139" H 7400 4500 50  0001 C CNN
+F 1 "GND" H 7405 4577 50  0000 C CNN
+F 2 "" H 7400 4750 50  0001 C CNN
+F 3 "" H 7400 4750 50  0001 C CNN
+	1    7400 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 4600 7400 4600
+Wire Wire Line
+	7400 4600 7400 4750
+$Comp
+L Device:C_Small C?
+U 1 1 5FDEF1E8
+P 7650 4550
+AR Path="/5EDF9F51/5FDEF1E8" Ref="C?"  Part="1" 
+AR Path="/5EDAB834/5FDEF1E8" Ref="C?"  Part="1" 
+AR Path="/5EF6A128/5FDEF1E8" Ref="C59"  Part="1" 
+F 0 "C59" H 7558 4504 50  0000 R CNN
+F 1 "0.1uF" H 7558 4595 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7650 4550 50  0001 C CNN
+F 3 "~" H 7650 4550 50  0001 C CNN
+F 4 "KEMET" V 7650 4550 50  0001 C CNN "MFR"
+F 5 "C0603C104M5RACTU" V 7650 4550 50  0001 C CNN "MPN"
+	1    7650 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7400 4600 7500 4600
+Wire Wire Line
+	7500 4600 7500 4700
+Wire Wire Line
+	7500 4700 7650 4700
+Wire Wire Line
+	7650 4700 7650 4650
+Connection ~ 7400 4600
+Wire Wire Line
+	7300 4500 7500 4500
+Wire Wire Line
+	7500 4500 7500 4400
+Wire Wire Line
+	7500 4400 7650 4400
+Wire Wire Line
+	7650 4400 7650 4450
+Wire Wire Line
+	7300 4300 7500 4300
+Wire Wire Line
+	7500 4300 7500 4400
+Connection ~ 7500 4400
+Wire Wire Line
+	7500 4300 7750 4300
+Connection ~ 7500 4300
+Text Label 7750 4300 2    50   ~ 0
+_1V8
+Text Label 6400 4300 0    50   ~ 0
+CLK+
+Text Label 6400 4400 0    50   ~ 0
+CLK-
+Text HLabel 750  700  0    39   Input ~ 0
+1V8
+Wire Wire Line
+	750  700  1300 700 
+Text Label 1300 700  2    50   ~ 0
+_1V8
+$EndSCHEMATC

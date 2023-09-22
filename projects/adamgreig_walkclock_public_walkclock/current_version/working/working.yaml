@@ -1,9 +1,791 @@
 board: walkclock
+bom:
+- Id: '1'
+  Designator: J9
+  Footprint: SIL-254P-02
+  Quantity: '1'
+  Designation: 5V_OUT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: IC4,IC5,IC3,IC2
+  Footprint: TSSOP-14
+  Quantity: '4'
+  Designation: TXU0104PWR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: SW1
+  Footprint: SW_MOM_6X6
+  Quantity: '1'
+  Designation: SW_BACK
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C5,C9,C6,C4,C1,C10,C8,C7,C3
+  Footprint: '0402'
+  Quantity: '9'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: L1
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: 3n3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: SW3
+  Footprint: SW_MOM_6X6
+  Quantity: '1'
+  Designation: SW_DISP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: J2
+  Footprint: SIL-254P-01
+  Quantity: '1'
+  Designation: GND
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: J4
+  Footprint: DIL-254P-44
+  Quantity: '1'
+  Designation: WEACT_H7_R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: X3,X4,X2
+  Footprint: M3_HOLE
+  Quantity: '3'
+  Designation: M3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: J6
+  Footprint: SIL-254P-01
+  Quantity: '1'
+  Designation: PC13
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: SW5
+  Footprint: SW_MOM_6X6
+  Quantity: '1'
+  Designation: SW_LEFT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: C2,C11
+  Footprint: '0402'
+  Quantity: '2'
+  Designation: 1p8
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: J3
+  Footprint: DIL-254P-44
+  Quantity: '1'
+  Designation: WEACT_H7_L
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: J7
+  Footprint: DIL-254P-16
+  Quantity: '1'
+  Designation: HUB75E
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: SW2
+  Footprint: SW_MOM_6X6
+  Quantity: '1'
+  Designation: SW_QR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: J1
+  Footprint: BARRELJACK
+  Quantity: '1'
+  Designation: 5V@4A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: IC1
+  Footprint: MAX-M8Q
+  Quantity: '1'
+  Designation: MAX-M8Q
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: AE1
+  Footprint: NN01-103
+  Quantity: '1'
+  Designation: ANT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: SW4
+  Footprint: SW_MOM_6X6
+  Quantity: '1'
+  Designation: SW_ENTER
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: J10
+  Footprint: SIL-254P-02
+  Quantity: '1'
+  Designation: 0V_OUT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '21'
+  Designator: J8
+  Footprint: SIL-254P-01
+  Quantity: '1'
+  Designation: PA8
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '22'
+  Designator: BT1
+  Footprint: KEYSTONE_103
+  Quantity: '1'
+  Designation: CR2032
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '23'
+  Designator: SW6
+  Footprint: SW_MOM_6X6
+  Quantity: '1'
+  Designation: SW_RIGHT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '24'
+  Designator: J5
+  Footprint: SIL-254P-01
+  Quantity: '1'
+  Designation: nRST
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J9\
+  \ | SIL-254P-02 | 1 | 5V_OUT |  |  | [''] | \n| 2 | IC4,IC5,IC3,IC2 | TSSOP-14 |\
+  \ 4 | TXU0104PWR |  |  | [''] | \n| 3 | SW1 | SW_MOM_6X6 | 1 | SW_BACK |  |  | ['']\
+  \ | \n| 4 | C5,C9,C6,C4,C1,C10,C8,C7,C3 | 0402 | 9 | 100n |  |  | [''] | \n| 5 |\
+  \ L1 | 0402 | 1 | 3n3 |  |  | [''] | \n| 6 | SW3 | SW_MOM_6X6 | 1 | SW_DISP |  |\
+  \  | [''] | \n| 7 | J2 | SIL-254P-01 | 1 | GND |  |  | [''] | \n| 8 | J4 | DIL-254P-44\
+  \ | 1 | WEACT_H7_R |  |  | [''] | \n| 9 | X3,X4,X2 | M3_HOLE | 3 | M3 |  |  | ['']\
+  \ | \n| 10 | J6 | SIL-254P-01 | 1 | PC13 |  |  | [''] | \n| 11 | SW5 | SW_MOM_6X6\
+  \ | 1 | SW_LEFT |  |  | [''] | \n| 12 | C2,C11 | 0402 | 2 | 1p8 |  |  | [''] | \n\
+  | 13 | J3 | DIL-254P-44 | 1 | WEACT_H7_L |  |  | [''] | \n| 14 | J7 | DIL-254P-16\
+  \ | 1 | HUB75E |  |  | [''] | \n| 15 | SW2 | SW_MOM_6X6 | 1 | SW_QR |  |  | ['']\
+  \ | \n| 16 | J1 | BARRELJACK | 1 | 5V@4A |  |  | [''] | \n| 17 | IC1 | MAX-M8Q |\
+  \ 1 | MAX-M8Q |  |  | [''] | \n| 18 | AE1 | NN01-103 | 1 | ANT |  |  | [''] | \n\
+  | 19 | SW4 | SW_MOM_6X6 | 1 | SW_ENTER |  |  | [''] | \n| 20 | J10 | SIL-254P-02\
+  \ | 1 | 0V_OUT |  |  | [''] | \n| 21 | J8 | SIL-254P-01 | 1 | PA8 |  |  | [''] |\
+  \ \n| 22 | BT1 | KEYSTONE_103 | 1 | CR2032 |  |  | [''] | \n| 23 | SW6 | SW_MOM_6X6\
+  \ | 1 | SW_RIGHT |  |  | [''] | \n| 24 | J5 | SIL-254P-01 | 1 | nRST |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: ANT
+  DNP: ''
+  Description: Generic antenna
+  Footprint: agg:NN01-103
+  Qnty: '1'
+  Ref: AE1
+  Value: ANT
+  Vendor: ''
+- Cmp name: CELL
+  DNP: ''
+  Description: ''
+  Footprint: agg:KEYSTONE_103
+  Qnty: '1'
+  Ref: BT1
+  Value: CR2032
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: ael:0402
+  Qnty: '9'
+  Ref: C1, C3, C4, C5, C6, C7, C8, C9, C10
+  Value: 100n
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '2'
+  Ref: C2, C11
+  Value: 1p8
+  Vendor: ''
+- Cmp name: MAX-M8Q
+  DNP: ''
+  Description: uBlox MAX-M8Q GPS Receiver
+  Footprint: agg:MAX-M8Q
+  Qnty: '1'
+  Ref: IC1
+  Value: MAX-M8Q
+  Vendor: ''
+- Cmp name: TXU0104PWR
+  DNP: ''
+  Description: 4-bit fixed direction voltage-level translator
+  Footprint: agg:TSSOP-14
+  Qnty: '4'
+  Ref: IC2, IC3, IC4, IC5
+  Value: TXU0104PWR
+  Vendor: ''
+- Cmp name: BarrelJack
+  DNP: ''
+  Description: ''
+  Footprint: agg:BARRELJACK
+  Qnty: '1'
+  Ref: J1
+  Value: 5V@4A
+  Vendor: ''
+- Cmp name: CONN_01x01
+  DNP: ''
+  Description: ''
+  Footprint: agg:SIL-254P-01
+  Qnty: '1'
+  Ref: J2
+  Value: GND
+  Vendor: ''
+- Cmp name: CONN_02x22
+  DNP: ''
+  Description: ''
+  Footprint: agg:DIL-254P-44
+  Qnty: '1'
+  Ref: J3
+  Value: WEACT_H7_L
+  Vendor: ''
+- Cmp name: CONN_02x22
+  DNP: ''
+  Description: ''
+  Footprint: agg:DIL-254P-44
+  Qnty: '1'
+  Ref: J4
+  Value: WEACT_H7_R
+  Vendor: ''
+- Cmp name: CONN_01x01
+  DNP: ''
+  Description: ''
+  Footprint: agg:SIL-254P-01
+  Qnty: '1'
+  Ref: J5
+  Value: nRST
+  Vendor: ''
+- Cmp name: CONN_01x01
+  DNP: ''
+  Description: ''
+  Footprint: agg:SIL-254P-01
+  Qnty: '1'
+  Ref: J6
+  Value: PC13
+  Vendor: ''
+- Cmp name: CONN_02x08
+  DNP: ''
+  Description: ''
+  Footprint: agg:DIL-254P-16
+  Qnty: '1'
+  Ref: J7
+  Value: HUB75E
+  Vendor: ''
+- Cmp name: CONN_01x01
+  DNP: ''
+  Description: ''
+  Footprint: agg:SIL-254P-01
+  Qnty: '1'
+  Ref: J8
+  Value: PA8
+  Vendor: ''
+- Cmp name: CONN_01x02
+  DNP: ''
+  Description: ''
+  Footprint: agg:SIL-254P-02
+  Qnty: '1'
+  Ref: J9
+  Value: 5V_OUT
+  Vendor: ''
+- Cmp name: CONN_01x02
+  DNP: ''
+  Description: ''
+  Footprint: agg:SIL-254P-02
+  Qnty: '1'
+  Ref: J10
+  Value: 0V_OUT
+  Vendor: ''
+- Cmp name: L
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '1'
+  Ref: L1
+  Value: 3n3
+  Vendor: ''
+- Cmp name: SWITCH_SPST
+  DNP: ''
+  Description: ''
+  Footprint: agg:SW_MOM_6X6
+  Qnty: '1'
+  Ref: SW1
+  Value: SW_BACK
+  Vendor: ''
+- Cmp name: SWITCH_SPST
+  DNP: ''
+  Description: ''
+  Footprint: agg:SW_MOM_6X6
+  Qnty: '1'
+  Ref: SW2
+  Value: SW_QR
+  Vendor: ''
+- Cmp name: SWITCH_SPST
+  DNP: ''
+  Description: ''
+  Footprint: agg:SW_MOM_6X6
+  Qnty: '1'
+  Ref: SW3
+  Value: SW_DISP
+  Vendor: ''
+- Cmp name: SWITCH_SPST
+  DNP: ''
+  Description: ''
+  Footprint: agg:SW_MOM_6X6
+  Qnty: '1'
+  Ref: SW4
+  Value: SW_ENTER
+  Vendor: ''
+- Cmp name: SWITCH_SPST
+  DNP: ''
+  Description: ''
+  Footprint: agg:SW_MOM_6X6
+  Qnty: '1'
+  Ref: SW5
+  Value: SW_LEFT
+  Vendor: ''
+- Cmp name: SWITCH_SPST
+  DNP: ''
+  Description: ''
+  Footprint: agg:SW_MOM_6X6
+  Qnty: '1'
+  Ref: SW6
+  Value: SW_RIGHT
+  Vendor: ''
+- Cmp name: PART
+  DNP: ''
+  Description: Generic placeholder part
+  Footprint: ''
+  Qnty: '1'
+  Ref: X1
+  Value: 5V 4A PSU
+  Vendor: ''
+- Cmp name: PART
+  DNP: ''
+  Description: Generic placeholder part
+  Footprint: agg:M3_HOLE
+  Qnty: '3'
+  Ref: X2, X3, X4
+  Value: M3
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| AE1 |\
+  \ 1 | ANT | ANT | agg:NN01-103 | Generic antenna |  |  | \n| BT1 | 1 | CR2032 |\
+  \ CELL | agg:KEYSTONE_103 |  |  |  | \n| C1, C3, C4, C5, C6, C7, C8, C9, C10 | 9\
+  \ | 100n | C | ael:0402 |  |  |  | \n| C2, C11 | 2 | 1p8 | C | agg:0402 |  |  |\
+  \  | \n| IC1 | 1 | MAX-M8Q | MAX-M8Q | agg:MAX-M8Q | uBlox MAX-M8Q GPS Receiver\
+  \ |  |  | \n| IC2, IC3, IC4, IC5 | 4 | TXU0104PWR | TXU0104PWR | agg:TSSOP-14 |\
+  \ 4-bit fixed direction voltage-level translator |  |  | \n| J1 | 1 | 5V@4A | BarrelJack\
+  \ | agg:BARRELJACK |  |  |  | \n| J2 | 1 | GND | CONN_01x01 | agg:SIL-254P-01 |\
+  \  |  |  | \n| J3 | 1 | WEACT_H7_L | CONN_02x22 | agg:DIL-254P-44 |  |  |  | \n\
+  | J4 | 1 | WEACT_H7_R | CONN_02x22 | agg:DIL-254P-44 |  |  |  | \n| J5 | 1 | nRST\
+  \ | CONN_01x01 | agg:SIL-254P-01 |  |  |  | \n| J6 | 1 | PC13 | CONN_01x01 | agg:SIL-254P-01\
+  \ |  |  |  | \n| J7 | 1 | HUB75E | CONN_02x08 | agg:DIL-254P-16 |  |  |  | \n| J8\
+  \ | 1 | PA8 | CONN_01x01 | agg:SIL-254P-01 |  |  |  | \n| J9 | 1 | 5V_OUT | CONN_01x02\
+  \ | agg:SIL-254P-02 |  |  |  | \n| J10 | 1 | 0V_OUT | CONN_01x02 | agg:SIL-254P-02\
+  \ |  |  |  | \n| L1 | 1 | 3n3 | L | agg:0402 |  |  |  | \n| SW1 | 1 | SW_BACK |\
+  \ SWITCH_SPST | agg:SW_MOM_6X6 |  |  |  | \n| SW2 | 1 | SW_QR | SWITCH_SPST | agg:SW_MOM_6X6\
+  \ |  |  |  | \n| SW3 | 1 | SW_DISP | SWITCH_SPST | agg:SW_MOM_6X6 |  |  |  | \n\
+  | SW4 | 1 | SW_ENTER | SWITCH_SPST | agg:SW_MOM_6X6 |  |  |  | \n| SW5 | 1 | SW_LEFT\
+  \ | SWITCH_SPST | agg:SW_MOM_6X6 |  |  |  | \n| SW6 | 1 | SW_RIGHT | SWITCH_SPST\
+  \ | agg:SW_MOM_6X6 |  |  |  | \n| X1 | 1 | 5V 4A PSU | PART |  | Generic placeholder\
+  \ part |  |  | \n| X2, X3, X4 | 3 | M3 | PART | agg:M3_HOLE | Generic placeholder\
+  \ part |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_walkclock_public_walkclock/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_walkclock_public_walkclock/current_version/working/working.kicad_sch
 id: adamgreig_walkclock_public_walkclock
 name: walkclock_public
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': AE1
+  Package: NN01-103
+  PosX: 77.5
+  PosY: -48.5
+  Rot: 0.0
+  Side: top
+  Val: ANT
+- '# Ref': BT1
+  Package: KEYSTONE_103
+  PosX: 80.25
+  PosY: -112.0
+  Rot: 0.0
+  Side: top
+  Val: CR2032
+- '# Ref': C1
+  Package: '0402'
+  PosX: 78.1
+  PosY: -70.1
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': C2
+  Package: '0402'
+  PosX: 82.5
+  PosY: -54.9
+  Rot: 180.0
+  Side: top
+  Val: 1p8
+- '# Ref': C3
+  Package: '0402'
+  PosX: 84.6
+  PosY: -81.3
+  Rot: 90.0
+  Side: top
+  Val: 100n
+- '# Ref': C4
+  Package: '0402'
+  PosX: 84.6
+  PosY: -87.3
+  Rot: 90.0
+  Side: top
+  Val: 100n
+- '# Ref': C5
+  Package: '0402'
+  PosX: 84.6
+  PosY: -93.3
+  Rot: 90.0
+  Side: top
+  Val: 100n
+- '# Ref': C6
+  Package: '0402'
+  PosX: 84.6
+  PosY: -99.3
+  Rot: 90.0
+  Side: top
+  Val: 100n
+- '# Ref': C7
+  Package: '0402'
+  PosX: 75.5
+  PosY: -80.9
+  Rot: 90.0
+  Side: top
+  Val: 100n
+- '# Ref': C8
+  Package: '0402'
+  PosX: 75.4
+  PosY: -86.9
+  Rot: 90.0
+  Side: top
+  Val: 100n
+- '# Ref': C9
+  Package: '0402'
+  PosX: 75.4
+  PosY: -92.9
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': C10
+  Package: '0402'
+  PosX: 75.4
+  PosY: -98.9
+  Rot: 90.0
+  Side: top
+  Val: 100n
+- '# Ref': C11
+  Package: '0402'
+  PosX: 82.5
+  PosY: -56.1
+  Rot: 180.0
+  Side: top
+  Val: 1p8
+- '# Ref': IC1
+  Package: MAX-M8Q
+  PosX: 77.5
+  PosY: -63.5
+  Rot: 90.0
+  Side: top
+  Val: MAX-M8Q
+- '# Ref': IC2
+  Package: TSSOP-14
+  PosX: 80.0
+  PosY: -78.5
+  Rot: 180.0
+  Side: top
+  Val: TXU0104PWR
+- '# Ref': IC3
+  Package: TSSOP-14
+  PosX: 80.0
+  PosY: -84.5
+  Rot: 180.0
+  Side: top
+  Val: TXU0104PWR
+- '# Ref': IC4
+  Package: TSSOP-14
+  PosX: 80.0
+  PosY: -90.5
+  Rot: 180.0
+  Side: top
+  Val: TXU0104PWR
+- '# Ref': IC5
+  Package: TSSOP-14
+  PosX: 80.0
+  PosY: -96.5
+  Rot: 180.0
+  Side: top
+  Val: TXU0104PWR
+- '# Ref': J1
+  Package: BARRELJACK
+  PosX: 99.0
+  PosY: -135.0
+  Rot: 0.0
+  Side: top
+  Val: 5V@4A
+- '# Ref': J2
+  Package: SIL-254P-01
+  PosX: 57.5
+  PosY: -69.0
+  Rot: 0.0
+  Side: top
+  Val: GND
+- '# Ref': J3
+  Package: DIL-254P-44
+  PosX: 62.44
+  PosY: -91.0
+  Rot: -90.0
+  Side: top
+  Val: WEACT_H7_L
+- '# Ref': J4
+  Package: DIL-254P-44
+  PosX: 98.0
+  PosY: -91.0
+  Rot: -90.0
+  Side: top
+  Val: WEACT_H7_R
+- '# Ref': J5
+  Package: SIL-254P-01
+  PosX: 57.5
+  PosY: -74.5
+  Rot: 0.0
+  Side: top
+  Val: nRST
+- '# Ref': J6
+  Package: SIL-254P-01
+  PosX: 57.5
+  PosY: -78.0
+  Rot: 0.0
+  Side: top
+  Val: PC13
+- '# Ref': J7
+  Package: DIL-254P-16
+  PosX: 71.27
+  PosY: -88.39
+  Rot: -90.0
+  Side: top
+  Val: HUB75E
+- '# Ref': J8
+  Package: SIL-254P-01
+  PosX: 103.0
+  PosY: -97.5
+  Rot: 0.0
+  Side: top
+  Val: PA8
+- '# Ref': J9
+  Package: SIL-254P-02
+  PosX: 108.5
+  PosY: -91.0
+  Rot: 90.0
+  Side: top
+  Val: 5V_OUT
+- '# Ref': J10
+  Package: SIL-254P-02
+  PosX: 108.5
+  PosY: -83.5
+  Rot: 90.0
+  Side: top
+  Val: 0V_OUT
+- '# Ref': L1
+  Package: '0402'
+  PosX: 80.8
+  PosY: -55.5
+  Rot: 90.0
+  Side: top
+  Val: 3n3
+- '# Ref': SW1
+  Package: SW_MOM_6X6
+  PosX: 61.0
+  PosY: -130.0
+  Rot: 0.0
+  Side: top
+  Val: SW_BACK
+- '# Ref': SW2
+  Package: SW_MOM_6X6
+  PosX: 74.0
+  PosY: -130.0
+  Rot: 0.0
+  Side: top
+  Val: SW_QR
+- '# Ref': SW3
+  Package: SW_MOM_6X6
+  PosX: 87.0
+  PosY: -130.0
+  Rot: 0.0
+  Side: top
+  Val: SW_DISP
+- '# Ref': SW4
+  Package: SW_MOM_6X6
+  PosX: 61.0
+  PosY: -138.0
+  Rot: 0.0
+  Side: top
+  Val: SW_ENTER
+- '# Ref': SW5
+  Package: SW_MOM_6X6
+  PosX: 74.0
+  PosY: -138.0
+  Rot: 0.0
+  Side: top
+  Val: SW_LEFT
+- '# Ref': SW6
+  Package: SW_MOM_6X6
+  PosX: 87.0
+  PosY: -138.0
+  Rot: 0.0
+  Side: top
+  Val: SW_RIGHT
+- '# Ref': X2
+  Package: M3_HOLE
+  PosX: 50.0
+  PosY: -50.0
+  Rot: 0.0
+  Side: top
+  Val: M3
+- '# Ref': X3
+  Package: M3_HOLE
+  PosX: 51.1
+  PosY: -65.0
+  Rot: 0.0
+  Side: top
+  Val: M3
+- '# Ref': X4
+  Package: M3_HOLE
+  PosX: 50.0
+  PosY: -138.0
+  Rot: 0.0
+  Side: top
+  Val: M3
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| AE1 | ANT | NN01-103 | 77.5 | -48.5\
+  \ | 0.0 | top | \n| BT1 | CR2032 | KEYSTONE_103 | 80.25 | -112.0 | 0.0 | top | \n\
+  | C1 | 100n | 0402 | 78.1 | -70.1 | 0.0 | top | \n| C2 | 1p8 | 0402 | 82.5 | -54.9\
+  \ | 180.0 | top | \n| C3 | 100n | 0402 | 84.6 | -81.3 | 90.0 | top | \n| C4 | 100n\
+  \ | 0402 | 84.6 | -87.3 | 90.0 | top | \n| C5 | 100n | 0402 | 84.6 | -93.3 | 90.0\
+  \ | top | \n| C6 | 100n | 0402 | 84.6 | -99.3 | 90.0 | top | \n| C7 | 100n | 0402\
+  \ | 75.5 | -80.9 | 90.0 | top | \n| C8 | 100n | 0402 | 75.4 | -86.9 | 90.0 | top\
+  \ | \n| C9 | 100n | 0402 | 75.4 | -92.9 | -90.0 | top | \n| C10 | 100n | 0402 |\
+  \ 75.4 | -98.9 | 90.0 | top | \n| C11 | 1p8 | 0402 | 82.5 | -56.1 | 180.0 | top\
+  \ | \n| IC1 | MAX-M8Q | MAX-M8Q | 77.5 | -63.5 | 90.0 | top | \n| IC2 | TXU0104PWR\
+  \ | TSSOP-14 | 80.0 | -78.5 | 180.0 | top | \n| IC3 | TXU0104PWR | TSSOP-14 | 80.0\
+  \ | -84.5 | 180.0 | top | \n| IC4 | TXU0104PWR | TSSOP-14 | 80.0 | -90.5 | 180.0\
+  \ | top | \n| IC5 | TXU0104PWR | TSSOP-14 | 80.0 | -96.5 | 180.0 | top | \n| J1\
+  \ | 5V@4A | BARRELJACK | 99.0 | -135.0 | 0.0 | top | \n| J2 | GND | SIL-254P-01\
+  \ | 57.5 | -69.0 | 0.0 | top | \n| J3 | WEACT_H7_L | DIL-254P-44 | 62.44 | -91.0\
+  \ | -90.0 | top | \n| J4 | WEACT_H7_R | DIL-254P-44 | 98.0 | -91.0 | -90.0 | top\
+  \ | \n| J5 | nRST | SIL-254P-01 | 57.5 | -74.5 | 0.0 | top | \n| J6 | PC13 | SIL-254P-01\
+  \ | 57.5 | -78.0 | 0.0 | top | \n| J7 | HUB75E | DIL-254P-16 | 71.27 | -88.39 |\
+  \ -90.0 | top | \n| J8 | PA8 | SIL-254P-01 | 103.0 | -97.5 | 0.0 | top | \n| J9\
+  \ | 5V_OUT | SIL-254P-02 | 108.5 | -91.0 | 90.0 | top | \n| J10 | 0V_OUT | SIL-254P-02\
+  \ | 108.5 | -83.5 | 90.0 | top | \n| L1 | 3n3 | 0402 | 80.8 | -55.5 | 90.0 | top\
+  \ | \n| SW1 | SW_BACK | SW_MOM_6X6 | 61.0 | -130.0 | 0.0 | top | \n| SW2 | SW_QR\
+  \ | SW_MOM_6X6 | 74.0 | -130.0 | 0.0 | top | \n| SW3 | SW_DISP | SW_MOM_6X6 | 87.0\
+  \ | -130.0 | 0.0 | top | \n| SW4 | SW_ENTER | SW_MOM_6X6 | 61.0 | -138.0 | 0.0 |\
+  \ top | \n| SW5 | SW_LEFT | SW_MOM_6X6 | 74.0 | -138.0 | 0.0 | top | \n| SW6 | SW_RIGHT\
+  \ | SW_MOM_6X6 | 87.0 | -138.0 | 0.0 | top | \n| X2 | M3 | M3_HOLE | 50.0 | -50.0\
+  \ | 0.0 | top | \n| X3 | M3 | M3_HOLE | 51.1 | -65.0 | 0.0 | top | \n| X4 | M3 |\
+  \ M3_HOLE | 50.0 | -138.0 | 0.0 | top | \n"
 projects_flat: projects/adamgreig_walkclock_public_walkclock/current_version/working
 repo:
   allow_forking: true

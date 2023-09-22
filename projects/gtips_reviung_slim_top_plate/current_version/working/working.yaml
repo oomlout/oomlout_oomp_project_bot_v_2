@@ -1,10 +1,58 @@
 board: slim_top_plate
+bom:
+- Id: '1'
+  Designator: breakaway,breakaway
+  Footprint: Stamp_Holes_5mm
+  Quantity: '2'
+  Designation: Stamp_Holes_5mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | breakaway,breakaway\
+  \ | Stamp_Holes_5mm | 2 | Stamp_Holes_5mm |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: MountingHole_Pad
+  DNP: ''
+  Description: Mounting Hole with connection
+  Footprint: MountingHole:MountingHole_2.2mm_M2_Pad
+  Qnty: '1'
+  Ref: H1
+  Value: MountingHole_Pad
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| H1 |\
+  \ 1 | MountingHole_Pad | MountingHole_Pad | MountingHole:MountingHole_2.2mm_M2_Pad\
+  \ | Mounting Hole with connection |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/gtips_reviung_slim_top_plate/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/gtips_reviung_slim_top_plate/current_version/working/working.kicad_pcb
 file_sch_flat: projects/gtips_reviung_slim_top_plate/current_version/working/working.sch
 id: gtips_reviung_slim_top_plate
 name: reviung
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': breakaway
+  Package: Stamp_Holes_5mm
+  PosX: 13.25
+  PosY: -24.36
+  Rot: 0.0
+  Side: top
+  Val: Stamp_Holes_5mm
+- '# Ref': breakaway
+  Package: Stamp_Holes_5mm
+  PosX: 33.52
+  PosY: -24.36
+  Rot: 0.0
+  Side: top
+  Val: Stamp_Holes_5mm
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| breakaway | Stamp_Holes_5mm | Stamp_Holes_5mm\
+  \ | 13.25 | -24.36 | 0.0 | top | \n| breakaway | Stamp_Holes_5mm | Stamp_Holes_5mm\
+  \ | 33.52 | -24.36 | 0.0 | top | \n"
 projects_flat: projects/gtips_reviung_slim_top_plate/current_version/working
 repo:
   allow_forking: true

@@ -1,9 +1,208 @@
 board: adafruit_als_pt19_315c_breakout
+bom:
+- Id: '1'
+  Designator: U1
+  Footprint: ALS-PT19-315C
+  Quantity: '1'
+  Designation: ALS-PT19-315C
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: JP2
+  Footprint: 1X03_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$2
+  Footprint: MOUNTINGHOLE_2.0_PLATED
+  Quantity: '1'
+  Designation: MOUNTINGHOLE2.0
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R1
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '1'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U$3
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U$1
+  Footprint: ADAFRUIT_2.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U1\
+  \ | ALS-PT19-315C | 1 | ALS-PT19-315C |  |  | [''] | \n| 2 | JP2 | 1X03_ROUND |\
+  \ 1 |  |  |  | [''] | \n| 3 | U$2 | MOUNTINGHOLE_2.0_PLATED | 1 | MOUNTINGHOLE2.0\
+  \ |  |  | [''] | \n| 4 | R1 | 0603-NO | 1 | 10K |  |  | [''] | \n| 5 | FID1 | FIDUCIAL_1MM\
+  \ | 1 | FIDUCIAL\" |  |  | [''] | \n| 6 | U$3 | PCBFEAT-REV-040 | 1 |  |  |  | ['']\
+  \ | \n| 7 | U$1 | ADAFRUIT_2.5MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '1'
+  Ref: FID1
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: HEADER-1X3ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X03_ROUND
+  Qnty: '1'
+  Ref: JP2
+  Value: HEADER-1X3ROUND
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R1
+  Value: 10K
+  Vendor: ''
+- Cmp name: LIGHT_ALS-PT19-315C
+  DNP: ''
+  Description: ''
+  Footprint: working:ALS-PT19-315C
+  Qnty: '1'
+  Ref: U1
+  Value: ALS-PT19-315C
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.0
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.0_PLATED
+  Qnty: '1'
+  Ref: U$2
+  Value: MOUNTINGHOLE2.0
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| FID1\
+  \ | 1 | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |\
+  \  |  | \n| JP2 | 1 | HEADER-1X3ROUND | HEADER-1X3ROUND | working:1X03_ROUND | \
+  \ |  |  | \n| R1 | 1 | 10K | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n\
+  | U1 | 1 | ALS-PT19-315C | LIGHT_ALS-PT19-315C | working:ALS-PT19-315C |  |  | \
+  \ | \n| U$2 | 1 | MOUNTINGHOLE2.0 | MOUNTINGHOLE2.0 | working:MOUNTINGHOLE_2.0_PLATED\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_als_pt19_sensor_breakout_pcb_adafruit_als_pt19_315c_breakout/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_als_pt19_sensor_breakout_pcb_adafruit_als_pt19_315c_breakout/current_version/working/working.sch
 id: adafruit_adafruit_als_pt19_sensor_breakout_pcb_adafruit_als_pt19_315c_breakout
+mounting_holes:
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$2
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '0.0'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0\
+  \ | U$2 | m3 | \n"
 name: adafruit_als_pt19_sensor_breakout_pcb
+position_bottom:
+- '# Ref': U$1
+  Package: ADAFRUIT_2.5MM
+  PosX: 147.2311
+  PosY: -105.3846
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$3
+  Package: PCBFEAT-REV-040
+  PosX: 151.1681
+  PosY: -104.1146
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$1 | nan | ADAFRUIT_2.5MM | 147.2311\
+  \ | -105.3846 | 180.0 | bottom | \n| U$3 | nan | PCBFEAT-REV-040 | 151.1681 | -104.1146\
+  \ | 180.0 | bottom | \n"
+position_top:
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 147.2311
+  PosY: -109.3216
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': JP2
+  Package: 1X03_ROUND
+  PosX: 148.5011
+  PosY: -108.0516
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 146.8501
+  PosY: -105.3846
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': U$2
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 148.5011
+  PosY: -102.2096
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U1
+  Package: ALS-PT19-315C
+  PosX: 150.0251
+  PosY: -105.3846
+  Rot: 180.0
+  Side: top
+  Val: ALS-PT19-315C
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| FID1 | FIDUCIAL\"\" | FIDUCIAL_1MM |\
+  \ 147.2311 | -109.3216 | 0.0 | top | \n| JP2 | nan | 1X03_ROUND | 148.5011 | -108.0516\
+  \ | 0.0 | top | \n| R1 | 10K | 0603-NO | 146.8501 | -105.3846 | 0.0 | top | \n|\
+  \ U$2 | MOUNTINGHOLE2.0 | MOUNTINGHOLE_2.0_PLATED | 148.5011 | -102.2096 | 0.0 |\
+  \ top | \n| U1 | ALS-PT19-315C | ALS-PT19-315C | 150.0251 | -105.3846 | 180.0 |\
+  \ top | \n"
 projects_flat: projects/adafruit_adafruit_als_pt19_sensor_breakout_pcb_adafruit_als_pt19_315c_breakout/current_version/working
 repo:
   allow_forking: true

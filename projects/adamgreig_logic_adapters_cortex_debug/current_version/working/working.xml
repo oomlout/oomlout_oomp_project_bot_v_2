@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\adamgreig_logic_adapters_cortex_debug\current_version\working\working.kicad_sch</source>
+    <date>17/09/2023 23:12:34</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Saleae Logic to PMOD + Picoblade adapter</title>
+        <company/>
+        <rev>1</rev>
+        <date>2020-07-28</date>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>SALEAE_0-3</value>
+      <footprint>agg:DIL-254P-08</footprint>
+      <fields>
+        <field name="Farnell">1668343</field>
+      </fields>
+      <libsource lib="cortex-debug-rescue" part="CONN_02x04-agg" description=""/>
+      <property name="Farnell" value="1668343"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f21c93b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SALEAE_0-3</value>
+      <footprint>agg:DIL-254P-08</footprint>
+      <fields>
+        <field name="Farnell">2856692</field>
+      </fields>
+      <libsource lib="cortex-debug-rescue" part="CONN_02x04-agg" description=""/>
+      <property name="Farnell" value="2856692"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1fa683</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>SALEAE_4-7</value>
+      <footprint>agg:DIL-254P-08</footprint>
+      <fields>
+        <field name="Farnell">1668343</field>
+      </fields>
+      <libsource lib="cortex-debug-rescue" part="CONN_02x04-agg" description=""/>
+      <property name="Farnell" value="1668343"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f21c945</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>SALEAE_4-7</value>
+      <footprint>agg:DIL-254P-08</footprint>
+      <fields>
+        <field name="Farnell">2856692</field>
+      </fields>
+      <libsource lib="cortex-debug-rescue" part="CONN_02x04-agg" description=""/>
+      <property name="Farnell" value="2856692"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1fade6</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>SWD</value>
+      <footprint>agg:FTSH-105-01-L-DV-K</footprint>
+      <fields>
+        <field name="Farnell">2856437</field>
+      </fields>
+      <libsource lib="cortex-debug-rescue" part="SWD-agg" description=""/>
+      <property name="Toby" value=""/>
+      <property name="Farnell" value="2856437"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1fe927</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>SWD</value>
+      <footprint>agg:FTSH-105-01-L-DV-K</footprint>
+      <fields>
+        <field name="Farnell">2856437</field>
+      </fields>
+      <libsource lib="cortex-debug-rescue" part="SWD-agg" description=""/>
+      <property name="Toby" value=""/>
+      <property name="Farnell" value="2856437"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f20a8d4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="cortex-debug-rescue" part="CONN_02x04-agg">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">agg_CONN_02x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cortex-debug-rescue" part="SWD-agg">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">agg_SWD</field>
+        <field name="Footprint">agg:FTSH-105-01-F-D-K</field>
+        <field name="Toby">FTSH-105-01-F-D-K</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VTref" type="power_in"/>
+        <pin num="2" name="SWDIO/TMS" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SWDCLK/TCK" type="bidirectional"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SWO/TDO" type="bidirectional"/>
+        <pin num="7" name="KEY" type="no_connect"/>
+        <pin num="8" name="TDI" type="bidirectional"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="nRESET" type="open_collector"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/CH5">
+      <node ref="J5" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="2" name="/CH6">
+      <node ref="J5" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="3" name="/CH7">
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/JTDI">
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="P1" pin="8" pinfunction="TDI" pintype="bidirectional"/>
+      <node ref="P2" pin="8" pinfunction="TDI" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/SWCLK">
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="P1" pin="4" pinfunction="SWDCLK/TCK" pintype="bidirectional"/>
+      <node ref="P2" pin="4" pinfunction="SWDCLK/TCK" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/SWDIO">
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="P1" pin="2" pinfunction="SWDIO/TMS" pintype="bidirectional"/>
+      <node ref="P2" pin="2" pinfunction="SWDIO/TMS" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/SWO">
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="P1" pin="6" pinfunction="SWO/TDO" pintype="bidirectional"/>
+      <node ref="P2" pin="6" pinfunction="SWO/TDO" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/~{RESET}">
+      <node ref="J5" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J6" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="P1" pin="10" pinfunction="nRESET" pintype="open_collector"/>
+      <node ref="P2" pin="10" pinfunction="nRESET" pintype="open_collector"/>
+    </net>
+    <net code="9" name="3v3">
+      <node ref="P1" pin="1" pinfunction="VTref" pintype="power_in"/>
+      <node ref="P2" pin="1" pinfunction="VTref" pintype="power_in"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J6" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="P1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="P1" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="P1" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="P2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="P2" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="P2" pin="9" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="11" name="unconnected-(P1-KEY-Pad7)">
+      <node ref="P1" pin="7" pinfunction="KEY" pintype="no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(P2-KEY-Pad7)">
+      <node ref="P2" pin="7" pinfunction="KEY" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

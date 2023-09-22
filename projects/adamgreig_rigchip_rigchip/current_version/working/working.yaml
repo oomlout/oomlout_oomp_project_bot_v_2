@@ -1,10 +1,624 @@
 board: rigchip
+bom:
+- Id: '1'
+  Designator: C1,C4,C5,C6,C7
+  Footprint: '0603'
+  Quantity: '5'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C2,C3
+  Footprint: '1206'
+  Quantity: '2'
+  Designation: "10\xC2\xB5"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: D1,D2,D3,D4,D5,D6,D7
+  Footprint: '0402'
+  Quantity: '7'
+  Designation: ESD_DIODE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: D8
+  Footprint: 0603-LED
+  Quantity: '1'
+  Designation: GRN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: D9
+  Footprint: 0603-LED
+  Quantity: '1'
+  Designation: RED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: IC1
+  Footprint: TSR1
+  Quantity: '1'
+  Designation: TSR1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: IC2
+  Footprint: CHIPv1_0
+  Quantity: '1'
+  Designation: CHIPv1_0
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: J1
+  Footprint: S02B-PASK-2
+  Quantity: '1'
+  Designation: POWER
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: J2
+  Footprint: S05B-PASK-2
+  Quantity: '1'
+  Designation: DATA
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: J3
+  Footprint: S03B-PASK-2
+  Quantity: '1'
+  Designation: CONTROL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: L1
+  Footprint: TYS5040
+  Quantity: '1'
+  Designation: "6\xC2\xB58"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: L2,L3,L4,L5,L6,L7
+  Footprint: '0603'
+  Quantity: '6'
+  Designation: FB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: R1,R2,R3,R4
+  Footprint: '0603'
+  Quantity: '4'
+  Designation: 1k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: IC3,IC4,IC5
+  Footprint: SOT-23-5
+  Quantity: '3'
+  Designation: SN74LVC1G07
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: R5
+  Footprint: '0603'
+  Quantity: '1'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: D10
+  Footprint: 0603-LED
+  Quantity: '1'
+  Designation: '~'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C4,C5,C6,C7\
+  \ | 0603 | 5 | 100n |  |  | [''] | \n| 2 | C2,C3 | 1206 | 2 | 10\xC2\xB5 |  |  |\
+  \ [''] | \n| 3 | D1,D2,D3,D4,D5,D6,D7 | 0402 | 7 | ESD_DIODE |  |  | [''] | \n|\
+  \ 4 | D8 | 0603-LED | 1 | GRN |  |  | [''] | \n| 5 | D9 | 0603-LED | 1 | RED | \
+  \ |  | [''] | \n| 6 | IC1 | TSR1 | 1 | TSR1 |  |  | [''] | \n| 7 | IC2 | CHIPv1_0\
+  \ | 1 | CHIPv1_0 |  |  | [''] | \n| 8 | J1 | S02B-PASK-2 | 1 | POWER |  |  | ['']\
+  \ | \n| 9 | J2 | S05B-PASK-2 | 1 | DATA |  |  | [''] | \n| 10 | J3 | S03B-PASK-2\
+  \ | 1 | CONTROL |  |  | [''] | \n| 11 | L1 | TYS5040 | 1 | 6\xC2\xB58 |  |  | ['']\
+  \ | \n| 12 | L2,L3,L4,L5,L6,L7 | 0603 | 6 | FB |  |  | [''] | \n| 13 | R1,R2,R3,R4\
+  \ | 0603 | 4 | 1k |  |  | [''] | \n| 14 | IC3,IC4,IC5 | SOT-23-5 | 3 | SN74LVC1G07\
+  \ |  |  | [''] | \n| 15 | R5 | 0603 | 1 | 10k |  |  | [''] | \n| 16 | D10 | 0603-LED\
+  \ | 1 | ~ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '5'
+  Ref: C1, C4, C5, C6, C7
+  Value: 100n
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:1206
+  Qnty: '2'
+  Ref: C2, C3
+  Value: "10\xC2\xB5"
+  Vendor: ''
+- Cmp name: ESD_DIODE
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '7'
+  Ref: D1, D2, D3, D4, D5, D6, D7
+  Value: ESD_DIODE
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603-LED
+  Qnty: '1'
+  Ref: D8
+  Value: GRN
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603-LED
+  Qnty: '1'
+  Ref: D9
+  Value: RED
+  Vendor: ''
+- Cmp name: SCHOTTKY
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603-LED
+  Qnty: '1'
+  Ref: D10
+  Value: '~'
+  Vendor: ''
+- Cmp name: TSR1
+  DNP: ''
+  Description: ''
+  Footprint: agg:TSR1
+  Qnty: '1'
+  Ref: IC1
+  Value: TSR1
+  Vendor: ''
+- Cmp name: CHIPv1_0
+  DNP: ''
+  Description: ''
+  Footprint: agg:CHIPv1_0
+  Qnty: '1'
+  Ref: IC2
+  Value: CHIPv1_0
+  Vendor: ''
+- Cmp name: SN74LVC1G07
+  DNP: ''
+  Description: ''
+  Footprint: agg:SOT-23-5
+  Qnty: '3'
+  Ref: IC3, IC4, IC5
+  Value: SN74LVC1G07
+  Vendor: ''
+- Cmp name: CONN_01x02
+  DNP: ''
+  Description: ''
+  Footprint: agg:S02B-PASK-2
+  Qnty: '1'
+  Ref: J1
+  Value: POWER
+  Vendor: ''
+- Cmp name: CONN_01x05
+  DNP: ''
+  Description: ''
+  Footprint: agg:S05B-PASK-2
+  Qnty: '1'
+  Ref: J2
+  Value: DATA
+  Vendor: ''
+- Cmp name: CONN_01x03
+  DNP: ''
+  Description: ''
+  Footprint: agg:S03B-PASK-2
+  Qnty: '1'
+  Ref: J3
+  Value: CONTROL
+  Vendor: ''
+- Cmp name: L
+  DNP: ''
+  Description: ''
+  Footprint: agg:TYS5040
+  Qnty: '1'
+  Ref: L1
+  Value: "6\xC2\xB58"
+  Vendor: ''
+- Cmp name: L
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '6'
+  Ref: L2, L3, L4, L5, L6, L7
+  Value: FB
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '4'
+  Ref: R1, R2, R3, R4
+  Value: 1k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '1'
+  Ref: R5
+  Value: 10k
+  Vendor: ''
+- Cmp name: PART
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '2'
+  Ref: X1, X2
+  Value: CONN
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C4,\
+  \ C5, C6, C7 | 5 | 100n | C | agg:0603 |  |  |  | \n| C2, C3 | 2 | 10\xC2\xB5 |\
+  \ C | agg:1206 |  |  |  | \n| D1, D2, D3, D4, D5, D6, D7 | 7 | ESD_DIODE | ESD_DIODE\
+  \ | agg:0402 |  |  |  | \n| D8 | 1 | GRN | LED | agg:0603-LED |  |  |  | \n| D9\
+  \ | 1 | RED | LED | agg:0603-LED |  |  |  | \n| D10 | 1 | ~ | SCHOTTKY | agg:0603-LED\
+  \ |  |  |  | \n| IC1 | 1 | TSR1 | TSR1 | agg:TSR1 |  |  |  | \n| IC2 | 1 | CHIPv1_0\
+  \ | CHIPv1_0 | agg:CHIPv1_0 |  |  |  | \n| IC3, IC4, IC5 | 3 | SN74LVC1G07 | SN74LVC1G07\
+  \ | agg:SOT-23-5 |  |  |  | \n| J1 | 1 | POWER | CONN_01x02 | agg:S02B-PASK-2 |\
+  \  |  |  | \n| J2 | 1 | DATA | CONN_01x05 | agg:S05B-PASK-2 |  |  |  | \n| J3 |\
+  \ 1 | CONTROL | CONN_01x03 | agg:S03B-PASK-2 |  |  |  | \n| L1 | 1 | 6\xC2\xB58\
+  \ | L | agg:TYS5040 |  |  |  | \n| L2, L3, L4, L5, L6, L7 | 6 | FB | L | agg:0603\
+  \ |  |  |  | \n| R1, R2, R3, R4 | 4 | 1k | R | agg:0603 |  |  |  | \n| R5 | 1 |\
+  \ 10k | R | agg:0603 |  |  |  | \n| X1, X2 | 2 | CONN | PART |  |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_rigchip_rigchip/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_rigchip_rigchip/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adamgreig_rigchip_rigchip/current_version/working/working.sch
 id: adamgreig_rigchip_rigchip
 name: rigchip
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: '0603'
+  PosX: 59.5
+  PosY: -52.5
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': C2
+  Package: '1206'
+  PosX: 59.25
+  PosY: -79.25
+  Rot: 180.0
+  Side: top
+  Val: "10\xC2\xB5"
+- '# Ref': C3
+  Package: '1206'
+  PosX: 59.5
+  PosY: -69.0
+  Rot: 180.0
+  Side: top
+  Val: "10\xC2\xB5"
+- '# Ref': C4
+  Package: '0603'
+  PosX: 81.5
+  PosY: -79.0
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': C5
+  Package: '0603'
+  PosX: 77.0
+  PosY: -79.0
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': C6
+  Package: '0603'
+  PosX: 63.5
+  PosY: -79.0
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': C7
+  Package: '0603'
+  PosX: 68.0
+  PosY: -79.0
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': D1
+  Package: '0402'
+  PosX: 59.5
+  PosY: -89.75
+  Rot: 180.0
+  Side: top
+  Val: ESD_DIODE
+- '# Ref': D2
+  Package: '0402'
+  PosX: 76.5
+  PosY: -89.0
+  Rot: 90.0
+  Side: top
+  Val: ESD_DIODE
+- '# Ref': D3
+  Package: '0402'
+  PosX: 78.5
+  PosY: -89.0
+  Rot: 90.0
+  Side: top
+  Val: ESD_DIODE
+- '# Ref': D4
+  Package: '0402'
+  PosX: 80.5
+  PosY: -89.0
+  Rot: 90.0
+  Side: top
+  Val: ESD_DIODE
+- '# Ref': D5
+  Package: '0402'
+  PosX: 82.5
+  PosY: -89.0
+  Rot: 90.0
+  Side: top
+  Val: ESD_DIODE
+- '# Ref': D6
+  Package: '0402'
+  PosX: 67.5
+  PosY: -89.0
+  Rot: 90.0
+  Side: top
+  Val: ESD_DIODE
+- '# Ref': D7
+  Package: '0402'
+  PosX: 69.5
+  PosY: -89.0
+  Rot: 90.0
+  Side: top
+  Val: ESD_DIODE
+- '# Ref': D8
+  Package: 0603-LED
+  PosX: 83.0
+  PosY: -66.75
+  Rot: -90.0
+  Side: top
+  Val: GRN
+- '# Ref': D9
+  Package: 0603-LED
+  PosX: 83.0
+  PosY: -70.25
+  Rot: 90.0
+  Side: top
+  Val: RED
+- '# Ref': D10
+  Package: 0603-LED
+  PosX: 84.5
+  PosY: -79.0
+  Rot: 90.0
+  Side: top
+  Val: '~'
+- '# Ref': IC1
+  Package: TSR1
+  PosX: 63.0
+  PosY: -60.0
+  Rot: 90.0
+  Side: top
+  Val: TSR1
+- '# Ref': IC2
+  Package: CHIPv1_0
+  PosX: 50.0
+  PosY: -100.0
+  Rot: 0.0
+  Side: top
+  Val: CHIPv1_0
+- '# Ref': IC3
+  Package: SOT-23-5
+  PosX: 66.0
+  PosY: -75.0
+  Rot: 180.0
+  Side: top
+  Val: SN74LVC1G07
+- '# Ref': IC4
+  Package: SOT-23-5
+  PosX: 71.0
+  PosY: -75.0
+  Rot: 180.0
+  Side: top
+  Val: SN74LVC1G07
+- '# Ref': IC5
+  Package: SOT-23-5
+  PosX: 78.75
+  PosY: -75.0
+  Rot: 180.0
+  Side: top
+  Val: SN74LVC1G07
+- '# Ref': J1
+  Package: S02B-PASK-2
+  PosX: 59.5
+  PosY: -91.5
+  Rot: 180.0
+  Side: top
+  Val: POWER
+- '# Ref': J2
+  Package: S05B-PASK-2
+  PosX: 78.5
+  PosY: -91.5
+  Rot: 180.0
+  Side: top
+  Val: DATA
+- '# Ref': J3
+  Package: S03B-PASK-2
+  PosX: 67.5
+  PosY: -91.5
+  Rot: 180.0
+  Side: top
+  Val: CONTROL
+- '# Ref': L1
+  Package: TYS5040
+  PosX: 59.5
+  PosY: -74.25
+  Rot: 90.0
+  Side: top
+  Val: "6\xC2\xB58"
+- '# Ref': L2
+  Package: '0603'
+  PosX: 80.0
+  PosY: -79.0
+  Rot: 90.0
+  Side: top
+  Val: FB
+- '# Ref': L3
+  Package: '0603'
+  PosX: 78.5
+  PosY: -79.0
+  Rot: 90.0
+  Side: top
+  Val: FB
+- '# Ref': L4
+  Package: '0603'
+  PosX: 75.5
+  PosY: -79.0
+  Rot: 90.0
+  Side: top
+  Val: FB
+- '# Ref': L5
+  Package: '0603'
+  PosX: 74.0
+  PosY: -79.0
+  Rot: 90.0
+  Side: top
+  Val: FB
+- '# Ref': L6
+  Package: '0603'
+  PosX: 69.5
+  PosY: -79.0
+  Rot: 90.0
+  Side: top
+  Val: FB
+- '# Ref': L7
+  Package: '0603'
+  PosX: 66.5
+  PosY: -79.0
+  Rot: 90.0
+  Side: top
+  Val: FB
+- '# Ref': R1
+  Package: '0603'
+  PosX: 84.5
+  PosY: -66.75
+  Rot: 90.0
+  Side: top
+  Val: 1k
+- '# Ref': R2
+  Package: '0603'
+  PosX: 84.5
+  PosY: -70.25
+  Rot: -90.0
+  Side: top
+  Val: 1k
+- '# Ref': R3
+  Package: '0603'
+  PosX: 65.0
+  PosY: -79.0
+  Rot: 90.0
+  Side: top
+  Val: 1k
+- '# Ref': R4
+  Package: '0603'
+  PosX: 71.0
+  PosY: -79.0
+  Rot: 90.0
+  Side: top
+  Val: 1k
+- '# Ref': R5
+  Package: '0603'
+  PosX: 83.0
+  PosY: -79.0
+  Rot: 90.0
+  Side: top
+  Val: 10k
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 100n | 0603 | 59.5 | -52.5 | 180.0\
+  \ | top | \n| C2 | 10\xC2\xB5 | 1206 | 59.25 | -79.25 | 180.0 | top | \n| C3 | 10\xC2\
+  \xB5 | 1206 | 59.5 | -69.0 | 180.0 | top | \n| C4 | 100n | 0603 | 81.5 | -79.0 |\
+  \ -90.0 | top | \n| C5 | 100n | 0603 | 77.0 | -79.0 | -90.0 | top | \n| C6 | 100n\
+  \ | 0603 | 63.5 | -79.0 | -90.0 | top | \n| C7 | 100n | 0603 | 68.0 | -79.0 | -90.0\
+  \ | top | \n| D1 | ESD_DIODE | 0402 | 59.5 | -89.75 | 180.0 | top | \n| D2 | ESD_DIODE\
+  \ | 0402 | 76.5 | -89.0 | 90.0 | top | \n| D3 | ESD_DIODE | 0402 | 78.5 | -89.0\
+  \ | 90.0 | top | \n| D4 | ESD_DIODE | 0402 | 80.5 | -89.0 | 90.0 | top | \n| D5\
+  \ | ESD_DIODE | 0402 | 82.5 | -89.0 | 90.0 | top | \n| D6 | ESD_DIODE | 0402 | 67.5\
+  \ | -89.0 | 90.0 | top | \n| D7 | ESD_DIODE | 0402 | 69.5 | -89.0 | 90.0 | top |\
+  \ \n| D8 | GRN | 0603-LED | 83.0 | -66.75 | -90.0 | top | \n| D9 | RED | 0603-LED\
+  \ | 83.0 | -70.25 | 90.0 | top | \n| D10 | ~ | 0603-LED | 84.5 | -79.0 | 90.0 |\
+  \ top | \n| IC1 | TSR1 | TSR1 | 63.0 | -60.0 | 90.0 | top | \n| IC2 | CHIPv1_0 |\
+  \ CHIPv1_0 | 50.0 | -100.0 | 0.0 | top | \n| IC3 | SN74LVC1G07 | SOT-23-5 | 66.0\
+  \ | -75.0 | 180.0 | top | \n| IC4 | SN74LVC1G07 | SOT-23-5 | 71.0 | -75.0 | 180.0\
+  \ | top | \n| IC5 | SN74LVC1G07 | SOT-23-5 | 78.75 | -75.0 | 180.0 | top | \n| J1\
+  \ | POWER | S02B-PASK-2 | 59.5 | -91.5 | 180.0 | top | \n| J2 | DATA | S05B-PASK-2\
+  \ | 78.5 | -91.5 | 180.0 | top | \n| J3 | CONTROL | S03B-PASK-2 | 67.5 | -91.5 |\
+  \ 180.0 | top | \n| L1 | 6\xC2\xB58 | TYS5040 | 59.5 | -74.25 | 90.0 | top | \n\
+  | L2 | FB | 0603 | 80.0 | -79.0 | 90.0 | top | \n| L3 | FB | 0603 | 78.5 | -79.0\
+  \ | 90.0 | top | \n| L4 | FB | 0603 | 75.5 | -79.0 | 90.0 | top | \n| L5 | FB |\
+  \ 0603 | 74.0 | -79.0 | 90.0 | top | \n| L6 | FB | 0603 | 69.5 | -79.0 | 90.0 |\
+  \ top | \n| L7 | FB | 0603 | 66.5 | -79.0 | 90.0 | top | \n| R1 | 1k | 0603 | 84.5\
+  \ | -66.75 | 90.0 | top | \n| R2 | 1k | 0603 | 84.5 | -70.25 | -90.0 | top | \n\
+  | R3 | 1k | 0603 | 65.0 | -79.0 | 90.0 | top | \n| R4 | 1k | 0603 | 71.0 | -79.0\
+  \ | 90.0 | top | \n| R5 | 10k | 0603 | 83.0 | -79.0 | 90.0 | top | \n"
 projects_flat: projects/adamgreig_rigchip_rigchip/current_version/working
 repo:
   allow_forking: true

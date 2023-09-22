@@ -1,0 +1,63 @@
+# radtel
+ 
+## summary 
+* id: adamgreig_radtel_radtel_routed_2
+* user: adamgreig
+* name: radtel
+* board: radtel_routed_2
+* repo: https://github.com/adamgreig/radtel
+* src_file_repo_kicad_pcb: pcb/radtel_routed.kicad_pcb
+* src_file_repo_kicad_pcb_link: https://github.com/adamgreig/radtel/tree/master/pcb/radtel_routed.kicad_pcb
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/adamgreig/radtel/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adamgreig_radtel_radtel_routed_2/current_version/working  
+
+
+## pcb  
+![](working_3d_600.png) 
+![](working_3d_front_600.png)  
+![](working_3d_back_600.png)  
+![](working_600.png)  
+[board (pdf)](working.pdf)  
+
+## working_bom
+| Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| 1 | C1,C2,C5,C10 | C0603 | 4 | 1µ |  |  | [''] | 
+| 2 | C3 | C0603 | 1 | 1n |  |  | [''] | 
+| 3 | C4 | C0603 | 1 | 3pF |  |  | [''] | 
+| 4 | C6,C11,C12,C20 | C0603 | 4 | 100n |  |  | [''] | 
+| 5 | C7 | C0603 | 1 | 1pF |  |  | [''] | 
+| 6 | C8,C9 | C0603 | 2 | 10µ |  |  | [''] | 
+| 7 | C13 | C0603 | 1 | 10n |  |  | [''] | 
+| 8 | C14 | C0603 | 1 | 47pF |  |  | [''] | 
+| 9 | C15 | C0603 | 1 | 5.1pF |  |  | [''] | 
+| 10 | C16 | C0603 | 1 | 3.9pF |  |  | [''] | 
+| 11 | C17,C19,C21,C22 | C0603 | 4 | 11p |  |  | [''] | 
+| 12 | C18 | C0603 | 1 | 100p |  |  | [''] | 
+| 13 | D1,D2,D3,D4,D5,D6,D7,D8 | R0603 | 8 | CGA0402MLC-12G |  |  | [''] | 
+| 14 | D9,D11 | LED0603 | 2 | GREEN |  |  | [''] | 
+| 15 | D10 | LED0603 | 1 | RED |  |  | [''] | 
+| 16 | IC2 | Si4460 | 1 | Si4460 |  |  | [''] | 
+| 17 | IC3 | LQFP48 | 1 | STM32F072CBT6 |  |  | [''] | 
+| 18 | L1 | L0603 | 1 | 20nH |  |  | [''] | 
+| 19 | L2 | L0603 | 1 | 24nH |  |  | [''] | 
+| 20 | L3 | L0603 | 1 | 18nH |  |  | [''] | 
+| 21 | L4 | L0603 | 1 | 13nH |  |  | [''] | 
+| 22 | L5 | L0603 | 1 | 120nH |  |  | [''] | 
+| 23 | P1 | S02B-PASK-2 | 1 | PWR |  |  | [''] | 
+| 24 | P2 | S04B-PASK-2 | 1 | UART |  |  | [''] | 
+| 25 | P3 | USB3065 | 1 | USB_OTG |  |  | [''] | 
+| 26 | P4 | FTSH-105-01-F-D-K | 1 | SWD |  |  | [''] | 
+| 27 | P5 | WHIPANT | 1 | ANTENNA |  |  | [''] | 
+| 28 | R1,R2,R3 | R0603 | 3 | 1k |  |  | [''] | 
+| 29 | Y1 | XTAL50x32 | 1 | 26MHz |  |  | [''] | 
+| 30 | Y2 | XTAL50x32 | 1 | 8MHz |  |  | [''] | 
+| 31 | IC1 | MSOP8 | 1 | ADP3335 |  |  | [''] | 
+| 32 | M3_MOUNT,M3_MOUNT | M3_MOUNT | 2 | VAL** |  |  | [''] | 
+
+
+
+

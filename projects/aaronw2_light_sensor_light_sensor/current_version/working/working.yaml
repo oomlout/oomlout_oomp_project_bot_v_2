@@ -1,4 +1,141 @@
 board: light_sensor
+bom:
+- Id: '1'
+  Designator: C1,C2,C3,C4
+  Footprint: C_0603_1608Metric
+  Quantity: '4'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D1
+  Footprint: LED_PLCC-2
+  Quantity: '1'
+  Designation: VSMY3940X01-GS08
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U1
+  Footprint: SOT-23-5
+  Quantity: '1'
+  Designation: TLV71318PDBV
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U2
+  Footprint: LFCSP-8-1EP_3x2mm_P0.5mm_EP1.6x1.65mm
+  Quantity: '1'
+  Designation: ADUX1020
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J2,J1
+  Footprint: PinHeader_1x05_P1.27mm_Vertical
+  Quantity: '2'
+  Designation: Conn_01x05
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: RN1
+  Footprint: R_Array_Convex_4x0603
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C2,C3,C4\
+  \ | C_0603_1608Metric | 4 | 1uF |  |  | [''] | \n| 2 | D1 | LED_PLCC-2 | 1 | VSMY3940X01-GS08\
+  \ |  |  | [''] | \n| 3 | U1 | SOT-23-5 | 1 | TLV71318PDBV |  |  | [''] | \n| 4 |\
+  \ U2 | LFCSP-8-1EP_3x2mm_P0.5mm_EP1.6x1.65mm | 1 | ADUX1020 |  |  | [''] | \n| 5\
+  \ | J2,J1 | PinHeader_1x05_P1.27mm_Vertical | 2 | Conn_01x05 |  |  | [''] | \n|\
+  \ 6 | RN1 | R_Array_Convex_4x0603 | 1 | 10K |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '4'
+  Ref: C1, C2, C3, C4
+  Value: 1uF
+  Vendor: ''
+- Cmp name: VSMY3940X01-GS08-Aaron
+  DNP: ''
+  Description: ''
+  Footprint: Aaron:LED_PLCC-2
+  Qnty: '1'
+  Ref: D1
+  Value: VSMY3940X01-GS08
+  Vendor: ''
+- Cmp name: Conn_01x05
+  DNP: ''
+  Description: Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical
+  Qnty: '2'
+  Ref: J1, J2
+  Value: Conn_01x05
+  Vendor: ''
+- Cmp name: SolderJumper_2_Bridged
+  DNP: ''
+  Description: Solder Jumper, 2-pole, closed/bridged
+  Footprint: Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm
+  Qnty: '3'
+  Ref: JP1, JP2, JP3
+  Value: SolderJumper_2_Bridged
+  Vendor: ''
+- Cmp name: R_Pack04
+  DNP: ''
+  Description: 4 resistor network, parallel topology
+  Footprint: Resistor_SMD:R_Array_Convex_4x0603
+  Qnty: '1'
+  Ref: RN1
+  Value: 10K
+  Vendor: ''
+- Cmp name: TLV71318PDBV-Regulator_Linear
+  DNP: ''
+  Description: ''
+  Footprint: Package_TO_SOT_SMD:SOT-23-5
+  Qnty: '1'
+  Ref: U1
+  Value: TLV71318PDBV
+  Vendor: ''
+- Cmp name: ADUX1020-Aaron
+  DNP: ''
+  Description: ''
+  Footprint: Aaron:LFCSP-8-1EP_3x2mm_P0.5mm_EP1.6x1.65mm
+  Qnty: '1'
+  Ref: U2
+  Value: ADUX1020
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3, C4 | 4 | 1uF | C | Capacitor_SMD:C_0603_1608Metric | Unpolarized capacitor\
+  \ |  |  | \n| D1 | 1 | VSMY3940X01-GS08 | VSMY3940X01-GS08-Aaron | Aaron:LED_PLCC-2\
+  \ |  |  |  | \n| J1, J2 | 2 | Conn_01x05 | Conn_01x05 | Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical\
+  \ | Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| JP1, JP2, JP3 | 3 | SolderJumper_2_Bridged | SolderJumper_2_Bridged\
+  \ | Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm | Solder Jumper, 2-pole,\
+  \ closed/bridged |  |  | \n| RN1 | 1 | 10K | R_Pack04 | Resistor_SMD:R_Array_Convex_4x0603\
+  \ | 4 resistor network, parallel topology |  |  | \n| U1 | 1 | TLV71318PDBV | TLV71318PDBV-Regulator_Linear\
+  \ | Package_TO_SOT_SMD:SOT-23-5 |  |  |  | \n| U2 | 1 | ADUX1020 | ADUX1020-Aaron\
+  \ | Aaron:LFCSP-8-1EP_3x2mm_P0.5mm_EP1.6x1.65mm |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/aaronw2_light_sensor_light_sensor/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/aaronw2_light_sensor_light_sensor/current_version/working/working.kicad_pcb
@@ -6,6 +143,90 @@ file_repo_bom_csv_flat: projects/aaronw2_light_sensor_light_sensor/current_versi
 file_sch_flat: projects/aaronw2_light_sensor_light_sensor/current_version/working/working.sch
 id: aaronw2_light_sensor_light_sensor
 name: light_sensor
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_0603_1608Metric
+  PosX: 52.578
+  PosY: -51.562
+  Rot: 90.0
+  Side: top
+  Val: 1uF
+- '# Ref': C2
+  Package: C_0603_1608Metric
+  PosX: 51.816
+  PosY: -43.307
+  Rot: 180.0
+  Side: top
+  Val: 1uF
+- '# Ref': C3
+  Package: C_0603_1608Metric
+  PosX: 52.578
+  PosY: -45.5676
+  Rot: 90.0
+  Side: top
+  Val: 1uF
+- '# Ref': C4
+  Package: C_0603_1608Metric
+  PosX: 52.578
+  PosY: -48.5648
+  Rot: -90.0
+  Side: top
+  Val: 1uF
+- '# Ref': D1
+  Package: LED_PLCC-2
+  PosX: 55.2704
+  PosY: -51.181
+  Rot: -90.0
+  Side: top
+  Val: VSMY3940X01-GS08
+- '# Ref': J1
+  Package: PinHeader_1x05_P1.27mm_Vertical
+  PosX: 58.801
+  PosY: -43.434
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x05
+- '# Ref': J2
+  Package: PinHeader_1x05_P1.27mm_Vertical
+  PosX: 50.292
+  PosY: -45.212
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x05
+- '# Ref': RN1
+  Package: R_Array_Convex_4x0603
+  PosX: 58.674
+  PosY: -51.816
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': U1
+  Package: SOT-23-5
+  PosX: 55.245
+  PosY: -44.069
+  Rot: 0.0
+  Side: top
+  Val: TLV71318PDBV
+- '# Ref': U2
+  Package: LFCSP-8-1EP_3x2mm_P0.5mm_EP1.6x1.65mm
+  PosX: 55.2196
+  PosY: -47.1932
+  Rot: 0.0
+  Side: top
+  Val: ADUX1020
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 1uF | C_0603_1608Metric | 52.578\
+  \ | -51.562 | 90.0 | top | \n| C2 | 1uF | C_0603_1608Metric | 51.816 | -43.307 |\
+  \ 180.0 | top | \n| C3 | 1uF | C_0603_1608Metric | 52.578 | -45.5676 | 90.0 | top\
+  \ | \n| C4 | 1uF | C_0603_1608Metric | 52.578 | -48.5648 | -90.0 | top | \n| D1\
+  \ | VSMY3940X01-GS08 | LED_PLCC-2 | 55.2704 | -51.181 | -90.0 | top | \n| J1 | Conn_01x05\
+  \ | PinHeader_1x05_P1.27mm_Vertical | 58.801 | -43.434 | 0.0 | top | \n| J2 | Conn_01x05\
+  \ | PinHeader_1x05_P1.27mm_Vertical | 50.292 | -45.212 | 0.0 | top | \n| RN1 | 10K\
+  \ | R_Array_Convex_4x0603 | 58.674 | -51.816 | 180.0 | top | \n| U1 | TLV71318PDBV\
+  \ | SOT-23-5 | 55.245 | -44.069 | 0.0 | top | \n| U2 | ADUX1020 | LFCSP-8-1EP_3x2mm_P0.5mm_EP1.6x1.65mm\
+  \ | 55.2196 | -47.1932 | 0.0 | top | \n"
 projects_flat: projects/aaronw2_light_sensor_light_sensor/current_version/working
 repo:
   allow_forking: true

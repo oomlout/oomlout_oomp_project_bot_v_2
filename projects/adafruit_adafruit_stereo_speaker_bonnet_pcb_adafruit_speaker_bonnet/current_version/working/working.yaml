@@ -1,9 +1,571 @@
 board: adafruit_speaker_bonnet
+bom:
+- Id: '1'
+  Designator: U$11
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: RIGHT0,LEFT0
+  Footprint: QFN16_3MM
+  Quantity: '2'
+  Designation: MAX98357A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: FID2,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: CONN1
+  Footprint: 1X25_ROUND_70MIL
+  Quantity: '1'
+  Designation: HEADER-1X25
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$30
+  Footprint: BONNET_SPEAKER_REVB
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C4,C5,C7,C8
+  Footprint: 0805-NO
+  Quantity: '4'
+  Designation: DNP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R1
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 390K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: FB2,FB1,FB4,FB3
+  Footprint: 0805-NO
+  Quantity: '4'
+  Designation: Ferrite
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: C1,C10,C9,C6
+  Footprint: 0805-NO
+  Quantity: '4'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: C2,C3
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: X1,X2
+  Footprint: TERMBLOCK_1X2-3.5MM
+  Quantity: '2'
+  Designation: 3.5mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: JP4,JP2,JP5
+  Footprint: 1X03_ROUND_76
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: SJ1
+  Footprint: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: X3
+  Footprint: JSTPH4
+  Quantity: '1'
+  Designation: 4 JST-PH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: RPI1
+  Footprint: PI_BONNET_NODIM
+  Quantity: '1'
+  Designation: RASPBERRYPI_BPLUS_BONNETNODIM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: R2
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 100K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U$11\
+  \ | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n| 2 | RIGHT0,LEFT0 | QFN16_3MM | 2 |\
+  \ MAX98357A |  |  | [''] | \n| 3 | FID2,FID1 | FIDUCIAL_1MM | 2 | FIDUCIAL\" | \
+  \ |  | [''] | \n| 4 | CONN1 | 1X25_ROUND_70MIL | 1 | HEADER-1X25 |  |  | [''] |\
+  \ \n| 5 | U$30 | BONNET_SPEAKER_REVB | 1 |  |  |  | [''] | \n| 6 | C4,C5,C7,C8 |\
+  \ 0805-NO | 4 | DNP |  |  | [''] | \n| 7 | R1 | 0805-NO | 1 | 390K |  |  | ['']\
+  \ | \n| 8 | FB2,FB1,FB4,FB3 | 0805-NO | 4 | Ferrite |  |  | [''] | \n| 9 | C1,C10,C9,C6\
+  \ | 0805-NO | 4 | 10uF |  |  | [''] | \n| 10 | C2,C3 | 0805-NO | 2 | 0.1uF |  |\
+  \  | [''] | \n| 11 | X1,X2 | TERMBLOCK_1X2-3.5MM | 2 | 3.5mm |  |  | [''] | \n|\
+  \ 12 | JP4,JP2,JP5 | 1X03_ROUND_76 | 3 |  |  |  | [''] | \n| 13 | SJ1 | SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ | 1 |  |  |  | [''] | \n| 14 | X3 | JSTPH4 | 1 | 4 JST-PH |  |  | [''] | \n| 15\
+  \ | RPI1 | PI_BONNET_NODIM | 1 | RASPBERRYPI_BPLUS_BONNETNODIM |  |  | [''] | \n\
+  | 16 | R2 | 0805-NO | 1 | 100K |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '4'
+  Ref: C1, C6, C9, C10
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C2, C3
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '4'
+  Ref: C4, C5, C7, C8
+  Value: DNP
+  Vendor: ''
+- Cmp name: HEADER-1X25
+  DNP: ''
+  Description: ''
+  Footprint: working:1X25_ROUND_70MIL
+  Qnty: '1'
+  Ref: CONN1
+  Value: HEADER-1X25
+  Vendor: ''
+- Cmp name: FERRITE-0805NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '4'
+  Ref: FB1, FB2, FB3, FB4
+  Value: Ferrite
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: HEADER-1X376MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X03_ROUND_76
+  Qnty: '3'
+  Ref: JP2, JP4, JP5
+  Value: HEADER-1X376MIL
+  Vendor: ''
+- Cmp name: AUDIOAMP_MAX98357
+  DNP: ''
+  Description: ''
+  Footprint: working:QFN16_3MM
+  Qnty: '1'
+  Ref: LEFT0
+  Value: MAX98357A
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: R1
+  Value: 390K
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: R2
+  Value: 100K
+  Vendor: ''
+- Cmp name: AUDIOAMP_MAX98357
+  DNP: ''
+  Description: ''
+  Footprint: working:QFN16_3MM
+  Qnty: '1'
+  Ref: RIGHT0
+  Value: MAX98357A
+  Vendor: ''
+- Cmp name: RASPBERRYPI_BPLUS_BONNETNODIM
+  DNP: ''
+  Description: ''
+  Footprint: working:PI_BONNET_NODIM
+  Qnty: '1'
+  Ref: RPI1
+  Value: RASPBERRYPI_BPLUS_BONNETNODIM
+  Vendor: ''
+- Cmp name: SOLDERJUMPER_2WAY
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  Qnty: '1'
+  Ref: SJ1
+  Value: SOLDERJUMPER_2WAY
+  Vendor: ''
+- Cmp name: TERMBLOCK_1X2
+  DNP: ''
+  Description: ''
+  Footprint: working:TERMBLOCK_1X2-3.5MM
+  Qnty: '2'
+  Ref: X1, X2
+  Value: 3.5mm
+  Vendor: ''
+- Cmp name: CON_JST_PH_4PIN
+  DNP: ''
+  Description: ''
+  Footprint: working:JSTPH4
+  Qnty: '1'
+  Ref: X3
+  Value: 4 JST-PH
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C6,\
+  \ C9, C10 | 4 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n\
+  | C2, C3 | 2 | 0.1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n\
+  | C4, C5, C7, C8 | 4 | DNP | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |\
+  \  | \n| CONN1 | 1 | HEADER-1X25 | HEADER-1X25 | working:1X25_ROUND_70MIL |  | \
+  \ |  | \n| FB1, FB2, FB3, FB4 | 4 | Ferrite | FERRITE-0805NO | working:0805-NO |\
+  \  |  |  | \n| FID1, FID2 | 2 | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM\
+  \ |  |  |  | \n| JP2, JP4, JP5 | 3 | HEADER-1X376MIL | HEADER-1X376MIL | working:1X03_ROUND_76\
+  \ |  |  |  | \n| LEFT0 | 1 | MAX98357A | AUDIOAMP_MAX98357 | working:QFN16_3MM |\
+  \  |  |  | \n| R1 | 1 | 390K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |\
+  \  | \n| R2 | 1 | 100K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | \n\
+  | RIGHT0 | 1 | MAX98357A | AUDIOAMP_MAX98357 | working:QFN16_3MM |  |  |  | \n|\
+  \ RPI1 | 1 | RASPBERRYPI_BPLUS_BONNETNODIM | RASPBERRYPI_BPLUS_BONNETNODIM | working:PI_BONNET_NODIM\
+  \ |  |  |  | \n| SJ1 | 1 | SOLDERJUMPER_2WAY | SOLDERJUMPER_2WAY | working:SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ |  |  |  | \n| X1, X2 | 2 | 3.5mm | TERMBLOCK_1X2 | working:TERMBLOCK_1X2-3.5MM\
+  \ |  |  |  | \n| X3 | 1 | 4 JST-PH | CON_JST_PH_4PIN | working:JSTPH4 |  |  |  |\
+  \ \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_stereo_speaker_bonnet_pcb_adafruit_speaker_bonnet/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_stereo_speaker_bonnet_pcb_adafruit_speaker_bonnet/current_version/working/working.sch
 id: adafruit_adafruit_stereo_speaker_bonnet_pcb_adafruit_speaker_bonnet
 name: adafruit_stereo_speaker_bonnet_pcb
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 160.8321
+  PosY: -103.4936
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 159.0541
+  PosY: -103.4936
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 140.1311
+  PosY: -108.9546
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C4
+  Package: 0805-NO
+  PosX: 145.7191
+  PosY: -103.7476
+  Rot: 180.0
+  Side: top
+  Val: DNP
+- '# Ref': C5
+  Package: 0805-NO
+  PosX: 136.5751
+  PosY: -110.8596
+  Rot: 90.0
+  Side: top
+  Val: DNP
+- '# Ref': C6
+  Package: 0805-NO
+  PosX: 141.9091
+  PosY: -108.9546
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C7
+  Package: 0805-NO
+  PosX: 149.2751
+  PosY: -103.7476
+  Rot: 0.0
+  Side: top
+  Val: DNP
+- '# Ref': C8
+  Package: 0805-NO
+  PosX: 154.1011
+  PosY: -108.9546
+  Rot: 0.0
+  Side: top
+  Val: DNP
+- '# Ref': C9
+  Package: 0805-NO
+  PosX: 162.6101
+  PosY: -103.4936
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C10
+  Package: 0805-NO
+  PosX: 138.3531
+  PosY: -108.9546
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': CONN1
+  Package: 1X25_ROUND_70MIL
+  PosX: 148.7671
+  PosY: -98.7946
+  Rot: 0.0
+  Side: top
+  Val: HEADER-1X25
+- '# Ref': FB1
+  Package: 0805-NO
+  PosX: 144.0681
+  PosY: -108.0656
+  Rot: -90.0
+  Side: top
+  Val: Ferrite
+- '# Ref': FB2
+  Package: 0805-NO
+  PosX: 146.1001
+  PosY: -108.0656
+  Rot: -90.0
+  Side: top
+  Val: Ferrite
+- '# Ref': FB3
+  Package: 0805-NO
+  PosX: 151.4341
+  PosY: -108.0656
+  Rot: -90.0
+  Side: top
+  Val: Ferrite
+- '# Ref': FB4
+  Package: 0805-NO
+  PosX: 149.4021
+  PosY: -108.0656
+  Rot: -90.0
+  Side: top
+  Val: Ferrite
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 135.3686
+  PosY: -103.0491
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 154.3551
+  PosY: -110.8596
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': JP2
+  Package: 1X03_ROUND_76
+  PosX: 124.0021
+  PosY: -107.0496
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': JP4
+  Package: 1X03_ROUND_76
+  PosX: 124.0021
+  PosY: -109.5896
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP5
+  Package: 1X03_ROUND_76
+  PosX: 124.0021
+  PosY: -104.5096
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': LEFT0
+  Package: QFN16_3MM
+  PosX: 154.1011
+  PosY: -104.7636
+  Rot: 180.0
+  Side: top
+  Val: MAX98357A
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 136.5751
+  PosY: -107.0496
+  Rot: -90.0
+  Side: top
+  Val: 390K
+- '# Ref': R2
+  Package: 0805-NO
+  PosX: 132.0031
+  PosY: -109.7166
+  Rot: 180.0
+  Side: top
+  Val: 100K
+- '# Ref': RIGHT0
+  Package: QFN16_3MM
+  PosX: 141.4011
+  PosY: -104.7636
+  Rot: 0.0
+  Side: top
+  Val: MAX98357A
+- '# Ref': RPI1
+  Package: PI_BONNET_NODIM
+  PosX: 116.0011
+  PosY: -120.0036
+  Rot: 0.0
+  Side: top
+  Val: RASPBERRYPI_BPLUS_BONNETNODIM
+- '# Ref': SJ1
+  Package: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  PosX: 132.0031
+  PosY: -106.2876
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$11
+  Package: PCBFEAT-REV-040
+  PosX: 117.2711
+  PosY: -112.6376
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$30
+  Package: BONNET_SPEAKER_REVB
+  PosX: 116.0011
+  PosY: -120.0036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': X1
+  Package: TERMBLOCK_1X2-3.5MM
+  PosX: 135.6861
+  PosY: -116.1936
+  Rot: 0.0
+  Side: top
+  Val: 3.5mm
+- '# Ref': X2
+  Package: TERMBLOCK_1X2-3.5MM
+  PosX: 159.6891
+  PosY: -116.1936
+  Rot: 0.0
+  Side: top
+  Val: 3.5mm
+- '# Ref': X3
+  Package: JSTPH4
+  PosX: 147.7511
+  PosY: -116.3206
+  Rot: 180.0
+  Side: top
+  Val: 4_JST-PH
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 10uF | 0805-NO | 160.8321 | -103.4936\
+  \ | -90.0 | top | \n| C2 | 0.1uF | 0805-NO | 159.0541 | -103.4936 | -90.0 | top\
+  \ | \n| C3 | 0.1uF | 0805-NO | 140.1311 | -108.9546 | -90.0 | top | \n| C4 | DNP\
+  \ | 0805-NO | 145.7191 | -103.7476 | 180.0 | top | \n| C5 | DNP | 0805-NO | 136.5751\
+  \ | -110.8596 | 90.0 | top | \n| C6 | 10uF | 0805-NO | 141.9091 | -108.9546 | -90.0\
+  \ | top | \n| C7 | DNP | 0805-NO | 149.2751 | -103.7476 | 0.0 | top | \n| C8 | DNP\
+  \ | 0805-NO | 154.1011 | -108.9546 | 0.0 | top | \n| C9 | 10uF | 0805-NO | 162.6101\
+  \ | -103.4936 | -90.0 | top | \n| C10 | 10uF | 0805-NO | 138.3531 | -108.9546 |\
+  \ -90.0 | top | \n| CONN1 | HEADER-1X25 | 1X25_ROUND_70MIL | 148.7671 | -98.7946\
+  \ | 0.0 | top | \n| FB1 | Ferrite | 0805-NO | 144.0681 | -108.0656 | -90.0 | top\
+  \ | \n| FB2 | Ferrite | 0805-NO | 146.1001 | -108.0656 | -90.0 | top | \n| FB3 |\
+  \ Ferrite | 0805-NO | 151.4341 | -108.0656 | -90.0 | top | \n| FB4 | Ferrite | 0805-NO\
+  \ | 149.4021 | -108.0656 | -90.0 | top | \n| FID1 | FIDUCIAL\"\" | FIDUCIAL_1MM\
+  \ | 135.3686 | -103.0491 | 0.0 | top | \n| FID2 | FIDUCIAL\"\" | FIDUCIAL_1MM |\
+  \ 154.3551 | -110.8596 | 0.0 | top | \n| JP2 | nan | 1X03_ROUND_76 | 124.0021 |\
+  \ -107.0496 | 180.0 | top | \n| JP4 | nan | 1X03_ROUND_76 | 124.0021 | -109.5896\
+  \ | 0.0 | top | \n| JP5 | nan | 1X03_ROUND_76 | 124.0021 | -104.5096 | 0.0 | top\
+  \ | \n| LEFT0 | MAX98357A | QFN16_3MM | 154.1011 | -104.7636 | 180.0 | top | \n\
+  | R1 | 390K | 0805-NO | 136.5751 | -107.0496 | -90.0 | top | \n| R2 | 100K | 0805-NO\
+  \ | 132.0031 | -109.7166 | 180.0 | top | \n| RIGHT0 | MAX98357A | QFN16_3MM | 141.4011\
+  \ | -104.7636 | 0.0 | top | \n| RPI1 | RASPBERRYPI_BPLUS_BONNETNODIM | PI_BONNET_NODIM\
+  \ | 116.0011 | -120.0036 | 0.0 | top | \n| SJ1 | nan | SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ | 132.0031 | -106.2876 | 0.0 | top | \n| U$11 | nan | PCBFEAT-REV-040 | 117.2711\
+  \ | -112.6376 | 0.0 | top | \n| U$30 | nan | BONNET_SPEAKER_REVB | 116.0011 | -120.0036\
+  \ | 0.0 | top | \n| X1 | 3.5mm | TERMBLOCK_1X2-3.5MM | 135.6861 | -116.1936 | 0.0\
+  \ | top | \n| X2 | 3.5mm | TERMBLOCK_1X2-3.5MM | 159.6891 | -116.1936 | 0.0 | top\
+  \ | \n| X3 | 4_JST-PH | JSTPH4 | 147.7511 | -116.3206 | 180.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_stereo_speaker_bonnet_pcb_adafruit_speaker_bonnet/current_version/working
 repo:
   allow_forking: true

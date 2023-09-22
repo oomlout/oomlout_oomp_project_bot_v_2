@@ -1,4 +1,89 @@
 board: adafruit_tsl2591_original
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C2, C3
+  Value: 10uF
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: HEADER-1X676MIL_FULLROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06_ROUND_FULL_76
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X676MIL_FULLROUND
+  Vendor: ''
+- Cmp name: MOSFET-NWIDE
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-WIDE
+  Qnty: '2'
+  Ref: Q1, Q2
+  Value: BSS138
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '3'
+  Ref: R2, R3, R4
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_0805MP
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805MP
+  Qnty: '1'
+  Ref: R5
+  Value: 10K
+  Vendor: ''
+- Cmp name: LIGHT_TSL2591
+  DNP: ''
+  Description: ''
+  Footprint: working:DFN6_TAOS
+  Qnty: '1'
+  Ref: U1
+  Value: TSL2591
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U2
+  Value: MIC5225-3.3
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '2'
+  Ref: U$18, U$19
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C2, C3\
+  \ | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| FID1,\
+  \ FID2 | 2 | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM\
+  \ |  |  |  | \n| JP1 | 1 | HEADER-1X676MIL_FULLROUND | HEADER-1X676MIL_FULLROUND\
+  \ | working:1X06_ROUND_FULL_76 |  |  |  | \n| Q1, Q2 | 2 | BSS138 | MOSFET-NWIDE\
+  \ | working:SOT23-WIDE |  |  |  | \n| R2, R3, R4 | 3 | 10K | RESISTOR0805_NOOUTLINE\
+  \ | working:0805-NO |  |  |  | \n| R5 | 1 | 10K | RESISTOR_0805MP | working:_0805MP\
+  \ |  |  |  | \n| U1 | 1 | TSL2591 | LIGHT_TSL2591 | working:DFN6_TAOS |  |  |  |\
+  \ \n| U2 | 1 | MIC5225-3.3 | VREG_SOT23-5 | working:SOT23-5 |  |  |  | \n| U$18,\
+  \ U$19 | 2 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_tsl2591_breakout_pcb_adafruit_tsl2591_original/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_tsl2591_breakout_pcb_adafruit_tsl2591_original/current_version/working/working.sch

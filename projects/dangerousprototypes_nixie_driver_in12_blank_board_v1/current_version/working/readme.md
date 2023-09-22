@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/DangerousPrototypes/Nixie_driver/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/dangerousprototypes_nixie_driver_in12_blank_board_v1/current_version/working  
 
 
 

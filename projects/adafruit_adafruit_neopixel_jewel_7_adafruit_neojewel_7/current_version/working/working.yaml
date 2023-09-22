@@ -1,9 +1,351 @@
 board: adafruit_neojewel_7
+bom:
+- Id: '1'
+  Designator: C10,C1,C6,C2
+  Footprint: C0603
+  Quantity: '4'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: LED3,LED6,LED5,LED1,LED4,LED2,LED7
+  Footprint: WS2812B-NARROW
+  Quantity: '7'
+  Designation: WS2812B5050
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: FID2,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: VDD0,GND_2,GND0,DIN0,DOUT0
+  Footprint: 1X01-CLEANBIG
+  Quantity: '5'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: '@HOLE0,@HOLE1'
+  Footprint: ''
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R1
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: '470'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U$3
+  Footprint: ADAFRUIT_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C10,C1,C6,C2\
+  \ | C0603 | 4 | 1uF |  |  | [''] | \n| 2 | LED3,LED6,LED5,LED1,LED4,LED2,LED7 |\
+  \ WS2812B-NARROW | 7 | WS2812B5050 |  |  | [''] | \n| 3 | FID2,FID1 | FIDUCIAL_1MM\
+  \ | 2 | FIDUCIAL\" |  |  | [''] | \n| 4 | VDD0,GND_2,GND0,DIN0,DOUT0 | 1X01-CLEANBIG\
+  \ | 5 |  |  |  | [''] | \n| 5 | @HOLE0,@HOLE1 |  | 2 |  |  |  | [''] | \n| 6 | R1\
+  \ | 0603-NO | 1 | 470 |  |  | [''] | \n| 7 | U$3 | ADAFRUIT_5MM | 1 |  |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: C-EUC0603
+  DNP: ''
+  Description: ''
+  Footprint: working:C0603
+  Qnty: '4'
+  Ref: C1, C2, C6, C10
+  Value: 1uF
+  Vendor: ''
+- Cmp name: PINHD-1X1CB
+  DNP: ''
+  Description: ''
+  Footprint: working:1X01-CLEANBIG
+  Qnty: '1'
+  Ref: DIN0
+  Value: PINHD-1X1CB
+  Vendor: ''
+- Cmp name: PINHD-1X1CB
+  DNP: ''
+  Description: ''
+  Footprint: working:1X01-CLEANBIG
+  Qnty: '1'
+  Ref: DOUT0
+  Value: PINHD-1X1CB
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: PINHD-1X1CB
+  DNP: ''
+  Description: ''
+  Footprint: working:1X01-CLEANBIG
+  Qnty: '1'
+  Ref: GND0
+  Value: PINHD-1X1CB
+  Vendor: ''
+- Cmp name: PINHD-1X1CB
+  DNP: ''
+  Description: ''
+  Footprint: working:1X01-CLEANBIG
+  Qnty: '1'
+  Ref: GND_2
+  Value: PINHD-1X1CB
+  Vendor: ''
+- Cmp name: WS2812B5050
+  DNP: ''
+  Description: ''
+  Footprint: working:WS2812B
+  Qnty: '7'
+  Ref: LED1, LED2, LED3, LED4, LED5, LED6, LED7
+  Value: WS2812B5050
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R1
+  Value: '470'
+  Vendor: ''
+- Cmp name: PINHD-1X1CB
+  DNP: ''
+  Description: ''
+  Footprint: working:1X01-CLEANBIG
+  Qnty: '1'
+  Ref: VDD0
+  Value: PINHD-1X1CB
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C6, C10 | 4 | 1uF | C-EUC0603 | working:C0603 |  |  |  | \n| DIN0 | 1 | PINHD-1X1CB\
+  \ | PINHD-1X1CB | working:1X01-CLEANBIG |  |  |  | \n| DOUT0 | 1 | PINHD-1X1CB |\
+  \ PINHD-1X1CB | working:1X01-CLEANBIG |  |  |  | \n| FID1, FID2 | 2 | FIDUCIAL\"\
+  \" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | \n| GND0 | 1\
+  \ | PINHD-1X1CB | PINHD-1X1CB | working:1X01-CLEANBIG |  |  |  | \n| GND_2 | 1 |\
+  \ PINHD-1X1CB | PINHD-1X1CB | working:1X01-CLEANBIG |  |  |  | \n| LED1, LED2, LED3,\
+  \ LED4, LED5, LED6, LED7 | 7 | WS2812B5050 | WS2812B5050 | working:WS2812B |  |\
+  \  |  | \n| R1 | 1 | 470 | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n|\
+  \ VDD0 | 1 | PINHD-1X1CB | PINHD-1X1CB | working:1X01-CLEANBIG |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_neopixel_jewel_7_adafruit_neojewel_7/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_neopixel_jewel_7_adafruit_neojewel_7/current_version/working/working.sch
 id: adafruit_adafruit_neopixel_jewel_7_adafruit_neojewel_7
 name: adafruit_neopixel_jewel_7
+position_bottom:
+- '# Ref': U$3
+  Package: ADAFRUIT_5MM
+  PosX: 151.0961
+  PosY: -114.5506
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$3 | nan | ADAFRUIT_5MM | 151.0961\
+  \ | -114.5506 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 158.0011
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 139.0011
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: C0603
+  PosX: 143.9011
+  PosY: -96.9036
+  Rot: 120.0
+  Side: top
+  Val: 1uF
+- '# Ref': C2
+  Package: C0603
+  PosX: 153.4754
+  PosY: -96.8293
+  Rot: 45.0
+  Side: top
+  Val: 1uF
+- '# Ref': C6
+  Package: C0603
+  PosX: 143.7819
+  PosY: -113.0976
+  Rot: -120.0
+  Side: top
+  Val: 1uF
+- '# Ref': C10
+  Package: C0603
+  PosX: 153.1951
+  PosY: -113.0352
+  Rot: -60.0
+  Side: top
+  Val: 1uF
+- '# Ref': DIN0
+  Package: 1X01-CLEANBIG
+  PosX: 146.4604
+  PosY: -108.9664
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': DOUT0
+  Package: 1X01-CLEANBIG
+  PosX: 146.1977
+  PosY: -100.9994
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 148.5111
+  PosY: -97.0586
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 148.5361
+  PosY: -113.2686
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': GND0
+  Package: 1X01-CLEANBIG
+  PosX: 152.7082
+  PosY: -105.1113
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': GND_2
+  Package: 1X01-CLEANBIG
+  PosX: 150.8011
+  PosY: -100.8036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': LED1
+  Package: WS2812B-NARROW
+  PosX: 148.5011
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED2
+  Package: WS2812B-NARROW
+  PosX: 148.5011
+  PosY: -97.0036
+  Rot: 0.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED3
+  Package: WS2812B-NARROW
+  PosX: 155.4011
+  PosY: -101.0036
+  Rot: -60.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED4
+  Package: WS2812B-NARROW
+  PosX: 155.4011
+  PosY: -109.0036
+  Rot: -120.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED5
+  Package: WS2812B-NARROW
+  PosX: 148.5011
+  PosY: -113.2036
+  Rot: 180.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED6
+  Package: WS2812B-NARROW
+  PosX: 141.6011
+  PosY: -109.0036
+  Rot: 120.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED7
+  Package: WS2812B-NARROW
+  PosX: 141.6011
+  PosY: -101.0036
+  Rot: 60.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 144.2459
+  PosY: -104.8227
+  Rot: 90.0
+  Side: top
+  Val: '470'
+- '# Ref': VDD0
+  Package: 1X01-CLEANBIG
+  PosX: 150.5442
+  PosY: -109.1448
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 158.0011 | -105.0036\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 139.0011 | -105.0036 | 0.0 | top | \n|\
+  \ C1 | 1uF | C0603 | 143.9011 | -96.9036 | 120.0 | top | \n| C2 | 1uF | C0603 |\
+  \ 153.4754 | -96.8293 | 45.0 | top | \n| C6 | 1uF | C0603 | 143.7819 | -113.0976\
+  \ | -120.0 | top | \n| C10 | 1uF | C0603 | 153.1951 | -113.0352 | -60.0 | top |\
+  \ \n| DIN0 | nan | 1X01-CLEANBIG | 146.4604 | -108.9664 | 0.0 | top | \n| DOUT0\
+  \ | nan | 1X01-CLEANBIG | 146.1977 | -100.9994 | 0.0 | top | \n| FID1 | FIDUCIAL\"\
+  \" | FIDUCIAL_1MM | 148.5111 | -97.0586 | 0.0 | top | \n| FID2 | FIDUCIAL\"\" |\
+  \ FIDUCIAL_1MM | 148.5361 | -113.2686 | 0.0 | top | \n| GND0 | nan | 1X01-CLEANBIG\
+  \ | 152.7082 | -105.1113 | 0.0 | top | \n| GND_2 | nan | 1X01-CLEANBIG | 150.8011\
+  \ | -100.8036 | 0.0 | top | \n| LED1 | WS2812B5050 | WS2812B-NARROW | 148.5011 |\
+  \ -105.0036 | 0.0 | top | \n| LED2 | WS2812B5050 | WS2812B-NARROW | 148.5011 | -97.0036\
+  \ | 0.0 | top | \n| LED3 | WS2812B5050 | WS2812B-NARROW | 155.4011 | -101.0036 |\
+  \ -60.0 | top | \n| LED4 | WS2812B5050 | WS2812B-NARROW | 155.4011 | -109.0036 |\
+  \ -120.0 | top | \n| LED5 | WS2812B5050 | WS2812B-NARROW | 148.5011 | -113.2036\
+  \ | 180.0 | top | \n| LED6 | WS2812B5050 | WS2812B-NARROW | 141.6011 | -109.0036\
+  \ | 120.0 | top | \n| LED7 | WS2812B5050 | WS2812B-NARROW | 141.6011 | -101.0036\
+  \ | 60.0 | top | \n| R1 | 470 | 0603-NO | 144.2459 | -104.8227 | 90.0 | top | \n\
+  | VDD0 | nan | 1X01-CLEANBIG | 150.5442 | -109.1448 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_neopixel_jewel_7_adafruit_neojewel_7/current_version/working
 repo:
   allow_forking: true

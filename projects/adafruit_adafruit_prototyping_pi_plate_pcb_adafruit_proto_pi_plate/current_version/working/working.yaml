@@ -1,9 +1,334 @@
 board: adafruit_proto_pi_plate
+bom:
+- Id: '1'
+  Designator: J3
+  Footprint: 1X05-3.5MM
+  Quantity: '1'
+  Designation: 1X5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: CN1,CN3,CN2
+  Footprint: 1X04-3.5MM
+  Quantity: '3'
+  Designation: 1X4-3.5MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: JP4,JP2,JP6,JP5
+  Footprint: 1X08-BIG
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: JP3
+  Footprint: 1X06-BIG
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$1
+  Footprint: RASBERRYPI_SHIELD
+  Quantity: '1'
+  Designation: RASPBERRYPI_BB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: CN4
+  Footprint: 1X04-CLEANBIG
+  Quantity: '1'
+  Designation: 1X4-CLEANBIG
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: JP1
+  Footprint: 1X08-3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U$3
+  Footprint: ADAFRUIT_TEXT_20MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U$2
+  Footprint: SO-16NMW
+  Quantity: '1'
+  Designation: SMD-16SOIC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: J1,J2
+  Footprint: 1X2-3.5MM
+  Quantity: '2'
+  Designation: 1X2-3.5MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J3\
+  \ | 1X05-3.5MM | 1 | 1X5 |  |  | [''] | \n| 2 | CN1,CN3,CN2 | 1X04-3.5MM | 3 | 1X4-3.5MM\
+  \ |  |  | [''] | \n| 3 | JP4,JP2,JP6,JP5 | 1X08-BIG | 4 |  |  |  | [''] | \n| 4\
+  \ | JP3 | 1X06-BIG | 1 |  |  |  | [''] | \n| 5 | U$1 | RASBERRYPI_SHIELD | 1 | RASPBERRYPI_BB\
+  \ |  |  | [''] | \n| 6 | CN4 | 1X04-CLEANBIG | 1 | 1X4-CLEANBIG |  |  | [''] | \n\
+  | 7 | JP1 | 1X08-3.5MM | 1 |  |  |  | [''] | \n| 8 | U$3 | ADAFRUIT_TEXT_20MM |\
+  \ 1 |  |  |  | [''] | \n| 9 | U$2 | SO-16NMW | 1 | SMD-16SOIC |  |  | [''] | \n\
+  | 10 | J1,J2 | 1X2-3.5MM | 2 | 1X2-3.5MM |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: 1X4-3.5MM
+  DNP: ''
+  Description: ''
+  Footprint: working:1X04-3.5MM
+  Qnty: '3'
+  Ref: CN1, CN2, CN3
+  Value: 1X4-3.5MM
+  Vendor: ''
+- Cmp name: 1X4-CLEANBIG
+  DNP: ''
+  Description: ''
+  Footprint: working:1X04-CLEANBIG
+  Qnty: '1'
+  Ref: CN4
+  Value: 1X4-CLEANBIG
+  Vendor: ''
+- Cmp name: 1X2-3.5MM
+  DNP: ''
+  Description: ''
+  Footprint: working:1X2-3.5MM
+  Qnty: '2'
+  Ref: J1, J2
+  Value: 1X2-3.5MM
+  Vendor: ''
+- Cmp name: 1X5
+  DNP: ''
+  Description: ''
+  Footprint: working:1X05-3.5MM
+  Qnty: '1'
+  Ref: J3
+  Value: 1X5
+  Vendor: ''
+- Cmp name: PINHD-1X8-3.5MM
+  DNP: ''
+  Description: ''
+  Footprint: working:1X08-3.5MM
+  Qnty: '1'
+  Ref: JP1
+  Value: PINHD-1X8-3.5MM
+  Vendor: ''
+- Cmp name: PINHD-1X8BIG
+  DNP: ''
+  Description: ''
+  Footprint: working:1X08-BIG
+  Qnty: '4'
+  Ref: JP2, JP4, JP5, JP6
+  Value: PINHD-1X8BIG
+  Vendor: ''
+- Cmp name: PINHD-1X6B
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06-BIG
+  Qnty: '1'
+  Ref: JP3
+  Value: PINHD-1X6B
+  Vendor: ''
+- Cmp name: RASPBERRYPI_BB
+  DNP: ''
+  Description: ''
+  Footprint: working:RASBERRYPI_SHIELD
+  Qnty: '1'
+  Ref: U$1
+  Value: RASPBERRYPI_BB
+  Vendor: ''
+- Cmp name: SMD-16SOIC
+  DNP: ''
+  Description: ''
+  Footprint: working:SO-16NMW
+  Qnty: '1'
+  Ref: U$2
+  Value: SMD-16SOIC
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| CN1,\
+  \ CN2, CN3 | 3 | 1X4-3.5MM | 1X4-3.5MM | working:1X04-3.5MM |  |  |  | \n| CN4 |\
+  \ 1 | 1X4-CLEANBIG | 1X4-CLEANBIG | working:1X04-CLEANBIG |  |  |  | \n| J1, J2\
+  \ | 2 | 1X2-3.5MM | 1X2-3.5MM | working:1X2-3.5MM |  |  |  | \n| J3 | 1 | 1X5 |\
+  \ 1X5 | working:1X05-3.5MM |  |  |  | \n| JP1 | 1 | PINHD-1X8-3.5MM | PINHD-1X8-3.5MM\
+  \ | working:1X08-3.5MM |  |  |  | \n| JP2, JP4, JP5, JP6 | 4 | PINHD-1X8BIG | PINHD-1X8BIG\
+  \ | working:1X08-BIG |  |  |  | \n| JP3 | 1 | PINHD-1X6B | PINHD-1X6B | working:1X06-BIG\
+  \ |  |  |  | \n| U$1 | 1 | RASPBERRYPI_BB | RASPBERRYPI_BB | working:RASBERRYPI_SHIELD\
+  \ |  |  |  | \n| U$2 | 1 | SMD-16SOIC | SMD-16SOIC | working:SO-16NMW |  |  |  |\
+  \ \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_prototyping_pi_plate_pcb_adafruit_proto_pi_plate/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_prototyping_pi_plate_pcb_adafruit_proto_pi_plate/current_version/working/working.sch
 id: adafruit_adafruit_prototyping_pi_plate_pcb_adafruit_proto_pi_plate
 name: adafruit_prototyping_pi_plate_pcb
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': CN1
+  Package: 1X04-3.5MM
+  PosX: 157.2951
+  PosY: -68.0356
+  Rot: 180.0
+  Side: top
+  Val: 1X4-3.5MM
+- '# Ref': CN2
+  Package: 1X04-3.5MM
+  PosX: 126.2871
+  PosY: -120.5036
+  Rot: -90.0
+  Side: top
+  Val: 1X4-3.5MM
+- '# Ref': CN3
+  Package: 1X04-3.5MM
+  PosX: 167.9991
+  PosY: -143.6936
+  Rot: 0.0
+  Side: top
+  Val: 1X4-3.5MM
+- '# Ref': CN4
+  Package: 1X04-CLEANBIG
+  PosX: 167.2371
+  PosY: -138.1056
+  Rot: 180.0
+  Side: top
+  Val: 1X4-CLEANBIG
+- '# Ref': J1
+  Package: 1X2-3.5MM
+  PosX: 126.2871
+  PosY: -69.5036
+  Rot: -90.0
+  Side: top
+  Val: 1X2-3.5MM
+- '# Ref': J2
+  Package: 1X2-3.5MM
+  PosX: 126.2871
+  PosY: -78.0036
+  Rot: -90.0
+  Side: top
+  Val: 1X2-3.5MM
+- '# Ref': J3
+  Package: 1X05-3.5MM
+  PosX: 139.7951
+  PosY: -68.0356
+  Rot: 180.0
+  Side: top
+  Val: 1X5
+- '# Ref': JP1
+  Package: 1X08-3.5MM
+  PosX: 126.2871
+  PosY: -97.5036
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X08-BIG
+  PosX: 131.6771
+  PosY: -101.7836
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP3
+  Package: 1X06-BIG
+  PosX: 131.6771
+  PosY: -81.4636
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP4
+  Package: 1X08-BIG
+  PosX: 149.9651
+  PosY: -73.3356
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': JP5
+  Package: 1X08-BIG
+  PosX: 121.7711
+  PosY: -137.3436
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP6
+  Package: 1X08-BIG
+  PosX: 138.2811
+  PosY: -137.3436
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': U$1
+  Package: RASBERRYPI_SHIELD
+  PosX: 120.5011
+  PosY: -147.5036
+  Rot: 0.0
+  Side: top
+  Val: RASPBERRYPI_BB
+- '# Ref': U$2
+  Package: SO-16NMW
+  PosX: 129.8991
+  PosY: -138.8676
+  Rot: 90.0
+  Side: top
+  Val: SMD-16SOIC
+- '# Ref': U$3
+  Package: ADAFRUIT_TEXT_20MM
+  PosX: 140.0591
+  PosY: -144.7096
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| CN1 | 1X4-3.5MM | 1X04-3.5MM | 157.2951\
+  \ | -68.0356 | 180.0 | top | \n| CN2 | 1X4-3.5MM | 1X04-3.5MM | 126.2871 | -120.5036\
+  \ | -90.0 | top | \n| CN3 | 1X4-3.5MM | 1X04-3.5MM | 167.9991 | -143.6936 | 0.0\
+  \ | top | \n| CN4 | 1X4-CLEANBIG | 1X04-CLEANBIG | 167.2371 | -138.1056 | 180.0\
+  \ | top | \n| J1 | 1X2-3.5MM | 1X2-3.5MM | 126.2871 | -69.5036 | -90.0 | top | \n\
+  | J2 | 1X2-3.5MM | 1X2-3.5MM | 126.2871 | -78.0036 | -90.0 | top | \n| J3 | 1X5\
+  \ | 1X05-3.5MM | 139.7951 | -68.0356 | 180.0 | top | \n| JP1 | nan | 1X08-3.5MM\
+  \ | 126.2871 | -97.5036 | -90.0 | top | \n| JP2 | nan | 1X08-BIG | 131.6771 | -101.7836\
+  \ | 90.0 | top | \n| JP3 | nan | 1X06-BIG | 131.6771 | -81.4636 | -90.0 | top |\
+  \ \n| JP4 | nan | 1X08-BIG | 149.9651 | -73.3356 | 180.0 | top | \n| JP5 | nan |\
+  \ 1X08-BIG | 121.7711 | -137.3436 | 90.0 | top | \n| JP6 | nan | 1X08-BIG | 138.2811\
+  \ | -137.3436 | -90.0 | top | \n| U$1 | RASPBERRYPI_BB | RASBERRYPI_SHIELD | 120.5011\
+  \ | -147.5036 | 0.0 | top | \n| U$2 | SMD-16SOIC | SO-16NMW | 129.8991 | -138.8676\
+  \ | 90.0 | top | \n| U$3 | nan | ADAFRUIT_TEXT_20MM | 140.0591 | -144.7096 | 0.0\
+  \ | top | \n"
 projects_flat: projects/adafruit_adafruit_prototyping_pi_plate_pcb_adafruit_proto_pi_plate/current_version/working
 repo:
   allow_forking: true

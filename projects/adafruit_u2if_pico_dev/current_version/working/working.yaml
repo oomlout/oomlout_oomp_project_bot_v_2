@@ -1,10 +1,917 @@
 board: pico_dev
+bom:
+- Id: '1'
+  Designator: U1
+  Footprint: RPi_Pico_SMD_TH
+  Quantity: '1'
+  Designation: Pico
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U2
+  Footprint: ssd1306_I2c
+  Quantity: '1'
+  Designation: SSD1306_I2C
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J10,J9
+  Footprint: PinHeader_1x06_P2.54mm_Vertical
+  Quantity: '2'
+  Designation: SPI0
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J8
+  Footprint: PinHeader_1x03_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: UART0
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J17,J13
+  Footprint: PinHeader_1x03_P2.54mm_Vertical
+  Quantity: '2'
+  Designation: +3.3V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: SW2
+  Footprint: SW_PUSH_6mm_H4.3mm
+  Quantity: '1'
+  Designation: SW_GP9
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: SW3
+  Footprint: SW_PUSH_6mm_H4.3mm
+  Quantity: '1'
+  Designation: SW_GP8
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: J3
+  Footprint: PinHeader_1x04_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: ANALOG
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: J16,J15
+  Footprint: PinHeader_1x03_P2.54mm_Vertical
+  Quantity: '2'
+  Designation: GND
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: J19
+  Footprint: PinHeader_1x05_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: I2S
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: C3,C4,C2,C5
+  Footprint: CP_Radial_D6.3mm_P2.50mm
+  Quantity: '4'
+  Designation: CP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: SW1
+  Footprint: SW_PUSH_6mm_H4.3mm
+  Quantity: '1'
+  Designation: RESET
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: D2
+  Footprint: LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  Quantity: '1'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: R4
+  Footprint: R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  Quantity: '1'
+  Designation: '470'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: R3,R5,R2,R1,R6
+  Footprint: R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  Quantity: '5'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: J2
+  Footprint: PinHeader_1x04_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: SWD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: J21
+  Footprint: PinHeader_1x04_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: RGB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: JP1
+  Footprint: PinHeader_1x02_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: LCD_POWER
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: J6,J5,J7
+  Footprint: PinHeader_1x04_P2.54mm_Vertical
+  Quantity: '3'
+  Designation: I2C0
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: J20
+  Footprint: PinHeader_1x03_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: GPIO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '21'
+  Designator: J18
+  Footprint: PinHeader_1x05_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: GPIO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '22'
+  Designator: C1
+  Footprint: CP_Radial_D8.0mm_P3.50mm
+  Quantity: '1'
+  Designation: CP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '23'
+  Designator: J1
+  Footprint: PinHeader_1x02_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: MODE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '24'
+  Designator: D1
+  Footprint: D_SMA
+  Quantity: '1'
+  Designation: SS14
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '25'
+  Designator: J22,J23
+  Footprint: PinHeader_1x04_P2.54mm_Vertical
+  Quantity: '2'
+  Designation: I2C1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '26'
+  Designator: J14
+  Footprint: PinHeader_1x03_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: +5V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '27'
+  Designator: J12
+  Footprint: PinHeader_1x06_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: SPI1/GPIO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '28'
+  Designator: Q1
+  Footprint: SOT-23_Handsoldering
+  Quantity: '1'
+  Designation: BSS138
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U1\
+  \ | RPi_Pico_SMD_TH | 1 | Pico |  |  | [''] | \n| 2 | U2 | ssd1306_I2c | 1 | SSD1306_I2C\
+  \ |  |  | [''] | \n| 3 | J10,J9 | PinHeader_1x06_P2.54mm_Vertical | 2 | SPI0 | \
+  \ |  | [''] | \n| 4 | J8 | PinHeader_1x03_P2.54mm_Vertical | 1 | UART0 |  |  | ['']\
+  \ | \n| 5 | J17,J13 | PinHeader_1x03_P2.54mm_Vertical | 2 | +3.3V |  |  | [''] |\
+  \ \n| 6 | SW2 | SW_PUSH_6mm_H4.3mm | 1 | SW_GP9 |  |  | [''] | \n| 7 | SW3 | SW_PUSH_6mm_H4.3mm\
+  \ | 1 | SW_GP8 |  |  | [''] | \n| 8 | J3 | PinHeader_1x04_P2.54mm_Vertical | 1 |\
+  \ ANALOG |  |  | [''] | \n| 9 | J16,J15 | PinHeader_1x03_P2.54mm_Vertical | 2 |\
+  \ GND |  |  | [''] | \n| 10 | J19 | PinHeader_1x05_P2.54mm_Vertical | 1 | I2S |\
+  \  |  | [''] | \n| 11 | C3,C4,C2,C5 | CP_Radial_D6.3mm_P2.50mm | 4 | CP |  |  |\
+  \ [''] | \n| 12 | SW1 | SW_PUSH_6mm_H4.3mm | 1 | RESET |  |  | [''] | \n| 13 | D2\
+  \ | LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder | 1 | LED |  |  | [''] | \n| 14\
+  \ | R4 | R_1206_3216Metric_Pad1.42x1.75mm_HandSolder | 1 | 470 |  |  | [''] | \n\
+  | 15 | R3,R5,R2,R1,R6 | R_1206_3216Metric_Pad1.42x1.75mm_HandSolder | 5 | 10k |\
+  \  |  | [''] | \n| 16 | J2 | PinHeader_1x04_P2.54mm_Vertical | 1 | SWD |  |  | ['']\
+  \ | \n| 17 | J21 | PinHeader_1x04_P2.54mm_Vertical | 1 | RGB |  |  | [''] | \n|\
+  \ 18 | JP1 | PinHeader_1x02_P2.54mm_Vertical | 1 | LCD_POWER |  |  | [''] | \n|\
+  \ 19 | J6,J5,J7 | PinHeader_1x04_P2.54mm_Vertical | 3 | I2C0 |  |  | [''] | \n|\
+  \ 20 | J20 | PinHeader_1x03_P2.54mm_Vertical | 1 | GPIO |  |  | [''] | \n| 21 |\
+  \ J18 | PinHeader_1x05_P2.54mm_Vertical | 1 | GPIO |  |  | [''] | \n| 22 | C1 |\
+  \ CP_Radial_D8.0mm_P3.50mm | 1 | CP |  |  | [''] | \n| 23 | J1 | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 1 | MODE |  |  | [''] | \n| 24 | D1 | D_SMA | 1 | SS14 |  |  | [''] | \n| 25\
+  \ | J22,J23 | PinHeader_1x04_P2.54mm_Vertical | 2 | I2C1 |  |  | [''] | \n| 26 |\
+  \ J14 | PinHeader_1x03_P2.54mm_Vertical | 1 | +5V |  |  | [''] | \n| 27 | J12 |\
+  \ PinHeader_1x06_P2.54mm_Vertical | 1 | SPI1/GPIO |  |  | [''] | \n| 28 | Q1 | SOT-23_Handsoldering\
+  \ | 1 | BSS138 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CP-Device
+  DNP: ''
+  Description: ''
+  Footprint: Capacitor_THT:CP_Radial_D8.0mm_P3.50mm
+  Qnty: '1'
+  Ref: C1
+  Value: CP
+  Vendor: ''
+- Cmp name: CP-Device
+  DNP: ''
+  Description: ''
+  Footprint: Capacitor_THT:CP_Radial_D6.3mm_P2.50mm
+  Qnty: '4'
+  Ref: C2, C3, C4, C5
+  Value: CP
+  Vendor: ''
+- Cmp name: D_Schottky
+  DNP: ''
+  Description: Schottky diode
+  Footprint: Diode_SMD:D_SMA
+  Qnty: '1'
+  Ref: D1
+  Value: SS14
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  Qnty: '1'
+  Ref: D2
+  Value: LED
+  Vendor: ''
+- Cmp name: MountingHole
+  DNP: ''
+  Description: Mounting Hole without connection
+  Footprint: MountingHole:MountingHole_3.2mm_M3
+  Qnty: '4'
+  Ref: H1, H2, H3, H4
+  Value: MountingHole
+  Vendor: ''
+- Cmp name: Conn_01x02_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J1
+  Value: MODE
+  Vendor: ''
+- Cmp name: Conn_01x04_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J2
+  Value: SWD
+  Vendor: ''
+- Cmp name: Conn_01x04_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J3
+  Value: ANALOG
+  Vendor: ''
+- Cmp name: Conn_01x04_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+  Qnty: '3'
+  Ref: J5, J6, J7
+  Value: I2C0
+  Vendor: ''
+- Cmp name: Conn_01x03_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J8
+  Value: UART0
+  Vendor: ''
+- Cmp name: Conn_01x06_Female-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical
+  Qnty: '2'
+  Ref: J9, J10
+  Value: SPI0
+  Vendor: ''
+- Cmp name: Conn_01x06_Female-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J12
+  Value: SPI1/GPIO
+  Vendor: ''
+- Cmp name: Conn_01x03_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+  Qnty: '2'
+  Ref: J13, J17
+  Value: +3.3V
+  Vendor: ''
+- Cmp name: Conn_01x03_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J14
+  Value: +5V
+  Vendor: ''
+- Cmp name: Conn_01x03_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+  Qnty: '2'
+  Ref: J15, J16
+  Value: GND
+  Vendor: ''
+- Cmp name: Conn_01x05_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J18
+  Value: GPIO
+  Vendor: ''
+- Cmp name: Conn_01x05_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J19
+  Value: I2S
+  Vendor: ''
+- Cmp name: Conn_01x03_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J20
+  Value: GPIO
+  Vendor: ''
+- Cmp name: Conn_01x04_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J21
+  Value: RGB
+  Vendor: ''
+- Cmp name: Conn_01x04_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+  Qnty: '2'
+  Ref: J22, J23
+  Value: I2C1
+  Vendor: ''
+- Cmp name: Jumper-Device
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: JP1
+  Value: LCD_POWER
+  Vendor: ''
+- Cmp name: BSS138
+  DNP: ''
+  Description: 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23
+  Footprint: Package_TO_SOT_SMD:SOT-23_Handsoldering
+  Qnty: '1'
+  Ref: Q1
+  Value: BSS138
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  Qnty: '5'
+  Ref: R1, R2, R3, R5, R6
+  Value: 10k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  Qnty: '1'
+  Ref: R4
+  Value: '470'
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: Push button switch, generic, two pins
+  Footprint: Button_Switch_THT:SW_PUSH_6mm_H4.3mm
+  Qnty: '1'
+  Ref: SW1
+  Value: RESET
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: Push button switch, generic, two pins
+  Footprint: Button_Switch_THT:SW_PUSH_6mm_H4.3mm
+  Qnty: '1'
+  Ref: SW2
+  Value: SW_GP9
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: Push button switch, generic, two pins
+  Footprint: Button_Switch_THT:SW_PUSH_6mm_H4.3mm
+  Qnty: '1'
+  Ref: SW3
+  Value: SW_GP8
+  Vendor: ''
+- Cmp name: Pico
+  DNP: ''
+  Description: ''
+  Footprint: MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH
+  Qnty: '1'
+  Ref: U1
+  Value: Pico
+  Vendor: ''
+- Cmp name: SSD1306_I2C
+  DNP: ''
+  Description: LCD 16x2 Alphanumeric gray backlight, 3 or 5 V VDD
+  Footprint: oled_ssd1306:ssd1306_I2c
+  Qnty: '1'
+  Ref: U2
+  Value: SSD1306_I2C
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | CP | CP-Device | Capacitor_THT:CP_Radial_D8.0mm_P3.50mm |  |  |  | \n| C2,\
+  \ C3, C4, C5 | 4 | CP | CP-Device | Capacitor_THT:CP_Radial_D6.3mm_P2.50mm |  |\
+  \  |  | \n| D1 | 1 | SS14 | D_Schottky | Diode_SMD:D_SMA | Schottky diode |  | \
+  \ | \n| D2 | 1 | LED | LED | LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder\
+  \ | Light emitting diode |  |  | \n| H1, H2, H3, H4 | 4 | MountingHole | MountingHole\
+  \ | MountingHole:MountingHole_3.2mm_M3 | Mounting Hole without connection |  | \
+  \ | \n| J1 | 1 | MODE | Conn_01x02_Male-Connector | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical\
+  \ |  |  |  | \n| J2 | 1 | SWD | Conn_01x04_Male-Connector | Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical\
+  \ |  |  |  | \n| J3 | 1 | ANALOG | Conn_01x04_Male-Connector | Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical\
+  \ |  |  |  | \n| J5, J6, J7 | 3 | I2C0 | Conn_01x04_Male-Connector | Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical\
+  \ |  |  |  | \n| J8 | 1 | UART0 | Conn_01x03_Male-Connector | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical\
+  \ |  |  |  | \n| J9, J10 | 2 | SPI0 | Conn_01x06_Female-Connector | Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical\
+  \ |  |  |  | \n| J12 | 1 | SPI1/GPIO | Conn_01x06_Female-Connector | Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical\
+  \ |  |  |  | \n| J13, J17 | 2 | +3.3V | Conn_01x03_Male-Connector | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical\
+  \ |  |  |  | \n| J14 | 1 | +5V | Conn_01x03_Male-Connector | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical\
+  \ |  |  |  | \n| J15, J16 | 2 | GND | Conn_01x03_Male-Connector | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical\
+  \ |  |  |  | \n| J18 | 1 | GPIO | Conn_01x05_Male-Connector | Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical\
+  \ |  |  |  | \n| J19 | 1 | I2S | Conn_01x05_Male-Connector | Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical\
+  \ |  |  |  | \n| J20 | 1 | GPIO | Conn_01x03_Male-Connector | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical\
+  \ |  |  |  | \n| J21 | 1 | RGB | Conn_01x04_Male-Connector | Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical\
+  \ |  |  |  | \n| J22, J23 | 2 | I2C1 | Conn_01x04_Male-Connector | Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical\
+  \ |  |  |  | \n| JP1 | 1 | LCD_POWER | Jumper-Device | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical\
+  \ |  |  |  | \n| Q1 | 1 | BSS138 | BSS138 | Package_TO_SOT_SMD:SOT-23_Handsoldering\
+  \ | 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23 |  |  | \n| R1, R2, R3, R5, R6 |\
+  \ 5 | 10k | R | Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder | Resistor\
+  \ |  |  | \n| R4 | 1 | 470 | R | Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder\
+  \ | Resistor |  |  | \n| SW1 | 1 | RESET | SW_Push | Button_Switch_THT:SW_PUSH_6mm_H4.3mm\
+  \ | Push button switch, generic, two pins |  |  | \n| SW2 | 1 | SW_GP9 | SW_Push\
+  \ | Button_Switch_THT:SW_PUSH_6mm_H4.3mm | Push button switch, generic, two pins\
+  \ |  |  | \n| SW3 | 1 | SW_GP8 | SW_Push | Button_Switch_THT:SW_PUSH_6mm_H4.3mm\
+  \ | Push button switch, generic, two pins |  |  | \n| U1 | 1 | Pico | Pico | MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH\
+  \ |  |  |  | \n| U2 | 1 | SSD1306_I2C | SSD1306_I2C | oled_ssd1306:ssd1306_I2c |\
+  \ LCD 16x2 Alphanumeric gray backlight, 3 or 5 V VDD |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adafruit_u2if_pico_dev/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adafruit_u2if_pico_dev/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adafruit_u2if_pico_dev/current_version/working/working.sch
 id: adafruit_u2if_pico_dev
 name: u2if
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: CP_Radial_D8.0mm_P3.50mm
+  PosX: 135.255
+  PosY: -28.25
+  Rot: -90.0
+  Side: top
+  Val: CP
+- '# Ref': C2
+  Package: CP_Radial_D6.3mm_P2.50mm
+  PosX: 169.545
+  PosY: -69.215
+  Rot: 180.0
+  Side: top
+  Val: CP
+- '# Ref': C3
+  Package: CP_Radial_D6.3mm_P2.50mm
+  PosX: 76.24
+  PosY: -69.85
+  Rot: 0.0
+  Side: top
+  Val: CP
+- '# Ref': C4
+  Package: CP_Radial_D6.3mm_P2.50mm
+  PosX: 76.24
+  PosY: -36.83
+  Rot: 0.0
+  Side: top
+  Val: CP
+- '# Ref': C5
+  Package: CP_Radial_D6.3mm_P2.50mm
+  PosX: 135.215
+  PosY: -80.01
+  Rot: 180.0
+  Side: top
+  Val: CP
+- '# Ref': D1
+  Package: D_SMA
+  PosX: 111.76
+  PosY: -83.09
+  Rot: -90.0
+  Side: top
+  Val: SS14
+- '# Ref': D2
+  Package: LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  PosX: 141.8225
+  PosY: -45.72
+  Rot: 180.0
+  Side: top
+  Val: LED
+- '# Ref': J1
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 143.51
+  PosY: -36.83
+  Rot: -90.0
+  Side: top
+  Val: MODE
+- '# Ref': J2
+  Package: PinHeader_1x04_P2.54mm_Vertical
+  PosX: 120.65
+  PosY: -91.44
+  Rot: -90.0
+  Side: top
+  Val: SWD
+- '# Ref': J3
+  Package: PinHeader_1x04_P2.54mm_Vertical
+  PosX: 149.86
+  PosY: -43.18
+  Rot: 180.0
+  Side: top
+  Val: ANALOG
+- '# Ref': J5
+  Package: PinHeader_1x04_P2.54mm_Vertical
+  PosX: 97.155
+  PosY: -50.673
+  Rot: 180.0
+  Side: top
+  Val: I2C0
+- '# Ref': J6
+  Package: PinHeader_1x04_P2.54mm_Vertical
+  PosX: 89.535
+  PosY: -50.673
+  Rot: 180.0
+  Side: top
+  Val: I2C0
+- '# Ref': J7
+  Package: PinHeader_1x04_P2.54mm_Vertical
+  PosX: 81.915
+  PosY: -50.673
+  Rot: 180.0
+  Side: top
+  Val: I2C0
+- '# Ref': J8
+  Package: PinHeader_1x03_P2.54mm_Vertical
+  PosX: 87.63
+  PosY: -34.925
+  Rot: 180.0
+  Side: top
+  Val: UART0
+- '# Ref': J9
+  Package: PinHeader_1x06_P2.54mm_Vertical
+  PosX: 160.02
+  PosY: -66.675
+  Rot: 180.0
+  Side: top
+  Val: SPI0
+- '# Ref': J10
+  Package: PinHeader_1x06_P2.54mm_Vertical
+  PosX: 149.86
+  PosY: -66.675
+  Rot: 180.0
+  Side: top
+  Val: SPI0
+- '# Ref': J12
+  Package: PinHeader_1x06_P2.54mm_Vertical
+  PosX: 97.155
+  PosY: -85.09
+  Rot: 180.0
+  Side: top
+  Val: SPI1/GPIO
+- '# Ref': J13
+  Package: PinHeader_1x03_P2.54mm_Vertical
+  PosX: 81.915
+  PosY: -57.15
+  Rot: 0.0
+  Side: top
+  Val: +3.3V
+- '# Ref': J14
+  Package: PinHeader_1x03_P2.54mm_Vertical
+  PosX: 144.018
+  PosY: -27.94
+  Rot: 90.0
+  Side: top
+  Val: +5V
+- '# Ref': J15
+  Package: PinHeader_1x03_P2.54mm_Vertical
+  PosX: 162.56
+  PosY: -27.94
+  Rot: -90.0
+  Side: top
+  Val: GND
+- '# Ref': J16
+  Package: PinHeader_1x03_P2.54mm_Vertical
+  PosX: 89.535
+  PosY: -57.15
+  Rot: 0.0
+  Side: top
+  Val: GND
+- '# Ref': J17
+  Package: PinHeader_1x03_P2.54mm_Vertical
+  PosX: 169.545
+  PosY: -53.975
+  Rot: 0.0
+  Side: top
+  Val: +3.3V
+- '# Ref': J18
+  Package: PinHeader_1x05_P2.54mm_Vertical
+  PosX: 97.155
+  PosY: -67.31
+  Rot: 180.0
+  Side: top
+  Val: GPIO
+- '# Ref': J19
+  Package: PinHeader_1x05_P2.54mm_Vertical
+  PosX: 85.09
+  PosY: -85.09
+  Rot: 180.0
+  Side: top
+  Val: I2S
+- '# Ref': J20
+  Package: PinHeader_1x03_P2.54mm_Vertical
+  PosX: 97.155
+  PosY: -34.925
+  Rot: 180.0
+  Side: top
+  Val: GPIO
+- '# Ref': J21
+  Package: PinHeader_1x04_P2.54mm_Vertical
+  PosX: 169.545
+  PosY: -45.085
+  Rot: 180.0
+  Side: top
+  Val: RGB
+- '# Ref': J22
+  Package: PinHeader_1x04_P2.54mm_Vertical
+  PosX: 127.635
+  PosY: -95.25
+  Rot: 180.0
+  Side: top
+  Val: I2C1
+- '# Ref': J23
+  Package: PinHeader_1x04_P2.54mm_Vertical
+  PosX: 135.255
+  PosY: -95.25
+  Rot: 180.0
+  Side: top
+  Val: I2C1
+- '# Ref': JP1
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 170.18
+  PosY: -77.47
+  Rot: -90.0
+  Side: top
+  Val: LCD_POWER
+- '# Ref': Q1
+  Package: SOT-23_Handsoldering
+  PosX: 159.155
+  PosY: -39.37
+  Rot: 0.0
+  Side: top
+  Val: BSS138
+- '# Ref': R1
+  Package: R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  PosX: 135.255
+  PosY: -37.6825
+  Rot: -90.0
+  Side: top
+  Val: 10k
+- '# Ref': R2
+  Package: R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  PosX: 105.8275
+  PosY: -88.9
+  Rot: 180.0
+  Side: top
+  Val: 10k
+- '# Ref': R3
+  Package: R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  PosX: 95.25
+  PosY: -93.98
+  Rot: 90.0
+  Side: top
+  Val: 10k
+- '# Ref': R4
+  Package: R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  PosX: 135.6725
+  PosY: -48.895
+  Rot: 180.0
+  Side: top
+  Val: '470'
+- '# Ref': R5
+  Package: R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  PosX: 158.5325
+  PosY: -44.45
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R6
+  Package: R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  PosX: 156.6275
+  PosY: -34.29
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': SW1
+  Package: SW_PUSH_6mm_H4.3mm
+  PosX: 136.47
+  PosY: -60.475
+  Rot: 90.0
+  Side: top
+  Val: RESET
+- '# Ref': SW2
+  Package: SW_PUSH_6mm_H4.3mm
+  PosX: 99.545
+  PosY: -92.71
+  Rot: 0.0
+  Side: top
+  Val: SW_GP9
+- '# Ref': SW3
+  Package: SW_PUSH_6mm_H4.3mm
+  PosX: 84.94
+  PosY: -92.71
+  Rot: 0.0
+  Side: top
+  Val: SW_GP8
+- '# Ref': U1
+  Package: RPi_Pico_SMD_TH
+  PosX: 117.729
+  PosY: -51.562
+  Rot: 0.0
+  Side: top
+  Val: Pico
+- '# Ref': U2
+  Package: ssd1306_I2c
+  PosX: 151.765
+  PosY: -88.9
+  Rot: 0.0
+  Side: top
+  Val: SSD1306_I2C
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | CP | CP_Radial_D8.0mm_P3.50mm |\
+  \ 135.255 | -28.25 | -90.0 | top | \n| C2 | CP | CP_Radial_D6.3mm_P2.50mm | 169.545\
+  \ | -69.215 | 180.0 | top | \n| C3 | CP | CP_Radial_D6.3mm_P2.50mm | 76.24 | -69.85\
+  \ | 0.0 | top | \n| C4 | CP | CP_Radial_D6.3mm_P2.50mm | 76.24 | -36.83 | 0.0 |\
+  \ top | \n| C5 | CP | CP_Radial_D6.3mm_P2.50mm | 135.215 | -80.01 | 180.0 | top\
+  \ | \n| D1 | SS14 | D_SMA | 111.76 | -83.09 | -90.0 | top | \n| D2 | LED | LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder\
+  \ | 141.8225 | -45.72 | 180.0 | top | \n| J1 | MODE | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 143.51 | -36.83 | -90.0 | top | \n| J2 | SWD | PinHeader_1x04_P2.54mm_Vertical\
+  \ | 120.65 | -91.44 | -90.0 | top | \n| J3 | ANALOG | PinHeader_1x04_P2.54mm_Vertical\
+  \ | 149.86 | -43.18 | 180.0 | top | \n| J5 | I2C0 | PinHeader_1x04_P2.54mm_Vertical\
+  \ | 97.155 | -50.673 | 180.0 | top | \n| J6 | I2C0 | PinHeader_1x04_P2.54mm_Vertical\
+  \ | 89.535 | -50.673 | 180.0 | top | \n| J7 | I2C0 | PinHeader_1x04_P2.54mm_Vertical\
+  \ | 81.915 | -50.673 | 180.0 | top | \n| J8 | UART0 | PinHeader_1x03_P2.54mm_Vertical\
+  \ | 87.63 | -34.925 | 180.0 | top | \n| J9 | SPI0 | PinHeader_1x06_P2.54mm_Vertical\
+  \ | 160.02 | -66.675 | 180.0 | top | \n| J10 | SPI0 | PinHeader_1x06_P2.54mm_Vertical\
+  \ | 149.86 | -66.675 | 180.0 | top | \n| J12 | SPI1/GPIO | PinHeader_1x06_P2.54mm_Vertical\
+  \ | 97.155 | -85.09 | 180.0 | top | \n| J13 | +3.3V | PinHeader_1x03_P2.54mm_Vertical\
+  \ | 81.915 | -57.15 | 0.0 | top | \n| J14 | +5V | PinHeader_1x03_P2.54mm_Vertical\
+  \ | 144.018 | -27.94 | 90.0 | top | \n| J15 | GND | PinHeader_1x03_P2.54mm_Vertical\
+  \ | 162.56 | -27.94 | -90.0 | top | \n| J16 | GND | PinHeader_1x03_P2.54mm_Vertical\
+  \ | 89.535 | -57.15 | 0.0 | top | \n| J17 | +3.3V | PinHeader_1x03_P2.54mm_Vertical\
+  \ | 169.545 | -53.975 | 0.0 | top | \n| J18 | GPIO | PinHeader_1x05_P2.54mm_Vertical\
+  \ | 97.155 | -67.31 | 180.0 | top | \n| J19 | I2S | PinHeader_1x05_P2.54mm_Vertical\
+  \ | 85.09 | -85.09 | 180.0 | top | \n| J20 | GPIO | PinHeader_1x03_P2.54mm_Vertical\
+  \ | 97.155 | -34.925 | 180.0 | top | \n| J21 | RGB | PinHeader_1x04_P2.54mm_Vertical\
+  \ | 169.545 | -45.085 | 180.0 | top | \n| J22 | I2C1 | PinHeader_1x04_P2.54mm_Vertical\
+  \ | 127.635 | -95.25 | 180.0 | top | \n| J23 | I2C1 | PinHeader_1x04_P2.54mm_Vertical\
+  \ | 135.255 | -95.25 | 180.0 | top | \n| JP1 | LCD_POWER | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 170.18 | -77.47 | -90.0 | top | \n| Q1 | BSS138 | SOT-23_Handsoldering | 159.155\
+  \ | -39.37 | 0.0 | top | \n| R1 | 10k | R_1206_3216Metric_Pad1.42x1.75mm_HandSolder\
+  \ | 135.255 | -37.6825 | -90.0 | top | \n| R2 | 10k | R_1206_3216Metric_Pad1.42x1.75mm_HandSolder\
+  \ | 105.8275 | -88.9 | 180.0 | top | \n| R3 | 10k | R_1206_3216Metric_Pad1.42x1.75mm_HandSolder\
+  \ | 95.25 | -93.98 | 90.0 | top | \n| R4 | 470 | R_1206_3216Metric_Pad1.42x1.75mm_HandSolder\
+  \ | 135.6725 | -48.895 | 180.0 | top | \n| R5 | 10k | R_1206_3216Metric_Pad1.42x1.75mm_HandSolder\
+  \ | 158.5325 | -44.45 | 0.0 | top | \n| R6 | 10k | R_1206_3216Metric_Pad1.42x1.75mm_HandSolder\
+  \ | 156.6275 | -34.29 | 0.0 | top | \n| SW1 | RESET | SW_PUSH_6mm_H4.3mm | 136.47\
+  \ | -60.475 | 90.0 | top | \n| SW2 | SW_GP9 | SW_PUSH_6mm_H4.3mm | 99.545 | -92.71\
+  \ | 0.0 | top | \n| SW3 | SW_GP8 | SW_PUSH_6mm_H4.3mm | 84.94 | -92.71 | 0.0 | top\
+  \ | \n| U1 | Pico | RPi_Pico_SMD_TH | 117.729 | -51.562 | 0.0 | top | \n| U2 | SSD1306_I2C\
+  \ | ssd1306_I2c | 151.765 | -88.9 | 0.0 | top | \n"
 projects_flat: projects/adafruit_u2if_pico_dev/current_version/working
 repo:
   allow_forking: true

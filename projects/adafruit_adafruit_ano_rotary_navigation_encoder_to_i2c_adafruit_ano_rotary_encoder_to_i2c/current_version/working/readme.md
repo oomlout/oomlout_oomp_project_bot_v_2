@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit-ANO-Rotary-Navigation-Encoder-to-I2C/tree/main/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_ano_rotary_navigation_encoder_to_i2c_adafruit_ano_rotary_encoder_to_i2c/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

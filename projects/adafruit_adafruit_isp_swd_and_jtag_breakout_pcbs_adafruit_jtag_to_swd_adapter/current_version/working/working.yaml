@@ -1,9 +1,103 @@
 board: adafruit_jtag_to_swd_adapter
+bom:
+- Id: '1'
+  Designator: JP1,JP2
+  Footprint: 1X03-CLEANBIG
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: ISP1
+  Footprint: AVRISP-BOX
+  Quantity: '1'
+  Designation: AVRISP-BOX
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$1
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | JP1,JP2\
+  \ | 1X03-CLEANBIG | 2 |  |  |  | [''] | \n| 2 | ISP1 | AVRISP-BOX | 1 | AVRISP-BOX\
+  \ |  |  | [''] | \n| 3 | U$1 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: AVRISP-BOX
+  DNP: ''
+  Description: ''
+  Footprint: working:AVRISP-BOX
+  Qnty: '1'
+  Ref: ISP1
+  Value: AVRISP-BOX
+  Vendor: ''
+- Cmp name: PINHD-1X3CB
+  DNP: ''
+  Description: ''
+  Footprint: working:1X03-CLEANBIG
+  Qnty: '2'
+  Ref: JP1, JP2
+  Value: PINHD-1X3CB
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| ISP1\
+  \ | 1 | AVRISP-BOX | AVRISP-BOX | working:AVRISP-BOX |  |  |  | \n| JP1, JP2 | 2\
+  \ | PINHD-1X3CB | PINHD-1X3CB | working:1X03-CLEANBIG |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_isp_swd_and_jtag_breakout_pcbs_adafruit_jtag_to_swd_adapter/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_isp_swd_and_jtag_breakout_pcbs_adafruit_jtag_to_swd_adapter/current_version/working/working.sch
 id: adafruit_adafruit_isp_swd_and_jtag_breakout_pcbs_adafruit_jtag_to_swd_adapter
 name: adafruit_isp_swd_and_jtag_breakout_pcbs
+position_bottom:
+- '# Ref': U$1
+  Package: ADAFRUIT_3.5MM
+  PosX: 150.5331
+  PosY: -112.3696
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$1 | nan | ADAFRUIT_3.5MM | 150.5331\
+  \ | -112.3696 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': ISP1
+  Package: AVRISP-BOX
+  PosX: 148.5011
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: AVRISP-BOX
+- '# Ref': JP1
+  Package: 1X03-CLEANBIG
+  PosX: 140.8811
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X03-CLEANBIG
+  PosX: 156.1211
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| ISP1 | AVRISP-BOX | AVRISP-BOX | 148.5011\
+  \ | -105.0036 | 0.0 | top | \n| JP1 | nan | 1X03-CLEANBIG | 140.8811 | -105.0036\
+  \ | 90.0 | top | \n| JP2 | nan | 1X03-CLEANBIG | 156.1211 | -105.0036 | -90.0 |\
+  \ top | \n"
 projects_flat: projects/adafruit_adafruit_isp_swd_and_jtag_breakout_pcbs_adafruit_jtag_to_swd_adapter/current_version/working
 repo:
   allow_forking: true

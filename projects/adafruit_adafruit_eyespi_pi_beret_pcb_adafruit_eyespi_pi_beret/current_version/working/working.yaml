@@ -1,9 +1,523 @@
 board: adafruit_eyespi_pi_beret
+bom:
+- Id: '1'
+  Designator: U$9
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R4,R1,R2
+  Footprint: RESPACK_4X0603
+  Quantity: '3'
+  Designation: 10K Pack
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: '@HOLE0,@HOLE1'
+  Footprint: ''
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: PLABEL0
+  Footprint: PLABEL0
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: X1
+  Footprint: EYE_SPI_DISPLAY_BOTCONTACT
+  Quantity: '1'
+  Designation: EYE_SPI_DISPLAY_FLIP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: CONN2
+  Footprint: JST_SH4
+  Quantity: '1'
+  Designation: STEMMA_I2C_QT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: FID4,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: SW1,SW2
+  Footprint: TACTILE_3X6MM
+  Quantity: '2'
+  Designation: SWITCH_SPST_NOMNT_3X6
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: PLABEL3
+  Footprint: PLABEL3
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: PLABEL2
+  Footprint: PLABEL2
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: PLABEL1
+  Footprint: PLABEL1
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: PLABEL4
+  Footprint: PLABEL4
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: SW3
+  Footprint: EG1390
+  Quantity: '1'
+  Designation: SLIDE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: SJ1
+  Footprint: SOLDERJUMPER_CLOSEDWIRE
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: RPI2
+  Footprint: RASPI_2X20_THMSMT
+  Quantity: '1'
+  Designation: RASPBERRYPI_BPLUS_2X20_THMSMT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: U$24
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: C1,C21
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: U$30
+  Footprint: STEMMAQT
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: PLABEL6
+  Footprint: PLABEL6
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: PLABEL5
+  Footprint: PLABEL5
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U$9\
+  \ | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n| 2 | R4,R1,R2 | RESPACK_4X0603 | 3\
+  \ | 10K Pack |  |  | [''] | \n| 3 | @HOLE0,@HOLE1 |  | 2 |  |  |  | [''] | \n| 4\
+  \ | PLABEL0 | PLABEL0 | 1 |  |  |  | [''] | \n| 5 | X1 | EYE_SPI_DISPLAY_BOTCONTACT\
+  \ | 1 | EYE_SPI_DISPLAY_FLIP |  |  | [''] | \n| 6 | CONN2 | JST_SH4 | 1 | STEMMA_I2C_QT\
+  \ |  |  | [''] | \n| 7 | FID4,FID1 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | ['']\
+  \ | \n| 8 | SW1,SW2 | TACTILE_3X6MM | 2 | SWITCH_SPST_NOMNT_3X6 |  |  | [''] | \n\
+  | 9 | PLABEL3 | PLABEL3 | 1 |  |  |  | [''] | \n| 10 | PLABEL2 | PLABEL2 | 1 | \
+  \ |  |  | [''] | \n| 11 | PLABEL1 | PLABEL1 | 1 |  |  |  | [''] | \n| 12 | PLABEL4\
+  \ | PLABEL4 | 1 |  |  |  | [''] | \n| 13 | SW3 | EG1390 | 1 | SLIDE |  |  | ['']\
+  \ | \n| 14 | SJ1 | SOLDERJUMPER_CLOSEDWIRE | 1 |  |  |  | [''] | \n| 15 | RPI2 |\
+  \ RASPI_2X20_THMSMT | 1 | RASPBERRYPI_BPLUS_2X20_THMSMT |  |  | [''] | \n| 16 |\
+  \ U$24 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n| 17 | C1,C21 | 0805-NO | 2 | 10uF\
+  \ |  |  | [''] | \n| 18 | U$30 | STEMMAQT | 1 |  |  |  | [''] | \n| 19 | PLABEL6\
+  \ | PLABEL6 | 1 |  |  |  | [''] | \n| 20 | PLABEL5 | PLABEL5 | 1 |  |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C1, C21
+  Value: 10uF
+  Vendor: ''
+- Cmp name: STEMMA_I2C_QT
+  DNP: ''
+  Description: ''
+  Footprint: working:JST_SH4
+  Qnty: '1'
+  Ref: CONN2
+  Value: STEMMA_I2C_QT
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID4
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603
+  Qnty: '3'
+  Ref: R1, R2, R4
+  Value: 10K Pack
+  Vendor: ''
+- Cmp name: RASPBERRYPI_BPLUS_2X20_THMSMT
+  DNP: ''
+  Description: ''
+  Footprint: working:RASPI_2X20_THMSMT
+  Qnty: '1'
+  Ref: RPI2
+  Value: RASPBERRYPI_BPLUS_2X20_THMSMT
+  Vendor: ''
+- Cmp name: SOLDERJUMPERCLOSED
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_CLOSEDWIRE
+  Qnty: '1'
+  Ref: SJ1
+  Value: SOLDERJUMPERCLOSED
+  Vendor: ''
+- Cmp name: SWITCH_SPST_NOMNT_3X6
+  DNP: ''
+  Description: ''
+  Footprint: working:TACTILE_3X6MM
+  Qnty: '2'
+  Ref: SW1, SW2
+  Value: SWITCH_SPST_NOMNT_3X6
+  Vendor: ''
+- Cmp name: SWITCH_DPDTEG1390
+  DNP: ''
+  Description: ''
+  Footprint: working:EG1390
+  Qnty: '1'
+  Ref: SW3
+  Value: SLIDE
+  Vendor: ''
+- Cmp name: EYE_SPI_DISPLAY_FLIP
+  DNP: ''
+  Description: ''
+  Footprint: working:EYE_SPI_DISPLAY_BOTCONTACT
+  Qnty: '1'
+  Ref: X1
+  Value: EYE_SPI_DISPLAY_FLIP
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C21\
+  \ | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| CONN2\
+  \ | 1 | STEMMA_I2C_QT | STEMMA_I2C_QT | working:JST_SH4 |  |  |  | \n| FID1, FID4\
+  \ | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| R1, R2,\
+  \ R4 | 3 | 10K Pack | RESISTOR_4PACK | working:RESPACK_4X0603 |  |  |  | \n| RPI2\
+  \ | 1 | RASPBERRYPI_BPLUS_2X20_THMSMT | RASPBERRYPI_BPLUS_2X20_THMSMT | working:RASPI_2X20_THMSMT\
+  \ |  |  |  | \n| SJ1 | 1 | SOLDERJUMPERCLOSED | SOLDERJUMPERCLOSED | working:SOLDERJUMPER_CLOSEDWIRE\
+  \ |  |  |  | \n| SW1, SW2 | 2 | SWITCH_SPST_NOMNT_3X6 | SWITCH_SPST_NOMNT_3X6 |\
+  \ working:TACTILE_3X6MM |  |  |  | \n| SW3 | 1 | SLIDE | SWITCH_DPDTEG1390 | working:EG1390\
+  \ |  |  |  | \n| X1 | 1 | EYE_SPI_DISPLAY_FLIP | EYE_SPI_DISPLAY_FLIP | working:EYE_SPI_DISPLAY_BOTCONTACT\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_eyespi_pi_beret_pcb_adafruit_eyespi_pi_beret/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_eyespi_pi_beret_pcb_adafruit_eyespi_pi_beret/current_version/working/working.sch
 id: adafruit_adafruit_eyespi_pi_beret_pcb_adafruit_eyespi_pi_beret
 name: adafruit_eyespi_pi_beret_pcb
+position_bottom:
+- '# Ref': PLABEL5
+  Package: PLABEL5
+  PosX: 180.5171
+  PosY: -107.5506
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': PLABEL6
+  Package: PLABEL6
+  PosX: 180.0091
+  PosY: -111.6146
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| PLABEL5 | nan | PLABEL5 | 180.5171\
+  \ | -107.5506 | 180.0 | bottom | \n| PLABEL6 | nan | PLABEL6 | 180.0091 | -111.6146\
+  \ | 180.0 | bottom | \n"
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 119.5571
+  PosY: -101.6276
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 177.5326
+  PosY: -101.6276
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 118.2871
+  PosY: -107.8046
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C21
+  Package: 0805-NO
+  PosX: 146.9431
+  PosY: -108.4396
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': CONN2
+  Package: JST_SH4
+  PosX: 122.3511
+  PosY: -109.3286
+  Rot: 0.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 175.1831
+  PosY: -100.8656
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID4
+  Package: FIDUCIAL_1MM
+  PosX: 117.5251
+  PosY: -110.8526
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': PLABEL0
+  Package: PLABEL0
+  PosX: 162.3561
+  PosY: -107.6776
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': PLABEL1
+  Package: PLABEL1
+  PosX: 174.0401
+  PosY: -107.6776
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': PLABEL2
+  Package: PLABEL2
+  PosX: 154.8631
+  PosY: -111.8686
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': PLABEL3
+  Package: PLABEL3
+  PosX: 134.1621
+  PosY: -106.5346
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': PLABEL4
+  Package: PLABEL4
+  PosX: 129.5901
+  PosY: -106.4076
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: RESPACK_4X0603
+  PosX: 130.3521
+  PosY: -108.6936
+  Rot: 90.0
+  Side: top
+  Val: 10K_Pack
+- '# Ref': R2
+  Package: RESPACK_4X0603
+  PosX: 157.7841
+  PosY: -106.1536
+  Rot: 0.0
+  Side: top
+  Val: 10K_Pack
+- '# Ref': R4
+  Package: RESPACK_4X0603
+  PosX: 127.3041
+  PosY: -108.6936
+  Rot: 90.0
+  Side: top
+  Val: 10K_Pack
+- '# Ref': RPI2
+  Package: RASPI_2X20_THMSMT
+  PosX: 148.5131
+  PosY: -101.6276
+  Rot: 0.0
+  Side: top
+  Val: RASPBERRYPI_BPLUS_2X20_THMSMT
+- '# Ref': SJ1
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 131.4951
+  PosY: -105.3916
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': SW1
+  Package: TACTILE_3X6MM
+  PosX: 174.4211
+  PosY: -109.9636
+  Rot: 180.0
+  Side: top
+  Val: SWITCH_SPST_NOMNT_3X6
+- '# Ref': SW2
+  Package: TACTILE_3X6MM
+  PosX: 162.9911
+  PosY: -109.9636
+  Rot: 180.0
+  Side: top
+  Val: SWITCH_SPST_NOMNT_3X6
+- '# Ref': SW3
+  Package: EG1390
+  PosX: 151.5611
+  PosY: -108.3456
+  Rot: 180.0
+  Side: top
+  Val: SLIDE
+- '# Ref': U$9
+  Package: PCBFEAT-REV-040
+  PosX: 178.4851
+  PosY: -99.0876
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$24
+  Package: ADAFRUIT_3.5MM
+  PosX: 166.9281
+  PosY: -108.4396
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$30
+  Package: STEMMAQT
+  PosX: 117.9061
+  PosY: -106.4076
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': X1
+  Package: EYE_SPI_DISPLAY_BOTCONTACT
+  PosX: 138.8611
+  PosY: -108.6936
+  Rot: 0.0
+  Side: top
+  Val: EYE_SPI_DISPLAY_FLIP
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 119.5571 | -101.6276\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 177.5326 | -101.6276 | 0.0 | top | \n|\
+  \ C1 | 10uF | 0805-NO | 118.2871 | -107.8046 | -90.0 | top | \n| C21 | 10uF | 0805-NO\
+  \ | 146.9431 | -108.4396 | -90.0 | top | \n| CONN2 | STEMMA_I2C_QT | JST_SH4 | 122.3511\
+  \ | -109.3286 | 0.0 | top | \n| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM | 175.1831 |\
+  \ -100.8656 | 0.0 | top | \n| FID4 | FIDUCIAL_1MM | FIDUCIAL_1MM | 117.5251 | -110.8526\
+  \ | 0.0 | top | \n| PLABEL0 | nan | PLABEL0 | 162.3561 | -107.6776 | 0.0 | top |\
+  \ \n| PLABEL1 | nan | PLABEL1 | 174.0401 | -107.6776 | 0.0 | top | \n| PLABEL2 |\
+  \ nan | PLABEL2 | 154.8631 | -111.8686 | 0.0 | top | \n| PLABEL3 | nan | PLABEL3\
+  \ | 134.1621 | -106.5346 | 0.0 | top | \n| PLABEL4 | nan | PLABEL4 | 129.5901 |\
+  \ -106.4076 | 90.0 | top | \n| R1 | 10K_Pack | RESPACK_4X0603 | 130.3521 | -108.6936\
+  \ | 90.0 | top | \n| R2 | 10K_Pack | RESPACK_4X0603 | 157.7841 | -106.1536 | 0.0\
+  \ | top | \n| R4 | 10K_Pack | RESPACK_4X0603 | 127.3041 | -108.6936 | 90.0 | top\
+  \ | \n| RPI2 | RASPBERRYPI_BPLUS_2X20_THMSMT | RASPI_2X20_THMSMT | 148.5131 | -101.6276\
+  \ | 0.0 | top | \n| SJ1 | nan | SOLDERJUMPER_CLOSEDWIRE | 131.4951 | -105.3916 |\
+  \ 180.0 | top | \n| SW1 | SWITCH_SPST_NOMNT_3X6 | TACTILE_3X6MM | 174.4211 | -109.9636\
+  \ | 180.0 | top | \n| SW2 | SWITCH_SPST_NOMNT_3X6 | TACTILE_3X6MM | 162.9911 | -109.9636\
+  \ | 180.0 | top | \n| SW3 | SLIDE | EG1390 | 151.5611 | -108.3456 | 180.0 | top\
+  \ | \n| U$9 | nan | PCBFEAT-REV-040 | 178.4851 | -99.0876 | 0.0 | top | \n| U$24\
+  \ | nan | ADAFRUIT_3.5MM | 166.9281 | -108.4396 | 0.0 | top | \n| U$30 | nan | STEMMAQT\
+  \ | 117.9061 | -106.4076 | 0.0 | top | \n| X1 | EYE_SPI_DISPLAY_FLIP | EYE_SPI_DISPLAY_BOTCONTACT\
+  \ | 138.8611 | -108.6936 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_eyespi_pi_beret_pcb_adafruit_eyespi_pi_beret/current_version/working
 repo:
   allow_forking: true

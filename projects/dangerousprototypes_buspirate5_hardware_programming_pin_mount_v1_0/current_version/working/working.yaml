@@ -1,0 +1,208 @@
+board: programming_pin_mount_v1_0
+bom:
+- Id: '1'
+  Designator: H1,H2,H3
+  Footprint: PinHeader_1x01_P1.00mm_Vertical
+  Quantity: '3'
+  Designation: MountingHole_Pad
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J1
+  Footprint: PinHeader_1x03_P2.54mm_Horizontal
+  Quantity: '1'
+  Designation: Conn_01x03
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | H1,H2,H3\
+  \ | PinHeader_1x01_P1.00mm_Vertical | 3 | MountingHole_Pad |  |  | [''] | \n| 2\
+  \ | J1 | PinHeader_1x03_P2.54mm_Horizontal | 1 | Conn_01x03 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: MountingHole_Pad
+  DNP: ''
+  Description: Mounting Hole with connection
+  Footprint: Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical
+  Qnty: '3'
+  Ref: H1, H2, H3
+  Value: MountingHole_Pad
+  Vendor: ''
+- Cmp name: MountingHole
+  DNP: ''
+  Description: Mounting Hole without connection
+  Footprint: MountingHole:MountingHole_3.2mm_M3
+  Qnty: '2'
+  Ref: H4, H5
+  Value: MountingHole
+  Vendor: ''
+- Cmp name: Conn_01x03
+  DNP: ''
+  Description: Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_01x03
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| H1, H2,\
+  \ H3 | 3 | MountingHole_Pad | MountingHole_Pad | Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical\
+  \ | Mounting Hole with connection |  |  | \n| H4, H5 | 2 | MountingHole | MountingHole\
+  \ | MountingHole:MountingHole_3.2mm_M3 | Mounting Hole without connection |  | \
+  \ | \n| J1 | 1 | Conn_01x03 | Conn_01x03 | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal\
+  \ | Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n"
+counter: 1
+file_kicad_pcb_flat: projects/dangerousprototypes_buspirate5_hardware_programming_pin_mount_v1_0/current_version/working/working.kicad_pcb
+file_kicad_sch_flat: projects/dangerousprototypes_buspirate5_hardware_programming_pin_mount_v1_0/current_version/working/working.kicad_pcb
+file_sch_flat: projects/dangerousprototypes_buspirate5_hardware_programming_pin_mount_v1_0/current_version/working/working.sch
+id: dangerousprototypes_buspirate5_hardware_programming_pin_mount_v1_0
+name: buspirate5_hardware
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': H1
+  Package: PinHeader_1x01_P1.00mm_Vertical
+  PosX: 144.78
+  PosY: -95.25
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_Pad
+- '# Ref': H2
+  Package: PinHeader_1x01_P1.00mm_Vertical
+  PosX: 142.24
+  PosY: -95.25
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_Pad
+- '# Ref': H3
+  Package: PinHeader_1x01_P1.00mm_Vertical
+  PosX: 139.7
+  PosY: -95.25
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_Pad
+- '# Ref': J1
+  Package: PinHeader_1x03_P2.54mm_Horizontal
+  PosX: 144.78
+  PosY: -100.33
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x03
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| H1 | MountingHole_Pad | PinHeader_1x01_P1.00mm_Vertical\
+  \ | 144.78 | -95.25 | 0.0 | top | \n| H2 | MountingHole_Pad | PinHeader_1x01_P1.00mm_Vertical\
+  \ | 142.24 | -95.25 | 0.0 | top | \n| H3 | MountingHole_Pad | PinHeader_1x01_P1.00mm_Vertical\
+  \ | 139.7 | -95.25 | 0.0 | top | \n| J1 | Conn_01x03 | PinHeader_1x03_P2.54mm_Horizontal\
+  \ | 144.78 | -100.33 | -90.0 | top | \n"
+projects_flat: projects/dangerousprototypes_buspirate5_hardware_programming_pin_mount_v1_0/current_version/working
+repo:
+  allow_forking: true
+  archive_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/{archive_format}{/ref}
+  archived: false
+  assignees_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/assignees{/user}
+  blobs_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/git/blobs{/sha}
+  branches_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/branches{/branch}
+  clone_url: https://github.com/DangerousPrototypes/BusPirate5-hardware.git
+  collaborators_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/collaborators{/collaborator}
+  comments_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/comments{/number}
+  commits_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/commits{/sha}
+  compare_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/compare/{base}...{head}
+  contents_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/contents/{+path}
+  contributors_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/contributors
+  created_at: '2023-08-06T15:55:40Z'
+  default_branch: main
+  deployments_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/deployments
+  description: Bus Pirate v5 Hardware
+  disabled: false
+  downloads_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/downloads
+  events_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/events
+  fork: false
+  forks: 0
+  forks_count: 0
+  forks_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/forks
+  full_name: DangerousPrototypes/BusPirate5-hardware
+  git_commits_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/git/commits{/sha}
+  git_refs_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/git/refs{/sha}
+  git_tags_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/git/tags{/sha}
+  git_url: git://github.com/DangerousPrototypes/BusPirate5-hardware.git
+  has_discussions: false
+  has_downloads: true
+  has_issues: true
+  has_pages: false
+  has_projects: true
+  has_wiki: true
+  homepage: null
+  hooks_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/hooks
+  html_url: https://github.com/DangerousPrototypes/BusPirate5-hardware
+  id: 675342787
+  is_template: false
+  issue_comment_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/issues/comments{/number}
+  issue_events_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/issues/events{/number}
+  issues_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/issues{/number}
+  keys_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/keys{/key_id}
+  labels_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/labels{/name}
+  language: OpenSCAD
+  languages_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/languages
+  license: null
+  merges_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/merges
+  milestones_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/milestones{/number}
+  mirror_url: null
+  name: BusPirate5-hardware
+  node_id: R_kgDOKEDpww
+  notifications_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/notifications{?since,all,participating}
+  open_issues: 0
+  open_issues_count: 0
+  owner:
+    avatar_url: https://avatars.githubusercontent.com/u/390299?v=4
+    events_url: https://api.github.com/users/DangerousPrototypes/events{/privacy}
+    followers_url: https://api.github.com/users/DangerousPrototypes/followers
+    following_url: https://api.github.com/users/DangerousPrototypes/following{/other_user}
+    gists_url: https://api.github.com/users/DangerousPrototypes/gists{/gist_id}
+    gravatar_id: ''
+    html_url: https://github.com/DangerousPrototypes
+    id: 390299
+    login: DangerousPrototypes
+    node_id: MDQ6VXNlcjM5MDI5OQ==
+    organizations_url: https://api.github.com/users/DangerousPrototypes/orgs
+    received_events_url: https://api.github.com/users/DangerousPrototypes/received_events
+    repos_url: https://api.github.com/users/DangerousPrototypes/repos
+    site_admin: false
+    starred_url: https://api.github.com/users/DangerousPrototypes/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/DangerousPrototypes/subscriptions
+    type: User
+    url: https://api.github.com/users/DangerousPrototypes
+  private: false
+  pulls_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/pulls{/number}
+  pushed_at: '2023-09-21T14:36:36Z'
+  releases_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/releases{/id}
+  size: 0
+  ssh_url: git@github.com:DangerousPrototypes/BusPirate5-hardware.git
+  stargazers_count: 2
+  stargazers_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/stargazers
+  statuses_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/statuses/{sha}
+  subscribers_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/subscribers
+  subscription_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/subscription
+  svn_url: https://github.com/DangerousPrototypes/BusPirate5-hardware
+  tags_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/tags
+  teams_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/teams
+  topics: []
+  trees_url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware/git/trees{/sha}
+  updated_at: '2023-09-21T14:56:32Z'
+  url: https://api.github.com/repos/DangerousPrototypes/BusPirate5-hardware
+  visibility: public
+  watchers: 2
+  watchers_count: 2
+  web_commit_signoff_required: false
+src_file_kicad_pcb: programming_pin_mount.v1.0.kicad_pcb
+src_file_kicad_pcb_github: https://github.com/DangerousPrototypes/BusPirate5-hardware.git/programming_pin_mount.v1.0.kicad_pcb
+src_file_repo_kicad_pcb: debug-station/programming_pin_mount.v1.0.kicad_pcb
+src_file_repo_sch: debug-station/programming_pin_mount.v1.0.sch
+src_file_sch: programming_pin_mount.v1.0.sch
+src_file_sch_github: https://github.com/DangerousPrototypes/BusPirate5-hardware.git/programming_pin_mount.v1.0.sch
+user: dangerousprototypes

@@ -1,0 +1,70 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 1ade3a33-cf2a-4240-be8a-f56d4f3ca9b6)
+
+  (paper "A4")
+
+  (title_block
+    (title "Differential to Single Ended Buffer for ADAU1966 DAC")
+    (date "2016-05-25")
+    (rev "2.0")
+    (company "Open Hardware DSP Platform - www.ohdsp.org")
+    (comment 1 "MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.")
+    (comment 2 "is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF")
+    (comment 3 "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL). This documentation")
+    (comment 4 "Copyright Paul Janicki 2016")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "Open Hardware DSP Platform - www.ohdsp.org\nDifferential to Single Ended Buffer for ADAU1966 DAC\nRevision 2.0"
+    (at 19.05 29.21 0)
+    (effects (font (size 2.9972 2.9972)) (justify left bottom))
+    (uuid 402b6dba-54b1-45f0-9222-a73a67c50449)
+  )
+  (text "See bill of materials for detailed parts information."
+    (at 20.32 35.56 0)
+    (effects (font (size 2.0066 2.0066)) (justify left bottom))
+    (uuid a9f9434a-48a1-40fb-b4ac-2b7399a34628)
+  )
+
+  (sheet (at 60.96 83.82) (size 45.72 26.67) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000562e6585)
+    (property "Sheetname" "PowerSupply" (at 60.96 82.9814 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Sheetfile" "../../../../tmp/BUF-DiffToSE-ADAU1966/KiCad/PowerSupply.sch" (at 60.96 111.1762 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "BUF-DiffToSE-ADAU1966"
+        (path "/1ade3a33-cf2a-4240-be8a-f56d4f3ca9b6" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 151.13 66.04) (size 63.5 67.31) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000057448221)
+    (property "Sheetname" "DiffToSeFilters" (at 151.13 65.2014 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Sheetfile" "../../../../tmp/BUF-DiffToSE-ADAU1966/KiCad/DiffToSeFilters.sch" (at 151.13 134.0362 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "BUF-DiffToSE-ADAU1966"
+        (path "/1ade3a33-cf2a-4240-be8a-f56d4f3ca9b6" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

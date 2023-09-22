@@ -1,4 +1,789 @@
 board: led_controller_wrover32
+bom:
+- Id: '1'
+  Designator: RN2
+  Footprint: R_Array_Convex_4x0603
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: RN1
+  Footprint: R_Array_Convex_2x0603
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J2,J4
+  Footprint: BM12B-SRSS-TB
+  Quantity: '2'
+  Designation: BM12B-SRSS-TBT(LF)(SN)
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U1
+  Footprint: CL-2025-02
+  Quantity: '1'
+  Designation: XCL220
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J3
+  Footprint: USB_Micro-B_Molex-105017-0001
+  Quantity: '1'
+  Designation: USB_B_Micro
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C11,C3,C15,C104
+  Footprint: C_0603_1608Metric
+  Quantity: '4'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C6,C10,C4,C14,C9,C1,C13,C2,C20,C7,C18,C19
+  Footprint: C_0805_2012Metric
+  Quantity: '12'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R103
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 1.62K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R102
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 18.7K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: C107
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 47nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: C106
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 820pF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: C101
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 22uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U101
+  Footprint: QFN-16-1EP_3x3mm_P0.5mm_EP2.7x2.7mm_ThermalVias
+  Quantity: '1'
+  Designation: TPS55340-Q1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: L101
+  Footprint: L_Vishay_IHLP-1212
+  Quantity: '1'
+  Designation: 3.3uH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: C105,C23
+  Footprint: C_0603_1608Metric
+  Quantity: '2'
+  Designation: 22nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: C102,C17,C108,C21,C22,C16,C5,C8,C24
+  Footprint: C_0603_1608Metric
+  Quantity: '9'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: J5
+  Footprint: JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x04
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: J9
+  Footprint: PinHeader_1x02_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x02 DNF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: R1,R3,R104
+  Footprint: R_0603_1608Metric
+  Quantity: '3'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: D1
+  Footprint: LED_WS2813-MINI-2
+  Quantity: '1'
+  Designation: WS2813-MINI
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '21'
+  Designator: FID4,FID1,FID2,FID3
+  Footprint: Fiducial_0.5mm_Mask1mm
+  Quantity: '4'
+  Designation: DNF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '22'
+  Designator: MIC1
+  Footprint: SPH0645LM4H-B
+  Quantity: '1'
+  Designation: SPH0645LM4H-B
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '23'
+  Designator: SW1,SW2
+  Footprint: SW_SPST_KMR2
+  Quantity: '2'
+  Designation: SW_SPST_KMR2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '24'
+  Designator: D101
+  Footprint: D_SOD-123F
+  Quantity: '1'
+  Designation: D_Schottky
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '25'
+  Designator: J101
+  Footprint: JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '26'
+  Designator: J11
+  Footprint: JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '27'
+  Designator: C103
+  Footprint: C_1210_3225Metric
+  Quantity: '1'
+  Designation: 47uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '28'
+  Designator: J10
+  Footprint: PinHeader_1x02_P1.27mm_Vertical_SMD_Pin1Left
+  Quantity: '1'
+  Designation: Conn_01x02 DNF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '29'
+  Designator: U2
+  Footprint: ESP32-WROOVER
+  Quantity: '1'
+  Designation: ESP32-WROVER
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '30'
+  Designator: R6,R5
+  Footprint: R_0603_1608Metric
+  Quantity: '2'
+  Designation: 4.7K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '31'
+  Designator: R10
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 100K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '32'
+  Designator: RN3
+  Footprint: R_Array_Convex_4x0603
+  Quantity: '1'
+  Designation: 4.7K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '33'
+  Designator: D2
+  Footprint: SOT-666
+  Quantity: '1'
+  Designation: USBLC6-2P6
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '34'
+  Designator: C12
+  Footprint: C_0805_2012Metric
+  Quantity: '1'
+  Designation: 22uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '35'
+  Designator: J1
+  Footprint: microSD_HC_Wuerth_693072010801
+  Quantity: '1'
+  Designation: Micro_SD_Card
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '36'
+  Designator: R101
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 86.6K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '37'
+  Designator: J6,J7
+  Footprint: PinHeader_1x02_P1.27mm_Vertical
+  Quantity: '2'
+  Designation: Conn_01x02 DNF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '38'
+  Designator: J8
+  Footprint: PinHeader_1x05_P1.27mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x05 DNF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '39'
+  Designator: U5
+  Footprint: VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm
+  Quantity: '1'
+  Designation: MAX98357A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '40'
+  Designator: Q3
+  Footprint: SOT-23
+  Quantity: '1'
+  Designation: BSS138
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '41'
+  Designator: Q1
+  Footprint: SOT-23
+  Quantity: '1'
+  Designation: MMSS8050-H-TP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '42'
+  Designator: Q5
+  Footprint: SOT-363_SC-70-6
+  Quantity: '1'
+  Designation: BSS138DW-7-F
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '43'
+  Designator: RN6,RN4
+  Footprint: R_Array_Convex_4x0603
+  Quantity: '2'
+  Designation: 100K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '44'
+  Designator: R2
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: '470'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '45'
+  Designator: U4
+  Footprint: TDFN-14_3x3mm_P0.4mm_EP1.78x2.35mm
+  Quantity: '1'
+  Designation: MAX3379EETD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '46'
+  Designator: Q2
+  Footprint: SOT-23-6
+  Quantity: '1'
+  Designation: FMB2222A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '47'
+  Designator: U3
+  Footprint: QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm
+  Quantity: '1'
+  Designation: CP2104
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | RN2\
+  \ | R_Array_Convex_4x0603 | 1 | 10K |  |  | [''] | \n| 2 | RN1 | R_Array_Convex_2x0603\
+  \ | 1 | 10K |  |  | [''] | \n| 3 | J2,J4 | BM12B-SRSS-TB | 2 | BM12B-SRSS-TBT(LF)(SN)\
+  \ |  |  | [''] | \n| 4 | U1 | CL-2025-02 | 1 | XCL220 |  |  | [''] | \n| 5 | J3\
+  \ | USB_Micro-B_Molex-105017-0001 | 1 | USB_B_Micro |  |  | [''] | \n| 6 | C11,C3,C15,C104\
+  \ | C_0603_1608Metric | 4 | 1uF |  |  | [''] | \n| 7 | C6,C10,C4,C14,C9,C1,C13,C2,C20,C7,C18,C19\
+  \ | C_0805_2012Metric | 12 | 10uF |  |  | [''] | \n| 8 | R103 | R_0603_1608Metric\
+  \ | 1 | 1.62K |  |  | [''] | \n| 9 | R102 | R_0603_1608Metric | 1 | 18.7K |  | \
+  \ | [''] | \n| 10 | C107 | C_0603_1608Metric | 1 | 47nF |  |  | [''] | \n| 11 |\
+  \ C106 | C_0603_1608Metric | 1 | 820pF |  |  | [''] | \n| 12 | C101 | C_0603_1608Metric\
+  \ | 1 | 22uF |  |  | [''] | \n| 13 | U101 | QFN-16-1EP_3x3mm_P0.5mm_EP2.7x2.7mm_ThermalVias\
+  \ | 1 | TPS55340-Q1 |  |  | [''] | \n| 14 | L101 | L_Vishay_IHLP-1212 | 1 | 3.3uH\
+  \ |  |  | [''] | \n| 15 | C105,C23 | C_0603_1608Metric | 2 | 22nF |  |  | [''] |\
+  \ \n| 16 | C102,C17,C108,C21,C22,C16,C5,C8,C24 | C_0603_1608Metric | 9 | 0.1uF |\
+  \  |  | [''] | \n| 17 | J5 | JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical | 1 | Conn_01x04\
+  \ |  |  | [''] | \n| 18 | J9 | PinHeader_1x02_P2.54mm_Vertical | 1 | Conn_01x02\
+  \ DNF |  |  | [''] | \n| 19 | R1,R3,R104 | R_0603_1608Metric | 3 | 10K |  |  | ['']\
+  \ | \n| 20 | D1 | LED_WS2813-MINI-2 | 1 | WS2813-MINI |  |  | [''] | \n| 21 | FID4,FID1,FID2,FID3\
+  \ | Fiducial_0.5mm_Mask1mm | 4 | DNF |  |  | [''] | \n| 22 | MIC1 | SPH0645LM4H-B\
+  \ | 1 | SPH0645LM4H-B |  |  | [''] | \n| 23 | SW1,SW2 | SW_SPST_KMR2 | 2 | SW_SPST_KMR2\
+  \ |  |  | [''] | \n| 24 | D101 | D_SOD-123F | 1 | D_Schottky |  |  | [''] | \n|\
+  \ 25 | J101 | JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical | 1 | Conn_01x02 |  |  | ['']\
+  \ | \n| 26 | J11 | JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical | 1 | Conn_01x02\
+  \ |  |  | [''] | \n| 27 | C103 | C_1210_3225Metric | 1 | 47uF |  |  | [''] | \n\
+  | 28 | J10 | PinHeader_1x02_P1.27mm_Vertical_SMD_Pin1Left | 1 | Conn_01x02 DNF |\
+  \  |  | [''] | \n| 29 | U2 | ESP32-WROOVER | 1 | ESP32-WROVER |  |  | [''] | \n\
+  | 30 | R6,R5 | R_0603_1608Metric | 2 | 4.7K |  |  | [''] | \n| 31 | R10 | R_0603_1608Metric\
+  \ | 1 | 100K |  |  | [''] | \n| 32 | RN3 | R_Array_Convex_4x0603 | 1 | 4.7K |  |\
+  \  | [''] | \n| 33 | D2 | SOT-666 | 1 | USBLC6-2P6 |  |  | [''] | \n| 34 | C12 |\
+  \ C_0805_2012Metric | 1 | 22uF |  |  | [''] | \n| 35 | J1 | microSD_HC_Wuerth_693072010801\
+  \ | 1 | Micro_SD_Card |  |  | [''] | \n| 36 | R101 | R_0603_1608Metric | 1 | 86.6K\
+  \ |  |  | [''] | \n| 37 | J6,J7 | PinHeader_1x02_P1.27mm_Vertical | 2 | Conn_01x02\
+  \ DNF |  |  | [''] | \n| 38 | J8 | PinHeader_1x05_P1.27mm_Vertical | 1 | Conn_01x05\
+  \ DNF |  |  | [''] | \n| 39 | U5 | VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm | 1 |\
+  \ MAX98357A |  |  | [''] | \n| 40 | Q3 | SOT-23 | 1 | BSS138 |  |  | [''] | \n|\
+  \ 41 | Q1 | SOT-23 | 1 | MMSS8050-H-TP |  |  | [''] | \n| 42 | Q5 | SOT-363_SC-70-6\
+  \ | 1 | BSS138DW-7-F |  |  | [''] | \n| 43 | RN6,RN4 | R_Array_Convex_4x0603 | 2\
+  \ | 100K |  |  | [''] | \n| 44 | R2 | R_0603_1608Metric | 1 | 470 |  |  | [''] |\
+  \ \n| 45 | U4 | TDFN-14_3x3mm_P0.4mm_EP1.78x2.35mm | 1 | MAX3379EETD |  |  | ['']\
+  \ | \n| 46 | Q2 | SOT-23-6 | 1 | FMB2222A |  |  | [''] | \n| 47 | U3 | QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm\
+  \ | 1 | CP2104 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0805_2012Metric
+  Qnty: '10'
+  Ref: C1, C2, C4, C6, C9, C10, C13, C14, C18, C19
+  Value: 10uF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '3'
+  Ref: C3, C11, C15
+  Value: 1uF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0805_2012Metric
+  Qnty: '1'
+  Ref: C12
+  Value: 22uF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '2'
+  Ref: C16, C17
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: WS2813-MINI-WS2813-mini
+  DNP: ''
+  Description: ''
+  Footprint: LED_WS2813-mini:LED_WS2813-MINI-2
+  Qnty: '1'
+  Ref: D1
+  Value: WS2813-MINI
+  Vendor: ''
+- Cmp name: USBLC6-2SC6-dk_TVS-Diodes
+  DNP: ''
+  Description: ''
+  Footprint: Package_TO_SOT_SMD:SOT-666
+  Qnty: '1'
+  Ref: D2
+  Value: USBLC6-2P6
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM-fiducial
+  DNP: ''
+  Description: ''
+  Footprint: Fiducial:Fiducial_0.5mm_Mask1mm
+  Qnty: '4'
+  Ref: FID1, FID2, FID3, FID4
+  Value: DNF
+  Vendor: ''
+- Cmp name: Micro_SD_Card-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Aaron:microSD_HC_Wuerth_693072010801
+  Qnty: '1'
+  Ref: J1
+  Value: Micro_SD_Card
+  Vendor: ''
+- Cmp name: Conn_01x12
+  DNP: ''
+  Description: Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connectors_JST-BM12B-SURS-TF:BM12B-SRSS-TB
+  Qnty: '2'
+  Ref: J2, J4
+  Value: BM12B-SRSS-TBT(LF)(SN)
+  Vendor: ''
+- Cmp name: USB_B_Micro-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Aaron:USB_Micro-B_Molex-105017-0001
+  Qnty: '1'
+  Ref: J3
+  Value: USB_B_Micro
+  Vendor: ''
+- Cmp name: Conn_01x04
+  DNP: ''
+  Description: Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical
+  Qnty: '1'
+  Ref: J5
+  Value: Conn_01x04
+  Vendor: ''
+- Cmp name: Conn_01x02
+  DNP: ''
+  Description: Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical
+  Qnty: '2'
+  Ref: J6, J7
+  Value: Conn_01x02 DNF
+  Vendor: ''
+- Cmp name: Conn_01x05-Connector-led-controller-wrover32-rescue
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical
+  Qnty: '1'
+  Ref: J8
+  Value: Conn_01x05 DNF
+  Vendor: ''
+- Cmp name: Conn_01x02
+  DNP: ''
+  Description: Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J9
+  Value: Conn_01x02 DNF
+  Vendor: ''
+- Cmp name: SPH0645LM4H-B-dk_Microphones
+  DNP: ''
+  Description: ''
+  Footprint: Aaron:SPH0645LM4H-B
+  Qnty: '1'
+  Ref: MIC1
+  Value: SPH0645LM4H-B
+  Vendor: ''
+- Cmp name: MMSS8050-H-TP-dk_Transistors-Bipolar-BJT-Single
+  DNP: ''
+  Description: ''
+  Footprint: Package_TO_SOT_SMD:SOT-23
+  Qnty: '1'
+  Ref: Q1
+  Value: MMSS8050-H-TP
+  Vendor: ''
+- Cmp name: FMB2222A-Aaron
+  DNP: ''
+  Description: ''
+  Footprint: Package_TO_SOT_SMD:SOT-23-6
+  Qnty: '1'
+  Ref: Q2
+  Value: FMB2222A
+  Vendor: ''
+- Cmp name: BSS138
+  DNP: ''
+  Description: 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23
+  Footprint: Package_TO_SOT_SMD:SOT-23
+  Qnty: '1'
+  Ref: Q3
+  Value: BSS138
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R1
+  Value: 10K
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '2'
+  Ref: R5, R6
+  Value: 4.7K
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R10
+  Value: 100K
+  Vendor: ''
+- Cmp name: R_Pack02
+  DNP: ''
+  Description: 2 resistor network, parallel topology
+  Footprint: Resistor_SMD:R_Array_Convex_2x0603
+  Qnty: '1'
+  Ref: RN1
+  Value: 10K
+  Vendor: ''
+- Cmp name: R_Pack04
+  DNP: ''
+  Description: 4 resistor network, parallel topology
+  Footprint: Resistor_SMD:R_Array_Convex_4x0603
+  Qnty: '1'
+  Ref: RN2
+  Value: 10K
+  Vendor: ''
+- Cmp name: R_Pack04
+  DNP: ''
+  Description: 4 resistor network, parallel topology
+  Footprint: Resistor_SMD:R_Array_Convex_4x0603
+  Qnty: '1'
+  Ref: RN3
+  Value: 4.7K
+  Vendor: ''
+- Cmp name: R_Pack04
+  DNP: ''
+  Description: 4 resistor network, parallel topology
+  Footprint: Resistor_SMD:R_Array_Convex_4x0603
+  Qnty: '1'
+  Ref: RN4
+  Value: 100K
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: TestPoint:TestPoint_Pad_D1.0mm
+  Qnty: '2'
+  Ref: TP1, TP2
+  Value: DNF
+  Vendor: ''
+- Cmp name: XCL21X-Torex_Semiconductor
+  DNP: ''
+  Description: ''
+  Footprint: Torex_Semi:CL-2025-02
+  Qnty: '1'
+  Ref: U1
+  Value: XCL220
+  Vendor: ''
+- Cmp name: ESP32-WROVER-I-ESP32-WROVER-I
+  DNP: ''
+  Description: ''
+  Footprint: ESP32:ESP32-WROOVER
+  Qnty: '1'
+  Ref: U2
+  Value: ESP32-WROVER
+  Vendor: ''
+- Cmp name: CP2104-Interface_USB
+  DNP: ''
+  Description: ''
+  Footprint: Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm
+  Qnty: '1'
+  Ref: U3
+  Value: CP2104
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C4, C6, C9, C10, C13, C14, C18, C19 | 10 | 10uF | C | Capacitor_SMD:C_0805_2012Metric\
+  \ | Unpolarized capacitor |  |  | \n| C3, C11, C15 | 3 | 1uF | C | Capacitor_SMD:C_0603_1608Metric\
+  \ | Unpolarized capacitor |  |  | \n| C12 | 1 | 22uF | C | Capacitor_SMD:C_0805_2012Metric\
+  \ | Unpolarized capacitor |  |  | \n| C16, C17 | 2 | 0.1uF | C | Capacitor_SMD:C_0603_1608Metric\
+  \ | Unpolarized capacitor |  |  | \n| D1 | 1 | WS2813-MINI | WS2813-MINI-WS2813-mini\
+  \ | LED_WS2813-mini:LED_WS2813-MINI-2 |  |  |  | \n| D2 | 1 | USBLC6-2P6 | USBLC6-2SC6-dk_TVS-Diodes\
+  \ | Package_TO_SOT_SMD:SOT-666 |  |  |  | \n| FID1, FID2, FID3, FID4 | 4 | DNF |\
+  \ FIDUCIAL_1MM-fiducial | Fiducial:Fiducial_0.5mm_Mask1mm |  |  |  | \n| J1 | 1\
+  \ | Micro_SD_Card | Micro_SD_Card-Connector | Aaron:microSD_HC_Wuerth_693072010801\
+  \ |  |  |  | \n| J2, J4 | 2 | BM12B-SRSS-TBT(LF)(SN) | Conn_01x12 | Connectors_JST-BM12B-SURS-TF:BM12B-SRSS-TB\
+  \ | Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J3 | 1 | USB_B_Micro | USB_B_Micro-Connector | Aaron:USB_Micro-B_Molex-105017-0001\
+  \ |  |  |  | \n| J5 | 1 | Conn_01x04 | Conn_01x04 | Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical\
+  \ | Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J6, J7 | 2 | Conn_01x02 DNF | Conn_01x02 | Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical\
+  \ | Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J8 | 1 | Conn_01x05 DNF | Conn_01x05-Connector-led-controller-wrover32-rescue\
+  \ | Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical |  |  |  | \n| J9\
+  \ | 1 | Conn_01x02 DNF | Conn_01x02 | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| MIC1 | 1 | SPH0645LM4H-B | SPH0645LM4H-B-dk_Microphones | Aaron:SPH0645LM4H-B\
+  \ |  |  |  | \n| Q1 | 1 | MMSS8050-H-TP | MMSS8050-H-TP-dk_Transistors-Bipolar-BJT-Single\
+  \ | Package_TO_SOT_SMD:SOT-23 |  |  |  | \n| Q2 | 1 | FMB2222A | FMB2222A-Aaron\
+  \ | Package_TO_SOT_SMD:SOT-23-6 |  |  |  | \n| Q3 | 1 | BSS138 | BSS138 | Package_TO_SOT_SMD:SOT-23\
+  \ | 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23 |  |  | \n| R1 | 1 | 10K | R | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor |  |  | \n| R5, R6 | 2 | 4.7K | R | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor |  |  | \n| R10 | 1 | 100K | R | Resistor_SMD:R_0603_1608Metric | Resistor\
+  \ |  |  | \n| RN1 | 1 | 10K | R_Pack02 | Resistor_SMD:R_Array_Convex_2x0603 | 2\
+  \ resistor network, parallel topology |  |  | \n| RN2 | 1 | 10K | R_Pack04 | Resistor_SMD:R_Array_Convex_4x0603\
+  \ | 4 resistor network, parallel topology |  |  | \n| RN3 | 1 | 4.7K | R_Pack04\
+  \ | Resistor_SMD:R_Array_Convex_4x0603 | 4 resistor network, parallel topology |\
+  \  |  | \n| RN4 | 1 | 100K | R_Pack04 | Resistor_SMD:R_Array_Convex_4x0603 | 4 resistor\
+  \ network, parallel topology |  |  | \n| TP1, TP2 | 2 | DNF | TestPoint | TestPoint:TestPoint_Pad_D1.0mm\
+  \ | test point |  |  | \n| U1 | 1 | XCL220 | XCL21X-Torex_Semiconductor | Torex_Semi:CL-2025-02\
+  \ |  |  |  | \n| U2 | 1 | ESP32-WROVER | ESP32-WROVER-I-ESP32-WROVER-I | ESP32:ESP32-WROOVER\
+  \ |  |  |  | \n| U3 | 1 | CP2104 | CP2104-Interface_USB | Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/aaronw2_led_controller_wrover32_led_controller_wrover32/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/aaronw2_led_controller_wrover32_led_controller_wrover32/current_version/working/working.kicad_pcb
@@ -7,6 +792,644 @@ file_repo_bom_csv_flat: projects/aaronw2_led_controller_wrover32_led_controller_
 file_sch_flat: projects/aaronw2_led_controller_wrover32_led_controller_wrover32/current_version/working/working.sch
 id: aaronw2_led_controller_wrover32_led_controller_wrover32
 name: led_controller_wrover32
+position_bottom:
+- '# Ref': C1
+  Package: C_0805_2012Metric
+  PosX: 83.8
+  PosY: -57.2
+  Rot: 180.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C2
+  Package: C_0805_2012Metric
+  PosX: 81.09
+  PosY: -59.7925
+  Rot: 90.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C5
+  Package: C_0603_1608Metric
+  PosX: 71.9
+  PosY: -69.9
+  Rot: 0.0
+  Side: bottom
+  Val: 0.1uF
+- '# Ref': C7
+  Package: C_0805_2012Metric
+  PosX: 68.2625
+  PosY: -58.45
+  Rot: 0.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C8
+  Package: C_0603_1608Metric
+  PosX: 65.8
+  PosY: -57.9
+  Rot: -90.0
+  Side: bottom
+  Val: 0.1uF
+- '# Ref': C9
+  Package: C_0805_2012Metric
+  PosX: 52.0875
+  PosY: -70.7
+  Rot: 0.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C12
+  Package: C_0805_2012Metric
+  PosX: 56.725
+  PosY: -50.3
+  Rot: 90.0
+  Side: bottom
+  Val: 22uF
+- '# Ref': C13
+  Package: C_0805_2012Metric
+  PosX: 51.8
+  PosY: -47.498
+  Rot: 0.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C14
+  Package: C_0805_2012Metric
+  PosX: 83.55
+  PosY: -43.85
+  Rot: 0.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C15
+  Package: C_0603_1608Metric
+  PosX: 79.7
+  PosY: -52.225
+  Rot: -90.0
+  Side: bottom
+  Val: 1uF
+- '# Ref': C16
+  Package: C_0603_1608Metric
+  PosX: 54.95
+  PosY: -50.3625
+  Rot: 90.0
+  Side: bottom
+  Val: 0.1uF
+- '# Ref': C18
+  Package: C_0805_2012Metric
+  PosX: 79.776
+  PosY: -68.425
+  Rot: 180.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C19
+  Package: C_0805_2012Metric
+  PosX: 78.65
+  PosY: -73.0
+  Rot: 180.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C20
+  Package: C_0805_2012Metric
+  PosX: 51.45
+  PosY: -58.0
+  Rot: 90.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C21
+  Package: C_0603_1608Metric
+  PosX: 51.25
+  PosY: -61.74
+  Rot: -90.0
+  Side: bottom
+  Val: 0.1uF
+- '# Ref': C22
+  Package: C_0603_1608Metric
+  PosX: 53.19
+  PosY: -64.77
+  Rot: 90.0
+  Side: bottom
+  Val: 0.1uF
+- '# Ref': C23
+  Package: C_0603_1608Metric
+  PosX: 69.1
+  PosY: -61.7
+  Rot: 90.0
+  Side: bottom
+  Val: 22nF
+- '# Ref': C24
+  Package: C_0603_1608Metric
+  PosX: 57.0
+  PosY: -54.7
+  Rot: 180.0
+  Side: bottom
+  Val: 0.1uF
+- '# Ref': C104
+  Package: C_0603_1608Metric
+  PosX: 74.675
+  PosY: -80.675
+  Rot: 0.0
+  Side: bottom
+  Val: 1uF
+- '# Ref': C108
+  Package: C_0603_1608Metric
+  PosX: 70.875
+  PosY: -83.15
+  Rot: 90.0
+  Side: bottom
+  Val: 0.1uF
+- '# Ref': D2
+  Package: SOT-666
+  PosX: 80.625
+  PosY: -79.7
+  Rot: 90.0
+  Side: bottom
+  Val: USBLC6-2P6
+- '# Ref': FID2
+  Package: Fiducial_0.5mm_Mask1mm
+  PosX: 82.45
+  PosY: -83.7
+  Rot: 0.0
+  Side: bottom
+  Val: DNF
+- '# Ref': FID3
+  Package: Fiducial_0.5mm_Mask1mm
+  PosX: 51.1
+  PosY: -50.6
+  Rot: 90.0
+  Side: bottom
+  Val: DNF
+- '# Ref': J1
+  Package: microSD_HC_Wuerth_693072010801
+  PosX: 62.025
+  PosY: -72.175
+  Rot: 0.0
+  Side: bottom
+  Val: Micro_SD_Card
+- '# Ref': J6
+  Package: PinHeader_1x02_P1.27mm_Vertical
+  PosX: 53.2
+  PosY: -43.65
+  Rot: 90.0
+  Side: bottom
+  Val: Conn_01x02_DNF
+- '# Ref': J7
+  Package: PinHeader_1x02_P1.27mm_Vertical
+  PosX: 78.67
+  PosY: -43.65
+  Rot: 90.0
+  Side: bottom
+  Val: Conn_01x02_DNF
+- '# Ref': J8
+  Package: PinHeader_1x05_P1.27mm_Vertical
+  PosX: 77.4
+  PosY: -46.355
+  Rot: 180.0
+  Side: bottom
+  Val: Conn_01x05_DNF
+- '# Ref': Q1
+  Package: SOT-23
+  PosX: 60.7695
+  PosY: -51.943
+  Rot: -90.0
+  Side: bottom
+  Val: MMSS8050-H-TP
+- '# Ref': Q2
+  Package: SOT-23-6
+  PosX: 67.7
+  PosY: -52.5
+  Rot: -90.0
+  Side: bottom
+  Val: FMB2222A
+- '# Ref': Q3
+  Package: SOT-23
+  PosX: 52.175
+  PosY: -68.0
+  Rot: -90.0
+  Side: bottom
+  Val: BSS138
+- '# Ref': Q5
+  Package: SOT-363_SC-70-6
+  PosX: 74.7
+  PosY: -62.2
+  Rot: 0.0
+  Side: bottom
+  Val: BSS138DW-7-F
+- '# Ref': R2
+  Package: R_0603_1608Metric
+  PosX: 71.6
+  PosY: -73.7
+  Rot: 180.0
+  Side: bottom
+  Val: '470'
+- '# Ref': R3
+  Package: R_0603_1608Metric
+  PosX: 66.6115
+  PosY: -61.6965
+  Rot: 90.0
+  Side: bottom
+  Val: 10K
+- '# Ref': R5
+  Package: R_0603_1608Metric
+  PosX: 51.25
+  PosY: -64.78
+  Rot: -90.0
+  Side: bottom
+  Val: 4.7K
+- '# Ref': R6
+  Package: R_0603_1608Metric
+  PosX: 52.025
+  PosY: -73.125
+  Rot: 180.0
+  Side: bottom
+  Val: 4.7K
+- '# Ref': R10
+  Package: R_0603_1608Metric
+  PosX: 73.1
+  PosY: -58.25
+  Rot: -90.0
+  Side: bottom
+  Val: 100K
+- '# Ref': R101
+  Package: R_0603_1608Metric
+  PosX: 52.71
+  PosY: -83.12
+  Rot: 0.0
+  Side: bottom
+  Val: 86.6K
+- '# Ref': R104
+  Package: R_0603_1608Metric
+  PosX: 52.73
+  PosY: -81.65
+  Rot: 180.0
+  Side: bottom
+  Val: 10K
+- '# Ref': RN3
+  Package: R_Array_Convex_4x0603
+  PosX: 80.5
+  PosY: -48.4
+  Rot: 0.0
+  Side: bottom
+  Val: 4.7K
+- '# Ref': RN4
+  Package: R_Array_Convex_4x0603
+  PosX: 64.3
+  PosY: -52.45
+  Rot: 180.0
+  Side: bottom
+  Val: 100K
+- '# Ref': RN6
+  Package: R_Array_Convex_4x0603
+  PosX: 71.5
+  PosY: -61.8
+  Rot: 0.0
+  Side: bottom
+  Val: 100K
+- '# Ref': U3
+  Package: QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm
+  PosX: 79.2
+  PosY: -64.8
+  Rot: 180.0
+  Side: bottom
+  Val: CP2104
+- '# Ref': U4
+  Package: TDFN-14_3x3mm_P0.4mm_EP1.78x2.35mm
+  PosX: 62.9
+  PosY: -57.8
+  Rot: 180.0
+  Side: bottom
+  Val: MAX3379EETD
+- '# Ref': U5
+  Package: VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm
+  PosX: 54.7425
+  PosY: -60.3575
+  Rot: 90.0
+  Side: bottom
+  Val: MAX98357A
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C1 | 10uF | C_0805_2012Metric |\
+  \ 83.8 | -57.2 | 180.0 | bottom | \n| C2 | 10uF | C_0805_2012Metric | 81.09 | -59.7925\
+  \ | 90.0 | bottom | \n| C5 | 0.1uF | C_0603_1608Metric | 71.9 | -69.9 | 0.0 | bottom\
+  \ | \n| C7 | 10uF | C_0805_2012Metric | 68.2625 | -58.45 | 0.0 | bottom | \n| C8\
+  \ | 0.1uF | C_0603_1608Metric | 65.8 | -57.9 | -90.0 | bottom | \n| C9 | 10uF |\
+  \ C_0805_2012Metric | 52.0875 | -70.7 | 0.0 | bottom | \n| C12 | 22uF | C_0805_2012Metric\
+  \ | 56.725 | -50.3 | 90.0 | bottom | \n| C13 | 10uF | C_0805_2012Metric | 51.8 |\
+  \ -47.498 | 0.0 | bottom | \n| C14 | 10uF | C_0805_2012Metric | 83.55 | -43.85 |\
+  \ 0.0 | bottom | \n| C15 | 1uF | C_0603_1608Metric | 79.7 | -52.225 | -90.0 | bottom\
+  \ | \n| C16 | 0.1uF | C_0603_1608Metric | 54.95 | -50.3625 | 90.0 | bottom | \n\
+  | C18 | 10uF | C_0805_2012Metric | 79.776 | -68.425 | 180.0 | bottom | \n| C19 |\
+  \ 10uF | C_0805_2012Metric | 78.65 | -73.0 | 180.0 | bottom | \n| C20 | 10uF | C_0805_2012Metric\
+  \ | 51.45 | -58.0 | 90.0 | bottom | \n| C21 | 0.1uF | C_0603_1608Metric | 51.25\
+  \ | -61.74 | -90.0 | bottom | \n| C22 | 0.1uF | C_0603_1608Metric | 53.19 | -64.77\
+  \ | 90.0 | bottom | \n| C23 | 22nF | C_0603_1608Metric | 69.1 | -61.7 | 90.0 | bottom\
+  \ | \n| C24 | 0.1uF | C_0603_1608Metric | 57.0 | -54.7 | 180.0 | bottom | \n| C104\
+  \ | 1uF | C_0603_1608Metric | 74.675 | -80.675 | 0.0 | bottom | \n| C108 | 0.1uF\
+  \ | C_0603_1608Metric | 70.875 | -83.15 | 90.0 | bottom | \n| D2 | USBLC6-2P6 |\
+  \ SOT-666 | 80.625 | -79.7 | 90.0 | bottom | \n| FID2 | DNF | Fiducial_0.5mm_Mask1mm\
+  \ | 82.45 | -83.7 | 0.0 | bottom | \n| FID3 | DNF | Fiducial_0.5mm_Mask1mm | 51.1\
+  \ | -50.6 | 90.0 | bottom | \n| J1 | Micro_SD_Card | microSD_HC_Wuerth_693072010801\
+  \ | 62.025 | -72.175 | 0.0 | bottom | \n| J6 | Conn_01x02_DNF | PinHeader_1x02_P1.27mm_Vertical\
+  \ | 53.2 | -43.65 | 90.0 | bottom | \n| J7 | Conn_01x02_DNF | PinHeader_1x02_P1.27mm_Vertical\
+  \ | 78.67 | -43.65 | 90.0 | bottom | \n| J8 | Conn_01x05_DNF | PinHeader_1x05_P1.27mm_Vertical\
+  \ | 77.4 | -46.355 | 180.0 | bottom | \n| Q1 | MMSS8050-H-TP | SOT-23 | 60.7695\
+  \ | -51.943 | -90.0 | bottom | \n| Q2 | FMB2222A | SOT-23-6 | 67.7 | -52.5 | -90.0\
+  \ | bottom | \n| Q3 | BSS138 | SOT-23 | 52.175 | -68.0 | -90.0 | bottom | \n| Q5\
+  \ | BSS138DW-7-F | SOT-363_SC-70-6 | 74.7 | -62.2 | 0.0 | bottom | \n| R2 | 470\
+  \ | R_0603_1608Metric | 71.6 | -73.7 | 180.0 | bottom | \n| R3 | 10K | R_0603_1608Metric\
+  \ | 66.6115 | -61.6965 | 90.0 | bottom | \n| R5 | 4.7K | R_0603_1608Metric | 51.25\
+  \ | -64.78 | -90.0 | bottom | \n| R6 | 4.7K | R_0603_1608Metric | 52.025 | -73.125\
+  \ | 180.0 | bottom | \n| R10 | 100K | R_0603_1608Metric | 73.1 | -58.25 | -90.0\
+  \ | bottom | \n| R101 | 86.6K | R_0603_1608Metric | 52.71 | -83.12 | 0.0 | bottom\
+  \ | \n| R104 | 10K | R_0603_1608Metric | 52.73 | -81.65 | 180.0 | bottom | \n| RN3\
+  \ | 4.7K | R_Array_Convex_4x0603 | 80.5 | -48.4 | 0.0 | bottom | \n| RN4 | 100K\
+  \ | R_Array_Convex_4x0603 | 64.3 | -52.45 | 180.0 | bottom | \n| RN6 | 100K | R_Array_Convex_4x0603\
+  \ | 71.5 | -61.8 | 0.0 | bottom | \n| U3 | CP2104 | QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm\
+  \ | 79.2 | -64.8 | 180.0 | bottom | \n| U4 | MAX3379EETD | TDFN-14_3x3mm_P0.4mm_EP1.78x2.35mm\
+  \ | 62.9 | -57.8 | 180.0 | bottom | \n| U5 | MAX98357A | VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm\
+  \ | 54.7425 | -60.3575 | 90.0 | bottom | \n"
+position_top:
+- '# Ref': C3
+  Package: C_0603_1608Metric
+  PosX: 81.79
+  PosY: -63.03
+  Rot: -90.0
+  Side: top
+  Val: 1uF
+- '# Ref': C4
+  Package: C_0805_2012Metric
+  PosX: 60.75
+  PosY: -75.9875
+  Rot: 90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C6
+  Package: C_0805_2012Metric
+  PosX: 78.2
+  PosY: -73.0
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C10
+  Package: C_0805_2012Metric
+  PosX: 76.95
+  PosY: -77.35
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': C11
+  Package: C_0603_1608Metric
+  PosX: 67.0
+  PosY: -75.7
+  Rot: 90.0
+  Side: top
+  Val: 1uF
+- '# Ref': C17
+  Package: C_0603_1608Metric
+  PosX: 77.9125
+  PosY: -70.375
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C101
+  Package: C_0603_1608Metric
+  PosX: 75.8
+  PosY: -82.775
+  Rot: -90.0
+  Side: top
+  Val: 22uF
+- '# Ref': C102
+  Package: C_0603_1608Metric
+  PosX: 75.8
+  PosY: -79.8
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C103
+  Package: C_1210_3225Metric
+  PosX: 57.4
+  PosY: -79.6
+  Rot: 0.0
+  Side: top
+  Val: 47uF
+- '# Ref': C105
+  Package: C_0603_1608Metric
+  PosX: 64.5625
+  PosY: -78.625
+  Rot: 180.0
+  Side: top
+  Val: 22nF
+- '# Ref': C106
+  Package: C_0603_1608Metric
+  PosX: 64.5625
+  PosY: -81.625
+  Rot: 180.0
+  Side: top
+  Val: 820pF
+- '# Ref': C107
+  Package: C_0603_1608Metric
+  PosX: 61.575
+  PosY: -80.125
+  Rot: 180.0
+  Side: top
+  Val: 47nF
+- '# Ref': D1
+  Package: LED_WS2813-MINI-2
+  PosX: 52.75
+  PosY: -82.85
+  Rot: 0.0
+  Side: top
+  Val: WS2813-MINI
+- '# Ref': D101
+  Package: D_SOD-123F
+  PosX: 72.5
+  PosY: -83.1
+  Rot: 180.0
+  Side: top
+  Val: D_Schottky
+- '# Ref': FID1
+  Package: Fiducial_0.5mm_Mask1mm
+  PosX: 80.575
+  PosY: -65.55
+  Rot: 0.0
+  Side: top
+  Val: DNF
+- '# Ref': FID4
+  Package: Fiducial_0.5mm_Mask1mm
+  PosX: 50.8
+  PosY: -45.3
+  Rot: 0.0
+  Side: top
+  Val: DNF
+- '# Ref': J2
+  Package: BM12B-SRSS-TB
+  PosX: 51.175
+  PosY: -52.9
+  Rot: 90.0
+  Side: top
+  Val: BM12B-SRSS-TBT(LF)(SN)
+- '# Ref': J3
+  Package: USB_Micro-B_Molex-105017-0001
+  PosX: 80.975
+  PosY: -81.7875
+  Rot: 0.0
+  Side: top
+  Val: USB_B_Micro
+- '# Ref': J4
+  Package: BM12B-SRSS-TB
+  PosX: 84.6
+  PosY: -50.0
+  Rot: -90.0
+  Side: top
+  Val: BM12B-SRSS-TBT(LF)(SN)
+- '# Ref': J5
+  Package: JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical
+  PosX: 83.2
+  PosY: -70.8
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x04
+- '# Ref': J9
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 84.375
+  PosY: -65.95
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x02_DNF
+- '# Ref': J10
+  Package: PinHeader_1x02_P1.27mm_Vertical_SMD_Pin1Left
+  PosX: 52.0
+  PosY: -66.0
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x02_DNF
+- '# Ref': J11
+  Package: JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical
+  PosX: 78.42
+  PosY: -61.83
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J101
+  Package: JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical
+  PosX: 52.9
+  PosY: -76.37
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': L101
+  Package: L_Vishay_IHLP-1212
+  PosX: 72.675
+  PosY: -80.125
+  Rot: 180.0
+  Side: top
+  Val: 3.3uH
+- '# Ref': MIC1
+  Package: SPH0645LM4H-B
+  PosX: 76.6
+  PosY: -67.9
+  Rot: -90.0
+  Side: top
+  Val: SPH0645LM4H-B
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 85.15
+  PosY: -60.1
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R102
+  Package: R_0603_1608Metric
+  PosX: 68.7875
+  PosY: -83.15
+  Rot: 0.0
+  Side: top
+  Val: 18.7K
+- '# Ref': R103
+  Package: R_0603_1608Metric
+  PosX: 64.5625
+  PosY: -80.125
+  Rot: 0.0
+  Side: top
+  Val: 1.62K
+- '# Ref': RN1
+  Package: R_Array_Convex_2x0603
+  PosX: 57.4
+  PosY: -76.1
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': RN2
+  Package: R_Array_Convex_4x0603
+  PosX: 64.4
+  PosY: -76.3
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': SW1
+  Package: SW_SPST_KMR2
+  PosX: 72.15
+  PosY: -75.8
+  Rot: 180.0
+  Side: top
+  Val: SW_SPST_KMR2
+- '# Ref': SW2
+  Package: SW_SPST_KMR2
+  PosX: 59.96
+  PosY: -83.05
+  Rot: 0.0
+  Side: top
+  Val: SW_SPST_KMR2
+- '# Ref': U1
+  Package: CL-2025-02
+  PosX: 82.8
+  PosY: -59.8
+  Rot: -90.0
+  Side: top
+  Val: XCL220
+- '# Ref': U2
+  Package: ESP32-WROOVER
+  PosX: 65.0
+  PosY: -61.0
+  Rot: -90.0
+  Side: top
+  Val: ESP32-WROVER
+- '# Ref': U101
+  Package: QFN-16-1EP_3x3mm_P0.5mm_EP2.7x2.7mm_ThermalVias
+  PosX: 68.175
+  PosY: -80.3
+  Rot: -90.0
+  Side: top
+  Val: TPS55340-Q1
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C3 | 1uF | C_0603_1608Metric | 81.79\
+  \ | -63.03 | -90.0 | top | \n| C4 | 10uF | C_0805_2012Metric | 60.75 | -75.9875\
+  \ | 90.0 | top | \n| C6 | 10uF | C_0805_2012Metric | 78.2 | -73.0 | -90.0 | top\
+  \ | \n| C10 | 10uF | C_0805_2012Metric | 76.95 | -77.35 | 180.0 | top | \n| C11\
+  \ | 1uF | C_0603_1608Metric | 67.0 | -75.7 | 90.0 | top | \n| C17 | 0.1uF | C_0603_1608Metric\
+  \ | 77.9125 | -70.375 | 180.0 | top | \n| C101 | 22uF | C_0603_1608Metric | 75.8\
+  \ | -82.775 | -90.0 | top | \n| C102 | 0.1uF | C_0603_1608Metric | 75.8 | -79.8\
+  \ | 90.0 | top | \n| C103 | 47uF | C_1210_3225Metric | 57.4 | -79.6 | 0.0 | top\
+  \ | \n| C105 | 22nF | C_0603_1608Metric | 64.5625 | -78.625 | 180.0 | top | \n|\
+  \ C106 | 820pF | C_0603_1608Metric | 64.5625 | -81.625 | 180.0 | top | \n| C107\
+  \ | 47nF | C_0603_1608Metric | 61.575 | -80.125 | 180.0 | top | \n| D1 | WS2813-MINI\
+  \ | LED_WS2813-MINI-2 | 52.75 | -82.85 | 0.0 | top | \n| D101 | D_Schottky | D_SOD-123F\
+  \ | 72.5 | -83.1 | 180.0 | top | \n| FID1 | DNF | Fiducial_0.5mm_Mask1mm | 80.575\
+  \ | -65.55 | 0.0 | top | \n| FID4 | DNF | Fiducial_0.5mm_Mask1mm | 50.8 | -45.3\
+  \ | 0.0 | top | \n| J2 | BM12B-SRSS-TBT(LF)(SN) | BM12B-SRSS-TB | 51.175 | -52.9\
+  \ | 90.0 | top | \n| J3 | USB_B_Micro | USB_Micro-B_Molex-105017-0001 | 80.975 |\
+  \ -81.7875 | 0.0 | top | \n| J4 | BM12B-SRSS-TBT(LF)(SN) | BM12B-SRSS-TB | 84.6\
+  \ | -50.0 | -90.0 | top | \n| J5 | Conn_01x04 | JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical\
+  \ | 83.2 | -70.8 | -90.0 | top | \n| J9 | Conn_01x02_DNF | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 84.375 | -65.95 | 180.0 | top | \n| J10 | Conn_01x02_DNF | PinHeader_1x02_P1.27mm_Vertical_SMD_Pin1Left\
+  \ | 52.0 | -66.0 | 90.0 | top | \n| J11 | Conn_01x02 | JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical\
+  \ | 78.42 | -61.83 | -90.0 | top | \n| J101 | Conn_01x02 | JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical\
+  \ | 52.9 | -76.37 | -90.0 | top | \n| L101 | 3.3uH | L_Vishay_IHLP-1212 | 72.675\
+  \ | -80.125 | 180.0 | top | \n| MIC1 | SPH0645LM4H-B | SPH0645LM4H-B | 76.6 | -67.9\
+  \ | -90.0 | top | \n| R1 | 10K | R_0603_1608Metric | 85.15 | -60.1 | 90.0 | top\
+  \ | \n| R102 | 18.7K | R_0603_1608Metric | 68.7875 | -83.15 | 0.0 | top | \n| R103\
+  \ | 1.62K | R_0603_1608Metric | 64.5625 | -80.125 | 0.0 | top | \n| RN1 | 10K |\
+  \ R_Array_Convex_2x0603 | 57.4 | -76.1 | 90.0 | top | \n| RN2 | 10K | R_Array_Convex_4x0603\
+  \ | 64.4 | -76.3 | 90.0 | top | \n| SW1 | SW_SPST_KMR2 | SW_SPST_KMR2 | 72.15 |\
+  \ -75.8 | 180.0 | top | \n| SW2 | SW_SPST_KMR2 | SW_SPST_KMR2 | 59.96 | -83.05 |\
+  \ 0.0 | top | \n| U1 | XCL220 | CL-2025-02 | 82.8 | -59.8 | -90.0 | top | \n| U2\
+  \ | ESP32-WROVER | ESP32-WROOVER | 65.0 | -61.0 | -90.0 | top | \n| U101 | TPS55340-Q1\
+  \ | QFN-16-1EP_3x3mm_P0.5mm_EP2.7x2.7mm_ThermalVias | 68.175 | -80.3 | -90.0 | top\
+  \ | \n"
 projects_flat: projects/aaronw2_led_controller_wrover32_led_controller_wrover32/current_version/working
 repo:
   allow_forking: true

@@ -1,10 +1,160 @@
 board: cesp
+bom:
+- Id: '1'
+  Designator: TSSOP14,TSSOP14
+  Footprint: TSSOP14
+  Quantity: '2'
+  Designation: VAL**
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: SOIC24
+  Footprint: SOIC24
+  Quantity: '1'
+  Designation: VAL**
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: SM0603,SM0603,SM0603
+  Footprint: SM0603
+  Quantity: '3'
+  Designation: Val**
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: LED-1206,LED-1206,LED-1206
+  Footprint: LED-1206
+  Quantity: '3'
+  Designation: VAL**
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | TSSOP14,TSSOP14\
+  \ | TSSOP14 | 2 | VAL** |  |  | [''] | \n| 2 | SOIC24 | SOIC24 | 1 | VAL** |  |\
+  \  | [''] | \n| 3 | SM0603,SM0603,SM0603 | SM0603 | 3 | Val** |  |  | [''] | \n\
+  | 4 | LED-1206,LED-1206,LED-1206 | LED-1206 | 3 | VAL** |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: LTC1594CS
+  DNP: ''
+  Description: ''
+  Footprint: TSSOP14
+  Qnty: '1'
+  Ref: U1
+  Value: LTC1594CS
+  Vendor: ''
+- Cmp name: TL074
+  DNP: ''
+  Description: ''
+  Footprint: TSSOP14
+  Qnty: '1'
+  Ref: U2
+  Value: TL074
+  Vendor: ''
+- Cmp name: TL074
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '2'
+  Ref: U3, U4
+  Value: TL074
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| U1 |\
+  \ 1 | LTC1594CS | LTC1594CS | TSSOP14 |  |  |  | \n| U2 | 1 | TL074 | TL074 | TSSOP14\
+  \ |  |  |  | \n| U3, U4 | 2 | TL074 | TL074 |  |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/contextualelectronics_ce_soldering_practice_cesp/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/contextualelectronics_ce_soldering_practice_cesp/current_version/working/working.kicad_pcb
 file_sch_flat: projects/contextualelectronics_ce_soldering_practice_cesp/current_version/working/working.sch
 id: contextualelectronics_ce_soldering_practice_cesp
 name: ce_soldering_practice
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': LED-1206
+  Package: LED-1206
+  PosX: 183.388
+  PosY: -135.763
+  Rot: 90.0
+  Side: top
+  Val: VAL**
+- '# Ref': LED-1206
+  Package: LED-1206
+  PosX: 201.549
+  PosY: -99.949
+  Rot: 0.0
+  Side: top
+  Val: VAL**
+- '# Ref': LED-1206
+  Package: LED-1206
+  PosX: 163.957
+  PosY: -135.89
+  Rot: 0.0
+  Side: top
+  Val: VAL**
+- '# Ref': SM0603
+  Package: SM0603
+  PosX: 181.864
+  PosY: -103.251
+  Rot: 0.0
+  Side: top
+  Val: Val**
+- '# Ref': SM0603
+  Package: SM0603
+  PosX: 188.214
+  PosY: -111.506
+  Rot: 0.0
+  Side: top
+  Val: Val**
+- '# Ref': SM0603
+  Package: SM0603
+  PosX: 199.771
+  PosY: -120.777
+  Rot: 0.0
+  Side: top
+  Val: Val**
+- '# Ref': SOIC24
+  Package: SOIC24
+  PosX: 173.863
+  PosY: -120.65
+  Rot: 90.0
+  Side: top
+  Val: VAL**
+- '# Ref': TSSOP14
+  Package: TSSOP14
+  PosX: 163.068
+  PosY: -101.6
+  Rot: 90.0
+  Side: top
+  Val: VAL**
+- '# Ref': TSSOP14
+  Package: TSSOP14
+  PosX: 199.136
+  PosY: -134.747
+  Rot: 90.0
+  Side: top
+  Val: VAL**
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| LED-1206 | VAL** | LED-1206 | 183.388\
+  \ | -135.763 | 90.0 | top | \n| LED-1206 | VAL** | LED-1206 | 201.549 | -99.949\
+  \ | 0.0 | top | \n| LED-1206 | VAL** | LED-1206 | 163.957 | -135.89 | 0.0 | top\
+  \ | \n| SM0603 | Val** | SM0603 | 181.864 | -103.251 | 0.0 | top | \n| SM0603 |\
+  \ Val** | SM0603 | 188.214 | -111.506 | 0.0 | top | \n| SM0603 | Val** | SM0603\
+  \ | 199.771 | -120.777 | 0.0 | top | \n| SOIC24 | VAL** | SOIC24 | 173.863 | -120.65\
+  \ | 90.0 | top | \n| TSSOP14 | VAL** | TSSOP14 | 163.068 | -101.6 | 90.0 | top |\
+  \ \n| TSSOP14 | VAL** | TSSOP14 | 199.136 | -134.747 | 90.0 | top | \n"
 projects_flat: projects/contextualelectronics_ce_soldering_practice_cesp/current_version/working
 repo:
   allow_forking: true

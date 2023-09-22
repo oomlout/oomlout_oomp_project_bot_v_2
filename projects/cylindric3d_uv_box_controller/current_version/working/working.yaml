@@ -1,4 +1,278 @@
 board: controller
+bom:
+- Id: '1'
+  Designator: C1,C2,C4
+  Footprint: Capacitor4x3RM2.5
+  Quantity: '3'
+  Designation: "0.1\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: ENC1
+  Footprint: ALPS_Encoder-EC12E2420404
+  Quantity: '1'
+  Designation: Encoder
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: SW1
+  Footprint: SW_PUSH-12mm
+  Quantity: '1'
+  Designation: SW_PUSH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R4,R2
+  Footprint: R3
+  Quantity: '2'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: 1pin,1pin,1pin,1pin
+  Footprint: 1pin
+  Quantity: '4'
+  Designation: VAL**
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: LED_DISPLAY1
+  Footprint: 4_Digit-7_Segment_LED-ATA3492BW
+  Quantity: '1'
+  Designation: ATA3492BW
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R12
+  Footprint: R3
+  Quantity: '1'
+  Designation: 120R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: SP1
+  Footprint: Pin_Header_Angled_1x02
+  Quantity: '1'
+  Designation: PIEZO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: P1
+  Footprint: Pin_Header_Angled_1x02
+  Quantity: '1'
+  Designation: POWER
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: P2
+  Footprint: Pin_Header_Angled_1x02
+  Quantity: '1'
+  Designation: PANEL_1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: P3
+  Footprint: Pin_Header_Angled_1x02
+  Quantity: '1'
+  Designation: PANEL_2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U1
+  Footprint: TO-220_Neutral123_Horizontal
+  Quantity: '1'
+  Designation: LM7805CT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: C3
+  Footprint: Capacitor4x3RM2.5
+  Quantity: '1'
+  Designation: "0.33\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: Q1
+  Footprint: TO-220_FET-GDS_Horizontal
+  Quantity: '1'
+  Designation: P55NF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U2
+  Footprint: DIP-16__300
+  Quantity: '1'
+  Designation: 74HC595
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: U3
+  Footprint: ArduinoProMicro
+  Quantity: '1'
+  Designation: Arduino_Pro_Micro
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: R10,R1,R9,R7,R5,R11,R6,R8
+  Footprint: R3
+  Quantity: '8'
+  Designation: 33R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: Symbol_OSHW-Logo_CopperTop
+  Footprint: Symbol_OSHW-Logo_CopperTop
+  Quantity: '1'
+  Designation: VAL**
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C2,C4\
+  \ | Capacitor4x3RM2.5 | 3 | 0.1\xC2\xB5F |  |  | [''] | \n| 2 | ENC1 | ALPS_Encoder-EC12E2420404\
+  \ | 1 | Encoder |  |  | [''] | \n| 3 | SW1 | SW_PUSH-12mm | 1 | SW_PUSH |  |  |\
+  \ [''] | \n| 4 | R4,R2 | R3 | 2 | 10k |  |  | [''] | \n| 5 | 1pin,1pin,1pin,1pin\
+  \ | 1pin | 4 | VAL** |  |  | [''] | \n| 6 | LED_DISPLAY1 | 4_Digit-7_Segment_LED-ATA3492BW\
+  \ | 1 | ATA3492BW |  |  | [''] | \n| 7 | R12 | R3 | 1 | 120R |  |  | [''] | \n|\
+  \ 8 | SP1 | Pin_Header_Angled_1x02 | 1 | PIEZO |  |  | [''] | \n| 9 | P1 | Pin_Header_Angled_1x02\
+  \ | 1 | POWER |  |  | [''] | \n| 10 | P2 | Pin_Header_Angled_1x02 | 1 | PANEL_1\
+  \ |  |  | [''] | \n| 11 | P3 | Pin_Header_Angled_1x02 | 1 | PANEL_2 |  |  | ['']\
+  \ | \n| 12 | U1 | TO-220_Neutral123_Horizontal | 1 | LM7805CT |  |  | [''] | \n\
+  | 13 | C3 | Capacitor4x3RM2.5 | 1 | 0.33\xC2\xB5F |  |  | [''] | \n| 14 | Q1 | TO-220_FET-GDS_Horizontal\
+  \ | 1 | P55NF |  |  | [''] | \n| 15 | U2 | DIP-16__300 | 1 | 74HC595 |  |  | ['']\
+  \ | \n| 16 | U3 | ArduinoProMicro | 1 | Arduino_Pro_Micro |  |  | [''] | \n| 17\
+  \ | R10,R1,R9,R7,R5,R11,R6,R8 | R3 | 8 | 33R |  |  | [''] | \n| 18 | Symbol_OSHW-Logo_CopperTop\
+  \ | Symbol_OSHW-Logo_CopperTop | 1 | VAL** |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Encoder
+  DNP: ''
+  Description: ''
+  Footprint: Cylindric:ALPS_Encoder-EC12E2420404
+  Qnty: '1'
+  Ref: ENC1
+  Value: Encoder
+  Vendor: ''
+- Cmp name: ATA3492BW
+  DNP: ''
+  Description: 4 Digit 7 Segment Led Common Anode Module
+  Footprint: Cylindric:4_Digit-7_Segment_LED-ATA3492BW
+  Qnty: '1'
+  Ref: LED_DISPLAY1
+  Value: ATA3492BW
+  Vendor: ''
+- Cmp name: CONN_2
+  DNP: ''
+  Description: Symbole general de connecteur
+  Footprint: Pin_Headers:Pin_Header_Angled_1x02
+  Qnty: '1'
+  Ref: P1
+  Value: POWER
+  Vendor: ''
+- Cmp name: CONN_2
+  DNP: ''
+  Description: Symbole general de connecteur
+  Footprint: Pin_Headers:Pin_Header_Angled_1x02
+  Qnty: '1'
+  Ref: P2
+  Value: PANEL_1
+  Vendor: ''
+- Cmp name: CONN_2
+  DNP: ''
+  Description: Symbole general de connecteur
+  Footprint: Pin_Headers:Pin_Header_Angled_1x02
+  Qnty: '1'
+  Ref: P3
+  Value: PANEL_2
+  Vendor: ''
+- Cmp name: STB55NF
+  DNP: ''
+  Description: STB55NF06, 50V Vds, 30A Id, N-Channel Power MOSFET, TO220
+  Footprint: Transistors_TO-220:TO-220_FET-GDS_Horizontal
+  Qnty: '1'
+  Ref: Q1
+  Value: P55NF
+  Vendor: ''
+- Cmp name: 74HC595
+  DNP: ''
+  Description: 8 bits serial in // out Shift Register 3 State Out
+  Footprint: Sockets_DIP:DIP-16__300
+  Qnty: '1'
+  Ref: U2
+  Value: 74HC595
+  Vendor: ''
+- Cmp name: Arduino_Pro_Micro
+  DNP: ''
+  Description: Arduino Pro Micro
+  Footprint: Cylindric:ArduinoProMicro
+  Qnty: '1'
+  Ref: U3
+  Value: Arduino_Pro_Micro
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| ENC1\
+  \ | 1 | Encoder | Encoder | Cylindric:ALPS_Encoder-EC12E2420404 |  |  |  | \n| LED_DISPLAY1\
+  \ | 1 | ATA3492BW | ATA3492BW | Cylindric:4_Digit-7_Segment_LED-ATA3492BW | 4 Digit\
+  \ 7 Segment Led Common Anode Module |  |  | \n| P1 | 1 | POWER | CONN_2 | Pin_Headers:Pin_Header_Angled_1x02\
+  \ | Symbole general de connecteur |  |  | \n| P2 | 1 | PANEL_1 | CONN_2 | Pin_Headers:Pin_Header_Angled_1x02\
+  \ | Symbole general de connecteur |  |  | \n| P3 | 1 | PANEL_2 | CONN_2 | Pin_Headers:Pin_Header_Angled_1x02\
+  \ | Symbole general de connecteur |  |  | \n| Q1 | 1 | P55NF | STB55NF | Transistors_TO-220:TO-220_FET-GDS_Horizontal\
+  \ | STB55NF06, 50V Vds, 30A Id, N-Channel Power MOSFET, TO220 |  |  | \n| U2 | 1\
+  \ | 74HC595 | 74HC595 | Sockets_DIP:DIP-16__300 | 8 bits serial in // out Shift\
+  \ Register 3 State Out |  |  | \n| U3 | 1 | Arduino_Pro_Micro | Arduino_Pro_Micro\
+  \ | Cylindric:ArduinoProMicro | Arduino Pro Micro |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/cylindric3d_uv_box_controller/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/cylindric3d_uv_box_controller/current_version/working/working.kicad_pcb
@@ -6,6 +280,254 @@ file_repo_bom_csv_flat: projects/cylindric3d_uv_box_controller/current_version/w
 file_sch_flat: projects/cylindric3d_uv_box_controller/current_version/working/working.sch
 id: cylindric3d_uv_box_controller
 name: uv_box
+position_bottom:
+- '# Ref': Symbol_OSHW-Logo_CopperTop
+  Package: Symbol_OSHW-Logo_CopperTop
+  PosX: 63.5
+  PosY: -35.052
+  Rot: 180.0
+  Side: bottom
+  Val: VAL**
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| Symbol_OSHW-Logo_CopperTop | VAL**\
+  \ | Symbol_OSHW-Logo_CopperTop | 63.5 | -35.052 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': 1pin
+  Package: 1pin
+  PosX: 52.578
+  PosY: -67.818
+  Rot: 0.0
+  Side: top
+  Val: VAL**
+- '# Ref': 1pin
+  Package: 1pin
+  PosX: 52.578
+  PosY: -19.558
+  Rot: 0.0
+  Side: top
+  Val: VAL**
+- '# Ref': 1pin
+  Package: 1pin
+  PosX: 144.018
+  PosY: -67.818
+  Rot: 0.0
+  Side: top
+  Val: VAL**
+- '# Ref': 1pin
+  Package: 1pin
+  PosX: 144.018
+  PosY: -19.558
+  Rot: 0.0
+  Side: top
+  Val: VAL**
+- '# Ref': C1
+  Package: Capacitor4x3RM2.5
+  PosX: 63.5
+  PosY: -50.165
+  Rot: 0.0
+  Side: top
+  Val: "0.1\xC2\xB5F"
+- '# Ref': C2
+  Package: Capacitor4x3RM2.5
+  PosX: 60.96
+  PosY: -50.165
+  Rot: 180.0
+  Side: top
+  Val: "0.1\xC2\xB5F"
+- '# Ref': C3
+  Package: Capacitor4x3RM2.5
+  PosX: 64.643
+  PosY: -23.368
+  Rot: 180.0
+  Side: top
+  Val: "0.33\xC2\xB5F"
+- '# Ref': C4
+  Package: Capacitor4x3RM2.5
+  PosX: 57.023
+  PosY: -23.368
+  Rot: 0.0
+  Side: top
+  Val: "0.1\xC2\xB5F"
+- '# Ref': ENC1
+  Package: ALPS_Encoder-EC12E2420404
+  PosX: 60.96
+  PosY: -53.34
+  Rot: 180.0
+  Side: top
+  Val: Encoder
+- '# Ref': LED_DISPLAY1
+  Package: 4_Digit-7_Segment_LED-ATA3492BW
+  PosX: 95.25
+  PosY: -59.69
+  Rot: 0.0
+  Side: top
+  Val: ATA3492BW
+- '# Ref': P1
+  Package: Pin_Header_Angled_1x02
+  PosX: 141.605
+  PosY: -60.96
+  Rot: -90.0
+  Side: top
+  Val: POWER
+- '# Ref': P2
+  Package: Pin_Header_Angled_1x02
+  PosX: 80.01
+  PosY: -24.13
+  Rot: 0.0
+  Side: top
+  Val: PANEL_1
+- '# Ref': P3
+  Package: Pin_Header_Angled_1x02
+  PosX: 85.09
+  PosY: -24.13
+  Rot: 0.0
+  Side: top
+  Val: PANEL_2
+- '# Ref': Q1
+  Package: TO-220_FET-GDS_Horizontal
+  PosX: 72.263
+  PosY: -26.543
+  Rot: 180.0
+  Side: top
+  Val: P55NF
+- '# Ref': R1
+  Package: R3
+  PosX: 99.06
+  PosY: -47.625
+  Rot: -90.0
+  Side: top
+  Val: 33R
+- '# Ref': R2
+  Package: R3
+  PosX: 125.73
+  PosY: -50.165
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R4
+  Package: R3
+  PosX: 122.555
+  PosY: -23.495
+  Rot: 180.0
+  Side: top
+  Val: 10k
+- '# Ref': R5
+  Package: R3
+  PosX: 91.44
+  PosY: -47.625
+  Rot: -90.0
+  Side: top
+  Val: 33R
+- '# Ref': R6
+  Package: R3
+  PosX: 86.36
+  PosY: -47.625
+  Rot: -90.0
+  Side: top
+  Val: 33R
+- '# Ref': R7
+  Package: R3
+  PosX: 93.98
+  PosY: -47.625
+  Rot: -90.0
+  Side: top
+  Val: 33R
+- '# Ref': R8
+  Package: R3
+  PosX: 83.82
+  PosY: -47.625
+  Rot: -90.0
+  Side: top
+  Val: 33R
+- '# Ref': R9
+  Package: R3
+  PosX: 96.52
+  PosY: -47.625
+  Rot: -90.0
+  Side: top
+  Val: 33R
+- '# Ref': R10
+  Package: R3
+  PosX: 101.6
+  PosY: -47.625
+  Rot: -90.0
+  Side: top
+  Val: 33R
+- '# Ref': R11
+  Package: R3
+  PosX: 88.9
+  PosY: -47.625
+  Rot: -90.0
+  Side: top
+  Val: 33R
+- '# Ref': R12
+  Package: R3
+  PosX: 127.635
+  PosY: -27.305
+  Rot: 180.0
+  Side: top
+  Val: 120R
+- '# Ref': SP1
+  Package: Pin_Header_Angled_1x02
+  PosX: 141.605
+  PosY: -53.975
+  Rot: -90.0
+  Side: top
+  Val: PIEZO
+- '# Ref': SW1
+  Package: SW_PUSH-12mm
+  PosX: 128.905
+  PosY: -59.69
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': U1
+  Package: TO-220_Neutral123_Horizontal
+  PosX: 60.833
+  PosY: -26.543
+  Rot: 180.0
+  Side: top
+  Val: LM7805CT
+- '# Ref': U2
+  Package: DIP-16__300
+  PosX: 92.71
+  PosY: -36.83
+  Rot: 0.0
+  Side: top
+  Val: 74HC595
+- '# Ref': U3
+  Package: ArduinoProMicro
+  PosX: 132.08
+  PosY: -38.1
+  Rot: -90.0
+  Side: top
+  Val: Arduino_Pro_Micro
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| 1pin | VAL** | 1pin | 52.578 | -67.818\
+  \ | 0.0 | top | \n| 1pin | VAL** | 1pin | 52.578 | -19.558 | 0.0 | top | \n| 1pin\
+  \ | VAL** | 1pin | 144.018 | -67.818 | 0.0 | top | \n| 1pin | VAL** | 1pin | 144.018\
+  \ | -19.558 | 0.0 | top | \n| C1 | 0.1\xC2\xB5F | Capacitor4x3RM2.5 | 63.5 | -50.165\
+  \ | 0.0 | top | \n| C2 | 0.1\xC2\xB5F | Capacitor4x3RM2.5 | 60.96 | -50.165 | 180.0\
+  \ | top | \n| C3 | 0.33\xC2\xB5F | Capacitor4x3RM2.5 | 64.643 | -23.368 | 180.0\
+  \ | top | \n| C4 | 0.1\xC2\xB5F | Capacitor4x3RM2.5 | 57.023 | -23.368 | 0.0 | top\
+  \ | \n| ENC1 | Encoder | ALPS_Encoder-EC12E2420404 | 60.96 | -53.34 | 180.0 | top\
+  \ | \n| LED_DISPLAY1 | ATA3492BW | 4_Digit-7_Segment_LED-ATA3492BW | 95.25 | -59.69\
+  \ | 0.0 | top | \n| P1 | POWER | Pin_Header_Angled_1x02 | 141.605 | -60.96 | -90.0\
+  \ | top | \n| P2 | PANEL_1 | Pin_Header_Angled_1x02 | 80.01 | -24.13 | 0.0 | top\
+  \ | \n| P3 | PANEL_2 | Pin_Header_Angled_1x02 | 85.09 | -24.13 | 0.0 | top | \n\
+  | Q1 | P55NF | TO-220_FET-GDS_Horizontal | 72.263 | -26.543 | 180.0 | top | \n|\
+  \ R1 | 33R | R3 | 99.06 | -47.625 | -90.0 | top | \n| R2 | 10k | R3 | 125.73 | -50.165\
+  \ | 0.0 | top | \n| R4 | 10k | R3 | 122.555 | -23.495 | 180.0 | top | \n| R5 | 33R\
+  \ | R3 | 91.44 | -47.625 | -90.0 | top | \n| R6 | 33R | R3 | 86.36 | -47.625 | -90.0\
+  \ | top | \n| R7 | 33R | R3 | 93.98 | -47.625 | -90.0 | top | \n| R8 | 33R | R3\
+  \ | 83.82 | -47.625 | -90.0 | top | \n| R9 | 33R | R3 | 96.52 | -47.625 | -90.0\
+  \ | top | \n| R10 | 33R | R3 | 101.6 | -47.625 | -90.0 | top | \n| R11 | 33R | R3\
+  \ | 88.9 | -47.625 | -90.0 | top | \n| R12 | 120R | R3 | 127.635 | -27.305 | 180.0\
+  \ | top | \n| SP1 | PIEZO | Pin_Header_Angled_1x02 | 141.605 | -53.975 | -90.0 |\
+  \ top | \n| SW1 | SW_PUSH | SW_PUSH-12mm | 128.905 | -59.69 | 0.0 | top | \n| U1\
+  \ | LM7805CT | TO-220_Neutral123_Horizontal | 60.833 | -26.543 | 180.0 | top | \n\
+  | U2 | 74HC595 | DIP-16__300 | 92.71 | -36.83 | 0.0 | top | \n| U3 | Arduino_Pro_Micro\
+  \ | ArduinoProMicro | 132.08 | -38.1 | -90.0 | top | \n"
 projects_flat: projects/cylindric3d_uv_box_controller/current_version/working
 repo:
   allow_forking: true

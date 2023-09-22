@@ -12,6 +12,7 @@
 
 * src_file_repo_sch: boards/8Bit-Mixtape-NEO_v1/ShenzhenReady/kicad_8bitMixtapeNEO_HK/8BitMixtapeNEO_HK.sch
 * src_file_repo_sch_link: https://github.com/8BitMixtape/8Bit-Mixtape-NEO/tree/master/boards/8Bit-Mixtape-NEO_v1/ShenzhenReady/kicad_8bitMixtapeNEO_HK/8BitMixtapeNEO_HK.sch
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/8bitmixtape_8bit_mixtape_neo_8bitmixtapeneo_hk/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

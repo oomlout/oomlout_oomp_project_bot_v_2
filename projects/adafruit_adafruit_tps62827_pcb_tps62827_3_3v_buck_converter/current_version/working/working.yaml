@@ -1,9 +1,422 @@
 board: tps62827_3_3v_buck_converter
+bom:
+- Id: '1'
+  Designator: C4
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 120pF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R1,R3
+  Footprint: 0603-NO
+  Quantity: '2'
+  Designation: 100K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C3,C1,C2
+  Footprint: 0805-NO
+  Quantity: '3'
+  Designation: 22uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R2
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 450K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: IC2
+  Footprint: VSON_6
+  Quantity: '1'
+  Designation: TPS6282X
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: D1
+  Footprint: CHIPLED_0603_NOOUTLINE
+  Quantity: '1'
+  Designation: green
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U$9
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '1'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: L1
+  Footprint: INDUCTOR_4X4MM_SRP0415
+  Quantity: '1'
+  Designation: SDER041H-2R2MS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U$11
+  Footprint: ADAFRUIT_2.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R4
+  Footprint: _0603MP
+  Quantity: '1'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: FID2,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: JP1
+  Footprint: 1X04_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U$18
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: U$10
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C4\
+  \ | 0603-NO | 1 | 120pF |  |  | [''] | \n| 2 | R1,R3 | 0603-NO | 2 | 100K |  | \
+  \ | [''] | \n| 3 | C3,C1,C2 | 0805-NO | 3 | 22uF |  |  | [''] | \n| 4 | R2 | 0603-NO\
+  \ | 1 | 450K |  |  | [''] | \n| 5 | IC2 | VSON_6 | 1 | TPS6282X |  |  | [''] | \n\
+  | 6 | D1 | CHIPLED_0603_NOOUTLINE | 1 | green |  |  | [''] | \n| 7 | U$9 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 1 | MOUNTINGHOLE2.5 |  |  | [''] | \n| 8 | L1 | INDUCTOR_4X4MM_SRP0415 | 1 |\
+  \ SDER041H-2R2MS |  |  | [''] | \n| 9 | U$11 | ADAFRUIT_2.5MM | 1 |  |  |  | ['']\
+  \ | \n| 10 | R4 | _0603MP | 1 | 10k |  |  | [''] | \n| 11 | FID2,FID1 | FIDUCIAL_1MM\
+  \ | 2 | FIDUCIAL_1MM |  |  | [''] | \n| 12 | JP1 | 1X04_ROUND | 1 |  |  |  | ['']\
+  \ | \n| 13 | U$18 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n| 14 | U$10 | PCBFEAT-REV-040\
+  \ | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '3'
+  Ref: C1, C2, C3
+  Value: 22uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: C4
+  Value: 120pF
+  Vendor: ''
+- Cmp name: LED0603_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0603_NOOUTLINE
+  Qnty: '1'
+  Ref: D1
+  Value: green
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: TPS6282X
+  DNP: ''
+  Description: ''
+  Footprint: working:VSON_6
+  Qnty: '1'
+  Ref: IC2
+  Value: TPS6282X
+  Vendor: ''
+- Cmp name: HEADER-1X4ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X04_ROUND
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X4ROUND
+  Vendor: ''
+- Cmp name: INDUCTOR_SRP0415
+  DNP: ''
+  Description: ''
+  Footprint: working:INDUCTOR_4X4MM_SRP0415
+  Qnty: '1'
+  Ref: L1
+  Value: SDER041H-2R2MS
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: R1, R3
+  Value: 100K
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R2
+  Value: 450K
+  Vendor: ''
+- Cmp name: RESISTOR_0603MP
+  DNP: ''
+  Description: ''
+  Footprint: working:_0603MP
+  Qnty: '1'
+  Ref: R4
+  Value: 10k
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '1'
+  Ref: U$9
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3 | 3 | 22uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C4\
+  \ | 1 | 120pF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| D1 | 1 | green\
+  \ | LED0603_NOOUTLINE | working:CHIPLED_0603_NOOUTLINE |  |  |  | \n| FID1, FID2\
+  \ | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| IC2 |\
+  \ 1 | TPS6282X | TPS6282X | working:VSON_6 |  |  |  | \n| JP1 | 1 | HEADER-1X4ROUND\
+  \ | HEADER-1X4ROUND | working:1X04_ROUND |  |  |  | \n| L1 | 1 | SDER041H-2R2MS\
+  \ | INDUCTOR_SRP0415 | working:INDUCTOR_4X4MM_SRP0415 |  |  |  | \n| R1, R3 | 2\
+  \ | 100K | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n| R2 | 1 | 450K |\
+  \ RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n| R4 | 1 | 10k | RESISTOR_0603MP\
+  \ | working:_0603MP |  |  |  | \n| U$9 | 1 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 |\
+  \ working:MOUNTINGHOLE_2.5_PLATED |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_tps62827_pcb_tps62827_3_3v_buck_converter/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_tps62827_pcb_tps62827_3_3v_buck_converter/current_version/working/working.sch
 id: adafruit_adafruit_tps62827_pcb_tps62827_3_3v_buck_converter
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$9
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$9 | m3 | \n"
 name: adafruit_tps62827_pcb
+position_bottom:
+- '# Ref': U$10
+  Package: PCBFEAT-REV-040
+  PosX: 144.8816
+  PosY: -99.9236
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$18
+  Package: ADAFRUIT_3.5MM
+  PosX: 149.1996
+  PosY: -100.6856
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$10 | nan | PCBFEAT-REV-040 | 144.8816\
+  \ | -99.9236 | 180.0 | bottom | \n| U$18 | nan | ADAFRUIT_3.5MM | 149.1996 | -100.6856\
+  \ | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 144.5641
+  PosY: -103.7336
+  Rot: 90.0
+  Side: top
+  Val: 22uF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 148.8821
+  PosY: -104.4321
+  Rot: 180.0
+  Side: top
+  Val: 22uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 146.3421
+  PosY: -103.7336
+  Rot: 90.0
+  Side: top
+  Val: 22uF
+- '# Ref': C4
+  Package: 0603-NO
+  PosX: 145.6436
+  PosY: -98.3361
+  Rot: 0.0
+  Side: top
+  Val: 120pF
+- '# Ref': D1
+  Package: CHIPLED_0603_NOOUTLINE
+  PosX: 152.8191
+  PosY: -105.9561
+  Rot: 180.0
+  Side: top
+  Val: green
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 144.1831
+  PosY: -108.8771
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 148.1836
+  PosY: -97.8916
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': IC2
+  Package: VSON_6
+  PosX: 148.8821
+  PosY: -102.5271
+  Rot: -90.0
+  Side: top
+  Val: TPS6282X
+- '# Ref': JP1
+  Package: 1X04_ROUND
+  PosX: 148.5011
+  PosY: -110.7186
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': L1
+  Package: INDUCTOR_4X4MM_SRP0415
+  PosX: 147.8661
+  PosY: -107.4801
+  Rot: 180.0
+  Side: top
+  Val: SDER041H-2R2MS
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 151.9301
+  PosY: -108.8136
+  Rot: 0.0
+  Side: top
+  Val: 100K
+- '# Ref': R2
+  Package: 0603-NO
+  PosX: 146.0881
+  PosY: -99.8601
+  Rot: 180.0
+  Side: top
+  Val: 450K
+- '# Ref': R3
+  Package: 0603-NO
+  PosX: 145.5801
+  PosY: -101.3841
+  Rot: 0.0
+  Side: top
+  Val: 100K
+- '# Ref': R4
+  Package: _0603MP
+  PosX: 152.1206
+  PosY: -104.1146
+  Rot: 180.0
+  Side: top
+  Val: 10k
+- '# Ref': U$9
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 151.0411
+  PosY: -99.2886
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$11
+  Package: ADAFRUIT_2.5MM
+  PosX: 150.8506
+  PosY: -103.6066
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 22uF | 0805-NO | 144.5641 | -103.7336\
+  \ | 90.0 | top | \n| C2 | 22uF | 0805-NO | 148.8821 | -104.4321 | 180.0 | top |\
+  \ \n| C3 | 22uF | 0805-NO | 146.3421 | -103.7336 | 90.0 | top | \n| C4 | 120pF |\
+  \ 0603-NO | 145.6436 | -98.3361 | 0.0 | top | \n| D1 | green | CHIPLED_0603_NOOUTLINE\
+  \ | 152.8191 | -105.9561 | 180.0 | top | \n| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM\
+  \ | 144.1831 | -108.8771 | 0.0 | top | \n| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM |\
+  \ 148.1836 | -97.8916 | 0.0 | top | \n| IC2 | TPS6282X | VSON_6 | 148.8821 | -102.5271\
+  \ | -90.0 | top | \n| JP1 | nan | 1X04_ROUND | 148.5011 | -110.7186 | 180.0 | top\
+  \ | \n| L1 | SDER041H-2R2MS | INDUCTOR_4X4MM_SRP0415 | 147.8661 | -107.4801 | 180.0\
+  \ | top | \n| R1 | 100K | 0603-NO | 151.9301 | -108.8136 | 0.0 | top | \n| R2 |\
+  \ 450K | 0603-NO | 146.0881 | -99.8601 | 180.0 | top | \n| R3 | 100K | 0603-NO |\
+  \ 145.5801 | -101.3841 | 0.0 | top | \n| R4 | 10k | _0603MP | 152.1206 | -104.1146\
+  \ | 180.0 | top | \n| U$9 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 151.0411\
+  \ | -99.2886 | 0.0 | top | \n| U$11 | nan | ADAFRUIT_2.5MM | 150.8506 | -103.6066\
+  \ | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_tps62827_pcb_tps62827_3_3v_buck_converter/current_version/working
 repo:
   allow_forking: true

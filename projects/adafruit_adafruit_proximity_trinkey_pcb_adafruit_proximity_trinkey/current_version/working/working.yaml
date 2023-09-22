@@ -1,9 +1,478 @@
 board: adafruit_proximity_trinkey
+bom:
+- Id: '1'
+  Designator: R1,R2
+  Footprint: 0603-NO
+  Quantity: '2'
+  Designation: 4.7K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: FID1,FID2
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C3,C8
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C4,C5
+  Footprint: 0603-NO
+  Quantity: '2'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: IC3
+  Footprint: QFN32_5MM
+  Quantity: '1'
+  Designation: ATSAMD21E
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: LED1,LED2
+  Footprint: LED3535
+  Quantity: '2'
+  Designation: WS2812B3535
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U3
+  Footprint: APDS-9960
+  Quantity: '1'
+  Designation: APDS-9960
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U1
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: AP2112K-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: CN1
+  Footprint: USBA_PCB
+  Quantity: '1'
+  Designation: USB A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: Q2
+  Footprint: BTN_KMR2_4.6X2.8
+  Quantity: '1'
+  Designation: reset
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: SWD0,RST0
+  Footprint: TP16R
+  Quantity: '2'
+  Designation: TPTP16R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: TP1,TP2
+  Footprint: TESTPOINT_ROUND_1.5MM_NO
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: SWC0
+  Footprint: TP15R
+  Quantity: '1'
+  Designation: TPTP15R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: U$8
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U$10
+  Footprint: ADAFRUIT_9MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R1,R2\
+  \ | 0603-NO | 2 | 4.7K |  |  | [''] | \n| 2 | FID1,FID2 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM\
+  \ |  |  | [''] | \n| 3 | C3,C8 | 0805-NO | 2 | 10uF |  |  | [''] | \n| 4 | C4,C5\
+  \ | 0603-NO | 2 | 1uF |  |  | [''] | \n| 5 | IC3 | QFN32_5MM | 1 | ATSAMD21E | \
+  \ |  | [''] | \n| 6 | LED1,LED2 | LED3535 | 2 | WS2812B3535 |  |  | [''] | \n| 7\
+  \ | U3 | APDS-9960 | 1 | APDS-9960 |  |  | [''] | \n| 8 | U1 | SOT23-5 | 1 | AP2112K-3.3\
+  \ |  |  | [''] | \n| 9 | CN1 | USBA_PCB | 1 | USB A |  |  | [''] | \n| 10 | Q2 |\
+  \ BTN_KMR2_4.6X2.8 | 1 | reset |  |  | [''] | \n| 11 | SWD0,RST0 | TP16R | 2 | TPTP16R\
+  \ |  |  | [''] | \n| 12 | TP1,TP2 | TESTPOINT_ROUND_1.5MM_NO | 2 |  |  |  | ['']\
+  \ | \n| 13 | SWC0 | TP15R | 1 | TPTP15R |  |  | [''] | \n| 14 | U$8 | PCBFEAT-REV-040\
+  \ | 1 |  |  |  | [''] | \n| 15 | U$10 | ADAFRUIT_9MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C3, C8
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: C4, C5
+  Value: 1uF
+  Vendor: ''
+- Cmp name: USB_TYPEAPCB
+  DNP: ''
+  Description: ''
+  Footprint: working:USBA_PCB
+  Qnty: '1'
+  Ref: CN1
+  Value: USB A
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: ATSAMD21E
+  DNP: ''
+  Description: ''
+  Footprint: working:QFN32_5MM
+  Qnty: '1'
+  Ref: IC3
+  Value: ATSAMD21E
+  Vendor: ''
+- Cmp name: WS2812B3535
+  DNP: ''
+  Description: ''
+  Footprint: working:LED3535
+  Qnty: '2'
+  Ref: LED1, LED2
+  Value: WS2812B3535
+  Vendor: ''
+- Cmp name: SWITCH_TACT_SMT4.6X2.8
+  DNP: ''
+  Description: ''
+  Footprint: working:BTN_KMR2_4.6X2.8
+  Qnty: '1'
+  Ref: Q2
+  Value: reset
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 4.7K
+  Vendor: ''
+- Cmp name: TPTP16R
+  DNP: ''
+  Description: ''
+  Footprint: working:TP16R
+  Qnty: '1'
+  Ref: RST0
+  Value: TPTP16R
+  Vendor: ''
+- Cmp name: TPTP15R
+  DNP: ''
+  Description: ''
+  Footprint: working:TP15R
+  Qnty: '1'
+  Ref: SWC0
+  Value: TPTP15R
+  Vendor: ''
+- Cmp name: TPTP16R
+  DNP: ''
+  Description: ''
+  Footprint: working:TP16R
+  Qnty: '1'
+  Ref: SWD0
+  Value: TPTP16R
+  Vendor: ''
+- Cmp name: TESTPOINTROUND1.5MMNO
+  DNP: ''
+  Description: ''
+  Footprint: working:TESTPOINT_ROUND_1.5MM_NO
+  Qnty: '2'
+  Ref: TP1, TP2
+  Value: TESTPOINTROUND1.5MMNO
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U1
+  Value: AP2112K-3.3
+  Vendor: ''
+- Cmp name: APDS-9960
+  DNP: ''
+  Description: ''
+  Footprint: working:APDS-9960
+  Qnty: '1'
+  Ref: U3
+  Value: APDS-9960
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C3, C8\
+  \ | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C4, C5\
+  \ | 2 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| CN1 | 1 | USB\
+  \ A | USB_TYPEAPCB | working:USBA_PCB |  |  |  | \n| FID1, FID2 | 2 | FIDUCIAL_1MM\
+  \ | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| IC3 | 1 | ATSAMD21E | ATSAMD21E\
+  \ | working:QFN32_5MM |  |  |  | \n| LED1, LED2 | 2 | WS2812B3535 | WS2812B3535\
+  \ | working:LED3535 |  |  |  | \n| Q2 | 1 | reset | SWITCH_TACT_SMT4.6X2.8 | working:BTN_KMR2_4.6X2.8\
+  \ |  |  |  | \n| R1, R2 | 2 | 4.7K | RESISTOR_0603_NOOUT | working:0603-NO |  |\
+  \  |  | \n| RST0 | 1 | TPTP16R | TPTP16R | working:TP16R |  |  |  | \n| SWC0 | 1\
+  \ | TPTP15R | TPTP15R | working:TP15R |  |  |  | \n| SWD0 | 1 | TPTP16R | TPTP16R\
+  \ | working:TP16R |  |  |  | \n| TP1, TP2 | 2 | TESTPOINTROUND1.5MMNO | TESTPOINTROUND1.5MMNO\
+  \ | working:TESTPOINT_ROUND_1.5MM_NO |  |  |  | \n| U1 | 1 | AP2112K-3.3 | VREG_SOT23-5\
+  \ | working:SOT23-5 |  |  |  | \n| U3 | 1 | APDS-9960 | APDS-9960 | working:APDS-9960\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_proximity_trinkey_pcb_adafruit_proximity_trinkey/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_proximity_trinkey_pcb_adafruit_proximity_trinkey/current_version/working/working.sch
 id: adafruit_adafruit_proximity_trinkey_pcb_adafruit_proximity_trinkey
 name: adafruit_proximity_trinkey_pcb
+position_bottom:
+- '# Ref': RST0
+  Package: TP16R
+  PosX: 145.9548
+  PosY: -108.3056
+  Rot: 180.0
+  Side: bottom
+  Val: TPTP16R
+- '# Ref': SWC0
+  Package: TP15R
+  PosX: 148.4948
+  PosY: -108.3056
+  Rot: 180.0
+  Side: bottom
+  Val: TPTP15R
+- '# Ref': SWD0
+  Package: TP16R
+  PosX: 151.0349
+  PosY: -108.3056
+  Rot: 180.0
+  Side: bottom
+  Val: TPTP16R
+- '# Ref': TP1
+  Package: TESTPOINT_ROUND_1.5MM_NO
+  PosX: 163.1633
+  PosY: -109.9566
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': TP2
+  Package: TESTPOINT_ROUND_1.5MM_NO
+  PosX: 163.0999
+  PosY: -100.1141
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$8
+  Package: PCBFEAT-REV-040
+  PosX: 140.8114
+  PosY: -102.1461
+  Rot: 0.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$10
+  Package: ADAFRUIT_9MM
+  PosX: 132.6198
+  PosY: -109.2581
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| RST0 | TPTP16R | TP16R | 145.9548\
+  \ | -108.3056 | 180.0 | bottom | \n| SWC0 | TPTP15R | TP15R | 148.4948 | -108.3056\
+  \ | 180.0 | bottom | \n| SWD0 | TPTP16R | TP16R | 151.0349 | -108.3056 | 180.0 |\
+  \ bottom | \n| TP1 | nan | TESTPOINT_ROUND_1.5MM_NO | 163.1633 | -109.9566 | 180.0\
+  \ | bottom | \n| TP2 | nan | TESTPOINT_ROUND_1.5MM_NO | 163.0999 | -100.1141 | 180.0\
+  \ | bottom | \n| U$8 | nan | PCBFEAT-REV-040 | 140.8114 | -102.1461 | 0.0 | bottom\
+  \ | \n| U$10 | nan | ADAFRUIT_9MM | 132.6198 | -109.2581 | 90.0 | bottom | \n"
+position_top:
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 145.5738
+  PosY: -109.0041
+  Rot: 90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C4
+  Package: 0603-NO
+  PosX: 153.2574
+  PosY: -108.7501
+  Rot: -90.0
+  Side: top
+  Val: 1uF
+- '# Ref': C5
+  Package: 0603-NO
+  PosX: 152.4954
+  PosY: -106.3371
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C8
+  Package: 0805-NO
+  PosX: 151.6063
+  PosY: -108.8771
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': CN1
+  Package: USBA_PCB
+  PosX: 137.0649
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: USB_A
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 158.2738
+  PosY: -101.4476
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 158.2866
+  PosY: -108.8771
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': IC3
+  Package: QFN32_5MM
+  PosX: 147.6693
+  PosY: -103.3526
+  Rot: 180.0
+  Side: top
+  Val: ATSAMD21E
+- '# Ref': LED1
+  Package: LED3535
+  PosX: 158.0198
+  PosY: -108.8136
+  Rot: 180.0
+  Side: top
+  Val: WS2812B3535
+- '# Ref': LED2
+  Package: LED3535
+  PosX: 158.0198
+  PosY: -101.1936
+  Rot: 0.0
+  Side: top
+  Val: WS2812B3535
+- '# Ref': Q2
+  Package: BTN_KMR2_4.6X2.8
+  PosX: 152.6223
+  PosY: -102.6541
+  Rot: 90.0
+  Side: top
+  Val: reset
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 154.7814
+  PosY: -108.8136
+  Rot: -90.0
+  Side: top
+  Val: 4.7K
+- '# Ref': R2
+  Package: 0603-NO
+  PosX: 154.9718
+  PosY: -101.5111
+  Rot: 90.0
+  Side: top
+  Val: 4.7K
+- '# Ref': U1
+  Package: SOT23-5
+  PosX: 148.6218
+  PosY: -108.8771
+  Rot: -90.0
+  Side: top
+  Val: AP2112K-3.3
+- '# Ref': U3
+  Package: APDS-9960
+  PosX: 157.3849
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: APDS-9960
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C3 | 10uF | 0805-NO | 145.5738 | -109.0041\
+  \ | 90.0 | top | \n| C4 | 1uF | 0603-NO | 153.2574 | -108.7501 | -90.0 | top | \n\
+  | C5 | 1uF | 0603-NO | 152.4954 | -106.3371 | 0.0 | top | \n| C8 | 10uF | 0805-NO\
+  \ | 151.6063 | -108.8771 | -90.0 | top | \n| CN1 | USB_A | USBA_PCB | 137.0649 |\
+  \ -105.0036 | 0.0 | top | \n| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM | 158.2738 | -101.4476\
+  \ | 0.0 | top | \n| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM | 158.2866 | -108.8771 |\
+  \ 0.0 | top | \n| IC3 | ATSAMD21E | QFN32_5MM | 147.6693 | -103.3526 | 180.0 | top\
+  \ | \n| LED1 | WS2812B3535 | LED3535 | 158.0198 | -108.8136 | 180.0 | top | \n|\
+  \ LED2 | WS2812B3535 | LED3535 | 158.0198 | -101.1936 | 0.0 | top | \n| Q2 | reset\
+  \ | BTN_KMR2_4.6X2.8 | 152.6223 | -102.6541 | 90.0 | top | \n| R1 | 4.7K | 0603-NO\
+  \ | 154.7814 | -108.8136 | -90.0 | top | \n| R2 | 4.7K | 0603-NO | 154.9718 | -101.5111\
+  \ | 90.0 | top | \n| U1 | AP2112K-3.3 | SOT23-5 | 148.6218 | -108.8771 | -90.0 |\
+  \ top | \n| U3 | APDS-9960 | APDS-9960 | 157.3849 | -105.0036 | 90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_proximity_trinkey_pcb_adafruit_proximity_trinkey/current_version/working
 repo:
   allow_forking: true

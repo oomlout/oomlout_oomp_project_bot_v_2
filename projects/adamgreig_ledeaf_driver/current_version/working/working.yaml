@@ -1,10 +1,655 @@
 board: driver
+bom:
+- Id: '1'
+  Designator: R2,R1
+  Footprint: '0402'
+  Quantity: '2'
+  Designation: 5k1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C8,C21,C7,C11,C6,C22,C15,C16,C17,C10,C9
+  Footprint: '0402'
+  Quantity: '11'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C19,C18,C12,C3,C13,C2,C4,C14,C5,C1
+  Footprint: '0603'
+  Quantity: '10'
+  Designation: "2\xC2\xB52"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: SW2
+  Footprint: SW_MOM_6X6
+  Quantity: '1'
+  Designation: BOOTLOAD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R3,R6
+  Footprint: '0402'
+  Quantity: '2'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: D1
+  Footprint: SOD-123
+  Quantity: '1'
+  Designation: 1N4148W
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R4
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: '100'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R5
+  Footprint: '0603'
+  Quantity: '1'
+  Designation: 0R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: J1
+  Footprint: USB4105
+  Quantity: '1'
+  Designation: USB4105
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: SW1
+  Footprint: SW_MOM_6X6
+  Quantity: '1'
+  Designation: USER
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: IC1
+  Footprint: SOT-23
+  Quantity: '1'
+  Designation: XC6206P332MR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: Y1
+  Footprint: XO-32x25
+  Quantity: '1'
+  Designation: 20M
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: IC4
+  Footprint: LQFP-100
+  Quantity: '1'
+  Designation: STM32F411VxTx
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: IC2
+  Footprint: IRM-H6XXT
+  Quantity: '1'
+  Designation: IRM-H6xxT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: IC3
+  Footprint: WS2812B
+  Quantity: '1'
+  Designation: WS2812B
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R2,R1\
+  \ | 0402 | 2 | 5k1 |  |  | [''] | \n| 2 | C8,C21,C7,C11,C6,C22,C15,C16,C17,C10,C9\
+  \ | 0402 | 11 | 100n |  |  | [''] | \n| 3 | C19,C18,C12,C3,C13,C2,C4,C14,C5,C1 |\
+  \ 0603 | 10 | 2\xC2\xB52 |  |  | [''] | \n| 4 | SW2 | SW_MOM_6X6 | 1 | BOOTLOAD\
+  \ |  |  | [''] | \n| 5 | R3,R6 | 0402 | 2 | 10k |  |  | [''] | \n| 6 | D1 | SOD-123\
+  \ | 1 | 1N4148W |  |  | [''] | \n| 7 | R4 | 0402 | 1 | 100 |  |  | [''] | \n| 8\
+  \ | R5 | 0603 | 1 | 0R |  |  | [''] | \n| 9 | J1 | USB4105 | 1 | USB4105 |  |  |\
+  \ [''] | \n| 10 | SW1 | SW_MOM_6X6 | 1 | USER |  |  | [''] | \n| 11 | IC1 | SOT-23\
+  \ | 1 | XC6206P332MR |  |  | [''] | \n| 12 | Y1 | XO-32x25 | 1 | 20M |  |  | ['']\
+  \ | \n| 13 | IC4 | LQFP-100 | 1 | STM32F411VxTx |  |  | [''] | \n| 14 | IC2 | IRM-H6XXT\
+  \ | 1 | IRM-H6xxT |  |  | [''] | \n| 15 | IC3 | WS2812B | 1 | WS2812B |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '10'
+  Ref: C1, C2, C3, C4, C5, C12, C13, C14, C18, C19
+  Value: "2\xC2\xB52"
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '11'
+  Ref: C6, C7, C8, C9, C10, C11, C15, C16, C17, C21, C22
+  Value: 100n
+  Vendor: ''
+- Cmp name: D
+  DNP: ''
+  Description: Diode
+  Footprint: agg:SOD-123
+  Qnty: '1'
+  Ref: D1
+  Value: 1N4148W
+  Vendor: ''
+- Cmp name: MCP1700
+  DNP: ''
+  Description: LDO Voltage Regulator
+  Footprint: ael:SOT-23
+  Qnty: '1'
+  Ref: IC1
+  Value: XC6206P332MR
+  Vendor: ''
+- Cmp name: IRM-H6xxT
+  DNP: ''
+  Description: Infrared Receiver Module
+  Footprint: agg:IRM-H6XXT
+  Qnty: '1'
+  Ref: IC2
+  Value: IRM-H6xxT
+  Vendor: ''
+- Cmp name: WS2812B
+  DNP: ''
+  Description: RGB LED with onboard driver IC
+  Footprint: ael:WS2812B
+  Qnty: '1'
+  Ref: IC3
+  Value: WS2812B
+  Vendor: ''
+- Cmp name: STM32F411VxTx
+  DNP: ''
+  Description: STM32F411 100 pin LQFP package
+  Footprint: agg:LQFP-100
+  Qnty: '1'
+  Ref: IC4
+  Value: STM32F411VxTx
+  Vendor: ''
+- Cmp name: USB4105
+  DNP: ''
+  Description: Type C USB 2.0 Connector
+  Footprint: ael:USB4105
+  Qnty: '1'
+  Ref: J1
+  Value: USB4105
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 5k1
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '2'
+  Ref: R3, R6
+  Value: 10k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '1'
+  Ref: R4
+  Value: '100'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '1'
+  Ref: R5
+  Value: 0R
+  Vendor: ''
+- Cmp name: SWITCH_SPST
+  DNP: ''
+  Description: ''
+  Footprint: agg:SW_MOM_6X6
+  Qnty: '1'
+  Ref: SW1
+  Value: USER
+  Vendor: ''
+- Cmp name: SWITCH_SPST
+  DNP: ''
+  Description: ''
+  Footprint: agg:SW_MOM_6X6
+  Qnty: '1'
+  Ref: SW2
+  Value: BOOTLOAD
+  Vendor: ''
+- Cmp name: TCXO_ST
+  DNP: ''
+  Description: 4 pin TCXO with Standy
+  Footprint: ael:XO-32x25
+  Qnty: '1'
+  Ref: Y1
+  Value: 20M
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3, C4, C5, C12, C13, C14, C18, C19 | 10 | 2\xC2\xB52 | C | agg:0603 |  |  | \
+  \ | \n| C6, C7, C8, C9, C10, C11, C15, C16, C17, C21, C22 | 11 | 100n | C | agg:0402\
+  \ |  |  |  | \n| D1 | 1 | 1N4148W | D | agg:SOD-123 | Diode |  |  | \n| IC1 | 1\
+  \ | XC6206P332MR | MCP1700 | ael:SOT-23 | LDO Voltage Regulator |  |  | \n| IC2\
+  \ | 1 | IRM-H6xxT | IRM-H6xxT | agg:IRM-H6XXT | Infrared Receiver Module |  |  |\
+  \ \n| IC3 | 1 | WS2812B | WS2812B | ael:WS2812B | RGB LED with onboard driver IC\
+  \ |  |  | \n| IC4 | 1 | STM32F411VxTx | STM32F411VxTx | agg:LQFP-100 | STM32F411\
+  \ 100 pin LQFP package |  |  | \n| J1 | 1 | USB4105 | USB4105 | ael:USB4105 | Type\
+  \ C USB 2.0 Connector |  |  | \n| R1, R2 | 2 | 5k1 | R | agg:0402 |  |  |  | \n\
+  | R3, R6 | 2 | 10k | R | agg:0402 |  |  |  | \n| R4 | 1 | 100 | R | agg:0402 | \
+  \ |  |  | \n| R5 | 1 | 0R | R | agg:0603 |  |  |  | \n| SW1 | 1 | USER | SWITCH_SPST\
+  \ | agg:SW_MOM_6X6 |  |  |  | \n| SW2 | 1 | BOOTLOAD | SWITCH_SPST | agg:SW_MOM_6X6\
+  \ |  |  |  | \n| Y1 | 1 | 20M | TCXO_ST | ael:XO-32x25 | 4 pin TCXO with Standy\
+  \ |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_ledeaf_driver/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_ledeaf_driver/current_version/working/working.kicad_sch
 file_repo_bom_xlsx_flat: projects/adamgreig_ledeaf_driver/current_version/working/bom_src.xlsx
 id: adamgreig_ledeaf_driver
 name: ledeaf
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: '0603'
+  PosX: 117.1
+  PosY: -85.9
+  Rot: 90.0
+  Side: top
+  Val: "2\xC2\xB52"
+- '# Ref': C2
+  Package: '0603'
+  PosX: 122.7
+  PosY: -93.8
+  Rot: 0.0
+  Side: top
+  Val: "2\xC2\xB52"
+- '# Ref': C3
+  Package: '0603'
+  PosX: 138.35
+  PosY: -81.4
+  Rot: -90.0
+  Side: top
+  Val: "2\xC2\xB52"
+- '# Ref': C4
+  Package: '0603'
+  PosX: 144.5
+  PosY: -78.5
+  Rot: 90.0
+  Side: top
+  Val: "2\xC2\xB52"
+- '# Ref': C5
+  Package: '0603'
+  PosX: 138.6
+  PosY: -89.7
+  Rot: 90.0
+  Side: top
+  Val: "2\xC2\xB52"
+- '# Ref': C6
+  Package: '0402'
+  PosX: 118.6
+  PosY: -81.7
+  Rot: 90.0
+  Side: top
+  Val: 100n
+- '# Ref': C7
+  Package: '0402'
+  PosX: 118.6
+  PosY: -86.0
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': C8
+  Package: '0402'
+  PosX: 122.7
+  PosY: -92.4
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': C9
+  Package: '0402'
+  PosX: 136.8
+  PosY: -92.8
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': C10
+  Package: '0402'
+  PosX: 137.4
+  PosY: -76.9
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': C11
+  Package: '0402'
+  PosX: 122.3
+  PosY: -73.6
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': C12
+  Package: '0603'
+  PosX: 134.6
+  PosY: -94.0
+  Rot: 180.0
+  Side: top
+  Val: "2\xC2\xB52"
+- '# Ref': C13
+  Package: '0603'
+  PosX: 138.8
+  PosY: -77.4
+  Rot: -90.0
+  Side: top
+  Val: "2\xC2\xB52"
+- '# Ref': C14
+  Package: '0603'
+  PosX: 133.6
+  PosY: -69.6
+  Rot: 180.0
+  Side: top
+  Val: "2\xC2\xB52"
+- '# Ref': C15
+  Package: '0402'
+  PosX: 124.8
+  PosY: -69.9
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': C16
+  Package: '0402'
+  PosX: 118.6
+  PosY: -83.9
+  Rot: 90.0
+  Side: top
+  Val: 100n
+- '# Ref': C17
+  Package: '0402'
+  PosX: 116.3
+  PosY: -79.1
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': C18
+  Package: '0603'
+  PosX: 132.5
+  PosY: -61.2
+  Rot: 90.0
+  Side: top
+  Val: "2\xC2\xB52"
+- '# Ref': C19
+  Package: '0603'
+  PosX: 139.5
+  PosY: -61.2
+  Rot: 90.0
+  Side: top
+  Val: "2\xC2\xB52"
+- '# Ref': C21
+  Package: '0402'
+  PosX: 118.6
+  PosY: -79.6
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': C22
+  Package: '0402'
+  PosX: 118.6
+  PosY: -88.1
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': D1
+  Package: SOD-123
+  PosX: 128.0
+  PosY: -70.0
+  Rot: 0.0
+  Side: top
+  Val: 1N4148W
+- '# Ref': IC1
+  Package: SOT-23
+  PosX: 141.7
+  PosY: -78.5
+  Rot: 180.0
+  Side: top
+  Val: XC6206P332MR
+- '# Ref': IC2
+  Package: IRM-H6XXT
+  PosX: 136.0
+  PosY: -66.0
+  Rot: 180.0
+  Side: top
+  Val: IRM-H6xxT
+- '# Ref': IC3
+  Package: WS2812B
+  PosX: 128.0
+  PosY: -66.0
+  Rot: 0.0
+  Side: top
+  Val: WS2812B
+- '# Ref': IC4
+  Package: LQFP-100
+  PosX: 128.0
+  PosY: -83.0
+  Rot: 0.0
+  Side: top
+  Val: STM32F411VxTx
+- '# Ref': J1
+  Package: USB4105
+  PosX: 149.125
+  PosY: -86.0
+  Rot: 90.0
+  Side: top
+  Val: USB4105
+- '# Ref': J2
+  Package: M2_PTH
+  PosX: 136.0
+  PosY: -60.0
+  Rot: 0.0
+  Side: top
+  Val: 5V
+- '# Ref': J3
+  Package: M2_PTH
+  PosX: 128.0
+  PosY: -60.0
+  Rot: 0.0
+  Side: top
+  Val: D
+- '# Ref': J4
+  Package: M2_PTH
+  PosX: 120.0
+  PosY: -60.0
+  Rot: 0.0
+  Side: top
+  Val: 0V
+- '# Ref': P1
+  Package: TC2030-NL
+  PosX: 140.7
+  PosY: -71.9
+  Rot: 180.0
+  Side: top
+  Val: SWD_TC
+- '# Ref': R1
+  Package: '0402'
+  PosX: 139.985
+  PosY: -90.18
+  Rot: -90.0
+  Side: top
+  Val: 5k1
+- '# Ref': R2
+  Package: '0402'
+  PosX: 139.985
+  PosY: -81.88
+  Rot: 90.0
+  Side: top
+  Val: 5k1
+- '# Ref': R3
+  Package: '0402'
+  PosX: 133.1
+  PosY: -72.2
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R4
+  Package: '0402'
+  PosX: 133.1
+  PosY: -71.0
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R5
+  Package: '0603'
+  PosX: 134.6
+  PosY: -92.5
+  Rot: 0.0
+  Side: top
+  Val: 0R
+- '# Ref': R6
+  Package: '0402'
+  PosX: 115.1
+  PosY: -86.4
+  Rot: 90.0
+  Side: top
+  Val: 10k
+- '# Ref': SW1
+  Package: SW_MOM_6X6
+  PosX: 118.0
+  PosY: -66.5
+  Rot: 0.0
+  Side: top
+  Val: USER
+- '# Ref': SW2
+  Package: SW_MOM_6X6
+  PosX: 111.2
+  PosY: -81.7
+  Rot: 90.0
+  Side: top
+  Val: BOOTLOAD
+- '# Ref': X1
+  Package: M3_HOLE
+  PosX: 146.0
+  PosY: -94.0
+  Rot: 0.0
+  Side: top
+  Val: MOUNT
+- '# Ref': X2
+  Package: M3_HOLE
+  PosX: 110.0
+  PosY: -94.0
+  Rot: 0.0
+  Side: top
+  Val: MOUNT
+- '# Ref': X3
+  Package: M3_HOLE
+  PosX: 146.0
+  PosY: -60.0
+  Rot: 0.0
+  Side: top
+  Val: MOUNT
+- '# Ref': X4
+  Package: M3_HOLE
+  PosX: 110.0
+  PosY: -60.0
+  Rot: 0.0
+  Side: top
+  Val: MOUNT
+- '# Ref': Y1
+  Package: XO-32x25
+  PosX: 116.3
+  PosY: -81.6
+  Rot: 0.0
+  Side: top
+  Val: 20M
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 2\xC2\xB52 | 0603 | 117.1 | -85.9\
+  \ | 90.0 | top | \n| C2 | 2\xC2\xB52 | 0603 | 122.7 | -93.8 | 0.0 | top | \n| C3\
+  \ | 2\xC2\xB52 | 0603 | 138.35 | -81.4 | -90.0 | top | \n| C4 | 2\xC2\xB52 | 0603\
+  \ | 144.5 | -78.5 | 90.0 | top | \n| C5 | 2\xC2\xB52 | 0603 | 138.6 | -89.7 | 90.0\
+  \ | top | \n| C6 | 100n | 0402 | 118.6 | -81.7 | 90.0 | top | \n| C7 | 100n | 0402\
+  \ | 118.6 | -86.0 | -90.0 | top | \n| C8 | 100n | 0402 | 122.7 | -92.4 | 180.0 |\
+  \ top | \n| C9 | 100n | 0402 | 136.8 | -92.8 | -90.0 | top | \n| C10 | 100n | 0402\
+  \ | 137.4 | -76.9 | -90.0 | top | \n| C11 | 100n | 0402 | 122.3 | -73.6 | 0.0 |\
+  \ top | \n| C12 | 2\xC2\xB52 | 0603 | 134.6 | -94.0 | 180.0 | top | \n| C13 | 2\xC2\
+  \xB52 | 0603 | 138.8 | -77.4 | -90.0 | top | \n| C14 | 2\xC2\xB52 | 0603 | 133.6\
+  \ | -69.6 | 180.0 | top | \n| C15 | 100n | 0402 | 124.8 | -69.9 | -90.0 | top |\
+  \ \n| C16 | 100n | 0402 | 118.6 | -83.9 | 90.0 | top | \n| C17 | 100n | 0402 | 116.3\
+  \ | -79.1 | 180.0 | top | \n| C18 | 2\xC2\xB52 | 0603 | 132.5 | -61.2 | 90.0 | top\
+  \ | \n| C19 | 2\xC2\xB52 | 0603 | 139.5 | -61.2 | 90.0 | top | \n| C21 | 100n |\
+  \ 0402 | 118.6 | -79.6 | -90.0 | top | \n| C22 | 100n | 0402 | 118.6 | -88.1 | -90.0\
+  \ | top | \n| D1 | 1N4148W | SOD-123 | 128.0 | -70.0 | 0.0 | top | \n| IC1 | XC6206P332MR\
+  \ | SOT-23 | 141.7 | -78.5 | 180.0 | top | \n| IC2 | IRM-H6xxT | IRM-H6XXT | 136.0\
+  \ | -66.0 | 180.0 | top | \n| IC3 | WS2812B | WS2812B | 128.0 | -66.0 | 0.0 | top\
+  \ | \n| IC4 | STM32F411VxTx | LQFP-100 | 128.0 | -83.0 | 0.0 | top | \n| J1 | USB4105\
+  \ | USB4105 | 149.125 | -86.0 | 90.0 | top | \n| J2 | 5V | M2_PTH | 136.0 | -60.0\
+  \ | 0.0 | top | \n| J3 | D | M2_PTH | 128.0 | -60.0 | 0.0 | top | \n| J4 | 0V |\
+  \ M2_PTH | 120.0 | -60.0 | 0.0 | top | \n| P1 | SWD_TC | TC2030-NL | 140.7 | -71.9\
+  \ | 180.0 | top | \n| R1 | 5k1 | 0402 | 139.985 | -90.18 | -90.0 | top | \n| R2\
+  \ | 5k1 | 0402 | 139.985 | -81.88 | 90.0 | top | \n| R3 | 10k | 0402 | 133.1 | -72.2\
+  \ | 0.0 | top | \n| R4 | 100 | 0402 | 133.1 | -71.0 | 180.0 | top | \n| R5 | 0R\
+  \ | 0603 | 134.6 | -92.5 | 0.0 | top | \n| R6 | 10k | 0402 | 115.1 | -86.4 | 90.0\
+  \ | top | \n| SW1 | USER | SW_MOM_6X6 | 118.0 | -66.5 | 0.0 | top | \n| SW2 | BOOTLOAD\
+  \ | SW_MOM_6X6 | 111.2 | -81.7 | 90.0 | top | \n| X1 | MOUNT | M3_HOLE | 146.0 |\
+  \ -94.0 | 0.0 | top | \n| X2 | MOUNT | M3_HOLE | 110.0 | -94.0 | 0.0 | top | \n\
+  | X3 | MOUNT | M3_HOLE | 146.0 | -60.0 | 0.0 | top | \n| X4 | MOUNT | M3_HOLE |\
+  \ 110.0 | -60.0 | 0.0 | top | \n| Y1 | 20M | XO-32x25 | 116.3 | -81.6 | 0.0 | top\
+  \ | \n"
 projects_flat: projects/adamgreig_ledeaf_driver/current_version/working
 repo:
   allow_forking: true

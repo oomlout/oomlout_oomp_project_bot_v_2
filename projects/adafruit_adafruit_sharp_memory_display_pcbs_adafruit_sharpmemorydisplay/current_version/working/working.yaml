@@ -1,9 +1,601 @@
 board: adafruit_sharpmemorydisplay
+bom:
+- Id: '1'
+  Designator: FID2,FID1,FID3
+  Footprint: FIDUCIAL_1MM
+  Quantity: '3'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$21,U$22
+  Footprint: MOUNTINGHOLE_2.5_PLATED_THICK
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.5_THICK
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: FB1,FB2
+  Footprint: _0805
+  Quantity: '2'
+  Designation: FERRITE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: IC2
+  Footprint: SOT23-6
+  Quantity: '1'
+  Designation: AP3602
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$28,U$27
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C3
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: "1\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: IC1
+  Footprint: SHARP_2.7IN
+  Quantity: '1'
+  Designation: LS013B4DN04
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R3,R1,R2
+  Footprint: 0603-NO
+  Quantity: '3'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: C1
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: "0.1\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: C6,C7
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: C2
+  Footprint: 0805_10MGAP
+  Quantity: '1'
+  Designation: "1\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U2
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: AP2112K-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U$32
+  Footprint: ADAFRUIT_TEXT_20MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: C4,C5
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: "10\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: C8
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: JP1
+  Footprint: 1X09_ROUND_70
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: U$29
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: U1
+  Footprint: SOIC16
+  Quantity: '1'
+  Designation: 74HC4050D
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | FID2,FID1,FID3\
+  \ | FIDUCIAL_1MM | 3 | FIDUCIAL_1MM |  |  | [''] | \n| 2 | U$21,U$22 | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | 2 | MOUNTINGHOLE2.5_THICK |  |  | [''] | \n| 3 | FB1,FB2 | _0805 | 2 | FERRITE\
+  \ |  |  | [''] | \n| 4 | IC2 | SOT23-6 | 1 | AP3602 |  |  | [''] | \n| 5 | U$28,U$27\
+  \ | MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5 |  |  | [''] | \n| 6 | C3 | 0805-NO\
+  \ | 1 | 1\xC2\xB5F |  |  | [''] | \n| 7 | IC1 | SHARP_2.7IN | 1 | LS013B4DN04 |\
+  \  |  | [''] | \n| 8 | R3,R1,R2 | 0603-NO | 3 | 10K |  |  | [''] | \n| 9 | C1 |\
+  \ 0603-NO | 1 | 0.1\xC2\xB5F |  |  | [''] | \n| 10 | C6,C7 | 0805-NO | 2 | 10uF\
+  \ |  |  | [''] | \n| 11 | C2 | 0805_10MGAP | 1 | 1\xC2\xB5F |  |  | [''] | \n| 12\
+  \ | U2 | SOT23-5 | 1 | AP2112K-3.3 |  |  | [''] | \n| 13 | U$32 | ADAFRUIT_TEXT_20MM\
+  \ | 1 |  |  |  | [''] | \n| 14 | C4,C5 | 0805-NO | 2 | 10\xC2\xB5F |  |  | ['']\
+  \ | \n| 15 | C8 | 0805-NO | 1 | 1uF |  |  | [''] | \n| 16 | JP1 | 1X09_ROUND_70\
+  \ | 1 |  |  |  | [''] | \n| 17 | U$29 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n\
+  | 18 | U1 | SOIC16 | 1 | 74HC4050D |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: C1
+  Value: "0.1\xC2\xB5F"
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805_10MGAP
+  DNP: ''
+  Description: ''
+  Footprint: working:0805_10MGAP
+  Qnty: '1'
+  Ref: C2
+  Value: "1\xC2\xB5F"
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C3
+  Value: "1\xC2\xB5F"
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C4, C5
+  Value: "10\xC2\xB5F"
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C6, C7
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C8
+  Value: 1uF
+  Vendor: ''
+- Cmp name: FERRITE_0805
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805
+  Qnty: '2'
+  Ref: FB1, FB2
+  Value: FERRITE
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '3'
+  Ref: FID1, FID2, FID3
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: DISP_EINK_SHARPMEMORYLCD_10PIN_27IN
+  DNP: ''
+  Description: ''
+  Footprint: working:SHARP_2.7IN
+  Qnty: '1'
+  Ref: IC1
+  Value: LS013B4DN04
+  Vendor: ''
+- Cmp name: AP3602
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-6
+  Qnty: '1'
+  Ref: IC2
+  Value: AP3602
+  Vendor: ''
+- Cmp name: HEADER-1X970MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X09_ROUND_70
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X970MIL
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '3'
+  Ref: R1, R2, R3
+  Value: 10K
+  Vendor: ''
+- Cmp name: 74HC4050D
+  DNP: ''
+  Description: ''
+  Footprint: working:SOIC16
+  Qnty: '1'
+  Ref: U1
+  Value: 74HC4050D
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U2
+  Value: AP2112K-3.3
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5_THICK
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED_THICK
+  Qnty: '2'
+  Ref: U$21, U$22
+  Value: MOUNTINGHOLE2.5_THICK
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '2'
+  Ref: U$27, U$28
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 0.1\xC2\xB5F | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| C2 | 1\
+  \ | 1\xC2\xB5F | CAP_CERAMIC0805_10MGAP | working:0805_10MGAP |  |  |  | \n| C3\
+  \ | 1 | 1\xC2\xB5F | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n|\
+  \ C4, C5 | 2 | 10\xC2\xB5F | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |\
+  \  | \n| C6, C7 | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |\
+  \  | \n| C8 | 1 | 1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n\
+  | FB1, FB2 | 2 | FERRITE | FERRITE_0805 | working:_0805 |  |  |  | \n| FID1, FID2,\
+  \ FID3 | 3 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| IC1\
+  \ | 1 | LS013B4DN04 | DISP_EINK_SHARPMEMORYLCD_10PIN_27IN | working:SHARP_2.7IN\
+  \ |  |  |  | \n| IC2 | 1 | AP3602 | AP3602 | working:SOT23-6 |  |  |  | \n| JP1\
+  \ | 1 | HEADER-1X970MIL | HEADER-1X970MIL | working:1X09_ROUND_70 |  |  |  | \n\
+  | R1, R2, R3 | 3 | 10K | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n| U1\
+  \ | 1 | 74HC4050D | 74HC4050D | working:SOIC16 |  |  |  | \n| U2 | 1 | AP2112K-3.3\
+  \ | VREG_SOT23-5 | working:SOT23-5 |  |  |  | \n| U$21, U$22 | 2 | MOUNTINGHOLE2.5_THICK\
+  \ | MOUNTINGHOLE2.5_THICK | working:MOUNTINGHOLE_2.5_PLATED_THICK |  |  |  | \n\
+  | U$27, U$28 | 2 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_sharp_memory_display_pcbs_adafruit_sharpmemorydisplay/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_sharp_memory_display_pcbs_adafruit_sharpmemorydisplay/current_version/working/working.sch
 id: adafruit_adafruit_sharp_memory_display_pcbs_adafruit_sharpmemorydisplay
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED_THICK
+  ref: U$21
+  size: m3
+  value: MOUNTINGHOLE2.5_THICK
+  x: '58.41999999999999'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED_THICK
+  ref: U$22
+  size: m3
+  value: MOUNTINGHOLE2.5_THICK
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$27
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '58.41999999999999'
+  y: '50.80000000000001'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$28
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '50.80000000000001'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 58.41999999999999 | 0.0 | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | MOUNTINGHOLE2.5_THICK | U$21 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | MOUNTINGHOLE2.5_THICK | U$22 | m3 | \n| 58.41999999999999 | 50.80000000000001\
+  \ | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$27 | m3 | \n| 0.0 | 50.80000000000001\
+  \ | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$28 | m3 | \n"
 name: adafruit_sharp_memory_display_pcbs
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: 0603-NO
+  PosX: 146.9481
+  PosY: -111.6076
+  Rot: 90.0
+  Side: top
+  Val: "0.1\xC2\xB5F"
+- '# Ref': C2
+  Package: 0805_10MGAP
+  PosX: 150.4061
+  PosY: -114.7536
+  Rot: 0.0
+  Side: top
+  Val: "1\xC2\xB5F"
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 150.6311
+  PosY: -111.6076
+  Rot: 90.0
+  Side: top
+  Val: "1\xC2\xB5F"
+- '# Ref': C4
+  Package: 0805-NO
+  PosX: 157.7451
+  PosY: -92.1096
+  Rot: 180.0
+  Side: top
+  Val: "10\xC2\xB5F"
+- '# Ref': C5
+  Package: 0805-NO
+  PosX: 157.6631
+  PosY: -99.2686
+  Rot: 180.0
+  Side: top
+  Val: "10\xC2\xB5F"
+- '# Ref': C6
+  Package: 0805-NO
+  PosX: 162.2171
+  PosY: -99.2886
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C7
+  Package: 0805-NO
+  PosX: 165.2651
+  PosY: -98.2726
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C8
+  Package: 0805-NO
+  PosX: 162.4711
+  PosY: -92.0496
+  Rot: 180.0
+  Side: top
+  Val: 1uF
+- '# Ref': FB1
+  Package: _0805
+  PosX: 148.7261
+  PosY: -111.6076
+  Rot: -90.0
+  Side: top
+  Val: FERRITE
+- '# Ref': FB2
+  Package: _0805
+  PosX: 152.6631
+  PosY: -111.6076
+  Rot: -90.0
+  Side: top
+  Val: FERRITE
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 119.6931
+  PosY: -85.2656
+  Rot: 180.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 177.8671
+  PosY: -123.4696
+  Rot: 180.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 177.8381
+  PosY: -84.1756
+  Rot: 180.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': IC1
+  Package: SHARP_2.7IN
+  PosX: 148.5011
+  PosY: -120.7516
+  Rot: 0.0
+  Side: top
+  Val: LS013B4DN04
+- '# Ref': IC2
+  Package: SOT23-6
+  PosX: 162.4711
+  PosY: -95.7326
+  Rot: 0.0
+  Side: top
+  Val: AP3602
+- '# Ref': JP1
+  Package: 1X09_ROUND_70
+  PosX: 148.5011
+  PosY: -79.6036
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 146.4401
+  PosY: -100.6856
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: 0603-NO
+  PosX: 143.9581
+  PosY: -100.6856
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: 0603-NO
+  PosX: 150.1811
+  PosY: -100.5586
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': U$21
+  Package: MOUNTINGHOLE_2.5_PLATED_THICK
+  PosX: 177.7111
+  PosY: -130.4036
+  Rot: 90.0
+  Side: top
+  Val: MOUNTINGHOLE2.5_THICK
+- '# Ref': U$22
+  Package: MOUNTINGHOLE_2.5_PLATED_THICK
+  PosX: 119.2911
+  PosY: -130.4036
+  Rot: -90.0
+  Side: top
+  Val: MOUNTINGHOLE2.5_THICK
+- '# Ref': U$27
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 177.7111
+  PosY: -79.6036
+  Rot: -90.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$28
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 119.2911
+  PosY: -79.6036
+  Rot: 90.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$29
+  Package: PCBFEAT-REV-040
+  PosX: 148.7551
+  PosY: -105.8926
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$32
+  Package: ADAFRUIT_TEXT_20MM
+  PosX: 119.0371
+  PosY: -103.3526
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U1
+  Package: SOIC16
+  PosX: 148.3451
+  PosY: -94.5896
+  Rot: 180.0
+  Side: top
+  Val: 74HC4050D
+- '# Ref': U2
+  Package: SOT23-5
+  PosX: 157.7051
+  PosY: -95.7596
+  Rot: 180.0
+  Side: top
+  Val: AP2112K-3.3
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1\xC2\xB5F | 0603-NO | 146.9481\
+  \ | -111.6076 | 90.0 | top | \n| C2 | 1\xC2\xB5F | 0805_10MGAP | 150.4061 | -114.7536\
+  \ | 0.0 | top | \n| C3 | 1\xC2\xB5F | 0805-NO | 150.6311 | -111.6076 | 90.0 | top\
+  \ | \n| C4 | 10\xC2\xB5F | 0805-NO | 157.7451 | -92.1096 | 180.0 | top | \n| C5\
+  \ | 10\xC2\xB5F | 0805-NO | 157.6631 | -99.2686 | 180.0 | top | \n| C6 | 10uF |\
+  \ 0805-NO | 162.2171 | -99.2886 | 0.0 | top | \n| C7 | 10uF | 0805-NO | 165.2651\
+  \ | -98.2726 | -90.0 | top | \n| C8 | 1uF | 0805-NO | 162.4711 | -92.0496 | 180.0\
+  \ | top | \n| FB1 | FERRITE | _0805 | 148.7261 | -111.6076 | -90.0 | top | \n| FB2\
+  \ | FERRITE | _0805 | 152.6631 | -111.6076 | -90.0 | top | \n| FID1 | FIDUCIAL_1MM\
+  \ | FIDUCIAL_1MM | 119.6931 | -85.2656 | 180.0 | top | \n| FID2 | FIDUCIAL_1MM |\
+  \ FIDUCIAL_1MM | 177.8671 | -123.4696 | 180.0 | top | \n| FID3 | FIDUCIAL_1MM |\
+  \ FIDUCIAL_1MM | 177.8381 | -84.1756 | 180.0 | top | \n| IC1 | LS013B4DN04 | SHARP_2.7IN\
+  \ | 148.5011 | -120.7516 | 0.0 | top | \n| IC2 | AP3602 | SOT23-6 | 162.4711 | -95.7326\
+  \ | 0.0 | top | \n| JP1 | nan | 1X09_ROUND_70 | 148.5011 | -79.6036 | 180.0 | top\
+  \ | \n| R1 | 10K | 0603-NO | 146.4401 | -100.6856 | 90.0 | top | \n| R2 | 10K |\
+  \ 0603-NO | 143.9581 | -100.6856 | -90.0 | top | \n| R3 | 10K | 0603-NO | 150.1811\
+  \ | -100.5586 | 90.0 | top | \n| U$21 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | 177.7111 | -130.4036 | 90.0 | top | \n| U$22 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | 119.2911 | -130.4036 | -90.0 | top | \n| U$27 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 177.7111 | -79.6036 | -90.0 | top | \n| U$28 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 119.2911 | -79.6036 | 90.0 | top | \n| U$29 | nan | PCBFEAT-REV-040 | 148.7551\
+  \ | -105.8926 | 0.0 | top | \n| U$32 | nan | ADAFRUIT_TEXT_20MM | 119.0371 | -103.3526\
+  \ | 0.0 | top | \n| U1 | 74HC4050D | SOIC16 | 148.3451 | -94.5896 | 180.0 | top\
+  \ | \n| U2 | AP2112K-3.3 | SOT23-5 | 157.7051 | -95.7596 | 180.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_sharp_memory_display_pcbs_adafruit_sharpmemorydisplay/current_version/working
 repo:
   allow_forking: true

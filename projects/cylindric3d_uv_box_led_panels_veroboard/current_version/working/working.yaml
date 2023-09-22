@@ -1,4 +1,40 @@
 board: led_panels_veroboard
+bom:
+- Id: '1'
+  Designator: D2,D20,D18,D16,D14,D12,D10,D8,D6,D4,D1,D21,D19,D17,D15,D13,D11,D9,D7,D5,D3,D60,D78,D70,D75,D56,D74,D73,D55,D57,D59,D82,D31,D77,D76,D81,D80,D79,D84,D83,D71,D66,D65,D64,D69,D68,D67,D72,D22,D39,D38,D37,D42,D41,D40,D24,D23,D34,D27,D26,D25,D30,D29,D28,D33,D32,D46,D63,D62,D61,D45,D44,D43,D48,D47,D58,D51,D50,D49,D54,D53,D52,D36,D35
+  Footprint: LED-5MM
+  Quantity: '84'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R1,R2,R3,R4,R5,R6,R7,R19,R18,R24,R12,R17,R23,R25,R13,R22,R14,R16,R8,R28,R15,R11,R9,R27,R10,R20,R21,R26
+  Footprint: R3
+  Quantity: '28'
+  Designation: '120'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: P1
+  Footprint: bornier2
+  Quantity: '1'
+  Designation: CONN_2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D2,D20,D18,D16,D14,D12,D10,D8,D6,D4,D1,D21,D19,D17,D15,D13,D11,D9,D7,D5,D3,D60,D78,D70,D75,D56,D74,D73,D55,D57,D59,D82,D31,D77,D76,D81,D80,D79,D84,D83,D71,D66,D65,D64,D69,D68,D67,D72,D22,D39,D38,D37,D42,D41,D40,D24,D23,D34,D27,D26,D25,D30,D29,D28,D33,D32,D46,D63,D62,D61,D45,D44,D43,D48,D47,D58,D51,D50,D49,D54,D53,D52,D36,D35\
+  \ | LED-5MM | 84 | LED |  |  | [''] | \n| 2 | R1,R2,R3,R4,R5,R6,R7,R19,R18,R24,R12,R17,R23,R25,R13,R22,R14,R16,R8,R28,R15,R11,R9,R27,R10,R20,R21,R26\
+  \ | R3 | 28 | 120 |  |  | [''] | \n| 3 | P1 | bornier2 | 1 | CONN_2 |  |  | ['']\
+  \ | \n"
 counter: 1
 file_kicad_pcb_flat: projects/cylindric3d_uv_box_led_panels_veroboard/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/cylindric3d_uv_box_led_panels/current_version/working/working.kicad_pcb
@@ -6,6 +42,881 @@ file_repo_bom_csv_flat: projects/cylindric3d_uv_box_led_panels_veroboard/current
 file_sch_flat: projects/cylindric3d_uv_box_led_panels/current_version/working/working.sch
 id: cylindric3d_uv_box_led_panels_veroboard
 name: uv_box
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': D1
+  Package: LED-5MM
+  PosX: 38.1
+  PosY: -181.61
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D2
+  Package: LED-5MM
+  PosX: 50.8
+  PosY: -181.61
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D3
+  Package: LED-5MM
+  PosX: 63.5
+  PosY: -181.61
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D4
+  Package: LED-5MM
+  PosX: 38.1
+  PosY: -168.91
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D5
+  Package: LED-5MM
+  PosX: 50.8
+  PosY: -168.91
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D6
+  Package: LED-5MM
+  PosX: 63.5
+  PosY: -168.91
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D7
+  Package: LED-5MM
+  PosX: 38.1
+  PosY: -156.21
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D8
+  Package: LED-5MM
+  PosX: 50.8
+  PosY: -156.21
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D9
+  Package: LED-5MM
+  PosX: 63.5
+  PosY: -156.21
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D10
+  Package: LED-5MM
+  PosX: 38.1
+  PosY: -143.51
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D11
+  Package: LED-5MM
+  PosX: 50.8
+  PosY: -143.51
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D12
+  Package: LED-5MM
+  PosX: 63.5
+  PosY: -143.51
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D13
+  Package: LED-5MM
+  PosX: 38.1
+  PosY: -130.81
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D14
+  Package: LED-5MM
+  PosX: 50.8
+  PosY: -130.81
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D15
+  Package: LED-5MM
+  PosX: 63.5
+  PosY: -130.81
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D16
+  Package: LED-5MM
+  PosX: 38.1
+  PosY: -118.11
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D17
+  Package: LED-5MM
+  PosX: 50.8
+  PosY: -118.11
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D18
+  Package: LED-5MM
+  PosX: 63.5
+  PosY: -118.11
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D19
+  Package: LED-5MM
+  PosX: 38.1
+  PosY: -105.41
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D20
+  Package: LED-5MM
+  PosX: 50.8
+  PosY: -105.41
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D21
+  Package: LED-5MM
+  PosX: 63.5
+  PosY: -105.41
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D22
+  Package: LED-5MM
+  PosX: 76.2
+  PosY: -181.61
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D23
+  Package: LED-5MM
+  PosX: 88.9
+  PosY: -181.61
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D24
+  Package: LED-5MM
+  PosX: 101.6
+  PosY: -181.61
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D25
+  Package: LED-5MM
+  PosX: 76.2
+  PosY: -168.91
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D26
+  Package: LED-5MM
+  PosX: 88.9
+  PosY: -168.91
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D27
+  Package: LED-5MM
+  PosX: 101.6
+  PosY: -168.91
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D28
+  Package: LED-5MM
+  PosX: 76.2
+  PosY: -156.21
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D29
+  Package: LED-5MM
+  PosX: 88.9
+  PosY: -156.21
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D30
+  Package: LED-5MM
+  PosX: 101.6
+  PosY: -156.21
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D31
+  Package: LED-5MM
+  PosX: 76.2
+  PosY: -143.51
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D32
+  Package: LED-5MM
+  PosX: 88.9
+  PosY: -143.51
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D33
+  Package: LED-5MM
+  PosX: 101.6
+  PosY: -143.51
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D34
+  Package: LED-5MM
+  PosX: 76.2
+  PosY: -130.81
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D35
+  Package: LED-5MM
+  PosX: 88.9
+  PosY: -130.81
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D36
+  Package: LED-5MM
+  PosX: 101.6
+  PosY: -130.81
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D37
+  Package: LED-5MM
+  PosX: 76.2
+  PosY: -118.11
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D38
+  Package: LED-5MM
+  PosX: 88.9
+  PosY: -118.11
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D39
+  Package: LED-5MM
+  PosX: 101.6
+  PosY: -118.11
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D40
+  Package: LED-5MM
+  PosX: 76.2
+  PosY: -105.41
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D41
+  Package: LED-5MM
+  PosX: 88.9
+  PosY: -105.41
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D42
+  Package: LED-5MM
+  PosX: 101.6
+  PosY: -105.41
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D43
+  Package: LED-5MM
+  PosX: 114.3
+  PosY: -181.61
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D44
+  Package: LED-5MM
+  PosX: 127.0
+  PosY: -181.61
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D45
+  Package: LED-5MM
+  PosX: 139.7
+  PosY: -181.61
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D46
+  Package: LED-5MM
+  PosX: 114.3
+  PosY: -168.91
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D47
+  Package: LED-5MM
+  PosX: 127.0
+  PosY: -168.91
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D48
+  Package: LED-5MM
+  PosX: 139.7
+  PosY: -168.91
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D49
+  Package: LED-5MM
+  PosX: 114.3
+  PosY: -156.21
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D50
+  Package: LED-5MM
+  PosX: 127.0
+  PosY: -156.21
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D51
+  Package: LED-5MM
+  PosX: 139.7
+  PosY: -156.21
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D52
+  Package: LED-5MM
+  PosX: 114.3
+  PosY: -143.51
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D53
+  Package: LED-5MM
+  PosX: 127.0
+  PosY: -143.51
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D54
+  Package: LED-5MM
+  PosX: 139.7
+  PosY: -143.51
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D55
+  Package: LED-5MM
+  PosX: 114.3
+  PosY: -130.81
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D56
+  Package: LED-5MM
+  PosX: 127.0
+  PosY: -130.81
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D57
+  Package: LED-5MM
+  PosX: 139.7
+  PosY: -130.81
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D58
+  Package: LED-5MM
+  PosX: 114.3
+  PosY: -118.11
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D59
+  Package: LED-5MM
+  PosX: 127.0
+  PosY: -118.11
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D60
+  Package: LED-5MM
+  PosX: 139.7
+  PosY: -118.11
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D61
+  Package: LED-5MM
+  PosX: 114.3
+  PosY: -105.41
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D62
+  Package: LED-5MM
+  PosX: 127.0
+  PosY: -105.41
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D63
+  Package: LED-5MM
+  PosX: 139.7
+  PosY: -105.41
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D64
+  Package: LED-5MM
+  PosX: 152.4
+  PosY: -181.61
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D65
+  Package: LED-5MM
+  PosX: 165.1
+  PosY: -181.61
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D66
+  Package: LED-5MM
+  PosX: 177.8
+  PosY: -181.61
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D67
+  Package: LED-5MM
+  PosX: 152.4
+  PosY: -168.91
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D68
+  Package: LED-5MM
+  PosX: 165.1
+  PosY: -168.91
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D69
+  Package: LED-5MM
+  PosX: 177.8
+  PosY: -168.91
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D70
+  Package: LED-5MM
+  PosX: 152.4
+  PosY: -156.21
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D71
+  Package: LED-5MM
+  PosX: 165.1
+  PosY: -156.21
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D72
+  Package: LED-5MM
+  PosX: 177.8
+  PosY: -156.21
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D73
+  Package: LED-5MM
+  PosX: 152.4
+  PosY: -143.51
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D74
+  Package: LED-5MM
+  PosX: 165.1
+  PosY: -143.51
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D75
+  Package: LED-5MM
+  PosX: 177.8
+  PosY: -143.51
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D76
+  Package: LED-5MM
+  PosX: 152.4
+  PosY: -130.81
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D77
+  Package: LED-5MM
+  PosX: 165.1
+  PosY: -130.81
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D78
+  Package: LED-5MM
+  PosX: 177.8
+  PosY: -130.81
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D79
+  Package: LED-5MM
+  PosX: 152.4
+  PosY: -118.11
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D80
+  Package: LED-5MM
+  PosX: 165.1
+  PosY: -118.11
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D81
+  Package: LED-5MM
+  PosX: 177.8
+  PosY: -118.11
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D82
+  Package: LED-5MM
+  PosX: 152.4
+  PosY: -105.41
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': D83
+  Package: LED-5MM
+  PosX: 165.1
+  PosY: -105.41
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D84
+  Package: LED-5MM
+  PosX: 177.8
+  PosY: -105.41
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': P1
+  Package: bornier2
+  PosX: 26.67
+  PosY: -177.8
+  Rot: -90.0
+  Side: top
+  Val: CONN_2
+- '# Ref': R1
+  Package: R3
+  PosX: 68.58
+  PosY: -179.07
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R2
+  Package: R3
+  PosX: 68.58
+  PosY: -166.37
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R3
+  Package: R3
+  PosX: 68.58
+  PosY: -153.67
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R4
+  Package: R3
+  PosX: 68.58
+  PosY: -140.97
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R5
+  Package: R3
+  PosX: 68.58
+  PosY: -128.27
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R6
+  Package: R3
+  PosX: 68.58
+  PosY: -115.57
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R7
+  Package: R3
+  PosX: 68.58
+  PosY: -102.87
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R8
+  Package: R3
+  PosX: 106.68
+  PosY: -179.07
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R9
+  Package: R3
+  PosX: 106.68
+  PosY: -166.37
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R10
+  Package: R3
+  PosX: 106.68
+  PosY: -153.67
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R11
+  Package: R3
+  PosX: 106.68
+  PosY: -140.97
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R12
+  Package: R3
+  PosX: 106.68
+  PosY: -128.27
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R13
+  Package: R3
+  PosX: 106.68
+  PosY: -115.57
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R14
+  Package: R3
+  PosX: 106.68
+  PosY: -102.87
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R15
+  Package: R3
+  PosX: 144.78
+  PosY: -179.07
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R16
+  Package: R3
+  PosX: 144.78
+  PosY: -166.37
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R17
+  Package: R3
+  PosX: 144.78
+  PosY: -153.67
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R18
+  Package: R3
+  PosX: 144.78
+  PosY: -140.97
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R19
+  Package: R3
+  PosX: 144.78
+  PosY: -128.27
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R20
+  Package: R3
+  PosX: 144.78
+  PosY: -115.57
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R21
+  Package: R3
+  PosX: 144.78
+  PosY: -102.87
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R22
+  Package: R3
+  PosX: 182.88
+  PosY: -179.07
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R23
+  Package: R3
+  PosX: 182.88
+  PosY: -166.37
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R24
+  Package: R3
+  PosX: 182.88
+  PosY: -153.67
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R25
+  Package: R3
+  PosX: 182.88
+  PosY: -140.97
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R26
+  Package: R3
+  PosX: 182.88
+  PosY: -128.27
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R27
+  Package: R3
+  PosX: 182.88
+  PosY: -115.57
+  Rot: 90.0
+  Side: top
+  Val: '120'
+- '# Ref': R28
+  Package: R3
+  PosX: 182.88
+  PosY: -102.87
+  Rot: 90.0
+  Side: top
+  Val: '120'
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| D1 | LED | LED-5MM | 38.1 | -181.61\
+  \ | -90.0 | top | \n| D2 | LED | LED-5MM | 50.8 | -181.61 | 90.0 | top | \n| D3\
+  \ | LED | LED-5MM | 63.5 | -181.61 | -90.0 | top | \n| D4 | LED | LED-5MM | 38.1\
+  \ | -168.91 | -90.0 | top | \n| D5 | LED | LED-5MM | 50.8 | -168.91 | 90.0 | top\
+  \ | \n| D6 | LED | LED-5MM | 63.5 | -168.91 | -90.0 | top | \n| D7 | LED | LED-5MM\
+  \ | 38.1 | -156.21 | -90.0 | top | \n| D8 | LED | LED-5MM | 50.8 | -156.21 | 90.0\
+  \ | top | \n| D9 | LED | LED-5MM | 63.5 | -156.21 | -90.0 | top | \n| D10 | LED\
+  \ | LED-5MM | 38.1 | -143.51 | -90.0 | top | \n| D11 | LED | LED-5MM | 50.8 | -143.51\
+  \ | 90.0 | top | \n| D12 | LED | LED-5MM | 63.5 | -143.51 | -90.0 | top | \n| D13\
+  \ | LED | LED-5MM | 38.1 | -130.81 | -90.0 | top | \n| D14 | LED | LED-5MM | 50.8\
+  \ | -130.81 | 90.0 | top | \n| D15 | LED | LED-5MM | 63.5 | -130.81 | -90.0 | top\
+  \ | \n| D16 | LED | LED-5MM | 38.1 | -118.11 | -90.0 | top | \n| D17 | LED | LED-5MM\
+  \ | 50.8 | -118.11 | 90.0 | top | \n| D18 | LED | LED-5MM | 63.5 | -118.11 | -90.0\
+  \ | top | \n| D19 | LED | LED-5MM | 38.1 | -105.41 | -90.0 | top | \n| D20 | LED\
+  \ | LED-5MM | 50.8 | -105.41 | 90.0 | top | \n| D21 | LED | LED-5MM | 63.5 | -105.41\
+  \ | -90.0 | top | \n| D22 | LED | LED-5MM | 76.2 | -181.61 | -90.0 | top | \n| D23\
+  \ | LED | LED-5MM | 88.9 | -181.61 | 90.0 | top | \n| D24 | LED | LED-5MM | 101.6\
+  \ | -181.61 | -90.0 | top | \n| D25 | LED | LED-5MM | 76.2 | -168.91 | -90.0 | top\
+  \ | \n| D26 | LED | LED-5MM | 88.9 | -168.91 | 90.0 | top | \n| D27 | LED | LED-5MM\
+  \ | 101.6 | -168.91 | -90.0 | top | \n| D28 | LED | LED-5MM | 76.2 | -156.21 | -90.0\
+  \ | top | \n| D29 | LED | LED-5MM | 88.9 | -156.21 | 90.0 | top | \n| D30 | LED\
+  \ | LED-5MM | 101.6 | -156.21 | -90.0 | top | \n| D31 | LED | LED-5MM | 76.2 | -143.51\
+  \ | -90.0 | top | \n| D32 | LED | LED-5MM | 88.9 | -143.51 | 90.0 | top | \n| D33\
+  \ | LED | LED-5MM | 101.6 | -143.51 | -90.0 | top | \n| D34 | LED | LED-5MM | 76.2\
+  \ | -130.81 | -90.0 | top | \n| D35 | LED | LED-5MM | 88.9 | -130.81 | 90.0 | top\
+  \ | \n| D36 | LED | LED-5MM | 101.6 | -130.81 | -90.0 | top | \n| D37 | LED | LED-5MM\
+  \ | 76.2 | -118.11 | -90.0 | top | \n| D38 | LED | LED-5MM | 88.9 | -118.11 | 90.0\
+  \ | top | \n| D39 | LED | LED-5MM | 101.6 | -118.11 | -90.0 | top | \n| D40 | LED\
+  \ | LED-5MM | 76.2 | -105.41 | -90.0 | top | \n| D41 | LED | LED-5MM | 88.9 | -105.41\
+  \ | 90.0 | top | \n| D42 | LED | LED-5MM | 101.6 | -105.41 | -90.0 | top | \n| D43\
+  \ | LED | LED-5MM | 114.3 | -181.61 | -90.0 | top | \n| D44 | LED | LED-5MM | 127.0\
+  \ | -181.61 | 90.0 | top | \n| D45 | LED | LED-5MM | 139.7 | -181.61 | -90.0 | top\
+  \ | \n| D46 | LED | LED-5MM | 114.3 | -168.91 | -90.0 | top | \n| D47 | LED | LED-5MM\
+  \ | 127.0 | -168.91 | 90.0 | top | \n| D48 | LED | LED-5MM | 139.7 | -168.91 | -90.0\
+  \ | top | \n| D49 | LED | LED-5MM | 114.3 | -156.21 | -90.0 | top | \n| D50 | LED\
+  \ | LED-5MM | 127.0 | -156.21 | 90.0 | top | \n| D51 | LED | LED-5MM | 139.7 | -156.21\
+  \ | -90.0 | top | \n| D52 | LED | LED-5MM | 114.3 | -143.51 | -90.0 | top | \n|\
+  \ D53 | LED | LED-5MM | 127.0 | -143.51 | 90.0 | top | \n| D54 | LED | LED-5MM |\
+  \ 139.7 | -143.51 | -90.0 | top | \n| D55 | LED | LED-5MM | 114.3 | -130.81 | -90.0\
+  \ | top | \n| D56 | LED | LED-5MM | 127.0 | -130.81 | 90.0 | top | \n| D57 | LED\
+  \ | LED-5MM | 139.7 | -130.81 | -90.0 | top | \n| D58 | LED | LED-5MM | 114.3 |\
+  \ -118.11 | -90.0 | top | \n| D59 | LED | LED-5MM | 127.0 | -118.11 | 90.0 | top\
+  \ | \n| D60 | LED | LED-5MM | 139.7 | -118.11 | -90.0 | top | \n| D61 | LED | LED-5MM\
+  \ | 114.3 | -105.41 | -90.0 | top | \n| D62 | LED | LED-5MM | 127.0 | -105.41 |\
+  \ 90.0 | top | \n| D63 | LED | LED-5MM | 139.7 | -105.41 | -90.0 | top | \n| D64\
+  \ | LED | LED-5MM | 152.4 | -181.61 | -90.0 | top | \n| D65 | LED | LED-5MM | 165.1\
+  \ | -181.61 | 90.0 | top | \n| D66 | LED | LED-5MM | 177.8 | -181.61 | -90.0 | top\
+  \ | \n| D67 | LED | LED-5MM | 152.4 | -168.91 | -90.0 | top | \n| D68 | LED | LED-5MM\
+  \ | 165.1 | -168.91 | 90.0 | top | \n| D69 | LED | LED-5MM | 177.8 | -168.91 | -90.0\
+  \ | top | \n| D70 | LED | LED-5MM | 152.4 | -156.21 | -90.0 | top | \n| D71 | LED\
+  \ | LED-5MM | 165.1 | -156.21 | 90.0 | top | \n| D72 | LED | LED-5MM | 177.8 | -156.21\
+  \ | -90.0 | top | \n| D73 | LED | LED-5MM | 152.4 | -143.51 | -90.0 | top | \n|\
+  \ D74 | LED | LED-5MM | 165.1 | -143.51 | 90.0 | top | \n| D75 | LED | LED-5MM |\
+  \ 177.8 | -143.51 | -90.0 | top | \n| D76 | LED | LED-5MM | 152.4 | -130.81 | -90.0\
+  \ | top | \n| D77 | LED | LED-5MM | 165.1 | -130.81 | 90.0 | top | \n| D78 | LED\
+  \ | LED-5MM | 177.8 | -130.81 | -90.0 | top | \n| D79 | LED | LED-5MM | 152.4 |\
+  \ -118.11 | -90.0 | top | \n| D80 | LED | LED-5MM | 165.1 | -118.11 | 90.0 | top\
+  \ | \n| D81 | LED | LED-5MM | 177.8 | -118.11 | -90.0 | top | \n| D82 | LED | LED-5MM\
+  \ | 152.4 | -105.41 | -90.0 | top | \n| D83 | LED | LED-5MM | 165.1 | -105.41 |\
+  \ 90.0 | top | \n| D84 | LED | LED-5MM | 177.8 | -105.41 | -90.0 | top | \n| P1\
+  \ | CONN_2 | bornier2 | 26.67 | -177.8 | -90.0 | top | \n| R1 | 120 | R3 | 68.58\
+  \ | -179.07 | 90.0 | top | \n| R2 | 120 | R3 | 68.58 | -166.37 | 90.0 | top | \n\
+  | R3 | 120 | R3 | 68.58 | -153.67 | 90.0 | top | \n| R4 | 120 | R3 | 68.58 | -140.97\
+  \ | 90.0 | top | \n| R5 | 120 | R3 | 68.58 | -128.27 | 90.0 | top | \n| R6 | 120\
+  \ | R3 | 68.58 | -115.57 | 90.0 | top | \n| R7 | 120 | R3 | 68.58 | -102.87 | 90.0\
+  \ | top | \n| R8 | 120 | R3 | 106.68 | -179.07 | 90.0 | top | \n| R9 | 120 | R3\
+  \ | 106.68 | -166.37 | 90.0 | top | \n| R10 | 120 | R3 | 106.68 | -153.67 | 90.0\
+  \ | top | \n| R11 | 120 | R3 | 106.68 | -140.97 | 90.0 | top | \n| R12 | 120 | R3\
+  \ | 106.68 | -128.27 | 90.0 | top | \n| R13 | 120 | R3 | 106.68 | -115.57 | 90.0\
+  \ | top | \n| R14 | 120 | R3 | 106.68 | -102.87 | 90.0 | top | \n| R15 | 120 | R3\
+  \ | 144.78 | -179.07 | 90.0 | top | \n| R16 | 120 | R3 | 144.78 | -166.37 | 90.0\
+  \ | top | \n| R17 | 120 | R3 | 144.78 | -153.67 | 90.0 | top | \n| R18 | 120 | R3\
+  \ | 144.78 | -140.97 | 90.0 | top | \n| R19 | 120 | R3 | 144.78 | -128.27 | 90.0\
+  \ | top | \n| R20 | 120 | R3 | 144.78 | -115.57 | 90.0 | top | \n| R21 | 120 | R3\
+  \ | 144.78 | -102.87 | 90.0 | top | \n| R22 | 120 | R3 | 182.88 | -179.07 | 90.0\
+  \ | top | \n| R23 | 120 | R3 | 182.88 | -166.37 | 90.0 | top | \n| R24 | 120 | R3\
+  \ | 182.88 | -153.67 | 90.0 | top | \n| R25 | 120 | R3 | 182.88 | -140.97 | 90.0\
+  \ | top | \n| R26 | 120 | R3 | 182.88 | -128.27 | 90.0 | top | \n| R27 | 120 | R3\
+  \ | 182.88 | -115.57 | 90.0 | top | \n| R28 | 120 | R3 | 182.88 | -102.87 | 90.0\
+  \ | top | \n"
 projects_flat: projects/cylindric3d_uv_box_led_panels_veroboard/current_version/working
 repo:
   allow_forking: true

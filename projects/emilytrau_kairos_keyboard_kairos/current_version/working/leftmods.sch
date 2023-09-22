@@ -1,0 +1,387 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MX_Alps_Hybrids
+LIBS:ws2812b
+LIBS:keyboard_parts
+LIBS:Molex-0548190589
+LIBS:Kairos-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MX-1.25U K_LM1
+U 1 1 591D07B9
+P 3150 2525
+F 0 "K_LM1" H 3150 2650 60  0000 C CNN
+F 1 "MX-1.25U" H 3150 2575 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U" H 3125 2500 60  0001 C CNN
+F 3 "" H 3125 2500 60  0001 C CNN
+	1    3150 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1.5U K_LM2
+U 1 1 591D088F
+P 3150 3100
+F 0 "K_LM2" H 3150 3225 60  0000 C CNN
+F 1 "MX-1.5U" H 3150 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.5U" H 3125 3075 60  0001 C CNN
+F 3 "" H 3125 3075 60  0001 C CNN
+	1    3150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1.5U K_LM7
+U 1 1 591D0F45
+P 4250 3100
+F 0 "K_LM7" H 4250 3225 60  0000 C CNN
+F 1 "MX-1.5U" H 4250 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.5U" H 4225 3075 60  0001 C CNN
+F 3 "" H 4225 3075 60  0001 C CNN
+	1    4250 3100
+	1    0    0    -1  
+$EndComp
+Text HLabel 2800 4925 0    60   Input ~ 0
+leftmodsrow1
+$Comp
+L D DLM2
+U 1 1 591D28A1
+P 3675 4625
+F 0 "DLM2" H 3675 4725 50  0000 C CNN
+F 1 "1N4148WS" H 3675 4525 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323" H 3675 4625 50  0001 C CNN
+F 3 "" H 3675 4625 50  0000 C CNN
+	1    3675 4625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D DLM3
+U 1 1 591D2AA8
+P 4225 4625
+F 0 "DLM3" H 4225 4725 50  0000 C CNN
+F 1 "1N4148WS" H 4225 4525 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323" H 4225 4625 50  0001 C CNN
+F 3 "" H 4225 4625 50  0000 C CNN
+	1    4225 4625
+	0    -1   -1   0   
+$EndComp
+Text HLabel 3400 1400 1    60   Input ~ 0
+leftmodscol1
+Text HLabel 3950 1400 1    60   Input ~ 0
+leftmodscol2
+$Comp
+L R RLM1
+U 1 1 591D3F53
+P 3450 5800
+F 0 "RLM1" V 3530 5800 50  0000 C CNN
+F 1 "2.2k" V 3450 5800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3380 5800 50  0001 C CNN
+F 3 "" H 3450 5800 50  0000 C CNN
+	1    3450 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R RLM2
+U 1 1 591D4076
+P 4000 5800
+F 0 "RLM2" V 4080 5800 50  0000 C CNN
+F 1 "2.2k" V 4000 5800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3930 5800 50  0001 C CNN
+F 3 "" H 4000 5800 50  0000 C CNN
+	1    4000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R RLM3
+U 1 1 591D444F
+P 4550 5800
+F 0 "RLM3" V 4630 5800 50  0000 C CNN
+F 1 "2.2k" V 4550 5800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4480 5800 50  0001 C CNN
+F 3 "" H 4550 5800 50  0000 C CNN
+	1    4550 5800
+	1    0    0    -1  
+$EndComp
+Text HLabel 4625 4375 2    60   Input ~ 0
+leftmodsLEDGND
+Text HLabel 4000 5975 3    60   Input ~ 0
+leftmods5V
+Text HLabel 2800 5050 0    60   Input ~ 0
+leftmodsrow2
+$Comp
+L MX-1.25U K_LM3
+U 1 1 59494225
+P 3700 1950
+F 0 "K_LM3" H 3700 2075 60  0000 C CNN
+F 1 "MX-1.25U" H 3700 2000 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U" H 3675 1925 60  0001 C CNN
+F 3 "" H 3675 1925 60  0001 C CNN
+	1    3700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1U K_LM4
+U 1 1 59494ACD
+P 3700 2525
+F 0 "K_LM4" H 3700 2650 60  0000 C CNN
+F 1 "MX-1U" H 3700 2575 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3675 2500 60  0001 C CNN
+F 3 "" H 3675 2500 60  0001 C CNN
+	1    3700 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1.25U K_LM6
+U 1 1 59494B94
+P 4250 2525
+F 0 "K_LM6" H 4250 2650 60  0000 C CNN
+F 1 "MX-1.25U" H 4250 2575 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U" H 4225 2500 60  0001 C CNN
+F 3 "" H 4225 2500 60  0001 C CNN
+	1    4250 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1.25U K_LM10
+U 1 1 594A6D23
+P 3700 4250
+F 0 "K_LM10" H 3700 4375 60  0000 C CNN
+F 1 "MX-1.25U" H 3700 4300 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:ALPS-1.25U" H 3675 4225 60  0001 C CNN
+F 3 "" H 3675 4225 60  0001 C CNN
+	1    3700 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 3075
+Wire Wire Line
+	3950 3650 3875 3650
+Wire Wire Line
+	4000 3700 3825 3700
+Wire Wire Line
+	3975 3850 3675 3850
+Wire Wire Line
+	4025 3800 3725 3800
+Wire Wire Line
+	4025 3225 3725 3225
+Wire Wire Line
+	3950 1400 4500 1400
+Connection ~ 3125 3325
+Wire Wire Line
+	3425 2700 3425 3325
+Wire Wire Line
+	3125 3275 3125 4475
+Wire Wire Line
+	3425 3325 3125 3325
+Wire Wire Line
+	4000 5975 4000 5950
+Connection ~ 4575 3225
+Connection ~ 4000 5950
+Wire Wire Line
+	3450 5950 4550 5950
+Connection ~ 4550 3125
+Connection ~ 4000 3125
+Connection ~ 3450 3125
+Connection ~ 4500 2500
+Connection ~ 3950 1925
+Connection ~ 3400 2500
+Connection ~ 4275 3225
+Wire Wire Line
+	4575 2650 4275 2650
+Wire Wire Line
+	4575 4375 4575 2650
+Connection ~ 4025 3225
+Wire Wire Line
+	4550 3125 4375 3125
+Wire Wire Line
+	4550 2550 4550 5650
+Wire Wire Line
+	4375 2550 4550 2550
+Connection ~ 4025 2650
+Wire Wire Line
+	3725 2075 4025 2075
+Connection ~ 3725 3225
+Wire Wire Line
+	4025 2075 4025 4375
+Wire Wire Line
+	3725 2650 4025 2650
+Connection ~ 4000 2550
+Wire Wire Line
+	3825 1975 4000 1975
+Wire Wire Line
+	4000 3125 3825 3125
+Wire Wire Line
+	4000 1975 4000 5650
+Wire Wire Line
+	3825 2550 4000 2550
+Connection ~ 3475 3225
+Wire Wire Line
+	3475 2650 3175 2650
+Wire Wire Line
+	3475 2650 3475 4375
+Wire Wire Line
+	4275 3225 4575 3225
+Wire Wire Line
+	3175 3225 3475 3225
+Wire Wire Line
+	3450 3125 3275 3125
+Wire Wire Line
+	3450 2550 3450 5650
+Wire Wire Line
+	3275 2550 3450 2550
+Connection ~ 3975 3275
+Wire Wire Line
+	4525 2700 4525 4475
+Wire Wire Line
+	4525 2700 4225 2700
+Connection ~ 3675 3275
+Wire Wire Line
+	3125 2700 3425 2700
+Connection ~ 3975 2700
+Wire Wire Line
+	3975 3275 3675 3275
+Wire Wire Line
+	3975 2700 3675 2700
+Wire Wire Line
+	3975 2125 3975 4425
+Wire Wire Line
+	3975 2125 3675 2125
+Wire Wire Line
+	3400 3075 3325 3075
+Wire Wire Line
+	3400 1400 3400 3075
+Wire Wire Line
+	3325 2500 3400 2500
+Wire Wire Line
+	4500 3075 4425 3075
+Wire Wire Line
+	4500 1400 4500 4225
+Wire Wire Line
+	4425 2500 4500 2500
+Connection ~ 3950 2500
+Wire Wire Line
+	3950 3075 3875 3075
+Wire Wire Line
+	3950 2500 3875 2500
+Wire Wire Line
+	3950 1400 3950 4225
+Wire Wire Line
+	3875 1925 3950 1925
+Wire Wire Line
+	4225 4475 4225 4425
+Wire Wire Line
+	4525 4475 4225 4475
+Wire Wire Line
+	3975 4425 3675 4425
+Connection ~ 3975 3850
+Connection ~ 3675 4425
+Wire Wire Line
+	4225 3275 4525 3275
+Connection ~ 4525 3275
+Connection ~ 4225 4475
+Wire Wire Line
+	3475 4375 4625 4375
+Connection ~ 4025 3800
+Wire Wire Line
+	4000 4275 3825 4275
+Connection ~ 4000 3700
+Wire Wire Line
+	3950 4225 3875 4225
+Connection ~ 3950 3650
+Wire Wire Line
+	4500 3650 4425 3650
+Connection ~ 4500 3075
+Wire Wire Line
+	4500 4225 4425 4225
+Connection ~ 4500 3650
+Wire Wire Line
+	4550 3700 4375 3700
+Wire Wire Line
+	4550 4275 4375 4275
+Connection ~ 4550 3700
+Connection ~ 4000 4275
+Connection ~ 4550 4275
+Connection ~ 3725 4375
+Connection ~ 4275 4375
+Connection ~ 4025 4375
+Connection ~ 4575 4375
+Wire Wire Line
+	4225 3850 4525 3850
+Connection ~ 4525 3850
+Wire Wire Line
+	4275 3800 4575 3800
+Connection ~ 4575 3800
+$Comp
+L D DLM1
+U 1 1 591D216C
+P 3125 4625
+F 0 "DLM1" H 3125 4725 50  0000 C CNN
+F 1 "1N4148WS" H 3125 4525 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323" H 3125 4625 50  0001 C CNN
+F 3 "" H 3125 4625 50  0000 C CNN
+	1    3125 4625
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 4925 4225 4925
+Wire Wire Line
+	4225 4925 4225 4775
+Wire Wire Line
+	3125 4775 3125 4925
+Connection ~ 3125 4925
+Wire Wire Line
+	3675 4425 3675 4475
+Wire Wire Line
+	2800 5050 3675 5050
+Wire Wire Line
+	3675 5050 3675 4775
+$Comp
+L MX-1.5U-FLIPPED K_LM11
+U 1 1 598F2D66
+P 4250 4250
+F 0 "K_LM11" H 4250 4375 60  0000 C CNN
+F 1 "MX-1.5U-FLIPPED" H 4250 4300 20  0000 C CNN
+F 2 "" H 4225 4225 60  0001 C CNN
+F 3 "" H 4225 4225 60  0001 C CNN
+	1    4250 4250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

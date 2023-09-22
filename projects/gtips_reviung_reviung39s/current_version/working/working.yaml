@@ -1,10 +1,819 @@
 board: reviung39s
+bom:
+- Id: '1'
+  Designator: U1
+  Footprint: ProMicro
+  Quantity: '1'
+  Designation: ProMicro
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32,D33,D34,D35,D36,D37,D38,D39
+  Footprint: D3_TH
+  Quantity: '39'
+  Designation: D
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24,SW25,SW26,SW27,SW28,SW29,SW30,SW31,SW32,SW33,SW34,SW35,SW36,SW37,SW39
+  Footprint: MXOnly-1U-NoLED
+  Quantity: '38'
+  Designation: SW_PUSH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: SW38
+  Footprint: MXOnly-2.25U-ReversedStabilizers-NoLED
+  Quantity: '1'
+  Designation: SW_2U_PUSH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: G***
+  Footprint: REVIUNG39s-FS-logo
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: RESET1
+  Footprint: ResetSW_1side
+  Quantity: '1'
+  Designation: SW_PUSH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: J1
+  Footprint: StripLED_1side
+  Quantity: '1'
+  Designation: Conn_01x03_Shielded
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: G***
+  Footprint: REVIUNG39s-B-logo
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U1\
+  \ | ProMicro | 1 | ProMicro |  |  | [''] | \n| 2 | D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32,D33,D34,D35,D36,D37,D38,D39\
+  \ | D3_TH | 39 | D |  |  | [''] | \n| 3 | SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24,SW25,SW26,SW27,SW28,SW29,SW30,SW31,SW32,SW33,SW34,SW35,SW36,SW37,SW39\
+  \ | MXOnly-1U-NoLED | 38 | SW_PUSH |  |  | [''] | \n| 4 | SW38 | MXOnly-2.25U-ReversedStabilizers-NoLED\
+  \ | 1 | SW_2U_PUSH |  |  | [''] | \n| 5 | G*** | REVIUNG39s-FS-logo | 1 | LOGO |\
+  \  |  | [''] | \n| 6 | RESET1 | ResetSW_1side | 1 | SW_PUSH |  |  | [''] | \n| 7\
+  \ | J1 | StripLED_1side | 1 | Conn_01x03_Shielded |  |  | [''] | \n| 8 | G*** |\
+  \ REVIUNG39s-B-logo | 1 | LOGO |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: D
+  DNP: ''
+  Description: Diode
+  Footprint: _reviung-kbd:D3_TH
+  Qnty: '39'
+  Ref: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17,
+    D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33,
+    D34, D35, D36, D37, D38, D39
+  Value: D
+  Vendor: ''
+- Cmp name: Conn_01x03
+  DNP: ''
+  Description: Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: _reviung-kbd:StripLED_1side
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_01x03_Shielded
+  Vendor: ''
+- Cmp name: SW_PUSH-_reviung-kbd
+  DNP: ''
+  Description: ''
+  Footprint: _reviung-kbd:ResetSW_1side
+  Qnty: '1'
+  Ref: RESET1
+  Value: SW_PUSH
+  Vendor: ''
+- Cmp name: SW_PUSH-_reviung-kbd
+  DNP: ''
+  Description: ''
+  Footprint: _reviung-kbd:MXOnly-1U-NoLED
+  Qnty: '38'
+  Ref: SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12, SW13, SW14,
+    SW15, SW16, SW17, SW18, SW19, SW20, SW21, SW22, SW23, SW24, SW25, SW26, SW27,
+    SW28, SW29, SW30, SW31, SW32, SW33, SW34, SW35, SW36, SW37, SW39
+  Value: SW_PUSH
+  Vendor: ''
+- Cmp name: SW_PUSH-_reviung-kbd
+  DNP: ''
+  Description: ''
+  Footprint: _reviung-kbd:MXOnly-2.25U-ReversedStabilizers-NoLED
+  Qnty: '1'
+  Ref: SW38
+  Value: SW_2U_PUSH
+  Vendor: ''
+- Cmp name: ProMicro-_reviung-kbd
+  DNP: ''
+  Description: ''
+  Footprint: _reviung-kbd:ProMicro
+  Qnty: '1'
+  Ref: U1
+  Value: ProMicro
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| D1, D2,\
+  \ D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19,\
+  \ D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33, D34, D35,\
+  \ D36, D37, D38, D39 | 39 | D | D | _reviung-kbd:D3_TH | Diode |  |  | \n| J1 |\
+  \ 1 | Conn_01x03_Shielded | Conn_01x03 | _reviung-kbd:StripLED_1side | Generic connector,\
+  \ single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| RESET1 | 1 | SW_PUSH | SW_PUSH-_reviung-kbd | _reviung-kbd:ResetSW_1side\
+  \ |  |  |  | \n| SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12,\
+  \ SW13, SW14, SW15, SW16, SW17, SW18, SW19, SW20, SW21, SW22, SW23, SW24, SW25,\
+  \ SW26, SW27, SW28, SW29, SW30, SW31, SW32, SW33, SW34, SW35, SW36, SW37, SW39 |\
+  \ 38 | SW_PUSH | SW_PUSH-_reviung-kbd | _reviung-kbd:MXOnly-1U-NoLED |  |  |  |\
+  \ \n| SW38 | 1 | SW_2U_PUSH | SW_PUSH-_reviung-kbd | _reviung-kbd:MXOnly-2.25U-ReversedStabilizers-NoLED\
+  \ |  |  |  | \n| U1 | 1 | ProMicro | ProMicro-_reviung-kbd | _reviung-kbd:ProMicro\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/gtips_reviung_reviung39s/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/gtips_reviung_reviung39s/current_version/working/working.kicad_pcb
 file_sch_flat: projects/gtips_reviung_reviung39s/current_version/working/working.sch
 id: gtips_reviung_reviung39s
 name: reviung
+position_bottom:
+- '# Ref': G***
+  Package: REVIUNG39s-B-logo
+  PosX: 126.99
+  PosY: -11.96
+  Rot: 170.0
+  Side: bottom
+  Val: LOGO
+- '# Ref': J1
+  Package: StripLED_1side
+  PosX: 121.75
+  PosY: -40.2
+  Rot: -90.0
+  Side: bottom
+  Val: Conn_01x03_Shielded
+- '# Ref': RESET1
+  Package: ResetSW_1side
+  PosX: 154.5
+  PosY: -11.5
+  Rot: -10.0
+  Side: bottom
+  Val: SW_PUSH
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | REVIUNG39s-B-logo\
+  \ | 126.99 | -11.96 | 170.0 | bottom | \n| J1 | Conn_01x03_Shielded | StripLED_1side\
+  \ | 121.75 | -40.2 | -90.0 | bottom | \n| RESET1 | SW_PUSH | ResetSW_1side | 154.5\
+  \ | -11.5 | -10.0 | bottom | \n"
+position_top:
+- '# Ref': D1
+  Package: D3_TH
+  PosX: 19.14
+  PosY: -14.34
+  Rot: -10.0
+  Side: top
+  Val: D
+- '# Ref': D2
+  Package: D3_TH
+  PosX: 38.5
+  PosY: -14.2
+  Rot: -10.0
+  Side: top
+  Val: D
+- '# Ref': D3
+  Package: D3_TH
+  PosX: 58.03
+  PosY: -14.02
+  Rot: -10.0
+  Side: top
+  Val: D
+- '# Ref': D4
+  Package: D3_TH
+  PosX: 77.42
+  PosY: -13.91
+  Rot: -10.0
+  Side: top
+  Val: D
+- '# Ref': D5
+  Package: D3_TH
+  PosX: 95.51
+  PosY: -20.34
+  Rot: -10.0
+  Side: top
+  Val: D
+- '# Ref': D6
+  Package: D3_TH
+  PosX: 113.73
+  PosY: -27.09
+  Rot: -10.0
+  Side: top
+  Val: D
+- '# Ref': D7
+  Package: D3_TH
+  PosX: 15.95
+  PosY: -32.83
+  Rot: -10.0
+  Side: top
+  Val: D
+- '# Ref': D8
+  Package: D3_TH
+  PosX: 35.25
+  PosY: -32.74
+  Rot: -10.0
+  Side: top
+  Val: D
+- '# Ref': D9
+  Package: D3_TH
+  PosX: 54.73
+  PosY: -32.57
+  Rot: -10.0
+  Side: top
+  Val: D
+- '# Ref': D10
+  Package: D3_TH
+  PosX: 74.12
+  PosY: -32.42
+  Rot: -10.0
+  Side: top
+  Val: D
+- '# Ref': D11
+  Package: D3_TH
+  PosX: 92.26
+  PosY: -39.21
+  Rot: -10.0
+  Side: top
+  Val: D
+- '# Ref': D12
+  Package: D3_TH
+  PosX: 110.63
+  PosY: -45.93
+  Rot: -10.0
+  Side: top
+  Val: D
+- '# Ref': D13
+  Package: D3_TH
+  PosX: 12.71
+  PosY: -51.61
+  Rot: -10.0
+  Side: top
+  Val: D
+- '# Ref': D14
+  Package: D3_TH
+  PosX: 32.07
+  PosY: -51.44
+  Rot: -10.0
+  Side: top
+  Val: D
+- '# Ref': D15
+  Package: D3_TH
+  PosX: 51.4
+  PosY: -51.23
+  Rot: -10.0
+  Side: top
+  Val: D
+- '# Ref': D16
+  Package: D3_TH
+  PosX: 70.78
+  PosY: -51.15
+  Rot: -10.0
+  Side: top
+  Val: D
+- '# Ref': D17
+  Package: D3_TH
+  PosX: 88.98
+  PosY: -57.96
+  Rot: -10.0
+  Side: top
+  Val: D
+- '# Ref': D18
+  Package: D3_TH
+  PosX: 107.13
+  PosY: -64.62
+  Rot: -10.0
+  Side: top
+  Val: D
+- '# Ref': D19
+  Package: D3_TH
+  PosX: 135.03
+  PosY: -27.13
+  Rot: 10.0
+  Side: top
+  Val: D
+- '# Ref': D20
+  Package: D3_TH
+  PosX: 153.1
+  PosY: -20.39
+  Rot: 10.0
+  Side: top
+  Val: D
+- '# Ref': D21
+  Package: D3_TH
+  PosX: 171.36
+  PosY: -13.69
+  Rot: 10.0
+  Side: top
+  Val: D
+- '# Ref': D22
+  Package: D3_TH
+  PosX: 190.84
+  PosY: -13.8
+  Rot: 10.0
+  Side: top
+  Val: D
+- '# Ref': D23
+  Package: D3_TH
+  PosX: 210.11
+  PosY: -13.83
+  Rot: 10.0
+  Side: top
+  Val: D
+- '# Ref': D24
+  Package: D3_TH
+  PosX: 229.5
+  PosY: -14.05
+  Rot: 10.0
+  Side: top
+  Val: D
+- '# Ref': D25
+  Package: D3_TH
+  PosX: 138.11
+  PosY: -45.98
+  Rot: 10.0
+  Side: top
+  Val: D
+- '# Ref': D26
+  Package: D3_TH
+  PosX: 156.52
+  PosY: -39.19
+  Rot: 10.0
+  Side: top
+  Val: D
+- '# Ref': D27
+  Package: D3_TH
+  PosX: 174.79
+  PosY: -32.43
+  Rot: 10.0
+  Side: top
+  Val: D
+- '# Ref': D28
+  Package: D3_TH
+  PosX: 194.04
+  PosY: -32.51
+  Rot: 10.0
+  Side: top
+  Val: D
+- '# Ref': D29
+  Package: D3_TH
+  PosX: 213.54
+  PosY: -32.65
+  Rot: 10.0
+  Side: top
+  Val: D
+- '# Ref': D30
+  Package: D3_TH
+  PosX: 233.09
+  PosY: -32.77
+  Rot: 10.0
+  Side: top
+  Val: D
+- '# Ref': D31
+  Package: D3_TH
+  PosX: 141.7
+  PosY: -64.73
+  Rot: 10.0
+  Side: top
+  Val: D
+- '# Ref': D32
+  Package: D3_TH
+  PosX: 159.8
+  PosY: -57.94
+  Rot: 10.0
+  Side: top
+  Val: D
+- '# Ref': D33
+  Package: D3_TH
+  PosX: 178.04
+  PosY: -51.2
+  Rot: 10.0
+  Side: top
+  Val: D
+- '# Ref': D34
+  Package: D3_TH
+  PosX: 197.43
+  PosY: -51.37
+  Rot: 10.0
+  Side: top
+  Val: D
+- '# Ref': D35
+  Package: D3_TH
+  PosX: 216.88
+  PosY: -51.43
+  Rot: 10.0
+  Side: top
+  Val: D
+- '# Ref': D36
+  Package: D3_TH
+  PosX: 236.27
+  PosY: -51.62
+  Rot: 10.0
+  Side: top
+  Val: D
+- '# Ref': D37
+  Package: D3_TH
+  PosX: 91.97
+  PosY: -85.46
+  Rot: -10.0
+  Side: top
+  Val: D
+- '# Ref': D38
+  Package: D3_TH
+  PosX: 124.31
+  PosY: -84.64
+  Rot: 0.0
+  Side: top
+  Val: D
+- '# Ref': D39
+  Package: D3_TH
+  PosX: 156.94
+  PosY: -85.52
+  Rot: 10.0
+  Side: top
+  Val: D
+- '# Ref': G***
+  Package: REVIUNG39s-FS-logo
+  PosX: 198.0
+  PosY: -72.5
+  Rot: 10.0
+  Side: top
+  Val: LOGO
+- '# Ref': SW1
+  Package: MXOnly-1U-NoLED
+  PosX: 17.86
+  PosY: -22.04
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW2
+  Package: MXOnly-1U-NoLED
+  PosX: 37.21
+  PosY: -21.9
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW3
+  Package: MXOnly-1U-NoLED
+  PosX: 56.6
+  PosY: -21.76
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW4
+  Package: MXOnly-1U-NoLED
+  PosX: 75.99
+  PosY: -21.62
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW5
+  Package: MXOnly-1U-NoLED
+  PosX: 94.11
+  PosY: -28.38
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW6
+  Package: MXOnly-1U-NoLED
+  PosX: 112.23
+  PosY: -35.17
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW7
+  Package: MXOnly-1U-NoLED
+  PosX: 14.52
+  PosY: -40.83
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW8
+  Package: MXOnly-1U-NoLED
+  PosX: 33.91
+  PosY: -40.66
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW9
+  Package: MXOnly-1U-NoLED
+  PosX: 53.33
+  PosY: -40.52
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW10
+  Package: MXOnly-1U-NoLED
+  PosX: 72.68
+  PosY: -40.41
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW11
+  Package: MXOnly-1U-NoLED
+  PosX: 90.77
+  PosY: -47.17
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW12
+  Package: MXOnly-1U-NoLED
+  PosX: 108.93
+  PosY: -53.85
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW13
+  Package: MXOnly-1U-NoLED
+  PosX: 11.25
+  PosY: -59.55
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW14
+  Package: MXOnly-1U-NoLED
+  PosX: 30.6
+  PosY: -59.48
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW15
+  Package: MXOnly-1U-NoLED
+  PosX: 49.99
+  PosY: -59.31
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW16
+  Package: MXOnly-1U-NoLED
+  PosX: 69.31
+  PosY: -59.13
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW17
+  Package: MXOnly-1U-NoLED
+  PosX: 87.5
+  PosY: -65.89
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW18
+  Package: MXOnly-1U-NoLED
+  PosX: 105.65
+  PosY: -72.68
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW19
+  Package: MXOnly-1U-NoLED
+  PosX: 136.3
+  PosY: -35.13
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW20
+  Package: MXOnly-1U-NoLED
+  PosX: 154.46
+  PosY: -28.34
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW21
+  Package: MXOnly-1U-NoLED
+  PosX: 172.58
+  PosY: -21.59
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW22
+  Package: MXOnly-1U-NoLED
+  PosX: 192.0
+  PosY: -21.73
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW23
+  Package: MXOnly-1U-NoLED
+  PosX: 211.36
+  PosY: -21.9
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW24
+  Package: MXOnly-1U-NoLED
+  PosX: 230.74
+  PosY: -22.04
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW25
+  Package: MXOnly-1U-NoLED
+  PosX: 139.61
+  PosY: -53.89
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW26
+  Package: MXOnly-1U-NoLED
+  PosX: 157.77
+  PosY: -47.17
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW27
+  Package: MXOnly-1U-NoLED
+  PosX: 175.96
+  PosY: -40.38
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW28
+  Package: MXOnly-1U-NoLED
+  PosX: 195.31
+  PosY: -40.52
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW29
+  Package: MXOnly-1U-NoLED
+  PosX: 214.66
+  PosY: -40.66
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW30
+  Package: MXOnly-1U-NoLED
+  PosX: 234.05
+  PosY: -40.83
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW31
+  Package: MXOnly-1U-NoLED
+  PosX: 142.92
+  PosY: -72.68
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW32
+  Package: MXOnly-1U-NoLED
+  PosX: 161.11
+  PosY: -65.92
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW33
+  Package: MXOnly-1U-NoLED
+  PosX: 179.26
+  PosY: -59.17
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW34
+  Package: MXOnly-1U-NoLED
+  PosX: 198.65
+  PosY: -59.27
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW35
+  Package: MXOnly-1U-NoLED
+  PosX: 217.97
+  PosY: -59.41
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW36
+  Package: MXOnly-1U-NoLED
+  PosX: 237.36
+  PosY: -59.55
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW37
+  Package: MXOnly-1U-NoLED
+  PosX: 90.31
+  PosY: -93.44
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW38
+  Package: MXOnly-2.25U-ReversedStabilizers-NoLED
+  PosX: 124.26
+  PosY: -94.98
+  Rot: 0.0
+  Side: top
+  Val: SW_2U_PUSH
+- '# Ref': SW39
+  Package: MXOnly-1U-NoLED
+  PosX: 158.33
+  PosY: -93.44
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': U1
+  Package: ProMicro
+  PosX: 126.09
+  PosY: -11.86
+  Rot: 80.0
+  Side: top
+  Val: ProMicro
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| D1 | D | D3_TH | 19.14 | -14.34 | -10.0\
+  \ | top | \n| D2 | D | D3_TH | 38.5 | -14.2 | -10.0 | top | \n| D3 | D | D3_TH |\
+  \ 58.03 | -14.02 | -10.0 | top | \n| D4 | D | D3_TH | 77.42 | -13.91 | -10.0 | top\
+  \ | \n| D5 | D | D3_TH | 95.51 | -20.34 | -10.0 | top | \n| D6 | D | D3_TH | 113.73\
+  \ | -27.09 | -10.0 | top | \n| D7 | D | D3_TH | 15.95 | -32.83 | -10.0 | top | \n\
+  | D8 | D | D3_TH | 35.25 | -32.74 | -10.0 | top | \n| D9 | D | D3_TH | 54.73 | -32.57\
+  \ | -10.0 | top | \n| D10 | D | D3_TH | 74.12 | -32.42 | -10.0 | top | \n| D11 |\
+  \ D | D3_TH | 92.26 | -39.21 | -10.0 | top | \n| D12 | D | D3_TH | 110.63 | -45.93\
+  \ | -10.0 | top | \n| D13 | D | D3_TH | 12.71 | -51.61 | -10.0 | top | \n| D14 |\
+  \ D | D3_TH | 32.07 | -51.44 | -10.0 | top | \n| D15 | D | D3_TH | 51.4 | -51.23\
+  \ | -10.0 | top | \n| D16 | D | D3_TH | 70.78 | -51.15 | -10.0 | top | \n| D17 |\
+  \ D | D3_TH | 88.98 | -57.96 | -10.0 | top | \n| D18 | D | D3_TH | 107.13 | -64.62\
+  \ | -10.0 | top | \n| D19 | D | D3_TH | 135.03 | -27.13 | 10.0 | top | \n| D20 |\
+  \ D | D3_TH | 153.1 | -20.39 | 10.0 | top | \n| D21 | D | D3_TH | 171.36 | -13.69\
+  \ | 10.0 | top | \n| D22 | D | D3_TH | 190.84 | -13.8 | 10.0 | top | \n| D23 | D\
+  \ | D3_TH | 210.11 | -13.83 | 10.0 | top | \n| D24 | D | D3_TH | 229.5 | -14.05\
+  \ | 10.0 | top | \n| D25 | D | D3_TH | 138.11 | -45.98 | 10.0 | top | \n| D26 |\
+  \ D | D3_TH | 156.52 | -39.19 | 10.0 | top | \n| D27 | D | D3_TH | 174.79 | -32.43\
+  \ | 10.0 | top | \n| D28 | D | D3_TH | 194.04 | -32.51 | 10.0 | top | \n| D29 |\
+  \ D | D3_TH | 213.54 | -32.65 | 10.0 | top | \n| D30 | D | D3_TH | 233.09 | -32.77\
+  \ | 10.0 | top | \n| D31 | D | D3_TH | 141.7 | -64.73 | 10.0 | top | \n| D32 | D\
+  \ | D3_TH | 159.8 | -57.94 | 10.0 | top | \n| D33 | D | D3_TH | 178.04 | -51.2 |\
+  \ 10.0 | top | \n| D34 | D | D3_TH | 197.43 | -51.37 | 10.0 | top | \n| D35 | D\
+  \ | D3_TH | 216.88 | -51.43 | 10.0 | top | \n| D36 | D | D3_TH | 236.27 | -51.62\
+  \ | 10.0 | top | \n| D37 | D | D3_TH | 91.97 | -85.46 | -10.0 | top | \n| D38 |\
+  \ D | D3_TH | 124.31 | -84.64 | 0.0 | top | \n| D39 | D | D3_TH | 156.94 | -85.52\
+  \ | 10.0 | top | \n| G*** | LOGO | REVIUNG39s-FS-logo | 198.0 | -72.5 | 10.0 | top\
+  \ | \n| SW1 | SW_PUSH | MXOnly-1U-NoLED | 17.86 | -22.04 | -10.0 | top | \n| SW2\
+  \ | SW_PUSH | MXOnly-1U-NoLED | 37.21 | -21.9 | -10.0 | top | \n| SW3 | SW_PUSH\
+  \ | MXOnly-1U-NoLED | 56.6 | -21.76 | -10.0 | top | \n| SW4 | SW_PUSH | MXOnly-1U-NoLED\
+  \ | 75.99 | -21.62 | -10.0 | top | \n| SW5 | SW_PUSH | MXOnly-1U-NoLED | 94.11 |\
+  \ -28.38 | -10.0 | top | \n| SW6 | SW_PUSH | MXOnly-1U-NoLED | 112.23 | -35.17 |\
+  \ -10.0 | top | \n| SW7 | SW_PUSH | MXOnly-1U-NoLED | 14.52 | -40.83 | -10.0 | top\
+  \ | \n| SW8 | SW_PUSH | MXOnly-1U-NoLED | 33.91 | -40.66 | -10.0 | top | \n| SW9\
+  \ | SW_PUSH | MXOnly-1U-NoLED | 53.33 | -40.52 | -10.0 | top | \n| SW10 | SW_PUSH\
+  \ | MXOnly-1U-NoLED | 72.68 | -40.41 | -10.0 | top | \n| SW11 | SW_PUSH | MXOnly-1U-NoLED\
+  \ | 90.77 | -47.17 | -10.0 | top | \n| SW12 | SW_PUSH | MXOnly-1U-NoLED | 108.93\
+  \ | -53.85 | -10.0 | top | \n| SW13 | SW_PUSH | MXOnly-1U-NoLED | 11.25 | -59.55\
+  \ | -10.0 | top | \n| SW14 | SW_PUSH | MXOnly-1U-NoLED | 30.6 | -59.48 | -10.0 |\
+  \ top | \n| SW15 | SW_PUSH | MXOnly-1U-NoLED | 49.99 | -59.31 | -10.0 | top | \n\
+  | SW16 | SW_PUSH | MXOnly-1U-NoLED | 69.31 | -59.13 | -10.0 | top | \n| SW17 | SW_PUSH\
+  \ | MXOnly-1U-NoLED | 87.5 | -65.89 | -10.0 | top | \n| SW18 | SW_PUSH | MXOnly-1U-NoLED\
+  \ | 105.65 | -72.68 | -10.0 | top | \n| SW19 | SW_PUSH | MXOnly-1U-NoLED | 136.3\
+  \ | -35.13 | 10.0 | top | \n| SW20 | SW_PUSH | MXOnly-1U-NoLED | 154.46 | -28.34\
+  \ | 10.0 | top | \n| SW21 | SW_PUSH | MXOnly-1U-NoLED | 172.58 | -21.59 | 10.0 |\
+  \ top | \n| SW22 | SW_PUSH | MXOnly-1U-NoLED | 192.0 | -21.73 | 10.0 | top | \n\
+  | SW23 | SW_PUSH | MXOnly-1U-NoLED | 211.36 | -21.9 | 10.0 | top | \n| SW24 | SW_PUSH\
+  \ | MXOnly-1U-NoLED | 230.74 | -22.04 | 10.0 | top | \n| SW25 | SW_PUSH | MXOnly-1U-NoLED\
+  \ | 139.61 | -53.89 | 10.0 | top | \n| SW26 | SW_PUSH | MXOnly-1U-NoLED | 157.77\
+  \ | -47.17 | 10.0 | top | \n| SW27 | SW_PUSH | MXOnly-1U-NoLED | 175.96 | -40.38\
+  \ | 10.0 | top | \n| SW28 | SW_PUSH | MXOnly-1U-NoLED | 195.31 | -40.52 | 10.0 |\
+  \ top | \n| SW29 | SW_PUSH | MXOnly-1U-NoLED | 214.66 | -40.66 | 10.0 | top | \n\
+  | SW30 | SW_PUSH | MXOnly-1U-NoLED | 234.05 | -40.83 | 10.0 | top | \n| SW31 | SW_PUSH\
+  \ | MXOnly-1U-NoLED | 142.92 | -72.68 | 10.0 | top | \n| SW32 | SW_PUSH | MXOnly-1U-NoLED\
+  \ | 161.11 | -65.92 | 10.0 | top | \n| SW33 | SW_PUSH | MXOnly-1U-NoLED | 179.26\
+  \ | -59.17 | 10.0 | top | \n| SW34 | SW_PUSH | MXOnly-1U-NoLED | 198.65 | -59.27\
+  \ | 10.0 | top | \n| SW35 | SW_PUSH | MXOnly-1U-NoLED | 217.97 | -59.41 | 10.0 |\
+  \ top | \n| SW36 | SW_PUSH | MXOnly-1U-NoLED | 237.36 | -59.55 | 10.0 | top | \n\
+  | SW37 | SW_PUSH | MXOnly-1U-NoLED | 90.31 | -93.44 | -10.0 | top | \n| SW38 | SW_2U_PUSH\
+  \ | MXOnly-2.25U-ReversedStabilizers-NoLED | 124.26 | -94.98 | 0.0 | top | \n| SW39\
+  \ | SW_PUSH | MXOnly-1U-NoLED | 158.33 | -93.44 | 10.0 | top | \n| U1 | ProMicro\
+  \ | ProMicro | 126.09 | -11.86 | 80.0 | top | \n"
 projects_flat: projects/gtips_reviung_reviung39s/current_version/working
 repo:
   allow_forking: true

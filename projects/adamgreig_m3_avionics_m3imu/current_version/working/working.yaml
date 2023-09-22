@@ -1,4 +1,459 @@
 board: m3imu
+bom:
+- Id: '1'
+  Designator: C1,C2
+  Footprint: '0402'
+  Quantity: '2'
+  Designation: 10p
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C3
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: "4\xC2\xB57"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C4,C5,C7,C8,C9,C12,C13,C15,C16,C17
+  Footprint: '0402'
+  Quantity: '10'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C6
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: "1\xC2\xB5"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C10,C11
+  Footprint: '0402'
+  Quantity: '2'
+  Designation: "2\xC2\xB52"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C14
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: 10n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: D1
+  Footprint: 0603-LED
+  Quantity: '1'
+  Designation: RED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: D3
+  Footprint: 0603-LED
+  Quantity: '1'
+  Designation: GRN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: IC1
+  Footprint: LQFP-64
+  Quantity: '1'
+  Designation: STM32F405RxTx
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: IC2
+  Footprint: DFN-8-EP-MICROCHIP
+  Quantity: '1'
+  Designation: MCP2562
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: IC3
+  Footprint: MS5611
+  Quantity: '1'
+  Designation: MS5611-01BA03
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: IC4
+  Footprint: QFN-24-MPU9250
+  Quantity: '1'
+  Designation: MPU-9250
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: R1,R2,R4
+  Footprint: '0402'
+  Quantity: '3'
+  Designation: '100'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: Y1
+  Footprint: XTAL-20x16
+  Quantity: '1'
+  Designation: 26M
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: X1
+  Footprint: cusf_logo_small
+  Quantity: '1'
+  Designation: PART
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: J1
+  Footprint: MICROUSB_MOLEX_47589-0001
+  Quantity: '1'
+  Designation: MICROUSB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: D2
+  Footprint: SOT-666
+  Quantity: '1'
+  Designation: USBLC6-2P6
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: R3,R6,R7,R8,R9
+  Footprint: '0603'
+  Quantity: '5'
+  Designation: 47K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: J3
+  Footprint: TFML-110-02-L-D
+  Quantity: '1'
+  Designation: WEST TOP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: J5
+  Footprint: TFML-110-02-L-D
+  Quantity: '1'
+  Designation: EAST TOP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '21'
+  Designator: J2
+  Footprint: SFML-110-02-L-D-LC
+  Quantity: '1'
+  Designation: WEST BOT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '22'
+  Designator: J4
+  Footprint: SFML-110-02-L-D-LC
+  Quantity: '1'
+  Designation: EAST BOT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '23'
+  Designator: U2
+  Footprint: MICROSD_MOLEX_503398-1892
+  Quantity: '1'
+  Designation: MICROSD-RESCUE-main
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C2\
+  \ | 0402 | 2 | 10p |  |  | [''] | \n| 2 | C3 | 0402 | 1 | 4\xC2\xB57 |  |  | ['']\
+  \ | \n| 3 | C4,C5,C7,C8,C9,C12,C13,C15,C16,C17 | 0402 | 10 | 100n |  |  | [''] |\
+  \ \n| 4 | C6 | 0402 | 1 | 1\xC2\xB5 |  |  | [''] | \n| 5 | C10,C11 | 0402 | 2 |\
+  \ 2\xC2\xB52 |  |  | [''] | \n| 6 | C14 | 0402 | 1 | 10n |  |  | [''] | \n| 7 |\
+  \ D1 | 0603-LED | 1 | RED |  |  | [''] | \n| 8 | D3 | 0603-LED | 1 | GRN |  |  |\
+  \ [''] | \n| 9 | IC1 | LQFP-64 | 1 | STM32F405RxTx |  |  | [''] | \n| 10 | IC2 |\
+  \ DFN-8-EP-MICROCHIP | 1 | MCP2562 |  |  | [''] | \n| 11 | IC3 | MS5611 | 1 | MS5611-01BA03\
+  \ |  |  | [''] | \n| 12 | IC4 | QFN-24-MPU9250 | 1 | MPU-9250 |  |  | [''] | \n\
+  | 13 | R1,R2,R4 | 0402 | 3 | 100 |  |  | [''] | \n| 14 | Y1 | XTAL-20x16 | 1 | 26M\
+  \ |  |  | [''] | \n| 15 | X1 | cusf_logo_small | 1 | PART |  |  | [''] | \n| 16\
+  \ | J1 | MICROUSB_MOLEX_47589-0001 | 1 | MICROUSB |  |  | [''] | \n| 17 | D2 | SOT-666\
+  \ | 1 | USBLC6-2P6 |  |  | [''] | \n| 18 | R3,R6,R7,R8,R9 | 0603 | 5 | 47K |  |\
+  \  | [''] | \n| 19 | J3 | TFML-110-02-L-D | 1 | WEST TOP |  |  | [''] | \n| 20 |\
+  \ J5 | TFML-110-02-L-D | 1 | EAST TOP |  |  | [''] | \n| 21 | J2 | SFML-110-02-L-D-LC\
+  \ | 1 | WEST BOT |  |  | [''] | \n| 22 | J4 | SFML-110-02-L-D-LC | 1 | EAST BOT\
+  \ |  |  | [''] | \n| 23 | U2 | MICROSD_MOLEX_503398-1892 | 1 | MICROSD-RESCUE-main\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '2'
+  Ref: C1, C2
+  Value: 10p
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '1'
+  Ref: C3
+  Value: "4\xC2\xB57"
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '10'
+  Ref: C4, C5, C7, C8, C9, C12, C13, C15, C16, C17
+  Value: 100n
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '1'
+  Ref: C6
+  Value: "1\xC2\xB5"
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '2'
+  Ref: C10, C11
+  Value: "2\xC2\xB52"
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '1'
+  Ref: C14
+  Value: 10n
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603-LED
+  Qnty: '1'
+  Ref: D1
+  Value: RED
+  Vendor: ''
+- Cmp name: USBLC6-2P6
+  DNP: ''
+  Description: ''
+  Footprint: agg:SOT-666
+  Qnty: '1'
+  Ref: D2
+  Value: USBLC6-2P6
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603-LED
+  Qnty: '1'
+  Ref: D3
+  Value: GRN
+  Vendor: ''
+- Cmp name: STM32F405RxTx
+  DNP: ''
+  Description: ''
+  Footprint: agg:LQFP-64
+  Qnty: '1'
+  Ref: IC1
+  Value: STM32F405RxTx
+  Vendor: ''
+- Cmp name: MCP2562
+  DNP: ''
+  Description: ''
+  Footprint: agg:DFN-8-EP-MICROCHIP
+  Qnty: '1'
+  Ref: IC2
+  Value: MCP2562
+  Vendor: ''
+- Cmp name: MS5611-01BA03
+  DNP: ''
+  Description: ''
+  Footprint: agg:MS5611
+  Qnty: '1'
+  Ref: IC3
+  Value: MS5611-01BA03
+  Vendor: ''
+- Cmp name: MPU-9250
+  DNP: ''
+  Description: ''
+  Footprint: agg:QFN-24-MPU9250
+  Qnty: '1'
+  Ref: IC4
+  Value: MPU-9250
+  Vendor: ''
+- Cmp name: MICROUSB
+  DNP: ''
+  Description: ''
+  Footprint: agg:MICROUSB_MOLEX_47589-0001
+  Qnty: '1'
+  Ref: J1
+  Value: MICROUSB
+  Vendor: ''
+- Cmp name: CONN_02x10
+  DNP: ''
+  Description: ''
+  Footprint: agg:SFML-110-02-L-D-LC
+  Qnty: '1'
+  Ref: J2
+  Value: WEST BOT
+  Vendor: ''
+- Cmp name: CONN_02x10
+  DNP: ''
+  Description: ''
+  Footprint: agg:TFML-110-02-L-D
+  Qnty: '1'
+  Ref: J3
+  Value: WEST TOP
+  Vendor: ''
+- Cmp name: CONN_02x10
+  DNP: ''
+  Description: ''
+  Footprint: agg:SFML-110-02-L-D-LC
+  Qnty: '1'
+  Ref: J4
+  Value: EAST BOT
+  Vendor: ''
+- Cmp name: CONN_02x10
+  DNP: ''
+  Description: ''
+  Footprint: agg:TFML-110-02-L-D
+  Qnty: '1'
+  Ref: J5
+  Value: EAST TOP
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '3'
+  Ref: R1, R2, R4
+  Value: '100'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '5'
+  Ref: R3, R6, R7, R8, R9
+  Value: 47K
+  Vendor: ''
+- Cmp name: MICROSD-RESCUE-main
+  DNP: ''
+  Description: ''
+  Footprint: agg:MICROSD_MOLEX_503398-1892
+  Qnty: '1'
+  Ref: U2
+  Value: MICROSD-RESCUE-main
+  Vendor: ''
+- Cmp name: PART
+  DNP: ''
+  Description: ''
+  Footprint: M3_IMU:cusf_logo_small
+  Qnty: '1'
+  Ref: X1
+  Value: PART
+  Vendor: ''
+- Cmp name: SMD_XTAL
+  DNP: ''
+  Description: ''
+  Footprint: agg:XTAL-20x16
+  Qnty: '1'
+  Ref: Y1
+  Value: 26M
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2\
+  \ | 2 | 10p | C | agg:0402 |  |  |  | \n| C3 | 1 | 4\xC2\xB57 | C | agg:0402 | \
+  \ |  |  | \n| C4, C5, C7, C8, C9, C12, C13, C15, C16, C17 | 10 | 100n | C | agg:0402\
+  \ |  |  |  | \n| C6 | 1 | 1\xC2\xB5 | C | agg:0402 |  |  |  | \n| C10, C11 | 2 |\
+  \ 2\xC2\xB52 | C | agg:0402 |  |  |  | \n| C14 | 1 | 10n | C | agg:0402 |  |  |\
+  \  | \n| D1 | 1 | RED | LED | agg:0603-LED |  |  |  | \n| D2 | 1 | USBLC6-2P6 |\
+  \ USBLC6-2P6 | agg:SOT-666 |  |  |  | \n| D3 | 1 | GRN | LED | agg:0603-LED |  |\
+  \  |  | \n| IC1 | 1 | STM32F405RxTx | STM32F405RxTx | agg:LQFP-64 |  |  |  | \n\
+  | IC2 | 1 | MCP2562 | MCP2562 | agg:DFN-8-EP-MICROCHIP |  |  |  | \n| IC3 | 1 |\
+  \ MS5611-01BA03 | MS5611-01BA03 | agg:MS5611 |  |  |  | \n| IC4 | 1 | MPU-9250 |\
+  \ MPU-9250 | agg:QFN-24-MPU9250 |  |  |  | \n| J1 | 1 | MICROUSB | MICROUSB | agg:MICROUSB_MOLEX_47589-0001\
+  \ |  |  |  | \n| J2 | 1 | WEST BOT | CONN_02x10 | agg:SFML-110-02-L-D-LC |  |  |\
+  \  | \n| J3 | 1 | WEST TOP | CONN_02x10 | agg:TFML-110-02-L-D |  |  |  | \n| J4\
+  \ | 1 | EAST BOT | CONN_02x10 | agg:SFML-110-02-L-D-LC |  |  |  | \n| J5 | 1 | EAST\
+  \ TOP | CONN_02x10 | agg:TFML-110-02-L-D |  |  |  | \n| R1, R2, R4 | 3 | 100 | R\
+  \ | agg:0402 |  |  |  | \n| R3, R6, R7, R8, R9 | 5 | 47K | R | agg:0603 |  |  |\
+  \  | \n| U2 | 1 | MICROSD-RESCUE-main | MICROSD-RESCUE-main | agg:MICROSD_MOLEX_503398-1892\
+  \ |  |  |  | \n| X1 | 1 | PART | PART | M3_IMU:cusf_logo_small |  |  |  | \n| Y1\
+  \ | 1 | 26M | SMD_XTAL | agg:XTAL-20x16 |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_m3_avionics_m3imu/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_m3_avionics_m3imu/current_version/working/working.kicad_pcb
@@ -6,6 +461,322 @@ file_repo_bom_xlsx_flat: projects/adamgreig_m3_avionics_m3imu/current_version/wo
 file_sch_flat: projects/adamgreig_m3_avionics_m3imu/current_version/working/working.sch
 id: adamgreig_m3_avionics_m3imu
 name: m3_avionics
+position_bottom:
+- '# Ref': J2
+  Package: SFML-110-02-L-D-LC
+  PosX: 85.0
+  PosY: -100.0
+  Rot: -90.0
+  Side: bottom
+  Val: WEST_BOT
+- '# Ref': J4
+  Package: SFML-110-02-L-D-LC
+  PosX: 115.0
+  PosY: -100.0
+  Rot: -90.0
+  Side: bottom
+  Val: EAST_BOT
+- '# Ref': U2
+  Package: MICROSD_MOLEX_503398-1892
+  PosX: 97.48
+  PosY: -91.97
+  Rot: 180.0
+  Side: bottom
+  Val: MICROSD-RESCUE-main
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J2 | WEST_BOT | SFML-110-02-L-D-LC\
+  \ | 85.0 | -100.0 | -90.0 | bottom | \n| J4 | EAST_BOT | SFML-110-02-L-D-LC | 115.0\
+  \ | -100.0 | -90.0 | bottom | \n| U2 | MICROSD-RESCUE-main | MICROSD_MOLEX_503398-1892\
+  \ | 97.48 | -91.97 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: '0402'
+  PosX: 95.25
+  PosY: -111.4
+  Rot: 90.0
+  Side: top
+  Val: 10p
+- '# Ref': C2
+  Package: '0402'
+  PosX: 97.405
+  PosY: -113.8665
+  Rot: 180.0
+  Side: top
+  Val: 10p
+- '# Ref': C3
+  Package: '0402'
+  PosX: 108.7
+  PosY: -106.4
+  Rot: 180.0
+  Side: top
+  Val: "4\xC2\xB57"
+- '# Ref': C4
+  Package: '0402'
+  PosX: 107.025
+  PosY: -97.05
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': C5
+  Package: '0402'
+  PosX: 91.75
+  PosY: -106.25
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': C6
+  Package: '0402'
+  PosX: 101.4411
+  PosY: -111.5651
+  Rot: 0.0
+  Side: top
+  Val: "1\xC2\xB5"
+- '# Ref': C7
+  Package: '0402'
+  PosX: 106.5
+  PosY: -106.4
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': C8
+  Package: '0402'
+  PosX: 94.7
+  PosY: -94.675
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': C9
+  Package: '0402'
+  PosX: 101.4411
+  PosY: -110.0651
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': C10
+  Package: '0402'
+  PosX: 96.0
+  PosY: -94.675
+  Rot: 90.0
+  Side: top
+  Val: "2\xC2\xB52"
+- '# Ref': C11
+  Package: '0402'
+  PosX: 107.0
+  PosY: -98.1
+  Rot: 0.0
+  Side: top
+  Val: "2\xC2\xB52"
+- '# Ref': C12
+  Package: '0402'
+  PosX: 91.25
+  PosY: -110.6
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': C13
+  Package: '0402'
+  PosX: 108.1
+  PosY: -92.2
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': C14
+  Package: '0402'
+  PosX: 108.1
+  PosY: -94.8
+  Rot: 180.0
+  Side: top
+  Val: 10n
+- '# Ref': C15
+  Package: '0402'
+  PosX: 108.7
+  PosY: -105.15
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': C16
+  Package: '0402'
+  PosX: 108.1
+  PosY: -93.5
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': C17
+  Package: '0402'
+  PosX: 95.675
+  PosY: -86.75
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': D1
+  Package: 0603-LED
+  PosX: 98.0
+  PosY: -117.6
+  Rot: 0.0
+  Side: top
+  Val: RED
+- '# Ref': D2
+  Package: SOT-666
+  PosX: 104.902
+  PosY: -110.49
+  Rot: 180.0
+  Side: top
+  Val: USBLC6-2P6
+- '# Ref': D3
+  Package: 0603-LED
+  PosX: 101.8
+  PosY: -117.6
+  Rot: 180.0
+  Side: top
+  Val: GRN
+- '# Ref': IC1
+  Package: LQFP-64
+  PosX: 99.0
+  PosY: -102.5
+  Rot: 90.0
+  Side: top
+  Val: STM32F405RxTx
+- '# Ref': IC2
+  Package: DFN-8-EP-MICROCHIP
+  PosX: 88.45
+  PosY: -110.5
+  Rot: 180.0
+  Side: top
+  Val: MCP2562
+- '# Ref': IC3
+  Package: MS5611
+  PosX: 108.05
+  PosY: -101.7
+  Rot: 180.0
+  Side: top
+  Val: MS5611-01BA03
+- '# Ref': IC4
+  Package: QFN-24-MPU9250
+  PosX: 105.0
+  PosY: -93.7
+  Rot: 90.0
+  Side: top
+  Val: MPU-9250
+- '# Ref': J1
+  Package: MICROUSB_MOLEX_47589-0001
+  PosX: 109.5594
+  PosY: -114.2051
+  Rot: 35.35
+  Side: top
+  Val: MICROUSB
+- '# Ref': J3
+  Package: TFML-110-02-L-D
+  PosX: 85.0
+  PosY: -100.0
+  Rot: -90.0
+  Side: top
+  Val: WEST_TOP
+- '# Ref': J5
+  Package: TFML-110-02-L-D
+  PosX: 115.0
+  PosY: -100.0
+  Rot: -90.0
+  Side: top
+  Val: EAST_TOP
+- '# Ref': R1
+  Package: '0402'
+  PosX: 99.705
+  PosY: -111.3665
+  Rot: 90.0
+  Side: top
+  Val: '100'
+- '# Ref': R2
+  Package: '0402'
+  PosX: 98.0
+  PosY: -116.2
+  Rot: 0.0
+  Side: top
+  Val: '100'
+- '# Ref': R3
+  Package: '0603'
+  PosX: 93.425
+  PosY: -87.55
+  Rot: -90.0
+  Side: top
+  Val: 47K
+- '# Ref': R4
+  Package: '0402'
+  PosX: 101.8
+  PosY: -116.2
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R6
+  Package: '0603'
+  PosX: 91.31
+  PosY: -87.57
+  Rot: -90.0
+  Side: top
+  Val: 47K
+- '# Ref': R7
+  Package: '0603'
+  PosX: 100.8
+  PosY: -87.5
+  Rot: -90.0
+  Side: top
+  Val: 47K
+- '# Ref': R8
+  Package: '0603'
+  PosX: 99.25
+  PosY: -87.5
+  Rot: -90.0
+  Side: top
+  Val: 47K
+- '# Ref': R9
+  Package: '0603'
+  PosX: 97.7
+  PosY: -87.5
+  Rot: -90.0
+  Side: top
+  Val: 47K
+- '# Ref': X1
+  Package: cusf_logo_small
+  PosX: 110.9
+  PosY: -100.0
+  Rot: 0.0
+  Side: top
+  Val: PART
+- '# Ref': Y1
+  Package: XTAL-20x16
+  PosX: 97.28
+  PosY: -111.3415
+  Rot: 0.0
+  Side: top
+  Val: 26M
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 10p | 0402 | 95.25 | -111.4 | 90.0\
+  \ | top | \n| C2 | 10p | 0402 | 97.405 | -113.8665 | 180.0 | top | \n| C3 | 4\xC2\
+  \xB57 | 0402 | 108.7 | -106.4 | 180.0 | top | \n| C4 | 100n | 0402 | 107.025 | -97.05\
+  \ | 180.0 | top | \n| C5 | 100n | 0402 | 91.75 | -106.25 | -90.0 | top | \n| C6\
+  \ | 1\xC2\xB5 | 0402 | 101.4411 | -111.5651 | 0.0 | top | \n| C7 | 100n | 0402 |\
+  \ 106.5 | -106.4 | 0.0 | top | \n| C8 | 100n | 0402 | 94.7 | -94.675 | -90.0 | top\
+  \ | \n| C9 | 100n | 0402 | 101.4411 | -110.0651 | 0.0 | top | \n| C10 | 2\xC2\xB5\
+  2 | 0402 | 96.0 | -94.675 | 90.0 | top | \n| C11 | 2\xC2\xB52 | 0402 | 107.0 | -98.1\
+  \ | 0.0 | top | \n| C12 | 100n | 0402 | 91.25 | -110.6 | -90.0 | top | \n| C13 |\
+  \ 100n | 0402 | 108.1 | -92.2 | 180.0 | top | \n| C14 | 10n | 0402 | 108.1 | -94.8\
+  \ | 180.0 | top | \n| C15 | 100n | 0402 | 108.7 | -105.15 | 0.0 | top | \n| C16\
+  \ | 100n | 0402 | 108.1 | -93.5 | 0.0 | top | \n| C17 | 100n | 0402 | 95.675 | -86.75\
+  \ | 180.0 | top | \n| D1 | RED | 0603-LED | 98.0 | -117.6 | 0.0 | top | \n| D2 |\
+  \ USBLC6-2P6 | SOT-666 | 104.902 | -110.49 | 180.0 | top | \n| D3 | GRN | 0603-LED\
+  \ | 101.8 | -117.6 | 180.0 | top | \n| IC1 | STM32F405RxTx | LQFP-64 | 99.0 | -102.5\
+  \ | 90.0 | top | \n| IC2 | MCP2562 | DFN-8-EP-MICROCHIP | 88.45 | -110.5 | 180.0\
+  \ | top | \n| IC3 | MS5611-01BA03 | MS5611 | 108.05 | -101.7 | 180.0 | top | \n\
+  | IC4 | MPU-9250 | QFN-24-MPU9250 | 105.0 | -93.7 | 90.0 | top | \n| J1 | MICROUSB\
+  \ | MICROUSB_MOLEX_47589-0001 | 109.5594 | -114.2051 | 35.35 | top | \n| J3 | WEST_TOP\
+  \ | TFML-110-02-L-D | 85.0 | -100.0 | -90.0 | top | \n| J5 | EAST_TOP | TFML-110-02-L-D\
+  \ | 115.0 | -100.0 | -90.0 | top | \n| R1 | 100 | 0402 | 99.705 | -111.3665 | 90.0\
+  \ | top | \n| R2 | 100 | 0402 | 98.0 | -116.2 | 0.0 | top | \n| R3 | 47K | 0603\
+  \ | 93.425 | -87.55 | -90.0 | top | \n| R4 | 100 | 0402 | 101.8 | -116.2 | 180.0\
+  \ | top | \n| R6 | 47K | 0603 | 91.31 | -87.57 | -90.0 | top | \n| R7 | 47K | 0603\
+  \ | 100.8 | -87.5 | -90.0 | top | \n| R8 | 47K | 0603 | 99.25 | -87.5 | -90.0 |\
+  \ top | \n| R9 | 47K | 0603 | 97.7 | -87.5 | -90.0 | top | \n| X1 | PART | cusf_logo_small\
+  \ | 110.9 | -100.0 | 0.0 | top | \n| Y1 | 26M | XTAL-20x16 | 97.28 | -111.3415 |\
+  \ 0.0 | top | \n"
 projects_flat: projects/adamgreig_m3_avionics_m3imu/current_version/working
 repo:
   allow_forking: true

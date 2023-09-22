@@ -1,9 +1,990 @@
 board: adafruit_neopixel_shield_v2
+bom:
+- Id: '1'
+  Designator: C28,C15,R1,C12,C11,C33,C17,C3,C27,C14,C20,C32,C6,C7,C26,C23,C8,C5,C24,C30,C29,C35,C18,C13,C1,C25,C2,C21,C34,C4,C22,C9,C16,C10,C19,C31
+  Footprint: _0805NO
+  Quantity: '36'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: '@HOLE3,@HOLE2,@HOLE0,@HOLE1'
+  Footprint: ''
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: Q1
+  Footprint: SOT23-WIDE
+  Quantity: '1'
+  Designation: IRLML6401
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: LED36,LED24,LED6,LED22,LED16,LED1,LED40,LED31,LED19,LED38,LED10,LED7,LED15,LED25,LED21,LED17,LED30,LED3,LED39,LED27,LED12,LED4,LED29,LED23,LED5,LED28,LED26,LED18,LED2,LED14,LED34,LED35,LED9,LED8,LED37,LED11,LED13,LED33,LED32,LED20
+  Footprint: WS2812B
+  Quantity: '40'
+  Designation: WS2812B5050
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: FID2,FID1,FID3
+  Footprint: FIDUCIAL_1MM
+  Quantity: '3'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U$1
+  Footprint: ADAFRUIT_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: SW1
+  Footprint: EVQ-Q2
+  Quantity: '1'
+  Designation: SPST_TACT-EVQQ2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: JP1
+  Footprint: 1X02_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: JP2
+  Footprint: 1X01-CLEANBIG
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U1
+  Footprint: ARDUINOR3-BPLACE
+  Quantity: '1'
+  Designation: ARDUINOR3-BPLACE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: J1
+  Footprint: 1X2-3.5MM
+  Quantity: '1'
+  Designation: 1X2-3.5MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: SJ1
+  Footprint: SOLDERJUMPER_CLOSEDWIRE
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U$2
+  Footprint: ADAFRUIT_TEXT_30MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C28,C15,R1,C12,C11,C33,C17,C3,C27,C14,C20,C32,C6,C7,C26,C23,C8,C5,C24,C30,C29,C35,C18,C13,C1,C25,C2,C21,C34,C4,C22,C9,C16,C10,C19,C31\
+  \ | _0805NO | 36 |  |  |  | [''] | \n| 2 | @HOLE3,@HOLE2,@HOLE0,@HOLE1 |  | 4 |\
+  \  |  |  | [''] | \n| 3 | Q1 | SOT23-WIDE | 1 | IRLML6401 |  |  | [''] | \n| 4 |\
+  \ LED36,LED24,LED6,LED22,LED16,LED1,LED40,LED31,LED19,LED38,LED10,LED7,LED15,LED25,LED21,LED17,LED30,LED3,LED39,LED27,LED12,LED4,LED29,LED23,LED5,LED28,LED26,LED18,LED2,LED14,LED34,LED35,LED9,LED8,LED37,LED11,LED13,LED33,LED32,LED20\
+  \ | WS2812B | 40 | WS2812B5050 |  |  | [''] | \n| 5 | FID2,FID1,FID3 | FIDUCIAL_1MM\
+  \ | 3 | FIDUCIAL\" |  |  | [''] | \n| 6 | U$1 | ADAFRUIT_5MM | 1 |  |  |  | ['']\
+  \ | \n| 7 | SW1 | EVQ-Q2 | 1 | SPST_TACT-EVQQ2 |  |  | [''] | \n| 8 | JP1 | 1X02_ROUND\
+  \ | 1 |  |  |  | [''] | \n| 9 | JP2 | 1X01-CLEANBIG | 1 |  |  |  | [''] | \n| 10\
+  \ | U1 | ARDUINOR3-BPLACE | 1 | ARDUINOR3-BPLACE |  |  | [''] | \n| 11 | J1 | 1X2-3.5MM\
+  \ | 1 | 1X2-3.5MM |  |  | [''] | \n| 12 | SJ1 | SOLDERJUMPER_CLOSEDWIRE | 1 |  |\
+  \  |  | [''] | \n| 13 | U$2 | ADAFRUIT_TEXT_30MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC_0805NO
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805NO
+  Qnty: '35'
+  Ref: C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16, C17,
+    C18, C19, C20, C21, C22, C23, C24, C25, C26, C27, C28, C29, C30, C31, C32, C33,
+    C34, C35
+  Value: CAP_CERAMIC_0805NO
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '3'
+  Ref: FID1, FID2, FID3
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: 1X2-3.5MM
+  DNP: ''
+  Description: ''
+  Footprint: working:1X2-3.5MM
+  Qnty: '1'
+  Ref: J1
+  Value: 1X2-3.5MM
+  Vendor: ''
+- Cmp name: HEADER-1X2ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X02_ROUND
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X2ROUND
+  Vendor: ''
+- Cmp name: PINHD-1X1CB
+  DNP: ''
+  Description: ''
+  Footprint: working:1X01-CLEANBIG
+  Qnty: '1'
+  Ref: JP2
+  Value: PINHD-1X1CB
+  Vendor: ''
+- Cmp name: WS2812B5050
+  DNP: ''
+  Description: ''
+  Footprint: working:WS2812B
+  Qnty: '40'
+  Ref: LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8, LED9, LED10, LED11, LED12,
+    LED13, LED14, LED15, LED16, LED17, LED18, LED19, LED20, LED21, LED22, LED23, LED24,
+    LED25, LED26, LED27, LED28, LED29, LED30, LED31, LED32, LED33, LED34, LED35, LED36,
+    LED37, LED38, LED39, LED40
+  Value: WS2812B5050
+  Vendor: ''
+- Cmp name: MOSFET-PWIDE
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-WIDE
+  Qnty: '1'
+  Ref: Q1
+  Value: IRLML6401
+  Vendor: ''
+- Cmp name: RESISTOR_0805NO
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805NO
+  Qnty: '1'
+  Ref: R1
+  Value: RESISTOR_0805NO
+  Vendor: ''
+- Cmp name: SOLDERJUMPERCLOSED
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_CLOSEDWIRE
+  Qnty: '1'
+  Ref: SJ1
+  Value: SOLDERJUMPERCLOSED
+  Vendor: ''
+- Cmp name: SPST_TACT-EVQQ2
+  DNP: ''
+  Description: ''
+  Footprint: working:EVQ-Q2
+  Qnty: '1'
+  Ref: SW1
+  Value: SPST_TACT-EVQQ2
+  Vendor: ''
+- Cmp name: ARDUINOR3-BPLACE
+  DNP: ''
+  Description: ''
+  Footprint: working:ARDUINOR3-BPLACE
+  Qnty: '1'
+  Ref: U1
+  Value: ARDUINOR3-BPLACE
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19,\
+  \ C20, C21, C22, C23, C24, C25, C26, C27, C28, C29, C30, C31, C32, C33, C34, C35\
+  \ | 35 | CAP_CERAMIC_0805NO | CAP_CERAMIC_0805NO | working:_0805NO |  |  |  | \n\
+  | FID1, FID2, FID3 | 3 | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM\
+  \ |  |  |  | \n| J1 | 1 | 1X2-3.5MM | 1X2-3.5MM | working:1X2-3.5MM |  |  |  | \n\
+  | JP1 | 1 | HEADER-1X2ROUND | HEADER-1X2ROUND | working:1X02_ROUND |  |  |  | \n\
+  | JP2 | 1 | PINHD-1X1CB | PINHD-1X1CB | working:1X01-CLEANBIG |  |  |  | \n| LED1,\
+  \ LED2, LED3, LED4, LED5, LED6, LED7, LED8, LED9, LED10, LED11, LED12, LED13, LED14,\
+  \ LED15, LED16, LED17, LED18, LED19, LED20, LED21, LED22, LED23, LED24, LED25, LED26,\
+  \ LED27, LED28, LED29, LED30, LED31, LED32, LED33, LED34, LED35, LED36, LED37, LED38,\
+  \ LED39, LED40 | 40 | WS2812B5050 | WS2812B5050 | working:WS2812B |  |  |  | \n\
+  | Q1 | 1 | IRLML6401 | MOSFET-PWIDE | working:SOT23-WIDE |  |  |  | \n| R1 | 1 |\
+  \ RESISTOR_0805NO | RESISTOR_0805NO | working:_0805NO |  |  |  | \n| SJ1 | 1 | SOLDERJUMPERCLOSED\
+  \ | SOLDERJUMPERCLOSED | working:SOLDERJUMPER_CLOSEDWIRE |  |  |  | \n| SW1 | 1\
+  \ | SPST_TACT-EVQQ2 | SPST_TACT-EVQQ2 | working:EVQ-Q2 |  |  |  | \n| U1 | 1 | ARDUINOR3-BPLACE\
+  \ | ARDUINOR3-BPLACE | working:ARDUINOR3-BPLACE |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_neopixel_shield_pcb_adafruit_neopixel_shield_v2/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_neopixel_shield_pcb_adafruit_neopixel_shield_v2/current_version/working/working.sch
 id: adafruit_adafruit_neopixel_shield_pcb_adafruit_neopixel_shield_v2
 name: adafruit_neopixel_shield_pcb
+position_bottom:
+- '# Ref': U$2
+  Package: ADAFRUIT_TEXT_30MM
+  PosX: 164.3761
+  PosY: -107.4166
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$2 | nan | ADAFRUIT_TEXT_30MM |\
+  \ 164.3761 | -107.4166 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 129.3241
+  PosY: -80.8736
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 128.0541
+  PosY: -129.1336
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE2'
+  Package: .nan
+  PosX: 180.6321
+  PosY: -80.8736
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE3'
+  Package: .nan
+  PosX: 180.6321
+  PosY: -129.1336
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: _0805NO
+  PosX: 130.5941
+  PosY: -86.7156
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C2
+  Package: _0805NO
+  PosX: 139.6111
+  PosY: -86.7156
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C3
+  Package: _0805NO
+  PosX: 148.5011
+  PosY: -86.7156
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C4
+  Package: _0805NO
+  PosX: 157.2641
+  PosY: -86.7156
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C5
+  Package: _0805NO
+  PosX: 166.2811
+  PosY: -86.7156
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C6
+  Package: _0805NO
+  PosX: 175.1711
+  PosY: -86.7156
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C7
+  Package: _0805NO
+  PosX: 121.8311
+  PosY: -86.7156
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C8
+  Package: _0805NO
+  PosX: 166.4081
+  PosY: -95.6056
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C9
+  Package: _0805NO
+  PosX: 175.4251
+  PosY: -95.6056
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C10
+  Package: _0805NO
+  PosX: 121.8311
+  PosY: -95.6056
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C11
+  Package: _0805NO
+  PosX: 157.5181
+  PosY: -95.6056
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C12
+  Package: _0805NO
+  PosX: 130.7211
+  PosY: -95.6056
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C13
+  Package: _0805NO
+  PosX: 139.6111
+  PosY: -95.6056
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C14
+  Package: _0805NO
+  PosX: 148.5011
+  PosY: -95.6056
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C15
+  Package: _0805NO
+  PosX: 130.7211
+  PosY: -104.4956
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C16
+  Package: _0805NO
+  PosX: 121.8311
+  PosY: -104.4956
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C17
+  Package: _0805NO
+  PosX: 139.6111
+  PosY: -104.4956
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C18
+  Package: _0805NO
+  PosX: 175.2981
+  PosY: -104.4956
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C19
+  Package: _0805NO
+  PosX: 148.5011
+  PosY: -104.4956
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C20
+  Package: _0805NO
+  PosX: 166.4081
+  PosY: -104.4956
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C21
+  Package: _0805NO
+  PosX: 157.5181
+  PosY: -104.4956
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C22
+  Package: _0805NO
+  PosX: 148.5011
+  PosY: -113.3856
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C23
+  Package: _0805NO
+  PosX: 121.8311
+  PosY: -113.3856
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C24
+  Package: _0805NO
+  PosX: 130.7211
+  PosY: -113.3856
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C25
+  Package: _0805NO
+  PosX: 139.6111
+  PosY: -113.3856
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C26
+  Package: _0805NO
+  PosX: 157.3911
+  PosY: -113.3856
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C27
+  Package: _0805NO
+  PosX: 166.4081
+  PosY: -113.3856
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C28
+  Package: _0805NO
+  PosX: 175.2981
+  PosY: -113.3856
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C29
+  Package: _0805NO
+  PosX: 166.4081
+  PosY: -122.2756
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C30
+  Package: _0805NO
+  PosX: 121.8311
+  PosY: -122.2756
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C31
+  Package: _0805NO
+  PosX: 130.7211
+  PosY: -122.2756
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C32
+  Package: _0805NO
+  PosX: 139.6111
+  PosY: -122.2756
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C33
+  Package: _0805NO
+  PosX: 148.5011
+  PosY: -122.2756
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C34
+  Package: _0805NO
+  PosX: 157.3911
+  PosY: -122.2756
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': C35
+  Package: _0805NO
+  PosX: 175.2981
+  PosY: -122.2756
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 162.3441
+  PosY: -129.1336
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 115.4811
+  PosY: -81.8896
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 179.3621
+  PosY: -83.1596
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': J1
+  Package: 1X2-3.5MM
+  PosX: 133.6421
+  PosY: -129.0066
+  Rot: 0.0
+  Side: top
+  Val: 1X2-3.5MM
+- '# Ref': JP1
+  Package: 1X02_ROUND
+  PosX: 124.4981
+  PosY: -80.1116
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X01-CLEANBIG
+  PosX: 176.3141
+  PosY: -126.4666
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': LED1
+  Package: WS2812B
+  PosX: 117.3861
+  PosY: -86.7156
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED2
+  Package: WS2812B
+  PosX: 126.2761
+  PosY: -86.7156
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED3
+  Package: WS2812B
+  PosX: 135.1661
+  PosY: -86.7156
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED4
+  Package: WS2812B
+  PosX: 144.0561
+  PosY: -86.7156
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED5
+  Package: WS2812B
+  PosX: 152.9461
+  PosY: -86.7156
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED6
+  Package: WS2812B
+  PosX: 161.8361
+  PosY: -86.7156
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED7
+  Package: WS2812B
+  PosX: 170.7261
+  PosY: -86.7156
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED8
+  Package: WS2812B
+  PosX: 179.6161
+  PosY: -86.7156
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED9
+  Package: WS2812B
+  PosX: 117.3861
+  PosY: -95.6056
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED10
+  Package: WS2812B
+  PosX: 126.2761
+  PosY: -95.6056
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED11
+  Package: WS2812B
+  PosX: 135.1661
+  PosY: -95.6056
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED12
+  Package: WS2812B
+  PosX: 144.0561
+  PosY: -95.6056
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED13
+  Package: WS2812B
+  PosX: 152.9461
+  PosY: -95.6056
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED14
+  Package: WS2812B
+  PosX: 161.8361
+  PosY: -95.6056
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED15
+  Package: WS2812B
+  PosX: 170.9801
+  PosY: -95.6056
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED16
+  Package: WS2812B
+  PosX: 179.6161
+  PosY: -95.6056
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED17
+  Package: WS2812B
+  PosX: 117.3861
+  PosY: -104.4956
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED18
+  Package: WS2812B
+  PosX: 126.2761
+  PosY: -104.4956
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED19
+  Package: WS2812B
+  PosX: 135.1661
+  PosY: -104.4956
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED20
+  Package: WS2812B
+  PosX: 144.0561
+  PosY: -104.4956
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED21
+  Package: WS2812B
+  PosX: 152.9461
+  PosY: -104.4956
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED22
+  Package: WS2812B
+  PosX: 161.8361
+  PosY: -104.4956
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED23
+  Package: WS2812B
+  PosX: 170.9801
+  PosY: -104.4956
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED24
+  Package: WS2812B
+  PosX: 179.6161
+  PosY: -104.4956
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED25
+  Package: WS2812B
+  PosX: 117.3861
+  PosY: -113.3856
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED26
+  Package: WS2812B
+  PosX: 126.2761
+  PosY: -113.3856
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED27
+  Package: WS2812B
+  PosX: 135.1661
+  PosY: -113.3856
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED28
+  Package: WS2812B
+  PosX: 144.0561
+  PosY: -113.3856
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED29
+  Package: WS2812B
+  PosX: 152.9461
+  PosY: -113.3856
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED30
+  Package: WS2812B
+  PosX: 161.8361
+  PosY: -113.3856
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED31
+  Package: WS2812B
+  PosX: 170.9801
+  PosY: -113.3856
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED32
+  Package: WS2812B
+  PosX: 179.6161
+  PosY: -113.3856
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED33
+  Package: WS2812B
+  PosX: 117.3861
+  PosY: -122.2756
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED34
+  Package: WS2812B
+  PosX: 126.2761
+  PosY: -122.2756
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED35
+  Package: WS2812B
+  PosX: 135.1661
+  PosY: -122.2756
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED36
+  Package: WS2812B
+  PosX: 144.0561
+  PosY: -122.2756
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED37
+  Package: WS2812B
+  PosX: 152.9461
+  PosY: -122.2756
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED38
+  Package: WS2812B
+  PosX: 161.8361
+  PosY: -122.2756
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED39
+  Package: WS2812B
+  PosX: 170.9801
+  PosY: -122.2756
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': LED40
+  Package: WS2812B
+  PosX: 179.6161
+  PosY: -122.2756
+  Rot: -90.0
+  Side: top
+  Val: WS2812B5050
+- '# Ref': Q1
+  Package: SOT23-WIDE
+  PosX: 138.9761
+  PosY: -128.7526
+  Rot: 90.0
+  Side: top
+  Val: IRLML6401
+- '# Ref': R1
+  Package: _0805NO
+  PosX: 119.9261
+  PosY: -80.1116
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ1
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 142.2781
+  PosY: -126.9746
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': SW1
+  Package: EVQ-Q2
+  PosX: 119.5451
+  PosY: -128.6256
+  Rot: 180.0
+  Side: top
+  Val: SPST_TACT-EVQQ2
+- '# Ref': U$1
+  Package: ADAFRUIT_5MM
+  PosX: 119.7991
+  PosY: -93.4466
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U1
+  Package: ARDUINOR3-BPLACE
+  PosX: 114.0841
+  PosY: -131.6736
+  Rot: 0.0
+  Side: top
+  Val: ARDUINOR3-BPLACE
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 129.3241 | -80.8736\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 128.0541 | -129.1336 | 0.0 | top | \n|\
+  \ @HOLE2 | nan | nan | 180.6321 | -80.8736 | 0.0 | top | \n| @HOLE3 | nan | nan\
+  \ | 180.6321 | -129.1336 | 0.0 | top | \n| C1 | nan | _0805NO | 130.5941 | -86.7156\
+  \ | 90.0 | top | \n| C2 | nan | _0805NO | 139.6111 | -86.7156 | 90.0 | top | \n\
+  | C3 | nan | _0805NO | 148.5011 | -86.7156 | 90.0 | top | \n| C4 | nan | _0805NO\
+  \ | 157.2641 | -86.7156 | 90.0 | top | \n| C5 | nan | _0805NO | 166.2811 | -86.7156\
+  \ | 90.0 | top | \n| C6 | nan | _0805NO | 175.1711 | -86.7156 | 90.0 | top | \n\
+  | C7 | nan | _0805NO | 121.8311 | -86.7156 | 90.0 | top | \n| C8 | nan | _0805NO\
+  \ | 166.4081 | -95.6056 | 90.0 | top | \n| C9 | nan | _0805NO | 175.4251 | -95.6056\
+  \ | 90.0 | top | \n| C10 | nan | _0805NO | 121.8311 | -95.6056 | 90.0 | top | \n\
+  | C11 | nan | _0805NO | 157.5181 | -95.6056 | 90.0 | top | \n| C12 | nan | _0805NO\
+  \ | 130.7211 | -95.6056 | 90.0 | top | \n| C13 | nan | _0805NO | 139.6111 | -95.6056\
+  \ | 90.0 | top | \n| C14 | nan | _0805NO | 148.5011 | -95.6056 | 90.0 | top | \n\
+  | C15 | nan | _0805NO | 130.7211 | -104.4956 | 90.0 | top | \n| C16 | nan | _0805NO\
+  \ | 121.8311 | -104.4956 | 90.0 | top | \n| C17 | nan | _0805NO | 139.6111 | -104.4956\
+  \ | 90.0 | top | \n| C18 | nan | _0805NO | 175.2981 | -104.4956 | 90.0 | top | \n\
+  | C19 | nan | _0805NO | 148.5011 | -104.4956 | 90.0 | top | \n| C20 | nan | _0805NO\
+  \ | 166.4081 | -104.4956 | 90.0 | top | \n| C21 | nan | _0805NO | 157.5181 | -104.4956\
+  \ | 90.0 | top | \n| C22 | nan | _0805NO | 148.5011 | -113.3856 | 90.0 | top | \n\
+  | C23 | nan | _0805NO | 121.8311 | -113.3856 | 90.0 | top | \n| C24 | nan | _0805NO\
+  \ | 130.7211 | -113.3856 | 90.0 | top | \n| C25 | nan | _0805NO | 139.6111 | -113.3856\
+  \ | 90.0 | top | \n| C26 | nan | _0805NO | 157.3911 | -113.3856 | 90.0 | top | \n\
+  | C27 | nan | _0805NO | 166.4081 | -113.3856 | 90.0 | top | \n| C28 | nan | _0805NO\
+  \ | 175.2981 | -113.3856 | 90.0 | top | \n| C29 | nan | _0805NO | 166.4081 | -122.2756\
+  \ | 90.0 | top | \n| C30 | nan | _0805NO | 121.8311 | -122.2756 | 90.0 | top | \n\
+  | C31 | nan | _0805NO | 130.7211 | -122.2756 | 90.0 | top | \n| C32 | nan | _0805NO\
+  \ | 139.6111 | -122.2756 | 90.0 | top | \n| C33 | nan | _0805NO | 148.5011 | -122.2756\
+  \ | 90.0 | top | \n| C34 | nan | _0805NO | 157.3911 | -122.2756 | 90.0 | top | \n\
+  | C35 | nan | _0805NO | 175.2981 | -122.2756 | 90.0 | top | \n| FID1 | FIDUCIAL\"\
+  \" | FIDUCIAL_1MM | 162.3441 | -129.1336 | 0.0 | top | \n| FID2 | FIDUCIAL\"\" |\
+  \ FIDUCIAL_1MM | 115.4811 | -81.8896 | 0.0 | top | \n| FID3 | FIDUCIAL\"\" | FIDUCIAL_1MM\
+  \ | 179.3621 | -83.1596 | 0.0 | top | \n| J1 | 1X2-3.5MM | 1X2-3.5MM | 133.6421\
+  \ | -129.0066 | 0.0 | top | \n| JP1 | nan | 1X02_ROUND | 124.4981 | -80.1116 | 0.0\
+  \ | top | \n| JP2 | nan | 1X01-CLEANBIG | 176.3141 | -126.4666 | 0.0 | top | \n\
+  | LED1 | WS2812B5050 | WS2812B | 117.3861 | -86.7156 | -90.0 | top | \n| LED2 |\
+  \ WS2812B5050 | WS2812B | 126.2761 | -86.7156 | -90.0 | top | \n| LED3 | WS2812B5050\
+  \ | WS2812B | 135.1661 | -86.7156 | -90.0 | top | \n| LED4 | WS2812B5050 | WS2812B\
+  \ | 144.0561 | -86.7156 | -90.0 | top | \n| LED5 | WS2812B5050 | WS2812B | 152.9461\
+  \ | -86.7156 | -90.0 | top | \n| LED6 | WS2812B5050 | WS2812B | 161.8361 | -86.7156\
+  \ | -90.0 | top | \n| LED7 | WS2812B5050 | WS2812B | 170.7261 | -86.7156 | -90.0\
+  \ | top | \n| LED8 | WS2812B5050 | WS2812B | 179.6161 | -86.7156 | -90.0 | top |\
+  \ \n| LED9 | WS2812B5050 | WS2812B | 117.3861 | -95.6056 | -90.0 | top | \n| LED10\
+  \ | WS2812B5050 | WS2812B | 126.2761 | -95.6056 | -90.0 | top | \n| LED11 | WS2812B5050\
+  \ | WS2812B | 135.1661 | -95.6056 | -90.0 | top | \n| LED12 | WS2812B5050 | WS2812B\
+  \ | 144.0561 | -95.6056 | -90.0 | top | \n| LED13 | WS2812B5050 | WS2812B | 152.9461\
+  \ | -95.6056 | -90.0 | top | \n| LED14 | WS2812B5050 | WS2812B | 161.8361 | -95.6056\
+  \ | -90.0 | top | \n| LED15 | WS2812B5050 | WS2812B | 170.9801 | -95.6056 | -90.0\
+  \ | top | \n| LED16 | WS2812B5050 | WS2812B | 179.6161 | -95.6056 | -90.0 | top\
+  \ | \n| LED17 | WS2812B5050 | WS2812B | 117.3861 | -104.4956 | -90.0 | top | \n\
+  | LED18 | WS2812B5050 | WS2812B | 126.2761 | -104.4956 | -90.0 | top | \n| LED19\
+  \ | WS2812B5050 | WS2812B | 135.1661 | -104.4956 | -90.0 | top | \n| LED20 | WS2812B5050\
+  \ | WS2812B | 144.0561 | -104.4956 | -90.0 | top | \n| LED21 | WS2812B5050 | WS2812B\
+  \ | 152.9461 | -104.4956 | -90.0 | top | \n| LED22 | WS2812B5050 | WS2812B | 161.8361\
+  \ | -104.4956 | -90.0 | top | \n| LED23 | WS2812B5050 | WS2812B | 170.9801 | -104.4956\
+  \ | -90.0 | top | \n| LED24 | WS2812B5050 | WS2812B | 179.6161 | -104.4956 | -90.0\
+  \ | top | \n| LED25 | WS2812B5050 | WS2812B | 117.3861 | -113.3856 | -90.0 | top\
+  \ | \n| LED26 | WS2812B5050 | WS2812B | 126.2761 | -113.3856 | -90.0 | top | \n\
+  | LED27 | WS2812B5050 | WS2812B | 135.1661 | -113.3856 | -90.0 | top | \n| LED28\
+  \ | WS2812B5050 | WS2812B | 144.0561 | -113.3856 | -90.0 | top | \n| LED29 | WS2812B5050\
+  \ | WS2812B | 152.9461 | -113.3856 | -90.0 | top | \n| LED30 | WS2812B5050 | WS2812B\
+  \ | 161.8361 | -113.3856 | -90.0 | top | \n| LED31 | WS2812B5050 | WS2812B | 170.9801\
+  \ | -113.3856 | -90.0 | top | \n| LED32 | WS2812B5050 | WS2812B | 179.6161 | -113.3856\
+  \ | -90.0 | top | \n| LED33 | WS2812B5050 | WS2812B | 117.3861 | -122.2756 | -90.0\
+  \ | top | \n| LED34 | WS2812B5050 | WS2812B | 126.2761 | -122.2756 | -90.0 | top\
+  \ | \n| LED35 | WS2812B5050 | WS2812B | 135.1661 | -122.2756 | -90.0 | top | \n\
+  | LED36 | WS2812B5050 | WS2812B | 144.0561 | -122.2756 | -90.0 | top | \n| LED37\
+  \ | WS2812B5050 | WS2812B | 152.9461 | -122.2756 | -90.0 | top | \n| LED38 | WS2812B5050\
+  \ | WS2812B | 161.8361 | -122.2756 | -90.0 | top | \n| LED39 | WS2812B5050 | WS2812B\
+  \ | 170.9801 | -122.2756 | -90.0 | top | \n| LED40 | WS2812B5050 | WS2812B | 179.6161\
+  \ | -122.2756 | -90.0 | top | \n| Q1 | IRLML6401 | SOT23-WIDE | 138.9761 | -128.7526\
+  \ | 90.0 | top | \n| R1 | nan | _0805NO | 119.9261 | -80.1116 | 0.0 | top | \n|\
+  \ SJ1 | nan | SOLDERJUMPER_CLOSEDWIRE | 142.2781 | -126.9746 | 0.0 | top | \n| SW1\
+  \ | SPST_TACT-EVQQ2 | EVQ-Q2 | 119.5451 | -128.6256 | 180.0 | top | \n| U$1 | nan\
+  \ | ADAFRUIT_5MM | 119.7991 | -93.4466 | 0.0 | top | \n| U1 | ARDUINOR3-BPLACE |\
+  \ ARDUINOR3-BPLACE | 114.0841 | -131.6736 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_neopixel_shield_pcb_adafruit_neopixel_shield_v2/current_version/working
 repo:
   allow_forking: true

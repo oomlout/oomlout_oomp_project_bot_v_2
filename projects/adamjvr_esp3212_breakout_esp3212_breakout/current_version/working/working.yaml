@@ -1,10 +1,331 @@
 board: esp3212_breakout
+bom:
+- Id: '1'
+  Designator: C1
+  Footprint: C0603
+  Quantity: '1'
+  Designation: CL10A106KQ8NNNC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C2
+  Footprint: C0402
+  Quantity: '1'
+  Designation: CL05B104JP5NNNC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U1
+  Footprint: AZ1117CR-3.3TRG1
+  Quantity: '1'
+  Designation: AZ1117CR-3.3TRG1_1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U2
+  Footprint: ESP3212
+  Quantity: '1'
+  Designation: ESP3212
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C3
+  Footprint: C0402
+  Quantity: '1'
+  Designation: GRM155R71C104KA88D
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: LED1
+  Footprint: LED0805Y
+  Quantity: '1'
+  Designation: 5988140107F
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: P1,P5
+  Footprint: Pin_Header_Straight_1x18
+  Quantity: '2'
+  Designation: CONN_01X18
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: P2,P3,P4
+  Footprint: Pin_Header_Straight_1x02
+  Quantity: '3'
+  Designation: CONN_01X02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R1,R2
+  Footprint: R0603
+  Quantity: '2'
+  Designation: ERJ-3EKF1001V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: SW1
+  Footprint: TL3301AF160QG
+  Quantity: '1'
+  Designation: TL3301AF160QG
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1\
+  \ | C0603 | 1 | CL10A106KQ8NNNC |  |  | [''] | \n| 2 | C2 | C0402 | 1 | CL05B104JP5NNNC\
+  \ |  |  | [''] | \n| 3 | U1 | AZ1117CR-3.3TRG1 | 1 | AZ1117CR-3.3TRG1_1 |  |  |\
+  \ [''] | \n| 4 | U2 | ESP3212 | 1 | ESP3212 |  |  | [''] | \n| 5 | C3 | C0402 |\
+  \ 1 | GRM155R71C104KA88D |  |  | [''] | \n| 6 | LED1 | LED0805Y | 1 | 5988140107F\
+  \ |  |  | [''] | \n| 7 | P1,P5 | Pin_Header_Straight_1x18 | 2 | CONN_01X18 |  |\
+  \  | [''] | \n| 8 | P2,P3,P4 | Pin_Header_Straight_1x02 | 3 | CONN_01X02 |  |  |\
+  \ [''] | \n| 9 | R1,R2 | R0603 | 2 | ERJ-3EKF1001V |  |  | [''] | \n| 10 | SW1 |\
+  \ TL3301AF160QG | 1 | TL3301AF160QG |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CL10A106KQ8NNNC
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:C0603
+  Qnty: '1'
+  Ref: C1
+  Value: CL10A106KQ8NNNC
+  Vendor: ''
+- Cmp name: CL05B104JP5NNNC
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:C0402
+  Qnty: '1'
+  Ref: C2
+  Value: CL05B104JP5NNNC
+  Vendor: ''
+- Cmp name: GRM155R71C104KA88D
+  DNP: ''
+  Description: ''
+  Footprint: OnHand-Components:C0402
+  Qnty: '1'
+  Ref: C3
+  Value: GRM155R71C104KA88D
+  Vendor: ''
+- Cmp name: 5988140107F
+  DNP: ''
+  Description: ''
+  Footprint: OnHand-Components:LED0805Y
+  Qnty: '1'
+  Ref: LED1
+  Value: 5988140107F
+  Vendor: ''
+- Cmp name: CONN_01X18
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x18
+  Qnty: '2'
+  Ref: P1, P5
+  Value: CONN_01X18
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x02
+  Qnty: '3'
+  Ref: P2, P3, P4
+  Value: CONN_01X02
+  Vendor: ''
+- Cmp name: ERJ-3EKF1001V
+  DNP: ''
+  Description: ''
+  Footprint: OnHand-Components:R0603
+  Qnty: '2'
+  Ref: R1, R2
+  Value: ERJ-3EKF1001V
+  Vendor: ''
+- Cmp name: TL3301AF160QG
+  DNP: ''
+  Description: ''
+  Footprint: OnHand-Components:TL3301AF160QG
+  Qnty: '1'
+  Ref: SW1
+  Value: TL3301AF160QG
+  Vendor: ''
+- Cmp name: AZ1117CR-3.3TRG1_1
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:AZ1117CR-3.3TRG1
+  Qnty: '1'
+  Ref: U1
+  Value: AZ1117CR-3.3TRG1_1
+  Vendor: ''
+- Cmp name: ESP3212
+  DNP: ''
+  Description: ''
+  Footprint: ESP32-footprints-Lib:ESP3212
+  Qnty: '1'
+  Ref: U2
+  Value: ESP3212
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | CL10A106KQ8NNNC | CL10A106KQ8NNNC | PCB_Footprints:C0603 |  |  |  | \n| C2\
+  \ | 1 | CL05B104JP5NNNC | CL05B104JP5NNNC | PCB_Footprints:C0402 |  |  |  | \n|\
+  \ C3 | 1 | GRM155R71C104KA88D | GRM155R71C104KA88D | OnHand-Components:C0402 | \
+  \ |  |  | \n| LED1 | 1 | 5988140107F | 5988140107F | OnHand-Components:LED0805Y\
+  \ |  |  |  | \n| P1, P5 | 2 | CONN_01X18 | CONN_01X18 | Pin_Headers:Pin_Header_Straight_1x18\
+  \ |  |  |  | \n| P2, P3, P4 | 3 | CONN_01X02 | CONN_01X02 | Pin_Headers:Pin_Header_Straight_1x02\
+  \ |  |  |  | \n| R1, R2 | 2 | ERJ-3EKF1001V | ERJ-3EKF1001V | OnHand-Components:R0603\
+  \ |  |  |  | \n| SW1 | 1 | TL3301AF160QG | TL3301AF160QG | OnHand-Components:TL3301AF160QG\
+  \ |  |  |  | \n| U1 | 1 | AZ1117CR-3.3TRG1_1 | AZ1117CR-3.3TRG1_1 | PCB_Footprints:AZ1117CR-3.3TRG1\
+  \ |  |  |  | \n| U2 | 1 | ESP3212 | ESP3212 | ESP32-footprints-Lib:ESP3212 |  |\
+  \  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamjvr_esp3212_breakout_esp3212_breakout/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamjvr_esp3212_breakout_esp3212_breakout/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adamjvr_esp3212_breakout_esp3212_breakout/current_version/working/working.sch
 id: adamjvr_esp3212_breakout_esp3212_breakout
 name: esp3212_breakout
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C0603
+  PosX: 105.791
+  PosY: -56.8964
+  Rot: 180.0
+  Side: top
+  Val: CL10A106KQ8NNNC
+- '# Ref': C2
+  Package: C0402
+  PosX: 109.5121
+  PosY: -62.5729
+  Rot: 0.0
+  Side: top
+  Val: CL05B104JP5NNNC
+- '# Ref': C3
+  Package: C0402
+  PosX: 107.467
+  PosY: -84.4554
+  Rot: 180.0
+  Side: top
+  Val: GRM155R71C104KA88D
+- '# Ref': LED1
+  Package: LED0805Y
+  PosX: 157.4403
+  PosY: -47.8133
+  Rot: 0.0
+  Side: top
+  Val: 5988140107F
+- '# Ref': P1
+  Package: Pin_Header_Straight_1x18
+  PosX: 133.02
+  PosY: -100.0
+  Rot: 180.0
+  Side: top
+  Val: CONN_01X18
+- '# Ref': P2
+  Package: Pin_Header_Straight_1x02
+  PosX: 114.808
+  PosY: -36.0684
+  Rot: 180.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': P3
+  Package: Pin_Header_Straight_1x02
+  PosX: 128.27
+  PosY: -34.4174
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': P4
+  Package: Pin_Header_Straight_1x02
+  PosX: 138.049
+  PosY: -34.6714
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': P5
+  Package: Pin_Header_Straight_1x18
+  PosX: 102.54
+  PosY: -100.0
+  Rot: 180.0
+  Side: top
+  Val: CONN_01X18
+- '# Ref': R1
+  Package: R0603
+  PosX: 128.524
+  PosY: -98.0444
+  Rot: 0.0
+  Side: top
+  Val: ERJ-3EKF1001V
+- '# Ref': R2
+  Package: R0603
+  PosX: 165.8608
+  PosY: -44.5113
+  Rot: 0.0
+  Side: top
+  Val: ERJ-3EKF1001V
+- '# Ref': SW1
+  Package: TL3301AF160QG
+  PosX: 150.622
+  PosY: -73.7874
+  Rot: 90.0
+  Side: top
+  Val: TL3301AF160QG
+- '# Ref': U1
+  Package: AZ1117CR-3.3TRG1
+  PosX: 107.2261
+  PosY: -60.5409
+  Rot: 180.0
+  Side: top
+  Val: AZ1117CR-3.3TRG1_1
+- '# Ref': U2
+  Package: ESP3212
+  PosX: 117.78
+  PosY: -95.0
+  Rot: 180.0
+  Side: top
+  Val: ESP3212
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | CL10A106KQ8NNNC | C0603 | 105.791\
+  \ | -56.8964 | 180.0 | top | \n| C2 | CL05B104JP5NNNC | C0402 | 109.5121 | -62.5729\
+  \ | 0.0 | top | \n| C3 | GRM155R71C104KA88D | C0402 | 107.467 | -84.4554 | 180.0\
+  \ | top | \n| LED1 | 5988140107F | LED0805Y | 157.4403 | -47.8133 | 0.0 | top |\
+  \ \n| P1 | CONN_01X18 | Pin_Header_Straight_1x18 | 133.02 | -100.0 | 180.0 | top\
+  \ | \n| P2 | CONN_01X02 | Pin_Header_Straight_1x02 | 114.808 | -36.0684 | 180.0\
+  \ | top | \n| P3 | CONN_01X02 | Pin_Header_Straight_1x02 | 128.27 | -34.4174 | 0.0\
+  \ | top | \n| P4 | CONN_01X02 | Pin_Header_Straight_1x02 | 138.049 | -34.6714 |\
+  \ 0.0 | top | \n| P5 | CONN_01X18 | Pin_Header_Straight_1x18 | 102.54 | -100.0 |\
+  \ 180.0 | top | \n| R1 | ERJ-3EKF1001V | R0603 | 128.524 | -98.0444 | 0.0 | top\
+  \ | \n| R2 | ERJ-3EKF1001V | R0603 | 165.8608 | -44.5113 | 0.0 | top | \n| SW1 |\
+  \ TL3301AF160QG | TL3301AF160QG | 150.622 | -73.7874 | 90.0 | top | \n| U1 | AZ1117CR-3.3TRG1_1\
+  \ | AZ1117CR-3.3TRG1 | 107.2261 | -60.5409 | 180.0 | top | \n| U2 | ESP3212 | ESP3212\
+  \ | 117.78 | -95.0 | 180.0 | top | \n"
 projects_flat: projects/adamjvr_esp3212_breakout_esp3212_breakout/current_version/working
 repo:
   allow_forking: true

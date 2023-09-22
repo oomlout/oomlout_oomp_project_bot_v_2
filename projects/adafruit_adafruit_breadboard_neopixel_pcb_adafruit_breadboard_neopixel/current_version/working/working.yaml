@@ -1,9 +1,218 @@
 board: adafruit_breadboard_neopixel
+bom:
+- Id: '1'
+  Designator: '@HOLE1,@HOLE0'
+  Footprint: ''
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: JP2,JP1
+  Footprint: 1X03-CLEANBIG
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: LED1
+  Footprint: WS28115050
+  Quantity: '1'
+  Designation: WS28115050
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R1
+  Footprint: R0603
+  Quantity: '1'
+  Designation: 1.0K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R3,R2
+  Footprint: R0603
+  Quantity: '2'
+  Designation: '22'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C1
+  Footprint: C0603K
+  Quantity: '1'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U$1
+  Footprint: ADAFRUIT_2.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | @HOLE1,@HOLE0\
+  \ |  | 2 |  |  |  | [''] | \n| 2 | JP2,JP1 | 1X03-CLEANBIG | 2 |  |  |  | [''] |\
+  \ \n| 3 | LED1 | WS28115050 | 1 | WS28115050 |  |  | [''] | \n| 4 | R1 | R0603 |\
+  \ 1 | 1.0K |  |  | [''] | \n| 5 | R3,R2 | R0603 | 2 | 22 |  |  | [''] | \n| 6 |\
+  \ C1 | C0603K | 1 | 1uF |  |  | [''] | \n| 7 | U$1 | ADAFRUIT_2.5MM | 1 |  |  |\
+  \  | [''] | \n"
+bom_schematic:
+- Cmp name: C-USC0603K
+  DNP: ''
+  Description: ''
+  Footprint: working:C0603K
+  Qnty: '1'
+  Ref: C1
+  Value: 1uF
+  Vendor: ''
+- Cmp name: PINHD-1X3CB
+  DNP: ''
+  Description: ''
+  Footprint: working:1X03-CLEANBIG
+  Qnty: '2'
+  Ref: JP1, JP2
+  Value: PINHD-1X3CB
+  Vendor: ''
+- Cmp name: WS28115050
+  DNP: ''
+  Description: ''
+  Footprint: working:WS28115050
+  Qnty: '1'
+  Ref: LED1
+  Value: WS28115050
+  Vendor: ''
+- Cmp name: R-US_R0603
+  DNP: ''
+  Description: ''
+  Footprint: working:R0603
+  Qnty: '1'
+  Ref: R1
+  Value: 1.0K
+  Vendor: ''
+- Cmp name: R-US_R0603
+  DNP: ''
+  Description: ''
+  Footprint: working:R0603
+  Qnty: '2'
+  Ref: R2, R3
+  Value: '22'
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 1uF | C-USC0603K | working:C0603K |  |  |  | \n| JP1, JP2 | 2 | PINHD-1X3CB\
+  \ | PINHD-1X3CB | working:1X03-CLEANBIG |  |  |  | \n| LED1 | 1 | WS28115050 | WS28115050\
+  \ | working:WS28115050 |  |  |  | \n| R1 | 1 | 1.0K | R-US_R0603 | working:R0603\
+  \ |  |  |  | \n| R2, R3 | 2 | 22 | R-US_R0603 | working:R0603 |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_breadboard_neopixel_pcb_adafruit_breadboard_neopixel/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_breadboard_neopixel_pcb_adafruit_breadboard_neopixel/current_version/working/working.sch
 id: adafruit_adafruit_breadboard_neopixel_pcb_adafruit_breadboard_neopixel
 name: adafruit_breadboard_neopixel_pcb
+position_bottom:
+- '# Ref': U$1
+  Package: ADAFRUIT_2.5MM
+  PosX: 152.1841
+  PosY: -103.3526
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$1 | nan | ADAFRUIT_2.5MM | 152.1841\
+  \ | -103.3526 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 148.5011
+  PosY: -101.1936
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 148.5011
+  PosY: -108.8136
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: C0603K
+  PosX: 151.4221
+  PosY: -101.0666
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': JP1
+  Package: 1X03-CLEANBIG
+  PosX: 143.4211
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X03-CLEANBIG
+  PosX: 153.5811
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': LED1
+  Package: WS28115050
+  PosX: 148.5011
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: WS28115050
+- '# Ref': R1
+  Package: R0603
+  PosX: 145.5801
+  PosY: -101.0666
+  Rot: 180.0
+  Side: top
+  Val: 1.0K
+- '# Ref': R2
+  Package: R0603
+  PosX: 151.4221
+  PosY: -108.9406
+  Rot: 0.0
+  Side: top
+  Val: '22'
+- '# Ref': R3
+  Package: R0603
+  PosX: 145.5801
+  PosY: -108.9406
+  Rot: 180.0
+  Side: top
+  Val: '22'
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 148.5011 | -101.1936\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 148.5011 | -108.8136 | 0.0 | top | \n|\
+  \ C1 | 1uF | C0603K | 151.4221 | -101.0666 | 0.0 | top | \n| JP1 | nan | 1X03-CLEANBIG\
+  \ | 143.4211 | -105.0036 | 90.0 | top | \n| JP2 | nan | 1X03-CLEANBIG | 153.5811\
+  \ | -105.0036 | -90.0 | top | \n| LED1 | WS28115050 | WS28115050 | 148.5011 | -105.0036\
+  \ | 0.0 | top | \n| R1 | 1.0K | R0603 | 145.5801 | -101.0666 | 180.0 | top | \n\
+  | R2 | 22 | R0603 | 151.4221 | -108.9406 | 0.0 | top | \n| R3 | 22 | R0603 | 145.5801\
+  \ | -108.9406 | 180.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_breadboard_neopixel_pcb_adafruit_breadboard_neopixel/current_version/working
 repo:
   allow_forking: true

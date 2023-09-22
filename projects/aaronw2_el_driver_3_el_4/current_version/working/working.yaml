@@ -1,4 +1,150 @@
 board: el_4
+bom:
+- Id: '1'
+  Designator: C1
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 2.2uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C2
+  Footprint: C_1206_3216Metric
+  Quantity: '1'
+  Designation: 0.015uF 250V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: D1
+  Footprint: SOT-23
+  Quantity: '1'
+  Designation: BAS20
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J1
+  Footprint: JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R1,R2
+  Footprint: R_0603_1608Metric
+  Quantity: '2'
+  Designation: 1M
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R3
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 309K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R4
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 1.69M
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U1
+  Footprint: DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm
+  Quantity: '1'
+  Designation: MIC4832
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: L1
+  Footprint: L_Bourns_SRN8040TA
+  Quantity: '1'
+  Designation: 220uH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: J2
+  Footprint: JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x03
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: Q1,Q2
+  Footprint: SOT-23
+  Quantity: '2'
+  Designation: BSS138
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: R5
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: C3
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1\
+  \ | C_0603_1608Metric | 1 | 2.2uF |  |  | [''] | \n| 2 | C2 | C_1206_3216Metric\
+  \ | 1 | 0.015uF 250V |  |  | [''] | \n| 3 | D1 | SOT-23 | 1 | BAS20 |  |  | ['']\
+  \ | \n| 4 | J1 | JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical | 1 | Conn_01x02 |  |  |\
+  \ [''] | \n| 5 | R1,R2 | R_0603_1608Metric | 2 | 1M |  |  | [''] | \n| 6 | R3 |\
+  \ R_0603_1608Metric | 1 | 309K |  |  | [''] | \n| 7 | R4 | R_0603_1608Metric | 1\
+  \ | 1.69M |  |  | [''] | \n| 8 | U1 | DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm | 1 |\
+  \ MIC4832 |  |  | [''] | \n| 9 | L1 | L_Bourns_SRN8040TA | 1 | 220uH |  |  | ['']\
+  \ | \n| 10 | J2 | JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical | 1 | Conn_01x03 |  |  |\
+  \ [''] | \n| 11 | Q1,Q2 | SOT-23 | 2 | BSS138 |  |  | [''] | \n| 12 | R5 | R_0603_1608Metric\
+  \ | 1 | 1K |  |  | [''] | \n| 13 | C3 | C_0603_1608Metric | 1 | 10uF |  |  | ['']\
+  \ | \n"
+bom_schematic: []
+bom_schematic_markdown: no data
 counter: 1
 file_kicad_pcb_flat: projects/aaronw2_el_driver_3_el_4/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/aaronw2_el_driver_3_el_4/current_version/working/working.kicad_pcb
@@ -6,6 +152,129 @@ file_repo_bom_csv_flat: projects/aaronw2_el_driver_3_el_4/current_version/workin
 file_sch_flat: projects/aaronw2_el_driver_3_el_4/current_version/working/working.sch
 id: aaronw2_el_driver_3_el_4
 name: el_driver_3
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_0603_1608Metric
+  PosX: 90.3
+  PosY: -52.4
+  Rot: 0.0
+  Side: top
+  Val: 2.2uF
+- '# Ref': C2
+  Package: C_1206_3216Metric
+  PosX: 91.05
+  PosY: -61.6
+  Rot: 180.0
+  Side: top
+  Val: 0.015uF_250V
+- '# Ref': C3
+  Package: C_0603_1608Metric
+  PosX: 77.55
+  PosY: -60.85
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': D1
+  Package: SOT-23
+  PosX: 90.9
+  PosY: -58.65
+  Rot: 0.0
+  Side: top
+  Val: BAS20
+- '# Ref': J1
+  Package: JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical
+  PosX: 96.7
+  PosY: -54.9
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J2
+  Package: JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical
+  PosX: 72.7
+  PosY: -59.65
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x03
+- '# Ref': L1
+  Package: L_Bourns_SRN8040TA
+  PosX: 83.0
+  PosY: -58.5
+  Rot: 0.0
+  Side: top
+  Val: 220uH
+- '# Ref': Q1
+  Package: SOT-23
+  PosX: 81.85
+  PosY: -52.4
+  Rot: 0.0
+  Side: top
+  Val: BSS138
+- '# Ref': Q2
+  Package: SOT-23
+  PosX: 78.4
+  PosY: -52.4
+  Rot: 0.0
+  Side: top
+  Val: BSS138
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 77.7
+  PosY: -55.7
+  Rot: -90.0
+  Side: top
+  Val: 1M
+- '# Ref': R2
+  Package: R_0603_1608Metric
+  PosX: 84.45
+  PosY: -52.55
+  Rot: -90.0
+  Side: top
+  Val: 1M
+- '# Ref': R3
+  Package: R_0603_1608Metric
+  PosX: 87.0
+  PosY: -50.4
+  Rot: 180.0
+  Side: top
+  Val: 309K
+- '# Ref': R4
+  Package: R_0603_1608Metric
+  PosX: 87.0
+  PosY: -53.45
+  Rot: 180.0
+  Side: top
+  Val: 1.69M
+- '# Ref': R5
+  Package: R_0603_1608Metric
+  PosX: 87.0
+  PosY: -51.9
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': U1
+  Package: DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm
+  PosX: 90.8
+  PosY: -55.05
+  Rot: 0.0
+  Side: top
+  Val: MIC4832
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 2.2uF | C_0603_1608Metric | 90.3\
+  \ | -52.4 | 0.0 | top | \n| C2 | 0.015uF_250V | C_1206_3216Metric | 91.05 | -61.6\
+  \ | 180.0 | top | \n| C3 | 10uF | C_0603_1608Metric | 77.55 | -60.85 | -90.0 | top\
+  \ | \n| D1 | BAS20 | SOT-23 | 90.9 | -58.65 | 0.0 | top | \n| J1 | Conn_01x02 |\
+  \ JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical | 96.7 | -54.9 | -90.0 | top | \n| J2 |\
+  \ Conn_01x03 | JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical | 72.7 | -59.65 | 90.0 | top\
+  \ | \n| L1 | 220uH | L_Bourns_SRN8040TA | 83.0 | -58.5 | 0.0 | top | \n| Q1 | BSS138\
+  \ | SOT-23 | 81.85 | -52.4 | 0.0 | top | \n| Q2 | BSS138 | SOT-23 | 78.4 | -52.4\
+  \ | 0.0 | top | \n| R1 | 1M | R_0603_1608Metric | 77.7 | -55.7 | -90.0 | top | \n\
+  | R2 | 1M | R_0603_1608Metric | 84.45 | -52.55 | -90.0 | top | \n| R3 | 309K | R_0603_1608Metric\
+  \ | 87.0 | -50.4 | 180.0 | top | \n| R4 | 1.69M | R_0603_1608Metric | 87.0 | -53.45\
+  \ | 180.0 | top | \n| R5 | 1K | R_0603_1608Metric | 87.0 | -51.9 | 180.0 | top |\
+  \ \n| U1 | MIC4832 | DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm | 90.8 | -55.05 | 0.0\
+  \ | top | \n"
 projects_flat: projects/aaronw2_el_driver_3_el_4/current_version/working
 repo:
   allow_forking: true

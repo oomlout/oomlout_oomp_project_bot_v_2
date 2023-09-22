@@ -1,9 +1,321 @@
 board: pigrrl_buttonpcb
+bom:
+- Id: '1'
+  Designator: '@HOLE2,@HOLE0,@HOLE1,@HOLE3'
+  Footprint: ''
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: LEFT0,START0,SELECT0,DOWN0,B0,A0,RIGHT0,Y0,X0,UP0
+  Footprint: B3F-10XX
+  Quantity: '10'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: BUMPERS0
+  Footprint: 1X04
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: POWER0
+  Footprint: 1X02
+  Quantity: '1'
+  Designation: 5V GND
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: HEADER0
+  Footprint: 2X20
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | @HOLE2,@HOLE0,@HOLE1,@HOLE3\
+  \ |  | 4 |  |  |  | [''] | \n| 2 | LEFT0,START0,SELECT0,DOWN0,B0,A0,RIGHT0,Y0,X0,UP0\
+  \ | B3F-10XX | 10 |  |  |  | [''] | \n| 3 | BUMPERS0 | 1X04 | 1 |  |  |  | ['']\
+  \ | \n| 4 | POWER0 | 1X02 | 1 | 5V GND |  |  | [''] | \n| 5 | HEADER0 | 2X20 | 1\
+  \ |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: 10-XX
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-10XX
+  Qnty: '1'
+  Ref: A0
+  Value: 10-XX
+  Vendor: ''
+- Cmp name: 10-XX
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-10XX
+  Qnty: '1'
+  Ref: B0
+  Value: 10-XX
+  Vendor: ''
+- Cmp name: PINHD-1X4
+  DNP: ''
+  Description: ''
+  Footprint: working:1X04
+  Qnty: '1'
+  Ref: BUMPERS0
+  Value: PINHD-1X4
+  Vendor: ''
+- Cmp name: 10-XX
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-10XX
+  Qnty: '1'
+  Ref: DOWN0
+  Value: 10-XX
+  Vendor: ''
+- Cmp name: PINHD-2X20
+  DNP: ''
+  Description: ''
+  Footprint: working:2X20
+  Qnty: '1'
+  Ref: HEADER0
+  Value: PINHD-2X20
+  Vendor: ''
+- Cmp name: 10-XX
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-10XX
+  Qnty: '1'
+  Ref: LEFT0
+  Value: 10-XX
+  Vendor: ''
+- Cmp name: PINHD-1X2
+  DNP: ''
+  Description: ''
+  Footprint: working:1X02
+  Qnty: '1'
+  Ref: POWER0
+  Value: 5V GND
+  Vendor: ''
+- Cmp name: 10-XX
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-10XX
+  Qnty: '1'
+  Ref: RIGHT0
+  Value: 10-XX
+  Vendor: ''
+- Cmp name: 10-XX
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-10XX
+  Qnty: '1'
+  Ref: SELECT0
+  Value: 10-XX
+  Vendor: ''
+- Cmp name: 10-XX
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-10XX
+  Qnty: '1'
+  Ref: START0
+  Value: 10-XX
+  Vendor: ''
+- Cmp name: 10-XX
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-10XX
+  Qnty: '1'
+  Ref: UP0
+  Value: 10-XX
+  Vendor: ''
+- Cmp name: 10-XX
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-10XX
+  Qnty: '1'
+  Ref: X0
+  Value: 10-XX
+  Vendor: ''
+- Cmp name: 10-XX
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-10XX
+  Qnty: '1'
+  Ref: Y0
+  Value: 10-XX
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| A0 |\
+  \ 1 | 10-XX | 10-XX | working:B3F-10XX |  |  |  | \n| B0 | 1 | 10-XX | 10-XX | working:B3F-10XX\
+  \ |  |  |  | \n| BUMPERS0 | 1 | PINHD-1X4 | PINHD-1X4 | working:1X04 |  |  |  |\
+  \ \n| DOWN0 | 1 | 10-XX | 10-XX | working:B3F-10XX |  |  |  | \n| HEADER0 | 1 |\
+  \ PINHD-2X20 | PINHD-2X20 | working:2X20 |  |  |  | \n| LEFT0 | 1 | 10-XX | 10-XX\
+  \ | working:B3F-10XX |  |  |  | \n| POWER0 | 1 | 5V GND | PINHD-1X2 | working:1X02\
+  \ |  |  |  | \n| RIGHT0 | 1 | 10-XX | 10-XX | working:B3F-10XX |  |  |  | \n| SELECT0\
+  \ | 1 | 10-XX | 10-XX | working:B3F-10XX |  |  |  | \n| START0 | 1 | 10-XX | 10-XX\
+  \ | working:B3F-10XX |  |  |  | \n| UP0 | 1 | 10-XX | 10-XX | working:B3F-10XX |\
+  \  |  |  | \n| X0 | 1 | 10-XX | 10-XX | working:B3F-10XX |  |  |  | \n| Y0 | 1 |\
+  \ 10-XX | 10-XX | working:B3F-10XX |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_pigrrl_pcb_pigrrl_buttonpcb/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_pigrrl_pcb_pigrrl_buttonpcb/current_version/working/working.sch
 id: adafruit_adafruit_pigrrl_pcb_pigrrl_buttonpcb
 name: adafruit_pigrrl_pcb
+position_bottom:
+- '# Ref': HEADER0
+  Package: 2X20
+  PosX: 148.5011
+  PosY: -121.0036
+  Rot: 0.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| HEADER0 | nan | 2X20 | 148.5011\
+  \ | -121.0036 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 109.5011
+  PosY: -84.5036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 109.5011
+  PosY: -125.5036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE2'
+  Package: .nan
+  PosX: 187.5011
+  PosY: -125.5036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE3'
+  Package: .nan
+  PosX: 187.5011
+  PosY: -84.5036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': A0
+  Package: B3F-10XX
+  PosX: 183.0011
+  PosY: -98.5036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': B0
+  Package: B3F-10XX
+  PosX: 176.0011
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': BUMPERS0
+  Package: 1X04
+  PosX: 183.0011
+  PosY: -121.0036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': DOWN0
+  Package: B3F-10XX
+  PosX: 120.0011
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': LEFT0
+  Package: B3F-10XX
+  PosX: 112.5011
+  PosY: -98.5036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': POWER0
+  Package: 1X02
+  PosX: 116.0011
+  PosY: -121.0036
+  Rot: 0.0
+  Side: top
+  Val: 5V_GND
+- '# Ref': RIGHT0
+  Package: B3F-10XX
+  PosX: 127.5011
+  PosY: -98.5036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': SELECT0
+  Package: B3F-10XX
+  PosX: 142.5011
+  PosY: -105.5036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': START0
+  Package: B3F-10XX
+  PosX: 153.5011
+  PosY: -105.5036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': UP0
+  Package: B3F-10XX
+  PosX: 120.0011
+  PosY: -92.0036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': X0
+  Package: B3F-10XX
+  PosX: 176.0011
+  PosY: -92.0036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': Y0
+  Package: B3F-10XX
+  PosX: 169.0011
+  PosY: -98.5036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 109.5011 | -84.5036\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 109.5011 | -125.5036 | 0.0 | top | \n|\
+  \ @HOLE2 | nan | nan | 187.5011 | -125.5036 | 0.0 | top | \n| @HOLE3 | nan | nan\
+  \ | 187.5011 | -84.5036 | 0.0 | top | \n| A0 | nan | B3F-10XX | 183.0011 | -98.5036\
+  \ | 90.0 | top | \n| B0 | nan | B3F-10XX | 176.0011 | -105.0036 | 90.0 | top | \n\
+  | BUMPERS0 | nan | 1X04 | 183.0011 | -121.0036 | 0.0 | top | \n| DOWN0 | nan | B3F-10XX\
+  \ | 120.0011 | -105.0036 | 90.0 | top | \n| LEFT0 | nan | B3F-10XX | 112.5011 |\
+  \ -98.5036 | 90.0 | top | \n| POWER0 | 5V_GND | 1X02 | 116.0011 | -121.0036 | 0.0\
+  \ | top | \n| RIGHT0 | nan | B3F-10XX | 127.5011 | -98.5036 | 90.0 | top | \n| SELECT0\
+  \ | nan | B3F-10XX | 142.5011 | -105.5036 | 0.0 | top | \n| START0 | nan | B3F-10XX\
+  \ | 153.5011 | -105.5036 | 0.0 | top | \n| UP0 | nan | B3F-10XX | 120.0011 | -92.0036\
+  \ | 90.0 | top | \n| X0 | nan | B3F-10XX | 176.0011 | -92.0036 | 90.0 | top | \n\
+  | Y0 | nan | B3F-10XX | 169.0011 | -98.5036 | 90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_pigrrl_pcb_pigrrl_buttonpcb/current_version/working
 repo:
   allow_forking: true

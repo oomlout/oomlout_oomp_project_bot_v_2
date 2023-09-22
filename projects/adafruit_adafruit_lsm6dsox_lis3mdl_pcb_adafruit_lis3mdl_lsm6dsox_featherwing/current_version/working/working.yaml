@@ -1,9 +1,568 @@
 board: adafruit_lis3mdl_lsm6dsox_featherwing
+bom:
+- Id: '1'
+  Designator: U$35
+  Footprint: LGA-14L
+  Quantity: '1'
+  Designation: LSM6DSOX
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R4,R1,R2,R5,R7,R3
+  Footprint: 0603-NO
+  Quantity: '6'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: JP2
+  Footprint: 1X12_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: CONN4
+  Footprint: JST_SH4
+  Quantity: '1'
+  Designation: STEMMA_I2C_QT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C4,C1
+  Footprint: 0603-NO
+  Quantity: '2'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C2
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: FID1,FID2
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U$51
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: IC1
+  Footprint: LGA12_2X2MM
+  Quantity: '1'
+  Designation: LIS3MDL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: SW1
+  Footprint: BTN_KMR2_4.6X2.8
+  Quantity: '1'
+  Designation: KMR2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: JP4,JP1,MAG_HDR0
+  Footprint: 1X04_ROUND
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: MS1
+  Footprint: FEATHERWING
+  Quantity: '1'
+  Designation: FEATHERWING
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U$50
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: C5
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: JP3
+  Footprint: 1X16_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: SJ1,SJ2
+  Footprint: SOLDERJUMPER_ARROW_NOPASTE
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: U$31
+  Footprint: STEMMAQT
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: U$13
+  Footprint: FEATHERLOGO_MED
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U$35\
+  \ | LGA-14L | 1 | LSM6DSOX |  |  | [''] | \n| 2 | R4,R1,R2,R5,R7,R3 | 0603-NO |\
+  \ 6 | 10K |  |  | [''] | \n| 3 | JP2 | 1X12_ROUND | 1 |  |  |  | [''] | \n| 4 |\
+  \ CONN4 | JST_SH4 | 1 | STEMMA_I2C_QT |  |  | [''] | \n| 5 | C4,C1 | 0603-NO | 2\
+  \ | 0.1uF |  |  | [''] | \n| 6 | C2 | 0805-NO | 1 | 10uF |  |  | [''] | \n| 7 |\
+  \ FID1,FID2 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | [''] | \n| 8 | U$51 | PCBFEAT-REV-040\
+  \ | 1 |  |  |  | [''] | \n| 9 | IC1 | LGA12_2X2MM | 1 | LIS3MDL |  |  | [''] | \n\
+  | 10 | SW1 | BTN_KMR2_4.6X2.8 | 1 | KMR2 |  |  | [''] | \n| 11 | JP4,JP1,MAG_HDR0\
+  \ | 1X04_ROUND | 3 |  |  |  | [''] | \n| 12 | MS1 | FEATHERWING | 1 | FEATHERWING\
+  \ |  |  | [''] | \n| 13 | U$50 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n| 14 | C5\
+  \ | 0603-NO | 1 | 1uF |  |  | [''] | \n| 15 | JP3 | 1X16_ROUND | 1 |  |  |  | ['']\
+  \ | \n| 16 | SJ1,SJ2 | SOLDERJUMPER_ARROW_NOPASTE | 2 |  |  |  | [''] | \n| 17 |\
+  \ U$31 | STEMMAQT | 1 |  |  |  | [''] | \n| 18 | U$13 | FEATHERLOGO_MED | 1 |  |\
+  \  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: C1, C4
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C2
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: C5
+  Value: 1uF
+  Vendor: ''
+- Cmp name: STEMMA_I2C_QT
+  DNP: ''
+  Description: ''
+  Footprint: working:JST_SH4
+  Qnty: '1'
+  Ref: CONN4
+  Value: STEMMA_I2C_QT
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: LIS3MDL
+  DNP: ''
+  Description: ''
+  Footprint: working:LGA12_2X2MM
+  Qnty: '1'
+  Ref: IC1
+  Value: LIS3MDL
+  Vendor: ''
+- Cmp name: HEADER-1X4ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X04_ROUND
+  Qnty: '2'
+  Ref: JP1, JP4
+  Value: HEADER-1X4ROUND
+  Vendor: ''
+- Cmp name: HEADER-1X12
+  DNP: ''
+  Description: ''
+  Footprint: working:1X12_ROUND
+  Qnty: '1'
+  Ref: JP2
+  Value: HEADER-1X12
+  Vendor: ''
+- Cmp name: HEADER-1X16ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X16_ROUND
+  Qnty: '1'
+  Ref: JP3
+  Value: HEADER-1X16ROUND
+  Vendor: ''
+- Cmp name: HEADER-1X4ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X04_ROUND
+  Qnty: '1'
+  Ref: MAG_HDR0
+  Value: HEADER-1X4ROUND
+  Vendor: ''
+- Cmp name: FEATHERWING
+  DNP: ''
+  Description: ''
+  Footprint: working:FEATHERWING
+  Qnty: '1'
+  Ref: MS1
+  Value: FEATHERWING
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '6'
+  Ref: R1, R2, R3, R4, R5, R7
+  Value: 10K
+  Vendor: ''
+- Cmp name: SOLDERJUMPER
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_ARROW_NOPASTE
+  Qnty: '2'
+  Ref: SJ1, SJ2
+  Value: SOLDERJUMPER
+  Vendor: ''
+- Cmp name: SWITCH_TACT_SMT4.6X2.8
+  DNP: ''
+  Description: ''
+  Footprint: working:BTN_KMR2_4.6X2.8
+  Qnty: '1'
+  Ref: SW1
+  Value: KMR2
+  Vendor: ''
+- Cmp name: LSM6DSOX
+  DNP: ''
+  Description: ''
+  Footprint: working:LGA-14L
+  Qnty: '1'
+  Ref: U$35
+  Value: LSM6DSOX
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C4\
+  \ | 2 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| C2 | 1 | 10uF\
+  \ | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C5 | 1 | 1uF | CAP_CERAMIC0603_NO\
+  \ | working:0603-NO |  |  |  | \n| CONN4 | 1 | STEMMA_I2C_QT | STEMMA_I2C_QT | working:JST_SH4\
+  \ |  |  |  | \n| FID1, FID2 | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM\
+  \ |  |  |  | \n| IC1 | 1 | LIS3MDL | LIS3MDL | working:LGA12_2X2MM |  |  |  | \n\
+  | JP1, JP4 | 2 | HEADER-1X4ROUND | HEADER-1X4ROUND | working:1X04_ROUND |  |  |\
+  \  | \n| JP2 | 1 | HEADER-1X12 | HEADER-1X12 | working:1X12_ROUND |  |  |  | \n\
+  | JP3 | 1 | HEADER-1X16ROUND | HEADER-1X16ROUND | working:1X16_ROUND |  |  |  |\
+  \ \n| MAG_HDR0 | 1 | HEADER-1X4ROUND | HEADER-1X4ROUND | working:1X04_ROUND |  |\
+  \  |  | \n| MS1 | 1 | FEATHERWING | FEATHERWING | working:FEATHERWING |  |  |  |\
+  \ \n| R1, R2, R3, R4, R5, R7 | 6 | 10K | RESISTOR_0603_NOOUT | working:0603-NO |\
+  \  |  |  | \n| SJ1, SJ2 | 2 | SOLDERJUMPER | SOLDERJUMPER | working:SOLDERJUMPER_ARROW_NOPASTE\
+  \ |  |  |  | \n| SW1 | 1 | KMR2 | SWITCH_TACT_SMT4.6X2.8 | working:BTN_KMR2_4.6X2.8\
+  \ |  |  |  | \n| U$35 | 1 | LSM6DSOX | LSM6DSOX | working:LGA-14L |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_lsm6dsox_lis3mdl_pcb_adafruit_lis3mdl_lsm6dsox_featherwing/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_lsm6dsox_lis3mdl_pcb_adafruit_lis3mdl_lsm6dsox_featherwing/current_version/working/working.sch
 id: adafruit_adafruit_lsm6dsox_lis3mdl_pcb_adafruit_lis3mdl_lsm6dsox_featherwing
 name: adafruit_lsm6dsox_lis3mdl_pcb
+position_bottom:
+- '# Ref': SJ1
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 139.2301
+  PosY: -106.2736
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SJ2
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 157.3911
+  PosY: -106.2736
+  Rot: 0.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$13
+  Package: FEATHERLOGO_MED
+  PosX: 128.0541
+  PosY: -111.8616
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$31
+  Package: STEMMAQT
+  PosX: 170.8531
+  PosY: -108.9406
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| SJ1 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 139.2301 | -106.2736 | 180.0 | bottom | \n| SJ2 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 157.3911 | -106.2736 | 0.0 | bottom | \n| U$13 | nan | FEATHERLOGO_MED | 128.0541\
+  \ | -111.8616 | 90.0 | bottom | \n| U$31 | nan | STEMMAQT | 170.8531 | -108.9406\
+  \ | 90.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0603-NO
+  PosX: 150.7871
+  PosY: -109.0676
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 134.1501
+  PosY: -109.1946
+  Rot: 90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C4
+  Package: 0603-NO
+  PosX: 146.7612
+  PosY: -101.6635
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C5
+  Package: 0603-NO
+  PosX: 145.1356
+  PosY: -101.7016
+  Rot: 90.0
+  Side: top
+  Val: 1uF
+- '# Ref': CONN4
+  Package: JST_SH4
+  PosX: 171.3611
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 132.8801
+  PosY: -106.1466
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 173.0121
+  PosY: -98.3996
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': IC1
+  Package: LGA12_2X2MM
+  PosX: 145.9611
+  PosY: -105.0036
+  Rot: 180.0
+  Side: top
+  Val: LIS3MDL
+- '# Ref': JP1
+  Package: 1X04_ROUND
+  PosX: 154.8511
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X12_ROUND
+  PosX: 153.5811
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP3
+  Package: 1X16_ROUND
+  PosX: 148.5011
+  PosY: -112.6236
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': JP4
+  Package: 1X04_ROUND
+  PosX: 159.9311
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': MAG_HDR0
+  Package: 1X04_ROUND
+  PosX: 142.1511
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': MS1
+  Package: FEATHERWING
+  PosX: 123.1011
+  PosY: -116.4336
+  Rot: 0.0
+  Side: top
+  Val: FEATHERWING
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 166.2811
+  PosY: -100.1776
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: 0603-NO
+  PosX: 136.8171
+  PosY: -108.3056
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: 0603-NO
+  PosX: 136.8171
+  PosY: -106.4006
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R4
+  Package: 0603-NO
+  PosX: 145.4531
+  PosY: -108.8136
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R5
+  Package: 0603-NO
+  PosX: 152.5651
+  PosY: -109.0676
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R7
+  Package: 0603-NO
+  PosX: 169.4561
+  PosY: -100.1776
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': SW1
+  Package: BTN_KMR2_4.6X2.8
+  PosX: 133.8961
+  PosY: -96.1136
+  Rot: 0.0
+  Side: top
+  Val: KMR2
+- '# Ref': U$35
+  Package: LGA-14L
+  PosX: 151.0411
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: LSM6DSOX
+- '# Ref': U$50
+  Package: ADAFRUIT_3.5MM
+  PosX: 136.4361
+  PosY: -103.8606
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': U$51
+  Package: PCBFEAT-REV-040
+  PosX: 172.5041
+  PosY: -111.0996
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | 0603-NO | 150.7871 | -109.0676\
+  \ | -90.0 | top | \n| C2 | 10uF | 0805-NO | 134.1501 | -109.1946 | 90.0 | top |\
+  \ \n| C4 | 0.1uF | 0603-NO | 146.7612 | -101.6635 | 90.0 | top | \n| C5 | 1uF |\
+  \ 0603-NO | 145.1356 | -101.7016 | 90.0 | top | \n| CONN4 | STEMMA_I2C_QT | JST_SH4\
+  \ | 171.3611 | -105.0036 | 90.0 | top | \n| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM |\
+  \ 132.8801 | -106.1466 | 0.0 | top | \n| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM | 173.0121\
+  \ | -98.3996 | 0.0 | top | \n| IC1 | LIS3MDL | LGA12_2X2MM | 145.9611 | -105.0036\
+  \ | 180.0 | top | \n| JP1 | nan | 1X04_ROUND | 154.8511 | -105.0036 | -90.0 | top\
+  \ | \n| JP2 | nan | 1X12_ROUND | 153.5811 | -97.3836 | 0.0 | top | \n| JP3 | nan\
+  \ | 1X16_ROUND | 148.5011 | -112.6236 | 180.0 | top | \n| JP4 | nan | 1X04_ROUND\
+  \ | 159.9311 | -105.0036 | -90.0 | top | \n| MAG_HDR0 | nan | 1X04_ROUND | 142.1511\
+  \ | -105.0036 | -90.0 | top | \n| MS1 | FEATHERWING | FEATHERWING | 123.1011 | -116.4336\
+  \ | 0.0 | top | \n| R1 | 10K | 0603-NO | 166.2811 | -100.1776 | -90.0 | top | \n\
+  | R2 | 10K | 0603-NO | 136.8171 | -108.3056 | 180.0 | top | \n| R3 | 10K | 0603-NO\
+  \ | 136.8171 | -106.4006 | 0.0 | top | \n| R4 | 10K | 0603-NO | 145.4531 | -108.8136\
+  \ | 0.0 | top | \n| R5 | 10K | 0603-NO | 152.5651 | -109.0676 | 90.0 | top | \n\
+  | R7 | 10K | 0603-NO | 169.4561 | -100.1776 | -90.0 | top | \n| SW1 | KMR2 | BTN_KMR2_4.6X2.8\
+  \ | 133.8961 | -96.1136 | 0.0 | top | \n| U$35 | LSM6DSOX | LGA-14L | 151.0411 |\
+  \ -105.0036 | 0.0 | top | \n| U$50 | nan | ADAFRUIT_3.5MM | 136.4361 | -103.8606\
+  \ | 90.0 | top | \n| U$51 | nan | PCBFEAT-REV-040 | 172.5041 | -111.0996 | 0.0 |\
+  \ top | \n"
 projects_flat: projects/adafruit_adafruit_lsm6dsox_lis3mdl_pcb_adafruit_lis3mdl_lsm6dsox_featherwing/current_version/working
 repo:
   allow_forking: true

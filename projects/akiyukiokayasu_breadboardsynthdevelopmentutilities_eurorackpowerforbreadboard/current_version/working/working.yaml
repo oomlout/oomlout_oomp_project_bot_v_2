@@ -1,9 +1,90 @@
 board: eurorackpowerforbreadboard
+bom:
+- Id: '1'
+  Designator: J3
+  Footprint: PinSocket_2x05_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_02x05_Odd_Even
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J2,J1
+  Footprint: PinHeader_1x02_P2.54mm_Vertical
+  Quantity: '2'
+  Designation: Conn_01x02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J3\
+  \ | PinSocket_2x05_P2.54mm_Vertical | 1 | Conn_02x05_Odd_Even |  |  | [''] | \n\
+  | 2 | J2,J1 | PinHeader_1x02_P2.54mm_Vertical | 2 | Conn_01x02 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Conn_01x02
+  DNP: ''
+  Description: Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+  Qnty: '2'
+  Ref: J1, J2
+  Value: Conn_01x02
+  Vendor: ''
+- Cmp name: Conn_02x05_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x05, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J3
+  Value: Conn_02x05_Odd_Even
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| J1, J2\
+  \ | 2 | Conn_01x02 | Conn_01x02 | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J3 | 1 | Conn_02x05_Odd_Even | Conn_02x05_Odd_Even | Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical\
+  \ | Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/akiyukiokayasu_breadboardsynthdevelopmentutilities_eurorackpowerforbreadboard/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/akiyukiokayasu_breadboardsynthdevelopmentutilities_eurorackpowerforbreadboard/current_version/working/working.kicad_sch
 id: akiyukiokayasu_breadboardsynthdevelopmentutilities_eurorackpowerforbreadboard
 name: breadboardsynthdevelopmentutilities
+position_bottom:
+- '# Ref': J1
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 110.49
+  PosY: -99.06
+  Rot: -90.0
+  Side: bottom
+  Val: Conn_01x02
+- '# Ref': J2
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 110.49
+  PosY: -109.22
+  Rot: -90.0
+  Side: bottom
+  Val: Conn_01x02
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J1 | Conn_01x02 | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 110.49 | -99.06 | -90.0 | bottom | \n| J2 | Conn_01x02 | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 110.49 | -109.22 | -90.0 | bottom | \n"
+position_top:
+- '# Ref': J3
+  Package: PinSocket_2x05_P2.54mm_Vertical
+  PosX: 120.28
+  PosY: -99.06
+  Rot: 0.0
+  Side: top
+  Val: Conn_02x05_Odd_Even
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J3 | Conn_02x05_Odd_Even | PinSocket_2x05_P2.54mm_Vertical\
+  \ | 120.28 | -99.06 | 0.0 | top | \n"
 projects_flat: projects/akiyukiokayasu_breadboardsynthdevelopmentutilities_eurorackpowerforbreadboard/current_version/working
 repo:
   allow_forking: true

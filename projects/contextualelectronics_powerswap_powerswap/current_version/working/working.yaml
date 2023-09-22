@@ -1,4 +1,136 @@
 board: powerswap
+bom:
+- Id: '1'
+  Designator: C1
+  Footprint: C_0805
+  Quantity: '1'
+  Designation: 4.7UF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C2
+  Footprint: C_1210
+  Quantity: '1'
+  Designation: 22UF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C3
+  Footprint: C_0805
+  Quantity: '1'
+  Designation: 0.1UF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: L1
+  Footprint: LQH3NPN2R2MM0L
+  Quantity: '1'
+  Designation: 2.2uH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: P1,P2
+  Footprint: Pin_Header_Straight_1x02
+  Quantity: '2'
+  Designation: CONN_01X02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: P3,P4,P5,P6
+  Footprint: Measurement_Point_Square-SMD-Pad_Small
+  Quantity: '4'
+  Designation: TST
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R1
+  Footprint: R_0805
+  Quantity: '1'
+  Designation: 1.2M
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R2
+  Footprint: R_0805
+  Quantity: '1'
+  Designation: 215K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R3,R4,R5
+  Footprint: R_0805
+  Quantity: '3'
+  Designation: '0'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U1
+  Footprint: TPS63030
+  Quantity: '1'
+  Designation: TPS63030
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: G***
+  Footprint: PS_Logo
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: REF**1111,REF**1121,REF**1131,REF**1141,REF**1151,REF**1161,REF**1112,REF**1122,REF**1132,REF**1142,REF**1152,REF**1162,REF**1113,REF**1123,REF**1133,REF**1143,REF**1153,REF**1163,REF**1131,REF**1131,REF**1131,REF**1131,REF**1131,REF**1131,REF**1131,REF**111111,REF**111121,REF**111131,REF**111141,REF**111112,REF**111122,REF**111132,REF**111142,REF**111113,REF**111123,REF**111133,REF**111143,REF**111111,REF**111111,REF**111111,REF**111111,REF**111111,REF**111111,REF**11111111,REF**11111121,REF**11111131,REF**11111112,REF**11111122,REF**11111132,REF**11111113,REF**11111123,REF**11111133,REF**11111114,REF**11111124,REF**11111134
+  Footprint: VIA-0.6mm
+  Quantity: '55'
+  Designation: VIA-0.6mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1\
+  \ | C_0805 | 1 | 4.7UF |  |  | [''] | \n| 2 | C2 | C_1210 | 1 | 22UF |  |  | ['']\
+  \ | \n| 3 | C3 | C_0805 | 1 | 0.1UF |  |  | [''] | \n| 4 | L1 | LQH3NPN2R2MM0L |\
+  \ 1 | 2.2uH |  |  | [''] | \n| 5 | P1,P2 | Pin_Header_Straight_1x02 | 2 | CONN_01X02\
+  \ |  |  | [''] | \n| 6 | P3,P4,P5,P6 | Measurement_Point_Square-SMD-Pad_Small |\
+  \ 4 | TST |  |  | [''] | \n| 7 | R1 | R_0805 | 1 | 1.2M |  |  | [''] | \n| 8 | R2\
+  \ | R_0805 | 1 | 215K |  |  | [''] | \n| 9 | R3,R4,R5 | R_0805 | 3 | 0 |  |  | ['']\
+  \ | \n| 10 | U1 | TPS63030 | 1 | TPS63030 |  |  | [''] | \n| 11 | G*** | PS_Logo\
+  \ | 1 | LOGO |  |  | [''] | \n| 12 | REF**1111,REF**1121,REF**1131,REF**1141,REF**1151,REF**1161,REF**1112,REF**1122,REF**1132,REF**1142,REF**1152,REF**1162,REF**1113,REF**1123,REF**1133,REF**1143,REF**1153,REF**1163,REF**1131,REF**1131,REF**1131,REF**1131,REF**1131,REF**1131,REF**1131,REF**111111,REF**111121,REF**111131,REF**111141,REF**111112,REF**111122,REF**111132,REF**111142,REF**111113,REF**111123,REF**111133,REF**111143,REF**111111,REF**111111,REF**111111,REF**111111,REF**111111,REF**111111,REF**11111111,REF**11111121,REF**11111131,REF**11111112,REF**11111122,REF**11111132,REF**11111113,REF**11111123,REF**11111133,REF**11111114,REF**11111124,REF**11111134\
+  \ | VIA-0.6mm | 55 | VIA-0.6mm |  |  | [''] | \n"
 counter: 1
 file_brd_flat: projects/contextualelectronics_powerswap_2015_10_22_20_31_01/current_version/working/working.brd
 file_kicad_pcb_flat: projects/contextualelectronics_powerswap_powerswap/current_version/working/working.kicad_pcb
@@ -7,6 +139,579 @@ file_repo_bom_xls_flat: projects/contextualelectronics_powerswap_powerswap/curre
 file_sch_flat: projects/contextualelectronics_powerswap_powerswap/current_version/working/working.sch
 id: contextualelectronics_powerswap_powerswap
 name: powerswap
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_0805
+  PosX: 166.37
+  PosY: -113.538
+  Rot: -90.0
+  Side: top
+  Val: 4.7UF
+- '# Ref': C2
+  Package: C_1210
+  PosX: 172.966
+  PosY: -113.035
+  Rot: -90.0
+  Side: top
+  Val: 22UF
+- '# Ref': C3
+  Package: C_0805
+  PosX: 167.759
+  PosY: -117.861
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF
+- '# Ref': G***
+  Package: PS_Logo
+  PosX: 167.759
+  PosY: -106.939
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': L1
+  Package: LQH3NPN2R2MM0L
+  PosX: 168.91
+  PosY: -109.22
+  Rot: 0.0
+  Side: top
+  Val: 2.2uH
+- '# Ref': P1
+  Package: Pin_Header_Straight_1x02
+  PosX: 157.98
+  PosY: -115.194
+  Rot: 180.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': P2
+  Package: Pin_Header_Straight_1x02
+  PosX: 180.975
+  PosY: -112.522
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': P3
+  Package: Measurement_Point_Square-SMD-Pad_Small
+  PosX: 161.663
+  PosY: -111.638
+  Rot: 0.0
+  Side: top
+  Val: TST
+- '# Ref': P4
+  Package: Measurement_Point_Square-SMD-Pad_Small
+  PosX: 161.917
+  PosY: -116.718
+  Rot: 0.0
+  Side: top
+  Val: TST
+- '# Ref': P5
+  Package: Measurement_Point_Square-SMD-Pad_Small
+  PosX: 175.641
+  PosY: -116.205
+  Rot: 0.0
+  Side: top
+  Val: TST
+- '# Ref': P6
+  Package: Measurement_Point_Square-SMD-Pad_Small
+  PosX: 176.903
+  PosY: -109.733
+  Rot: 0.0
+  Side: top
+  Val: TST
+- '# Ref': R1
+  Package: R_0805
+  PosX: 173.863
+  PosY: -117.094
+  Rot: 90.0
+  Side: top
+  Val: 1.2M
+- '# Ref': R2
+  Package: R_0805
+  PosX: 171.577
+  PosY: -117.094
+  Rot: -90.0
+  Side: top
+  Val: 215K
+- '# Ref': R3
+  Package: R_0805
+  PosX: 171.95
+  PosY: -121.417
+  Rot: 0.0
+  Side: top
+  Val: '0'
+- '# Ref': R4
+  Package: R_0805
+  PosX: 167.759
+  PosY: -121.925
+  Rot: 0.0
+  Side: top
+  Val: '0'
+- '# Ref': R5
+  Package: R_0805
+  PosX: 167.759
+  PosY: -119.893
+  Rot: 0.0
+  Side: top
+  Val: '0'
+- '# Ref': REF**1111
+  Package: VIA-0.6mm
+  PosX: 175.379
+  PosY: -119.639
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1112
+  Package: VIA-0.6mm
+  PosX: 175.379
+  PosY: -120.909
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1113
+  Package: VIA-0.6mm
+  PosX: 175.379
+  PosY: -122.179
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1121
+  Package: VIA-0.6mm
+  PosX: 176.649
+  PosY: -119.639
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1122
+  Package: VIA-0.6mm
+  PosX: 176.649
+  PosY: -120.909
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1123
+  Package: VIA-0.6mm
+  PosX: 176.649
+  PosY: -122.179
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1131
+  Package: VIA-0.6mm
+  PosX: 180.459
+  PosY: -117.099
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1131
+  Package: VIA-0.6mm
+  PosX: 179.189
+  PosY: -117.099
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1131
+  Package: VIA-0.6mm
+  PosX: 179.189
+  PosY: -118.369
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1131
+  Package: VIA-0.6mm
+  PosX: 181.729
+  PosY: -117.099
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1131
+  Package: VIA-0.6mm
+  PosX: 177.919
+  PosY: -119.639
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1131
+  Package: VIA-0.6mm
+  PosX: 181.729
+  PosY: -118.369
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1131
+  Package: VIA-0.6mm
+  PosX: 180.459
+  PosY: -118.369
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1131
+  Package: VIA-0.6mm
+  PosX: 177.919
+  PosY: -118.369
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1132
+  Package: VIA-0.6mm
+  PosX: 177.919
+  PosY: -120.909
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1133
+  Package: VIA-0.6mm
+  PosX: 177.919
+  PosY: -122.179
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1141
+  Package: VIA-0.6mm
+  PosX: 179.189
+  PosY: -119.639
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1142
+  Package: VIA-0.6mm
+  PosX: 179.189
+  PosY: -120.909
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1143
+  Package: VIA-0.6mm
+  PosX: 179.189
+  PosY: -122.179
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1151
+  Package: VIA-0.6mm
+  PosX: 180.459
+  PosY: -119.639
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1152
+  Package: VIA-0.6mm
+  PosX: 180.459
+  PosY: -120.909
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1153
+  Package: VIA-0.6mm
+  PosX: 180.459
+  PosY: -122.179
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1161
+  Package: VIA-0.6mm
+  PosX: 181.729
+  PosY: -119.639
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1162
+  Package: VIA-0.6mm
+  PosX: 181.729
+  PosY: -120.909
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**1163
+  Package: VIA-0.6mm
+  PosX: 181.729
+  PosY: -122.179
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**111111
+  Package: VIA-0.6mm
+  PosX: 156.329
+  PosY: -118.369
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**111111
+  Package: VIA-0.6mm
+  PosX: 156.329
+  PosY: -119.639
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**111111
+  Package: VIA-0.6mm
+  PosX: 157.599
+  PosY: -118.369
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**111111
+  Package: VIA-0.6mm
+  PosX: 158.869
+  PosY: -118.369
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**111111
+  Package: VIA-0.6mm
+  PosX: 162.044
+  PosY: -114.559
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**111111
+  Package: VIA-0.6mm
+  PosX: 163.314
+  PosY: -114.559
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**111111
+  Package: VIA-0.6mm
+  PosX: 164.584
+  PosY: -114.559
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**111112
+  Package: VIA-0.6mm
+  PosX: 156.329
+  PosY: -120.909
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**111113
+  Package: VIA-0.6mm
+  PosX: 156.329
+  PosY: -122.179
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**111121
+  Package: VIA-0.6mm
+  PosX: 157.599
+  PosY: -119.639
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**111122
+  Package: VIA-0.6mm
+  PosX: 157.599
+  PosY: -120.909
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**111123
+  Package: VIA-0.6mm
+  PosX: 157.599
+  PosY: -122.179
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**111131
+  Package: VIA-0.6mm
+  PosX: 158.869
+  PosY: -119.639
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**111132
+  Package: VIA-0.6mm
+  PosX: 158.869
+  PosY: -120.909
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**111133
+  Package: VIA-0.6mm
+  PosX: 158.869
+  PosY: -122.179
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**111141
+  Package: VIA-0.6mm
+  PosX: 160.139
+  PosY: -119.639
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**111142
+  Package: VIA-0.6mm
+  PosX: 160.139
+  PosY: -120.909
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**111143
+  Package: VIA-0.6mm
+  PosX: 160.139
+  PosY: -122.179
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**11111111
+  Package: VIA-0.6mm
+  PosX: 163.314
+  PosY: -115.829
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**11111112
+  Package: VIA-0.6mm
+  PosX: 163.314
+  PosY: -117.099
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**11111113
+  Package: VIA-0.6mm
+  PosX: 163.314
+  PosY: -118.369
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**11111114
+  Package: VIA-0.6mm
+  PosX: 163.314
+  PosY: -119.639
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**11111121
+  Package: VIA-0.6mm
+  PosX: 164.584
+  PosY: -115.829
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**11111122
+  Package: VIA-0.6mm
+  PosX: 164.584
+  PosY: -117.099
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**11111123
+  Package: VIA-0.6mm
+  PosX: 164.584
+  PosY: -118.369
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**11111124
+  Package: VIA-0.6mm
+  PosX: 164.584
+  PosY: -119.639
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**11111131
+  Package: VIA-0.6mm
+  PosX: 165.854
+  PosY: -115.829
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**11111132
+  Package: VIA-0.6mm
+  PosX: 165.854
+  PosY: -117.099
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**11111133
+  Package: VIA-0.6mm
+  PosX: 165.854
+  PosY: -118.369
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': REF**11111134
+  Package: VIA-0.6mm
+  PosX: 165.854
+  PosY: -119.639
+  Rot: 0.0
+  Side: top
+  Val: VIA-0.6mm
+- '# Ref': U1
+  Package: TPS63030
+  PosX: 169.164
+  PosY: -114.554
+  Rot: 180.0
+  Side: top
+  Val: TPS63030
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 4.7UF | C_0805 | 166.37 | -113.538\
+  \ | -90.0 | top | \n| C2 | 22UF | C_1210 | 172.966 | -113.035 | -90.0 | top | \n\
+  | C3 | 0.1UF | C_0805 | 167.759 | -117.861 | 180.0 | top | \n| G*** | LOGO | PS_Logo\
+  \ | 167.759 | -106.939 | 0.0 | top | \n| L1 | 2.2uH | LQH3NPN2R2MM0L | 168.91 |\
+  \ -109.22 | 0.0 | top | \n| P1 | CONN_01X02 | Pin_Header_Straight_1x02 | 157.98\
+  \ | -115.194 | 180.0 | top | \n| P2 | CONN_01X02 | Pin_Header_Straight_1x02 | 180.975\
+  \ | -112.522 | 0.0 | top | \n| P3 | TST | Measurement_Point_Square-SMD-Pad_Small\
+  \ | 161.663 | -111.638 | 0.0 | top | \n| P4 | TST | Measurement_Point_Square-SMD-Pad_Small\
+  \ | 161.917 | -116.718 | 0.0 | top | \n| P5 | TST | Measurement_Point_Square-SMD-Pad_Small\
+  \ | 175.641 | -116.205 | 0.0 | top | \n| P6 | TST | Measurement_Point_Square-SMD-Pad_Small\
+  \ | 176.903 | -109.733 | 0.0 | top | \n| R1 | 1.2M | R_0805 | 173.863 | -117.094\
+  \ | 90.0 | top | \n| R2 | 215K | R_0805 | 171.577 | -117.094 | -90.0 | top | \n\
+  | R3 | 0 | R_0805 | 171.95 | -121.417 | 0.0 | top | \n| R4 | 0 | R_0805 | 167.759\
+  \ | -121.925 | 0.0 | top | \n| R5 | 0 | R_0805 | 167.759 | -119.893 | 0.0 | top\
+  \ | \n| REF**1111 | VIA-0.6mm | VIA-0.6mm | 175.379 | -119.639 | 0.0 | top | \n\
+  | REF**1112 | VIA-0.6mm | VIA-0.6mm | 175.379 | -120.909 | 0.0 | top | \n| REF**1113\
+  \ | VIA-0.6mm | VIA-0.6mm | 175.379 | -122.179 | 0.0 | top | \n| REF**1121 | VIA-0.6mm\
+  \ | VIA-0.6mm | 176.649 | -119.639 | 0.0 | top | \n| REF**1122 | VIA-0.6mm | VIA-0.6mm\
+  \ | 176.649 | -120.909 | 0.0 | top | \n| REF**1123 | VIA-0.6mm | VIA-0.6mm | 176.649\
+  \ | -122.179 | 0.0 | top | \n| REF**1131 | VIA-0.6mm | VIA-0.6mm | 180.459 | -117.099\
+  \ | 0.0 | top | \n| REF**1131 | VIA-0.6mm | VIA-0.6mm | 179.189 | -117.099 | 0.0\
+  \ | top | \n| REF**1131 | VIA-0.6mm | VIA-0.6mm | 179.189 | -118.369 | 0.0 | top\
+  \ | \n| REF**1131 | VIA-0.6mm | VIA-0.6mm | 181.729 | -117.099 | 0.0 | top | \n\
+  | REF**1131 | VIA-0.6mm | VIA-0.6mm | 177.919 | -119.639 | 0.0 | top | \n| REF**1131\
+  \ | VIA-0.6mm | VIA-0.6mm | 181.729 | -118.369 | 0.0 | top | \n| REF**1131 | VIA-0.6mm\
+  \ | VIA-0.6mm | 180.459 | -118.369 | 0.0 | top | \n| REF**1131 | VIA-0.6mm | VIA-0.6mm\
+  \ | 177.919 | -118.369 | 0.0 | top | \n| REF**1132 | VIA-0.6mm | VIA-0.6mm | 177.919\
+  \ | -120.909 | 0.0 | top | \n| REF**1133 | VIA-0.6mm | VIA-0.6mm | 177.919 | -122.179\
+  \ | 0.0 | top | \n| REF**1141 | VIA-0.6mm | VIA-0.6mm | 179.189 | -119.639 | 0.0\
+  \ | top | \n| REF**1142 | VIA-0.6mm | VIA-0.6mm | 179.189 | -120.909 | 0.0 | top\
+  \ | \n| REF**1143 | VIA-0.6mm | VIA-0.6mm | 179.189 | -122.179 | 0.0 | top | \n\
+  | REF**1151 | VIA-0.6mm | VIA-0.6mm | 180.459 | -119.639 | 0.0 | top | \n| REF**1152\
+  \ | VIA-0.6mm | VIA-0.6mm | 180.459 | -120.909 | 0.0 | top | \n| REF**1153 | VIA-0.6mm\
+  \ | VIA-0.6mm | 180.459 | -122.179 | 0.0 | top | \n| REF**1161 | VIA-0.6mm | VIA-0.6mm\
+  \ | 181.729 | -119.639 | 0.0 | top | \n| REF**1162 | VIA-0.6mm | VIA-0.6mm | 181.729\
+  \ | -120.909 | 0.0 | top | \n| REF**1163 | VIA-0.6mm | VIA-0.6mm | 181.729 | -122.179\
+  \ | 0.0 | top | \n| REF**111111 | VIA-0.6mm | VIA-0.6mm | 156.329 | -118.369 | 0.0\
+  \ | top | \n| REF**111111 | VIA-0.6mm | VIA-0.6mm | 156.329 | -119.639 | 0.0 | top\
+  \ | \n| REF**111111 | VIA-0.6mm | VIA-0.6mm | 157.599 | -118.369 | 0.0 | top | \n\
+  | REF**111111 | VIA-0.6mm | VIA-0.6mm | 158.869 | -118.369 | 0.0 | top | \n| REF**111111\
+  \ | VIA-0.6mm | VIA-0.6mm | 162.044 | -114.559 | 0.0 | top | \n| REF**111111 | VIA-0.6mm\
+  \ | VIA-0.6mm | 163.314 | -114.559 | 0.0 | top | \n| REF**111111 | VIA-0.6mm | VIA-0.6mm\
+  \ | 164.584 | -114.559 | 0.0 | top | \n| REF**111112 | VIA-0.6mm | VIA-0.6mm | 156.329\
+  \ | -120.909 | 0.0 | top | \n| REF**111113 | VIA-0.6mm | VIA-0.6mm | 156.329 | -122.179\
+  \ | 0.0 | top | \n| REF**111121 | VIA-0.6mm | VIA-0.6mm | 157.599 | -119.639 | 0.0\
+  \ | top | \n| REF**111122 | VIA-0.6mm | VIA-0.6mm | 157.599 | -120.909 | 0.0 | top\
+  \ | \n| REF**111123 | VIA-0.6mm | VIA-0.6mm | 157.599 | -122.179 | 0.0 | top | \n\
+  | REF**111131 | VIA-0.6mm | VIA-0.6mm | 158.869 | -119.639 | 0.0 | top | \n| REF**111132\
+  \ | VIA-0.6mm | VIA-0.6mm | 158.869 | -120.909 | 0.0 | top | \n| REF**111133 | VIA-0.6mm\
+  \ | VIA-0.6mm | 158.869 | -122.179 | 0.0 | top | \n| REF**111141 | VIA-0.6mm | VIA-0.6mm\
+  \ | 160.139 | -119.639 | 0.0 | top | \n| REF**111142 | VIA-0.6mm | VIA-0.6mm | 160.139\
+  \ | -120.909 | 0.0 | top | \n| REF**111143 | VIA-0.6mm | VIA-0.6mm | 160.139 | -122.179\
+  \ | 0.0 | top | \n| REF**11111111 | VIA-0.6mm | VIA-0.6mm | 163.314 | -115.829 |\
+  \ 0.0 | top | \n| REF**11111112 | VIA-0.6mm | VIA-0.6mm | 163.314 | -117.099 | 0.0\
+  \ | top | \n| REF**11111113 | VIA-0.6mm | VIA-0.6mm | 163.314 | -118.369 | 0.0 |\
+  \ top | \n| REF**11111114 | VIA-0.6mm | VIA-0.6mm | 163.314 | -119.639 | 0.0 | top\
+  \ | \n| REF**11111121 | VIA-0.6mm | VIA-0.6mm | 164.584 | -115.829 | 0.0 | top |\
+  \ \n| REF**11111122 | VIA-0.6mm | VIA-0.6mm | 164.584 | -117.099 | 0.0 | top | \n\
+  | REF**11111123 | VIA-0.6mm | VIA-0.6mm | 164.584 | -118.369 | 0.0 | top | \n| REF**11111124\
+  \ | VIA-0.6mm | VIA-0.6mm | 164.584 | -119.639 | 0.0 | top | \n| REF**11111131 |\
+  \ VIA-0.6mm | VIA-0.6mm | 165.854 | -115.829 | 0.0 | top | \n| REF**11111132 | VIA-0.6mm\
+  \ | VIA-0.6mm | 165.854 | -117.099 | 0.0 | top | \n| REF**11111133 | VIA-0.6mm |\
+  \ VIA-0.6mm | 165.854 | -118.369 | 0.0 | top | \n| REF**11111134 | VIA-0.6mm | VIA-0.6mm\
+  \ | 165.854 | -119.639 | 0.0 | top | \n| U1 | TPS63030 | TPS63030 | 169.164 | -114.554\
+  \ | 180.0 | top | \n"
 projects_flat: projects/contextualelectronics_powerswap_powerswap/current_version/working
 repo:
   allow_forking: true

@@ -1,9 +1,484 @@
 board: adafruit_stmpe610
+bom:
+- Id: '1'
+  Designator: D1
+  Footprint: SOD-323F
+  Quantity: '1'
+  Designation: 1N4148
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$8
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: FID1,FID3,FID2
+  Footprint: FIDUCIAL_1MM
+  Quantity: '3'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R6,R2,R3,R1,R5,R4
+  Footprint: 0805-NO
+  Quantity: '6'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: JP5,JP4
+  Footprint: 1X02_ROUND
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C1
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: Q1,Q2
+  Footprint: SOT23
+  Quantity: '2'
+  Designation: BSS138
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U$4,U$5
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U1
+  Footprint: QFN16_3MM
+  Quantity: '1'
+  Designation: STMPE610
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U2
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: MIC5225-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U$7
+  Footprint: FPC_CONN_1MM_DUAL_4P
+  Quantity: '1'
+  Designation: FPC_4PIN_12969
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: JP1
+  Footprint: 1X11_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: C2
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: U$6
+  Footprint: ADAFRUIT_TEXT_20MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D1\
+  \ | SOD-323F | 1 | 1N4148 |  |  | [''] | \n| 2 | U$8 | ADAFRUIT_3.5MM | 1 |  | \
+  \ |  | [''] | \n| 3 | FID1,FID3,FID2 | FIDUCIAL_1MM | 3 | FIDUCIAL\" |  |  | ['']\
+  \ | \n| 4 | R6,R2,R3,R1,R5,R4 | 0805-NO | 6 | 10K |  |  | [''] | \n| 5 | JP5,JP4\
+  \ | 1X02_ROUND | 2 |  |  |  | [''] | \n| 6 | C1 | 0805-NO | 1 | 0.1uF |  |  | ['']\
+  \ | \n| 7 | Q1,Q2 | SOT23 | 2 | BSS138 |  |  | [''] | \n| 8 | U$4,U$5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 2 | MOUNTINGHOLE2.5 |  |  | [''] | \n| 9 | U1 | QFN16_3MM | 1 | STMPE610 | \
+  \ |  | [''] | \n| 10 | U2 | SOT23-5 | 1 | MIC5225-3.3 |  |  | [''] | \n| 11 | U$7\
+  \ | FPC_CONN_1MM_DUAL_4P | 1 | FPC_4PIN_12969 |  |  | [''] | \n| 12 | JP1 | 1X11_ROUND\
+  \ | 1 |  |  |  | [''] | \n| 13 | C2 | 0805-NO | 1 | 10uF |  |  | [''] | \n| 14 |\
+  \ U$6 | ADAFRUIT_TEXT_20MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C1
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C2
+  Value: 10uF
+  Vendor: ''
+- Cmp name: DIODESOD-323F
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-323F
+  Qnty: '1'
+  Ref: D1
+  Value: 1N4148
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '3'
+  Ref: FID1, FID2, FID3
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: HEADER-1X11
+  DNP: ''
+  Description: ''
+  Footprint: working:1X11_ROUND
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X11
+  Vendor: ''
+- Cmp name: HEADER-1X2ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X02_ROUND
+  Qnty: '2'
+  Ref: JP4, JP5
+  Value: HEADER-1X2ROUND
+  Vendor: ''
+- Cmp name: MOSFET-NREFLOW
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23
+  Qnty: '2'
+  Ref: Q1, Q2
+  Value: BSS138
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '6'
+  Ref: R1, R2, R3, R4, R5, R6
+  Value: 10K
+  Vendor: ''
+- Cmp name: STMPE610
+  DNP: ''
+  Description: ''
+  Footprint: working:QFN16_3MM
+  Qnty: '1'
+  Ref: U1
+  Value: STMPE610
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U2
+  Value: MIC5225-3.3
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '2'
+  Ref: U$4, U$5
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+- Cmp name: FPC_4PIN_12969
+  DNP: ''
+  Description: ''
+  Footprint: working:FPC_CONN_1MM_DUAL_4P
+  Qnty: '1'
+  Ref: U$7
+  Value: FPC_4PIN_12969
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 0.1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C2 | 1\
+  \ | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| D1 | 1 | 1N4148\
+  \ | DIODESOD-323F | working:SOD-323F |  |  |  | \n| FID1, FID2, FID3 | 3 | FIDUCIAL\"\
+  \" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | \n| JP1 | 1\
+  \ | HEADER-1X11 | HEADER-1X11 | working:1X11_ROUND |  |  |  | \n| JP4, JP5 | 2 |\
+  \ HEADER-1X2ROUND | HEADER-1X2ROUND | working:1X02_ROUND |  |  |  | \n| Q1, Q2 |\
+  \ 2 | BSS138 | MOSFET-NREFLOW | working:SOT23 |  |  |  | \n| R1, R2, R3, R4, R5,\
+  \ R6 | 6 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | \n| U1 | 1\
+  \ | STMPE610 | STMPE610 | working:QFN16_3MM |  |  |  | \n| U2 | 1 | MIC5225-3.3\
+  \ | VREG_SOT23-5 | working:SOT23-5 |  |  |  | \n| U$4, U$5 | 2 | MOUNTINGHOLE2.5\
+  \ | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  | \n| U$7 | 1 | FPC_4PIN_12969\
+  \ | FPC_4PIN_12969 | working:FPC_CONN_1MM_DUAL_4P |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_stmpe610_breakout_pcb_adafruit_stmpe610/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_stmpe610_breakout_pcb_adafruit_stmpe610/current_version/working/working.sch
 id: adafruit_adafruit_stmpe610_breakout_pcb_adafruit_stmpe610
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$4
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$5
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '22.859999999999985'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$4 | m3 | \n| 22.859999999999985 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$5 | m3 | \n"
 name: adafruit_stmpe610_breakout_pcb
+position_bottom:
+- '# Ref': U$6
+  Package: ADAFRUIT_TEXT_20MM
+  PosX: 162.3441
+  PosY: -111.6711
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$6 | nan | ADAFRUIT_TEXT_20MM |\
+  \ 162.3441 | -111.6711 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 155.1051
+  PosY: -104.1781
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 158.4071
+  PosY: -109.6391
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': D1
+  Package: SOD-323F
+  PosX: 152.5651
+  PosY: -108.6231
+  Rot: 90.0
+  Side: top
+  Val: 1N4148
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 139.4841
+  PosY: -99.6061
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 161.2011
+  PosY: -104.3051
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 137.3251
+  PosY: -107.6071
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': JP1
+  Package: 1X11_ROUND
+  PosX: 148.5011
+  PosY: -113.3221
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': JP4
+  Package: 1X02_ROUND
+  PosX: 155.1051
+  PosY: -96.4311
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': JP5
+  Package: 1X02_ROUND
+  PosX: 142.1511
+  PosY: -96.4311
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': Q1
+  Package: SOT23
+  PosX: 142.9131
+  PosY: -106.7181
+  Rot: 180.0
+  Side: top
+  Val: BSS138
+- '# Ref': Q2
+  Package: SOT23
+  PosX: 139.1031
+  PosY: -106.7181
+  Rot: 180.0
+  Side: top
+  Val: BSS138
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 142.9131
+  PosY: -103.7971
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: 0805-NO
+  PosX: 142.7861
+  PosY: -109.6391
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: 0805-NO
+  PosX: 139.1031
+  PosY: -109.6391
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R4
+  Package: 0805-NO
+  PosX: 139.1031
+  PosY: -103.7971
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R5
+  Package: 0805-NO
+  PosX: 149.8981
+  PosY: -109.6391
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R6
+  Package: 0805-NO
+  PosX: 146.3421
+  PosY: -109.6391
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': U$4
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 137.0711
+  PosY: -97.0661
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$5
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 159.9311
+  PosY: -97.0661
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$7
+  Package: FPC_CONN_1MM_DUAL_4P
+  PosX: 148.6281
+  PosY: -99.9871
+  Rot: 180.0
+  Side: top
+  Val: FPC_4PIN_12969
+- '# Ref': U$8
+  Package: ADAFRUIT_3.5MM
+  PosX: 134.5311
+  PosY: -103.0351
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U1
+  Package: QFN16_3MM
+  PosX: 148.6281
+  PosY: -105.3211
+  Rot: 0.0
+  Side: top
+  Val: STMPE610
+- '# Ref': U2
+  Package: SOT23-5
+  PosX: 158.0261
+  PosY: -106.4641
+  Rot: 90.0
+  Side: top
+  Val: MIC5225-3.3
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | 0805-NO | 155.1051 | -104.1781\
+  \ | 180.0 | top | \n| C2 | 10uF | 0805-NO | 158.4071 | -109.6391 | 180.0 | top |\
+  \ \n| D1 | 1N4148 | SOD-323F | 152.5651 | -108.6231 | 90.0 | top | \n| FID1 | FIDUCIAL\"\
+  \" | FIDUCIAL_1MM | 139.4841 | -99.6061 | 0.0 | top | \n| FID2 | FIDUCIAL\"\" |\
+  \ FIDUCIAL_1MM | 161.2011 | -104.3051 | 0.0 | top | \n| FID3 | FIDUCIAL\"\" | FIDUCIAL_1MM\
+  \ | 137.3251 | -107.6071 | 0.0 | top | \n| JP1 | nan | 1X11_ROUND | 148.5011 | -113.3221\
+  \ | 180.0 | top | \n| JP4 | nan | 1X02_ROUND | 155.1051 | -96.4311 | 180.0 | top\
+  \ | \n| JP5 | nan | 1X02_ROUND | 142.1511 | -96.4311 | 0.0 | top | \n| Q1 | BSS138\
+  \ | SOT23 | 142.9131 | -106.7181 | 180.0 | top | \n| Q2 | BSS138 | SOT23 | 139.1031\
+  \ | -106.7181 | 180.0 | top | \n| R1 | 10K | 0805-NO | 142.9131 | -103.7971 | 0.0\
+  \ | top | \n| R2 | 10K | 0805-NO | 142.7861 | -109.6391 | 0.0 | top | \n| R3 | 10K\
+  \ | 0805-NO | 139.1031 | -109.6391 | 180.0 | top | \n| R4 | 10K | 0805-NO | 139.1031\
+  \ | -103.7971 | 180.0 | top | \n| R5 | 10K | 0805-NO | 149.8981 | -109.6391 | 180.0\
+  \ | top | \n| R6 | 10K | 0805-NO | 146.3421 | -109.6391 | 180.0 | top | \n| U$4\
+  \ | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 137.0711 | -97.0661 | 0.0 | top\
+  \ | \n| U$5 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 159.9311 | -97.0661 |\
+  \ 0.0 | top | \n| U$7 | FPC_4PIN_12969 | FPC_CONN_1MM_DUAL_4P | 148.6281 | -99.9871\
+  \ | 180.0 | top | \n| U$8 | nan | ADAFRUIT_3.5MM | 134.5311 | -103.0351 | 0.0 |\
+  \ top | \n| U1 | STMPE610 | QFN16_3MM | 148.6281 | -105.3211 | 0.0 | top | \n| U2\
+  \ | MIC5225-3.3 | SOT23-5 | 158.0261 | -106.4641 | 90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_stmpe610_breakout_pcb_adafruit_stmpe610/current_version/working
 repo:
   allow_forking: true

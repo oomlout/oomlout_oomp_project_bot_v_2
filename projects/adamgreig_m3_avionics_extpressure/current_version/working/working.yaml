@@ -1,4 +1,254 @@
 board: extpressure
+bom:
+- Id: '1'
+  Designator: P1
+  Footprint: TC2030-NL
+  Quantity: '1'
+  Designation: SWD_TC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: IC1,IC4,IC3,IC2
+  Footprint: SP100
+  Quantity: '4'
+  Designation: SP100
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J1
+  Footprint: S04B-PASK-2
+  Quantity: '1'
+  Designation: SERIAL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: IC5
+  Footprint: LQFP-32
+  Quantity: '1'
+  Designation: STM32F0xxKxTx
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: D1
+  Footprint: 0603-LED
+  Quantity: '1'
+  Designation: RED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C3,C4,C1,C6,C7,C2
+  Footprint: '0402'
+  Quantity: '6'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C5
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: "4\xC2\xB57"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C8
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: "1\xC2\xB5"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: C9
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: 10n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R1,R2
+  Footprint: '0402'
+  Quantity: '2'
+  Designation: 1k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: D2
+  Footprint: 0603-LED
+  Quantity: '1'
+  Designation: GRN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: REF**,REF**,REF**,REF**
+  Footprint: M3_MOUNT
+  Quantity: '4'
+  Designation: M3_MOUNT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: D4,D5,D3
+  Footprint: '0402'
+  Quantity: '3'
+  Designation: ESD_DIODE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | P1\
+  \ | TC2030-NL | 1 | SWD_TC |  |  | [''] | \n| 2 | IC1,IC4,IC3,IC2 | SP100 | 4 |\
+  \ SP100 |  |  | [''] | \n| 3 | J1 | S04B-PASK-2 | 1 | SERIAL |  |  | [''] | \n|\
+  \ 4 | IC5 | LQFP-32 | 1 | STM32F0xxKxTx |  |  | [''] | \n| 5 | D1 | 0603-LED | 1\
+  \ | RED |  |  | [''] | \n| 6 | C3,C4,C1,C6,C7,C2 | 0402 | 6 | 100n |  |  | ['']\
+  \ | \n| 7 | C5 | 0402 | 1 | 4\xC2\xB57 |  |  | [''] | \n| 8 | C8 | 0402 | 1 | 1\xC2\
+  \xB5 |  |  | [''] | \n| 9 | C9 | 0402 | 1 | 10n |  |  | [''] | \n| 10 | R1,R2 |\
+  \ 0402 | 2 | 1k |  |  | [''] | \n| 11 | D2 | 0603-LED | 1 | GRN |  |  | [''] | \n\
+  | 12 | REF**,REF**,REF**,REF** | M3_MOUNT | 4 | M3_MOUNT |  |  | [''] | \n| 13 |\
+  \ D4,D5,D3 | 0402 | 3 | ESD_DIODE |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '6'
+  Ref: C1, C2, C3, C4, C6, C7
+  Value: 100n
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '1'
+  Ref: C5
+  Value: "4\xC2\xB57"
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '1'
+  Ref: C8
+  Value: "1\xC2\xB5"
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '1'
+  Ref: C9
+  Value: 10n
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603-LED
+  Qnty: '1'
+  Ref: D1
+  Value: RED
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603-LED
+  Qnty: '1'
+  Ref: D2
+  Value: GRN
+  Vendor: ''
+- Cmp name: ESD_DIODE
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '3'
+  Ref: D3, D4, D5
+  Value: ESD_DIODE
+  Vendor: ''
+- Cmp name: SP100
+  DNP: ''
+  Description: ''
+  Footprint: agg:SP100
+  Qnty: '4'
+  Ref: IC1, IC2, IC3, IC4
+  Value: SP100
+  Vendor: ''
+- Cmp name: STM32F0xxKxTx
+  DNP: ''
+  Description: ''
+  Footprint: agg:LQFP-32
+  Qnty: '1'
+  Ref: IC5
+  Value: STM32F0xxKxTx
+  Vendor: ''
+- Cmp name: CONN_01x04
+  DNP: ''
+  Description: ''
+  Footprint: agg:S04B-PASK-2
+  Qnty: '1'
+  Ref: J1
+  Value: SERIAL
+  Vendor: ''
+- Cmp name: SWD_TC
+  DNP: ''
+  Description: ''
+  Footprint: agg:TC2030-NL
+  Qnty: '1'
+  Ref: P1
+  Value: SWD_TC
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 1k
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3, C4, C6, C7 | 6 | 100n | C | agg:0402 |  |  |  | \n| C5 | 1 | 4\xC2\xB57 |\
+  \ C | agg:0402 |  |  |  | \n| C8 | 1 | 1\xC2\xB5 | C | agg:0402 |  |  |  | \n| C9\
+  \ | 1 | 10n | C | agg:0402 |  |  |  | \n| D1 | 1 | RED | LED | agg:0603-LED |  |\
+  \  |  | \n| D2 | 1 | GRN | LED | agg:0603-LED |  |  |  | \n| D3, D4, D5 | 3 | ESD_DIODE\
+  \ | ESD_DIODE | agg:0402 |  |  |  | \n| IC1, IC2, IC3, IC4 | 4 | SP100 | SP100 |\
+  \ agg:SP100 |  |  |  | \n| IC5 | 1 | STM32F0xxKxTx | STM32F0xxKxTx | agg:LQFP-32\
+  \ |  |  |  | \n| J1 | 1 | SERIAL | CONN_01x04 | agg:S04B-PASK-2 |  |  |  | \n| P1\
+  \ | 1 | SWD_TC | SWD_TC | agg:TC2030-NL |  |  |  | \n| R1, R2 | 2 | 1k | R | agg:0402\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_m3_avionics_extpressure/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_m3_avionics_extpressure/current_version/working/working.kicad_pcb
@@ -6,6 +256,219 @@ file_repo_bom_xlsx_flat: projects/adamgreig_m3_avionics_extpressure/current_vers
 file_sch_flat: projects/adamgreig_m3_avionics_extpressure/current_version/working/working.sch
 id: adamgreig_m3_avionics_extpressure
 name: m3_avionics
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: '0402'
+  PosX: 92.8
+  PosY: -122.2
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': C2
+  Package: '0402'
+  PosX: 116.8
+  PosY: -122.2
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': C3
+  Package: '0402'
+  PosX: 116.8
+  PosY: -135.2
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': C4
+  Package: '0402'
+  PosX: 92.8
+  PosY: -135.2
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': C5
+  Package: '0402'
+  PosX: 105.6
+  PosY: -124.3
+  Rot: -90.0
+  Side: top
+  Val: "4\xC2\xB57"
+- '# Ref': C6
+  Package: '0402'
+  PosX: 104.1
+  PosY: -124.3
+  Rot: -45.0
+  Side: top
+  Val: 100n
+- '# Ref': C7
+  Package: '0402'
+  PosX: 95.8
+  PosY: -132.6
+  Rot: 135.0
+  Side: top
+  Val: 100n
+- '# Ref': C8
+  Package: '0402'
+  PosX: 98.9
+  PosY: -134.05
+  Rot: 180.0
+  Side: top
+  Val: "1\xC2\xB5"
+- '# Ref': C9
+  Package: '0402'
+  PosX: 101.0
+  PosY: -134.05
+  Rot: 0.0
+  Side: top
+  Val: 10n
+- '# Ref': D1
+  Package: 0603-LED
+  PosX: 96.3
+  PosY: -135.1
+  Rot: 180.0
+  Side: top
+  Val: RED
+- '# Ref': D2
+  Package: 0603-LED
+  PosX: 103.6
+  PosY: -135.1
+  Rot: 0.0
+  Side: top
+  Val: GRN
+- '# Ref': D3
+  Package: '0402'
+  PosX: 99.0
+  PosY: -121.5
+  Rot: -90.0
+  Side: top
+  Val: ESD_DIODE
+- '# Ref': D4
+  Package: '0402'
+  PosX: 97.0
+  PosY: -121.5
+  Rot: -90.0
+  Side: top
+  Val: ESD_DIODE
+- '# Ref': D5
+  Package: '0402'
+  PosX: 103.0
+  PosY: -121.5
+  Rot: -90.0
+  Side: top
+  Val: ESD_DIODE
+- '# Ref': IC1
+  Package: SP100
+  PosX: 88.0
+  PosY: -117.0
+  Rot: 0.0
+  Side: top
+  Val: SP100
+- '# Ref': IC2
+  Package: SP100
+  PosX: 112.0
+  PosY: -117.0
+  Rot: 0.0
+  Side: top
+  Val: SP100
+- '# Ref': IC3
+  Package: SP100
+  PosX: 88.0
+  PosY: -130.0
+  Rot: 0.0
+  Side: top
+  Val: SP100
+- '# Ref': IC4
+  Package: SP100
+  PosX: 112.0
+  PosY: -130.0
+  Rot: 0.0
+  Side: top
+  Val: SP100
+- '# Ref': IC5
+  Package: LQFP-32
+  PosX: 100.0
+  PosY: -128.4
+  Rot: 90.0
+  Side: top
+  Val: STM32F0xxKxTx
+- '# Ref': J1
+  Package: S04B-PASK-2
+  PosX: 100.0
+  PosY: -119.4
+  Rot: 0.0
+  Side: top
+  Val: SERIAL
+- '# Ref': P1
+  Package: TC2030-NL
+  PosX: 78.14
+  PosY: -123.5
+  Rot: -90.0
+  Side: top
+  Val: SWD_TC
+- '# Ref': R1
+  Package: '0402'
+  PosX: 98.9
+  PosY: -135.25
+  Rot: 0.0
+  Side: top
+  Val: 1k
+- '# Ref': R2
+  Package: '0402'
+  PosX: 101.0
+  PosY: -135.25
+  Rot: 180.0
+  Side: top
+  Val: 1k
+- '# Ref': REF**
+  Package: M3_MOUNT
+  PosX: 78.5
+  PosY: -114.5
+  Rot: 0.0
+  Side: top
+  Val: M3_MOUNT
+- '# Ref': REF**
+  Package: M3_MOUNT
+  PosX: 78.5
+  PosY: -132.5
+  Rot: 0.0
+  Side: top
+  Val: M3_MOUNT
+- '# Ref': REF**
+  Package: M3_MOUNT
+  PosX: 121.5
+  PosY: -132.5
+  Rot: 0.0
+  Side: top
+  Val: M3_MOUNT
+- '# Ref': REF**
+  Package: M3_MOUNT
+  PosX: 121.5
+  PosY: -114.5
+  Rot: 0.0
+  Side: top
+  Val: M3_MOUNT
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 100n | 0402 | 92.8 | -122.2 | 0.0\
+  \ | top | \n| C2 | 100n | 0402 | 116.8 | -122.2 | 0.0 | top | \n| C3 | 100n | 0402\
+  \ | 116.8 | -135.2 | 0.0 | top | \n| C4 | 100n | 0402 | 92.8 | -135.2 | 0.0 | top\
+  \ | \n| C5 | 4\xC2\xB57 | 0402 | 105.6 | -124.3 | -90.0 | top | \n| C6 | 100n |\
+  \ 0402 | 104.1 | -124.3 | -45.0 | top | \n| C7 | 100n | 0402 | 95.8 | -132.6 | 135.0\
+  \ | top | \n| C8 | 1\xC2\xB5 | 0402 | 98.9 | -134.05 | 180.0 | top | \n| C9 | 10n\
+  \ | 0402 | 101.0 | -134.05 | 0.0 | top | \n| D1 | RED | 0603-LED | 96.3 | -135.1\
+  \ | 180.0 | top | \n| D2 | GRN | 0603-LED | 103.6 | -135.1 | 0.0 | top | \n| D3\
+  \ | ESD_DIODE | 0402 | 99.0 | -121.5 | -90.0 | top | \n| D4 | ESD_DIODE | 0402 |\
+  \ 97.0 | -121.5 | -90.0 | top | \n| D5 | ESD_DIODE | 0402 | 103.0 | -121.5 | -90.0\
+  \ | top | \n| IC1 | SP100 | SP100 | 88.0 | -117.0 | 0.0 | top | \n| IC2 | SP100\
+  \ | SP100 | 112.0 | -117.0 | 0.0 | top | \n| IC3 | SP100 | SP100 | 88.0 | -130.0\
+  \ | 0.0 | top | \n| IC4 | SP100 | SP100 | 112.0 | -130.0 | 0.0 | top | \n| IC5 |\
+  \ STM32F0xxKxTx | LQFP-32 | 100.0 | -128.4 | 90.0 | top | \n| J1 | SERIAL | S04B-PASK-2\
+  \ | 100.0 | -119.4 | 0.0 | top | \n| P1 | SWD_TC | TC2030-NL | 78.14 | -123.5 |\
+  \ -90.0 | top | \n| R1 | 1k | 0402 | 98.9 | -135.25 | 0.0 | top | \n| R2 | 1k |\
+  \ 0402 | 101.0 | -135.25 | 180.0 | top | \n| REF** | M3_MOUNT | M3_MOUNT | 78.5\
+  \ | -114.5 | 0.0 | top | \n| REF** | M3_MOUNT | M3_MOUNT | 78.5 | -132.5 | 0.0 |\
+  \ top | \n| REF** | M3_MOUNT | M3_MOUNT | 121.5 | -132.5 | 0.0 | top | \n| REF**\
+  \ | M3_MOUNT | M3_MOUNT | 121.5 | -114.5 | 0.0 | top | \n"
 projects_flat: projects/adamgreig_m3_avionics_extpressure/current_version/working
 repo:
   allow_forking: true

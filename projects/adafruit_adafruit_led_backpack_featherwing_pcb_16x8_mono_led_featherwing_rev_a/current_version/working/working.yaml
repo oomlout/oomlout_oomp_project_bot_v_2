@@ -1,9 +1,378 @@
 board: 16x8_mono_led_featherwing_rev_a
+bom:
+- Id: '1'
+  Designator: C2,C1,C3
+  Footprint: 0805-NO
+  Quantity: '3'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: FID2,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: A0,A2,A1
+  Footprint: SOLDERJUMPER_REFLOW_NOPASTE
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U2
+  Footprint: SOP28_300MIL_SKINNY
+  Quantity: '1'
+  Designation: 28-SOIC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R2,R1
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R4,R5,R3
+  Footprint: 0805-NO
+  Quantity: '3'
+  Designation: 47K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: D1
+  Footprint: SOD-323F
+  Quantity: '1'
+  Designation: 1N4148
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U$2
+  Footprint: ADAFRUIT_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U$1
+  Footprint: FEATHERLOGO_SMALL
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: LED2,LED1
+  Footprint: SEGMENT_BL-M07C881UR
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: MS1
+  Footprint: FEATHERWING
+  Quantity: '1'
+  Designation: FEATHERWING
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C2,C1,C3\
+  \ | 0805-NO | 3 | 10uF |  |  | [''] | \n| 2 | FID2,FID1 | FIDUCIAL_1MM | 2 | FIDUCIAL\"\
+  \ |  |  | [''] | \n| 3 | A0,A2,A1 | SOLDERJUMPER_REFLOW_NOPASTE | 3 |  |  |  | ['']\
+  \ | \n| 4 | U2 | SOP28_300MIL_SKINNY | 1 | 28-SOIC |  |  | [''] | \n| 5 | R2,R1\
+  \ | 0805-NO | 2 | 10K |  |  | [''] | \n| 6 | R4,R5,R3 | 0805-NO | 3 | 47K |  | \
+  \ | [''] | \n| 7 | D1 | SOD-323F | 1 | 1N4148 |  |  | [''] | \n| 8 | U$2 | ADAFRUIT_5MM\
+  \ | 1 |  |  |  | [''] | \n| 9 | U$1 | FEATHERLOGO_SMALL | 1 |  |  |  | [''] | \n\
+  | 10 | LED2,LED1 | SEGMENT_BL-M07C881UR | 2 |  |  |  | [''] | \n| 11 | MS1 | FEATHERWING\
+  \ | 1 | FEATHERWING |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: SOLDERJUMPERREFLOW_NOPASTE
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_REFLOW_NOPASTE
+  Qnty: '3'
+  Ref: A0, A1, A2
+  Value: SOLDERJUMPERREFLOW_NOPASTE
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '3'
+  Ref: C1, C2, C3
+  Value: 10uF
+  Vendor: ''
+- Cmp name: DIODESOD-323F
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-323F
+  Qnty: '1'
+  Ref: D1
+  Value: 1N4148
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: DISP_SEGMENT_8X8_ROWCATHODE
+  DNP: ''
+  Description: ''
+  Footprint: working:SEGMENT_BL-M07C881UR
+  Qnty: '2'
+  Ref: LED1, LED2
+  Value: DISP_SEGMENT_8X8_ROWCATHODE
+  Vendor: ''
+- Cmp name: FEATHERWING
+  DNP: ''
+  Description: ''
+  Footprint: working:FEATHERWING
+  Qnty: '1'
+  Ref: MS1
+  Value: FEATHERWING
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '3'
+  Ref: R3, R4, R5
+  Value: 47K
+  Vendor: ''
+- Cmp name: HT16K33_SOP28_SKINNY
+  DNP: ''
+  Description: ''
+  Footprint: working:SOP28_300MIL_SKINNY
+  Qnty: '1'
+  Ref: U2
+  Value: 28-SOIC
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| A0, A1,\
+  \ A2 | 3 | SOLDERJUMPERREFLOW_NOPASTE | SOLDERJUMPERREFLOW_NOPASTE | working:SOLDERJUMPER_REFLOW_NOPASTE\
+  \ |  |  |  | \n| C1, C2, C3 | 3 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO\
+  \ |  |  |  | \n| D1 | 1 | 1N4148 | DIODESOD-323F | working:SOD-323F |  |  |  | \n\
+  | FID1, FID2 | 2 | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM\
+  \ |  |  |  | \n| LED1, LED2 | 2 | DISP_SEGMENT_8X8_ROWCATHODE | DISP_SEGMENT_8X8_ROWCATHODE\
+  \ | working:SEGMENT_BL-M07C881UR |  |  |  | \n| MS1 | 1 | FEATHERWING | FEATHERWING\
+  \ | working:FEATHERWING |  |  |  | \n| R1, R2 | 2 | 10K | RESISTOR0805_NOOUTLINE\
+  \ | working:0805-NO |  |  |  | \n| R3, R4, R5 | 3 | 47K | RESISTOR0805_NOOUTLINE\
+  \ | working:0805-NO |  |  |  | \n| U2 | 1 | 28-SOIC | HT16K33_SOP28_SKINNY | working:SOP28_300MIL_SKINNY\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_led_backpack_featherwing_pcb_16x8_mono_led_featherwing_rev_a/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_led_backpack_featherwing_pcb_16x8_mono_led_featherwing_rev_a/current_version/working/working.sch
 id: adafruit_adafruit_led_backpack_featherwing_pcb_16x8_mono_led_featherwing_rev_a
 name: adafruit_led_backpack_featherwing_pcb
+position_bottom:
+- '# Ref': LED1
+  Package: SEGMENT_BL-M07C881UR
+  PosX: 158.6611
+  PosY: -105.0036
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': LED2
+  Package: SEGMENT_BL-M07C881UR
+  PosX: 138.3411
+  PosY: -105.0036
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': MS1
+  Package: FEATHERWING
+  PosX: 173.9011
+  PosY: -116.4336
+  Rot: 180.0
+  Side: bottom
+  Val: FEATHERWING
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| LED1 | nan | SEGMENT_BL-M07C881UR\
+  \ | 158.6611 | -105.0036 | 180.0 | bottom | \n| LED2 | nan | SEGMENT_BL-M07C881UR\
+  \ | 138.3411 | -105.0036 | 180.0 | bottom | \n| MS1 | FEATHERWING | FEATHERWING\
+  \ | 173.9011 | -116.4336 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': A0
+  Package: SOLDERJUMPER_REFLOW_NOPASTE
+  PosX: 167.2971
+  PosY: -100.3046
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': A1
+  Package: SOLDERJUMPER_REFLOW_NOPASTE
+  PosX: 167.2971
+  PosY: -102.4636
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': A2
+  Package: SOLDERJUMPER_REFLOW_NOPASTE
+  PosX: 167.2971
+  PosY: -104.6226
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 160.6931
+  PosY: -109.5756
+  Rot: 90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 162.4711
+  PosY: -109.5756
+  Rot: 90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 158.9151
+  PosY: -109.5756
+  Rot: 90.0
+  Side: top
+  Val: 10uF
+- '# Ref': D1
+  Package: SOD-323F
+  PosX: 171.6151
+  PosY: -108.6866
+  Rot: 0.0
+  Side: top
+  Val: 1N4148
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 124.3711
+  PosY: -98.3996
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 171.4881
+  PosY: -110.5916
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 125.2601
+  PosY: -103.2256
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: 0805-NO
+  PosX: 125.2601
+  PosY: -101.1936
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: 0805-NO
+  PosX: 171.6151
+  PosY: -102.4636
+  Rot: 180.0
+  Side: top
+  Val: 47K
+- '# Ref': R4
+  Package: 0805-NO
+  PosX: 171.6151
+  PosY: -100.3046
+  Rot: 180.0
+  Side: top
+  Val: 47K
+- '# Ref': R5
+  Package: 0805-NO
+  PosX: 171.6151
+  PosY: -104.6226
+  Rot: 180.0
+  Side: top
+  Val: 47K
+- '# Ref': U$1
+  Package: FEATHERLOGO_SMALL
+  PosX: 139.1031
+  PosY: -111.6076
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': U$2
+  Package: ADAFRUIT_5MM
+  PosX: 164.8841
+  PosY: -111.0996
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U2
+  Package: SOP28_300MIL_SKINNY
+  PosX: 148.3741
+  PosY: -105.0036
+  Rot: 180.0
+  Side: top
+  Val: 28-SOIC
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| A0 | nan | SOLDERJUMPER_REFLOW_NOPASTE\
+  \ | 167.2971 | -100.3046 | 180.0 | top | \n| A1 | nan | SOLDERJUMPER_REFLOW_NOPASTE\
+  \ | 167.2971 | -102.4636 | 180.0 | top | \n| A2 | nan | SOLDERJUMPER_REFLOW_NOPASTE\
+  \ | 167.2971 | -104.6226 | 180.0 | top | \n| C1 | 10uF | 0805-NO | 160.6931 | -109.5756\
+  \ | 90.0 | top | \n| C2 | 10uF | 0805-NO | 162.4711 | -109.5756 | 90.0 | top | \n\
+  | C3 | 10uF | 0805-NO | 158.9151 | -109.5756 | 90.0 | top | \n| D1 | 1N4148 | SOD-323F\
+  \ | 171.6151 | -108.6866 | 0.0 | top | \n| FID1 | FIDUCIAL\"\" | FIDUCIAL_1MM |\
+  \ 124.3711 | -98.3996 | 0.0 | top | \n| FID2 | FIDUCIAL\"\" | FIDUCIAL_1MM | 171.4881\
+  \ | -110.5916 | 0.0 | top | \n| R1 | 10K | 0805-NO | 125.2601 | -103.2256 | 0.0\
+  \ | top | \n| R2 | 10K | 0805-NO | 125.2601 | -101.1936 | 0.0 | top | \n| R3 | 47K\
+  \ | 0805-NO | 171.6151 | -102.4636 | 180.0 | top | \n| R4 | 47K | 0805-NO | 171.6151\
+  \ | -100.3046 | 180.0 | top | \n| R5 | 47K | 0805-NO | 171.6151 | -104.6226 | 180.0\
+  \ | top | \n| U$1 | nan | FEATHERLOGO_SMALL | 139.1031 | -111.6076 | 90.0 | top\
+  \ | \n| U$2 | nan | ADAFRUIT_5MM | 164.8841 | -111.0996 | 0.0 | top | \n| U2 | 28-SOIC\
+  \ | SOP28_300MIL_SKINNY | 148.3741 | -105.0036 | 180.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_led_backpack_featherwing_pcb_16x8_mono_led_featherwing_rev_a/current_version/working
 repo:
   allow_forking: true

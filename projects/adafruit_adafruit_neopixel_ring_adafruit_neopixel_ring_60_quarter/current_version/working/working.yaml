@@ -1,9 +1,315 @@
 board: adafruit_neopixel_ring_60_quarter
+bom:
+- Id: '1'
+  Designator: JP4,JP1,JP3,JP2
+  Footprint: 1X01-CLEANBIG
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C8,C6,C2,C12,C9,C4,C10,C3
+  Footprint: C0603
+  Quantity: '8'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: LED5,LED6,LED8,LED9,LED12,LED1,LED2,LED11,LED10,LED7,LED4,LED3
+  Footprint: WS28115050
+  Quantity: '12'
+  Designation: WS28115050
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$2,U$1
+  Footprint: GUIDE-STAR-12
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$3
+  Footprint: ADAFRUIT_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | JP4,JP1,JP3,JP2\
+  \ | 1X01-CLEANBIG | 4 |  |  |  | [''] | \n| 2 | C8,C6,C2,C12,C9,C4,C10,C3 | C0603\
+  \ | 8 |  |  |  | [''] | \n| 3 | LED5,LED6,LED8,LED9,LED12,LED1,LED2,LED11,LED10,LED7,LED4,LED3\
+  \ | WS28115050 | 12 | WS28115050 |  |  | [''] | \n| 4 | U$2,U$1 | GUIDE-STAR-12\
+  \ | 2 |  |  |  | [''] | \n| 5 | U$3 | ADAFRUIT_5MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C-EUC0603
+  DNP: ''
+  Description: ''
+  Footprint: working:C0603
+  Qnty: '8'
+  Ref: C2, C3, C4, C6, C8, C9, C10, C12
+  Value: C-EUC0603
+  Vendor: ''
+- Cmp name: PINHD-1X1CB
+  DNP: ''
+  Description: ''
+  Footprint: working:1X01-CLEANBIG
+  Qnty: '4'
+  Ref: JP1, JP2, JP3, JP4
+  Value: PINHD-1X1CB
+  Vendor: ''
+- Cmp name: WS28115050
+  DNP: ''
+  Description: ''
+  Footprint: working:WS28115050
+  Qnty: '12'
+  Ref: LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8, LED9, LED10, LED11, LED12
+  Value: WS28115050
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C2, C3,\
+  \ C4, C6, C8, C9, C10, C12 | 8 | C-EUC0603 | C-EUC0603 | working:C0603 |  |  | \
+  \ | \n| JP1, JP2, JP3, JP4 | 4 | PINHD-1X1CB | PINHD-1X1CB | working:1X01-CLEANBIG\
+  \ |  |  |  | \n| LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8, LED9, LED10, LED11,\
+  \ LED12 | 12 | WS28115050 | WS28115050 | working:WS28115050 |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_neopixel_ring_adafruit_neopixel_ring_60_quarter/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_neopixel_ring_adafruit_neopixel_ring_60_quarter/current_version/working/working.sch
 id: adafruit_adafruit_neopixel_ring_adafruit_neopixel_ring_60_quarter
 name: adafruit_neopixel_ring
+position_bottom:
+- '# Ref': U$3
+  Package: ADAFRUIT_5MM
+  PosX: 146.5961
+  PosY: -92.9386
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$3 | nan | ADAFRUIT_5MM | 146.5961\
+  \ | -92.9386 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C2
+  Package: C0603
+  PosX: 160.1754
+  PosY: -93.3293
+  Rot: 45.0
+  Side: top
+  Val: .nan
+- '# Ref': C3
+  Package: C0603
+  PosX: 164.4485
+  PosY: -100.7306
+  Rot: 15.0
+  Side: top
+  Val: .nan
+- '# Ref': C4
+  Package: C0603
+  PosX: 164.4485
+  PosY: -109.2766
+  Rot: -15.0
+  Side: top
+  Val: .nan
+- '# Ref': C6
+  Package: C0603
+  PosX: 152.7741
+  PosY: -120.951
+  Rot: -75.0
+  Side: top
+  Val: .nan
+- '# Ref': C8
+  Package: C0603
+  PosX: 136.8268
+  PosY: -116.6779
+  Rot: -135.0
+  Side: top
+  Val: .nan
+- '# Ref': C9
+  Package: C0603
+  PosX: 132.5537
+  PosY: -109.2766
+  Rot: -165.0
+  Side: top
+  Val: .nan
+- '# Ref': C10
+  Package: C0603
+  PosX: 132.5537
+  PosY: -100.7306
+  Rot: 165.0
+  Side: top
+  Val: .nan
+- '# Ref': C12
+  Package: C0603
+  PosX: 144.2281
+  PosY: -89.0562
+  Rot: 105.0
+  Side: top
+  Val: .nan
+- '# Ref': JP1
+  Package: 1X01-CLEANBIG
+  PosX: 152.9604
+  PosY: -88.3664
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X01-CLEANBIG
+  PosX: 136.2977
+  PosY: -92.7994
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP3
+  Package: 1X01-CLEANBIG
+  PosX: 144.0442
+  PosY: -121.6448
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP4
+  Package: 1X01-CLEANBIG
+  PosX: 160.7082
+  PosY: -117.2113
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': LED1
+  Package: WS28115050
+  PosX: 148.5011
+  PosY: -90.2716
+  Rot: 180.0
+  Side: top
+  Val: WS28115050
+- '# Ref': LED2
+  Package: WS28115050
+  PosX: 155.8671
+  PosY: -92.2454
+  Rot: 150.0
+  Side: top
+  Val: WS28115050
+- '# Ref': LED3
+  Package: WS28115050
+  PosX: 161.2593
+  PosY: -97.6376
+  Rot: 120.0
+  Side: top
+  Val: WS28115050
+- '# Ref': LED4
+  Package: WS28115050
+  PosX: 163.2331
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: WS28115050
+- '# Ref': LED5
+  Package: WS28115050
+  PosX: 161.2593
+  PosY: -112.3696
+  Rot: 60.0
+  Side: top
+  Val: WS28115050
+- '# Ref': LED6
+  Package: WS28115050
+  PosX: 155.8671
+  PosY: -117.7618
+  Rot: 30.0
+  Side: top
+  Val: WS28115050
+- '# Ref': LED7
+  Package: WS28115050
+  PosX: 148.5011
+  PosY: -119.7356
+  Rot: 0.0
+  Side: top
+  Val: WS28115050
+- '# Ref': LED8
+  Package: WS28115050
+  PosX: 141.1351
+  PosY: -117.7618
+  Rot: -30.0
+  Side: top
+  Val: WS28115050
+- '# Ref': LED9
+  Package: WS28115050
+  PosX: 135.7429
+  PosY: -112.3696
+  Rot: -60.0
+  Side: top
+  Val: WS28115050
+- '# Ref': LED10
+  Package: WS28115050
+  PosX: 133.7691
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: WS28115050
+- '# Ref': LED11
+  Package: WS28115050
+  PosX: 135.7429
+  PosY: -97.6376
+  Rot: -120.0
+  Side: top
+  Val: WS28115050
+- '# Ref': LED12
+  Package: WS28115050
+  PosX: 141.1351
+  PosY: -92.2454
+  Rot: -150.0
+  Side: top
+  Val: WS28115050
+- '# Ref': U$1
+  Package: GUIDE-STAR-12
+  PosX: 148.5011
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$2
+  Package: GUIDE-STAR-12
+  PosX: 148.5011
+  PosY: -105.0036
+  Rot: 15.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C2 | nan | C0603 | 160.1754 | -93.3293\
+  \ | 45.0 | top | \n| C3 | nan | C0603 | 164.4485 | -100.7306 | 15.0 | top | \n|\
+  \ C4 | nan | C0603 | 164.4485 | -109.2766 | -15.0 | top | \n| C6 | nan | C0603 |\
+  \ 152.7741 | -120.951 | -75.0 | top | \n| C8 | nan | C0603 | 136.8268 | -116.6779\
+  \ | -135.0 | top | \n| C9 | nan | C0603 | 132.5537 | -109.2766 | -165.0 | top |\
+  \ \n| C10 | nan | C0603 | 132.5537 | -100.7306 | 165.0 | top | \n| C12 | nan | C0603\
+  \ | 144.2281 | -89.0562 | 105.0 | top | \n| JP1 | nan | 1X01-CLEANBIG | 152.9604\
+  \ | -88.3664 | 0.0 | top | \n| JP2 | nan | 1X01-CLEANBIG | 136.2977 | -92.7994 |\
+  \ 0.0 | top | \n| JP3 | nan | 1X01-CLEANBIG | 144.0442 | -121.6448 | 0.0 | top |\
+  \ \n| JP4 | nan | 1X01-CLEANBIG | 160.7082 | -117.2113 | 0.0 | top | \n| LED1 |\
+  \ WS28115050 | WS28115050 | 148.5011 | -90.2716 | 180.0 | top | \n| LED2 | WS28115050\
+  \ | WS28115050 | 155.8671 | -92.2454 | 150.0 | top | \n| LED3 | WS28115050 | WS28115050\
+  \ | 161.2593 | -97.6376 | 120.0 | top | \n| LED4 | WS28115050 | WS28115050 | 163.2331\
+  \ | -105.0036 | 90.0 | top | \n| LED5 | WS28115050 | WS28115050 | 161.2593 | -112.3696\
+  \ | 60.0 | top | \n| LED6 | WS28115050 | WS28115050 | 155.8671 | -117.7618 | 30.0\
+  \ | top | \n| LED7 | WS28115050 | WS28115050 | 148.5011 | -119.7356 | 0.0 | top\
+  \ | \n| LED8 | WS28115050 | WS28115050 | 141.1351 | -117.7618 | -30.0 | top | \n\
+  | LED9 | WS28115050 | WS28115050 | 135.7429 | -112.3696 | -60.0 | top | \n| LED10\
+  \ | WS28115050 | WS28115050 | 133.7691 | -105.0036 | -90.0 | top | \n| LED11 | WS28115050\
+  \ | WS28115050 | 135.7429 | -97.6376 | -120.0 | top | \n| LED12 | WS28115050 | WS28115050\
+  \ | 141.1351 | -92.2454 | -150.0 | top | \n| U$1 | nan | GUIDE-STAR-12 | 148.5011\
+  \ | -105.0036 | 0.0 | top | \n| U$2 | nan | GUIDE-STAR-12 | 148.5011 | -105.0036\
+  \ | 15.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_neopixel_ring_adafruit_neopixel_ring_60_quarter/current_version/working
 repo:
   allow_forking: true

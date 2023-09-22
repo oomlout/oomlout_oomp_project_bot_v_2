@@ -1,9 +1,477 @@
 board: adafruit_pct2075
+bom:
+- Id: '1'
+  Designator: R3
+  Footprint: RESPACK_4X0603
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: JP3
+  Footprint: 1X05_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: FID4,FID3
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$19,U$1,U$17,U$21
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '4'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$22
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C2
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: CONN4,CONN3
+  Footprint: JST_SH4
+  Quantity: '2'
+  Designation: STEMMA_I2C_QT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C1
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U$2
+  Footprint: SOIC8_150MIL
+  Quantity: '1'
+  Designation: PCT2075D
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: D1
+  Footprint: CHIPLED_0603_NOOUTLINE
+  Quantity: '1'
+  Designation: GREEN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: JP2
+  Footprint: 1X03_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: SJ6,SJ4,SJ5
+  Footprint: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U$30,U$31
+  Footprint: STEMMAQT
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: U$25
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R3\
+  \ | RESPACK_4X0603 | 1 | 10K |  |  | [''] | \n| 2 | JP3 | 1X05_ROUND | 1 |  |  |\
+  \  | [''] | \n| 3 | FID4,FID3 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | [''] | \n\
+  | 4 | U$19,U$1,U$17,U$21 | MOUNTINGHOLE_2.5_PLATED | 4 | MOUNTINGHOLE2.5 |  |  |\
+  \ [''] | \n| 5 | U$22 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n| 6 | C2 | 0805-NO\
+  \ | 1 | 10uF |  |  | [''] | \n| 7 | CONN4,CONN3 | JST_SH4 | 2 | STEMMA_I2C_QT |\
+  \  |  | [''] | \n| 8 | C1 | 0603-NO | 1 | 0.1uF |  |  | [''] | \n| 9 | U$2 | SOIC8_150MIL\
+  \ | 1 | PCT2075D |  |  | [''] | \n| 10 | D1 | CHIPLED_0603_NOOUTLINE | 1 | GREEN\
+  \ |  |  | [''] | \n| 11 | JP2 | 1X03_ROUND | 1 |  |  |  | [''] | \n| 12 | SJ6,SJ4,SJ5\
+  \ | SOLDERJUMPER_2WAY_OPEN_NOPASTE | 3 |  |  |  | [''] | \n| 13 | U$30,U$31 | STEMMAQT\
+  \ | 2 |  |  |  | [''] | \n| 14 | U$25 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: C1
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C2
+  Value: 10uF
+  Vendor: ''
+- Cmp name: STEMMA_I2C_QT
+  DNP: ''
+  Description: ''
+  Footprint: working:JST_SH4
+  Qnty: '2'
+  Ref: CONN3, CONN4
+  Value: STEMMA_I2C_QT
+  Vendor: ''
+- Cmp name: LED0603_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0603_NOOUTLINE
+  Qnty: '1'
+  Ref: D1
+  Value: GREEN
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID3, FID4
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: HEADER-1X3ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X03_ROUND
+  Qnty: '1'
+  Ref: JP2
+  Value: HEADER-1X3ROUND
+  Vendor: ''
+- Cmp name: HEADER-1X5ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X05_ROUND
+  Qnty: '1'
+  Ref: JP3
+  Value: HEADER-1X5ROUND
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603
+  Qnty: '1'
+  Ref: R3
+  Value: 10K
+  Vendor: ''
+- Cmp name: SOLDERJUMPER_2WAY
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  Qnty: '3'
+  Ref: SJ4, SJ5, SJ6
+  Value: SOLDERJUMPER_2WAY
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '4'
+  Ref: U$1, U$17, U$19, U$21
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+- Cmp name: PCT2075D
+  DNP: ''
+  Description: ''
+  Footprint: working:SOIC8_150MIL
+  Qnty: '1'
+  Ref: U$2
+  Value: PCT2075D
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| C2 | 1 | 10uF\
+  \ | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| CONN3, CONN4 | 2\
+  \ | STEMMA_I2C_QT | STEMMA_I2C_QT | working:JST_SH4 |  |  |  | \n| D1 | 1 | GREEN\
+  \ | LED0603_NOOUTLINE | working:CHIPLED_0603_NOOUTLINE |  |  |  | \n| FID3, FID4\
+  \ | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| JP2 |\
+  \ 1 | HEADER-1X3ROUND | HEADER-1X3ROUND | working:1X03_ROUND |  |  |  | \n| JP3\
+  \ | 1 | HEADER-1X5ROUND | HEADER-1X5ROUND | working:1X05_ROUND |  |  |  | \n| R3\
+  \ | 1 | 10K | RESISTOR_4PACK | working:RESPACK_4X0603 |  |  |  | \n| SJ4, SJ5, SJ6\
+  \ | 3 | SOLDERJUMPER_2WAY | SOLDERJUMPER_2WAY | working:SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ |  |  |  | \n| U$1, U$17, U$19, U$21 | 4 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 |\
+  \ working:MOUNTINGHOLE_2.5_PLATED |  |  |  | \n| U$2 | 1 | PCT2075D | PCT2075D |\
+  \ working:SOIC8_150MIL |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_pct2075_pcb_adafruit_pct2075/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_pct2075_pcb_adafruit_pct2075/current_version/working/working.sch
 id: adafruit_adafruit_pct2075_pcb_adafruit_pct2075
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$1
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '12.700000000000003'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$17
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '20.319999999999993'
+  y: '12.700000000000003'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$19
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$21
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '20.319999999999993'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 12.700000000000003 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$1 | m3 | \n| 20.319999999999993 | 12.700000000000003 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$17 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$19 | m3 | \n| 20.319999999999993 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$21 | m3 | \n"
 name: adafruit_pct2075_pcb
+position_bottom:
+- '# Ref': SJ4
+  Package: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  PosX: 145.4531
+  PosY: -102.4636
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SJ5
+  Package: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  PosX: 148.5011
+  PosY: -102.4636
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SJ6
+  Package: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  PosX: 151.6761
+  PosY: -102.4636
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$25
+  Package: PCBFEAT-REV-040
+  PosX: 141.6431
+  PosY: -97.6376
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$30
+  Package: STEMMAQT
+  PosX: 158.2801
+  PosY: -109.4486
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$31
+  Package: STEMMAQT
+  PosX: 138.7221
+  PosY: -100.5586
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| SJ4 | nan | SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ | 145.4531 | -102.4636 | 90.0 | bottom | \n| SJ5 | nan | SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ | 148.5011 | -102.4636 | 90.0 | bottom | \n| SJ6 | nan | SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ | 151.6761 | -102.4636 | 90.0 | bottom | \n| U$25 | nan | PCBFEAT-REV-040 | 141.6431\
+  \ | -97.6376 | 180.0 | bottom | \n| U$30 | nan | STEMMAQT | 158.2801 | -109.4486\
+  \ | 90.0 | bottom | \n| U$31 | nan | STEMMAQT | 138.7221 | -100.5586 | -90.0 | bottom\
+  \ | \n"
+position_top:
+- '# Ref': C1
+  Package: 0603-NO
+  PosX: 153.3271
+  PosY: -105.1306
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 143.0401
+  PosY: -108.0516
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': CONN3
+  Package: JST_SH4
+  PosX: 158.6611
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': CONN4
+  Package: JST_SH4
+  PosX: 138.3411
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': D1
+  Package: CHIPLED_0603_NOOUTLINE
+  PosX: 139.3571
+  PosY: -101.3206
+  Rot: 90.0
+  Side: top
+  Val: GREEN
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 141.1351
+  PosY: -112.6871
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID4
+  Package: FIDUCIAL_1MM
+  PosX: 155.4861
+  PosY: -97.5995
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': JP2
+  Package: 1X03_ROUND
+  PosX: 148.5011
+  PosY: -98.6536
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP3
+  Package: 1X05_ROUND
+  PosX: 148.5011
+  PosY: -111.3536
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': R3
+  Package: RESPACK_4X0603
+  PosX: 143.2941
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': U$1
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 138.3411
+  PosY: -98.6536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$2
+  Package: SOIC8_150MIL
+  PosX: 148.6281
+  PosY: -106.2736
+  Rot: -90.0
+  Side: top
+  Val: PCT2075D
+- '# Ref': U$17
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 158.6611
+  PosY: -98.6536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$19
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 138.3411
+  PosY: -111.3536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$21
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 158.6611
+  PosY: -111.3536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$22
+  Package: ADAFRUIT_3.5MM
+  PosX: 140.5001
+  PosY: -100.1776
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | 0603-NO | 153.3271 | -105.1306\
+  \ | -90.0 | top | \n| C2 | 10uF | 0805-NO | 143.0401 | -108.0516 | 0.0 | top | \n\
+  | CONN3 | STEMMA_I2C_QT | JST_SH4 | 158.6611 | -105.0036 | 90.0 | top | \n| CONN4\
+  \ | STEMMA_I2C_QT | JST_SH4 | 138.3411 | -105.0036 | -90.0 | top | \n| D1 | GREEN\
+  \ | CHIPLED_0603_NOOUTLINE | 139.3571 | -101.3206 | 90.0 | top | \n| FID3 | FIDUCIAL_1MM\
+  \ | FIDUCIAL_1MM | 141.1351 | -112.6871 | 0.0 | top | \n| FID4 | FIDUCIAL_1MM |\
+  \ FIDUCIAL_1MM | 155.4861 | -97.5995 | 0.0 | top | \n| JP2 | nan | 1X03_ROUND |\
+  \ 148.5011 | -98.6536 | 0.0 | top | \n| JP3 | nan | 1X05_ROUND | 148.5011 | -111.3536\
+  \ | 0.0 | top | \n| R3 | 10K | RESPACK_4X0603 | 143.2941 | -105.0036 | -90.0 | top\
+  \ | \n| U$1 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 138.3411 | -98.6536 |\
+  \ 0.0 | top | \n| U$2 | PCT2075D | SOIC8_150MIL | 148.6281 | -106.2736 | -90.0 |\
+  \ top | \n| U$17 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 158.6611 | -98.6536\
+  \ | 0.0 | top | \n| U$19 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 138.3411\
+  \ | -111.3536 | 0.0 | top | \n| U$21 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 158.6611 | -111.3536 | 0.0 | top | \n| U$22 | nan | ADAFRUIT_3.5MM | 140.5001\
+  \ | -100.1776 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_pct2075_pcb_adafruit_pct2075/current_version/working
 repo:
   allow_forking: true

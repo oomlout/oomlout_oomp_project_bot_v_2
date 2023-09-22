@@ -1,10 +1,325 @@
 board: gpio_expander
+bom:
+- Id: '1'
+  Designator: RN2
+  Footprint: R_Array_Convex_4x0603
+  Quantity: '1'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: SW1
+  Footprint: SW_DIP_SPSTx06_Slide_GrayHill_97C06_W4.5mm_P1.27mm
+  Quantity: '1'
+  Designation: SW_DIP_x06
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C2,C4,C3
+  Footprint: C_0805_2012Metric
+  Quantity: '3'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C1
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: RN1
+  Footprint: R_Array_Concave_2x0603
+  Quantity: '1'
+  Designation: R_Pack02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U1
+  Footprint: TSSOP-24_4.4x7.8mm_P0.65mm
+  Quantity: '1'
+  Designation: TCA9555DBT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: J2
+  Footprint: Pin_Header_Angled_2x07_Pitch2.54mm
+  Quantity: '1'
+  Designation: Conn_02x07_Odd_Even
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: J3
+  Footprint: Pin_Header_Angled_2x04_Pitch2.54mm
+  Quantity: '1'
+  Designation: Conn_02x04_Odd_Even
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: J1
+  Footprint: Pin_Header_Angled_1x10_Pitch2.54mm
+  Quantity: '1'
+  Designation: Conn_01x10
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | RN2\
+  \ | R_Array_Convex_4x0603 | 1 | 10k |  |  | [''] | \n| 2 | SW1 | SW_DIP_SPSTx06_Slide_GrayHill_97C06_W4.5mm_P1.27mm\
+  \ | 1 | SW_DIP_x06 |  |  | [''] | \n| 3 | C2,C4,C3 | C_0805_2012Metric | 3 | 10uF\
+  \ |  |  | [''] | \n| 4 | C1 | C_0603_1608Metric | 1 | 1uF |  |  | [''] | \n| 5 |\
+  \ RN1 | R_Array_Concave_2x0603 | 1 | R_Pack02 |  |  | [''] | \n| 6 | U1 | TSSOP-24_4.4x7.8mm_P0.65mm\
+  \ | 1 | TCA9555DBT |  |  | [''] | \n| 7 | J2 | Pin_Header_Angled_2x07_Pitch2.54mm\
+  \ | 1 | Conn_02x07_Odd_Even |  |  | [''] | \n| 8 | J3 | Pin_Header_Angled_2x04_Pitch2.54mm\
+  \ | 1 | Conn_02x04_Odd_Even |  |  | [''] | \n| 9 | J1 | Pin_Header_Angled_1x10_Pitch2.54mm\
+  \ | 1 | Conn_01x10 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C1
+  Value: 1uF
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0805_2012Metric
+  Qnty: '3'
+  Ref: C2, C3, C4
+  Value: 10uF
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM-fiducial
+  DNP: ''
+  Description: ''
+  Footprint: Fiducial:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop
+  Qnty: '2'
+  Ref: FID1, FID4
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM-fiducial
+  DNP: ''
+  Description: ''
+  Footprint: Fiducial:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom
+  Qnty: '2'
+  Ref: FID2, FID3
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: Conn_01x10
+  DNP: ''
+  Description: Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Pin_Headers:Pin_Header_Angled_1x10_Pitch2.54mm
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_01x10
+  Vendor: ''
+- Cmp name: Conn_02x07_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x07, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Pin_Headers:Pin_Header_Angled_2x07_Pitch2.54mm
+  Qnty: '1'
+  Ref: J2
+  Value: Conn_02x07_Odd_Even
+  Vendor: ''
+- Cmp name: Conn_02x04_Odd_Even-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Angled_2x04_Pitch2.54mm
+  Qnty: '1'
+  Ref: J3
+  Value: Conn_02x04_Odd_Even
+  Vendor: ''
+- Cmp name: MountingHole
+  DNP: ''
+  Description: Mounting Hole without connection
+  Footprint: MountingHole:MountingHole_2.5mm
+  Qnty: '2'
+  Ref: MH1, MH2
+  Value: MountingHole
+  Vendor: ''
+- Cmp name: R_Pack02-device
+  DNP: ''
+  Description: ''
+  Footprint: Resistor_SMD:R_Array_Concave_2x0603
+  Qnty: '1'
+  Ref: RN1
+  Value: R_Pack02
+  Vendor: ''
+- Cmp name: R_Pack04
+  DNP: ''
+  Description: 4 resistor network, parallel topology
+  Footprint: Resistor_SMD:R_Array_Convex_4x0603
+  Qnty: '1'
+  Ref: RN2
+  Value: 10k
+  Vendor: ''
+- Cmp name: SW_DIP_x06
+  DNP: ''
+  Description: 6x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+  Footprint: Aaron:SW_DIP_SPSTx06_Slide_GrayHill_97C06_W4.5mm_P1.27mm
+  Qnty: '1'
+  Ref: SW1
+  Value: SW_DIP_x06
+  Vendor: ''
+- Cmp name: TCA9555DBT
+  DNP: ''
+  Description: 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups,
+    SSOP-24
+  Footprint: Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm
+  Qnty: '1'
+  Ref: U1
+  Value: TCA9555DBT
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 1uF | C_Small | Capacitor_SMD:C_0603_1608Metric | Unpolarized capacitor, small\
+  \ symbol |  |  | \n| C2, C3, C4 | 3 | 10uF | C_Small | Capacitor_SMD:C_0805_2012Metric\
+  \ | Unpolarized capacitor, small symbol |  |  | \n| FID1, FID4 | 2 | FIDUCIAL_1MM\
+  \ | FIDUCIAL_1MM-fiducial | Fiducial:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop | \
+  \ |  |  | \n| FID2, FID3 | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM-fiducial | Fiducial:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom\
+  \ |  |  |  | \n| J1 | 1 | Conn_01x10 | Conn_01x10 | Pin_Headers:Pin_Header_Angled_1x10_Pitch2.54mm\
+  \ | Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J2 | 1 | Conn_02x07_Odd_Even | Conn_02x07_Odd_Even | Pin_Headers:Pin_Header_Angled_2x07_Pitch2.54mm\
+  \ | Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J3 | 1 | Conn_02x04_Odd_Even | Conn_02x04_Odd_Even-Connector | Pin_Headers:Pin_Header_Angled_2x04_Pitch2.54mm\
+  \ |  |  |  | \n| MH1, MH2 | 2 | MountingHole | MountingHole | MountingHole:MountingHole_2.5mm\
+  \ | Mounting Hole without connection |  |  | \n| RN1 | 1 | R_Pack02 | R_Pack02-device\
+  \ | Resistor_SMD:R_Array_Concave_2x0603 |  |  |  | \n| RN2 | 1 | 10k | R_Pack04\
+  \ | Resistor_SMD:R_Array_Convex_4x0603 | 4 resistor network, parallel topology |\
+  \  |  | \n| SW1 | 1 | SW_DIP_x06 | SW_DIP_x06 | Aaron:SW_DIP_SPSTx06_Slide_GrayHill_97C06_W4.5mm_P1.27mm\
+  \ | 6x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol |  |  |\
+  \ \n| U1 | 1 | TCA9555DBT | TCA9555DBT | Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm |\
+  \ 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, SSOP-24\
+  \ |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/aaronw2_tca9555a_i2c_gpio_expander_gpio_expander/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/aaronw2_tca9555a_i2c_gpio_expander_gpio_expander/current_version/working/working.kicad_pcb
 file_sch_flat: projects/aaronw2_tca9555a_i2c_gpio_expander_gpio_expander/current_version/working/working.sch
 id: aaronw2_tca9555a_i2c_gpio_expander_gpio_expander
 name: tca9555a_i2c_gpio_expander
+position_bottom:
+- '# Ref': J1
+  Package: Pin_Header_Angled_1x10_Pitch2.54mm
+  PosX: 133.25
+  PosY: -87.85
+  Rot: 180.0
+  Side: bottom
+  Val: Conn_01x10
+- '# Ref': J2
+  Package: Pin_Header_Angled_2x07_Pitch2.54mm
+  PosX: 153.2
+  PosY: -106.8
+  Rot: 0.0
+  Side: bottom
+  Val: Conn_02x07_Odd_Even
+- '# Ref': J3
+  Package: Pin_Header_Angled_2x04_Pitch2.54mm
+  PosX: 146.6
+  PosY: -91.4
+  Rot: 90.0
+  Side: bottom
+  Val: Conn_02x04_Odd_Even
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J1 | Conn_01x10 | Pin_Header_Angled_1x10_Pitch2.54mm\
+  \ | 133.25 | -87.85 | 180.0 | bottom | \n| J2 | Conn_02x07_Odd_Even | Pin_Header_Angled_2x07_Pitch2.54mm\
+  \ | 153.2 | -106.8 | 0.0 | bottom | \n| J3 | Conn_02x04_Odd_Even | Pin_Header_Angled_2x04_Pitch2.54mm\
+  \ | 146.6 | -91.4 | 90.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: C_0603_1608Metric
+  PosX: 137.2
+  PosY: -100.55
+  Rot: 180.0
+  Side: top
+  Val: 1uF
+- '# Ref': C2
+  Package: C_0805_2012Metric
+  PosX: 152.55
+  PosY: -109.55
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C3
+  Package: C_0805_2012Metric
+  PosX: 137.45
+  PosY: -102.25
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': C4
+  Package: C_0805_2012Metric
+  PosX: 149.6
+  PosY: -90.2
+  Rot: 90.0
+  Side: top
+  Val: 10uF
+- '# Ref': RN1
+  Package: R_Array_Concave_2x0603
+  PosX: 140.45
+  PosY: -105.75
+  Rot: -90.0
+  Side: top
+  Val: R_Pack02
+- '# Ref': RN2
+  Package: R_Array_Convex_4x0603
+  PosX: 139.6
+  PosY: -109.15
+  Rot: 180.0
+  Side: top
+  Val: 10k
+- '# Ref': SW1
+  Package: SW_DIP_SPSTx06_Slide_GrayHill_97C06_W4.5mm_P1.27mm
+  PosX: 146.195
+  PosY: -109.24
+  Rot: 0.0
+  Side: top
+  Val: SW_DIP_x06
+- '# Ref': U1
+  Package: TSSOP-24_4.4x7.8mm_P0.65mm
+  PosX: 146.0
+  PosY: -99.175
+  Rot: 180.0
+  Side: top
+  Val: TCA9555DBT
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 1uF | C_0603_1608Metric | 137.2\
+  \ | -100.55 | 180.0 | top | \n| C2 | 10uF | C_0805_2012Metric | 152.55 | -109.55\
+  \ | 0.0 | top | \n| C3 | 10uF | C_0805_2012Metric | 137.45 | -102.25 | 180.0 | top\
+  \ | \n| C4 | 10uF | C_0805_2012Metric | 149.6 | -90.2 | 90.0 | top | \n| RN1 | R_Pack02\
+  \ | R_Array_Concave_2x0603 | 140.45 | -105.75 | -90.0 | top | \n| RN2 | 10k | R_Array_Convex_4x0603\
+  \ | 139.6 | -109.15 | 180.0 | top | \n| SW1 | SW_DIP_x06 | SW_DIP_SPSTx06_Slide_GrayHill_97C06_W4.5mm_P1.27mm\
+  \ | 146.195 | -109.24 | 0.0 | top | \n| U1 | TCA9555DBT | TSSOP-24_4.4x7.8mm_P0.65mm\
+  \ | 146.0 | -99.175 | 180.0 | top | \n"
 projects_flat: projects/aaronw2_tca9555a_i2c_gpio_expander_gpio_expander/current_version/working
 repo:
   allow_forking: true

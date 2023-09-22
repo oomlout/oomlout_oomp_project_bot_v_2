@@ -1,10 +1,260 @@
 board: badgelife_dev_board
+bom:
+- Id: '1'
+  Designator: REF**,REF**,REF**,REF**
+  Footprint: Pin_Header_Straight_2x09_Pitch2.54mm-NoSilk
+  Quantity: '4'
+  Designation: Pin_Header_Straight_2x09_Pitch2.54mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: X1
+  Footprint: Badgelife-Shitty-2x2
+  Quantity: '1'
+  Designation: Badgelife_shitty_connector
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J1,J2
+  Footprint: Power_Rail-01x08
+  Quantity: '2'
+  Designation: Conn_01x08
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J3,J4
+  Footprint: Power_Rail-01x09
+  Quantity: '2'
+  Designation: Conn_01x09
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: G***
+  Footprint: badgelife-shitty-label-3.3v
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: G***
+  Footprint: badgelife-shitty-label-sda
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: G***
+  Footprint: badgelife-shitty-label-scl
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: G***
+  Footprint: badgelife-shitty-label-gnd
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: G***
+  Footprint: badgelife-shitty-devboard-silk
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | REF**,REF**,REF**,REF**\
+  \ | Pin_Header_Straight_2x09_Pitch2.54mm-NoSilk | 4 | Pin_Header_Straight_2x09_Pitch2.54mm\
+  \ |  |  | [''] | \n| 2 | X1 | Badgelife-Shitty-2x2 | 1 | Badgelife_shitty_connector\
+  \ |  |  | [''] | \n| 3 | J1,J2 | Power_Rail-01x08 | 2 | Conn_01x08 |  |  | ['']\
+  \ | \n| 4 | J3,J4 | Power_Rail-01x09 | 2 | Conn_01x09 |  |  | [''] | \n| 5 | G***\
+  \ | badgelife-shitty-label-3.3v | 1 | LOGO |  |  | [''] | \n| 6 | G*** | badgelife-shitty-label-sda\
+  \ | 1 | LOGO |  |  | [''] | \n| 7 | G*** | badgelife-shitty-label-scl | 1 | LOGO\
+  \ |  |  | [''] | \n| 8 | G*** | badgelife-shitty-label-gnd | 1 | LOGO |  |  | ['']\
+  \ | \n| 9 | G*** | badgelife-shitty-devboard-silk | 1 | LOGO |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Conn_01x08
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '2'
+  Ref: J1, J2
+  Value: Conn_01x08
+  Vendor: ''
+- Cmp name: Conn_01x09
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '2'
+  Ref: J3, J4
+  Value: Conn_01x09
+  Vendor: ''
+- Cmp name: Badgelife_shitty_connector
+  DNP: ''
+  Description: ''
+  Footprint: mrmeeseeks:Badgelife-Shitty-2x2
+  Qnty: '1'
+  Ref: X1
+  Value: Badgelife_shitty_connector
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| J1, J2\
+  \ | 2 | Conn_01x08 | Conn_01x08 |  |  |  |  | \n| J3, J4 | 2 | Conn_01x09 | Conn_01x09\
+  \ |  |  |  |  | \n| X1 | 1 | Badgelife_shitty_connector | Badgelife_shitty_connector\
+  \ | mrmeeseeks:Badgelife-Shitty-2x2 |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/andnxor_badgelife_dev_board_badgelife_dev_board/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/andnxor_badgelife_dev_board_badgelife_dev_board/current_version/working/working.kicad_pcb
 file_sch_flat: projects/andnxor_badgelife_dev_board_badgelife_dev_board/current_version/working/working.sch
 id: andnxor_badgelife_dev_board_badgelife_dev_board
 name: badgelife_dev_board
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': G***
+  Package: badgelife-shitty-label-3.3v
+  PosX: 113.4
+  PosY: -162.2
+  Rot: 90.0
+  Side: top
+  Val: LOGO
+- '# Ref': G***
+  Package: badgelife-shitty-label-sda
+  PosX: 128.2
+  PosY: -148.8
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': G***
+  Package: badgelife-shitty-label-scl
+  PosX: 128.4
+  PosY: -175.7
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': G***
+  Package: badgelife-shitty-label-gnd
+  PosX: 143.7
+  PosY: -162.3
+  Rot: -90.0
+  Side: top
+  Val: LOGO
+- '# Ref': G***
+  Package: badgelife-shitty-devboard-silk
+  PosX: 128.9
+  PosY: -144.6
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': J1
+  Package: Power_Rail-01x08
+  PosX: 115.7986
+  PosY: -153.416
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x08
+- '# Ref': J2
+  Package: Power_Rail-01x08
+  PosX: 141.224
+  PosY: -153.416
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x08
+- '# Ref': J3
+  Package: Power_Rail-01x09
+  PosX: 118.364
+  PosY: -150.876
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x09
+- '# Ref': J4
+  Package: Power_Rail-01x09
+  PosX: 118.364
+  PosY: -173.736
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x09
+- '# Ref': REF**
+  Package: Pin_Header_Straight_2x09_Pitch2.54mm-NoSilk
+  PosX: 118.364
+  PosY: -155.956
+  Rot: 90.0
+  Side: top
+  Val: Pin_Header_Straight_2x09_Pitch2.54mm
+- '# Ref': REF**
+  Package: Pin_Header_Straight_2x09_Pitch2.54mm-NoSilk
+  PosX: 118.364
+  PosY: -161.036
+  Rot: 90.0
+  Side: top
+  Val: Pin_Header_Straight_2x09_Pitch2.54mm
+- '# Ref': REF**
+  Package: Pin_Header_Straight_2x09_Pitch2.54mm-NoSilk
+  PosX: 118.364
+  PosY: -166.1
+  Rot: 90.0
+  Side: top
+  Val: Pin_Header_Straight_2x09_Pitch2.54mm
+- '# Ref': REF**
+  Package: Pin_Header_Straight_2x09_Pitch2.54mm-NoSilk
+  PosX: 118.364
+  PosY: -171.2
+  Rot: 90.0
+  Side: top
+  Val: Pin_Header_Straight_2x09_Pitch2.54mm
+- '# Ref': X1
+  Package: Badgelife-Shitty-2x2
+  PosX: 128.5
+  PosY: -179.5
+  Rot: 0.0
+  Side: top
+  Val: Badgelife_shitty_connector
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | badgelife-shitty-label-3.3v\
+  \ | 113.4 | -162.2 | 90.0 | top | \n| G*** | LOGO | badgelife-shitty-label-sda |\
+  \ 128.2 | -148.8 | 0.0 | top | \n| G*** | LOGO | badgelife-shitty-label-scl | 128.4\
+  \ | -175.7 | 0.0 | top | \n| G*** | LOGO | badgelife-shitty-label-gnd | 143.7 |\
+  \ -162.3 | -90.0 | top | \n| G*** | LOGO | badgelife-shitty-devboard-silk | 128.9\
+  \ | -144.6 | 0.0 | top | \n| J1 | Conn_01x08 | Power_Rail-01x08 | 115.7986 | -153.416\
+  \ | 0.0 | top | \n| J2 | Conn_01x08 | Power_Rail-01x08 | 141.224 | -153.416 | 0.0\
+  \ | top | \n| J3 | Conn_01x09 | Power_Rail-01x09 | 118.364 | -150.876 | 90.0 | top\
+  \ | \n| J4 | Conn_01x09 | Power_Rail-01x09 | 118.364 | -173.736 | 90.0 | top | \n\
+  | REF** | Pin_Header_Straight_2x09_Pitch2.54mm | Pin_Header_Straight_2x09_Pitch2.54mm-NoSilk\
+  \ | 118.364 | -155.956 | 90.0 | top | \n| REF** | Pin_Header_Straight_2x09_Pitch2.54mm\
+  \ | Pin_Header_Straight_2x09_Pitch2.54mm-NoSilk | 118.364 | -161.036 | 90.0 | top\
+  \ | \n| REF** | Pin_Header_Straight_2x09_Pitch2.54mm | Pin_Header_Straight_2x09_Pitch2.54mm-NoSilk\
+  \ | 118.364 | -166.1 | 90.0 | top | \n| REF** | Pin_Header_Straight_2x09_Pitch2.54mm\
+  \ | Pin_Header_Straight_2x09_Pitch2.54mm-NoSilk | 118.364 | -171.2 | 90.0 | top\
+  \ | \n| X1 | Badgelife_shitty_connector | Badgelife-Shitty-2x2 | 128.5 | -179.5\
+  \ | 0.0 | top | \n"
 projects_flat: projects/andnxor_badgelife_dev_board_badgelife_dev_board/current_version/working
 repo:
   allow_forking: true

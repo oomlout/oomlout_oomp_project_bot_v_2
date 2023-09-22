@@ -1,9 +1,363 @@
 board: adafruit_stemma_qt_5_port_hub
+bom:
+- Id: '1'
+  Designator: CONN4,CONN5,CONN2,CONN3,CONN1
+  Footprint: JST_SH4_RA
+  Quantity: '5'
+  Designation: STEMMA_I2C_QTRA
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R1
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: FID4,FID3
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$17,U$21,U$19,U$1
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '4'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: JP4,JP1
+  Footprint: 1X04_ROUND_76
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: D1
+  Footprint: CHIPLED_0603_NOOUTLINE
+  Quantity: '1'
+  Designation: GREEN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U$3,U$2
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U$31,U$30
+  Footprint: STEMMAQT
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U$25
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | CONN4,CONN5,CONN2,CONN3,CONN1\
+  \ | JST_SH4_RA | 5 | STEMMA_I2C_QTRA |  |  | [''] | \n| 2 | R1 | 0603-NO | 1 | 10K\
+  \ |  |  | [''] | \n| 3 | FID4,FID3 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | ['']\
+  \ | \n| 4 | U$17,U$21,U$19,U$1 | MOUNTINGHOLE_2.5_PLATED | 4 | MOUNTINGHOLE2.5 |\
+  \  |  | [''] | \n| 5 | JP4,JP1 | 1X04_ROUND_76 | 2 |  |  |  | [''] | \n| 6 | D1\
+  \ | CHIPLED_0603_NOOUTLINE | 1 | GREEN |  |  | [''] | \n| 7 | U$3,U$2 | ADAFRUIT_3.5MM\
+  \ | 2 |  |  |  | [''] | \n| 8 | U$31,U$30 | STEMMAQT | 2 |  |  |  | [''] | \n| 9\
+  \ | U$25 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: STEMMA_I2C_QTRA
+  DNP: ''
+  Description: ''
+  Footprint: working:JST_SH4_RA
+  Qnty: '5'
+  Ref: CONN1, CONN2, CONN3, CONN4, CONN5
+  Value: STEMMA_I2C_QTRA
+  Vendor: ''
+- Cmp name: LED0603_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0603_NOOUTLINE
+  Qnty: '1'
+  Ref: D1
+  Value: GREEN
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID3, FID4
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: HEADER-1X476MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X04_ROUND_76
+  Qnty: '2'
+  Ref: JP1, JP4
+  Value: HEADER-1X476MIL
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R1
+  Value: 10K
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '4'
+  Ref: U$1, U$17, U$19, U$21
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| CONN1,\
+  \ CONN2, CONN3, CONN4, CONN5 | 5 | STEMMA_I2C_QTRA | STEMMA_I2C_QTRA | working:JST_SH4_RA\
+  \ |  |  |  | \n| D1 | 1 | GREEN | LED0603_NOOUTLINE | working:CHIPLED_0603_NOOUTLINE\
+  \ |  |  |  | \n| FID3, FID4 | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM\
+  \ |  |  |  | \n| JP1, JP4 | 2 | HEADER-1X476MIL | HEADER-1X476MIL | working:1X04_ROUND_76\
+  \ |  |  |  | \n| R1 | 1 | 10K | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  |\
+  \ \n| U$1, U$17, U$19, U$21 | 4 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_qwiic_stemma_qt_5_port_hub_pcb_adafruit_stemma_qt_5_port_hub/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_qwiic_stemma_qt_5_port_hub_pcb_adafruit_stemma_qt_5_port_hub/current_version/working/working.sch
 id: adafruit_adafruit_qwiic_stemma_qt_5_port_hub_pcb_adafruit_stemma_qt_5_port_hub
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$1
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '12.700000000000003'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$17
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '20.319999999999993'
+  y: '12.700000000000003'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$19
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$21
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '20.319999999999993'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 12.700000000000003 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$1 | m3 | \n| 20.319999999999993 | 12.700000000000003 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$17 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$19 | m3 | \n| 20.319999999999993 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$21 | m3 | \n"
 name: adafruit_qwiic_stemma_qt_5_port_hub_pcb
+position_bottom:
+- '# Ref': U$25
+  Package: PCBFEAT-REV-040
+  PosX: 140.7541
+  PosY: -102.0826
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$30
+  Package: STEMMAQT
+  PosX: 158.2801
+  PosY: -109.4486
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$31
+  Package: STEMMAQT
+  PosX: 138.7221
+  PosY: -100.5586
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$25 | nan | PCBFEAT-REV-040 | 140.7541\
+  \ | -102.0826 | 180.0 | bottom | \n| U$30 | nan | STEMMAQT | 158.2801 | -109.4486\
+  \ | 90.0 | bottom | \n| U$31 | nan | STEMMAQT | 138.7221 | -100.5586 | -90.0 | bottom\
+  \ | \n"
+position_top:
+- '# Ref': CONN1
+  Package: JST_SH4_RA
+  PosX: 143.8021
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: STEMMA_I2C_QTRA
+- '# Ref': CONN2
+  Package: JST_SH4_RA
+  PosX: 153.9621
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: STEMMA_I2C_QTRA
+- '# Ref': CONN3
+  Package: JST_SH4_RA
+  PosX: 159.0421
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: STEMMA_I2C_QTRA
+- '# Ref': CONN4
+  Package: JST_SH4_RA
+  PosX: 138.7221
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: STEMMA_I2C_QTRA
+- '# Ref': CONN5
+  Package: JST_SH4_RA
+  PosX: 148.8821
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: STEMMA_I2C_QTRA
+- '# Ref': D1
+  Package: CHIPLED_0603_NOOUTLINE
+  PosX: 141.3891
+  PosY: -100.6856
+  Rot: 90.0
+  Side: top
+  Val: GREEN
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 155.2321
+  PosY: -109.0676
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID4
+  Package: FIDUCIAL_1MM
+  PosX: 140.8811
+  PosY: -97.0026
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': JP1
+  Package: 1X04_ROUND_76
+  PosX: 148.5011
+  PosY: -98.6536
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': JP4
+  Package: 1X04_ROUND_76
+  PosX: 148.5011
+  PosY: -111.3536
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 144.3101
+  PosY: -100.6856
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': U$1
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 138.3411
+  PosY: -98.6536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$2
+  Package: ADAFRUIT_3.5MM
+  PosX: 140.1191
+  PosY: -112.3696
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$3
+  Package: ADAFRUIT_3.5MM
+  PosX: 153.4541
+  PosY: -98.3996
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': U$17
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 158.6611
+  PosY: -98.6536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$19
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 138.3411
+  PosY: -111.3536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$21
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 158.6611
+  PosY: -111.3536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| CONN1 | STEMMA_I2C_QTRA | JST_SH4_RA\
+  \ | 143.8021 | -105.0036 | -90.0 | top | \n| CONN2 | STEMMA_I2C_QTRA | JST_SH4_RA\
+  \ | 153.9621 | -105.0036 | -90.0 | top | \n| CONN3 | STEMMA_I2C_QTRA | JST_SH4_RA\
+  \ | 159.0421 | -105.0036 | -90.0 | top | \n| CONN4 | STEMMA_I2C_QTRA | JST_SH4_RA\
+  \ | 138.7221 | -105.0036 | -90.0 | top | \n| CONN5 | STEMMA_I2C_QTRA | JST_SH4_RA\
+  \ | 148.8821 | -105.0036 | -90.0 | top | \n| D1 | GREEN | CHIPLED_0603_NOOUTLINE\
+  \ | 141.3891 | -100.6856 | 90.0 | top | \n| FID3 | FIDUCIAL_1MM | FIDUCIAL_1MM |\
+  \ 155.2321 | -109.0676 | 0.0 | top | \n| FID4 | FIDUCIAL_1MM | FIDUCIAL_1MM | 140.8811\
+  \ | -97.0026 | 0.0 | top | \n| JP1 | nan | 1X04_ROUND_76 | 148.5011 | -98.6536 |\
+  \ 180.0 | top | \n| JP4 | nan | 1X04_ROUND_76 | 148.5011 | -111.3536 | 0.0 | top\
+  \ | \n| R1 | 10K | 0603-NO | 144.3101 | -100.6856 | 180.0 | top | \n| U$1 | MOUNTINGHOLE2.5\
+  \ | MOUNTINGHOLE_2.5_PLATED | 138.3411 | -98.6536 | 0.0 | top | \n| U$2 | nan |\
+  \ ADAFRUIT_3.5MM | 140.1191 | -112.3696 | 0.0 | top | \n| U$3 | nan | ADAFRUIT_3.5MM\
+  \ | 153.4541 | -98.3996 | -90.0 | top | \n| U$17 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 158.6611 | -98.6536 | 0.0 | top | \n| U$19 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 138.3411 | -111.3536 | 0.0 | top | \n| U$21 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 158.6611 | -111.3536 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_qwiic_stemma_qt_5_port_hub_pcb_adafruit_stemma_qt_5_port_hub/current_version/working
 repo:
   allow_forking: true

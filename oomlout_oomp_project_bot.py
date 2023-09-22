@@ -20,7 +20,7 @@ def load_data():
         oom_git.pull(directory=dir_data)
     print("data loaded")
 
-def copy_data():
+def copy_data_old():
     print("copying data")
     directory_src = rf"tmp/data/oomlout_oomp_project_src_v_2/projects"
     directory_dst = rf"projects"
@@ -28,6 +28,15 @@ def copy_data():
     import shutil
     shutil.copytree(directory_src, directory_dst, dirs_exist_ok=True)
     print("data copied")
+
+def copy_data():
+    print("copying data")
+    directory_src = rf"tmp/data/oomlout_oomp_project_src_v_2/projects"
+    directory_dst = rf"projects"
+    # use os.system and xcopy, only overwrite if newer
+    command = f'xcopy "{directory_src}" "{directory_dst}" /E /Y /D'
+    os.system(command)
+
 
 def load_oomp_parts_from_yaml(**kwargs):
     print("loading oomp_parts from yaml"    )

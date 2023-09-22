@@ -1,10 +1,395 @@
 board: reviung5
+bom:
+- Id: '1'
+  Designator: RESW1,RESW2
+  Footprint: RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles
+  Quantity: '2'
+  Designation: Rotary_Encoder_Switch
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: SW1,SW5
+  Footprint: MXOnly-1U-3pin
+  Quantity: '2'
+  Designation: SW_PUSH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: SW2,SW3,SW4
+  Footprint: MXOnly-1U-NoLED
+  Quantity: '3'
+  Designation: SW_PUSH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U1
+  Footprint: ProMicro
+  Quantity: '1'
+  Designation: ProMicro
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: REF**,REF**,REF**
+  Footprint: HOLE_4.2mm
+  Quantity: '3'
+  Designation: HOLE_4.2mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: G***
+  Footprint: QMK-x4-ver1
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: D1,D2,D3,D4,D5
+  Footprint: D3_TH_SMD_1side
+  Quantity: '5'
+  Designation: 1N4148
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: reset1
+  Footprint: ResetSW_TH_SMD
+  Quantity: '1'
+  Designation: SW_PUSH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: RGB1,RGB2,RGB3,RGB4
+  Footprint: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  Quantity: '4'
+  Designation: WS2812B
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: G***
+  Footprint: reviung-logo
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | RESW1,RESW2\
+  \ | RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles | 2 | Rotary_Encoder_Switch\
+  \ |  |  | [''] | \n| 2 | SW1,SW5 | MXOnly-1U-3pin | 2 | SW_PUSH |  |  | [''] | \n\
+  | 3 | SW2,SW3,SW4 | MXOnly-1U-NoLED | 3 | SW_PUSH |  |  | [''] | \n| 4 | U1 | ProMicro\
+  \ | 1 | ProMicro |  |  | [''] | \n| 5 | REF**,REF**,REF** | HOLE_4.2mm | 3 | HOLE_4.2mm\
+  \ |  |  | [''] | \n| 6 | G*** | QMK-x4-ver1 | 1 | LOGO |  |  | [''] | \n| 7 | D1,D2,D3,D4,D5\
+  \ | D3_TH_SMD_1side | 5 | 1N4148 |  |  | [''] | \n| 8 | reset1 | ResetSW_TH_SMD\
+  \ | 1 | SW_PUSH |  |  | [''] | \n| 9 | RGB1,RGB2,RGB3,RGB4 | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | 4 | WS2812B |  |  | [''] | \n| 10 | G*** | reviung-logo | 1 | LOGO |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: 1N4148
+  DNP: ''
+  Description: 100V 0.15A standard switching diode, DO-35
+  Footprint: _reviung-kbd:D3_TH_SMD_1side
+  Qnty: '5'
+  Ref: D1, D2, D3, D4, D5
+  Value: 1N4148
+  Vendor: ''
+- Cmp name: SW_PUSH-_reviung-kbd
+  DNP: ''
+  Description: ''
+  Footprint: _reviung-kbd:ResetSW_TH_SMD
+  Qnty: '1'
+  Ref: reset1
+  Value: SW_PUSH
+  Vendor: ''
+- Cmp name: Rotary_Encoder_Switch-Device
+  DNP: ''
+  Description: ''
+  Footprint: Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles
+  Qnty: '2'
+  Ref: RESW1, RESW2
+  Value: Rotary_Encoder_Switch
+  Vendor: ''
+- Cmp name: WS2812B
+  DNP: ''
+  Description: RGB LED with integrated controller
+  Footprint: _reviung-kbd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  Qnty: '4'
+  Ref: RGB1, RGB2, RGB3, RGB4
+  Value: WS2812B
+  Vendor: ''
+- Cmp name: SW_PUSH-_reviung-kbd
+  DNP: ''
+  Description: ''
+  Footprint: _reviung-kbd:MXOnly-1U-3pin
+  Qnty: '2'
+  Ref: SW1, SW5
+  Value: SW_PUSH
+  Vendor: ''
+- Cmp name: SW_PUSH-_reviung-kbd
+  DNP: ''
+  Description: ''
+  Footprint: _reviung-kbd:MXOnly-1U-NoLED
+  Qnty: '3'
+  Ref: SW2, SW3, SW4
+  Value: SW_PUSH
+  Vendor: ''
+- Cmp name: ProMicro-_reviung-kbd
+  DNP: ''
+  Description: ''
+  Footprint: _reviung-kbd:ProMicro
+  Qnty: '1'
+  Ref: U1
+  Value: ProMicro
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| D1, D2,\
+  \ D3, D4, D5 | 5 | 1N4148 | 1N4148 | _reviung-kbd:D3_TH_SMD_1side | 100V 0.15A standard\
+  \ switching diode, DO-35 |  |  | \n| reset1 | 1 | SW_PUSH | SW_PUSH-_reviung-kbd\
+  \ | _reviung-kbd:ResetSW_TH_SMD |  |  |  | \n| RESW1, RESW2 | 2 | Rotary_Encoder_Switch\
+  \ | Rotary_Encoder_Switch-Device | Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles\
+  \ |  |  |  | \n| RGB1, RGB2, RGB3, RGB4 | 4 | WS2812B | WS2812B | _reviung-kbd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | RGB LED with integrated controller |  |  | \n| SW1, SW5 | 2 | SW_PUSH | SW_PUSH-_reviung-kbd\
+  \ | _reviung-kbd:MXOnly-1U-3pin |  |  |  | \n| SW2, SW3, SW4 | 3 | SW_PUSH | SW_PUSH-_reviung-kbd\
+  \ | _reviung-kbd:MXOnly-1U-NoLED |  |  |  | \n| U1 | 1 | ProMicro | ProMicro-_reviung-kbd\
+  \ | _reviung-kbd:ProMicro |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/gtips_reviung_reviung5/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/gtips_reviung_reviung5/current_version/working/working.kicad_pcb
 file_sch_flat: projects/gtips_reviung_reviung5/current_version/working/working.sch
 id: gtips_reviung_reviung5
+mounting_holes:
+- package: RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles
+  ref: RESW1
+  size: m3
+  value: Rotary_Encoder_Switch
+  x: '0.0'
+  y: '0.8599999999999994'
+- package: RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles
+  ref: RESW2
+  size: m3
+  value: Rotary_Encoder_Switch
+  x: '78.94'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.8599999999999994 | RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles\
+  \ | Rotary_Encoder_Switch | RESW1 | m3 | \n| 78.94 | 0.0 | RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles\
+  \ | Rotary_Encoder_Switch | RESW2 | m3 | \n"
 name: reviung
+position_bottom:
+- '# Ref': D1
+  Package: D3_TH_SMD_1side
+  PosX: 13.6
+  PosY: -15.8
+  Rot: -10.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': D2
+  Package: D3_TH_SMD_1side
+  PosX: 30.8
+  PosY: -45.25
+  Rot: 0.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': D3
+  Package: D3_TH_SMD_1side
+  PosX: 52.5
+  PosY: -28.92
+  Rot: 0.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': D4
+  Package: D3_TH_SMD_1side
+  PosX: 68.9
+  PosY: -45.25
+  Rot: 0.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': D5
+  Package: D3_TH_SMD_1side
+  PosX: 86.48
+  PosY: -15.89
+  Rot: 10.0
+  Side: bottom
+  Val: 1N4148
+- '# Ref': G***
+  Package: reviung-logo
+  PosX: 51.25
+  PosY: -11.85
+  Rot: 170.0
+  Side: bottom
+  Val: LOGO
+- '# Ref': RGB1
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 24.77
+  PosY: -20.0
+  Rot: 170.0
+  Side: bottom
+  Val: WS2812B
+- '# Ref': RGB2
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 40.33
+  PosY: -41.64
+  Rot: 180.0
+  Side: bottom
+  Val: WS2812B
+- '# Ref': RGB3
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 59.4
+  PosY: -41.64
+  Rot: 180.0
+  Side: bottom
+  Val: WS2812B
+- '# Ref': RGB4
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 74.98
+  PosY: -20.0
+  Rot: -170.0
+  Side: bottom
+  Val: WS2812B
+- '# Ref': reset1
+  Package: ResetSW_TH_SMD
+  PosX: 39.36
+  PosY: -25.25
+  Rot: 0.0
+  Side: bottom
+  Val: SW_PUSH
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| D1 | 1N4148 | D3_TH_SMD_1side |\
+  \ 13.6 | -15.8 | -10.0 | bottom | \n| D2 | 1N4148 | D3_TH_SMD_1side | 30.8 | -45.25\
+  \ | 0.0 | bottom | \n| D3 | 1N4148 | D3_TH_SMD_1side | 52.5 | -28.92 | 0.0 | bottom\
+  \ | \n| D4 | 1N4148 | D3_TH_SMD_1side | 68.9 | -45.25 | 0.0 | bottom | \n| D5 |\
+  \ 1N4148 | D3_TH_SMD_1side | 86.48 | -15.89 | 10.0 | bottom | \n| G*** | LOGO |\
+  \ reviung-logo | 51.25 | -11.85 | 170.0 | bottom | \n| RGB1 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | 24.77 | -20.0 | 170.0 | bottom | \n| RGB2 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | 40.33 | -41.64 | 180.0 | bottom | \n| RGB3 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | 59.4 | -41.64 | 180.0 | bottom | \n| RGB4 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | 74.98 | -20.0 | -170.0 | bottom | \n| reset1 | SW_PUSH | ResetSW_TH_SMD | 39.36\
+  \ | -25.25 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': G***
+  Package: QMK-x4-ver1
+  PosX: 49.88
+  PosY: -42.26
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': REF**
+  Package: HOLE_4.2mm
+  PosX: 23.46
+  PosY: -25.57
+  Rot: 0.0
+  Side: top
+  Val: HOLE_4.2mm
+- '# Ref': REF**
+  Package: HOLE_4.2mm
+  PosX: 49.86
+  PosY: -47.11
+  Rot: 0.0
+  Side: top
+  Val: HOLE_4.2mm
+- '# Ref': REF**
+  Package: HOLE_4.2mm
+  PosX: 76.26
+  PosY: -25.57
+  Rot: 0.0
+  Side: top
+  Val: HOLE_4.2mm
+- '# Ref': RESW1
+  Package: RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles
+  PosX: 7.97
+  PosY: -32.62
+  Rot: 80.0
+  Side: top
+  Val: Rotary_Encoder_Switch
+- '# Ref': RESW2
+  Package: RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles
+  PosX: 86.91
+  PosY: -33.48
+  Rot: 100.0
+  Side: top
+  Val: Rotary_Encoder_Switch
+- '# Ref': SW1
+  Package: MXOnly-1U-3pin
+  PosX: 11.72
+  PosY: -25.62
+  Rot: -10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW2
+  Package: MXOnly-1U-NoLED
+  PosX: 30.8
+  PosY: -37.3
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW3
+  Package: MXOnly-1U-NoLED
+  PosX: 49.85
+  PosY: -37.3
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW4
+  Package: MXOnly-1U-NoLED
+  PosX: 68.9
+  PosY: -37.3
+  Rot: 0.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW5
+  Package: MXOnly-1U-3pin
+  PosX: 88.05
+  PosY: -25.61
+  Rot: 10.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': U1
+  Package: ProMicro
+  PosX: 51.76
+  PosY: -12.03
+  Rot: 80.0
+  Side: top
+  Val: ProMicro
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | QMK-x4-ver1 | 49.88 |\
+  \ -42.26 | 0.0 | top | \n| REF** | HOLE_4.2mm | HOLE_4.2mm | 23.46 | -25.57 | 0.0\
+  \ | top | \n| REF** | HOLE_4.2mm | HOLE_4.2mm | 49.86 | -47.11 | 0.0 | top | \n\
+  | REF** | HOLE_4.2mm | HOLE_4.2mm | 76.26 | -25.57 | 0.0 | top | \n| RESW1 | Rotary_Encoder_Switch\
+  \ | RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles | 7.97\
+  \ | -32.62 | 80.0 | top | \n| RESW2 | Rotary_Encoder_Switch | RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles\
+  \ | 86.91 | -33.48 | 100.0 | top | \n| SW1 | SW_PUSH | MXOnly-1U-3pin | 11.72 |\
+  \ -25.62 | -10.0 | top | \n| SW2 | SW_PUSH | MXOnly-1U-NoLED | 30.8 | -37.3 | 0.0\
+  \ | top | \n| SW3 | SW_PUSH | MXOnly-1U-NoLED | 49.85 | -37.3 | 0.0 | top | \n|\
+  \ SW4 | SW_PUSH | MXOnly-1U-NoLED | 68.9 | -37.3 | 0.0 | top | \n| SW5 | SW_PUSH\
+  \ | MXOnly-1U-3pin | 88.05 | -25.61 | 10.0 | top | \n| U1 | ProMicro | ProMicro\
+  \ | 51.76 | -12.03 | 80.0 | top | \n"
 projects_flat: projects/gtips_reviung_reviung5/current_version/working
 repo:
   allow_forking: true

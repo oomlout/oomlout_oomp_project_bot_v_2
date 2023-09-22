@@ -1,8 +1,77 @@
 board: pi_hat
+bom:
+- Id: '1'
+  Designator: REF**,REF**,REF**,REF**
+  Footprint: M2.5_MOUNT
+  Quantity: '4'
+  Designation: M2.5_MOUNT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: REF**
+  Footprint: DIL-254P-40
+  Quantity: '1'
+  Designation: DIL-254P-40
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | REF**,REF**,REF**,REF**\
+  \ | M2.5_MOUNT | 4 | M2.5_MOUNT |  |  | [''] | \n| 2 | REF** | DIL-254P-40 | 1 |\
+  \ DIL-254P-40 |  |  | [''] | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_agg_kicad_pi_hat/current_version/working/working.kicad_pcb
 id: adamgreig_agg_kicad_pi_hat
 name: agg_kicad
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': REF**
+  Package: M2.5_MOUNT
+  PosX: 172.5
+  PosY: -56.5
+  Rot: 0.0
+  Side: top
+  Val: M2.5_MOUNT
+- '# Ref': REF**
+  Package: M2.5_MOUNT
+  PosX: 114.5
+  PosY: -56.5
+  Rot: 0.0
+  Side: top
+  Val: M2.5_MOUNT
+- '# Ref': REF**
+  Package: M2.5_MOUNT
+  PosX: 114.5
+  PosY: -105.5
+  Rot: 0.0
+  Side: top
+  Val: M2.5_MOUNT
+- '# Ref': REF**
+  Package: M2.5_MOUNT
+  PosX: 172.5
+  PosY: -105.5
+  Rot: 0.0
+  Side: top
+  Val: M2.5_MOUNT
+- '# Ref': REF**
+  Package: DIL-254P-40
+  PosX: 143.4
+  PosY: -56.5
+  Rot: 0.0
+  Side: top
+  Val: DIL-254P-40
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| REF** | M2.5_MOUNT | M2.5_MOUNT | 172.5\
+  \ | -56.5 | 0.0 | top | \n| REF** | M2.5_MOUNT | M2.5_MOUNT | 114.5 | -56.5 | 0.0\
+  \ | top | \n| REF** | M2.5_MOUNT | M2.5_MOUNT | 114.5 | -105.5 | 0.0 | top | \n\
+  | REF** | M2.5_MOUNT | M2.5_MOUNT | 172.5 | -105.5 | 0.0 | top | \n| REF** | DIL-254P-40\
+  \ | DIL-254P-40 | 143.4 | -56.5 | 0.0 | top | \n"
 projects_flat: projects/adamgreig_agg_kicad_pi_hat/current_version/working
 repo:
   allow_forking: true

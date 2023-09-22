@@ -1,0 +1,21 @@
+# kicad_source_mirror
+ 
+## summary 
+* id: asutp_kicad_source_mirror_ecc83_pp
+* user: asutp
+* name: kicad_source_mirror
+* board: ecc83_pp
+* repo: https://github.com/asutp/kicad-source-mirror
+* src_file_repo_kicad_pcb: demos/ecc83/ecc83-pp.kicad_pcb
+* src_file_repo_kicad_pcb_link: https://github.com/asutp/kicad-source-mirror/tree/master/demos/ecc83/ecc83-pp.kicad_pcb
+
+
+* src_file_repo_sch: demos/ecc83/ecc83-pp.sch
+* src_file_repo_sch_link: https://github.com/asutp/kicad-source-mirror/tree/master/demos/ecc83/ecc83-pp.sch
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/asutp_kicad_source_mirror_ecc83_pp/current_version/working  
+
+
+
+
+
+

@@ -1,10 +1,1683 @@
 board: ears
+bom:
+- Id: '1'
+  Designator: C76,C78,C73,C92,C84,C88,C93,C74,C95,C94,C72,C82,C75,C81,C90,C87,C86,C98,C77,C80,C85,C52,C36,C43,C67,C35,C79,C14,C13,C6,C12,C20,C42,C41,C5,C7,C66,C60,C91,C45,C44,C22,C16,C83,C97,C96,C89,C38,C37,C40,C8,C9,C11,C59,C58,C10,C30,C24,C23,C3,C26,C19,C63,C62,C1,C4,C33,C32,C27,C29,C50,C49,C21,C2,C65,C64,C18,C17,C71,C39,C15,C55,C47,C46,C54,C53,C61,C51,C57,C56,C48,C100,C68,C69,C70,C99
+  Footprint: C_0603_1608Metric
+  Quantity: '96'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C25
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R1,R2
+  Footprint: R_0603_1608Metric
+  Quantity: '2'
+  Designation: '22'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J1
+  Footprint: Pin_Header_Angled_1x06_Pitch2.54mm
+  Quantity: '1'
+  Designation: Conn_01x06_Male
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C28
+  Footprint: C_1210_3225Metric_Pad1.42x2.65mm_HandSolder
+  Quantity: '1'
+  Designation: 100uF 10V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: D95,D70,D68,D67,D85,D94,D93,D92,D91,D90,D89,D88,D87,D86,D73,D84,D83,D82,D81,D80,D79,D78,D77,D76,D75,D74,D72,D60,D71,D69,D66,D65,D64,D63,D62,D49,D96,D59,D58,D57,D56,D55,D54,D53,D52,D51,D50,D61,D35,D47,D46,D45,D44,D43,D42,D41,D40,D39,D38,D37,D36,D2,D34,D33,D32,D31,D30,D29,D28,D27,D48,D26,D24,D12,D23,D22,D21,D20,D19,D18,D17,D16,D15,D14,D25,D11,D10,D9,D8,D7,D6,D5,D4,D3,D1,D13
+  Footprint: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  Quantity: '96'
+  Designation: SK6812
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C76,C78,C73,C92,C84,C88,C93,C74,C95,C94,C72,C82,C75,C81,C90,C87,C86,C98,C77,C80,C85,C52,C36,C43,C67,C35,C79,C14,C13,C6,C12,C20,C42,C41,C5,C7,C66,C60,C91,C45,C44,C22,C16,C83,C97,C96,C89,C38,C37,C40,C8,C9,C11,C59,C58,C10,C30,C24,C23,C3,C26,C19,C63,C62,C1,C4,C33,C32,C27,C29,C50,C49,C21,C2,C65,C64,C18,C17,C71,C39,C15,C55,C47,C46,C54,C53,C61,C51,C57,C56,C48,C100,C68,C69,C70,C99\
+  \ | C_0603_1608Metric | 96 | 1uF |  |  | [''] | \n| 2 | C25 | C_0603_1608Metric\
+  \ | 1 | 10uF |  |  | [''] | \n| 3 | R1,R2 | R_0603_1608Metric | 2 | 22 |  |  | ['']\
+  \ | \n| 4 | J1 | Pin_Header_Angled_1x06_Pitch2.54mm | 1 | Conn_01x06_Male |  | \
+  \ | [''] | \n| 5 | C28 | C_1210_3225Metric_Pad1.42x2.65mm_HandSolder | 1 | 100uF\
+  \ 10V |  |  | [''] | \n| 6 | D95,D70,D68,D67,D85,D94,D93,D92,D91,D90,D89,D88,D87,D86,D73,D84,D83,D82,D81,D80,D79,D78,D77,D76,D75,D74,D72,D60,D71,D69,D66,D65,D64,D63,D62,D49,D96,D59,D58,D57,D56,D55,D54,D53,D52,D51,D50,D61,D35,D47,D46,D45,D44,D43,D42,D41,D40,D39,D38,D37,D36,D2,D34,D33,D32,D31,D30,D29,D28,D27,D48,D26,D24,D12,D23,D22,D21,D20,D19,D18,D17,D16,D15,D14,D25,D11,D10,D9,D8,D7,D6,D5,D4,D3,D1,D13\
+  \ | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm | 96 | SK6812 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: SK6812
+  DNP: ''
+  Description: RGB LED with integrated controller
+  Footprint: LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  Qnty: '96'
+  Ref: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17,
+    D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33,
+    D34, D35, D36, D37, D38, D39, D40, D41, D42, D43, D44, D45, D46, D47, D48, D49,
+    D50, D51, D52, D53, D54, D55, D56, D57, D58, D59, D60, D61, D62, D63, D64, D65,
+    D66, D67, D68, D69, D70, D71, D72, D73, D74, D75, D76, D77, D78, D79, D80, D81,
+    D82, D83, D84, D85, D86, D87, D88, D89, D90, D91, D92, D93, D94, D95, D96
+  Value: SK6812
+  Vendor: ''
+- Cmp name: Conn_01x06_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_01x06_Male DNS
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '2'
+  Ref: R1, R2
+  Value: '22'
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| D1, D2,\
+  \ D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19,\
+  \ D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33, D34, D35,\
+  \ D36, D37, D38, D39, D40, D41, D42, D43, D44, D45, D46, D47, D48, D49, D50, D51,\
+  \ D52, D53, D54, D55, D56, D57, D58, D59, D60, D61, D62, D63, D64, D65, D66, D67,\
+  \ D68, D69, D70, D71, D72, D73, D74, D75, D76, D77, D78, D79, D80, D81, D82, D83,\
+  \ D84, D85, D86, D87, D88, D89, D90, D91, D92, D93, D94, D95, D96 | 96 | SK6812\
+  \ | SK6812 | LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm | RGB LED with integrated\
+  \ controller |  |  | \n| J1 | 1 | Conn_01x06_Male DNS | Conn_01x06_Male-Connector\
+  \ | Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm |  |  |  | \n| R1, R2 | 2 | 22\
+  \ | R_Small | Resistor_SMD:R_0603_1608Metric | Resistor, small symbol |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/aaronw2_flex_ears_ears/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/aaronw2_flex_ears_ears/current_version/working/working.kicad_pcb
 file_sch_flat: projects/aaronw2_flex_ears_ears/current_version/working/working.sch
 id: aaronw2_flex_ears_ears
 name: flex_ears
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_0603_1608Metric
+  PosX: 82.775
+  PosY: -161.2875
+  Rot: -90.0
+  Side: top
+  Val: 1uF
+- '# Ref': C2
+  Package: C_0603_1608Metric
+  PosX: 27.9875
+  PosY: -114.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C3
+  Package: C_0603_1608Metric
+  PosX: 34.55
+  PosY: -114.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C4
+  Package: C_0603_1608Metric
+  PosX: 41.55
+  PosY: -114.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C5
+  Package: C_0603_1608Metric
+  PosX: 48.55
+  PosY: -114.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C6
+  Package: C_0603_1608Metric
+  PosX: 55.55
+  PosY: -114.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C7
+  Package: C_0603_1608Metric
+  PosX: 62.55
+  PosY: -114.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C8
+  Package: C_0603_1608Metric
+  PosX: 70.35
+  PosY: -114.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C9
+  Package: C_0603_1608Metric
+  PosX: 77.8125
+  PosY: -114.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C10
+  Package: C_0603_1608Metric
+  PosX: 83.55
+  PosY: -114.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C11
+  Package: C_0603_1608Metric
+  PosX: 90.55
+  PosY: -114.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C12
+  Package: C_0603_1608Metric
+  PosX: 98.05
+  PosY: -114.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C13
+  Package: C_0603_1608Metric
+  PosX: 105.05
+  PosY: -114.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C14
+  Package: C_0603_1608Metric
+  PosX: 112.05
+  PosY: -114.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C15
+  Package: C_0603_1608Metric
+  PosX: 119.05
+  PosY: -114.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C16
+  Package: C_0603_1608Metric
+  PosX: 35.05
+  PosY: -99.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C17
+  Package: C_0603_1608Metric
+  PosX: 42.05
+  PosY: -99.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C18
+  Package: C_0603_1608Metric
+  PosX: 49.05
+  PosY: -99.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C19
+  Package: C_0603_1608Metric
+  PosX: 56.05
+  PosY: -99.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C20
+  Package: C_0603_1608Metric
+  PosX: 63.05
+  PosY: -99.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C21
+  Package: C_0603_1608Metric
+  PosX: 70.5125
+  PosY: -99.575
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C22
+  Package: C_0603_1608Metric
+  PosX: 77.05
+  PosY: -99.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C23
+  Package: C_0603_1608Metric
+  PosX: 84.05
+  PosY: -99.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C24
+  Package: C_0603_1608Metric
+  PosX: 91.05
+  PosY: -99.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C25
+  Package: C_0603_1608Metric
+  PosX: 98.05
+  PosY: -99.7
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C26
+  Package: C_0603_1608Metric
+  PosX: 105.05
+  PosY: -99.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C27
+  Package: C_0603_1608Metric
+  PosX: 112.05
+  PosY: -99.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C28
+  Package: C_1210_3225Metric_Pad1.42x2.65mm_HandSolder
+  PosX: 85.225
+  PosY: -160.575
+  Rot: -90.0
+  Side: top
+  Val: 100uF_10V
+- '# Ref': C29
+  Package: C_0603_1608Metric
+  PosX: 42.05
+  PosY: -84.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C30
+  Package: C_0603_1608Metric
+  PosX: 49.05
+  PosY: -84.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C32
+  Package: C_0603_1608Metric
+  PosX: 63.05
+  PosY: -84.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C33
+  Package: C_0603_1608Metric
+  PosX: 70.65
+  PosY: -84.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C35
+  Package: C_0603_1608Metric
+  PosX: 84.05
+  PosY: -84.9
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C36
+  Package: C_0603_1608Metric
+  PosX: 91.05
+  PosY: -84.9
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C37
+  Package: C_0603_1608Metric
+  PosX: 98.05
+  PosY: -84.9
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C38
+  Package: C_0603_1608Metric
+  PosX: 105.05
+  PosY: -84.9
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C39
+  Package: C_0603_1608Metric
+  PosX: 112.05
+  PosY: -84.9
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C40
+  Package: C_0603_1608Metric
+  PosX: 42.05
+  PosY: -69.9
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C41
+  Package: C_0603_1608Metric
+  PosX: 49.05
+  PosY: -69.9
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C42
+  Package: C_0603_1608Metric
+  PosX: 56.05
+  PosY: -69.9
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C43
+  Package: C_0603_1608Metric
+  PosX: 63.05
+  PosY: -69.9
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C44
+  Package: C_0603_1608Metric
+  PosX: 71.15
+  PosY: -69.9
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C45
+  Package: C_0603_1608Metric
+  PosX: 77.05
+  PosY: -70.0
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C46
+  Package: C_0603_1608Metric
+  PosX: 83.95
+  PosY: -69.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C47
+  Package: C_0603_1608Metric
+  PosX: 91.05
+  PosY: -69.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C48
+  Package: C_0603_1608Metric
+  PosX: 98.05
+  PosY: -69.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C49
+  Package: C_0603_1608Metric
+  PosX: 105.05
+  PosY: -69.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C50
+  Package: C_0603_1608Metric
+  PosX: 49.05
+  PosY: -54.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C51
+  Package: C_0603_1608Metric
+  PosX: 56.05
+  PosY: -54.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C52
+  Package: C_0603_1608Metric
+  PosX: 63.05
+  PosY: -54.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C53
+  Package: C_0603_1608Metric
+  PosX: 70.5
+  PosY: -54.75
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C54
+  Package: C_0603_1608Metric
+  PosX: 77.05
+  PosY: -54.575
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C55
+  Package: C_0603_1608Metric
+  PosX: 84.05
+  PosY: -54.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C56
+  Package: C_0603_1608Metric
+  PosX: 91.05
+  PosY: -54.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C57
+  Package: C_0603_1608Metric
+  PosX: 98.05
+  PosY: -54.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C58
+  Package: C_0603_1608Metric
+  PosX: 52.55
+  PosY: -39.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C59
+  Package: C_0603_1608Metric
+  PosX: 59.55
+  PosY: -39.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C60
+  Package: C_0603_1608Metric
+  PosX: 66.55
+  PosY: -39.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C61
+  Package: C_0603_1608Metric
+  PosX: 73.35
+  PosY: -39.9
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C62
+  Package: C_0603_1608Metric
+  PosX: 80.55
+  PosY: -39.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C63
+  Package: C_0603_1608Metric
+  PosX: 87.35
+  PosY: -39.9
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C64
+  Package: C_0603_1608Metric
+  PosX: 94.55
+  PosY: -39.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C65
+  Package: C_0603_1608Metric
+  PosX: 66.55
+  PosY: -24.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C66
+  Package: C_0603_1608Metric
+  PosX: 73.55
+  PosY: -24.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C67
+  Package: C_0603_1608Metric
+  PosX: 81.1
+  PosY: -24.9
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C68
+  Package: C_0603_1608Metric
+  PosX: 35.05
+  PosY: -84.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C69
+  Package: C_0603_1608Metric
+  PosX: 77.35
+  PosY: -84.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C70
+  Package: C_0603_1608Metric
+  PosX: 56.4
+  PosY: -84.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C71
+  Package: C_0603_1608Metric
+  PosX: 27.9875
+  PosY: -144.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C72
+  Package: C_0603_1608Metric
+  PosX: 34.55
+  PosY: -144.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C73
+  Package: C_0603_1608Metric
+  PosX: 41.55
+  PosY: -144.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C74
+  Package: C_0603_1608Metric
+  PosX: 48.55
+  PosY: -144.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C75
+  Package: C_0603_1608Metric
+  PosX: 55.55
+  PosY: -144.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C76
+  Package: C_0603_1608Metric
+  PosX: 62.55
+  PosY: -144.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C77
+  Package: C_0603_1608Metric
+  PosX: 70.35
+  PosY: -144.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C78
+  Package: C_0603_1608Metric
+  PosX: 77.8125
+  PosY: -144.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C79
+  Package: C_0603_1608Metric
+  PosX: 83.55
+  PosY: -144.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C80
+  Package: C_0603_1608Metric
+  PosX: 90.55
+  PosY: -144.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C81
+  Package: C_0603_1608Metric
+  PosX: 98.05
+  PosY: -144.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C82
+  Package: C_0603_1608Metric
+  PosX: 105.05
+  PosY: -144.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C83
+  Package: C_0603_1608Metric
+  PosX: 112.05
+  PosY: -144.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C84
+  Package: C_0603_1608Metric
+  PosX: 119.05
+  PosY: -144.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C85
+  Package: C_0603_1608Metric
+  PosX: 27.9875
+  PosY: -129.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C86
+  Package: C_0603_1608Metric
+  PosX: 34.55
+  PosY: -129.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C87
+  Package: C_0603_1608Metric
+  PosX: 41.55
+  PosY: -129.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C88
+  Package: C_0603_1608Metric
+  PosX: 48.55
+  PosY: -129.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C89
+  Package: C_0603_1608Metric
+  PosX: 55.55
+  PosY: -129.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C90
+  Package: C_0603_1608Metric
+  PosX: 62.55
+  PosY: -129.7
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C91
+  Package: C_0603_1608Metric
+  PosX: 70.35
+  PosY: -129.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C92
+  Package: C_0603_1608Metric
+  PosX: 77.8125
+  PosY: -129.8
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C93
+  Package: C_0603_1608Metric
+  PosX: 83.55
+  PosY: -129.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C94
+  Package: C_0603_1608Metric
+  PosX: 90.55
+  PosY: -129.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C95
+  Package: C_0603_1608Metric
+  PosX: 98.05
+  PosY: -129.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C96
+  Package: C_0603_1608Metric
+  PosX: 105.05
+  PosY: -129.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C97
+  Package: C_0603_1608Metric
+  PosX: 112.05
+  PosY: -129.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C98
+  Package: C_0603_1608Metric
+  PosX: 119.05
+  PosY: -129.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C99
+  Package: C_0603_1608Metric
+  PosX: 21.0
+  PosY: -144.6
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C100
+  Package: C_0603_1608Metric
+  PosX: 126.25
+  PosY: -144.75
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': D1
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 28.0
+  PosY: -111.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D2
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 35.5
+  PosY: -96.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D3
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 35.5
+  PosY: -81.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D4
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 42.5
+  PosY: -66.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D5
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 49.5
+  PosY: -51.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D6
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 53.0
+  PosY: -36.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D7
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 67.0
+  PosY: -21.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D8
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 35.0
+  PosY: -111.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D9
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 42.5
+  PosY: -96.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D10
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 42.5
+  PosY: -81.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D11
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 49.5
+  PosY: -66.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D12
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 56.5
+  PosY: -51.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D13
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 60.0
+  PosY: -36.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D14
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 74.0
+  PosY: -21.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D15
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 42.0
+  PosY: -111.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D16
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 49.5
+  PosY: -96.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D17
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 49.5
+  PosY: -81.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D18
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 56.5
+  PosY: -66.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D19
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 63.5
+  PosY: -51.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D20
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 67.0
+  PosY: -36.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D21
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 81.0
+  PosY: -21.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D22
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 49.0
+  PosY: -111.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D23
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 56.5
+  PosY: -96.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D24
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 56.5
+  PosY: -81.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D25
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 63.5
+  PosY: -66.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D26
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 70.325
+  PosY: -51.05
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D27
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 74.0
+  PosY: -36.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D28
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 56.0
+  PosY: -111.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D29
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 63.5
+  PosY: -96.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D30
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 63.5
+  PosY: -81.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D31
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 70.5
+  PosY: -66.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D32
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 77.625
+  PosY: -51.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D33
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 81.0
+  PosY: -36.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D34
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 63.0
+  PosY: -111.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D35
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 70.5
+  PosY: -96.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D36
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 70.5
+  PosY: -81.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D37
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 77.5
+  PosY: -66.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D38
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 84.5
+  PosY: -51.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D39
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 88.0
+  PosY: -36.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D40
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 70.0
+  PosY: -111.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D41
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 77.5
+  PosY: -96.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D42
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 77.5
+  PosY: -81.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D43
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 84.5
+  PosY: -66.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D44
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 91.5
+  PosY: -51.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D45
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 95.0
+  PosY: -36.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D46
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 77.0
+  PosY: -111.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D47
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 84.5
+  PosY: -96.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D48
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 84.5
+  PosY: -81.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D49
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 91.5
+  PosY: -66.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D50
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 98.5
+  PosY: -51.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D51
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 84.0
+  PosY: -111.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D52
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 91.5
+  PosY: -96.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D53
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 91.5
+  PosY: -81.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D54
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 98.5
+  PosY: -66.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D55
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 91.0
+  PosY: -111.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D56
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 98.5
+  PosY: -96.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D57
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 98.5
+  PosY: -81.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D58
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 105.5
+  PosY: -66.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D59
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 98.5
+  PosY: -111.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D60
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 105.5
+  PosY: -96.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D61
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 105.5
+  PosY: -81.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D62
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 105.5
+  PosY: -111.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D63
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 112.5
+  PosY: -96.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D64
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 112.5
+  PosY: -81.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D65
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 112.5
+  PosY: -111.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D66
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 119.5
+  PosY: -111.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D67
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 28.0
+  PosY: -141.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D68
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 35.0
+  PosY: -141.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D69
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 42.0
+  PosY: -141.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D70
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 49.0
+  PosY: -141.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D71
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 56.0
+  PosY: -141.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D72
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 63.0
+  PosY: -141.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D73
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 70.0
+  PosY: -141.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D74
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 77.0
+  PosY: -141.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D75
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 84.0
+  PosY: -141.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D76
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 91.0
+  PosY: -141.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D77
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 98.5
+  PosY: -141.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D78
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 105.5
+  PosY: -141.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D79
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 112.5
+  PosY: -141.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D80
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 119.5
+  PosY: -141.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D81
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 28.0
+  PosY: -126.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D82
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 35.0
+  PosY: -126.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D83
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 42.0
+  PosY: -126.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D84
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 49.0
+  PosY: -126.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D85
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 56.0
+  PosY: -126.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D86
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 63.0
+  PosY: -126.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D87
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 70.0
+  PosY: -126.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D88
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 77.0
+  PosY: -126.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D89
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 84.0
+  PosY: -126.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D90
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 91.0
+  PosY: -126.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D91
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 98.5
+  PosY: -126.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D92
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 105.5
+  PosY: -126.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D93
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 112.5
+  PosY: -126.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D94
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 119.5
+  PosY: -126.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D95
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 21.0
+  PosY: -141.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': D96
+  Package: LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+  PosX: 126.5
+  PosY: -141.0
+  Rot: -90.0
+  Side: top
+  Val: SK6812
+- '# Ref': J1
+  Package: Pin_Header_Angled_1x06_Pitch2.54mm
+  PosX: 80.06
+  PosY: -161.025
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x0
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 68.7625
+  PosY: -158.475
+  Rot: 180.0
+  Side: top
+  Val: '22'
+- '# Ref': R2
+  Package: R_0603_1608Metric
+  PosX: 65.7625
+  PosY: -158.475
+  Rot: 180.0
+  Side: top
+  Val: '22'
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 1uF | C_0603_1608Metric | 82.775\
+  \ | -161.2875 | -90.0 | top | \n| C2 | 1uF | C_0603_1608Metric | 27.9875 | -114.6\
+  \ | 0.0 | top | \n| C3 | 1uF | C_0603_1608Metric | 34.55 | -114.7 | 0.0 | top |\
+  \ \n| C4 | 1uF | C_0603_1608Metric | 41.55 | -114.7 | 0.0 | top | \n| C5 | 1uF |\
+  \ C_0603_1608Metric | 48.55 | -114.7 | 0.0 | top | \n| C6 | 1uF | C_0603_1608Metric\
+  \ | 55.55 | -114.7 | 0.0 | top | \n| C7 | 1uF | C_0603_1608Metric | 62.55 | -114.7\
+  \ | 0.0 | top | \n| C8 | 1uF | C_0603_1608Metric | 70.35 | -114.6 | 0.0 | top |\
+  \ \n| C9 | 1uF | C_0603_1608Metric | 77.8125 | -114.8 | 0.0 | top | \n| C10 | 1uF\
+  \ | C_0603_1608Metric | 83.55 | -114.6 | 0.0 | top | \n| C11 | 1uF | C_0603_1608Metric\
+  \ | 90.55 | -114.6 | 0.0 | top | \n| C12 | 1uF | C_0603_1608Metric | 98.05 | -114.6\
+  \ | 0.0 | top | \n| C13 | 1uF | C_0603_1608Metric | 105.05 | -114.6 | 0.0 | top\
+  \ | \n| C14 | 1uF | C_0603_1608Metric | 112.05 | -114.6 | 0.0 | top | \n| C15 |\
+  \ 1uF | C_0603_1608Metric | 119.05 | -114.6 | 0.0 | top | \n| C16 | 1uF | C_0603_1608Metric\
+  \ | 35.05 | -99.7 | 0.0 | top | \n| C17 | 1uF | C_0603_1608Metric | 42.05 | -99.7\
+  \ | 0.0 | top | \n| C18 | 1uF | C_0603_1608Metric | 49.05 | -99.7 | 0.0 | top |\
+  \ \n| C19 | 1uF | C_0603_1608Metric | 56.05 | -99.7 | 0.0 | top | \n| C20 | 1uF\
+  \ | C_0603_1608Metric | 63.05 | -99.7 | 0.0 | top | \n| C21 | 1uF | C_0603_1608Metric\
+  \ | 70.5125 | -99.575 | 0.0 | top | \n| C22 | 1uF | C_0603_1608Metric | 77.05 |\
+  \ -99.7 | 0.0 | top | \n| C23 | 1uF | C_0603_1608Metric | 84.05 | -99.7 | 0.0 |\
+  \ top | \n| C24 | 1uF | C_0603_1608Metric | 91.05 | -99.7 | 0.0 | top | \n| C25\
+  \ | 10uF | C_0603_1608Metric | 98.05 | -99.7 | 0.0 | top | \n| C26 | 1uF | C_0603_1608Metric\
+  \ | 105.05 | -99.7 | 0.0 | top | \n| C27 | 1uF | C_0603_1608Metric | 112.05 | -99.7\
+  \ | 0.0 | top | \n| C28 | 100uF_10V | C_1210_3225Metric_Pad1.42x2.65mm_HandSolder\
+  \ | 85.225 | -160.575 | -90.0 | top | \n| C29 | 1uF | C_0603_1608Metric | 42.05\
+  \ | -84.8 | 0.0 | top | \n| C30 | 1uF | C_0603_1608Metric | 49.05 | -84.8 | 0.0\
+  \ | top | \n| C32 | 1uF | C_0603_1608Metric | 63.05 | -84.8 | 0.0 | top | \n| C33\
+  \ | 1uF | C_0603_1608Metric | 70.65 | -84.6 | 0.0 | top | \n| C35 | 1uF | C_0603_1608Metric\
+  \ | 84.05 | -84.9 | 0.0 | top | \n| C36 | 1uF | C_0603_1608Metric | 91.05 | -84.9\
+  \ | 0.0 | top | \n| C37 | 1uF | C_0603_1608Metric | 98.05 | -84.9 | 0.0 | top |\
+  \ \n| C38 | 1uF | C_0603_1608Metric | 105.05 | -84.9 | 0.0 | top | \n| C39 | 1uF\
+  \ | C_0603_1608Metric | 112.05 | -84.9 | 0.0 | top | \n| C40 | 1uF | C_0603_1608Metric\
+  \ | 42.05 | -69.9 | 0.0 | top | \n| C41 | 1uF | C_0603_1608Metric | 49.05 | -69.9\
+  \ | 0.0 | top | \n| C42 | 1uF | C_0603_1608Metric | 56.05 | -69.9 | 0.0 | top |\
+  \ \n| C43 | 1uF | C_0603_1608Metric | 63.05 | -69.9 | 0.0 | top | \n| C44 | 1uF\
+  \ | C_0603_1608Metric | 71.15 | -69.9 | 0.0 | top | \n| C45 | 1uF | C_0603_1608Metric\
+  \ | 77.05 | -70.0 | 0.0 | top | \n| C46 | 1uF | C_0603_1608Metric | 83.95 | -69.8\
+  \ | 0.0 | top | \n| C47 | 1uF | C_0603_1608Metric | 91.05 | -69.8 | 0.0 | top |\
+  \ \n| C48 | 1uF | C_0603_1608Metric | 98.05 | -69.8 | 0.0 | top | \n| C49 | 1uF\
+  \ | C_0603_1608Metric | 105.05 | -69.8 | 0.0 | top | \n| C50 | 1uF | C_0603_1608Metric\
+  \ | 49.05 | -54.8 | 0.0 | top | \n| C51 | 1uF | C_0603_1608Metric | 56.05 | -54.8\
+  \ | 0.0 | top | \n| C52 | 1uF | C_0603_1608Metric | 63.05 | -54.8 | 0.0 | top |\
+  \ \n| C53 | 1uF | C_0603_1608Metric | 70.5 | -54.75 | 0.0 | top | \n| C54 | 1uF\
+  \ | C_0603_1608Metric | 77.05 | -54.575 | 0.0 | top | \n| C55 | 1uF | C_0603_1608Metric\
+  \ | 84.05 | -54.8 | 0.0 | top | \n| C56 | 1uF | C_0603_1608Metric | 91.05 | -54.8\
+  \ | 0.0 | top | \n| C57 | 1uF | C_0603_1608Metric | 98.05 | -54.8 | 0.0 | top |\
+  \ \n| C58 | 1uF | C_0603_1608Metric | 52.55 | -39.7 | 0.0 | top | \n| C59 | 1uF\
+  \ | C_0603_1608Metric | 59.55 | -39.7 | 0.0 | top | \n| C60 | 1uF | C_0603_1608Metric\
+  \ | 66.55 | -39.7 | 0.0 | top | \n| C61 | 1uF | C_0603_1608Metric | 73.35 | -39.9\
+  \ | 0.0 | top | \n| C62 | 1uF | C_0603_1608Metric | 80.55 | -39.8 | 0.0 | top |\
+  \ \n| C63 | 1uF | C_0603_1608Metric | 87.35 | -39.9 | 0.0 | top | \n| C64 | 1uF\
+  \ | C_0603_1608Metric | 94.55 | -39.8 | 0.0 | top | \n| C65 | 1uF | C_0603_1608Metric\
+  \ | 66.55 | -24.6 | 0.0 | top | \n| C66 | 1uF | C_0603_1608Metric | 73.55 | -24.6\
+  \ | 0.0 | top | \n| C67 | 1uF | C_0603_1608Metric | 81.1 | -24.9 | 0.0 | top | \n\
+  | C68 | 1uF | C_0603_1608Metric | 35.05 | -84.8 | 0.0 | top | \n| C69 | 1uF | C_0603_1608Metric\
+  \ | 77.35 | -84.7 | 0.0 | top | \n| C70 | 1uF | C_0603_1608Metric | 56.4 | -84.8\
+  \ | 0.0 | top | \n| C71 | 1uF | C_0603_1608Metric | 27.9875 | -144.6 | 0.0 | top\
+  \ | \n| C72 | 1uF | C_0603_1608Metric | 34.55 | -144.7 | 0.0 | top | \n| C73 | 1uF\
+  \ | C_0603_1608Metric | 41.55 | -144.7 | 0.0 | top | \n| C74 | 1uF | C_0603_1608Metric\
+  \ | 48.55 | -144.7 | 0.0 | top | \n| C75 | 1uF | C_0603_1608Metric | 55.55 | -144.7\
+  \ | 0.0 | top | \n| C76 | 1uF | C_0603_1608Metric | 62.55 | -144.7 | 0.0 | top |\
+  \ \n| C77 | 1uF | C_0603_1608Metric | 70.35 | -144.6 | 0.0 | top | \n| C78 | 1uF\
+  \ | C_0603_1608Metric | 77.8125 | -144.8 | 0.0 | top | \n| C79 | 1uF | C_0603_1608Metric\
+  \ | 83.55 | -144.6 | 0.0 | top | \n| C80 | 1uF | C_0603_1608Metric | 90.55 | -144.6\
+  \ | 0.0 | top | \n| C81 | 1uF | C_0603_1608Metric | 98.05 | -144.6 | 0.0 | top |\
+  \ \n| C82 | 1uF | C_0603_1608Metric | 105.05 | -144.6 | 0.0 | top | \n| C83 | 1uF\
+  \ | C_0603_1608Metric | 112.05 | -144.6 | 0.0 | top | \n| C84 | 1uF | C_0603_1608Metric\
+  \ | 119.05 | -144.6 | 0.0 | top | \n| C85 | 1uF | C_0603_1608Metric | 27.9875 |\
+  \ -129.6 | 0.0 | top | \n| C86 | 1uF | C_0603_1608Metric | 34.55 | -129.7 | 0.0\
+  \ | top | \n| C87 | 1uF | C_0603_1608Metric | 41.55 | -129.7 | 0.0 | top | \n| C88\
+  \ | 1uF | C_0603_1608Metric | 48.55 | -129.7 | 0.0 | top | \n| C89 | 1uF | C_0603_1608Metric\
+  \ | 55.55 | -129.7 | 0.0 | top | \n| C90 | 1uF | C_0603_1608Metric | 62.55 | -129.7\
+  \ | 0.0 | top | \n| C91 | 1uF | C_0603_1608Metric | 70.35 | -129.6 | 0.0 | top |\
+  \ \n| C92 | 1uF | C_0603_1608Metric | 77.8125 | -129.8 | 0.0 | top | \n| C93 | 1uF\
+  \ | C_0603_1608Metric | 83.55 | -129.6 | 0.0 | top | \n| C94 | 1uF | C_0603_1608Metric\
+  \ | 90.55 | -129.6 | 0.0 | top | \n| C95 | 1uF | C_0603_1608Metric | 98.05 | -129.6\
+  \ | 0.0 | top | \n| C96 | 1uF | C_0603_1608Metric | 105.05 | -129.6 | 0.0 | top\
+  \ | \n| C97 | 1uF | C_0603_1608Metric | 112.05 | -129.6 | 0.0 | top | \n| C98 |\
+  \ 1uF | C_0603_1608Metric | 119.05 | -129.6 | 0.0 | top | \n| C99 | 1uF | C_0603_1608Metric\
+  \ | 21.0 | -144.6 | 0.0 | top | \n| C100 | 1uF | C_0603_1608Metric | 126.25 | -144.75\
+  \ | 0.0 | top | \n| D1 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm | 28.0\
+  \ | -111.0 | -90.0 | top | \n| D2 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 35.5 | -96.0 | -90.0 | top | \n| D3 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 35.5 | -81.0 | -90.0 | top | \n| D4 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 42.5 | -66.0 | -90.0 | top | \n| D5 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 49.5 | -51.0 | -90.0 | top | \n| D6 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 53.0 | -36.0 | -90.0 | top | \n| D7 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 67.0 | -21.0 | -90.0 | top | \n| D8 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 35.0 | -111.0 | -90.0 | top | \n| D9 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 42.5 | -96.0 | -90.0 | top | \n| D10 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 42.5 | -81.0 | -90.0 | top | \n| D11 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 49.5 | -66.0 | -90.0 | top | \n| D12 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 56.5 | -51.0 | -90.0 | top | \n| D13 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 60.0 | -36.0 | -90.0 | top | \n| D14 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 74.0 | -21.0 | -90.0 | top | \n| D15 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 42.0 | -111.0 | -90.0 | top | \n| D16 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 49.5 | -96.0 | -90.0 | top | \n| D17 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 49.5 | -81.0 | -90.0 | top | \n| D18 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 56.5 | -66.0 | -90.0 | top | \n| D19 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 63.5 | -51.0 | -90.0 | top | \n| D20 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 67.0 | -36.0 | -90.0 | top | \n| D21 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 81.0 | -21.0 | -90.0 | top | \n| D22 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 49.0 | -111.0 | -90.0 | top | \n| D23 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 56.5 | -96.0 | -90.0 | top | \n| D24 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 56.5 | -81.0 | -90.0 | top | \n| D25 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 63.5 | -66.0 | -90.0 | top | \n| D26 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 70.325 | -51.05 | -90.0 | top | \n| D27 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 74.0 | -36.0 | -90.0 | top | \n| D28 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 56.0 | -111.0 | -90.0 | top | \n| D29 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 63.5 | -96.0 | -90.0 | top | \n| D30 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 63.5 | -81.0 | -90.0 | top | \n| D31 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 70.5 | -66.0 | -90.0 | top | \n| D32 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 77.625 | -51.0 | -90.0 | top | \n| D33 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 81.0 | -36.0 | -90.0 | top | \n| D34 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 63.0 | -111.0 | -90.0 | top | \n| D35 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 70.5 | -96.0 | -90.0 | top | \n| D36 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 70.5 | -81.0 | -90.0 | top | \n| D37 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 77.5 | -66.0 | -90.0 | top | \n| D38 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 84.5 | -51.0 | -90.0 | top | \n| D39 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 88.0 | -36.0 | -90.0 | top | \n| D40 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 70.0 | -111.0 | -90.0 | top | \n| D41 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 77.5 | -96.0 | -90.0 | top | \n| D42 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 77.5 | -81.0 | -90.0 | top | \n| D43 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 84.5 | -66.0 | -90.0 | top | \n| D44 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 91.5 | -51.0 | -90.0 | top | \n| D45 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 95.0 | -36.0 | -90.0 | top | \n| D46 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 77.0 | -111.0 | -90.0 | top | \n| D47 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 84.5 | -96.0 | -90.0 | top | \n| D48 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 84.5 | -81.0 | -90.0 | top | \n| D49 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 91.5 | -66.0 | -90.0 | top | \n| D50 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 98.5 | -51.0 | -90.0 | top | \n| D51 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 84.0 | -111.0 | -90.0 | top | \n| D52 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 91.5 | -96.0 | -90.0 | top | \n| D53 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 91.5 | -81.0 | -90.0 | top | \n| D54 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 98.5 | -66.0 | -90.0 | top | \n| D55 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 91.0 | -111.0 | -90.0 | top | \n| D56 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 98.5 | -96.0 | -90.0 | top | \n| D57 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 98.5 | -81.0 | -90.0 | top | \n| D58 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 105.5 | -66.0 | -90.0 | top | \n| D59 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 98.5 | -111.0 | -90.0 | top | \n| D60 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 105.5 | -96.0 | -90.0 | top | \n| D61 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 105.5 | -81.0 | -90.0 | top | \n| D62 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 105.5 | -111.0 | -90.0 | top | \n| D63 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 112.5 | -96.0 | -90.0 | top | \n| D64 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 112.5 | -81.0 | -90.0 | top | \n| D65 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 112.5 | -111.0 | -90.0 | top | \n| D66 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 119.5 | -111.0 | -90.0 | top | \n| D67 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 28.0 | -141.0 | -90.0 | top | \n| D68 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 35.0 | -141.0 | -90.0 | top | \n| D69 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 42.0 | -141.0 | -90.0 | top | \n| D70 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 49.0 | -141.0 | -90.0 | top | \n| D71 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 56.0 | -141.0 | -90.0 | top | \n| D72 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 63.0 | -141.0 | -90.0 | top | \n| D73 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 70.0 | -141.0 | -90.0 | top | \n| D74 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 77.0 | -141.0 | -90.0 | top | \n| D75 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 84.0 | -141.0 | -90.0 | top | \n| D76 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 91.0 | -141.0 | -90.0 | top | \n| D77 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 98.5 | -141.0 | -90.0 | top | \n| D78 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 105.5 | -141.0 | -90.0 | top | \n| D79 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 112.5 | -141.0 | -90.0 | top | \n| D80 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 119.5 | -141.0 | -90.0 | top | \n| D81 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 28.0 | -126.0 | -90.0 | top | \n| D82 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 35.0 | -126.0 | -90.0 | top | \n| D83 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 42.0 | -126.0 | -90.0 | top | \n| D84 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 49.0 | -126.0 | -90.0 | top | \n| D85 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 56.0 | -126.0 | -90.0 | top | \n| D86 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 63.0 | -126.0 | -90.0 | top | \n| D87 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 70.0 | -126.0 | -90.0 | top | \n| D88 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 77.0 | -126.0 | -90.0 | top | \n| D89 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 84.0 | -126.0 | -90.0 | top | \n| D90 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 91.0 | -126.0 | -90.0 | top | \n| D91 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 98.5 | -126.0 | -90.0 | top | \n| D92 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 105.5 | -126.0 | -90.0 | top | \n| D93 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 112.5 | -126.0 | -90.0 | top | \n| D94 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 119.5 | -126.0 | -90.0 | top | \n| D95 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 21.0 | -141.0 | -90.0 | top | \n| D96 | SK6812 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm\
+  \ | 126.5 | -141.0 | -90.0 | top | \n| J1 | Conn_01x0 | Pin_Header_Angled_1x06_Pitch2.54mm\
+  \ | 80.06 | -161.025 | -90.0 | top | \n| R1 | 22 | R_0603_1608Metric | 68.7625 |\
+  \ -158.475 | 180.0 | top | \n| R2 | 22 | R_0603_1608Metric | 65.7625 | -158.475\
+  \ | 180.0 | top | \n"
 projects_flat: projects/aaronw2_flex_ears_ears/current_version/working
 repo:
   allow_forking: true

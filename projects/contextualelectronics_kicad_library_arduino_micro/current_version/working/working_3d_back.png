@@ -1,0 +1,222 @@
+(pcb C:\gh\oomlout_oomp_project_bot_v_2\projects\contextualelectronics_kicad_library_arduino_micro\current_version\working\working_3d_back.png
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "7.0.6")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  153543 -115316  135763 -115316  135763 -67056  153543 -67056
+            153543 -115316)
+    )
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Socket_Arduino_Micro:Socket_Strip_Arduino_1x17
+      (place P1 137033.000000 -70866.000000 front -90.000000 (PN Digital))
+      (place P2 152273.000000 -70866.000000 front -90.000000 (PN Analog))
+    )
+    (component Socket_Arduino_Micro:1pin_Micro
+      (place P3 137033.000000 -68326.000000 front 0.000000 (PN CONN_1))
+      (place P4 137033.000000 -114046.000000 front 0.000000 (PN CONN_1))
+      (place P5 152273.000000 -114046.000000 front 0.000000 (PN CONN_1))
+      (place P6 152273.000000 -68326.000000 front 0.000000 (PN CONN_1))
+    )
+  )
+  (library
+    (image Socket_Arduino_Micro:Socket_Strip_Arduino_1x17
+      (outline (path signal 150  -1270 1270  -1270 -1270))
+      (outline (path signal 150  -1270 -1270  1270 -1270))
+      (outline (path signal 150  1270 1270  -1270 1270))
+      (outline (path signal 150  1270 -1270  1270 1270))
+      (outline (path signal 150  1270 -1270  41910 -1270))
+      (outline (path signal 150  41910 1270  1270 1270))
+      (outline (path signal 150  41910 -1270  41910 1270))
+      (outline (path signal 50  -1750 1750  -1750 -1750))
+      (outline (path signal 50  -1750 1750  42400 1750))
+      (outline (path signal 50  -1750 -1750  42400 -1750))
+      (outline (path signal 50  42400 1750  42400 -1750))
+      (pin Oval[A]Pad_1727.2x2032_um 1 0 0)
+      (pin Oval[A]Pad_1727.2x2032_um 2 2540 0)
+      (pin Oval[A]Pad_1727.2x2032_um 3 5080 0)
+      (pin Oval[A]Pad_1727.2x2032_um 4 7620 0)
+      (pin Oval[A]Pad_1727.2x2032_um 5 10160 0)
+      (pin Oval[A]Pad_1727.2x2032_um 6 12700 0)
+      (pin Oval[A]Pad_1727.2x2032_um 7 15240 0)
+      (pin Oval[A]Pad_1727.2x2032_um 8 17780 0)
+      (pin Oval[A]Pad_1727.2x2032_um 9 20320 0)
+      (pin Oval[A]Pad_1727.2x2032_um 10 22860 0)
+      (pin Oval[A]Pad_1727.2x2032_um 11 25400 0)
+      (pin Oval[A]Pad_1727.2x2032_um 12 27940 0)
+      (pin Oval[A]Pad_1727.2x2032_um 13 30480 0)
+      (pin Oval[A]Pad_1727.2x2032_um 14 33020 0)
+      (pin Oval[A]Pad_1727.2x2032_um 15 35560 0)
+      (pin Oval[A]Pad_1727.2x2032_um 16 38100 0)
+      (pin Oval[A]Pad_1727.2x2032_um 17 40640 0)
+    )
+    (image Socket_Arduino_Micro:1pin_Micro
+      (pin Round[A]Pad_2032_um 1 0 0)
+    )
+    (padstack Round[A]Pad_2032_um
+      (shape (circle F.Cu 2032))
+      (shape (circle B.Cu 2032))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1727.2x2032_um
+      (shape (path F.Cu 1727.2  0 -152.4  0 152.4))
+      (shape (path B.Cu 1727.2  0 -152.4  0 152.4))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net /MOSI
+      (pins P1-1)
+    )
+    (net /SS
+      (pins P1-2)
+    )
+    (net /Reset
+      (pins P1-5 P2-5)
+    )
+    (net GND
+      (pins P1-6 P2-4)
+    )
+    (net "/2(SDA)"
+      (pins P1-7)
+    )
+    (net "/3(**/SCL)"
+      (pins P1-8)
+    )
+    (net "/4(A6)"
+      (pins P1-9)
+    )
+    (net "/5(**)"
+      (pins P1-10)
+    )
+    (net "/6(**/A7)"
+      (pins P1-11)
+    )
+    (net /7
+      (pins P1-12)
+    )
+    (net "/8(A8)"
+      (pins P1-13)
+    )
+    (net "/9(**/A9)"
+      (pins P1-14)
+    )
+    (net "/10(A10)"
+      (pins P1-15)
+    )
+    (net "/11(**)"
+      (pins P1-16)
+    )
+    (net "/12(A11)"
+      (pins P1-17)
+    )
+    (net /SCK
+      (pins P2-1)
+    )
+    (net /MISO
+      (pins P2-2)
+    )
+    (net /Vin
+      (pins P2-3)
+    )
+    (net +5V
+      (pins P2-6)
+    )
+    (net /A5
+      (pins P2-9)
+    )
+    (net /A4
+      (pins P2-10)
+    )
+    (net /A3
+      (pins P2-11)
+    )
+    (net /A2
+      (pins P2-12)
+    )
+    (net /A1
+      (pins P2-13)
+    )
+    (net /A0
+      (pins P2-14)
+    )
+    (net /AREF
+      (pins P2-15)
+    )
+    (net "/13(**)"
+      (pins P2-17)
+    )
+    (net "Net-(P3-Pad1)"
+      (pins P3-1)
+    )
+    (net "Net-(P4-Pad1)"
+      (pins P4-1)
+    )
+    (net "Net-(P5-Pad1)"
+      (pins P5-1)
+    )
+    (net "Net-(P6-Pad1)"
+      (pins P6-1)
+    )
+    (net "/1(Tx1)"
+      (pins P1-3)
+    )
+    (net "/0(Rx1)"
+      (pins P1-4)
+    )
+    (net "Net-(P2-Pad7)"
+      (pins P2-7)
+    )
+    (net "Net-(P2-Pad8)"
+      (pins P2-8)
+    )
+    (net +3V3
+      (pins P2-16)
+    )
+    (class kicad_default "" +3V3 +5V "/0(Rx1)" "/1(Tx1)" "/10(A10)" "/11(**)"
+      "/12(A11)" "/13(**)" "/2(SDA)" "/3(**/SCL)" "/4(A6)" "/5(**)" "/6(**/A7)"
+      /7 "/8(A8)" "/9(**/A9)" /A0 /A1 /A2 /A3 /A4 /A5 /AREF /MISO /MOSI /Reset
+      /SCK /SS /Vin GND "Net-(P2-Pad7)" "Net-(P2-Pad8)" "Net-(P3-Pad1)" "Net-(P4-Pad1)"
+      "Net-(P5-Pad1)" "Net-(P6-Pad1)"
+      (circuit
+        (use_via Via[0-1]_600:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

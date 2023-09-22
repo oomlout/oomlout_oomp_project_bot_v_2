@@ -1,10 +1,347 @@
 board: pmod_lss
+bom:
+- Id: '1'
+  Designator: J3
+  Footprint: DIL-254P-12
+  Quantity: '1'
+  Designation: PMOD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J2,J1
+  Footprint: MOLEX-KK-254P-03
+  Quantity: '2'
+  Designation: HV
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: Q9,Q15,Q4,Q10,Q1,Q2,Q13,Q16,Q3,Q7,Q5,Q6,Q12,Q11,Q8,Q14
+  Footprint: SOT-23
+  Quantity: '16'
+  Designation: DMN60H080DS-7
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J4
+  Footprint: DIL-254P-16
+  Quantity: '1'
+  Designation: CATHODES
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C2,C1
+  Footprint: '0603'
+  Quantity: '2'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: IC1
+  Footprint: SOIC-24-W
+  Quantity: '1'
+  Designation: 74HC4514
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: J5
+  Footprint: SJ2
+  Quantity: '1'
+  Designation: SJ2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J3\
+  \ | DIL-254P-12 | 1 | PMOD |  |  | [''] | \n| 2 | J2,J1 | MOLEX-KK-254P-03 | 2 |\
+  \ HV |  |  | [''] | \n| 3 | Q9,Q15,Q4,Q10,Q1,Q2,Q13,Q16,Q3,Q7,Q5,Q6,Q12,Q11,Q8,Q14\
+  \ | SOT-23 | 16 | DMN60H080DS-7 |  |  | [''] | \n| 4 | J4 | DIL-254P-16 | 1 | CATHODES\
+  \ |  |  | [''] | \n| 5 | C2,C1 | 0603 | 2 | 100n |  |  | [''] | \n| 6 | IC1 | SOIC-24-W\
+  \ | 1 | 74HC4514 |  |  | [''] | \n| 7 | J5 | SJ2 | 1 | SJ2 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '2'
+  Ref: C1, C2
+  Value: 100n
+  Vendor: ''
+- Cmp name: 74HC4514
+  DNP: ''
+  Description: 4-to-16 line decoder/demultiplexer with input latches
+  Footprint: agg:SOIC-24-W
+  Qnty: '1'
+  Ref: IC1
+  Value: 74HC4514
+  Vendor: ''
+- Cmp name: CONN_01x03
+  DNP: ''
+  Description: ''
+  Footprint: agg:MOLEX-KK-254P-03
+  Qnty: '2'
+  Ref: J1, J2
+  Value: HV
+  Vendor: ''
+- Cmp name: CONN_02x06
+  DNP: ''
+  Description: ''
+  Footprint: agg:DIL-254P-12
+  Qnty: '1'
+  Ref: J3
+  Value: PMOD
+  Vendor: ''
+- Cmp name: CONN_02x08
+  DNP: ''
+  Description: ''
+  Footprint: agg:DIL-254P-16
+  Qnty: '1'
+  Ref: J4
+  Value: CATHODES
+  Vendor: ''
+- Cmp name: SJ2
+  DNP: ''
+  Description: ''
+  Footprint: agg:SJ2
+  Qnty: '1'
+  Ref: J5
+  Value: SJ2
+  Vendor: ''
+- Cmp name: NFET
+  DNP: ''
+  Description: Generic N-channel FET
+  Footprint: agg:SOT-23
+  Qnty: '16'
+  Ref: Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16
+  Value: DMN60H080DS-7
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2\
+  \ | 2 | 100n | C | agg:0603 |  |  |  | \n| IC1 | 1 | 74HC4514 | 74HC4514 | agg:SOIC-24-W\
+  \ | 4-to-16 line decoder/demultiplexer with input latches |  |  | \n| J1, J2 | 2\
+  \ | HV | CONN_01x03 | agg:MOLEX-KK-254P-03 |  |  |  | \n| J3 | 1 | PMOD | CONN_02x06\
+  \ | agg:DIL-254P-12 |  |  |  | \n| J4 | 1 | CATHODES | CONN_02x08 | agg:DIL-254P-16\
+  \ |  |  |  | \n| J5 | 1 | SJ2 | SJ2 | agg:SJ2 |  |  |  | \n| Q1, Q2, Q3, Q4, Q5,\
+  \ Q6, Q7, Q8, Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16 | 16 | DMN60H080DS-7 | NFET\
+  \ | agg:SOT-23 | Generic N-channel FET |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_iggie_pmod_lss/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_iggie_pmod_lss/current_version/working/working.kicad_sch
 file_sch_flat: projects/adamgreig_iggie_load/current_version/working/working.sch
 id: adamgreig_iggie_pmod_lss
 name: iggie
+position_bottom:
+- '# Ref': J5
+  Package: SJ2
+  PosX: 123.5
+  PosY: -120.5
+  Rot: 180.0
+  Side: bottom
+  Val: SJ2
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J5 | SJ2 | SJ2 | 123.5 | -120.5\
+  \ | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: '0603'
+  PosX: 120.1
+  PosY: -102.9
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': C2
+  Package: '0603'
+  PosX: 106.68
+  PosY: -120.65
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': IC1
+  Package: SOIC-24-W
+  PosX: 116.875
+  PosY: -111.76
+  Rot: 0.0
+  Side: top
+  Val: 74HC4514
+- '# Ref': J1
+  Package: MOLEX-KK-254P-03
+  PosX: 153.67
+  PosY: -116.8
+  Rot: 90.0
+  Side: top
+  Val: HV
+- '# Ref': J2
+  Package: MOLEX-KK-254P-03
+  PosX: 153.67
+  PosY: -106.68
+  Rot: 90.0
+  Side: top
+  Val: HV
+- '# Ref': J3
+  Package: DIL-254P-12
+  PosX: 106.68
+  PosY: -111.76
+  Rot: -90.0
+  Side: top
+  Val: PMOD
+- '# Ref': J4
+  Package: DIL-254P-16
+  PosX: 138.176
+  PosY: -111.76
+  Rot: 0.0
+  Side: top
+  Val: CATHODES
+- '# Ref': Q1
+  Package: SOT-23
+  PosX: 125.7
+  PosY: -113.6
+  Rot: 0.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q2
+  Package: SOT-23
+  PosX: 125.7
+  PosY: -109.9
+  Rot: 0.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q3
+  Package: SOT-23
+  PosX: 125.7
+  PosY: -117.3
+  Rot: 0.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q4
+  Package: SOT-23
+  PosX: 125.7
+  PosY: -106.2
+  Rot: 0.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q5
+  Package: SOT-23
+  PosX: 129.4
+  PosY: -117.3
+  Rot: 90.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q6
+  Package: SOT-23
+  PosX: 129.4
+  PosY: -106.2
+  Rot: -90.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q7
+  Package: SOT-23
+  PosX: 133.0
+  PosY: -117.3
+  Rot: 90.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q8
+  Package: SOT-23
+  PosX: 133.0
+  PosY: -106.2
+  Rot: -90.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q9
+  Package: SOT-23
+  PosX: 136.6
+  PosY: -117.3
+  Rot: 90.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q10
+  Package: SOT-23
+  PosX: 136.6
+  PosY: -106.2
+  Rot: -90.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q11
+  Package: SOT-23
+  PosX: 140.2
+  PosY: -117.3
+  Rot: 90.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q12
+  Package: SOT-23
+  PosX: 140.2
+  PosY: -106.2
+  Rot: -90.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q13
+  Package: SOT-23
+  PosX: 143.8
+  PosY: -117.3
+  Rot: 90.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q14
+  Package: SOT-23
+  PosX: 143.8
+  PosY: -106.2
+  Rot: -90.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q15
+  Package: SOT-23
+  PosX: 147.4
+  PosY: -117.3
+  Rot: 90.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q16
+  Package: SOT-23
+  PosX: 147.4
+  PosY: -106.2
+  Rot: -90.0
+  Side: top
+  Val: DMN60H080DS-7
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 100n | 0603 | 120.1 | -102.9 |\
+  \ 180.0 | top | \n| C2 | 100n | 0603 | 106.68 | -120.65 | 0.0 | top | \n| IC1 |\
+  \ 74HC4514 | SOIC-24-W | 116.875 | -111.76 | 0.0 | top | \n| J1 | HV | MOLEX-KK-254P-03\
+  \ | 153.67 | -116.8 | 90.0 | top | \n| J2 | HV | MOLEX-KK-254P-03 | 153.67 | -106.68\
+  \ | 90.0 | top | \n| J3 | PMOD | DIL-254P-12 | 106.68 | -111.76 | -90.0 | top |\
+  \ \n| J4 | CATHODES | DIL-254P-16 | 138.176 | -111.76 | 0.0 | top | \n| Q1 | DMN60H080DS-7\
+  \ | SOT-23 | 125.7 | -113.6 | 0.0 | top | \n| Q2 | DMN60H080DS-7 | SOT-23 | 125.7\
+  \ | -109.9 | 0.0 | top | \n| Q3 | DMN60H080DS-7 | SOT-23 | 125.7 | -117.3 | 0.0\
+  \ | top | \n| Q4 | DMN60H080DS-7 | SOT-23 | 125.7 | -106.2 | 0.0 | top | \n| Q5\
+  \ | DMN60H080DS-7 | SOT-23 | 129.4 | -117.3 | 90.0 | top | \n| Q6 | DMN60H080DS-7\
+  \ | SOT-23 | 129.4 | -106.2 | -90.0 | top | \n| Q7 | DMN60H080DS-7 | SOT-23 | 133.0\
+  \ | -117.3 | 90.0 | top | \n| Q8 | DMN60H080DS-7 | SOT-23 | 133.0 | -106.2 | -90.0\
+  \ | top | \n| Q9 | DMN60H080DS-7 | SOT-23 | 136.6 | -117.3 | 90.0 | top | \n| Q10\
+  \ | DMN60H080DS-7 | SOT-23 | 136.6 | -106.2 | -90.0 | top | \n| Q11 | DMN60H080DS-7\
+  \ | SOT-23 | 140.2 | -117.3 | 90.0 | top | \n| Q12 | DMN60H080DS-7 | SOT-23 | 140.2\
+  \ | -106.2 | -90.0 | top | \n| Q13 | DMN60H080DS-7 | SOT-23 | 143.8 | -117.3 | 90.0\
+  \ | top | \n| Q14 | DMN60H080DS-7 | SOT-23 | 143.8 | -106.2 | -90.0 | top | \n|\
+  \ Q15 | DMN60H080DS-7 | SOT-23 | 147.4 | -117.3 | 90.0 | top | \n| Q16 | DMN60H080DS-7\
+  \ | SOT-23 | 147.4 | -106.2 | -90.0 | top | \n"
 projects_flat: projects/adamgreig_iggie_pmod_lss/current_version/working
 repo:
   allow_forking: true

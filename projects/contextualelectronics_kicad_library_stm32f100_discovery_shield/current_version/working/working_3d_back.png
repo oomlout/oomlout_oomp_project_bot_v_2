@@ -1,0 +1,131 @@
+(pcb C:\gh\oomlout_oomp_project_bot_v_2\projects\contextualelectronics_kicad_library_stm32f100_discovery_shield\current_version\working\working_3d_back.png
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "7.0.6")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  76200 -118745  33020 -118745  33020 -34290  76200 -34290
+            76200 -118745)
+    )
+    (plane GND (polygon B.Cu 0  76073 -118618  33147 -118618  33147 -34417  76073 -34417
+            76073 -118618))
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component PIN_ARRAY_6X1
+      (place P3 55880.000000 -113030.000000 front 0.000000 (PN CONN6))
+    )
+    (component PIN_ARRAY_28X1
+      (place P1 39370.000000 -73660.000000 front -90.000000 (PN CONN28))
+      (place P2 69850.000000 -73660.000000 front 90.000000 (PN CONN28))
+    )
+  )
+  (library
+    (image PIN_ARRAY_6X1
+      (outline (path signal 149.86  -7620 1270  7620 1270))
+      (outline (path signal 149.86  -7620 -1270  -7620 1270))
+      (outline (path signal 149.86  7620 1270  7620 -1270))
+      (outline (path signal 149.86  7620 -1270  -7620 -1270))
+      (pin Rect[A]Pad_1524x1524_um 1 -6350 0)
+      (pin Round[A]Pad_1524_um 2 -3810 0)
+      (pin Round[A]Pad_1524_um 3 -1270 0)
+      (pin Round[A]Pad_1524_um 4 1270 0)
+      (pin Round[A]Pad_1524_um 5 3810 0)
+      (pin Round[A]Pad_1524_um 6 6350 0)
+    )
+    (image PIN_ARRAY_28X1
+      (outline (path signal 149.86  -35560 1270  35560 1270))
+      (outline (path signal 149.86  -35560 -1270  -35560 1270))
+      (outline (path signal 149.86  35560 1270  35560 -1270))
+      (outline (path signal 149.86  35560 -1270  -35560 -1270))
+      (pin Rect[A]Pad_1524x1524_um 1 -34290 0)
+      (pin Round[A]Pad_1524_um 2 -31750 0)
+      (pin Round[A]Pad_1524_um 3 -29210 0)
+      (pin Round[A]Pad_1524_um 4 -26670 0)
+      (pin Round[A]Pad_1524_um 5 -24130 0)
+      (pin Round[A]Pad_1524_um 6 -21590 0)
+      (pin Round[A]Pad_1524_um 7 -19050 0)
+      (pin Round[A]Pad_1524_um 8 -16510 0)
+      (pin Round[A]Pad_1524_um 9 -13970 0)
+      (pin Round[A]Pad_1524_um 10 -11430 0)
+      (pin Round[A]Pad_1524_um 11 -8890 0)
+      (pin Round[A]Pad_1524_um 12 -6350 0)
+      (pin Round[A]Pad_1524_um 13 -3810 0)
+      (pin Round[A]Pad_1524_um 14 -1270 0)
+      (pin Round[A]Pad_1524_um 15 1270 0)
+      (pin Round[A]Pad_1524_um 16 3810 0)
+      (pin Round[A]Pad_1524_um 17 6350 0)
+      (pin Round[A]Pad_1524_um 18 8890 0)
+      (pin Round[A]Pad_1524_um 19 11430 0)
+      (pin Round[A]Pad_1524_um 20 13970 0)
+      (pin Round[A]Pad_1524_um 21 16510 0)
+      (pin Round[A]Pad_1524_um 22 19050 0)
+      (pin Round[A]Pad_1524_um 23 21590 0)
+      (pin Round[A]Pad_1524_um 24 24130 0)
+      (pin Round[A]Pad_1524_um 25 26670 0)
+      (pin Round[A]Pad_1524_um 26 29210 0)
+      (pin Round[A]Pad_1524_um 27 31750 0)
+      (pin Round[A]Pad_1524_um 28 34290 0)
+    )
+    (padstack Round[A]Pad_1524_um
+      (shape (circle F.Cu 1524))
+      (shape (circle B.Cu 1524))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1524x1524_um
+      (shape (rect F.Cu -762 -762 762 762))
+      (shape (rect B.Cu -762 -762 762 762))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net +3.3V
+      (pins P1-3)
+    )
+    (net +5V
+      (pins P2-26)
+    )
+    (net GND
+      (pins P1-1 P1-28 P2-1 P2-28)
+    )
+    (class kicad_default "" +3.3V +5V GND
+      (circuit
+        (use_via Via[0-1]_600:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

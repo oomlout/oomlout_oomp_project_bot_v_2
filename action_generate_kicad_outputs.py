@@ -1,7 +1,18 @@
 import oom_kicad
 import os
+import action_all
 
-def go_through_directories():
+def main(**kwargs):
+    filter = kwargs.get("filter", "")
+    #if filter isn't an array make it one
+    if not isinstance(filter, list):
+        filter = [filter]
+    go_through_directories(**kwargs)
+
+
+
+def go_through_directories(**kwargs):
+    filter = kwargs.get("filter", "")
     # go through all directories in projects
     count = 1
     for root, dirs, files in os.walk("projects"):
@@ -10,14 +21,7 @@ def go_through_directories():
             #check for a brd file
             
             filename = os.path.join(root, file)
-            filter = ["sparkfun","adafruit","omerk"]
-            filter = ["npoole"]
-            filter = [""]
-
-
-
-
- 
+            #filter = [""]
             #if any of filter is in filename
             if any(x in filename for x in filter):
                 print(f"checking {filename}")
@@ -29,12 +33,16 @@ def go_through_directories():
                     pass
                 #commit to git every 1
                     if count % 100 == 0:
-                        oom_kicad.push_to_git(count = count)
+                        #now in action_all
+                        #oom_kicad.push_to_git(count = count)
+                        action_all.main()
                         pass    
                     pass
     
 
 
 if __name__ == '__main__':
-    go_through_directories()
+    #filter = ["dangerousprototypes_buspirate5_hardware_buspirate_5_rev8"]
+    #filter = [""]
+    go_through_directories(filter=filter)
 

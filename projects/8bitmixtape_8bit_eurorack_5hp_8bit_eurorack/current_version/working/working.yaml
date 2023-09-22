@@ -1,10 +1,638 @@
 board: 8bit_eurorack
+bom:
+- Id: '1'
+  Designator: J6
+  Footprint: Sync_jumper
+  Quantity: '1'
+  Designation: Sync_Jumper
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: POT1-MAIN1,POT2-CV1
+  Footprint: Potentiometer_backPads_noHole
+  Quantity: '2'
+  Designation: POT 10K lin
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: SW4
+  Footprint: SW_SPST_FSMSM
+  Quantity: '1'
+  Designation: SW_Push
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U1
+  Footprint: Attiny_DIP-8_W7.62mm_mod
+  Quantity: '1'
+  Designation: ATTINY85-20SU
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: Ref**
+  Footprint: 8Bit_EuroRack-NEO_mini_frontplate
+  Quantity: '1'
+  Designation: Val**
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: D-OUT1
+  Footprint: LED_2835_minimal
+  Quantity: '1'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: ',,,,,,'
+  Footprint: Jack_pads
+  Quantity: '7'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R1,R2,R3,R4,R5
+  Footprint: R_1206_HandSoldering
+  Quantity: '5'
+  Designation: 22k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R6,R7
+  Footprint: R_1206_HandSoldering
+  Quantity: '2'
+  Designation: 22K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R8
+  Footprint: R_1206_HandSoldering
+  Quantity: '1'
+  Designation: '330'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: R10,R11
+  Footprint: R_1206_HandSoldering
+  Quantity: '2'
+  Designation: 4.7K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: R13
+  Footprint: R_1206_HandSoldering
+  Quantity: '1'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: C1,C2,C3
+  Footprint: C_1206_HandSoldering
+  Quantity: '3'
+  Designation: 100nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: C4
+  Footprint: C_1206_HandSoldering
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: J4
+  Footprint: Bat_connector_SMD
+  Quantity: '1'
+  Designation: Con_3-5V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J6\
+  \ | Sync_jumper | 1 | Sync_Jumper |  |  | [''] | \n| 2 | POT1-MAIN1,POT2-CV1 | Potentiometer_backPads_noHole\
+  \ | 2 | POT 10K lin |  |  | [''] | \n| 3 | SW4 | SW_SPST_FSMSM | 1 | SW_Push | \
+  \ |  | [''] | \n| 4 | U1 | Attiny_DIP-8_W7.62mm_mod | 1 | ATTINY85-20SU |  |  |\
+  \ [''] | \n| 5 | Ref** | 8Bit_EuroRack-NEO_mini_frontplate | 1 | Val** |  |  | ['']\
+  \ | \n| 6 | D-OUT1 | LED_2835_minimal | 1 | LED |  |  | [''] | \n| 7 | ,,,,,, |\
+  \ Jack_pads | 7 |  |  |  | [''] | \n| 8 | R1,R2,R3,R4,R5 | R_1206_HandSoldering\
+  \ | 5 | 22k |  |  | [''] | \n| 9 | R6,R7 | R_1206_HandSoldering | 2 | 22K |  | \
+  \ | [''] | \n| 10 | R8 | R_1206_HandSoldering | 1 | 330 |  |  | [''] | \n| 11 |\
+  \ R10,R11 | R_1206_HandSoldering | 2 | 4.7K |  |  | [''] | \n| 12 | R13 | R_1206_HandSoldering\
+  \ | 1 | 1K |  |  | [''] | \n| 13 | C1,C2,C3 | C_1206_HandSoldering | 3 | 100nF |\
+  \  |  | [''] | \n| 14 | C4 | C_1206_HandSoldering | 1 | 10uF |  |  | [''] | \n|\
+  \ 15 | J4 | Bat_connector_SMD | 1 | Con_3-5V |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CONN_01X01
+  DNP: ''
+  Description: ''
+  Footprint: 8Bit_Eurorack:8Bit_EuroRack-NEO
+  Qnty: '1'
+  Ref: board1
+  Value: SVG2SHENZHEN
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: 8Bit_Eurorack:C_1206_HandSoldering
+  Qnty: '3'
+  Ref: C1, C2, C3
+  Value: 100nF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: 8Bit_Eurorack:C_1206_HandSoldering
+  Qnty: '1'
+  Ref: C4
+  Value: 10uF
+  Vendor: ''
+- Cmp name: SK6812
+  DNP: ''
+  Description: ''
+  Footprint: 8Bit_Eurorack:Mixtape_NEO_WS2812B
+  Qnty: '8'
+  Ref: D1, D2, D3, D4, D5, D6, D7, D8
+  Value: SK6812
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: ''
+  Footprint: 8Bit_Eurorack:LED_2835_minimal
+  Qnty: '1'
+  Ref: D-OUT1
+  Value: LED
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: ''
+  Footprint: 8Bit_Eurorack:LED_2835_minimal
+  Qnty: '1'
+  Ref: D-POW1
+  Value: LED
+  Vendor: ''
+- Cmp name: CONN_01X04
+  DNP: ''
+  Description: ''
+  Footprint: 8Bit_Eurorack:Angled_1x04_Pitch2.54mm-flip
+  Qnty: '2'
+  Ref: J1, J2
+  Value: CONN_01X04
+  Vendor: ''
+- Cmp name: CONN_02X03
+  DNP: ''
+  Description: ''
+  Footprint: 8Bit_Eurorack:Socket_Strip_Straight_2x03_Pitch2.54mm
+  Qnty: '1'
+  Ref: J3
+  Value: CONN_02X03
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: 8Bit_Eurorack:Bat_connector_SMD
+  Qnty: '1'
+  Ref: J4
+  Value: Con_3-5V
+  Vendor: ''
+- Cmp name: USB_OTG
+  DNP: ''
+  Description: ''
+  Footprint: 8Bit_Eurorack:USB_Micro-B
+  Qnty: '1'
+  Ref: J5
+  Value: USB_OTG
+  Vendor: ''
+- Cmp name: CONN_01X02_MALE
+  DNP: ''
+  Description: ''
+  Footprint: 8Bit_Eurorack:Sync_jumper
+  Qnty: '1'
+  Ref: J6
+  Value: Sync_Jumper
+  Vendor: ''
+- Cmp name: JACK_2P
+  DNP: ''
+  Description: ''
+  Footprint: 8Bit_Eurorack:PJ301M-12
+  Qnty: '8'
+  Ref: Jack1, Jack2, Jack3, Jack4, Jack5, Jack6, Jack7, Jack8
+  Value: JACK_2P
+  Vendor: ''
+- Cmp name: POT
+  DNP: ''
+  Description: ''
+  Footprint: 8BitMixtape_Stomp:Mixtape_Pot_Alps_RK09L_Sleve_Single_Horizontal
+  Qnty: '1'
+  Ref: POT1-MAIN1
+  Value: POT 10K lin
+  Vendor: ''
+- Cmp name: POT
+  DNP: ''
+  Description: ''
+  Footprint: 8BitMixtape_Stomp:Mixtape_Pot_Alps_RK09L_Sleve_Single_Horizontal
+  Qnty: '1'
+  Ref: POT2-CV1
+  Value: POT 10K lin
+  Vendor: ''
+- Cmp name: POT
+  DNP: ''
+  Description: ''
+  Footprint: 8BitMixtape_Stomp:Mixtape_Pot_Alps_RK09L_Sleve_Single_Horizontal
+  Qnty: '1'
+  Ref: POT3-Vol1
+  Value: POT 10k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: 8Bitmixtape_reworked:R_1206_HandSoldering
+  Qnty: '5'
+  Ref: R1, R2, R3, R4, R5
+  Value: 22k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: 8Bitmixtape_reworked:R_1206_HandSoldering
+  Qnty: '2'
+  Ref: R6, R7
+  Value: 22K
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: 8Bitmixtape_reworked:R_1206_HandSoldering
+  Qnty: '2'
+  Ref: R8, R9
+  Value: '330'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: 8Bitmixtape_reworked:R_1206_HandSoldering
+  Qnty: '2'
+  Ref: R10, R11
+  Value: 4.7K
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: 8Bitmixtape_reworked:R_1206_HandSoldering
+  Qnty: '2'
+  Ref: R12, R13
+  Value: 1K
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: ''
+  Footprint: 8Bit_Eurorack:TACTILE-PTH_6mm_SMD
+  Qnty: '2'
+  Ref: SW2, SW3
+  Value: SW_Push
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: ''
+  Footprint: 8Bit_Eurorack:SW_SPST_FSMSM
+  Qnty: '1'
+  Ref: SW4
+  Value: SW_Push
+  Vendor: ''
+- Cmp name: ATTINY85-20SU
+  DNP: ''
+  Description: ''
+  Footprint: 8Bit_Eurorack:Attiny_DIP-8_W7.62mm_mod
+  Qnty: '1'
+  Ref: U1
+  Value: ATTINY85-20SU
+  Vendor: ''
+- Cmp name: '7805'
+  DNP: ''
+  Description: ''
+  Footprint: TO_SOT_Packages_SMD:TO-252-3_TabPin2
+  Qnty: '1'
+  Ref: U3
+  Value: '7805'
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| board1\
+  \ | 1 | SVG2SHENZHEN | CONN_01X01 | 8Bit_Eurorack:8Bit_EuroRack-NEO |  |  |  | \n\
+  | C1, C2, C3 | 3 | 100nF | C | 8Bit_Eurorack:C_1206_HandSoldering |  |  |  | \n\
+  | C4 | 1 | 10uF | C | 8Bit_Eurorack:C_1206_HandSoldering |  |  |  | \n| D1, D2,\
+  \ D3, D4, D5, D6, D7, D8 | 8 | SK6812 | SK6812 | 8Bit_Eurorack:Mixtape_NEO_WS2812B\
+  \ |  |  |  | \n| D-OUT1 | 1 | LED | LED | 8Bit_Eurorack:LED_2835_minimal |  |  |\
+  \  | \n| D-POW1 | 1 | LED | LED | 8Bit_Eurorack:LED_2835_minimal |  |  |  | \n|\
+  \ J1, J2 | 2 | CONN_01X04 | CONN_01X04 | 8Bit_Eurorack:Angled_1x04_Pitch2.54mm-flip\
+  \ |  |  |  | \n| J3 | 1 | CONN_02X03 | CONN_02X03 | 8Bit_Eurorack:Socket_Strip_Straight_2x03_Pitch2.54mm\
+  \ |  |  |  | \n| J4 | 1 | Con_3-5V | CONN_01X02 | 8Bit_Eurorack:Bat_connector_SMD\
+  \ |  |  |  | \n| J5 | 1 | USB_OTG | USB_OTG | 8Bit_Eurorack:USB_Micro-B |  |  |\
+  \  | \n| J6 | 1 | Sync_Jumper | CONN_01X02_MALE | 8Bit_Eurorack:Sync_jumper |  |\
+  \  |  | \n| Jack1, Jack2, Jack3, Jack4, Jack5, Jack6, Jack7, Jack8 | 8 | JACK_2P\
+  \ | JACK_2P | 8Bit_Eurorack:PJ301M-12 |  |  |  | \n| POT1-MAIN1 | 1 | POT 10K lin\
+  \ | POT | 8BitMixtape_Stomp:Mixtape_Pot_Alps_RK09L_Sleve_Single_Horizontal |  |\
+  \  |  | \n| POT2-CV1 | 1 | POT 10K lin | POT | 8BitMixtape_Stomp:Mixtape_Pot_Alps_RK09L_Sleve_Single_Horizontal\
+  \ |  |  |  | \n| POT3-Vol1 | 1 | POT 10k | POT | 8BitMixtape_Stomp:Mixtape_Pot_Alps_RK09L_Sleve_Single_Horizontal\
+  \ |  |  |  | \n| R1, R2, R3, R4, R5 | 5 | 22k | R | 8Bitmixtape_reworked:R_1206_HandSoldering\
+  \ |  |  |  | \n| R6, R7 | 2 | 22K | R | 8Bitmixtape_reworked:R_1206_HandSoldering\
+  \ |  |  |  | \n| R8, R9 | 2 | 330 | R | 8Bitmixtape_reworked:R_1206_HandSoldering\
+  \ |  |  |  | \n| R10, R11 | 2 | 4.7K | R | 8Bitmixtape_reworked:R_1206_HandSoldering\
+  \ |  |  |  | \n| R12, R13 | 2 | 1K | R | 8Bitmixtape_reworked:R_1206_HandSoldering\
+  \ |  |  |  | \n| SW2, SW3 | 2 | SW_Push | SW_Push | 8Bit_Eurorack:TACTILE-PTH_6mm_SMD\
+  \ |  |  |  | \n| SW4 | 1 | SW_Push | SW_Push | 8Bit_Eurorack:SW_SPST_FSMSM |  |\
+  \  |  | \n| U1 | 1 | ATTINY85-20SU | ATTINY85-20SU | 8Bit_Eurorack:Attiny_DIP-8_W7.62mm_mod\
+  \ |  |  |  | \n| U3 | 1 | 7805 | 7805 | TO_SOT_Packages_SMD:TO-252-3_TabPin2 | \
+  \ |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/8bitmixtape_8bit_eurorack_5hp_8bit_eurorack/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/8bitmixtape_8bit_eurorack_5hp_8bit_eurorack/current_version/working/working.kicad_pcb
 file_sch_flat: projects/8bitmixtape_8bit_eurorack_5hp_8bit_eurorack/current_version/working/working.sch
 id: 8bitmixtape_8bit_eurorack_5hp_8bit_eurorack
 name: 8bit_eurorack_5hp
+position_bottom:
+- '# Ref': C1
+  Package: C_1206_HandSoldering
+  PosX: 76.458
+  PosY: -113.81
+  Rot: 0.0
+  Side: bottom
+  Val: 100nF
+- '# Ref': C2
+  Package: C_1206_HandSoldering
+  PosX: 91.8
+  PosY: -106.13
+  Rot: 180.0
+  Side: bottom
+  Val: 100nF
+- '# Ref': C3
+  Package: C_1206_HandSoldering
+  PosX: 94.298
+  PosY: -123.02
+  Rot: 180.0
+  Side: bottom
+  Val: 100nF
+- '# Ref': C4
+  Package: C_1206_HandSoldering
+  PosX: 91.75
+  PosY: -101.2
+  Rot: 180.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': J4
+  Package: Bat_connector_SMD
+  PosX: 75.08
+  PosY: -95.05
+  Rot: -90.0
+  Side: bottom
+  Val: Con_3-5V
+- '# Ref': R1
+  Package: R_1206_HandSoldering
+  PosX: 87.08
+  PosY: -114.83
+  Rot: -90.0
+  Side: bottom
+  Val: 22k
+- '# Ref': R2
+  Package: R_1206_HandSoldering
+  PosX: 84.06
+  PosY: -114.758
+  Rot: 90.0
+  Side: bottom
+  Val: 22k
+- '# Ref': R3
+  Package: R_1206_HandSoldering
+  PosX: 82.37
+  PosY: -122.032
+  Rot: -90.0
+  Side: bottom
+  Val: 22k
+- '# Ref': R4
+  Package: R_1206_HandSoldering
+  PosX: 88.61
+  PosY: -122.032
+  Rot: -90.0
+  Side: bottom
+  Val: 22k
+- '# Ref': R5
+  Package: R_1206_HandSoldering
+  PosX: 85.49
+  PosY: -122.032
+  Rot: -90.0
+  Side: bottom
+  Val: 22k
+- '# Ref': R6
+  Package: R_1206_HandSoldering
+  PosX: 74.99
+  PosY: -66.812
+  Rot: 90.0
+  Side: bottom
+  Val: 22K
+- '# Ref': R7
+  Package: R_1206_HandSoldering
+  PosX: 94.64
+  PosY: -94.07
+  Rot: -90.0
+  Side: bottom
+  Val: 22K
+- '# Ref': R8
+  Package: R_1206_HandSoldering
+  PosX: 95.6
+  PosY: -114.63
+  Rot: 90.0
+  Side: bottom
+  Val: '330'
+- '# Ref': R10
+  Package: R_1206_HandSoldering
+  PosX: 74.96
+  PosY: -60.2
+  Rot: -90.0
+  Side: bottom
+  Val: 4.7K
+- '# Ref': R11
+  Package: R_1206_HandSoldering
+  PosX: 94.64
+  PosY: -88.15
+  Rot: 90.0
+  Side: bottom
+  Val: 4.7K
+- '# Ref': R13
+  Package: R_1206_HandSoldering
+  PosX: 92.8
+  PosY: -114.622
+  Rot: -90.0
+  Side: bottom
+  Val: 1K
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C1 | 100nF | C_1206_HandSoldering\
+  \ | 76.458 | -113.81 | 0.0 | bottom | \n| C2 | 100nF | C_1206_HandSoldering | 91.8\
+  \ | -106.13 | 180.0 | bottom | \n| C3 | 100nF | C_1206_HandSoldering | 94.298 |\
+  \ -123.02 | 180.0 | bottom | \n| C4 | 10uF | C_1206_HandSoldering | 91.75 | -101.2\
+  \ | 180.0 | bottom | \n| J4 | Con_3-5V | Bat_connector_SMD | 75.08 | -95.05 | -90.0\
+  \ | bottom | \n| R1 | 22k | R_1206_HandSoldering | 87.08 | -114.83 | -90.0 | bottom\
+  \ | \n| R2 | 22k | R_1206_HandSoldering | 84.06 | -114.758 | 90.0 | bottom | \n\
+  | R3 | 22k | R_1206_HandSoldering | 82.37 | -122.032 | -90.0 | bottom | \n| R4 |\
+  \ 22k | R_1206_HandSoldering | 88.61 | -122.032 | -90.0 | bottom | \n| R5 | 22k\
+  \ | R_1206_HandSoldering | 85.49 | -122.032 | -90.0 | bottom | \n| R6 | 22K | R_1206_HandSoldering\
+  \ | 74.99 | -66.812 | 90.0 | bottom | \n| R7 | 22K | R_1206_HandSoldering | 94.64\
+  \ | -94.07 | -90.0 | bottom | \n| R8 | 330 | R_1206_HandSoldering | 95.6 | -114.63\
+  \ | 90.0 | bottom | \n| R10 | 4.7K | R_1206_HandSoldering | 74.96 | -60.2 | -90.0\
+  \ | bottom | \n| R11 | 4.7K | R_1206_HandSoldering | 94.64 | -88.15 | 90.0 | bottom\
+  \ | \n| R13 | 1K | R_1206_HandSoldering | 92.8 | -114.622 | -90.0 | bottom | \n"
+position_top:
+- '# Ref': .nan
+  Package: Jack_pads
+  PosX: 94.81
+  PosY: -125.55
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: Jack_pads
+  PosX: 86.85
+  PosY: -137.79
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: Jack_pads
+  PosX: 95.57
+  PosY: -148.87
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: Jack_pads
+  PosX: 83.1
+  PosY: -146.27
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: Jack_pads
+  PosX: 82.75
+  PosY: -134.27
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: Jack_pads
+  PosX: 83.0
+  PosY: -159.12
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: Jack_pads
+  PosX: 74.7
+  PosY: -108.93
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': D-OUT1
+  Package: LED_2835_minimal
+  PosX: 78.94
+  PosY: -110.41
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': J6
+  Package: Sync_jumper
+  PosX: 78.99
+  PosY: -95.72
+  Rot: -90.0
+  Side: top
+  Val: Sync_Jumper
+- '# Ref': POT1-MAIN1
+  Package: Potentiometer_backPads_noHole
+  PosX: 89.94
+  PosY: -91.98
+  Rot: 90.0
+  Side: top
+  Val: POT_10K_lin
+- '# Ref': POT2-CV1
+  Package: Potentiometer_backPads_noHole
+  PosX: 89.97
+  PosY: -68.91
+  Rot: 90.0
+  Side: top
+  Val: POT_10K_lin
+- '# Ref': Ref**
+  Package: 8Bit_EuroRack-NEO_mini_frontplate
+  PosX: 85.2727
+  PosY: -103.8099
+  Rot: 0.0
+  Side: top
+  Val: Val**
+- '# Ref': SW4
+  Package: SW_SPST_FSMSM
+  PosX: 78.97
+  PosY: -95.65
+  Rot: 180.0
+  Side: top
+  Val: SW_Push
+- '# Ref': U1
+  Package: Attiny_DIP-8_W7.62mm_mod
+  PosX: 87.97
+  PosY: -99.75
+  Rot: 0.0
+  Side: top
+  Val: ATTINY85-20SU
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| nan | nan | Jack_pads | 94.81 | -125.55\
+  \ | 0.0 | top | \n| nan | nan | Jack_pads | 86.85 | -137.79 | 0.0 | top | \n| nan\
+  \ | nan | Jack_pads | 95.57 | -148.87 | 0.0 | top | \n| nan | nan | Jack_pads |\
+  \ 83.1 | -146.27 | 0.0 | top | \n| nan | nan | Jack_pads | 82.75 | -134.27 | 0.0\
+  \ | top | \n| nan | nan | Jack_pads | 83.0 | -159.12 | 0.0 | top | \n| nan | nan\
+  \ | Jack_pads | 74.7 | -108.93 | 0.0 | top | \n| D-OUT1 | LED | LED_2835_minimal\
+  \ | 78.94 | -110.41 | 0.0 | top | \n| J6 | Sync_Jumper | Sync_jumper | 78.99 | -95.72\
+  \ | -90.0 | top | \n| POT1-MAIN1 | POT_10K_lin | Potentiometer_backPads_noHole |\
+  \ 89.94 | -91.98 | 90.0 | top | \n| POT2-CV1 | POT_10K_lin | Potentiometer_backPads_noHole\
+  \ | 89.97 | -68.91 | 90.0 | top | \n| Ref** | Val** | 8Bit_EuroRack-NEO_mini_frontplate\
+  \ | 85.2727 | -103.8099 | 0.0 | top | \n| SW4 | SW_Push | SW_SPST_FSMSM | 78.97\
+  \ | -95.65 | 180.0 | top | \n| U1 | ATTINY85-20SU | Attiny_DIP-8_W7.62mm_mod | 87.97\
+  \ | -99.75 | 0.0 | top | \n"
 projects_flat: projects/8bitmixtape_8bit_eurorack_5hp_8bit_eurorack/current_version/working
 repo:
   allow_forking: true

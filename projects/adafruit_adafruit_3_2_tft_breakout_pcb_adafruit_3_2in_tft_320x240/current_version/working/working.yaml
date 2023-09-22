@@ -1,9 +1,693 @@
 board: adafruit_3_2in_tft_320x240
+bom:
+- Id: '1'
+  Designator: SJ2,SJ4,SJ3,SJ1
+  Footprint: SOLDERJUMPER_ARROW_NOPASTE
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R10,R11,R8,R9,R12
+  Footprint: 0805-NO
+  Quantity: '5'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R4,R13,R2,R14,R1,R3
+  Footprint: 0805-NO
+  Quantity: '6'
+  Designation: '10'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R5,R7
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: X1
+  Footprint: MICROSD
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C2,C3,C5
+  Footprint: 0805-NO
+  Quantity: '3'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: JP1,JP2
+  Footprint: 1X20_ROUND
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: IC2,IC3
+  Footprint: SO20W
+  Quantity: '2'
+  Designation: 74LVC245
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: Q1
+  Footprint: SOT23-BEC
+  Quantity: '1'
+  Designation: MMBT2222
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: IC1
+  Footprint: SOT23-5L
+  Quantity: '1'
+  Designation: APA2112-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U$16,U$17,U$7,U$15
+  Footprint: MOUNTINGHOLE_3.0_PLATEDTHIN
+  Quantity: '4'
+  Designation: MOUNTINGHOLE3.0THIN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U$23,U$9,U$11
+  Footprint: FIDUCIAL_1MM
+  Quantity: '3'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U$19
+  Footprint: ADAFRUIT_TEXT_30MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: IC4
+  Footprint: SOT23
+  Quantity: '1'
+  Designation: APX803-SAG
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: R6
+  Footprint: R0805
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: C1,C4
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: U$24
+  Footprint: TFT_3.2IN_240X320_50PIN
+  Quantity: '1'
+  Designation: DISP_LCD_6LED_240X320_50PIN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | SJ2,SJ4,SJ3,SJ1\
+  \ | SOLDERJUMPER_ARROW_NOPASTE | 4 |  |  |  | [''] | \n| 2 | R10,R11,R8,R9,R12 |\
+  \ 0805-NO | 5 | 10K |  |  | [''] | \n| 3 | R4,R13,R2,R14,R1,R3 | 0805-NO | 6 | 10\
+  \ |  |  | [''] | \n| 4 | R5,R7 | 0805-NO | 2 | 1K |  |  | [''] | \n| 5 | X1 | MICROSD\
+  \ | 1 |  |  |  | [''] | \n| 6 | C2,C3,C5 | 0805-NO | 3 | 10uF |  |  | [''] | \n\
+  | 7 | JP1,JP2 | 1X20_ROUND | 2 |  |  |  | [''] | \n| 8 | IC2,IC3 | SO20W | 2 | 74LVC245\
+  \ |  |  | [''] | \n| 9 | Q1 | SOT23-BEC | 1 | MMBT2222 |  |  | [''] | \n| 10 | IC1\
+  \ | SOT23-5L | 1 | APA2112-3.3 |  |  | [''] | \n| 11 | U$16,U$17,U$7,U$15 | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | 4 | MOUNTINGHOLE3.0THIN |  |  | [''] | \n| 12 | U$23,U$9,U$11 | FIDUCIAL_1MM\
+  \ | 3 | FIDUCIAL\" |  |  | [''] | \n| 13 | U$19 | ADAFRUIT_TEXT_30MM | 1 |  |  |\
+  \  | [''] | \n| 14 | IC4 | SOT23 | 1 | APX803-SAG |  |  | [''] | \n| 15 | R6 | R0805\
+  \ | 1 | 10K |  |  | [''] | \n| 16 | C1,C4 | 0805-NO | 2 | 0.1uF |  |  | [''] | \n\
+  | 17 | U$24 | TFT_3.2IN_240X320_50PIN | 1 | DISP_LCD_6LED_240X320_50PIN |  |  |\
+  \ [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C1, C4
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '3'
+  Ref: C2, C3, C5
+  Value: 10uF
+  Vendor: ''
+- Cmp name: LP298XS
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5L
+  Qnty: '1'
+  Ref: IC1
+  Value: LP298XS
+  Vendor: ''
+- Cmp name: 74245DW
+  DNP: ''
+  Description: ''
+  Footprint: working:SO20W
+  Qnty: '2'
+  Ref: IC2, IC3
+  Value: 74245DW
+  Vendor: ''
+- Cmp name: AXP083-SAG
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23
+  Qnty: '1'
+  Ref: IC4
+  Value: APX803-SAG
+  Vendor: ''
+- Cmp name: HEADER-1X20ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X20_ROUND
+  Qnty: '2'
+  Ref: JP1, JP2
+  Value: HEADER-1X20ROUND
+  Vendor: ''
+- Cmp name: -NPN-SOT23-BEC
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-BEC
+  Qnty: '1'
+  Ref: Q1
+  Value: MMBT2222
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '6'
+  Ref: R1, R2, R3, R4, R13, R14
+  Value: '10'
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: R5, R7
+  Value: 1K
+  Vendor: ''
+- Cmp name: R-US_R0805
+  DNP: ''
+  Description: ''
+  Footprint: working:R0805
+  Qnty: '1'
+  Ref: R6
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '5'
+  Ref: R8, R9, R10, R11, R12
+  Value: 10K
+  Vendor: ''
+- Cmp name: SOLDERJUMPER
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_ARROW_NOPASTE
+  Qnty: '4'
+  Ref: SJ1, SJ2, SJ3, SJ4
+  Value: SOLDERJUMPER
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE3.0THIN
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_3.0_PLATEDTHIN
+  Qnty: '4'
+  Ref: U$7, U$15, U$16, U$17
+  Value: MOUNTINGHOLE3.0THIN
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '3'
+  Ref: U$9, U$11, U$23
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: DISP_LCD_6LED_240X320_50PIN
+  DNP: ''
+  Description: ''
+  Footprint: working:TFT_3.2IN_240X320_50PIN
+  Qnty: '1'
+  Ref: U$24
+  Value: DISP_LCD_6LED_240X320_50PIN
+  Vendor: ''
+- Cmp name: MICROSD
+  DNP: ''
+  Description: ''
+  Footprint: working:MICROSD
+  Qnty: '1'
+  Ref: X1
+  Value: MICROSD
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C4\
+  \ | 2 | 0.1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C2, C3,\
+  \ C5 | 3 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| IC1\
+  \ | 1 | LP298XS | LP298XS | working:SOT23-5L |  |  |  | \n| IC2, IC3 | 2 | 74245DW\
+  \ | 74245DW | working:SO20W |  |  |  | \n| IC4 | 1 | APX803-SAG | AXP083-SAG | working:SOT23\
+  \ |  |  |  | \n| JP1, JP2 | 2 | HEADER-1X20ROUND | HEADER-1X20ROUND | working:1X20_ROUND\
+  \ |  |  |  | \n| Q1 | 1 | MMBT2222 | -NPN-SOT23-BEC | working:SOT23-BEC |  |  |\
+  \  | \n| R1, R2, R3, R4, R13, R14 | 6 | 10 | RESISTOR0805_NOOUTLINE | working:0805-NO\
+  \ |  |  |  | \n| R5, R7 | 2 | 1K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |\
+  \  |  | \n| R6 | 1 | 10K | R-US_R0805 | working:R0805 |  |  |  | \n| R8, R9, R10,\
+  \ R11, R12 | 5 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | \n| SJ1,\
+  \ SJ2, SJ3, SJ4 | 4 | SOLDERJUMPER | SOLDERJUMPER | working:SOLDERJUMPER_ARROW_NOPASTE\
+  \ |  |  |  | \n| U$7, U$15, U$16, U$17 | 4 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE3.0THIN\
+  \ | working:MOUNTINGHOLE_3.0_PLATEDTHIN |  |  |  | \n| U$9, U$11, U$23 | 3 | FIDUCIAL\"\
+  \" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | \n| U$24 | 1\
+  \ | DISP_LCD_6LED_240X320_50PIN | DISP_LCD_6LED_240X320_50PIN | working:TFT_3.2IN_240X320_50PIN\
+  \ |  |  |  | \n| X1 | 1 | MICROSD | MICROSD | working:MICROSD |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_3_2_tft_breakout_pcb_adafruit_3_2in_tft_320x240/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_3_2_tft_breakout_pcb_adafruit_3_2in_tft_320x240/current_version/working/working.sch
 id: adafruit_adafruit_3_2_tft_breakout_pcb_adafruit_3_2in_tft_320x240
+mounting_holes:
+- package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  ref: U$7
+  size: m3
+  value: MOUNTINGHOLE3.0THIN
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  ref: U$15
+  size: m3
+  value: MOUNTINGHOLE3.0THIN
+  x: '57.14999999999999'
+  y: '0.0'
+- package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  ref: U$16
+  size: m3
+  value: MOUNTINGHOLE3.0THIN
+  x: '0.0'
+  y: '83.185'
+- package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  ref: U$17
+  size: m3
+  value: MOUNTINGHOLE3.0THIN
+  x: '57.14999999999999'
+  y: '83.185'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN\
+  \ | U$7 | m3 | \n| 57.14999999999999 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN\
+  \ | U$15 | m3 | \n| 0.0 | 83.185 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN\
+  \ | U$16 | m3 | \n| 57.14999999999999 | 83.185 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN\
+  \ | U$17 | m3 | \n"
 name: adafruit_3_2_tft_breakout_pcb
+position_bottom:
+- '# Ref': U$24
+  Package: TFT_3.2IN_240X320_50PIN
+  PosX: 148.5011
+  PosY: -104.0511
+  Rot: 180.0
+  Side: bottom
+  Val: DISP_LCD_6LED_240X320_50PIN
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$24 | DISP_LCD_6LED_240X320_50PIN\
+  \ | TFT_3.2IN_240X320_50PIN | 148.5011 | -104.0511 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 129.7051
+  PosY: -97.3201
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 171.1071
+  PosY: -137.4521
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 168.0591
+  PosY: -101.1301
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C4
+  Package: 0805-NO
+  PosX: 134.7851
+  PosY: -104.3051
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C5
+  Package: 0805-NO
+  PosX: 171.2341
+  PosY: -107.7341
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': IC1
+  Package: SOT23-5L
+  PosX: 168.0591
+  PosY: -105.7021
+  Rot: 0.0
+  Side: top
+  Val: APA2112-3.3
+- '# Ref': IC2
+  Package: SO20W
+  PosX: 148.7551
+  PosY: -87.4141
+  Rot: 180.0
+  Side: top
+  Val: 74LVC245
+- '# Ref': IC3
+  Package: SO20W
+  PosX: 163.7411
+  PosY: -87.6681
+  Rot: 180.0
+  Side: top
+  Val: 74LVC245
+- '# Ref': IC4
+  Package: SOT23
+  PosX: 154.0891
+  PosY: -96.8121
+  Rot: 0.0
+  Side: top
+  Val: APX803-SAG
+- '# Ref': JP1
+  Package: 1X20_ROUND
+  PosX: 148.5011
+  PosY: -63.4111
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X20_ROUND
+  PosX: 148.5011
+  PosY: -146.5961
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': Q1
+  Package: SOT23-BEC
+  PosX: 131.2291
+  PosY: -105.0671
+  Rot: 180.0
+  Side: top
+  Val: MMBT2222
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 134.7851
+  PosY: -107.9881
+  Rot: -90.0
+  Side: top
+  Val: '10'
+- '# Ref': R2
+  Package: 0805-NO
+  PosX: 136.6901
+  PosY: -107.9881
+  Rot: -90.0
+  Side: top
+  Val: '10'
+- '# Ref': R3
+  Package: 0805-NO
+  PosX: 138.5951
+  PosY: -107.9881
+  Rot: -90.0
+  Side: top
+  Val: '10'
+- '# Ref': R4
+  Package: 0805-NO
+  PosX: 159.6771
+  PosY: -107.7341
+  Rot: -90.0
+  Side: top
+  Val: '10'
+- '# Ref': R5
+  Package: 0805-NO
+  PosX: 129.8321
+  PosY: -100.7491
+  Rot: 0.0
+  Side: top
+  Val: 1K
+- '# Ref': R6
+  Package: R0805
+  PosX: 156.8831
+  PosY: -96.0501
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R7
+  Package: 0805-NO
+  PosX: 157.0101
+  PosY: -73.9521
+  Rot: 0.0
+  Side: top
+  Val: 1K
+- '# Ref': R8
+  Package: 0805-NO
+  PosX: 126.0221
+  PosY: -133.3881
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R9
+  Package: 0805-NO
+  PosX: 128.4351
+  PosY: -134.0231
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R10
+  Package: 0805-NO
+  PosX: 133.6421
+  PosY: -134.0231
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R11
+  Package: 0805-NO
+  PosX: 130.9751
+  PosY: -134.0231
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R12
+  Package: 0805-NO
+  PosX: 156.2481
+  PosY: -82.4611
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R13
+  Package: 0805-NO
+  PosX: 132.8801
+  PosY: -107.9881
+  Rot: -90.0
+  Side: top
+  Val: '10'
+- '# Ref': R14
+  Package: 0805-NO
+  PosX: 161.5821
+  PosY: -107.7341
+  Rot: -90.0
+  Side: top
+  Val: '10'
+- '# Ref': SJ1
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 126.1491
+  PosY: -116.8781
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ2
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 126.1491
+  PosY: -113.0681
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ3
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 126.1491
+  PosY: -109.1311
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ4
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 126.1491
+  PosY: -105.0671
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$7
+  Package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  PosX: 119.9261
+  PosY: -146.5961
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE3.0THIN
+- '# Ref': U$9
+  Package: FIDUCIAL_1MM
+  PosX: 172.1231
+  PosY: -121.4501
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': U$11
+  Package: FIDUCIAL_1MM
+  PosX: 126.1491
+  PosY: -73.0631
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': U$15
+  Package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  PosX: 177.0761
+  PosY: -146.5961
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE3.0THIN
+- '# Ref': U$16
+  Package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  PosX: 119.9261
+  PosY: -63.4111
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE3.0THIN
+- '# Ref': U$17
+  Package: MOUNTINGHOLE_3.0_PLATEDTHIN
+  PosX: 177.0761
+  PosY: -63.4111
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE3.0THIN
+- '# Ref': U$19
+  Package: ADAFRUIT_TEXT_30MM
+  PosX: 130.7211
+  PosY: -104.1781
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$23
+  Package: FIDUCIAL_1MM
+  PosX: 132.4991
+  PosY: -113.8301
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': X1
+  Package: MICROSD
+  PosX: 140.1191
+  PosY: -75.8571
+  Rot: -90.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | 0805-NO | 129.7051 | -97.3201\
+  \ | 180.0 | top | \n| C2 | 10uF | 0805-NO | 171.1071 | -137.4521 | 0.0 | top | \n\
+  | C3 | 10uF | 0805-NO | 168.0591 | -101.1301 | 0.0 | top | \n| C4 | 0.1uF | 0805-NO\
+  \ | 134.7851 | -104.3051 | 90.0 | top | \n| C5 | 10uF | 0805-NO | 171.2341 | -107.7341\
+  \ | 0.0 | top | \n| IC1 | APA2112-3.3 | SOT23-5L | 168.0591 | -105.7021 | 0.0 |\
+  \ top | \n| IC2 | 74LVC245 | SO20W | 148.7551 | -87.4141 | 180.0 | top | \n| IC3\
+  \ | 74LVC245 | SO20W | 163.7411 | -87.6681 | 180.0 | top | \n| IC4 | APX803-SAG\
+  \ | SOT23 | 154.0891 | -96.8121 | 0.0 | top | \n| JP1 | nan | 1X20_ROUND | 148.5011\
+  \ | -63.4111 | 180.0 | top | \n| JP2 | nan | 1X20_ROUND | 148.5011 | -146.5961 |\
+  \ 180.0 | top | \n| Q1 | MMBT2222 | SOT23-BEC | 131.2291 | -105.0671 | 180.0 | top\
+  \ | \n| R1 | 10 | 0805-NO | 134.7851 | -107.9881 | -90.0 | top | \n| R2 | 10 | 0805-NO\
+  \ | 136.6901 | -107.9881 | -90.0 | top | \n| R3 | 10 | 0805-NO | 138.5951 | -107.9881\
+  \ | -90.0 | top | \n| R4 | 10 | 0805-NO | 159.6771 | -107.7341 | -90.0 | top | \n\
+  | R5 | 1K | 0805-NO | 129.8321 | -100.7491 | 0.0 | top | \n| R6 | 10K | R0805 |\
+  \ 156.8831 | -96.0501 | 90.0 | top | \n| R7 | 1K | 0805-NO | 157.0101 | -73.9521\
+  \ | 0.0 | top | \n| R8 | 10K | 0805-NO | 126.0221 | -133.3881 | 90.0 | top | \n\
+  | R9 | 10K | 0805-NO | 128.4351 | -134.0231 | 90.0 | top | \n| R10 | 10K | 0805-NO\
+  \ | 133.6421 | -134.0231 | -90.0 | top | \n| R11 | 10K | 0805-NO | 130.9751 | -134.0231\
+  \ | -90.0 | top | \n| R12 | 10K | 0805-NO | 156.2481 | -82.4611 | -90.0 | top |\
+  \ \n| R13 | 10 | 0805-NO | 132.8801 | -107.9881 | -90.0 | top | \n| R14 | 10 | 0805-NO\
+  \ | 161.5821 | -107.7341 | -90.0 | top | \n| SJ1 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 126.1491 | -116.8781 | 180.0 | top | \n| SJ2 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 126.1491 | -113.0681 | 180.0 | top | \n| SJ3 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 126.1491 | -109.1311 | 0.0 | top | \n| SJ4 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 126.1491 | -105.0671 | 0.0 | top | \n| U$7 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | 119.9261 | -146.5961 | 0.0 | top | \n| U$9 | FIDUCIAL\"\" | FIDUCIAL_1MM | 172.1231\
+  \ | -121.4501 | 0.0 | top | \n| U$11 | FIDUCIAL\"\" | FIDUCIAL_1MM | 126.1491 |\
+  \ -73.0631 | 0.0 | top | \n| U$15 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | 177.0761 | -146.5961 | 0.0 | top | \n| U$16 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | 119.9261 | -63.4111 | 0.0 | top | \n| U$17 | MOUNTINGHOLE3.0THIN | MOUNTINGHOLE_3.0_PLATEDTHIN\
+  \ | 177.0761 | -63.4111 | 0.0 | top | \n| U$19 | nan | ADAFRUIT_TEXT_30MM | 130.7211\
+  \ | -104.1781 | 0.0 | top | \n| U$23 | FIDUCIAL\"\" | FIDUCIAL_1MM | 132.4991 |\
+  \ -113.8301 | 0.0 | top | \n| X1 | nan | MICROSD | 140.1191 | -75.8571 | -90.0 |\
+  \ top | \n"
 projects_flat: projects/adafruit_adafruit_3_2_tft_breakout_pcb_adafruit_3_2in_tft_320x240/current_version/working
 repo:
   allow_forking: true

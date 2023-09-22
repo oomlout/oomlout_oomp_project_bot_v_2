@@ -1,9 +1,404 @@
 board: adafruit_ina219_stemma_qt
+bom:
+- Id: '1'
+  Designator: U$21,U$27,U$25,U$20
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '4'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: JP1
+  Footprint: 1X06_ROUND_70
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C1
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: "0.1\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R5
+  Footprint: '2512'
+  Quantity: '1'
+  Designation: 0.1/1% (PT2512FK-070R1L)
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: FID4,FID3
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R6
+  Footprint: RESPACK_4X0603
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: CONN4,CONN3
+  Footprint: JST_SH4
+  Quantity: '2'
+  Designation: STEMMA_I2C_QT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U1
+  Footprint: SOT23-8
+  Quantity: '1'
+  Designation: INA219BIDCNT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: C2
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U$29
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: R7
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: J1
+  Footprint: TERMBLOCK_1X2-3.5MM
+  Quantity: '1'
+  Designation: 3.5mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: D1
+  Footprint: CHIPLED_0603_NOOUTLINE
+  Quantity: '1'
+  Designation: GREEN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: U$31,U$32
+  Footprint: STEMMAQT
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U$30
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: A1,A0
+  Footprint: SOLDERJUMPER_REFLOW_NOPASTE
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U$21,U$27,U$25,U$20\
+  \ | MOUNTINGHOLE_2.5_PLATED | 4 | MOUNTINGHOLE2.5 |  |  | [''] | \n| 2 | JP1 | 1X06_ROUND_70\
+  \ | 1 |  |  |  | [''] | \n| 3 | C1 | 0603-NO | 1 | 0.1\xC2\xB5F |  |  | [''] | \n\
+  | 4 | R5 | 2512 | 1 | 0.1/1% (PT2512FK-070R1L) |  |  | [''] | \n| 5 | FID4,FID3\
+  \ | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | [''] | \n| 6 | R6 | RESPACK_4X0603 |\
+  \ 1 | 10K |  |  | [''] | \n| 7 | CONN4,CONN3 | JST_SH4 | 2 | STEMMA_I2C_QT |  |\
+  \  | [''] | \n| 8 | U1 | SOT23-8 | 1 | INA219BIDCNT |  |  | [''] | \n| 9 | C2 |\
+  \ 0805-NO | 1 | 10uF |  |  | [''] | \n| 10 | U$29 | ADAFRUIT_3.5MM | 1 |  |  | \
+  \ | [''] | \n| 11 | R7 | 0603-NO | 1 | 10K |  |  | [''] | \n| 12 | J1 | TERMBLOCK_1X2-3.5MM\
+  \ | 1 | 3.5mm |  |  | [''] | \n| 13 | D1 | CHIPLED_0603_NOOUTLINE | 1 | GREEN |\
+  \  |  | [''] | \n| 14 | U$31,U$32 | STEMMAQT | 2 |  |  |  | [''] | \n| 15 | U$30\
+  \ | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n| 16 | A1,A0 | SOLDERJUMPER_REFLOW_NOPASTE\
+  \ | 2 |  |  |  | [''] | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_ina219_current_sensor_pcb_adafruit_ina219_stemma_qt/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_ina219_current_sensor_pcb_adafruit_ina219_stemma_qt/current_version/working/working.sch
 id: adafruit_adafruit_ina219_current_sensor_pcb_adafruit_ina219_stemma_qt
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$20
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '15.239999999999995'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$21
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '20.319999999999993'
+  y: '15.239999999999995'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$25
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$27
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '20.319999999999993'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 15.239999999999995 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$20 | m3 | \n| 20.319999999999993 | 15.239999999999995 |\
+  \ MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$21 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$25 | m3 | \n| 20.319999999999993 | 0.0 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$27 | m3 | \n"
 name: adafruit_ina219_current_sensor_pcb
+position_bottom:
+- '# Ref': A0
+  Package: SOLDERJUMPER_REFLOW_NOPASTE
+  PosX: 156.7561
+  PosY: -109.4486
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': A1
+  Package: SOLDERJUMPER_REFLOW_NOPASTE
+  PosX: 156.7561
+  PosY: -107.2896
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$30
+  Package: PCBFEAT-REV-040
+  PosX: 142.0241
+  PosY: -96.7486
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$31
+  Package: STEMMAQT
+  PosX: 158.2801
+  PosY: -109.0676
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$32
+  Package: STEMMAQT
+  PosX: 138.8491
+  PosY: -100.5586
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| A0 | nan | SOLDERJUMPER_REFLOW_NOPASTE\
+  \ | 156.7561 | -109.4486 | 180.0 | bottom | \n| A1 | nan | SOLDERJUMPER_REFLOW_NOPASTE\
+  \ | 156.7561 | -107.2896 | 180.0 | bottom | \n| U$30 | nan | PCBFEAT-REV-040 | 142.0241\
+  \ | -96.7486 | 180.0 | bottom | \n| U$31 | nan | STEMMAQT | 158.2801 | -109.0676\
+  \ | 90.0 | bottom | \n| U$32 | nan | STEMMAQT | 138.8491 | -100.5586 | -90.0 | bottom\
+  \ | \n"
+position_top:
+- '# Ref': C1
+  Package: 0603-NO
+  PosX: 145.9611
+  PosY: -108.0516
+  Rot: -90.0
+  Side: top
+  Val: "0.1\xC2\xB5F"
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 144.1831
+  PosY: -108.0516
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': CONN3
+  Package: JST_SH4
+  PosX: 158.6611
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': CONN4
+  Package: JST_SH4
+  PosX: 138.3411
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': D1
+  Package: CHIPLED_0603_NOOUTLINE
+  PosX: 139.3571
+  PosY: -100.8126
+  Rot: 90.0
+  Side: top
+  Val: GREEN
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 136.8171
+  PosY: -109.7026
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID4
+  Package: FIDUCIAL_1MM
+  PosX: 160.0581
+  PosY: -100.1776
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': J1
+  Package: TERMBLOCK_1X2-3.5MM
+  PosX: 148.5011
+  PosY: -98.6536
+  Rot: 180.0
+  Side: top
+  Val: 3.5mm
+- '# Ref': JP1
+  Package: 1X06_ROUND_70
+  PosX: 148.5011
+  PosY: -112.6236
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': R5
+  Package: '2512'
+  PosX: 148.5011
+  PosY: -103.9876
+  Rot: 0.0
+  Side: top
+  Val: 0.1/1%_(PT2512FK-070R1L)
+- '# Ref': R6
+  Package: RESPACK_4X0603
+  PosX: 152.3111
+  PosY: -108.1786
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R7
+  Package: 0603-NO
+  PosX: 141.3891
+  PosY: -101.4476
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': U$20
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 138.3411
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$21
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 158.6611
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$25
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 138.3411
+  PosY: -112.6236
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$27
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 158.6611
+  PosY: -112.6236
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$29
+  Package: ADAFRUIT_3.5MM
+  PosX: 143.0401
+  PosY: -108.1786
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': U1
+  Package: SOT23-8
+  PosX: 148.5011
+  PosY: -108.1786
+  Rot: 180.0
+  Side: top
+  Val: INA219BIDCNT
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1\xC2\xB5F | 0603-NO | 145.9611\
+  \ | -108.0516 | -90.0 | top | \n| C2 | 10uF | 0805-NO | 144.1831 | -108.0516 | -90.0\
+  \ | top | \n| CONN3 | STEMMA_I2C_QT | JST_SH4 | 158.6611 | -105.0036 | 90.0 | top\
+  \ | \n| CONN4 | STEMMA_I2C_QT | JST_SH4 | 138.3411 | -105.0036 | -90.0 | top | \n\
+  | D1 | GREEN | CHIPLED_0603_NOOUTLINE | 139.3571 | -100.8126 | 90.0 | top | \n|\
+  \ FID3 | FIDUCIAL_1MM | FIDUCIAL_1MM | 136.8171 | -109.7026 | 0.0 | top | \n| FID4\
+  \ | FIDUCIAL_1MM | FIDUCIAL_1MM | 160.0581 | -100.1776 | 0.0 | top | \n| J1 | 3.5mm\
+  \ | TERMBLOCK_1X2-3.5MM | 148.5011 | -98.6536 | 180.0 | top | \n| JP1 | nan | 1X06_ROUND_70\
+  \ | 148.5011 | -112.6236 | 0.0 | top | \n| R5 | 0.1/1%_(PT2512FK-070R1L) | 2512\
+  \ | 148.5011 | -103.9876 | 0.0 | top | \n| R6 | 10K | RESPACK_4X0603 | 152.3111\
+  \ | -108.1786 | -90.0 | top | \n| R7 | 10K | 0603-NO | 141.3891 | -101.4476 | 90.0\
+  \ | top | \n| U$20 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 138.3411 | -97.3836\
+  \ | 0.0 | top | \n| U$21 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 158.6611\
+  \ | -97.3836 | 0.0 | top | \n| U$25 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 138.3411 | -112.6236 | 0.0 | top | \n| U$27 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 158.6611 | -112.6236 | 0.0 | top | \n| U$29 | nan | ADAFRUIT_3.5MM | 143.0401\
+  \ | -108.1786 | 180.0 | top | \n| U1 | INA219BIDCNT | SOT23-8 | 148.5011 | -108.1786\
+  \ | 180.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_ina219_current_sensor_pcb_adafruit_ina219_stemma_qt/current_version/working
 repo:
   allow_forking: true

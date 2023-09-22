@@ -1,9 +1,753 @@
 board: adafruit_minipov4_kit
+bom:
+- Id: '1'
+  Designator: R11,R9,R5,R6,R10,R8,R12,R7
+  Footprint: 0207_9
+  Quantity: '8'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: LED1,LED3,LED4,LED7,LED6,LED5,LED8,LED2
+  Footprint: PIRANHA5MM
+  Quantity: '8'
+  Designation: LED-RGB-CA-PIRANHA
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: JP1
+  Footprint: 1X02_OVAL
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: Q2,Q3,Q4
+  Footprint: TO-92
+  Quantity: '3'
+  Designation: 2n2222
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$2,U$5,U$4,U$3
+  Footprint: MOUNTINGHOLE_2.5_PLATED_THICK
+  Quantity: '4'
+  Designation: MOUNTINGHOLE2.5_THICK
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: '@HOLE1,@HOLE0'
+  Footprint: ''
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R2,R1
+  Footprint: 0207_9
+  Quantity: '2'
+  Designation: 47R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: TM2
+  Footprint: TRIM-3386
+  Quantity: '1'
+  Designation: "10K\xCE\xA9"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R15,R16,R14
+  Footprint: 0207_9
+  Quantity: '3'
+  Designation: 2.2K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: USB0
+  Footprint: USB-B-PTH
+  Quantity: '1'
+  Designation: USBPTH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: C3,C2
+  Footprint: E2,5-6
+  Quantity: '2'
+  Designation: 100uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: IC1
+  Footprint: DIL28-3
+  Quantity: '1'
+  Designation: ATmega8/88/168/168P/328P
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: JP2
+  Footprint: 1X08-BIG
+  Quantity: '1'
+  Designation: Breakout
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: Q1
+  Footprint: CERM_OSC
+  Quantity: '1'
+  Designation: 12MHz
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: D3,D4
+  Footprint: DO34Z7
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: U$6
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: R3
+  Footprint: 0207_9
+  Quantity: '1'
+  Designation: 2K2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: ISP0
+  Footprint: AVR-ISP-6
+  Quantity: '1'
+  Designation: AVR-ISP-6
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: C1
+  Footprint: CAP-PTH-SMALL2
+  Quantity: '1'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R11,R9,R5,R6,R10,R8,R12,R7\
+  \ | 0207_9 | 8 |  |  |  | [''] | \n| 2 | LED1,LED3,LED4,LED7,LED6,LED5,LED8,LED2\
+  \ | PIRANHA5MM | 8 | LED-RGB-CA-PIRANHA |  |  | [''] | \n| 3 | JP1 | 1X02_OVAL |\
+  \ 1 |  |  |  | [''] | \n| 4 | Q2,Q3,Q4 | TO-92 | 3 | 2n2222 |  |  | [''] | \n| 5\
+  \ | U$2,U$5,U$4,U$3 | MOUNTINGHOLE_2.5_PLATED_THICK | 4 | MOUNTINGHOLE2.5_THICK\
+  \ |  |  | [''] | \n| 6 | @HOLE1,@HOLE0 |  | 2 |  |  |  | [''] | \n| 7 | R2,R1 |\
+  \ 0207_9 | 2 | 47R |  |  | [''] | \n| 8 | TM2 | TRIM-3386 | 1 | 10K\xCE\xA9 |  |\
+  \  | [''] | \n| 9 | R15,R16,R14 | 0207_9 | 3 | 2.2K |  |  | [''] | \n| 10 | USB0\
+  \ | USB-B-PTH | 1 | USBPTH |  |  | [''] | \n| 11 | C3,C2 | E2,5-6 | 2 | 100uF |\
+  \  |  | [''] | \n| 12 | IC1 | DIL28-3 | 1 | ATmega8/88/168/168P/328P |  |  | ['']\
+  \ | \n| 13 | JP2 | 1X08-BIG | 1 | Breakout |  |  | [''] | \n| 14 | Q1 | CERM_OSC\
+  \ | 1 | 12MHz |  |  | [''] | \n| 15 | D3,D4 | DO34Z7 | 2 |  |  |  | [''] | \n| 16\
+  \ | U$6 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n| 17 | R3 | 0207_9 | 1 | 2K2 |\
+  \  |  | [''] | \n| 18 | ISP0 | AVR-ISP-6 | 1 | AVR-ISP-6 |  |  | [''] | \n| 19 |\
+  \ C1 | CAP-PTH-SMALL2 | 1 | 100n |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAPPTH2
+  DNP: ''
+  Description: ''
+  Footprint: working:CAP-PTH-SMALL2
+  Qnty: '1'
+  Ref: C1
+  Value: 100n
+  Vendor: ''
+- Cmp name: CPOL-USE2.5-6
+  DNP: ''
+  Description: ''
+  Footprint: working:E2,5-6
+  Qnty: '2'
+  Ref: C2, C3
+  Value: 100uF
+  Vendor: ''
+- Cmp name: ZENER-DIODEDO34-7
+  DNP: ''
+  Description: ''
+  Footprint: working:DO34Z7
+  Qnty: '2'
+  Ref: D3, D4
+  Value: ZENER-DIODEDO34-7
+  Vendor: ''
+- Cmp name: AVR-MEGA8-PPTH
+  DNP: ''
+  Description: ''
+  Footprint: working:DIL28-3
+  Qnty: '1'
+  Ref: IC1
+  Value: AVR-MEGA8-PPTH
+  Vendor: ''
+- Cmp name: AVR-ISP-6
+  DNP: ''
+  Description: ''
+  Footprint: working:AVR-ISP-6
+  Qnty: '1'
+  Ref: ISP0
+  Value: AVR-ISP-6
+  Vendor: ''
+- Cmp name: HEADER-1X2
+  DNP: ''
+  Description: ''
+  Footprint: working:1X02_OVAL
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X2
+  Vendor: ''
+- Cmp name: PINHD-1X8BIG
+  DNP: ''
+  Description: ''
+  Footprint: working:1X08-BIG
+  Qnty: '1'
+  Ref: JP2
+  Value: Breakout
+  Vendor: ''
+- Cmp name: LED-RGB-CA-PIRANHA
+  DNP: ''
+  Description: ''
+  Footprint: working:PIRANHA5MM
+  Qnty: '8'
+  Ref: LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8
+  Value: LED-RGB-CA-PIRANHA
+  Vendor: ''
+- Cmp name: CERMOSCILL
+  DNP: ''
+  Description: ''
+  Footprint: working:CERM_OSC
+  Qnty: '1'
+  Ref: Q1
+  Value: 12MHz
+  Vendor: ''
+- Cmp name: TRANSISTOR_NPNTO92
+  DNP: ''
+  Description: ''
+  Footprint: working:TO-92
+  Qnty: '3'
+  Ref: Q2, Q3, Q4
+  Value: 2n2222
+  Vendor: ''
+- Cmp name: R-US_0207/9
+  DNP: ''
+  Description: ''
+  Footprint: working:0207_9
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 47R
+  Vendor: ''
+- Cmp name: R-US_0207/9
+  DNP: ''
+  Description: ''
+  Footprint: working:0207_9
+  Qnty: '1'
+  Ref: R3
+  Value: 2K2
+  Vendor: ''
+- Cmp name: R-US_0207/9
+  DNP: ''
+  Description: ''
+  Footprint: working:0207_9
+  Qnty: '8'
+  Ref: R5, R6, R7, R8, R9, R10, R11, R12
+  Value: R-US_0207/9
+  Vendor: ''
+- Cmp name: R-US_0207/9
+  DNP: ''
+  Description: ''
+  Footprint: working:0207_9
+  Qnty: '3'
+  Ref: R14, R15, R16
+  Value: 2.2K
+  Vendor: ''
+- Cmp name: TRIMPOT3386
+  DNP: ''
+  Description: ''
+  Footprint: working:TRIM-3386
+  Qnty: '1'
+  Ref: TM2
+  Value: "10K\xCE\xA9"
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5_THICK
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED_THICK
+  Qnty: '4'
+  Ref: U$2, U$3, U$4, U$5
+  Value: MOUNTINGHOLE2.5_THICK
+  Vendor: ''
+- Cmp name: USBPTH
+  DNP: ''
+  Description: ''
+  Footprint: working:USB-B-PTH
+  Qnty: '1'
+  Ref: USB0
+  Value: USBPTH
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 100n | CAPPTH2 | working:CAP-PTH-SMALL2 |  |  |  | \n| C2, C3 | 2 | 100uF\
+  \ | CPOL-USE2.5-6 | working:E2,5-6 |  |  |  | \n| D3, D4 | 2 | ZENER-DIODEDO34-7\
+  \ | ZENER-DIODEDO34-7 | working:DO34Z7 |  |  |  | \n| IC1 | 1 | AVR-MEGA8-PPTH |\
+  \ AVR-MEGA8-PPTH | working:DIL28-3 |  |  |  | \n| ISP0 | 1 | AVR-ISP-6 | AVR-ISP-6\
+  \ | working:AVR-ISP-6 |  |  |  | \n| JP1 | 1 | HEADER-1X2 | HEADER-1X2 | working:1X02_OVAL\
+  \ |  |  |  | \n| JP2 | 1 | Breakout | PINHD-1X8BIG | working:1X08-BIG |  |  |  |\
+  \ \n| LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8 | 8 | LED-RGB-CA-PIRANHA |\
+  \ LED-RGB-CA-PIRANHA | working:PIRANHA5MM |  |  |  | \n| Q1 | 1 | 12MHz | CERMOSCILL\
+  \ | working:CERM_OSC |  |  |  | \n| Q2, Q3, Q4 | 3 | 2n2222 | TRANSISTOR_NPNTO92\
+  \ | working:TO-92 |  |  |  | \n| R1, R2 | 2 | 47R | R-US_0207/9 | working:0207_9\
+  \ |  |  |  | \n| R3 | 1 | 2K2 | R-US_0207/9 | working:0207_9 |  |  |  | \n| R5,\
+  \ R6, R7, R8, R9, R10, R11, R12 | 8 | R-US_0207/9 | R-US_0207/9 | working:0207_9\
+  \ |  |  |  | \n| R14, R15, R16 | 3 | 2.2K | R-US_0207/9 | working:0207_9 |  |  |\
+  \  | \n| TM2 | 1 | 10K\xCE\xA9 | TRIMPOT3386 | working:TRIM-3386 |  |  |  | \n|\
+  \ U$2, U$3, U$4, U$5 | 4 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE2.5_THICK | working:MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ |  |  |  | \n| USB0 | 1 | USBPTH | USBPTH | working:USB-B-PTH |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_minipov4_kit_adafruit_minipov4_kit/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_minipov4_kit_adafruit_minipov4_kit/current_version/working/working.sch
 id: adafruit_adafruit_minipov4_kit_adafruit_minipov4_kit
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED_THICK
+  ref: U$2
+  size: m3
+  value: MOUNTINGHOLE2.5_THICK
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED_THICK
+  ref: U$3
+  size: m3
+  value: MOUNTINGHOLE2.5_THICK
+  x: '58.41999999999999'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED_THICK
+  ref: U$4
+  size: m3
+  value: MOUNTINGHOLE2.5_THICK
+  x: '0.0'
+  y: '25.400000000000006'
+- package: MOUNTINGHOLE_2.5_PLATED_THICK
+  ref: U$5
+  size: m3
+  value: MOUNTINGHOLE2.5_THICK
+  x: '58.166'
+  y: '25.146'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK\
+  \ | U$2 | m3 | \n| 58.41999999999999 | 0.0 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK\
+  \ | U$3 | m3 | \n| 0.0 | 25.400000000000006 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK\
+  \ | U$4 | m3 | \n| 58.166 | 25.146 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK\
+  \ | U$5 | m3 | \n"
 name: adafruit_minipov4_kit
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 178.9811
+  PosY: -95.0976
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 178.9811
+  PosY: -92.5576
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: CAP-PTH-SMALL2
+  PosX: 158.9151
+  PosY: -92.5576
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': C2
+  Package: E2,5-6
+  PosX: 163.2331
+  PosY: -93.8276
+  Rot: -90.0
+  Side: top
+  Val: 100uF
+- '# Ref': C3
+  Package: E2,5-6
+  PosX: 169.0751
+  PosY: -93.8276
+  Rot: -90.0
+  Side: top
+  Val: 100uF
+- '# Ref': D3
+  Package: DO34Z7
+  PosX: 165.0111
+  PosY: -104.7496
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': D4
+  Package: DO34Z7
+  PosX: 167.5511
+  PosY: -104.7496
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': IC1
+  Package: DIL28-3
+  PosX: 139.6111
+  PosY: -104.7496
+  Rot: 0.0
+  Side: top
+  Val: ATmega8/88/168/168P/328P
+- '# Ref': ISP0
+  Package: AVR-ISP-6
+  PosX: 126.2761
+  PosY: -89.2556
+  Rot: 180.0
+  Side: top
+  Val: AVR-ISP-6
+- '# Ref': JP1
+  Package: 1X02_OVAL
+  PosX: 173.9011
+  PosY: -93.8276
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X08-BIG
+  PosX: 118.0211
+  PosY: -101.1936
+  Rot: 90.0
+  Side: top
+  Val: Breakout
+- '# Ref': LED1
+  Package: PIRANHA5MM
+  PosX: 120.8151
+  PosY: -120.2436
+  Rot: 0.0
+  Side: top
+  Val: LED-RGB-CA-PIRANHA
+- '# Ref': LED2
+  Package: PIRANHA5MM
+  PosX: 128.6891
+  PosY: -120.2436
+  Rot: 0.0
+  Side: top
+  Val: LED-RGB-CA-PIRANHA
+- '# Ref': LED3
+  Package: PIRANHA5MM
+  PosX: 136.5631
+  PosY: -120.2436
+  Rot: 0.0
+  Side: top
+  Val: LED-RGB-CA-PIRANHA
+- '# Ref': LED4
+  Package: PIRANHA5MM
+  PosX: 144.4371
+  PosY: -120.2436
+  Rot: 0.0
+  Side: top
+  Val: LED-RGB-CA-PIRANHA
+- '# Ref': LED5
+  Package: PIRANHA5MM
+  PosX: 152.3111
+  PosY: -120.2436
+  Rot: 0.0
+  Side: top
+  Val: LED-RGB-CA-PIRANHA
+- '# Ref': LED6
+  Package: PIRANHA5MM
+  PosX: 160.1851
+  PosY: -120.2436
+  Rot: 0.0
+  Side: top
+  Val: LED-RGB-CA-PIRANHA
+- '# Ref': LED7
+  Package: PIRANHA5MM
+  PosX: 168.0591
+  PosY: -120.2436
+  Rot: 0.0
+  Side: top
+  Val: LED-RGB-CA-PIRANHA
+- '# Ref': LED8
+  Package: PIRANHA5MM
+  PosX: 175.9331
+  PosY: -120.2436
+  Rot: 0.0
+  Side: top
+  Val: LED-RGB-CA-PIRANHA
+- '# Ref': Q1
+  Package: CERM_OSC
+  PosX: 147.9931
+  PosY: -113.1316
+  Rot: 0.0
+  Side: top
+  Val: 12MHz
+- '# Ref': Q2
+  Package: TO-92
+  PosX: 133.0071
+  PosY: -95.8596
+  Rot: -90.0
+  Side: top
+  Val: 2n2222
+- '# Ref': Q3
+  Package: TO-92
+  PosX: 128.1811
+  PosY: -95.8596
+  Rot: -90.0
+  Side: top
+  Val: 2n2222
+- '# Ref': Q4
+  Package: TO-92
+  PosX: 123.3551
+  PosY: -95.8596
+  Rot: -90.0
+  Side: top
+  Val: 2n2222
+- '# Ref': R1
+  Package: 0207_9
+  PosX: 159.4231
+  PosY: -104.7496
+  Rot: 90.0
+  Side: top
+  Val: 47R
+- '# Ref': R2
+  Package: 0207_9
+  PosX: 163.2331
+  PosY: -97.8916
+  Rot: 180.0
+  Side: top
+  Val: 47R
+- '# Ref': R3
+  Package: 0207_9
+  PosX: 162.2171
+  PosY: -104.7496
+  Rot: -90.0
+  Side: top
+  Val: 2K2
+- '# Ref': R5
+  Package: 0207_9
+  PosX: 127.1651
+  PosY: -114.6556
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': R6
+  Package: 0207_9
+  PosX: 127.1651
+  PosY: -111.8616
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': R7
+  Package: 0207_9
+  PosX: 138.8491
+  PosY: -114.6556
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': R8
+  Package: 0207_9
+  PosX: 138.8491
+  PosY: -111.8616
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': R9
+  Package: 0207_9
+  PosX: 157.1371
+  PosY: -114.6556
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': R10
+  Package: 0207_9
+  PosX: 157.1371
+  PosY: -111.8616
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': R11
+  Package: 0207_9
+  PosX: 168.5671
+  PosY: -111.8616
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': R12
+  Package: 0207_9
+  PosX: 168.5671
+  PosY: -114.6556
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': R14
+  Package: 0207_9
+  PosX: 141.8971
+  PosY: -97.7646
+  Rot: 0.0
+  Side: top
+  Val: 2.2K
+- '# Ref': R15
+  Package: 0207_9
+  PosX: 141.8971
+  PosY: -95.2246
+  Rot: 0.0
+  Side: top
+  Val: 2.2K
+- '# Ref': R16
+  Package: 0207_9
+  PosX: 141.8971
+  PosY: -92.6846
+  Rot: 0.0
+  Side: top
+  Val: 2.2K
+- '# Ref': TM2
+  Package: TRIM-3386
+  PosX: 152.5651
+  PosY: -94.0816
+  Rot: 0.0
+  Side: top
+  Val: "10K\xCE\xA9"
+- '# Ref': U$2
+  Package: MOUNTINGHOLE_2.5_PLATED_THICK
+  PosX: 119.2911
+  PosY: -113.8936
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5_THICK
+- '# Ref': U$3
+  Package: MOUNTINGHOLE_2.5_PLATED_THICK
+  PosX: 177.7111
+  PosY: -113.8936
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5_THICK
+- '# Ref': U$4
+  Package: MOUNTINGHOLE_2.5_PLATED_THICK
+  PosX: 119.2911
+  PosY: -88.4936
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5_THICK
+- '# Ref': U$5
+  Package: MOUNTINGHOLE_2.5_PLATED_THICK
+  PosX: 177.4571
+  PosY: -88.7476
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5_THICK
+- '# Ref': U$6
+  Package: ADAFRUIT_3.5MM
+  PosX: 131.3561
+  PosY: -92.3036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': USB0
+  Package: USB-B-PTH
+  PosX: 175.6791
+  PosY: -103.9876
+  Rot: 180.0
+  Side: top
+  Val: USBPTH
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 178.9811 | -95.0976\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 178.9811 | -92.5576 | 0.0 | top | \n| C1\
+  \ | 100n | CAP-PTH-SMALL2 | 158.9151 | -92.5576 | -90.0 | top | \n| C2 | 100uF |\
+  \ E2,5-6 | 163.2331 | -93.8276 | -90.0 | top | \n| C3 | 100uF | E2,5-6 | 169.0751\
+  \ | -93.8276 | -90.0 | top | \n| D3 | nan | DO34Z7 | 165.0111 | -104.7496 | -90.0\
+  \ | top | \n| D4 | nan | DO34Z7 | 167.5511 | -104.7496 | -90.0 | top | \n| IC1 |\
+  \ ATmega8/88/168/168P/328P | DIL28-3 | 139.6111 | -104.7496 | 0.0 | top | \n| ISP0\
+  \ | AVR-ISP-6 | AVR-ISP-6 | 126.2761 | -89.2556 | 180.0 | top | \n| JP1 | nan |\
+  \ 1X02_OVAL | 173.9011 | -93.8276 | -90.0 | top | \n| JP2 | Breakout | 1X08-BIG\
+  \ | 118.0211 | -101.1936 | 90.0 | top | \n| LED1 | LED-RGB-CA-PIRANHA | PIRANHA5MM\
+  \ | 120.8151 | -120.2436 | 0.0 | top | \n| LED2 | LED-RGB-CA-PIRANHA | PIRANHA5MM\
+  \ | 128.6891 | -120.2436 | 0.0 | top | \n| LED3 | LED-RGB-CA-PIRANHA | PIRANHA5MM\
+  \ | 136.5631 | -120.2436 | 0.0 | top | \n| LED4 | LED-RGB-CA-PIRANHA | PIRANHA5MM\
+  \ | 144.4371 | -120.2436 | 0.0 | top | \n| LED5 | LED-RGB-CA-PIRANHA | PIRANHA5MM\
+  \ | 152.3111 | -120.2436 | 0.0 | top | \n| LED6 | LED-RGB-CA-PIRANHA | PIRANHA5MM\
+  \ | 160.1851 | -120.2436 | 0.0 | top | \n| LED7 | LED-RGB-CA-PIRANHA | PIRANHA5MM\
+  \ | 168.0591 | -120.2436 | 0.0 | top | \n| LED8 | LED-RGB-CA-PIRANHA | PIRANHA5MM\
+  \ | 175.9331 | -120.2436 | 0.0 | top | \n| Q1 | 12MHz | CERM_OSC | 147.9931 | -113.1316\
+  \ | 0.0 | top | \n| Q2 | 2n2222 | TO-92 | 133.0071 | -95.8596 | -90.0 | top | \n\
+  | Q3 | 2n2222 | TO-92 | 128.1811 | -95.8596 | -90.0 | top | \n| Q4 | 2n2222 | TO-92\
+  \ | 123.3551 | -95.8596 | -90.0 | top | \n| R1 | 47R | 0207_9 | 159.4231 | -104.7496\
+  \ | 90.0 | top | \n| R2 | 47R | 0207_9 | 163.2331 | -97.8916 | 180.0 | top | \n\
+  | R3 | 2K2 | 0207_9 | 162.2171 | -104.7496 | -90.0 | top | \n| R5 | nan | 0207_9\
+  \ | 127.1651 | -114.6556 | 0.0 | top | \n| R6 | nan | 0207_9 | 127.1651 | -111.8616\
+  \ | 0.0 | top | \n| R7 | nan | 0207_9 | 138.8491 | -114.6556 | 180.0 | top | \n\
+  | R8 | nan | 0207_9 | 138.8491 | -111.8616 | 180.0 | top | \n| R9 | nan | 0207_9\
+  \ | 157.1371 | -114.6556 | 0.0 | top | \n| R10 | nan | 0207_9 | 157.1371 | -111.8616\
+  \ | 180.0 | top | \n| R11 | nan | 0207_9 | 168.5671 | -111.8616 | 0.0 | top | \n\
+  | R12 | nan | 0207_9 | 168.5671 | -114.6556 | 180.0 | top | \n| R14 | 2.2K | 0207_9\
+  \ | 141.8971 | -97.7646 | 0.0 | top | \n| R15 | 2.2K | 0207_9 | 141.8971 | -95.2246\
+  \ | 0.0 | top | \n| R16 | 2.2K | 0207_9 | 141.8971 | -92.6846 | 0.0 | top | \n|\
+  \ TM2 | 10K\xCE\xA9 | TRIM-3386 | 152.5651 | -94.0816 | 0.0 | top | \n| U$2 | MOUNTINGHOLE2.5_THICK\
+  \ | MOUNTINGHOLE_2.5_PLATED_THICK | 119.2911 | -113.8936 | 0.0 | top | \n| U$3 |\
+  \ MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK | 177.7111 | -113.8936 |\
+  \ 0.0 | top | \n| U$4 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK |\
+  \ 119.2911 | -88.4936 | 0.0 | top | \n| U$5 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE_2.5_PLATED_THICK\
+  \ | 177.4571 | -88.7476 | 0.0 | top | \n| U$6 | nan | ADAFRUIT_3.5MM | 131.3561\
+  \ | -92.3036 | 0.0 | top | \n| USB0 | USBPTH | USB-B-PTH | 175.6791 | -103.9876\
+  \ | 180.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_minipov4_kit_adafruit_minipov4_kit/current_version/working
 repo:
   allow_forking: true

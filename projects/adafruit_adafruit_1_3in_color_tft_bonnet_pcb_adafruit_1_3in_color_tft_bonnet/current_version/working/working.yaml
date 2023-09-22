@@ -1,9 +1,507 @@
 board: adafruit_1_3in_color_tft_bonnet
+bom:
+- Id: '1'
+  Designator: IC1
+  Footprint: SOT23
+  Quantity: '1'
+  Designation: APX803
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$29
+  Footprint: STEMMAQT
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: FID1,FID2
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R1,R3,R13,R14,R16,R11,R12,R18
+  Footprint: 0805-NO
+  Quantity: '8'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: RPI1
+  Footprint: PI_BONNET_SMT
+  Quantity: '1'
+  Designation: RASPBERRYPI_BPLUS_BONNETSMT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: SW2
+  Footprint: 6MM_SMT
+  Quantity: '1'
+  Designation: EVQQ
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C10,C1
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: SW3
+  Footprint: SKQUBAE010
+  Quantity: '1'
+  Designation: NAVSWITCHSKQUABAUE010
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U$28
+  Footprint: ADAFRUIT_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U$2
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: SW1
+  Footprint: 6MMX6MM_TACTILE_SMT
+  Quantity: '1'
+  Designation: EVQQ
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: R2
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: DISPLAY1
+  Footprint: TFT_1.3IN_240X240_24P
+  Quantity: '1'
+  Designation: DISP_LCD_ST7789_1.3IN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: R5
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: '10'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: CONN1
+  Footprint: JST_SH4
+  Quantity: '1'
+  Designation: STEMMA_I2C_QT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: Q3
+  Footprint: SOT23-WIDE
+  Quantity: '1'
+  Designation: BSS138
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | IC1\
+  \ | SOT23 | 1 | APX803 |  |  | [''] | \n| 2 | U$29 | STEMMAQT | 1 |  |  |  | ['']\
+  \ | \n| 3 | FID1,FID2 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | [''] | \n| 4 | R1,R3,R13,R14,R16,R11,R12,R18\
+  \ | 0805-NO | 8 | 10K |  |  | [''] | \n| 5 | RPI1 | PI_BONNET_SMT | 1 | RASPBERRYPI_BPLUS_BONNETSMT\
+  \ |  |  | [''] | \n| 6 | SW2 | 6MM_SMT | 1 | EVQQ |  |  | [''] | \n| 7 | C10,C1\
+  \ | 0805-NO | 2 | 10uF |  |  | [''] | \n| 8 | SW3 | SKQUBAE010 | 1 | NAVSWITCHSKQUABAUE010\
+  \ |  |  | [''] | \n| 9 | U$28 | ADAFRUIT_5MM | 1 |  |  |  | [''] | \n| 10 | U$2\
+  \ | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n| 11 | SW1 | 6MMX6MM_TACTILE_SMT | 1\
+  \ | EVQQ |  |  | [''] | \n| 12 | R2 | 0603-NO | 1 | 10K |  |  | [''] | \n| 13 |\
+  \ DISPLAY1 | TFT_1.3IN_240X240_24P | 1 | DISP_LCD_ST7789_1.3IN |  |  | [''] | \n\
+  | 14 | R5 | 0603-NO | 1 | 10 |  |  | [''] | \n| 15 | CONN1 | JST_SH4 | 1 | STEMMA_I2C_QT\
+  \ |  |  | [''] | \n| 16 | Q3 | SOT23-WIDE | 1 | BSS138 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C1, C10
+  Value: 10uF
+  Vendor: ''
+- Cmp name: STEMMA_I2C_QT
+  DNP: ''
+  Description: ''
+  Footprint: working:JST_SH4
+  Qnty: '1'
+  Ref: CONN1
+  Value: STEMMA_I2C_QT
+  Vendor: ''
+- Cmp name: DISP_LCD_ST7789_1.3IN
+  DNP: ''
+  Description: ''
+  Footprint: working:TFT_1.3IN_240X240_24P
+  Qnty: '1'
+  Ref: DISPLAY1
+  Value: DISP_LCD_ST7789_1.3IN
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: AXP083-SAG
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23
+  Qnty: '1'
+  Ref: IC1
+  Value: APX803
+  Vendor: ''
+- Cmp name: MOSFET-NWIDE
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-WIDE
+  Qnty: '1'
+  Ref: Q3
+  Value: BSS138
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '8'
+  Ref: R1, R3, R11, R12, R13, R14, R16, R18
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R2
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R5
+  Value: '10'
+  Vendor: ''
+- Cmp name: RASPBERRYPI_BPLUS_BONNETSMT
+  DNP: ''
+  Description: ''
+  Footprint: working:PI_BONNET_SMT
+  Qnty: '1'
+  Ref: RPI1
+  Value: RASPBERRYPI_BPLUS_BONNETSMT
+  Vendor: ''
+- Cmp name: SWITCH_TACT_SMT_6MM
+  DNP: ''
+  Description: ''
+  Footprint: working:6MMX6MM_TACTILE_SMT
+  Qnty: '1'
+  Ref: SW1
+  Value: EVQQ
+  Vendor: ''
+- Cmp name: SWITCH_TACT_SMT_6MMSMALL
+  DNP: ''
+  Description: ''
+  Footprint: working:6MM_SMT
+  Qnty: '1'
+  Ref: SW2
+  Value: EVQQ
+  Vendor: ''
+- Cmp name: NAVSWITCHSKQUABAUE010
+  DNP: ''
+  Description: ''
+  Footprint: working:SKQUBAE010
+  Qnty: '1'
+  Ref: SW3
+  Value: NAVSWITCHSKQUABAUE010
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C10\
+  \ | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| CONN1\
+  \ | 1 | STEMMA_I2C_QT | STEMMA_I2C_QT | working:JST_SH4 |  |  |  | \n| DISPLAY1\
+  \ | 1 | DISP_LCD_ST7789_1.3IN | DISP_LCD_ST7789_1.3IN | working:TFT_1.3IN_240X240_24P\
+  \ |  |  |  | \n| FID1, FID2 | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM\
+  \ |  |  |  | \n| IC1 | 1 | APX803 | AXP083-SAG | working:SOT23 |  |  |  | \n| Q3\
+  \ | 1 | BSS138 | MOSFET-NWIDE | working:SOT23-WIDE |  |  |  | \n| R1, R3, R11, R12,\
+  \ R13, R14, R16, R18 | 8 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO |  | \
+  \ |  | \n| R2 | 1 | 10K | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n| R5\
+  \ | 1 | 10 | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n| RPI1 | 1 | RASPBERRYPI_BPLUS_BONNETSMT\
+  \ | RASPBERRYPI_BPLUS_BONNETSMT | working:PI_BONNET_SMT |  |  |  | \n| SW1 | 1 |\
+  \ EVQQ | SWITCH_TACT_SMT_6MM | working:6MMX6MM_TACTILE_SMT |  |  |  | \n| SW2 |\
+  \ 1 | EVQQ | SWITCH_TACT_SMT_6MMSMALL | working:6MM_SMT |  |  |  | \n| SW3 | 1 |\
+  \ NAVSWITCHSKQUABAUE010 | NAVSWITCHSKQUABAUE010 | working:SKQUBAE010 |  |  |  |\
+  \ \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_1_3in_color_tft_bonnet_pcb_adafruit_1_3in_color_tft_bonnet/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_1_3in_color_tft_bonnet_pcb_adafruit_1_3in_color_tft_bonnet/current_version/working/working.sch
 id: adafruit_adafruit_1_3in_color_tft_bonnet_pcb_adafruit_1_3in_color_tft_bonnet
 name: adafruit_1_3in_color_tft_bonnet_pcb
+position_bottom:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 132.1047
+  PosY: -117.4128
+  Rot: 90.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': CONN1
+  Package: JST_SH4
+  PosX: 127.2787
+  PosY: -117.7938
+  Rot: 180.0
+  Side: bottom
+  Val: STEMMA_I2C_QT
+- '# Ref': DISPLAY1
+  Package: TFT_1.3IN_240X240_24P
+  PosX: 162.1027
+  PosY: -120.4418
+  Rot: 180.0
+  Side: bottom
+  Val: DISP_LCD_ST7789_1.3IN
+- '# Ref': Q3
+  Package: SOT23-WIDE
+  PosX: 158.6357
+  PosY: -101.3638
+  Rot: -90.0
+  Side: bottom
+  Val: BSS138
+- '# Ref': R2
+  Package: 0603-NO
+  PosX: 161.3147
+  PosY: -101.4108
+  Rot: 90.0
+  Side: bottom
+  Val: 10K
+- '# Ref': R5
+  Package: 0603-NO
+  PosX: 156.8107
+  PosY: -103.6658
+  Rot: -90.0
+  Side: bottom
+  Val: '10'
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C1 | 10uF | 0805-NO | 132.1047 |\
+  \ -117.4128 | 90.0 | bottom | \n| CONN1 | STEMMA_I2C_QT | JST_SH4 | 127.2787 | -117.7938\
+  \ | 180.0 | bottom | \n| DISPLAY1 | DISP_LCD_ST7789_1.3IN | TFT_1.3IN_240X240_24P\
+  \ | 162.1027 | -120.4418 | 180.0 | bottom | \n| Q3 | BSS138 | SOT23-WIDE | 158.6357\
+  \ | -101.3638 | -90.0 | bottom | \n| R2 | 10K | 0603-NO | 161.3147 | -101.4108 |\
+  \ 90.0 | bottom | \n| R5 | 10 | 0603-NO | 156.8107 | -103.6658 | -90.0 | bottom\
+  \ | \n"
+position_top:
+- '# Ref': C10
+  Package: 0805-NO
+  PosX: 168.1727
+  PosY: -105.3478
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 161.6957
+  PosY: -99.3788
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 132.9965
+  PosY: -117.3216
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': IC1
+  Package: SOT23
+  PosX: 120.5477
+  PosY: -98.9978
+  Rot: 0.0
+  Side: top
+  Val: APX803
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 117.4997
+  PosY: -98.9978
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: 0805-NO
+  PosX: 167.1567
+  PosY: -98.7438
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R11
+  Package: 0805-NO
+  PosX: 170.9847
+  PosY: -98.7238
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R12
+  Package: 0805-NO
+  PosX: 172.9987
+  PosY: -98.7438
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R13
+  Package: 0805-NO
+  PosX: 127.4057
+  PosY: -98.9978
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R14
+  Package: 0805-NO
+  PosX: 130.0057
+  PosY: -99.0698
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R16
+  Package: 0805-NO
+  PosX: 125.1197
+  PosY: -98.9978
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R18
+  Package: 0805-NO
+  PosX: 169.0617
+  PosY: -98.7438
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': RPI1
+  Package: PI_BONNET_SMT
+  PosX: 116.0011
+  PosY: -120.3338
+  Rot: 0.0
+  Side: top
+  Val: RASPBERRYPI_BPLUS_BONNETSMT
+- '# Ref': SW1
+  Package: 6MMX6MM_TACTILE_SMT
+  PosX: 177.0627
+  PosY: -104.5858
+  Rot: -90.0
+  Side: top
+  Val: EVQQ
+- '# Ref': SW2
+  Package: 6MM_SMT
+  PosX: 169.8237
+  PosY: -111.0628
+  Rot: -90.0
+  Side: top
+  Val: EVQQ
+- '# Ref': SW3
+  Package: SKQUBAE010
+  PosX: 124.1037
+  PosY: -106.8718
+  Rot: 0.0
+  Side: top
+  Val: NAVSWITCHSKQUABAUE010
+- '# Ref': U$2
+  Package: PCBFEAT-REV-040
+  PosX: 179.3487
+  PosY: -91.6318
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$28
+  Package: ADAFRUIT_5MM
+  PosX: 174.5227
+  PosY: -114.6188
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$29
+  Package: STEMMAQT
+  PosX: 122.7067
+  PosY: -119.9528
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C10 | 10uF | 0805-NO | 168.1727 | -105.3478\
+  \ | 180.0 | top | \n| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM | 161.6957 | -99.3788 |\
+  \ 0.0 | top | \n| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM | 132.9965 | -117.3216 | 0.0\
+  \ | top | \n| IC1 | APX803 | SOT23 | 120.5477 | -98.9978 | 0.0 | top | \n| R1 |\
+  \ 10K | 0805-NO | 117.4997 | -98.9978 | 90.0 | top | \n| R3 | 10K | 0805-NO | 167.1567\
+  \ | -98.7438 | 90.0 | top | \n| R11 | 10K | 0805-NO | 170.9847 | -98.7238 | 90.0\
+  \ | top | \n| R12 | 10K | 0805-NO | 172.9987 | -98.7438 | 90.0 | top | \n| R13 |\
+  \ 10K | 0805-NO | 127.4057 | -98.9978 | 90.0 | top | \n| R14 | 10K | 0805-NO | 130.0057\
+  \ | -99.0698 | 90.0 | top | \n| R16 | 10K | 0805-NO | 125.1197 | -98.9978 | -90.0\
+  \ | top | \n| R18 | 10K | 0805-NO | 169.0617 | -98.7438 | -90.0 | top | \n| RPI1\
+  \ | RASPBERRYPI_BPLUS_BONNETSMT | PI_BONNET_SMT | 116.0011 | -120.3338 | 0.0 | top\
+  \ | \n| SW1 | EVQQ | 6MMX6MM_TACTILE_SMT | 177.0627 | -104.5858 | -90.0 | top |\
+  \ \n| SW2 | EVQQ | 6MM_SMT | 169.8237 | -111.0628 | -90.0 | top | \n| SW3 | NAVSWITCHSKQUABAUE010\
+  \ | SKQUBAE010 | 124.1037 | -106.8718 | 0.0 | top | \n| U$2 | nan | PCBFEAT-REV-040\
+  \ | 179.3487 | -91.6318 | 0.0 | top | \n| U$28 | nan | ADAFRUIT_5MM | 174.5227 |\
+  \ -114.6188 | 0.0 | top | \n| U$29 | nan | STEMMAQT | 122.7067 | -119.9528 | 0.0\
+  \ | top | \n"
 projects_flat: projects/adafruit_adafruit_1_3in_color_tft_bonnet_pcb_adafruit_1_3in_color_tft_bonnet/current_version/working
 repo:
   allow_forking: true

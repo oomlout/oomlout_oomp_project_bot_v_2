@@ -1,10 +1,347 @@
 board: uplighter
+bom:
+- Id: '1'
+  Designator: K1,K2,K3
+  Footprint: SIL-3
+  Quantity: '3'
+  Designation: CONN_3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C1,C2,C3
+  Footprint: c_0805
+  Quantity: '3'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: CON1
+  Footprint: BARREL_JACK
+  Quantity: '1'
+  Designation: BARREL_JACK
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: P1
+  Footprint: Pin_Header_Straight_1x02
+  Quantity: '1'
+  Designation: POWER_THRU
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: P2
+  Footprint: Pin_Header_Straight_1x02
+  Quantity: '1'
+  Designation: POWER
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: P3
+  Footprint: SIL-2
+  Quantity: '1'
+  Designation: SOLDER_PAD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R1,R2,R3
+  Footprint: SM0805
+  Quantity: '3'
+  Designation: 1R2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U1,U2,U3
+  Footprint: 8-SON
+  Quantity: '3'
+  Designation: TL4242
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: D1
+  Footprint: heatsunk_star_led_board
+  Quantity: '1'
+  Designation: STAR_LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: G***
+  Footprint: hypnospiral_lessbig
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | K1,K2,K3\
+  \ | SIL-3 | 3 | CONN_3 |  |  | [''] | \n| 2 | C1,C2,C3 | c_0805 | 3 | 100n |  |\
+  \  | [''] | \n| 3 | CON1 | BARREL_JACK | 1 | BARREL_JACK |  |  | [''] | \n| 4 |\
+  \ P1 | Pin_Header_Straight_1x02 | 1 | POWER_THRU |  |  | [''] | \n| 5 | P2 | Pin_Header_Straight_1x02\
+  \ | 1 | POWER |  |  | [''] | \n| 6 | P3 | SIL-2 | 1 | SOLDER_PAD |  |  | [''] |\
+  \ \n| 7 | R1,R2,R3 | SM0805 | 3 | 1R2 |  |  | [''] | \n| 8 | U1,U2,U3 | 8-SON |\
+  \ 3 | TL4242 |  |  | [''] | \n| 9 | D1 | heatsunk_star_led_board | 1 | STAR_LED\
+  \ |  |  | [''] | \n| 10 | G*** | hypnospiral_lessbig | 1 | LOGO |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '3'
+  Ref: C1, C2, C3
+  Value: 100n
+  Vendor: ''
+- Cmp name: BARREL_JACK
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: CON1
+  Value: BARREL_JACK
+  Vendor: ''
+- Cmp name: STAR_LED
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: D1
+  Value: STAR_LED
+  Vendor: ''
+- Cmp name: CONN_3
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '3'
+  Ref: K1, K2, K3
+  Value: CONN_3
+  Vendor: ''
+- Cmp name: CONN_2
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: P1
+  Value: POWER_THRU
+  Vendor: ''
+- Cmp name: CONN_2
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: P2
+  Value: POWER
+  Vendor: ''
+- Cmp name: CONN_2
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: P3
+  Value: SOLDER_PAD
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '3'
+  Ref: R1, R2, R3
+  Value: 1R2
+  Vendor: ''
+- Cmp name: TL4242
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '3'
+  Ref: U1, U2, U3
+  Value: TL4242
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3 | 3 | 100n | C |  |  |  |  | \n| CON1 | 1 | BARREL_JACK | BARREL_JACK |  |\
+  \  |  |  | \n| D1 | 1 | STAR_LED | STAR_LED |  |  |  |  | \n| K1, K2, K3 | 3 | CONN_3\
+  \ | CONN_3 |  |  |  |  | \n| P1 | 1 | POWER_THRU | CONN_2 |  |  |  |  | \n| P2 |\
+  \ 1 | POWER | CONN_2 |  |  |  |  | \n| P3 | 1 | SOLDER_PAD | CONN_2 |  |  |  | \
+  \ | \n| R1, R2, R3 | 3 | 1R2 | R |  |  |  |  | \n| U1, U2, U3 | 3 | TL4242 | TL4242\
+  \ |  |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_drhouse_uplighter/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_drhouse_uplighter/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adamgreig_drhouse_uplighter/current_version/working/working.sch
 id: adamgreig_drhouse_uplighter
 name: drhouse
+position_bottom:
+- '# Ref': G***
+  Package: hypnospiral_lessbig
+  PosX: 124.333
+  PosY: -124.714
+  Rot: 0.0
+  Side: bottom
+  Val: LOGO
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | hypnospiral_lessbig\
+  \ | 124.333 | -124.714 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: c_0805
+  PosX: 115.57
+  PosY: -112.522
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': C2
+  Package: c_0805
+  PosX: 133.477
+  PosY: -106.045
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': C3
+  Package: c_0805
+  PosX: 126.492
+  PosY: -145.542
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': CON1
+  Package: BARREL_JACK
+  PosX: 105.791
+  PosY: -145.796
+  Rot: 90.0
+  Side: top
+  Val: BARREL_JACK
+- '# Ref': D1
+  Package: heatsunk_star_led_board
+  PosX: 125.0
+  PosY: -125.0
+  Rot: 0.0
+  Side: top
+  Val: STAR_LED
+- '# Ref': K1
+  Package: SIL-3
+  PosX: 106.29
+  PosY: -111.148
+  Rot: 60.0
+  Side: top
+  Val: CONN_3
+- '# Ref': K2
+  Package: SIL-3
+  PosX: 144.39
+  PosY: -105.0
+  Rot: -60.0
+  Side: top
+  Val: CONN_3
+- '# Ref': K3
+  Package: SIL-3
+  PosX: 121.784
+  PosY: -142.644
+  Rot: 0.0
+  Side: top
+  Val: CONN_3
+- '# Ref': P1
+  Package: Pin_Header_Straight_1x02
+  PosX: 147.574
+  PosY: -123.444
+  Rot: 90.0
+  Side: top
+  Val: POWER_THRU
+- '# Ref': P2
+  Package: Pin_Header_Straight_1x02
+  PosX: 147.574
+  PosY: -116.332
+  Rot: 90.0
+  Side: top
+  Val: POWER
+- '# Ref': P3
+  Package: SIL-2
+  PosX: 142.494
+  PosY: -142.748
+  Rot: -135.0
+  Side: top
+  Val: SOLDER_PAD
+- '# Ref': R1
+  Package: SM0805
+  PosX: 124.714
+  PosY: -109.728
+  Rot: -90.0
+  Side: top
+  Val: 1R2
+- '# Ref': R2
+  Package: SM0805
+  PosX: 110.744
+  PosY: -114.046
+  Rot: 90.0
+  Side: top
+  Val: 1R2
+- '# Ref': R3
+  Package: SM0805
+  PosX: 117.094
+  PosY: -139.7
+  Rot: 0.0
+  Side: top
+  Val: 1R2
+- '# Ref': U1
+  Package: 8-SON
+  PosX: 113.03
+  PosY: -108.458
+  Rot: -90.0
+  Side: top
+  Val: TL4242
+- '# Ref': U2
+  Package: 8-SON
+  PosX: 128.778
+  PosY: -107.442
+  Rot: 0.0
+  Side: top
+  Val: TL4242
+- '# Ref': U3
+  Package: 8-SON
+  PosX: 121.666
+  PosY: -146.558
+  Rot: 0.0
+  Side: top
+  Val: TL4242
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 100n | c_0805 | 115.57 | -112.522\
+  \ | 180.0 | top | \n| C2 | 100n | c_0805 | 133.477 | -106.045 | 180.0 | top | \n\
+  | C3 | 100n | c_0805 | 126.492 | -145.542 | 180.0 | top | \n| CON1 | BARREL_JACK\
+  \ | BARREL_JACK | 105.791 | -145.796 | 90.0 | top | \n| D1 | STAR_LED | heatsunk_star_led_board\
+  \ | 125.0 | -125.0 | 0.0 | top | \n| K1 | CONN_3 | SIL-3 | 106.29 | -111.148 | 60.0\
+  \ | top | \n| K2 | CONN_3 | SIL-3 | 144.39 | -105.0 | -60.0 | top | \n| K3 | CONN_3\
+  \ | SIL-3 | 121.784 | -142.644 | 0.0 | top | \n| P1 | POWER_THRU | Pin_Header_Straight_1x02\
+  \ | 147.574 | -123.444 | 90.0 | top | \n| P2 | POWER | Pin_Header_Straight_1x02\
+  \ | 147.574 | -116.332 | 90.0 | top | \n| P3 | SOLDER_PAD | SIL-2 | 142.494 | -142.748\
+  \ | -135.0 | top | \n| R1 | 1R2 | SM0805 | 124.714 | -109.728 | -90.0 | top | \n\
+  | R2 | 1R2 | SM0805 | 110.744 | -114.046 | 90.0 | top | \n| R3 | 1R2 | SM0805 |\
+  \ 117.094 | -139.7 | 0.0 | top | \n| U1 | TL4242 | 8-SON | 113.03 | -108.458 | -90.0\
+  \ | top | \n| U2 | TL4242 | 8-SON | 128.778 | -107.442 | 0.0 | top | \n| U3 | TL4242\
+  \ | 8-SON | 121.666 | -146.558 | 0.0 | top | \n"
 projects_flat: projects/adamgreig_drhouse_uplighter/current_version/working
 repo:
   allow_forking: true

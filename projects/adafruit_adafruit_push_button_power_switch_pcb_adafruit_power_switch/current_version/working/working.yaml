@@ -1,9 +1,404 @@
 board: adafruit_power_switch
+bom:
+- Id: '1'
+  Designator: FID1,FID3,FID2
+  Footprint: FIDUCIAL_1MM
+  Quantity: '3'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: '@HOLE2,@HOLE3,@HOLE0,@HOLE1'
+  Footprint: ''
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R4,R1
+  Footprint: R0805
+  Quantity: '2'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R2,R3
+  Footprint: R0805
+  Quantity: '2'
+  Designation: 100K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: Q2
+  Footprint: SOT23-WIDE
+  Quantity: '1'
+  Designation: POWER PFET
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U$2,U$1
+  Footprint: ADAFRUIT_2.5MM
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C1
+  Footprint: C0805
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: IC1
+  Footprint: MC14093B-TSSOP14
+  Quantity: '1'
+  Designation: 4093DT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: LED0
+  Footprint: CHIP-LED0805
+  Quantity: '1'
+  Designation: RED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: Q1
+  Footprint: SOT23-BEC
+  Quantity: '1'
+  Designation: 2N2222
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: CN2,CN1
+  Footprint: 1X04-CLEANBIG
+  Quantity: '2'
+  Designation: 1X4-CLEANBIG
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: S1
+  Footprint: B3F-40XX-ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | FID1,FID3,FID2\
+  \ | FIDUCIAL_1MM | 3 | FIDUCIAL\" |  |  | [''] | \n| 2 | @HOLE2,@HOLE3,@HOLE0,@HOLE1\
+  \ |  | 4 |  |  |  | [''] | \n| 3 | R4,R1 | R0805 | 2 | 1K |  |  | [''] | \n| 4 |\
+  \ R2,R3 | R0805 | 2 | 100K |  |  | [''] | \n| 5 | Q2 | SOT23-WIDE | 1 | POWER PFET\
+  \ |  |  | [''] | \n| 6 | U$2,U$1 | ADAFRUIT_2.5MM | 2 |  |  |  | [''] | \n| 7 |\
+  \ C1 | C0805 | 1 | 0.1uF |  |  | [''] | \n| 8 | IC1 | MC14093B-TSSOP14 | 1 | 4093DT\
+  \ |  |  | [''] | \n| 9 | LED0 | CHIP-LED0805 | 1 | RED |  |  | [''] | \n| 10 | Q1\
+  \ | SOT23-BEC | 1 | 2N2222 |  |  | [''] | \n| 11 | CN2,CN1 | 1X04-CLEANBIG | 2 |\
+  \ 1X4-CLEANBIG |  |  | [''] | \n| 12 | S1 | B3F-40XX-ROUND | 1 |  |  |  | [''] |\
+  \ \n"
+bom_schematic:
+- Cmp name: C-USC0805
+  DNP: ''
+  Description: ''
+  Footprint: working:C0805
+  Qnty: '1'
+  Ref: C1
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: 1X4-CLEANBIG
+  DNP: ''
+  Description: ''
+  Footprint: working:1X04-CLEANBIG
+  Qnty: '2'
+  Ref: CN1, CN2
+  Value: 1X4-CLEANBIG
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '3'
+  Ref: FID1, FID2, FID3
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: 4093DT
+  DNP: ''
+  Description: ''
+  Footprint: working:MC14093B-TSSOP14
+  Qnty: '1'
+  Ref: IC1
+  Value: 4093DT
+  Vendor: ''
+- Cmp name: LEDCHIP-LED0805
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIP-LED0805
+  Qnty: '1'
+  Ref: LED0
+  Value: RED
+  Vendor: ''
+- Cmp name: -NPN-SOT23-BEC
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-BEC
+  Qnty: '1'
+  Ref: Q1
+  Value: 2N2222
+  Vendor: ''
+- Cmp name: MOSFET-PWIDE
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-WIDE
+  Qnty: '1'
+  Ref: Q2
+  Value: POWER PFET
+  Vendor: ''
+- Cmp name: R-US_R0805
+  DNP: ''
+  Description: ''
+  Footprint: working:R0805
+  Qnty: '2'
+  Ref: R1, R4
+  Value: 1K
+  Vendor: ''
+- Cmp name: rcl_R-US_R0805
+  DNP: ''
+  Description: ''
+  Footprint: working:R0805
+  Qnty: '2'
+  Ref: R2, R3
+  Value: 100K
+  Vendor: ''
+- Cmp name: 40-XX-ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:B3F-40XX-ROUND
+  Qnty: '1'
+  Ref: S1
+  Value: 40-XX-ROUND
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 0.1uF | C-USC0805 | working:C0805 |  |  |  | \n| CN1, CN2 | 2 | 1X4-CLEANBIG\
+  \ | 1X4-CLEANBIG | working:1X04-CLEANBIG |  |  |  | \n| FID1, FID2, FID3 | 3 | FIDUCIAL\"\
+  \" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | \n| IC1 | 1\
+  \ | 4093DT | 4093DT | working:MC14093B-TSSOP14 |  |  |  | \n| LED0 | 1 | RED | LEDCHIP-LED0805\
+  \ | working:CHIP-LED0805 |  |  |  | \n| Q1 | 1 | 2N2222 | -NPN-SOT23-BEC | working:SOT23-BEC\
+  \ |  |  |  | \n| Q2 | 1 | POWER PFET | MOSFET-PWIDE | working:SOT23-WIDE |  |  |\
+  \  | \n| R1, R4 | 2 | 1K | R-US_R0805 | working:R0805 |  |  |  | \n| R2, R3 | 2\
+  \ | 100K | rcl_R-US_R0805 | working:R0805 |  |  |  | \n| S1 | 1 | 40-XX-ROUND |\
+  \ 40-XX-ROUND | working:B3F-40XX-ROUND |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_push_button_power_switch_pcb_adafruit_power_switch/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_push_button_power_switch_pcb_adafruit_power_switch/current_version/working/working.sch
 id: adafruit_adafruit_push_button_power_switch_pcb_adafruit_power_switch
 name: adafruit_push_button_power_switch_pcb
+position_bottom:
+- '# Ref': CN1
+  Package: 1X04-CLEANBIG
+  PosX: 139.6111
+  PosY: -105.0036
+  Rot: 90.0
+  Side: bottom
+  Val: 1X4-CLEANBIG
+- '# Ref': CN2
+  Package: 1X04-CLEANBIG
+  PosX: 157.3911
+  PosY: -105.0036
+  Rot: 90.0
+  Side: bottom
+  Val: 1X4-CLEANBIG
+- '# Ref': S1
+  Package: B3F-40XX-ROUND
+  PosX: 148.5011
+  PosY: -105.0036
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$1
+  Package: ADAFRUIT_2.5MM
+  PosX: 149.6441
+  PosY: -98.6536
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| CN1 | 1X4-CLEANBIG | 1X04-CLEANBIG\
+  \ | 139.6111 | -105.0036 | 90.0 | bottom | \n| CN2 | 1X4-CLEANBIG | 1X04-CLEANBIG\
+  \ | 157.3911 | -105.0036 | 90.0 | bottom | \n| S1 | nan | B3F-40XX-ROUND | 148.5011\
+  \ | -105.0036 | 90.0 | bottom | \n| U$1 | nan | ADAFRUIT_2.5MM | 149.6441 | -98.6536\
+  \ | 180.0 | bottom | \n"
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 140.3731
+  PosY: -98.1456
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 140.3731
+  PosY: -111.8616
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE2'
+  Package: .nan
+  PosX: 156.6291
+  PosY: -98.1456
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE3'
+  Package: .nan
+  PosX: 156.6291
+  PosY: -111.8616
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: C0805
+  PosX: 143.8021
+  PosY: -108.5596
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 155.6131
+  PosY: -109.5756
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 142.9131
+  PosY: -97.5106
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 141.6431
+  PosY: -109.4486
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': IC1
+  Package: MC14093B-TSSOP14
+  PosX: 148.5011
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: 4093DT
+- '# Ref': LED0
+  Package: CHIP-LED0805
+  PosX: 148.5011
+  PosY: -111.6076
+  Rot: 0.0
+  Side: top
+  Val: RED
+- '# Ref': Q1
+  Package: SOT23-BEC
+  PosX: 153.5811
+  PosY: -102.5906
+  Rot: 90.0
+  Side: top
+  Val: 2N2222
+- '# Ref': Q2
+  Package: SOT23-WIDE
+  PosX: 143.1671
+  PosY: -102.2096
+  Rot: 90.0
+  Side: top
+  Val: POWER_PFET
+- '# Ref': R1
+  Package: R0805
+  PosX: 153.5811
+  PosY: -111.3536
+  Rot: 90.0
+  Side: top
+  Val: 1K
+- '# Ref': R2
+  Package: R0805
+  PosX: 153.8351
+  PosY: -98.6536
+  Rot: 90.0
+  Side: top
+  Val: 100K
+- '# Ref': R3
+  Package: R0805
+  PosX: 148.5011
+  PosY: -98.6536
+  Rot: 90.0
+  Side: top
+  Val: 100K
+- '# Ref': R4
+  Package: R0805
+  PosX: 153.8351
+  PosY: -107.5436
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': U$2
+  Package: ADAFRUIT_2.5MM
+  PosX: 142.0241
+  PosY: -113.2586
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 140.3731 | -98.1456\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 140.3731 | -111.8616 | 0.0 | top | \n|\
+  \ @HOLE2 | nan | nan | 156.6291 | -98.1456 | 0.0 | top | \n| @HOLE3 | nan | nan\
+  \ | 156.6291 | -111.8616 | 0.0 | top | \n| C1 | 0.1uF | C0805 | 143.8021 | -108.5596\
+  \ | 90.0 | top | \n| FID1 | FIDUCIAL\"\" | FIDUCIAL_1MM | 155.6131 | -109.5756 |\
+  \ 0.0 | top | \n| FID2 | FIDUCIAL\"\" | FIDUCIAL_1MM | 142.9131 | -97.5106 | 0.0\
+  \ | top | \n| FID3 | FIDUCIAL\"\" | FIDUCIAL_1MM | 141.6431 | -109.4486 | 0.0 |\
+  \ top | \n| IC1 | 4093DT | MC14093B-TSSOP14 | 148.5011 | -105.0036 | 0.0 | top |\
+  \ \n| LED0 | RED | CHIP-LED0805 | 148.5011 | -111.6076 | 0.0 | top | \n| Q1 | 2N2222\
+  \ | SOT23-BEC | 153.5811 | -102.5906 | 90.0 | top | \n| Q2 | POWER_PFET | SOT23-WIDE\
+  \ | 143.1671 | -102.2096 | 90.0 | top | \n| R1 | 1K | R0805 | 153.5811 | -111.3536\
+  \ | 90.0 | top | \n| R2 | 100K | R0805 | 153.8351 | -98.6536 | 90.0 | top | \n|\
+  \ R3 | 100K | R0805 | 148.5011 | -98.6536 | 90.0 | top | \n| R4 | 1K | R0805 | 153.8351\
+  \ | -107.5436 | 180.0 | top | \n| U$2 | nan | ADAFRUIT_2.5MM | 142.0241 | -113.2586\
+  \ | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_push_button_power_switch_pcb_adafruit_power_switch/current_version/working
 repo:
   allow_forking: true

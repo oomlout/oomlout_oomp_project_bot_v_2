@@ -1,10 +1,249 @@
 board: nand_cat
+bom:
+- Id: '1'
+  Designator: J1
+  Footprint: PinHeader_2x03_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_02x03_Odd_Even
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: SW2,SW1
+  Footprint: SW_SPST_B3S-1000
+  Quantity: '2'
+  Designation: SW_Push
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R2,R4,R1
+  Footprint: R_0603_1608Metric
+  Quantity: '3'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: G***
+  Footprint: nand-cat
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: Q1,Q2
+  Footprint: SOT-23
+  Quantity: '2'
+  Designation: BC847B
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R5,R3
+  Footprint: R_0603_1608Metric
+  Quantity: '2'
+  Designation: 100K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: D1
+  Footprint: LED_D3.0mm
+  Quantity: '1'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1\
+  \ | PinHeader_2x03_P2.54mm_Vertical | 1 | Conn_02x03_Odd_Even |  |  | [''] | \n\
+  | 2 | SW2,SW1 | SW_SPST_B3S-1000 | 2 | SW_Push |  |  | [''] | \n| 3 | R2,R4,R1 |\
+  \ R_0603_1608Metric | 3 | 1K |  |  | [''] | \n| 4 | G*** | nand-cat | 1 | LOGO |\
+  \  |  | [''] | \n| 5 | Q1,Q2 | SOT-23 | 2 | BC847B |  |  | [''] | \n| 6 | R5,R3\
+  \ | R_0603_1608Metric | 2 | 100K |  |  | [''] | \n| 7 | D1 | LED_D3.0mm | 1 | LED\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: LED_THT:LED_D3.0mm
+  Qnty: '1'
+  Ref: D1
+  Value: LED
+  Vendor: ''
+- Cmp name: Conn_02x03_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x03, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_02x03_Odd_Even
+  Vendor: ''
+- Cmp name: BC847
+  DNP: ''
+  Description: 0.1A Ic, 45V Vce, NPN Transistor, SOT-23
+  Footprint: Package_TO_SOT_SMD:SOT-23
+  Qnty: '2'
+  Ref: Q1, Q2
+  Value: BC847B
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '3'
+  Ref: R1, R2, R4
+  Value: 1K
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '2'
+  Ref: R3, R5
+  Value: 100K
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: Push button switch, generic, two pins
+  Footprint: Button_Switch_SMD:SW_SPST_B3S-1000
+  Qnty: '2'
+  Ref: SW1, SW2
+  Value: SW_Push
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| D1 |\
+  \ 1 | LED | LED | LED_THT:LED_D3.0mm | Light emitting diode |  |  | \n| J1 | 1 |\
+  \ Conn_02x03_Odd_Even | Conn_02x03_Odd_Even | Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical\
+  \ | Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| Q1, Q2 | 2 | BC847B | BC847 | Package_TO_SOT_SMD:SOT-23 | 0.1A Ic,\
+  \ 45V Vce, NPN Transistor, SOT-23 |  |  | \n| R1, R2, R4 | 3 | 1K | R | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor |  |  | \n| R3, R5 | 2 | 100K | R | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor |  |  | \n| SW1, SW2 | 2 | SW_Push | SW_Push | Button_Switch_SMD:SW_SPST_B3S-1000\
+  \ | Push button switch, generic, two pins |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/electrolama_nandcat_nand_cat/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/electrolama_nandcat_nand_cat/current_version/working/working.kicad_pcb
 file_sch_flat: projects/electrolama_nandcat_nand_cat/current_version/working/working.sch
 id: electrolama_nandcat_nand_cat
 name: nandcat
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': D1
+  Package: LED_D3.0mm
+  PosX: 69.6
+  PosY: -36.8
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': G***
+  Package: nand-cat
+  PosX: 55.0
+  PosY: -35.85
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': J1
+  Package: PinHeader_2x03_P2.54mm_Vertical
+  PosX: 40.25
+  PosY: -33.25
+  Rot: 0.0
+  Side: top
+  Val: Conn_02x03_Odd_Even
+- '# Ref': Q1
+  Package: SOT-23
+  PosX: 50.75
+  PosY: -29.0
+  Rot: 90.0
+  Side: top
+  Val: BC847B
+- '# Ref': Q2
+  Package: SOT-23
+  PosX: 51.0
+  PosY: -39.25
+  Rot: 90.0
+  Side: top
+  Val: BC847B
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 46.7125
+  PosY: -35.75
+  Rot: 0.0
+  Side: top
+  Val: 1K
+- '# Ref': R2
+  Package: R_0603_1608Metric
+  PosX: 43.9625
+  PosY: -29.5
+  Rot: 0.0
+  Side: top
+  Val: 1K
+- '# Ref': R3
+  Package: R_0603_1608Metric
+  PosX: 50.7125
+  PosY: -33.25
+  Rot: 0.0
+  Side: top
+  Val: 100K
+- '# Ref': R4
+  Package: R_0603_1608Metric
+  PosX: 43.7125
+  PosY: -43.0
+  Rot: 0.0
+  Side: top
+  Val: 1K
+- '# Ref': R5
+  Package: R_0603_1608Metric
+  PosX: 50.9625
+  PosY: -43.5
+  Rot: 0.0
+  Side: top
+  Val: 100K
+- '# Ref': SW1
+  Package: SW_SPST_B3S-1000
+  PosX: 31.0
+  PosY: -29.475
+  Rot: 90.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW2
+  Package: SW_SPST_B3S-1000
+  PosX: 31.0
+  PosY: -43.025
+  Rot: 90.0
+  Side: top
+  Val: SW_Push
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| D1 | LED | LED_D3.0mm | 69.6 | -36.8\
+  \ | 0.0 | top | \n| G*** | LOGO | nand-cat | 55.0 | -35.85 | 0.0 | top | \n| J1\
+  \ | Conn_02x03_Odd_Even | PinHeader_2x03_P2.54mm_Vertical | 40.25 | -33.25 | 0.0\
+  \ | top | \n| Q1 | BC847B | SOT-23 | 50.75 | -29.0 | 90.0 | top | \n| Q2 | BC847B\
+  \ | SOT-23 | 51.0 | -39.25 | 90.0 | top | \n| R1 | 1K | R_0603_1608Metric | 46.7125\
+  \ | -35.75 | 0.0 | top | \n| R2 | 1K | R_0603_1608Metric | 43.9625 | -29.5 | 0.0\
+  \ | top | \n| R3 | 100K | R_0603_1608Metric | 50.7125 | -33.25 | 0.0 | top | \n\
+  | R4 | 1K | R_0603_1608Metric | 43.7125 | -43.0 | 0.0 | top | \n| R5 | 100K | R_0603_1608Metric\
+  \ | 50.9625 | -43.5 | 0.0 | top | \n| SW1 | SW_Push | SW_SPST_B3S-1000 | 31.0 |\
+  \ -29.475 | 90.0 | top | \n| SW2 | SW_Push | SW_SPST_B3S-1000 | 31.0 | -43.025 |\
+  \ 90.0 | top | \n"
 projects_flat: projects/electrolama_nandcat_nand_cat/current_version/working
 repo:
   allow_forking: true

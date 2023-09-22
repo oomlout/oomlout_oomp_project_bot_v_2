@@ -1,9 +1,364 @@
 board: adafruit_veml6075
+bom:
+- Id: '1'
+  Designator: U2
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: MIC5225-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$4,U$3
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: FID2,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$12
+  Footprint: VEML6075
+  Quantity: '1'
+  Designation: VEML6075
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C2,C3
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: Q2
+  Footprint: SOT363
+  Quantity: '1'
+  Designation: 2N7002D
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: JP2
+  Footprint: 1X05_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R3
+  Footprint: RESPACK_4X0603
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U$8
+  Footprint: ADAFRUIT_2.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: C1
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U$1
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U$27
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U2\
+  \ | SOT23-5 | 1 | MIC5225-3.3 |  |  | [''] | \n| 2 | U$4,U$3 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 2 | MOUNTINGHOLE2.5 |  |  | [''] | \n| 3 | FID2,FID1 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM\
+  \ |  |  | [''] | \n| 4 | U$12 | VEML6075 | 1 | VEML6075 |  |  | [''] | \n| 5 | C2,C3\
+  \ | 0805-NO | 2 | 10uF |  |  | [''] | \n| 6 | Q2 | SOT363 | 1 | 2N7002D |  |  |\
+  \ [''] | \n| 7 | JP2 | 1X05_ROUND | 1 |  |  |  | [''] | \n| 8 | R3 | RESPACK_4X0603\
+  \ | 1 | 10K |  |  | [''] | \n| 9 | U$8 | ADAFRUIT_2.5MM | 1 |  |  |  | [''] | \n\
+  | 10 | C1 | 0603-NO | 1 | 0.1uF |  |  | [''] | \n| 11 | U$1 | ADAFRUIT_3.5MM | 1\
+  \ |  |  |  | [''] | \n| 12 | U$27 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: C1
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C2, C3
+  Value: 10uF
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: HEADER-1X5ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X05_ROUND
+  Qnty: '1'
+  Ref: JP2
+  Value: HEADER-1X5ROUND
+  Vendor: ''
+- Cmp name: MOSFET-N_DUAL
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT363
+  Qnty: '1'
+  Ref: Q2
+  Value: 2N7002D
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603
+  Qnty: '1'
+  Ref: R3
+  Value: 10K
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U2
+  Value: MIC5225-3.3
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '2'
+  Ref: U$3, U$4
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+- Cmp name: VEML6075
+  DNP: ''
+  Description: ''
+  Footprint: working:VEML6075
+  Qnty: '1'
+  Ref: U$12
+  Value: VEML6075
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| C2, C3 | 2 | 10uF\
+  \ | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| FID1, FID2 | 2 |\
+  \ FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| JP2 | 1 | HEADER-1X5ROUND\
+  \ | HEADER-1X5ROUND | working:1X05_ROUND |  |  |  | \n| Q2 | 1 | 2N7002D | MOSFET-N_DUAL\
+  \ | working:SOT363 |  |  |  | \n| R3 | 1 | 10K | RESISTOR_4PACK | working:RESPACK_4X0603\
+  \ |  |  |  | \n| U2 | 1 | MIC5225-3.3 | VREG_SOT23-5 | working:SOT23-5 |  |  | \
+  \ | \n| U$3, U$4 | 2 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED\
+  \ |  |  |  | \n| U$12 | 1 | VEML6075 | VEML6075 | working:VEML6075 |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_veml6075_uv_sensor_pcb_adafruit_veml6075/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_veml6075_uv_sensor_pcb_adafruit_veml6075/current_version/working/working.sch
 id: adafruit_adafruit_veml6075_uv_sensor_pcb_adafruit_veml6075
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$3
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$4
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '10.159999999999997'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$3 | m3 | \n| 10.159999999999997 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$4 | m3 | \n"
 name: adafruit_veml6075_uv_sensor_pcb
+position_bottom:
+- '# Ref': U$1
+  Package: ADAFRUIT_3.5MM
+  PosX: 155.8671
+  PosY: -106.1466
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$27
+  Package: PCBFEAT-REV-040
+  PosX: 142.4051
+  PosY: -104.4956
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$1 | nan | ADAFRUIT_3.5MM | 155.8671\
+  \ | -106.1466 | 180.0 | bottom | \n| U$27 | nan | PCBFEAT-REV-040 | 142.4051 | -104.4956\
+  \ | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0603-NO
+  PosX: 148.5011
+  PosY: -103.9876
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 143.9291
+  PosY: -107.5436
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 143.9291
+  PosY: -102.4636
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 149.7711
+  PosY: -102.3366
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 146.5961
+  PosY: -107.7976
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': JP2
+  Package: 1X05_ROUND
+  PosX: 148.5011
+  PosY: -110.7186
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': Q2
+  Package: SOT363
+  PosX: 152.3111
+  PosY: -106.7816
+  Rot: 90.0
+  Side: top
+  Val: 2N7002D
+- '# Ref': R3
+  Package: RESPACK_4X0603
+  PosX: 152.8191
+  PosY: -103.4796
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': U$3
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 143.4211
+  PosY: -99.2886
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$4
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 153.5811
+  PosY: -99.2886
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$8
+  Package: ADAFRUIT_2.5MM
+  PosX: 153.7081
+  PosY: -107.5436
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$12
+  Package: VEML6075
+  PosX: 148.5011
+  PosY: -105.6386
+  Rot: 0.0
+  Side: top
+  Val: VEML6075
+- '# Ref': U2
+  Package: SOT23-5
+  PosX: 144.0561
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: MIC5225-3.3
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | 0603-NO | 148.5011 | -103.9876\
+  \ | 180.0 | top | \n| C2 | 10uF | 0805-NO | 143.9291 | -107.5436 | 0.0 | top | \n\
+  | C3 | 10uF | 0805-NO | 143.9291 | -102.4636 | 180.0 | top | \n| FID1 | FIDUCIAL_1MM\
+  \ | FIDUCIAL_1MM | 149.7711 | -102.3366 | 0.0 | top | \n| FID2 | FIDUCIAL_1MM |\
+  \ FIDUCIAL_1MM | 146.5961 | -107.7976 | 0.0 | top | \n| JP2 | nan | 1X05_ROUND |\
+  \ 148.5011 | -110.7186 | 0.0 | top | \n| Q2 | 2N7002D | SOT363 | 152.3111 | -106.7816\
+  \ | 90.0 | top | \n| R3 | 10K | RESPACK_4X0603 | 152.8191 | -103.4796 | 180.0 |\
+  \ top | \n| U$3 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 143.4211 | -99.2886\
+  \ | 0.0 | top | \n| U$4 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 153.5811 |\
+  \ -99.2886 | 0.0 | top | \n| U$8 | nan | ADAFRUIT_2.5MM | 153.7081 | -107.5436 |\
+  \ 0.0 | top | \n| U$12 | VEML6075 | VEML6075 | 148.5011 | -105.6386 | 0.0 | top\
+  \ | \n| U2 | MIC5225-3.3 | SOT23-5 | 144.0561 | -105.0036 | -90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_veml6075_uv_sensor_pcb_adafruit_veml6075/current_version/working
 repo:
   allow_forking: true

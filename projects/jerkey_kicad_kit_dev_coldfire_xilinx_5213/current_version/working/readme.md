@@ -1,0 +1,21 @@
+# kicad
+ 
+## summary 
+* id: jerkey_kicad_kit_dev_coldfire_xilinx_5213
+* user: jerkey
+* name: kicad
+* board: kit_dev_coldfire_xilinx_5213
+* repo: https://github.com/jerkey/kicad
+* src_file_repo_kicad_pcb: demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire-xilinx_5213.kicad_pcb
+* src_file_repo_kicad_pcb_link: https://github.com/jerkey/kicad/tree/master/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire-xilinx_5213.kicad_pcb
+
+
+* src_file_repo_sch: demos/interf_u/interf_u.sch
+* src_file_repo_sch_link: https://github.com/jerkey/kicad/tree/master/demos/interf_u/interf_u.sch
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/jerkey_kicad_kit_dev_coldfire_xilinx_5213/current_version/working  
+
+
+
+
+
+

@@ -1,9 +1,678 @@
 board: adafruit_uda1334_i2s_dac
+bom:
+- Id: '1'
+  Designator: C7,C8
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 0.01uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U1
+  Footprint: SSOP16_4.4MM
+  Quantity: '1'
+  Designation: UDA1334ATS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$12,U$11,U$13,U$14
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '4'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C4,C11,C12,C5,C2
+  Footprint: 0805-NO
+  Quantity: '5'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C3,C1,C9
+  Footprint: 0805-NO
+  Quantity: '3'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: FID2,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R4,R6
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: '100'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: JP3
+  Footprint: 1X09_ROUND_70
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R1,R2,R8,R10,R7,R9
+  Footprint: 0603-NO
+  Quantity: '6'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: FB1,FB2
+  Footprint: 0805
+  Quantity: '2'
+  Designation: Ferrite
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: C6,C10
+  Footprint: PANASONIC_C
+  Quantity: '2'
+  Designation: 47uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U2
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: MIC5225-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U$29
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: R3,R5
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 220k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: JP1
+  Footprint: 1X06_ROUND_70
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: X2
+  Footprint: 4UCONN_19269
+  Quantity: '1'
+  Designation: '19269'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: U$5
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: U$6
+  Footprint: ADAFRUIT_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C7,C8\
+  \ | 0805-NO | 2 | 0.01uF |  |  | [''] | \n| 2 | U1 | SSOP16_4.4MM | 1 | UDA1334ATS\
+  \ |  |  | [''] | \n| 3 | U$12,U$11,U$13,U$14 | MOUNTINGHOLE_2.5_PLATED | 4 | MOUNTINGHOLE2.5\
+  \ |  |  | [''] | \n| 4 | C4,C11,C12,C5,C2 | 0805-NO | 5 | 10uF |  |  | [''] | \n\
+  | 5 | C3,C1,C9 | 0805-NO | 3 | 0.1uF |  |  | [''] | \n| 6 | FID2,FID1 | FIDUCIAL_1MM\
+  \ | 2 | FIDUCIAL_1MM |  |  | [''] | \n| 7 | R4,R6 | 0805-NO | 2 | 100 |  |  | ['']\
+  \ | \n| 8 | JP3 | 1X09_ROUND_70 | 1 |  |  |  | [''] | \n| 9 | R1,R2,R8,R10,R7,R9\
+  \ | 0603-NO | 6 | 10k |  |  | [''] | \n| 10 | FB1,FB2 | 0805 | 2 | Ferrite |  |\
+  \  | [''] | \n| 11 | C6,C10 | PANASONIC_C | 2 | 47uF |  |  | [''] | \n| 12 | U2\
+  \ | SOT23-5 | 1 | MIC5225-3.3 |  |  | [''] | \n| 13 | U$29 | ADAFRUIT_3.5MM | 1\
+  \ |  |  |  | [''] | \n| 14 | R3,R5 | 0805-NO | 2 | 220k |  |  | [''] | \n| 15 |\
+  \ JP1 | 1X06_ROUND_70 | 1 |  |  |  | [''] | \n| 16 | X2 | 4UCONN_19269 | 1 | 19269\
+  \ |  |  | [''] | \n| 17 | U$5 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n| 18 | U$6\
+  \ | ADAFRUIT_5MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '3'
+  Ref: C1, C3, C9
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '5'
+  Ref: C2, C4, C5, C11, C12
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_ELECTROLYTICPANASONIC_C
+  DNP: ''
+  Description: ''
+  Footprint: working:PANASONIC_C
+  Qnty: '2'
+  Ref: C6, C10
+  Value: 47uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C7, C8
+  Value: 0.01uF
+  Vendor: ''
+- Cmp name: FERRITE0805
+  DNP: ''
+  Description: ''
+  Footprint: working:0805
+  Qnty: '2'
+  Ref: FB1, FB2
+  Value: Ferrite
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: HEADER-1X670MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06_ROUND_70
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X670MIL
+  Vendor: ''
+- Cmp name: HEADER-1X970MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X09_ROUND_70
+  Qnty: '1'
+  Ref: JP3
+  Value: HEADER-1X970MIL
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '6'
+  Ref: R1, R2, R7, R8, R9, R10
+  Value: 10k
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: R3, R5
+  Value: 220k
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: R4, R6
+  Value: '100'
+  Vendor: ''
+- Cmp name: AUDIO_I2S_UDA1334{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:SSOP16_4.4MM
+  Qnty: '1'
+  Ref: U1
+  Value: UDA1334ATS
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U2
+  Value: MIC5225-3.3
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '4'
+  Ref: U$11, U$12, U$13, U$14
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+- Cmp name: AUDIO_3.5MMJACK
+  DNP: ''
+  Description: ''
+  Footprint: working:4UCONN_19269
+  Qnty: '1'
+  Ref: X2
+  Value: '19269'
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C3,\
+  \ C9 | 3 | 0.1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C2,\
+  \ C4, C5, C11, C12 | 5 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |\
+  \  |  | \n| C6, C10 | 2 | 47uF | CAP_ELECTROLYTICPANASONIC_C | working:PANASONIC_C\
+  \ |  |  |  | \n| C7, C8 | 2 | 0.01uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO\
+  \ |  |  |  | \n| FB1, FB2 | 2 | Ferrite | FERRITE0805 | working:0805 |  |  |  |\
+  \ \n| FID1, FID2 | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  | \
+  \ |  | \n| JP1 | 1 | HEADER-1X670MIL | HEADER-1X670MIL | working:1X06_ROUND_70 |\
+  \  |  |  | \n| JP3 | 1 | HEADER-1X970MIL | HEADER-1X970MIL | working:1X09_ROUND_70\
+  \ |  |  |  | \n| R1, R2, R7, R8, R9, R10 | 6 | 10k | RESISTOR_0603_NOOUT | working:0603-NO\
+  \ |  |  |  | \n| R3, R5 | 2 | 220k | RESISTOR0805_NOOUTLINE | working:0805-NO |\
+  \  |  |  | \n| R4, R6 | 2 | 100 | RESISTOR0805_NOOUTLINE | working:0805-NO |  |\
+  \  |  | \n| U1 | 1 | UDA1334ATS | AUDIO_I2S_UDA1334{dblquote}{dblquote} | working:SSOP16_4.4MM\
+  \ |  |  |  | \n| U2 | 1 | MIC5225-3.3 | VREG_SOT23-5 | working:SOT23-5 |  |  | \
+  \ | \n| U$11, U$12, U$13, U$14 | 4 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED\
+  \ |  |  |  | \n| X2 | 1 | 19269 | AUDIO_3.5MMJACK | working:4UCONN_19269 |  |  |\
+  \  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_uda1334a_i2s_stereo_dac_pcb_adafruit_uda1334_i2s_dac/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_uda1334a_i2s_stereo_dac_pcb_adafruit_uda1334_i2s_dac/current_version/working/working.sch
 id: adafruit_adafruit_uda1334a_i2s_stereo_dac_pcb_adafruit_uda1334_i2s_dac
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$11
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$12
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '33.02000000000001'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$13
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '20.320000000000007'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$14
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '33.02000000000001'
+  y: '20.320000000000007'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$11 | m3 | \n| 33.02000000000001 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$12 | m3 | \n| 0.0 | 20.320000000000007 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$13 | m3 | \n| 33.02000000000001 | 20.320000000000007 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$14 | m3 | \n"
 name: adafruit_uda1334a_i2s_stereo_dac_pcb
+position_bottom:
+- '# Ref': U$5
+  Package: PCBFEAT-REV-040
+  PosX: 133.1341
+  PosY: -100.0506
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$6
+  Package: ADAFRUIT_5MM
+  PosX: 163.3601
+  PosY: -117.0686
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$5 | nan | PCBFEAT-REV-040 | 133.1341\
+  \ | -100.0506 | 180.0 | bottom | \n| U$6 | nan | ADAFRUIT_5MM | 163.3601 | -117.0686\
+  \ | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 146.0881
+  PosY: -98.0186
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 145.0721
+  PosY: -100.8126
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 134.5311
+  PosY: -97.5106
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C4
+  Package: 0805-NO
+  PosX: 133.1341
+  PosY: -100.1776
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': C5
+  Package: 0805-NO
+  PosX: 148.2471
+  PosY: -104.3686
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C6
+  Package: PANASONIC_C
+  PosX: 150.0251
+  PosY: -109.8296
+  Rot: 180.0
+  Side: top
+  Val: 47uF
+- '# Ref': C7
+  Package: 0805-NO
+  PosX: 160.4391
+  PosY: -111.6076
+  Rot: 0.0
+  Side: top
+  Val: 0.01uF
+- '# Ref': C8
+  Package: 0805-NO
+  PosX: 161.2011
+  PosY: -98.1456
+  Rot: 180.0
+  Side: top
+  Val: 0.01uF
+- '# Ref': C9
+  Package: 0805-NO
+  PosX: 148.2471
+  PosY: -106.1466
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C10
+  Package: PANASONIC_C
+  PosX: 150.0251
+  PosY: -100.5586
+  Rot: 180.0
+  Side: top
+  Val: 47uF
+- '# Ref': C11
+  Package: 0805-NO
+  PosX: 137.0711
+  PosY: -111.7346
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C12
+  Package: 0805-NO
+  PosX: 131.7371
+  PosY: -104.6226
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': FB1
+  Package: 0805
+  PosX: 141.8971
+  PosY: -99.9236
+  Rot: 180.0
+  Side: top
+  Val: Ferrite
+- '# Ref': FB2
+  Package: 0805
+  PosX: 145.1991
+  PosY: -105.5116
+  Rot: -90.0
+  Side: top
+  Val: Ferrite
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 136.0551
+  PosY: -93.8276
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 160.9471
+  PosY: -115.4176
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': JP1
+  Package: 1X06_ROUND_70
+  PosX: 145.9611
+  PosY: -94.8436
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP3
+  Package: 1X09_ROUND_70
+  PosX: 147.2311
+  PosY: -115.1636
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 141.0081
+  PosY: -110.3376
+  Rot: 90.0
+  Side: top
+  Val: 10k
+- '# Ref': R2
+  Package: 0603-NO
+  PosX: 136.4361
+  PosY: -109.1946
+  Rot: 90.0
+  Side: top
+  Val: 10k
+- '# Ref': R3
+  Package: 0805-NO
+  PosX: 156.1211
+  PosY: -109.5756
+  Rot: 180.0
+  Side: top
+  Val: 220k
+- '# Ref': R4
+  Package: 0805-NO
+  PosX: 156.1211
+  PosY: -111.6076
+  Rot: 0.0
+  Side: top
+  Val: '100'
+- '# Ref': R5
+  Package: 0805-NO
+  PosX: 157.1371
+  PosY: -97.6376
+  Rot: 0.0
+  Side: top
+  Val: 220k
+- '# Ref': R6
+  Package: 0805-NO
+  PosX: 161.4551
+  PosY: -100.6856
+  Rot: 0.0
+  Side: top
+  Val: '100'
+- '# Ref': R7
+  Package: 0603-NO
+  PosX: 132.4991
+  PosY: -107.0356
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R8
+  Package: 0603-NO
+  PosX: 142.4051
+  PosY: -110.3376
+  Rot: 90.0
+  Side: top
+  Val: 10k
+- '# Ref': R9
+  Package: 0603-NO
+  PosX: 137.8331
+  PosY: -109.1946
+  Rot: 90.0
+  Side: top
+  Val: 10k
+- '# Ref': R10
+  Package: 0603-NO
+  PosX: 139.6111
+  PosY: -110.3376
+  Rot: 90.0
+  Side: top
+  Val: 10k
+- '# Ref': U$11
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 131.9911
+  PosY: -115.1636
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$12
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 165.0111
+  PosY: -115.1636
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$13
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 131.9911
+  PosY: -94.8436
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$14
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 165.0111
+  PosY: -94.8436
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$29
+  Package: ADAFRUIT_3.5MM
+  PosX: 136.4361
+  PosY: -99.4156
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U1
+  Package: SSOP16_4.4MM
+  PosX: 138.5951
+  PosY: -104.4956
+  Rot: -90.0
+  Side: top
+  Val: UDA1334ATS
+- '# Ref': U2
+  Package: SOT23-5
+  PosX: 133.2611
+  PosY: -109.4486
+  Rot: 90.0
+  Side: top
+  Val: MIC5225-3.3
+- '# Ref': X2
+  Package: 4UCONN_19269
+  PosX: 167.5511
+  PosY: -105.0036
+  Rot: 180.0
+  Side: top
+  Val: '19269'
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | 0805-NO | 146.0881 | -98.0186\
+  \ | 0.0 | top | \n| C2 | 10uF | 0805-NO | 145.0721 | -100.8126 | -90.0 | top | \n\
+  | C3 | 0.1uF | 0805-NO | 134.5311 | -97.5106 | 180.0 | top | \n| C4 | 10uF | 0805-NO\
+  \ | 133.1341 | -100.1776 | 180.0 | top | \n| C5 | 10uF | 0805-NO | 148.2471 | -104.3686\
+  \ | 0.0 | top | \n| C6 | 47uF | PANASONIC_C | 150.0251 | -109.8296 | 180.0 | top\
+  \ | \n| C7 | 0.01uF | 0805-NO | 160.4391 | -111.6076 | 0.0 | top | \n| C8 | 0.01uF\
+  \ | 0805-NO | 161.2011 | -98.1456 | 180.0 | top | \n| C9 | 0.1uF | 0805-NO | 148.2471\
+  \ | -106.1466 | 0.0 | top | \n| C10 | 47uF | PANASONIC_C | 150.0251 | -100.5586\
+  \ | 180.0 | top | \n| C11 | 10uF | 0805-NO | 137.0711 | -111.7346 | 0.0 | top |\
+  \ \n| C12 | 10uF | 0805-NO | 131.7371 | -104.6226 | -90.0 | top | \n| FB1 | Ferrite\
+  \ | 0805 | 141.8971 | -99.9236 | 180.0 | top | \n| FB2 | Ferrite | 0805 | 145.1991\
+  \ | -105.5116 | -90.0 | top | \n| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM | 136.0551\
+  \ | -93.8276 | 0.0 | top | \n| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM | 160.9471 | -115.4176\
+  \ | 0.0 | top | \n| JP1 | nan | 1X06_ROUND_70 | 145.9611 | -94.8436 | 0.0 | top\
+  \ | \n| JP3 | nan | 1X09_ROUND_70 | 147.2311 | -115.1636 | 0.0 | top | \n| R1 |\
+  \ 10k | 0603-NO | 141.0081 | -110.3376 | 90.0 | top | \n| R2 | 10k | 0603-NO | 136.4361\
+  \ | -109.1946 | 90.0 | top | \n| R3 | 220k | 0805-NO | 156.1211 | -109.5756 | 180.0\
+  \ | top | \n| R4 | 100 | 0805-NO | 156.1211 | -111.6076 | 0.0 | top | \n| R5 | 220k\
+  \ | 0805-NO | 157.1371 | -97.6376 | 0.0 | top | \n| R6 | 100 | 0805-NO | 161.4551\
+  \ | -100.6856 | 0.0 | top | \n| R7 | 10k | 0603-NO | 132.4991 | -107.0356 | 0.0\
+  \ | top | \n| R8 | 10k | 0603-NO | 142.4051 | -110.3376 | 90.0 | top | \n| R9 |\
+  \ 10k | 0603-NO | 137.8331 | -109.1946 | 90.0 | top | \n| R10 | 10k | 0603-NO |\
+  \ 139.6111 | -110.3376 | 90.0 | top | \n| U$11 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 131.9911 | -115.1636 | 0.0 | top | \n| U$12 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 165.0111 | -115.1636 | 0.0 | top | \n| U$13 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 131.9911 | -94.8436 | 0.0 | top | \n| U$14 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 165.0111 | -94.8436 | 0.0 | top | \n| U$29 | nan | ADAFRUIT_3.5MM | 136.4361\
+  \ | -99.4156 | 0.0 | top | \n| U1 | UDA1334ATS | SSOP16_4.4MM | 138.5951 | -104.4956\
+  \ | -90.0 | top | \n| U2 | MIC5225-3.3 | SOT23-5 | 133.2611 | -109.4486 | 90.0 |\
+  \ top | \n| X2 | 19269 | 4UCONN_19269 | 167.5511 | -105.0036 | 180.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_uda1334a_i2s_stereo_dac_pcb_adafruit_uda1334_i2s_dac/current_version/working
 repo:
   allow_forking: true

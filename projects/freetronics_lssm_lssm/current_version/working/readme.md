@@ -1,0 +1,20 @@
+# lssm
+ 
+## summary 
+* id: freetronics_lssm_lssm
+* user: freetronics
+* name: lssm
+* board: lssm
+* repo: https://github.com/freetronics/LSSM
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/freetronics/LSSM/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/freetronics_lssm_lssm/current_version/working  
+
+
+
+
+
+

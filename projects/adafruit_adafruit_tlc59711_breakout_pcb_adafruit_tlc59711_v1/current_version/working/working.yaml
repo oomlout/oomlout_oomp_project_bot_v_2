@@ -1,9 +1,483 @@
 board: adafruit_tlc59711_v1
+bom:
+- Id: '1'
+  Designator: FID1,FID3,FID2
+  Footprint: FIDUCIAL_1MM
+  Quantity: '3'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R2
+  Footprint: 0805
+  Quantity: '1'
+  Designation: '470'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$3,U$1,U$2,U$4
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '4'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R3
+  Footprint: 0805-THM-7
+  Quantity: '1'
+  Designation: 3.3K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: JP3,JP2,JP5,JP8
+  Footprint: 2X03_ROUND_70MIL
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: JP1
+  Footprint: 1X05_ROUND_70
+  Quantity: '1'
+  Designation: OUTPUT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C1
+  Footprint: 0805
+  Quantity: '1'
+  Designation: 10uF/16V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: LED1
+  Footprint: CHIP-LED0805
+  Quantity: '1'
+  Designation: Green
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: C2
+  Footprint: 0805
+  Quantity: '1'
+  Designation: 1uF/50V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: C4
+  Footprint: E2,5-7
+  Quantity: '1'
+  Designation: 220uF+
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: IC1
+  Footprint: HTSSOP20DAP
+  Quantity: '1'
+  Designation: TLC59711
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: JP4
+  Footprint: 1X05_ROUND_70
+  Quantity: '1'
+  Designation: INPUT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U$7
+  Footprint: ADAFRUIT_2.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: U$8
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | FID1,FID3,FID2\
+  \ | FIDUCIAL_1MM | 3 | FIDUCIAL\" |  |  | [''] | \n| 2 | R2 | 0805 | 1 | 470 | \
+  \ |  | [''] | \n| 3 | U$3,U$1,U$2,U$4 | MOUNTINGHOLE_2.5_PLATED | 4 | MOUNTINGHOLE2.5\
+  \ |  |  | [''] | \n| 4 | R3 | 0805-THM-7 | 1 | 3.3K |  |  | [''] | \n| 5 | JP3,JP2,JP5,JP8\
+  \ | 2X03_ROUND_70MIL | 4 |  |  |  | [''] | \n| 6 | JP1 | 1X05_ROUND_70 | 1 | OUTPUT\
+  \ |  |  | [''] | \n| 7 | C1 | 0805 | 1 | 10uF/16V |  |  | [''] | \n| 8 | LED1 |\
+  \ CHIP-LED0805 | 1 | Green |  |  | [''] | \n| 9 | C2 | 0805 | 1 | 1uF/50V |  | \
+  \ | [''] | \n| 10 | C4 | E2,5-7 | 1 | 220uF+ |  |  | [''] | \n| 11 | IC1 | HTSSOP20DAP\
+  \ | 1 | TLC59711 |  |  | [''] | \n| 12 | JP4 | 1X05_ROUND_70 | 1 | INPUT |  |  |\
+  \ [''] | \n| 13 | U$7 | ADAFRUIT_2.5MM | 1 |  |  |  | [''] | \n| 14 | U$8 | ADAFRUIT_3.5MM\
+  \ | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805
+  DNP: ''
+  Description: ''
+  Footprint: working:0805
+  Qnty: '1'
+  Ref: C1
+  Value: 10uF/16V
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805
+  DNP: ''
+  Description: ''
+  Footprint: working:0805
+  Qnty: '1'
+  Ref: C2
+  Value: 1uF/50V
+  Vendor: ''
+- Cmp name: CPOL-USE2.5-7
+  DNP: ''
+  Description: ''
+  Footprint: working:E2,5-7
+  Qnty: '1'
+  Ref: C4
+  Value: 220uF+
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '3'
+  Ref: FID1, FID2, FID3
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: TLC59711
+  DNP: ''
+  Description: ''
+  Footprint: working:HTSSOP20DAP
+  Qnty: '1'
+  Ref: IC1
+  Value: TLC59711
+  Vendor: ''
+- Cmp name: HEADER-1X570MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X05_ROUND_70
+  Qnty: '1'
+  Ref: JP1
+  Value: OUTPUT
+  Vendor: ''
+- Cmp name: HEADER-2X3
+  DNP: ''
+  Description: ''
+  Footprint: working:2X03_ROUND_70MIL
+  Qnty: '4'
+  Ref: JP2, JP3, JP5, JP8
+  Value: HEADER-2X3
+  Vendor: ''
+- Cmp name: HEADER-1X570MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X05_ROUND_70
+  Qnty: '1'
+  Ref: JP4
+  Value: INPUT
+  Vendor: ''
+- Cmp name: LEDCHIP-LED0805
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIP-LED0805
+  Qnty: '1'
+  Ref: LED1
+  Value: Green
+  Vendor: ''
+- Cmp name: RESISTOR0805
+  DNP: ''
+  Description: ''
+  Footprint: working:0805
+  Qnty: '1'
+  Ref: R2
+  Value: '470'
+  Vendor: ''
+- Cmp name: R-US_FLIPFLOP7
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-THM-7
+  Qnty: '1'
+  Ref: R3
+  Value: 3.3K
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '4'
+  Ref: U$1, U$2, U$3, U$4
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 10uF/16V | CAP_CERAMIC0805 | working:0805 |  |  |  | \n| C2 | 1 | 1uF/50V\
+  \ | CAP_CERAMIC0805 | working:0805 |  |  |  | \n| C4 | 1 | 220uF+ | CPOL-USE2.5-7\
+  \ | working:E2,5-7 |  |  |  | \n| FID1, FID2, FID3 | 3 | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote}\
+  \ | working:FIDUCIAL_1MM |  |  |  | \n| IC1 | 1 | TLC59711 | TLC59711 | working:HTSSOP20DAP\
+  \ |  |  |  | \n| JP1 | 1 | OUTPUT | HEADER-1X570MIL | working:1X05_ROUND_70 |  |\
+  \  |  | \n| JP2, JP3, JP5, JP8 | 4 | HEADER-2X3 | HEADER-2X3 | working:2X03_ROUND_70MIL\
+  \ |  |  |  | \n| JP4 | 1 | INPUT | HEADER-1X570MIL | working:1X05_ROUND_70 |  |\
+  \  |  | \n| LED1 | 1 | Green | LEDCHIP-LED0805 | working:CHIP-LED0805 |  |  |  |\
+  \ \n| R2 | 1 | 470 | RESISTOR0805 | working:0805 |  |  |  | \n| R3 | 1 | 3.3K |\
+  \ R-US_FLIPFLOP7 | working:0805-THM-7 |  |  |  | \n| U$1, U$2, U$3, U$4 | 4 | MOUNTINGHOLE2.5\
+  \ | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_tlc59711_breakout_pcb_adafruit_tlc59711_v1/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_tlc59711_breakout_pcb_adafruit_tlc59711_v1/current_version/working/working.sch
 id: adafruit_adafruit_tlc59711_breakout_pcb_adafruit_tlc59711_v1
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$1
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '17.906999999999996'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$2
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '22.733000000000004'
+  y: '17.78'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$3
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.12699999999999534'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$4
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '22.733000000000004'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 17.906999999999996 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$1 | m3 | \n| 22.733000000000004 | 17.78 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$2 | m3 | \n| 0.0 | 0.12699999999999534 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$3 | m3 | \n| 22.733000000000004 | 0.0 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$4 | m3 | \n"
 name: adafruit_tlc59711_breakout_pcb
+position_bottom:
+- '# Ref': U$8
+  Package: ADAFRUIT_3.5MM
+  PosX: 150.1521
+  PosY: -98.1456
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$8 | nan | ADAFRUIT_3.5MM | 150.1521\
+  \ | -98.1456 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0805
+  PosX: 154.8511
+  PosY: -100.9396
+  Rot: 180.0
+  Side: top
+  Val: 10uF/16V
+- '# Ref': C2
+  Package: 0805
+  PosX: 154.8511
+  PosY: -109.0676
+  Rot: 180.0
+  Side: top
+  Val: 1uF/50V
+- '# Ref': C4
+  Package: E2,5-7
+  PosX: 154.8511
+  PosY: -105.0036
+  Rot: 180.0
+  Side: top
+  Val: 220uF+
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 148.5011
+  PosY: -113.8936
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 154.8511
+  PosY: -106.6546
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 148.5011
+  PosY: -96.1136
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': IC1
+  Package: HTSSOP20DAP
+  PosX: 148.3741
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: TLC59711
+- '# Ref': JP1
+  Package: 1X05_ROUND_70
+  PosX: 161.2011
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: OUTPUT
+- '# Ref': JP2
+  Package: 2X03_ROUND_70MIL
+  PosX: 143.4211
+  PosY: -113.8936
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP3
+  Package: 2X03_ROUND_70MIL
+  PosX: 153.5811
+  PosY: -113.8936
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP4
+  Package: 1X05_ROUND_70
+  PosX: 135.8011
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: INPUT
+- '# Ref': JP5
+  Package: 2X03_ROUND_70MIL
+  PosX: 143.4211
+  PosY: -96.1136
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP8
+  Package: 2X03_ROUND_70MIL
+  PosX: 153.5811
+  PosY: -96.1136
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': LED1
+  Package: CHIP-LED0805
+  PosX: 143.4211
+  PosY: -102.4636
+  Rot: 180.0
+  Side: top
+  Val: Green
+- '# Ref': R2
+  Package: 0805
+  PosX: 143.4211
+  PosY: -106.4006
+  Rot: 90.0
+  Side: top
+  Val: '470'
+- '# Ref': R3
+  Package: 0805-THM-7
+  PosX: 140.8811
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: 3.3K
+- '# Ref': U$1
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 137.0711
+  PosY: -96.1136
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$2
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 159.8041
+  PosY: -96.2406
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$3
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 137.0711
+  PosY: -113.8936
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$4
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 159.8041
+  PosY: -114.0206
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$7
+  Package: ADAFRUIT_2.5MM
+  PosX: 147.2311
+  PosY: -101.0666
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 10uF/16V | 0805 | 154.8511 | -100.9396\
+  \ | 180.0 | top | \n| C2 | 1uF/50V | 0805 | 154.8511 | -109.0676 | 180.0 | top |\
+  \ \n| C4 | 220uF+ | E2,5-7 | 154.8511 | -105.0036 | 180.0 | top | \n| FID1 | FIDUCIAL\"\
+  \" | FIDUCIAL_1MM | 148.5011 | -113.8936 | 0.0 | top | \n| FID2 | FIDUCIAL\"\" |\
+  \ FIDUCIAL_1MM | 154.8511 | -106.6546 | 0.0 | top | \n| FID3 | FIDUCIAL\"\" | FIDUCIAL_1MM\
+  \ | 148.5011 | -96.1136 | 0.0 | top | \n| IC1 | TLC59711 | HTSSOP20DAP | 148.3741\
+  \ | -105.0036 | 0.0 | top | \n| JP1 | OUTPUT | 1X05_ROUND_70 | 161.2011 | -105.0036\
+  \ | 90.0 | top | \n| JP2 | nan | 2X03_ROUND_70MIL | 143.4211 | -113.8936 | 0.0 |\
+  \ top | \n| JP3 | nan | 2X03_ROUND_70MIL | 153.5811 | -113.8936 | 0.0 | top | \n\
+  | JP4 | INPUT | 1X05_ROUND_70 | 135.8011 | -105.0036 | 90.0 | top | \n| JP5 | nan\
+  \ | 2X03_ROUND_70MIL | 143.4211 | -96.1136 | 0.0 | top | \n| JP8 | nan | 2X03_ROUND_70MIL\
+  \ | 153.5811 | -96.1136 | 0.0 | top | \n| LED1 | Green | CHIP-LED0805 | 143.4211\
+  \ | -102.4636 | 180.0 | top | \n| R2 | 470 | 0805 | 143.4211 | -106.4006 | 90.0\
+  \ | top | \n| R3 | 3.3K | 0805-THM-7 | 140.8811 | -105.0036 | -90.0 | top | \n|\
+  \ U$1 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 137.0711 | -96.1136 | 0.0 |\
+  \ top | \n| U$2 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 159.8041 | -96.2406\
+  \ | 0.0 | top | \n| U$3 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 137.0711 |\
+  \ -113.8936 | 0.0 | top | \n| U$4 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED |\
+  \ 159.8041 | -114.0206 | 0.0 | top | \n| U$7 | nan | ADAFRUIT_2.5MM | 147.2311 |\
+  \ -101.0666 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_tlc59711_breakout_pcb_adafruit_tlc59711_v1/current_version/working
 repo:
   allow_forking: true

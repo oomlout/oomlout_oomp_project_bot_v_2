@@ -1,9 +1,212 @@
 board: adafruit_txb0104
+bom:
+- Id: '1'
+  Designator: JP4,JP3
+  Footprint: 1X06-CLEANBIG
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R1
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$5
+  Footprint: FIDUCIAL_1MM
+  Quantity: '1'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U2
+  Footprint: TSSOP14
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C1,C2
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U$7
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U$4
+  Footprint: ADAFRUIT_2.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | JP4,JP3\
+  \ | 1X06-CLEANBIG | 2 |  |  |  | [''] | \n| 2 | R1 | 0805-NO | 1 | 10K |  |  | ['']\
+  \ | \n| 3 | U$5 | FIDUCIAL_1MM | 1 | FIDUCIAL_1MM |  |  | [''] | \n| 4 | U2 | TSSOP14\
+  \ | 1 |  |  |  | [''] | \n| 5 | C1,C2 | 0805-NO | 2 | 0.1uF |  |  | [''] | \n| 6\
+  \ | U$7 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n| 7 | U$4 | ADAFRUIT_2.5MM | 1\
+  \ |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C1, C2
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: PINHD-1X6CB
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06-CLEANBIG
+  Qnty: '2'
+  Ref: JP3, JP4
+  Value: PINHD-1X6CB
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: R1
+  Value: 10K
+  Vendor: ''
+- Cmp name: TXB0104PWR
+  DNP: ''
+  Description: ''
+  Footprint: working:TSSOP14
+  Qnty: '1'
+  Ref: U2
+  Value: TXB0104PWR
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '1'
+  Ref: U$5
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2\
+  \ | 2 | 0.1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| JP3,\
+  \ JP4 | 2 | PINHD-1X6CB | PINHD-1X6CB | working:1X06-CLEANBIG |  |  |  | \n| R1\
+  \ | 1 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | \n| U2 | 1 | TXB0104PWR\
+  \ | TXB0104PWR | working:TSSOP14 |  |  |  | \n| U$5 | 1 | FIDUCIAL_1MM | FIDUCIAL_1MM\
+  \ | working:FIDUCIAL_1MM |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_txb0104_level_shifter_breakout_pcb_adafruit_txb0104/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_txb0104_level_shifter_breakout_pcb_adafruit_txb0104/current_version/working/working.sch
 id: adafruit_adafruit_txb0104_level_shifter_breakout_pcb_adafruit_txb0104
 name: adafruit_txb0104_level_shifter_breakout_pcb
+position_bottom:
+- '# Ref': U$4
+  Package: ADAFRUIT_2.5MM
+  PosX: 144.4371
+  PosY: -104.7496
+  Rot: 0.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$7
+  Package: PCBFEAT-REV-040
+  PosX: 150.7871
+  PosY: -99.5426
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$4 | nan | ADAFRUIT_2.5MM | 144.4371\
+  \ | -104.7496 | 0.0 | bottom | \n| U$7 | nan | PCBFEAT-REV-040 | 150.7871 | -99.5426\
+  \ | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 147.2311
+  PosY: -100.8126
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 149.7711
+  PosY: -100.8126
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': JP3
+  Package: 1X06-CLEANBIG
+  PosX: 153.5811
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP4
+  Package: 1X06-CLEANBIG
+  PosX: 143.4211
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 147.9931
+  PosY: -111.4806
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': U$5
+  Package: FIDUCIAL_1MM
+  PosX: 148.5011
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': U2
+  Package: TSSOP14
+  PosX: 148.5011
+  PosY: -106.5276
+  Rot: 180.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | 0805-NO | 147.2311 | -100.8126\
+  \ | -90.0 | top | \n| C2 | 0.1uF | 0805-NO | 149.7711 | -100.8126 | -90.0 | top\
+  \ | \n| JP3 | nan | 1X06-CLEANBIG | 153.5811 | -105.0036 | -90.0 | top | \n| JP4\
+  \ | nan | 1X06-CLEANBIG | 143.4211 | -105.0036 | 90.0 | top | \n| R1 | 10K | 0805-NO\
+  \ | 147.9931 | -111.4806 | 0.0 | top | \n| U$5 | FIDUCIAL_1MM | FIDUCIAL_1MM | 148.5011\
+  \ | -97.3836 | 0.0 | top | \n| U2 | nan | TSSOP14 | 148.5011 | -106.5276 | 180.0\
+  \ | top | \n"
 projects_flat: projects/adafruit_adafruit_txb0104_level_shifter_breakout_pcb_adafruit_txb0104/current_version/working
 repo:
   allow_forking: true

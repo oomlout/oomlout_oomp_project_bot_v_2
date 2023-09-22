@@ -1,10 +1,359 @@
 board: loudmouth
+bom:
+- Id: '1'
+  Designator: C101,C102,C103,C104
+  Footprint: C_1210_HandSoldering
+  Quantity: '4'
+  Designation: C
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: P101,P102,P103
+  Footprint: Pin_Header_Straight_1x02
+  Quantity: '3'
+  Designation: CONN_01X02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R101,R102,R104,R107
+  Footprint: R_0805_HandSoldering
+  Quantity: '4'
+  Designation: R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R103,R105,R106
+  Footprint: R_0805_HandSoldering
+  Quantity: '3'
+  Designation: '0'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: TP101,TP102,TP103
+  Footprint: Measurement_Point_Round-SMD-Pad_Big
+  Quantity: '3'
+  Designation: CONN_01X01
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: Q101
+  Footprint: TO-92_Molded_Narrow
+  Quantity: '1'
+  Designation: Q_NPN_EBC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: REF**,REF**,REF**,REF**
+  Footprint: MountingHole_2-5mm
+  Quantity: '4'
+  Designation: MountingHole_2-5mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C101,C102,C103,C104\
+  \ | C_1210_HandSoldering | 4 | C |  |  | [''] | \n| 2 | P101,P102,P103 | Pin_Header_Straight_1x02\
+  \ | 3 | CONN_01X02 |  |  | [''] | \n| 3 | R101,R102,R104,R107 | R_0805_HandSoldering\
+  \ | 4 | R |  |  | [''] | \n| 4 | R103,R105,R106 | R_0805_HandSoldering | 3 | 0 |\
+  \  |  | [''] | \n| 5 | TP101,TP102,TP103 | Measurement_Point_Round-SMD-Pad_Big |\
+  \ 3 | CONN_01X01 |  |  | [''] | \n| 6 | Q101 | TO-92_Molded_Narrow | 1 | Q_NPN_EBC\
+  \ |  |  | [''] | \n| 7 | REF**,REF**,REF**,REF** | MountingHole_2-5mm | 4 | MountingHole_2-5mm\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_SMD:C_1210_HandSoldering
+  Qnty: '4'
+  Ref: C101, C102, C103, C104
+  Value: C
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x02
+  Qnty: '3'
+  Ref: P101, P102, P103
+  Value: CONN_01X02
+  Vendor: ''
+- Cmp name: Q_NPN_EBC
+  DNP: ''
+  Description: ''
+  Footprint: Housings_TO-92:TO-92_Molded_Narrow
+  Qnty: '1'
+  Ref: Q101
+  Value: Q_NPN_EBC
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0805_HandSoldering
+  Qnty: '4'
+  Ref: R101, R102, R104, R107
+  Value: R
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0805_HandSoldering
+  Qnty: '3'
+  Ref: R103, R105, R106
+  Value: '0'
+  Vendor: ''
+- Cmp name: CONN_01X01
+  DNP: ''
+  Description: ''
+  Footprint: Measurement_Points:Measurement_Point_Round-SMD-Pad_Big
+  Qnty: '3'
+  Ref: TP101, TP102, TP103
+  Value: CONN_01X01
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C101,\
+  \ C102, C103, C104 | 4 | C | C | Capacitors_SMD:C_1210_HandSoldering |  |  |  |\
+  \ \n| P101, P102, P103 | 3 | CONN_01X02 | CONN_01X02 | Pin_Headers:Pin_Header_Straight_1x02\
+  \ |  |  |  | \n| Q101 | 1 | Q_NPN_EBC | Q_NPN_EBC | Housings_TO-92:TO-92_Molded_Narrow\
+  \ |  |  |  | \n| R101, R102, R104, R107 | 4 | R | R | Resistors_SMD:R_0805_HandSoldering\
+  \ |  |  |  | \n| R103, R105, R106 | 3 | 0 | R | Resistors_SMD:R_0805_HandSoldering\
+  \ |  |  |  | \n| TP101, TP102, TP103 | 3 | CONN_01X01 | CONN_01X01 | Measurement_Points:Measurement_Point_Round-SMD-Pad_Big\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/contextualelectronics_loudmouth_loudmouth/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/contextualelectronics_loudmouth_loudmouth/current_version/working/working.kicad_pcb
 file_sch_flat: projects/contextualelectronics_loudmouth_loudmouth/current_version/working/working.sch
 id: contextualelectronics_loudmouth_loudmouth
+mounting_holes:
+- package: MountingHole_2-5mm
+  ref: REF**
+  size: m3
+  value: MountingHole_2-5mm
+  x: '21.463000000000022'
+  y: '26.352500000000006'
+- package: MountingHole_2-5mm
+  ref: REF**
+  size: m3
+  value: MountingHole_2-5mm
+  x: '0.0'
+  y: '26.0985'
+- package: MountingHole_2-5mm
+  ref: REF**
+  size: m3
+  value: MountingHole_2-5mm
+  x: '0.06350000000000477'
+  y: '0.12700000000000955'
+- package: MountingHole_2-5mm
+  ref: REF**
+  size: m3
+  value: MountingHole_2-5mm
+  x: '21.526500000000027'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 21.463000000000022 | 26.352500000000006 | MountingHole_2-5mm\
+  \ | MountingHole_2-5mm | REF** | m3 | \n| 0.0 | 26.0985 | MountingHole_2-5mm | MountingHole_2-5mm\
+  \ | REF** | m3 | \n| 0.06350000000000477 | 0.12700000000000955 | MountingHole_2-5mm\
+  \ | MountingHole_2-5mm | REF** | m3 | \n| 21.526500000000027 | 0.0 | MountingHole_2-5mm\
+  \ | MountingHole_2-5mm | REF** | m3 | \n"
 name: loudmouth
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C101
+  Package: C_1210_HandSoldering
+  PosX: 160.147
+  PosY: -113.792
+  Rot: 180.0
+  Side: top
+  Val: C
+- '# Ref': C102
+  Package: C_1210_HandSoldering
+  PosX: 175.26
+  PosY: -116.84
+  Rot: 180.0
+  Side: top
+  Val: C
+- '# Ref': C103
+  Package: C_1210_HandSoldering
+  PosX: 166.5732
+  PosY: -99.4156
+  Rot: 90.0
+  Side: top
+  Val: C
+- '# Ref': C104
+  Package: C_1210_HandSoldering
+  PosX: 177.546
+  PosY: -101.6508
+  Rot: 180.0
+  Side: top
+  Val: C
+- '# Ref': P101
+  Package: Pin_Header_Straight_1x02
+  PosX: 158.5595
+  PosY: -109.474
+  Rot: 180.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': P102
+  Package: Pin_Header_Straight_1x02
+  PosX: 168.275
+  PosY: -94.107
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': P103
+  Package: Pin_Header_Straight_1x02
+  PosX: 179.5272
+  PosY: -109.1692
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': Q101
+  Package: TO-92_Molded_Narrow
+  PosX: 170.18
+  PosY: -110.998
+  Rot: 90.0
+  Side: top
+  Val: Q_NPN_EBC
+- '# Ref': R101
+  Package: R_0805_HandSoldering
+  PosX: 162.2552
+  PosY: -103.886
+  Rot: -90.0
+  Side: top
+  Val: R
+- '# Ref': R102
+  Package: R_0805_HandSoldering
+  PosX: 165.7985
+  PosY: -114.554
+  Rot: -90.0
+  Side: top
+  Val: R
+- '# Ref': R103
+  Package: R_0805_HandSoldering
+  PosX: 163.6268
+  PosY: -107.95
+  Rot: 180.0
+  Side: top
+  Val: '0'
+- '# Ref': R104
+  Package: R_0805_HandSoldering
+  PosX: 171.1452
+  PosY: -98.7552
+  Rot: -90.0
+  Side: top
+  Val: R
+- '# Ref': R105
+  Package: R_0805_HandSoldering
+  PosX: 171.196
+  PosY: -104.14
+  Rot: 90.0
+  Side: top
+  Val: '0'
+- '# Ref': R106
+  Package: R_0805_HandSoldering
+  PosX: 169.4688
+  PosY: -115.2144
+  Rot: 90.0
+  Side: top
+  Val: '0'
+- '# Ref': R107
+  Package: R_0805_HandSoldering
+  PosX: 169.4688
+  PosY: -120.4976
+  Rot: -90.0
+  Side: top
+  Val: R
+- '# Ref': REF**
+  Package: MountingHole_2-5mm
+  PosX: 180.4035
+  PosY: -94.6785
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_2-5mm
+- '# Ref': REF**
+  Package: MountingHole_2-5mm
+  PosX: 158.9405
+  PosY: -94.9325
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_2-5mm
+- '# Ref': REF**
+  Package: MountingHole_2-5mm
+  PosX: 159.004
+  PosY: -120.904
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_2-5mm
+- '# Ref': REF**
+  Package: MountingHole_2-5mm
+  PosX: 180.467
+  PosY: -121.031
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_2-5mm
+- '# Ref': TP101
+  Package: Measurement_Point_Round-SMD-Pad_Big
+  PosX: 163.83
+  PosY: -121.6025
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X01
+- '# Ref': TP102
+  Package: Measurement_Point_Round-SMD-Pad_Big
+  PosX: 163.576
+  PosY: -94.4245
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X01
+- '# Ref': TP103
+  Package: Measurement_Point_Round-SMD-Pad_Big
+  PosX: 176.022
+  PosY: -97.79
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X01
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C101 | C | C_1210_HandSoldering | 160.147\
+  \ | -113.792 | 180.0 | top | \n| C102 | C | C_1210_HandSoldering | 175.26 | -116.84\
+  \ | 180.0 | top | \n| C103 | C | C_1210_HandSoldering | 166.5732 | -99.4156 | 90.0\
+  \ | top | \n| C104 | C | C_1210_HandSoldering | 177.546 | -101.6508 | 180.0 | top\
+  \ | \n| P101 | CONN_01X02 | Pin_Header_Straight_1x02 | 158.5595 | -109.474 | 180.0\
+  \ | top | \n| P102 | CONN_01X02 | Pin_Header_Straight_1x02 | 168.275 | -94.107 |\
+  \ 90.0 | top | \n| P103 | CONN_01X02 | Pin_Header_Straight_1x02 | 179.5272 | -109.1692\
+  \ | 0.0 | top | \n| Q101 | Q_NPN_EBC | TO-92_Molded_Narrow | 170.18 | -110.998 |\
+  \ 90.0 | top | \n| R101 | R | R_0805_HandSoldering | 162.2552 | -103.886 | -90.0\
+  \ | top | \n| R102 | R | R_0805_HandSoldering | 165.7985 | -114.554 | -90.0 | top\
+  \ | \n| R103 | 0 | R_0805_HandSoldering | 163.6268 | -107.95 | 180.0 | top | \n\
+  | R104 | R | R_0805_HandSoldering | 171.1452 | -98.7552 | -90.0 | top | \n| R105\
+  \ | 0 | R_0805_HandSoldering | 171.196 | -104.14 | 90.0 | top | \n| R106 | 0 | R_0805_HandSoldering\
+  \ | 169.4688 | -115.2144 | 90.0 | top | \n| R107 | R | R_0805_HandSoldering | 169.4688\
+  \ | -120.4976 | -90.0 | top | \n| REF** | MountingHole_2-5mm | MountingHole_2-5mm\
+  \ | 180.4035 | -94.6785 | 0.0 | top | \n| REF** | MountingHole_2-5mm | MountingHole_2-5mm\
+  \ | 158.9405 | -94.9325 | 0.0 | top | \n| REF** | MountingHole_2-5mm | MountingHole_2-5mm\
+  \ | 159.004 | -120.904 | 0.0 | top | \n| REF** | MountingHole_2-5mm | MountingHole_2-5mm\
+  \ | 180.467 | -121.031 | 0.0 | top | \n| TP101 | CONN_01X01 | Measurement_Point_Round-SMD-Pad_Big\
+  \ | 163.83 | -121.6025 | 0.0 | top | \n| TP102 | CONN_01X01 | Measurement_Point_Round-SMD-Pad_Big\
+  \ | 163.576 | -94.4245 | 0.0 | top | \n| TP103 | CONN_01X01 | Measurement_Point_Round-SMD-Pad_Big\
+  \ | 176.022 | -97.79 | 0.0 | top | \n"
 projects_flat: projects/contextualelectronics_loudmouth_loudmouth/current_version/working
 repo:
   allow_forking: true

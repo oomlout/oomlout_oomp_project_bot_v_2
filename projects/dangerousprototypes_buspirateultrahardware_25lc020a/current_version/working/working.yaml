@@ -1,9 +1,228 @@
 board: 25lc020a
+bom:
+- Id: '1'
+  Designator: R3,R2,R1
+  Footprint: R603
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J1
+  Footprint: M1X10_FEMALE_RIGHT_ANGLED_PTH
+  Quantity: '1'
+  Designation: CON_HEADER_1X10-RIGHT_ANGLED_PTH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: LED1
+  Footprint: LED-805
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: '@HOLE0,@HOLE1'
+  Footprint: ''
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C1
+  Footprint: C603
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J2
+  Footprint: M1X10
+  Quantity: '1'
+  Designation: CON_HEADER_1X10-PTH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: IC1
+  Footprint: SOIC127P600X175-8N
+  Quantity: '1'
+  Designation: 25LC020A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R3,R2,R1\
+  \ | R603 | 3 |  |  |  | [''] | \n| 2 | J1 | M1X10_FEMALE_RIGHT_ANGLED_PTH | 1 |\
+  \ CON_HEADER_1X10-RIGHT_ANGLED_PTH |  |  | [''] | \n| 3 | LED1 | LED-805 | 1 | \
+  \ |  |  | [''] | \n| 4 | @HOLE0,@HOLE1 |  | 2 |  |  |  | [''] | \n| 5 | C1 | C603\
+  \ | 1 |  |  |  | [''] | \n| 6 | J2 | M1X10 | 1 | CON_HEADER_1X10-PTH |  |  | ['']\
+  \ | \n| 7 | IC1 | SOIC127P600X175-8N | 1 | 25LC020A |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAPACITOR_NPOL-0603
+  DNP: ''
+  Description: ''
+  Footprint: working:C603
+  Qnty: '1'
+  Ref: C1
+  Value: CAPACITOR_NPOL-0603
+  Vendor: ''
+- Cmp name: 25LC020A-I_SN
+  DNP: ''
+  Description: ''
+  Footprint: working:SOIC127P600X175-8N
+  Qnty: '1'
+  Ref: IC1
+  Value: 25LC020A-I_SN
+  Vendor: ''
+- Cmp name: CON_HEADER_1X10-RIGHT_ANGLED_PTH
+  DNP: ''
+  Description: ''
+  Footprint: working:M1X10_FEMALE_RIGHT_ANGLED_PTH
+  Qnty: '1'
+  Ref: J1
+  Value: CON_HEADER_1X10-RIGHT_ANGLED_PTH
+  Vendor: ''
+- Cmp name: CON_HEADER_1X10-PTH
+  DNP: ''
+  Description: ''
+  Footprint: working:M1X10
+  Qnty: '1'
+  Ref: J2
+  Value: CON_HEADER_1X10-PTH
+  Vendor: ''
+- Cmp name: LED-0805
+  DNP: ''
+  Description: ''
+  Footprint: working:LED-805
+  Qnty: '1'
+  Ref: LED1
+  Value: LED-0805
+  Vendor: ''
+- Cmp name: RESISTOR-0603
+  DNP: ''
+  Description: ''
+  Footprint: working:R603
+  Qnty: '3'
+  Ref: R1, R2, R3
+  Value: RESISTOR-0603
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | CAPACITOR_NPOL-0603 | CAPACITOR_NPOL-0603 | working:C603 |  |  |  | \n| IC1\
+  \ | 1 | 25LC020A-I_SN | 25LC020A-I_SN | working:SOIC127P600X175-8N |  |  |  | \n\
+  | J1 | 1 | CON_HEADER_1X10-RIGHT_ANGLED_PTH | CON_HEADER_1X10-RIGHT_ANGLED_PTH |\
+  \ working:M1X10_FEMALE_RIGHT_ANGLED_PTH |  |  |  | \n| J2 | 1 | CON_HEADER_1X10-PTH\
+  \ | CON_HEADER_1X10-PTH | working:M1X10 |  |  |  | \n| LED1 | 1 | LED-0805 | LED-0805\
+  \ | working:LED-805 |  |  |  | \n| R1, R2, R3 | 3 | RESISTOR-0603 | RESISTOR-0603\
+  \ | working:R603 |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/dangerousprototypes_buspirateultrahardware_25lc020a/current_version/working/working.brd
 file_sch_flat: projects/dangerousprototypes_buspirateultrahardware_25lc020a/current_version/working/working.sch
 id: dangerousprototypes_buspirateultrahardware_25lc020a
 name: buspirateultrahardware
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 148.5211
+  PosY: -90.0036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 148.5211
+  PosY: -120.0036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: C603
+  PosX: 146.1411
+  PosY: -96.6986
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': IC1
+  Package: SOIC127P600X175-8N
+  PosX: 148.6811
+  PosY: -102.4136
+  Rot: 90.0
+  Side: top
+  Val: 25LC020A
+- '# Ref': J1
+  Package: M1X10_FEMALE_RIGHT_ANGLED_PTH
+  PosX: 130.9411
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: CON_HEADER_1X10-RIGHT_ANGLED_PTH
+- '# Ref': J2
+  Package: M1X10
+  PosX: 160.9811
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: CON_HEADER_1X10-PTH
+- '# Ref': LED1
+  Package: LED-805
+  PosX: 149.9511
+  PosY: -112.5736
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: R603
+  PosX: 149.3161
+  PosY: -108.1286
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': R2
+  Package: R603
+  PosX: 148.0461
+  PosY: -96.6986
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': R3
+  Package: R603
+  PosX: 146.1411
+  PosY: -112.5736
+  Rot: 180.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 148.5211 | -90.0036\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 148.5211 | -120.0036 | 0.0 | top | \n|\
+  \ C1 | nan | C603 | 146.1411 | -96.6986 | 90.0 | top | \n| IC1 | 25LC020A | SOIC127P600X175-8N\
+  \ | 148.6811 | -102.4136 | 90.0 | top | \n| J1 | CON_HEADER_1X10-RIGHT_ANGLED_PTH\
+  \ | M1X10_FEMALE_RIGHT_ANGLED_PTH | 130.9411 | -105.0036 | 90.0 | top | \n| J2 |\
+  \ CON_HEADER_1X10-PTH | M1X10 | 160.9811 | -105.0036 | 90.0 | top | \n| LED1 | nan\
+  \ | LED-805 | 149.9511 | -112.5736 | -90.0 | top | \n| R1 | nan | R603 | 149.3161\
+  \ | -108.1286 | -90.0 | top | \n| R2 | nan | R603 | 148.0461 | -96.6986 | 90.0 |\
+  \ top | \n| R3 | nan | R603 | 146.1411 | -112.5736 | 180.0 | top | \n"
 projects_flat: projects/dangerousprototypes_buspirateultrahardware_25lc020a/current_version/working
 repo:
   allow_forking: true

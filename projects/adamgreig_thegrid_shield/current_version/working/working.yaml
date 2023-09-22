@@ -1,10 +1,605 @@
 board: shield
+bom:
+- Id: '1'
+  Designator: P5
+  Footprint: Pin_Header_Straight_1x04
+  Quantity: '1'
+  Designation: SHIFT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: P6
+  Footprint: S02B-PASK-2
+  Quantity: '1'
+  Designation: BUS1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: P7
+  Footprint: S02B-PASK-2
+  Quantity: '1'
+  Designation: BUS2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: P8
+  Footprint: S02B-PASK-2
+  Quantity: '1'
+  Designation: BUS3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: P9
+  Footprint: S02B-PASK-2
+  Quantity: '1'
+  Designation: BUS4
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: P10
+  Footprint: S02B-PASK-2
+  Quantity: '1'
+  Designation: BUS5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: P11
+  Footprint: S02B-PASK-2
+  Quantity: '1'
+  Designation: BUS6
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: P12
+  Footprint: S02B-PASK-2
+  Quantity: '1'
+  Designation: BUS7
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: P13
+  Footprint: S02B-PASK-2
+  Quantity: '1'
+  Designation: BUS8
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: C1,C2,C8,C6,C3
+  Footprint: '0603'
+  Quantity: '5'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: IC1
+  Footprint: LQFP-32
+  Quantity: '1'
+  Designation: STM32F0xxKxTx
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: IC2
+  Footprint: SOT-23
+  Quantity: '1'
+  Designation: MCP1700
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: IC3,IC4
+  Footprint: SOIC-16
+  Quantity: '2'
+  Designation: AM26C31
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: J1
+  Footprint: MICROUSB_MOLEX_47589-0001
+  Quantity: '1'
+  Designation: MICROUSB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: C10,C9,C7
+  Footprint: '0603'
+  Quantity: '3'
+  Designation: 1u
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: C5
+  Footprint: '0603'
+  Quantity: '1'
+  Designation: C
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: C4
+  Footprint: '0603'
+  Quantity: '1'
+  Designation: 10u
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: P1
+  Footprint: TC2030-NL
+  Quantity: '1'
+  Designation: SWD_TC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: X4,X3,X2,X1
+  Footprint: M3_MOUNT
+  Quantity: '4'
+  Designation: PART
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | P5\
+  \ | Pin_Header_Straight_1x04 | 1 | SHIFT |  |  | [''] | \n| 2 | P6 | S02B-PASK-2\
+  \ | 1 | BUS1 |  |  | [''] | \n| 3 | P7 | S02B-PASK-2 | 1 | BUS2 |  |  | [''] | \n\
+  | 4 | P8 | S02B-PASK-2 | 1 | BUS3 |  |  | [''] | \n| 5 | P9 | S02B-PASK-2 | 1 |\
+  \ BUS4 |  |  | [''] | \n| 6 | P10 | S02B-PASK-2 | 1 | BUS5 |  |  | [''] | \n| 7\
+  \ | P11 | S02B-PASK-2 | 1 | BUS6 |  |  | [''] | \n| 8 | P12 | S02B-PASK-2 | 1 |\
+  \ BUS7 |  |  | [''] | \n| 9 | P13 | S02B-PASK-2 | 1 | BUS8 |  |  | [''] | \n| 10\
+  \ | C1,C2,C8,C6,C3 | 0603 | 5 | 100n |  |  | [''] | \n| 11 | IC1 | LQFP-32 | 1 |\
+  \ STM32F0xxKxTx |  |  | [''] | \n| 12 | IC2 | SOT-23 | 1 | MCP1700 |  |  | ['']\
+  \ | \n| 13 | IC3,IC4 | SOIC-16 | 2 | AM26C31 |  |  | [''] | \n| 14 | J1 | MICROUSB_MOLEX_47589-0001\
+  \ | 1 | MICROUSB |  |  | [''] | \n| 15 | C10,C9,C7 | 0603 | 3 | 1u |  |  | ['']\
+  \ | \n| 16 | C5 | 0603 | 1 | C |  |  | [''] | \n| 17 | C4 | 0603 | 1 | 10u |  |\
+  \  | [''] | \n| 18 | P1 | TC2030-NL | 1 | SWD_TC |  |  | [''] | \n| 19 | X4,X3,X2,X1\
+  \ | M3_MOUNT | 4 | PART |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '6'
+  Ref: C1, C2, C3, C5, C6, C8
+  Value: 100n
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '1'
+  Ref: C4
+  Value: 10u
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '3'
+  Ref: C7, C9, C10
+  Value: 1u
+  Vendor: ''
+- Cmp name: STM32F0xxKxTx
+  DNP: ''
+  Description: ''
+  Footprint: agg:LQFP-32
+  Qnty: '1'
+  Ref: IC1
+  Value: STM32F0xxKxTx
+  Vendor: ''
+- Cmp name: MCP1700
+  DNP: ''
+  Description: ''
+  Footprint: agg:SOT-23
+  Qnty: '1'
+  Ref: IC2
+  Value: MCP1700
+  Vendor: ''
+- Cmp name: AM26C31
+  DNP: ''
+  Description: ''
+  Footprint: agg:SOIC-16
+  Qnty: '2'
+  Ref: IC3, IC4
+  Value: AM26C31
+  Vendor: ''
+- Cmp name: MICROUSB
+  DNP: ''
+  Description: ''
+  Footprint: agg:MICROUSB_MOLEX_47589-0001
+  Qnty: '1'
+  Ref: J1
+  Value: MICROUSB
+  Vendor: ''
+- Cmp name: SWD_TC
+  DNP: ''
+  Description: ''
+  Footprint: agg:TC2030-NL
+  Qnty: '1'
+  Ref: P1
+  Value: SWD_TC
+  Vendor: ''
+- Cmp name: CONN_01X04
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x04
+  Qnty: '1'
+  Ref: P5
+  Value: SHIFT
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: agg:S02B-PASK-2
+  Qnty: '1'
+  Ref: P6
+  Value: BUS1
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: agg:S02B-PASK-2
+  Qnty: '1'
+  Ref: P7
+  Value: BUS2
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: agg:S02B-PASK-2
+  Qnty: '1'
+  Ref: P8
+  Value: BUS3
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: agg:S02B-PASK-2
+  Qnty: '1'
+  Ref: P9
+  Value: BUS4
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: agg:S02B-PASK-2
+  Qnty: '1'
+  Ref: P10
+  Value: BUS5
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: agg:S02B-PASK-2
+  Qnty: '1'
+  Ref: P11
+  Value: BUS6
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: agg:S02B-PASK-2
+  Qnty: '1'
+  Ref: P12
+  Value: BUS7
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: agg:S02B-PASK-2
+  Qnty: '1'
+  Ref: P13
+  Value: BUS8
+  Vendor: ''
+- Cmp name: PART
+  DNP: ''
+  Description: ''
+  Footprint: agg:M3_MOUNT
+  Qnty: '4'
+  Ref: X1, X2, X3, X4
+  Value: PART
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3, C5, C6, C8 | 6 | 100n | C | agg:0603 |  |  |  | \n| C4 | 1 | 10u | C | agg:0603\
+  \ |  |  |  | \n| C7, C9, C10 | 3 | 1u | C | agg:0603 |  |  |  | \n| IC1 | 1 | STM32F0xxKxTx\
+  \ | STM32F0xxKxTx | agg:LQFP-32 |  |  |  | \n| IC2 | 1 | MCP1700 | MCP1700 | agg:SOT-23\
+  \ |  |  |  | \n| IC3, IC4 | 2 | AM26C31 | AM26C31 | agg:SOIC-16 |  |  |  | \n| J1\
+  \ | 1 | MICROUSB | MICROUSB | agg:MICROUSB_MOLEX_47589-0001 |  |  |  | \n| P1 |\
+  \ 1 | SWD_TC | SWD_TC | agg:TC2030-NL |  |  |  | \n| P5 | 1 | SHIFT | CONN_01X04\
+  \ | Pin_Headers:Pin_Header_Straight_1x04 |  |  |  | \n| P6 | 1 | BUS1 | CONN_01X02\
+  \ | agg:S02B-PASK-2 |  |  |  | \n| P7 | 1 | BUS2 | CONN_01X02 | agg:S02B-PASK-2\
+  \ |  |  |  | \n| P8 | 1 | BUS3 | CONN_01X02 | agg:S02B-PASK-2 |  |  |  | \n| P9\
+  \ | 1 | BUS4 | CONN_01X02 | agg:S02B-PASK-2 |  |  |  | \n| P10 | 1 | BUS5 | CONN_01X02\
+  \ | agg:S02B-PASK-2 |  |  |  | \n| P11 | 1 | BUS6 | CONN_01X02 | agg:S02B-PASK-2\
+  \ |  |  |  | \n| P12 | 1 | BUS7 | CONN_01X02 | agg:S02B-PASK-2 |  |  |  | \n| P13\
+  \ | 1 | BUS8 | CONN_01X02 | agg:S02B-PASK-2 |  |  |  | \n| X1, X2, X3, X4 | 4 |\
+  \ PART | PART | agg:M3_MOUNT |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_thegrid_shield/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_thegrid_shield/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adamgreig_thegrid_shield/current_version/working/working.sch
 id: adamgreig_thegrid_shield
 name: thegrid
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: '0603'
+  PosX: 93.0
+  PosY: -79.4
+  Rot: 90.0
+  Side: top
+  Val: 100n
+- '# Ref': C2
+  Package: '0603'
+  PosX: 75.8
+  PosY: -94.1
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': C3
+  Package: '0603'
+  PosX: 103.5
+  PosY: -85.1
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': C4
+  Package: '0603'
+  PosX: 103.5
+  PosY: -83.5
+  Rot: 0.0
+  Side: top
+  Val: 10u
+- '# Ref': C5
+  Package: '0603'
+  PosX: 100.1
+  PosY: -84.3
+  Rot: 90.0
+  Side: top
+  Val: C
+- '# Ref': C6
+  Package: '0603'
+  PosX: 98.6
+  PosY: -84.3
+  Rot: 90.0
+  Side: top
+  Val: 100n
+- '# Ref': C7
+  Package: '0603'
+  PosX: 97.1
+  PosY: -84.3
+  Rot: 90.0
+  Side: top
+  Val: 1u
+- '# Ref': C8
+  Package: '0603'
+  PosX: 95.3
+  PosY: -97.3
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': C9
+  Package: '0603'
+  PosX: 85.5
+  PosY: -107.4
+  Rot: 0.0
+  Side: top
+  Val: 1u
+- '# Ref': C10
+  Package: '0603'
+  PosX: 88.4
+  PosY: -104.8
+  Rot: -90.0
+  Side: top
+  Val: 1u
+- '# Ref': IC1
+  Package: LQFP-32
+  PosX: 99.4
+  PosY: -91.3
+  Rot: -90.0
+  Side: top
+  Val: STM32F0xxKxTx
+- '# Ref': IC2
+  Package: SOT-23
+  PosX: 85.6
+  PosY: -104.8
+  Rot: 180.0
+  Side: top
+  Val: MCP1700
+- '# Ref': IC3
+  Package: SOIC-16
+  PosX: 77.8379
+  PosY: -87.7438
+  Rot: 180.0
+  Side: top
+  Val: AM26C31
+- '# Ref': IC4
+  Package: SOIC-16
+  PosX: 86.5562
+  PosY: -77.2378
+  Rot: -90.0
+  Side: top
+  Val: AM26C31
+- '# Ref': J1
+  Package: MICROUSB_MOLEX_47589-0001
+  PosX: 95.4
+  PosY: -108.2
+  Rot: 0.0
+  Side: top
+  Val: MICROUSB
+- '# Ref': P1
+  Package: TC2030-NL
+  PosX: 105.27
+  PosY: -99.03
+  Rot: 0.0
+  Side: top
+  Val: SWD_TC
+- '# Ref': P5
+  Package: Pin_Header_Straight_1x04
+  PosX: 72.92
+  PosY: -106.4
+  Rot: 90.0
+  Side: top
+  Val: SHIFT
+- '# Ref': P6
+  Package: S02B-PASK-2
+  PosX: 69.1
+  PosY: -97.5
+  Rot: 90.0
+  Side: top
+  Val: BUS1
+- '# Ref': P7
+  Package: S02B-PASK-2
+  PosX: 69.1
+  PosY: -76.5
+  Rot: 90.0
+  Side: top
+  Val: BUS2
+- '# Ref': P8
+  Package: S02B-PASK-2
+  PosX: 69.1
+  PosY: -83.5
+  Rot: 90.0
+  Side: top
+  Val: BUS3
+- '# Ref': P9
+  Package: S02B-PASK-2
+  PosX: 69.1
+  PosY: -90.5
+  Rot: 90.0
+  Side: top
+  Val: BUS4
+- '# Ref': P10
+  Package: S02B-PASK-2
+  PosX: 90.5
+  PosY: -69.1
+  Rot: 0.0
+  Side: top
+  Val: BUS5
+- '# Ref': P11
+  Package: S02B-PASK-2
+  PosX: 83.5
+  PosY: -69.1
+  Rot: 0.0
+  Side: top
+  Val: BUS6
+- '# Ref': P12
+  Package: S02B-PASK-2
+  PosX: 76.5
+  PosY: -69.1
+  Rot: 0.0
+  Side: top
+  Val: BUS7
+- '# Ref': P13
+  Package: S02B-PASK-2
+  PosX: 97.5
+  PosY: -69.1
+  Rot: 0.0
+  Side: top
+  Val: BUS8
+- '# Ref': X1
+  Package: M3_MOUNT
+  PosX: 65.0
+  PosY: -105.0
+  Rot: 0.0
+  Side: top
+  Val: PART
+- '# Ref': X2
+  Package: M3_MOUNT
+  PosX: 105.0
+  PosY: -105.0
+  Rot: 0.0
+  Side: top
+  Val: PART
+- '# Ref': X3
+  Package: M3_MOUNT
+  PosX: 105.0
+  PosY: -65.0
+  Rot: 0.0
+  Side: top
+  Val: PART
+- '# Ref': X4
+  Package: M3_MOUNT
+  PosX: 65.0
+  PosY: -65.0
+  Rot: 0.0
+  Side: top
+  Val: PART
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 100n | 0603 | 93.0 | -79.4 | 90.0\
+  \ | top | \n| C2 | 100n | 0603 | 75.8 | -94.1 | 0.0 | top | \n| C3 | 100n | 0603\
+  \ | 103.5 | -85.1 | 0.0 | top | \n| C4 | 10u | 0603 | 103.5 | -83.5 | 0.0 | top\
+  \ | \n| C5 | C | 0603 | 100.1 | -84.3 | 90.0 | top | \n| C6 | 100n | 0603 | 98.6\
+  \ | -84.3 | 90.0 | top | \n| C7 | 1u | 0603 | 97.1 | -84.3 | 90.0 | top | \n| C8\
+  \ | 100n | 0603 | 95.3 | -97.3 | 180.0 | top | \n| C9 | 1u | 0603 | 85.5 | -107.4\
+  \ | 0.0 | top | \n| C10 | 1u | 0603 | 88.4 | -104.8 | -90.0 | top | \n| IC1 | STM32F0xxKxTx\
+  \ | LQFP-32 | 99.4 | -91.3 | -90.0 | top | \n| IC2 | MCP1700 | SOT-23 | 85.6 | -104.8\
+  \ | 180.0 | top | \n| IC3 | AM26C31 | SOIC-16 | 77.8379 | -87.7438 | 180.0 | top\
+  \ | \n| IC4 | AM26C31 | SOIC-16 | 86.5562 | -77.2378 | -90.0 | top | \n| J1 | MICROUSB\
+  \ | MICROUSB_MOLEX_47589-0001 | 95.4 | -108.2 | 0.0 | top | \n| P1 | SWD_TC | TC2030-NL\
+  \ | 105.27 | -99.03 | 0.0 | top | \n| P5 | SHIFT | Pin_Header_Straight_1x04 | 72.92\
+  \ | -106.4 | 90.0 | top | \n| P6 | BUS1 | S02B-PASK-2 | 69.1 | -97.5 | 90.0 | top\
+  \ | \n| P7 | BUS2 | S02B-PASK-2 | 69.1 | -76.5 | 90.0 | top | \n| P8 | BUS3 | S02B-PASK-2\
+  \ | 69.1 | -83.5 | 90.0 | top | \n| P9 | BUS4 | S02B-PASK-2 | 69.1 | -90.5 | 90.0\
+  \ | top | \n| P10 | BUS5 | S02B-PASK-2 | 90.5 | -69.1 | 0.0 | top | \n| P11 | BUS6\
+  \ | S02B-PASK-2 | 83.5 | -69.1 | 0.0 | top | \n| P12 | BUS7 | S02B-PASK-2 | 76.5\
+  \ | -69.1 | 0.0 | top | \n| P13 | BUS8 | S02B-PASK-2 | 97.5 | -69.1 | 0.0 | top\
+  \ | \n| X1 | PART | M3_MOUNT | 65.0 | -105.0 | 0.0 | top | \n| X2 | PART | M3_MOUNT\
+  \ | 105.0 | -105.0 | 0.0 | top | \n| X3 | PART | M3_MOUNT | 105.0 | -65.0 | 0.0\
+  \ | top | \n| X4 | PART | M3_MOUNT | 65.0 | -65.0 | 0.0 | top | \n"
 projects_flat: projects/adamgreig_thegrid_shield/current_version/working
 repo:
   allow_forking: true

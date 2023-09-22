@@ -1,9 +1,804 @@
 board: adafruit_neokey_1x4_qt_i2c
+bom:
+- Id: '1'
+  Designator: U2
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: AP2112K-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C2,C3
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$17,U$3,U$21,U$19
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '4'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R2,R1,R7
+  Footprint: 0603-NO
+  Quantity: '3'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$2,U$9
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: TP7,TP5,TP6
+  Footprint: TESTPOINT_ROUND_1.5MM
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: IC2
+  Footprint: QFN24_4MM
+  Quantity: '1'
+  Designation: ATSAMD09D14A-MU
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: JP1,JP5
+  Footprint: 1X06_ROUND_70
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: FID1,FID2
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U$31,U$30
+  Footprint: STEMMAQT
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: C4
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: IC3
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: 74AHCT1G125DBV
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: CONN4,CONN3
+  Footprint: JST_SH4
+  Quantity: '2'
+  Designation: STEMMA_I2C_QT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: SJ2,SJ5,SJ4,SJ3
+  Footprint: SOLDERJUMPER_ARROW_NOPASTE
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: R3
+  Footprint: RESPACK_4X0603
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: D2
+  Footprint: CHIPLED_0603_NOOUTLINE
+  Quantity: '1'
+  Designation: GREEN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: C5,C6,C1,C7
+  Footprint: 0603-NO
+  Quantity: '4'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: Q2
+  Footprint: SOT363
+  Quantity: '1'
+  Designation: BSS138
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: U$25
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: LED2,LED3,LED4,LED1
+  Footprint: NEO3535_REVERSE
+  Quantity: '4'
+  Designation: WS2812B_SK6812E
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '21'
+  Designator: SW4,SW2,SW3,SW1
+  Footprint: KAILH_SOCKET
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U2\
+  \ | SOT23-5 | 1 | AP2112K-3.3 |  |  | [''] | \n| 2 | C2,C3 | 0805-NO | 2 | 10uF\
+  \ |  |  | [''] | \n| 3 | U$17,U$3,U$21,U$19 | MOUNTINGHOLE_2.5_PLATED | 4 | MOUNTINGHOLE2.5\
+  \ |  |  | [''] | \n| 4 | R2,R1,R7 | 0603-NO | 3 | 10K |  |  | [''] | \n| 5 | U$2,U$9\
+  \ | ADAFRUIT_3.5MM | 2 |  |  |  | [''] | \n| 6 | TP7,TP5,TP6 | TESTPOINT_ROUND_1.5MM\
+  \ | 3 |  |  |  | [''] | \n| 7 | IC2 | QFN24_4MM | 1 | ATSAMD09D14A-MU |  |  | ['']\
+  \ | \n| 8 | JP1,JP5 | 1X06_ROUND_70 | 2 |  |  |  | [''] | \n| 9 | FID1,FID2 | FIDUCIAL_1MM\
+  \ | 2 | FIDUCIAL_1MM |  |  | [''] | \n| 10 | U$31,U$30 | STEMMAQT | 2 |  |  |  |\
+  \ [''] | \n| 11 | C4 | 0603-NO | 1 | 0.1uF |  |  | [''] | \n| 12 | IC3 | SOT23-5\
+  \ | 1 | 74AHCT1G125DBV |  |  | [''] | \n| 13 | CONN4,CONN3 | JST_SH4 | 2 | STEMMA_I2C_QT\
+  \ |  |  | [''] | \n| 14 | SJ2,SJ5,SJ4,SJ3 | SOLDERJUMPER_ARROW_NOPASTE | 4 |  |\
+  \  |  | [''] | \n| 15 | R3 | RESPACK_4X0603 | 1 | 10K |  |  | [''] | \n| 16 | D2\
+  \ | CHIPLED_0603_NOOUTLINE | 1 | GREEN |  |  | [''] | \n| 17 | C5,C6,C1,C7 | 0603-NO\
+  \ | 4 | 1uF |  |  | [''] | \n| 18 | Q2 | SOT363 | 1 | BSS138 |  |  | [''] | \n|\
+  \ 19 | U$25 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n| 20 | LED2,LED3,LED4,LED1\
+  \ | NEO3535_REVERSE | 4 | WS2812B_SK6812E |  |  | [''] | \n| 21 | SW4,SW2,SW3,SW1\
+  \ | KAILH_SOCKET | 4 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '4'
+  Ref: C1, C5, C6, C7
+  Value: 1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C2, C3
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: C4
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: STEMMA_I2C_QT
+  DNP: ''
+  Description: ''
+  Footprint: working:JST_SH4
+  Qnty: '2'
+  Ref: CONN3, CONN4
+  Value: STEMMA_I2C_QT
+  Vendor: ''
+- Cmp name: LED0603_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0603_NOOUTLINE
+  Qnty: '1'
+  Ref: D2
+  Value: GREEN
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: ATSAMD09D14A-MU
+  DNP: ''
+  Description: ''
+  Footprint: working:QFN24_4MM
+  Qnty: '1'
+  Ref: IC2
+  Value: ATSAMD09D14A-MU
+  Vendor: ''
+- Cmp name: 741G125DBV
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: IC3
+  Value: 741G125DBV
+  Vendor: ''
+- Cmp name: HEADER-1X670MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06_ROUND_70
+  Qnty: '2'
+  Ref: JP1, JP5
+  Value: HEADER-1X670MIL
+  Vendor: ''
+- Cmp name: WS2812B_SK6812E
+  DNP: ''
+  Description: ''
+  Footprint: working:NEO3535_REVERSE
+  Qnty: '4'
+  Ref: LED1, LED2, LED3, LED4
+  Value: WS2812B_SK6812E
+  Vendor: ''
+- Cmp name: MOSFET-N_DUAL
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT363
+  Qnty: '1'
+  Ref: Q2
+  Value: BSS138
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '3'
+  Ref: R1, R2, R7
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603
+  Qnty: '1'
+  Ref: R3
+  Value: 10K
+  Vendor: ''
+- Cmp name: SOLDERJUMPER
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_ARROW_NOPASTE
+  Qnty: '4'
+  Ref: SJ2, SJ3, SJ4, SJ5
+  Value: SOLDERJUMPER
+  Vendor: ''
+- Cmp name: SWITCH_PUSHBUTTON_KAILH_SOCKET
+  DNP: ''
+  Description: ''
+  Footprint: working:KAILH_SOCKET
+  Qnty: '4'
+  Ref: SW1, SW2, SW3, SW4
+  Value: SWITCH_PUSHBUTTON_KAILH_SOCKET
+  Vendor: ''
+- Cmp name: TESTPOINTROUND1.5MM
+  DNP: ''
+  Description: ''
+  Footprint: working:TESTPOINT_ROUND_1.5MM
+  Qnty: '3'
+  Ref: TP5, TP6, TP7
+  Value: TESTPOINTROUND1.5MM
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U2
+  Value: AP2112K-3.3
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '4'
+  Ref: U$3, U$17, U$19, U$21
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C5,\
+  \ C6, C7 | 4 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| C2, C3\
+  \ | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C4 | 1\
+  \ | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| CONN3, CONN4 | 2\
+  \ | STEMMA_I2C_QT | STEMMA_I2C_QT | working:JST_SH4 |  |  |  | \n| D2 | 1 | GREEN\
+  \ | LED0603_NOOUTLINE | working:CHIPLED_0603_NOOUTLINE |  |  |  | \n| FID1, FID2\
+  \ | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| IC2 |\
+  \ 1 | ATSAMD09D14A-MU | ATSAMD09D14A-MU | working:QFN24_4MM |  |  |  | \n| IC3 |\
+  \ 1 | 741G125DBV | 741G125DBV | working:SOT23-5 |  |  |  | \n| JP1, JP5 | 2 | HEADER-1X670MIL\
+  \ | HEADER-1X670MIL | working:1X06_ROUND_70 |  |  |  | \n| LED1, LED2, LED3, LED4\
+  \ | 4 | WS2812B_SK6812E | WS2812B_SK6812E | working:NEO3535_REVERSE |  |  |  | \n\
+  | Q2 | 1 | BSS138 | MOSFET-N_DUAL | working:SOT363 |  |  |  | \n| R1, R2, R7 | 3\
+  \ | 10K | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n| R3 | 1 | 10K | RESISTOR_4PACK\
+  \ | working:RESPACK_4X0603 |  |  |  | \n| SJ2, SJ3, SJ4, SJ5 | 4 | SOLDERJUMPER\
+  \ | SOLDERJUMPER | working:SOLDERJUMPER_ARROW_NOPASTE |  |  |  | \n| SW1, SW2, SW3,\
+  \ SW4 | 4 | SWITCH_PUSHBUTTON_KAILH_SOCKET | SWITCH_PUSHBUTTON_KAILH_SOCKET | working:KAILH_SOCKET\
+  \ |  |  |  | \n| TP5, TP6, TP7 | 3 | TESTPOINTROUND1.5MM | TESTPOINTROUND1.5MM |\
+  \ working:TESTPOINT_ROUND_1.5MM |  |  |  | \n| U2 | 1 | AP2112K-3.3 | VREG_SOT23-5\
+  \ | working:SOT23-5 |  |  |  | \n| U$3, U$17, U$19, U$21 | 4 | MOUNTINGHOLE2.5 |\
+  \ MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_neokey_1x4_pcb_adafruit_neokey_1x4_qt_i2c/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_neokey_1x4_pcb_adafruit_neokey_1x4_qt_i2c/current_version/working/working.sch
 id: adafruit_adafruit_neokey_1x4_pcb_adafruit_neokey_1x4_qt_i2c
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$3
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '38.099999999999994'
+  y: '16.510000000000005'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$17
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '16.510000000000005'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$19
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '38.099999999999994'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$21
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 38.099999999999994 | 16.510000000000005 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$3 | m3 | \n| 0.0 | 16.510000000000005 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$17 | m3 | \n| 38.099999999999994 | 0.0 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$19 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$21 | m3 | \n"
 name: adafruit_neokey_1x4_pcb
+position_bottom:
+- '# Ref': JP5
+  Package: 1X06_ROUND_70
+  PosX: 148.5011
+  PosY: -113.8936
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': LED1
+  Package: NEO3535_REVERSE
+  PosX: 177.0761
+  PosY: -110.0836
+  Rot: 180.0
+  Side: bottom
+  Val: WS2812B_SK6812E
+- '# Ref': LED2
+  Package: NEO3535_REVERSE
+  PosX: 158.1531
+  PosY: -110.0836
+  Rot: 180.0
+  Side: bottom
+  Val: WS2812B_SK6812E
+- '# Ref': LED3
+  Package: NEO3535_REVERSE
+  PosX: 138.9761
+  PosY: -110.0836
+  Rot: 180.0
+  Side: bottom
+  Val: WS2812B_SK6812E
+- '# Ref': LED4
+  Package: NEO3535_REVERSE
+  PosX: 120.0531
+  PosY: -110.0836
+  Rot: 180.0
+  Side: bottom
+  Val: WS2812B_SK6812E
+- '# Ref': SW1
+  Package: KAILH_SOCKET
+  PosX: 119.9261
+  PosY: -105.0036
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SW2
+  Package: KAILH_SOCKET
+  PosX: 138.9761
+  PosY: -105.0036
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SW3
+  Package: KAILH_SOCKET
+  PosX: 158.0261
+  PosY: -105.0036
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SW4
+  Package: KAILH_SOCKET
+  PosX: 177.0761
+  PosY: -105.0036
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| JP5 | nan | 1X06_ROUND_70 | 148.5011\
+  \ | -113.8936 | 180.0 | bottom | \n| LED1 | WS2812B_SK6812E | NEO3535_REVERSE |\
+  \ 177.0761 | -110.0836 | 180.0 | bottom | \n| LED2 | WS2812B_SK6812E | NEO3535_REVERSE\
+  \ | 158.1531 | -110.0836 | 180.0 | bottom | \n| LED3 | WS2812B_SK6812E | NEO3535_REVERSE\
+  \ | 138.9761 | -110.0836 | 180.0 | bottom | \n| LED4 | WS2812B_SK6812E | NEO3535_REVERSE\
+  \ | 120.0531 | -110.0836 | 180.0 | bottom | \n| SW1 | nan | KAILH_SOCKET | 119.9261\
+  \ | -105.0036 | 180.0 | bottom | \n| SW2 | nan | KAILH_SOCKET | 138.9761 | -105.0036\
+  \ | 180.0 | bottom | \n| SW3 | nan | KAILH_SOCKET | 158.0261 | -105.0036 | 180.0\
+  \ | bottom | \n| SW4 | nan | KAILH_SOCKET | 177.0761 | -105.0036 | 180.0 | bottom\
+  \ | \n"
+position_top:
+- '# Ref': C1
+  Package: 0603-NO
+  PosX: 174.2186
+  PosY: -106.9721
+  Rot: 90.0
+  Side: top
+  Val: 1uF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 171.3611
+  PosY: -107.6706
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 164.9476
+  PosY: -107.4166
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C4
+  Package: 0603-NO
+  PosX: 168.5036
+  PosY: -104.3686
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C5
+  Package: 0603-NO
+  PosX: 160.7566
+  PosY: -107.6071
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C6
+  Package: 0603-NO
+  PosX: 134.7216
+  PosY: -110.0201
+  Rot: -90.0
+  Side: top
+  Val: 1uF
+- '# Ref': C7
+  Package: 0603-NO
+  PosX: 117.0051
+  PosY: -107.0356
+  Rot: 90.0
+  Side: top
+  Val: 1uF
+- '# Ref': CONN3
+  Package: JST_SH4
+  PosX: 112.9411
+  PosY: -108.1786
+  Rot: -90.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': CONN4
+  Package: JST_SH4
+  PosX: 184.0611
+  PosY: -108.1786
+  Rot: 90.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': D2
+  Package: CHIPLED_0603_NOOUTLINE
+  PosX: 184.7596
+  PosY: -98.7171
+  Rot: 90.0
+  Side: top
+  Val: GREEN
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 181.7751
+  PosY: -95.3516
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 111.7346
+  PosY: -103.5431
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': IC2
+  Package: QFN24_4MM
+  PosX: 149.8981
+  PosY: -107.6706
+  Rot: 180.0
+  Side: top
+  Val: ATSAMD09D14A-MU
+- '# Ref': IC3
+  Package: SOT23-5
+  PosX: 171.7421
+  PosY: -111.1631
+  Rot: 0.0
+  Side: top
+  Val: 74AHCT1G125DBV
+- '# Ref': JP1
+  Package: 1X06_ROUND_70
+  PosX: 148.5011
+  PosY: -96.1136
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': Q2
+  Package: SOT363
+  PosX: 125.3871
+  PosY: -107.5436
+  Rot: 90.0
+  Side: top
+  Val: BSS138
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 184.7596
+  PosY: -100.1776
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: 0603-NO
+  PosX: 168.3766
+  PosY: -109.9566
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: RESPACK_4X0603
+  PosX: 125.2601
+  PosY: -111.7346
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R7
+  Package: 0603-NO
+  PosX: 130.5941
+  PosY: -109.0676
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': SJ2
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 150.9141
+  PosY: -103.3526
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ3
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 148.8821
+  PosY: -103.3526
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ4
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 143.9926
+  PosY: -107.0356
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': SJ5
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 144.1196
+  PosY: -109.0676
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': TP5
+  Package: TESTPOINT_ROUND_1.5MM
+  PosX: 133.8326
+  PosY: -107.3531
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': TP6
+  Package: TESTPOINT_ROUND_1.5MM
+  PosX: 131.4831
+  PosY: -107.3531
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': TP7
+  Package: TESTPOINT_ROUND_1.5MM
+  PosX: 136.2456
+  PosY: -107.3531
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$2
+  Package: ADAFRUIT_3.5MM
+  PosX: 131.7371
+  PosY: -98.1456
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$3
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 167.5511
+  PosY: -96.7486
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$9
+  Package: ADAFRUIT_3.5MM
+  PosX: 161.4551
+  PosY: -98.1456
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$17
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 129.4511
+  PosY: -96.7486
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$19
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 167.5511
+  PosY: -113.2586
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$21
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 129.4511
+  PosY: -113.2586
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$25
+  Package: PCBFEAT-REV-040
+  PosX: 123.0376
+  PosY: -105.8291
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$30
+  Package: STEMMAQT
+  PosX: 111.4171
+  PosY: -114.5286
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$31
+  Package: STEMMAQT
+  PosX: 175.9331
+  PosY: -114.5286
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U2
+  Package: SOT23-5
+  PosX: 167.7416
+  PosY: -107.0991
+  Rot: 0.0
+  Side: top
+  Val: AP2112K-3.3
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 1uF | 0603-NO | 174.2186 | -106.9721\
+  \ | 90.0 | top | \n| C2 | 10uF | 0805-NO | 171.3611 | -107.6706 | 0.0 | top | \n\
+  | C3 | 10uF | 0805-NO | 164.9476 | -107.4166 | -90.0 | top | \n| C4 | 0.1uF | 0603-NO\
+  \ | 168.5036 | -104.3686 | 0.0 | top | \n| C5 | 1uF | 0603-NO | 160.7566 | -107.6071\
+  \ | 0.0 | top | \n| C6 | 1uF | 0603-NO | 134.7216 | -110.0201 | -90.0 | top | \n\
+  | C7 | 1uF | 0603-NO | 117.0051 | -107.0356 | 90.0 | top | \n| CONN3 | STEMMA_I2C_QT\
+  \ | JST_SH4 | 112.9411 | -108.1786 | -90.0 | top | \n| CONN4 | STEMMA_I2C_QT | JST_SH4\
+  \ | 184.0611 | -108.1786 | 90.0 | top | \n| D2 | GREEN | CHIPLED_0603_NOOUTLINE\
+  \ | 184.7596 | -98.7171 | 90.0 | top | \n| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM |\
+  \ 181.7751 | -95.3516 | 0.0 | top | \n| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM | 111.7346\
+  \ | -103.5431 | 0.0 | top | \n| IC2 | ATSAMD09D14A-MU | QFN24_4MM | 149.8981 | -107.6706\
+  \ | 180.0 | top | \n| IC3 | 74AHCT1G125DBV | SOT23-5 | 171.7421 | -111.1631 | 0.0\
+  \ | top | \n| JP1 | nan | 1X06_ROUND_70 | 148.5011 | -96.1136 | 180.0 | top | \n\
+  | Q2 | BSS138 | SOT363 | 125.3871 | -107.5436 | 90.0 | top | \n| R1 | 10K | 0603-NO\
+  \ | 184.7596 | -100.1776 | 0.0 | top | \n| R2 | 10K | 0603-NO | 168.3766 | -109.9566\
+  \ | 0.0 | top | \n| R3 | 10K | RESPACK_4X0603 | 125.2601 | -111.7346 | 0.0 | top\
+  \ | \n| R7 | 10K | 0603-NO | 130.5941 | -109.0676 | 180.0 | top | \n| SJ2 | nan\
+  \ | SOLDERJUMPER_ARROW_NOPASTE | 150.9141 | -103.3526 | 90.0 | top | \n| SJ3 | nan\
+  \ | SOLDERJUMPER_ARROW_NOPASTE | 148.8821 | -103.3526 | 90.0 | top | \n| SJ4 | nan\
+  \ | SOLDERJUMPER_ARROW_NOPASTE | 143.9926 | -107.0356 | 180.0 | top | \n| SJ5 |\
+  \ nan | SOLDERJUMPER_ARROW_NOPASTE | 144.1196 | -109.0676 | 180.0 | top | \n| TP5\
+  \ | nan | TESTPOINT_ROUND_1.5MM | 133.8326 | -107.3531 | 0.0 | top | \n| TP6 | nan\
+  \ | TESTPOINT_ROUND_1.5MM | 131.4831 | -107.3531 | 0.0 | top | \n| TP7 | nan | TESTPOINT_ROUND_1.5MM\
+  \ | 136.2456 | -107.3531 | 0.0 | top | \n| U$2 | nan | ADAFRUIT_3.5MM | 131.7371\
+  \ | -98.1456 | 0.0 | top | \n| U$3 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED |\
+  \ 167.5511 | -96.7486 | 0.0 | top | \n| U$9 | nan | ADAFRUIT_3.5MM | 161.4551 |\
+  \ -98.1456 | 0.0 | top | \n| U$17 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED |\
+  \ 129.4511 | -96.7486 | 0.0 | top | \n| U$19 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 167.5511 | -113.2586 | 0.0 | top | \n| U$21 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 129.4511 | -113.2586 | 0.0 | top | \n| U$25 | nan | PCBFEAT-REV-040 | 123.0376\
+  \ | -105.8291 | 0.0 | top | \n| U$30 | nan | STEMMAQT | 111.4171 | -114.5286 | 0.0\
+  \ | top | \n| U$31 | nan | STEMMAQT | 175.9331 | -114.5286 | 0.0 | top | \n| U2\
+  \ | AP2112K-3.3 | SOT23-5 | 167.7416 | -107.0991 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_neokey_1x4_pcb_adafruit_neokey_1x4_qt_i2c/current_version/working
 repo:
   allow_forking: true

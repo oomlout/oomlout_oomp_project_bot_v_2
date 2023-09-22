@@ -1,4 +1,150 @@
 board: arduino_mega
+bom:
+- Id: '1'
+  Designator: P1
+  Footprint: Socket_Strip_Arduino_2x18
+  Quantity: '1'
+  Designation: Digital
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: P2
+  Footprint: Socket_Strip_Arduino_1x08
+  Quantity: '1'
+  Designation: Power
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: P3,P4
+  Footprint: Socket_Strip_Arduino_1x08
+  Quantity: '2'
+  Designation: Analog
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: P5
+  Footprint: Socket_Strip_Arduino_1x10
+  Quantity: '1'
+  Designation: PWM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: P6
+  Footprint: Socket_Strip_Arduino_1x08
+  Quantity: '1'
+  Designation: PWM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: P7
+  Footprint: Socket_Strip_Arduino_1x08
+  Quantity: '1'
+  Designation: Communication
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: P8,P9,P10,P11,P12,P13
+  Footprint: Arduino_1pin
+  Quantity: '6'
+  Designation: CONN_1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | P1\
+  \ | Socket_Strip_Arduino_2x18 | 1 | Digital |  |  | [''] | \n| 2 | P2 | Socket_Strip_Arduino_1x08\
+  \ | 1 | Power |  |  | [''] | \n| 3 | P3,P4 | Socket_Strip_Arduino_1x08 | 2 | Analog\
+  \ |  |  | [''] | \n| 4 | P5 | Socket_Strip_Arduino_1x10 | 1 | PWM |  |  | [''] |\
+  \ \n| 5 | P6 | Socket_Strip_Arduino_1x08 | 1 | PWM |  |  | [''] | \n| 6 | P7 | Socket_Strip_Arduino_1x08\
+  \ | 1 | Communication |  |  | [''] | \n| 7 | P8,P9,P10,P11,P12,P13 | Arduino_1pin\
+  \ | 6 | CONN_1 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CONN_18X2
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Mega:Socket_Strip_Arduino_2x18
+  Qnty: '1'
+  Ref: P1
+  Value: Digital
+  Vendor: ''
+- Cmp name: CONN_8
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Mega:Socket_Strip_Arduino_1x08
+  Qnty: '1'
+  Ref: P2
+  Value: Power
+  Vendor: ''
+- Cmp name: CONN_8
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Mega:Socket_Strip_Arduino_1x08
+  Qnty: '2'
+  Ref: P3, P4
+  Value: Analog
+  Vendor: ''
+- Cmp name: CONN_10
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Mega:Socket_Strip_Arduino_1x10
+  Qnty: '1'
+  Ref: P5
+  Value: PWM
+  Vendor: ''
+- Cmp name: CONN_8
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Mega:Socket_Strip_Arduino_1x08
+  Qnty: '1'
+  Ref: P6
+  Value: PWM
+  Vendor: ''
+- Cmp name: CONN_8
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Mega:Socket_Strip_Arduino_1x08
+  Qnty: '1'
+  Ref: P7
+  Value: Communication
+  Vendor: ''
+- Cmp name: CONN_1
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Mega:Arduino_1pin
+  Qnty: '6'
+  Ref: P8, P9, P10, P11, P12, P13
+  Value: CONN_1
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| P1 |\
+  \ 1 | Digital | CONN_18X2 | Socket_Arduino_Mega:Socket_Strip_Arduino_2x18 |  | \
+  \ |  | \n| P2 | 1 | Power | CONN_8 | Socket_Arduino_Mega:Socket_Strip_Arduino_1x08\
+  \ |  |  |  | \n| P3, P4 | 2 | Analog | CONN_8 | Socket_Arduino_Mega:Socket_Strip_Arduino_1x08\
+  \ |  |  |  | \n| P5 | 1 | PWM | CONN_10 | Socket_Arduino_Mega:Socket_Strip_Arduino_1x10\
+  \ |  |  |  | \n| P6 | 1 | PWM | CONN_8 | Socket_Arduino_Mega:Socket_Strip_Arduino_1x08\
+  \ |  |  |  | \n| P7 | 1 | Communication | CONN_8 | Socket_Arduino_Mega:Socket_Strip_Arduino_1x08\
+  \ |  |  |  | \n| P8, P9, P10, P11, P12, P13 | 6 | CONN_1 | CONN_1 | Socket_Arduino_Mega:Arduino_1pin\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/contextualelectronics_kicad_library_wire_pads/current_version/working/working.brd
 file_kicad_pcb_flat: projects/contextualelectronics_kicad_library_arduino_mega/current_version/working/working.kicad_pcb
@@ -6,6 +152,113 @@ file_kicad_sch_flat: projects/contextualelectronics_kicad_library_arduino_mega/c
 file_sch_flat: projects/contextualelectronics_kicad_library_arduino_mega/current_version/working/working.sch
 id: contextualelectronics_kicad_library_arduino_mega
 name: kicad_library
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': P1
+  Package: Socket_Strip_Arduino_2x18
+  PosX: 93.98
+  PosY: 7.62
+  Rot: 90.0
+  Side: top
+  Val: Digital
+- '# Ref': P2
+  Package: Socket_Strip_Arduino_1x08
+  PosX: 27.94
+  PosY: 2.54
+  Rot: 0.0
+  Side: top
+  Val: Power
+- '# Ref': P3
+  Package: Socket_Strip_Arduino_1x08
+  PosX: 50.8
+  PosY: 2.54
+  Rot: 0.0
+  Side: top
+  Val: Analog
+- '# Ref': P4
+  Package: Socket_Strip_Arduino_1x08
+  PosX: 73.66
+  PosY: 2.54
+  Rot: 0.0
+  Side: top
+  Val: Analog
+- '# Ref': P5
+  Package: Socket_Strip_Arduino_1x10
+  PosX: 18.796
+  PosY: 50.8
+  Rot: 0.0
+  Side: top
+  Val: PWM
+- '# Ref': P6
+  Package: Socket_Strip_Arduino_1x08
+  PosX: 45.72
+  PosY: 50.8
+  Rot: 0.0
+  Side: top
+  Val: PWM
+- '# Ref': P7
+  Package: Socket_Strip_Arduino_1x08
+  PosX: 68.58
+  PosY: 50.8
+  Rot: 0.0
+  Side: top
+  Val: Communication
+- '# Ref': P8
+  Package: Arduino_1pin
+  PosX: 13.97
+  PosY: 2.54
+  Rot: 0.0
+  Side: top
+  Val: CONN_1
+- '# Ref': P9
+  Package: Arduino_1pin
+  PosX: 66.04
+  PosY: 7.62
+  Rot: 0.0
+  Side: top
+  Val: CONN_1
+- '# Ref': P10
+  Package: Arduino_1pin
+  PosX: 96.52
+  PosY: 2.54
+  Rot: 0.0
+  Side: top
+  Val: CONN_1
+- '# Ref': P11
+  Package: Arduino_1pin
+  PosX: 15.24
+  PosY: 50.8
+  Rot: 0.0
+  Side: top
+  Val: CONN_1
+- '# Ref': P12
+  Package: Arduino_1pin
+  PosX: 66.04
+  PosY: 35.56
+  Rot: 0.0
+  Side: top
+  Val: CONN_1
+- '# Ref': P13
+  Package: Arduino_1pin
+  PosX: 90.17
+  PosY: 50.8
+  Rot: 0.0
+  Side: top
+  Val: CONN_1
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| P1 | Digital | Socket_Strip_Arduino_2x18\
+  \ | 93.98 | 7.62 | 90.0 | top | \n| P2 | Power | Socket_Strip_Arduino_1x08 | 27.94\
+  \ | 2.54 | 0.0 | top | \n| P3 | Analog | Socket_Strip_Arduino_1x08 | 50.8 | 2.54\
+  \ | 0.0 | top | \n| P4 | Analog | Socket_Strip_Arduino_1x08 | 73.66 | 2.54 | 0.0\
+  \ | top | \n| P5 | PWM | Socket_Strip_Arduino_1x10 | 18.796 | 50.8 | 0.0 | top |\
+  \ \n| P6 | PWM | Socket_Strip_Arduino_1x08 | 45.72 | 50.8 | 0.0 | top | \n| P7 |\
+  \ Communication | Socket_Strip_Arduino_1x08 | 68.58 | 50.8 | 0.0 | top | \n| P8\
+  \ | CONN_1 | Arduino_1pin | 13.97 | 2.54 | 0.0 | top | \n| P9 | CONN_1 | Arduino_1pin\
+  \ | 66.04 | 7.62 | 0.0 | top | \n| P10 | CONN_1 | Arduino_1pin | 96.52 | 2.54 |\
+  \ 0.0 | top | \n| P11 | CONN_1 | Arduino_1pin | 15.24 | 50.8 | 0.0 | top | \n| P12\
+  \ | CONN_1 | Arduino_1pin | 66.04 | 35.56 | 0.0 | top | \n| P13 | CONN_1 | Arduino_1pin\
+  \ | 90.17 | 50.8 | 0.0 | top | \n"
 projects_flat: projects/contextualelectronics_kicad_library_arduino_mega/current_version/working
 repo:
   allow_forking: true

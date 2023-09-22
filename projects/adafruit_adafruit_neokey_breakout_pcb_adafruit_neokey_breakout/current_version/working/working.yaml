@@ -1,9 +1,301 @@
 board: adafruit_neokey_breakout
+bom:
+- Id: '1'
+  Designator: '@HOLE0,@HOLE1'
+  Footprint: ''
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D1
+  Footprint: SOD-323
+  Quantity: '1'
+  Designation: 1N4148
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C1
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$2
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: FID3,FID4
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U$1
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: JP2,JP4
+  Footprint: 1X02_ROUND
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: JP3,JP1
+  Footprint: 1X05_ROUND_70
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: SW1
+  Footprint: KAILH_SOCKET
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: LED1
+  Footprint: NEO3535_REVERSE
+  Quantity: '1'
+  Designation: WS2812B_SK6812E
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | @HOLE0,@HOLE1\
+  \ |  | 2 |  |  |  | [''] | \n| 2 | D1 | SOD-323 | 1 | 1N4148 |  |  | [''] | \n|\
+  \ 3 | C1 | 0603-NO | 1 | 1uF |  |  | [''] | \n| 4 | U$2 | ADAFRUIT_3.5MM | 1 | \
+  \ |  |  | [''] | \n| 5 | FID3,FID4 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | ['']\
+  \ | \n| 6 | U$1 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n| 7 | JP2,JP4 | 1X02_ROUND\
+  \ | 2 |  |  |  | [''] | \n| 8 | JP3,JP1 | 1X05_ROUND_70 | 2 |  |  |  | [''] | \n\
+  | 9 | SW1 | KAILH_SOCKET | 1 |  |  |  | [''] | \n| 10 | LED1 | NEO3535_REVERSE |\
+  \ 1 | WS2812B_SK6812E |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: C1
+  Value: 1uF
+  Vendor: ''
+- Cmp name: DIODESOD-323
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-323
+  Qnty: '1'
+  Ref: D1
+  Value: 1N4148
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID3, FID4
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: HEADER-1X570MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X05_ROUND_70
+  Qnty: '2'
+  Ref: JP1, JP3
+  Value: HEADER-1X570MIL
+  Vendor: ''
+- Cmp name: HEADER-1X2ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X02_ROUND
+  Qnty: '2'
+  Ref: JP2, JP4
+  Value: HEADER-1X2ROUND
+  Vendor: ''
+- Cmp name: WS2812B_SK6812E
+  DNP: ''
+  Description: ''
+  Footprint: working:NEO3535_REVERSE
+  Qnty: '1'
+  Ref: LED1
+  Value: WS2812B_SK6812E
+  Vendor: ''
+- Cmp name: SWITCH_PUSHBUTTON_KAILH_SOCKET
+  DNP: ''
+  Description: ''
+  Footprint: working:KAILH_SOCKET
+  Qnty: '1'
+  Ref: SW1
+  Value: SWITCH_PUSHBUTTON_KAILH_SOCKET
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| D1 | 1 | 1N4148\
+  \ | DIODESOD-323 | working:SOD-323 |  |  |  | \n| FID3, FID4 | 2 | FIDUCIAL_1MM\
+  \ | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| JP1, JP3 | 2 | HEADER-1X570MIL\
+  \ | HEADER-1X570MIL | working:1X05_ROUND_70 |  |  |  | \n| JP2, JP4 | 2 | HEADER-1X2ROUND\
+  \ | HEADER-1X2ROUND | working:1X02_ROUND |  |  |  | \n| LED1 | 1 | WS2812B_SK6812E\
+  \ | WS2812B_SK6812E | working:NEO3535_REVERSE |  |  |  | \n| SW1 | 1 | SWITCH_PUSHBUTTON_KAILH_SOCKET\
+  \ | SWITCH_PUSHBUTTON_KAILH_SOCKET | working:KAILH_SOCKET |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_neokey_breakout_pcb_adafruit_neokey_breakout/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_neokey_breakout_pcb_adafruit_neokey_breakout/current_version/working/working.sch
 id: adafruit_adafruit_neokey_breakout_pcb_adafruit_neokey_breakout
 name: adafruit_neokey_breakout_pcb
+position_bottom:
+- '# Ref': JP1
+  Package: 1X05_ROUND_70
+  PosX: 148.5011
+  PosY: -96.1136
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X02_ROUND
+  PosX: 156.7561
+  PosY: -106.2736
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': JP3
+  Package: 1X05_ROUND_70
+  PosX: 148.5011
+  PosY: -113.8936
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': JP4
+  Package: 1X02_ROUND
+  PosX: 140.2461
+  PosY: -106.2736
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': LED1
+  Package: NEO3535_REVERSE
+  PosX: 148.5011
+  PosY: -109.7026
+  Rot: 0.0
+  Side: bottom
+  Val: WS2812B_SK6812E
+- '# Ref': SW1
+  Package: KAILH_SOCKET
+  PosX: 148.5011
+  PosY: -105.0036
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| JP1 | nan | 1X05_ROUND_70 | 148.5011\
+  \ | -96.1136 | 180.0 | bottom | \n| JP2 | nan | 1X02_ROUND | 156.7561 | -106.2736\
+  \ | 90.0 | bottom | \n| JP3 | nan | 1X05_ROUND_70 | 148.5011 | -113.8936 | 180.0\
+  \ | bottom | \n| JP4 | nan | 1X02_ROUND | 140.2461 | -106.2736 | 90.0 | bottom |\
+  \ \n| LED1 | WS2812B_SK6812E | NEO3535_REVERSE | 148.5011 | -109.7026 | 0.0 | bottom\
+  \ | \n| SW1 | nan | KAILH_SOCKET | 148.5011 | -105.0036 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 156.1211
+  PosY: -99.2886
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 140.8811
+  PosY: -110.7186
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: 0603-NO
+  PosX: 153.7081
+  PosY: -108.9406
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': D1
+  Package: SOD-323
+  PosX: 145.4531
+  PosY: -106.0196
+  Rot: 90.0
+  Side: top
+  Val: 1N4148
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 156.7561
+  PosY: -109.9566
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID4
+  Package: FIDUCIAL_1MM
+  PosX: 140.7541
+  PosY: -95.7326
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': U$1
+  Package: PCBFEAT-REV-040
+  PosX: 156.5021
+  PosY: -96.6216
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$2
+  Package: ADAFRUIT_3.5MM
+  PosX: 154.2161
+  PosY: -115.0366
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 156.1211 | -99.2886\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 140.8811 | -110.7186 | 0.0 | top | \n|\
+  \ C1 | 1uF | 0603-NO | 153.7081 | -108.9406 | 0.0 | top | \n| D1 | 1N4148 | SOD-323\
+  \ | 145.4531 | -106.0196 | 90.0 | top | \n| FID3 | FIDUCIAL_1MM | FIDUCIAL_1MM |\
+  \ 156.7561 | -109.9566 | 0.0 | top | \n| FID4 | FIDUCIAL_1MM | FIDUCIAL_1MM | 140.7541\
+  \ | -95.7326 | 0.0 | top | \n| U$1 | nan | PCBFEAT-REV-040 | 156.5021 | -96.6216\
+  \ | 0.0 | top | \n| U$2 | nan | ADAFRUIT_3.5MM | 154.2161 | -115.0366 | 0.0 | top\
+  \ | \n"
 projects_flat: projects/adafruit_adafruit_neokey_breakout_pcb_adafruit_neokey_breakout/current_version/working
 repo:
   allow_forking: true

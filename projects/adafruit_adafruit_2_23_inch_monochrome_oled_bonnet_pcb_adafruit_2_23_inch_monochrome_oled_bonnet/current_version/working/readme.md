@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit-2.23-inch-Monochrome-OLED-Bonnet-PCB/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_2_23_inch_monochrome_oled_bonnet_pcb_adafruit_2_23_inch_monochrome_oled_bonnet/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

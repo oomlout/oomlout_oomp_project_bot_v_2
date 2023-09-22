@@ -1,0 +1,247 @@
+(pcb C:\gh\oomlout_oomp_project_bot_v_2\projects\adamjvr_audioexperiments_dt_jfet_pre\current_version\working\working_3d.png
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "7.0.6")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  125984 -83629.5  100520 -83629.5  100520 -69913.5  125984 -69913.5
+            125984 -83629.5)
+    )
+    (plane GND (polygon B.Cu 0  125603 -83312  125603 -70231  100838 -70231  100838 -83312
+            125603 -83312))
+    (via "Via[0-1]_600:300_um" "Via[0-1]_800:400_um")
+    (rule
+      (width 200)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component AudioLibFootprints:UMW1V4R7MDD1TP
+      (place C1 106807.000000 -74676.000000 front 0.000000 (PN UMW1C100MDD1TP))
+      (place C2 106807.000000 -78994.000000 front 0.000000 (PN UMW1C100MDD1TP))
+      (place C3 116713.000000 -80518.000000 front -90.000000 (PN UMW1V4R7MDD1TP))
+    )
+    (component Pin_Headers:Pin_Header_Straight_1x02
+      (place P1 123825.000000 -72009.000000 front 0.000000 (PN CONN_01X02))
+      (place P2 102616.000000 -72085.200000 front 0.000000 (PN CONN_01X02))
+      (place P3 102616.000000 -78994.000000 front 0.000000 (PN CONN_01X02))
+      (place P4 123825.000000 -81534.000000 front 180.000000 (PN CONN_01X02))
+    )
+    (component AudioLibFootprints:2N5457
+      (place Q1 112014.000000 -74676.000000 front 0.000000 (PN 2N5457))
+    )
+    (component AudioLibFootprints:R0805
+      (place R1 115697.000000 -75311.000000 front 0.000000 (PN RC2012F305CS))
+      (place R2 112014.000000 -80772.000000 front 90.000000 (PN RC2012F682CS))
+      (place R3 115697.000000 -73279.000000 front 0.000000 (PN RC2012F222CS))
+      (place R4 120523.000000 -80391.000000 front 90.000000 (PN RC2012F513CS))
+    )
+  )
+  (library
+    (image AudioLibFootprints:UMW1V4R7MDD1TP
+      (outline (path signal 100  -762 1524  -762 762))
+      (outline (path signal 100  -381 1143  -1143 1143))
+      (outline (path signal 100  2100 0  2081.26 -279.903  2025.38 -554.81  1933.37 -819.817
+            1806.84 -1070.19  1648.08 -1301.47  1459.9 -1509.53  1245.68 -1690.65
+            1009.22 -1841.6  754.756 -1959.68  486.822 -2042.79  210.201 -2089.45
+            -70.171 -2098.83  -349.292 -2070.75  -622.179 -2005.71  -883.963 -1904.89
+            -1129.97 -1770.07  -1355.82 -1603.67  -1557.47 -1408.65  -1731.33 -1188.49
+            -1874.29 -947.121  -1983.81 -688.852  -2057.92 -418.291  -2095.31 -140.265
+            -2095.31 140.265  -2057.92 418.291  -1983.81 688.852  -1874.29 947.121
+            -1731.33 1188.49  -1557.47 1408.65  -1355.82 1603.67  -1129.97 1770.07
+            -883.963 1904.89  -622.179 2005.71  -349.292 2070.75  -70.171 2098.83
+            210.201 2089.45  486.822 2042.79  754.756 1959.68  1009.22 1841.6
+            1245.68 1690.65  1459.9 1509.53  1648.08 1301.47  1806.84 1070.19
+            1933.37 819.817  2025.38 554.81  2081.26 279.903  2100 0))
+      (pin Round[A]Pad_1270_um 1 -750 0)
+      (pin Round[A]Pad_1270_um 2 750 0)
+    )
+    (image Pin_Headers:Pin_Header_Straight_1x02
+      (outline (path signal 150  -1550 1550  1550 1550))
+      (outline (path signal 150  -1550 0  -1550 1550))
+      (outline (path signal 150  -1270 -1270  -1270 -3810))
+      (outline (path signal 150  -1270 -3810  1270 -3810))
+      (outline (path signal 150  1270 -1270  -1270 -1270))
+      (outline (path signal 150  1270 -1270  1270 -3810))
+      (outline (path signal 150  1550 1550  1550 0))
+      (outline (path signal 50  -1750 1750  -1750 -4300))
+      (outline (path signal 50  -1750 1750  1750 1750))
+      (outline (path signal 50  -1750 -4300  1750 -4300))
+      (outline (path signal 50  1750 1750  1750 -4300))
+      (pin Rect[A]Pad_2032x2032_um 1 0 0)
+      (pin Oval[A]Pad_2032x2032_um 2 0 -2540)
+    )
+    (image AudioLibFootprints:2N5457
+      (outline (path signal 200  1500 1980  1500 -1980))
+      (outline (path signal 0  421.765 2549.38  723.463 2480.69  1014.79 2376.43  1291.56 2238.09
+            1549.82 2067.67  1546.89 2063.76  1570.74 2046.43  1589.84 1987.65
+            1570.74 1928.88  1520.74 1892.55  1458.94 1892.55  1432.79 1911.54
+            1429.87 1907.64  1177.43 2072.98  906.136 2205.11  620.322 2301.91
+            324.569 2361.83  23.617 2383.91  -277.715 2367.8  -574.596 2313.75
+            -862.272 2222.63  -1136.13 2095.9  -1391.79 1935.59  -1625.15 1744.27
+            -1832.47 1525  -2010.44 1281.31  -2156.19 1017.08  -2267.4 736.554
+            -2342.28 444.23  -2379.63 144.789  -2378.86 -156.972  -2339.97 -456.218
+            -2263.59 -748.154  -2150.95 -1028.1  -2003.85 -1291.58  -1824.64 -1534.37
+            -1616.2 -1752.57  -1381.86 -1942.69  -1125.39 -2101.69  -850.88 -2227.01
+            -562.741 -2316.66  -265.587 -2369.19  35.823 -2383.76  336.659 -2360.14
+            632.101 -2298.7  917.416 -2200.44  1188.03 -2066.92  1439.61 -1900.29
+            1442.56 -1904.18  1469.1 -1884.89  1530.9 -1884.89  1580.9 -1921.22
+            1600 -1980  1580.9 -2038.78  1557.44 -2055.82  1560.39 -2059.71
+            1303.01 -2231.45  1026.94 -2371.2  736.156 -2476.95  434.814 -2547.18
+            127.237 -2580.89  -182.165 -2577.6  -488.954 -2537.35  -788.733 -2460.71
+            -1077.2 -2348.8  -1350.23 -2203.2  -1603.89 -2026.02  -1834.56 -1819.78
+            -2038.92 -1587.45  -2214.05 -1332.37  -2357.43 -1058.17  -2467.01 -768.806
+            -2541.22 -468.418  -2578.99 -161.313  -2579.78 148.105  -2543.58 455.399
+            -2470.91 756.164  -2362.82 1046.09  -2220.84 1321.01  -2047.02 1576.99
+            -1843.85 1810.36  -1614.24 2017.78  -1361.49 2196.26  -1089.21 2343.25
+            -801.323 2456.64  -501.94 2534.81  -195.361 2576.63  114.02 2581.51))
+      (outline (path signal 350  1322.61 -2794  1304.82 -2871.93  1254.98 -2934.42  1182.97 -2969.1
+            1103.03 -2969.1  1031.02 -2934.42  981.181 -2871.93  963.395 -2794
+            981.181 -2716.07  1031.02 -2653.58  1103.03 -2618.9  1182.97 -2618.9
+            1254.98 -2653.58  1304.82 -2716.07  1322.61 -2794))
+      (pin Oval[A]Pad_1900x1000_um 1 0 -1270)
+      (pin Oval[A]Pad_1900x1000_um 2 0 0)
+      (pin Oval[A]Pad_1900x1000_um 3 0 1270)
+    )
+    (image AudioLibFootprints:R0805
+      (outline (path signal 200  -254 635  254 635))
+      (outline (path signal 200  -254 -635  254 -635))
+      (outline (path signal 50  -1651 1016  -1651 -1016))
+      (outline (path signal 50  -1651 1016  1651 1016))
+      (outline (path signal 50  -1651 -1016  1651 -1016))
+      (outline (path signal 50  0 381  0 -381))
+      (outline (path signal 50  254 0  -254 0))
+      (outline (path signal 50  1651 -1016  1651 1016))
+      (outline (path signal 50  -1000 635  -1000 -635))
+      (outline (path signal 50  -1000 635  1000 635))
+      (outline (path signal 50  1000 635  1000 -635))
+      (outline (path signal 50  1000 -635  -1000 -635))
+      (pin RoundRect[T]Pad_1016x1651_254.967_um_0.000000_0 1 -950 0)
+      (pin RoundRect[T]Pad_1016x1651_254.967_um_0.000000_0 2 950 0)
+    )
+    (padstack Round[A]Pad_1270_um
+      (shape (circle F.Cu 1270))
+      (shape (circle B.Cu 1270))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1900x1000_um
+      (shape (path F.Cu 1000  -450 0  450 0))
+      (shape (path B.Cu 1000  -450 0  450 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_2032x2032_um
+      (shape (path F.Cu 2032  0 0  0 0))
+      (shape (path B.Cu 2032  0 0  0 0))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1016x1651_254.967_um_0.000000_0
+      (shape (polygon F.Cu 0  -508.967 571.5  -489.559 669.072  -434.289 751.789  -351.572 807.059
+            -253.999 826.466  254 826.467  351.572 807.059  434.289 751.789
+            489.559 669.072  508.966 571.499  508.967 -571.5  489.559 -669.072
+            434.289 -751.789  351.572 -807.059  253.999 -826.466  -254 -826.467
+            -351.572 -807.059  -434.289 -751.789  -489.559 -669.072  -508.966 -571.499
+            -508.967 571.5))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2032x2032_um
+      (shape (rect F.Cu -1016 -1016 1016 1016))
+      (shape (rect B.Cu -1016 -1016 1016 1016))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins C1-2 C2-2 P1-2 P3-2 P4-2 R1-2 R3-2 R4-2)
+    )
+    (net +9V
+      (pins C1-1 C2-1 P2-1 R2-1)
+    )
+    (net "Net-(C3-Pad2)"
+      (pins C3-2 P4-1 R4-1)
+    )
+    (net "Net-(C3-Pad1)"
+      (pins C3-1 Q1-1 R2-2)
+    )
+    (net "Net-(P1-Pad1)"
+      (pins P1-1 Q1-2 R1-1)
+    )
+    (net "Net-(P2-Pad2)"
+      (pins P2-2 P3-1)
+    )
+    (net "Net-(Q1-Pad3)"
+      (pins Q1-3 R3-1)
+    )
+    (class kicad_default "" +9V GND "Net-(C3-Pad1)" "Net-(C3-Pad2)" "Net-(P1-Pad1)"
+      "Net-(P2-Pad2)" "Net-(Q1-Pad3)"
+      (circuit
+        (use_via Via[0-1]_600:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 250  116647 -76824.8  116637 -76835)(net GND)(type route))
+    (wire (path F.Cu 500  116647 -73279  117856 -73279)(net GND)(type route))
+    (wire (path F.Cu 500  120523 -79441  120523 -78232)(net GND)(type route))
+    (wire (path F.Cu 500  116647 -75311  116647 -76824.8)(net GND)(type route))
+    (wire (path F.Cu 500  105232 -72085.2  106057 -72910)(net +9V)(type route))
+    (wire (path F.Cu 500  106057 -80264  107515 -81722  112014 -81722)(net +9V)(type route))
+    (wire (path F.Cu 500  106057 -74676  106057 -73778)(net +9V)(type route))
+    (wire (path F.Cu 500  106057 -80264  106057 -78994)(net +9V)(type route))
+    (wire (path F.Cu 500  106057 -78096  106057 -74676)(net +9V)(type route))
+    (wire (path F.Cu 500  106057 -78994  106057 -78096)(net +9V)(type route))
+    (wire (path F.Cu 500  102616 -72085.2  105232 -72085.2)(net +9V)(type route))
+    (wire (path F.Cu 500  106057 -73778  106057 -72910)(net +9V)(type route))
+    (wire (path F.Cu 250  120450 -81268  120523 -81341)(net "Net-(C3-Pad2)")(type route))
+    (wire (path F.Cu 250  120716 -81534  120523 -81341)(net "Net-(C3-Pad2)")(type route))
+    (wire (path F.Cu 500  116713 -81268  120450 -81268)(net "Net-(C3-Pad2)")(type route))
+    (wire (path F.Cu 500  123825 -81534  120716 -81534)(net "Net-(C3-Pad2)")(type route))
+    (wire (path F.Cu 250  116659 -79822  116713 -79768)(net "Net-(C3-Pad1)")(type route))
+    (wire (path F.Cu 500  112014 -79822  112014 -75946)(net "Net-(C3-Pad1)")(type route))
+    (wire (path F.Cu 500  112014 -79822  116659 -79822)(net "Net-(C3-Pad1)")(type route))
+    (wire (path F.Cu 250  114493 -75057  114747 -75311)(net "Net-(P1-Pad1)")(type route))
+    (wire (path F.Cu 500  121476 -72009  120269 -70802.5  110680 -70802.5  109792 -71691.5
+            109792 -74041  110426 -74676  112014 -74676)(net "Net-(P1-Pad1)")(type route))
+    (wire (path F.Cu 500  113913 -75311  113278 -74676)(net "Net-(P1-Pad1)")(type route))
+    (wire (path F.Cu 500  114747 -75311  113913 -75311)(net "Net-(P1-Pad1)")(type route))
+    (wire (path F.Cu 500  113278 -74676  112014 -74676)(net "Net-(P1-Pad1)")(type route))
+    (wire (path F.Cu 500  123825 -72009  121476 -72009)(net "Net-(P1-Pad1)")(type route))
+    (wire (path F.Cu 500  102616 -74625.2  102616 -78994)(net "Net-(P2-Pad2)")(type route))
+    (wire (path F.Cu 500  112014 -73406  114795 -73406  114799 -73409.1)(net "Net-(Q1-Pad3)")(type route))
+    (via "Via[0-1]_800:400_um"  117856 -73279 (net GND)(type route))
+    (via "Via[0-1]_800:400_um"  120523 -78232 (net GND)(type route))
+    (via "Via[0-1]_800:400_um"  116637 -76835 (net GND)(type route))
+  )
+)

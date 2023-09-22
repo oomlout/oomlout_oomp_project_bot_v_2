@@ -1,10 +1,419 @@
 board: smokecannoncontroller
+bom:
+- Id: '1'
+  Designator: C2
+  Footprint: CP_Radial_D8.0mm_P3.80mm
+  Quantity: '1'
+  Designation: 470uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D1
+  Footprint: TO-220-3_Vertical
+  Quantity: '1'
+  Designation: BTA08-600C
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: D2
+  Footprint: Diode_Bridge_Round_D9.8mm
+  Quantity: '1'
+  Designation: D_Bridge_+-AA
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J1
+  Footprint: TerminalBlock_bornier-3_P5.08mm
+  Quantity: '1'
+  Designation: SMOKE_MACHINE_XLR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J2
+  Footprint: TerminalBlock_bornier-2_P5.08mm
+  Quantity: '1'
+  Designation: LED_OUTPUT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R1,R2
+  Footprint: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  Quantity: '2'
+  Designation: '100'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R3
+  Footprint: R_Axial_Power_L20.0mm_W6.4mm_P25.40mm
+  Quantity: '1'
+  Designation: '820'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R4
+  Footprint: R_Axial_Power_L20.0mm_W6.4mm_P25.40mm
+  Quantity: '1'
+  Designation: '30'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: RV1
+  Footprint: Potentiometer_Trimmer_Piher_PT-10v5_Horizontal_Px5.0mm_Py5.0mm
+  Quantity: '1'
+  Designation: 100K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: RV2
+  Footprint: Potentiometer_Trimmer_Piher_PT-10v5_Horizontal_Px5.0mm_Py5.0mm
+  Quantity: '1'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U1
+  Footprint: DIP-6_W7.62mm
+  Quantity: '1'
+  Designation: MOC3020M
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U3
+  Footprint: DIP-8_W7.62mm
+  Quantity: '1'
+  Designation: LM555
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: C1
+  Footprint: C_Disc_D4.3mm_W1.9mm_P5.00mm
+  Quantity: '1'
+  Designation: 0.01uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: U2
+  Footprint: HLK-PM01
+  Quantity: '1'
+  Designation: PSU-5VDC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C2\
+  \ | CP_Radial_D8.0mm_P3.80mm | 1 | 470uF |  |  | [''] | \n| 2 | D1 | TO-220-3_Vertical\
+  \ | 1 | BTA08-600C |  |  | [''] | \n| 3 | D2 | Diode_Bridge_Round_D9.8mm | 1 | D_Bridge_+-AA\
+  \ |  |  | [''] | \n| 4 | J1 | TerminalBlock_bornier-3_P5.08mm | 1 | SMOKE_MACHINE_XLR\
+  \ |  |  | [''] | \n| 5 | J2 | TerminalBlock_bornier-2_P5.08mm | 1 | LED_OUTPUT |\
+  \  |  | [''] | \n| 6 | R1,R2 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 2 | 100 |  |  | [''] | \n| 7 | R3 | R_Axial_Power_L20.0mm_W6.4mm_P25.40mm |\
+  \ 1 | 820 |  |  | [''] | \n| 8 | R4 | R_Axial_Power_L20.0mm_W6.4mm_P25.40mm | 1\
+  \ | 30 |  |  | [''] | \n| 9 | RV1 | Potentiometer_Trimmer_Piher_PT-10v5_Horizontal_Px5.0mm_Py5.0mm\
+  \ | 1 | 100K |  |  | [''] | \n| 10 | RV2 | Potentiometer_Trimmer_Piher_PT-10v5_Horizontal_Px5.0mm_Py5.0mm\
+  \ | 1 | 1K |  |  | [''] | \n| 11 | U1 | DIP-6_W7.62mm | 1 | MOC3020M |  |  | ['']\
+  \ | \n| 12 | U3 | DIP-8_W7.62mm | 1 | LM555 |  |  | [''] | \n| 13 | C1 | C_Disc_D4.3mm_W1.9mm_P5.00mm\
+  \ | 1 | 0.01uF |  |  | [''] | \n| 14 | U2 | HLK-PM01 | 1 | PSU-5VDC |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+  Qnty: '1'
+  Ref: C1
+  Value: 0.01uF
+  Vendor: ''
+- Cmp name: CP
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_THT:CP_Radial_D8.0mm_P3.80mm
+  Qnty: '1'
+  Ref: C2
+  Value: 470uF
+  Vendor: ''
+- Cmp name: Q_TRIAC_AAG2
+  DNP: ''
+  Description: ''
+  Footprint: TO_SOT_Packages_THT:TO-220-3_Vertical
+  Qnty: '1'
+  Ref: D1
+  Value: BTA08-600C
+  Vendor: ''
+- Cmp name: D_Bridge_+A-A
+  DNP: ''
+  Description: ''
+  Footprint: Diodes_THT:Diode_Bridge_Round_D9.8mm
+  Qnty: '1'
+  Ref: D2
+  Value: D_Bridge_+-AA
+  Vendor: ''
+- Cmp name: Screw_Terminal_01x03
+  DNP: ''
+  Description: ''
+  Footprint: Connectors_Terminal_Blocks:TerminalBlock_bornier-3_P5.08mm
+  Qnty: '1'
+  Ref: J1
+  Value: SMOKE_MACHINE_XLR
+  Vendor: ''
+- Cmp name: Screw_Terminal_01x02
+  DNP: ''
+  Description: ''
+  Footprint: Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm
+  Qnty: '1'
+  Ref: J2
+  Value: LED_OUTPUT
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  Qnty: '2'
+  Ref: R1, R2
+  Value: '100'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm
+  Qnty: '1'
+  Ref: R3
+  Value: '820'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm
+  Qnty: '1'
+  Ref: R4
+  Value: '30'
+  Vendor: ''
+- Cmp name: POT_TRIM
+  DNP: ''
+  Description: ''
+  Footprint: Potentiometers:Potentiometer_Trimmer_Piher_PT-10v5_Horizontal_Px5.0mm_Py5.0mm
+  Qnty: '1'
+  Ref: RV1
+  Value: 100K
+  Vendor: ''
+- Cmp name: POT_TRIM
+  DNP: ''
+  Description: ''
+  Footprint: Potentiometers:Potentiometer_Trimmer_Piher_PT-10v5_Horizontal_Px5.0mm_Py5.0mm
+  Qnty: '1'
+  Ref: RV2
+  Value: 1K
+  Vendor: ''
+- Cmp name: MOC3020M
+  DNP: ''
+  Description: ''
+  Footprint: Housings_DIP:DIP-6_W7.62mm
+  Qnty: '1'
+  Ref: U1
+  Value: MOC3020M
+  Vendor: ''
+- Cmp name: PSU-5VDC
+  DNP: ''
+  Description: ''
+  Footprint: BGCustom:HLK-PM01
+  Qnty: '1'
+  Ref: U2
+  Value: PSU-5VDC
+  Vendor: ''
+- Cmp name: LM555
+  DNP: ''
+  Description: ''
+  Footprint: Housings_DIP:DIP-8_W7.62mm
+  Qnty: '1'
+  Ref: U3
+  Value: LM555
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 0.01uF | C | Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm |  |  |  | \n| C2\
+  \ | 1 | 470uF | CP | Capacitors_THT:CP_Radial_D8.0mm_P3.80mm |  |  |  | \n| D1 |\
+  \ 1 | BTA08-600C | Q_TRIAC_AAG2 | TO_SOT_Packages_THT:TO-220-3_Vertical |  |  |\
+  \  | \n| D2 | 1 | D_Bridge_+-AA | D_Bridge_+A-A | Diodes_THT:Diode_Bridge_Round_D9.8mm\
+  \ |  |  |  | \n| J1 | 1 | SMOKE_MACHINE_XLR | Screw_Terminal_01x03 | Connectors_Terminal_Blocks:TerminalBlock_bornier-3_P5.08mm\
+  \ |  |  |  | \n| J2 | 1 | LED_OUTPUT | Screw_Terminal_01x02 | Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm\
+  \ |  |  |  | \n| R1, R2 | 2 | 100 | R | Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ |  |  |  | \n| R3 | 1 | 820 | R | Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm\
+  \ |  |  |  | \n| R4 | 1 | 30 | R | Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm\
+  \ |  |  |  | \n| RV1 | 1 | 100K | POT_TRIM | Potentiometers:Potentiometer_Trimmer_Piher_PT-10v5_Horizontal_Px5.0mm_Py5.0mm\
+  \ |  |  |  | \n| RV2 | 1 | 1K | POT_TRIM | Potentiometers:Potentiometer_Trimmer_Piher_PT-10v5_Horizontal_Px5.0mm_Py5.0mm\
+  \ |  |  |  | \n| U1 | 1 | MOC3020M | MOC3020M | Housings_DIP:DIP-6_W7.62mm |  |\
+  \  |  | \n| U2 | 1 | PSU-5VDC | PSU-5VDC | BGCustom:HLK-PM01 |  |  |  | \n| U3 |\
+  \ 1 | LM555 | LM555 | Housings_DIP:DIP-8_W7.62mm |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/carnivalben_smokecannoncontroller_smokecannoncontroller/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/carnivalben_smokecannoncontroller_smokecannoncontroller/current_version/working/working.kicad_pcb
 file_sch_flat: projects/carnivalben_smokecannoncontroller_smokecannoncontroller/current_version/working/working.sch
 id: carnivalben_smokecannoncontroller_smokecannoncontroller
 name: smokecannoncontroller
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_Disc_D4.3mm_W1.9mm_P5.00mm
+  PosX: 102.87
+  PosY: -45.72
+  Rot: 90.0
+  Side: top
+  Val: 0.01uF
+- '# Ref': C2
+  Package: CP_Radial_D8.0mm_P3.80mm
+  PosX: 87.63
+  PosY: -52.07
+  Rot: 180.0
+  Side: top
+  Val: 470uF
+- '# Ref': D1
+  Package: TO-220-3_Vertical
+  PosX: 50.165
+  PosY: -69.215
+  Rot: -90.0
+  Side: top
+  Val: BTA08-600C
+- '# Ref': D2
+  Package: Diode_Bridge_Round_D9.8mm
+  PosX: 65.405
+  PosY: -52.705
+  Rot: 0.0
+  Side: top
+  Val: D_Bridge_+-AA
+- '# Ref': J1
+  Package: TerminalBlock_bornier-3_P5.08mm
+  PosX: 48.26
+  PosY: -62.23
+  Rot: 90.0
+  Side: top
+  Val: SMOKE_MACHINE_XLR
+- '# Ref': J2
+  Package: TerminalBlock_bornier-2_P5.08mm
+  PosX: 67.31
+  PosY: -73.025
+  Rot: 0.0
+  Side: top
+  Val: LED_OUTPUT
+- '# Ref': R1
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 65.405
+  PosY: -66.04
+  Rot: 0.0
+  Side: top
+  Val: '100'
+- '# Ref': R2
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 86.995
+  PosY: -46.355
+  Rot: 0.0
+  Side: top
+  Val: '100'
+- '# Ref': R3
+  Package: R_Axial_Power_L20.0mm_W6.4mm_P25.40mm
+  PosX: 58.42
+  PosY: -75.565
+  Rot: 90.0
+  Side: top
+  Val: '820'
+- '# Ref': R4
+  Package: R_Axial_Power_L20.0mm_W6.4mm_P25.40mm
+  PosX: 80.01
+  PosY: -73.025
+  Rot: 0.0
+  Side: top
+  Val: '30'
+- '# Ref': RV1
+  Package: Potentiometer_Trimmer_Piher_PT-10v5_Horizontal_Px5.0mm_Py5.0mm
+  PosX: 106.68
+  PosY: -54.61
+  Rot: 180.0
+  Side: top
+  Val: 100K
+- '# Ref': RV2
+  Package: Potentiometer_Trimmer_Piher_PT-10v5_Horizontal_Px5.0mm_Py5.0mm
+  PosX: 95.885
+  PosY: -55.88
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': U1
+  Package: DIP-6_W7.62mm
+  PosX: 85.09
+  PosY: -58.42
+  Rot: -90.0
+  Side: top
+  Val: MOC3020M
+- '# Ref': U2
+  Package: HLK-PM01
+  PosX: 79.375
+  PosY: -29.845
+  Rot: 0.0
+  Side: top
+  Val: PSU-5VDC
+- '# Ref': U3
+  Package: DIP-8_W7.62mm
+  PosX: 92.075
+  PosY: -43.18
+  Rot: 90.0
+  Side: top
+  Val: LM555
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.01uF | C_Disc_D4.3mm_W1.9mm_P5.00mm\
+  \ | 102.87 | -45.72 | 90.0 | top | \n| C2 | 470uF | CP_Radial_D8.0mm_P3.80mm | 87.63\
+  \ | -52.07 | 180.0 | top | \n| D1 | BTA08-600C | TO-220-3_Vertical | 50.165 | -69.215\
+  \ | -90.0 | top | \n| D2 | D_Bridge_+-AA | Diode_Bridge_Round_D9.8mm | 65.405 |\
+  \ -52.705 | 0.0 | top | \n| J1 | SMOKE_MACHINE_XLR | TerminalBlock_bornier-3_P5.08mm\
+  \ | 48.26 | -62.23 | 90.0 | top | \n| J2 | LED_OUTPUT | TerminalBlock_bornier-2_P5.08mm\
+  \ | 67.31 | -73.025 | 0.0 | top | \n| R1 | 100 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 65.405 | -66.04 | 0.0 | top | \n| R2 | 100 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 86.995 | -46.355 | 0.0 | top | \n| R3 | 820 | R_Axial_Power_L20.0mm_W6.4mm_P25.40mm\
+  \ | 58.42 | -75.565 | 90.0 | top | \n| R4 | 30 | R_Axial_Power_L20.0mm_W6.4mm_P25.40mm\
+  \ | 80.01 | -73.025 | 0.0 | top | \n| RV1 | 100K | Potentiometer_Trimmer_Piher_PT-10v5_Horizontal_Px5.0mm_Py5.0mm\
+  \ | 106.68 | -54.61 | 180.0 | top | \n| RV2 | 1K | Potentiometer_Trimmer_Piher_PT-10v5_Horizontal_Px5.0mm_Py5.0mm\
+  \ | 95.885 | -55.88 | 180.0 | top | \n| U1 | MOC3020M | DIP-6_W7.62mm | 85.09 |\
+  \ -58.42 | -90.0 | top | \n| U2 | PSU-5VDC | HLK-PM01 | 79.375 | -29.845 | 0.0 |\
+  \ top | \n| U3 | LM555 | DIP-8_W7.62mm | 92.075 | -43.18 | 90.0 | top | \n"
 projects_flat: projects/carnivalben_smokecannoncontroller_smokecannoncontroller/current_version/working
 repo:
   allow_forking: true

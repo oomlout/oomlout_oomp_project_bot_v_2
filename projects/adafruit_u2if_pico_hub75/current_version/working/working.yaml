@@ -1,10 +1,560 @@
 board: pico_hub75
+bom:
+- Id: '1'
+  Designator: U1
+  Footprint: RPi_Pico_SMD_TH
+  Quantity: '1'
+  Designation: Pico
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J6,J7,J8
+  Footprint: PinHeader_1x03_P2.54mm_Vertical
+  Quantity: '3'
+  Designation: Conn_01x03_Male
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: SW3,SW1,SW2
+  Footprint: SW_PUSH_6mm_H5mm
+  Quantity: '3'
+  Designation: SW_Push
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J5,J2
+  Footprint: PinHeader_1x06_P2.54mm_Vertical
+  Quantity: '2'
+  Designation: Conn_01x06_Male
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J10,J9
+  Footprint: PinHeader_1x04_P2.54mm_Vertical
+  Quantity: '2'
+  Designation: Conn_01x04_Male
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: D1
+  Footprint: D_SMA
+  Quantity: '1'
+  Designation: D_Schottky
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C5,C6,C8,C7
+  Footprint: CP_Radial_D6.3mm_P2.50mm
+  Quantity: '4'
+  Designation: CP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: JP1,JP2
+  Footprint: PinHeader_1x02_P2.54mm_Vertical
+  Quantity: '2'
+  Designation: Jumper
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: J3
+  Footprint: PinHeader_1x05_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x05_Male
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: J1
+  Footprint: IDC-Header_2x08_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_02x08_Odd_Even
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: D2
+  Footprint: LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  Quantity: '1'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: R1,R2
+  Footprint: R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  Quantity: '2'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: R3
+  Footprint: R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  Quantity: '1'
+  Designation: '470'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: J4
+  Footprint: PinHeader_1x04_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x05_Male
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: +5V,+3V3,GND
+  Footprint: PinHeader_1x02_P2.54mm_Vertical
+  Quantity: '3'
+  Designation: Conn_01x02_Male
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U1\
+  \ | RPi_Pico_SMD_TH | 1 | Pico |  |  | [''] | \n| 2 | J6,J7,J8 | PinHeader_1x03_P2.54mm_Vertical\
+  \ | 3 | Conn_01x03_Male |  |  | [''] | \n| 3 | SW3,SW1,SW2 | SW_PUSH_6mm_H5mm |\
+  \ 3 | SW_Push |  |  | [''] | \n| 4 | J5,J2 | PinHeader_1x06_P2.54mm_Vertical | 2\
+  \ | Conn_01x06_Male |  |  | [''] | \n| 5 | J10,J9 | PinHeader_1x04_P2.54mm_Vertical\
+  \ | 2 | Conn_01x04_Male |  |  | [''] | \n| 6 | D1 | D_SMA | 1 | D_Schottky |  |\
+  \  | [''] | \n| 7 | C5,C6,C8,C7 | CP_Radial_D6.3mm_P2.50mm | 4 | CP |  |  | ['']\
+  \ | \n| 8 | JP1,JP2 | PinHeader_1x02_P2.54mm_Vertical | 2 | Jumper |  |  | ['']\
+  \ | \n| 9 | J3 | PinHeader_1x05_P2.54mm_Vertical | 1 | Conn_01x05_Male |  |  | ['']\
+  \ | \n| 10 | J1 | IDC-Header_2x08_P2.54mm_Vertical | 1 | Conn_02x08_Odd_Even | \
+  \ |  | [''] | \n| 11 | D2 | LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder | 1 |\
+  \ LED |  |  | [''] | \n| 12 | R1,R2 | R_1206_3216Metric_Pad1.42x1.75mm_HandSolder\
+  \ | 2 | 10k |  |  | [''] | \n| 13 | R3 | R_1206_3216Metric_Pad1.42x1.75mm_HandSolder\
+  \ | 1 | 470 |  |  | [''] | \n| 14 | J4 | PinHeader_1x04_P2.54mm_Vertical | 1 | Conn_01x05_Male\
+  \ |  |  | [''] | \n| 15 | +5V,+3V3,GND | PinHeader_1x02_P2.54mm_Vertical | 3 | Conn_01x02_Male\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CP-Device
+  DNP: ''
+  Description: ''
+  Footprint: Capacitor_THT:CP_Radial_D6.3mm_P2.50mm
+  Qnty: '4'
+  Ref: C5, C6, C7, C8
+  Value: CP
+  Vendor: ''
+- Cmp name: D_Schottky
+  DNP: ''
+  Description: Schottky diode
+  Footprint: Diode_SMD:D_SMA
+  Qnty: '1'
+  Ref: D1
+  Value: D_Schottky
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  Qnty: '1'
+  Ref: D2
+  Value: LED
+  Vendor: ''
+- Cmp name: MountingHole
+  DNP: ''
+  Description: Mounting Hole without connection
+  Footprint: MountingHole:MountingHole_3.2mm_M3
+  Qnty: '4'
+  Ref: H1, H2, H3, H4
+  Value: MountingHole
+  Vendor: ''
+- Cmp name: Conn_02x08_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x08, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_02x08_Odd_Even
+  Vendor: ''
+- Cmp name: Conn_01x06_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical
+  Qnty: '2'
+  Ref: J2, J5
+  Value: Conn_01x06_Male
+  Vendor: ''
+- Cmp name: Conn_01x05_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J3
+  Value: Conn_01x05_Male
+  Vendor: ''
+- Cmp name: Conn_01x04_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J4
+  Value: Conn_01x05_Male
+  Vendor: ''
+- Cmp name: Conn_01x03_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+  Qnty: '3'
+  Ref: J6, J7, J8
+  Value: Conn_01x03_Male
+  Vendor: ''
+- Cmp name: Conn_01x04_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+  Qnty: '2'
+  Ref: J9, J10
+  Value: Conn_01x04_Male
+  Vendor: ''
+- Cmp name: Conn_01x02_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+  Qnty: '3'
+  Ref: J11, J12, J13
+  Value: Conn_01x02_Male
+  Vendor: ''
+- Cmp name: Jumper-Device
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+  Qnty: '2'
+  Ref: JP1, JP2
+  Value: Jumper
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 10k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  Qnty: '1'
+  Ref: R3
+  Value: '470'
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: Push button switch, generic, two pins
+  Footprint: Button_Switch_THT:SW_PUSH_6mm_H5mm
+  Qnty: '3'
+  Ref: SW1, SW2, SW3
+  Value: SW_Push
+  Vendor: ''
+- Cmp name: Pico
+  DNP: ''
+  Description: ''
+  Footprint: MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH
+  Qnty: '1'
+  Ref: U1
+  Value: Pico
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C5, C6,\
+  \ C7, C8 | 4 | CP | CP-Device | Capacitor_THT:CP_Radial_D6.3mm_P2.50mm |  |  | \
+  \ | \n| D1 | 1 | D_Schottky | D_Schottky | Diode_SMD:D_SMA | Schottky diode |  |\
+  \  | \n| D2 | 1 | LED | LED | LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder\
+  \ | Light emitting diode |  |  | \n| H1, H2, H3, H4 | 4 | MountingHole | MountingHole\
+  \ | MountingHole:MountingHole_3.2mm_M3 | Mounting Hole without connection |  | \
+  \ | \n| J1 | 1 | Conn_02x08_Odd_Even | Conn_02x08_Odd_Even | Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical\
+  \ | Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J2, J5 | 2 | Conn_01x06_Male | Conn_01x06_Male-Connector | Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical\
+  \ |  |  |  | \n| J3 | 1 | Conn_01x05_Male | Conn_01x05_Male-Connector | Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical\
+  \ |  |  |  | \n| J4 | 1 | Conn_01x05_Male | Conn_01x04_Male-Connector | Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical\
+  \ |  |  |  | \n| J6, J7, J8 | 3 | Conn_01x03_Male | Conn_01x03_Male-Connector |\
+  \ Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical |  |  |  | \n| J9,\
+  \ J10 | 2 | Conn_01x04_Male | Conn_01x04_Male-Connector | Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical\
+  \ |  |  |  | \n| J11, J12, J13 | 3 | Conn_01x02_Male | Conn_01x02_Male-Connector\
+  \ | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical |  |  |  | \n| JP1,\
+  \ JP2 | 2 | Jumper | Jumper-Device | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical\
+  \ |  |  |  | \n| R1, R2 | 2 | 10k | R | Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder\
+  \ | Resistor |  |  | \n| R3 | 1 | 470 | R | Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder\
+  \ | Resistor |  |  | \n| SW1, SW2, SW3 | 3 | SW_Push | SW_Push | Button_Switch_THT:SW_PUSH_6mm_H5mm\
+  \ | Push button switch, generic, two pins |  |  | \n| U1 | 1 | Pico | Pico | MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adafruit_u2if_pico_hub75/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adafruit_u2if_pico_hub75/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adafruit_u2if_pico_hub75/current_version/working/working.sch
 id: adafruit_u2if_pico_hub75
 name: u2if
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': +3V3
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 165.735
+  PosY: -102.87
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x02_Male
+- '# Ref': +5V
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 157.48
+  PosY: -97.79
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x02_Male
+- '# Ref': C5
+  Package: CP_Radial_D6.3mm_P2.50mm
+  PosX: 219.71
+  PosY: -65.598
+  Rot: 0.0
+  Side: top
+  Val: CP
+- '# Ref': C6
+  Package: CP_Radial_D6.3mm_P2.50mm
+  PosX: 219.71
+  PosY: -57.785
+  Rot: 0.0
+  Side: top
+  Val: CP
+- '# Ref': C7
+  Package: CP_Radial_D6.3mm_P2.50mm
+  PosX: 165.735
+  PosY: -58.42
+  Rot: 0.0
+  Side: top
+  Val: CP
+- '# Ref': C8
+  Package: CP_Radial_D6.3mm_P2.50mm
+  PosX: 167.9702
+  PosY: -98.552
+  Rot: 90.0
+  Side: top
+  Val: CP
+- '# Ref': D1
+  Package: D_SMA
+  PosX: 209.55
+  PosY: -109.22
+  Rot: 180.0
+  Side: top
+  Val: D_Schottky
+- '# Ref': D2
+  Package: LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  PosX: 224.5725
+  PosY: -85.9485
+  Rot: 180.0
+  Side: top
+  Val: LED
+- '# Ref': GND
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 157.48
+  PosY: -102.87
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x02_Male
+- '# Ref': J1
+  Package: IDC-Header_2x08_P2.54mm_Vertical
+  PosX: 159.385
+  PosY: -69.85
+  Rot: 0.0
+  Side: top
+  Val: Conn_02x08_Odd_Even
+- '# Ref': J2
+  Package: PinHeader_1x06_P2.54mm_Vertical
+  PosX: 183.515
+  PosY: -55.88
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x06_Male
+- '# Ref': J3
+  Package: PinHeader_1x05_P2.54mm_Vertical
+  PosX: 183.515
+  PosY: -74.93
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x05_Male
+- '# Ref': J4
+  Package: PinHeader_1x04_P2.54mm_Vertical
+  PosX: 183.515
+  PosY: -92.075
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x05_Male
+- '# Ref': J5
+  Package: PinHeader_1x06_P2.54mm_Vertical
+  PosX: 218.44
+  PosY: -102.87
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x06_Male
+- '# Ref': J6
+  Package: PinHeader_1x03_P2.54mm_Vertical
+  PosX: 229.87
+  PosY: -77.47
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x03_Male
+- '# Ref': J7
+  Package: PinHeader_1x03_P2.54mm_Vertical
+  PosX: 229.87
+  PosY: -55.88
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x03_Male
+- '# Ref': J8
+  Package: PinHeader_1x03_P2.54mm_Vertical
+  PosX: 229.87
+  PosY: -66.04
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x03_Male
+- '# Ref': J9
+  Package: PinHeader_1x04_P2.54mm_Vertical
+  PosX: 171.45
+  PosY: -109.855
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x04_Male
+- '# Ref': J10
+  Package: PinHeader_1x04_P2.54mm_Vertical
+  PosX: 195.58
+  PosY: -109.22
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x04_Male
+- '# Ref': JP1
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 172.085
+  PosY: -82.55
+  Rot: 90.0
+  Side: top
+  Val: Jumper
+- '# Ref': JP2
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 172.085
+  PosY: -87.63
+  Rot: 90.0
+  Side: top
+  Val: Jumper
+- '# Ref': R1
+  Package: R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  PosX: 236.347
+  PosY: -96.3565
+  Rot: -90.0
+  Side: top
+  Val: 10k
+- '# Ref': R2
+  Package: R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  PosX: 236.347
+  PosY: -90.5145
+  Rot: 90.0
+  Side: top
+  Val: 10k
+- '# Ref': R3
+  Package: R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+  PosX: 218.2225
+  PosY: -85.725
+  Rot: 180.0
+  Side: top
+  Val: '470'
+- '# Ref': SW1
+  Package: SW_PUSH_6mm_H5mm
+  PosX: 224.79
+  PosY: -79.43
+  Rot: 180.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW2
+  Package: SW_PUSH_6mm_H5mm
+  PosX: 226.06
+  PosY: -88.9
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW3
+  Package: SW_PUSH_6mm_H5mm
+  PosX: 226.06
+  PosY: -97.79
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': U1
+  Package: RPi_Pico_SMD_TH
+  PosX: 201.295
+  PosY: -78.9
+  Rot: 0.0
+  Side: top
+  Val: Pico
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| +3V3 | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 165.735 | -102.87 | 90.0 | top | \n| +5V | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 157.48 | -97.79 | 90.0 | top | \n| C5 | CP | CP_Radial_D6.3mm_P2.50mm | 219.71\
+  \ | -65.598 | 0.0 | top | \n| C6 | CP | CP_Radial_D6.3mm_P2.50mm | 219.71 | -57.785\
+  \ | 0.0 | top | \n| C7 | CP | CP_Radial_D6.3mm_P2.50mm | 165.735 | -58.42 | 0.0\
+  \ | top | \n| C8 | CP | CP_Radial_D6.3mm_P2.50mm | 167.9702 | -98.552 | 90.0 | top\
+  \ | \n| D1 | D_Schottky | D_SMA | 209.55 | -109.22 | 180.0 | top | \n| D2 | LED\
+  \ | LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder | 224.5725 | -85.9485 | 180.0\
+  \ | top | \n| GND | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical | 157.48 |\
+  \ -102.87 | 90.0 | top | \n| J1 | Conn_02x08_Odd_Even | IDC-Header_2x08_P2.54mm_Vertical\
+  \ | 159.385 | -69.85 | 0.0 | top | \n| J2 | Conn_01x06_Male | PinHeader_1x06_P2.54mm_Vertical\
+  \ | 183.515 | -55.88 | 0.0 | top | \n| J3 | Conn_01x05_Male | PinHeader_1x05_P2.54mm_Vertical\
+  \ | 183.515 | -74.93 | 0.0 | top | \n| J4 | Conn_01x05_Male | PinHeader_1x04_P2.54mm_Vertical\
+  \ | 183.515 | -92.075 | 0.0 | top | \n| J5 | Conn_01x06_Male | PinHeader_1x06_P2.54mm_Vertical\
+  \ | 218.44 | -102.87 | 180.0 | top | \n| J6 | Conn_01x03_Male | PinHeader_1x03_P2.54mm_Vertical\
+  \ | 229.87 | -77.47 | 0.0 | top | \n| J7 | Conn_01x03_Male | PinHeader_1x03_P2.54mm_Vertical\
+  \ | 229.87 | -55.88 | 0.0 | top | \n| J8 | Conn_01x03_Male | PinHeader_1x03_P2.54mm_Vertical\
+  \ | 229.87 | -66.04 | 0.0 | top | \n| J9 | Conn_01x04_Male | PinHeader_1x04_P2.54mm_Vertical\
+  \ | 171.45 | -109.855 | 90.0 | top | \n| J10 | Conn_01x04_Male | PinHeader_1x04_P2.54mm_Vertical\
+  \ | 195.58 | -109.22 | 90.0 | top | \n| JP1 | Jumper | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 172.085 | -82.55 | 90.0 | top | \n| JP2 | Jumper | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 172.085 | -87.63 | 90.0 | top | \n| R1 | 10k | R_1206_3216Metric_Pad1.42x1.75mm_HandSolder\
+  \ | 236.347 | -96.3565 | -90.0 | top | \n| R2 | 10k | R_1206_3216Metric_Pad1.42x1.75mm_HandSolder\
+  \ | 236.347 | -90.5145 | 90.0 | top | \n| R3 | 470 | R_1206_3216Metric_Pad1.42x1.75mm_HandSolder\
+  \ | 218.2225 | -85.725 | 180.0 | top | \n| SW1 | SW_Push | SW_PUSH_6mm_H5mm | 224.79\
+  \ | -79.43 | 180.0 | top | \n| SW2 | SW_Push | SW_PUSH_6mm_H5mm | 226.06 | -88.9\
+  \ | 0.0 | top | \n| SW3 | SW_Push | SW_PUSH_6mm_H5mm | 226.06 | -97.79 | 0.0 | top\
+  \ | \n| U1 | Pico | RPi_Pico_SMD_TH | 201.295 | -78.9 | 0.0 | top | \n"
 projects_flat: projects/adafruit_u2if_pico_hub75/current_version/working
 repo:
   allow_forking: true

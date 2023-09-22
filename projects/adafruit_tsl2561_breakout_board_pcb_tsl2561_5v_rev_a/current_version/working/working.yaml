@@ -1,9 +1,419 @@
 board: tsl2561_5v_rev_a
+bom:
+- Id: '1'
+  Designator: '@HOLE1,@HOLE0'
+  Footprint: ''
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$4
+  Footprint: STEMMA_TSL2561_B_FRONT
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U3
+  Footprint: TSL2561_FN
+  Quantity: '1'
+  Designation: TSL2561
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U2
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: MIC5225-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: FID2,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: SCL_PAD0,GND_PAD0,SDA_PAD0,VIN_PAD0
+  Footprint: SEWALLI
+  Quantity: '4'
+  Designation: SEWTAP-ALLIGATOR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: Q3
+  Footprint: SOT363
+  Quantity: '1'
+  Designation: 2N7002D
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: X1
+  Footprint: JSTPH4
+  Quantity: '1'
+  Designation: STEMMA_I2C_RASMT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R1
+  Footprint: RESPACK_4X0603
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: C2,C1
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U$8
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: SJ1
+  Footprint: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U$7
+  Footprint: STEMMA_TSL2561_B_BACK
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | @HOLE1,@HOLE0\
+  \ |  | 2 |  |  |  | [''] | \n| 2 | U$4 | STEMMA_TSL2561_B_FRONT | 1 |  |  |  | ['']\
+  \ | \n| 3 | U3 | TSL2561_FN | 1 | TSL2561 |  |  | [''] | \n| 4 | U2 | SOT23-5 |\
+  \ 1 | MIC5225-3.3 |  |  | [''] | \n| 5 | FID2,FID1 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM\
+  \ |  |  | [''] | \n| 6 | SCL_PAD0,GND_PAD0,SDA_PAD0,VIN_PAD0 | SEWALLI | 4 | SEWTAP-ALLIGATOR\
+  \ |  |  | [''] | \n| 7 | Q3 | SOT363 | 1 | 2N7002D |  |  | [''] | \n| 8 | X1 | JSTPH4\
+  \ | 1 | STEMMA_I2C_RASMT |  |  | [''] | \n| 9 | R1 | RESPACK_4X0603 | 1 | 10K |\
+  \  |  | [''] | \n| 10 | C2,C1 | 0805-NO | 2 | 10uF |  |  | [''] | \n| 11 | U$8 |\
+  \ PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n| 12 | SJ1 | SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ | 1 |  |  |  | [''] | \n| 13 | U$7 | STEMMA_TSL2561_B_BACK | 1 |  |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C1, C2
+  Value: 10uF
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: SEWTAP-ALLIGATOR
+  DNP: ''
+  Description: ''
+  Footprint: working:SEWALLI
+  Qnty: '1'
+  Ref: GND_PAD0
+  Value: SEWTAP-ALLIGATOR
+  Vendor: ''
+- Cmp name: MOSFET-N_DUAL
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT363
+  Qnty: '1'
+  Ref: Q3
+  Value: 2N7002D
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603
+  Qnty: '1'
+  Ref: R1
+  Value: 10K
+  Vendor: ''
+- Cmp name: SEWTAP-ALLIGATOR
+  DNP: ''
+  Description: ''
+  Footprint: working:SEWALLI
+  Qnty: '1'
+  Ref: SCL_PAD0
+  Value: SEWTAP-ALLIGATOR
+  Vendor: ''
+- Cmp name: SEWTAP-ALLIGATOR
+  DNP: ''
+  Description: ''
+  Footprint: working:SEWALLI
+  Qnty: '1'
+  Ref: SDA_PAD0
+  Value: SEWTAP-ALLIGATOR
+  Vendor: ''
+- Cmp name: SOLDERJUMPER_2WAY
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  Qnty: '1'
+  Ref: SJ1
+  Value: SOLDERJUMPER_2WAY
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U2
+  Value: MIC5225-3.3
+  Vendor: ''
+- Cmp name: LIGHT_TSL2561
+  DNP: ''
+  Description: ''
+  Footprint: working:TSL2561_FN
+  Qnty: '1'
+  Ref: U3
+  Value: TSL2561
+  Vendor: ''
+- Cmp name: SEWTAP-ALLIGATOR
+  DNP: ''
+  Description: ''
+  Footprint: working:SEWALLI
+  Qnty: '1'
+  Ref: VIN_PAD0
+  Value: SEWTAP-ALLIGATOR
+  Vendor: ''
+- Cmp name: STEMMA_I2C_RASMT
+  DNP: ''
+  Description: ''
+  Footprint: working:JSTPH4
+  Qnty: '1'
+  Ref: X1
+  Value: STEMMA_I2C_RASMT
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2\
+  \ | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| FID1,\
+  \ FID2 | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| GND_PAD0\
+  \ | 1 | SEWTAP-ALLIGATOR | SEWTAP-ALLIGATOR | working:SEWALLI |  |  |  | \n| Q3\
+  \ | 1 | 2N7002D | MOSFET-N_DUAL | working:SOT363 |  |  |  | \n| R1 | 1 | 10K | RESISTOR_4PACK\
+  \ | working:RESPACK_4X0603 |  |  |  | \n| SCL_PAD0 | 1 | SEWTAP-ALLIGATOR | SEWTAP-ALLIGATOR\
+  \ | working:SEWALLI |  |  |  | \n| SDA_PAD0 | 1 | SEWTAP-ALLIGATOR | SEWTAP-ALLIGATOR\
+  \ | working:SEWALLI |  |  |  | \n| SJ1 | 1 | SOLDERJUMPER_2WAY | SOLDERJUMPER_2WAY\
+  \ | working:SOLDERJUMPER_2WAY_OPEN_NOPASTE |  |  |  | \n| U2 | 1 | MIC5225-3.3 |\
+  \ VREG_SOT23-5 | working:SOT23-5 |  |  |  | \n| U3 | 1 | TSL2561 | LIGHT_TSL2561\
+  \ | working:TSL2561_FN |  |  |  | \n| VIN_PAD0 | 1 | SEWTAP-ALLIGATOR | SEWTAP-ALLIGATOR\
+  \ | working:SEWALLI |  |  |  | \n| X1 | 1 | STEMMA_I2C_RASMT | STEMMA_I2C_RASMT\
+  \ | working:JSTPH4 |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_tsl2561_breakout_board_pcb_tsl2561_5v_rev_a/current_version/working/working.brd
 file_sch_flat: projects/adafruit_tsl2561_breakout_board_pcb_tsl2561_5v_rev_a/current_version/working/working.sch
 id: adafruit_tsl2561_breakout_board_pcb_tsl2561_5v_rev_a
 name: tsl2561_breakout_board_pcb
+position_bottom:
+- '# Ref': SJ1
+  Package: SOLDERJUMPER_2WAY_OPEN_NOPASTE
+  PosX: 144.8181
+  PosY: -109.7026
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$7
+  Package: STEMMA_TSL2561_B_BACK
+  PosX: 161.2011
+  PosY: -117.7036
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$8
+  Package: PCBFEAT-REV-040
+  PosX: 141.4526
+  PosY: -105.1941
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| SJ1 | nan | SOLDERJUMPER_2WAY_OPEN_NOPASTE\
+  \ | 144.8181 | -109.7026 | -90.0 | bottom | \n| U$7 | nan | STEMMA_TSL2561_B_BACK\
+  \ | 161.2011 | -117.7036 | 180.0 | bottom | \n| U$8 | nan | PCBFEAT-REV-040 | 141.4526\
+  \ | -105.1941 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 138.3411
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 158.6611
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 147.4771
+  PosY: -105.8536
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 141.8661
+  PosY: -105.7266
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 144.8181
+  PosY: -97.7646
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 152.1841
+  PosY: -95.6056
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': GND_PAD0
+  Package: SEWALLI
+  PosX: 139.8651
+  PosY: -110.0836
+  Rot: 120.0
+  Side: top
+  Val: SEWTAP-ALLIGATOR
+- '# Ref': Q3
+  Package: SOT363
+  PosX: 150.0251
+  PosY: -106.0831
+  Rot: 90.0
+  Side: top
+  Val: 2N7002D
+- '# Ref': R1
+  Package: RESPACK_4X0603
+  PosX: 153.0731
+  PosY: -105.8926
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': SCL_PAD0
+  Package: SEWALLI
+  PosX: 139.8651
+  PosY: -99.9236
+  Rot: 60.0
+  Side: top
+  Val: SEWTAP-ALLIGATOR
+- '# Ref': SDA_PAD0
+  Package: SEWALLI
+  PosX: 157.1371
+  PosY: -99.9236
+  Rot: -60.0
+  Side: top
+  Val: SEWTAP-ALLIGATOR
+- '# Ref': U$4
+  Package: STEMMA_TSL2561_B_FRONT
+  PosX: 135.8011
+  PosY: -117.7036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U2
+  Package: SOT23-5
+  PosX: 144.7301
+  PosY: -106.0676
+  Rot: 180.0
+  Side: top
+  Val: MIC5225-3.3
+- '# Ref': U3
+  Package: TSL2561_FN
+  PosX: 148.5011
+  PosY: -111.3536
+  Rot: 0.0
+  Side: top
+  Val: TSL2561
+- '# Ref': VIN_PAD0
+  Package: SEWALLI
+  PosX: 157.1371
+  PosY: -110.0836
+  Rot: -120.0
+  Side: top
+  Val: SEWTAP-ALLIGATOR
+- '# Ref': X1
+  Package: JSTPH4
+  PosX: 148.5011
+  PosY: -97.5106
+  Rot: 0.0
+  Side: top
+  Val: STEMMA_I2C_RASMT
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 138.3411 | -105.0036\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 158.6611 | -105.0036 | 0.0 | top | \n|\
+  \ C1 | 10uF | 0805-NO | 147.4771 | -105.8536 | -90.0 | top | \n| C2 | 10uF | 0805-NO\
+  \ | 141.8661 | -105.7266 | -90.0 | top | \n| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM\
+  \ | 144.8181 | -97.7646 | 0.0 | top | \n| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM | 152.1841\
+  \ | -95.6056 | 0.0 | top | \n| GND_PAD0 | SEWTAP-ALLIGATOR | SEWALLI | 139.8651\
+  \ | -110.0836 | 120.0 | top | \n| Q3 | 2N7002D | SOT363 | 150.0251 | -106.0831 |\
+  \ 90.0 | top | \n| R1 | 10K | RESPACK_4X0603 | 153.0731 | -105.8926 | -90.0 | top\
+  \ | \n| SCL_PAD0 | SEWTAP-ALLIGATOR | SEWALLI | 139.8651 | -99.9236 | 60.0 | top\
+  \ | \n| SDA_PAD0 | SEWTAP-ALLIGATOR | SEWALLI | 157.1371 | -99.9236 | -60.0 | top\
+  \ | \n| U$4 | nan | STEMMA_TSL2561_B_FRONT | 135.8011 | -117.7036 | 0.0 | top |\
+  \ \n| U2 | MIC5225-3.3 | SOT23-5 | 144.7301 | -106.0676 | 180.0 | top | \n| U3 |\
+  \ TSL2561 | TSL2561_FN | 148.5011 | -111.3536 | 0.0 | top | \n| VIN_PAD0 | SEWTAP-ALLIGATOR\
+  \ | SEWALLI | 157.1371 | -110.0836 | -120.0 | top | \n| X1 | STEMMA_I2C_RASMT |\
+  \ JSTPH4 | 148.5011 | -97.5106 | 0.0 | top | \n"
 projects_flat: projects/adafruit_tsl2561_breakout_board_pcb_tsl2561_5v_rev_a/current_version/working
 repo:
   allow_forking: true

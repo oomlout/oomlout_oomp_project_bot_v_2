@@ -1,10 +1,145 @@
 board: bridge
+bom:
+- Id: '1'
+  Designator: J104
+  Footprint: M2_PTH
+  Quantity: '1'
+  Designation: DOUT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J103
+  Footprint: M2_PTH
+  Quantity: '1'
+  Designation: DIN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J105,J106
+  Footprint: M2_PTH
+  Quantity: '2'
+  Designation: 0V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J102,J101
+  Footprint: M2_PTH
+  Quantity: '2'
+  Designation: 5V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J104\
+  \ | M2_PTH | 1 | DOUT |  |  | [''] | \n| 2 | J103 | M2_PTH | 1 | DIN |  |  | ['']\
+  \ | \n| 3 | J105,J106 | M2_PTH | 2 | 0V |  |  | [''] | \n| 4 | J102,J101 | M2_PTH\
+  \ | 2 | 5V |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CONN_01x01
+  DNP: ''
+  Description: ''
+  Footprint: agg:M2_PTH
+  Qnty: '2'
+  Ref: J101, J102
+  Value: 5V
+  Vendor: ''
+- Cmp name: CONN_01x01
+  DNP: ''
+  Description: ''
+  Footprint: agg:M2_PTH
+  Qnty: '1'
+  Ref: J103
+  Value: DIN
+  Vendor: ''
+- Cmp name: CONN_01x01
+  DNP: ''
+  Description: ''
+  Footprint: agg:M2_PTH
+  Qnty: '1'
+  Ref: J104
+  Value: DOUT
+  Vendor: ''
+- Cmp name: CONN_01x01
+  DNP: ''
+  Description: ''
+  Footprint: agg:M2_PTH
+  Qnty: '2'
+  Ref: J105, J106
+  Value: 0V
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| J101,\
+  \ J102 | 2 | 5V | CONN_01x01 | agg:M2_PTH |  |  |  | \n| J103 | 1 | DIN | CONN_01x01\
+  \ | agg:M2_PTH |  |  |  | \n| J104 | 1 | DOUT | CONN_01x01 | agg:M2_PTH |  |  |\
+  \  | \n| J105, J106 | 2 | 0V | CONN_01x01 | agg:M2_PTH |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_ledeaf_bridge/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_ledeaf_bridge/current_version/working/working.kicad_sch
 file_repo_bom_xlsx_flat: projects/adamgreig_ledeaf_bridge/current_version/working/bom_src.xlsx
 id: adamgreig_ledeaf_bridge
 name: ledeaf
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': J101
+  Package: M2_PTH
+  PosX: 100.0
+  PosY: -60.0
+  Rot: 0.0
+  Side: top
+  Val: 5V
+- '# Ref': J102
+  Package: M2_PTH
+  PosX: 100.0
+  PosY: -53.5
+  Rot: 0.0
+  Side: top
+  Val: 5V
+- '# Ref': J103
+  Package: M2_PTH
+  PosX: 108.0
+  PosY: -60.0
+  Rot: 0.0
+  Side: top
+  Val: DIN
+- '# Ref': J104
+  Package: M2_PTH
+  PosX: 108.0
+  PosY: -53.5
+  Rot: 0.0
+  Side: top
+  Val: DOUT
+- '# Ref': J105
+  Package: M2_PTH
+  PosX: 116.0
+  PosY: -60.0
+  Rot: 0.0
+  Side: top
+  Val: 0V
+- '# Ref': J106
+  Package: M2_PTH
+  PosX: 116.0
+  PosY: -53.5
+  Rot: 0.0
+  Side: top
+  Val: 0V
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J101 | 5V | M2_PTH | 100.0 | -60.0 |\
+  \ 0.0 | top | \n| J102 | 5V | M2_PTH | 100.0 | -53.5 | 0.0 | top | \n| J103 | DIN\
+  \ | M2_PTH | 108.0 | -60.0 | 0.0 | top | \n| J104 | DOUT | M2_PTH | 108.0 | -53.5\
+  \ | 0.0 | top | \n| J105 | 0V | M2_PTH | 116.0 | -60.0 | 0.0 | top | \n| J106 |\
+  \ 0V | M2_PTH | 116.0 | -53.5 | 0.0 | top | \n"
 projects_flat: projects/adamgreig_ledeaf_bridge/current_version/working
 repo:
   allow_forking: true

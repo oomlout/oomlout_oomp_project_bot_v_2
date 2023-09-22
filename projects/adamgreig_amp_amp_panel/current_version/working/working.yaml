@@ -1,10 +1,552 @@
 board: amp_panel
+bom:
+- Id: '1'
+  Designator: C1
+  Footprint: '0603'
+  Quantity: '1'
+  Designation: "4\xC2\xB57"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C2,C10,C11
+  Footprint: '0603'
+  Quantity: '3'
+  Designation: "1\xC2\xB5"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C3,C4,C5,C8
+  Footprint: '0402'
+  Quantity: '4'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C6
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: 10n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C7,C9
+  Footprint: '0402'
+  Quantity: '2'
+  Designation: 15p
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: IC1
+  Footprint: QFN-48-EP-ST
+  Quantity: '1'
+  Designation: STM32F103CBU6
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: IC2
+  Footprint: SOT-23
+  Quantity: '1'
+  Designation: MCP1700
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: J2
+  Footprint: MICROUSB_MOLEX_47589-0001
+  Quantity: '1'
+  Designation: MICROUSB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: P1
+  Footprint: TC2030-NL
+  Quantity: '1'
+  Designation: SWD_TC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: Q1
+  Footprint: SOT-23
+  Quantity: '1'
+  Designation: FDV304P
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: R1,R6
+  Footprint: '0402'
+  Quantity: '2'
+  Designation: 4k7
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: R2,R7
+  Footprint: '0402'
+  Quantity: '2'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: R3
+  Footprint: '0402'
+  Quantity: '1'
+  Designation: 1k5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: R4,R5
+  Footprint: '0402'
+  Quantity: '2'
+  Designation: '22'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: Y1
+  Footprint: XTAL-50x32
+  Quantity: '1'
+  Designation: 8MHz
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: P2
+  Footprint: FTSH-105-01-L-DV-K
+  Quantity: '1'
+  Designation: SWD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: J1
+  Footprint: SM04B-PASS
+  Quantity: '1'
+  Designation: SERIAL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1\
+  \ | 0603 | 1 | 4\xC2\xB57 |  |  | [''] | \n| 2 | C2,C10,C11 | 0603 | 3 | 1\xC2\xB5\
+  \ |  |  | [''] | \n| 3 | C3,C4,C5,C8 | 0402 | 4 | 100n |  |  | [''] | \n| 4 | C6\
+  \ | 0402 | 1 | 10n |  |  | [''] | \n| 5 | C7,C9 | 0402 | 2 | 15p |  |  | [''] |\
+  \ \n| 6 | IC1 | QFN-48-EP-ST | 1 | STM32F103CBU6 |  |  | [''] | \n| 7 | IC2 | SOT-23\
+  \ | 1 | MCP1700 |  |  | [''] | \n| 8 | J2 | MICROUSB_MOLEX_47589-0001 | 1 | MICROUSB\
+  \ |  |  | [''] | \n| 9 | P1 | TC2030-NL | 1 | SWD_TC |  |  | [''] | \n| 10 | Q1\
+  \ | SOT-23 | 1 | FDV304P |  |  | [''] | \n| 11 | R1,R6 | 0402 | 2 | 4k7 |  |  |\
+  \ [''] | \n| 12 | R2,R7 | 0402 | 2 | 10k |  |  | [''] | \n| 13 | R3 | 0402 | 1 |\
+  \ 1k5 |  |  | [''] | \n| 14 | R4,R5 | 0402 | 2 | 22 |  |  | [''] | \n| 15 | Y1 |\
+  \ XTAL-50x32 | 1 | 8MHz |  |  | [''] | \n| 16 | P2 | FTSH-105-01-L-DV-K | 1 | SWD\
+  \ |  |  | [''] | \n| 17 | J1 | SM04B-PASS | 1 | SERIAL |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '1'
+  Ref: C1
+  Value: "4\xC2\xB57"
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0603
+  Qnty: '3'
+  Ref: C2, C10, C11
+  Value: "1\xC2\xB5"
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '4'
+  Ref: C3, C4, C5, C8
+  Value: 100n
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '1'
+  Ref: C6
+  Value: 10n
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '2'
+  Ref: C7, C9
+  Value: 33p
+  Vendor: ''
+- Cmp name: STM32F1xxCxUx
+  DNP: ''
+  Description: ''
+  Footprint: agg:QFN-48-EP-ST
+  Qnty: '1'
+  Ref: IC1
+  Value: STM32F103CBU6
+  Vendor: ''
+- Cmp name: MCP1700
+  DNP: ''
+  Description: ''
+  Footprint: agg:SOT-23
+  Qnty: '1'
+  Ref: IC2
+  Value: MCP1700
+  Vendor: ''
+- Cmp name: CONN_01x04
+  DNP: ''
+  Description: ''
+  Footprint: agg:SM04B-PASS
+  Qnty: '1'
+  Ref: J1
+  Value: SERIAL
+  Vendor: ''
+- Cmp name: MICROUSB
+  DNP: ''
+  Description: ''
+  Footprint: agg:MICROUSB_MOLEX_47589-0001
+  Qnty: '1'
+  Ref: J2
+  Value: MICROUSB
+  Vendor: ''
+- Cmp name: SWD_TC
+  DNP: ''
+  Description: ''
+  Footprint: agg:TC2030-NL
+  Qnty: '1'
+  Ref: P1
+  Value: SWD_TC
+  Vendor: ''
+- Cmp name: SWD
+  DNP: ''
+  Description: ''
+  Footprint: agg:FTSH-105-01-L-DV-K
+  Qnty: '1'
+  Ref: P2
+  Value: SWD
+  Vendor: ''
+- Cmp name: PFET
+  DNP: ''
+  Description: ''
+  Footprint: agg:SOT-23
+  Qnty: '1'
+  Ref: Q1
+  Value: FDV304P
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '2'
+  Ref: R1, R6
+  Value: 4k7
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '2'
+  Ref: R2, R7
+  Value: 10k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '1'
+  Ref: R3
+  Value: 1k5
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:0402
+  Qnty: '2'
+  Ref: R4, R5
+  Value: '22'
+  Vendor: ''
+- Cmp name: XTAL
+  DNP: ''
+  Description: ''
+  Footprint: agg:XTAL-50x32
+  Qnty: '1'
+  Ref: Y1
+  Value: 8MHz
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 4\xC2\xB57 | C | agg:0603 |  |  |  | \n| C2, C10, C11 | 3 | 1\xC2\xB5 | C\
+  \ | agg:0603 |  |  |  | \n| C3, C4, C5, C8 | 4 | 100n | C | agg:0402 |  |  |  |\
+  \ \n| C6 | 1 | 10n | C | agg:0402 |  |  |  | \n| C7, C9 | 2 | 33p | C | agg:0402\
+  \ |  |  |  | \n| IC1 | 1 | STM32F103CBU6 | STM32F1xxCxUx | agg:QFN-48-EP-ST |  |\
+  \  |  | \n| IC2 | 1 | MCP1700 | MCP1700 | agg:SOT-23 |  |  |  | \n| J1 | 1 | SERIAL\
+  \ | CONN_01x04 | agg:SM04B-PASS |  |  |  | \n| J2 | 1 | MICROUSB | MICROUSB | agg:MICROUSB_MOLEX_47589-0001\
+  \ |  |  |  | \n| P1 | 1 | SWD_TC | SWD_TC | agg:TC2030-NL |  |  |  | \n| P2 | 1\
+  \ | SWD | SWD | agg:FTSH-105-01-L-DV-K |  |  |  | \n| Q1 | 1 | FDV304P | PFET |\
+  \ agg:SOT-23 |  |  |  | \n| R1, R6 | 2 | 4k7 | R | agg:0402 |  |  |  | \n| R2, R7\
+  \ | 2 | 10k | R | agg:0402 |  |  |  | \n| R3 | 1 | 1k5 | R | agg:0402 |  |  |  |\
+  \ \n| R4, R5 | 2 | 22 | R | agg:0402 |  |  |  | \n| Y1 | 1 | 8MHz | XTAL | agg:XTAL-50x32\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_amp_amp_panel/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_amp_amp_panel/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adamgreig_amp_amp_panel/current_version/working/working.sch
 id: adamgreig_amp_amp_panel
 name: amp
+position_bottom:
+- '# Ref': J1
+  Package: SM04B-PASS
+  PosX: 128.0
+  PosY: -100.0
+  Rot: 90.0
+  Side: bottom
+  Val: SERIAL
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J1 | SERIAL | SM04B-PASS | 128.0\
+  \ | -100.0 | 90.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: '0603'
+  PosX: 114.75
+  PosY: -94.3
+  Rot: 180.0
+  Side: top
+  Val: "4\xC2\xB57"
+- '# Ref': C2
+  Package: '0603'
+  PosX: 123.25
+  PosY: -98.2
+  Rot: 90.0
+  Side: top
+  Val: "1\xC2\xB5"
+- '# Ref': C3
+  Package: '0402'
+  PosX: 114.75
+  PosY: -95.5
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': C4
+  Package: '0402'
+  PosX: 119.75
+  PosY: -104.5
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': C5
+  Package: '0402'
+  PosX: 112.75
+  PosY: -102.8
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': C6
+  Package: '0402'
+  PosX: 121.8
+  PosY: -98.6
+  Rot: 90.0
+  Side: top
+  Val: 10n
+- '# Ref': C7
+  Package: '0402'
+  PosX: 125.6
+  PosY: -104.2
+  Rot: -90.0
+  Side: top
+  Val: 15p
+- '# Ref': C8
+  Package: '0402'
+  PosX: 117.5
+  PosY: -95.1
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': C9
+  Package: '0402'
+  PosX: 125.6
+  PosY: -102.2
+  Rot: 90.0
+  Side: top
+  Val: 15p
+- '# Ref': C10
+  Package: '0603'
+  PosX: 107.25
+  PosY: -98.5
+  Rot: 180.0
+  Side: top
+  Val: "1\xC2\xB5"
+- '# Ref': C11
+  Package: '0603'
+  PosX: 110.25
+  PosY: -95.75
+  Rot: 90.0
+  Side: top
+  Val: "1\xC2\xB5"
+- '# Ref': IC1
+  Package: QFN-48-EP-ST
+  PosX: 117.25
+  PosY: -100.0
+  Rot: 180.0
+  Side: top
+  Val: STM32F103CBU6
+- '# Ref': IC2
+  Package: SOT-23
+  PosX: 107.5
+  PosY: -96.0
+  Rot: 180.0
+  Side: top
+  Val: MCP1700
+- '# Ref': J2
+  Package: MICROUSB_MOLEX_47589-0001
+  PosX: 101.45
+  PosY: -99.99
+  Rot: -90.0
+  Side: top
+  Val: MICROUSB
+- '# Ref': P1
+  Package: TC2030-NL
+  PosX: 107.64
+  PosY: -103.75
+  Rot: -90.0
+  Side: top
+  Val: SWD_TC
+- '# Ref': P2
+  Package: FTSH-105-01-L-DV-K
+  PosX: 132.5
+  PosY: -100.0
+  Rot: -90.0
+  Side: top
+  Val: SWD
+- '# Ref': Q1
+  Package: SOT-23
+  PosX: 127.0
+  PosY: -99.0
+  Rot: 0.0
+  Side: top
+  Val: FDV304P
+- '# Ref': R1
+  Package: '0402'
+  PosX: 110.5
+  PosY: -99.0
+  Rot: 180.0
+  Side: top
+  Val: 4k7
+- '# Ref': R2
+  Package: '0402'
+  PosX: 110.5
+  PosY: -98.0
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R3
+  Package: '0402'
+  PosX: 110.5
+  PosY: -102.0
+  Rot: 180.0
+  Side: top
+  Val: 1k5
+- '# Ref': R4
+  Package: '0402'
+  PosX: 110.5
+  PosY: -100.0
+  Rot: 180.0
+  Side: top
+  Val: '22'
+- '# Ref': R5
+  Package: '0402'
+  PosX: 110.5
+  PosY: -101.0
+  Rot: 180.0
+  Side: top
+  Val: '22'
+- '# Ref': R6
+  Package: '0402'
+  PosX: 132.0
+  PosY: -94.0
+  Rot: 0.0
+  Side: top
+  Val: 4k7
+- '# Ref': R7
+  Package: '0402'
+  PosX: 130.0
+  PosY: -94.0
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': Y1
+  Package: XTAL-50x32
+  PosX: 123.25
+  PosY: -103.2
+  Rot: 90.0
+  Side: top
+  Val: 8MHz
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 4\xC2\xB57 | 0603 | 114.75 | -94.3\
+  \ | 180.0 | top | \n| C2 | 1\xC2\xB5 | 0603 | 123.25 | -98.2 | 90.0 | top | \n|\
+  \ C3 | 100n | 0402 | 114.75 | -95.5 | 180.0 | top | \n| C4 | 100n | 0402 | 119.75\
+  \ | -104.5 | 0.0 | top | \n| C5 | 100n | 0402 | 112.75 | -102.8 | -90.0 | top |\
+  \ \n| C6 | 10n | 0402 | 121.8 | -98.6 | 90.0 | top | \n| C7 | 15p | 0402 | 125.6\
+  \ | -104.2 | -90.0 | top | \n| C8 | 100n | 0402 | 117.5 | -95.1 | -90.0 | top |\
+  \ \n| C9 | 15p | 0402 | 125.6 | -102.2 | 90.0 | top | \n| C10 | 1\xC2\xB5 | 0603\
+  \ | 107.25 | -98.5 | 180.0 | top | \n| C11 | 1\xC2\xB5 | 0603 | 110.25 | -95.75\
+  \ | 90.0 | top | \n| IC1 | STM32F103CBU6 | QFN-48-EP-ST | 117.25 | -100.0 | 180.0\
+  \ | top | \n| IC2 | MCP1700 | SOT-23 | 107.5 | -96.0 | 180.0 | top | \n| J2 | MICROUSB\
+  \ | MICROUSB_MOLEX_47589-0001 | 101.45 | -99.99 | -90.0 | top | \n| P1 | SWD_TC\
+  \ | TC2030-NL | 107.64 | -103.75 | -90.0 | top | \n| P2 | SWD | FTSH-105-01-L-DV-K\
+  \ | 132.5 | -100.0 | -90.0 | top | \n| Q1 | FDV304P | SOT-23 | 127.0 | -99.0 | 0.0\
+  \ | top | \n| R1 | 4k7 | 0402 | 110.5 | -99.0 | 180.0 | top | \n| R2 | 10k | 0402\
+  \ | 110.5 | -98.0 | 0.0 | top | \n| R3 | 1k5 | 0402 | 110.5 | -102.0 | 180.0 | top\
+  \ | \n| R4 | 22 | 0402 | 110.5 | -100.0 | 180.0 | top | \n| R5 | 22 | 0402 | 110.5\
+  \ | -101.0 | 180.0 | top | \n| R6 | 4k7 | 0402 | 132.0 | -94.0 | 0.0 | top | \n\
+  | R7 | 10k | 0402 | 130.0 | -94.0 | 0.0 | top | \n| Y1 | 8MHz | XTAL-50x32 | 123.25\
+  \ | -103.2 | 90.0 | top | \n"
 projects_flat: projects/adamgreig_amp_amp_panel/current_version/working
 repo:
   allow_forking: true

@@ -1,9 +1,204 @@
 board: tpm_module_14pin_lpc_reva1
+bom:
+- Id: '1'
+  Designator: C5,C4,C2,C3,C6
+  Footprint: C_0402_1005Metric
+  Quantity: '5'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C1
+  Footprint: C_0402_1005Metric
+  Quantity: '1'
+  Designation: 4u7
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R2,R1
+  Footprint: R_0402_1005Metric
+  Quantity: '2'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: IC1
+  Footprint: QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+  Quantity: '1'
+  Designation: Infineon-SLB9665
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J1
+  Footprint: PinSocket_2x07_P2.54mm_Horizontal
+  Quantity: '1'
+  Designation: Conn_02x07
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C5,C4,C2,C3,C6\
+  \ | C_0402_1005Metric | 5 | 100n |  |  | [''] | \n| 2 | C1 | C_0402_1005Metric |\
+  \ 1 | 4u7 |  |  | [''] | \n| 3 | R2,R1 | R_0402_1005Metric | 2 | 10k |  |  | ['']\
+  \ | \n| 4 | IC1 | QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm | 1 | Infineon-SLB9665 | \
+  \ |  | [''] | \n| 5 | J1 | PinSocket_2x07_P2.54mm_Horizontal | 1 | Conn_02x07 |\
+  \  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0402_1005Metric
+  Qnty: '1'
+  Ref: C1
+  Value: 4u7
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0402_1005Metric
+  Qnty: '5'
+  Ref: C2, C3, C4, C5, C6
+  Value: 100n
+  Vendor: ''
+- Cmp name: Infineon-SLB9665
+  DNP: ''
+  Description: ''
+  Footprint: Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+  Qnty: '1'
+  Ref: IC1
+  Value: Infineon-SLB9665
+  Vendor: ''
+- Cmp name: Conn_02x07_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x07, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_2x07_P2.54mm_Horizontal
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_02x07
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0402_1005Metric
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 10k
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 4u7 | C | Capacitor_SMD:C_0402_1005Metric | Unpolarized capacitor |  |  |\
+  \ \n| C2, C3, C4, C5, C6 | 5 | 100n | C | Capacitor_SMD:C_0402_1005Metric | Unpolarized\
+  \ capacitor |  |  | \n| IC1 | 1 | Infineon-SLB9665 | Infineon-SLB9665 | Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm\
+  \ |  |  |  | \n| J1 | 1 | Conn_02x07 | Conn_02x07_Odd_Even | Connector_PinSocket_2.54mm:PinSocket_2x07_P2.54mm_Horizontal\
+  \ | Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| R1, R2 | 2 | 10k | R | Resistor_SMD:R_0402_1005Metric | Resistor |\
+  \  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/electrolama_tpm_modules_tpm_module_14pin_lpc_reva1/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/electrolama_tpm_modules_tpm_module_14pin_lpc_reva1/current_version/working/working.kicad_sch
 id: electrolama_tpm_modules_tpm_module_14pin_lpc_reva1
 name: tpm_modules
+position_bottom:
+- '# Ref': J1
+  Package: PinSocket_2x07_P2.54mm_Horizontal
+  PosX: 140.0
+  PosY: -95.0
+  Rot: 90.0
+  Side: bottom
+  Val: Conn_02x07
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J1 | Conn_02x07 | PinSocket_2x07_P2.54mm_Horizontal\
+  \ | 140.0 | -95.0 | 90.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: C_0402_1005Metric
+  PosX: 140.25
+  PosY: -92.0
+  Rot: 0.0
+  Side: top
+  Val: 4u7
+- '# Ref': C2
+  Package: C_0402_1005Metric
+  PosX: 134.6
+  PosY: -81.9
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': C3
+  Package: C_0402_1005Metric
+  PosX: 127.75
+  PosY: -83.8
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': C4
+  Package: C_0402_1005Metric
+  PosX: 127.77
+  PosY: -85.0
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': C5
+  Package: C_0402_1005Metric
+  PosX: 131.5
+  PosY: -90.5
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': C6
+  Package: C_0402_1005Metric
+  PosX: 136.9
+  PosY: -87.75
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': IC1
+  Package: QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+  PosX: 132.375
+  PosY: -86.0
+  Rot: -90.0
+  Side: top
+  Val: Infineon-SLB9665
+- '# Ref': R1
+  Package: R_0402_1005Metric
+  PosX: 125.3
+  PosY: -92.0
+  Rot: 180.0
+  Side: top
+  Val: 10k
+- '# Ref': R2
+  Package: R_0402_1005Metric
+  PosX: 137.7
+  PosY: -92.0
+  Rot: 180.0
+  Side: top
+  Val: 10k
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 4u7 | C_0402_1005Metric | 140.25\
+  \ | -92.0 | 0.0 | top | \n| C2 | 100n | C_0402_1005Metric | 134.6 | -81.9 | 0.0\
+  \ | top | \n| C3 | 100n | C_0402_1005Metric | 127.75 | -83.8 | 180.0 | top | \n\
+  | C4 | 100n | C_0402_1005Metric | 127.77 | -85.0 | 180.0 | top | \n| C5 | 100n |\
+  \ C_0402_1005Metric | 131.5 | -90.5 | 180.0 | top | \n| C6 | 100n | C_0402_1005Metric\
+  \ | 136.9 | -87.75 | 0.0 | top | \n| IC1 | Infineon-SLB9665 | QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm\
+  \ | 132.375 | -86.0 | -90.0 | top | \n| R1 | 10k | R_0402_1005Metric | 125.3 | -92.0\
+  \ | 180.0 | top | \n| R2 | 10k | R_0402_1005Metric | 137.7 | -92.0 | 180.0 | top\
+  \ | \n"
 projects_flat: projects/electrolama_tpm_modules_tpm_module_14pin_lpc_reva1/current_version/working
 repo:
   allow_forking: true

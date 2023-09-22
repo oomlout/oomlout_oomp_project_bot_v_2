@@ -1,10 +1,323 @@
 board: fullchargeahead
+bom:
+- Id: '1'
+  Designator: C101,C102
+  Footprint: C_1206_HandSoldering
+  Quantity: '2'
+  Designation: 4.7U
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: CON101
+  Footprint: '10118193'
+  Quantity: '1'
+  Designation: USB-MICRO-B
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: D101
+  Footprint: LED-0805
+  Quantity: '1'
+  Designation: NOPOP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: D102,D103
+  Footprint: LED-0805
+  Quantity: '2'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R101,R102
+  Footprint: R_0805_HandSoldering
+  Quantity: '2'
+  Designation: '470'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R103,R107,R108,R109
+  Footprint: R_0805_HandSoldering
+  Quantity: '4'
+  Designation: NOPOP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R104
+  Footprint: R_0805_HandSoldering
+  Quantity: '1'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R105
+  Footprint: Resistor_Horizontal_RM10mm
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R106
+  Footprint: R_0805_HandSoldering
+  Quantity: '1'
+  Designation: 2K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U101
+  Footprint: MSOP-10_3x3mm_Pitch0.5mm
+  Quantity: '1'
+  Designation: MCP73834-FCI/UN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: P101
+  Footprint: Pin_Header_Straight_1x02
+  Quantity: '1'
+  Designation: CONN_01X02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: P102
+  Footprint: JST_2pin
+  Quantity: '1'
+  Designation: CONN_01X02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: G***
+  Footprint: FCA-TINY
+  Quantity: '1'
+  Designation: FCA-TINY
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C101,C102\
+  \ | C_1206_HandSoldering | 2 | 4.7U |  |  | [''] | \n| 2 | CON101 | 10118193 | 1\
+  \ | USB-MICRO-B |  |  | [''] | \n| 3 | D101 | LED-0805 | 1 | NOPOP |  |  | ['']\
+  \ | \n| 4 | D102,D103 | LED-0805 | 2 | LED |  |  | [''] | \n| 5 | R101,R102 | R_0805_HandSoldering\
+  \ | 2 | 470 |  |  | [''] | \n| 6 | R103,R107,R108,R109 | R_0805_HandSoldering |\
+  \ 4 | NOPOP |  |  | [''] | \n| 7 | R104 | R_0805_HandSoldering | 1 | 1K |  |  |\
+  \ [''] | \n| 8 | R105 | Resistor_Horizontal_RM10mm | 1 | 10K |  |  | [''] | \n|\
+  \ 9 | R106 | R_0805_HandSoldering | 1 | 2K |  |  | [''] | \n| 10 | U101 | MSOP-10_3x3mm_Pitch0.5mm\
+  \ | 1 | MCP73834-FCI/UN |  |  | [''] | \n| 11 | P101 | Pin_Header_Straight_1x02\
+  \ | 1 | CONN_01X02 |  |  | [''] | \n| 12 | P102 | JST_2pin | 1 | CONN_01X02 |  |\
+  \  | [''] | \n| 13 | G*** | FCA-TINY | 1 | FCA-TINY |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: MCP73834-FCI/UN
+  DNP: ''
+  Description: ''
+  Footprint: Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm
+  Qnty: '1'
+  Ref: U101
+  Value: MCP73834
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| U101\
+  \ | 1 | MCP73834 | MCP73834-FCI/UN | Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm |  |\
+  \  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/contextualelectronics_full_charge_ahead_fullchargeahead/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/contextualelectronics_full_charge_ahead_fullchargeahead/current_version/working/working.kicad_pcb
 file_sch_flat: projects/contextualelectronics_full_charge_ahead_fullchargeahead/current_version/working/working.sch
 id: contextualelectronics_full_charge_ahead_fullchargeahead
 name: full_charge_ahead
+position_bottom:
+- '# Ref': G***
+  Package: FCA-TINY
+  PosX: 168.148
+  PosY: -103.378
+  Rot: 0.0
+  Side: bottom
+  Val: FCA-TINY
+- '# Ref': P102
+  Package: JST_2pin
+  PosX: 180.594
+  PosY: -98.806
+  Rot: 90.0
+  Side: bottom
+  Val: CONN_01X02
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | FCA-TINY | FCA-TINY | 168.148\
+  \ | -103.378 | 0.0 | bottom | \n| P102 | CONN_01X02 | JST_2pin | 180.594 | -98.806\
+  \ | 90.0 | bottom | \n"
+position_top:
+- '# Ref': C101
+  Package: C_1206_HandSoldering
+  PosX: 158.7246
+  PosY: -105.6284
+  Rot: 0.0
+  Side: top
+  Val: 4.7U
+- '# Ref': C102
+  Package: C_1206_HandSoldering
+  PosX: 179.7304
+  PosY: -105.2576
+  Rot: 180.0
+  Side: top
+  Val: 4.7U
+- '# Ref': CON101
+  Package: '10118193'
+  PosX: 152.5688
+  PosY: -98.6434
+  Rot: 180.0
+  Side: top
+  Val: USB-MICRO-B
+- '# Ref': D101
+  Package: LED-0805
+  PosX: 185.674
+  PosY: -118.364
+  Rot: 180.0
+  Side: top
+  Val: NOPOP
+- '# Ref': D102
+  Package: LED-0805
+  PosX: 151.0665
+  PosY: -114.9985
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D103
+  Package: LED-0805
+  PosX: 151.0665
+  PosY: -112.141
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': P101
+  Package: Pin_Header_Straight_1x02
+  PosX: 175.006
+  PosY: -117.7036
+  Rot: -90.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': R101
+  Package: R_0805_HandSoldering
+  PosX: 155.956
+  PosY: -112.141
+  Rot: 180.0
+  Side: top
+  Val: '470'
+- '# Ref': R102
+  Package: R_0805_HandSoldering
+  PosX: 156.0195
+  PosY: -114.935
+  Rot: 180.0
+  Side: top
+  Val: '470'
+- '# Ref': R103
+  Package: R_0805_HandSoldering
+  PosX: 180.975
+  PosY: -116.967
+  Rot: -90.0
+  Side: top
+  Val: NOPOP
+- '# Ref': R104
+  Package: R_0805_HandSoldering
+  PosX: 178.562
+  PosY: -116.9924
+  Rot: -90.0
+  Side: top
+  Val: 1K
+- '# Ref': R105
+  Package: Resistor_Horizontal_RM10mm
+  PosX: 176.784
+  PosY: -108.966
+  Rot: -45.0
+  Side: top
+  Val: 10K
+- '# Ref': R106
+  Package: R_0805_HandSoldering
+  PosX: 173.5328
+  PosY: -114.808
+  Rot: 0.0
+  Side: top
+  Val: 2K
+- '# Ref': R107
+  Package: R_0805_HandSoldering
+  PosX: 148.5341
+  PosY: -105.4862
+  Rot: 90.0
+  Side: top
+  Val: NOPOP
+- '# Ref': R108
+  Package: R_0805_HandSoldering
+  PosX: 150.9624
+  PosY: -105.4202
+  Rot: 90.0
+  Side: top
+  Val: NOPOP
+- '# Ref': R109
+  Package: R_0805_HandSoldering
+  PosX: 153.3398
+  PosY: -105.4862
+  Rot: 90.0
+  Side: top
+  Val: NOPOP
+- '# Ref': U101
+  Package: MSOP-10_3x3mm_Pitch0.5mm
+  PosX: 169.926
+  PosY: -110.998
+  Rot: 0.0
+  Side: top
+  Val: MCP73834-FCI/UN
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C101 | 4.7U | C_1206_HandSoldering |\
+  \ 158.7246 | -105.6284 | 0.0 | top | \n| C102 | 4.7U | C_1206_HandSoldering | 179.7304\
+  \ | -105.2576 | 180.0 | top | \n| CON101 | USB-MICRO-B | 10118193 | 152.5688 | -98.6434\
+  \ | 180.0 | top | \n| D101 | NOPOP | LED-0805 | 185.674 | -118.364 | 180.0 | top\
+  \ | \n| D102 | LED | LED-0805 | 151.0665 | -114.9985 | 0.0 | top | \n| D103 | LED\
+  \ | LED-0805 | 151.0665 | -112.141 | 0.0 | top | \n| P101 | CONN_01X02 | Pin_Header_Straight_1x02\
+  \ | 175.006 | -117.7036 | -90.0 | top | \n| R101 | 470 | R_0805_HandSoldering |\
+  \ 155.956 | -112.141 | 180.0 | top | \n| R102 | 470 | R_0805_HandSoldering | 156.0195\
+  \ | -114.935 | 180.0 | top | \n| R103 | NOPOP | R_0805_HandSoldering | 180.975 |\
+  \ -116.967 | -90.0 | top | \n| R104 | 1K | R_0805_HandSoldering | 178.562 | -116.9924\
+  \ | -90.0 | top | \n| R105 | 10K | Resistor_Horizontal_RM10mm | 176.784 | -108.966\
+  \ | -45.0 | top | \n| R106 | 2K | R_0805_HandSoldering | 173.5328 | -114.808 | 0.0\
+  \ | top | \n| R107 | NOPOP | R_0805_HandSoldering | 148.5341 | -105.4862 | 90.0\
+  \ | top | \n| R108 | NOPOP | R_0805_HandSoldering | 150.9624 | -105.4202 | 90.0\
+  \ | top | \n| R109 | NOPOP | R_0805_HandSoldering | 153.3398 | -105.4862 | 90.0\
+  \ | top | \n| U101 | MCP73834-FCI/UN | MSOP-10_3x3mm_Pitch0.5mm | 169.926 | -110.998\
+  \ | 0.0 | top | \n"
 projects_flat: projects/contextualelectronics_full_charge_ahead_fullchargeahead/current_version/working
 repo:
   allow_forking: true

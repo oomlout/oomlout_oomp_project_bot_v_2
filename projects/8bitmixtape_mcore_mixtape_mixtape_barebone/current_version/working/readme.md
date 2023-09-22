@@ -12,6 +12,7 @@
 
 * src_file_repo_sch: Kicad/Mixtape_Barebone.sch
 * src_file_repo_sch_link: https://github.com/8BitMixtape/mCore_Mixtape/tree/master/Kicad/Mixtape_Barebone.sch
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/8bitmixtape_mcore_mixtape_mixtape_barebone/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

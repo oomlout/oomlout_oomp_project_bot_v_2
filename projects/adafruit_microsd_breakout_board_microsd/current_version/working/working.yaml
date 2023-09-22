@@ -1,9 +1,314 @@
 board: microsd
+bom:
+- Id: '1'
+  Designator: '@HOLE2,@HOLE1,@HOLE3,@HOLE0'
+  Footprint: ''
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: IC1
+  Footprint: SO16
+  Quantity: '1'
+  Designation: 4050D
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C1
+  Footprint: A_3216-18R
+  Quantity: '1'
+  Designation: 10uF/10V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$2,U$1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: IC2
+  Footprint: SOT23-5L
+  Quantity: '1'
+  Designation: LP298XS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R1
+  Footprint: R0805
+  Quantity: '1'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: ACT0
+  Footprint: CHIP-LED0805
+  Quantity: '1'
+  Designation: RED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: JP1
+  Footprint: 1X08-BIG
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: X1
+  Footprint: MICROSD
+  Quantity: '1'
+  Designation: MICROSD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: C2
+  Footprint: C0805K
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | @HOLE2,@HOLE1,@HOLE3,@HOLE0\
+  \ |  | 4 |  |  |  | [''] | \n| 2 | IC1 | SO16 | 1 | 4050D |  |  | [''] | \n| 3 |\
+  \ C1 | A_3216-18R | 1 | 10uF/10V |  |  | [''] | \n| 4 | U$2,U$1 | FIDUCIAL_1MM |\
+  \ 2 | FIDUCIAL |  |  | [''] | \n| 5 | IC2 | SOT23-5L | 1 | LP298XS |  |  | ['']\
+  \ | \n| 6 | R1 | R0805 | 1 | 1K |  |  | [''] | \n| 7 | ACT0 | CHIP-LED0805 | 1 |\
+  \ RED |  |  | [''] | \n| 8 | JP1 | 1X08-BIG | 1 |  |  |  | [''] | \n| 9 | X1 | MICROSD\
+  \ | 1 | MICROSD |  |  | [''] | \n| 10 | C2 | C0805K | 1 | 0.1uF |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: LEDCHIP-LED0805
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIP-LED0805
+  Qnty: '1'
+  Ref: ACT0
+  Value: RED
+  Vendor: ''
+- Cmp name: CPOL-USA/3216-18R
+  DNP: ''
+  Description: ''
+  Footprint: working:A_3216-18R
+  Qnty: '1'
+  Ref: C1
+  Value: 10uF/10V
+  Vendor: ''
+- Cmp name: C-USC0805K
+  DNP: ''
+  Description: ''
+  Footprint: working:C0805K
+  Qnty: '1'
+  Ref: C2
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: 4050D
+  DNP: ''
+  Description: ''
+  Footprint: working:SO16
+  Qnty: '1'
+  Ref: IC1
+  Value: 4050D
+  Vendor: ''
+- Cmp name: LP298XS
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5L
+  Qnty: '1'
+  Ref: IC2
+  Value: LP298XS
+  Vendor: ''
+- Cmp name: PINHD-1X8BIG
+  DNP: ''
+  Description: ''
+  Footprint: working:1X08-BIG
+  Qnty: '1'
+  Ref: JP1
+  Value: PINHD-1X8BIG
+  Vendor: ''
+- Cmp name: R-US_R0805
+  DNP: ''
+  Description: ''
+  Footprint: working:R0805
+  Qnty: '1'
+  Ref: R1
+  Value: 1K
+  Vendor: ''
+- Cmp name: FIDUCIAL
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: U$1, U$2
+  Value: FIDUCIAL
+  Vendor: ''
+- Cmp name: MICROSD
+  DNP: ''
+  Description: ''
+  Footprint: working:MICROSD
+  Qnty: '1'
+  Ref: X1
+  Value: MICROSD
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| ACT0\
+  \ | 1 | RED | LEDCHIP-LED0805 | working:CHIP-LED0805 |  |  |  | \n| C1 | 1 | 10uF/10V\
+  \ | CPOL-USA/3216-18R | working:A_3216-18R |  |  |  | \n| C2 | 1 | 0.1uF | C-USC0805K\
+  \ | working:C0805K |  |  |  | \n| IC1 | 1 | 4050D | 4050D | working:SO16 |  |  |\
+  \  | \n| IC2 | 1 | LP298XS | LP298XS | working:SOT23-5L |  |  |  | \n| JP1 | 1 |\
+  \ PINHD-1X8BIG | PINHD-1X8BIG | working:1X08-BIG |  |  |  | \n| R1 | 1 | 1K | R-US_R0805\
+  \ | working:R0805 |  |  |  | \n| U$1, U$2 | 2 | FIDUCIAL | FIDUCIAL | working:FIDUCIAL_1MM\
+  \ |  |  |  | \n| X1 | 1 | MICROSD | MICROSD | working:MICROSD |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_microsd_breakout_board_microsd/current_version/working/working.brd
 file_sch_flat: projects/adafruit_microsd_breakout_board_microsd/current_version/working/working.sch
 id: adafruit_microsd_breakout_board_microsd
 name: microsd_breakout_board
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 135.1661
+  PosY: -94.8436
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 135.1661
+  PosY: -115.1636
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE2'
+  Package: .nan
+  PosX: 155.4861
+  PosY: -94.8436
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE3'
+  Package: .nan
+  PosX: 155.4861
+  PosY: -115.1636
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': ACT0
+  Package: CHIP-LED0805
+  PosX: 140.2461
+  PosY: -96.6216
+  Rot: -90.0
+  Side: top
+  Val: RED
+- '# Ref': C1
+  Package: A_3216-18R
+  PosX: 142.0241
+  PosY: -114.5286
+  Rot: 0.0
+  Side: top
+  Val: 10uF/10V
+- '# Ref': C2
+  Package: C0805K
+  PosX: 150.9141
+  PosY: -111.2266
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': IC1
+  Package: SO16
+  PosX: 153.7081
+  PosY: -103.9876
+  Rot: -90.0
+  Side: top
+  Val: 4050D
+- '# Ref': IC2
+  Package: SOT23-5L
+  PosX: 147.7391
+  PosY: -114.6556
+  Rot: 90.0
+  Side: top
+  Val: LP298XS
+- '# Ref': JP1
+  Package: 1X08-BIG
+  PosX: 163.1061
+  PosY: -105.1306
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: R0805
+  PosX: 144.4371
+  PosY: -96.6216
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': U$1
+  Package: FIDUCIAL_1MM
+  PosX: 137.7061
+  PosY: -109.9566
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': U$2
+  Package: FIDUCIAL_1MM
+  PosX: 159.1691
+  PosY: -94.2086
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': X1
+  Package: MICROSD
+  PosX: 148.3741
+  PosY: -98.1456
+  Rot: -90.0
+  Side: top
+  Val: MICROSD
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 135.1661 | -94.8436\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 135.1661 | -115.1636 | 0.0 | top | \n|\
+  \ @HOLE2 | nan | nan | 155.4861 | -94.8436 | 0.0 | top | \n| @HOLE3 | nan | nan\
+  \ | 155.4861 | -115.1636 | 0.0 | top | \n| ACT0 | RED | CHIP-LED0805 | 140.2461\
+  \ | -96.6216 | -90.0 | top | \n| C1 | 10uF/10V | A_3216-18R | 142.0241 | -114.5286\
+  \ | 0.0 | top | \n| C2 | 0.1uF | C0805K | 150.9141 | -111.2266 | 0.0 | top | \n\
+  | IC1 | 4050D | SO16 | 153.7081 | -103.9876 | -90.0 | top | \n| IC2 | LP298XS |\
+  \ SOT23-5L | 147.7391 | -114.6556 | 90.0 | top | \n| JP1 | nan | 1X08-BIG | 163.1061\
+  \ | -105.1306 | 90.0 | top | \n| R1 | 1K | R0805 | 144.4371 | -96.6216 | 180.0 |\
+  \ top | \n| U$1 | FIDUCIAL | FIDUCIAL_1MM | 137.7061 | -109.9566 | 0.0 | top | \n\
+  | U$2 | FIDUCIAL | FIDUCIAL_1MM | 159.1691 | -94.2086 | 0.0 | top | \n| X1 | MICROSD\
+  \ | MICROSD | 148.3741 | -98.1456 | -90.0 | top | \n"
 projects_flat: projects/adafruit_microsd_breakout_board_microsd/current_version/working
 repo:
   allow_forking: true

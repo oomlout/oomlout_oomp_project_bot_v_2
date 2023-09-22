@@ -1,9 +1,400 @@
 board: adafruit_lps3x
+bom:
+- Id: '1'
+  Designator: U$5,U$15
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$7,U$8
+  Footprint: MOUNTINGHOLE_2.0_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.0
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R1,R4
+  Footprint: 0603-NO
+  Quantity: '2'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: JP1
+  Footprint: 1X08_ROUND
+  Quantity: '1'
+  Designation: IO HEADER
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C1,C3
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: D2
+  Footprint: SOD-323
+  Quantity: '1'
+  Designation: 1N4148
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U2
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: MIC5225-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C4
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U$6,U$2
+  Footprint: ADAFRUIT_2.5MM
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R3
+  Footprint: RESPACK_4X0603
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: Q1
+  Footprint: SOT363
+  Quantity: '1'
+  Designation: BSS138 DUAL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U$3
+  Footprint: CCLGA10L
+  Quantity: '1'
+  Designation: LPS35HWLPS35HW
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U$5,U$15\
+  \ | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | [''] | \n| 2 | U$7,U$8 | MOUNTINGHOLE_2.0_PLATED\
+  \ | 2 | MOUNTINGHOLE2.0 |  |  | [''] | \n| 3 | R1,R4 | 0603-NO | 2 | 10K |  |  |\
+  \ [''] | \n| 4 | JP1 | 1X08_ROUND | 1 | IO HEADER |  |  | [''] | \n| 5 | C1,C3 |\
+  \ 0805-NO | 2 | 10uF |  |  | [''] | \n| 6 | D2 | SOD-323 | 1 | 1N4148 |  |  | ['']\
+  \ | \n| 7 | U2 | SOT23-5 | 1 | MIC5225-3.3 |  |  | [''] | \n| 8 | C4 | 0603-NO |\
+  \ 1 | 0.1uF |  |  | [''] | \n| 9 | U$6,U$2 | ADAFRUIT_2.5MM | 2 |  |  |  | ['']\
+  \ | \n| 10 | R3 | RESPACK_4X0603 | 1 | 10K |  |  | [''] | \n| 11 | Q1 | SOT363 |\
+  \ 1 | BSS138 DUAL |  |  | [''] | \n| 12 | U$3 | CCLGA10L | 1 | LPS35HWLPS35HW |\
+  \  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C1, C3
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: C4
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: DIODESOD-323
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-323
+  Qnty: '1'
+  Ref: D2
+  Value: 1N4148
+  Vendor: ''
+- Cmp name: HEADER-1X8ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X08_ROUND
+  Qnty: '1'
+  Ref: JP1
+  Value: IO HEADER
+  Vendor: ''
+- Cmp name: MOSFET-N_DUAL
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT363
+  Qnty: '1'
+  Ref: Q1
+  Value: BSS138 DUAL
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: R1, R4
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603
+  Qnty: '1'
+  Ref: R3
+  Value: 10K
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U2
+  Value: MIC5225-3.3
+  Vendor: ''
+- Cmp name: LPS35HWLPS35HW
+  DNP: ''
+  Description: ''
+  Footprint: working:CCLGA10L
+  Qnty: '1'
+  Ref: U$3
+  Value: LPS35HWLPS35HW
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: U$5, U$15
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.0
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.0_PLATED
+  Qnty: '2'
+  Ref: U$7, U$8
+  Value: MOUNTINGHOLE2.0
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C3\
+  \ | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C4 | 1\
+  \ | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| D2 | 1 | 1N4148\
+  \ | DIODESOD-323 | working:SOD-323 |  |  |  | \n| JP1 | 1 | IO HEADER | HEADER-1X8ROUND\
+  \ | working:1X08_ROUND |  |  |  | \n| Q1 | 1 | BSS138 DUAL | MOSFET-N_DUAL | working:SOT363\
+  \ |  |  |  | \n| R1, R4 | 2 | 10K | RESISTOR_0603_NOOUT | working:0603-NO |  | \
+  \ |  | \n| R3 | 1 | 10K | RESISTOR_4PACK | working:RESPACK_4X0603 |  |  |  | \n\
+  | U2 | 1 | MIC5225-3.3 | VREG_SOT23-5 | working:SOT23-5 |  |  |  | \n| U$3 | 1 |\
+  \ LPS35HWLPS35HW | LPS35HWLPS35HW | working:CCLGA10L |  |  |  | \n| U$5, U$15 |\
+  \ 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| U$7, U$8\
+  \ | 2 | MOUNTINGHOLE2.0 | MOUNTINGHOLE2.0 | working:MOUNTINGHOLE_2.0_PLATED |  |\
+  \  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_lps3x_pcb_adafruit_lps3x/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_lps3x_pcb_adafruit_lps3x/current_version/working/working.sch
 id: adafruit_adafruit_lps3x_pcb_adafruit_lps3x
+mounting_holes:
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$7
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.0_PLATED
+  ref: U$8
+  size: m3
+  value: MOUNTINGHOLE2.0
+  x: '15.240000000000009'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0\
+  \ | U$7 | m3 | \n| 15.240000000000009 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0\
+  \ | U$8 | m3 | \n"
 name: adafruit_lps3x_pcb
+position_bottom:
+- '# Ref': U$2
+  Package: ADAFRUIT_2.5MM
+  PosX: 158.3436
+  PosY: -106.5276
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$2 | nan | ADAFRUIT_2.5MM | 158.3436\
+  \ | -106.5276 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 139.7381
+  PosY: -106.1466
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 145.1991
+  PosY: -106.1466
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C4
+  Package: 0603-NO
+  PosX: 148.5011
+  PosY: -100.3046
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': D2
+  Package: SOD-323
+  PosX: 157.5181
+  PosY: -106.1466
+  Rot: 90.0
+  Side: top
+  Val: 1N4148
+- '# Ref': JP1
+  Package: 1X08_ROUND
+  PosX: 148.5011
+  PosY: -110.7186
+  Rot: 0.0
+  Side: top
+  Val: IO_HEADER
+- '# Ref': Q1
+  Package: SOT363
+  PosX: 151.8031
+  PosY: -106.4006
+  Rot: 90.0
+  Side: top
+  Val: BSS138_DUAL
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 154.8511
+  PosY: -102.8446
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: RESPACK_4X0603
+  PosX: 154.8511
+  PosY: -106.1466
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R4
+  Package: 0603-NO
+  PosX: 148.3741
+  PosY: -107.1626
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': U$3
+  Package: CCLGA10L
+  PosX: 148.5011
+  PosY: -103.3526
+  Rot: 0.0
+  Side: top
+  Val: LPS35HWLPS35HW
+- '# Ref': U$5
+  Package: FIDUCIAL_1MM
+  PosX: 139.6111
+  PosY: -102.2096
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': U$6
+  Package: ADAFRUIT_2.5MM
+  PosX: 143.4211
+  PosY: -103.4796
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$7
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 140.8811
+  PosY: -99.2886
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U$8
+  Package: MOUNTINGHOLE_2.0_PLATED
+  PosX: 156.1211
+  PosY: -99.2886
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.0
+- '# Ref': U$15
+  Package: FIDUCIAL_1MM
+  PosX: 156.1211
+  PosY: -112.2426
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': U2
+  Package: SOT23-5
+  PosX: 142.5321
+  PosY: -106.2736
+  Rot: 0.0
+  Side: top
+  Val: MIC5225-3.3
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 10uF | 0805-NO | 139.7381 | -106.1466\
+  \ | -90.0 | top | \n| C3 | 10uF | 0805-NO | 145.1991 | -106.1466 | -90.0 | top |\
+  \ \n| C4 | 0.1uF | 0603-NO | 148.5011 | -100.3046 | 0.0 | top | \n| D2 | 1N4148\
+  \ | SOD-323 | 157.5181 | -106.1466 | 90.0 | top | \n| JP1 | IO_HEADER | 1X08_ROUND\
+  \ | 148.5011 | -110.7186 | 0.0 | top | \n| Q1 | BSS138_DUAL | SOT363 | 151.8031\
+  \ | -106.4006 | 90.0 | top | \n| R1 | 10K | 0603-NO | 154.8511 | -102.8446 | 180.0\
+  \ | top | \n| R3 | 10K | RESPACK_4X0603 | 154.8511 | -106.1466 | 90.0 | top | \n\
+  | R4 | 10K | 0603-NO | 148.3741 | -107.1626 | 180.0 | top | \n| U$3 | LPS35HWLPS35HW\
+  \ | CCLGA10L | 148.5011 | -103.3526 | 0.0 | top | \n| U$5 | FIDUCIAL_1MM | FIDUCIAL_1MM\
+  \ | 139.6111 | -102.2096 | 0.0 | top | \n| U$6 | nan | ADAFRUIT_2.5MM | 143.4211\
+  \ | -103.4796 | 0.0 | top | \n| U$7 | MOUNTINGHOLE2.0 | MOUNTINGHOLE_2.0_PLATED\
+  \ | 140.8811 | -99.2886 | 0.0 | top | \n| U$8 | MOUNTINGHOLE2.0 | MOUNTINGHOLE_2.0_PLATED\
+  \ | 156.1211 | -99.2886 | 0.0 | top | \n| U$15 | FIDUCIAL_1MM | FIDUCIAL_1MM | 156.1211\
+  \ | -112.2426 | 0.0 | top | \n| U2 | MIC5225-3.3 | SOT23-5 | 142.5321 | -106.2736\
+  \ | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_lps3x_pcb_adafruit_lps3x/current_version/working
 repo:
   allow_forking: true

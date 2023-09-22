@@ -1,9 +1,115 @@
 board: adafruit_perma_proto_bonnet
+bom:
+- Id: '1'
+  Designator: RPI1
+  Footprint: PI_BONNET_NODIM
+  Quantity: '1'
+  Designation: RASPBERRYPI_BPLUS_BONNETNODIM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$1
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: CONN1
+  Footprint: 1X25_ROUND_70MIL
+  Quantity: '1'
+  Designation: HEADER-1X25
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$3
+  Footprint: PCBFEAT-REV-056
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | RPI1\
+  \ | PI_BONNET_NODIM | 1 | RASPBERRYPI_BPLUS_BONNETNODIM |  |  | [''] | \n| 2 | U$1\
+  \ | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n| 3 | CONN1 | 1X25_ROUND_70MIL | 1 |\
+  \ HEADER-1X25 |  |  | [''] | \n| 4 | U$3 | PCBFEAT-REV-056 | 1 |  |  |  | [''] |\
+  \ \n"
+bom_schematic:
+- Cmp name: HEADER-1X25
+  DNP: ''
+  Description: ''
+  Footprint: working:1X25_ROUND_70MIL
+  Qnty: '1'
+  Ref: CONN1
+  Value: HEADER-1X25
+  Vendor: ''
+- Cmp name: RASPBERRYPI_BPLUS_BONNETNODIM
+  DNP: ''
+  Description: ''
+  Footprint: working:PI_BONNET_NODIM
+  Qnty: '1'
+  Ref: RPI1
+  Value: RASPBERRYPI_BPLUS_BONNETNODIM
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| CONN1\
+  \ | 1 | HEADER-1X25 | HEADER-1X25 | working:1X25_ROUND_70MIL |  |  |  | \n| RPI1\
+  \ | 1 | RASPBERRYPI_BPLUS_BONNETNODIM | RASPBERRYPI_BPLUS_BONNETNODIM | working:PI_BONNET_NODIM\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_perma_proto_bonnet_pcb_adafruit_perma_proto_bonnet/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_perma_proto_bonnet_pcb_adafruit_perma_proto_bonnet/current_version/working/working.sch
 id: adafruit_adafruit_perma_proto_bonnet_pcb_adafruit_perma_proto_bonnet
 name: adafruit_perma_proto_bonnet_pcb
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': CONN1
+  Package: 1X25_ROUND_70MIL
+  PosX: 148.5128
+  PosY: -97.8623
+  Rot: 0.0
+  Side: top
+  Val: HEADER-1X25
+- '# Ref': RPI1
+  Package: PI_BONNET_NODIM
+  PosX: 116.0008
+  PosY: -120.0033
+  Rot: 0.0
+  Side: top
+  Val: RASPBERRYPI_BPLUS_BONNETNODIM
+- '# Ref': U$1
+  Package: ADAFRUIT_3.5MM
+  PosX: 120.9538
+  PosY: -115.5153
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': U$3
+  Package: PCBFEAT-REV-056
+  PosX: 175.1828
+  PosY: -91.5553
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| CONN1 | HEADER-1X25 | 1X25_ROUND_70MIL\
+  \ | 148.5128 | -97.8623 | 0.0 | top | \n| RPI1 | RASPBERRYPI_BPLUS_BONNETNODIM |\
+  \ PI_BONNET_NODIM | 116.0008 | -120.0033 | 0.0 | top | \n| U$1 | nan | ADAFRUIT_3.5MM\
+  \ | 120.9538 | -115.5153 | -90.0 | top | \n| U$3 | nan | PCBFEAT-REV-056 | 175.1828\
+  \ | -91.5553 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_perma_proto_bonnet_pcb_adafruit_perma_proto_bonnet/current_version/working
 repo:
   allow_forking: true

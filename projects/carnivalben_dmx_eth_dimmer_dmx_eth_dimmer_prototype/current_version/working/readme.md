@@ -1,0 +1,67 @@
+# dmx_eth_dimmer
+ 
+## summary 
+* id: carnivalben_dmx_eth_dimmer_dmx_eth_dimmer_prototype
+* user: carnivalben
+* name: dmx_eth_dimmer
+* board: dmx_eth_dimmer_prototype
+* repo: https://github.com/CarnivalBen/dmx-eth-dimmer
+* src_file_repo_kicad_pcb: pcb/dmx-eth-dimmer-prototype.kicad_pcb
+* src_file_repo_kicad_pcb_link: https://github.com/CarnivalBen/dmx-eth-dimmer/tree/master/pcb/dmx-eth-dimmer-prototype.kicad_pcb
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/CarnivalBen/dmx-eth-dimmer/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/carnivalben_dmx_eth_dimmer_dmx_eth_dimmer_prototype/current_version/working  
+
+
+## pcb  
+![](working_3d_600.png) 
+![](working_3d_front_600.png)  
+![](working_3d_back_600.png)  
+![](working_600.png)  
+[board (pdf)](working.pdf)  
+
+## working_bom
+| Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| 1 | C1,C2 | C_Disc_D3.0mm_W1.6mm_P2.50mm | 2 | 33pF |  |  | [''] | 
+| 2 | C3 | CP_Radial_D10.0mm_P5.00mm | 1 | 1000uF |  |  | [''] | 
+| 3 | C5,C6,C7,C8,C9,C10,C11,C12,C13 | C_Disc_D3.0mm_W1.6mm_P2.50mm | 9 | 0.01uF |  |  | [''] | 
+| 4 | D1 | LED_D3.0mm | 1 | CFG Status |  |  | [''] | 
+| 5 | D2 | LED_D3.0mm | 1 | Ethernet Status |  |  | [''] | 
+| 6 | D4,D5,D6,D7,D8,D9,D10,D11 | TO-220-3_Vertical | 8 | BTA08-600 |  |  | [''] | 
+| 7 | J1 | TerminalBlock_bornier-2_P5.08mm | 1 | MAINS IN |  |  | [''] | 
+| 8 | J2 | Pin_Header_Straight_2x06_Pitch2.54mm | 1 | STANDARD ENC28J60 |  |  | [''] | 
+| 9 | J3 | Pin_Header_Straight_2x05_Pitch2.54mm | 1 | MINI ENC28J60 |  |  | [''] | 
+| 10 | J4 | Pin_Header_Straight_1x06_Pitch2.54mm | 1 | MASTER PROG |  |  | [''] | 
+| 11 | J5,J7,J9,J11,J13,J15,J17,J19 | Pin_Header_Straight_1x06_Pitch2.54mm | 8 | PRG |  |  | [''] | 
+| 12 | J6,J8,J10,J12,J14,J16,J18,J20 | TerminalBlock_bornier-2_P5.08mm | 8 | LOAD |  |  | [''] | 
+| 13 | SW7 | SW_DIP_x8_W7.62mm_Slide | 1 | SW_DIP_x08 |  |  | [''] | 
+| 14 | U2 | TO-220-3_Vertical | 1 | 3.3v Regulator |  |  | [''] | 
+| 15 | U3 | DIP-14_W7.62mm | 1 | 74HCT08 |  |  | [''] | 
+| 16 | U4 | DIP-6_W7.62mm | 1 | 4N25 |  |  | [''] | 
+| 17 | U5,U7,U9,U11,U13,U15,U17,U19 | DIP-8_W7.62mm | 8 | PIC12(L)F1571/2 |  |  | [''] | 
+| 18 | U6,U8,U10,U12,U14,U16,U18,U20 | DIP-6_W7.62mm | 8 | MOC3020M |  |  | [''] | 
+| 19 | Y1 | Crystal_HC50_Vertical | 1 | 20MHz |  |  | [''] | 
+| 20 | F1 | Fuseholder5x20_horiz_open_inline_Type-I | 1 | 100mA |  |  | [''] | 
+| 21 | F2,F3,F4,F5,F6,F7,F8,F9 | Fuseholder5x20_horiz_open_inline_Type-I | 8 | 5A |  |  | [''] | 
+| 22 | R16,R18,R20,R22,R24,R26,R12,R14 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 8 | 240 |  |  | [''] | 
+| 23 | R17,R19,R21,R23,R25,R27,R13,R15 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 8 | 180 |  |  | [''] | 
+| 24 | R1,R2,R3,R8,R9,R10,R11,R30 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 8 | 10K |  |  | [''] | 
+| 25 | R4,R5,R6,R7 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 4 | 300 |  |  | [''] | 
+| 26 | R28 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 1 | 100K |  |  | [''] | 
+| 27 | R29 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 1 | 120 |  |  | [''] | 
+| 28 | D3 | Diode_Bridge_W08 | 1 | BRIDGE |  |  | [''] | 
+| 29 | SW1 | SW_PUSH_6mm_4pin | 1 | IP1 |  |  | [''] | 
+| 30 | SW2 | SW_PUSH_6mm_4pin | 1 | IP2 |  |  | [''] | 
+| 31 | SW3 | SW_PUSH_6mm_4pin | 1 | IP3 |  |  | [''] | 
+| 32 | SW4 | SW_PUSH_6mm_4pin | 1 | IP4 |  |  | [''] | 
+| 33 | SW5 | SW_PUSH_6mm_4pin | 1 | DMXAH |  |  | [''] | 
+| 34 | SW6 | SW_PUSH_6mm_4pin | 1 | DMXAL |  |  | [''] | 
+| 35 | U***1 | DIP-40_W15.24mm | 1 | PIC16F877A |  |  | [''] | 
+| 36 | U1 | HLK-PM01 | 1 | PSU-5VDC |  |  | [''] | 
+
+
+
+

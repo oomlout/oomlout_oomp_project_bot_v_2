@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit-1.8-TFT-Shield-PCB/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_1_8_tft_shield_pcb_adafruit_1_8_tftshield/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

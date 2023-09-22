@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/2-axis-joystick-breakout-board-with-mounting-holes/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_2_axis_joystick_breakout_board_with_mounting_holes_joystick/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

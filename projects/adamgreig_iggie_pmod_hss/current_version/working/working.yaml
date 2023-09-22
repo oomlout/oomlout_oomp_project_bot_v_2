@@ -1,10 +1,721 @@
 board: pmod_hss
+bom:
+- Id: '1'
+  Designator: R31,R7,R19,R23,R17,R5,R29,R21,R13,R15,R3,R1,R11,R27,R25,R9
+  Footprint: '1206'
+  Quantity: '16'
+  Designation: 1M
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J4
+  Footprint: DIL-254P-16
+  Quantity: '1'
+  Designation: ANODES
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: Q6,Q16,Q12,Q22,Q10,Q26,Q18,Q4,Q14,Q2,Q30,Q32,Q20,Q24,Q8,Q28
+  Footprint: SOT-23
+  Quantity: '16'
+  Designation: DMN60H080DS-7
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C1,C3,C2
+  Footprint: '0603'
+  Quantity: '3'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: Q1,Q25,Q29,Q17,Q3,Q7,Q31,Q11,Q13,Q23,Q5,Q19,Q9,Q27,Q15,Q21
+  Footprint: SOT-23
+  Quantity: '16'
+  Designation: PBHV9050T,215
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R18,R32,R2,R4,R30,R22,R24,R28,R20,R8,R12,R6,R16,R14,R10,R26
+  Footprint: '1206'
+  Quantity: '16'
+  Designation: 93k1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: IC1,IC2
+  Footprint: TSSOP-16
+  Quantity: '2'
+  Designation: 74HC595
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: J1,J2
+  Footprint: MOLEX-KK-254P-03
+  Quantity: '2'
+  Designation: HV
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: J3
+  Footprint: DIL-254P-12
+  Quantity: '1'
+  Designation: PMOD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R31,R7,R19,R23,R17,R5,R29,R21,R13,R15,R3,R1,R11,R27,R25,R9\
+  \ | 1206 | 16 | 1M |  |  | [''] | \n| 2 | J4 | DIL-254P-16 | 1 | ANODES |  |  |\
+  \ [''] | \n| 3 | Q6,Q16,Q12,Q22,Q10,Q26,Q18,Q4,Q14,Q2,Q30,Q32,Q20,Q24,Q8,Q28 | SOT-23\
+  \ | 16 | DMN60H080DS-7 |  |  | [''] | \n| 4 | C1,C3,C2 | 0603 | 3 | 100n |  |  |\
+  \ [''] | \n| 5 | Q1,Q25,Q29,Q17,Q3,Q7,Q31,Q11,Q13,Q23,Q5,Q19,Q9,Q27,Q15,Q21 | SOT-23\
+  \ | 16 | PBHV9050T,215 |  |  | [''] | \n| 6 | R18,R32,R2,R4,R30,R22,R24,R28,R20,R8,R12,R6,R16,R14,R10,R26\
+  \ | 1206 | 16 | 93k1 |  |  | [''] | \n| 7 | IC1,IC2 | TSSOP-16 | 2 | 74HC595 | \
+  \ |  | [''] | \n| 8 | J1,J2 | MOLEX-KK-254P-03 | 2 | HV |  |  | [''] | \n| 9 | J3\
+  \ | DIL-254P-12 | 1 | PMOD |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: PNP
+  DNP: ''
+  Description: PNP BJT Transistor
+  Footprint: agg:SOT-23
+  Qnty: '1'
+  Ref: Q17
+  Value: PBHV9050T,215
+  Vendor: ''
+- Cmp name: NFET
+  DNP: ''
+  Description: Generic N-channel FET
+  Footprint: agg:SOT-23
+  Qnty: '1'
+  Ref: Q18
+  Value: DMN60H080DS-7
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:1206
+  Qnty: '1'
+  Ref: R17
+  Value: 1M
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: agg:1206
+  Qnty: '1'
+  Ref: R18
+  Value: 93k1
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| Q17 |\
+  \ 1 | PBHV9050T,215 | PNP | agg:SOT-23 | PNP BJT Transistor |  |  | \n| Q18 | 1\
+  \ | DMN60H080DS-7 | NFET | agg:SOT-23 | Generic N-channel FET |  |  | \n| R17 |\
+  \ 1 | 1M | R | agg:1206 |  |  |  | \n| R18 | 1 | 93k1 | R | agg:1206 |  |  |  |\
+  \ \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_iggie_pmod_hss/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_iggie_pmod_hss/current_version/working/working.kicad_sch
 file_sch_flat: projects/adamgreig_iggie_load/current_version/working/working.sch
 id: adamgreig_iggie_pmod_hss
 name: iggie
+position_bottom:
+- '# Ref': R9
+  Package: 1206.0
+  PosX: 151.9
+  PosY: -103.0
+  Rot: 180.0
+  Side: bottom
+  Val: 1M
+- '# Ref': R10
+  Package: 1206.0
+  PosX: 144.4
+  PosY: -102.9
+  Rot: 180.0
+  Side: bottom
+  Val: 93k1
+- '# Ref': R11
+  Package: 1206.0
+  PosX: 136.9
+  PosY: -103.0
+  Rot: 0.0
+  Side: bottom
+  Val: 1M
+- '# Ref': R25
+  Package: 1206.0
+  PosX: 151.9
+  PosY: -120.6
+  Rot: 180.0
+  Side: bottom
+  Val: 1M
+- '# Ref': R26
+  Package: 1206.0
+  PosX: 144.4
+  PosY: -120.7
+  Rot: 180.0
+  Side: bottom
+  Val: 93k1
+- '# Ref': R27
+  Package: 1206.0
+  PosX: 136.9
+  PosY: -120.6
+  Rot: 0.0
+  Side: bottom
+  Val: 1M
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| R9 | 1M | 1206.0 | 151.9 | -103.0\
+  \ | 180.0 | bottom | \n| R10 | 93k1 | 1206.0 | 144.4 | -102.9 | 180.0 | bottom |\
+  \ \n| R11 | 1M | 1206.0 | 136.9 | -103.0 | 0.0 | bottom | \n| R25 | 1M | 1206.0\
+  \ | 151.9 | -120.6 | 180.0 | bottom | \n| R26 | 93k1 | 1206.0 | 144.4 | -120.7 |\
+  \ 180.0 | bottom | \n| R27 | 1M | 1206.0 | 136.9 | -120.6 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: '0603'
+  PosX: 111.595
+  PosY: -111.76
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': C2
+  Package: '0603'
+  PosX: 106.68
+  PosY: -120.65
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': C3
+  Package: '0603'
+  PosX: 111.595
+  PosY: -119.38
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': IC1
+  Package: TSSOP-16
+  PosX: 113.8
+  PosY: -107.95
+  Rot: 180.0
+  Side: top
+  Val: 74HC595
+- '# Ref': IC2
+  Package: TSSOP-16
+  PosX: 113.8
+  PosY: -115.57
+  Rot: 180.0
+  Side: top
+  Val: 74HC595
+- '# Ref': J1
+  Package: MOLEX-KK-254P-03
+  PosX: 174.09
+  PosY: -106.68
+  Rot: 90.0
+  Side: top
+  Val: HV
+- '# Ref': J2
+  Package: MOLEX-KK-254P-03
+  PosX: 174.09
+  PosY: -116.84
+  Rot: 90.0
+  Side: top
+  Val: HV
+- '# Ref': J3
+  Package: DIL-254P-12
+  PosX: 106.68
+  PosY: -111.76
+  Rot: -90.0
+  Side: top
+  Val: PMOD
+- '# Ref': J4
+  Package: DIL-254P-16
+  PosX: 144.4
+  PosY: -111.8
+  Rot: 0.0
+  Side: top
+  Val: ANODES
+- '# Ref': Q1
+  Package: SOT-23
+  PosX: 126.8
+  PosY: -114.2
+  Rot: 0.0
+  Side: top
+  Val: PBHV9050T,215
+- '# Ref': Q2
+  Package: SOT-23
+  PosX: 120.6
+  PosY: -114.2
+  Rot: 0.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q3
+  Package: SOT-23
+  PosX: 162.0
+  PosY: -109.3
+  Rot: 180.0
+  Side: top
+  Val: PBHV9050T,215
+- '# Ref': Q4
+  Package: SOT-23
+  PosX: 168.2
+  PosY: -109.3
+  Rot: 180.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q5
+  Package: SOT-23
+  PosX: 162.0
+  PosY: -104.4
+  Rot: 180.0
+  Side: top
+  Val: PBHV9050T,215
+- '# Ref': Q6
+  Package: SOT-23
+  PosX: 168.2
+  PosY: -104.4
+  Rot: 180.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q7
+  Package: SOT-23
+  PosX: 148.8
+  PosY: -107.1
+  Rot: 180.0
+  Side: top
+  Val: PBHV9050T,215
+- '# Ref': Q8
+  Package: SOT-23
+  PosX: 155.0
+  PosY: -107.1
+  Rot: 180.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q9
+  Package: SOT-23
+  PosX: 148.8
+  PosY: -103.5
+  Rot: 180.0
+  Side: top
+  Val: PBHV9050T,215
+- '# Ref': Q10
+  Package: SOT-23
+  PosX: 155.0
+  PosY: -103.5
+  Rot: 180.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q11
+  Package: SOT-23
+  PosX: 140.0
+  PosY: -103.5
+  Rot: 0.0
+  Side: top
+  Val: PBHV9050T,215
+- '# Ref': Q12
+  Package: SOT-23
+  PosX: 133.8
+  PosY: -103.5
+  Rot: 0.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q13
+  Package: SOT-23
+  PosX: 140.0
+  PosY: -107.1
+  Rot: 0.0
+  Side: top
+  Val: PBHV9050T,215
+- '# Ref': Q14
+  Package: SOT-23
+  PosX: 133.8
+  PosY: -107.1
+  Rot: 0.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q15
+  Package: SOT-23
+  PosX: 126.8
+  PosY: -104.4
+  Rot: 0.0
+  Side: top
+  Val: PBHV9050T,215
+- '# Ref': Q16
+  Package: SOT-23
+  PosX: 120.6
+  PosY: -104.4
+  Rot: 0.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q17
+  Package: SOT-23
+  PosX: 126.8
+  PosY: -109.3
+  Rot: 0.0
+  Side: top
+  Val: PBHV9050T,215
+- '# Ref': Q18
+  Package: SOT-23
+  PosX: 120.6
+  PosY: -109.3
+  Rot: 0.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q19
+  Package: SOT-23
+  PosX: 162.0
+  PosY: -114.2
+  Rot: 180.0
+  Side: top
+  Val: PBHV9050T,215
+- '# Ref': Q20
+  Package: SOT-23
+  PosX: 168.2
+  PosY: -114.2
+  Rot: 180.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q21
+  Package: SOT-23
+  PosX: 162.0
+  PosY: -119.1
+  Rot: 180.0
+  Side: top
+  Val: PBHV9050T,215
+- '# Ref': Q22
+  Package: SOT-23
+  PosX: 168.2
+  PosY: -119.1
+  Rot: 180.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q23
+  Package: SOT-23
+  PosX: 148.8
+  PosY: -116.5
+  Rot: 180.0
+  Side: top
+  Val: PBHV9050T,215
+- '# Ref': Q24
+  Package: SOT-23
+  PosX: 155.0
+  PosY: -116.5
+  Rot: 180.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q25
+  Package: SOT-23
+  PosX: 148.8
+  PosY: -120.1
+  Rot: 180.0
+  Side: top
+  Val: PBHV9050T,215
+- '# Ref': Q26
+  Package: SOT-23
+  PosX: 155.0
+  PosY: -120.1
+  Rot: 180.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q27
+  Package: SOT-23
+  PosX: 140.0
+  PosY: -120.1
+  Rot: 0.0
+  Side: top
+  Val: PBHV9050T,215
+- '# Ref': Q28
+  Package: SOT-23
+  PosX: 133.8
+  PosY: -120.1
+  Rot: 0.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q29
+  Package: SOT-23
+  PosX: 140.0
+  PosY: -116.5
+  Rot: 0.0
+  Side: top
+  Val: PBHV9050T,215
+- '# Ref': Q30
+  Package: SOT-23
+  PosX: 133.8
+  PosY: -116.5
+  Rot: 0.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': Q31
+  Package: SOT-23
+  PosX: 126.8
+  PosY: -119.1
+  Rot: 0.0
+  Side: top
+  Val: PBHV9050T,215
+- '# Ref': Q32
+  Package: SOT-23
+  PosX: 120.6
+  PosY: -119.1
+  Rot: 0.0
+  Side: top
+  Val: DMN60H080DS-7
+- '# Ref': R1
+  Package: '1206'
+  PosX: 123.7
+  PosY: -114.2
+  Rot: 90.0
+  Side: top
+  Val: 1M
+- '# Ref': R2
+  Package: '1206'
+  PosX: 129.9
+  PosY: -114.2
+  Rot: 90.0
+  Side: top
+  Val: 93k1
+- '# Ref': R3
+  Package: '1206'
+  PosX: 165.1
+  PosY: -109.3
+  Rot: -90.0
+  Side: top
+  Val: 1M
+- '# Ref': R4
+  Package: '1206'
+  PosX: 158.9
+  PosY: -109.3
+  Rot: -90.0
+  Side: top
+  Val: 93k1
+- '# Ref': R5
+  Package: '1206'
+  PosX: 165.1
+  PosY: -104.4
+  Rot: -90.0
+  Side: top
+  Val: 1M
+- '# Ref': R6
+  Package: '1206'
+  PosX: 158.9
+  PosY: -104.4
+  Rot: -90.0
+  Side: top
+  Val: 93k1
+- '# Ref': R7
+  Package: '1206'
+  PosX: 151.9
+  PosY: -105.9
+  Rot: -90.0
+  Side: top
+  Val: 1M
+- '# Ref': R8
+  Package: '1206'
+  PosX: 145.7
+  PosY: -106.5
+  Rot: -90.0
+  Side: top
+  Val: 93k1
+- '# Ref': R12
+  Package: '1206'
+  PosX: 144.4
+  PosY: -102.9
+  Rot: 0.0
+  Side: top
+  Val: 93k1
+- '# Ref': R13
+  Package: '1206'
+  PosX: 136.9
+  PosY: -105.9
+  Rot: 90.0
+  Side: top
+  Val: 1M
+- '# Ref': R14
+  Package: '1206'
+  PosX: 143.1
+  PosY: -106.5
+  Rot: -90.0
+  Side: top
+  Val: 93k1
+- '# Ref': R15
+  Package: '1206'
+  PosX: 123.7
+  PosY: -104.4
+  Rot: -90.0
+  Side: top
+  Val: 1M
+- '# Ref': R16
+  Package: '1206'
+  PosX: 129.9
+  PosY: -104.4
+  Rot: -90.0
+  Side: top
+  Val: 93k1
+- '# Ref': R17
+  Package: '1206'
+  PosX: 123.7
+  PosY: -109.3
+  Rot: -90.0
+  Side: top
+  Val: 1M
+- '# Ref': R18
+  Package: '1206'
+  PosX: 129.9
+  PosY: -109.3
+  Rot: -90.0
+  Side: top
+  Val: 93k1
+- '# Ref': R19
+  Package: '1206'
+  PosX: 165.1
+  PosY: -114.2
+  Rot: -90.0
+  Side: top
+  Val: 1M
+- '# Ref': R20
+  Package: '1206'
+  PosX: 158.9
+  PosY: -114.2
+  Rot: 90.0
+  Side: top
+  Val: 93k1
+- '# Ref': R21
+  Package: '1206'
+  PosX: 165.1
+  PosY: -119.1
+  Rot: -90.0
+  Side: top
+  Val: 1M
+- '# Ref': R22
+  Package: '1206'
+  PosX: 158.9
+  PosY: -119.1
+  Rot: 90.0
+  Side: top
+  Val: 93k1
+- '# Ref': R23
+  Package: '1206'
+  PosX: 151.9
+  PosY: -117.7
+  Rot: -90.0
+  Side: top
+  Val: 1M
+- '# Ref': R24
+  Package: '1206'
+  PosX: 145.7
+  PosY: -117.1
+  Rot: 90.0
+  Side: top
+  Val: 93k1
+- '# Ref': R28
+  Package: '1206'
+  PosX: 144.4
+  PosY: -120.7
+  Rot: 0.0
+  Side: top
+  Val: 93k1
+- '# Ref': R29
+  Package: '1206'
+  PosX: 136.9
+  PosY: -117.7
+  Rot: 90.0
+  Side: top
+  Val: 1M
+- '# Ref': R30
+  Package: '1206'
+  PosX: 143.1
+  PosY: -117.1
+  Rot: 90.0
+  Side: top
+  Val: 93k1
+- '# Ref': R31
+  Package: '1206'
+  PosX: 123.7
+  PosY: -119.1
+  Rot: 90.0
+  Side: top
+  Val: 1M
+- '# Ref': R32
+  Package: '1206'
+  PosX: 129.9
+  PosY: -119.1
+  Rot: 90.0
+  Side: top
+  Val: 93k1
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 100n | 0603 | 111.595 | -111.76\
+  \ | 180.0 | top | \n| C2 | 100n | 0603 | 106.68 | -120.65 | 0.0 | top | \n| C3 |\
+  \ 100n | 0603 | 111.595 | -119.38 | 180.0 | top | \n| IC1 | 74HC595 | TSSOP-16 |\
+  \ 113.8 | -107.95 | 180.0 | top | \n| IC2 | 74HC595 | TSSOP-16 | 113.8 | -115.57\
+  \ | 180.0 | top | \n| J1 | HV | MOLEX-KK-254P-03 | 174.09 | -106.68 | 90.0 | top\
+  \ | \n| J2 | HV | MOLEX-KK-254P-03 | 174.09 | -116.84 | 90.0 | top | \n| J3 | PMOD\
+  \ | DIL-254P-12 | 106.68 | -111.76 | -90.0 | top | \n| J4 | ANODES | DIL-254P-16\
+  \ | 144.4 | -111.8 | 0.0 | top | \n| Q1 | PBHV9050T,215 | SOT-23 | 126.8 | -114.2\
+  \ | 0.0 | top | \n| Q2 | DMN60H080DS-7 | SOT-23 | 120.6 | -114.2 | 0.0 | top | \n\
+  | Q3 | PBHV9050T,215 | SOT-23 | 162.0 | -109.3 | 180.0 | top | \n| Q4 | DMN60H080DS-7\
+  \ | SOT-23 | 168.2 | -109.3 | 180.0 | top | \n| Q5 | PBHV9050T,215 | SOT-23 | 162.0\
+  \ | -104.4 | 180.0 | top | \n| Q6 | DMN60H080DS-7 | SOT-23 | 168.2 | -104.4 | 180.0\
+  \ | top | \n| Q7 | PBHV9050T,215 | SOT-23 | 148.8 | -107.1 | 180.0 | top | \n| Q8\
+  \ | DMN60H080DS-7 | SOT-23 | 155.0 | -107.1 | 180.0 | top | \n| Q9 | PBHV9050T,215\
+  \ | SOT-23 | 148.8 | -103.5 | 180.0 | top | \n| Q10 | DMN60H080DS-7 | SOT-23 | 155.0\
+  \ | -103.5 | 180.0 | top | \n| Q11 | PBHV9050T,215 | SOT-23 | 140.0 | -103.5 | 0.0\
+  \ | top | \n| Q12 | DMN60H080DS-7 | SOT-23 | 133.8 | -103.5 | 0.0 | top | \n| Q13\
+  \ | PBHV9050T,215 | SOT-23 | 140.0 | -107.1 | 0.0 | top | \n| Q14 | DMN60H080DS-7\
+  \ | SOT-23 | 133.8 | -107.1 | 0.0 | top | \n| Q15 | PBHV9050T,215 | SOT-23 | 126.8\
+  \ | -104.4 | 0.0 | top | \n| Q16 | DMN60H080DS-7 | SOT-23 | 120.6 | -104.4 | 0.0\
+  \ | top | \n| Q17 | PBHV9050T,215 | SOT-23 | 126.8 | -109.3 | 0.0 | top | \n| Q18\
+  \ | DMN60H080DS-7 | SOT-23 | 120.6 | -109.3 | 0.0 | top | \n| Q19 | PBHV9050T,215\
+  \ | SOT-23 | 162.0 | -114.2 | 180.0 | top | \n| Q20 | DMN60H080DS-7 | SOT-23 | 168.2\
+  \ | -114.2 | 180.0 | top | \n| Q21 | PBHV9050T,215 | SOT-23 | 162.0 | -119.1 | 180.0\
+  \ | top | \n| Q22 | DMN60H080DS-7 | SOT-23 | 168.2 | -119.1 | 180.0 | top | \n|\
+  \ Q23 | PBHV9050T,215 | SOT-23 | 148.8 | -116.5 | 180.0 | top | \n| Q24 | DMN60H080DS-7\
+  \ | SOT-23 | 155.0 | -116.5 | 180.0 | top | \n| Q25 | PBHV9050T,215 | SOT-23 | 148.8\
+  \ | -120.1 | 180.0 | top | \n| Q26 | DMN60H080DS-7 | SOT-23 | 155.0 | -120.1 | 180.0\
+  \ | top | \n| Q27 | PBHV9050T,215 | SOT-23 | 140.0 | -120.1 | 0.0 | top | \n| Q28\
+  \ | DMN60H080DS-7 | SOT-23 | 133.8 | -120.1 | 0.0 | top | \n| Q29 | PBHV9050T,215\
+  \ | SOT-23 | 140.0 | -116.5 | 0.0 | top | \n| Q30 | DMN60H080DS-7 | SOT-23 | 133.8\
+  \ | -116.5 | 0.0 | top | \n| Q31 | PBHV9050T,215 | SOT-23 | 126.8 | -119.1 | 0.0\
+  \ | top | \n| Q32 | DMN60H080DS-7 | SOT-23 | 120.6 | -119.1 | 0.0 | top | \n| R1\
+  \ | 1M | 1206 | 123.7 | -114.2 | 90.0 | top | \n| R2 | 93k1 | 1206 | 129.9 | -114.2\
+  \ | 90.0 | top | \n| R3 | 1M | 1206 | 165.1 | -109.3 | -90.0 | top | \n| R4 | 93k1\
+  \ | 1206 | 158.9 | -109.3 | -90.0 | top | \n| R5 | 1M | 1206 | 165.1 | -104.4 |\
+  \ -90.0 | top | \n| R6 | 93k1 | 1206 | 158.9 | -104.4 | -90.0 | top | \n| R7 | 1M\
+  \ | 1206 | 151.9 | -105.9 | -90.0 | top | \n| R8 | 93k1 | 1206 | 145.7 | -106.5\
+  \ | -90.0 | top | \n| R12 | 93k1 | 1206 | 144.4 | -102.9 | 0.0 | top | \n| R13 |\
+  \ 1M | 1206 | 136.9 | -105.9 | 90.0 | top | \n| R14 | 93k1 | 1206 | 143.1 | -106.5\
+  \ | -90.0 | top | \n| R15 | 1M | 1206 | 123.7 | -104.4 | -90.0 | top | \n| R16 |\
+  \ 93k1 | 1206 | 129.9 | -104.4 | -90.0 | top | \n| R17 | 1M | 1206 | 123.7 | -109.3\
+  \ | -90.0 | top | \n| R18 | 93k1 | 1206 | 129.9 | -109.3 | -90.0 | top | \n| R19\
+  \ | 1M | 1206 | 165.1 | -114.2 | -90.0 | top | \n| R20 | 93k1 | 1206 | 158.9 | -114.2\
+  \ | 90.0 | top | \n| R21 | 1M | 1206 | 165.1 | -119.1 | -90.0 | top | \n| R22 |\
+  \ 93k1 | 1206 | 158.9 | -119.1 | 90.0 | top | \n| R23 | 1M | 1206 | 151.9 | -117.7\
+  \ | -90.0 | top | \n| R24 | 93k1 | 1206 | 145.7 | -117.1 | 90.0 | top | \n| R28\
+  \ | 93k1 | 1206 | 144.4 | -120.7 | 0.0 | top | \n| R29 | 1M | 1206 | 136.9 | -117.7\
+  \ | 90.0 | top | \n| R30 | 93k1 | 1206 | 143.1 | -117.1 | 90.0 | top | \n| R31 |\
+  \ 1M | 1206 | 123.7 | -119.1 | 90.0 | top | \n| R32 | 93k1 | 1206 | 129.9 | -119.1\
+  \ | 90.0 | top | \n"
 projects_flat: projects/adamgreig_iggie_pmod_hss/current_version/working
 repo:
   allow_forking: true

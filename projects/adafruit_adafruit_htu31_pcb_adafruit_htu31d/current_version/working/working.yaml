@@ -1,9 +1,488 @@
 board: adafruit_htu31d
+bom:
+- Id: '1'
+  Designator: CONN3,CONN4
+  Footprint: JST_SH4
+  Quantity: '2'
+  Designation: STEMMA_I2C_QT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$28
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$25,U$20,U$19,U$22
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '4'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C6
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C5
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: D1
+  Footprint: CHIPLED_0603_NOOUTLINE
+  Quantity: '1'
+  Designation: GREEN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R1
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: '220'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: FID4,FID3
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: JP1
+  Footprint: 1X06_ROUND_70
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R5
+  Footprint: RESPACK_4X0603
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: R2
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: X1
+  Footprint: HTU31D
+  Quantity: '1'
+  Designation: HTU31D_
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: SJ1
+  Footprint: SOLDERJUMPER_ARROW_NOPASTE
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: U$31,U$30
+  Footprint: STEMMAQT
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U$29
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | CONN3,CONN4\
+  \ | JST_SH4 | 2 | STEMMA_I2C_QT |  |  | [''] | \n| 2 | U$28 | ADAFRUIT_3.5MM | 1\
+  \ |  |  |  | [''] | \n| 3 | U$25,U$20,U$19,U$22 | MOUNTINGHOLE_2.5_PLATED | 4 |\
+  \ MOUNTINGHOLE2.5 |  |  | [''] | \n| 4 | C6 | 0603-NO | 1 | 0.1uF |  |  | [''] |\
+  \ \n| 5 | C5 | 0805-NO | 1 | 10uF |  |  | [''] | \n| 6 | D1 | CHIPLED_0603_NOOUTLINE\
+  \ | 1 | GREEN |  |  | [''] | \n| 7 | R1 | 0603-NO | 1 | 220 |  |  | [''] | \n| 8\
+  \ | FID4,FID3 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | [''] | \n| 9 | JP1 | 1X06_ROUND_70\
+  \ | 1 |  |  |  | [''] | \n| 10 | R5 | RESPACK_4X0603 | 1 | 10K |  |  | [''] | \n\
+  | 11 | R2 | 0603-NO | 1 | 10K |  |  | [''] | \n| 12 | X1 | HTU31D | 1 | HTU31D_\
+  \ |  |  | [''] | \n| 13 | SJ1 | SOLDERJUMPER_ARROW_NOPASTE | 1 |  |  |  | [''] |\
+  \ \n| 14 | U$31,U$30 | STEMMAQT | 2 |  |  |  | [''] | \n| 15 | U$29 | PCBFEAT-REV-040\
+  \ | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C5
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: C6
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: STEMMA_I2C_QT
+  DNP: ''
+  Description: ''
+  Footprint: working:JST_SH4
+  Qnty: '2'
+  Ref: CONN3, CONN4
+  Value: STEMMA_I2C_QT
+  Vendor: ''
+- Cmp name: LED0603_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0603_NOOUTLINE
+  Qnty: '1'
+  Ref: D1
+  Value: GREEN
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID3, FID4
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: HEADER-1X670MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06_ROUND_70
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X670MIL
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R1
+  Value: '220'
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R2
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603
+  Qnty: '1'
+  Ref: R5
+  Value: 10K
+  Vendor: ''
+- Cmp name: SOLDERJUMPER
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_ARROW_NOPASTE
+  Qnty: '1'
+  Ref: SJ1
+  Value: SOLDERJUMPER
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '4'
+  Ref: U$19, U$20, U$22, U$25
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+- Cmp name: HTU31D_
+  DNP: ''
+  Description: ''
+  Footprint: working:HTU31D
+  Qnty: '1'
+  Ref: X1
+  Value: HTU31D_
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C5 |\
+  \ 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C6 | 1 |\
+  \ 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| CONN3, CONN4 | 2 |\
+  \ STEMMA_I2C_QT | STEMMA_I2C_QT | working:JST_SH4 |  |  |  | \n| D1 | 1 | GREEN\
+  \ | LED0603_NOOUTLINE | working:CHIPLED_0603_NOOUTLINE |  |  |  | \n| FID3, FID4\
+  \ | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| JP1 |\
+  \ 1 | HEADER-1X670MIL | HEADER-1X670MIL | working:1X06_ROUND_70 |  |  |  | \n| R1\
+  \ | 1 | 220 | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n| R2 | 1 | 10K\
+  \ | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n| R5 | 1 | 10K | RESISTOR_4PACK\
+  \ | working:RESPACK_4X0603 |  |  |  | \n| SJ1 | 1 | SOLDERJUMPER | SOLDERJUMPER\
+  \ | working:SOLDERJUMPER_ARROW_NOPASTE |  |  |  | \n| U$19, U$20, U$22, U$25 | 4\
+  \ | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED |  |  |\
+  \  | \n| X1 | 1 | HTU31D_ | HTU31D_ | working:HTU31D |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_htu31_pcb_adafruit_htu31d/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_htu31_pcb_adafruit_htu31d/current_version/working/working.sch
 id: adafruit_adafruit_htu31_pcb_adafruit_htu31d
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$19
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '12.700000000000003'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$20
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '20.319999999999993'
+  y: '12.700000000000003'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$22
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$25
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '20.319999999999993'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 12.700000000000003 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$19 | m3 | \n| 20.319999999999993 | 12.700000000000003 |\
+  \ MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$20 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$22 | m3 | \n| 20.319999999999993 | 0.0 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$25 | m3 | \n"
 name: adafruit_htu31_pcb
+position_bottom:
+- '# Ref': SJ1
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 154.5971
+  PosY: -105.4481
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$29
+  Package: PCBFEAT-REV-040
+  PosX: 156.9466
+  PosY: -105.7021
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$30
+  Package: STEMMAQT
+  PosX: 158.2801
+  PosY: -109.4486
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$31
+  Package: STEMMAQT
+  PosX: 138.7221
+  PosY: -100.5586
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| SJ1 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 154.5971 | -105.4481 | 90.0 | bottom | \n| U$29 | nan | PCBFEAT-REV-040 | 156.9466\
+  \ | -105.7021 | 180.0 | bottom | \n| U$30 | nan | STEMMAQT | 158.2801 | -109.4486\
+  \ | 90.0 | bottom | \n| U$31 | nan | STEMMAQT | 138.7221 | -100.5586 | -90.0 | bottom\
+  \ | \n"
+position_top:
+- '# Ref': C5
+  Package: 0805-NO
+  PosX: 144.0561
+  PosY: -108.3056
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C6
+  Package: 0603-NO
+  PosX: 148.5011
+  PosY: -107.5436
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': CONN3
+  Package: JST_SH4
+  PosX: 158.5976
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': CONN4
+  Package: JST_SH4
+  PosX: 138.4046
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': D1
+  Package: CHIPLED_0603_NOOUTLINE
+  PosX: 139.3571
+  PosY: -101.3206
+  Rot: 90.0
+  Side: top
+  Val: GREEN
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 141.0081
+  PosY: -109.3851
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID4
+  Package: FIDUCIAL_1MM
+  PosX: 155.3591
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': JP1
+  Package: 1X06_ROUND_70
+  PosX: 148.5011
+  PosY: -111.3536
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 142.5321
+  PosY: -105.2576
+  Rot: -90.0
+  Side: top
+  Val: '220'
+- '# Ref': R2
+  Package: 0603-NO
+  PosX: 152.8191
+  PosY: -108.1151
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R5
+  Package: RESPACK_4X0603
+  PosX: 153.7716
+  PosY: -104.2416
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': U$19
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 138.3411
+  PosY: -98.6536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$20
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 158.6611
+  PosY: -98.6536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$22
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 138.3411
+  PosY: -111.3536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$25
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 158.6611
+  PosY: -111.3536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$28
+  Package: ADAFRUIT_3.5MM
+  PosX: 140.6271
+  PosY: -102.5906
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': X1
+  Package: HTU31D
+  PosX: 148.5011
+  PosY: -103.7336
+  Rot: 180.0
+  Side: top
+  Val: HTU31D_
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C5 | 10uF | 0805-NO | 144.0561 | -108.3056\
+  \ | 0.0 | top | \n| C6 | 0.1uF | 0603-NO | 148.5011 | -107.5436 | -90.0 | top |\
+  \ \n| CONN3 | STEMMA_I2C_QT | JST_SH4 | 158.5976 | -105.0036 | 90.0 | top | \n|\
+  \ CONN4 | STEMMA_I2C_QT | JST_SH4 | 138.4046 | -105.0036 | -90.0 | top | \n| D1\
+  \ | GREEN | CHIPLED_0603_NOOUTLINE | 139.3571 | -101.3206 | 90.0 | top | \n| FID3\
+  \ | FIDUCIAL_1MM | FIDUCIAL_1MM | 141.0081 | -109.3851 | 0.0 | top | \n| FID4 |\
+  \ FIDUCIAL_1MM | FIDUCIAL_1MM | 155.3591 | -97.3836 | 0.0 | top | \n| JP1 | nan\
+  \ | 1X06_ROUND_70 | 148.5011 | -111.3536 | 0.0 | top | \n| R1 | 220 | 0603-NO |\
+  \ 142.5321 | -105.2576 | -90.0 | top | \n| R2 | 10K | 0603-NO | 152.8191 | -108.1151\
+  \ | 0.0 | top | \n| R5 | 10K | RESPACK_4X0603 | 153.7716 | -104.2416 | -90.0 | top\
+  \ | \n| U$19 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 138.3411 | -98.6536 |\
+  \ 0.0 | top | \n| U$20 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 158.6611 |\
+  \ -98.6536 | 0.0 | top | \n| U$22 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED |\
+  \ 138.3411 | -111.3536 | 0.0 | top | \n| U$25 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 158.6611 | -111.3536 | 0.0 | top | \n| U$28 | nan | ADAFRUIT_3.5MM | 140.6271\
+  \ | -102.5906 | 0.0 | top | \n| X1 | HTU31D_ | HTU31D | 148.5011 | -103.7336 | 180.0\
+  \ | top | \n"
 projects_flat: projects/adafruit_adafruit_htu31_pcb_adafruit_htu31d/current_version/working
 repo:
   allow_forking: true

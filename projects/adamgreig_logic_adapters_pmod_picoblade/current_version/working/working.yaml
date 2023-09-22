@@ -1,10 +1,175 @@
 board: pmod_picoblade
+bom:
+- Id: '1'
+  Designator: J1,J2
+  Footprint: DIL-254P-08
+  Quantity: '2'
+  Designation: SALEAE_0-3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J4
+  Footprint: DIL-254P-12
+  Quantity: '1'
+  Designation: PMOD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J5,J6
+  Footprint: DIL-254P-08
+  Quantity: '2'
+  Designation: SALEAE_4-7
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J3
+  Footprint: MOLEX-PICOBLADE-53398-0771
+  Quantity: '1'
+  Designation: SPI
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J7
+  Footprint: MOLEX-PICOBLADE-53398-0471
+  Quantity: '1'
+  Designation: UART
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1,J2\
+  \ | DIL-254P-08 | 2 | SALEAE_0-3 |  |  | [''] | \n| 2 | J4 | DIL-254P-12 | 1 | PMOD\
+  \ |  |  | [''] | \n| 3 | J5,J6 | DIL-254P-08 | 2 | SALEAE_4-7 |  |  | [''] | \n\
+  | 4 | J3 | MOLEX-PICOBLADE-53398-0771 | 1 | SPI |  |  | [''] | \n| 5 | J7 | MOLEX-PICOBLADE-53398-0471\
+  \ | 1 | UART |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CONN_02x04-agg
+  DNP: ''
+  Description: ''
+  Footprint: agg:DIL-254P-08
+  Qnty: '2'
+  Ref: J1, J2
+  Value: SALEAE_0-3
+  Vendor: ''
+- Cmp name: CONN_01x07-agg
+  DNP: ''
+  Description: ''
+  Footprint: agg:MOLEX-PICOBLADE-53398-0771
+  Qnty: '1'
+  Ref: J3
+  Value: SPI
+  Vendor: ''
+- Cmp name: CONN_02x06-agg
+  DNP: ''
+  Description: ''
+  Footprint: agg:DIL-254P-12
+  Qnty: '1'
+  Ref: J4
+  Value: PMOD
+  Vendor: ''
+- Cmp name: CONN_02x04-agg
+  DNP: ''
+  Description: ''
+  Footprint: agg:DIL-254P-08
+  Qnty: '2'
+  Ref: J5, J6
+  Value: SALEAE_4-7
+  Vendor: ''
+- Cmp name: CONN_01x04-agg
+  DNP: ''
+  Description: ''
+  Footprint: agg:MOLEX-PICOBLADE-53398-0471
+  Qnty: '1'
+  Ref: J7
+  Value: UART
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| J1, J2\
+  \ | 2 | SALEAE_0-3 | CONN_02x04-agg | agg:DIL-254P-08 |  |  |  | \n| J3 | 1 | SPI\
+  \ | CONN_01x07-agg | agg:MOLEX-PICOBLADE-53398-0771 |  |  |  | \n| J4 | 1 | PMOD\
+  \ | CONN_02x06-agg | agg:DIL-254P-12 |  |  |  | \n| J5, J6 | 2 | SALEAE_4-7 | CONN_02x04-agg\
+  \ | agg:DIL-254P-08 |  |  |  | \n| J7 | 1 | UART | CONN_01x04-agg | agg:MOLEX-PICOBLADE-53398-0471\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamgreig_logic_adapters_pmod_picoblade/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamgreig_logic_adapters_pmod_picoblade/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adamgreig_logic_adapters_pmod_picoblade/current_version/working/working.sch
 id: adamgreig_logic_adapters_pmod_picoblade
 name: logic_adapters
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': J1
+  Package: DIL-254P-08
+  PosX: 101.6
+  PosY: -76.581
+  Rot: -90.0
+  Side: top
+  Val: SALEAE_0-3
+- '# Ref': J2
+  Package: DIL-254P-08
+  PosX: 109.22
+  PosY: -76.581
+  Rot: -90.0
+  Side: top
+  Val: SALEAE_0-3
+- '# Ref': J3
+  Package: MOLEX-PICOBLADE-53398-0771
+  PosX: 116.0
+  PosY: -74.0
+  Rot: 90.0
+  Side: top
+  Val: SPI
+- '# Ref': J4
+  Package: DIL-254P-12
+  PosX: 133.92
+  PosY: -69.85
+  Rot: 90.0
+  Side: top
+  Val: PMOD
+- '# Ref': J5
+  Package: DIL-254P-08
+  PosX: 101.6
+  PosY: -63.119
+  Rot: -90.0
+  Side: top
+  Val: SALEAE_4-7
+- '# Ref': J6
+  Package: DIL-254P-08
+  PosX: 109.22
+  PosY: -63.119
+  Rot: -90.0
+  Side: top
+  Val: SALEAE_4-7
+- '# Ref': J7
+  Package: MOLEX-PICOBLADE-53398-0471
+  PosX: 122.0
+  PosY: -64.0
+  Rot: 90.0
+  Side: top
+  Val: UART
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J1 | SALEAE_0-3 | DIL-254P-08 | 101.6\
+  \ | -76.581 | -90.0 | top | \n| J2 | SALEAE_0-3 | DIL-254P-08 | 109.22 | -76.581\
+  \ | -90.0 | top | \n| J3 | SPI | MOLEX-PICOBLADE-53398-0771 | 116.0 | -74.0 | 90.0\
+  \ | top | \n| J4 | PMOD | DIL-254P-12 | 133.92 | -69.85 | 90.0 | top | \n| J5 |\
+  \ SALEAE_4-7 | DIL-254P-08 | 101.6 | -63.119 | -90.0 | top | \n| J6 | SALEAE_4-7\
+  \ | DIL-254P-08 | 109.22 | -63.119 | -90.0 | top | \n| J7 | UART | MOLEX-PICOBLADE-53398-0471\
+  \ | 122.0 | -64.0 | 90.0 | top | \n"
 projects_flat: projects/adamgreig_logic_adapters_pmod_picoblade/current_version/working
 repo:
   allow_forking: true

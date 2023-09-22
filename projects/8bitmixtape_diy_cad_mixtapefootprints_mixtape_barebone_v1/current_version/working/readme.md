@@ -12,6 +12,7 @@
 
 * src_file_repo_sch: KiCAD/DIY-CAD_Mixtape.sch
 * src_file_repo_sch_link: https://github.com/8BitMixtape/DIY-CAD_MixtapeFootprints/tree/master/KiCAD/DIY-CAD_Mixtape.sch
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/8bitmixtape_diy_cad_mixtapefootprints_mixtape_barebone_v1/current_version/working  
 
 
 ## pcb  

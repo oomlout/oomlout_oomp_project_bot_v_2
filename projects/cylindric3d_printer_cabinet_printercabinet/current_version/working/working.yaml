@@ -1,10 +1,612 @@
 board: printercabinet
+bom:
+- Id: '1'
+  Designator: SW2
+  Footprint: TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal
+  Quantity: '1'
+  Designation: UV_STARTSTOP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: SW3
+  Footprint: TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal
+  Quantity: '1'
+  Designation: UV_DOWN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: SW4
+  Footprint: TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal
+  Quantity: '1'
+  Designation: UV_UP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U2
+  Footprint: DIP-16_W7.62mm_Socket
+  Quantity: '1'
+  Designation: LTC-4627JR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: F1
+  Footprint: Fuseholder_Glass_5mmx20mm
+  Quantity: '1'
+  Designation: 4A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J1
+  Footprint: TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal
+  Quantity: '1'
+  Designation: MAINS_IN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: RV1
+  Footprint: RV_Disc_D15.5mm_W6.1mm_P7.5mm
+  Quantity: '1'
+  Designation: S14MOV
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: V1
+  Footprint: Converter_ACDC_RECOM_RAC04-xxSGx_THT
+  Quantity: '1'
+  Designation: 4W AC-DC Converter
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: J2
+  Footprint: TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal
+  Quantity: '1'
+  Designation: AIR_FILTER
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: C4
+  Footprint: CP_Elec_6.3x5.4_Nichicon
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U4
+  Footprint: TO-252-2
+  Quantity: '1'
+  Designation: NCP1117-3.3_TO252
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: C5
+  Footprint: CP_Elec_5x5.4
+  Quantity: '1'
+  Designation: 4.7uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: C1
+  Footprint: C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: R1,R2
+  Footprint: R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  Quantity: '2'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: R4,R7,R5,R6,R3
+  Footprint: R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  Quantity: '5'
+  Designation: R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: U1
+  Footprint: SOIC-16W_5.3x10.2mm_P1.27mm
+  Quantity: '1'
+  Designation: 74HC595
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: C3,C2
+  Footprint: C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  Quantity: '2'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: SW1
+  Footprint: SW_SPST_B3S-1000
+  Quantity: '1'
+  Designation: Reset
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: U3
+  Footprint: Espressif_ESP32_WROOM_32D_SMT
+  Quantity: '1'
+  Designation: ESP32-WROOM-32D
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | SW2\
+  \ | TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal | 1 | UV_STARTSTOP\
+  \ |  |  | [''] | \n| 2 | SW3 | TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal\
+  \ | 1 | UV_DOWN |  |  | [''] | \n| 3 | SW4 | TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal\
+  \ | 1 | UV_UP |  |  | [''] | \n| 4 | U2 | DIP-16_W7.62mm_Socket | 1 | LTC-4627JR\
+  \ |  |  | [''] | \n| 5 | F1 | Fuseholder_Glass_5mmx20mm | 1 | 4A |  |  | [''] |\
+  \ \n| 6 | J1 | TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal | 1\
+  \ | MAINS_IN |  |  | [''] | \n| 7 | RV1 | RV_Disc_D15.5mm_W6.1mm_P7.5mm | 1 | S14MOV\
+  \ |  |  | [''] | \n| 8 | V1 | Converter_ACDC_RECOM_RAC04-xxSGx_THT | 1 | 4W AC-DC\
+  \ Converter |  |  | [''] | \n| 9 | J2 | TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal\
+  \ | 1 | AIR_FILTER |  |  | [''] | \n| 10 | C4 | CP_Elec_6.3x5.4_Nichicon | 1 | 10uF\
+  \ |  |  | [''] | \n| 11 | U4 | TO-252-2 | 1 | NCP1117-3.3_TO252 |  |  | [''] | \n\
+  | 12 | C5 | CP_Elec_5x5.4 | 1 | 4.7uF |  |  | [''] | \n| 13 | C1 | C_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | 1 | 10uF |  |  | [''] | \n| 14 | R1,R2 | R_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | 2 | 10k |  |  | [''] | \n| 15 | R4,R7,R5,R6,R3 | R_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | 5 | R |  |  | [''] | \n| 16 | U1 | SOIC-16W_5.3x10.2mm_P1.27mm | 1 | 74HC595\
+  \ |  |  | [''] | \n| 17 | C3,C2 | C_0603_1608Metric_Pad1.05x0.95mm_HandSolder |\
+  \ 2 | 0.1uF |  |  | [''] | \n| 18 | SW1 | SW_SPST_B3S-1000 | 1 | Reset |  |  | ['']\
+  \ | \n| 19 | U3 | Espressif_ESP32_WROOM_32D_SMT | 1 | ESP32-WROOM-32D |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  Qnty: '1'
+  Ref: C1
+  Value: 10uF
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  Qnty: '2'
+  Ref: C2, C3
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: CP_Small-Device
+  DNP: ''
+  Description: ''
+  Footprint: Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon
+  Qnty: '1'
+  Ref: C4
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CP_Small-Device
+  DNP: ''
+  Description: ''
+  Footprint: Capacitor_SMD:CP_Elec_5x5.4
+  Qnty: '1'
+  Ref: C5
+  Value: 4.7uF
+  Vendor: ''
+- Cmp name: Fuse
+  DNP: ''
+  Description: Fuse
+  Footprint: Fuse:Fuseholder_Glass_5mmx20mm
+  Qnty: '1'
+  Ref: F1
+  Value: 4A
+  Vendor: Mouser
+- Cmp name: Screw_Terminal_01x02
+  DNP: ''
+  Description: Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal
+  Qnty: '1'
+  Ref: J1
+  Value: MAINS_IN
+  Vendor: Mouser
+- Cmp name: Screw_Terminal_01x02
+  DNP: ''
+  Description: Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal
+  Qnty: '1'
+  Ref: J2
+  Value: AIR_FILTER
+  Vendor: Mouser
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 10k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  Qnty: '5'
+  Ref: R3, R4, R5, R6, R7
+  Value: R
+  Vendor: ''
+- Cmp name: Varistor
+  DNP: ''
+  Description: Voltage dependent resistor
+  Footprint: Varistor:RV_Disc_D15.5mm_W6.1mm_P7.5mm
+  Qnty: '1'
+  Ref: RV1
+  Value: S14MOV
+  Vendor: Mouser
+- Cmp name: SW_CK_D6R_SPST-Switch
+  DNP: ''
+  Description: ''
+  Footprint: Button_Switch_SMD:SW_SPST_B3S-1000
+  Qnty: '1'
+  Ref: SW1
+  Value: Reset
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: Push button switch, generic, two pins
+  Footprint: TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal
+  Qnty: '1'
+  Ref: SW2
+  Value: UV_STARTSTOP
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: Push button switch, generic, two pins
+  Footprint: TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal
+  Qnty: '1'
+  Ref: SW3
+  Value: UV_DOWN
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: Push button switch, generic, two pins
+  Footprint: TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal
+  Qnty: '1'
+  Ref: SW4
+  Value: UV_UP
+  Vendor: ''
+- Cmp name: 74HC595
+  DNP: ''
+  Description: 8-bit serial in/out Shift Register 3-State Outputs
+  Footprint: Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm
+  Qnty: '1'
+  Ref: U1
+  Value: 74HC595
+  Vendor: ''
+- Cmp name: LTC-4627JR-Display_Character
+  DNP: ''
+  Description: ''
+  Footprint: Package_DIP:DIP-16_W7.62mm_Socket
+  Qnty: '1'
+  Ref: U2
+  Value: LTC-4627JR
+  Vendor: ''
+- Cmp name: ESP32-WROOM-32D-MCU_Espressif
+  DNP: ''
+  Description: ''
+  Footprint: Module:Espressif_ESP32_WROOM_32D_SMT
+  Qnty: '1'
+  Ref: U3
+  Value: ESP32-WROOM-32D
+  Vendor: ''
+- Cmp name: NCP1117-3.3_TO252
+  DNP: ''
+  Description: 1A Low drop-out regulator, Fixed Output 3.3V, TO-252 (DPAK)
+  Footprint: Package_TO_SOT_SMD:TO-252-2
+  Qnty: '1'
+  Ref: U4
+  Value: NCP1117-3.3_TO252
+  Vendor: ''
+- Cmp name: RAC04-xxSGA-Converter_ACDC
+  DNP: ''
+  Description: ''
+  Footprint: Converter_ACDC:Converter_ACDC_RECOM_RAC04-xxSGx_THT
+  Qnty: '1'
+  Ref: V1
+  Value: 4W AC-DC Converter
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 10uF | C_Small | Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | Unpolarized capacitor, small symbol |  |  | \n| C2, C3 | 2 | 0.1uF | C_Small\
+  \ | Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder | Unpolarized capacitor,\
+  \ small symbol |  |  | \n| C4 | 1 | 10uF | CP_Small-Device | Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon\
+  \ |  |  |  | \n| C5 | 1 | 4.7uF | CP_Small-Device | Capacitor_SMD:CP_Elec_5x5.4\
+  \ |  |  |  | \n| F1 | 1 | 4A | Fuse | Fuse:Fuseholder_Glass_5mmx20mm | Fuse | Mouser\
+  \ |  | \n| J1 | 1 | MAINS_IN | Screw_Terminal_01x02 | TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal\
+  \ | Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ | Mouser |  | \n| J2 | 1 | AIR_FILTER | Screw_Terminal_01x02 | TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal\
+  \ | Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ | Mouser |  | \n| R1, R2 | 2 | 10k | R | Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | Resistor |  |  | \n| R3, R4, R5, R6, R7 | 5 | R | R | Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | Resistor |  |  | \n| RV1 | 1 | S14MOV | Varistor | Varistor:RV_Disc_D15.5mm_W6.1mm_P7.5mm\
+  \ | Voltage dependent resistor | Mouser |  | \n| SW1 | 1 | Reset | SW_CK_D6R_SPST-Switch\
+  \ | Button_Switch_SMD:SW_SPST_B3S-1000 |  |  |  | \n| SW2 | 1 | UV_STARTSTOP | SW_Push\
+  \ | TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal\
+  \ | Push button switch, generic, two pins |  |  | \n| SW3 | 1 | UV_DOWN | SW_Push\
+  \ | TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal\
+  \ | Push button switch, generic, two pins |  |  | \n| SW4 | 1 | UV_UP | SW_Push\
+  \ | TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal\
+  \ | Push button switch, generic, two pins |  |  | \n| U1 | 1 | 74HC595 | 74HC595\
+  \ | Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm | 8-bit serial in/out Shift Register\
+  \ 3-State Outputs |  |  | \n| U2 | 1 | LTC-4627JR | LTC-4627JR-Display_Character\
+  \ | Package_DIP:DIP-16_W7.62mm_Socket |  |  |  | \n| U3 | 1 | ESP32-WROOM-32D |\
+  \ ESP32-WROOM-32D-MCU_Espressif | Module:Espressif_ESP32_WROOM_32D_SMT |  |  | \
+  \ | \n| U4 | 1 | NCP1117-3.3_TO252 | NCP1117-3.3_TO252 | Package_TO_SOT_SMD:TO-252-2\
+  \ | 1A Low drop-out regulator, Fixed Output 3.3V, TO-252 (DPAK) |  |  | \n| V1 |\
+  \ 1 | 4W AC-DC Converter | RAC04-xxSGA-Converter_ACDC | Converter_ACDC:Converter_ACDC_RECOM_RAC04-xxSGx_THT\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/cylindric3d_printer_cabinet_printercabinet/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/cylindric3d_printer_cabinet_printercabinet/current_version/working/working.kicad_pcb
 file_sch_flat: projects/cylindric3d_printer_cabinet_printercabinet/current_version/working/working.sch
 id: cylindric3d_printer_cabinet_printercabinet
 name: printer_cabinet
+position_bottom:
+- '# Ref': C1
+  Package: C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  PosX: 101.092
+  PosY: -134.253
+  Rot: 90.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C2
+  Package: C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  PosX: 99.314
+  PosY: -134.253
+  Rot: -90.0
+  Side: bottom
+  Val: 0.1uF
+- '# Ref': C3
+  Package: C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  PosX: 107.95
+  PosY: -112.663
+  Rot: -90.0
+  Side: bottom
+  Val: 0.1uF
+- '# Ref': R1
+  Package: R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  PosX: 126.379
+  PosY: -118.364
+  Rot: 0.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R2
+  Package: R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  PosX: 100.217
+  PosY: -131.572
+  Rot: 180.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R3
+  Package: R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  PosX: 163.971
+  PosY: -135.89
+  Rot: 0.0
+  Side: bottom
+  Val: R
+- '# Ref': R4
+  Package: R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  PosX: 167.894
+  PosY: -135.89
+  Rot: 0.0
+  Side: bottom
+  Val: R
+- '# Ref': R5
+  Package: R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  PosX: 172.099
+  PosY: -135.89
+  Rot: 0.0
+  Side: bottom
+  Val: R
+- '# Ref': R6
+  Package: R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  PosX: 176.135
+  PosY: -135.89
+  Rot: 0.0
+  Side: bottom
+  Val: R
+- '# Ref': R7
+  Package: R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  PosX: 180.227
+  PosY: -135.89
+  Rot: 0.0
+  Side: bottom
+  Val: R
+- '# Ref': SW1
+  Package: SW_SPST_B3S-1000
+  PosX: 101.181
+  PosY: -112.812
+  Rot: 0.0
+  Side: bottom
+  Val: Reset
+- '# Ref': U1
+  Package: SOIC-16W_5.3x10.2mm_P1.27mm
+  PosX: 154.68
+  PosY: -128.651
+  Rot: 180.0
+  Side: bottom
+  Val: 74HC595
+- '# Ref': U3
+  Package: Espressif_ESP32_WROOM_32D_SMT
+  PosX: 113.648
+  PosY: -126.624
+  Rot: 0.0
+  Side: bottom
+  Val: ESP32-WROOM-32D
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C1 | 10uF | C_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | 101.092 | -134.253 | 90.0 | bottom | \n| C2 | 0.1uF | C_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | 99.314 | -134.253 | -90.0 | bottom | \n| C3 | 0.1uF | C_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | 107.95 | -112.663 | -90.0 | bottom | \n| R1 | 10k | R_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | 126.379 | -118.364 | 0.0 | bottom | \n| R2 | 10k | R_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | 100.217 | -131.572 | 180.0 | bottom | \n| R3 | R | R_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | 163.971 | -135.89 | 0.0 | bottom | \n| R4 | R | R_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | 167.894 | -135.89 | 0.0 | bottom | \n| R5 | R | R_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | 172.099 | -135.89 | 0.0 | bottom | \n| R6 | R | R_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | 176.135 | -135.89 | 0.0 | bottom | \n| R7 | R | R_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | 180.227 | -135.89 | 0.0 | bottom | \n| SW1 | Reset | SW_SPST_B3S-1000 | 101.181\
+  \ | -112.812 | 0.0 | bottom | \n| U1 | 74HC595 | SOIC-16W_5.3x10.2mm_P1.27mm | 154.68\
+  \ | -128.651 | 180.0 | bottom | \n| U3 | ESP32-WROOM-32D | Espressif_ESP32_WROOM_32D_SMT\
+  \ | 113.648 | -126.624 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': C4
+  Package: CP_Elec_6.3x5.4_Nichicon
+  PosX: 127.16
+  PosY: -81.534
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': C5
+  Package: CP_Elec_5x5.4
+  PosX: 137.328
+  PosY: -81.534
+  Rot: 180.0
+  Side: top
+  Val: 4.7uF
+- '# Ref': F1
+  Package: Fuseholder_Glass_5mmx20mm
+  PosX: 131.528
+  PosY: -61.376
+  Rot: 0.0
+  Side: top
+  Val: 4A
+- '# Ref': J1
+  Package: TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal
+  PosX: 153.553
+  PosY: -62.691
+  Rot: 0.0
+  Side: top
+  Val: MAINS_IN
+- '# Ref': J2
+  Package: TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal
+  PosX: 177.8
+  PosY: -76.962
+  Rot: 0.0
+  Side: top
+  Val: AIR_FILTER
+- '# Ref': RV1
+  Package: RV_Disc_D15.5mm_W6.1mm_P7.5mm
+  PosX: 127.303
+  PosY: -67.461
+  Rot: 0.0
+  Side: top
+  Val: S14MOV
+- '# Ref': SW2
+  Package: TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal
+  PosX: 198.42
+  PosY: -127.298
+  Rot: 0.0
+  Side: top
+  Val: UV_STARTSTOP
+- '# Ref': SW3
+  Package: TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal
+  PosX: 141.42
+  PosY: -132.298
+  Rot: 0.0
+  Side: top
+  Val: UV_DOWN
+- '# Ref': SW4
+  Package: TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal
+  PosX: 141.42
+  PosY: -119.298
+  Rot: 0.0
+  Side: top
+  Val: UV_UP
+- '# Ref': U2
+  Package: DIP-16_W7.62mm_Socket
+  PosX: 163.36
+  PosY: -132.588
+  Rot: 90.0
+  Side: top
+  Val: LTC-4627JR
+- '# Ref': U4
+  Package: TO-252-2
+  PosX: 132.47
+  PosY: -90.164
+  Rot: 0.0
+  Side: top
+  Val: NCP1117-3.3_TO252
+- '# Ref': V1
+  Package: Converter_ACDC_RECOM_RAC04-xxSGx_THT
+  PosX: 100.863
+  PosY: -61.701
+  Rot: 0.0
+  Side: top
+  Val: 4W_AC-DC_Converter
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C4 | 10uF | CP_Elec_6.3x5.4_Nichicon\
+  \ | 127.16 | -81.534 | 180.0 | top | \n| C5 | 4.7uF | CP_Elec_5x5.4 | 137.328 |\
+  \ -81.534 | 180.0 | top | \n| F1 | 4A | Fuseholder_Glass_5mmx20mm | 131.528 | -61.376\
+  \ | 0.0 | top | \n| J1 | MAINS_IN | TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal\
+  \ | 153.553 | -62.691 | 0.0 | top | \n| J2 | AIR_FILTER | TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal\
+  \ | 177.8 | -76.962 | 0.0 | top | \n| RV1 | S14MOV | RV_Disc_D15.5mm_W6.1mm_P7.5mm\
+  \ | 127.303 | -67.461 | 0.0 | top | \n| SW2 | UV_STARTSTOP | TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal\
+  \ | 198.42 | -127.298 | 0.0 | top | \n| SW3 | UV_DOWN | TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal\
+  \ | 141.42 | -132.298 | 0.0 | top | \n| SW4 | UV_UP | TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal\
+  \ | 141.42 | -119.298 | 0.0 | top | \n| U2 | LTC-4627JR | DIP-16_W7.62mm_Socket\
+  \ | 163.36 | -132.588 | 90.0 | top | \n| U4 | NCP1117-3.3_TO252 | TO-252-2 | 132.47\
+  \ | -90.164 | 0.0 | top | \n| V1 | 4W_AC-DC_Converter | Converter_ACDC_RECOM_RAC04-xxSGx_THT\
+  \ | 100.863 | -61.701 | 0.0 | top | \n"
 projects_flat: projects/cylindric3d_printer_cabinet_printercabinet/current_version/working
 repo:
   allow_forking: true

@@ -1,9 +1,485 @@
 board: adafruit_scd30
+bom:
+- Id: '1'
+  Designator: CONN4,CONN3
+  Footprint: JST_SH4
+  Quantity: '2'
+  Designation: STEMMA_I2C_QT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C1
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R1
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: X1
+  Footprint: SCD30
+  Quantity: '1'
+  Designation: SCD30
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C2,C3
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U$22
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: JP1
+  Footprint: 1X06_ROUND_70
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U2
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: AP2112K-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U$17,U$21,U$19,U$1
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '4'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: Q2
+  Footprint: SOT363
+  Quantity: '1'
+  Designation: BSS138
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: FID4,FID3
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: R3
+  Footprint: RESPACK_4X0603
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: D1
+  Footprint: CHIPLED_0603_NOOUTLINE
+  Quantity: '1'
+  Designation: GREEN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: U$30
+  Footprint: STEMMAQT
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U$25
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | CONN4,CONN3\
+  \ | JST_SH4 | 2 | STEMMA_I2C_QT |  |  | [''] | \n| 2 | C1 | 0603-NO | 1 | 0.1uF\
+  \ |  |  | [''] | \n| 3 | R1 | 0603-NO | 1 | 10K |  |  | [''] | \n| 4 | X1 | SCD30\
+  \ | 1 | SCD30 |  |  | [''] | \n| 5 | C2,C3 | 0805-NO | 2 | 10uF |  |  | [''] | \n\
+  | 6 | U$22 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n| 7 | JP1 | 1X06_ROUND_70 |\
+  \ 1 |  |  |  | [''] | \n| 8 | U2 | SOT23-5 | 1 | AP2112K-3.3 |  |  | [''] | \n|\
+  \ 9 | U$17,U$21,U$19,U$1 | MOUNTINGHOLE_2.5_PLATED | 4 | MOUNTINGHOLE2.5 |  |  |\
+  \ [''] | \n| 10 | Q2 | SOT363 | 1 | BSS138 |  |  | [''] | \n| 11 | FID4,FID3 | FIDUCIAL_1MM\
+  \ | 2 | FIDUCIAL_1MM |  |  | [''] | \n| 12 | R3 | RESPACK_4X0603 | 1 | 10K |  |\
+  \  | [''] | \n| 13 | D1 | CHIPLED_0603_NOOUTLINE | 1 | GREEN |  |  | [''] | \n|\
+  \ 14 | U$30 | STEMMAQT | 1 |  |  |  | [''] | \n| 15 | U$25 | PCBFEAT-REV-040 | 1\
+  \ |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: C1
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C2, C3
+  Value: 10uF
+  Vendor: ''
+- Cmp name: STEMMA_I2C_QT
+  DNP: ''
+  Description: ''
+  Footprint: working:JST_SH4
+  Qnty: '2'
+  Ref: CONN3, CONN4
+  Value: STEMMA_I2C_QT
+  Vendor: ''
+- Cmp name: LED0603_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0603_NOOUTLINE
+  Qnty: '1'
+  Ref: D1
+  Value: GREEN
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID3, FID4
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: HEADER-1X670MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06_ROUND_70
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X670MIL
+  Vendor: ''
+- Cmp name: MOSFET-N_DUAL
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT363
+  Qnty: '1'
+  Ref: Q2
+  Value: BSS138
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R1
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603
+  Qnty: '1'
+  Ref: R3
+  Value: 10K
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U2
+  Value: AP2112K-3.3
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '4'
+  Ref: U$1, U$17, U$19, U$21
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+- Cmp name: SCD30
+  DNP: ''
+  Description: ''
+  Footprint: working:SCD30
+  Qnty: '1'
+  Ref: X1
+  Value: SCD30
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| C2, C3 | 2 | 10uF\
+  \ | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| CONN3, CONN4 | 2\
+  \ | STEMMA_I2C_QT | STEMMA_I2C_QT | working:JST_SH4 |  |  |  | \n| D1 | 1 | GREEN\
+  \ | LED0603_NOOUTLINE | working:CHIPLED_0603_NOOUTLINE |  |  |  | \n| FID3, FID4\
+  \ | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| JP1 |\
+  \ 1 | HEADER-1X670MIL | HEADER-1X670MIL | working:1X06_ROUND_70 |  |  |  | \n| Q2\
+  \ | 1 | BSS138 | MOSFET-N_DUAL | working:SOT363 |  |  |  | \n| R1 | 1 | 10K | RESISTOR_0603_NOOUT\
+  \ | working:0603-NO |  |  |  | \n| R3 | 1 | 10K | RESISTOR_4PACK | working:RESPACK_4X0603\
+  \ |  |  |  | \n| U2 | 1 | AP2112K-3.3 | VREG_SOT23-5 | working:SOT23-5 |  |  | \
+  \ | \n| U$1, U$17, U$19, U$21 | 4 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED\
+  \ |  |  |  | \n| X1 | 1 | SCD30 | SCD30 | working:SCD30 |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_scd_30_pcb_adafruit_scd30/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_scd_30_pcb_adafruit_scd30/current_version/working/working.sch
 id: adafruit_adafruit_scd_30_pcb_adafruit_scd30
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$1
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '20.320000000000007'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$17
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '45.72000000000001'
+  y: '20.320000000000007'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$19
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$21
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '45.72000000000001'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 20.320000000000007 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$1 | m3 | \n| 45.72000000000001 | 20.320000000000007 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$17 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$19 | m3 | \n| 45.72000000000001 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$21 | m3 | \n"
 name: adafruit_scd_30_pcb
+position_bottom:
+- '# Ref': U$25
+  Package: PCBFEAT-REV-040
+  PosX: 129.1967
+  PosY: -93.574
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$30
+  Package: STEMMAQT
+  PosX: 125.7677
+  PosY: -109.703
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$25 | nan | PCBFEAT-REV-040 | 129.1967\
+  \ | -93.574 | 180.0 | bottom | \n| U$30 | nan | STEMMAQT | 125.7677 | -109.703 |\
+  \ 90.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0603-NO
+  PosX: 134.0227
+  PosY: -112.751
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 130.4667
+  PosY: -111.989
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 136.9437
+  PosY: -111.735
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': CONN3
+  Package: JST_SH4
+  PosX: 125.7677
+  PosY: -101.194
+  Rot: -90.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': CONN4
+  Package: JST_SH4
+  PosX: 125.7677
+  PosY: -108.814
+  Rot: -90.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': D1
+  Package: CHIPLED_0603_NOOUTLINE
+  PosX: 129.8317
+  PosY: -96.749
+  Rot: 90.0
+  Side: top
+  Val: GREEN
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 165.1377
+  PosY: -115.291
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID4
+  Package: FIDUCIAL_1MM
+  PosX: 133.3877
+  PosY: -94.717
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': JP1
+  Package: 1X06_ROUND_70
+  PosX: 171.3607
+  PosY: -105.004
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': Q2
+  Package: SOT363
+  PosX: 139.8647
+  PosY: -111.989
+  Rot: 0.0
+  Side: top
+  Val: BSS138
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 130.5937
+  PosY: -99.162
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: RESPACK_4X0603
+  PosX: 144.1827
+  PosY: -111.481
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': U$1
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 125.6407
+  PosY: -94.844
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$17
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 171.3607
+  PosY: -94.844
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$19
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 125.6407
+  PosY: -115.164
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$21
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 171.3607
+  PosY: -115.164
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$22
+  Package: ADAFRUIT_3.5MM
+  PosX: 127.5457
+  PosY: -96.114
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U2
+  Package: SOT23-5
+  PosX: 133.7687
+  PosY: -110.211
+  Rot: -90.0
+  Side: top
+  Val: AP2112K-3.3
+- '# Ref': X1
+  Package: SCD30
+  PosX: 149.2627
+  PosY: -105.131
+  Rot: -90.0
+  Side: top
+  Val: SCD30
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | 0603-NO | 134.0227 | -112.751\
+  \ | 0.0 | top | \n| C2 | 10uF | 0805-NO | 130.4667 | -111.989 | -90.0 | top | \n\
+  | C3 | 10uF | 0805-NO | 136.9437 | -111.735 | -90.0 | top | \n| CONN3 | STEMMA_I2C_QT\
+  \ | JST_SH4 | 125.7677 | -101.194 | -90.0 | top | \n| CONN4 | STEMMA_I2C_QT | JST_SH4\
+  \ | 125.7677 | -108.814 | -90.0 | top | \n| D1 | GREEN | CHIPLED_0603_NOOUTLINE\
+  \ | 129.8317 | -96.749 | 90.0 | top | \n| FID3 | FIDUCIAL_1MM | FIDUCIAL_1MM | 165.1377\
+  \ | -115.291 | 0.0 | top | \n| FID4 | FIDUCIAL_1MM | FIDUCIAL_1MM | 133.3877 | -94.717\
+  \ | 0.0 | top | \n| JP1 | nan | 1X06_ROUND_70 | 171.3607 | -105.004 | 90.0 | top\
+  \ | \n| Q2 | BSS138 | SOT363 | 139.8647 | -111.989 | 0.0 | top | \n| R1 | 10K |\
+  \ 0603-NO | 130.5937 | -99.162 | 90.0 | top | \n| R3 | 10K | RESPACK_4X0603 | 144.1827\
+  \ | -111.481 | 180.0 | top | \n| U$1 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 125.6407 | -94.844 | 0.0 | top | \n| U$17 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 171.3607 | -94.844 | 0.0 | top | \n| U$19 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 125.6407 | -115.164 | 0.0 | top | \n| U$21 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 171.3607 | -115.164 | 0.0 | top | \n| U$22 | nan | ADAFRUIT_3.5MM | 127.5457\
+  \ | -96.114 | 0.0 | top | \n| U2 | AP2112K-3.3 | SOT23-5 | 133.7687 | -110.211 |\
+  \ -90.0 | top | \n| X1 | SCD30 | SCD30 | 149.2627 | -105.131 | -90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_scd_30_pcb_adafruit_scd30/current_version/working
 repo:
   allow_forking: true

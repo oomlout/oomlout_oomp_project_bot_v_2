@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit-CharliePlex-Bonnet-PCBs/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_charlieplex_bonnet_pcbs_adafruit_charlieplex_bonnet/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

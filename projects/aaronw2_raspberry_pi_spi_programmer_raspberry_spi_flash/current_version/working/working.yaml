@@ -1,4 +1,316 @@
 board: raspberry_spi_flash
+bom:
+- Id: '1'
+  Designator: P1
+  Footprint: PinHeader_2x13_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: CONN_13X2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R5,R4,R3,R7,R1,R2
+  Footprint: R_0603_1608Metric
+  Quantity: '6'
+  Designation: 4.75K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U4
+  Footprint: SOIC-14_3.9x8.7mm_P1.27mm
+  Quantity: '1'
+  Designation: TXB0104D
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C8,C9,C2,C1,C3,C4,C5,C6,C7
+  Footprint: C_0603_1608Metric
+  Quantity: '9'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: SW1,SW2
+  Footprint: SW_STDP_CF-LD-1DC
+  Quantity: '2'
+  Designation: SW_SPDT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C12,C10,C11
+  Footprint: C_0603_1608Metric
+  Quantity: '3'
+  Designation: 4.7uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R6
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: '560'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: D1
+  Footprint: LED_0603_1608Metric
+  Quantity: '1'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U5
+  Footprint: MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm_ThermalVias
+  Quantity: '1'
+  Designation: MIC5355-SGYMME
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: Q1
+  Footprint: SOT-23
+  Quantity: '1'
+  Designation: BSS138
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U2
+  Footprint: 208-7391-55-1902
+  Quantity: '1'
+  Designation: AT25SF081-SSHD-X
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U1
+  Footprint: 216-7224-55-1902
+  Quantity: '1'
+  Designation: MX25L25735
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: FID1,FID2
+  Footprint: Fiducial_Modern_CopperTop
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: U3
+  Footprint: TSSOP-16_4.4x5mm_P0.65mm
+  Quantity: '1'
+  Designation: MAX3232
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: J1
+  Footprint: RJ45_Amphenol_54602-x08_Horizontal
+  Quantity: '1'
+  Designation: RJ45
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | P1\
+  \ | PinHeader_2x13_P2.54mm_Vertical | 1 | CONN_13X2 |  |  | [''] | \n| 2 | R5,R4,R3,R7,R1,R2\
+  \ | R_0603_1608Metric | 6 | 4.75K |  |  | [''] | \n| 3 | U4 | SOIC-14_3.9x8.7mm_P1.27mm\
+  \ | 1 | TXB0104D |  |  | [''] | \n| 4 | C8,C9,C2,C1,C3,C4,C5,C6,C7 | C_0603_1608Metric\
+  \ | 9 | 0.1uF |  |  | [''] | \n| 5 | SW1,SW2 | SW_STDP_CF-LD-1DC | 2 | SW_SPDT |\
+  \  |  | [''] | \n| 6 | C12,C10,C11 | C_0603_1608Metric | 3 | 4.7uF |  |  | ['']\
+  \ | \n| 7 | R6 | R_0603_1608Metric | 1 | 560 |  |  | [''] | \n| 8 | D1 | LED_0603_1608Metric\
+  \ | 1 | LED |  |  | [''] | \n| 9 | U5 | MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm_ThermalVias\
+  \ | 1 | MIC5355-SGYMME |  |  | [''] | \n| 10 | Q1 | SOT-23 | 1 | BSS138 |  |  |\
+  \ [''] | \n| 11 | U2 | 208-7391-55-1902 | 1 | AT25SF081-SSHD-X |  |  | [''] | \n\
+  | 12 | U1 | 216-7224-55-1902 | 1 | MX25L25735 |  |  | [''] | \n| 13 | FID1,FID2\
+  \ | Fiducial_Modern_CopperTop | 2 | FIDUCIAL_1MM |  |  | [''] | \n| 14 | U3 | TSSOP-16_4.4x5mm_P0.65mm\
+  \ | 1 | MAX3232 |  |  | [''] | \n| 15 | J1 | RJ45_Amphenol_54602-x08_Horizontal\
+  \ | 1 | RJ45 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C-device
+  DNP: ''
+  Description: ''
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '9'
+  Ref: C1, C2, C3, C4, C5, C6, C7, C8, C9
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: C-device
+  DNP: ''
+  Description: ''
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '3'
+  Ref: C10, C11, C12
+  Value: 4.7uF
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: LED_SMD:LED_0603_1608Metric
+  Qnty: '1'
+  Ref: D1
+  Value: LED
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM-fiducial
+  DNP: ''
+  Description: ''
+  Footprint: Fiducial:Fiducial_Modern_CopperTop
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: RJ45
+  DNP: ''
+  Description: RJ connector, 8P8C (8 positions 8 connected)
+  Footprint: Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal
+  Qnty: '1'
+  Ref: J1
+  Value: RJ45
+  Vendor: ''
+- Cmp name: Conn_02x13_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x13, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: P1
+  Value: CONN_13X2
+  Vendor: ''
+- Cmp name: BSS138
+  DNP: ''
+  Description: 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23
+  Footprint: Package_TO_SOT_SMD:SOT-23
+  Qnty: '1'
+  Ref: Q1
+  Value: BSS138
+  Vendor: ''
+- Cmp name: R-device
+  DNP: ''
+  Description: ''
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '6'
+  Ref: R1, R2, R3, R4, R5, R7
+  Value: 4.75K
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R6
+  Value: '560'
+  Vendor: ''
+- Cmp name: SW_SPDT
+  DNP: ''
+  Description: Switch, single pole double throw
+  Footprint: Aaron:SW_STDP_CF-LD-1DC
+  Qnty: '2'
+  Ref: SW1, SW2
+  Value: SW_SPDT
+  Vendor: ''
+- Cmp name: MX25L25735-Aaron
+  DNP: ''
+  Description: ''
+  Footprint: Aaron:216-7224-55-1902
+  Qnty: '1'
+  Ref: U1
+  Value: MX25L25735
+  Vendor: ''
+- Cmp name: AT25SF081-SSHD-X-Memory_Flash
+  DNP: ''
+  Description: ''
+  Footprint: Aaron:208-7391-55-1902
+  Qnty: '1'
+  Ref: U2
+  Value: AT25SF081-SSHD-X
+  Vendor: ''
+- Cmp name: MAX3232-interface
+  DNP: ''
+  Description: ''
+  Footprint: Package_SO:TSSOP-16_4.4x5mm_P0.65mm
+  Qnty: '1'
+  Ref: U3
+  Value: MAX3232
+  Vendor: ''
+- Cmp name: TXB0104D-Logic_LevelTranslator
+  DNP: ''
+  Description: ''
+  Footprint: Package_SO:SOIC-14_3.9x8.7mm_P1.27mm
+  Qnty: '1'
+  Ref: U4
+  Value: TXB0104D
+  Vendor: ''
+- Cmp name: MIC5355-SGYMME
+  DNP: ''
+  Description: "Dual 500mA \xCE\xBCCap Low Dropout Micropower Linear Regulator, 3.3V/1.8V,\
+    \ MSOP-8"
+  Footprint: Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm_ThermalVias
+  Qnty: '1'
+  Ref: U5
+  Value: MIC5355-SGYMME
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3, C4, C5, C6, C7, C8, C9 | 9 | 0.1uF | C-device | Capacitor_SMD:C_0603_1608Metric\
+  \ |  |  |  | \n| C10, C11, C12 | 3 | 4.7uF | C-device | Capacitor_SMD:C_0603_1608Metric\
+  \ |  |  |  | \n| D1 | 1 | LED | LED | LED_SMD:LED_0603_1608Metric | Light emitting\
+  \ diode |  |  | \n| FID1, FID2 | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM-fiducial | Fiducial:Fiducial_Modern_CopperTop\
+  \ |  |  |  | \n| J1 | 1 | RJ45 | RJ45 | Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal\
+  \ | RJ connector, 8P8C (8 positions 8 connected) |  |  | \n| P1 | 1 | CONN_13X2\
+  \ | Conn_02x13_Odd_Even | Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical\
+  \ | Generic connector, double row, 02x13, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| Q1 | 1 | BSS138 | BSS138 | Package_TO_SOT_SMD:SOT-23 | 50V Vds, 0.22A\
+  \ Id, N-Channel MOSFET, SOT-23 |  |  | \n| R1, R2, R3, R4, R5, R7 | 6 | 4.75K |\
+  \ R-device | Resistor_SMD:R_0603_1608Metric |  |  |  | \n| R6 | 1 | 560 | R | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor |  |  | \n| SW1, SW2 | 2 | SW_SPDT | SW_SPDT | Aaron:SW_STDP_CF-LD-1DC\
+  \ | Switch, single pole double throw |  |  | \n| U1 | 1 | MX25L25735 | MX25L25735-Aaron\
+  \ | Aaron:216-7224-55-1902 |  |  |  | \n| U2 | 1 | AT25SF081-SSHD-X | AT25SF081-SSHD-X-Memory_Flash\
+  \ | Aaron:208-7391-55-1902 |  |  |  | \n| U3 | 1 | MAX3232 | MAX3232-interface |\
+  \ Package_SO:TSSOP-16_4.4x5mm_P0.65mm |  |  |  | \n| U4 | 1 | TXB0104D | TXB0104D-Logic_LevelTranslator\
+  \ | Package_SO:SOIC-14_3.9x8.7mm_P1.27mm |  |  |  | \n| U5 | 1 | MIC5355-SGYMME\
+  \ | MIC5355-SGYMME | Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm_ThermalVias\
+  \ | Dual 500mA \xCE\xBCCap Low Dropout Micropower Linear Regulator, 3.3V/1.8V, MSOP-8\
+  \ |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/aaronw2_raspberry_pi_spi_programmer_raspberry_spi_flash/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/aaronw2_raspberry_pi_spi_programmer_raspberry_spi_flash/current_version/working/working.kicad_pcb
@@ -6,6 +318,263 @@ file_repo_bom_csv_flat: projects/aaronw2_raspberry_pi_spi_programmer_raspberry_s
 file_sch_flat: projects/aaronw2_raspberry_pi_spi_programmer_raspberry_spi_flash/current_version/working/working.sch
 id: aaronw2_raspberry_pi_spi_programmer_raspberry_spi_flash
 name: raspberry_pi_spi_programmer
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_0603_1608Metric
+  PosX: 34.725
+  PosY: 5.1
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C2
+  Package: C_0603_1608Metric
+  PosX: 3.1
+  PosY: 30.175
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C3
+  Package: C_0603_1608Metric
+  PosX: 57.45
+  PosY: 51.175
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C4
+  Package: C_0603_1608Metric
+  PosX: 58.35
+  PosY: 40.775
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C5
+  Package: C_0603_1608Metric
+  PosX: 62.0
+  PosY: 39.125
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C6
+  Package: C_0603_1608Metric
+  PosX: 58.35
+  PosY: 39.125
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C7
+  Package: C_0603_1608Metric
+  PosX: 62.0
+  PosY: 40.775
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C8
+  Package: C_0603_1608Metric
+  PosX: 44.075
+  PosY: 41.875
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C9
+  Package: C_0603_1608Metric
+  PosX: 41.25
+  PosY: 30.575
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C10
+  Package: C_0603_1608Metric
+  PosX: 59.55
+  PosY: 22.125
+  Rot: 90.0
+  Side: top
+  Val: 4.7uF
+- '# Ref': C11
+  Package: C_0603_1608Metric
+  PosX: 51.4
+  PosY: 22.675
+  Rot: 180.0
+  Side: top
+  Val: 4.7uF
+- '# Ref': C12
+  Package: C_0603_1608Metric
+  PosX: 59.55
+  PosY: 19.125
+  Rot: -90.0
+  Side: top
+  Val: 4.7uF
+- '# Ref': D1
+  Package: LED_0603_1608Metric
+  PosX: 44.0
+  PosY: 11.4
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': FID1
+  Package: Fiducial_Modern_CopperTop
+  PosX: 42.775
+  PosY: 52.4
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID2
+  Package: Fiducial_Modern_CopperTop
+  PosX: 80.8
+  PosY: 3.8
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': J1
+  Package: RJ45_Amphenol_54602-x08_Horizontal
+  PosX: 70.875
+  PosY: 43.275
+  Rot: 90.0
+  Side: top
+  Val: RJ45
+- '# Ref': P1
+  Package: PinHeader_2x13_P2.54mm_Vertical
+  PosX: 2.2554
+  PosY: 50.7209
+  Rot: 90.0
+  Side: top
+  Val: CONN_13X2
+- '# Ref': Q1
+  Package: SOT-23
+  PosX: 36.5
+  PosY: 12.75
+  Rot: 0.0
+  Side: top
+  Val: BSS138
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 37.5
+  PosY: 30.1
+  Rot: 180.0
+  Side: top
+  Val: 4.75K
+- '# Ref': R2
+  Package: R_0603_1608Metric
+  PosX: 38.025
+  PosY: 5.1
+  Rot: 90.0
+  Side: top
+  Val: 4.75K
+- '# Ref': R3
+  Package: R_0603_1608Metric
+  PosX: 36.4
+  PosY: 5.1
+  Rot: 90.0
+  Side: top
+  Val: 4.75K
+- '# Ref': R4
+  Package: R_0603_1608Metric
+  PosX: 37.5
+  PosY: 26.65
+  Rot: 180.0
+  Side: top
+  Val: 4.75K
+- '# Ref': R5
+  Package: R_0603_1608Metric
+  PosX: 36.325
+  PosY: 18.225
+  Rot: 180.0
+  Side: top
+  Val: 4.75K
+- '# Ref': R6
+  Package: R_0603_1608Metric
+  PosX: 40.45
+  PosY: 11.4
+  Rot: 180.0
+  Side: top
+  Val: '560'
+- '# Ref': R7
+  Package: R_0603_1608Metric
+  PosX: 39.65
+  PosY: 5.1
+  Rot: 90.0
+  Side: top
+  Val: 4.75K
+- '# Ref': SW1
+  Package: SW_STDP_CF-LD-1DC
+  PosX: 49.5
+  PosY: 6.575
+  Rot: 0.0
+  Side: top
+  Val: SW_SPDT
+- '# Ref': SW2
+  Package: SW_STDP_CF-LD-1DC
+  PosX: 58.175
+  PosY: 6.4
+  Rot: 0.0
+  Side: top
+  Val: SW_SPDT
+- '# Ref': U1
+  Package: 216-7224-55-1902
+  PosX: 24.35
+  PosY: 22.675
+  Rot: -90.0
+  Side: top
+  Val: MX25L25735
+- '# Ref': U2
+  Package: 208-7391-55-1902
+  PosX: 10.125
+  PosY: 22.675
+  Rot: -90.0
+  Side: top
+  Val: AT25SF081-SSHD-X
+- '# Ref': U3
+  Package: TSSOP-16_4.4x5mm_P0.65mm
+  PosX: 60.05
+  PosY: 46.225
+  Rot: 90.0
+  Side: top
+  Val: MAX3232
+- '# Ref': U4
+  Package: SOIC-14_3.9x8.7mm_P1.27mm
+  PosX: 39.475
+  PosY: 37.375
+  Rot: -90.0
+  Side: top
+  Val: TXB0104D
+- '# Ref': U5
+  Package: MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm_ThermalVias
+  PosX: 54.575
+  PosY: 20.125
+  Rot: 0.0
+  Side: top
+  Val: MIC5355-SGYMME
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | C_0603_1608Metric | 34.725\
+  \ | 5.1 | 90.0 | top | \n| C2 | 0.1uF | C_0603_1608Metric | 3.1 | 30.175 | -90.0\
+  \ | top | \n| C3 | 0.1uF | C_0603_1608Metric | 57.45 | 51.175 | 0.0 | top | \n|\
+  \ C4 | 0.1uF | C_0603_1608Metric | 58.35 | 40.775 | 0.0 | top | \n| C5 | 0.1uF |\
+  \ C_0603_1608Metric | 62.0 | 39.125 | 0.0 | top | \n| C6 | 0.1uF | C_0603_1608Metric\
+  \ | 58.35 | 39.125 | 0.0 | top | \n| C7 | 0.1uF | C_0603_1608Metric | 62.0 | 40.775\
+  \ | 0.0 | top | \n| C8 | 0.1uF | C_0603_1608Metric | 44.075 | 41.875 | 0.0 | top\
+  \ | \n| C9 | 0.1uF | C_0603_1608Metric | 41.25 | 30.575 | 0.0 | top | \n| C10 |\
+  \ 4.7uF | C_0603_1608Metric | 59.55 | 22.125 | 90.0 | top | \n| C11 | 4.7uF | C_0603_1608Metric\
+  \ | 51.4 | 22.675 | 180.0 | top | \n| C12 | 4.7uF | C_0603_1608Metric | 59.55 |\
+  \ 19.125 | -90.0 | top | \n| D1 | LED | LED_0603_1608Metric | 44.0 | 11.4 | 0.0\
+  \ | top | \n| FID1 | FIDUCIAL_1MM | Fiducial_Modern_CopperTop | 42.775 | 52.4 |\
+  \ 0.0 | top | \n| FID2 | FIDUCIAL_1MM | Fiducial_Modern_CopperTop | 80.8 | 3.8 |\
+  \ 0.0 | top | \n| J1 | RJ45 | RJ45_Amphenol_54602-x08_Horizontal | 70.875 | 43.275\
+  \ | 90.0 | top | \n| P1 | CONN_13X2 | PinHeader_2x13_P2.54mm_Vertical | 2.2554 |\
+  \ 50.7209 | 90.0 | top | \n| Q1 | BSS138 | SOT-23 | 36.5 | 12.75 | 0.0 | top | \n\
+  | R1 | 4.75K | R_0603_1608Metric | 37.5 | 30.1 | 180.0 | top | \n| R2 | 4.75K |\
+  \ R_0603_1608Metric | 38.025 | 5.1 | 90.0 | top | \n| R3 | 4.75K | R_0603_1608Metric\
+  \ | 36.4 | 5.1 | 90.0 | top | \n| R4 | 4.75K | R_0603_1608Metric | 37.5 | 26.65\
+  \ | 180.0 | top | \n| R5 | 4.75K | R_0603_1608Metric | 36.325 | 18.225 | 180.0 |\
+  \ top | \n| R6 | 560 | R_0603_1608Metric | 40.45 | 11.4 | 180.0 | top | \n| R7 |\
+  \ 4.75K | R_0603_1608Metric | 39.65 | 5.1 | 90.0 | top | \n| SW1 | SW_SPDT | SW_STDP_CF-LD-1DC\
+  \ | 49.5 | 6.575 | 0.0 | top | \n| SW2 | SW_SPDT | SW_STDP_CF-LD-1DC | 58.175 |\
+  \ 6.4 | 0.0 | top | \n| U1 | MX25L25735 | 216-7224-55-1902 | 24.35 | 22.675 | -90.0\
+  \ | top | \n| U2 | AT25SF081-SSHD-X | 208-7391-55-1902 | 10.125 | 22.675 | -90.0\
+  \ | top | \n| U3 | MAX3232 | TSSOP-16_4.4x5mm_P0.65mm | 60.05 | 46.225 | 90.0 |\
+  \ top | \n| U4 | TXB0104D | SOIC-14_3.9x8.7mm_P1.27mm | 39.475 | 37.375 | -90.0\
+  \ | top | \n| U5 | MIC5355-SGYMME | MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm_ThermalVias\
+  \ | 54.575 | 20.125 | 0.0 | top | \n"
 projects_flat: projects/aaronw2_raspberry_pi_spi_programmer_raspberry_spi_flash/current_version/working
 repo:
   allow_forking: true

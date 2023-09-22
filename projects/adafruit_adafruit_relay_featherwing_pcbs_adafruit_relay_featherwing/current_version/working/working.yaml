@@ -1,9 +1,579 @@
 board: adafruit_relay_featherwing
+bom:
+- Id: '1'
+  Designator: R2,R5
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R1,R6,R3,R4
+  Footprint: 0805-NO
+  Quantity: '4'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: X2
+  Footprint: TERMBLOCK_1X3-3.5MM
+  Quantity: '1'
+  Designation: 3.5mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C1
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$8
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: VBAT0,SET0,UNSET0
+  Footprint: 1X01_ROUND
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: JP1
+  Footprint: 1X16_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: FID3,FID2
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: JP4
+  Footprint: 1X11_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: D1,D3
+  Footprint: SOD-323
+  Quantity: '2'
+  Designation: 1N4148
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: X3
+  Footprint: RELAY_EE2_LATCH
+  Quantity: '1'
+  Designation: RELAY_LATCHINGEE2NUH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: MS1
+  Footprint: MICROSHIELD
+  Quantity: '1'
+  Designation: MICROSHIELD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: Q2,Q1
+  Footprint: SOT23-R
+  Quantity: '2'
+  Designation: MMBT2222
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: SW1
+  Footprint: BTN_KMR2_4.6X2.8
+  Quantity: '1'
+  Designation: kmr2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: D4
+  Footprint: CHIPLED_0805_NOOUTLINE
+  Quantity: '1'
+  Designation: RED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: D2
+  Footprint: CHIPLED_0805_NOOUTLINE
+  Quantity: '1'
+  Designation: GREEN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: U$9
+  Footprint: ADAFRUIT_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: U$6
+  Footprint: FEATHERLOGO
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R2,R5\
+  \ | 0805-NO | 2 | 10K |  |  | [''] | \n| 2 | R1,R6,R3,R4 | 0805-NO | 4 | 1K |  |\
+  \  | [''] | \n| 3 | X2 | TERMBLOCK_1X3-3.5MM | 1 | 3.5mm |  |  | [''] | \n| 4 |\
+  \ C1 | 0805-NO | 1 | 10uF |  |  | [''] | \n| 5 | U$8 | PCBFEAT-REV-040 | 1 |  |\
+  \  |  | [''] | \n| 6 | VBAT0,SET0,UNSET0 | 1X01_ROUND | 3 |  |  |  | [''] | \n|\
+  \ 7 | JP1 | 1X16_ROUND | 1 |  |  |  | [''] | \n| 8 | FID3,FID2 | FIDUCIAL_1MM |\
+  \ 2 | FIDUCIAL\" |  |  | [''] | \n| 9 | JP4 | 1X11_ROUND | 1 |  |  |  | [''] | \n\
+  | 10 | D1,D3 | SOD-323 | 2 | 1N4148 |  |  | [''] | \n| 11 | X3 | RELAY_EE2_LATCH\
+  \ | 1 | RELAY_LATCHINGEE2NUH |  |  | [''] | \n| 12 | MS1 | MICROSHIELD | 1 | MICROSHIELD\
+  \ |  |  | [''] | \n| 13 | Q2,Q1 | SOT23-R | 2 | MMBT2222 |  |  | [''] | \n| 14 |\
+  \ SW1 | BTN_KMR2_4.6X2.8 | 1 | kmr2 |  |  | [''] | \n| 15 | D4 | CHIPLED_0805_NOOUTLINE\
+  \ | 1 | RED |  |  | [''] | \n| 16 | D2 | CHIPLED_0805_NOOUTLINE | 1 | GREEN |  |\
+  \  | [''] | \n| 17 | U$9 | ADAFRUIT_5MM | 1 |  |  |  | [''] | \n| 18 | U$6 | FEATHERLOGO\
+  \ | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C1
+  Value: 10uF
+  Vendor: ''
+- Cmp name: DIODESOD-323
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-323
+  Qnty: '2'
+  Ref: D1, D3
+  Value: 1N4148
+  Vendor: ''
+- Cmp name: LED0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805_NOOUTLINE
+  Qnty: '1'
+  Ref: D2
+  Value: GREEN
+  Vendor: ''
+- Cmp name: LED0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805_NOOUTLINE
+  Qnty: '1'
+  Ref: D4
+  Value: RED
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID2, FID3
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: HEADER-1X16ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X16_ROUND
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X16ROUND
+  Vendor: ''
+- Cmp name: HEADER-1X11
+  DNP: ''
+  Description: ''
+  Footprint: working:1X11_ROUND
+  Qnty: '1'
+  Ref: JP4
+  Value: HEADER-1X11
+  Vendor: ''
+- Cmp name: MICROSHIELD
+  DNP: ''
+  Description: ''
+  Footprint: working:MICROSHIELD
+  Qnty: '1'
+  Ref: MS1
+  Value: MICROSHIELD
+  Vendor: ''
+- Cmp name: TRANSISTOR_NPN
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-R
+  Qnty: '2'
+  Ref: Q1, Q2
+  Value: MMBT2222
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '4'
+  Ref: R1, R3, R4, R6
+  Value: 1K
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: R2, R5
+  Value: 10K
+  Vendor: ''
+- Cmp name: HEADER-1X1ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X01_ROUND
+  Qnty: '1'
+  Ref: SET0
+  Value: HEADER-1X1ROUND
+  Vendor: ''
+- Cmp name: SWITCH_TACT_SMT4.6X2.8
+  DNP: ''
+  Description: ''
+  Footprint: working:BTN_KMR2_4.6X2.8
+  Qnty: '1'
+  Ref: SW1
+  Value: kmr2
+  Vendor: ''
+- Cmp name: HEADER-1X1ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X01_ROUND
+  Qnty: '1'
+  Ref: UNSET0
+  Value: HEADER-1X1ROUND
+  Vendor: ''
+- Cmp name: HEADER-1X1ROUND
+  DNP: ''
+  Description: ''
+  Footprint: working:1X01_ROUND
+  Qnty: '1'
+  Ref: VBAT0
+  Value: HEADER-1X1ROUND
+  Vendor: ''
+- Cmp name: TERMBLOCK_1X3
+  DNP: ''
+  Description: ''
+  Footprint: working:TERMBLOCK_1X3-3.5MM
+  Qnty: '1'
+  Ref: X2
+  Value: 3.5mm
+  Vendor: ''
+- Cmp name: RELAY_LATCHINGEE2NUH
+  DNP: ''
+  Description: ''
+  Footprint: working:RELAY_EE2_LATCH
+  Qnty: '1'
+  Ref: X3
+  Value: RELAY_LATCHINGEE2NUH
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| D1, D3 |\
+  \ 2 | 1N4148 | DIODESOD-323 | working:SOD-323 |  |  |  | \n| D2 | 1 | GREEN | LED0805_NOOUTLINE\
+  \ | working:CHIPLED_0805_NOOUTLINE |  |  |  | \n| D4 | 1 | RED | LED0805_NOOUTLINE\
+  \ | working:CHIPLED_0805_NOOUTLINE |  |  |  | \n| FID2, FID3 | 2 | FIDUCIAL\"\"\
+  \ | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | \n| JP1 | 1 |\
+  \ HEADER-1X16ROUND | HEADER-1X16ROUND | working:1X16_ROUND |  |  |  | \n| JP4 |\
+  \ 1 | HEADER-1X11 | HEADER-1X11 | working:1X11_ROUND |  |  |  | \n| MS1 | 1 | MICROSHIELD\
+  \ | MICROSHIELD | working:MICROSHIELD |  |  |  | \n| Q1, Q2 | 2 | MMBT2222 | TRANSISTOR_NPN\
+  \ | working:SOT23-R |  |  |  | \n| R1, R3, R4, R6 | 4 | 1K | RESISTOR0805_NOOUTLINE\
+  \ | working:0805-NO |  |  |  | \n| R2, R5 | 2 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO\
+  \ |  |  |  | \n| SET0 | 1 | HEADER-1X1ROUND | HEADER-1X1ROUND | working:1X01_ROUND\
+  \ |  |  |  | \n| SW1 | 1 | kmr2 | SWITCH_TACT_SMT4.6X2.8 | working:BTN_KMR2_4.6X2.8\
+  \ |  |  |  | \n| UNSET0 | 1 | HEADER-1X1ROUND | HEADER-1X1ROUND | working:1X01_ROUND\
+  \ |  |  |  | \n| VBAT0 | 1 | HEADER-1X1ROUND | HEADER-1X1ROUND | working:1X01_ROUND\
+  \ |  |  |  | \n| X2 | 1 | 3.5mm | TERMBLOCK_1X3 | working:TERMBLOCK_1X3-3.5MM |\
+  \  |  |  | \n| X3 | 1 | RELAY_LATCHINGEE2NUH | RELAY_LATCHINGEE2NUH | working:RELAY_EE2_LATCH\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_relay_featherwing_pcbs_adafruit_relay_featherwing/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_relay_featherwing_pcbs_adafruit_relay_featherwing/current_version/working/working.sch
 id: adafruit_adafruit_relay_featherwing_pcbs_adafruit_relay_featherwing
 name: adafruit_relay_featherwing_pcbs
+position_bottom:
+- '# Ref': U$6
+  Package: FEATHERLOGO
+  PosX: 168.3131
+  PosY: -111.3536
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$9
+  Package: ADAFRUIT_5MM
+  PosX: 154.8511
+  PosY: -103.4796
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$6 | nan | FEATHERLOGO | 168.3131\
+  \ | -111.3536 | 180.0 | bottom | \n| U$9 | nan | ADAFRUIT_5MM | 154.8511 | -103.4796\
+  \ | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 137.8331
+  PosY: -109.5756
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': D1
+  Package: SOD-323
+  PosX: 146.9771
+  PosY: -103.4796
+  Rot: 0.0
+  Side: top
+  Val: 1N4148
+- '# Ref': D2
+  Package: CHIPLED_0805_NOOUTLINE
+  PosX: 147.4851
+  PosY: -109.5756
+  Rot: -90.0
+  Side: top
+  Val: GREEN
+- '# Ref': D3
+  Package: SOD-323
+  PosX: 139.8651
+  PosY: -103.4796
+  Rot: 180.0
+  Side: top
+  Val: 1N4148
+- '# Ref': D4
+  Package: CHIPLED_0805_NOOUTLINE
+  PosX: 147.4851
+  PosY: -101.1936
+  Rot: -90.0
+  Side: top
+  Val: RED
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 128.4351
+  PosY: -94.5896
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 169.5831
+  PosY: -111.6076
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': JP1
+  Package: 1X16_ROUND
+  PosX: 148.5011
+  PosY: -112.6236
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': JP4
+  Package: 1X11_ROUND
+  PosX: 154.8511
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': MS1
+  Package: MICROSHIELD
+  PosX: 123.1011
+  PosY: -116.4336
+  Rot: 0.0
+  Side: top
+  Val: MICROSHIELD
+- '# Ref': Q1
+  Package: SOT23-R
+  PosX: 147.7391
+  PosY: -106.2736
+  Rot: -90.0
+  Side: top
+  Val: MMBT2222
+- '# Ref': Q2
+  Package: SOT23-R
+  PosX: 140.1191
+  PosY: -106.2736
+  Rot: -90.0
+  Side: top
+  Val: MMBT2222
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 143.1671
+  PosY: -106.2736
+  Rot: 90.0
+  Side: top
+  Val: 1K
+- '# Ref': R2
+  Package: 0805-NO
+  PosX: 144.9451
+  PosY: -106.2736
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: 0805-NO
+  PosX: 143.6751
+  PosY: -109.5756
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': R4
+  Package: 0805-NO
+  PosX: 135.8011
+  PosY: -102.4636
+  Rot: 0.0
+  Side: top
+  Val: 1K
+- '# Ref': R5
+  Package: 0805-NO
+  PosX: 137.0711
+  PosY: -106.2736
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R6
+  Package: 0805-NO
+  PosX: 143.9291
+  PosY: -101.1936
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': SET0
+  Package: 1X01_ROUND
+  PosX: 131.9911
+  PosY: -107.5436
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': SW1
+  Package: BTN_KMR2_4.6X2.8
+  PosX: 127.6731
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: kmr2
+- '# Ref': U$8
+  Package: PCBFEAT-REV-040
+  PosX: 140.3731
+  PosY: -100.9396
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': UNSET0
+  Package: 1X01_ROUND
+  PosX: 131.9911
+  PosY: -102.4636
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': VBAT0
+  Package: 1X01_ROUND
+  PosX: 139.6111
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': X2
+  Package: TERMBLOCK_1X3-3.5MM
+  PosX: 170.0911
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: 3.5mm
+- '# Ref': X3
+  Package: RELAY_EE2_LATCH
+  PosX: 156.8831
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: RELAY_LATCHINGEE2NUH
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 10uF | 0805-NO | 137.8331 | -109.5756\
+  \ | 180.0 | top | \n| D1 | 1N4148 | SOD-323 | 146.9771 | -103.4796 | 0.0 | top |\
+  \ \n| D2 | GREEN | CHIPLED_0805_NOOUTLINE | 147.4851 | -109.5756 | -90.0 | top |\
+  \ \n| D3 | 1N4148 | SOD-323 | 139.8651 | -103.4796 | 180.0 | top | \n| D4 | RED\
+  \ | CHIPLED_0805_NOOUTLINE | 147.4851 | -101.1936 | -90.0 | top | \n| FID2 | FIDUCIAL\"\
+  \" | FIDUCIAL_1MM | 128.4351 | -94.5896 | 0.0 | top | \n| FID3 | FIDUCIAL\"\" |\
+  \ FIDUCIAL_1MM | 169.5831 | -111.6076 | 0.0 | top | \n| JP1 | nan | 1X16_ROUND |\
+  \ 148.5011 | -112.6236 | 180.0 | top | \n| JP4 | nan | 1X11_ROUND | 154.8511 | -97.3836\
+  \ | 0.0 | top | \n| MS1 | MICROSHIELD | MICROSHIELD | 123.1011 | -116.4336 | 0.0\
+  \ | top | \n| Q1 | MMBT2222 | SOT23-R | 147.7391 | -106.2736 | -90.0 | top | \n\
+  | Q2 | MMBT2222 | SOT23-R | 140.1191 | -106.2736 | -90.0 | top | \n| R1 | 1K | 0805-NO\
+  \ | 143.1671 | -106.2736 | 90.0 | top | \n| R2 | 10K | 0805-NO | 144.9451 | -106.2736\
+  \ | 90.0 | top | \n| R3 | 1K | 0805-NO | 143.6751 | -109.5756 | 180.0 | top | \n\
+  | R4 | 1K | 0805-NO | 135.8011 | -102.4636 | 0.0 | top | \n| R5 | 10K | 0805-NO\
+  \ | 137.0711 | -106.2736 | 90.0 | top | \n| R6 | 1K | 0805-NO | 143.9291 | -101.1936\
+  \ | 180.0 | top | \n| SET0 | nan | 1X01_ROUND | 131.9911 | -107.5436 | -90.0 | top\
+  \ | \n| SW1 | kmr2 | BTN_KMR2_4.6X2.8 | 127.6731 | -105.0036 | -90.0 | top | \n\
+  | U$8 | nan | PCBFEAT-REV-040 | 140.3731 | -100.9396 | 0.0 | top | \n| UNSET0 |\
+  \ nan | 1X01_ROUND | 131.9911 | -102.4636 | 0.0 | top | \n| VBAT0 | nan | 1X01_ROUND\
+  \ | 139.6111 | -97.3836 | 0.0 | top | \n| X2 | 3.5mm | TERMBLOCK_1X3-3.5MM | 170.0911\
+  \ | -105.0036 | 90.0 | top | \n| X3 | RELAY_LATCHINGEE2NUH | RELAY_EE2_LATCH | 156.8831\
+  \ | -105.0036 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_relay_featherwing_pcbs_adafruit_relay_featherwing/current_version/working
 repo:
   allow_forking: true

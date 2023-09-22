@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit-DS3231-Precision-RTC-Breakout-PCB/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_ds3231_precision_rtc_breakout_pcb_adafruit_ds3231_stemma_qt/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

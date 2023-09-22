@@ -1,9 +1,396 @@
 board: joker48
+bom:
+- Id: '1'
+  Designator: U1
+  Footprint: TSSOP-8_4.4x3mm_P0.65mm
+  Quantity: '1'
+  Designation: BL24C256A-SFRC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C9,C8
+  Footprint: C_0402_1005Metric
+  Quantity: '2'
+  Designation: 16p
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C11
+  Footprint: C_0402_1005Metric
+  Quantity: '1'
+  Designation: 4.7u
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C1,C10,C2,C3,C4
+  Footprint: C_0402_1005Metric
+  Quantity: '5'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U2
+  Footprint: STM_UFQFPN-48_LQFP-48-1EP_7x7mm_P0.5mm_HandSoldering_ThermalReliefs
+  Quantity: '1'
+  Designation: STM32F411CEU6
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C5
+  Footprint: CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder
+  Quantity: '1'
+  Designation: 10u
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C6
+  Footprint: C_0402_1005Metric
+  Quantity: '1'
+  Designation: 1u
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: Y1
+  Footprint: Crystal_SMD_3225-4Pin_3.2x2.5mm
+  Quantity: '1'
+  Designation: 7325-0800A2010-00
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R1,R4,R2
+  Footprint: R_0402_1005Metric
+  Quantity: '3'
+  Designation: 1.5k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R3
+  Footprint: R_0805_2012Metric
+  Quantity: '1'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: C7
+  Footprint: C_0402_1005Metric
+  Quantity: '1'
+  Designation: 10n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U1\
+  \ | TSSOP-8_4.4x3mm_P0.65mm | 1 | BL24C256A-SFRC |  |  | [''] | \n| 2 | C9,C8 |\
+  \ C_0402_1005Metric | 2 | 16p |  |  | [''] | \n| 3 | C11 | C_0402_1005Metric | 1\
+  \ | 4.7u |  |  | [''] | \n| 4 | C1,C10,C2,C3,C4 | C_0402_1005Metric | 5 | 100n |\
+  \  |  | [''] | \n| 5 | U2 | STM_UFQFPN-48_LQFP-48-1EP_7x7mm_P0.5mm_HandSoldering_ThermalReliefs\
+  \ | 1 | STM32F411CEU6 |  |  | [''] | \n| 6 | C5 | CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder\
+  \ | 1 | 10u |  |  | [''] | \n| 7 | C6 | C_0402_1005Metric | 1 | 1u |  |  | ['']\
+  \ | \n| 8 | Y1 | Crystal_SMD_3225-4Pin_3.2x2.5mm | 1 | 7325-0800A2010-00 |  |  |\
+  \ [''] | \n| 9 | R1,R4,R2 | R_0402_1005Metric | 3 | 1.5k |  |  | [''] | \n| 10 |\
+  \ R3 | R_0805_2012Metric | 1 | 10k |  |  | [''] | \n| 11 | C7 | C_0402_1005Metric\
+  \ | 1 | 10n |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0402_1005Metric
+  Qnty: '5'
+  Ref: C1, C2, C3, C4, C10
+  Value: 100n
+  Vendor: ''
+- Cmp name: CP1
+  DNP: ''
+  Description: Polarized capacitor, US symbol
+  Footprint: acheron_Components:CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder
+  Qnty: '1'
+  Ref: C5
+  Value: 10u
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0402_1005Metric
+  Qnty: '1'
+  Ref: C6
+  Value: 1u
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0402_1005Metric
+  Qnty: '1'
+  Ref: C7
+  Value: 10n
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0402_1005Metric
+  Qnty: '2'
+  Ref: C8, C9
+  Value: 16p
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0402_1005Metric
+  Qnty: '1'
+  Ref: C11
+  Value: 4.7u
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0402_1005Metric
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 4.7k
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0805_2012Metric
+  Qnty: '1'
+  Ref: R3
+  Value: 10k
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0402_1005Metric
+  Qnty: '1'
+  Ref: R4
+  Value: 1.5k
+  Vendor: ''
+- Cmp name: 24LC256
+  DNP: ''
+  Description: I2C Serial EEPROM, 256Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8
+  Footprint: acheron_Components:TSSOP-8_4.4x3mm_P0.65mm
+  Qnty: '1'
+  Ref: U1
+  Value: BL24C256A-SFRC
+  Vendor: ''
+- Cmp name: STM32F411-48
+  DNP: ''
+  Description: "UFQFPN-48 Arm\xC2\xAE Cortex\xC2\xAE-M4 32bits MCU+FPU, 125 DMIPS,\
+    \ 512KB Flash,   128KB RAM, USB OTG FS, 11 TIMs, 1 ADC, 13 comm. interfaces"
+  Footprint: acheron_Components:STM_UFQFPN-48_LQFP-48-1EP_7x7mm_P0.5mm_HandSoldering_ThermalReliefs
+  Qnty: '1'
+  Ref: U2
+  Value: JOKER MCU
+  Vendor: ''
+- Cmp name: Crystal_GND24
+  DNP: ''
+  Description: Four pin crystal, GND on pins 2 and 4
+  Footprint: acheron_Components:Crystal_SMD_3225-4Pin_3.2x2.5mm
+  Qnty: '1'
+  Ref: Y1
+  Value: 7325-0800A2010-00
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3, C4, C10 | 5 | 100n | C_Small | Capacitor_SMD:C_0402_1005Metric | Unpolarized\
+  \ capacitor, small symbol |  |  | \n| C5 | 1 | 10u | CP1 | acheron_Components:CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder\
+  \ | Polarized capacitor, US symbol |  |  | \n| C6 | 1 | 1u | C_Small | Capacitor_SMD:C_0402_1005Metric\
+  \ | Unpolarized capacitor, small symbol |  |  | \n| C7 | 1 | 10n | C_Small | Capacitor_SMD:C_0402_1005Metric\
+  \ | Unpolarized capacitor, small symbol |  |  | \n| C8, C9 | 2 | 16p | C_Small |\
+  \ Capacitor_SMD:C_0402_1005Metric | Unpolarized capacitor, small symbol |  |  |\
+  \ \n| C11 | 1 | 4.7u | C_Small | Capacitor_SMD:C_0402_1005Metric | Unpolarized capacitor,\
+  \ small symbol |  |  | \n| R1, R2 | 2 | 4.7k | R_Small | Resistor_SMD:R_0402_1005Metric\
+  \ | Resistor, small symbol |  |  | \n| R3 | 1 | 10k | R_Small | Resistor_SMD:R_0805_2012Metric\
+  \ | Resistor, small symbol |  |  | \n| R4 | 1 | 1.5k | R_Small | Resistor_SMD:R_0402_1005Metric\
+  \ | Resistor, small symbol |  |  | \n| U1 | 1 | BL24C256A-SFRC | 24LC256 | acheron_Components:TSSOP-8_4.4x3mm_P0.65mm\
+  \ | I2C Serial EEPROM, 256Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8 |  |  | \n| U2 | 1 | JOKER\
+  \ MCU | STM32F411-48 | acheron_Components:STM_UFQFPN-48_LQFP-48-1EP_7x7mm_P0.5mm_HandSoldering_ThermalReliefs\
+  \ | UFQFPN-48 Arm\xC2\xAE Cortex\xC2\xAE-M4 32bits MCU+FPU, 125 DMIPS, 512KB Flash,\
+  \   128KB RAM, USB OTG FS, 11 TIMs, 1 ADC, 13 comm. interfaces |  |  | \n| Y1 |\
+  \ 1 | 7325-0800A2010-00 | Crystal_GND24 | acheron_Components:Crystal_SMD_3225-4Pin_3.2x2.5mm\
+  \ | Four pin crystal, GND on pins 2 and 4 |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/acheronproject_acheronsetup_joker48/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/acheronproject_acheronsetup_joker48/current_version/working/working.kicad_sch
 id: acheronproject_acheronsetup_joker48
 name: acheronsetup
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_0402_1005Metric
+  PosX: 227.4
+  PosY: -121.8
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': C2
+  Package: C_0402_1005Metric
+  PosX: 235.25
+  PosY: -131.75
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': C3
+  Package: C_0402_1005Metric
+  PosX: 233.95
+  PosY: -129.15
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': C4
+  Package: C_0402_1005Metric
+  PosX: 236.75
+  PosY: -119.15
+  Rot: -90.0
+  Side: top
+  Val: 100n
+- '# Ref': C5
+  Package: CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder
+  PosX: 233.55
+  PosY: -115.15
+  Rot: 90.0
+  Side: top
+  Val: 10u
+- '# Ref': C6
+  Package: C_0402_1005Metric
+  PosX: 246.65
+  PosY: -132.23
+  Rot: -90.0
+  Side: top
+  Val: 1u
+- '# Ref': C7
+  Package: C_0402_1005Metric
+  PosX: 245.15
+  PosY: -132.23
+  Rot: -90.0
+  Side: top
+  Val: 10n
+- '# Ref': C8
+  Package: C_0402_1005Metric
+  PosX: 243.55
+  PosY: -133.48
+  Rot: -90.0
+  Side: top
+  Val: 16p
+- '# Ref': C9
+  Package: C_0402_1005Metric
+  PosX: 237.35
+  PosY: -135.0
+  Rot: -90.0
+  Side: top
+  Val: 16p
+- '# Ref': C10
+  Package: C_0402_1005Metric
+  PosX: 245.98
+  PosY: -120.8
+  Rot: 180.0
+  Side: top
+  Val: 100n
+- '# Ref': C11
+  Package: C_0402_1005Metric
+  PosX: 247.4
+  PosY: -122.6
+  Rot: 180.0
+  Side: top
+  Val: 4.7u
+- '# Ref': R1
+  Package: R_0402_1005Metric
+  PosX: 230.0
+  PosY: -126.15
+  Rot: 180.0
+  Side: top
+  Val: 1.5k
+- '# Ref': R2
+  Package: R_0402_1005Metric
+  PosX: 230.0
+  PosY: -124.15
+  Rot: 180.0
+  Side: top
+  Val: 1.5k
+- '# Ref': R3
+  Package: R_0805_2012Metric
+  PosX: 223.95
+  PosY: -138.35
+  Rot: -90.0
+  Side: top
+  Val: 10k
+- '# Ref': R4
+  Package: R_0402_1005Metric
+  PosX: 238.75
+  PosY: -116.0
+  Rot: 90.0
+  Side: top
+  Val: 1.5k
+- '# Ref': U1
+  Package: TSSOP-8_4.4x3mm_P0.65mm
+  PosX: 224.4
+  PosY: -124.5
+  Rot: 0.0
+  Side: top
+  Val: BL24C256A-SFRC
+- '# Ref': U2
+  Package: STM_UFQFPN-48_LQFP-48-1EP_7x7mm_P0.5mm_HandSoldering_ThermalReliefs
+  PosX: 240.75
+  PosY: -125.15
+  Rot: 90.0
+  Side: top
+  Val: STM32F411CEU6
+- '# Ref': Y1
+  Package: Crystal_SMD_3225-4Pin_3.2x2.5mm
+  PosX: 240.4375
+  PosY: -134.4
+  Rot: 180.0
+  Side: top
+  Val: 7325-0800A2010-00
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 100n | C_0402_1005Metric | 227.4\
+  \ | -121.8 | 180.0 | top | \n| C2 | 100n | C_0402_1005Metric | 235.25 | -131.75\
+  \ | 180.0 | top | \n| C3 | 100n | C_0402_1005Metric | 233.95 | -129.15 | 180.0 |\
+  \ top | \n| C4 | 100n | C_0402_1005Metric | 236.75 | -119.15 | -90.0 | top | \n\
+  | C5 | 10u | CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder | 233.55 | -115.15\
+  \ | 90.0 | top | \n| C6 | 1u | C_0402_1005Metric | 246.65 | -132.23 | -90.0 | top\
+  \ | \n| C7 | 10n | C_0402_1005Metric | 245.15 | -132.23 | -90.0 | top | \n| C8 |\
+  \ 16p | C_0402_1005Metric | 243.55 | -133.48 | -90.0 | top | \n| C9 | 16p | C_0402_1005Metric\
+  \ | 237.35 | -135.0 | -90.0 | top | \n| C10 | 100n | C_0402_1005Metric | 245.98\
+  \ | -120.8 | 180.0 | top | \n| C11 | 4.7u | C_0402_1005Metric | 247.4 | -122.6 |\
+  \ 180.0 | top | \n| R1 | 1.5k | R_0402_1005Metric | 230.0 | -126.15 | 180.0 | top\
+  \ | \n| R2 | 1.5k | R_0402_1005Metric | 230.0 | -124.15 | 180.0 | top | \n| R3 |\
+  \ 10k | R_0805_2012Metric | 223.95 | -138.35 | -90.0 | top | \n| R4 | 1.5k | R_0402_1005Metric\
+  \ | 238.75 | -116.0 | 90.0 | top | \n| U1 | BL24C256A-SFRC | TSSOP-8_4.4x3mm_P0.65mm\
+  \ | 224.4 | -124.5 | 0.0 | top | \n| U2 | STM32F411CEU6 | STM_UFQFPN-48_LQFP-48-1EP_7x7mm_P0.5mm_HandSoldering_ThermalReliefs\
+  \ | 240.75 | -125.15 | 90.0 | top | \n| Y1 | 7325-0800A2010-00 | Crystal_SMD_3225-4Pin_3.2x2.5mm\
+  \ | 240.4375 | -134.4 | 180.0 | top | \n"
 projects_flat: projects/acheronproject_acheronsetup_joker48/current_version/working
 repo:
   allow_forking: true

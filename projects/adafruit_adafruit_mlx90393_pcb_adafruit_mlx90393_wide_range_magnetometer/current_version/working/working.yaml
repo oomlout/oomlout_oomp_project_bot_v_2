@@ -1,9 +1,566 @@
 board: adafruit_mlx90393_wide_range_magnetometer
+bom:
+- Id: '1'
+  Designator: U1
+  Footprint: QFN16_3MM
+  Quantity: '1'
+  Designation: MLX90393
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D2
+  Footprint: CHIPLED_0603_NOOUTLINE
+  Quantity: '1'
+  Designation: GREEN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$37,U$36,U$34,U$33
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '4'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C5
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: Q2
+  Footprint: SOT363
+  Quantity: '1'
+  Designation: BSS138
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: JP4,JP1
+  Footprint: 1X06_ROUND_70
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: FID4,FID2
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R2
+  Footprint: RESPACK_4X0603_NO
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U3
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: AP2112K-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: C4,C3
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: D1
+  Footprint: SOD-323_MINI
+  Quantity: '1'
+  Designation: 1N4148
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: CONN3,CONN4
+  Footprint: JST_SH4
+  Quantity: '2'
+  Designation: STEMMA_I2C_QT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: R3
+  Footprint: RESPACK_4X0603
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: SJ2,SJ1
+  Footprint: SOLDERJUMPER_ARROW_NOPASTE
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U$41,U$42
+  Footprint: STEMMAQT
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: U$18
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: U$39
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U1\
+  \ | QFN16_3MM | 1 | MLX90393 |  |  | [''] | \n| 2 | D2 | CHIPLED_0603_NOOUTLINE\
+  \ | 1 | GREEN |  |  | [''] | \n| 3 | U$37,U$36,U$34,U$33 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 4 | MOUNTINGHOLE2.5 |  |  | [''] | \n| 4 | C5 | 0603-NO | 1 | 0.1uF |  |  |\
+  \ [''] | \n| 5 | Q2 | SOT363 | 1 | BSS138 |  |  | [''] | \n| 6 | JP4,JP1 | 1X06_ROUND_70\
+  \ | 2 |  |  |  | [''] | \n| 7 | FID4,FID2 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |\
+  \  | [''] | \n| 8 | R2 | RESPACK_4X0603_NO | 1 | 10K |  |  | [''] | \n| 9 | U3 |\
+  \ SOT23-5 | 1 | AP2112K-3.3 |  |  | [''] | \n| 10 | C4,C3 | 0805-NO | 2 | 10uF |\
+  \  |  | [''] | \n| 11 | D1 | SOD-323_MINI | 1 | 1N4148 |  |  | [''] | \n| 12 | CONN3,CONN4\
+  \ | JST_SH4 | 2 | STEMMA_I2C_QT |  |  | [''] | \n| 13 | R3 | RESPACK_4X0603 | 1\
+  \ | 10K |  |  | [''] | \n| 14 | SJ2,SJ1 | SOLDERJUMPER_ARROW_NOPASTE | 2 |  |  |\
+  \  | [''] | \n| 15 | U$41,U$42 | STEMMAQT | 2 |  |  |  | [''] | \n| 16 | U$18 |\
+  \ PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n| 17 | U$39 | ADAFRUIT_3.5MM | 1 |  |\
+  \  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C3, C4
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: C5
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: STEMMA_I2C_QT
+  DNP: ''
+  Description: ''
+  Footprint: working:JST_SH4
+  Qnty: '2'
+  Ref: CONN3, CONN4
+  Value: STEMMA_I2C_QT
+  Vendor: ''
+- Cmp name: DIODE_SOD323MINI
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-323_MINI
+  Qnty: '1'
+  Ref: D1
+  Value: 1N4148
+  Vendor: ''
+- Cmp name: LED0603_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0603_NOOUTLINE
+  Qnty: '1'
+  Ref: D2
+  Value: GREEN
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID2, FID4
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: HEADER-1X670MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X06_ROUND_70
+  Qnty: '2'
+  Ref: JP1, JP4
+  Value: HEADER-1X670MIL
+  Vendor: ''
+- Cmp name: MOSFET-N_DUAL
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT363
+  Qnty: '1'
+  Ref: Q2
+  Value: BSS138
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603_NO
+  Qnty: '1'
+  Ref: R2
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_4PACK
+  DNP: ''
+  Description: ''
+  Footprint: working:RESPACK_4X0603
+  Qnty: '1'
+  Ref: R3
+  Value: 10K
+  Vendor: ''
+- Cmp name: SOLDERJUMPER
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_ARROW_NOPASTE
+  Qnty: '2'
+  Ref: SJ1, SJ2
+  Value: SOLDERJUMPER
+  Vendor: ''
+- Cmp name: MLX90393
+  DNP: ''
+  Description: ''
+  Footprint: working:QFN16_3MM
+  Qnty: '1'
+  Ref: U1
+  Value: MLX90393
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U3
+  Value: AP2112K-3.3
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '4'
+  Ref: U$33, U$34, U$36, U$37
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C3, C4\
+  \ | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C5 | 1\
+  \ | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | \n| CONN3, CONN4 | 2\
+  \ | STEMMA_I2C_QT | STEMMA_I2C_QT | working:JST_SH4 |  |  |  | \n| D1 | 1 | 1N4148\
+  \ | DIODE_SOD323MINI | working:SOD-323_MINI |  |  |  | \n| D2 | 1 | GREEN | LED0603_NOOUTLINE\
+  \ | working:CHIPLED_0603_NOOUTLINE |  |  |  | \n| FID2, FID4 | 2 | FIDUCIAL_1MM\
+  \ | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | \n| JP1, JP4 | 2 | HEADER-1X670MIL\
+  \ | HEADER-1X670MIL | working:1X06_ROUND_70 |  |  |  | \n| Q2 | 1 | BSS138 | MOSFET-N_DUAL\
+  \ | working:SOT363 |  |  |  | \n| R2 | 1 | 10K | RESISTOR_4PACK_NO | working:RESPACK_4X0603_NO\
+  \ |  |  |  | \n| R3 | 1 | 10K | RESISTOR_4PACK | working:RESPACK_4X0603 |  |  |\
+  \  | \n| SJ1, SJ2 | 2 | SOLDERJUMPER | SOLDERJUMPER | working:SOLDERJUMPER_ARROW_NOPASTE\
+  \ |  |  |  | \n| U1 | 1 | MLX90393 | MLX90393 | working:QFN16_3MM |  |  |  | \n\
+  | U3 | 1 | AP2112K-3.3 | VREG_SOT23-5 | working:SOT23-5 |  |  |  | \n| U$33, U$34,\
+  \ U$36, U$37 | 4 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_mlx90393_pcb_adafruit_mlx90393_wide_range_magnetometer/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_mlx90393_pcb_adafruit_mlx90393_wide_range_magnetometer/current_version/working/working.sch
 id: adafruit_adafruit_mlx90393_pcb_adafruit_mlx90393_wide_range_magnetometer
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$33
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '12.700000000000003'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$34
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '20.319999999999993'
+  y: '12.700000000000003'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$36
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$37
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '20.319999999999993'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 12.700000000000003 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$33 | m3 | \n| 20.319999999999993 | 12.700000000000003 |\
+  \ MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$34 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$36 | m3 | \n| 20.319999999999993 | 0.0 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$37 | m3 | \n"
 name: adafruit_mlx90393_pcb
+position_bottom:
+- '# Ref': SJ1
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 144.6403
+  PosY: -101.3968
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': SJ2
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 142.1003
+  PosY: -101.3968
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$18
+  Package: PCBFEAT-REV-040
+  PosX: 139.8016
+  PosY: -101.1936
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$39
+  Package: ADAFRUIT_3.5MM
+  PosX: 142.2781
+  PosY: -108.5596
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$41
+  Package: STEMMAQT
+  PosX: 158.2801
+  PosY: -109.4486
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$42
+  Package: STEMMAQT
+  PosX: 138.7221
+  PosY: -100.5586
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| SJ1 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 144.6403 | -101.3968 | 90.0 | bottom | \n| SJ2 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 142.1003 | -101.3968 | 90.0 | bottom | \n| U$18 | nan | PCBFEAT-REV-040 | 139.8016\
+  \ | -101.1936 | 180.0 | bottom | \n| U$39 | nan | ADAFRUIT_3.5MM | 142.2781 | -108.5596\
+  \ | 180.0 | bottom | \n| U$41 | nan | STEMMAQT | 158.2801 | -109.4486 | 90.0 | bottom\
+  \ | \n| U$42 | nan | STEMMAQT | 138.7221 | -100.5586 | -90.0 | bottom | \n"
+position_top:
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 141.8971
+  PosY: -109.0676
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': C4
+  Package: 0805-NO
+  PosX: 143.8021
+  PosY: -103.2256
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C5
+  Package: 0603-NO
+  PosX: 143.8021
+  PosY: -101.7016
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': CONN3
+  Package: JST_SH4
+  PosX: 158.5341
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': CONN4
+  Package: JST_SH4
+  PosX: 138.4681
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': D1
+  Package: SOD-323_MINI
+  PosX: 150.5331
+  PosY: -101.7016
+  Rot: 90.0
+  Side: top
+  Val: 1N4148
+- '# Ref': D2
+  Package: CHIPLED_0603_NOOUTLINE
+  PosX: 139.3571
+  PosY: -101.3206
+  Rot: 90.0
+  Side: top
+  Val: GREEN
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 137.3251
+  PosY: -104.6226
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID4
+  Package: FIDUCIAL_1MM
+  PosX: 156.2481
+  PosY: -102.2096
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': JP1
+  Package: 1X06_ROUND_70
+  PosX: 148.5011
+  PosY: -111.3536
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP4
+  Package: 1X06_ROUND_70
+  PosX: 148.5011
+  PosY: -98.6536
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': Q2
+  Package: SOT363
+  PosX: 153.5811
+  PosY: -107.5436
+  Rot: 90.0
+  Side: top
+  Val: BSS138
+- '# Ref': R2
+  Package: RESPACK_4X0603_NO
+  PosX: 147.4851
+  PosY: -102.1461
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: RESPACK_4X0603
+  PosX: 153.0731
+  PosY: -103.3526
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': U$33
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 138.3411
+  PosY: -98.6536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$34
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 158.6611
+  PosY: -98.6536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$36
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 138.3411
+  PosY: -111.3536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$37
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 158.6611
+  PosY: -111.3536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U1
+  Package: QFN16_3MM
+  PosX: 148.3741
+  PosY: -105.6386
+  Rot: 90.0
+  Side: top
+  Val: MLX90393
+- '# Ref': U3
+  Package: SOT23-5
+  PosX: 143.9291
+  PosY: -106.1466
+  Rot: 0.0
+  Side: top
+  Val: AP2112K-3.3
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C3 | 10uF | 0805-NO | 141.8971 | -109.0676\
+  \ | 180.0 | top | \n| C4 | 10uF | 0805-NO | 143.8021 | -103.2256 | 0.0 | top | \n\
+  | C5 | 0.1uF | 0603-NO | 143.8021 | -101.7016 | 0.0 | top | \n| CONN3 | STEMMA_I2C_QT\
+  \ | JST_SH4 | 158.5341 | -105.0036 | 90.0 | top | \n| CONN4 | STEMMA_I2C_QT | JST_SH4\
+  \ | 138.4681 | -105.0036 | -90.0 | top | \n| D1 | 1N4148 | SOD-323_MINI | 150.5331\
+  \ | -101.7016 | 90.0 | top | \n| D2 | GREEN | CHIPLED_0603_NOOUTLINE | 139.3571\
+  \ | -101.3206 | 90.0 | top | \n| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM | 137.3251 |\
+  \ -104.6226 | 0.0 | top | \n| FID4 | FIDUCIAL_1MM | FIDUCIAL_1MM | 156.2481 | -102.2096\
+  \ | 0.0 | top | \n| JP1 | nan | 1X06_ROUND_70 | 148.5011 | -111.3536 | 0.0 | top\
+  \ | \n| JP4 | nan | 1X06_ROUND_70 | 148.5011 | -98.6536 | 0.0 | top | \n| Q2 | BSS138\
+  \ | SOT363 | 153.5811 | -107.5436 | 90.0 | top | \n| R2 | 10K | RESPACK_4X0603_NO\
+  \ | 147.4851 | -102.1461 | 180.0 | top | \n| R3 | 10K | RESPACK_4X0603 | 153.0731\
+  \ | -103.3526 | -90.0 | top | \n| U$33 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 138.3411 | -98.6536 | 0.0 | top | \n| U$34 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 158.6611 | -98.6536 | 0.0 | top | \n| U$36 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 138.3411 | -111.3536 | 0.0 | top | \n| U$37 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED\
+  \ | 158.6611 | -111.3536 | 0.0 | top | \n| U1 | MLX90393 | QFN16_3MM | 148.3741\
+  \ | -105.6386 | 90.0 | top | \n| U3 | AP2112K-3.3 | SOT23-5 | 143.9291 | -106.1466\
+  \ | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_mlx90393_pcb_adafruit_mlx90393_wide_range_magnetometer/current_version/working
 repo:
   allow_forking: true

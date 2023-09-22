@@ -1,9 +1,229 @@
 board: cp_solenoid3
+bom:
+- Id: '1'
+  Designator: D1
+  Footprint: DO41-10
+  Quantity: '1'
+  Designation: 1N4004
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R2
+  Footprint: '0414_15'
+  Quantity: '1'
+  Designation: 15M
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: SOLENOID0,LED0
+  Footprint: B2B-PH-K-S
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R1
+  Footprint: '0207_10'
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: Q2
+  Footprint: TO220
+  Quantity: '1'
+  Designation: IRLB8721
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C1
+  Footprint: C025-025X050
+  Quantity: '1'
+  Designation: 82nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: MS1
+  Footprint: FEATHERWING_DIM
+  Quantity: '1'
+  Designation: FEATHERWING_NODIM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D1\
+  \ | DO41-10 | 1 | 1N4004 |  |  | [''] | \n| 2 | R2 | 0414_15 | 1 | 15M |  |  | ['']\
+  \ | \n| 3 | SOLENOID0,LED0 | B2B-PH-K-S | 2 |  |  |  | [''] | \n| 4 | R1 | 0207_10\
+  \ | 1 | 10K |  |  | [''] | \n| 5 | Q2 | TO220 | 1 | IRLB8721 |  |  | [''] | \n|\
+  \ 6 | C1 | C025-025X050 | 1 | 82nF |  |  | [''] | \n| 7 | MS1 | FEATHERWING_DIM\
+  \ | 1 | FEATHERWING_NODIM |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C-EU025-025X050
+  DNP: ''
+  Description: ''
+  Footprint: working:C025-025X050
+  Qnty: '1'
+  Ref: C1
+  Value: 82nF
+  Vendor: ''
+- Cmp name: 1N4004
+  DNP: ''
+  Description: ''
+  Footprint: working:DO41-10
+  Qnty: '1'
+  Ref: D1
+  Value: 1N4004
+  Vendor: ''
+- Cmp name: B2B-PH-K-S
+  DNP: ''
+  Description: ''
+  Footprint: working:B2B-PH-K-S
+  Qnty: '1'
+  Ref: LED0
+  Value: B2B-PH-K-S
+  Vendor: ''
+- Cmp name: FEATHERWING_NODIM
+  DNP: ''
+  Description: ''
+  Footprint: working:FEATHERWING_DIM
+  Qnty: '1'
+  Ref: MS1
+  Value: FEATHERWING_NODIM
+  Vendor: ''
+- Cmp name: IRF510
+  DNP: ''
+  Description: ''
+  Footprint: working:TO220
+  Qnty: '1'
+  Ref: Q2
+  Value: IRF510
+  Vendor: ''
+- Cmp name: R-EU_0207/10
+  DNP: ''
+  Description: ''
+  Footprint: working:0207_10
+  Qnty: '1'
+  Ref: R1
+  Value: 10K
+  Vendor: ''
+- Cmp name: R-EU_0414/15
+  DNP: ''
+  Description: ''
+  Footprint: working:0414_15
+  Qnty: '1'
+  Ref: R2
+  Value: 15M
+  Vendor: ''
+- Cmp name: B2B-PH-K-S
+  DNP: ''
+  Description: ''
+  Footprint: working:B2B-PH-K-S
+  Qnty: '1'
+  Ref: SOLENOID0
+  Value: B2B-PH-K-S
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 82nF | C-EU025-025X050 | working:C025-025X050 |  |  |  | \n| D1 | 1 | 1N4004\
+  \ | 1N4004 | working:DO41-10 |  |  |  | \n| LED0 | 1 | B2B-PH-K-S | B2B-PH-K-S |\
+  \ working:B2B-PH-K-S |  |  |  | \n| MS1 | 1 | FEATHERWING_NODIM | FEATHERWING_NODIM\
+  \ | working:FEATHERWING_DIM |  |  |  | \n| Q2 | 1 | IRF510 | IRF510 | working:TO220\
+  \ |  |  |  | \n| R1 | 1 | 10K | R-EU_0207/10 | working:0207_10 |  |  |  | \n| R2\
+  \ | 1 | 15M | R-EU_0414/15 | working:0414_15 |  |  |  | \n| SOLENOID0 | 1 | B2B-PH-K-S\
+  \ | B2B-PH-K-S | working:B2B-PH-K-S |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_learning_system_guides_cp_solenoid3/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_learning_system_guides_cp_solenoid3/current_version/working/working.sch
 id: adafruit_adafruit_learning_system_guides_cp_solenoid3
 name: adafruit_learning_system_guides
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C025-025X050
+  PosX: 155.6511
+  PosY: -90.3936
+  Rot: 0.0
+  Side: top
+  Val: 82nF
+- '# Ref': D1
+  Package: DO41-10
+  PosX: 165.1761
+  PosY: -90.3936
+  Rot: 180.0
+  Side: top
+  Val: 1N4004
+- '# Ref': LED0
+  Package: B2B-PH-K-S
+  PosX: 155.6511
+  PosY: -94.8386
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': MS1
+  Package: FEATHERWING_DIM
+  PosX: 123.2661
+  PosY: -121.5086
+  Rot: 0.0
+  Side: top
+  Val: FEATHERWING_NODIM
+- '# Ref': Q2
+  Package: TO220
+  PosX: 140.4111
+  PosY: -92.9336
+  Rot: 90.0
+  Side: top
+  Val: IRLB8721
+- '# Ref': R1
+  Package: '0207_10'
+  PosX: 142.3161
+  PosY: -104.3636
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: '0414_15'
+  PosX: 151.2061
+  PosY: -113.8886
+  Rot: 0.0
+  Side: top
+  Val: 15M
+- '# Ref': SOLENOID0
+  Package: B2B-PH-K-S
+  PosX: 165.1761
+  PosY: -94.8386
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 82nF | C025-025X050 | 155.6511\
+  \ | -90.3936 | 0.0 | top | \n| D1 | 1N4004 | DO41-10 | 165.1761 | -90.3936 | 180.0\
+  \ | top | \n| LED0 | nan | B2B-PH-K-S | 155.6511 | -94.8386 | 0.0 | top | \n| MS1\
+  \ | FEATHERWING_NODIM | FEATHERWING_DIM | 123.2661 | -121.5086 | 0.0 | top | \n\
+  | Q2 | IRLB8721 | TO220 | 140.4111 | -92.9336 | 90.0 | top | \n| R1 | 10K | 0207_10\
+  \ | 142.3161 | -104.3636 | 0.0 | top | \n| R2 | 15M | 0414_15 | 151.2061 | -113.8886\
+  \ | 0.0 | top | \n| SOLENOID0 | nan | B2B-PH-K-S | 165.1761 | -94.8386 | 0.0 | top\
+  \ | \n"
 projects_flat: projects/adafruit_adafruit_learning_system_guides_cp_solenoid3/current_version/working
 repo:
   allow_forking: true

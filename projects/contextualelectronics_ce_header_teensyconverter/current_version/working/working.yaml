@@ -1,10 +1,142 @@
 board: teensyconverter
+bom:
+- Id: '1'
+  Designator: P1
+  Footprint: Pin_Header_Straight_1x03_Pitch2.54mm
+  Quantity: '1'
+  Designation: CONN_01X03
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R1,R2
+  Footprint: R_0805_HandSoldering
+  Quantity: '2'
+  Designation: '0'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U2
+  Footprint: CE_Header
+  Quantity: '1'
+  Designation: CE_HEADER
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U1
+  Footprint: Teensy-32
+  Quantity: '1'
+  Designation: Teensy-3.2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | P1\
+  \ | Pin_Header_Straight_1x03_Pitch2.54mm | 1 | CONN_01X03 |  |  | [''] | \n| 2 |\
+  \ R1,R2 | R_0805_HandSoldering | 2 | 0 |  |  | [''] | \n| 3 | U2 | CE_Header | 1\
+  \ | CE_HEADER |  |  | [''] | \n| 4 | U1 | Teensy-32 | 1 | Teensy-3.2 |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: CONN_01X03
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm
+  Qnty: '1'
+  Ref: P1
+  Value: CONN_01X03
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0805_HandSoldering
+  Qnty: '2'
+  Ref: R1, R2
+  Value: '0'
+  Vendor: ''
+- Cmp name: Teensy-3.2
+  DNP: ''
+  Description: ''
+  Footprint: TeensyConverter:Teensy-32
+  Qnty: '1'
+  Ref: U1
+  Value: Teensy-3.2
+  Vendor: ''
+- Cmp name: CE_HEADER
+  DNP: ''
+  Description: ''
+  Footprint: TeensyConverter:CE_Header
+  Qnty: '1'
+  Ref: U2
+  Value: CE_HEADER
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| P1 |\
+  \ 1 | CONN_01X03 | CONN_01X03 | Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm\
+  \ |  |  |  | \n| R1, R2 | 2 | 0 | R | Resistors_SMD:R_0805_HandSoldering |  |  |\
+  \  | \n| U1 | 1 | Teensy-3.2 | Teensy-3.2 | TeensyConverter:Teensy-32 |  |  |  |\
+  \ \n| U2 | 1 | CE_HEADER | CE_HEADER | TeensyConverter:CE_Header |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/contextualelectronics_ce_header_teensyconverter/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/contextualelectronics_ce_header_teensyconverter/current_version/working/working.kicad_pcb
 file_sch_flat: projects/contextualelectronics_ce_header_teensyconverter/current_version/working/working.sch
 id: contextualelectronics_ce_header_teensyconverter
 name: ce_header
+position_bottom:
+- '# Ref': U1
+  Package: Teensy-32
+  PosX: 149.2885
+  PosY: -108.6485
+  Rot: 180.0
+  Side: bottom
+  Val: Teensy-3.2
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U1 | Teensy-3.2 | Teensy-32 | 149.2885\
+  \ | -108.6485 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': P1
+  Package: Pin_Header_Straight_1x03_Pitch2.54mm
+  PosX: 147.5105
+  PosY: -94.1705
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X03
+- '# Ref': R1
+  Package: R_0805_HandSoldering
+  PosX: 154.686
+  PosY: -99.949
+  Rot: 90.0
+  Side: top
+  Val: '0'
+- '# Ref': R2
+  Package: R_0805_HandSoldering
+  PosX: 152.527
+  PosY: -99.949
+  Rot: -90.0
+  Side: top
+  Val: '0'
+- '# Ref': U2
+  Package: CE_Header
+  PosX: 146.939
+  PosY: -99.187
+  Rot: 0.0
+  Side: top
+  Val: CE_HEADER
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| P1 | CONN_01X03 | Pin_Header_Straight_1x03_Pitch2.54mm\
+  \ | 147.5105 | -94.1705 | 90.0 | top | \n| R1 | 0 | R_0805_HandSoldering | 154.686\
+  \ | -99.949 | 90.0 | top | \n| R2 | 0 | R_0805_HandSoldering | 152.527 | -99.949\
+  \ | -90.0 | top | \n| U2 | CE_HEADER | CE_Header | 146.939 | -99.187 | 0.0 | top\
+  \ | \n"
 projects_flat: projects/contextualelectronics_ce_header_teensyconverter/current_version/working
 repo:
   allow_forking: true

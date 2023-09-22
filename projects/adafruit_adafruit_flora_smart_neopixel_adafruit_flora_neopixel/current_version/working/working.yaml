@@ -1,9 +1,162 @@
 board: adafruit_flora_neopixel
+bom:
+- Id: '1'
+  Designator: LED2
+  Footprint: RGBLED5050
+  Quantity: '1'
+  Designation: RGBLED5050
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: GND0,DATA_OUTPUT0,DATA_INPUT0,VDD0
+  Footprint: SEWINGTAP_0.5
+  Quantity: '4'
+  Designation: SEWTAP0.5IN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R2,R3
+  Footprint: R0805
+  Quantity: '2'
+  Designation: '22'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R1
+  Footprint: R0805
+  Quantity: '1'
+  Designation: 1.0K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C1
+  Footprint: C0805K
+  Quantity: '1'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: IC2
+  Footprint: SO08-SKINNYPADS
+  Quantity: '1'
+  Designation: WS2811-SOP8
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | LED2\
+  \ | RGBLED5050 | 1 | RGBLED5050 |  |  | [''] | \n| 2 | GND0,DATA_OUTPUT0,DATA_INPUT0,VDD0\
+  \ | SEWINGTAP_0.5 | 4 | SEWTAP0.5IN |  |  | [''] | \n| 3 | R2,R3 | R0805 | 2 | 22\
+  \ |  |  | [''] | \n| 4 | R1 | R0805 | 1 | 1.0K |  |  | [''] | \n| 5 | C1 | C0805K\
+  \ | 1 | 1uF |  |  | [''] | \n| 6 | IC2 | SO08-SKINNYPADS | 1 | WS2811-SOP8 |  |\
+  \  | [''] | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_flora_smart_neopixel_adafruit_flora_neopixel/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_flora_smart_neopixel_adafruit_flora_neopixel/current_version/working/working.sch
 id: adafruit_adafruit_flora_smart_neopixel_adafruit_flora_neopixel
 name: adafruit_flora_smart_neopixel
+position_bottom:
+- '# Ref': C1
+  Package: C0805K
+  PosX: 145.7071
+  PosY: -108.5596
+  Rot: 180.0
+  Side: bottom
+  Val: 1uF
+- '# Ref': IC2
+  Package: SO08-SKINNYPADS
+  PosX: 148.5011
+  PosY: -105.0036
+  Rot: 90.0
+  Side: bottom
+  Val: WS2811-SOP8
+- '# Ref': R1
+  Package: R0805
+  PosX: 151.2951
+  PosY: -108.5596
+  Rot: 0.0
+  Side: bottom
+  Val: 1.0K
+- '# Ref': R2
+  Package: R0805
+  PosX: 151.2951
+  PosY: -101.4476
+  Rot: 180.0
+  Side: bottom
+  Val: '22'
+- '# Ref': R3
+  Package: R0805
+  PosX: 145.7071
+  PosY: -101.4476
+  Rot: 180.0
+  Side: bottom
+  Val: '22'
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C1 | 1uF | C0805K | 145.7071 | -108.5596\
+  \ | 180.0 | bottom | \n| IC2 | WS2811-SOP8 | SO08-SKINNYPADS | 148.5011 | -105.0036\
+  \ | 90.0 | bottom | \n| R1 | 1.0K | R0805 | 151.2951 | -108.5596 | 0.0 | bottom\
+  \ | \n| R2 | 22 | R0805 | 151.2951 | -101.4476 | 180.0 | bottom | \n| R3 | 22 |\
+  \ R0805 | 145.7071 | -101.4476 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': DATA_INPUT0
+  Package: SEWINGTAP_0.5
+  PosX: 148.5011
+  PosY: -110.2106
+  Rot: 180.0
+  Side: top
+  Val: SEWTAP0.5IN
+- '# Ref': DATA_OUTPUT0
+  Package: SEWINGTAP_0.5
+  PosX: 148.5011
+  PosY: -99.7966
+  Rot: 0.0
+  Side: top
+  Val: SEWTAP0.5IN
+- '# Ref': GND0
+  Package: SEWINGTAP_0.5
+  PosX: 143.2941
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: SEWTAP0.5IN
+- '# Ref': LED2
+  Package: RGBLED5050
+  PosX: 148.5011
+  PosY: -105.0036
+  Rot: 180.0
+  Side: top
+  Val: RGBLED5050
+- '# Ref': VDD0
+  Package: SEWINGTAP_0.5
+  PosX: 153.7081
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: SEWTAP0.5IN
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| DATA_INPUT0 | SEWTAP0.5IN | SEWINGTAP_0.5\
+  \ | 148.5011 | -110.2106 | 180.0 | top | \n| DATA_OUTPUT0 | SEWTAP0.5IN | SEWINGTAP_0.5\
+  \ | 148.5011 | -99.7966 | 0.0 | top | \n| GND0 | SEWTAP0.5IN | SEWINGTAP_0.5 | 143.2941\
+  \ | -105.0036 | 90.0 | top | \n| LED2 | RGBLED5050 | RGBLED5050 | 148.5011 | -105.0036\
+  \ | 180.0 | top | \n| VDD0 | SEWTAP0.5IN | SEWINGTAP_0.5 | 153.7081 | -105.0036\
+  \ | -90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_flora_smart_neopixel_adafruit_flora_neopixel/current_version/working
 repo:
   allow_forking: true

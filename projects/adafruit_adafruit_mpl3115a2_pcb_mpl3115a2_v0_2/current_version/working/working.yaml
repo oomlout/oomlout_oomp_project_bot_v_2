@@ -1,9 +1,369 @@
 board: mpl3115a2_v0_2
+bom:
+- Id: '1'
+  Designator: R3,R6,R5,R4
+  Footprint: 0805-NO
+  Quantity: '4'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: JP2
+  Footprint: 1X07_ROUND_70
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C4,C3
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: FID1,FID2
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U$8,U$9
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U2
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: MIC5225-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C2,C1
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: "0.1\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: IC1
+  Footprint: LGA8
+  Quantity: '1'
+  Designation: MPL3115A2LGA
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: Q1,Q2
+  Footprint: SOT23-WIDE
+  Quantity: '2'
+  Designation: BSS138
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U$14
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R3,R6,R5,R4\
+  \ | 0805-NO | 4 | 10K |  |  | [''] | \n| 2 | JP2 | 1X07_ROUND_70 | 1 |  |  |  |\
+  \ [''] | \n| 3 | C4,C3 | 0805-NO | 2 | 10uF |  |  | [''] | \n| 4 | FID1,FID2 | FIDUCIAL_1MM\
+  \ | 2 | FIDUCIAL\" |  |  | [''] | \n| 5 | U$8,U$9 | MOUNTINGHOLE_2.5_PLATED | 2\
+  \ | MOUNTINGHOLE2.5 |  |  | [''] | \n| 6 | U2 | SOT23-5 | 1 | MIC5225-3.3 |  | \
+  \ | [''] | \n| 7 | C2,C1 | 0805-NO | 2 | 0.1\xC2\xB5F |  |  | [''] | \n| 8 | IC1\
+  \ | LGA8 | 1 | MPL3115A2LGA |  |  | [''] | \n| 9 | Q1,Q2 | SOT23-WIDE | 2 | BSS138\
+  \ |  |  | [''] | \n| 10 | U$14 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C1, C2
+  Value: "0.1\xC2\xB5F"
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C3, C4
+  Value: 10uF
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: MPL3115A2LGA
+  DNP: ''
+  Description: ''
+  Footprint: working:LGA8
+  Qnty: '1'
+  Ref: IC1
+  Value: MPL3115A2LGA
+  Vendor: ''
+- Cmp name: HEADER-1X770MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X07_ROUND_70
+  Qnty: '1'
+  Ref: JP2
+  Value: HEADER-1X770MIL
+  Vendor: ''
+- Cmp name: MOSFET-NWIDE
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-WIDE
+  Qnty: '2'
+  Ref: Q1, Q2
+  Value: BSS138
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '4'
+  Ref: R3, R4, R5, R6
+  Value: 10K
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U2
+  Value: MIC5225-3.3
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '2'
+  Ref: U$8, U$9
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2\
+  \ | 2 | 0.1\xC2\xB5F | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n\
+  | C3, C4 | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n\
+  | FID1, FID2 | 2 | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM\
+  \ |  |  |  | \n| IC1 | 1 | MPL3115A2LGA | MPL3115A2LGA | working:LGA8 |  |  |  |\
+  \ \n| JP2 | 1 | HEADER-1X770MIL | HEADER-1X770MIL | working:1X07_ROUND_70 |  | \
+  \ |  | \n| Q1, Q2 | 2 | BSS138 | MOSFET-NWIDE | working:SOT23-WIDE |  |  |  | \n\
+  | R3, R4, R5, R6 | 4 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  |\
+  \ \n| U2 | 1 | MIC5225-3.3 | VREG_SOT23-5 | working:SOT23-5 |  |  |  | \n| U$8,\
+  \ U$9 | 2 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_mpl3115a2_pcb_mpl3115a2_v0_2/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_mpl3115a2_pcb_mpl3115a2_v0_2/current_version/working/working.sch
 id: adafruit_adafruit_mpl3115a2_pcb_mpl3115a2_v0_2
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$8
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$9
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '13.969999999999999'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$8 | m3 | \n| 13.969999999999999 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$9 | m3 | \n"
 name: adafruit_mpl3115a2_pcb
+position_bottom:
+- '# Ref': U$14
+  Package: ADAFRUIT_3.5MM
+  PosX: 149.7761
+  PosY: -100.3266
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$14 | nan | ADAFRUIT_3.5MM | 149.7761\
+  \ | -100.3266 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 144.5991
+  PosY: -107.4976
+  Rot: -90.0
+  Side: top
+  Val: "0.1\xC2\xB5F"
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 141.6431
+  PosY: -102.2176
+  Rot: 0.0
+  Side: top
+  Val: "0.1\xC2\xB5F"
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 141.7701
+  PosY: -108.3056
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C4
+  Package: 0805-NO
+  PosX: 144.5641
+  PosY: -103.8606
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 153.9011
+  PosY: -109.3936
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 144.4101
+  PosY: -97.2836
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': IC1
+  Package: LGA8
+  PosX: 148.7551
+  PosY: -105.5116
+  Rot: 0.0
+  Side: top
+  Val: MPL3115A2LGA
+- '# Ref': JP2
+  Package: 1X07_ROUND_70
+  PosX: 148.5011
+  PosY: -111.3536
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': Q1
+  Package: SOT23-WIDE
+  PosX: 153.5811
+  PosY: -102.9716
+  Rot: 180.0
+  Side: top
+  Val: BSS138
+- '# Ref': Q2
+  Package: SOT23-WIDE
+  PosX: 153.5811
+  PosY: -106.6546
+  Rot: 180.0
+  Side: top
+  Val: BSS138
+- '# Ref': R3
+  Package: 0805-NO
+  PosX: 156.3751
+  PosY: -102.9716
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R4
+  Package: 0805-NO
+  PosX: 156.3751
+  PosY: -106.7816
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R5
+  Package: 0805-NO
+  PosX: 146.2151
+  PosY: -101.1936
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R6
+  Package: 0805-NO
+  PosX: 149.8981
+  PosY: -101.3206
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': U$8
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 141.5161
+  PosY: -98.6536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$9
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 155.4861
+  PosY: -98.6536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U2
+  Package: SOT23-5
+  PosX: 141.6431
+  PosY: -105.2576
+  Rot: 0.0
+  Side: top
+  Val: MIC5225-3.3
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1\xC2\xB5F | 0805-NO | 144.5991\
+  \ | -107.4976 | -90.0 | top | \n| C2 | 0.1\xC2\xB5F | 0805-NO | 141.6431 | -102.2176\
+  \ | 0.0 | top | \n| C3 | 10uF | 0805-NO | 141.7701 | -108.3056 | 0.0 | top | \n\
+  | C4 | 10uF | 0805-NO | 144.5641 | -103.8606 | -90.0 | top | \n| FID1 | FIDUCIAL\"\
+  \" | FIDUCIAL_1MM | 153.9011 | -109.3936 | 0.0 | top | \n| FID2 | FIDUCIAL\"\" |\
+  \ FIDUCIAL_1MM | 144.4101 | -97.2836 | 0.0 | top | \n| IC1 | MPL3115A2LGA | LGA8\
+  \ | 148.7551 | -105.5116 | 0.0 | top | \n| JP2 | nan | 1X07_ROUND_70 | 148.5011\
+  \ | -111.3536 | 0.0 | top | \n| Q1 | BSS138 | SOT23-WIDE | 153.5811 | -102.9716\
+  \ | 180.0 | top | \n| Q2 | BSS138 | SOT23-WIDE | 153.5811 | -106.6546 | 180.0 |\
+  \ top | \n| R3 | 10K | 0805-NO | 156.3751 | -102.9716 | -90.0 | top | \n| R4 | 10K\
+  \ | 0805-NO | 156.3751 | -106.7816 | -90.0 | top | \n| R5 | 10K | 0805-NO | 146.2151\
+  \ | -101.1936 | 0.0 | top | \n| R6 | 10K | 0805-NO | 149.8981 | -101.3206 | 180.0\
+  \ | top | \n| U$8 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 141.5161 | -98.6536\
+  \ | 0.0 | top | \n| U$9 | MOUNTINGHOLE2.5 | MOUNTINGHOLE_2.5_PLATED | 155.4861 |\
+  \ -98.6536 | 0.0 | top | \n| U2 | MIC5225-3.3 | SOT23-5 | 141.6431 | -105.2576 |\
+  \ 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_mpl3115a2_pcb_mpl3115a2_v0_2/current_version/working
 repo:
   allow_forking: true

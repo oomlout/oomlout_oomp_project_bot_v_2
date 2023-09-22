@@ -1,9 +1,728 @@
 board: adafruit_oled_featherwing
+bom:
+- Id: '1'
+  Designator: FID2,FID3,FID1,FID4
+  Footprint: FIDUCIAL_1MM
+  Quantity: '4'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U$37,U$16
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: OLED1
+  Footprint: QT1107P11A
+  Quantity: '1'
+  Designation: OLED_128X64_SH1107
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: MS1
+  Footprint: FEATHERWING_NODIM
+  Quantity: '1'
+  Designation: FEATHERWING_NODIM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: SW4,SW1,SW3,SW2
+  Footprint: BTN_KMR2_4.6X2.8
+  Quantity: '4'
+  Designation: KMR2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R5,R1
+  Footprint: 0603-NO
+  Quantity: '2'
+  Designation: 100K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C2,C5
+  Footprint: 0603-NO
+  Quantity: '2'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U$35
+  Footprint: STEMMAQT
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R2,R8,R6
+  Footprint: 0603-NO
+  Quantity: '3'
+  Designation: 12K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: IC5
+  Footprint: SOT23
+  Quantity: '1'
+  Designation: APX803
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: R7,R4
+  Footprint: 0603-NO
+  Quantity: '2'
+  Designation: 2.2K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: R3
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 680K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: D1
+  Footprint: SOD-123
+  Quantity: '1'
+  Designation: MBR120
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: C6,C1,C4
+  Footprint: 0805-NO
+  Quantity: '3'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U$8
+  Footprint: ADAFRUIT_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: U$14
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: ADDR0
+  Footprint: SOLDERJUMPER_ARROW_NOPASTE
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: L1
+  Footprint: INDUCTOR_1007
+  Quantity: '1'
+  Designation: 10uH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: U$36
+  Footprint: FEATHERLOGO_SMALL
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: CONN1
+  Footprint: JST_SH4
+  Quantity: '1'
+  Designation: STEMMA_I2C_QT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '21'
+  Designator: C7,C3
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF/16V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '22'
+  Designator: U1
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: FAN5331SX
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '23'
+  Designator: SJ1
+  Footprint: SOLDERJUMPER_CLOSEDWIRE
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | FID2,FID3,FID1,FID4\
+  \ | FIDUCIAL_1MM | 4 | FIDUCIAL_1MM |  |  | [''] | \n| 2 | U$37,U$16 | ADAFRUIT_3.5MM\
+  \ | 2 |  |  |  | [''] | \n| 3 | OLED1 | QT1107P11A | 1 | OLED_128X64_SH1107 |  |\
+  \  | [''] | \n| 4 | MS1 | FEATHERWING_NODIM | 1 | FEATHERWING_NODIM |  |  | ['']\
+  \ | \n| 5 | SW4,SW1,SW3,SW2 | BTN_KMR2_4.6X2.8 | 4 | KMR2 |  |  | [''] | \n| 6 |\
+  \ R5,R1 | 0603-NO | 2 | 100K |  |  | [''] | \n| 7 | C2,C5 | 0603-NO | 2 | 0.1uF\
+  \ |  |  | [''] | \n| 8 | U$35 | STEMMAQT | 1 |  |  |  | [''] | \n| 9 | R2,R8,R6\
+  \ | 0603-NO | 3 | 12K |  |  | [''] | \n| 10 | IC5 | SOT23 | 1 | APX803 |  |  | ['']\
+  \ | \n| 11 | R7,R4 | 0603-NO | 2 | 2.2K |  |  | [''] | \n| 12 | R3 | 0603-NO | 1\
+  \ | 680K |  |  | [''] | \n| 13 | D1 | SOD-123 | 1 | MBR120 |  |  | [''] | \n| 14\
+  \ | C6,C1,C4 | 0805-NO | 3 | 10uF |  |  | [''] | \n| 15 | U$8 | ADAFRUIT_5MM | 1\
+  \ |  |  |  | [''] | \n| 16 | U$14 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n| 17\
+  \ | ADDR0 | SOLDERJUMPER_ARROW_NOPASTE | 1 |  |  |  | [''] | \n| 18 | L1 | INDUCTOR_1007\
+  \ | 1 | 10uH |  |  | [''] | \n| 19 | U$36 | FEATHERLOGO_SMALL | 1 |  |  |  | ['']\
+  \ | \n| 20 | CONN1 | JST_SH4 | 1 | STEMMA_I2C_QT |  |  | [''] | \n| 21 | C7,C3 |\
+  \ 0805-NO | 2 | 10uF/16V |  |  | [''] | \n| 22 | U1 | SOT23-5 | 1 | FAN5331SX |\
+  \  |  | [''] | \n| 23 | SJ1 | SOLDERJUMPER_CLOSEDWIRE | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: SOLDERJUMPER
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_ARROW_NOPASTE
+  Qnty: '1'
+  Ref: ADDR0
+  Value: SOLDERJUMPER
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '3'
+  Ref: C1, C4, C6
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0603_NO
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: C2, C5
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C3, C7
+  Value: 10uF/16V
+  Vendor: ''
+- Cmp name: STEMMA_I2C_QT
+  DNP: ''
+  Description: ''
+  Footprint: working:JST_SH4
+  Qnty: '1'
+  Ref: CONN1
+  Value: STEMMA_I2C_QT
+  Vendor: ''
+- Cmp name: DIODESOD-123
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-123
+  Qnty: '1'
+  Ref: D1
+  Value: MBR120
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '4'
+  Ref: FID1, FID2, FID3, FID4
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: AXP083-SAG
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23
+  Qnty: '1'
+  Ref: IC5
+  Value: APX803
+  Vendor: ''
+- Cmp name: INDUCTOR
+  DNP: ''
+  Description: ''
+  Footprint: working:INDUCTOR_1007
+  Qnty: '1'
+  Ref: L1
+  Value: 10uH
+  Vendor: ''
+- Cmp name: FEATHERWING_NODIM
+  DNP: ''
+  Description: ''
+  Footprint: working:FEATHERWING_NODIM
+  Qnty: '1'
+  Ref: MS1
+  Value: FEATHERWING_NODIM
+  Vendor: ''
+- Cmp name: OLED_128X64_SH1107
+  DNP: ''
+  Description: ''
+  Footprint: working:QT1107P11A
+  Qnty: '1'
+  Ref: OLED1
+  Value: OLED_128X64_SH1107
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: R1, R5
+  Value: 100K
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '3'
+  Ref: R2, R6, R8
+  Value: 12K
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R3
+  Value: 680K
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: R4, R7
+  Value: 2.2K
+  Vendor: ''
+- Cmp name: SOLDERJUMPERCLOSED
+  DNP: ''
+  Description: ''
+  Footprint: working:SOLDERJUMPER_CLOSEDWIRE
+  Qnty: '1'
+  Ref: SJ1
+  Value: SOLDERJUMPERCLOSED
+  Vendor: ''
+- Cmp name: SWITCH_TACT_SMT4.6X2.8
+  DNP: ''
+  Description: ''
+  Footprint: working:BTN_KMR2_4.6X2.8
+  Qnty: '4'
+  Ref: SW1, SW2, SW3, SW4
+  Value: KMR2
+  Vendor: ''
+- Cmp name: VREG_FAN5331
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U1
+  Value: FAN5331SX
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| ADDR0\
+  \ | 1 | SOLDERJUMPER | SOLDERJUMPER | working:SOLDERJUMPER_ARROW_NOPASTE |  |  |\
+  \  | \n| C1, C4, C6 | 3 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO | \
+  \ |  |  | \n| C2, C5 | 2 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |\
+  \  | \n| C3, C7 | 2 | 10uF/16V | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO | \
+  \ |  |  | \n| CONN1 | 1 | STEMMA_I2C_QT | STEMMA_I2C_QT | working:JST_SH4 |  | \
+  \ |  | \n| D1 | 1 | MBR120 | DIODESOD-123 | working:SOD-123 |  |  |  | \n| FID1,\
+  \ FID2, FID3, FID4 | 4 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |\
+  \  |  | \n| IC5 | 1 | APX803 | AXP083-SAG | working:SOT23 |  |  |  | \n| L1 | 1\
+  \ | 10uH | INDUCTOR | working:INDUCTOR_1007 |  |  |  | \n| MS1 | 1 | FEATHERWING_NODIM\
+  \ | FEATHERWING_NODIM | working:FEATHERWING_NODIM |  |  |  | \n| OLED1 | 1 | OLED_128X64_SH1107\
+  \ | OLED_128X64_SH1107 | working:QT1107P11A |  |  |  | \n| R1, R5 | 2 | 100K | RESISTOR_0603_NOOUT\
+  \ | working:0603-NO |  |  |  | \n| R2, R6, R8 | 3 | 12K | RESISTOR_0603_NOOUT |\
+  \ working:0603-NO |  |  |  | \n| R3 | 1 | 680K | RESISTOR_0603_NOOUT | working:0603-NO\
+  \ |  |  |  | \n| R4, R7 | 2 | 2.2K | RESISTOR_0603_NOOUT | working:0603-NO |  |\
+  \  |  | \n| SJ1 | 1 | SOLDERJUMPERCLOSED | SOLDERJUMPERCLOSED | working:SOLDERJUMPER_CLOSEDWIRE\
+  \ |  |  |  | \n| SW1, SW2, SW3, SW4 | 4 | KMR2 | SWITCH_TACT_SMT4.6X2.8 | working:BTN_KMR2_4.6X2.8\
+  \ |  |  |  | \n| U1 | 1 | FAN5331SX | VREG_FAN5331 | working:SOT23-5 |  |  |  |\
+  \ \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_oled_featherwing_pcb_adafruit_oled_featherwing/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_oled_featherwing_pcb_adafruit_oled_featherwing/current_version/working/working.sch
 id: adafruit_adafruit_oled_featherwing_pcb_adafruit_oled_featherwing
 name: adafruit_oled_featherwing_pcb
+position_bottom:
+- '# Ref': ADDR0
+  Package: SOLDERJUMPER_ARROW_NOPASTE
+  PosX: 158.6611
+  PosY: -99.1616
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 146.3421
+  PosY: -103.9876
+  Rot: 180.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C2
+  Package: 0603-NO
+  PosX: 143.9291
+  PosY: -109.1946
+  Rot: 90.0
+  Side: bottom
+  Val: 0.1uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 153.4541
+  PosY: -107.9246
+  Rot: 180.0
+  Side: bottom
+  Val: 10uF/16V
+- '# Ref': C4
+  Package: 0805-NO
+  PosX: 157.6451
+  PosY: -106.7816
+  Rot: 0.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C5
+  Package: 0603-NO
+  PosX: 146.3421
+  PosY: -102.2096
+  Rot: 0.0
+  Side: bottom
+  Val: 0.1uF
+- '# Ref': C6
+  Package: 0805-NO
+  PosX: 157.6451
+  PosY: -108.6866
+  Rot: 0.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C7
+  Package: 0805-NO
+  PosX: 153.4541
+  PosY: -106.0196
+  Rot: 180.0
+  Side: bottom
+  Val: 10uF/16V
+- '# Ref': CONN1
+  Package: JST_SH4
+  PosX: 126.2761
+  PosY: -105.0036
+  Rot: 90.0
+  Side: bottom
+  Val: STEMMA_I2C_QT
+- '# Ref': D1
+  Package: SOD-123
+  PosX: 151.8031
+  PosY: -109.8296
+  Rot: 180.0
+  Side: bottom
+  Val: MBR120
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 169.4561
+  PosY: -111.7346
+  Rot: 180.0
+  Side: bottom
+  Val: FIDUCIAL_1MM
+- '# Ref': FID4
+  Package: FIDUCIAL_1MM
+  PosX: 125.2601
+  PosY: -99.6696
+  Rot: 180.0
+  Side: bottom
+  Val: FIDUCIAL_1MM
+- '# Ref': IC5
+  Package: SOT23
+  PosX: 157.6451
+  PosY: -102.7176
+  Rot: -90.0
+  Side: bottom
+  Val: APX803
+- '# Ref': L1
+  Package: INDUCTOR_1007
+  PosX: 149.7711
+  PosY: -107.0356
+  Rot: -90.0
+  Side: bottom
+  Val: 10uH
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 131.3561
+  PosY: -107.5436
+  Rot: 180.0
+  Side: bottom
+  Val: 100K
+- '# Ref': R2
+  Package: 0603-NO
+  PosX: 153.9621
+  PosY: -102.0826
+  Rot: 90.0
+  Side: bottom
+  Val: 12K
+- '# Ref': R3
+  Package: 0603-NO
+  PosX: 157.6451
+  PosY: -105.1306
+  Rot: 0.0
+  Side: bottom
+  Val: 680K
+- '# Ref': R4
+  Package: 0603-NO
+  PosX: 167.0431
+  PosY: -97.7646
+  Rot: 0.0
+  Side: bottom
+  Val: 2.2K
+- '# Ref': R5
+  Package: 0603-NO
+  PosX: 142.4051
+  PosY: -109.1946
+  Rot: -90.0
+  Side: bottom
+  Val: 100K
+- '# Ref': R6
+  Package: 0603-NO
+  PosX: 146.3421
+  PosY: -109.9566
+  Rot: 180.0
+  Side: bottom
+  Val: 12K
+- '# Ref': R7
+  Package: 0603-NO
+  PosX: 163.2331
+  PosY: -97.7646
+  Rot: 180.0
+  Side: bottom
+  Val: 2.2K
+- '# Ref': R8
+  Package: 0603-NO
+  PosX: 156.1211
+  PosY: -100.0506
+  Rot: 90.0
+  Side: bottom
+  Val: 12K
+- '# Ref': SJ1
+  Package: SOLDERJUMPER_CLOSEDWIRE
+  PosX: 151.5491
+  PosY: -102.5906
+  Rot: 0.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$8
+  Package: ADAFRUIT_5MM
+  PosX: 133.5151
+  PosY: -98.9076
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$14
+  Package: PCBFEAT-REV-040
+  PosX: 155.9941
+  PosY: -111.3536
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$35
+  Package: STEMMAQT
+  PosX: 132.6261
+  PosY: -111.9886
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$36
+  Package: FEATHERLOGO_SMALL
+  PosX: 144.1831
+  PosY: -106.9086
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U1
+  Package: SOT23-5
+  PosX: 146.3421
+  PosY: -107.0356
+  Rot: 180.0
+  Side: bottom
+  Val: FAN5331SX
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| ADDR0 | nan | SOLDERJUMPER_ARROW_NOPASTE\
+  \ | 158.6611 | -99.1616 | 90.0 | bottom | \n| C1 | 10uF | 0805-NO | 146.3421 | -103.9876\
+  \ | 180.0 | bottom | \n| C2 | 0.1uF | 0603-NO | 143.9291 | -109.1946 | 90.0 | bottom\
+  \ | \n| C3 | 10uF/16V | 0805-NO | 153.4541 | -107.9246 | 180.0 | bottom | \n| C4\
+  \ | 10uF | 0805-NO | 157.6451 | -106.7816 | 0.0 | bottom | \n| C5 | 0.1uF | 0603-NO\
+  \ | 146.3421 | -102.2096 | 0.0 | bottom | \n| C6 | 10uF | 0805-NO | 157.6451 | -108.6866\
+  \ | 0.0 | bottom | \n| C7 | 10uF/16V | 0805-NO | 153.4541 | -106.0196 | 180.0 |\
+  \ bottom | \n| CONN1 | STEMMA_I2C_QT | JST_SH4 | 126.2761 | -105.0036 | 90.0 | bottom\
+  \ | \n| D1 | MBR120 | SOD-123 | 151.8031 | -109.8296 | 180.0 | bottom | \n| FID1\
+  \ | FIDUCIAL_1MM | FIDUCIAL_1MM | 169.4561 | -111.7346 | 180.0 | bottom | \n| FID4\
+  \ | FIDUCIAL_1MM | FIDUCIAL_1MM | 125.2601 | -99.6696 | 180.0 | bottom | \n| IC5\
+  \ | APX803 | SOT23 | 157.6451 | -102.7176 | -90.0 | bottom | \n| L1 | 10uH | INDUCTOR_1007\
+  \ | 149.7711 | -107.0356 | -90.0 | bottom | \n| R1 | 100K | 0603-NO | 131.3561 |\
+  \ -107.5436 | 180.0 | bottom | \n| R2 | 12K | 0603-NO | 153.9621 | -102.0826 | 90.0\
+  \ | bottom | \n| R3 | 680K | 0603-NO | 157.6451 | -105.1306 | 0.0 | bottom | \n\
+  | R4 | 2.2K | 0603-NO | 167.0431 | -97.7646 | 0.0 | bottom | \n| R5 | 100K | 0603-NO\
+  \ | 142.4051 | -109.1946 | -90.0 | bottom | \n| R6 | 12K | 0603-NO | 146.3421 |\
+  \ -109.9566 | 180.0 | bottom | \n| R7 | 2.2K | 0603-NO | 163.2331 | -97.7646 | 180.0\
+  \ | bottom | \n| R8 | 12K | 0603-NO | 156.1211 | -100.0506 | 90.0 | bottom | \n\
+  | SJ1 | nan | SOLDERJUMPER_CLOSEDWIRE | 151.5491 | -102.5906 | 0.0 | bottom | \n\
+  | U$8 | nan | ADAFRUIT_5MM | 133.5151 | -98.9076 | 180.0 | bottom | \n| U$14 | nan\
+  \ | PCBFEAT-REV-040 | 155.9941 | -111.3536 | 180.0 | bottom | \n| U$35 | nan | STEMMAQT\
+  \ | 132.6261 | -111.9886 | 180.0 | bottom | \n| U$36 | nan | FEATHERLOGO_SMALL |\
+  \ 144.1831 | -106.9086 | 180.0 | bottom | \n| U1 | FAN5331SX | SOT23-5 | 146.3421\
+  \ | -107.0356 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 128.3081
+  PosY: -111.9886
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 136.9441
+  PosY: -95.3516
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': MS1
+  Package: FEATHERWING_NODIM
+  PosX: 123.1011
+  PosY: -116.4336
+  Rot: 0.0
+  Side: top
+  Val: FEATHERWING_NODIM
+- '# Ref': OLED1
+  Package: QT1107P11A
+  PosX: 168.8211
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: OLED_128X64_SH1107
+- '# Ref': SW1
+  Package: BTN_KMR2_4.6X2.8
+  PosX: 130.4671
+  PosY: -95.6056
+  Rot: 0.0
+  Side: top
+  Val: KMR2
+- '# Ref': SW2
+  Package: BTN_KMR2_4.6X2.8
+  PosX: 127.4191
+  PosY: -100.5586
+  Rot: 180.0
+  Side: top
+  Val: KMR2
+- '# Ref': SW3
+  Package: BTN_KMR2_4.6X2.8
+  PosX: 127.4191
+  PosY: -109.4486
+  Rot: 0.0
+  Side: top
+  Val: KMR2
+- '# Ref': SW4
+  Package: BTN_KMR2_4.6X2.8
+  PosX: 127.4191
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: KMR2
+- '# Ref': U$16
+  Package: ADAFRUIT_3.5MM
+  PosX: 152.5651
+  PosY: -106.5276
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$37
+  Package: ADAFRUIT_3.5MM
+  PosX: 132.7531
+  PosY: -110.9726
+  Rot: 180.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| FID2 | FIDUCIAL_1MM | FIDUCIAL_1MM |\
+  \ 128.3081 | -111.9886 | 0.0 | top | \n| FID3 | FIDUCIAL_1MM | FIDUCIAL_1MM | 136.9441\
+  \ | -95.3516 | 0.0 | top | \n| MS1 | FEATHERWING_NODIM | FEATHERWING_NODIM | 123.1011\
+  \ | -116.4336 | 0.0 | top | \n| OLED1 | OLED_128X64_SH1107 | QT1107P11A | 168.8211\
+  \ | -105.0036 | 0.0 | top | \n| SW1 | KMR2 | BTN_KMR2_4.6X2.8 | 130.4671 | -95.6056\
+  \ | 0.0 | top | \n| SW2 | KMR2 | BTN_KMR2_4.6X2.8 | 127.4191 | -100.5586 | 180.0\
+  \ | top | \n| SW3 | KMR2 | BTN_KMR2_4.6X2.8 | 127.4191 | -109.4486 | 0.0 | top |\
+  \ \n| SW4 | KMR2 | BTN_KMR2_4.6X2.8 | 127.4191 | -105.0036 | 0.0 | top | \n| U$16\
+  \ | nan | ADAFRUIT_3.5MM | 152.5651 | -106.5276 | 0.0 | top | \n| U$37 | nan | ADAFRUIT_3.5MM\
+  \ | 132.7531 | -110.9726 | 180.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_oled_featherwing_pcb_adafruit_oled_featherwing/current_version/working
 repo:
   allow_forking: true

@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit-5x5-NeoPixel-Grid-BFF-PCB/tree/main/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_5x5_neopixel_grid_bff_pcb_adafruit_5x5_neopixel_grid_bff/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

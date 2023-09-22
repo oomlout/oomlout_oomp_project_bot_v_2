@@ -1,9 +1,442 @@
 board: littlewireisp
+bom:
+- Id: '1'
+  Designator: U2
+  Footprint: SOIC14
+  Quantity: '1'
+  Designation: 74AHC125-SOIC14
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R2,R1
+  Footprint: 0603-NO
+  Quantity: '2'
+  Designation: 68R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R5
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C2,C3
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C1
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 4u7
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: D4,D5
+  Footprint: CHIPLED_0805_NOOUTLINE
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R6,R4
+  Footprint: 0603-NO
+  Quantity: '2'
+  Designation: 470R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: D2,D1
+  Footprint: SOD-323
+  Quantity: '2'
+  Designation: 3V6
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: D3
+  Footprint: SOD-123
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: X1
+  Footprint: USB-MINIB_LARGER
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: R3
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 1K5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: R7
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U1
+  Footprint: SO08-EIAJ
+  Quantity: '1'
+  Designation: ATTINY45
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: X2
+  Footprint: 2X3_SMD
+  Quantity: '1'
+  Designation: AVR ISP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U2\
+  \ | SOIC14 | 1 | 74AHC125-SOIC14 |  |  | [''] | \n| 2 | R2,R1 | 0603-NO | 2 | 68R\
+  \ |  |  | [''] | \n| 3 | R5 | 0603-NO | 1 | 10K |  |  | [''] | \n| 4 | C2,C3 | 0805-NO\
+  \ | 2 | 100n |  |  | [''] | \n| 5 | C1 | 0805-NO | 1 | 4u7 |  |  | [''] | \n| 6\
+  \ | D4,D5 | CHIPLED_0805_NOOUTLINE | 2 |  |  |  | [''] | \n| 7 | R6,R4 | 0603-NO\
+  \ | 2 | 470R |  |  | [''] | \n| 8 | D2,D1 | SOD-323 | 2 | 3V6 |  |  | [''] | \n\
+  | 9 | D3 | SOD-123 | 1 |  |  |  | [''] | \n| 10 | X1 | USB-MINIB_LARGER | 1 |  |\
+  \  |  | [''] | \n| 11 | R3 | 0603-NO | 1 | 1K5 |  |  | [''] | \n| 12 | R7 | 0603-NO\
+  \ | 1 | 1K |  |  | [''] | \n| 13 | U1 | SO08-EIAJ | 1 | ATTINY45 |  |  | [''] |\
+  \ \n| 14 | X2 | 2X3_SMD | 1 | AVR ISP |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C1
+  Value: 4u7
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C2, C3
+  Value: 100n
+  Vendor: ''
+- Cmp name: DIODE-ZENERSOD323
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-323
+  Qnty: '2'
+  Ref: D1, D2
+  Value: 3V6
+  Vendor: ''
+- Cmp name: DIODESOD-123
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-123
+  Qnty: '1'
+  Ref: D3
+  Value: DIODESOD-123
+  Vendor: ''
+- Cmp name: LED0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805_NOOUTLINE
+  Qnty: '2'
+  Ref: D4, D5
+  Value: LED0805_NOOUTLINE
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 68R
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R3
+  Value: 1K5
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '2'
+  Ref: R4, R6
+  Value: 470R
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R5
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_0603_NOOUT
+  DNP: ''
+  Description: ''
+  Footprint: working:0603-NO
+  Qnty: '1'
+  Ref: R7
+  Value: 1K
+  Vendor: ''
+- Cmp name: ATTINY45
+  DNP: ''
+  Description: ''
+  Footprint: working:SO08-EIAJ
+  Qnty: '1'
+  Ref: U1
+  Value: ATTINY45
+  Vendor: ''
+- Cmp name: 74125-SOIC14
+  DNP: ''
+  Description: ''
+  Footprint: working:SOIC14
+  Qnty: '1'
+  Ref: U2
+  Value: 74125-SOIC14
+  Vendor: ''
+- Cmp name: USBMINIBLARGE
+  DNP: ''
+  Description: ''
+  Footprint: working:USB-MINIB_LARGER
+  Qnty: '1'
+  Ref: X1
+  Value: USBMINIBLARGE
+  Vendor: ''
+- Cmp name: AVR_SPI_PRG_6SMD
+  DNP: ''
+  Description: ''
+  Footprint: working:2X3_SMD
+  Qnty: '1'
+  Ref: X2
+  Value: AVR_SPI_PRG_6SMD
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 4u7 | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C2, C3 |\
+  \ 2 | 100n | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| D1, D2 |\
+  \ 2 | 3V6 | DIODE-ZENERSOD323 | working:SOD-323 |  |  |  | \n| D3 | 1 | DIODESOD-123\
+  \ | DIODESOD-123 | working:SOD-123 |  |  |  | \n| D4, D5 | 2 | LED0805_NOOUTLINE\
+  \ | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | \n| R1, R2 | 2\
+  \ | 68R | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n| R3 | 1 | 1K5 | RESISTOR_0603_NOOUT\
+  \ | working:0603-NO |  |  |  | \n| R4, R6 | 2 | 470R | RESISTOR_0603_NOOUT | working:0603-NO\
+  \ |  |  |  | \n| R5 | 1 | 10K | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  |\
+  \ \n| R7 | 1 | 1K | RESISTOR_0603_NOOUT | working:0603-NO |  |  |  | \n| U1 | 1\
+  \ | ATTINY45 | ATTINY45 | working:SO08-EIAJ |  |  |  | \n| U2 | 1 | 74125-SOIC14\
+  \ | 74125-SOIC14 | working:SOIC14 |  |  |  | \n| X1 | 1 | USBMINIBLARGE | USBMINIBLARGE\
+  \ | working:USB-MINIB_LARGER |  |  |  | \n| X2 | 1 | AVR_SPI_PRG_6SMD | AVR_SPI_PRG_6SMD\
+  \ | working:2X3_SMD |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_littlewireisp_littlewireisp/current_version/working/working.brd
 file_sch_flat: projects/adafruit_littlewireisp_littlewireisp/current_version/working/working.sch
 id: adafruit_littlewireisp_littlewireisp
 name: littlewireisp
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 142.6011
+  PosY: -111.5036
+  Rot: -90.0
+  Side: top
+  Val: 4u7
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 150.3011
+  PosY: -96.7086
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 145.7011
+  PosY: -97.5036
+  Rot: 0.0
+  Side: top
+  Val: 100n
+- '# Ref': D1
+  Package: SOD-323
+  PosX: 148.1011
+  PosY: -111.5036
+  Rot: 90.0
+  Side: top
+  Val: 3V6
+- '# Ref': D2
+  Package: SOD-323
+  PosX: 153.1011
+  PosY: -111.5036
+  Rot: 90.0
+  Side: top
+  Val: 3V6
+- '# Ref': D3
+  Package: SOD-123
+  PosX: 144.6011
+  PosY: -111.5036
+  Rot: -90.0
+  Side: top
+  Val: .nan
+- '# Ref': D4
+  Package: CHIPLED_0805_NOOUTLINE
+  PosX: 155.1011
+  PosY: -116.6036
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': D5
+  Package: CHIPLED_0805_NOOUTLINE
+  PosX: 155.1011
+  PosY: -87.0036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 149.8011
+  PosY: -111.5036
+  Rot: 90.0
+  Side: top
+  Val: 68R
+- '# Ref': R2
+  Package: 0603-NO
+  PosX: 151.4011
+  PosY: -111.5036
+  Rot: 90.0
+  Side: top
+  Val: 68R
+- '# Ref': R3
+  Package: 0603-NO
+  PosX: 146.4011
+  PosY: -111.5036
+  Rot: 90.0
+  Side: top
+  Val: 1K5
+- '# Ref': R4
+  Package: 0603-NO
+  PosX: 154.8011
+  PosY: -111.5036
+  Rot: -90.0
+  Side: top
+  Val: 470R
+- '# Ref': R5
+  Package: 0603-NO
+  PosX: 145.7011
+  PosY: -95.4036
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R6
+  Package: 0603-NO
+  PosX: 154.7011
+  PosY: -95.1686
+  Rot: 0.0
+  Side: top
+  Val: 470R
+- '# Ref': R7
+  Package: 0603-NO
+  PosX: 155.1011
+  PosY: -90.9036
+  Rot: 90.0
+  Side: top
+  Val: 1K
+- '# Ref': U1
+  Package: SO08-EIAJ
+  PosX: 153.5011
+  PosY: -102.5036
+  Rot: 0.0
+  Side: top
+  Val: ATTINY45
+- '# Ref': U2
+  Package: SOIC14
+  PosX: 145.7011
+  PosY: -103.5036
+  Rot: -90.0
+  Side: top
+  Val: 74AHC125-SOIC14
+- '# Ref': X1
+  Package: USB-MINIB_LARGER
+  PosX: 148.5011
+  PosY: -120.5036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': X2
+  Package: 2X3_SMD
+  PosX: 148.5011
+  PosY: -89.5036
+  Rot: -90.0
+  Side: top
+  Val: AVR_ISP
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 4u7 | 0805-NO | 142.6011 | -111.5036\
+  \ | -90.0 | top | \n| C2 | 100n | 0805-NO | 150.3011 | -96.7086 | 0.0 | top | \n\
+  | C3 | 100n | 0805-NO | 145.7011 | -97.5036 | 0.0 | top | \n| D1 | 3V6 | SOD-323\
+  \ | 148.1011 | -111.5036 | 90.0 | top | \n| D2 | 3V6 | SOD-323 | 153.1011 | -111.5036\
+  \ | 90.0 | top | \n| D3 | nan | SOD-123 | 144.6011 | -111.5036 | -90.0 | top | \n\
+  | D4 | nan | CHIPLED_0805_NOOUTLINE | 155.1011 | -116.6036 | 180.0 | top | \n| D5\
+  \ | nan | CHIPLED_0805_NOOUTLINE | 155.1011 | -87.0036 | 0.0 | top | \n| R1 | 68R\
+  \ | 0603-NO | 149.8011 | -111.5036 | 90.0 | top | \n| R2 | 68R | 0603-NO | 151.4011\
+  \ | -111.5036 | 90.0 | top | \n| R3 | 1K5 | 0603-NO | 146.4011 | -111.5036 | 90.0\
+  \ | top | \n| R4 | 470R | 0603-NO | 154.8011 | -111.5036 | -90.0 | top | \n| R5\
+  \ | 10K | 0603-NO | 145.7011 | -95.4036 | 0.0 | top | \n| R6 | 470R | 0603-NO |\
+  \ 154.7011 | -95.1686 | 0.0 | top | \n| R7 | 1K | 0603-NO | 155.1011 | -90.9036\
+  \ | 90.0 | top | \n| U1 | ATTINY45 | SO08-EIAJ | 153.5011 | -102.5036 | 0.0 | top\
+  \ | \n| U2 | 74AHC125-SOIC14 | SOIC14 | 145.7011 | -103.5036 | -90.0 | top | \n\
+  | X1 | nan | USB-MINIB_LARGER | 148.5011 | -120.5036 | 0.0 | top | \n| X2 | AVR_ISP\
+  \ | 2X3_SMD | 148.5011 | -89.5036 | -90.0 | top | \n"
 projects_flat: projects/adafruit_littlewireisp_littlewireisp/current_version/working
 repo:
   allow_forking: true

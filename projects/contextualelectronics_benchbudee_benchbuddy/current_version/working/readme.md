@@ -1,0 +1,94 @@
+# benchbudee
+ 
+## summary 
+* id: contextualelectronics_benchbudee_benchbuddy
+* user: contextualelectronics
+* name: benchbudee
+* board: benchbuddy
+* repo: https://github.com/ContextualElectronics/BenchBudEE
+* src_file_repo_kicad_pcb: BenchBuddy.kicad_pcb
+* src_file_repo_kicad_pcb_link: https://github.com/ContextualElectronics/BenchBudEE/tree/master/BenchBuddy.kicad_pcb
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/ContextualElectronics/BenchBudEE/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/contextualelectronics_benchbudee_benchbuddy/current_version/working  
+
+## schematic  
+![](working_schematic_600.png)  
+[schematic (pdf)](working_schematic.pdf)  
+
+## pcb  
+![](working_3d_600.png) 
+![](working_3d_front_600.png)  
+![](working_3d_back_600.png)  
+![](working_600.png)  
+[board (pdf)](working.pdf)  
+
+## working_bom
+| Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| 1 | D2,D4 | SMA | 2 | B130-13-F |  |  | [''] | 
+| 2 | R5,R3,R48,R49,R62,R63,R6,R58,R61 | SM0805 | 9 | 0 |  |  | [''] | 
+| 3 | R2 | SM0805 | 1 | 200 |  |  | [''] | 
+| 4 | U1 | 4-SMD | 1 | LTV-816S |  |  | [''] | 
+| 5 | U2 | SSOP20 | 1 | MCP3901 |  |  | [''] | 
+| 6 | U4 | SO14N | 1 | OPA4170 |  |  | [''] | 
+| 7 | P2 | pin_array_3x2 | 1 | CONN_3X2 |  |  | [''] | 
+| 8 | P4 | 12pinTB | 1 | 12 Pin Terminal Block |  |  | [''] | 
+| 9 | U5 | SO8N | 1 | MCP4801 |  |  | [''] | 
+| 10 | R16 | SM1206-NO | 1 | R |  |  | [''] | 
+| 11 | R15,R14,R56,R44,R45,R13,R12,R43,R52,R53,R54,R25,R24,R23,R22,R55,R11,R26,R57 | SM0805 | 19 | R |  |  | [''] | 
+| 12 | Q3,Q4 | DPAK2-BB | 2 | AOD476 |  |  | [''] | 
+| 13 | L3,L2,L1 | SM1210L | 3 | CM322522-220KL |  |  | [''] | 
+| 14 | C3,C4,C2 | SM1206 | 3 | C |  |  | [''] | 
+| 15 | SW1 | BB_switch | 1 | Power Switch |  |  | [''] | 
+| 16 | R28,R40,R42,R29,R27,R34,R30,R31,R33,R32,R37,R47,R51,R50,R35,R36,R38,R39,R41,R46 | SM0805-SB2 | 20 | R |  |  | [''] | 
+| 17 | R18,R21 | SM0805 | 2 | 715 |  |  | [''] | 
+| 18 | R20,R19 | EVUE3K | 2 | 5K |  |  | [''] | 
+| 19 | U7 | SOT23_6 | 1 | AP5726 |  |  | [''] | 
+| 20 | D5 | SOD-323 | 1 | B0540WS-7 |  |  | [''] | 
+| 21 | L4 | NR4012 | 1 | 22u |  |  | [''] | 
+| 22 | K1 | TE-SPDT | 1 | 1461069-5 |  |  | [''] | 
+| 23 | U11,U9 | TO220_BB | 2 | LM317T |  |  | [''] | 
+| 24 | U8,U6 | TO220_BB | 2 | LM337T |  |  | [''] | 
+| 25 | JP1,JP2,JP3,JP4 | GND_POINT_2 | 4 | JUMPER |  |  | [''] | 
+| 26 | 3 mm,3 mm,3 mm,3 mm | 3mm-NPTH | 4 | VAL** |  |  | [''] | 
+| 27 | ARD1 | Arduino | 1 | ARDUINOPINS |  |  | [''] | 
+| 28 | P3 | SM0805 | 1 | CONN_2 |  |  | [''] | 
+| 29 | C31,C32,C7,C8,C10,C9,C11,C1,C13,C12,C17,C22,C23,C16,C15,C14,C21,C20,C19,C18,C24,C25,C30,C33 | SM0805 | 24 | C |  |  | [''] | 
+| 30 | P1 | ATX_Header | 1 | 24 Pin MiniFit JR |  |  | [''] | 
+| 31 | D1 | LED-0603-2 | 1 | LG Q971-KN-1 |  |  | [''] | 
+| 32 | G*** | OSHW_CU | 1 | OSHW_CU |  |  | [''] | 
+| 33 | G*** | OSHW_SM | 1 | OSHW_SM |  |  | [''] | 
+| 34 | P7,P6 | V8508H | 2 | CONN_1 |  |  | [''] | 
+| 35 | P5 | 3pinTB | 1 | 3 Pin TB |  |  | [''] | 
+| 36 | TP3 | TestPointTH | 1 | CH0 |  |  | [''] | 
+| 37 | TP2 | TestPointTH | 1 | CH1 |  |  | [''] | 
+| 38 | TP1 | TestPointTH | 1 | 5V |  |  | [''] | 
+| 39 | TP5 | TestPointTH | 1 | RELAY_LOW |  |  | [''] | 
+| 40 | TP4 | TestPointTH | 1 | +12P |  |  | [''] | 
+| 41 | TP9 | TestPointTH | 1 | GND_PWR |  |  | [''] | 
+| 42 | TP10 | TestPointTH | 1 | DAC_OUT |  |  | [''] | 
+| 43 | R60,R59 | SM0805 | 2 | 1K |  |  | [''] | 
+| 44 | K3,K2 | PIN_ARRAY_3X1 | 2 | CONN_3 |  |  | [''] | 
+| 45 | TP6 | TestPointTH | 1 | AGND |  |  | [''] | 
+| 46 | G*** | CE-LOGO | 1 | CE-LOGO |  |  | [''] | 
+| 47 | Q1 | SOT23EBC | 1 | 2N3904 |  |  | [''] | 
+| 48 | R1 | SM0805 | 1 | 500 |  |  | [''] | 
+| 49 | R4 | SM0805 | 1 | 100 |  |  | [''] | 
+| 50 | U3 | SOT353 | 1 | LMT84 |  |  | [''] | 
+| 51 | R9,R8,R7,R10 | SM1206 | 4 | R |  |  | [''] | 
+| 52 | Q2 | SOT23GDS | 1 | DMN65D8L-7 |  |  | [''] | 
+| 53 | TH5,TH1,TH2,TH3,TH4 | SM1812 | 5 | MINISMDC050F-2 |  |  | [''] | 
+| 54 | D10,D8,D9,D12,D7,D3,D11,D6 | SOT23-DIODE | 8 | MMBD914-7-F |  |  | [''] | 
+| 55 | C5,C6 | SM0805 | 2 | 1U |  |  | [''] | 
+| 56 | R17 | SM0805 | 1 | 15 |  |  | [''] | 
+| 57 | L5 | SM0805 | 1 | INDUCTOR |  |  | [''] | 
+| 58 | C29,C28,C27,C26 | SM1210 | 4 | C |  |  | [''] | 
+
+
+## bom_schematic
+no data
+
+

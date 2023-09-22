@@ -1,10 +1,274 @@
 board: dt_jfet_pre
+bom:
+- Id: '1'
+  Designator: C1,C2
+  Footprint: UMW1V4R7MDD1TP
+  Quantity: '2'
+  Designation: UMW1C100MDD1TP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C3
+  Footprint: UMW1V4R7MDD1TP
+  Quantity: '1'
+  Designation: UMW1V4R7MDD1TP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: P1,P2,P3,P4
+  Footprint: Pin_Header_Straight_1x02
+  Quantity: '4'
+  Designation: CONN_01X02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: Q1
+  Footprint: 2N5457
+  Quantity: '1'
+  Designation: 2N5457
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R1
+  Footprint: R0805
+  Quantity: '1'
+  Designation: RC2012F305CS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R2
+  Footprint: R0805
+  Quantity: '1'
+  Designation: RC2012F682CS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R3
+  Footprint: R0805
+  Quantity: '1'
+  Designation: RC2012F222CS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R4
+  Footprint: R0805
+  Quantity: '1'
+  Designation: RC2012F513CS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C2\
+  \ | UMW1V4R7MDD1TP | 2 | UMW1C100MDD1TP |  |  | [''] | \n| 2 | C3 | UMW1V4R7MDD1TP\
+  \ | 1 | UMW1V4R7MDD1TP |  |  | [''] | \n| 3 | P1,P2,P3,P4 | Pin_Header_Straight_1x02\
+  \ | 4 | CONN_01X02 |  |  | [''] | \n| 4 | Q1 | 2N5457 | 1 | 2N5457 |  |  | ['']\
+  \ | \n| 5 | R1 | R0805 | 1 | RC2012F305CS |  |  | [''] | \n| 6 | R2 | R0805 | 1\
+  \ | RC2012F682CS |  |  | [''] | \n| 7 | R3 | R0805 | 1 | RC2012F222CS |  |  | ['']\
+  \ | \n| 8 | R4 | R0805 | 1 | RC2012F513CS |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: UMW1C100MDD1TP
+  DNP: ''
+  Description: ''
+  Footprint: AudioLibFootprints:UMW1V4R7MDD1TP
+  Qnty: '2'
+  Ref: C1, C2
+  Value: UMW1C100MDD1TP
+  Vendor: ''
+- Cmp name: UMW1V4R7MDD1TP
+  DNP: ''
+  Description: ''
+  Footprint: AudioLibFootprints:UMW1V4R7MDD1TP
+  Qnty: '1'
+  Ref: C3
+  Value: UMW1V4R7MDD1TP
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '4'
+  Ref: P1, P2, P3, P4
+  Value: CONN_01X02
+  Vendor: ''
+- Cmp name: 2N5457
+  DNP: ''
+  Description: ''
+  Footprint: AudioLibFootprints:2N5457
+  Qnty: '1'
+  Ref: Q1
+  Value: 2N5457
+  Vendor: ''
+- Cmp name: RC2012F305CS
+  DNP: ''
+  Description: ''
+  Footprint: AudioLibFootprints:R0805
+  Qnty: '1'
+  Ref: R1
+  Value: RC2012F305CS
+  Vendor: ''
+- Cmp name: RC2012F682CS
+  DNP: ''
+  Description: ''
+  Footprint: AudioLibFootprints:R0805
+  Qnty: '1'
+  Ref: R2
+  Value: RC2012F682CS
+  Vendor: ''
+- Cmp name: RC2012F222CS
+  DNP: ''
+  Description: ''
+  Footprint: AudioLibFootprints:R0805
+  Qnty: '1'
+  Ref: R3
+  Value: RC2012F222CS
+  Vendor: ''
+- Cmp name: RC2012F513CS
+  DNP: ''
+  Description: ''
+  Footprint: AudioLibFootprints:R0805
+  Qnty: '1'
+  Ref: R4
+  Value: RC2012F513CS
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2\
+  \ | 2 | UMW1C100MDD1TP | UMW1C100MDD1TP | AudioLibFootprints:UMW1V4R7MDD1TP |  |\
+  \  |  | \n| C3 | 1 | UMW1V4R7MDD1TP | UMW1V4R7MDD1TP | AudioLibFootprints:UMW1V4R7MDD1TP\
+  \ |  |  |  | \n| P1, P2, P3, P4 | 4 | CONN_01X02 | CONN_01X02 |  |  |  |  | \n|\
+  \ Q1 | 1 | 2N5457 | 2N5457 | AudioLibFootprints:2N5457 |  |  |  | \n| R1 | 1 | RC2012F305CS\
+  \ | RC2012F305CS | AudioLibFootprints:R0805 |  |  |  | \n| R2 | 1 | RC2012F682CS\
+  \ | RC2012F682CS | AudioLibFootprints:R0805 |  |  |  | \n| R3 | 1 | RC2012F222CS\
+  \ | RC2012F222CS | AudioLibFootprints:R0805 |  |  |  | \n| R4 | 1 | RC2012F513CS\
+  \ | RC2012F513CS | AudioLibFootprints:R0805 |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamjvr_audioexperiments_dt_jfet_pre/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamjvr_audioexperiments_dt_jfet_pre/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adamjvr_audioexperiments_dt_jfet_pre/current_version/working/working.sch
 id: adamjvr_audioexperiments_dt_jfet_pre
 name: audioexperiments
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: UMW1V4R7MDD1TP
+  PosX: 106.807
+  PosY: -74.676
+  Rot: 0.0
+  Side: top
+  Val: UMW1C100MDD1TP
+- '# Ref': C2
+  Package: UMW1V4R7MDD1TP
+  PosX: 106.807
+  PosY: -78.994
+  Rot: 0.0
+  Side: top
+  Val: UMW1C100MDD1TP
+- '# Ref': C3
+  Package: UMW1V4R7MDD1TP
+  PosX: 116.713
+  PosY: -80.518
+  Rot: -90.0
+  Side: top
+  Val: UMW1V4R7MDD1TP
+- '# Ref': P1
+  Package: Pin_Header_Straight_1x02
+  PosX: 123.825
+  PosY: -72.009
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': P2
+  Package: Pin_Header_Straight_1x02
+  PosX: 102.616
+  PosY: -72.0852
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': P3
+  Package: Pin_Header_Straight_1x02
+  PosX: 102.616
+  PosY: -78.994
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': P4
+  Package: Pin_Header_Straight_1x02
+  PosX: 123.825
+  PosY: -81.534
+  Rot: 180.0
+  Side: top
+  Val: CONN_01X02
+- '# Ref': Q1
+  Package: 2N5457
+  PosX: 112.014
+  PosY: -74.676
+  Rot: 0.0
+  Side: top
+  Val: 2N5457
+- '# Ref': R1
+  Package: R0805
+  PosX: 115.697
+  PosY: -75.311
+  Rot: 0.0
+  Side: top
+  Val: RC2012F305CS
+- '# Ref': R2
+  Package: R0805
+  PosX: 112.014
+  PosY: -80.772
+  Rot: 90.0
+  Side: top
+  Val: RC2012F682CS
+- '# Ref': R3
+  Package: R0805
+  PosX: 115.697
+  PosY: -73.279
+  Rot: 0.0
+  Side: top
+  Val: RC2012F222CS
+- '# Ref': R4
+  Package: R0805
+  PosX: 120.523
+  PosY: -80.391
+  Rot: 90.0
+  Side: top
+  Val: RC2012F513CS
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | UMW1C100MDD1TP | UMW1V4R7MDD1TP\
+  \ | 106.807 | -74.676 | 0.0 | top | \n| C2 | UMW1C100MDD1TP | UMW1V4R7MDD1TP | 106.807\
+  \ | -78.994 | 0.0 | top | \n| C3 | UMW1V4R7MDD1TP | UMW1V4R7MDD1TP | 116.713 | -80.518\
+  \ | -90.0 | top | \n| P1 | CONN_01X02 | Pin_Header_Straight_1x02 | 123.825 | -72.009\
+  \ | 0.0 | top | \n| P2 | CONN_01X02 | Pin_Header_Straight_1x02 | 102.616 | -72.0852\
+  \ | 0.0 | top | \n| P3 | CONN_01X02 | Pin_Header_Straight_1x02 | 102.616 | -78.994\
+  \ | 0.0 | top | \n| P4 | CONN_01X02 | Pin_Header_Straight_1x02 | 123.825 | -81.534\
+  \ | 180.0 | top | \n| Q1 | 2N5457 | 2N5457 | 112.014 | -74.676 | 0.0 | top | \n\
+  | R1 | RC2012F305CS | R0805 | 115.697 | -75.311 | 0.0 | top | \n| R2 | RC2012F682CS\
+  \ | R0805 | 112.014 | -80.772 | 90.0 | top | \n| R3 | RC2012F222CS | R0805 | 115.697\
+  \ | -73.279 | 0.0 | top | \n| R4 | RC2012F513CS | R0805 | 120.523 | -80.391 | 90.0\
+  \ | top | \n"
 projects_flat: projects/adamjvr_audioexperiments_dt_jfet_pre/current_version/working
 repo:
   allow_forking: true

@@ -1,0 +1,54 @@
+# golden_key
+ 
+## summary 
+* id: carnivalben_golden_key_panel_display
+* user: carnivalben
+* name: golden_key
+* board: panel_display
+* repo: https://github.com/CarnivalBen/golden-key
+* src_file_repo_kicad_pcb: panel/pcb-display/panel-display - Copy.kicad_pcb
+* src_file_repo_kicad_pcb_link: https://github.com/CarnivalBen/golden-key/tree/master/panel/pcb-display/panel-display - Copy.kicad_pcb
+
+
+* src_file_repo_sch: layout-diag/layout-diag.sch
+* src_file_repo_sch_link: https://github.com/CarnivalBen/golden-key/tree/master/layout-diag/layout-diag.sch
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/carnivalben_golden_key_panel_display/current_version/working  
+
+
+## pcb  
+![](working_3d_600.png) 
+![](working_3d_front_600.png)  
+![](working_3d_back_600.png)  
+![](working_600.png)  
+[board (pdf)](working.pdf)  
+
+## working_bom
+| Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| 1 | C5,C6,C1,C2,C3,C4 | C_Disc_D3.0mm_W1.6mm_P2.50mm | 6 | 10nF |  |  | [''] | 
+| 2 | J1 | Pin_Header_Straight_2x06_Pitch2.54mm | 1 | PUSH-BUTTON |  |  | [''] | 
+| 3 | SW5 | SW_PUSH_6mm_4pin | 1 | BUTTON B |  |  | [''] | 
+| 4 | SW6 | SW_PUSH_6mm_4pin | 1 | BUTTON C |  |  | [''] | 
+| 5 | SW9 | SW_PUSH_6mm_4pin | 1 | BUTTON H |  |  | [''] | 
+| 6 | SW7 | SW_PUSH_6mm_4pin | 1 | BUTTON G |  |  | [''] | 
+| 7 | SW8 | SW_PUSH_6mm_4pin | 1 | BUTTON D |  |  | [''] | 
+| 8 | SW10 | SW_PUSH_6mm_4pin | 1 | BUTTON E |  |  | [''] | 
+| 9 | SW3 | SW_PUSH_6mm_4pin | 1 | BUTTON A |  |  | [''] | 
+| 10 | SW4 | SW_PUSH_6mm_4pin | 1 | BUTTON F |  |  | [''] | 
+| 11 | SW2 | SW_PUSH_6mm_4pin | 1 | BUTTON J |  |  | [''] | 
+| 12 | SW1 | SW_PUSH_6mm_4pin | 1 | BUTTON I |  |  | [''] | 
+| 13 | D9,D7,D4,D3,D5,D8,D6 | LED_D5.0mm | 7 | WHITE |  |  | [''] | 
+| 14 | J2 | Pin_Header_Straight_2x06_Pitch2.54mm | 1 | POWER |  |  | [''] | 
+| 15 | D2,D1 | LED_D5.0mm | 2 | YELLOW |  |  | [''] | 
+| 16 | D39,D73,D99,D128,D10,D11,D12,D16,D17,D18,D19,D20,D26,D27,D28,D32,D33,D34,D38,D40,D44,D45,D46,D47,D48,D56,D57,D58,D59,D60,D62,D72,D74,D75,D76,D77,D84,D85,D86,D87,D90,D91,D92,D93,D98,D100,D101,D107,D108,D109,D110,D114,D115,D116,D121,D122,D125,D127,D129,D130,D131,D139,D140,D141,D142,D117,D22 | LED_D5.0mm | 67 | GREEN |  |  | [''] | 
+| 17 | U7,U8,U9,U13,U1,U2,U3 | DIP-16_W7.62mm_LongPads | 7 | ULN2003A |  |  | [''] | 
+| 18 | U10,U11,U12,U4,U5,U6 | DIP-16_W7.62mm_LongPads | 6 | 74HC595 |  |  | [''] | 
+| 19 | D13,D14,D15,D21,D23,D24,D25,D29,D30,D31,D35,D36,D37,D41,D43,D50,D51,D52,D53,D54,D55,D61,D63,D64,D66,D67,D68,D69,D70,D71,D78,D79,D80,D81,D82,D83,D88,D89,D94,D95,D96,D97,D102,D103,D104,D105,D106,D111,D112,D113,D118,D119,D120,D123,D124,D132,D133,D134,D135,D136,D137,D144,D65 | LED_D5.0mm | 63 | RED |  |  | [''] | 
+| 20 | Q1,Q2 | TO-92_Inline_Wide | 2 | 2N2222 |  |  | [''] | 
+| 21 | R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R13,R14 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 12 | 10K |  |  | [''] | 
+| 22 | R11,R12,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50,R51,R52,R53,R54,R55,R56,R57,R58,R59,R60,R61,R62,R63,R64,R65,R66,R67,R68 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 52 | 4.7K |  |  | [''] | 
+| 23 | R15,R16,R17,R18 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 4 | 400R |  |  | [''] | 
+
+
+
+

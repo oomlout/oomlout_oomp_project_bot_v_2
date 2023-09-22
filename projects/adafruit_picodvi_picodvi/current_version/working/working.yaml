@@ -1,10 +1,637 @@
 board: picodvi
+bom:
+- Id: '1'
+  Designator: R6,R1,R2
+  Footprint: R_0402_1005Metric
+  Quantity: '3'
+  Designation: 2k2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D1
+  Footprint: LED_0805_2012Metric
+  Quantity: '1'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J5
+  Footprint: HDMI-SS-53000
+  Quantity: '1'
+  Designation: NOT_HDMI_A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: TP1
+  Footprint: TestPoint_Pad_1.0x1.0mm
+  Quantity: '1'
+  Designation: TestPoint
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J1
+  Footprint: USB_A_PLUG_PCB
+  Quantity: '1'
+  Designation: USB_A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U1
+  Footprint: QFN-56_EP_7x7_Pitch0.4mm
+  Quantity: '1'
+  Designation: RP2040
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C13,C6,C2,C8,C9,C5,C4
+  Footprint: C_0402_1005Metric
+  Quantity: '7'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R3,R12,R18,R17,R16,R19,R15,R13,R14
+  Footprint: R_0402_1005Metric
+  Quantity: '9'
+  Designation: '270'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: C7,C3,C11,C1
+  Footprint: C_0402_1005Metric
+  Quantity: '4'
+  Designation: 1u
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: SW2,SW1
+  Footprint: SW_SPST_PTS815
+  Quantity: '2'
+  Designation: SW_Push
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: Y1
+  Footprint: Crystal_SMD_3225-4Pin_3.2x2.5mm
+  Quantity: '1'
+  Designation: 12 M
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: R4,R5
+  Footprint: R_0402_1005Metric
+  Quantity: '2'
+  Designation: 27R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: U2
+  Footprint: SOT-23-5_HandSoldering
+  Quantity: '1'
+  Designation: NCP115ASN330
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: C10,C12
+  Footprint: C_0402_1005Metric
+  Quantity: '2'
+  Designation: 10p
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U3
+  Footprint: WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm
+  Quantity: '1'
+  Designation: W25Q16JV
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R6,R1,R2\
+  \ | R_0402_1005Metric | 3 | 2k2 |  |  | [''] | \n| 2 | D1 | LED_0805_2012Metric\
+  \ | 1 | LED |  |  | [''] | \n| 3 | J5 | HDMI-SS-53000 | 1 | NOT_HDMI_A |  |  | ['']\
+  \ | \n| 4 | TP1 | TestPoint_Pad_1.0x1.0mm | 1 | TestPoint |  |  | [''] | \n| 5 |\
+  \ J1 | USB_A_PLUG_PCB | 1 | USB_A |  |  | [''] | \n| 6 | U1 | QFN-56_EP_7x7_Pitch0.4mm\
+  \ | 1 | RP2040 |  |  | [''] | \n| 7 | C13,C6,C2,C8,C9,C5,C4 | C_0402_1005Metric\
+  \ | 7 | 100n |  |  | [''] | \n| 8 | R3,R12,R18,R17,R16,R19,R15,R13,R14 | R_0402_1005Metric\
+  \ | 9 | 270 |  |  | [''] | \n| 9 | C7,C3,C11,C1 | C_0402_1005Metric | 4 | 1u | \
+  \ |  | [''] | \n| 10 | SW2,SW1 | SW_SPST_PTS815 | 2 | SW_Push |  |  | [''] | \n\
+  | 11 | Y1 | Crystal_SMD_3225-4Pin_3.2x2.5mm | 1 | 12 M |  |  | [''] | \n| 12 | R4,R5\
+  \ | R_0402_1005Metric | 2 | 27R |  |  | [''] | \n| 13 | U2 | SOT-23-5_HandSoldering\
+  \ | 1 | NCP115ASN330 |  |  | [''] | \n| 14 | C10,C12 | C_0402_1005Metric | 2 | 10p\
+  \ |  |  | [''] | \n| 15 | U3 | WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm | 1 | W25Q16JV\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0402_1005Metric
+  Qnty: '7'
+  Ref: C1, C3, C7, C11, C22, C23, C24
+  Value: 1u
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0402_1005Metric
+  Qnty: '7'
+  Ref: C2, C4, C5, C6, C8, C9, C13
+  Value: 100n
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0402_1005Metric
+  Qnty: '2'
+  Ref: C10, C12
+  Value: 10p
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: LED_SMD:LED_0805_2012Metric
+  Qnty: '2'
+  Ref: D1, D2
+  Value: LED
+  Vendor: ''
+- Cmp name: USB_OTG-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_USB:USB_Micro-B_Molex-105017-0001
+  Qnty: '1'
+  Ref: J1
+  Value: USB_OTG
+  Vendor: ''
+- Cmp name: Conn_01x05
+  DNP: ''
+  Description: Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: picodvi:PinHeader_1x05_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J2
+  Value: Conn_01x05
+  Vendor: ''
+- Cmp name: Conn_02x06_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x06, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: picodvi:PinHeader_2x06_P2.54mm_Horizontal
+  Qnty: '2'
+  Ref: J3, J4
+  Value: 02x06
+  Vendor: ''
+- Cmp name: HDMI_A
+  DNP: ''
+  Description: HDMI type A connector
+  Footprint: picodvi:HDMI-SS-53000
+  Qnty: '1'
+  Ref: J5
+  Value: NOT_HDMI_A
+  Vendor: ''
+- Cmp name: Conn_01x02
+  DNP: ''
+  Description: Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J6
+  Value: Conn_01x02
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0402_1005Metric
+  Qnty: '8'
+  Ref: R1, R3, R6, R7, R8, R9, R11, R20
+  Value: 2k2
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0402_1005Metric
+  Qnty: '1'
+  Ref: R2
+  Value: DNF
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0402_1005Metric
+  Qnty: '2'
+  Ref: R4, R5
+  Value: 27R
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0402_1005Metric
+  Qnty: '9'
+  Ref: R10, R12, R13, R14, R15, R16, R17, R18, R19
+  Value: '270'
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: Push button switch, generic, two pins
+  Footprint: picodvi:SW_SPST_PTS815
+  Qnty: '3'
+  Ref: SW1, SW2, SW3
+  Value: SW_Push
+  Vendor: ''
+- Cmp name: Pico2040
+  DNP: ''
+  Description: ''
+  Footprint: picodvi:QFN-56_EP_7x7_Pitch0.4mm
+  Qnty: '1'
+  Ref: U1
+  Value: RP2040
+  Vendor: ''
+- Cmp name: NCP115ASN330
+  DNP: ''
+  Description: ''
+  Footprint: Package_TO_SOT_SMD:SOT-23-5_HandSoldering
+  Qnty: '1'
+  Ref: U2
+  Value: NCP115ASN330
+  Vendor: ''
+- Cmp name: AT25SF081-XMHD-X-Memory_Flash
+  DNP: ''
+  Description: ''
+  Footprint: Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm
+  Qnty: '1'
+  Ref: U3
+  Value: W25Q16JV
+  Vendor: ''
+- Cmp name: Crystal_GND24
+  DNP: ''
+  Description: Four pin crystal, GND on pins 2 and 4
+  Footprint: Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm
+  Qnty: '1'
+  Ref: Y1
+  Value: 12 M
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C3,\
+  \ C7, C11, C22, C23, C24 | 7 | 1u | C | Capacitor_SMD:C_0402_1005Metric | Unpolarized\
+  \ capacitor |  |  | \n| C2, C4, C5, C6, C8, C9, C13 | 7 | 100n | C | Capacitor_SMD:C_0402_1005Metric\
+  \ | Unpolarized capacitor |  |  | \n| C10, C12 | 2 | 10p | C | Capacitor_SMD:C_0402_1005Metric\
+  \ | Unpolarized capacitor |  |  | \n| D1, D2 | 2 | LED | LED | LED_SMD:LED_0805_2012Metric\
+  \ | Light emitting diode |  |  | \n| J1 | 1 | USB_OTG | USB_OTG-Connector | Connector_USB:USB_Micro-B_Molex-105017-0001\
+  \ |  |  |  | \n| J2 | 1 | Conn_01x05 | Conn_01x05 | picodvi:PinHeader_1x05_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J3, J4 | 2 | 02x06 | Conn_02x06_Odd_Even | picodvi:PinHeader_2x06_P2.54mm_Horizontal\
+  \ | Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J5 | 1 | NOT_HDMI_A | HDMI_A | picodvi:HDMI-SS-53000 | HDMI type A\
+  \ connector |  |  | \n| J6 | 1 | Conn_01x02 | Conn_01x02 | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| R1, R3, R6, R7, R8, R9, R11, R20 | 8 | 2k2 | R | Resistor_SMD:R_0402_1005Metric\
+  \ | Resistor |  |  | \n| R2 | 1 | DNF | R | Resistor_SMD:R_0402_1005Metric | Resistor\
+  \ |  |  | \n| R4, R5 | 2 | 27R | R | Resistor_SMD:R_0402_1005Metric | Resistor |\
+  \  |  | \n| R10, R12, R13, R14, R15, R16, R17, R18, R19 | 9 | 270 | R | Resistor_SMD:R_0402_1005Metric\
+  \ | Resistor |  |  | \n| SW1, SW2, SW3 | 3 | SW_Push | SW_Push | picodvi:SW_SPST_PTS815\
+  \ | Push button switch, generic, two pins |  |  | \n| U1 | 1 | RP2040 | Pico2040\
+  \ | picodvi:QFN-56_EP_7x7_Pitch0.4mm |  |  |  | \n| U2 | 1 | NCP115ASN330 | NCP115ASN330\
+  \ | Package_TO_SOT_SMD:SOT-23-5_HandSoldering |  |  |  | \n| U3 | 1 | W25Q16JV |\
+  \ AT25SF081-XMHD-X-Memory_Flash | Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm\
+  \ |  |  |  | \n| Y1 | 1 | 12 M | Crystal_GND24 | Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm\
+  \ | Four pin crystal, GND on pins 2 and 4 |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adafruit_picodvi_picodvi/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adafruit_picodvi_picodvi/current_version/working/working.kicad_sch
 file_sch_flat: projects/adafruit_picodvi_picodvi/current_version/working/working.sch
 id: adafruit_picodvi_picodvi
 name: picodvi
+position_bottom:
+- '# Ref': C1
+  Package: C_0402_1005Metric
+  PosX: 206.4
+  PosY: -113.8
+  Rot: 90.0
+  Side: bottom
+  Val: 1u
+- '# Ref': C2
+  Package: C_0402_1005Metric
+  PosX: 208.4
+  PosY: -112.2
+  Rot: 180.0
+  Side: bottom
+  Val: 100n
+- '# Ref': C3
+  Package: C_0402_1005Metric
+  PosX: 208.4
+  PosY: -114.0
+  Rot: 180.0
+  Side: bottom
+  Val: 1u
+- '# Ref': C4
+  Package: C_0402_1005Metric
+  PosX: 218.8
+  PosY: -111.6
+  Rot: 0.0
+  Side: bottom
+  Val: 100n
+- '# Ref': C5
+  Package: C_0402_1005Metric
+  PosX: 218.8
+  PosY: -112.6
+  Rot: 0.0
+  Side: bottom
+  Val: 100n
+- '# Ref': C6
+  Package: C_0402_1005Metric
+  PosX: 207.8
+  PosY: -108.2
+  Rot: -90.0
+  Side: bottom
+  Val: 100n
+- '# Ref': C7
+  Package: C_0402_1005Metric
+  PosX: 202.8
+  PosY: -111.6
+  Rot: 0.0
+  Side: bottom
+  Val: 1u
+- '# Ref': C8
+  Package: C_0402_1005Metric
+  PosX: 208.4
+  PosY: -111.2
+  Rot: 180.0
+  Side: bottom
+  Val: 100n
+- '# Ref': C9
+  Package: C_0402_1005Metric
+  PosX: 218.8
+  PosY: -107.4
+  Rot: 0.0
+  Side: bottom
+  Val: 100n
+- '# Ref': C10
+  Package: C_0402_1005Metric
+  PosX: 221.4
+  PosY: -107.4
+  Rot: 180.0
+  Side: bottom
+  Val: 10p
+- '# Ref': C11
+  Package: C_0402_1005Metric
+  PosX: 208.4
+  PosY: -115.0
+  Rot: 180.0
+  Side: bottom
+  Val: 1u
+- '# Ref': C12
+  Package: C_0402_1005Metric
+  PosX: 221.4
+  PosY: -112.6
+  Rot: 0.0
+  Side: bottom
+  Val: 10p
+- '# Ref': C13
+  Package: C_0402_1005Metric
+  PosX: 218.8
+  PosY: -108.4
+  Rot: 0.0
+  Side: bottom
+  Val: 100n
+- '# Ref': R1
+  Package: R_0402_1005Metric
+  PosX: 218.2
+  PosY: -117.6
+  Rot: 0.0
+  Side: bottom
+  Val: 2k2
+- '# Ref': R2
+  Package: R_0402_1005Metric
+  PosX: 218.4
+  PosY: -102.4
+  Rot: 0.0
+  Side: bottom
+  Val: 2k2
+- '# Ref': R3
+  Package: R_0402_1005Metric
+  PosX: 208.4
+  PosY: -104.6
+  Rot: 180.0
+  Side: bottom
+  Val: '270'
+- '# Ref': R4
+  Package: R_0402_1005Metric
+  PosX: 205.4
+  PosY: -111.2
+  Rot: 0.0
+  Side: bottom
+  Val: 27R
+- '# Ref': R5
+  Package: R_0402_1005Metric
+  PosX: 205.4
+  PosY: -110.2
+  Rot: 0.0
+  Side: bottom
+  Val: 27R
+- '# Ref': R12
+  Package: R_0402_1005Metric
+  PosX: 216.8
+  PosY: -106.4
+  Rot: -90.0
+  Side: bottom
+  Val: '270'
+- '# Ref': R13
+  Package: R_0402_1005Metric
+  PosX: 213.8
+  PosY: -106.4
+  Rot: -90.0
+  Side: bottom
+  Val: '270'
+- '# Ref': R14
+  Package: R_0402_1005Metric
+  PosX: 212.8
+  PosY: -106.4
+  Rot: 90.0
+  Side: bottom
+  Val: '270'
+- '# Ref': R15
+  Package: R_0402_1005Metric
+  PosX: 209.8
+  PosY: -106.4
+  Rot: 90.0
+  Side: bottom
+  Val: '270'
+- '# Ref': R16
+  Package: R_0402_1005Metric
+  PosX: 215.8
+  PosY: -106.4
+  Rot: -90.0
+  Side: bottom
+  Val: '270'
+- '# Ref': R17
+  Package: R_0402_1005Metric
+  PosX: 214.8
+  PosY: -106.4
+  Rot: -90.0
+  Side: bottom
+  Val: '270'
+- '# Ref': R18
+  Package: R_0402_1005Metric
+  PosX: 211.8
+  PosY: -106.4
+  Rot: -90.0
+  Side: bottom
+  Val: '270'
+- '# Ref': R19
+  Package: R_0402_1005Metric
+  PosX: 210.8
+  PosY: -106.4
+  Rot: 90.0
+  Side: bottom
+  Val: '270'
+- '# Ref': SW1
+  Package: SW_SPST_PTS815
+  PosX: 220.8
+  PosY: -115.0
+  Rot: 180.0
+  Side: bottom
+  Val: SW_Push
+- '# Ref': SW2
+  Package: SW_SPST_PTS815
+  PosX: 220.8
+  PosY: -105.0
+  Rot: 180.0
+  Side: bottom
+  Val: SW_Push
+- '# Ref': U1
+  Package: QFN-56_EP_7x7_Pitch0.4mm
+  PosX: 213.6
+  PosY: -111.8
+  Rot: -90.0
+  Side: bottom
+  Val: RP2040
+- '# Ref': U2
+  Package: SOT-23-5_HandSoldering
+  PosX: 203.4
+  PosY: -113.8
+  Rot: 0.0
+  Side: bottom
+  Val: NCP115ASN330
+- '# Ref': U3
+  Package: WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm
+  PosX: 204.0
+  PosY: -106.8
+  Rot: 180.0
+  Side: bottom
+  Val: W25Q16JV
+- '# Ref': Y1
+  Package: Crystal_SMD_3225-4Pin_3.2x2.5mm
+  PosX: 221.4
+  PosY: -110.0
+  Rot: -90.0
+  Side: bottom
+  Val: 12_M
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C1 | 1u | C_0402_1005Metric | 206.4\
+  \ | -113.8 | 90.0 | bottom | \n| C2 | 100n | C_0402_1005Metric | 208.4 | -112.2\
+  \ | 180.0 | bottom | \n| C3 | 1u | C_0402_1005Metric | 208.4 | -114.0 | 180.0 |\
+  \ bottom | \n| C4 | 100n | C_0402_1005Metric | 218.8 | -111.6 | 0.0 | bottom | \n\
+  | C5 | 100n | C_0402_1005Metric | 218.8 | -112.6 | 0.0 | bottom | \n| C6 | 100n\
+  \ | C_0402_1005Metric | 207.8 | -108.2 | -90.0 | bottom | \n| C7 | 1u | C_0402_1005Metric\
+  \ | 202.8 | -111.6 | 0.0 | bottom | \n| C8 | 100n | C_0402_1005Metric | 208.4 |\
+  \ -111.2 | 180.0 | bottom | \n| C9 | 100n | C_0402_1005Metric | 218.8 | -107.4 |\
+  \ 0.0 | bottom | \n| C10 | 10p | C_0402_1005Metric | 221.4 | -107.4 | 180.0 | bottom\
+  \ | \n| C11 | 1u | C_0402_1005Metric | 208.4 | -115.0 | 180.0 | bottom | \n| C12\
+  \ | 10p | C_0402_1005Metric | 221.4 | -112.6 | 0.0 | bottom | \n| C13 | 100n | C_0402_1005Metric\
+  \ | 218.8 | -108.4 | 0.0 | bottom | \n| R1 | 2k2 | R_0402_1005Metric | 218.2 | -117.6\
+  \ | 0.0 | bottom | \n| R2 | 2k2 | R_0402_1005Metric | 218.4 | -102.4 | 0.0 | bottom\
+  \ | \n| R3 | 270 | R_0402_1005Metric | 208.4 | -104.6 | 180.0 | bottom | \n| R4\
+  \ | 27R | R_0402_1005Metric | 205.4 | -111.2 | 0.0 | bottom | \n| R5 | 27R | R_0402_1005Metric\
+  \ | 205.4 | -110.2 | 0.0 | bottom | \n| R12 | 270 | R_0402_1005Metric | 216.8 |\
+  \ -106.4 | -90.0 | bottom | \n| R13 | 270 | R_0402_1005Metric | 213.8 | -106.4 |\
+  \ -90.0 | bottom | \n| R14 | 270 | R_0402_1005Metric | 212.8 | -106.4 | 90.0 | bottom\
+  \ | \n| R15 | 270 | R_0402_1005Metric | 209.8 | -106.4 | 90.0 | bottom | \n| R16\
+  \ | 270 | R_0402_1005Metric | 215.8 | -106.4 | -90.0 | bottom | \n| R17 | 270 |\
+  \ R_0402_1005Metric | 214.8 | -106.4 | -90.0 | bottom | \n| R18 | 270 | R_0402_1005Metric\
+  \ | 211.8 | -106.4 | -90.0 | bottom | \n| R19 | 270 | R_0402_1005Metric | 210.8\
+  \ | -106.4 | 90.0 | bottom | \n| SW1 | SW_Push | SW_SPST_PTS815 | 220.8 | -115.0\
+  \ | 180.0 | bottom | \n| SW2 | SW_Push | SW_SPST_PTS815 | 220.8 | -105.0 | 180.0\
+  \ | bottom | \n| U1 | RP2040 | QFN-56_EP_7x7_Pitch0.4mm | 213.6 | -111.8 | -90.0\
+  \ | bottom | \n| U2 | NCP115ASN330 | SOT-23-5_HandSoldering | 203.4 | -113.8 | 0.0\
+  \ | bottom | \n| U3 | W25Q16JV | WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm | 204.0 | -106.8\
+  \ | 180.0 | bottom | \n| Y1 | 12_M | Crystal_SMD_3225-4Pin_3.2x2.5mm | 221.4 | -110.0\
+  \ | -90.0 | bottom | \n"
+position_top:
+- '# Ref': D1
+  Package: LED_0805_2012Metric
+  PosX: 213.8
+  PosY: -117.6
+  Rot: -90.0
+  Side: top
+  Val: LED
+- '# Ref': J1
+  Package: USB_A_PLUG_PCB
+  PosX: 212.5
+  PosY: -110.0
+  Rot: 90.0
+  Side: top
+  Val: USB_A
+- '# Ref': J5
+  Package: HDMI-SS-53000
+  PosX: 216.0
+  PosY: -110.0
+  Rot: -90.0
+  Side: top
+  Val: NOT_HDMI_A
+- '# Ref': R6
+  Package: R_0402_1005Metric
+  PosX: 215.91
+  PosY: -118.8
+  Rot: 180.0
+  Side: top
+  Val: 2k2
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| D1 | LED | LED_0805_2012Metric | 213.8\
+  \ | -117.6 | -90.0 | top | \n| J1 | USB_A | USB_A_PLUG_PCB | 212.5 | -110.0 | 90.0\
+  \ | top | \n| J5 | NOT_HDMI_A | HDMI-SS-53000 | 216.0 | -110.0 | -90.0 | top | \n\
+  | R6 | 2k2 | R_0402_1005Metric | 215.91 | -118.8 | 180.0 | top | \n"
 projects_flat: projects/adafruit_picodvi_picodvi/current_version/working
 repo:
   allow_forking: true

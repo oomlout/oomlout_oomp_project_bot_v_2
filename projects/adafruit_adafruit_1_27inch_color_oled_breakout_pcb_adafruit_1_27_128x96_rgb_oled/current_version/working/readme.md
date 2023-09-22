@@ -11,6 +11,7 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/adafruit/Adafruit-1.27inch-Color-OLED-Breakout-PCB/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_1_27inch_color_oled_breakout_pcb_adafruit_1_27_128x96_rgb_oled/current_version/working  
 
 ## schematic  
 ![](working_schematic_600.png)  

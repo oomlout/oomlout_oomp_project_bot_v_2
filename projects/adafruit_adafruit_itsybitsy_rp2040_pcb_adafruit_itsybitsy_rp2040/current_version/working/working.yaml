@@ -1,9 +1,796 @@
 board: adafruit_itsybitsy_rp2040
+bom:
+- Id: '1'
+  Designator: C11,C2
+  Footprint: _0603MP
+  Quantity: '2'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C10,C3,C4,C13,C16,C12
+  Footprint: _0402NO
+  Quantity: '6'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: IC3
+  Footprint: QFN56_7MM_REDUCEDEPAD
+  Quantity: '1'
+  Designation: RP2040_QFN56
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$35,U$34
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: D3,D1,D2
+  Footprint: SOD-323F
+  Quantity: '3'
+  Designation: NSR0320
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R5,R1
+  Footprint: _0402NO
+  Quantity: '2'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R4,R3
+  Footprint: _0402NO
+  Quantity: '2'
+  Designation: '22'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C6,C8
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: "10\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: L0
+  Footprint: CHIPLED_0603_NOOUTLINE
+  Quantity: '1'
+  Designation: RED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U1
+  Footprint: USON8_4X4
+  Quantity: '1'
+  Designation: GD25x16
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: JP4,JP2
+  Footprint: 1X14_ROUND70
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: R2
+  Footprint: _0402NO
+  Quantity: '1'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: IC1
+  Footprint: SC70-5
+  Quantity: '1'
+  Designation: 74HCT1G125DBV
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: C20,C19
+  Footprint: _0402NO
+  Quantity: '2'
+  Designation: 22pF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: R11,R6,R7
+  Footprint: _0402NO
+  Quantity: '3'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: U$4
+  Footprint: ITSY2040_TOP
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: Y1
+  Footprint: CRYSTAL_2.5X2
+  Quantity: '1'
+  Designation: 12MHZ
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: X3
+  Footprint: 4UCONN_20329_NARROW
+  Quantity: '1'
+  Designation: microUSB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: SW3,SW2
+  Footprint: BTN_KMR2_4.6X2.8
+  Quantity: '2'
+  Designation: KMR2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: U2
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: AP2112K-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '21'
+  Designator: JP1
+  Footprint: 1X05_ROUND_70
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '22'
+  Designator: LED1
+  Footprint: SK6805_1515
+  Quantity: '1'
+  Designation: WS2812B_SK6805_1515
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '23'
+  Designator: TP1
+  Footprint: TESTPOINT_ROUND_1.5MM_NO
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '24'
+  Designator: U$5
+  Footprint: ITSY2040_BOT
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C11,C2\
+  \ | _0603MP | 2 | 1uF |  |  | [''] | \n| 2 | C10,C3,C4,C13,C16,C12 | _0402NO | 6\
+  \ | 0.1uF |  |  | [''] | \n| 3 | IC3 | QFN56_7MM_REDUCEDEPAD | 1 | RP2040_QFN56\
+  \ |  |  | [''] | \n| 4 | U$35,U$34 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | ['']\
+  \ | \n| 5 | D3,D1,D2 | SOD-323F | 3 | NSR0320 |  |  | [''] | \n| 6 | R5,R1 | _0402NO\
+  \ | 2 | 10K |  |  | [''] | \n| 7 | R4,R3 | _0402NO | 2 | 22 |  |  | [''] | \n| 8\
+  \ | C6,C8 | 0805-NO | 2 | 10\xC2\xB5F |  |  | [''] | \n| 9 | L0 | CHIPLED_0603_NOOUTLINE\
+  \ | 1 | RED |  |  | [''] | \n| 10 | U1 | USON8_4X4 | 1 | GD25x16 |  |  | [''] |\
+  \ \n| 11 | JP4,JP2 | 1X14_ROUND70 | 2 |  |  |  | [''] | \n| 12 | R2 | _0402NO |\
+  \ 1 | 10k |  |  | [''] | \n| 13 | IC1 | SC70-5 | 1 | 74HCT1G125DBV |  |  | ['']\
+  \ | \n| 14 | C20,C19 | _0402NO | 2 | 22pF |  |  | [''] | \n| 15 | R11,R6,R7 | _0402NO\
+  \ | 3 | 1K |  |  | [''] | \n| 16 | U$4 | ITSY2040_TOP | 1 |  |  |  | [''] | \n|\
+  \ 17 | Y1 | CRYSTAL_2.5X2 | 1 | 12MHZ |  |  | [''] | \n| 18 | X3 | 4UCONN_20329_NARROW\
+  \ | 1 | microUSB |  |  | [''] | \n| 19 | SW3,SW2 | BTN_KMR2_4.6X2.8 | 2 | KMR2 |\
+  \  |  | [''] | \n| 20 | U2 | SOT23-5 | 1 | AP2112K-3.3 |  |  | [''] | \n| 21 | JP1\
+  \ | 1X05_ROUND_70 | 1 |  |  |  | [''] | \n| 22 | LED1 | SK6805_1515 | 1 | WS2812B_SK6805_1515\
+  \ |  |  | [''] | \n| 23 | TP1 | TESTPOINT_ROUND_1.5MM_NO | 1 |  |  |  | [''] | \n\
+  | 24 | U$5 | ITSY2040_BOT | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC_0603MP
+  DNP: ''
+  Description: ''
+  Footprint: working:_0603MP
+  Qnty: '2'
+  Ref: C2, C11
+  Value: 1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC_0402NO
+  DNP: ''
+  Description: ''
+  Footprint: working:_0402NO
+  Qnty: '6'
+  Ref: C3, C4, C10, C12, C13, C16
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C6, C8
+  Value: "10\xC2\xB5F"
+  Vendor: ''
+- Cmp name: CAP_CERAMIC_0402NO
+  DNP: ''
+  Description: ''
+  Footprint: working:_0402NO
+  Qnty: '2'
+  Ref: C19, C20
+  Value: 22pF
+  Vendor: ''
+- Cmp name: DIODESOD-323F
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-323F
+  Qnty: '3'
+  Ref: D1, D2, D3
+  Value: NSR0320
+  Vendor: ''
+- Cmp name: 741G125DCK
+  DNP: ''
+  Description: ''
+  Footprint: working:SC70-5
+  Qnty: '1'
+  Ref: IC1
+  Value: 741G125DCK
+  Vendor: ''
+- Cmp name: RP2040_QFN56
+  DNP: ''
+  Description: ''
+  Footprint: working:QFN56_7MM_REDUCEDEPAD
+  Qnty: '1'
+  Ref: IC3
+  Value: RP2040_QFN56
+  Vendor: ''
+- Cmp name: HEADER-1X570MIL
+  DNP: ''
+  Description: ''
+  Footprint: working:1X05_ROUND_70
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X570MIL
+  Vendor: ''
+- Cmp name: HEADER-1X14
+  DNP: ''
+  Description: ''
+  Footprint: working:1X14_ROUND70
+  Qnty: '2'
+  Ref: JP2, JP4
+  Value: HEADER-1X14
+  Vendor: ''
+- Cmp name: LED0603_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0603_NOOUTLINE
+  Qnty: '1'
+  Ref: L0
+  Value: RED
+  Vendor: ''
+- Cmp name: WS2812B_SK6805_1515
+  DNP: ''
+  Description: ''
+  Footprint: working:SK6805_1515
+  Qnty: '1'
+  Ref: LED1
+  Value: WS2812B_SK6805_1515
+  Vendor: ''
+- Cmp name: RESISTOR_0402NO
+  DNP: ''
+  Description: ''
+  Footprint: working:_0402NO
+  Qnty: '2'
+  Ref: R1, R5
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_0402NO
+  DNP: ''
+  Description: ''
+  Footprint: working:_0402NO
+  Qnty: '1'
+  Ref: R2
+  Value: 10k
+  Vendor: ''
+- Cmp name: RESISTOR_0402NO
+  DNP: ''
+  Description: ''
+  Footprint: working:_0402NO
+  Qnty: '2'
+  Ref: R3, R4
+  Value: '22'
+  Vendor: ''
+- Cmp name: RESISTOR_0402NO
+  DNP: ''
+  Description: ''
+  Footprint: working:_0402NO
+  Qnty: '3'
+  Ref: R6, R7, R11
+  Value: 1K
+  Vendor: ''
+- Cmp name: SWITCH_TACT_SMT4.6X2.8
+  DNP: ''
+  Description: ''
+  Footprint: working:BTN_KMR2_4.6X2.8
+  Qnty: '2'
+  Ref: SW2, SW3
+  Value: KMR2
+  Vendor: ''
+- Cmp name: TESTPOINTROUND1.5MMNO
+  DNP: ''
+  Description: ''
+  Footprint: working:TESTPOINT_ROUND_1.5MM_NO
+  Qnty: '1'
+  Ref: TP1
+  Value: TESTPOINTROUND1.5MMNO
+  Vendor: ''
+- Cmp name: SPIFLASH_8PIN_4X4
+  DNP: ''
+  Description: ''
+  Footprint: working:USON8_4X4
+  Qnty: '1'
+  Ref: U1
+  Value: GD25x16
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U2
+  Value: AP2112K-3.3
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: U$34, U$35
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: USB_MICRO_NARROW
+  DNP: ''
+  Description: ''
+  Footprint: working:4UCONN_20329_NARROW
+  Qnty: '1'
+  Ref: X3
+  Value: microUSB
+  Vendor: ''
+- Cmp name: CRYSTAL2.5X2.0
+  DNP: ''
+  Description: ''
+  Footprint: working:CRYSTAL_2.5X2
+  Qnty: '1'
+  Ref: Y1
+  Value: 12MHZ
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C2, C11\
+  \ | 2 | 1uF | CAP_CERAMIC_0603MP | working:_0603MP |  |  |  | \n| C3, C4, C10, C12,\
+  \ C13, C16 | 6 | 0.1uF | CAP_CERAMIC_0402NO | working:_0402NO |  |  |  | \n| C6,\
+  \ C8 | 2 | 10\xC2\xB5F | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  |\
+  \ \n| C19, C20 | 2 | 22pF | CAP_CERAMIC_0402NO | working:_0402NO |  |  |  | \n|\
+  \ D1, D2, D3 | 3 | NSR0320 | DIODESOD-323F | working:SOD-323F |  |  |  | \n| IC1\
+  \ | 1 | 741G125DCK | 741G125DCK | working:SC70-5 |  |  |  | \n| IC3 | 1 | RP2040_QFN56\
+  \ | RP2040_QFN56 | working:QFN56_7MM_REDUCEDEPAD |  |  |  | \n| JP1 | 1 | HEADER-1X570MIL\
+  \ | HEADER-1X570MIL | working:1X05_ROUND_70 |  |  |  | \n| JP2, JP4 | 2 | HEADER-1X14\
+  \ | HEADER-1X14 | working:1X14_ROUND70 |  |  |  | \n| L0 | 1 | RED | LED0603_NOOUTLINE\
+  \ | working:CHIPLED_0603_NOOUTLINE |  |  |  | \n| LED1 | 1 | WS2812B_SK6805_1515\
+  \ | WS2812B_SK6805_1515 | working:SK6805_1515 |  |  |  | \n| R1, R5 | 2 | 10K |\
+  \ RESISTOR_0402NO | working:_0402NO |  |  |  | \n| R2 | 1 | 10k | RESISTOR_0402NO\
+  \ | working:_0402NO |  |  |  | \n| R3, R4 | 2 | 22 | RESISTOR_0402NO | working:_0402NO\
+  \ |  |  |  | \n| R6, R7, R11 | 3 | 1K | RESISTOR_0402NO | working:_0402NO |  | \
+  \ |  | \n| SW2, SW3 | 2 | KMR2 | SWITCH_TACT_SMT4.6X2.8 | working:BTN_KMR2_4.6X2.8\
+  \ |  |  |  | \n| TP1 | 1 | TESTPOINTROUND1.5MMNO | TESTPOINTROUND1.5MMNO | working:TESTPOINT_ROUND_1.5MM_NO\
+  \ |  |  |  | \n| U1 | 1 | GD25x16 | SPIFLASH_8PIN_4X4 | working:USON8_4X4 |  | \
+  \ |  | \n| U2 | 1 | AP2112K-3.3 | VREG_SOT23-5 | working:SOT23-5 |  |  |  | \n|\
+  \ U$34, U$35 | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  |\
+  \ \n| X3 | 1 | microUSB | USB_MICRO_NARROW | working:4UCONN_20329_NARROW |  |  |\
+  \  | \n| Y1 | 1 | 12MHZ | CRYSTAL2.5X2.0 | working:CRYSTAL_2.5X2 |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_itsybitsy_rp2040_pcb_adafruit_itsybitsy_rp2040/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_itsybitsy_rp2040_pcb_adafruit_itsybitsy_rp2040/current_version/working/working.sch
 id: adafruit_adafruit_itsybitsy_rp2040_pcb_adafruit_itsybitsy_rp2040
 name: adafruit_itsybitsy_rp2040_pcb
+position_bottom:
+- '# Ref': TP1
+  Package: TESTPOINT_ROUND_1.5MM_NO
+  PosX: 159.9311
+  PosY: -102.4636
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$5
+  Package: ITSY2040_BOT
+  PosX: 166.2811
+  PosY: -113.8936
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| TP1 | nan | TESTPOINT_ROUND_1.5MM_NO\
+  \ | 159.9311 | -102.4636 | 180.0 | bottom | \n| U$5 | nan | ITSY2040_BOT | 166.2811\
+  \ | -113.8936 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C2
+  Package: _0603MP
+  PosX: 155.8036
+  PosY: -100.1268
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C3
+  Package: _0402NO
+  PosX: 155.3972
+  PosY: -108.5088
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C4
+  Package: _0402NO
+  PosX: 143.8148
+  PosY: -107.6452
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C6
+  Package: 0805-NO
+  PosX: 139.2282
+  PosY: -101.8617
+  Rot: 90.0
+  Side: top
+  Val: "10\xC2\xB5F"
+- '# Ref': C8
+  Package: 0805-NO
+  PosX: 139.5511
+  PosY: -109.7811
+  Rot: 180.0
+  Side: top
+  Val: "10\xC2\xB5F"
+- '# Ref': C10
+  Package: _0402NO
+  PosX: 157.4546
+  PosY: -107.6706
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C11
+  Package: _0603MP
+  PosX: 156.6926
+  PosY: -109.3597
+  Rot: -90.0
+  Side: top
+  Val: 1uF
+- '# Ref': C12
+  Package: _0402NO
+  PosX: 141.9606
+  PosY: -109.3851
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C13
+  Package: _0402NO
+  PosX: 143.8148
+  PosY: -106.426
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C16
+  Package: _0402NO
+  PosX: 155.2321
+  PosY: -110.0963
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C19
+  Package: _0402NO
+  PosX: 142.4178
+  PosY: -101.7016
+  Rot: 0.0
+  Side: top
+  Val: 22pF
+- '# Ref': C20
+  Package: _0402NO
+  PosX: 142.1384
+  PosY: -105.7529
+  Rot: 90.0
+  Side: top
+  Val: 22pF
+- '# Ref': D1
+  Package: SOD-323F
+  PosX: 136.3345
+  PosY: -99.9998
+  Rot: 0.0
+  Side: top
+  Val: NSR0320
+- '# Ref': D2
+  Package: SOD-323F
+  PosX: 137.7061
+  PosY: -102.0953
+  Rot: 90.0
+  Side: top
+  Val: NSR0320
+- '# Ref': D3
+  Package: SOD-323F
+  PosX: 163.0553
+  PosY: -104.4448
+  Rot: 90.0
+  Side: top
+  Val: NSR0320
+- '# Ref': IC1
+  Package: SC70-5
+  PosX: 144.6911
+  PosY: -100.8126
+  Rot: 0.0
+  Side: top
+  Val: 74HCT1G125DBV
+- '# Ref': IC3
+  Package: QFN56_7MM_REDUCEDEPAD
+  PosX: 151.2316
+  PosY: -104.6861
+  Rot: -90.0
+  Side: top
+  Val: RP2040_QFN56
+- '# Ref': JP1
+  Package: 1X05_ROUND_70
+  PosX: 165.0111
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': JP2
+  Package: 1X14_ROUND70
+  PosX: 148.5011
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': JP4
+  Package: 1X14_ROUND70
+  PosX: 148.5011
+  PosY: -112.6236
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': L0
+  Package: CHIPLED_0603_NOOUTLINE
+  PosX: 140.6036
+  PosY: -101.876
+  Rot: 180.0
+  Side: top
+  Val: RED
+- '# Ref': LED1
+  Package: SK6805_1515
+  PosX: 143.8148
+  PosY: -108.9914
+  Rot: 90.0
+  Side: top
+  Val: WS2812B_SK6805_1515
+- '# Ref': R1
+  Package: _0402NO
+  PosX: 139.319
+  PosY: -104.1146
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: _0402NO
+  PosX: 156.0195
+  PosY: -101.2571
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R3
+  Package: _0402NO
+  PosX: 137.4521
+  PosY: -107.6071
+  Rot: -90.0
+  Side: top
+  Val: '22'
+- '# Ref': R4
+  Package: _0402NO
+  PosX: 137.5537
+  PosY: -104.6734
+  Rot: -90.0
+  Side: top
+  Val: '22'
+- '# Ref': R5
+  Package: _0402NO
+  PosX: 136.6266
+  PosY: -109.9566
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R6
+  Package: _0402NO
+  PosX: 143.764
+  PosY: -105.2703
+  Rot: 0.0
+  Side: top
+  Val: 1K
+- '# Ref': R7
+  Package: _0402NO
+  PosX: 141.9606
+  PosY: -100.0887
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': R11
+  Package: _0402NO
+  PosX: 162.5092
+  PosY: -106.6038
+  Rot: 0.0
+  Side: top
+  Val: 1K
+- '# Ref': SW2
+  Package: BTN_KMR2_4.6X2.8
+  PosX: 160.9471
+  PosY: -108.9406
+  Rot: 180.0
+  Side: top
+  Val: KMR2
+- '# Ref': SW3
+  Package: BTN_KMR2_4.6X2.8
+  PosX: 160.9471
+  PosY: -101.0666
+  Rot: 180.0
+  Side: top
+  Val: KMR2
+- '# Ref': U$4
+  Package: ITSY2040_TOP
+  PosX: 130.7211
+  PosY: -113.8936
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$34
+  Package: FIDUCIAL_1MM
+  PosX: 161.3281
+  PosY: -100.9396
+  Rot: -90.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': U$35
+  Package: FIDUCIAL_1MM
+  PosX: 131.5303
+  PosY: -110.7243
+  Rot: -90.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': U1
+  Package: USON8_4X4
+  PosX: 159.1818
+  PosY: -105.1306
+  Rot: 180.0
+  Side: top
+  Val: GD25x16
+- '# Ref': U2
+  Package: SOT23-5
+  PosX: 139.7381
+  PosY: -106.6546
+  Rot: 180.0
+  Side: top
+  Val: AP2112K-3.3
+- '# Ref': X3
+  Package: 4UCONN_20329_NARROW
+  PosX: 135.1661
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: microUSB
+- '# Ref': Y1
+  Package: CRYSTAL_2.5X2
+  PosX: 142.7226
+  PosY: -103.4288
+  Rot: 0.0
+  Side: top
+  Val: 12MHZ
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C2 | 1uF | _0603MP | 155.8036 | -100.1268\
+  \ | 0.0 | top | \n| C3 | 0.1uF | _0402NO | 155.3972 | -108.5088 | 90.0 | top | \n\
+  | C4 | 0.1uF | _0402NO | 143.8148 | -107.6452 | 0.0 | top | \n| C6 | 10\xC2\xB5\
+  F | 0805-NO | 139.2282 | -101.8617 | 90.0 | top | \n| C8 | 10\xC2\xB5F | 0805-NO\
+  \ | 139.5511 | -109.7811 | 180.0 | top | \n| C10 | 0.1uF | _0402NO | 157.4546 |\
+  \ -107.6706 | 180.0 | top | \n| C11 | 1uF | _0603MP | 156.6926 | -109.3597 | -90.0\
+  \ | top | \n| C12 | 0.1uF | _0402NO | 141.9606 | -109.3851 | 90.0 | top | \n| C13\
+  \ | 0.1uF | _0402NO | 143.8148 | -106.426 | 180.0 | top | \n| C16 | 0.1uF | _0402NO\
+  \ | 155.2321 | -110.0963 | 0.0 | top | \n| C19 | 22pF | _0402NO | 142.4178 | -101.7016\
+  \ | 0.0 | top | \n| C20 | 22pF | _0402NO | 142.1384 | -105.7529 | 90.0 | top | \n\
+  | D1 | NSR0320 | SOD-323F | 136.3345 | -99.9998 | 0.0 | top | \n| D2 | NSR0320 |\
+  \ SOD-323F | 137.7061 | -102.0953 | 90.0 | top | \n| D3 | NSR0320 | SOD-323F | 163.0553\
+  \ | -104.4448 | 90.0 | top | \n| IC1 | 74HCT1G125DBV | SC70-5 | 144.6911 | -100.8126\
+  \ | 0.0 | top | \n| IC3 | RP2040_QFN56 | QFN56_7MM_REDUCEDEPAD | 151.2316 | -104.6861\
+  \ | -90.0 | top | \n| JP1 | nan | 1X05_ROUND_70 | 165.0111 | -105.0036 | 90.0 |\
+  \ top | \n| JP2 | nan | 1X14_ROUND70 | 148.5011 | -97.3836 | 0.0 | top | \n| JP4\
+  \ | nan | 1X14_ROUND70 | 148.5011 | -112.6236 | 180.0 | top | \n| L0 | RED | CHIPLED_0603_NOOUTLINE\
+  \ | 140.6036 | -101.876 | 180.0 | top | \n| LED1 | WS2812B_SK6805_1515 | SK6805_1515\
+  \ | 143.8148 | -108.9914 | 90.0 | top | \n| R1 | 10K | _0402NO | 139.319 | -104.1146\
+  \ | 180.0 | top | \n| R2 | 10k | _0402NO | 156.0195 | -101.2571 | 0.0 | top | \n\
+  | R3 | 22 | _0402NO | 137.4521 | -107.6071 | -90.0 | top | \n| R4 | 22 | _0402NO\
+  \ | 137.5537 | -104.6734 | -90.0 | top | \n| R5 | 10K | _0402NO | 136.6266 | -109.9566\
+  \ | 180.0 | top | \n| R6 | 1K | _0402NO | 143.764 | -105.2703 | 0.0 | top | \n|\
+  \ R7 | 1K | _0402NO | 141.9606 | -100.0887 | 180.0 | top | \n| R11 | 1K | _0402NO\
+  \ | 162.5092 | -106.6038 | 0.0 | top | \n| SW2 | KMR2 | BTN_KMR2_4.6X2.8 | 160.9471\
+  \ | -108.9406 | 180.0 | top | \n| SW3 | KMR2 | BTN_KMR2_4.6X2.8 | 160.9471 | -101.0666\
+  \ | 180.0 | top | \n| U$4 | nan | ITSY2040_TOP | 130.7211 | -113.8936 | 0.0 | top\
+  \ | \n| U$34 | FIDUCIAL_1MM | FIDUCIAL_1MM | 161.3281 | -100.9396 | -90.0 | top\
+  \ | \n| U$35 | FIDUCIAL_1MM | FIDUCIAL_1MM | 131.5303 | -110.7243 | -90.0 | top\
+  \ | \n| U1 | GD25x16 | USON8_4X4 | 159.1818 | -105.1306 | 180.0 | top | \n| U2 |\
+  \ AP2112K-3.3 | SOT23-5 | 139.7381 | -106.6546 | 180.0 | top | \n| X3 | microUSB\
+  \ | 4UCONN_20329_NARROW | 135.1661 | -105.0036 | -90.0 | top | \n| Y1 | 12MHZ |\
+  \ CRYSTAL_2.5X2 | 142.7226 | -103.4288 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_itsybitsy_rp2040_pcb_adafruit_itsybitsy_rp2040/current_version/working
 repo:
   allow_forking: true

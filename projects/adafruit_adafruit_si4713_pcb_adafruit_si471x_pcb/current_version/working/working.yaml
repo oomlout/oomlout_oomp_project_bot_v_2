@@ -1,9 +1,628 @@
 board: adafruit_si471x_pcb
+bom:
+- Id: '1'
+  Designator: JP1
+  Footprint: 1X11_ROUND
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: X3
+  Footprint: 4UCONN_19269
+  Quantity: '1'
+  Designation: 3.5mm stereo
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: D2,D1
+  Footprint: SOD-323
+  Quantity: '2'
+  Designation: 1n4148
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C2,C3
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 0.47uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: ANT0
+  Footprint: 1X01
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U$7
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U1
+  Footprint: SI471X
+  Quantity: '1'
+  Designation: Si471x
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U$17,U$15
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '2'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: C5,C4
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R4,R2
+  Footprint: _0805MP
+  Quantity: '2'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: Y2
+  Footprint: CRYSTAL_8X3.8
+  Quantity: '1'
+  Designation: '32.768'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: C1
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 22nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: FID2,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: R5,R1,R3,R6
+  Footprint: 0805-NO
+  Quantity: '4'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: C7,C6
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 20pF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: Q2,Q1
+  Footprint: SOT23
+  Quantity: '2'
+  Designation: BSS138
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: L1
+  Footprint: _0805
+  Quantity: '1'
+  Designation: 120nH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: U2
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: MIC5225-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: U$9
+  Footprint: ADAFRUIT_TEXT_20MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | JP1\
+  \ | 1X11_ROUND | 1 |  |  |  | [''] | \n| 2 | X3 | 4UCONN_19269 | 1 | 3.5mm stereo\
+  \ |  |  | [''] | \n| 3 | D2,D1 | SOD-323 | 2 | 1n4148 |  |  | [''] | \n| 4 | C2,C3\
+  \ | 0805-NO | 2 | 0.47uF |  |  | [''] | \n| 5 | ANT0 | 1X01 | 1 |  |  |  | ['']\
+  \ | \n| 6 | U$7 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | \n| 7 | U1 | SI471X | 1 |\
+  \ Si471x |  |  | [''] | \n| 8 | U$17,U$15 | MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5\
+  \ |  |  | [''] | \n| 9 | C5,C4 | 0805-NO | 2 | 10uF |  |  | [''] | \n| 10 | R4,R2\
+  \ | _0805MP | 2 | 10K |  |  | [''] | \n| 11 | Y2 | CRYSTAL_8X3.8 | 1 | 32.768 |\
+  \  |  | [''] | \n| 12 | C1 | 0805-NO | 1 | 22nF |  |  | [''] | \n| 13 | FID2,FID1\
+  \ | FIDUCIAL_1MM | 2 | FIDUCIAL\" |  |  | [''] | \n| 14 | R5,R1,R3,R6 | 0805-NO\
+  \ | 4 | 10K |  |  | [''] | \n| 15 | C7,C6 | 0805-NO | 2 | 20pF |  |  | [''] | \n\
+  | 16 | Q2,Q1 | SOT23 | 2 | BSS138 |  |  | [''] | \n| 17 | L1 | _0805 | 1 | 120nH\
+  \ |  |  | [''] | \n| 18 | U2 | SOT23-5 | 1 | MIC5225-3.3 |  |  | [''] | \n| 19 |\
+  \ U$9 | ADAFRUIT_TEXT_20MM | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: PINHD-1X1
+  DNP: ''
+  Description: ''
+  Footprint: working:1X01
+  Qnty: '1'
+  Ref: ANT0
+  Value: PINHD-1X1
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C1
+  Value: 22nF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C2, C3
+  Value: 0.47uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C4, C5
+  Value: 10uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C6, C7
+  Value: 20pF
+  Vendor: ''
+- Cmp name: DIODESOD-323
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-323
+  Qnty: '2'
+  Ref: D1, D2
+  Value: 1n4148
+  Vendor: ''
+- Cmp name: FIDUCIAL{dblquote}{dblquote}
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL""
+  Vendor: ''
+- Cmp name: HEADER-1X11
+  DNP: ''
+  Description: ''
+  Footprint: working:1X11_ROUND
+  Qnty: '1'
+  Ref: JP1
+  Value: HEADER-1X11
+  Vendor: ''
+- Cmp name: INDUCTOR_0805
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805
+  Qnty: '1'
+  Ref: L1
+  Value: 120nH
+  Vendor: ''
+- Cmp name: MOSFET-NREFLOW
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23
+  Qnty: '2'
+  Ref: Q1, Q2
+  Value: BSS138
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '4'
+  Ref: R1, R3, R5, R6
+  Value: 10K
+  Vendor: ''
+- Cmp name: RESISTOR_0805MP
+  DNP: ''
+  Description: ''
+  Footprint: working:_0805MP
+  Qnty: '2'
+  Ref: R2, R4
+  Value: 10K
+  Vendor: ''
+- Cmp name: SI471X
+  DNP: ''
+  Description: ''
+  Footprint: working:SI471X
+  Qnty: '1'
+  Ref: U1
+  Value: Si471x
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U2
+  Value: MIC5225-3.3
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '2'
+  Ref: U$15, U$17
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+- Cmp name: AUDIO_3.5MMJACK
+  DNP: ''
+  Description: ''
+  Footprint: working:4UCONN_19269
+  Qnty: '1'
+  Ref: X3
+  Value: 3.5mm stereo
+  Vendor: ''
+- Cmp name: CRYSTAL8.0X3.8
+  DNP: ''
+  Description: ''
+  Footprint: working:CRYSTAL_8X3.8
+  Qnty: '1'
+  Ref: Y2
+  Value: '32.768'
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| ANT0\
+  \ | 1 | PINHD-1X1 | PINHD-1X1 | working:1X01 |  |  |  | \n| C1 | 1 | 22nF | CAP_CERAMIC0805-NOOUTLINE\
+  \ | working:0805-NO |  |  |  | \n| C2, C3 | 2 | 0.47uF | CAP_CERAMIC0805-NOOUTLINE\
+  \ | working:0805-NO |  |  |  | \n| C4, C5 | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE\
+  \ | working:0805-NO |  |  |  | \n| C6, C7 | 2 | 20pF | CAP_CERAMIC0805-NOOUTLINE\
+  \ | working:0805-NO |  |  |  | \n| D1, D2 | 2 | 1n4148 | DIODESOD-323 | working:SOD-323\
+  \ |  |  |  | \n| FID1, FID2 | 2 | FIDUCIAL\"\" | FIDUCIAL{dblquote}{dblquote} |\
+  \ working:FIDUCIAL_1MM |  |  |  | \n| JP1 | 1 | HEADER-1X11 | HEADER-1X11 | working:1X11_ROUND\
+  \ |  |  |  | \n| L1 | 1 | 120nH | INDUCTOR_0805 | working:_0805 |  |  |  | \n| Q1,\
+  \ Q2 | 2 | BSS138 | MOSFET-NREFLOW | working:SOT23 |  |  |  | \n| R1, R3, R5, R6\
+  \ | 4 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | \n| R2, R4 | 2\
+  \ | 10K | RESISTOR_0805MP | working:_0805MP |  |  |  | \n| U1 | 1 | Si471x | SI471X\
+  \ | working:SI471X |  |  |  | \n| U2 | 1 | MIC5225-3.3 | VREG_SOT23-5 | working:SOT23-5\
+  \ |  |  |  | \n| U$15, U$17 | 2 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED\
+  \ |  |  |  | \n| X3 | 1 | 3.5mm stereo | AUDIO_3.5MMJACK | working:4UCONN_19269\
+  \ |  |  |  | \n| Y2 | 1 | 32.768 | CRYSTAL8.0X3.8 | working:CRYSTAL_8X3.8 |  | \
+  \ |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_si4713_pcb_adafruit_si471x_pcb/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_si4713_pcb_adafruit_si471x_pcb/current_version/working/working.sch
 id: adafruit_adafruit_si4713_pcb_adafruit_si471x_pcb
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$15
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '33.02000000000001'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$17
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 33.02000000000001 | 0.0 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$15 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$17 | m3 | \n"
 name: adafruit_si4713_pcb
+position_bottom:
+- '# Ref': U$9
+  Package: ADAFRUIT_TEXT_20MM
+  PosX: 166.6621
+  PosY: -110.9726
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$9 | nan | ADAFRUIT_TEXT_20MM |\
+  \ 166.6621 | -110.9726 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': ANT0
+  Package: 1X01
+  PosX: 138.3411
+  PosY: -97.2566
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: 0805-NO
+  PosX: 147.7391
+  PosY: -108.1786
+  Rot: 90.0
+  Side: top
+  Val: 22nF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 158.4071
+  PosY: -107.9246
+  Rot: 90.0
+  Side: top
+  Val: 0.47uF
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 160.6931
+  PosY: -107.9246
+  Rot: 90.0
+  Side: top
+  Val: 0.47uF
+- '# Ref': C4
+  Package: 0805-NO
+  PosX: 149.7711
+  PosY: -108.1786
+  Rot: 90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C5
+  Package: 0805-NO
+  PosX: 156.1211
+  PosY: -107.9246
+  Rot: 90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C6
+  Package: 0805-NO
+  PosX: 150.7871
+  PosY: -100.3046
+  Rot: -90.0
+  Side: top
+  Val: 20pF
+- '# Ref': C7
+  Package: 0805-NO
+  PosX: 143.8021
+  PosY: -101.7016
+  Rot: -90.0
+  Side: top
+  Val: 20pF
+- '# Ref': D1
+  Package: SOD-323
+  PosX: 131.9911
+  PosY: -101.7016
+  Rot: 180.0
+  Side: top
+  Val: 1n4148
+- '# Ref': D2
+  Package: SOD-323
+  PosX: 132.3721
+  PosY: -98.1456
+  Rot: 180.0
+  Side: top
+  Val: 1n4148
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 134.2771
+  PosY: -96.6216
+  Rot: 180.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 165.2651
+  PosY: -108.6866
+  Rot: 180.0
+  Side: top
+  Val: FIDUCIAL""
+- '# Ref': JP1
+  Package: 1X11_ROUND
+  PosX: 148.5011
+  PosY: -112.3696
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': L1
+  Package: _0805
+  PosX: 139.3571
+  PosY: -100.1776
+  Rot: 0.0
+  Side: top
+  Val: 120nH
+- '# Ref': Q1
+  Package: SOT23
+  PosX: 139.6111
+  PosY: -108.8136
+  Rot: 180.0
+  Side: top
+  Val: BSS138
+- '# Ref': Q2
+  Package: SOT23
+  PosX: 145.1991
+  PosY: -108.6866
+  Rot: 180.0
+  Side: top
+  Val: BSS138
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 132.1181
+  PosY: -105.1306
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: _0805MP
+  PosX: 136.4361
+  PosY: -108.6866
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: 0805-NO
+  PosX: 142.4051
+  PosY: -108.6866
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R4
+  Package: _0805MP
+  PosX: 132.1181
+  PosY: -107.1626
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R5
+  Package: 0805-NO
+  PosX: 132.1181
+  PosY: -103.3526
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R6
+  Package: 0805-NO
+  PosX: 132.1181
+  PosY: -100.0506
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': U$7
+  Package: ADAFRUIT_3.5MM
+  PosX: 139.9921
+  PosY: -99.2886
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$15
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 165.0111
+  PosY: -111.9886
+  Rot: 180.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$17
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 131.9911
+  PosY: -111.9886
+  Rot: 180.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U1
+  Package: SI471X
+  PosX: 138.5951
+  PosY: -103.6066
+  Rot: -90.0
+  Side: top
+  Val: Si471x
+- '# Ref': U2
+  Package: SOT23-5
+  PosX: 153.0731
+  PosY: -107.9246
+  Rot: 90.0
+  Side: top
+  Val: MIC5225-3.3
+- '# Ref': X3
+  Package: 4UCONN_19269
+  PosX: 167.5511
+  PosY: -102.5906
+  Rot: 180.0
+  Side: top
+  Val: 3.5mm_stereo
+- '# Ref': Y2
+  Package: CRYSTAL_8X3.8
+  PosX: 147.1041
+  PosY: -101.7016
+  Rot: 90.0
+  Side: top
+  Val: '32.768'
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| ANT0 | nan | 1X01 | 138.3411 | -97.2566\
+  \ | 180.0 | top | \n| C1 | 22nF | 0805-NO | 147.7391 | -108.1786 | 90.0 | top |\
+  \ \n| C2 | 0.47uF | 0805-NO | 158.4071 | -107.9246 | 90.0 | top | \n| C3 | 0.47uF\
+  \ | 0805-NO | 160.6931 | -107.9246 | 90.0 | top | \n| C4 | 10uF | 0805-NO | 149.7711\
+  \ | -108.1786 | 90.0 | top | \n| C5 | 10uF | 0805-NO | 156.1211 | -107.9246 | 90.0\
+  \ | top | \n| C6 | 20pF | 0805-NO | 150.7871 | -100.3046 | -90.0 | top | \n| C7\
+  \ | 20pF | 0805-NO | 143.8021 | -101.7016 | -90.0 | top | \n| D1 | 1n4148 | SOD-323\
+  \ | 131.9911 | -101.7016 | 180.0 | top | \n| D2 | 1n4148 | SOD-323 | 132.3721 |\
+  \ -98.1456 | 180.0 | top | \n| FID1 | FIDUCIAL\"\" | FIDUCIAL_1MM | 134.2771 | -96.6216\
+  \ | 180.0 | top | \n| FID2 | FIDUCIAL\"\" | FIDUCIAL_1MM | 165.2651 | -108.6866\
+  \ | 180.0 | top | \n| JP1 | nan | 1X11_ROUND | 148.5011 | -112.3696 | 180.0 | top\
+  \ | \n| L1 | 120nH | _0805 | 139.3571 | -100.1776 | 0.0 | top | \n| Q1 | BSS138\
+  \ | SOT23 | 139.6111 | -108.8136 | 180.0 | top | \n| Q2 | BSS138 | SOT23 | 145.1991\
+  \ | -108.6866 | 180.0 | top | \n| R1 | 10K | 0805-NO | 132.1181 | -105.1306 | 180.0\
+  \ | top | \n| R2 | 10K | _0805MP | 136.4361 | -108.6866 | 90.0 | top | \n| R3 |\
+  \ 10K | 0805-NO | 142.4051 | -108.6866 | 90.0 | top | \n| R4 | 10K | _0805MP | 132.1181\
+  \ | -107.1626 | 0.0 | top | \n| R5 | 10K | 0805-NO | 132.1181 | -103.3526 | 0.0\
+  \ | top | \n| R6 | 10K | 0805-NO | 132.1181 | -100.0506 | 180.0 | top | \n| U$7\
+  \ | nan | ADAFRUIT_3.5MM | 139.9921 | -99.2886 | 0.0 | top | \n| U$15 | MOUNTINGHOLE2.5\
+  \ | MOUNTINGHOLE_2.5_PLATED | 165.0111 | -111.9886 | 180.0 | top | \n| U$17 | MOUNTINGHOLE2.5\
+  \ | MOUNTINGHOLE_2.5_PLATED | 131.9911 | -111.9886 | 180.0 | top | \n| U1 | Si471x\
+  \ | SI471X | 138.5951 | -103.6066 | -90.0 | top | \n| U2 | MIC5225-3.3 | SOT23-5\
+  \ | 153.0731 | -107.9246 | 90.0 | top | \n| X3 | 3.5mm_stereo | 4UCONN_19269 | 167.5511\
+  \ | -102.5906 | 180.0 | top | \n| Y2 | 32.768 | CRYSTAL_8X3.8 | 147.1041 | -101.7016\
+  \ | 90.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_si4713_pcb_adafruit_si471x_pcb/current_version/working
 repo:
   allow_forking: true

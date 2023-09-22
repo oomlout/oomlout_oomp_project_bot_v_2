@@ -1,9 +1,811 @@
 board: adafruit_2_13in_tri_color_eink_with_eyespi
+bom:
+- Id: '1'
+  Designator: U$6,U$3,U$4,U$5
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '4'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: EINK1
+  Footprint: EINK_154IN
+  Quantity: '1'
+  Designation: EINK_EPD0231EINK_154IN_200X200
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: JP2
+  Footprint: 1X13_ROUND_70
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C8,C7
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C3,C22,C23,C16,C4
+  Footprint: 0805-NO
+  Quantity: '5'
+  Designation: 1uF/25V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C20,C21
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: "10\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: IC1
+  Footprint: TSSOP20
+  Quantity: '1'
+  Designation: 74LVC245PW
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: D2,D3,D1
+  Footprint: SOD-123
+  Quantity: '3'
+  Designation: MBR0530
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R1,R3,R5,R6,R2
+  Footprint: 0805-NO
+  Quantity: '5'
+  Designation: 100K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: FID2,FID3,FID1
+  Footprint: FIDUCIAL_1MM
+  Quantity: '3'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: C15
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 10uF/10V+
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: R4
+  Footprint: 0805_10MGAP
+  Quantity: '1'
+  Designation: 0.47ohm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: Q5
+  Footprint: SOT23-3
+  Quantity: '1'
+  Designation: IRLML0100
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: U2
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: MIC5225-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: L1
+  Footprint: INDUCTOR_4X4MM_NR401
+  Quantity: '1'
+  Designation: 10uH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: C2,C6
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 1uF/10V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: U$9
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: C1
+  Footprint: 0805_10MGAP
+  Quantity: '1'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: U$28
+  Footprint: ADAFRUIT_TEXT_20MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: C24
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 1uF/6V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '21'
+  Designator: U4
+  Footprint: SOIC8_150MIL
+  Quantity: '1'
+  Designation: 23K640-I/SN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '22'
+  Designator: C5
+  Footprint: 0805-NO
+  Quantity: '1'
+  Designation: 4.7uF/25V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '23'
+  Designator: X1
+  Footprint: MICROSD
+  Quantity: '1'
+  Designation: MICROSD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U$6,U$3,U$4,U$5\
+  \ | MOUNTINGHOLE_2.5_PLATED | 4 | MOUNTINGHOLE2.5 |  |  | [''] | \n| 2 | EINK1 |\
+  \ EINK_154IN | 1 | EINK_EPD0231EINK_154IN_200X200 |  |  | [''] | \n| 3 | JP2 | 1X13_ROUND_70\
+  \ | 1 |  |  |  | [''] | \n| 4 | C8,C7 | 0805-NO | 2 | 1uF |  |  | [''] | \n| 5 |\
+  \ C3,C22,C23,C16,C4 | 0805-NO | 5 | 1uF/25V |  |  | [''] | \n| 6 | C20,C21 | 0805-NO\
+  \ | 2 | 10\xC2\xB5F |  |  | [''] | \n| 7 | IC1 | TSSOP20 | 1 | 74LVC245PW |  | \
+  \ | [''] | \n| 8 | D2,D3,D1 | SOD-123 | 3 | MBR0530 |  |  | [''] | \n| 9 | R1,R3,R5,R6,R2\
+  \ | 0805-NO | 5 | 100K |  |  | [''] | \n| 10 | FID2,FID3,FID1 | FIDUCIAL_1MM | 3\
+  \ | FIDUCIAL_1MM |  |  | [''] | \n| 11 | C15 | 0805-NO | 1 | 10uF/10V+ |  |  | ['']\
+  \ | \n| 12 | R4 | 0805_10MGAP | 1 | 0.47ohm |  |  | [''] | \n| 13 | Q5 | SOT23-3\
+  \ | 1 | IRLML0100 |  |  | [''] | \n| 14 | U2 | SOT23-5 | 1 | MIC5225-3.3 |  |  |\
+  \ [''] | \n| 15 | L1 | INDUCTOR_4X4MM_NR401 | 1 | 10uH |  |  | [''] | \n| 16 | C2,C6\
+  \ | 0805-NO | 2 | 1uF/10V |  |  | [''] | \n| 17 | U$9 | PCBFEAT-REV-040 | 1 |  |\
+  \  |  | [''] | \n| 18 | C1 | 0805_10MGAP | 1 | 1uF |  |  | [''] | \n| 19 | U$28\
+  \ | ADAFRUIT_TEXT_20MM | 1 |  |  |  | [''] | \n| 20 | C24 | 0805-NO | 1 | 1uF/6V\
+  \ |  |  | [''] | \n| 21 | U4 | SOIC8_150MIL | 1 | 23K640-I/SN |  |  | [''] | \n\
+  | 22 | C5 | 0805-NO | 1 | 4.7uF/25V |  |  | [''] | \n| 23 | X1 | MICROSD | 1 | MICROSD\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CAP_CERAMIC0805_10MGAP
+  DNP: ''
+  Description: ''
+  Footprint: working:0805_10MGAP
+  Qnty: '1'
+  Ref: C1
+  Value: 1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C2, C6
+  Value: 1uF/10V
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '5'
+  Ref: C3, C4, C16, C22, C23
+  Value: 1uF/25V
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C5
+  Value: 4.7uF/25V
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C7, C8
+  Value: 1uF
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C15
+  Value: 10uF/10V+
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '2'
+  Ref: C20, C21
+  Value: "10\xC2\xB5F"
+  Vendor: ''
+- Cmp name: CAP_CERAMIC0805-NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '1'
+  Ref: C24
+  Value: 1uF/6V
+  Vendor: ''
+- Cmp name: DIODE-SCHOTTKYSOD-123
+  DNP: ''
+  Description: ''
+  Footprint: working:SOD-123
+  Qnty: '3'
+  Ref: D1, D2, D3
+  Value: MBR0530
+  Vendor: ''
+- Cmp name: EINK_EPD0231EINK_154IN_200X200
+  DNP: ''
+  Description: ''
+  Footprint: working:EINK_154IN
+  Qnty: '1'
+  Ref: EINK1
+  Value: EINK_EPD0231EINK_154IN_200X200
+  Vendor: ''
+- Cmp name: FIDUCIAL_1MM
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '3'
+  Ref: FID1, FID2, FID3
+  Value: FIDUCIAL_1MM
+  Vendor: ''
+- Cmp name: 74245TSSOP20
+  DNP: ''
+  Description: ''
+  Footprint: working:TSSOP20
+  Qnty: '1'
+  Ref: IC1
+  Value: 74245TSSOP20
+  Vendor: ''
+- Cmp name: HEADER-1X13
+  DNP: ''
+  Description: ''
+  Footprint: working:1X13_ROUND_70
+  Qnty: '1'
+  Ref: JP2
+  Value: HEADER-1X13
+  Vendor: ''
+- Cmp name: INDUCTORNR401
+  DNP: ''
+  Description: ''
+  Footprint: working:INDUCTOR_4X4MM_NR401
+  Qnty: '1'
+  Ref: L1
+  Value: 10uH
+  Vendor: ''
+- Cmp name: IRLML2060TRPBF
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-3
+  Qnty: '1'
+  Ref: Q5
+  Value: IRLML2060TRPBF
+  Vendor: ''
+- Cmp name: RESISTOR0805_NOOUTLINE
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-NO
+  Qnty: '5'
+  Ref: R1, R2, R3, R5, R6
+  Value: 100K
+  Vendor: ''
+- Cmp name: RESISTOR0805_10MGAP
+  DNP: ''
+  Description: ''
+  Footprint: working:0805_10MGAP
+  Qnty: '1'
+  Ref: R4
+  Value: 0.47ohm
+  Vendor: ''
+- Cmp name: VREG_SOT23-5
+  DNP: ''
+  Description: ''
+  Footprint: working:SOT23-5
+  Qnty: '1'
+  Ref: U2
+  Value: MIC5225-3.3
+  Vendor: ''
+- Cmp name: SRAM_SPI_SOIC8
+  DNP: ''
+  Description: ''
+  Footprint: working:SOIC8_150MIL
+  Qnty: '1'
+  Ref: U4
+  Value: 23K640-I/SN
+  Vendor: ''
+- Cmp name: MOUNTINGHOLE2.5
+  DNP: ''
+  Description: ''
+  Footprint: working:MOUNTINGHOLE_2.5_PLATED
+  Qnty: '4'
+  Ref: U$3, U$4, U$5, U$6
+  Value: MOUNTINGHOLE2.5
+  Vendor: ''
+- Cmp name: MICROSD
+  DNP: ''
+  Description: ''
+  Footprint: working:MICROSD
+  Qnty: '1'
+  Ref: X1
+  Value: MICROSD
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 1uF | CAP_CERAMIC0805_10MGAP | working:0805_10MGAP |  |  |  | \n| C2, C6 |\
+  \ 2 | 1uF/10V | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | \n| C3, C4,\
+  \ C16, C22, C23 | 5 | 1uF/25V | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |\
+  \  |  | \n| C5 | 1 | 4.7uF/25V | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO | \
+  \ |  |  | \n| C7, C8 | 2 | 1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO | \
+  \ |  |  | \n| C15 | 1 | 10uF/10V+ | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO\
+  \ |  |  |  | \n| C20, C21 | 2 | 10\xC2\xB5F | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO\
+  \ |  |  |  | \n| C24 | 1 | 1uF/6V | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO\
+  \ |  |  |  | \n| D1, D2, D3 | 3 | MBR0530 | DIODE-SCHOTTKYSOD-123 | working:SOD-123\
+  \ |  |  |  | \n| EINK1 | 1 | EINK_EPD0231EINK_154IN_200X200 | EINK_EPD0231EINK_154IN_200X200\
+  \ | working:EINK_154IN |  |  |  | \n| FID1, FID2, FID3 | 3 | FIDUCIAL_1MM | FIDUCIAL_1MM\
+  \ | working:FIDUCIAL_1MM |  |  |  | \n| IC1 | 1 | 74245TSSOP20 | 74245TSSOP20 |\
+  \ working:TSSOP20 |  |  |  | \n| JP2 | 1 | HEADER-1X13 | HEADER-1X13 | working:1X13_ROUND_70\
+  \ |  |  |  | \n| L1 | 1 | 10uH | INDUCTORNR401 | working:INDUCTOR_4X4MM_NR401 |\
+  \  |  |  | \n| Q5 | 1 | IRLML2060TRPBF | IRLML2060TRPBF | working:SOT23-3 |  | \
+  \ |  | \n| R1, R2, R3, R5, R6 | 5 | 100K | RESISTOR0805_NOOUTLINE | working:0805-NO\
+  \ |  |  |  | \n| R4 | 1 | 0.47ohm | RESISTOR0805_10MGAP | working:0805_10MGAP |\
+  \  |  |  | \n| U2 | 1 | MIC5225-3.3 | VREG_SOT23-5 | working:SOT23-5 |  |  |  |\
+  \ \n| U4 | 1 | 23K640-I/SN | SRAM_SPI_SOIC8 | working:SOIC8_150MIL |  |  |  | \n\
+  | U$3, U$4, U$5, U$6 | 4 | MOUNTINGHOLE2.5 | MOUNTINGHOLE2.5 | working:MOUNTINGHOLE_2.5_PLATED\
+  \ |  |  |  | \n| X1 | 1 | MICROSD | MICROSD | working:MICROSD |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_e_paper_display_breakout_pcbs_adafruit_2_13in_tri_color_eink_with_eyespi/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_e_paper_display_breakout_pcbs_adafruit_2_13in_tri_color_eink_with_eyespi/current_version/working/working.sch
 id: adafruit_adafruit_e_paper_display_breakout_pcbs_adafruit_2_13in_tri_color_eink_with_eyespi
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$3
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$4
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '38.099999999999994'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$5
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '38.10000000000001'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$6
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '38.099999999999994'
+  y: '38.10000000000001'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$3 | m3 | \n| 38.099999999999994 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$4 | m3 | \n| 0.0 | 38.10000000000001 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5\
+  \ | U$5 | m3 | \n| 38.099999999999994 | 38.10000000000001 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$6 | m3 | \n"
 name: adafruit_e_paper_display_breakout_pcbs
+position_bottom:
+- '# Ref': C1
+  Package: 0805_10MGAP
+  PosX: 136.5539
+  PosY: -103.7602
+  Rot: 180.0
+  Side: bottom
+  Val: 1uF
+- '# Ref': C2
+  Package: 0805-NO
+  PosX: 143.4211
+  PosY: -99.6696
+  Rot: 90.0
+  Side: bottom
+  Val: 1uF/10V
+- '# Ref': C3
+  Package: 0805-NO
+  PosX: 141.2621
+  PosY: -102.4636
+  Rot: 180.0
+  Side: bottom
+  Val: 1uF/25V
+- '# Ref': C4
+  Package: 0805-NO
+  PosX: 159.6771
+  PosY: -101.5492
+  Rot: 90.0
+  Side: bottom
+  Val: 1uF/25V
+- '# Ref': C5
+  Package: 0805-NO
+  PosX: 151.4221
+  PosY: -102.4636
+  Rot: 0.0
+  Side: bottom
+  Val: 4.7uF/25V
+- '# Ref': C6
+  Package: 0805-NO
+  PosX: 149.5171
+  PosY: -99.7966
+  Rot: 90.0
+  Side: bottom
+  Val: 1uF/10V
+- '# Ref': C7
+  Package: 0805-NO
+  PosX: 150.6601
+  PosY: -120.3706
+  Rot: 0.0
+  Side: bottom
+  Val: 1uF
+- '# Ref': C8
+  Package: 0805-NO
+  PosX: 145.3261
+  PosY: -99.6696
+  Rot: -90.0
+  Side: bottom
+  Val: 1uF
+- '# Ref': C15
+  Package: 0805-NO
+  PosX: 142.3249
+  PosY: -106.0078
+  Rot: -90.0
+  Side: bottom
+  Val: 10uF/10V+
+- '# Ref': C16
+  Package: 0805-NO
+  PosX: 147.7391
+  PosY: -99.7966
+  Rot: 90.0
+  Side: bottom
+  Val: 1uF/25V
+- '# Ref': C20
+  Package: 0805-NO
+  PosX: 135.0911
+  PosY: -120.8616
+  Rot: 0.0
+  Side: bottom
+  Val: "10\xC2\xB5F"
+- '# Ref': C21
+  Package: 0805-NO
+  PosX: 138.5851
+  PosY: -118.1596
+  Rot: 90.0
+  Side: bottom
+  Val: "10\xC2\xB5F"
+- '# Ref': C22
+  Package: 0805-NO
+  PosX: 141.5161
+  PosY: -99.6696
+  Rot: 90.0
+  Side: bottom
+  Val: 1uF/25V
+- '# Ref': C23
+  Package: 0805-NO
+  PosX: 139.6111
+  PosY: -99.6696
+  Rot: 90.0
+  Side: bottom
+  Val: 1uF/25V
+- '# Ref': C24
+  Package: 0805-NO
+  PosX: 140.1191
+  PosY: -96.4946
+  Rot: 0.0
+  Side: bottom
+  Val: 1uF/6V
+- '# Ref': D1
+  Package: SOD-123
+  PosX: 155.9687
+  PosY: -102.489
+  Rot: 0.0
+  Side: bottom
+  Val: MBR0530
+- '# Ref': D2
+  Package: SOD-123
+  PosX: 156.0703
+  PosY: -100.584
+  Rot: 180.0
+  Side: bottom
+  Val: MBR0530
+- '# Ref': D3
+  Package: SOD-123
+  PosX: 146.9771
+  PosY: -102.4636
+  Rot: 0.0
+  Side: bottom
+  Val: MBR0530
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 164.0271
+  PosY: -86.8106
+  Rot: 180.0
+  Side: bottom
+  Val: FIDUCIAL_1MM
+- '# Ref': FID2
+  Package: FIDUCIAL_1MM
+  PosX: 138.3321
+  PosY: -114.5166
+  Rot: 90.0
+  Side: bottom
+  Val: FIDUCIAL_1MM
+- '# Ref': FID3
+  Package: FIDUCIAL_1MM
+  PosX: 140.2461
+  PosY: -85.1916
+  Rot: 180.0
+  Side: bottom
+  Val: FIDUCIAL_1MM
+- '# Ref': IC1
+  Package: TSSOP20
+  PosX: 144.2447
+  PosY: -113.9952
+  Rot: 180.0
+  Side: bottom
+  Val: 74LVC245PW
+- '# Ref': JP2
+  Package: 1X13_ROUND_70
+  PosX: 148.5011
+  PosY: -124.0536
+  Rot: 0.0
+  Side: bottom
+  Val: .nan
+- '# Ref': L1
+  Package: INDUCTOR_4X4MM_NR401
+  PosX: 145.4531
+  PosY: -105.6386
+  Rot: -90.0
+  Side: bottom
+  Val: 10uH
+- '# Ref': Q5
+  Package: SOT23-3
+  PosX: 151.9301
+  PosY: -99.9236
+  Rot: 0.0
+  Side: bottom
+  Val: IRLML0100
+- '# Ref': R1
+  Package: 0805-NO
+  PosX: 161.7091
+  PosY: -120.4176
+  Rot: 180.0
+  Side: bottom
+  Val: 100K
+- '# Ref': R2
+  Package: 0805-NO
+  PosX: 147.8261
+  PosY: -120.1166
+  Rot: -90.0
+  Side: bottom
+  Val: 100K
+- '# Ref': R3
+  Package: 0805-NO
+  PosX: 145.9211
+  PosY: -120.1166
+  Rot: -90.0
+  Side: bottom
+  Val: 100K
+- '# Ref': R4
+  Package: 0805_10MGAP
+  PosX: 155.3845
+  PosY: -98.7044
+  Rot: 0.0
+  Side: bottom
+  Val: 0.47ohm
+- '# Ref': R5
+  Package: 0805-NO
+  PosX: 144.0561
+  PosY: -120.1166
+  Rot: -90.0
+  Side: bottom
+  Val: 100K
+- '# Ref': R6
+  Package: 0805-NO
+  PosX: 156.7561
+  PosY: -120.3306
+  Rot: 180.0
+  Side: bottom
+  Val: 100K
+- '# Ref': U$9
+  Package: PCBFEAT-REV-040
+  PosX: 133.4371
+  PosY: -113.9676
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$28
+  Package: ADAFRUIT_TEXT_20MM
+  PosX: 164.6751
+  PosY: -84.1286
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U2
+  Package: SOT23-5
+  PosX: 135.5931
+  PosY: -118.0326
+  Rot: 90.0
+  Side: bottom
+  Val: MIC5225-3.3
+- '# Ref': U4
+  Package: SOIC8_150MIL
+  PosX: 137.0921
+  PosY: -108.7066
+  Rot: 180.0
+  Side: bottom
+  Val: 23K640-I/SN
+- '# Ref': X1
+  Package: MICROSD
+  PosX: 148.8911
+  PosY: -104.4732
+  Rot: -90.0
+  Side: bottom
+  Val: MICROSD
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C1 | 1uF | 0805_10MGAP | 136.5539\
+  \ | -103.7602 | 180.0 | bottom | \n| C2 | 1uF/10V | 0805-NO | 143.4211 | -99.6696\
+  \ | 90.0 | bottom | \n| C3 | 1uF/25V | 0805-NO | 141.2621 | -102.4636 | 180.0 |\
+  \ bottom | \n| C4 | 1uF/25V | 0805-NO | 159.6771 | -101.5492 | 90.0 | bottom | \n\
+  | C5 | 4.7uF/25V | 0805-NO | 151.4221 | -102.4636 | 0.0 | bottom | \n| C6 | 1uF/10V\
+  \ | 0805-NO | 149.5171 | -99.7966 | 90.0 | bottom | \n| C7 | 1uF | 0805-NO | 150.6601\
+  \ | -120.3706 | 0.0 | bottom | \n| C8 | 1uF | 0805-NO | 145.3261 | -99.6696 | -90.0\
+  \ | bottom | \n| C15 | 10uF/10V+ | 0805-NO | 142.3249 | -106.0078 | -90.0 | bottom\
+  \ | \n| C16 | 1uF/25V | 0805-NO | 147.7391 | -99.7966 | 90.0 | bottom | \n| C20\
+  \ | 10\xC2\xB5F | 0805-NO | 135.0911 | -120.8616 | 0.0 | bottom | \n| C21 | 10\xC2\
+  \xB5F | 0805-NO | 138.5851 | -118.1596 | 90.0 | bottom | \n| C22 | 1uF/25V | 0805-NO\
+  \ | 141.5161 | -99.6696 | 90.0 | bottom | \n| C23 | 1uF/25V | 0805-NO | 139.6111\
+  \ | -99.6696 | 90.0 | bottom | \n| C24 | 1uF/6V | 0805-NO | 140.1191 | -96.4946\
+  \ | 0.0 | bottom | \n| D1 | MBR0530 | SOD-123 | 155.9687 | -102.489 | 0.0 | bottom\
+  \ | \n| D2 | MBR0530 | SOD-123 | 156.0703 | -100.584 | 180.0 | bottom | \n| D3 |\
+  \ MBR0530 | SOD-123 | 146.9771 | -102.4636 | 0.0 | bottom | \n| FID1 | FIDUCIAL_1MM\
+  \ | FIDUCIAL_1MM | 164.0271 | -86.8106 | 180.0 | bottom | \n| FID2 | FIDUCIAL_1MM\
+  \ | FIDUCIAL_1MM | 138.3321 | -114.5166 | 90.0 | bottom | \n| FID3 | FIDUCIAL_1MM\
+  \ | FIDUCIAL_1MM | 140.2461 | -85.1916 | 180.0 | bottom | \n| IC1 | 74LVC245PW |\
+  \ TSSOP20 | 144.2447 | -113.9952 | 180.0 | bottom | \n| JP2 | nan | 1X13_ROUND_70\
+  \ | 148.5011 | -124.0536 | 0.0 | bottom | \n| L1 | 10uH | INDUCTOR_4X4MM_NR401 |\
+  \ 145.4531 | -105.6386 | -90.0 | bottom | \n| Q5 | IRLML0100 | SOT23-3 | 151.9301\
+  \ | -99.9236 | 0.0 | bottom | \n| R1 | 100K | 0805-NO | 161.7091 | -120.4176 | 180.0\
+  \ | bottom | \n| R2 | 100K | 0805-NO | 147.8261 | -120.1166 | -90.0 | bottom | \n\
+  | R3 | 100K | 0805-NO | 145.9211 | -120.1166 | -90.0 | bottom | \n| R4 | 0.47ohm\
+  \ | 0805_10MGAP | 155.3845 | -98.7044 | 0.0 | bottom | \n| R5 | 100K | 0805-NO |\
+  \ 144.0561 | -120.1166 | -90.0 | bottom | \n| R6 | 100K | 0805-NO | 156.7561 | -120.3306\
+  \ | 180.0 | bottom | \n| U$9 | nan | PCBFEAT-REV-040 | 133.4371 | -113.9676 | 180.0\
+  \ | bottom | \n| U$28 | nan | ADAFRUIT_TEXT_20MM | 164.6751 | -84.1286 | -90.0 |\
+  \ bottom | \n| U2 | MIC5225-3.3 | SOT23-5 | 135.5931 | -118.0326 | 90.0 | bottom\
+  \ | \n| U4 | 23K640-I/SN | SOIC8_150MIL | 137.0921 | -108.7066 | 180.0 | bottom\
+  \ | \n| X1 | MICROSD | MICROSD | 148.8911 | -104.4732 | -90.0 | bottom | \n"
+position_top:
+- '# Ref': EINK1
+  Package: EINK_154IN
+  PosX: 162.3041
+  PosY: -92.0026
+  Rot: -90.0
+  Side: top
+  Val: EINK_EPD0231EINK_154IN_200X200
+- '# Ref': U$3
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 129.4511
+  PosY: -124.0536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$4
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 167.5511
+  PosY: -124.0536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$5
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 129.4511
+  PosY: -85.9536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$6
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 167.5511
+  PosY: -85.9536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| EINK1 | EINK_EPD0231EINK_154IN_200X200\
+  \ | EINK_154IN | 162.3041 | -92.0026 | -90.0 | top | \n| U$3 | MOUNTINGHOLE2.5 |\
+  \ MOUNTINGHOLE_2.5_PLATED | 129.4511 | -124.0536 | 0.0 | top | \n| U$4 | MOUNTINGHOLE2.5\
+  \ | MOUNTINGHOLE_2.5_PLATED | 167.5511 | -124.0536 | 0.0 | top | \n| U$5 | MOUNTINGHOLE2.5\
+  \ | MOUNTINGHOLE_2.5_PLATED | 129.4511 | -85.9536 | 0.0 | top | \n| U$6 | MOUNTINGHOLE2.5\
+  \ | MOUNTINGHOLE_2.5_PLATED | 167.5511 | -85.9536 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_e_paper_display_breakout_pcbs_adafruit_2_13in_tri_color_eink_with_eyespi/current_version/working
 repo:
   allow_forking: true

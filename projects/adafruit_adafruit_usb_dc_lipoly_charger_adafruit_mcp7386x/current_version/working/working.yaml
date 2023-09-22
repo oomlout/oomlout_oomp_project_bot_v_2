@@ -1,9 +1,654 @@
 board: adafruit_mcp7386x
+bom:
+- Id: '1'
+  Designator: C3
+  Footprint: C0805K
+  Quantity: '1'
+  Designation: 0.47uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D1,D2
+  Footprint: SMADIODE
+  Quantity: '2'
+  Designation: B120
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: CHG0
+  Footprint: CHIPLED_0805
+  Quantity: '1'
+  Designation: ORANGE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$3,U$4
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: '@HOLE3,@HOLE1,@HOLE0,@HOLE2'
+  Footprint: ''
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: VIN0,IN0,OUT0
+  Footprint: 3.5MMTERM
+  Quantity: '3'
+  Designation: 1X2-3.5MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: BATT_IN0,BATT_OUT0
+  Footprint: JSTPH2
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: ERR0
+  Footprint: CHIPLED_0805
+  Quantity: '1'
+  Designation: RED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R6
+  Footprint: R0805
+  Quantity: '1'
+  Designation: 6.19K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: STAT3,STAT4
+  Footprint: 1X01
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U$1
+  Footprint: DCJACK_2MM_SMT
+  Quantity: '1'
+  Designation: 2.1MMJACKSMT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: C5,C4
+  Footprint: A_3216-18R
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: IC1
+  Footprint: SO16
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: PG0
+  Footprint: CHIPLED_0805
+  Quantity: '1'
+  Designation: GREEN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U$2
+  Footprint: ADAFRUIT200MIL
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: R7
+  Footprint: R0805
+  Quantity: '1'
+  Designation: 7.3k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: R11
+  Footprint: R0805
+  Quantity: '1'
+  Designation: '470'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: RTH0
+  Footprint: 0805-THM
+  Quantity: '1'
+  Designation: 10K @ 25degC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: USB0
+  Footprint: USB-MINIB
+  Quantity: '1'
+  Designation: MINI-USB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: R1
+  Footprint: 0805-THM
+  Quantity: '1'
+  Designation: adj
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C3\
+  \ | C0805K | 1 | 0.47uF |  |  | [''] | \n| 2 | D1,D2 | SMADIODE | 2 | B120 |  |\
+  \  | [''] | \n| 3 | CHG0 | CHIPLED_0805 | 1 | ORANGE |  |  | [''] | \n| 4 | U$3,U$4\
+  \ | FIDUCIAL_1MM | 2 | FIDUCIAL |  |  | [''] | \n| 5 | @HOLE3,@HOLE1,@HOLE0,@HOLE2\
+  \ |  | 4 |  |  |  | [''] | \n| 6 | VIN0,IN0,OUT0 | 3.5MMTERM | 3 | 1X2-3.5MM | \
+  \ |  | [''] | \n| 7 | BATT_IN0,BATT_OUT0 | JSTPH2 | 2 |  |  |  | [''] | \n| 8 |\
+  \ ERR0 | CHIPLED_0805 | 1 | RED |  |  | [''] | \n| 9 | R6 | R0805 | 1 | 6.19K |\
+  \  |  | [''] | \n| 10 | STAT3,STAT4 | 1X01 | 2 |  |  |  | [''] | \n| 11 | U$1 |\
+  \ DCJACK_2MM_SMT | 1 | 2.1MMJACKSMT |  |  | [''] | \n| 12 | C5,C4 | A_3216-18R |\
+  \ 2 | 10uF |  |  | [''] | \n| 13 | IC1 | SO16 | 1 |  |  |  | [''] | \n| 14 | PG0\
+  \ | CHIPLED_0805 | 1 | GREEN |  |  | [''] | \n| 15 | U$2 | ADAFRUIT200MIL | 1 |\
+  \  |  |  | [''] | \n| 16 | R7 | R0805 | 1 | 7.3k |  |  | [''] | \n| 17 | R11 | R0805\
+  \ | 1 | 470 |  |  | [''] | \n| 18 | RTH0 | 0805-THM | 1 | 10K @ 25degC |  |  | ['']\
+  \ | \n| 19 | USB0 | USB-MINIB | 1 | MINI-USB |  |  | [''] | \n| 20 | R1 | 0805-THM\
+  \ | 1 | adj |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: JST_2PIN
+  DNP: ''
+  Description: ''
+  Footprint: working:JSTPH2
+  Qnty: '1'
+  Ref: BATT_IN0
+  Value: JST_2PIN
+  Vendor: ''
+- Cmp name: JST_2PIN
+  DNP: ''
+  Description: ''
+  Footprint: working:JSTPH2
+  Qnty: '1'
+  Ref: BATT_OUT0
+  Value: JST_2PIN
+  Vendor: ''
+- Cmp name: C-USC0805K
+  DNP: ''
+  Description: ''
+  Footprint: working:C0805K
+  Qnty: '1'
+  Ref: C3
+  Value: 0.47uF
+  Vendor: ''
+- Cmp name: CPOL-USA/3216-18R
+  DNP: ''
+  Description: ''
+  Footprint: working:A_3216-18R
+  Qnty: '2'
+  Ref: C4, C5
+  Value: 10uF
+  Vendor: ''
+- Cmp name: LEDCHIPLED_0805
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805
+  Qnty: '1'
+  Ref: CHG0
+  Value: ORANGE
+  Vendor: ''
+- Cmp name: DIODESMA
+  DNP: ''
+  Description: ''
+  Footprint: working:SMADIODE
+  Qnty: '2'
+  Ref: D1, D2
+  Value: B120
+  Vendor: ''
+- Cmp name: LEDCHIPLED_0805
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805
+  Qnty: '1'
+  Ref: ERR0
+  Value: RED
+  Vendor: ''
+- Cmp name: MCP7386XS
+  DNP: ''
+  Description: ''
+  Footprint: working:SO16
+  Qnty: '1'
+  Ref: IC1
+  Value: MCP7386XS
+  Vendor: ''
+- Cmp name: 1X2-3.5MM
+  DNP: ''
+  Description: ''
+  Footprint: working:3.5MMTERM
+  Qnty: '1'
+  Ref: IN0
+  Value: 1X2-3.5MM
+  Vendor: ''
+- Cmp name: 1X2-3.5MM
+  DNP: ''
+  Description: ''
+  Footprint: working:3.5MMTERM
+  Qnty: '1'
+  Ref: OUT0
+  Value: 1X2-3.5MM
+  Vendor: ''
+- Cmp name: LEDCHIPLED_0805
+  DNP: ''
+  Description: ''
+  Footprint: working:CHIPLED_0805
+  Qnty: '1'
+  Ref: PG0
+  Value: GREEN
+  Vendor: ''
+- Cmp name: R-US_FLIPFLOP
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-THM
+  Qnty: '1'
+  Ref: R1
+  Value: adj
+  Vendor: ''
+- Cmp name: R-US_R0805
+  DNP: ''
+  Description: ''
+  Footprint: working:R0805
+  Qnty: '1'
+  Ref: R6
+  Value: 6.19K
+  Vendor: ''
+- Cmp name: R-US_R0805
+  DNP: ''
+  Description: ''
+  Footprint: working:R0805
+  Qnty: '1'
+  Ref: R7
+  Value: 7.3k
+  Vendor: ''
+- Cmp name: R-US_R0805
+  DNP: ''
+  Description: ''
+  Footprint: working:R0805
+  Qnty: '1'
+  Ref: R11
+  Value: '470'
+  Vendor: ''
+- Cmp name: R-US_FLIPFLOP
+  DNP: ''
+  Description: ''
+  Footprint: working:0805-THM
+  Qnty: '1'
+  Ref: RTH0
+  Value: 10K @ 25degC
+  Vendor: ''
+- Cmp name: PINHD-1X1
+  DNP: ''
+  Description: ''
+  Footprint: working:1X01
+  Qnty: '2'
+  Ref: STAT3, STAT4
+  Value: PINHD-1X1
+  Vendor: ''
+- Cmp name: 2.1MMJACKSMT
+  DNP: ''
+  Description: ''
+  Footprint: working:DCJACK_2MM_SMT
+  Qnty: '1'
+  Ref: U$1
+  Value: 2.1MMJACKSMT
+  Vendor: ''
+- Cmp name: FIDUCIAL
+  DNP: ''
+  Description: ''
+  Footprint: working:FIDUCIAL_1MM
+  Qnty: '2'
+  Ref: U$3, U$4
+  Value: FIDUCIAL
+  Vendor: ''
+- Cmp name: USBMINIB
+  DNP: ''
+  Description: ''
+  Footprint: working:USB-MINIB
+  Qnty: '1'
+  Ref: USB0
+  Value: MINI-USB
+  Vendor: ''
+- Cmp name: 1X2-3.5MM
+  DNP: ''
+  Description: ''
+  Footprint: working:3.5MMTERM
+  Qnty: '1'
+  Ref: VIN0
+  Value: 1X2-3.5MM
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| BATT_IN0\
+  \ | 1 | JST_2PIN | JST_2PIN | working:JSTPH2 |  |  |  | \n| BATT_OUT0 | 1 | JST_2PIN\
+  \ | JST_2PIN | working:JSTPH2 |  |  |  | \n| C3 | 1 | 0.47uF | C-USC0805K | working:C0805K\
+  \ |  |  |  | \n| C4, C5 | 2 | 10uF | CPOL-USA/3216-18R | working:A_3216-18R |  |\
+  \  |  | \n| CHG0 | 1 | ORANGE | LEDCHIPLED_0805 | working:CHIPLED_0805 |  |  | \
+  \ | \n| D1, D2 | 2 | B120 | DIODESMA | working:SMADIODE |  |  |  | \n| ERR0 | 1\
+  \ | RED | LEDCHIPLED_0805 | working:CHIPLED_0805 |  |  |  | \n| IC1 | 1 | MCP7386XS\
+  \ | MCP7386XS | working:SO16 |  |  |  | \n| IN0 | 1 | 1X2-3.5MM | 1X2-3.5MM | working:3.5MMTERM\
+  \ |  |  |  | \n| OUT0 | 1 | 1X2-3.5MM | 1X2-3.5MM | working:3.5MMTERM |  |  |  |\
+  \ \n| PG0 | 1 | GREEN | LEDCHIPLED_0805 | working:CHIPLED_0805 |  |  |  | \n| R1\
+  \ | 1 | adj | R-US_FLIPFLOP | working:0805-THM |  |  |  | \n| R6 | 1 | 6.19K | R-US_R0805\
+  \ | working:R0805 |  |  |  | \n| R7 | 1 | 7.3k | R-US_R0805 | working:R0805 |  |\
+  \  |  | \n| R11 | 1 | 470 | R-US_R0805 | working:R0805 |  |  |  | \n| RTH0 | 1 |\
+  \ 10K @ 25degC | R-US_FLIPFLOP | working:0805-THM |  |  |  | \n| STAT3, STAT4 |\
+  \ 2 | PINHD-1X1 | PINHD-1X1 | working:1X01 |  |  |  | \n| U$1 | 1 | 2.1MMJACKSMT\
+  \ | 2.1MMJACKSMT | working:DCJACK_2MM_SMT |  |  |  | \n| U$3, U$4 | 2 | FIDUCIAL\
+  \ | FIDUCIAL | working:FIDUCIAL_1MM |  |  |  | \n| USB0 | 1 | MINI-USB | USBMINIB\
+  \ | working:USB-MINIB |  |  |  | \n| VIN0 | 1 | 1X2-3.5MM | 1X2-3.5MM | working:3.5MMTERM\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_usb_dc_lipoly_charger_adafruit_mcp7386x/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_usb_dc_lipoly_charger_adafruit_mcp7386x/current_version/working/working.sch
 id: adafruit_adafruit_usb_dc_lipoly_charger_adafruit_mcp7386x
 name: adafruit_usb_dc_lipoly_charger
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 129.2021
+  PosY: -122.7845
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 167.8101
+  PosY: -122.7845
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE2'
+  Package: .nan
+  PosX: 129.0751
+  PosY: -87.2245
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE3'
+  Package: .nan
+  PosX: 167.6831
+  PosY: -87.2245
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': BATT_IN0
+  Package: JSTPH2
+  PosX: 143.9341
+  PosY: -121.8955
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': BATT_OUT0
+  Package: JSTPH2
+  PosX: 153.8401
+  PosY: -121.8955
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': C3
+  Package: C0805K
+  PosX: 145.3311
+  PosY: -108.9415
+  Rot: 180.0
+  Side: top
+  Val: 0.47uF
+- '# Ref': C4
+  Package: A_3216-18R
+  PosX: 151.5541
+  PosY: -108.9415
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': C5
+  Package: A_3216-18R
+  PosX: 148.3791
+  PosY: -98.0195
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': CHG0
+  Package: CHIPLED_0805
+  PosX: 132.1231
+  PosY: -107.5445
+  Rot: 90.0
+  Side: top
+  Val: ORANGE
+- '# Ref': D1
+  Package: SMADIODE
+  PosX: 140.1241
+  PosY: -97.2575
+  Rot: 180.0
+  Side: top
+  Val: B120
+- '# Ref': D2
+  Package: SMADIODE
+  PosX: 160.0631
+  PosY: -102.3375
+  Rot: 0.0
+  Side: top
+  Val: B120
+- '# Ref': ERR0
+  Package: CHIPLED_0805
+  PosX: 164.7621
+  PosY: -107.5445
+  Rot: -90.0
+  Side: top
+  Val: RED
+- '# Ref': IC1
+  Package: SO16
+  PosX: 149.5221
+  PosY: -103.8615
+  Rot: 180.0
+  Side: top
+  Val: .nan
+- '# Ref': IN0
+  Package: 3.5MMTERM
+  PosX: 134.9171
+  PosY: -121.6415
+  Rot: 0.0
+  Side: top
+  Val: 1X2-3.5MM
+- '# Ref': OUT0
+  Package: 3.5MMTERM
+  PosX: 162.2221
+  PosY: -121.5145
+  Rot: 0.0
+  Side: top
+  Val: 1X2-3.5MM
+- '# Ref': PG0
+  Package: CHIPLED_0805
+  PosX: 150.1571
+  PosY: -93.4475
+  Rot: -90.0
+  Side: top
+  Val: GREEN
+- '# Ref': R1
+  Package: 0805-THM
+  PosX: 134.4091
+  PosY: -100.9405
+  Rot: 0.0
+  Side: top
+  Val: adj
+- '# Ref': R6
+  Package: R0805
+  PosX: 142.5371
+  PosY: -105.8935
+  Rot: 90.0
+  Side: top
+  Val: 6.19K
+- '# Ref': R7
+  Package: R0805
+  PosX: 142.5371
+  PosY: -101.4485
+  Rot: 90.0
+  Side: top
+  Val: 7.3k
+- '# Ref': R11
+  Package: R0805
+  PosX: 145.7121
+  PosY: -93.4475
+  Rot: 0.0
+  Side: top
+  Val: '470'
+- '# Ref': RTH0
+  Package: 0805-THM
+  PosX: 134.4091
+  PosY: -104.1155
+  Rot: 0.0
+  Side: top
+  Val: 10K_@_25degC
+- '# Ref': STAT3
+  Package: 1X01
+  PosX: 128.6941
+  PosY: -107.5445
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': STAT4
+  Package: 1X01
+  PosX: 168.1911
+  PosY: -107.5445
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$1
+  Package: DCJACK_2MM_SMT
+  PosX: 158.9201
+  PosY: -89.5105
+  Rot: -90.0
+  Side: top
+  Val: 2.1MMJACKSMT
+- '# Ref': U$2
+  Package: ADAFRUIT200MIL
+  PosX: 129.0751
+  PosY: -117.5775
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U$3
+  Package: FIDUCIAL_1MM
+  PosX: 168.1911
+  PosY: -117.4505
+  Rot: 90.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': U$4
+  Package: FIDUCIAL_1MM
+  PosX: 128.9481
+  PosY: -91.2885
+  Rot: 90.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': USB0
+  Package: USB-MINIB
+  PosX: 137.5841
+  PosY: -89.5105
+  Rot: 180.0
+  Side: top
+  Val: MINI-USB
+- '# Ref': VIN0
+  Package: 3.5MMTERM
+  PosX: 147.9981
+  PosY: -88.4945
+  Rot: 180.0
+  Side: top
+  Val: 1X2-3.5MM
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 129.2021 | -122.7845\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 167.8101 | -122.7845 | 0.0 | top | \n|\
+  \ @HOLE2 | nan | nan | 129.0751 | -87.2245 | 0.0 | top | \n| @HOLE3 | nan | nan\
+  \ | 167.6831 | -87.2245 | 0.0 | top | \n| BATT_IN0 | nan | JSTPH2 | 143.9341 | -121.8955\
+  \ | 180.0 | top | \n| BATT_OUT0 | nan | JSTPH2 | 153.8401 | -121.8955 | 180.0 |\
+  \ top | \n| C3 | 0.47uF | C0805K | 145.3311 | -108.9415 | 180.0 | top | \n| C4 |\
+  \ 10uF | A_3216-18R | 151.5541 | -108.9415 | 180.0 | top | \n| C5 | 10uF | A_3216-18R\
+  \ | 148.3791 | -98.0195 | 0.0 | top | \n| CHG0 | ORANGE | CHIPLED_0805 | 132.1231\
+  \ | -107.5445 | 90.0 | top | \n| D1 | B120 | SMADIODE | 140.1241 | -97.2575 | 180.0\
+  \ | top | \n| D2 | B120 | SMADIODE | 160.0631 | -102.3375 | 0.0 | top | \n| ERR0\
+  \ | RED | CHIPLED_0805 | 164.7621 | -107.5445 | -90.0 | top | \n| IC1 | nan | SO16\
+  \ | 149.5221 | -103.8615 | 180.0 | top | \n| IN0 | 1X2-3.5MM | 3.5MMTERM | 134.9171\
+  \ | -121.6415 | 0.0 | top | \n| OUT0 | 1X2-3.5MM | 3.5MMTERM | 162.2221 | -121.5145\
+  \ | 0.0 | top | \n| PG0 | GREEN | CHIPLED_0805 | 150.1571 | -93.4475 | -90.0 | top\
+  \ | \n| R1 | adj | 0805-THM | 134.4091 | -100.9405 | 0.0 | top | \n| R6 | 6.19K\
+  \ | R0805 | 142.5371 | -105.8935 | 90.0 | top | \n| R7 | 7.3k | R0805 | 142.5371\
+  \ | -101.4485 | 90.0 | top | \n| R11 | 470 | R0805 | 145.7121 | -93.4475 | 0.0 |\
+  \ top | \n| RTH0 | 10K_@_25degC | 0805-THM | 134.4091 | -104.1155 | 0.0 | top |\
+  \ \n| STAT3 | nan | 1X01 | 128.6941 | -107.5445 | 0.0 | top | \n| STAT4 | nan |\
+  \ 1X01 | 168.1911 | -107.5445 | 0.0 | top | \n| U$1 | 2.1MMJACKSMT | DCJACK_2MM_SMT\
+  \ | 158.9201 | -89.5105 | -90.0 | top | \n| U$2 | nan | ADAFRUIT200MIL | 129.0751\
+  \ | -117.5775 | 0.0 | top | \n| U$3 | FIDUCIAL | FIDUCIAL_1MM | 168.1911 | -117.4505\
+  \ | 90.0 | top | \n| U$4 | FIDUCIAL | FIDUCIAL_1MM | 128.9481 | -91.2885 | 90.0\
+  \ | top | \n| USB0 | MINI-USB | USB-MINIB | 137.5841 | -89.5105 | 180.0 | top |\
+  \ \n| VIN0 | 1X2-3.5MM | 3.5MMTERM | 147.9981 | -88.4945 | 180.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_usb_dc_lipoly_charger_adafruit_mcp7386x/current_version/working
 repo:
   allow_forking: true

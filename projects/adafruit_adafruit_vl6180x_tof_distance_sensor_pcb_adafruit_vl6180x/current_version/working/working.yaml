@@ -1,9 +1,418 @@
 board: adafruit_vl6180x
+bom:
+- Id: '1'
+  Designator: C4,C5
+  Footprint: 0805-NO
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D2
+  Footprint: CHIPLED_0603_NOOUTLINE
+  Quantity: '1'
+  Designation: GREEN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R1,R3,R2
+  Footprint: 0603-NO
+  Quantity: '3'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$34,U$31,U$30,U$33
+  Footprint: MOUNTINGHOLE_2.5_PLATED
+  Quantity: '4'
+  Designation: MOUNTINGHOLE2.5
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U1
+  Footprint: VL6180
+  Quantity: '1'
+  Designation: VL6180X
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: Q3
+  Footprint: SOT363
+  Quantity: '1'
+  Designation: BSS138
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U$36
+  Footprint: ADAFRUIT_3.5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: CONN3,CONN4
+  Footprint: JST_SH4
+  Quantity: '2'
+  Designation: STEMMA_I2C_QT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: JP2
+  Footprint: 1X06_ROUND_70
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R7
+  Footprint: RESPACK_4X0603
+  Quantity: '1'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: FID1,FID4
+  Footprint: FIDUCIAL_1MM
+  Quantity: '2'
+  Designation: FIDUCIAL_1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: C6
+  Footprint: 0603-NO
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: D1
+  Footprint: SOD-323
+  Quantity: '1'
+  Designation: 1N4148
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: U3
+  Footprint: SOT23-5
+  Quantity: '1'
+  Designation: LP5907-2.8V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U$37
+  Footprint: PCBFEAT-REV-040
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: U$39,U$38
+  Footprint: STEMMAQT
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C4,C5\
+  \ | 0805-NO | 2 | 10uF |  |  | [''] | \n| 2 | D2 | CHIPLED_0603_NOOUTLINE | 1 |\
+  \ GREEN |  |  | [''] | \n| 3 | R1,R3,R2 | 0603-NO | 3 | 10K |  |  | [''] | \n| 4\
+  \ | U$34,U$31,U$30,U$33 | MOUNTINGHOLE_2.5_PLATED | 4 | MOUNTINGHOLE2.5 |  |  |\
+  \ [''] | \n| 5 | U1 | VL6180 | 1 | VL6180X |  |  | [''] | \n| 6 | Q3 | SOT363 |\
+  \ 1 | BSS138 |  |  | [''] | \n| 7 | U$36 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] |\
+  \ \n| 8 | CONN3,CONN4 | JST_SH4 | 2 | STEMMA_I2C_QT |  |  | [''] | \n| 9 | JP2 |\
+  \ 1X06_ROUND_70 | 1 |  |  |  | [''] | \n| 10 | R7 | RESPACK_4X0603 | 1 | 10K | \
+  \ |  | [''] | \n| 11 | FID1,FID4 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | ['']\
+  \ | \n| 12 | C6 | 0603-NO | 1 | 0.1uF |  |  | [''] | \n| 13 | D1 | SOD-323 | 1 |\
+  \ 1N4148 |  |  | [''] | \n| 14 | U3 | SOT23-5 | 1 | LP5907-2.8V |  |  | [''] | \n\
+  | 15 | U$37 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | \n| 16 | U$39,U$38 | STEMMAQT\
+  \ | 2 |  |  |  | [''] | \n"
 counter: 1
 file_brd_flat: projects/adafruit_adafruit_vl6180x_tof_distance_sensor_pcb_adafruit_vl6180x/current_version/working/working.brd
 file_sch_flat: projects/adafruit_adafruit_vl6180x_tof_distance_sensor_pcb_adafruit_vl6180x/current_version/working/working.sch
 id: adafruit_adafruit_vl6180x_tof_distance_sensor_pcb_adafruit_vl6180x
+mounting_holes:
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$30
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '12.700000000000003'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$31
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '20.319999999999993'
+  y: '12.700000000000003'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$33
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '0.0'
+  y: '0.0'
+- package: MOUNTINGHOLE_2.5_PLATED
+  ref: U$34
+  size: m3
+  value: MOUNTINGHOLE2.5
+  x: '20.319999999999993'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 12.700000000000003 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$30 | m3 | \n| 20.319999999999993 | 12.700000000000003 |\
+  \ MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$31 | m3 | \n| 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$33 | m3 | \n| 20.319999999999993 | 0.0 | MOUNTINGHOLE_2.5_PLATED\
+  \ | MOUNTINGHOLE2.5 | U$34 | m3 | \n"
 name: adafruit_vl6180x_tof_distance_sensor_pcb
+position_bottom:
+- '# Ref': U$37
+  Package: PCBFEAT-REV-040
+  PosX: 141.8971
+  PosY: -97.3836
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$38
+  Package: STEMMAQT
+  PosX: 158.2801
+  PosY: -109.4486
+  Rot: 90.0
+  Side: bottom
+  Val: .nan
+- '# Ref': U$39
+  Package: STEMMAQT
+  PosX: 138.7221
+  PosY: -100.5586
+  Rot: -90.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U$37 | nan | PCBFEAT-REV-040 | 141.8971\
+  \ | -97.3836 | 180.0 | bottom | \n| U$38 | nan | STEMMAQT | 158.2801 | -109.4486\
+  \ | 90.0 | bottom | \n| U$39 | nan | STEMMAQT | 138.7221 | -100.5586 | -90.0 | bottom\
+  \ | \n"
+position_top:
+- '# Ref': C4
+  Package: 0805-NO
+  PosX: 143.4211
+  PosY: -108.3056
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C5
+  Package: 0805-NO
+  PosX: 144.1831
+  PosY: -101.9556
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C6
+  Package: 0603-NO
+  PosX: 145.9611
+  PosY: -105.3846
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': CONN3
+  Package: JST_SH4
+  PosX: 158.6611
+  PosY: -105.0036
+  Rot: 90.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': CONN4
+  Package: JST_SH4
+  PosX: 138.3411
+  PosY: -105.0036
+  Rot: -90.0
+  Side: top
+  Val: STEMMA_I2C_QT
+- '# Ref': D1
+  Package: SOD-323
+  PosX: 152.9461
+  PosY: -108.0516
+  Rot: 180.0
+  Side: top
+  Val: 1N4148
+- '# Ref': D2
+  Package: CHIPLED_0603_NOOUTLINE
+  PosX: 139.4841
+  PosY: -101.3206
+  Rot: 90.0
+  Side: top
+  Val: GREEN
+- '# Ref': FID1
+  Package: FIDUCIAL_1MM
+  PosX: 140.7541
+  PosY: -109.0676
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': FID4
+  Package: FIDUCIAL_1MM
+  PosX: 155.3591
+  PosY: -97.3836
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL_1MM
+- '# Ref': JP2
+  Package: 1X06_ROUND_70
+  PosX: 148.5011
+  PosY: -111.3536
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': Q3
+  Package: SOT363
+  PosX: 153.3271
+  PosY: -105.2576
+  Rot: 90.0
+  Side: top
+  Val: BSS138
+- '# Ref': R1
+  Package: 0603-NO
+  PosX: 148.5011
+  PosY: -101.5746
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: 0603-NO
+  PosX: 148.5011
+  PosY: -108.3056
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: 0603-NO
+  PosX: 141.6431
+  PosY: -101.4476
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R7
+  Package: RESPACK_4X0603
+  PosX: 152.9461
+  PosY: -101.4476
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': U$30
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 138.3411
+  PosY: -98.6536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$31
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 158.6611
+  PosY: -98.6536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$33
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 138.3411
+  PosY: -111.3536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$34
+  Package: MOUNTINGHOLE_2.5_PLATED
+  PosX: 158.6611
+  PosY: -111.3536
+  Rot: 0.0
+  Side: top
+  Val: MOUNTINGHOLE2.5
+- '# Ref': U$36
+  Package: ADAFRUIT_3.5MM
+  PosX: 140.3731
+  PosY: -100.1776
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': U1
+  Package: VL6180
+  PosX: 148.5011
+  PosY: -105.0036
+  Rot: 180.0
+  Side: top
+  Val: VL6180X
+- '# Ref': U3
+  Package: SOT23-5
+  PosX: 143.4211
+  PosY: -105.1306
+  Rot: 0.0
+  Side: top
+  Val: LP5907-2.8V
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C4 | 10uF | 0805-NO | 143.4211 | -108.3056\
+  \ | 0.0 | top | \n| C5 | 10uF | 0805-NO | 144.1831 | -101.9556 | 0.0 | top | \n\
+  | C6 | 0.1uF | 0603-NO | 145.9611 | -105.3846 | -90.0 | top | \n| CONN3 | STEMMA_I2C_QT\
+  \ | JST_SH4 | 158.6611 | -105.0036 | 90.0 | top | \n| CONN4 | STEMMA_I2C_QT | JST_SH4\
+  \ | 138.3411 | -105.0036 | -90.0 | top | \n| D1 | 1N4148 | SOD-323 | 152.9461 |\
+  \ -108.0516 | 180.0 | top | \n| D2 | GREEN | CHIPLED_0603_NOOUTLINE | 139.4841 |\
+  \ -101.3206 | 90.0 | top | \n| FID1 | FIDUCIAL_1MM | FIDUCIAL_1MM | 140.7541 | -109.0676\
+  \ | 0.0 | top | \n| FID4 | FIDUCIAL_1MM | FIDUCIAL_1MM | 155.3591 | -97.3836 | 0.0\
+  \ | top | \n| JP2 | nan | 1X06_ROUND_70 | 148.5011 | -111.3536 | 0.0 | top | \n\
+  | Q3 | BSS138 | SOT363 | 153.3271 | -105.2576 | 90.0 | top | \n| R1 | 10K | 0603-NO\
+  \ | 148.5011 | -101.5746 | 180.0 | top | \n| R2 | 10K | 0603-NO | 148.5011 | -108.3056\
+  \ | 180.0 | top | \n| R3 | 10K | 0603-NO | 141.6431 | -101.4476 | 90.0 | top | \n\
+  | R7 | 10K | RESPACK_4X0603 | 152.9461 | -101.4476 | 180.0 | top | \n| U$30 | MOUNTINGHOLE2.5\
+  \ | MOUNTINGHOLE_2.5_PLATED | 138.3411 | -98.6536 | 0.0 | top | \n| U$31 | MOUNTINGHOLE2.5\
+  \ | MOUNTINGHOLE_2.5_PLATED | 158.6611 | -98.6536 | 0.0 | top | \n| U$33 | MOUNTINGHOLE2.5\
+  \ | MOUNTINGHOLE_2.5_PLATED | 138.3411 | -111.3536 | 0.0 | top | \n| U$34 | MOUNTINGHOLE2.5\
+  \ | MOUNTINGHOLE_2.5_PLATED | 158.6611 | -111.3536 | 0.0 | top | \n| U$36 | nan\
+  \ | ADAFRUIT_3.5MM | 140.3731 | -100.1776 | 0.0 | top | \n| U1 | VL6180X | VL6180\
+  \ | 148.5011 | -105.0036 | 180.0 | top | \n| U3 | LP5907-2.8V | SOT23-5 | 143.4211\
+  \ | -105.1306 | 0.0 | top | \n"
 projects_flat: projects/adafruit_adafruit_vl6180x_tof_distance_sensor_pcb_adafruit_vl6180x/current_version/working
 repo:
   allow_forking: true

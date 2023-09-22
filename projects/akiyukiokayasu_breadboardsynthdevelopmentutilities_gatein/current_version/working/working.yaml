@@ -1,9 +1,163 @@
 board: gatein
+bom:
+- Id: '1'
+  Designator: Q1
+  Footprint: SC-59_Handsoldering
+  Quantity: '1'
+  Designation: DTC114E
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J2
+  Footprint: PJ302M
+  Quantity: '1'
+  Designation: PJ302M
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: D1
+  Footprint: D_SOD-123
+  Quantity: '1'
+  Designation: 1N4148W
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J3
+  Footprint: PinHeader_1x05_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x05
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J1
+  Footprint: PinHeader_1x02_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | Q1\
+  \ | SC-59_Handsoldering | 1 | DTC114E |  |  | [''] | \n| 2 | J2 | PJ302M | 1 | PJ302M\
+  \ |  |  | [''] | \n| 3 | D1 | D_SOD-123 | 1 | 1N4148W |  |  | [''] | \n| 4 | J3\
+  \ | PinHeader_1x05_P2.54mm_Vertical | 1 | Conn_01x05 |  |  | [''] | \n| 5 | J1 |\
+  \ PinHeader_1x02_P2.54mm_Vertical | 1 | Conn_01x02 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: 1N4148W
+  DNP: ''
+  Description: 75V 0.15A Fast Switching Diode, SOD-123
+  Footprint: Diode_SMD:D_SOD-123
+  Qnty: '1'
+  Ref: D1
+  Value: 1N4148W
+  Vendor: ''
+- Cmp name: Conn_01x02
+  DNP: ''
+  Description: Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_01x02
+  Vendor: ''
+- Cmp name: PJ302M
+  DNP: ''
+  Description: 2-pin audio jack receptable (mono/TS connector) with switching contact
+  Footprint: Akiyuki_Footprint:PJ302M
+  Qnty: '1'
+  Ref: J2
+  Value: PJ302M
+  Vendor: ''
+- Cmp name: Conn_01x05
+  DNP: ''
+  Description: Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J3
+  Value: Conn_01x05
+  Vendor: ''
+- Cmp name: DTC114E
+  DNP: ''
+  Description: Digital NPN Transistor, 10k/10k, SOT-23
+  Footprint: Package_TO_SOT_SMD:SC-59_Handsoldering
+  Qnty: '1'
+  Ref: Q1
+  Value: DTC114E
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| D1 |\
+  \ 1 | 1N4148W | 1N4148W | Diode_SMD:D_SOD-123 | 75V 0.15A Fast Switching Diode,\
+  \ SOD-123 |  |  | \n| J1 | 1 | Conn_01x02 | Conn_01x02 | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J2 | 1 | PJ302M | PJ302M | Akiyuki_Footprint:PJ302M | 2-pin audio\
+  \ jack receptable (mono/TS connector) with switching contact |  |  | \n| J3 | 1\
+  \ | Conn_01x05 | Conn_01x05 | Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| Q1 | 1 | DTC114E | DTC114E | Package_TO_SOT_SMD:SC-59_Handsoldering\
+  \ | Digital NPN Transistor, 10k/10k, SOT-23 |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/akiyukiokayasu_breadboardsynthdevelopmentutilities_gatein/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/akiyukiokayasu_breadboardsynthdevelopmentutilities_gatein/current_version/working/working.kicad_sch
 id: akiyukiokayasu_breadboardsynthdevelopmentutilities_gatein
 name: breadboardsynthdevelopmentutilities
+position_bottom:
+- '# Ref': J1
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 144.78
+  PosY: -83.82
+  Rot: -90.0
+  Side: bottom
+  Val: Conn_01x02
+- '# Ref': J3
+  Package: PinHeader_1x05_P2.54mm_Vertical
+  PosX: 160.02
+  PosY: -83.82
+  Rot: 180.0
+  Side: bottom
+  Val: Conn_01x05
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J1 | Conn_01x02 | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 144.78 | -83.82 | -90.0 | bottom | \n| J3 | Conn_01x05 | PinHeader_1x05_P2.54mm_Vertical\
+  \ | 160.02 | -83.82 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': D1
+  Package: D_SOD-123
+  PosX: 153.162
+  PosY: -93.98
+  Rot: 180.0
+  Side: top
+  Val: 1N4148W
+- '# Ref': J2
+  Package: PJ302M
+  PosX: 134.14
+  PosY: -90.3405
+  Rot: 0.0
+  Side: top
+  Val: PJ302M
+- '# Ref': Q1
+  Package: SC-59_Handsoldering
+  PosX: 153.416
+  PosY: -86.36
+  Rot: 90.0
+  Side: top
+  Val: DTC114E
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| D1 | 1N4148W | D_SOD-123 | 153.162 |\
+  \ -93.98 | 180.0 | top | \n| J2 | PJ302M | PJ302M | 134.14 | -90.3405 | 0.0 | top\
+  \ | \n| Q1 | DTC114E | SC-59_Handsoldering | 153.416 | -86.36 | 90.0 | top | \n"
 projects_flat: projects/akiyukiokayasu_breadboardsynthdevelopmentutilities_gatein/current_version/working
 repo:
   allow_forking: true
