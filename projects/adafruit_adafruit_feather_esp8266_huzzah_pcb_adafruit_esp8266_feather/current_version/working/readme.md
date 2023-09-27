@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -38,7 +59,7 @@
 | 9 | @HOLE0,@HOLE1 |  | 2 |  |  |  | [''] | 
 | 10 | X2 | ESP-12S | 1 | ESP-12 |  |  | [''] | 
 | 11 | Q2,Q1 | SOT23-3 | 2 | mmbt2222 |  |  | [''] | 
-| 12 | C3,C6,C8 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 12 | C3,C6,C8 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 13 | R11 | _0603MP | 1 | 1K |  |  | [''] | 
 | 14 | D3 | CHIPLED_0805_NOOUTLINE | 1 | RED |  |  | [''] | 
 | 15 | R6 | 0603-NO | 1 | 4.7K |  |  | [''] | 
@@ -63,7 +84,7 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C2 | 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C3, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7 | 1 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | CHG0 | 1 | ORANGE | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 
 | D3 | 1 | RED | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 

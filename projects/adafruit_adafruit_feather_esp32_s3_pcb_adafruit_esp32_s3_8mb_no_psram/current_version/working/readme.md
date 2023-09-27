@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -31,7 +52,7 @@
 | 2 | @HOLE1,@HOLE0 |  | 2 |  |  |  | [''] | 
 | 3 | C10,C4,C5 | 0603-NO | 3 | 1uF |  |  | [''] | 
 | 4 | SW2,SW1 | BTN_KMR2_4.6X2.8 | 2 | KMR2 |  |  | [''] | 
-| 5 | C8,C3,C6 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 5 | C8,C3,C6 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 6 | D3 | CHIPLED_0603_NOOUTLINE | 1 | RED |  |  | [''] | 
 | 7 | C2,C1,C9,C7 | 0805-NO | 4 | 10uF |  |  | [''] | 
 | 8 | JP1 | 1X16_ROUND | 1 |  |  |  | [''] | 
@@ -64,7 +85,7 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C2, C7, C9 | 4 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C3, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C4, C5, C10 | 3 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C11 | 1 | 10uF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
 | CHG0 | 1 | ORANGE | LED0603_NOOUTLINE | working:CHIPLED_0603_NOOUTLINE |  |  |  | 

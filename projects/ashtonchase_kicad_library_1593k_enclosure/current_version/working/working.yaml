@@ -1,10 +1,106 @@
 board: 1593k_enclosure
+bom:
+- Id: '1'
+  Designator: MK1,MK2,MK3,MK4
+  Footprint: MountingHole_3.2mm_M3_ISO14580
+  Quantity: '4'
+  Designation: MountingHole_3.2mm_M3_ISO14580
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | MK1,MK2,MK3,MK4\
+  \ | MountingHole_3.2mm_M3_ISO14580 | 4 | MountingHole_3.2mm_M3_ISO14580 |  |  |\
+  \ [''] | \n"
+bom_schematic:
+- Cmp name: Mounting_Hole
+  DNP: ''
+  Description: Mounting Hole without connection
+  Footprint: Mounting_Holes:MountingHole_3.2mm_M3_ISO7380
+  Qnty: '4'
+  Ref: MK1, MK2, MK3, MK4
+  Value: Mounting_Hole
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| MK1,\
+  \ MK2, MK3, MK4 | 4 | Mounting_Hole | Mounting_Hole | Mounting_Holes:MountingHole_3.2mm_M3_ISO7380\
+  \ | Mounting Hole without connection |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/ashtonchase_kicad_library_1593k_enclosure/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/ashtonchase_kicad_library_1593k_enclosure/current_version/working/working.kicad_pcb
 file_sch_flat: projects/ashtonchase_kicad_library_1593k_enclosure/current_version/working/working.sch
 id: ashtonchase_kicad_library_1593k_enclosure
+mounting_holes:
+- package: MountingHole_3.2mm_M3_ISO14580
+  ref: MK1
+  size: m3
+  value: MountingHole_3.2mm_M3_ISO14580
+  x: '0.0'
+  y: '28.0'
+- package: MountingHole_3.2mm_M3_ISO14580
+  ref: MK2
+  size: m3
+  value: MountingHole_3.2mm_M3_ISO14580
+  x: '28.0'
+  y: '28.0'
+- package: MountingHole_3.2mm_M3_ISO14580
+  ref: MK3
+  size: m3
+  value: MountingHole_3.2mm_M3_ISO14580
+  x: '0.0'
+  y: '0.0'
+- package: MountingHole_3.2mm_M3_ISO14580
+  ref: MK4
+  size: m3
+  value: MountingHole_3.2mm_M3_ISO14580
+  x: '28.0'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 28.0 | MountingHole_3.2mm_M3_ISO14580 | MountingHole_3.2mm_M3_ISO14580\
+  \ | MK1 | m3 | \n| 28.0 | 28.0 | MountingHole_3.2mm_M3_ISO14580 | MountingHole_3.2mm_M3_ISO14580\
+  \ | MK2 | m3 | \n| 0.0 | 0.0 | MountingHole_3.2mm_M3_ISO14580 | MountingHole_3.2mm_M3_ISO14580\
+  \ | MK3 | m3 | \n| 28.0 | 0.0 | MountingHole_3.2mm_M3_ISO14580 | MountingHole_3.2mm_M3_ISO14580\
+  \ | MK4 | m3 | \n"
 name: kicad_library
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': MK1
+  Package: MountingHole_3.2mm_M3_ISO14580
+  PosX: -42.305
+  PosY: 3.353
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3.2mm_M3_ISO14580
+- '# Ref': MK2
+  Package: MountingHole_3.2mm_M3_ISO14580
+  PosX: -14.305
+  PosY: 3.353
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3.2mm_M3_ISO14580
+- '# Ref': MK3
+  Package: MountingHole_3.2mm_M3_ISO14580
+  PosX: -42.305
+  PosY: -24.647
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3.2mm_M3_ISO14580
+- '# Ref': MK4
+  Package: MountingHole_3.2mm_M3_ISO14580
+  PosX: -14.305
+  PosY: -24.647
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3.2mm_M3_ISO14580
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| MK1 | MountingHole_3.2mm_M3_ISO14580\
+  \ | MountingHole_3.2mm_M3_ISO14580 | -42.305 | 3.353 | 0.0 | top | \n| MK2 | MountingHole_3.2mm_M3_ISO14580\
+  \ | MountingHole_3.2mm_M3_ISO14580 | -14.305 | 3.353 | 0.0 | top | \n| MK3 | MountingHole_3.2mm_M3_ISO14580\
+  \ | MountingHole_3.2mm_M3_ISO14580 | -42.305 | -24.647 | 0.0 | top | \n| MK4 | MountingHole_3.2mm_M3_ISO14580\
+  \ | MountingHole_3.2mm_M3_ISO14580 | -14.305 | -24.647 | 0.0 | top | \n"
 projects_flat: projects/ashtonchase_kicad_library_1593k_enclosure/current_version/working
 repo:
   allow_forking: true

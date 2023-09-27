@@ -1,4 +1,31 @@
 board: fiducialboard
+bom:
+- Id: '1'
+  Designator: REF**
+  Footprint: Fiducial_1mm_Mask2mm
+  Quantity: '1'
+  Designation: Fiducial_1mm_Mask2mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: REF**,REF**
+  Footprint: Fiducial_0.5mm_Mask1.5mm
+  Quantity: '2'
+  Designation: Fiducial_0.5mm_Mask1.5mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | REF**\
+  \ | Fiducial_1mm_Mask2mm | 1 | Fiducial_1mm_Mask2mm |  |  | [''] | \n| 2 | REF**,REF**\
+  \ | Fiducial_0.5mm_Mask1.5mm | 2 | Fiducial_0.5mm_Mask1.5mm |  |  | [''] | \n"
+bom_schematic: []
+bom_schematic_markdown: no data
 counter: 1
 file_kicad_pcb_flat: projects/opulo-inc_feeder_fiducialboard/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/opulo-inc_feeder_fiducialboard/current_version/working/working.kicad_sch
@@ -6,6 +33,35 @@ file_repo_bom_bom_flat: projects/opulo-inc_feeder_fiducialboard/current_version/
 file_repo_bom_csv_flat: projects/opulo-inc_feeder_fiducialboard/current_version/working/bom_src.csv
 id: opulo-inc_feeder_fiducialboard
 name: feeder
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': REF**
+  Package: Fiducial_1mm_Mask2mm
+  PosX: 6.0
+  PosY: 2.0
+  Rot: 0.0
+  Side: top
+  Val: Fiducial_1mm_Mask2mm
+- '# Ref': REF**
+  Package: Fiducial_0.5mm_Mask1.5mm
+  PosX: 8.0
+  PosY: 2.0
+  Rot: 0.0
+  Side: top
+  Val: Fiducial_0.5mm_Mask1.5mm
+- '# Ref': REF**
+  Package: Fiducial_0.5mm_Mask1.5mm
+  PosX: 4.0
+  PosY: 2.0
+  Rot: 0.0
+  Side: top
+  Val: Fiducial_0.5mm_Mask1.5mm
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| REF** | Fiducial_1mm_Mask2mm | Fiducial_1mm_Mask2mm\
+  \ | 6.0 | 2.0 | 0.0 | top | \n| REF** | Fiducial_0.5mm_Mask1.5mm | Fiducial_0.5mm_Mask1.5mm\
+  \ | 8.0 | 2.0 | 0.0 | top | \n| REF** | Fiducial_0.5mm_Mask1.5mm | Fiducial_0.5mm_Mask1.5mm\
+  \ | 4.0 | 2.0 | 0.0 | top | \n"
 projects_flat: projects/opulo-inc_feeder_fiducialboard/current_version/working
 repo:
   allow_forking: true

@@ -1,4 +1,517 @@
 board: breadcontrol
+bom:
+- Id: '1'
+  Designator: C1
+  Footprint: C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Quantity: '1'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C2,C4,C6,C7
+  Footprint: C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Quantity: '4'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C3,C5
+  Footprint: C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Quantity: '2'
+  Designation: 4.7uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: D1
+  Footprint: D_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  Quantity: '1'
+  Designation: Rx
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: D2
+  Footprint: D_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  Quantity: '1'
+  Designation: Tx
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: D3
+  Footprint: D_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  Quantity: '1'
+  Designation: USB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: D4
+  Footprint: D_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  Quantity: '1'
+  Designation: I2C
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: D5,D6
+  Footprint: D_SOD-323_HandSoldering
+  Quantity: '2'
+  Designation: D_Schottky_Small
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: J1
+  Footprint: PinHeader_1x16_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Address_Control_Power
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: J2
+  Footprint: PinHeader_1x16_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Chip_Select_Measurement
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: J3
+  Footprint: PinHeader_1x03_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: UPDI
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: L1,L2
+  Footprint: L_1008_2520Metric
+  Quantity: '2'
+  Designation: 10uH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: M1,M2
+  Footprint: SOT-23-5_HandSoldering
+  Quantity: '2'
+  Designation: ZXLD1615
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: PS1
+  Footprint: CONV_DPU01L-05
+  Quantity: '1'
+  Designation: DPU01L-05
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: R1,R2,R5,R11
+  Footprint: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Quantity: '4'
+  Designation: 220R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: R3,R4
+  Footprint: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Quantity: '2'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: R12,R16,R17,R20
+  Footprint: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Quantity: '4'
+  Designation: 56.2K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: R13,R21
+  Footprint: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Quantity: '2'
+  Designation: 91K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: R14,R18,R19,R22
+  Footprint: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Quantity: '4'
+  Designation: 14K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: R15,R23
+  Footprint: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Quantity: '2'
+  Designation: 1M
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '21'
+  Designator: U1
+  Footprint: SOIC-14_3.9x8.7mm_P1.27mm
+  Quantity: '1'
+  Designation: MCP2221A-I_SL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '22'
+  Designator: U2
+  Footprint: PLCC-44_16.6x16.6mm_P1.27mm
+  Quantity: '1'
+  Designation: MT8816AP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '23'
+  Designator: U3
+  Footprint: TQFP-48_7x7mm_P0.5mm
+  Quantity: '1'
+  Designation: ATmega4809-A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '24'
+  Designator: U4
+  Footprint: TSSOP-14_4.4x5mm_P0.65mm
+  Quantity: '1'
+  Designation: MCP4661-104E_ST
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '25'
+  Designator: J4
+  Footprint: AMPHENOL_10033526-N3212LF
+  Quantity: '1'
+  Designation: USB_B_Mini
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1\
+  \ | C_0805_2012Metric_Pad1.15x1.40mm_HandSolder | 1 | 1uF |  |  | [''] | \n| 2 |\
+  \ C2,C4,C6,C7 | C_0805_2012Metric_Pad1.15x1.40mm_HandSolder | 4 | 10uF |  |  | ['']\
+  \ | \n| 3 | C3,C5 | C_0805_2012Metric_Pad1.15x1.40mm_HandSolder | 2 | 4.7uF |  |\
+  \  | [''] | \n| 4 | D1 | D_0603_1608Metric_Pad1.05x0.95mm_HandSolder | 1 | Rx |\
+  \  |  | [''] | \n| 5 | D2 | D_0603_1608Metric_Pad1.05x0.95mm_HandSolder | 1 | Tx\
+  \ |  |  | [''] | \n| 6 | D3 | D_0603_1608Metric_Pad1.05x0.95mm_HandSolder | 1 |\
+  \ USB |  |  | [''] | \n| 7 | D4 | D_0603_1608Metric_Pad1.05x0.95mm_HandSolder |\
+  \ 1 | I2C |  |  | [''] | \n| 8 | D5,D6 | D_SOD-323_HandSoldering | 2 | D_Schottky_Small\
+  \ |  |  | [''] | \n| 9 | J1 | PinHeader_1x16_P2.54mm_Vertical | 1 | Address_Control_Power\
+  \ |  |  | [''] | \n| 10 | J2 | PinHeader_1x16_P2.54mm_Vertical | 1 | Chip_Select_Measurement\
+  \ |  |  | [''] | \n| 11 | J3 | PinHeader_1x03_P2.54mm_Vertical | 1 | UPDI |  | \
+  \ | [''] | \n| 12 | L1,L2 | L_1008_2520Metric | 2 | 10uH |  |  | [''] | \n| 13 |\
+  \ M1,M2 | SOT-23-5_HandSoldering | 2 | ZXLD1615 |  |  | [''] | \n| 14 | PS1 | CONV_DPU01L-05\
+  \ | 1 | DPU01L-05 |  |  | [''] | \n| 15 | R1,R2,R5,R11 | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 4 | 220R |  |  | [''] | \n| 16 | R3,R4 | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 2 | 10K |  |  | [''] | \n| 17 | R12,R16,R17,R20 | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 4 | 56.2K |  |  | [''] | \n| 18 | R13,R21 | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 2 | 91K |  |  | [''] | \n| 19 | R14,R18,R19,R22 | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 4 | 14K |  |  | [''] | \n| 20 | R15,R23 | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 2 | 1M |  |  | [''] | \n| 21 | U1 | SOIC-14_3.9x8.7mm_P1.27mm | 1 | MCP2221A-I_SL\
+  \ |  |  | [''] | \n| 22 | U2 | PLCC-44_16.6x16.6mm_P1.27mm | 1 | MT8816AP |  | \
+  \ | [''] | \n| 23 | U3 | TQFP-48_7x7mm_P0.5mm | 1 | ATmega4809-A |  |  | [''] |\
+  \ \n| 24 | U4 | TSSOP-14_4.4x5mm_P0.65mm | 1 | MCP4661-104E_ST |  |  | [''] | \n\
+  | 25 | J4 | AMPHENOL_10033526-N3212LF | 1 | USB_B_Mini |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Qnty: '1'
+  Ref: C1
+  Value: 1uF
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Qnty: '4'
+  Ref: C2, C4, C6, C7
+  Value: 10uF
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Qnty: '2'
+  Ref: C3, C5
+  Value: 4.7uF
+  Vendor: ''
+- Cmp name: LED_Small
+  DNP: ''
+  Description: Light emitting diode, small symbol
+  Footprint: Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  Qnty: '1'
+  Ref: D1
+  Value: Rx
+  Vendor: ''
+- Cmp name: LED_Small
+  DNP: ''
+  Description: Light emitting diode, small symbol
+  Footprint: Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  Qnty: '1'
+  Ref: D2
+  Value: Tx
+  Vendor: ''
+- Cmp name: LED_Small
+  DNP: ''
+  Description: Light emitting diode, small symbol
+  Footprint: Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  Qnty: '1'
+  Ref: D3
+  Value: USB
+  Vendor: ''
+- Cmp name: LED_Small
+  DNP: ''
+  Description: Light emitting diode, small symbol
+  Footprint: Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  Qnty: '1'
+  Ref: D4
+  Value: I2C
+  Vendor: ''
+- Cmp name: D_Schottky_Small
+  DNP: ''
+  Description: Schottky diode, small symbol
+  Footprint: Diode_SMD:D_SOD-323_HandSoldering
+  Qnty: '2'
+  Ref: D5, D6
+  Value: D_Schottky_Small
+  Vendor: ''
+- Cmp name: Conn_01x16_Female-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J1
+  Value: Address_Control_Power
+  Vendor: ''
+- Cmp name: Conn_01x16_Female-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J2
+  Value: Chip_Select_Measurement
+  Vendor: ''
+- Cmp name: Conn_01x03_Male-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J3
+  Value: UPDI
+  Vendor: ''
+- Cmp name: USB_B_Mini-Connector
+  DNP: ''
+  Description: ''
+  Footprint: 10033526-N3212LF:AMPHENOL_10033526-N3212LF
+  Qnty: '1'
+  Ref: J4
+  Value: USB_B_Mini
+  Vendor: ''
+- Cmp name: L_Small
+  DNP: ''
+  Description: Inductor, small symbol
+  Footprint: Inductor_SMD:L_1008_2520Metric
+  Qnty: '2'
+  Ref: L1, L2
+  Value: 10uH
+  Vendor: ''
+- Cmp name: ZXLD1615-Regulator_Controller
+  DNP: ''
+  Description: ''
+  Footprint: Package_TO_SOT_SMD:SOT-23-5_HandSoldering
+  Qnty: '2'
+  Ref: M1, M2
+  Value: ZXLD1615
+  Vendor: ''
+- Cmp name: DPU01L-05-DPU01L-05
+  DNP: ''
+  Description: ''
+  Footprint: DPU01L-05:CONV_DPU01L-05
+  Qnty: '1'
+  Ref: PS1
+  Value: DPU01L-05
+  Vendor: ''
+- Cmp name: R_Small_US
+  DNP: ''
+  Description: Resistor, small US symbol
+  Footprint: Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Qnty: '4'
+  Ref: R1, R2, R5, R11
+  Value: 220R
+  Vendor: ''
+- Cmp name: R_Small_US
+  DNP: ''
+  Description: Resistor, small US symbol
+  Footprint: Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Qnty: '2'
+  Ref: R3, R4
+  Value: 10K
+  Vendor: ''
+- Cmp name: R_Small_US
+  DNP: ''
+  Description: Resistor, small US symbol
+  Footprint: Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Qnty: '4'
+  Ref: R12, R16, R17, R20
+  Value: 56.2K
+  Vendor: ''
+- Cmp name: R_Small_US
+  DNP: ''
+  Description: Resistor, small US symbol
+  Footprint: Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Qnty: '2'
+  Ref: R13, R21
+  Value: 91K
+  Vendor: ''
+- Cmp name: R_Small_US
+  DNP: ''
+  Description: Resistor, small US symbol
+  Footprint: Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Qnty: '4'
+  Ref: R14, R18, R19, R22
+  Value: 14K
+  Vendor: ''
+- Cmp name: R_Small_US
+  DNP: ''
+  Description: Resistor, small US symbol
+  Footprint: Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Qnty: '2'
+  Ref: R15, R23
+  Value: 1M
+  Vendor: ''
+- Cmp name: MCP2221A-I_SL-MCP2221A-I_SL
+  DNP: ''
+  Description: ''
+  Footprint: Package_SO:SOIC-14_3.9x8.7mm_P1.27mm
+  Qnty: '1'
+  Ref: U1
+  Value: MCP2221A-I_SL
+  Vendor: ''
+- Cmp name: MT8816AP-MT8816
+  DNP: ''
+  Description: ''
+  Footprint: Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm
+  Qnty: '1'
+  Ref: U2
+  Value: MT8816AP
+  Vendor: ''
+- Cmp name: ATmega4809-A
+  DNP: ''
+  Description: 20MHz, 48kB Flash, 6kB SRAM, 256B EEPROM, TQFP-48
+  Footprint: Package_QFP:TQFP-48_7x7mm_P0.5mm
+  Qnty: '1'
+  Ref: U3
+  Value: ATmega4809-A
+  Vendor: ''
+- Cmp name: MCP4661-104E_ST-MCP4661-104E_ST
+  DNP: ''
+  Description: ''
+  Footprint: Package_SO:TSSOP-14_4.4x5mm_P0.65mm
+  Qnty: '1'
+  Ref: U4
+  Value: MCP4661-104E_ST
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 1uF | C_Small | Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | Unpolarized capacitor, small symbol |  |  | \n| C2, C4, C6, C7 | 4 | 10uF |\
+  \ C_Small | Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder | Unpolarized\
+  \ capacitor, small symbol |  |  | \n| C3, C5 | 2 | 4.7uF | C_Small | Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | Unpolarized capacitor, small symbol |  |  | \n| D1 | 1 | Rx | LED_Small | Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | Light emitting diode, small symbol |  |  | \n| D2 | 1 | Tx | LED_Small | Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | Light emitting diode, small symbol |  |  | \n| D3 | 1 | USB | LED_Small | Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | Light emitting diode, small symbol |  |  | \n| D4 | 1 | I2C | LED_Small | Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | Light emitting diode, small symbol |  |  | \n| D5, D6 | 2 | D_Schottky_Small\
+  \ | D_Schottky_Small | Diode_SMD:D_SOD-323_HandSoldering | Schottky diode, small\
+  \ symbol |  |  | \n| J1 | 1 | Address_Control_Power | Conn_01x16_Female-Connector\
+  \ | Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical |  |  |  | \n| J2\
+  \ | 1 | Chip_Select_Measurement | Conn_01x16_Female-Connector | Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical\
+  \ |  |  |  | \n| J3 | 1 | UPDI | Conn_01x03_Male-Connector | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical\
+  \ |  |  |  | \n| J4 | 1 | USB_B_Mini | USB_B_Mini-Connector | 10033526-N3212LF:AMPHENOL_10033526-N3212LF\
+  \ |  |  |  | \n| L1, L2 | 2 | 10uH | L_Small | Inductor_SMD:L_1008_2520Metric |\
+  \ Inductor, small symbol |  |  | \n| M1, M2 | 2 | ZXLD1615 | ZXLD1615-Regulator_Controller\
+  \ | Package_TO_SOT_SMD:SOT-23-5_HandSoldering |  |  |  | \n| PS1 | 1 | DPU01L-05\
+  \ | DPU01L-05-DPU01L-05 | DPU01L-05:CONV_DPU01L-05 |  |  |  | \n| R1, R2, R5, R11\
+  \ | 4 | 220R | R_Small_US | Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | Resistor, small US symbol |  |  | \n| R3, R4 | 2 | 10K | R_Small_US | Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | Resistor, small US symbol |  |  | \n| R12, R16, R17, R20 | 4 | 56.2K | R_Small_US\
+  \ | Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder | Resistor, small US\
+  \ symbol |  |  | \n| R13, R21 | 2 | 91K | R_Small_US | Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | Resistor, small US symbol |  |  | \n| R14, R18, R19, R22 | 4 | 14K | R_Small_US\
+  \ | Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder | Resistor, small US\
+  \ symbol |  |  | \n| R15, R23 | 2 | 1M | R_Small_US | Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | Resistor, small US symbol |  |  | \n| U1 | 1 | MCP2221A-I_SL | MCP2221A-I_SL-MCP2221A-I_SL\
+  \ | Package_SO:SOIC-14_3.9x8.7mm_P1.27mm |  |  |  | \n| U2 | 1 | MT8816AP | MT8816AP-MT8816\
+  \ | Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm |  |  |  | \n| U3 | 1 | ATmega4809-A\
+  \ | ATmega4809-A | Package_QFP:TQFP-48_7x7mm_P0.5mm | 20MHz, 48kB Flash, 6kB SRAM,\
+  \ 256B EEPROM, TQFP-48 |  |  | \n| U4 | 1 | MCP4661-104E_ST | MCP4661-104E_ST-MCP4661-104E_ST\
+  \ | Package_SO:TSSOP-14_4.4x5mm_P0.65mm |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/architeuthis_flux_breadware_breadcontrol/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/architeuthis_flux_breadware_breadcontrol/current_version/working/working.kicad_pcb
@@ -6,6 +519,363 @@ file_repo_bom_xlsx_flat: projects/architeuthis_flux_breadware_breadcontrol/curre
 file_sch_flat: projects/architeuthis_flux_breadware_breadcontrol/current_version/working/working.sch
 id: architeuthis_flux_breadware_breadcontrol
 name: breadware
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 55.88
+  PosY: -53.34
+  Rot: 180.0
+  Side: top
+  Val: 1uF
+- '# Ref': C2
+  Package: C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 118.745
+  PosY: -75.565
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C3
+  Package: C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 115.57
+  PosY: -75.565
+  Rot: -90.0
+  Side: top
+  Val: 4.7uF
+- '# Ref': C4
+  Package: C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 134.62
+  PosY: -75.565
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C5
+  Package: C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 131.445
+  PosY: -75.565
+  Rot: -90.0
+  Side: top
+  Val: 4.7uF
+- '# Ref': C6
+  Package: C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 55.88
+  PosY: -50.165
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': C7
+  Package: C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 54.61
+  PosY: -75.565
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': D1
+  Package: D_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  PosX: 62.865
+  PosY: -30.48
+  Rot: -90.0
+  Side: top
+  Val: Rx
+- '# Ref': D2
+  Package: D_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  PosX: 66.04
+  PosY: -30.48
+  Rot: -90.0
+  Side: top
+  Val: Tx
+- '# Ref': D3
+  Package: D_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  PosX: 69.215
+  PosY: -30.48
+  Rot: -90.0
+  Side: top
+  Val: USB
+- '# Ref': D4
+  Package: D_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  PosX: 72.39
+  PosY: -30.48
+  Rot: -90.0
+  Side: top
+  Val: I2C
+- '# Ref': D5
+  Package: D_SOD-323_HandSoldering
+  PosX: 117.475
+  PosY: -71.755
+  Rot: 180.0
+  Side: top
+  Val: D_Schottky_Small
+- '# Ref': D6
+  Package: D_SOD-323_HandSoldering
+  PosX: 133.35
+  PosY: -71.755
+  Rot: 180.0
+  Side: top
+  Val: D_Schottky_Small
+- '# Ref': J1
+  Package: PinHeader_1x16_P2.54mm_Vertical
+  PosX: 38.1
+  PosY: -38.735
+  Rot: 0.0
+  Side: top
+  Val: Address_Control_Power
+- '# Ref': J2
+  Package: PinHeader_1x16_P2.54mm_Vertical
+  PosX: 142.24
+  PosY: -38.735
+  Rot: 0.0
+  Side: top
+  Val: Chip_Select_Measurement
+- '# Ref': J3
+  Package: PinHeader_1x03_P2.54mm_Vertical
+  PosX: 93.345
+  PosY: -30.48
+  Rot: -90.0
+  Side: top
+  Val: UPDI
+- '# Ref': J4
+  Package: AMPHENOL_10033526-N3212LF
+  PosX: 47.625
+  PosY: -33.02
+  Rot: 180.0
+  Side: top
+  Val: USB_B_Mini
+- '# Ref': L1
+  Package: L_1008_2520Metric
+  PosX: 112.395
+  PosY: -71.12
+  Rot: 90.0
+  Side: top
+  Val: 10uH
+- '# Ref': L2
+  Package: L_1008_2520Metric
+  PosX: 128.27
+  PosY: -71.12
+  Rot: 90.0
+  Side: top
+  Val: 10uH
+- '# Ref': M1
+  Package: SOT-23-5_HandSoldering
+  PosX: 110.49
+  PosY: -75.692
+  Rot: 0.0
+  Side: top
+  Val: ZXLD1615
+- '# Ref': M2
+  Package: SOT-23-5_HandSoldering
+  PosX: 126.365
+  PosY: -75.565
+  Rot: 0.0
+  Side: top
+  Val: ZXLD1615
+- '# Ref': PS1
+  Package: CONV_DPU01L-05
+  PosX: 127.635
+  PosY: -43.815
+  Rot: 180.0
+  Side: top
+  Val: DPU01L-05
+- '# Ref': R1
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 62.865
+  PosY: -34.925
+  Rot: 90.0
+  Side: top
+  Val: 220R
+- '# Ref': R2
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 66.04
+  PosY: -34.925
+  Rot: 90.0
+  Side: top
+  Val: 220R
+- '# Ref': R3
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 62.23
+  PosY: -53.34
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R4
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 62.23
+  PosY: -50.165
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R5
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 69.215
+  PosY: -34.925
+  Rot: 90.0
+  Side: top
+  Val: 220R
+- '# Ref': R11
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 72.39
+  PosY: -34.925
+  Rot: 90.0
+  Side: top
+  Val: 220R
+- '# Ref': R12
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 115.57
+  PosY: -80.01
+  Rot: -90.0
+  Side: top
+  Val: 56.2K
+- '# Ref': R13
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 107.315
+  PosY: -79.375
+  Rot: 0.0
+  Side: top
+  Val: 91K
+- '# Ref': R14
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 118.745
+  PosY: -80.01
+  Rot: 90.0
+  Side: top
+  Val: 14K
+- '# Ref': R15
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 111.76
+  PosY: -79.375
+  Rot: 0.0
+  Side: top
+  Val: 1M
+- '# Ref': R16
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 74.4855
+  PosY: -61.8236
+  Rot: 180.0
+  Side: top
+  Val: 56.2K
+- '# Ref': R17
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 74.4855
+  PosY: -58.7375
+  Rot: 180.0
+  Side: top
+  Val: 56.2K
+- '# Ref': R18
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 70.0278
+  PosY: -61.8363
+  Rot: 180.0
+  Side: top
+  Val: 14K
+- '# Ref': R19
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 70.0298
+  PosY: -58.7404
+  Rot: 180.0
+  Side: top
+  Val: 14K
+- '# Ref': R20
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 131.445
+  PosY: -80.01
+  Rot: -90.0
+  Side: top
+  Val: 56.2K
+- '# Ref': R21
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 123.825
+  PosY: -79.375
+  Rot: 0.0
+  Side: top
+  Val: 91K
+- '# Ref': R22
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 134.62
+  PosY: -80.01
+  Rot: 90.0
+  Side: top
+  Val: 14K
+- '# Ref': R23
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 127.88
+  PosY: -79.375
+  Rot: 0.0
+  Side: top
+  Val: 1M
+- '# Ref': U1
+  Package: SOIC-14_3.9x8.7mm_P1.27mm
+  PosX: 60.96
+  PosY: -42.545
+  Rot: 180.0
+  Side: top
+  Val: MCP2221A-I_SL
+- '# Ref': U2
+  Package: PLCC-44_16.6x16.6mm_P1.27mm
+  PosX: 92.075
+  PosY: -57.785
+  Rot: 180.0
+  Side: top
+  Val: MT8816AP
+- '# Ref': U3
+  Package: TQFP-48_7x7mm_P0.5mm
+  PosX: 55.118
+  PosY: -67.31
+  Rot: 0.0
+  Side: top
+  Val: ATmega4809-A
+- '# Ref': U4
+  Package: TSSOP-14_4.4x5mm_P0.65mm
+  PosX: 88.9
+  PosY: -78.105
+  Rot: 0.0
+  Side: top
+  Val: MCP4661-104E_ST
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 1uF | C_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 55.88 | -53.34 | 180.0 | top | \n| C2 | 10uF | C_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 118.745 | -75.565 | -90.0 | top | \n| C3 | 4.7uF | C_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 115.57 | -75.565 | -90.0 | top | \n| C4 | 10uF | C_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 134.62 | -75.565 | -90.0 | top | \n| C5 | 4.7uF | C_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 131.445 | -75.565 | -90.0 | top | \n| C6 | 10uF | C_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 55.88 | -50.165 | 180.0 | top | \n| C7 | 10uF | C_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 54.61 | -75.565 | 0.0 | top | \n| D1 | Rx | D_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | 62.865 | -30.48 | -90.0 | top | \n| D2 | Tx | D_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | 66.04 | -30.48 | -90.0 | top | \n| D3 | USB | D_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | 69.215 | -30.48 | -90.0 | top | \n| D4 | I2C | D_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | 72.39 | -30.48 | -90.0 | top | \n| D5 | D_Schottky_Small | D_SOD-323_HandSoldering\
+  \ | 117.475 | -71.755 | 180.0 | top | \n| D6 | D_Schottky_Small | D_SOD-323_HandSoldering\
+  \ | 133.35 | -71.755 | 180.0 | top | \n| J1 | Address_Control_Power | PinHeader_1x16_P2.54mm_Vertical\
+  \ | 38.1 | -38.735 | 0.0 | top | \n| J2 | Chip_Select_Measurement | PinHeader_1x16_P2.54mm_Vertical\
+  \ | 142.24 | -38.735 | 0.0 | top | \n| J3 | UPDI | PinHeader_1x03_P2.54mm_Vertical\
+  \ | 93.345 | -30.48 | -90.0 | top | \n| J4 | USB_B_Mini | AMPHENOL_10033526-N3212LF\
+  \ | 47.625 | -33.02 | 180.0 | top | \n| L1 | 10uH | L_1008_2520Metric | 112.395\
+  \ | -71.12 | 90.0 | top | \n| L2 | 10uH | L_1008_2520Metric | 128.27 | -71.12 |\
+  \ 90.0 | top | \n| M1 | ZXLD1615 | SOT-23-5_HandSoldering | 110.49 | -75.692 | 0.0\
+  \ | top | \n| M2 | ZXLD1615 | SOT-23-5_HandSoldering | 126.365 | -75.565 | 0.0 |\
+  \ top | \n| PS1 | DPU01L-05 | CONV_DPU01L-05 | 127.635 | -43.815 | 180.0 | top |\
+  \ \n| R1 | 220R | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder | 62.865 | -34.925\
+  \ | 90.0 | top | \n| R2 | 220R | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder | 66.04\
+  \ | -34.925 | 90.0 | top | \n| R3 | 10K | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 62.23 | -53.34 | 180.0 | top | \n| R4 | 10K | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 62.23 | -50.165 | 180.0 | top | \n| R5 | 220R | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 69.215 | -34.925 | 90.0 | top | \n| R11 | 220R | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 72.39 | -34.925 | 90.0 | top | \n| R12 | 56.2K | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 115.57 | -80.01 | -90.0 | top | \n| R13 | 91K | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 107.315 | -79.375 | 0.0 | top | \n| R14 | 14K | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 118.745 | -80.01 | 90.0 | top | \n| R15 | 1M | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 111.76 | -79.375 | 0.0 | top | \n| R16 | 56.2K | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 74.4855 | -61.8236 | 180.0 | top | \n| R17 | 56.2K | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 74.4855 | -58.7375 | 180.0 | top | \n| R18 | 14K | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 70.0278 | -61.8363 | 180.0 | top | \n| R19 | 14K | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 70.0298 | -58.7404 | 180.0 | top | \n| R20 | 56.2K | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 131.445 | -80.01 | -90.0 | top | \n| R21 | 91K | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 123.825 | -79.375 | 0.0 | top | \n| R22 | 14K | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 134.62 | -80.01 | 90.0 | top | \n| R23 | 1M | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 127.88 | -79.375 | 0.0 | top | \n| U1 | MCP2221A-I_SL | SOIC-14_3.9x8.7mm_P1.27mm\
+  \ | 60.96 | -42.545 | 180.0 | top | \n| U2 | MT8816AP | PLCC-44_16.6x16.6mm_P1.27mm\
+  \ | 92.075 | -57.785 | 180.0 | top | \n| U3 | ATmega4809-A | TQFP-48_7x7mm_P0.5mm\
+  \ | 55.118 | -67.31 | 0.0 | top | \n| U4 | MCP4661-104E_ST | TSSOP-14_4.4x5mm_P0.65mm\
+  \ | 88.9 | -78.105 | 0.0 | top | \n"
 projects_flat: projects/architeuthis_flux_breadware_breadcontrol/current_version/working
 repo:
   allow_forking: true

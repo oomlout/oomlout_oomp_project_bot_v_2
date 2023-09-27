@@ -1,0 +1,23 @@
+# kicad_source_mirror
+ 
+## summary 
+* id: mmmspatz_kicad_source_mirror_tracks_arcs_vias
+* user: mmmspatz
+* name: kicad_source_mirror
+* board: tracks_arcs_vias
+* repo: https://github.com/mmmspatz/kicad-source-mirror
+* src_file_repo_kicad_pcb: qa/data/complex_hierarchy.kicad_pcb
+* src_file_repo_kicad_pcb_link: https://github.com/mmmspatz/kicad-source-mirror/tree/master/qa/data/complex_hierarchy.kicad_pcb
+* src_file_repo_kicad_sch: qa/data/custom_fields.kicad_sch
+* src_file_repo_kicad_sch_link: https://github.com/mmmspatz/kicad-source-mirror/tree/master/qa/data/custom_fields.kicad_sch
+
+* src_file_repo_sch: helpers/tools_to_build_newstroke-font/font.sch
+* src_file_repo_sch_link: https://github.com/mmmspatz/kicad-source-mirror/tree/master/helpers/tools_to_build_newstroke-font/font.sch
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/mmmspatz_kicad_source_mirror_tracks_arcs_vias/current_version/working  
+
+
+
+
+
+
+

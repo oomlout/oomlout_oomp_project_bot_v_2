@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -34,7 +55,7 @@
 | 5 | U$2,U$5,U$4,U$3 | MOUNTINGHOLE_2.5_PLATED_THICK | 4 | MOUNTINGHOLE2.5_THICK |  |  | [''] | 
 | 6 | @HOLE1,@HOLE0 |  | 2 |  |  |  | [''] | 
 | 7 | R2,R1 | 0207_9 | 2 | 47R |  |  | [''] | 
-| 8 | TM2 | TRIM-3386 | 1 | 10KΩ |  |  | [''] | 
+| 8 | TM2 | TRIM-3386 | 1 | 10KÎ© |  |  | [''] | 
 | 9 | R15,R16,R14 | 0207_9 | 3 | 2.2K |  |  | [''] | 
 | 10 | USB0 | USB-B-PTH | 1 | USBPTH |  |  | [''] | 
 | 11 | C3,C2 | E2,5-6 | 2 | 100uF |  |  | [''] | 
@@ -65,7 +86,7 @@
 | R3 | 1 | 2K2 | R-US_0207/9 | working:0207_9 |  |  |  | 
 | R5, R6, R7, R8, R9, R10, R11, R12 | 8 | R-US_0207/9 | R-US_0207/9 | working:0207_9 |  |  |  | 
 | R14, R15, R16 | 3 | 2.2K | R-US_0207/9 | working:0207_9 |  |  |  | 
-| TM2 | 1 | 10KΩ | TRIMPOT3386 | working:TRIM-3386 |  |  |  | 
+| TM2 | 1 | 10KÎ© | TRIMPOT3386 | working:TRIM-3386 |  |  |  | 
 | U$2, U$3, U$4, U$5 | 4 | MOUNTINGHOLE2.5_THICK | MOUNTINGHOLE2.5_THICK | working:MOUNTINGHOLE_2.5_PLATED_THICK |  |  |  | 
 | USB0 | 1 | USBPTH | USBPTH | working:USB-B-PTH |  |  |  | 
 
@@ -74,8 +95,8 @@
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$2 | m3 | 
-| 58.41999999999999 | 0.0 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$3 | m3 | 
-| 0.0 | 25.400000000000006 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$4 | m3 | 
-| 58.166 | 25.146 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$5 | m3 | 
+| 58.42 | 0.0 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$3 | m3 | 
+| 0.0 | 25.4 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$4 | m3 | 
+| 58.17 | 25.15 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$5 | m3 | 
 
 

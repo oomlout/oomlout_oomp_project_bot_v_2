@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -48,7 +69,7 @@
 | 19 | Q5 | SOT23-3 | 1 | IRLML0100 |  |  | [''] | 
 | 20 | X1 | MICROSD | 1 | MICROSD |  |  | [''] | 
 | 21 | C8,C7 | 0805-NO | 2 | 1uF |  |  | [''] | 
-| 22 | C20,C21 | 0805-NO | 2 | 10µF |  |  | [''] | 
+| 22 | C20,C21 | 0805-NO | 2 | 10ÂµF |  |  | [''] | 
 | 23 | U4 | SOIC8_150MIL | 1 | 23K640-I/SN |  |  | [''] | 
 
 
@@ -61,7 +82,7 @@
 | C5 | 1 | 4.7uF/25V | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7, C8 | 2 | 1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C15 | 1 | 10uF/10V+ | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C20, C21 | 2 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C20, C21 | 2 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C24 | 1 | 1uF/6V | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | D1, D2, D3 | 3 | MBR0530 | DIODE-SCHOTTKYSOD-123 | working:SOD-123 |  |  |  | 
 | EINK1 | 1 | EINK_EPD0231EINK_154IN_200X200 | EINK_EPD0231EINK_154IN_200X200 | working:EINK_154IN |  |  |  | 
@@ -82,8 +103,8 @@
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$3 | m3 | 
-| 38.099999999999994 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$4 | m3 | 
-| 0.0 | 38.10000000000001 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$5 | m3 | 
-| 38.099999999999994 | 38.10000000000001 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$6 | m3 | 
+| 38.1 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$4 | m3 | 
+| 0.0 | 38.1 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$5 | m3 | 
+| 38.1 | 38.1 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$6 | m3 | 
 
 

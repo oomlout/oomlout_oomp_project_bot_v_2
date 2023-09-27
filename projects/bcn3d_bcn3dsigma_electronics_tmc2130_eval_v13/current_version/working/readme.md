@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -38,7 +59,7 @@
 | 9 | X1,REF2,X2 | 3PIN_1ROW_2,54_THT | 3 | MALE HEADER 2.54 |  |  | [''] | 
 | 10 | TERM2 | EXTRA_TERMINAL | 1 | AKL182_04_POL_TERMINAL |  |  | [''] | 
 | 11 | C12,C13 | C_POL_RAD_THT_5X10X12.5 | 2 | EEUFR1J151 150uF/63V/0R045 |  |  | [''] | 
-| 12 | C1,C2 | RCL_0603 | 2 | 0603/4.7µF/10V |  |  | [''] | 
+| 12 | C1,C2 | RCL_0603 | 2 | 0603/4.7ÂµF/10V |  |  | [''] | 
 | 13 | MOTOR1 | AKL169_04_POL | 1 | AKL182_04_POL_HEADER |  |  | [''] | 
 | 14 | PWR0 | AKL349_02_POL | 1 | AKL_349_02_POL_HEADER |  |  | [''] | 
 | 15 | IC2 | SOT23-5 | 1 | LP2985AIM5-3.3 |  |  | [''] | 
@@ -60,11 +81,11 @@
 | 31 | R1 | RCL_0603 | 1 | 0603/10k/1% |  |  | [''] | 
 | 32 | R2 | RCL_0603 | 1 | 10K |  |  | [''] | 
 | 33 | R8 | R0603 | 1 | NOT ASSEMBLED |  |  | [''] | 
-| 34 | C6 | C0603 | 1 | C0603/4µ7/16V |  |  | [''] | 
+| 34 | C6 | C0603 | 1 | C0603/4Âµ7/16V |  |  | [''] | 
 | 35 | IC1 | SN74LVC1G123DCTR | 1 | SN74LVC1G123DCTR |  |  | [''] | 
 | 36 | R6 | R0603 | 1 | 0603/2R2/1% |  |  | [''] | 
 | 37 | C11 | C1210 | 1 | 1210/4.7uF/100V |  |  | [''] | 
-| 38 | C14 | C0805 | 1 | 0805/4µ7/50V |  |  | [''] | 
+| 38 | C14 | C0805 | 1 | 0805/4Âµ7/50V |  |  | [''] | 
 | 39 | TEST_POINT14,TEST_POINT7,TEST_POINT3,TEST_POINT5,TEST_POINT2,TEST_POINT1,TEST_POINT6,TEST_POINT11,TEST_POINT9,TEST_POINT10,TEST_POINT4,TEST_POINT8,TEST_POINT12,TEST_POINT13 | PAD_R1.2 | 14 | NOT ASSEMBLED |  |  | [''] | 
 | 40 | U$3 | TMC_EVAL_BACK_NO_DOCU | 1 |  |  |  | [''] | 
 
@@ -73,15 +94,15 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | AIN_REF0 | 1 | 1PIN_1ROW | 1PIN_1ROW | working:1PIN_1ROW_THT |  |  |  | 
-| C1, C2 | 2 | 0603/4.7µF/10V | RCL_C/0603 | working:RCL_0603 |  |  |  | 
+| C1, C2 | 2 | 0603/4.7ÂµF/10V | RCL_C/0603 | working:RCL_0603 |  |  |  | 
 | C3 | 1 | 0603/10nF/10V | RCL_C/0603 | working:RCL_0603 |  |  |  | 
 | C5, C7, C10, C15 | 4 | C0603/100nF/50V | C-EUC0603 | working:C0603 |  |  |  | 
-| C6 | 1 | C0603/4µ7/16V | C-EUC0603 | working:C0603 |  |  |  | 
+| C6 | 1 | C0603/4Âµ7/16V | C-EUC0603 | working:C0603 |  |  |  | 
 | C8 | 1 | C0603/22nF/50V | C-EUC0603 | working:C0603 |  |  |  | 
 | C9 | 1 | C0603/470nF/16V | C-EUC0603 | working:C0603 |  |  |  | 
 | C11 | 1 | 1210/4.7uF/100V | C-EUC1210 | working:C1210 |  |  |  | 
 | C12, C13 | 2 | EEUFR1J151 150uF/63V/0R045 | C_POL | working:C_POL_RAD_THT_5X10X12.5 |  |  |  | 
-| C14 | 1 | 0805/4µ7/50V | C-EUC0805 | working:C0805 |  |  |  | 
+| C14 | 1 | 0805/4Âµ7/50V | C-EUC0805 | working:C0805 |  |  |  | 
 | C_ID0 | 1 | C_ID/10V/1% | RCL_C/0603 | working:RCL_0603 |  |  |  | 
 | D1 | 1 | SMBJ43A | SMBJ | working:SMB |  |  |  | 
 | D3, D4 | 2 | BAT54S | BAT54S | working:SOT23 |  |  |  | 

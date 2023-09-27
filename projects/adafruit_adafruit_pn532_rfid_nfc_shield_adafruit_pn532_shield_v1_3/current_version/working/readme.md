@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -33,9 +54,9 @@
 | 4 | R7,R16,R14,R9,R17,R13,R15,R18,R12,R11 | 0805 | 10 | 10K |  |  | [''] | 
 | 5 | JP6 | 1X06-BIG | 1 |  |  |  | [''] | 
 | 6 | @HOLE1,@HOLE0,@HOLE2,@HOLE3 |  | 4 |  |  |  | [''] | 
-| 7 | C14,C20,C11,C17,C24,C16 | 0805 | 6 | 0.1µF |  |  | [''] | 
+| 7 | C14,C20,C11,C17,C24,C16 | 0805 | 6 | 0.1ÂµF |  |  | [''] | 
 | 8 | JP1,JP4 | 1X08_ROUND_70 | 2 |  |  |  | [''] | 
-| 9 | C21,C22,C25,C18,C19,C26 | 0805 | 6 | 10µF |  |  | [''] | 
+| 9 | C21,C22,C25,C18,C19,C26 | 0805 | 6 | 10ÂµF |  |  | [''] | 
 | 10 | R10,R8 | 0805 | 2 | TBD |  |  | [''] | 
 | 11 | TP6,TP2 | TESTPOINT_PAD_2MM | 2 | TGND |  |  | [''] | 
 | 12 | R6,R5 | R0201 | 2 | NC |  |  | [''] | 
@@ -74,10 +95,10 @@
 | C3, C4 | 2 | 220pF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
 | C5, C6, C9, C10 | 4 | NC | CAP_CERAMIC0805 | working:0805 |  |  |  | 
 | C7, C8 | 2 | 100pF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
-| C11, C14, C16, C17, C20, C24 | 6 | 0.1µF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
+| C11, C14, C16, C17, C20, C24 | 6 | 0.1ÂµF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
 | C12, C13 | 2 | 33pF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
 | C15 | 1 | 1000pF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
-| C18, C19, C21, C22, C25, C26 | 6 | 10µF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
+| C18, C19, C21, C22, C25, C26 | 6 | 10ÂµF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
 | FID1, FID2 | 2 | FIDUCIAL1X2.5 | FIDUCIAL1X2.5 | working:FIDUCIAL-1X2.5 |  |  |  | 
 | JP1, JP4 | 2 | HEADER-1X870MIL | HEADER-1X870MIL | working:1X08_ROUND_70 |  |  |  | 
 | JP2 | 1 | HEADER-1X670MIL | HEADER-1X670MIL | working:1X06_ROUND_70 |  |  |  | 

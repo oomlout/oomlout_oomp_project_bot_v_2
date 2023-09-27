@@ -1,10 +1,792 @@
 board: ftp
+bom:
+- Id: '1'
+  Designator: D34,D28,D2,D11,D8,D36,D15,D16,D31,D19,D6,D25,D30,D22,D21,D32,D20,D17,D26,D3,D23,D35,D10,D29,D24,D7,D18,D14,D5,D12,D39,D37,D4,D40,D1,D13,D38,D33,D27,D9
+  Footprint: LED_0603_1608Metric
+  Quantity: '40'
+  Designation: LED_Small
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R16,R29,R2,R15,R24,R3,R11,R33,R18,R32,R12,R5,R13,R6,R23,R37,R9,R38,R25,R10,R4,R14,R1,R21,R36,R28,R19,R17,R39,R22,R8,R7,R35,R27,R20,R26,R34,R31,R30,R40
+  Footprint: R_0603_1608Metric
+  Quantity: '40'
+  Designation: R_Small
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J1
+  Footprint: PinHeader_1x02_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x02_Male
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: FID3,FID1,FID2
+  Footprint: Fiducial_1mm_Mask3mm
+  Quantity: '3'
+  Designation: Fiducial
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: G***
+  Footprint: cal-dot-grid
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D34,D28,D2,D11,D8,D36,D15,D16,D31,D19,D6,D25,D30,D22,D21,D32,D20,D17,D26,D3,D23,D35,D10,D29,D24,D7,D18,D14,D5,D12,D39,D37,D4,D40,D1,D13,D38,D33,D27,D9\
+  \ | LED_0603_1608Metric | 40 | LED_Small |  |  | [''] | \n| 2 | R16,R29,R2,R15,R24,R3,R11,R33,R18,R32,R12,R5,R13,R6,R23,R37,R9,R38,R25,R10,R4,R14,R1,R21,R36,R28,R19,R17,R39,R22,R8,R7,R35,R27,R20,R26,R34,R31,R30,R40\
+  \ | R_0603_1608Metric | 40 | R_Small |  |  | [''] | \n| 3 | J1 | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 1 | Conn_01x02_Male |  |  | [''] | \n| 4 | FID3,FID1,FID2 | Fiducial_1mm_Mask3mm\
+  \ | 3 | Fiducial |  |  | [''] | \n| 5 | G*** | cal-dot-grid | 1 | LOGO |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: LED_Small
+  DNP: ''
+  Description: Light emitting diode, small symbol
+  Footprint: LED_SMD:LED_0603_1608Metric
+  Qnty: '40'
+  Ref: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17,
+    D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33,
+    D34, D35, D36, D37, D38, D39, D40
+  Value: LED_Small
+  Vendor: ''
+- Cmp name: Fiducial
+  DNP: ''
+  Description: Fiducial Marker
+  Footprint: Fiducial:Fiducial_1mm_Mask3mm
+  Qnty: '3'
+  Ref: FID1, FID2, FID3
+  Value: Fiducial
+  Vendor: ''
+- Cmp name: Conn_01x02_Male
+  DNP: ''
+  Description: Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_01x02_Male
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '40'
+  Ref: R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17,
+    R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33,
+    R34, R35, R36, R37, R38, R39, R40
+  Value: R_Small
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| D1, D2,\
+  \ D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19,\
+  \ D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33, D34, D35,\
+  \ D36, D37, D38, D39, D40 | 40 | LED_Small | LED_Small | LED_SMD:LED_0603_1608Metric\
+  \ | Light emitting diode, small symbol |  |  | \n| FID1, FID2, FID3 | 3 | Fiducial\
+  \ | Fiducial | Fiducial:Fiducial_1mm_Mask3mm | Fiducial Marker |  |  | \n| J1 |\
+  \ 1 | Conn_01x02_Male | Conn_01x02_Male | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15,\
+  \ R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31,\
+  \ R32, R33, R34, R35, R36, R37, R38, R39, R40 | 40 | R_Small | R_Small | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor, small symbol |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/opulo-inc_lumenpnp_archive_ftp/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/opulo-inc_lumenpnp_archive_ftp/current_version/working/working.kicad_sch
 file_repo_bom_csv_flat: projects/opulo-inc_lumenpnp_archive_ftp/current_version/working/bom_src.csv
 id: opulo-inc_lumenpnp_archive_ftp
 name: lumenpnp_archive
+position_bottom:
+- '# Ref': G***
+  Package: cal-dot-grid
+  PosX: 37.5
+  PosY: 37.5
+  Rot: 90.0
+  Side: bottom
+  Val: LOGO
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | cal-dot-grid | 37.5\
+  \ | 37.5 | 90.0 | bottom | \n"
+position_top:
+- '# Ref': D1
+  Package: LED_0603_1608Metric
+  PosX: 37.5
+  PosY: 47.5
+  Rot: 0.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D2
+  Package: LED_0603_1608Metric
+  PosX: 44.5
+  PosY: 44.5
+  Rot: -45.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D3
+  Package: LED_0603_1608Metric
+  PosX: 47.5
+  PosY: 37.5
+  Rot: -90.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D4
+  Package: LED_0603_1608Metric
+  PosX: 44.5
+  PosY: 30.5
+  Rot: -135.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D5
+  Package: LED_0603_1608Metric
+  PosX: 37.5
+  PosY: 27.5
+  Rot: 180.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D6
+  Package: LED_0603_1608Metric
+  PosX: 30.5
+  PosY: 30.5
+  Rot: 135.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D7
+  Package: LED_0603_1608Metric
+  PosX: 27.5
+  PosY: 37.5
+  Rot: 90.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D8
+  Package: LED_0603_1608Metric
+  PosX: 30.5
+  PosY: 44.5
+  Rot: 45.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D9
+  Package: LED_0603_1608Metric
+  PosX: 21.75
+  PosY: 45.0
+  Rot: 180.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D10
+  Package: LED_0603_1608Metric
+  PosX: 21.75
+  PosY: 40.0
+  Rot: 180.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D11
+  Package: LED_0603_1608Metric
+  PosX: 21.75
+  PosY: 35.0
+  Rot: 180.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D12
+  Package: LED_0603_1608Metric
+  PosX: 21.75
+  PosY: 30.0
+  Rot: 180.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D13
+  Package: LED_0603_1608Metric
+  PosX: 10.75
+  PosY: 45.0
+  Rot: 180.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D14
+  Package: LED_0603_1608Metric
+  PosX: 10.75
+  PosY: 40.0
+  Rot: 180.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D15
+  Package: LED_0603_1608Metric
+  PosX: 10.75
+  PosY: 35.0
+  Rot: 180.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D16
+  Package: LED_0603_1608Metric
+  PosX: 10.75
+  PosY: 30.0
+  Rot: 180.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D17
+  Package: LED_0603_1608Metric
+  PosX: 11.25
+  PosY: 22.0
+  Rot: -90.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D18
+  Package: LED_0603_1608Metric
+  PosX: 18.75
+  PosY: 22.0
+  Rot: -90.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D19
+  Package: LED_0603_1608Metric
+  PosX: 26.25
+  PosY: 22.0
+  Rot: -90.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D20
+  Package: LED_0603_1608Metric
+  PosX: 33.75
+  PosY: 22.0
+  Rot: -90.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D21
+  Package: LED_0603_1608Metric
+  PosX: 41.25
+  PosY: 22.0
+  Rot: -90.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D22
+  Package: LED_0603_1608Metric
+  PosX: 48.75
+  PosY: 22.0
+  Rot: -90.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D23
+  Package: LED_0603_1608Metric
+  PosX: 56.25
+  PosY: 22.0
+  Rot: -90.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D24
+  Package: LED_0603_1608Metric
+  PosX: 63.75
+  PosY: 22.0
+  Rot: -90.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D25
+  Package: LED_0603_1608Metric
+  PosX: 53.25
+  PosY: 30.0
+  Rot: 0.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D26
+  Package: LED_0603_1608Metric
+  PosX: 53.25
+  PosY: 35.0
+  Rot: 0.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D27
+  Package: LED_0603_1608Metric
+  PosX: 53.25
+  PosY: 40.0
+  Rot: 0.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D28
+  Package: LED_0603_1608Metric
+  PosX: 53.25
+  PosY: 45.0
+  Rot: 0.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D29
+  Package: LED_0603_1608Metric
+  PosX: 64.25
+  PosY: 30.0
+  Rot: 0.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D30
+  Package: LED_0603_1608Metric
+  PosX: 64.25
+  PosY: 35.0
+  Rot: 0.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D31
+  Package: LED_0603_1608Metric
+  PosX: 64.25
+  PosY: 40.0
+  Rot: 0.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D32
+  Package: LED_0603_1608Metric
+  PosX: 64.25
+  PosY: 45.0
+  Rot: 0.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D33
+  Package: LED_0603_1608Metric
+  PosX: 63.75
+  PosY: 53.0
+  Rot: 90.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D34
+  Package: LED_0603_1608Metric
+  PosX: 56.25
+  PosY: 53.0
+  Rot: 90.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D35
+  Package: LED_0603_1608Metric
+  PosX: 48.75
+  PosY: 53.0
+  Rot: 90.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D36
+  Package: LED_0603_1608Metric
+  PosX: 41.25
+  PosY: 53.0
+  Rot: 90.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D37
+  Package: LED_0603_1608Metric
+  PosX: 33.75
+  PosY: 53.0
+  Rot: 90.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D38
+  Package: LED_0603_1608Metric
+  PosX: 26.25
+  PosY: 53.0
+  Rot: 90.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D39
+  Package: LED_0603_1608Metric
+  PosX: 18.75
+  PosY: 53.0
+  Rot: 90.0
+  Side: top
+  Val: LED_Small
+- '# Ref': D40
+  Package: LED_0603_1608Metric
+  PosX: 11.25
+  PosY: 53.0
+  Rot: 90.0
+  Side: top
+  Val: LED_Small
+- '# Ref': FID1
+  Package: Fiducial_1mm_Mask3mm
+  PosX: 62.5
+  PosY: 5.0
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': FID2
+  Package: Fiducial_1mm_Mask3mm
+  PosX: 12.5
+  PosY: 70.0
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': FID3
+  Package: Fiducial_1mm_Mask3mm
+  PosX: 62.5
+  PosY: 70.0
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': J1
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 3.0
+  PosY: 18.75
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x02_Male
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 37.5
+  PosY: 42.5
+  Rot: 90.0
+  Side: top
+  Val: R_Small
+- '# Ref': R2
+  Package: R_0603_1608Metric
+  PosX: 41.0
+  PosY: 41.0
+  Rot: 45.0
+  Side: top
+  Val: R_Small
+- '# Ref': R3
+  Package: R_0603_1608Metric
+  PosX: 42.5
+  PosY: 37.5
+  Rot: 0.0
+  Side: top
+  Val: R_Small
+- '# Ref': R4
+  Package: R_0603_1608Metric
+  PosX: 41.0
+  PosY: 34.0
+  Rot: -45.0
+  Side: top
+  Val: R_Small
+- '# Ref': R5
+  Package: R_0603_1608Metric
+  PosX: 37.5
+  PosY: 32.5
+  Rot: -90.0
+  Side: top
+  Val: R_Small
+- '# Ref': R6
+  Package: R_0603_1608Metric
+  PosX: 34.0
+  PosY: 34.0
+  Rot: -135.0
+  Side: top
+  Val: R_Small
+- '# Ref': R7
+  Package: R_0603_1608Metric
+  PosX: 32.5
+  PosY: 37.5
+  Rot: 180.0
+  Side: top
+  Val: R_Small
+- '# Ref': R8
+  Package: R_0603_1608Metric
+  PosX: 34.0
+  PosY: 41.0
+  Rot: 135.0
+  Side: top
+  Val: R_Small
+- '# Ref': R9
+  Package: R_0603_1608Metric
+  PosX: 16.75
+  PosY: 45.0
+  Rot: 0.0
+  Side: top
+  Val: R_Small
+- '# Ref': R10
+  Package: R_0603_1608Metric
+  PosX: 16.7625
+  PosY: 40.0
+  Rot: 0.0
+  Side: top
+  Val: R_Small
+- '# Ref': R11
+  Package: R_0603_1608Metric
+  PosX: 16.75
+  PosY: 35.0
+  Rot: 0.0
+  Side: top
+  Val: R_Small
+- '# Ref': R12
+  Package: R_0603_1608Metric
+  PosX: 16.75
+  PosY: 30.0
+  Rot: 0.0
+  Side: top
+  Val: R_Small
+- '# Ref': R13
+  Package: R_0603_1608Metric
+  PosX: 5.75
+  PosY: 45.0
+  Rot: 0.0
+  Side: top
+  Val: R_Small
+- '# Ref': R14
+  Package: R_0603_1608Metric
+  PosX: 5.75
+  PosY: 40.0
+  Rot: 0.0
+  Side: top
+  Val: R_Small
+- '# Ref': R15
+  Package: R_0603_1608Metric
+  PosX: 5.75
+  PosY: 35.0
+  Rot: 0.0
+  Side: top
+  Val: R_Small
+- '# Ref': R16
+  Package: R_0603_1608Metric
+  PosX: 5.75
+  PosY: 30.0
+  Rot: 0.0
+  Side: top
+  Val: R_Small
+- '# Ref': R17
+  Package: R_0603_1608Metric
+  PosX: 11.25
+  PosY: 17.0
+  Rot: 90.0
+  Side: top
+  Val: R_Small
+- '# Ref': R18
+  Package: R_0603_1608Metric
+  PosX: 18.75
+  PosY: 17.0
+  Rot: 90.0
+  Side: top
+  Val: R_Small
+- '# Ref': R19
+  Package: R_0603_1608Metric
+  PosX: 26.25
+  PosY: 17.0
+  Rot: 90.0
+  Side: top
+  Val: R_Small
+- '# Ref': R20
+  Package: R_0603_1608Metric
+  PosX: 33.75
+  PosY: 17.0
+  Rot: 90.0
+  Side: top
+  Val: R_Small
+- '# Ref': R21
+  Package: R_0603_1608Metric
+  PosX: 41.25
+  PosY: 17.0
+  Rot: 90.0
+  Side: top
+  Val: R_Small
+- '# Ref': R22
+  Package: R_0603_1608Metric
+  PosX: 48.75
+  PosY: 17.0
+  Rot: 90.0
+  Side: top
+  Val: R_Small
+- '# Ref': R23
+  Package: R_0603_1608Metric
+  PosX: 56.25
+  PosY: 17.0
+  Rot: 90.0
+  Side: top
+  Val: R_Small
+- '# Ref': R24
+  Package: R_0603_1608Metric
+  PosX: 63.75
+  PosY: 17.0
+  Rot: 90.0
+  Side: top
+  Val: R_Small
+- '# Ref': R25
+  Package: R_0603_1608Metric
+  PosX: 58.25
+  PosY: 30.0
+  Rot: 180.0
+  Side: top
+  Val: R_Small
+- '# Ref': R26
+  Package: R_0603_1608Metric
+  PosX: 58.25
+  PosY: 35.0
+  Rot: 180.0
+  Side: top
+  Val: R_Small
+- '# Ref': R27
+  Package: R_0603_1608Metric
+  PosX: 58.25
+  PosY: 40.0
+  Rot: 180.0
+  Side: top
+  Val: R_Small
+- '# Ref': R28
+  Package: R_0603_1608Metric
+  PosX: 58.25
+  PosY: 45.0
+  Rot: 180.0
+  Side: top
+  Val: R_Small
+- '# Ref': R29
+  Package: R_0603_1608Metric
+  PosX: 69.25
+  PosY: 30.0
+  Rot: 180.0
+  Side: top
+  Val: R_Small
+- '# Ref': R30
+  Package: R_0603_1608Metric
+  PosX: 69.25
+  PosY: 35.0
+  Rot: 180.0
+  Side: top
+  Val: R_Small
+- '# Ref': R31
+  Package: R_0603_1608Metric
+  PosX: 69.25
+  PosY: 40.0
+  Rot: 180.0
+  Side: top
+  Val: R_Small
+- '# Ref': R32
+  Package: R_0603_1608Metric
+  PosX: 69.25
+  PosY: 45.0
+  Rot: 180.0
+  Side: top
+  Val: R_Small
+- '# Ref': R33
+  Package: R_0603_1608Metric
+  PosX: 63.75
+  PosY: 58.0
+  Rot: -90.0
+  Side: top
+  Val: R_Small
+- '# Ref': R34
+  Package: R_0603_1608Metric
+  PosX: 56.25
+  PosY: 58.0
+  Rot: -90.0
+  Side: top
+  Val: R_Small
+- '# Ref': R35
+  Package: R_0603_1608Metric
+  PosX: 48.75
+  PosY: 58.0
+  Rot: -90.0
+  Side: top
+  Val: R_Small
+- '# Ref': R36
+  Package: R_0603_1608Metric
+  PosX: 41.25
+  PosY: 58.0
+  Rot: -90.0
+  Side: top
+  Val: R_Small
+- '# Ref': R37
+  Package: R_0603_1608Metric
+  PosX: 33.75
+  PosY: 58.0
+  Rot: -90.0
+  Side: top
+  Val: R_Small
+- '# Ref': R38
+  Package: R_0603_1608Metric
+  PosX: 26.25
+  PosY: 58.0
+  Rot: -90.0
+  Side: top
+  Val: R_Small
+- '# Ref': R39
+  Package: R_0603_1608Metric
+  PosX: 18.75
+  PosY: 58.0
+  Rot: -90.0
+  Side: top
+  Val: R_Small
+- '# Ref': R40
+  Package: R_0603_1608Metric
+  PosX: 11.25
+  PosY: 58.0
+  Rot: -90.0
+  Side: top
+  Val: R_Small
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| D1 | LED_Small | LED_0603_1608Metric\
+  \ | 37.5 | 47.5 | 0.0 | top | \n| D2 | LED_Small | LED_0603_1608Metric | 44.5 |\
+  \ 44.5 | -45.0 | top | \n| D3 | LED_Small | LED_0603_1608Metric | 47.5 | 37.5 |\
+  \ -90.0 | top | \n| D4 | LED_Small | LED_0603_1608Metric | 44.5 | 30.5 | -135.0\
+  \ | top | \n| D5 | LED_Small | LED_0603_1608Metric | 37.5 | 27.5 | 180.0 | top |\
+  \ \n| D6 | LED_Small | LED_0603_1608Metric | 30.5 | 30.5 | 135.0 | top | \n| D7\
+  \ | LED_Small | LED_0603_1608Metric | 27.5 | 37.5 | 90.0 | top | \n| D8 | LED_Small\
+  \ | LED_0603_1608Metric | 30.5 | 44.5 | 45.0 | top | \n| D9 | LED_Small | LED_0603_1608Metric\
+  \ | 21.75 | 45.0 | 180.0 | top | \n| D10 | LED_Small | LED_0603_1608Metric | 21.75\
+  \ | 40.0 | 180.0 | top | \n| D11 | LED_Small | LED_0603_1608Metric | 21.75 | 35.0\
+  \ | 180.0 | top | \n| D12 | LED_Small | LED_0603_1608Metric | 21.75 | 30.0 | 180.0\
+  \ | top | \n| D13 | LED_Small | LED_0603_1608Metric | 10.75 | 45.0 | 180.0 | top\
+  \ | \n| D14 | LED_Small | LED_0603_1608Metric | 10.75 | 40.0 | 180.0 | top | \n\
+  | D15 | LED_Small | LED_0603_1608Metric | 10.75 | 35.0 | 180.0 | top | \n| D16 |\
+  \ LED_Small | LED_0603_1608Metric | 10.75 | 30.0 | 180.0 | top | \n| D17 | LED_Small\
+  \ | LED_0603_1608Metric | 11.25 | 22.0 | -90.0 | top | \n| D18 | LED_Small | LED_0603_1608Metric\
+  \ | 18.75 | 22.0 | -90.0 | top | \n| D19 | LED_Small | LED_0603_1608Metric | 26.25\
+  \ | 22.0 | -90.0 | top | \n| D20 | LED_Small | LED_0603_1608Metric | 33.75 | 22.0\
+  \ | -90.0 | top | \n| D21 | LED_Small | LED_0603_1608Metric | 41.25 | 22.0 | -90.0\
+  \ | top | \n| D22 | LED_Small | LED_0603_1608Metric | 48.75 | 22.0 | -90.0 | top\
+  \ | \n| D23 | LED_Small | LED_0603_1608Metric | 56.25 | 22.0 | -90.0 | top | \n\
+  | D24 | LED_Small | LED_0603_1608Metric | 63.75 | 22.0 | -90.0 | top | \n| D25 |\
+  \ LED_Small | LED_0603_1608Metric | 53.25 | 30.0 | 0.0 | top | \n| D26 | LED_Small\
+  \ | LED_0603_1608Metric | 53.25 | 35.0 | 0.0 | top | \n| D27 | LED_Small | LED_0603_1608Metric\
+  \ | 53.25 | 40.0 | 0.0 | top | \n| D28 | LED_Small | LED_0603_1608Metric | 53.25\
+  \ | 45.0 | 0.0 | top | \n| D29 | LED_Small | LED_0603_1608Metric | 64.25 | 30.0\
+  \ | 0.0 | top | \n| D30 | LED_Small | LED_0603_1608Metric | 64.25 | 35.0 | 0.0 |\
+  \ top | \n| D31 | LED_Small | LED_0603_1608Metric | 64.25 | 40.0 | 0.0 | top | \n\
+  | D32 | LED_Small | LED_0603_1608Metric | 64.25 | 45.0 | 0.0 | top | \n| D33 | LED_Small\
+  \ | LED_0603_1608Metric | 63.75 | 53.0 | 90.0 | top | \n| D34 | LED_Small | LED_0603_1608Metric\
+  \ | 56.25 | 53.0 | 90.0 | top | \n| D35 | LED_Small | LED_0603_1608Metric | 48.75\
+  \ | 53.0 | 90.0 | top | \n| D36 | LED_Small | LED_0603_1608Metric | 41.25 | 53.0\
+  \ | 90.0 | top | \n| D37 | LED_Small | LED_0603_1608Metric | 33.75 | 53.0 | 90.0\
+  \ | top | \n| D38 | LED_Small | LED_0603_1608Metric | 26.25 | 53.0 | 90.0 | top\
+  \ | \n| D39 | LED_Small | LED_0603_1608Metric | 18.75 | 53.0 | 90.0 | top | \n|\
+  \ D40 | LED_Small | LED_0603_1608Metric | 11.25 | 53.0 | 90.0 | top | \n| FID1 |\
+  \ Fiducial | Fiducial_1mm_Mask3mm | 62.5 | 5.0 | 0.0 | top | \n| FID2 | Fiducial\
+  \ | Fiducial_1mm_Mask3mm | 12.5 | 70.0 | 0.0 | top | \n| FID3 | Fiducial | Fiducial_1mm_Mask3mm\
+  \ | 62.5 | 70.0 | 0.0 | top | \n| J1 | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 3.0 | 18.75 | 0.0 | top | \n| R1 | R_Small | R_0603_1608Metric | 37.5 | 42.5\
+  \ | 90.0 | top | \n| R2 | R_Small | R_0603_1608Metric | 41.0 | 41.0 | 45.0 | top\
+  \ | \n| R3 | R_Small | R_0603_1608Metric | 42.5 | 37.5 | 0.0 | top | \n| R4 | R_Small\
+  \ | R_0603_1608Metric | 41.0 | 34.0 | -45.0 | top | \n| R5 | R_Small | R_0603_1608Metric\
+  \ | 37.5 | 32.5 | -90.0 | top | \n| R6 | R_Small | R_0603_1608Metric | 34.0 | 34.0\
+  \ | -135.0 | top | \n| R7 | R_Small | R_0603_1608Metric | 32.5 | 37.5 | 180.0 |\
+  \ top | \n| R8 | R_Small | R_0603_1608Metric | 34.0 | 41.0 | 135.0 | top | \n| R9\
+  \ | R_Small | R_0603_1608Metric | 16.75 | 45.0 | 0.0 | top | \n| R10 | R_Small |\
+  \ R_0603_1608Metric | 16.7625 | 40.0 | 0.0 | top | \n| R11 | R_Small | R_0603_1608Metric\
+  \ | 16.75 | 35.0 | 0.0 | top | \n| R12 | R_Small | R_0603_1608Metric | 16.75 | 30.0\
+  \ | 0.0 | top | \n| R13 | R_Small | R_0603_1608Metric | 5.75 | 45.0 | 0.0 | top\
+  \ | \n| R14 | R_Small | R_0603_1608Metric | 5.75 | 40.0 | 0.0 | top | \n| R15 |\
+  \ R_Small | R_0603_1608Metric | 5.75 | 35.0 | 0.0 | top | \n| R16 | R_Small | R_0603_1608Metric\
+  \ | 5.75 | 30.0 | 0.0 | top | \n| R17 | R_Small | R_0603_1608Metric | 11.25 | 17.0\
+  \ | 90.0 | top | \n| R18 | R_Small | R_0603_1608Metric | 18.75 | 17.0 | 90.0 | top\
+  \ | \n| R19 | R_Small | R_0603_1608Metric | 26.25 | 17.0 | 90.0 | top | \n| R20\
+  \ | R_Small | R_0603_1608Metric | 33.75 | 17.0 | 90.0 | top | \n| R21 | R_Small\
+  \ | R_0603_1608Metric | 41.25 | 17.0 | 90.0 | top | \n| R22 | R_Small | R_0603_1608Metric\
+  \ | 48.75 | 17.0 | 90.0 | top | \n| R23 | R_Small | R_0603_1608Metric | 56.25 |\
+  \ 17.0 | 90.0 | top | \n| R24 | R_Small | R_0603_1608Metric | 63.75 | 17.0 | 90.0\
+  \ | top | \n| R25 | R_Small | R_0603_1608Metric | 58.25 | 30.0 | 180.0 | top | \n\
+  | R26 | R_Small | R_0603_1608Metric | 58.25 | 35.0 | 180.0 | top | \n| R27 | R_Small\
+  \ | R_0603_1608Metric | 58.25 | 40.0 | 180.0 | top | \n| R28 | R_Small | R_0603_1608Metric\
+  \ | 58.25 | 45.0 | 180.0 | top | \n| R29 | R_Small | R_0603_1608Metric | 69.25 |\
+  \ 30.0 | 180.0 | top | \n| R30 | R_Small | R_0603_1608Metric | 69.25 | 35.0 | 180.0\
+  \ | top | \n| R31 | R_Small | R_0603_1608Metric | 69.25 | 40.0 | 180.0 | top | \n\
+  | R32 | R_Small | R_0603_1608Metric | 69.25 | 45.0 | 180.0 | top | \n| R33 | R_Small\
+  \ | R_0603_1608Metric | 63.75 | 58.0 | -90.0 | top | \n| R34 | R_Small | R_0603_1608Metric\
+  \ | 56.25 | 58.0 | -90.0 | top | \n| R35 | R_Small | R_0603_1608Metric | 48.75 |\
+  \ 58.0 | -90.0 | top | \n| R36 | R_Small | R_0603_1608Metric | 41.25 | 58.0 | -90.0\
+  \ | top | \n| R37 | R_Small | R_0603_1608Metric | 33.75 | 58.0 | -90.0 | top | \n\
+  | R38 | R_Small | R_0603_1608Metric | 26.25 | 58.0 | -90.0 | top | \n| R39 | R_Small\
+  \ | R_0603_1608Metric | 18.75 | 58.0 | -90.0 | top | \n| R40 | R_Small | R_0603_1608Metric\
+  \ | 11.25 | 58.0 | -90.0 | top | \n"
 projects_flat: projects/opulo-inc_lumenpnp_archive_ftp/current_version/working
 repo:
   allow_forking: true

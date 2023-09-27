@@ -1,10 +1,4921 @@
 board: 13871_qwiic_distance_sensor_panel_v10
+bom:
+- Id: '1'
+  Designator: JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1
+  Footprint: SMT-JUMPER_3_2-NC_PASTE_SILK
+  Quantity: '40'
+  Designation: JUMPER-SMT_3_2-NC_PASTE_SILK
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1
+  Footprint: OSHW-LOGO-MINI
+  Quantity: '40'
+  Designation: SPARKFUN-AESTHETICS_OSHW-LOGOS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: MK1,MK2,MK1,MK2,MK1,MK2,MK1,MK2,MK1,MK2,MK2,MK1,MK1,MK2,MK1,MK2,MK1,MK2,MK1,MK2,MK2,MK1,MK1,MK2,MK1,MK2,MK1,MK2,MK1,MK2,MK2,MK1,MK1,MK2,MK1,MK2,MK1,MK2,MK1,MK2,MK2,MK1,MK1,MK2,MK1,MK2,MK1,MK2,MK1,MK2,MK2,MK1,MK1,MK2,MK1,MK2,MK1,MK2,MK1,MK2,MK2,MK1,MK1,MK2,MK1,MK2,MK1,MK2,MK1,MK2,MK2,MK1,MK1,MK2,MK1,MK2,MK1,MK2,MK1,MK2
+  Footprint: STAND-OFF
+  Quantity: '80'
+  Designation: Mounting_Hole
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1
+  Footprint: '0603'
+  Quantity: '40'
+  Designation: 0.1UF-0603-25V-_+80_-20%_
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2
+  Footprint: '0603'
+  Quantity: '40'
+  Designation: 4.7UF0603
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J1,J2,J1,J2,J1,J2,J1,J2,J1,J2,J2,J1,J1,J2,J1,J2,J1,J2,J1,J2,J2,J1,J1,J2,J1,J2,J1,J2,J1,J2,J2,J1,J1,J2,J1,J2,J1,J2,J1,J2,J2,J1,J1,J2,J1,J2,J1,J2,J1,J2,J2,J1,J1,J2,J1,J2,J1,J2,J1,J2,J2,J1,J1,J2,J1,J2,J1,J2,J1,J2,J2,J1,J1,J2,J1,J2,J1,J2,J1,J2
+  Footprint: 1X04_1MM_RA
+  Quantity: '80'
+  Designation: QWIIC_CONNECTORJS-1MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R1,R2,R2,R1,R2,R1,R2,R1,R2,R1,R2,R1,R2,R1,R2,R1,R1,R2,R1,R2,R2,R1,R2,R1,R2,R1,R1,R2,R1,R2,R2,R1,R2,R1,R2,R1,R1,R2,R1,R2,R2,R1,R2,R1,R2,R1,R1,R2,R1,R2,R2,R1,R2,R1,R2,R1,R1,R2,R1,R2,R2,R1,R2,R1,R2,R1,R1,R2,R1,R2,R2,R1,R2,R1,R2,R1,R1,R2,R1,R2
+  Footprint: '0603'
+  Quantity: '80'
+  Designation: 4.7KOHM-0603-1_10W-1%
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1
+  Footprint: RFD77402
+  Quantity: '40'
+  Designation: RFD77402
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: F1,F2,F1,F2,F1,F2,F1,F2,F1,F1,F2,F2,F1,F1,F2,F1,F2,F2,F1,F1,F2,F2,F1,F1,F2,F1,F2,F2,F1,F1,F2,F2,F1,F1,F2,F1,F2,F2,F1,F1,F2,F2,F1,F1,F2,F1,F2,F2,F1,F1,F2,F2,F1,F1,F2,F1,F2,F2,F1,F1,F2,F2,F1,F1,F2,F1,F2,F2,F1,F1,F2,F2,F1,F1,F2,F1,F2,F2,F1,F2,F3,F4,F3,F4,F3,F4,F3,F4,F3,F4,F3,F4,F4,F3,F3,F4,F4,F3,F3,F4,F3,F4,F4,F3,F3,F4,F4,F3,F3,F4,F3,F4,F4,F3,F3,F4,F4,F3,F3,F4,F3,F4,F4,F3,F3,F4,F4,F3,F3,F4,F3,F4,F4,F3,F3,F4,F4,F3,F3,F4,F3,F4,F4,F3,F3,F4,F4,F3,F3,F4,F3,F4,F4,F3,F3,F4,F4,F3,F3,F4
+  Footprint: FIDUCIAL-MICRO-NO_PASTE
+  Quantity: '160'
+  Designation: Fiducial
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: Ref**
+  Footprint: FIDUCIAL-FRAME-1_5MM-no.paste
+  Quantity: '1'
+  Designation: Val**
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: ','
+  Footprint: FIDUCIAL-1X2-no.paste
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1,JP1\
+  \ | SMT-JUMPER_3_2-NC_PASTE_SILK | 40 | JUMPER-SMT_3_2-NC_PASTE_SILK |  |  | ['']\
+  \ | \n| 2 | LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1,LOGO1\
+  \ | OSHW-LOGO-MINI | 40 | SPARKFUN-AESTHETICS_OSHW-LOGOS |  |  | [''] | \n| 3 |\
+  \ MK1,MK2,MK1,MK2,MK1,MK2,MK1,MK2,MK1,MK2,MK2,MK1,MK1,MK2,MK1,MK2,MK1,MK2,MK1,MK2,MK2,MK1,MK1,MK2,MK1,MK2,MK1,MK2,MK1,MK2,MK2,MK1,MK1,MK2,MK1,MK2,MK1,MK2,MK1,MK2,MK2,MK1,MK1,MK2,MK1,MK2,MK1,MK2,MK1,MK2,MK2,MK1,MK1,MK2,MK1,MK2,MK1,MK2,MK1,MK2,MK2,MK1,MK1,MK2,MK1,MK2,MK1,MK2,MK1,MK2,MK2,MK1,MK1,MK2,MK1,MK2,MK1,MK2,MK1,MK2\
+  \ | STAND-OFF | 80 | Mounting_Hole |  |  | [''] | \n| 4 | C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1,C1\
+  \ | 0603 | 40 | 0.1UF-0603-25V-_+80_-20%_ |  |  | [''] | \n| 5 | C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2,C2\
+  \ | 0603 | 40 | 4.7UF0603 |  |  | [''] | \n| 6 | J1,J2,J1,J2,J1,J2,J1,J2,J1,J2,J2,J1,J1,J2,J1,J2,J1,J2,J1,J2,J2,J1,J1,J2,J1,J2,J1,J2,J1,J2,J2,J1,J1,J2,J1,J2,J1,J2,J1,J2,J2,J1,J1,J2,J1,J2,J1,J2,J1,J2,J2,J1,J1,J2,J1,J2,J1,J2,J1,J2,J2,J1,J1,J2,J1,J2,J1,J2,J1,J2,J2,J1,J1,J2,J1,J2,J1,J2,J1,J2\
+  \ | 1X04_1MM_RA | 80 | QWIIC_CONNECTORJS-1MM |  |  | [''] | \n| 7 | R1,R2,R2,R1,R2,R1,R2,R1,R2,R1,R2,R1,R2,R1,R2,R1,R1,R2,R1,R2,R2,R1,R2,R1,R2,R1,R1,R2,R1,R2,R2,R1,R2,R1,R2,R1,R1,R2,R1,R2,R2,R1,R2,R1,R2,R1,R1,R2,R1,R2,R2,R1,R2,R1,R2,R1,R1,R2,R1,R2,R2,R1,R2,R1,R2,R1,R1,R2,R1,R2,R2,R1,R2,R1,R2,R1,R1,R2,R1,R2\
+  \ | 0603 | 80 | 4.7KOHM-0603-1_10W-1% |  |  | [''] | \n| 8 | U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1,U1\
+  \ | RFD77402 | 40 | RFD77402 |  |  | [''] | \n| 9 | F1,F2,F1,F2,F1,F2,F1,F2,F1,F1,F2,F2,F1,F1,F2,F1,F2,F2,F1,F1,F2,F2,F1,F1,F2,F1,F2,F2,F1,F1,F2,F2,F1,F1,F2,F1,F2,F2,F1,F1,F2,F2,F1,F1,F2,F1,F2,F2,F1,F1,F2,F2,F1,F1,F2,F1,F2,F2,F1,F1,F2,F2,F1,F1,F2,F1,F2,F2,F1,F1,F2,F2,F1,F1,F2,F1,F2,F2,F1,F2,F3,F4,F3,F4,F3,F4,F3,F4,F3,F4,F3,F4,F4,F3,F3,F4,F4,F3,F3,F4,F3,F4,F4,F3,F3,F4,F4,F3,F3,F4,F3,F4,F4,F3,F3,F4,F4,F3,F3,F4,F3,F4,F4,F3,F3,F4,F4,F3,F3,F4,F3,F4,F4,F3,F3,F4,F4,F3,F3,F4,F3,F4,F4,F3,F3,F4,F4,F3,F3,F4,F3,F4,F4,F3,F3,F4,F4,F3,F3,F4\
+  \ | FIDUCIAL-MICRO-NO_PASTE | 160 | Fiducial |  |  | [''] | \n| 10 | Ref** | FIDUCIAL-FRAME-1_5MM-no.paste\
+  \ | 1 | Val** |  |  | [''] | \n| 11 | , | FIDUCIAL-1X2-no.paste | 2 |  |  |  | ['']\
+  \ | \n"
 counter: 1
 file_kicad_pcb_flat: projects/sparkfun_qwiic_distance_rfd77402_13871_qwiic_distance_sensor_panel_v10/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/sparkfun_qwiic_distance_rfd77402_rfd77402_tof_sensor/current_version/working/working.kicad_pcb
 file_sch_flat: projects/sparkfun_qwiic_distance_rfd77402_rfd77402_tof_sensor/current_version/working/working.sch
 id: sparkfun_qwiic_distance_rfd77402_13871_qwiic_distance_sensor_panel_v10
 name: qwiic_distance_rfd77402
+position_bottom:
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 57.404
+  PosY: -179.07
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 31.75
+  PosY: -76.454
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 83.058
+  PosY: -179.07
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 134.366
+  PosY: -76.454
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 108.712
+  PosY: -179.07
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 108.712
+  PosY: -76.454
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 134.366
+  PosY: -179.07
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 83.058
+  PosY: -76.454
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 57.404
+  PosY: -153.416
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 57.404
+  PosY: -50.8
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 31.75
+  PosY: -153.416
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 31.75
+  PosY: -50.8
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 134.366
+  PosY: -50.8
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 134.366
+  PosY: -153.416
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 108.712
+  PosY: -153.416
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 108.712
+  PosY: -50.8
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 83.058
+  PosY: -50.8
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 83.058
+  PosY: -153.416
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 57.404
+  PosY: -127.762
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 57.404
+  PosY: -25.146
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 31.75
+  PosY: -127.762
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 31.75
+  PosY: -25.146
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 134.366
+  PosY: -25.146
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 134.366
+  PosY: -127.762
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 108.712
+  PosY: -127.762
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 108.712
+  PosY: -25.146
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 83.058
+  PosY: -25.146
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 83.058
+  PosY: -127.762
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 57.404
+  PosY: -102.108
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 57.404
+  PosY: 0.508
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 31.75
+  PosY: -102.108
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 31.75
+  PosY: 0.508
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 134.366
+  PosY: 0.508
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 134.366
+  PosY: -102.108
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 108.712
+  PosY: -102.108
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 108.712
+  PosY: 0.508
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 83.058
+  PosY: 0.508
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 83.058
+  PosY: -102.108
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 57.404
+  PosY: -76.454
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F3
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 31.75
+  PosY: -179.07
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 76.454
+  PosY: -155.956
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 102.108
+  PosY: -155.956
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 127.762
+  PosY: -155.956
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 153.416
+  PosY: -155.956
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 50.8
+  PosY: -130.302
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 127.762
+  PosY: -130.302
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 102.108
+  PosY: -130.302
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 153.416
+  PosY: -130.302
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 76.454
+  PosY: -130.302
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 50.8
+  PosY: -104.648
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 127.762
+  PosY: -104.648
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 102.108
+  PosY: -104.648
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 153.416
+  PosY: -104.648
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 76.454
+  PosY: -104.648
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 50.8
+  PosY: -78.994
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 127.762
+  PosY: -78.994
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 102.108
+  PosY: -78.994
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 153.416
+  PosY: -78.994
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 76.454
+  PosY: -78.994
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 50.8
+  PosY: -53.34
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 153.416
+  PosY: -53.34
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 127.762
+  PosY: -2.032
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 102.108
+  PosY: -2.032
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 127.762
+  PosY: -27.686
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 102.108
+  PosY: -27.686
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 153.416
+  PosY: -2.032
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 76.454
+  PosY: -2.032
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 76.454
+  PosY: -53.34
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 127.762
+  PosY: -53.34
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 50.8
+  PosY: 23.622
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 153.416
+  PosY: -27.686
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 127.762
+  PosY: 23.622
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 102.108
+  PosY: 23.622
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 76.454
+  PosY: -27.686
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 102.108
+  PosY: -53.34
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 153.416
+  PosY: 23.622
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 76.454
+  PosY: 23.622
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 50.8
+  PosY: -27.686
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 50.8
+  PosY: -2.032
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+- '# Ref': F4
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 50.8
+  PosY: -155.956
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 57.404 | -179.07 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 31.75 | -76.454 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 83.058 | -179.07 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 134.366 | -76.454 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 108.712 | -179.07 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 108.712 | -76.454 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 134.366 | -179.07 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 83.058 | -76.454 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 57.404 | -153.416 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 57.404 | -50.8 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 31.75 | -153.416 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 31.75 | -50.8 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE |\
+  \ 134.366 | -50.8 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE |\
+  \ 134.366 | -153.416 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 108.712 | -153.416 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 108.712 | -50.8 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 83.058 | -50.8 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 83.058 | -153.416 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 57.404 | -127.762 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 57.404 | -25.146 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 31.75 | -127.762 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 31.75 | -25.146 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 134.366 | -25.146 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 134.366 | -127.762 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 108.712 | -127.762 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 108.712 | -25.146 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 83.058 | -25.146 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 83.058 | -127.762 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 57.404 | -102.108 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 57.404 | 0.508 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 31.75 | -102.108 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 31.75 | 0.508 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE |\
+  \ 134.366 | 0.508 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE |\
+  \ 134.366 | -102.108 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 108.712 | -102.108 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 108.712 | 0.508 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 83.058 | 0.508 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 83.058 | -102.108 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 57.404 | -76.454 | 0.0 | bottom | \n| F3 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 31.75 | -179.07 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 76.454 | -155.956 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 102.108 | -155.956 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 127.762 | -155.956 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 153.416 | -155.956 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 50.8 | -130.302 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 127.762 | -130.302 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 102.108 | -130.302 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 153.416 | -130.302 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 76.454 | -130.302 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 50.8 | -104.648 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 127.762 | -104.648 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 102.108 | -104.648 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 153.416 | -104.648 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 76.454 | -104.648 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 50.8 | -78.994 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 127.762 | -78.994 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 102.108 | -78.994 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 153.416 | -78.994 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 76.454 | -78.994 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 50.8 | -53.34 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE |\
+  \ 153.416 | -53.34 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 127.762 | -2.032 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 102.108 | -2.032 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 127.762 | -27.686 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 102.108 | -27.686 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 153.416 | -2.032 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 76.454 | -2.032 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 76.454 | -53.34 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 127.762 | -53.34 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 50.8 | 23.622 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE |\
+  \ 153.416 | -27.686 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 127.762 | 23.622 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 102.108 | 23.622 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 76.454 | -27.686 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 102.108 | -53.34 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 153.416 | 23.622 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 76.454 | 23.622 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 50.8 | -27.686 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 50.8 | -2.032 | 0.0 | bottom | \n| F4 | Fiducial | FIDUCIAL-MICRO-NO_PASTE |\
+  \ 50.8 | -155.956 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': .nan
+  Package: FIDUCIAL-1X2-no.paste
+  PosX: 159.766
+  PosY: 23.241
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: FIDUCIAL-1X2-no.paste
+  PosX: 159.893
+  PosY: -179.324
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: '0603'
+  PosX: 66.802
+  PosY: 8.382
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 143.764
+  PosY: -17.272
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 118.11
+  PosY: -171.196
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 41.148
+  PosY: -171.196
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 41.148
+  PosY: -145.542
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 92.456
+  PosY: -119.888
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 41.148
+  PosY: -68.58
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 143.764
+  PosY: -42.926
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 118.11
+  PosY: -17.272
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 66.802
+  PosY: -68.58
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 92.456
+  PosY: 8.382
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 66.802
+  PosY: -145.542
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 66.802
+  PosY: -119.888
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 118.11
+  PosY: 8.382
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 118.11
+  PosY: -42.926
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 66.802
+  PosY: -171.196
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 41.148
+  PosY: -94.234
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 41.148
+  PosY: -119.888
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 41.148
+  PosY: -17.272
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 92.456
+  PosY: -17.272
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 143.764
+  PosY: -171.196
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 92.456
+  PosY: -94.234
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 118.11
+  PosY: -119.888
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 143.764
+  PosY: -68.58
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 41.148
+  PosY: -42.926
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 143.764
+  PosY: -94.234
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 92.456
+  PosY: -145.542
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 143.764
+  PosY: 8.382
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 92.456
+  PosY: -171.196
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 41.148
+  PosY: 8.382
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 143.764
+  PosY: -145.542
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 118.11
+  PosY: -94.234
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 66.802
+  PosY: -17.272
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 92.456
+  PosY: -68.58
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 118.11
+  PosY: -145.542
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 66.802
+  PosY: -94.234
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 66.802
+  PosY: -42.926
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 143.764
+  PosY: -119.888
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 118.11
+  PosY: -68.58
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C1
+  Package: '0603'
+  PosX: 92.456
+  PosY: -42.926
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-25V-_+80_-20%_
+- '# Ref': C2
+  Package: '0603'
+  PosX: 70.358
+  PosY: -42.926
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 96.012
+  PosY: -119.888
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 44.704
+  PosY: -171.196
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 147.32
+  PosY: -17.272
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 44.704
+  PosY: -42.926
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 96.012
+  PosY: -94.234
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 147.32
+  PosY: -68.58
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 96.012
+  PosY: -145.542
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 121.666
+  PosY: -17.272
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 44.704
+  PosY: -68.58
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 121.666
+  PosY: -68.58
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 121.666
+  PosY: -145.542
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 70.358
+  PosY: -171.196
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 121.666
+  PosY: -94.234
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 121.666
+  PosY: -119.888
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 96.012
+  PosY: -68.58
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 96.012
+  PosY: -17.272
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 147.32
+  PosY: -145.542
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 147.32
+  PosY: 8.382
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 44.704
+  PosY: -119.888
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 70.358
+  PosY: -68.58
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 96.012
+  PosY: -171.196
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 121.666
+  PosY: 8.382
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 70.358
+  PosY: -17.272
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 70.358
+  PosY: -119.888
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 96.012
+  PosY: 8.382
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 44.704
+  PosY: -17.272
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 147.32
+  PosY: -119.888
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 70.358
+  PosY: 8.382
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 44.704
+  PosY: 8.382
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 121.666
+  PosY: -171.196
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 147.32
+  PosY: -94.234
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 147.32
+  PosY: -42.926
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 147.32
+  PosY: -171.196
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 44.704
+  PosY: -94.234
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 121.666
+  PosY: -42.926
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 70.358
+  PosY: -94.234
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 44.704
+  PosY: -145.542
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 96.012
+  PosY: -42.926
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': C2
+  Package: '0603'
+  PosX: 70.358
+  PosY: -145.542
+  Rot: 0.0
+  Side: top
+  Val: 4.7UF0603
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 31.75
+  PosY: 0.508
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 57.404
+  PosY: -127.762
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 83.058
+  PosY: -76.454
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 134.366
+  PosY: -127.762
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 31.75
+  PosY: -76.454
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 57.404
+  PosY: 0.508
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 57.404
+  PosY: -179.07
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 134.366
+  PosY: -25.146
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 134.366
+  PosY: -50.8
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 108.712
+  PosY: -25.146
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 83.058
+  PosY: -25.146
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 31.75
+  PosY: -179.07
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 83.058
+  PosY: -179.07
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 31.75
+  PosY: -127.762
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 134.366
+  PosY: -179.07
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 31.75
+  PosY: -50.8
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 31.75
+  PosY: -102.108
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 31.75
+  PosY: -25.146
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 108.712
+  PosY: -153.416
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 57.404
+  PosY: -50.8
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 134.366
+  PosY: 0.508
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 83.058
+  PosY: -50.8
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 108.712
+  PosY: 0.508
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 31.75
+  PosY: -153.416
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 134.366
+  PosY: -153.416
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 83.058
+  PosY: 0.508
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 134.366
+  PosY: -102.108
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 83.058
+  PosY: -127.762
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 57.404
+  PosY: -102.108
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 57.404
+  PosY: -76.454
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 108.712
+  PosY: -76.454
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 134.366
+  PosY: -76.454
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 83.058
+  PosY: -153.416
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 57.404
+  PosY: -153.416
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 108.712
+  PosY: -50.8
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 108.712
+  PosY: -179.07
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 83.058
+  PosY: -102.108
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 57.404
+  PosY: -25.146
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 108.712
+  PosY: -127.762
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F1
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 108.712
+  PosY: -102.108
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 153.416
+  PosY: -2.032
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 102.108
+  PosY: -104.648
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 127.762
+  PosY: -104.648
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 127.762
+  PosY: -2.032
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 76.454
+  PosY: -155.956
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 76.454
+  PosY: -2.032
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 153.416
+  PosY: -104.648
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 50.8
+  PosY: -2.032
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 102.108
+  PosY: -155.956
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 102.108
+  PosY: -2.032
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 50.8
+  PosY: -27.686
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 127.762
+  PosY: -27.686
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 153.416
+  PosY: -53.34
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 102.108
+  PosY: -78.994
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 102.108
+  PosY: -130.302
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 127.762
+  PosY: -130.302
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 127.762
+  PosY: -78.994
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 76.454
+  PosY: -130.302
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 102.108
+  PosY: -53.34
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 102.108
+  PosY: -27.686
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 153.416
+  PosY: -130.302
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 50.8
+  PosY: -104.648
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 76.454
+  PosY: -27.686
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 153.416
+  PosY: -27.686
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 76.454
+  PosY: -53.34
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 102.108
+  PosY: 23.622
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 127.762
+  PosY: -155.956
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 76.454
+  PosY: -78.994
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 153.416
+  PosY: 23.622
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 50.8
+  PosY: -78.994
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 76.454
+  PosY: -104.648
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 50.8
+  PosY: -155.956
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 76.454
+  PosY: 23.622
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 153.416
+  PosY: -78.994
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 127.762
+  PosY: -53.34
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 153.416
+  PosY: -155.956
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 50.8
+  PosY: 23.622
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 127.762
+  PosY: 23.622
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 50.8
+  PosY: -53.34
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-MICRO-NO_PASTE
+  PosX: 50.8
+  PosY: -130.302
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 61.214
+  PosY: -141.986
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 35.56
+  PosY: -39.37
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 138.176
+  PosY: -141.986
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 86.868
+  PosY: -39.37
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 35.56
+  PosY: -167.64
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 112.522
+  PosY: -39.37
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 138.176
+  PosY: -39.37
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 61.214
+  PosY: -13.716
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 35.56
+  PosY: -13.716
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 86.868
+  PosY: -13.716
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 112.522
+  PosY: -13.716
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 61.214
+  PosY: -167.64
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 138.176
+  PosY: -13.716
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 61.214
+  PosY: 11.938
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 35.56
+  PosY: 11.938
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 35.56
+  PosY: -141.986
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 86.868
+  PosY: 11.938
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 112.522
+  PosY: 11.938
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 138.176
+  PosY: 11.938
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 35.56
+  PosY: -116.332
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 86.868
+  PosY: -167.64
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 86.868
+  PosY: -116.332
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 112.522
+  PosY: -116.332
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 138.176
+  PosY: -116.332
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 61.214
+  PosY: -90.678
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 35.56
+  PosY: -90.678
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 86.868
+  PosY: -141.986
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 86.868
+  PosY: -90.678
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 112.522
+  PosY: -90.678
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 112.522
+  PosY: -167.64
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 138.176
+  PosY: -90.678
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 112.522
+  PosY: -141.986
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 61.214
+  PosY: -65.024
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 61.214
+  PosY: -116.332
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 35.56
+  PosY: -65.024
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 86.868
+  PosY: -65.024
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 112.522
+  PosY: -65.024
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 138.176
+  PosY: -65.024
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 138.176
+  PosY: -167.64
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 61.214
+  PosY: -39.37
+  Rot: -90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 50.8
+  PosY: -141.986
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 127.762
+  PosY: -39.37
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 127.762
+  PosY: -90.678
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 50.8
+  PosY: -167.64
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 76.454
+  PosY: 11.938
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 76.454
+  PosY: -116.332
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 153.416
+  PosY: -65.024
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 76.454
+  PosY: -90.678
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 50.8
+  PosY: -39.37
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 102.108
+  PosY: -116.332
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 153.416
+  PosY: -13.716
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 153.416
+  PosY: -141.986
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 50.8
+  PosY: -90.678
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 76.454
+  PosY: -167.64
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 102.108
+  PosY: 11.938
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 50.8
+  PosY: -13.716
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 102.108
+  PosY: -90.678
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 127.762
+  PosY: 11.938
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 127.762
+  PosY: -116.332
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 153.416
+  PosY: 11.938
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 153.416
+  PosY: -90.678
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 102.108
+  PosY: -167.64
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 153.416
+  PosY: -39.37
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 76.454
+  PosY: -141.986
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 102.108
+  PosY: -39.37
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 102.108
+  PosY: -141.986
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 50.8
+  PosY: -116.332
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 76.454
+  PosY: -65.024
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 102.108
+  PosY: -65.024
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 127.762
+  PosY: -167.64
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 153.416
+  PosY: -116.332
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 102.108
+  PosY: -13.716
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 127.762
+  PosY: -13.716
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 50.8
+  PosY: 11.938
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 76.454
+  PosY: -39.37
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 76.454
+  PosY: -13.716
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 127.762
+  PosY: -141.986
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 153.416
+  PosY: -167.64
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 50.8
+  PosY: -65.024
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 127.762
+  PosY: -65.024
+  Rot: 90.0
+  Side: top
+  Val: QWIIC_CONNECTORJS-1MM
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 120.142
+  PosY: -35.56
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 145.796
+  PosY: -138.176
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 68.834
+  PosY: 15.748
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 43.18
+  PosY: -138.176
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 145.796
+  PosY: -163.83
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 43.18
+  PosY: -86.868
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 68.834
+  PosY: -163.83
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 68.834
+  PosY: -86.868
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 68.834
+  PosY: -35.56
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 43.18
+  PosY: 15.748
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 94.488
+  PosY: 15.748
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 94.488
+  PosY: -138.176
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 120.142
+  PosY: -9.906
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 94.488
+  PosY: -163.83
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 94.488
+  PosY: -112.522
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 68.834
+  PosY: -138.176
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 145.796
+  PosY: -61.214
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 94.488
+  PosY: -9.906
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 120.142
+  PosY: -163.83
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 120.142
+  PosY: -112.522
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 145.796
+  PosY: -9.906
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 120.142
+  PosY: -138.176
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 68.834
+  PosY: -9.906
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 94.488
+  PosY: -35.56
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 120.142
+  PosY: -61.214
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 145.796
+  PosY: -112.522
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 94.488
+  PosY: -61.214
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 43.18
+  PosY: -61.214
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 43.18
+  PosY: -9.906
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 145.796
+  PosY: -86.868
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 120.142
+  PosY: -86.868
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 94.488
+  PosY: -86.868
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 43.18
+  PosY: -35.56
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 145.796
+  PosY: -35.56
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 68.834
+  PosY: -61.214
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 68.834
+  PosY: -112.522
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 43.18
+  PosY: -112.522
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 120.142
+  PosY: 15.748
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 145.796
+  PosY: 15.748
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE
+  PosX: 43.18
+  PosY: -163.83
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_S
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 58.674
+  PosY: -150.876
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 33.02
+  PosY: -99.568
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 135.636
+  PosY: -73.914
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 84.328
+  PosY: -125.222
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 33.02
+  PosY: -73.914
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 84.328
+  PosY: -150.876
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 58.674
+  PosY: -176.53
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 109.982
+  PosY: -125.222
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 84.328
+  PosY: -176.53
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 33.02
+  PosY: -176.53
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 58.674
+  PosY: -73.914
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 33.02
+  PosY: -22.606
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 58.674
+  PosY: -22.606
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 84.328
+  PosY: -22.606
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 33.02
+  PosY: 3.048
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 135.636
+  PosY: -125.222
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 58.674
+  PosY: -48.26
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 33.02
+  PosY: -48.26
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 58.674
+  PosY: 3.048
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 109.982
+  PosY: -176.53
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 109.982
+  PosY: -99.568
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 58.674
+  PosY: -99.568
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 109.982
+  PosY: -150.876
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 84.328
+  PosY: -48.26
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 84.328
+  PosY: -99.568
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 135.636
+  PosY: -22.606
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 135.636
+  PosY: -176.53
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 84.328
+  PosY: 3.048
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 109.982
+  PosY: 3.048
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 135.636
+  PosY: -99.568
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 135.636
+  PosY: -150.876
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 135.636
+  PosY: -48.26
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 84.328
+  PosY: -73.914
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 135.636
+  PosY: 3.048
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 33.02
+  PosY: -150.876
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 109.982
+  PosY: -48.26
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 109.982
+  PosY: -22.606
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 33.02
+  PosY: -125.222
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 58.674
+  PosY: -125.222
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 109.982
+  PosY: -73.914
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 109.982
+  PosY: -131.826
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 84.328
+  PosY: -29.21
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 135.636
+  PosY: -131.826
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 84.328
+  PosY: -54.864
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 58.674
+  PosY: -29.21
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 58.674
+  PosY: -3.556
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 109.982
+  PosY: -3.556
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 135.636
+  PosY: -106.172
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 33.02
+  PosY: -54.864
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 84.328
+  PosY: -3.556
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 109.982
+  PosY: -54.864
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 33.02
+  PosY: -157.48
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 58.674
+  PosY: -80.518
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 58.674
+  PosY: -157.48
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 33.02
+  PosY: -29.21
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 84.328
+  PosY: -157.48
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 135.636
+  PosY: -80.518
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 33.02
+  PosY: 22.098
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 58.674
+  PosY: -54.864
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 58.674
+  PosY: 22.098
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 135.636
+  PosY: -54.864
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 135.636
+  PosY: -157.48
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 109.982
+  PosY: -80.518
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 84.328
+  PosY: -106.172
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 84.328
+  PosY: 22.098
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 109.982
+  PosY: -29.21
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 109.982
+  PosY: 22.098
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 33.02
+  PosY: -3.556
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 58.674
+  PosY: -131.826
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 33.02
+  PosY: -80.518
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 135.636
+  PosY: 22.098
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 33.02
+  PosY: -106.172
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 109.982
+  PosY: -157.48
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 33.02
+  PosY: -131.826
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 109.982
+  PosY: -106.172
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 135.636
+  PosY: -29.21
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 135.636
+  PosY: -3.556
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 58.674
+  PosY: -106.172
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 84.328
+  PosY: -131.826
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 84.328
+  PosY: -80.518
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 53.34
+  PosY: -106.172
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 104.648
+  PosY: -29.21
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 130.302
+  PosY: -29.21
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 155.956
+  PosY: -29.21
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 53.34
+  PosY: -3.556
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 53.34
+  PosY: -80.518
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 155.956
+  PosY: -106.172
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 78.994
+  PosY: -3.556
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 104.648
+  PosY: -3.556
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 130.302
+  PosY: -106.172
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 155.956
+  PosY: -80.518
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 130.302
+  PosY: -3.556
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 104.648
+  PosY: -106.172
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 155.956
+  PosY: -3.556
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 53.34
+  PosY: 22.098
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 78.994
+  PosY: 22.098
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 78.994
+  PosY: -106.172
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 53.34
+  PosY: -157.48
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 78.994
+  PosY: -157.48
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 104.648
+  PosY: -157.48
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 130.302
+  PosY: -157.48
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 155.956
+  PosY: -157.48
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 53.34
+  PosY: -131.826
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 104.648
+  PosY: 22.098
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 78.994
+  PosY: -131.826
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 104.648
+  PosY: -131.826
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 130.302
+  PosY: -131.826
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 155.956
+  PosY: -131.826
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 130.302
+  PosY: 22.098
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 78.994
+  PosY: -54.864
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 104.648
+  PosY: -54.864
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 130.302
+  PosY: -80.518
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 53.34
+  PosY: -54.864
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 155.956
+  PosY: 22.098
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 130.302
+  PosY: -54.864
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 104.648
+  PosY: -80.518
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 155.956
+  PosY: -54.864
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 53.34
+  PosY: -29.21
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 78.994
+  PosY: -29.21
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 78.994
+  PosY: -80.518
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': R1
+  Package: '0603'
+  PosX: 124.968
+  PosY: -112.522
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 48.006
+  PosY: -138.176
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 48.006
+  PosY: -9.906
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 150.622
+  PosY: -86.868
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 150.622
+  PosY: -112.522
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 150.622
+  PosY: -61.214
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 124.968
+  PosY: -61.214
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 99.314
+  PosY: -35.56
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 73.66
+  PosY: -9.906
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 48.006
+  PosY: -163.83
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 124.968
+  PosY: -86.868
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 150.622
+  PosY: -9.906
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 99.314
+  PosY: -61.214
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 150.622
+  PosY: 15.748
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 99.314
+  PosY: -163.83
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 124.968
+  PosY: -163.83
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 73.66
+  PosY: 15.748
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 99.314
+  PosY: -86.868
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 48.006
+  PosY: -61.214
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 99.314
+  PosY: -112.522
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 150.622
+  PosY: -163.83
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 124.968
+  PosY: 15.748
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 73.66
+  PosY: -61.214
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 150.622
+  PosY: -138.176
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 73.66
+  PosY: -163.83
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 99.314
+  PosY: -9.906
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 124.968
+  PosY: -35.56
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 48.006
+  PosY: -112.522
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 99.314
+  PosY: 15.748
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 124.968
+  PosY: -138.176
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 48.006
+  PosY: -35.56
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 99.314
+  PosY: -138.176
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 48.006
+  PosY: -86.868
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 124.968
+  PosY: -9.906
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 73.66
+  PosY: -112.522
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 73.66
+  PosY: -86.868
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 73.66
+  PosY: -35.56
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 73.66
+  PosY: -138.176
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 48.006
+  PosY: 15.748
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R1
+  Package: '0603'
+  PosX: 150.622
+  PosY: -35.56
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 140.97
+  PosY: 15.748
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 115.316
+  PosY: -61.214
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 64.008
+  PosY: -9.906
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 64.008
+  PosY: -86.868
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 115.316
+  PosY: -112.522
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 89.662
+  PosY: -61.214
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 140.97
+  PosY: -61.214
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 115.316
+  PosY: -86.868
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 140.97
+  PosY: -138.176
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 89.662
+  PosY: -9.906
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 115.316
+  PosY: -138.176
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 89.662
+  PosY: -138.176
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 64.008
+  PosY: -138.176
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 115.316
+  PosY: -9.906
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 38.354
+  PosY: -86.868
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 38.354
+  PosY: -138.176
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 140.97
+  PosY: -9.906
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 140.97
+  PosY: -163.83
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 115.316
+  PosY: -163.83
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 38.354
+  PosY: 15.748
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 89.662
+  PosY: -112.522
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 89.662
+  PosY: -163.83
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 64.008
+  PosY: -163.83
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 64.008
+  PosY: 15.748
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 38.354
+  PosY: -163.83
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 115.316
+  PosY: -35.56
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 64.008
+  PosY: -35.56
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 64.008
+  PosY: -61.214
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 89.662
+  PosY: 15.748
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 64.008
+  PosY: -112.522
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 140.97
+  PosY: -86.868
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 140.97
+  PosY: -35.56
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 38.354
+  PosY: -35.56
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 89.662
+  PosY: -86.868
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 38.354
+  PosY: -61.214
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 115.316
+  PosY: 15.748
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 38.354
+  PosY: -112.522
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 89.662
+  PosY: -35.56
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 38.354
+  PosY: -9.906
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': R2
+  Package: '0603'
+  PosX: 140.97
+  PosY: -112.522
+  Rot: 180.0
+  Side: top
+  Val: 4.7KOHM-0603-1_10W-1%
+- '# Ref': Ref**
+  Package: FIDUCIAL-FRAME-1_5MM-no
+  PosX: 29.083
+  PosY: -178.435
+  Rot: 0.0
+  Side: top
+  Val: Val**
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 43.18
+  PosY: -65.024
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 94.488
+  PosY: -141.986
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 145.796
+  PosY: -167.64
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 68.834
+  PosY: -90.678
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 68.834
+  PosY: -167.64
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 94.488
+  PosY: 11.938
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 120.142
+  PosY: -90.678
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 43.18
+  PosY: 11.938
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 145.796
+  PosY: -39.37
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 120.142
+  PosY: -141.986
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 68.834
+  PosY: 11.938
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 68.834
+  PosY: -116.332
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 43.18
+  PosY: -39.37
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 145.796
+  PosY: -90.678
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 43.18
+  PosY: -167.64
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 94.488
+  PosY: -39.37
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 145.796
+  PosY: -141.986
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 94.488
+  PosY: -13.716
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 68.834
+  PosY: -65.024
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 145.796
+  PosY: -13.716
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 94.488
+  PosY: -90.678
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 120.142
+  PosY: -39.37
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 43.18
+  PosY: -116.332
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 120.142
+  PosY: -116.332
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 120.142
+  PosY: 11.938
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 94.488
+  PosY: -167.64
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 145.796
+  PosY: -65.024
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 94.488
+  PosY: -116.332
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 94.488
+  PosY: -65.024
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 43.18
+  PosY: -90.678
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 120.142
+  PosY: -167.64
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 145.796
+  PosY: 11.938
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 68.834
+  PosY: -39.37
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 145.796
+  PosY: -116.332
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 43.18
+  PosY: -141.986
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 43.18
+  PosY: -13.716
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 68.834
+  PosY: -13.716
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 120.142
+  PosY: -65.024
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 68.834
+  PosY: -141.986
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 120.142
+  PosY: -13.716
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| nan | nan | FIDUCIAL-1X2-no.paste |\
+  \ 159.766 | 23.241 | 0.0 | top | \n| nan | nan | FIDUCIAL-1X2-no.paste | 159.893\
+  \ | -179.324 | 0.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 66.802 |\
+  \ 8.382 | 180.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 143.764 | -17.272\
+  \ | 180.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 118.11 | -171.196\
+  \ | 180.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 41.148 | -171.196\
+  \ | 180.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 41.148 | -145.542\
+  \ | 180.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 92.456 | -119.888\
+  \ | 180.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 41.148 | -68.58 |\
+  \ 180.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 143.764 | -42.926 |\
+  \ 180.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 118.11 | -17.272 | 180.0\
+  \ | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 66.802 | -68.58 | 180.0 |\
+  \ top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 92.456 | 8.382 | 180.0 | top\
+  \ | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 66.802 | -145.542 | 180.0 | top\
+  \ | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 66.802 | -119.888 | 180.0 | top\
+  \ | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 118.11 | 8.382 | 180.0 | top | \n\
+  | C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 118.11 | -42.926 | 180.0 | top | \n| C1\
+  \ | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 66.802 | -171.196 | 180.0 | top | \n| C1\
+  \ | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 41.148 | -94.234 | 180.0 | top | \n| C1 |\
+  \ 0.1UF-0603-25V-_+80_-20%_ | 0603 | 41.148 | -119.888 | 180.0 | top | \n| C1 |\
+  \ 0.1UF-0603-25V-_+80_-20%_ | 0603 | 41.148 | -17.272 | 180.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_\
+  \ | 0603 | 92.456 | -17.272 | 180.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ |\
+  \ 0603 | 143.764 | -171.196 | 180.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ |\
+  \ 0603 | 92.456 | -94.234 | 180.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603\
+  \ | 118.11 | -119.888 | 180.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603\
+  \ | 143.764 | -68.58 | 180.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 |\
+  \ 41.148 | -42.926 | 180.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 143.764\
+  \ | -94.234 | 180.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 92.456 |\
+  \ -145.542 | 180.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 143.764 |\
+  \ 8.382 | 180.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 92.456 | -171.196\
+  \ | 180.0 | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 41.148 | 8.382 | 180.0\
+  \ | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 143.764 | -145.542 | 180.0\
+  \ | top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 118.11 | -94.234 | 180.0 |\
+  \ top | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 66.802 | -17.272 | 180.0 | top\
+  \ | \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 92.456 | -68.58 | 180.0 | top |\
+  \ \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 118.11 | -145.542 | 180.0 | top |\
+  \ \n| C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 66.802 | -94.234 | 180.0 | top | \n\
+  | C1 | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 66.802 | -42.926 | 180.0 | top | \n| C1\
+  \ | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 143.764 | -119.888 | 180.0 | top | \n| C1\
+  \ | 0.1UF-0603-25V-_+80_-20%_ | 0603 | 118.11 | -68.58 | 180.0 | top | \n| C1 |\
+  \ 0.1UF-0603-25V-_+80_-20%_ | 0603 | 92.456 | -42.926 | 180.0 | top | \n| C2 | 4.7UF0603\
+  \ | 0603 | 70.358 | -42.926 | 0.0 | top | \n| C2 | 4.7UF0603 | 0603 | 96.012 | -119.888\
+  \ | 0.0 | top | \n| C2 | 4.7UF0603 | 0603 | 44.704 | -171.196 | 0.0 | top | \n|\
+  \ C2 | 4.7UF0603 | 0603 | 147.32 | -17.272 | 0.0 | top | \n| C2 | 4.7UF0603 | 0603\
+  \ | 44.704 | -42.926 | 0.0 | top | \n| C2 | 4.7UF0603 | 0603 | 96.012 | -94.234\
+  \ | 0.0 | top | \n| C2 | 4.7UF0603 | 0603 | 147.32 | -68.58 | 0.0 | top | \n| C2\
+  \ | 4.7UF0603 | 0603 | 96.012 | -145.542 | 0.0 | top | \n| C2 | 4.7UF0603 | 0603\
+  \ | 121.666 | -17.272 | 0.0 | top | \n| C2 | 4.7UF0603 | 0603 | 44.704 | -68.58\
+  \ | 0.0 | top | \n| C2 | 4.7UF0603 | 0603 | 121.666 | -68.58 | 0.0 | top | \n| C2\
+  \ | 4.7UF0603 | 0603 | 121.666 | -145.542 | 0.0 | top | \n| C2 | 4.7UF0603 | 0603\
+  \ | 70.358 | -171.196 | 0.0 | top | \n| C2 | 4.7UF0603 | 0603 | 121.666 | -94.234\
+  \ | 0.0 | top | \n| C2 | 4.7UF0603 | 0603 | 121.666 | -119.888 | 0.0 | top | \n\
+  | C2 | 4.7UF0603 | 0603 | 96.012 | -68.58 | 0.0 | top | \n| C2 | 4.7UF0603 | 0603\
+  \ | 96.012 | -17.272 | 0.0 | top | \n| C2 | 4.7UF0603 | 0603 | 147.32 | -145.542\
+  \ | 0.0 | top | \n| C2 | 4.7UF0603 | 0603 | 147.32 | 8.382 | 0.0 | top | \n| C2\
+  \ | 4.7UF0603 | 0603 | 44.704 | -119.888 | 0.0 | top | \n| C2 | 4.7UF0603 | 0603\
+  \ | 70.358 | -68.58 | 0.0 | top | \n| C2 | 4.7UF0603 | 0603 | 96.012 | -171.196\
+  \ | 0.0 | top | \n| C2 | 4.7UF0603 | 0603 | 121.666 | 8.382 | 0.0 | top | \n| C2\
+  \ | 4.7UF0603 | 0603 | 70.358 | -17.272 | 0.0 | top | \n| C2 | 4.7UF0603 | 0603\
+  \ | 70.358 | -119.888 | 0.0 | top | \n| C2 | 4.7UF0603 | 0603 | 96.012 | 8.382 |\
+  \ 0.0 | top | \n| C2 | 4.7UF0603 | 0603 | 44.704 | -17.272 | 0.0 | top | \n| C2\
+  \ | 4.7UF0603 | 0603 | 147.32 | -119.888 | 0.0 | top | \n| C2 | 4.7UF0603 | 0603\
+  \ | 70.358 | 8.382 | 0.0 | top | \n| C2 | 4.7UF0603 | 0603 | 44.704 | 8.382 | 0.0\
+  \ | top | \n| C2 | 4.7UF0603 | 0603 | 121.666 | -171.196 | 0.0 | top | \n| C2 |\
+  \ 4.7UF0603 | 0603 | 147.32 | -94.234 | 0.0 | top | \n| C2 | 4.7UF0603 | 0603 |\
+  \ 147.32 | -42.926 | 0.0 | top | \n| C2 | 4.7UF0603 | 0603 | 147.32 | -171.196 |\
+  \ 0.0 | top | \n| C2 | 4.7UF0603 | 0603 | 44.704 | -94.234 | 0.0 | top | \n| C2\
+  \ | 4.7UF0603 | 0603 | 121.666 | -42.926 | 0.0 | top | \n| C2 | 4.7UF0603 | 0603\
+  \ | 70.358 | -94.234 | 0.0 | top | \n| C2 | 4.7UF0603 | 0603 | 44.704 | -145.542\
+  \ | 0.0 | top | \n| C2 | 4.7UF0603 | 0603 | 96.012 | -42.926 | 0.0 | top | \n| C2\
+  \ | 4.7UF0603 | 0603 | 70.358 | -145.542 | 0.0 | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 31.75 | 0.508 | 0.0 | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 57.404\
+  \ | -127.762 | 0.0 | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 83.058\
+  \ | -76.454 | 0.0 | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 134.366\
+  \ | -127.762 | 0.0 | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 31.75 |\
+  \ -76.454 | 0.0 | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 57.404 | 0.508\
+  \ | 0.0 | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 57.404 | -179.07 |\
+  \ 0.0 | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 134.366 | -25.146 |\
+  \ 0.0 | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 134.366 | -50.8 | 0.0\
+  \ | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 108.712 | -25.146 | 0.0\
+  \ | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 83.058 | -25.146 | 0.0 |\
+  \ top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 31.75 | -179.07 | 0.0 | top\
+  \ | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 83.058 | -179.07 | 0.0 | top |\
+  \ \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 31.75 | -127.762 | 0.0 | top | \n\
+  | F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 134.366 | -179.07 | 0.0 | top | \n|\
+  \ F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 31.75 | -50.8 | 0.0 | top | \n| F1 |\
+  \ Fiducial | FIDUCIAL-MICRO-NO_PASTE | 31.75 | -102.108 | 0.0 | top | \n| F1 | Fiducial\
+  \ | FIDUCIAL-MICRO-NO_PASTE | 31.75 | -25.146 | 0.0 | top | \n| F1 | Fiducial |\
+  \ FIDUCIAL-MICRO-NO_PASTE | 108.712 | -153.416 | 0.0 | top | \n| F1 | Fiducial |\
+  \ FIDUCIAL-MICRO-NO_PASTE | 57.404 | -50.8 | 0.0 | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 134.366 | 0.508 | 0.0 | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE |\
+  \ 83.058 | -50.8 | 0.0 | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 108.712\
+  \ | 0.508 | 0.0 | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 31.75 | -153.416\
+  \ | 0.0 | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 134.366 | -153.416\
+  \ | 0.0 | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 83.058 | 0.508 | 0.0\
+  \ | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 134.366 | -102.108 | 0.0\
+  \ | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 83.058 | -127.762 | 0.0\
+  \ | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 57.404 | -102.108 | 0.0\
+  \ | top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 57.404 | -76.454 | 0.0 |\
+  \ top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 108.712 | -76.454 | 0.0 |\
+  \ top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 134.366 | -76.454 | 0.0 |\
+  \ top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 83.058 | -153.416 | 0.0 |\
+  \ top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 57.404 | -153.416 | 0.0 |\
+  \ top | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 108.712 | -50.8 | 0.0 | top\
+  \ | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 108.712 | -179.07 | 0.0 | top\
+  \ | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 83.058 | -102.108 | 0.0 | top\
+  \ | \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 57.404 | -25.146 | 0.0 | top |\
+  \ \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 108.712 | -127.762 | 0.0 | top |\
+  \ \n| F1 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 108.712 | -102.108 | 0.0 | top |\
+  \ \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 153.416 | -2.032 | 0.0 | top | \n\
+  | F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 102.108 | -104.648 | 0.0 | top | \n\
+  | F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 127.762 | -104.648 | 0.0 | top | \n\
+  | F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 127.762 | -2.032 | 0.0 | top | \n| F2\
+  \ | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 76.454 | -155.956 | 0.0 | top | \n| F2\
+  \ | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 76.454 | -2.032 | 0.0 | top | \n| F2 |\
+  \ Fiducial | FIDUCIAL-MICRO-NO_PASTE | 153.416 | -104.648 | 0.0 | top | \n| F2 |\
+  \ Fiducial | FIDUCIAL-MICRO-NO_PASTE | 50.8 | -2.032 | 0.0 | top | \n| F2 | Fiducial\
+  \ | FIDUCIAL-MICRO-NO_PASTE | 102.108 | -155.956 | 0.0 | top | \n| F2 | Fiducial\
+  \ | FIDUCIAL-MICRO-NO_PASTE | 102.108 | -2.032 | 0.0 | top | \n| F2 | Fiducial |\
+  \ FIDUCIAL-MICRO-NO_PASTE | 50.8 | -27.686 | 0.0 | top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 127.762 | -27.686 | 0.0 | top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 153.416 | -53.34 | 0.0 | top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE |\
+  \ 102.108 | -78.994 | 0.0 | top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE |\
+  \ 102.108 | -130.302 | 0.0 | top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE |\
+  \ 127.762 | -130.302 | 0.0 | top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE |\
+  \ 127.762 | -78.994 | 0.0 | top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE |\
+  \ 76.454 | -130.302 | 0.0 | top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE |\
+  \ 102.108 | -53.34 | 0.0 | top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 102.108\
+  \ | -27.686 | 0.0 | top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 153.416\
+  \ | -130.302 | 0.0 | top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 50.8 |\
+  \ -104.648 | 0.0 | top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 76.454 |\
+  \ -27.686 | 0.0 | top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 153.416 |\
+  \ -27.686 | 0.0 | top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 76.454 | -53.34\
+  \ | 0.0 | top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 102.108 | 23.622 |\
+  \ 0.0 | top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 127.762 | -155.956 |\
+  \ 0.0 | top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 76.454 | -78.994 | 0.0\
+  \ | top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 153.416 | 23.622 | 0.0 |\
+  \ top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 50.8 | -78.994 | 0.0 | top\
+  \ | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 76.454 | -104.648 | 0.0 | top\
+  \ | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 50.8 | -155.956 | 0.0 | top |\
+  \ \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 76.454 | 23.622 | 0.0 | top | \n\
+  | F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 153.416 | -78.994 | 0.0 | top | \n|\
+  \ F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 127.762 | -53.34 | 0.0 | top | \n| F2\
+  \ | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 153.416 | -155.956 | 0.0 | top | \n| F2\
+  \ | Fiducial | FIDUCIAL-MICRO-NO_PASTE | 50.8 | 23.622 | 0.0 | top | \n| F2 | Fiducial\
+  \ | FIDUCIAL-MICRO-NO_PASTE | 127.762 | 23.622 | 0.0 | top | \n| F2 | Fiducial |\
+  \ FIDUCIAL-MICRO-NO_PASTE | 50.8 | -53.34 | 0.0 | top | \n| F2 | Fiducial | FIDUCIAL-MICRO-NO_PASTE\
+  \ | 50.8 | -130.302 | 0.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA |\
+  \ 61.214 | -141.986 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 35.56 | -39.37 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 138.176 | -141.986 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 86.868 | -39.37 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 35.56 | -167.64 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 112.522 | -39.37 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 138.176 | -39.37 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 61.214 | -13.716 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 35.56 | -13.716 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 86.868 | -13.716 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 112.522 | -13.716 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 61.214 | -167.64 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 138.176 | -13.716 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 61.214 | 11.938 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 35.56 | 11.938 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 35.56 | -141.986 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 86.868 | 11.938 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 112.522 | 11.938 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 138.176 | 11.938 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 35.56 | -116.332 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 86.868 | -167.64 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 86.868 | -116.332 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 112.522 | -116.332 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 138.176 | -116.332 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 61.214 | -90.678 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 35.56 | -90.678 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 86.868 | -141.986 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 86.868 | -90.678 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 112.522 | -90.678 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 112.522 | -167.64 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 138.176 | -90.678 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 112.522 | -141.986 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 61.214 | -65.024 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 61.214 | -116.332 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 35.56 | -65.024 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 86.868 | -65.024 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 112.522 | -65.024 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 138.176 | -65.024 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 138.176 | -167.64 | -90.0 | top | \n| J1 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 61.214 | -39.37 | -90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 50.8 | -141.986 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 127.762 | -39.37 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 127.762 | -90.678 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 50.8 | -167.64 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA |\
+  \ 76.454 | 11.938 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA |\
+  \ 76.454 | -116.332 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 153.416 | -65.024 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 76.454 | -90.678 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 50.8 | -39.37 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA |\
+  \ 102.108 | -116.332 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 153.416 | -13.716 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 153.416 | -141.986 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA\
+  \ | 50.8 | -90.678 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA |\
+  \ 76.454 | -167.64 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA |\
+  \ 102.108 | 11.938 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA |\
+  \ 50.8 | -13.716 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 102.108\
+  \ | -90.678 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 127.762\
+  \ | 11.938 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 127.762\
+  \ | -116.332 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 153.416\
+  \ | 11.938 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 153.416\
+  \ | -90.678 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 102.108\
+  \ | -167.64 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 153.416\
+  \ | -39.37 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 76.454\
+  \ | -141.986 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 102.108\
+  \ | -39.37 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 102.108\
+  \ | -141.986 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 50.8\
+  \ | -116.332 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 76.454\
+  \ | -65.024 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 102.108\
+  \ | -65.024 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 127.762\
+  \ | -167.64 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 153.416\
+  \ | -116.332 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 102.108\
+  \ | -13.716 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 127.762\
+  \ | -13.716 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 50.8 |\
+  \ 11.938 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 76.454 |\
+  \ -39.37 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 76.454 |\
+  \ -13.716 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 127.762\
+  \ | -141.986 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 153.416\
+  \ | -167.64 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 50.8 |\
+  \ -65.024 | 90.0 | top | \n| J2 | QWIIC_CONNECTORJS-1MM | 1X04_1MM_RA | 127.762\
+  \ | -65.024 | 90.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 120.142 | -35.56 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 145.796 | -138.176 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 68.834 | 15.748 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 43.18 | -138.176 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 145.796 | -163.83 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 43.18 | -86.868 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 68.834 | -163.83 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 68.834 | -86.868 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 68.834 | -35.56 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 43.18 | 15.748 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 94.488 | 15.748 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 94.488 | -138.176 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 120.142 | -9.906 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 94.488 | -163.83 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 94.488 | -112.522 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 68.834 | -138.176 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 145.796 | -61.214 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 94.488 | -9.906 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 120.142 | -163.83 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 120.142 | -112.522 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 145.796 | -9.906 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 120.142 | -138.176 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 68.834 | -9.906 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 94.488 | -35.56 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 120.142 | -61.214 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 145.796 | -112.522 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 94.488 | -61.214 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 43.18 | -61.214 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 43.18 | -9.906 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 145.796 | -86.868 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 120.142 | -86.868 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 94.488 | -86.868 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 43.18 | -35.56 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 145.796 | -35.56 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 68.834 | -61.214 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 68.834 | -112.522 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 43.18 | -112.522 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 120.142 | 15.748 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 145.796 | 15.748 | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_S | SMT-JUMPER_3_2-NC_PASTE\
+  \ | 43.18 | -163.83 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 58.674 | -150.876 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 33.02 | -99.568 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 135.636 | -73.914 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 84.328 | -125.222 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 33.02 | -73.914 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 84.328 | -150.876 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 58.674 | -176.53 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 109.982 | -125.222 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 84.328 | -176.53 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 33.02 | -176.53 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 58.674 | -73.914 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 33.02 | -22.606 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 58.674 | -22.606 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 84.328 | -22.606 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 33.02 | 3.048 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 135.636 | -125.222 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 58.674 | -48.26 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 33.02 | -48.26 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 58.674 | 3.048 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 109.982 | -176.53 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 109.982 | -99.568 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 58.674 | -99.568 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 109.982 | -150.876 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 84.328 | -48.26 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 84.328 | -99.568 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 135.636 | -22.606 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 135.636 | -176.53 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 84.328 | 3.048 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 109.982 | 3.048 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 135.636 | -99.568 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 135.636 | -150.876 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 135.636 | -48.26 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 84.328 | -73.914 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 135.636 | 3.048 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 33.02 | -150.876 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 109.982 | -48.26 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 109.982 | -22.606 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 33.02 | -125.222 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 58.674 | -125.222 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW- | OSHW-LOGO-MINI\
+  \ | 109.982 | -73.914 | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF | 109.982\
+  \ | -131.826 | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF | 84.328 | -29.21\
+  \ | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF | 135.636 | -131.826 | 0.0 |\
+  \ top | \n| MK1 | Mounting_Hole | STAND-OFF | 84.328 | -54.864 | 0.0 | top | \n\
+  | MK1 | Mounting_Hole | STAND-OFF | 58.674 | -29.21 | 0.0 | top | \n| MK1 | Mounting_Hole\
+  \ | STAND-OFF | 58.674 | -3.556 | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF\
+  \ | 109.982 | -3.556 | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF | 135.636\
+  \ | -106.172 | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF | 33.02 | -54.864\
+  \ | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF | 84.328 | -3.556 | 0.0 | top\
+  \ | \n| MK1 | Mounting_Hole | STAND-OFF | 109.982 | -54.864 | 0.0 | top | \n| MK1\
+  \ | Mounting_Hole | STAND-OFF | 33.02 | -157.48 | 0.0 | top | \n| MK1 | Mounting_Hole\
+  \ | STAND-OFF | 58.674 | -80.518 | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF\
+  \ | 58.674 | -157.48 | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF | 33.02 |\
+  \ -29.21 | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF | 84.328 | -157.48 |\
+  \ 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF | 135.636 | -80.518 | 0.0 | top\
+  \ | \n| MK1 | Mounting_Hole | STAND-OFF | 33.02 | 22.098 | 0.0 | top | \n| MK1 |\
+  \ Mounting_Hole | STAND-OFF | 58.674 | -54.864 | 0.0 | top | \n| MK1 | Mounting_Hole\
+  \ | STAND-OFF | 58.674 | 22.098 | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF\
+  \ | 135.636 | -54.864 | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF | 135.636\
+  \ | -157.48 | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF | 109.982 | -80.518\
+  \ | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF | 84.328 | -106.172 | 0.0 |\
+  \ top | \n| MK1 | Mounting_Hole | STAND-OFF | 84.328 | 22.098 | 0.0 | top | \n|\
+  \ MK1 | Mounting_Hole | STAND-OFF | 109.982 | -29.21 | 0.0 | top | \n| MK1 | Mounting_Hole\
+  \ | STAND-OFF | 109.982 | 22.098 | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF\
+  \ | 33.02 | -3.556 | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF | 58.674 |\
+  \ -131.826 | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF | 33.02 | -80.518 |\
+  \ 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF | 135.636 | 22.098 | 0.0 | top\
+  \ | \n| MK1 | Mounting_Hole | STAND-OFF | 33.02 | -106.172 | 0.0 | top | \n| MK1\
+  \ | Mounting_Hole | STAND-OFF | 109.982 | -157.48 | 0.0 | top | \n| MK1 | Mounting_Hole\
+  \ | STAND-OFF | 33.02 | -131.826 | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF\
+  \ | 109.982 | -106.172 | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF | 135.636\
+  \ | -29.21 | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF | 135.636 | -3.556\
+  \ | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF | 58.674 | -106.172 | 0.0 |\
+  \ top | \n| MK1 | Mounting_Hole | STAND-OFF | 84.328 | -131.826 | 0.0 | top | \n\
+  | MK1 | Mounting_Hole | STAND-OFF | 84.328 | -80.518 | 0.0 | top | \n| MK2 | Mounting_Hole\
+  \ | STAND-OFF | 53.34 | -106.172 | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF\
+  \ | 104.648 | -29.21 | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF | 130.302\
+  \ | -29.21 | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF | 155.956 | -29.21\
+  \ | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF | 53.34 | -3.556 | 0.0 | top\
+  \ | \n| MK2 | Mounting_Hole | STAND-OFF | 53.34 | -80.518 | 0.0 | top | \n| MK2\
+  \ | Mounting_Hole | STAND-OFF | 155.956 | -106.172 | 0.0 | top | \n| MK2 | Mounting_Hole\
+  \ | STAND-OFF | 78.994 | -3.556 | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF\
+  \ | 104.648 | -3.556 | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF | 130.302\
+  \ | -106.172 | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF | 155.956 | -80.518\
+  \ | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF | 130.302 | -3.556 | 0.0 | top\
+  \ | \n| MK2 | Mounting_Hole | STAND-OFF | 104.648 | -106.172 | 0.0 | top | \n| MK2\
+  \ | Mounting_Hole | STAND-OFF | 155.956 | -3.556 | 0.0 | top | \n| MK2 | Mounting_Hole\
+  \ | STAND-OFF | 53.34 | 22.098 | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF\
+  \ | 78.994 | 22.098 | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF | 78.994 |\
+  \ -106.172 | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF | 53.34 | -157.48 |\
+  \ 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF | 78.994 | -157.48 | 0.0 | top\
+  \ | \n| MK2 | Mounting_Hole | STAND-OFF | 104.648 | -157.48 | 0.0 | top | \n| MK2\
+  \ | Mounting_Hole | STAND-OFF | 130.302 | -157.48 | 0.0 | top | \n| MK2 | Mounting_Hole\
+  \ | STAND-OFF | 155.956 | -157.48 | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF\
+  \ | 53.34 | -131.826 | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF | 104.648\
+  \ | 22.098 | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF | 78.994 | -131.826\
+  \ | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF | 104.648 | -131.826 | 0.0 |\
+  \ top | \n| MK2 | Mounting_Hole | STAND-OFF | 130.302 | -131.826 | 0.0 | top | \n\
+  | MK2 | Mounting_Hole | STAND-OFF | 155.956 | -131.826 | 0.0 | top | \n| MK2 | Mounting_Hole\
+  \ | STAND-OFF | 130.302 | 22.098 | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF\
+  \ | 78.994 | -54.864 | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF | 104.648\
+  \ | -54.864 | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF | 130.302 | -80.518\
+  \ | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF | 53.34 | -54.864 | 0.0 | top\
+  \ | \n| MK2 | Mounting_Hole | STAND-OFF | 155.956 | 22.098 | 0.0 | top | \n| MK2\
+  \ | Mounting_Hole | STAND-OFF | 130.302 | -54.864 | 0.0 | top | \n| MK2 | Mounting_Hole\
+  \ | STAND-OFF | 104.648 | -80.518 | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF\
+  \ | 155.956 | -54.864 | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF | 53.34\
+  \ | -29.21 | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF | 78.994 | -29.21 |\
+  \ 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF | 78.994 | -80.518 | 0.0 | top\
+  \ | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 124.968 | -112.522 | 0.0 | top | \n\
+  | R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 48.006 | -138.176 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1%\
+  \ | 0603 | 48.006 | -9.906 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 |\
+  \ 150.622 | -86.868 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 150.622\
+  \ | -112.522 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 150.622 | -61.214\
+  \ | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 124.968 | -61.214 | 0.0\
+  \ | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 99.314 | -35.56 | 0.0 | top |\
+  \ \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 73.66 | -9.906 | 0.0 | top | \n| R1 |\
+  \ 4.7KOHM-0603-1_10W-1% | 0603 | 48.006 | -163.83 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1%\
+  \ | 0603 | 124.968 | -86.868 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603\
+  \ | 150.622 | -9.906 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 99.314\
+  \ | -61.214 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 150.622 | 15.748\
+  \ | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 99.314 | -163.83 | 0.0 |\
+  \ top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 124.968 | -163.83 | 0.0 | top |\
+  \ \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 73.66 | 15.748 | 0.0 | top | \n| R1 |\
+  \ 4.7KOHM-0603-1_10W-1% | 0603 | 99.314 | -86.868 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1%\
+  \ | 0603 | 48.006 | -61.214 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603\
+  \ | 99.314 | -112.522 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 150.622\
+  \ | -163.83 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 124.968 | 15.748\
+  \ | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 73.66 | -61.214 | 0.0 |\
+  \ top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 150.622 | -138.176 | 0.0 | top |\
+  \ \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 73.66 | -163.83 | 0.0 | top | \n| R1 |\
+  \ 4.7KOHM-0603-1_10W-1% | 0603 | 99.314 | -9.906 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1%\
+  \ | 0603 | 124.968 | -35.56 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603\
+  \ | 48.006 | -112.522 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 99.314\
+  \ | 15.748 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 124.968 | -138.176\
+  \ | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 48.006 | -35.56 | 0.0 |\
+  \ top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 99.314 | -138.176 | 0.0 | top |\
+  \ \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 48.006 | -86.868 | 0.0 | top | \n| R1\
+  \ | 4.7KOHM-0603-1_10W-1% | 0603 | 124.968 | -9.906 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1%\
+  \ | 0603 | 73.66 | -112.522 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603\
+  \ | 73.66 | -86.868 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 73.66\
+  \ | -35.56 | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 73.66 | -138.176\
+  \ | 0.0 | top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 48.006 | 15.748 | 0.0 |\
+  \ top | \n| R1 | 4.7KOHM-0603-1_10W-1% | 0603 | 150.622 | -35.56 | 0.0 | top | \n\
+  | R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 140.97 | 15.748 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1%\
+  \ | 0603 | 115.316 | -61.214 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603\
+  \ | 64.008 | -9.906 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 64.008\
+  \ | -86.868 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 115.316 | -112.522\
+  \ | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 89.662 | -61.214 | 180.0\
+  \ | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 140.97 | -61.214 | 180.0 | top\
+  \ | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 115.316 | -86.868 | 180.0 | top | \n\
+  | R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 140.97 | -138.176 | 180.0 | top | \n| R2 |\
+  \ 4.7KOHM-0603-1_10W-1% | 0603 | 89.662 | -9.906 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1%\
+  \ | 0603 | 115.316 | -138.176 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603\
+  \ | 89.662 | -138.176 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 64.008\
+  \ | -138.176 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 115.316 | -9.906\
+  \ | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 38.354 | -86.868 | 180.0\
+  \ | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 38.354 | -138.176 | 180.0 | top\
+  \ | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 140.97 | -9.906 | 180.0 | top | \n|\
+  \ R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 140.97 | -163.83 | 180.0 | top | \n| R2 |\
+  \ 4.7KOHM-0603-1_10W-1% | 0603 | 115.316 | -163.83 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1%\
+  \ | 0603 | 38.354 | 15.748 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603\
+  \ | 89.662 | -112.522 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 89.662\
+  \ | -163.83 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 64.008 | -163.83\
+  \ | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 64.008 | 15.748 | 180.0\
+  \ | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 38.354 | -163.83 | 180.0 | top\
+  \ | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 115.316 | -35.56 | 180.0 | top | \n\
+  | R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 64.008 | -35.56 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1%\
+  \ | 0603 | 64.008 | -61.214 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603\
+  \ | 89.662 | 15.748 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 64.008\
+  \ | -112.522 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 140.97 | -86.868\
+  \ | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 140.97 | -35.56 | 180.0\
+  \ | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 38.354 | -35.56 | 180.0 | top\
+  \ | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 89.662 | -86.868 | 180.0 | top | \n\
+  | R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 38.354 | -61.214 | 180.0 | top | \n| R2 |\
+  \ 4.7KOHM-0603-1_10W-1% | 0603 | 115.316 | 15.748 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1%\
+  \ | 0603 | 38.354 | -112.522 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603\
+  \ | 89.662 | -35.56 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 38.354\
+  \ | -9.906 | 180.0 | top | \n| R2 | 4.7KOHM-0603-1_10W-1% | 0603 | 140.97 | -112.522\
+  \ | 180.0 | top | \n| Ref** | Val** | FIDUCIAL-FRAME-1_5MM-no | 29.083 | -178.435\
+  \ | 0.0 | top | \n| U1 | RFD77402 | RFD77402 | 43.18 | -65.024 | 0.0 | top | \n\
+  | U1 | RFD77402 | RFD77402 | 94.488 | -141.986 | 0.0 | top | \n| U1 | RFD77402 |\
+  \ RFD77402 | 145.796 | -167.64 | 0.0 | top | \n| U1 | RFD77402 | RFD77402 | 68.834\
+  \ | -90.678 | 0.0 | top | \n| U1 | RFD77402 | RFD77402 | 68.834 | -167.64 | 0.0\
+  \ | top | \n| U1 | RFD77402 | RFD77402 | 94.488 | 11.938 | 0.0 | top | \n| U1 |\
+  \ RFD77402 | RFD77402 | 120.142 | -90.678 | 0.0 | top | \n| U1 | RFD77402 | RFD77402\
+  \ | 43.18 | 11.938 | 0.0 | top | \n| U1 | RFD77402 | RFD77402 | 145.796 | -39.37\
+  \ | 0.0 | top | \n| U1 | RFD77402 | RFD77402 | 120.142 | -141.986 | 0.0 | top |\
+  \ \n| U1 | RFD77402 | RFD77402 | 68.834 | 11.938 | 0.0 | top | \n| U1 | RFD77402\
+  \ | RFD77402 | 68.834 | -116.332 | 0.0 | top | \n| U1 | RFD77402 | RFD77402 | 43.18\
+  \ | -39.37 | 0.0 | top | \n| U1 | RFD77402 | RFD77402 | 145.796 | -90.678 | 0.0\
+  \ | top | \n| U1 | RFD77402 | RFD77402 | 43.18 | -167.64 | 0.0 | top | \n| U1 |\
+  \ RFD77402 | RFD77402 | 94.488 | -39.37 | 0.0 | top | \n| U1 | RFD77402 | RFD77402\
+  \ | 145.796 | -141.986 | 0.0 | top | \n| U1 | RFD77402 | RFD77402 | 94.488 | -13.716\
+  \ | 0.0 | top | \n| U1 | RFD77402 | RFD77402 | 68.834 | -65.024 | 0.0 | top | \n\
+  | U1 | RFD77402 | RFD77402 | 145.796 | -13.716 | 0.0 | top | \n| U1 | RFD77402 |\
+  \ RFD77402 | 94.488 | -90.678 | 0.0 | top | \n| U1 | RFD77402 | RFD77402 | 120.142\
+  \ | -39.37 | 0.0 | top | \n| U1 | RFD77402 | RFD77402 | 43.18 | -116.332 | 0.0 |\
+  \ top | \n| U1 | RFD77402 | RFD77402 | 120.142 | -116.332 | 0.0 | top | \n| U1 |\
+  \ RFD77402 | RFD77402 | 120.142 | 11.938 | 0.0 | top | \n| U1 | RFD77402 | RFD77402\
+  \ | 94.488 | -167.64 | 0.0 | top | \n| U1 | RFD77402 | RFD77402 | 145.796 | -65.024\
+  \ | 0.0 | top | \n| U1 | RFD77402 | RFD77402 | 94.488 | -116.332 | 0.0 | top | \n\
+  | U1 | RFD77402 | RFD77402 | 94.488 | -65.024 | 0.0 | top | \n| U1 | RFD77402 |\
+  \ RFD77402 | 43.18 | -90.678 | 0.0 | top | \n| U1 | RFD77402 | RFD77402 | 120.142\
+  \ | -167.64 | 0.0 | top | \n| U1 | RFD77402 | RFD77402 | 145.796 | 11.938 | 0.0\
+  \ | top | \n| U1 | RFD77402 | RFD77402 | 68.834 | -39.37 | 0.0 | top | \n| U1 |\
+  \ RFD77402 | RFD77402 | 145.796 | -116.332 | 0.0 | top | \n| U1 | RFD77402 | RFD77402\
+  \ | 43.18 | -141.986 | 0.0 | top | \n| U1 | RFD77402 | RFD77402 | 43.18 | -13.716\
+  \ | 0.0 | top | \n| U1 | RFD77402 | RFD77402 | 68.834 | -13.716 | 0.0 | top | \n\
+  | U1 | RFD77402 | RFD77402 | 120.142 | -65.024 | 0.0 | top | \n| U1 | RFD77402 |\
+  \ RFD77402 | 68.834 | -141.986 | 0.0 | top | \n| U1 | RFD77402 | RFD77402 | 120.142\
+  \ | -13.716 | 0.0 | top | \n"
 projects_flat: projects/sparkfun_qwiic_distance_rfd77402_13871_qwiic_distance_sensor_panel_v10/current_version/working
 repo:
   allow_forking: true

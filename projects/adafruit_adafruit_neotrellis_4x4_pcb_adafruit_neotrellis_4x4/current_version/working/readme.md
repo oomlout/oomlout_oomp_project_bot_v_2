@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -33,7 +54,7 @@
 | 4 | TP5,TP6 | TESTPOINT_ROUND_2MM | 2 |  |  |  | [''] | 
 | 5 | C7 | 0603-NO | 1 | 1uF |  |  | [''] | 
 | 6 | TP14,TP12,TP11,TP10,TP13,TP9,TP8,TP24,TP7 | TESTPOINT_ROUND_1.5MM | 9 |  |  |  | [''] | 
-| 7 | C8 | 0805-NO | 1 | 10µF |  |  | [''] | 
+| 7 | C8 | 0805-NO | 1 | 10ÂµF |  |  | [''] | 
 | 8 | C1,C4,C2,C3 | 0805-NO | 4 | 10u |  |  | [''] | 
 | 9 | JP2,JP4,JP1,JP3 | 5P_EDGECONNECT | 4 |  |  |  | [''] | 
 | 10 | @HOLE2,@HOLE5,@HOLE11,@HOLE15,@HOLE7,@HOLE14,@HOLE12,@HOLE6,@HOLE0,@HOLE8,@HOLE10,@HOLE3,@HOLE9,@HOLE13,@HOLE4,@HOLE1 |  | 16 |  |  |  | [''] | 
@@ -59,7 +80,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C2, C3, C4 | 4 | 10u | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7 | 1 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C8 | 1 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C8 | 1 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16 | 16 | 1N4148 | DIODESOD-323 | working:SOD-323 |  |  |  | 
 | FID1, FID2, FID3, FID4, FID5, FID6 | 6 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | 
 | IC2 | 1 | ATSAMD09D14A-MU | ATSAMD09D14A-MU | working:QFN24_4MM |  |  |  | 

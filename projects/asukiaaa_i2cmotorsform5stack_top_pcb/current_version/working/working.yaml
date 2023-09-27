@@ -1,10 +1,200 @@
 board: top_pcb
+bom:
+- Id: '1'
+  Designator: J2
+  Footprint: PinHeader_2x15_P2.54mm_Vertical_SMD_for_M5Stack
+  Quantity: '1'
+  Designation: header
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: corner1,corner4
+  Footprint: corner_edge1
+  Quantity: '2'
+  Designation: corner_edge1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: corner2,corner3
+  Footprint: corner_edge2
+  Quantity: '2'
+  Designation: corner_edge2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J3
+  Footprint: PinHeader_1x30_P1.27mm_Vertical_without_silks
+  Quantity: '1'
+  Designation: free_holes
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J1
+  Footprint: Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal
+  Quantity: '1'
+  Designation: flat_cable_connector
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J4
+  Footprint: NS-Tech_Grove_1x04_P2mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x04
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J2\
+  \ | PinHeader_2x15_P2.54mm_Vertical_SMD_for_M5Stack | 1 | header |  |  | [''] |\
+  \ \n| 2 | corner1,corner4 | corner_edge1 | 2 | corner_edge1 |  |  | [''] | \n| 3\
+  \ | corner2,corner3 | corner_edge2 | 2 | corner_edge2 |  |  | [''] | \n| 4 | J3\
+  \ | PinHeader_1x30_P1.27mm_Vertical_without_silks | 1 | free_holes |  |  | ['']\
+  \ | \n| 5 | J1 | Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal | 1 | flat_cable_connector\
+  \ |  |  | [''] | \n| 6 | J4 | NS-Tech_Grove_1x04_P2mm_Vertical | 1 | Conn_01x04\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Conn_02x15_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x15, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_FFC-FPC:Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal
+  Qnty: '1'
+  Ref: J1
+  Value: flat_cable_connector
+  Vendor: ''
+- Cmp name: Conn_02x15_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x15, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: footprints:PinHeader_2x15_P2.54mm_Vertical_SMD_for_M5Stack
+  Qnty: '1'
+  Ref: J2
+  Value: header
+  Vendor: ''
+- Cmp name: Conn_02x15_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x15, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: footprints:PinHeader_1x30_P1.27mm_Vertical_without_silks
+  Qnty: '1'
+  Ref: J3
+  Value: free_holes
+  Vendor: ''
+- Cmp name: Conn_01x04
+  DNP: ''
+  Description: Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector:NS-Tech_Grove_1x04_P2mm_Vertical
+  Qnty: '1'
+  Ref: J4
+  Value: Conn_01x04
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| J1 |\
+  \ 1 | flat_cable_connector | Conn_02x15_Odd_Even | Connector_FFC-FPC:Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal\
+  \ | Generic connector, double row, 02x15, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J2 | 1 | header | Conn_02x15_Odd_Even | footprints:PinHeader_2x15_P2.54mm_Vertical_SMD_for_M5Stack\
+  \ | Generic connector, double row, 02x15, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J3 | 1 | free_holes | Conn_02x15_Odd_Even | footprints:PinHeader_1x30_P1.27mm_Vertical_without_silks\
+  \ | Generic connector, double row, 02x15, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J4 | 1 | Conn_01x04 | Conn_01x04 | Connector:NS-Tech_Grove_1x04_P2mm_Vertical\
+  \ | Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/asukiaaa_i2cmotorsform5stack_top_pcb/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asukiaaa_i2cmotorsform5stack_top_pcb/current_version/working/working.kicad_pcb
 file_sch_flat: projects/asukiaaa_i2cmotorsform5stack_top_pcb/current_version/working/working.sch
 id: asukiaaa_i2cmotorsform5stack_top_pcb
 name: i2cmotorsform5stack
+position_bottom:
+- '# Ref': J1
+  Package: Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal
+  PosX: 41.2528
+  PosY: -12.4652
+  Rot: -90.0
+  Side: bottom
+  Val: flat_cable_connector
+- '# Ref': J4
+  Package: NS-Tech_Grove_1x04_P2mm_Vertical
+  PosX: 38.7528
+  PosY: 8.5348
+  Rot: 90.0
+  Side: bottom
+  Val: Conn_01x04
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J1 | flat_cable_connector | Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal\
+  \ | 41.2528 | -12.4652 | -90.0 | bottom | \n| J4 | Conn_01x04 | NS-Tech_Grove_1x04_P2mm_Vertical\
+  \ | 38.7528 | 8.5348 | 90.0 | bottom | \n"
+position_top:
+- '# Ref': J2
+  Package: PinHeader_2x15_P2.54mm_Vertical_SMD_for_M5Stack
+  PosX: 45.8268
+  PosY: -12.4652
+  Rot: 0.0
+  Side: top
+  Val: header
+- '# Ref': J3
+  Package: PinHeader_1x30_P1.27mm_Vertical_without_silks
+  PosX: 36.7528
+  PosY: 5.9498
+  Rot: 0.0
+  Side: top
+  Val: free_holes
+- '# Ref': corner1
+  Package: corner_edge1
+  PosX: 51.7528
+  PosY: 12.5348
+  Rot: 0.0
+  Side: top
+  Val: corner_edge1
+- '# Ref': corner2
+  Package: corner_edge2
+  PosX: 51.7528
+  PosY: -37.4652
+  Rot: 180.0
+  Side: top
+  Val: corner_edge2
+- '# Ref': corner3
+  Package: corner_edge2
+  PosX: 1.7528
+  PosY: 12.5348
+  Rot: 0.0
+  Side: top
+  Val: corner_edge2
+- '# Ref': corner4
+  Package: corner_edge1
+  PosX: 1.7528
+  PosY: -37.4652
+  Rot: 180.0
+  Side: top
+  Val: corner_edge1
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J2 | header | PinHeader_2x15_P2.54mm_Vertical_SMD_for_M5Stack\
+  \ | 45.8268 | -12.4652 | 0.0 | top | \n| J3 | free_holes | PinHeader_1x30_P1.27mm_Vertical_without_silks\
+  \ | 36.7528 | 5.9498 | 0.0 | top | \n| corner1 | corner_edge1 | corner_edge1 | 51.7528\
+  \ | 12.5348 | 0.0 | top | \n| corner2 | corner_edge2 | corner_edge2 | 51.7528 |\
+  \ -37.4652 | 180.0 | top | \n| corner3 | corner_edge2 | corner_edge2 | 1.7528 |\
+  \ 12.5348 | 0.0 | top | \n| corner4 | corner_edge1 | corner_edge1 | 1.7528 | -37.4652\
+  \ | 180.0 | top | \n"
 projects_flat: projects/asukiaaa_i2cmotorsform5stack_top_pcb/current_version/working
 repo:
   allow_forking: true

@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -61,9 +82,9 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 25.400000000000006 | 12.826999999999998 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0 | U$11 | m3 | 
-| 0.0 | 12.826999999999998 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0 | U$12 | m3 | 
+| 25.4 | 12.83 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0 | U$11 | m3 | 
+| 0.0 | 12.83 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0 | U$12 | m3 | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0 | U$13 | m3 | 
-| 25.400000000000006 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0 | U$14 | m3 | 
+| 25.4 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0 | U$14 | m3 | 
 
 

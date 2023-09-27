@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -40,7 +61,7 @@
 | 11 | @HOLE0,@HOLE1 |  | 2 |  |  |  | [''] | 
 | 12 | R2 | 0603-NO | 1 | 1K |  |  | [''] | 
 | 13 | Q3 | SOT23-R | 1 | DMG341 |  |  | [''] | 
-| 14 | C8,C3,C6 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 14 | C8,C3,C6 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 15 | U$32,U$31 | MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5 |  |  | [''] | 
 | 16 | R7 | 0603-NO | 1 | 2.2K |  |  | [''] | 
 | 17 | U3 | SOT23-5 | 1 | MCP73831T-2ACI/OT |  |  | [''] | 
@@ -67,7 +88,7 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C2, C4 | 2 | 22pF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C3, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C5, C13 | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7, C10, C11, C12, C14, C15 | 6 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | CHG0 | 1 | ORANGE | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 

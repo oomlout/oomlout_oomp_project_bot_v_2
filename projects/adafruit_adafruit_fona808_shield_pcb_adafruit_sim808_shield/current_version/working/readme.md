@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -56,7 +77,7 @@
 | 27 | D1 | SOD-123 | 1 | MMSZ5231BT1G |  |  | [''] | 
 | 28 | JP1,JP2 | 1X02_ROUND | 2 |  |  |  | [''] | 
 | 29 | SJ6,SJ2,SJ5,SJ3,SJ4 | SOLDERJUMPER_CLOSEDWIRE | 5 |  |  |  | [''] | 
-| 30 | C1 | 0805-NO | 1 | 10µF |  |  | [''] | 
+| 30 | C1 | 0805-NO | 1 | 10ÂµF |  |  | [''] | 
 | 31 | D8 | SOD-123 | 1 | MBR120 |  |  | [''] | 
 | 32 | JP3 | 1X02_ROUND | 1 | BUZZ |  |  | [''] | 
 | 33 | C15,C17 | RESPACK_4X0603 | 2 | 10pF |  |  | [''] | 
@@ -82,7 +103,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 1 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C1 | 1 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C2, C6 | 2 | 33pF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C5 | 1 | 10pF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7 | 1 | 100uF | C-USC1210 | working:C1210 |  |  |  | 

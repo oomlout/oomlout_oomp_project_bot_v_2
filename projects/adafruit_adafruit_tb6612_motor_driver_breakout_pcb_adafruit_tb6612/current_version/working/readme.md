@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -29,7 +50,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | FID1,FID2 | FIDUCIAL_1MM | 2 | FIDUCIAL" |  |  | [''] | 
 | 2 | U$14,U$13 | MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5 |  |  | [''] | 
-| 3 | C2,C3 | 0805-NO | 2 | 10µF |  |  | [''] | 
+| 3 | C2,C3 | 0805-NO | 2 | 10ÂµF |  |  | [''] | 
 | 4 | JP1 | 1X10_ROUND_76 | 1 |  |  |  | [''] | 
 | 5 | J1 | TERMBLOCK_1X2-3.5MM | 1 | VMOTORIN |  |  | [''] | 
 | 6 | Q1 | SOT23-WIDE | 1 | DMG3415 |  |  | [''] | 
@@ -43,7 +64,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C2, C3 | 2 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C2, C3 | 2 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | FID1, FID2 | 2 | FIDUCIAL"" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | 
 | J1 | 1 | VMOTORIN | TERMBLOCK_1X2 | working:TERMBLOCK_1X2-3.5MM |  |  |  | 
 | JP1 | 1 | HEADER-1X10THICKER | HEADER-1X10THICKER | working:1X10_ROUND_76 |  |  |  | 
@@ -57,7 +78,7 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 0.0 | 21.58999999999999 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$13 | m3 | 
+| 0.0 | 21.59 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$13 | m3 | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$14 | m3 | 
 
 

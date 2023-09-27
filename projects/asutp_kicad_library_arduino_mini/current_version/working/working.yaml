@@ -1,10 +1,168 @@
 board: arduino_mini
+bom:
+- Id: '1'
+  Designator: P2
+  Footprint: Socket_Strip_Arduino_1x12
+  Quantity: '1'
+  Designation: Digital
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: P4
+  Footprint: Socket_Strip_Arduino_1x05
+  Quantity: '1'
+  Designation: COM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: P5
+  Footprint: Socket_Strip_Arduino_1x12
+  Quantity: '1'
+  Designation: Analog
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: P1,P3
+  Footprint: Socket_Strip_Arduino_1x02
+  Quantity: '2'
+  Designation: ADC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: P6
+  Footprint: Socket_Strip_Arduino_1x02
+  Quantity: '1'
+  Designation: PWR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | P2\
+  \ | Socket_Strip_Arduino_1x12 | 1 | Digital |  |  | [''] | \n| 2 | P4 | Socket_Strip_Arduino_1x05\
+  \ | 1 | COM |  |  | [''] | \n| 3 | P5 | Socket_Strip_Arduino_1x12 | 1 | Analog |\
+  \  |  | [''] | \n| 4 | P1,P3 | Socket_Strip_Arduino_1x02 | 2 | ADC |  |  | ['']\
+  \ | \n| 5 | P6 | Socket_Strip_Arduino_1x02 | 1 | PWR |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Mini:Socket_Strip_Arduino_1x02
+  Qnty: '2'
+  Ref: P1, P3
+  Value: ADC
+  Vendor: ''
+- Cmp name: CONN_01X12
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Mini:Socket_Strip_Arduino_1x12
+  Qnty: '1'
+  Ref: P2
+  Value: Digital
+  Vendor: ''
+- Cmp name: CONN_01X05
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Mini:Socket_Strip_Arduino_1x05
+  Qnty: '1'
+  Ref: P4
+  Value: COM
+  Vendor: ''
+- Cmp name: CONN_01X12
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Mini:Socket_Strip_Arduino_1x12
+  Qnty: '1'
+  Ref: P5
+  Value: Analog
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Mini:Socket_Strip_Arduino_1x02
+  Qnty: '1'
+  Ref: P6
+  Value: PWR
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| P1, P3\
+  \ | 2 | ADC | CONN_01X02 | Socket_Arduino_Mini:Socket_Strip_Arduino_1x02 |  |  |\
+  \  | \n| P2 | 1 | Digital | CONN_01X12 | Socket_Arduino_Mini:Socket_Strip_Arduino_1x12\
+  \ |  |  |  | \n| P4 | 1 | COM | CONN_01X05 | Socket_Arduino_Mini:Socket_Strip_Arduino_1x05\
+  \ |  |  |  | \n| P5 | 1 | Analog | CONN_01X12 | Socket_Arduino_Mini:Socket_Strip_Arduino_1x12\
+  \ |  |  |  | \n| P6 | 1 | PWR | CONN_01X02 | Socket_Arduino_Mini:Socket_Strip_Arduino_1x02\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/asutp_kicad_library_arduino_mini/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asutp_kicad_library_arduino_mini/current_version/working/working.kicad_pcb
 file_sch_flat: projects/asutp_kicad_library_arduino_mini/current_version/working/working.sch
 id: asutp_kicad_library_arduino_mini
 name: kicad_library
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': P1
+  Package: Socket_Strip_Arduino_1x02
+  PosX: 3.81
+  PosY: 3.81
+  Rot: -90.0
+  Side: top
+  Val: ADC
+- '# Ref': P2
+  Package: Socket_Strip_Arduino_1x12
+  PosX: 1.27
+  PosY: 29.21
+  Rot: -90.0
+  Side: top
+  Val: Digital
+- '# Ref': P3
+  Package: Socket_Strip_Arduino_1x02
+  PosX: 6.35
+  PosY: 3.81
+  Rot: -90.0
+  Side: top
+  Val: ADC
+- '# Ref': P4
+  Package: Socket_Strip_Arduino_1x05
+  PosX: 3.81
+  PosY: 29.21
+  Rot: 0.0
+  Side: top
+  Val: COM
+- '# Ref': P5
+  Package: Socket_Strip_Arduino_1x12
+  PosX: 16.51
+  PosY: 29.21
+  Rot: -90.0
+  Side: top
+  Val: Analog
+- '# Ref': P6
+  Package: Socket_Strip_Arduino_1x02
+  PosX: 11.43
+  PosY: 1.27
+  Rot: 0.0
+  Side: top
+  Val: PWR
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| P1 | ADC | Socket_Strip_Arduino_1x02\
+  \ | 3.81 | 3.81 | -90.0 | top | \n| P2 | Digital | Socket_Strip_Arduino_1x12 | 1.27\
+  \ | 29.21 | -90.0 | top | \n| P3 | ADC | Socket_Strip_Arduino_1x02 | 6.35 | 3.81\
+  \ | -90.0 | top | \n| P4 | COM | Socket_Strip_Arduino_1x05 | 3.81 | 29.21 | 0.0\
+  \ | top | \n| P5 | Analog | Socket_Strip_Arduino_1x12 | 16.51 | 29.21 | -90.0 |\
+  \ top | \n| P6 | PWR | Socket_Strip_Arduino_1x02 | 11.43 | 1.27 | 0.0 | top | \n"
 projects_flat: projects/asutp_kicad_library_arduino_mini/current_version/working
 repo:
   allow_forking: true

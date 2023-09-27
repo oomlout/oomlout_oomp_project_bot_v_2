@@ -15,6 +15,7 @@
 * full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adamgreig_m2_electronics_m2r/current_version/working  
 
 
+
 ## pcb  
 ![](working_3d_600.png) 
 ![](working_3d_front_600.png)  
@@ -26,10 +27,10 @@
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | C1,C2,C3,C4,C5,C6,C11,C14,C15,C24,C25,C26,C27,C29,C30,C34 | C0603 | 16 | 100n |  |  | [''] | 
-| 2 | C7,C8,C9,C10,C13 | C0603 | 5 | 2µ2 |  |  | [''] | 
+| 2 | C7,C8,C9,C10,C13 | C0603 | 5 | 2Âµ2 |  |  | [''] | 
 | 3 | C12 | C0603 | 1 | 1n |  |  | [''] | 
-| 4 | C23 | C0603 | 1 | 10µ |  |  | [''] | 
-| 5 | C28 | C0603 | 1 | 1µ |  |  | [''] | 
+| 4 | C23 | C0603 | 1 | 10Âµ |  |  | [''] | 
+| 5 | C28 | C0603 | 1 | 1Âµ |  |  | [''] | 
 | 6 | C35,C36 | C0603 | 2 | 15p |  |  | [''] | 
 | 7 | D1,D2 | LED0603 | 2 | GRN |  |  | [''] | 
 | 8 | D3,D4,D5,D6 | LED0603 | 4 | YELLOW |  |  | [''] | 

@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -40,7 +61,7 @@
 | 11 | U$9,U$23 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | [''] | 
 | 12 | D3,D4 | SOD-123 | 2 | MBR120 |  |  | [''] | 
 | 13 | X1 | MICROSD | 1 | MicroSD |  |  | [''] | 
-| 14 | R1 | 0805-NO | 1 | 12Ω |  |  | [''] | 
+| 14 | R1 | 0805-NO | 1 | 12â„¦ |  |  | [''] | 
 | 15 | C18 | 0805-NO | 1 | 0.1uF |  |  | [''] | 
 | 16 | U$19 | ADAFRUIT_TEXT_30MM | 1 |  |  |  | [''] | 
 | 17 | IC4 | SOT23 | 1 | APX803-SAG |  |  | [''] | 
@@ -68,7 +89,7 @@
 | IC4 | 1 | APX803-SAG | AXP083-SAG | working:SOT23 |  |  |  | 
 | L1 | 1 | 15uH | INDUCTORNR5040 | working:INDUCTOR_5X5MM_NR5040_NOTHERMALS |  |  |  | 
 | MS2 | 1 | FEATHERWING_SMTDUAL | FEATHERWING_SMTDUAL | working:FEATHERWING_SMT2 |  |  |  | 
-| R1 | 1 | 12Ω | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 
+| R1 | 1 | 12â„¦ | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 
 | R2, R5, R8 | 3 | 100K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 
 | R6 | 1 | 10K | R-US_R0805 | working:R0805 |  |  |  | 
 | R12 | 1 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 
@@ -87,8 +108,8 @@
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
 | 0.0 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$7 | m3 | 
-| 60.959999999999994 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$15 | m3 | 
-| 0.0 | 80.26400000000001 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$16 | m3 | 
-| 60.959999999999994 | 80.26400000000001 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$17 | m3 | 
+| 60.96 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$15 | m3 | 
+| 0.0 | 80.26 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$16 | m3 | 
+| 60.96 | 80.26 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$17 | m3 | 
 
 

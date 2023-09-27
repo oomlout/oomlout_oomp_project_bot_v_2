@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -32,7 +53,7 @@
 | 3 | Y1 | CRYSTAL_2.5X2 | 1 | 12MHZ |  |  | [''] | 
 | 4 | D1,D3 | SOD-323F | 2 | NSR0320 |  |  | [''] | 
 | 5 | SW2,SW3 | BTN_KMR2_4.6X2.8 | 2 | KMR2 |  |  | [''] | 
-| 6 | C8,C6 | _0805MP | 2 | 10µF |  |  | [''] | 
+| 6 | C8,C6 | _0805MP | 2 | 10ÂµF |  |  | [''] | 
 | 7 | U2 | SOT23-5 | 1 | AP2112K-3.3 |  |  | [''] | 
 | 8 | U$19 | KB2040_TOP | 1 |  |  |  | [''] | 
 | 9 | U5 | USON8_4X4 | 1 | 8MB QSPI Flash |  |  | [''] | 
@@ -59,7 +80,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C6, C8 | 2 | 10µF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
+| C6, C8 | 2 | 10ÂµF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
 | C7, C9, C11, C13, C14, C16, C17 | 7 | 0.1uF | CAP_CERAMIC_0402NO | working:_0402NO |  |  |  | 
 | C10, C12 | 2 | 1uF | CAP_CERAMIC_0603MP | working:_0603MP |  |  |  | 
 | C15 | 1 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 

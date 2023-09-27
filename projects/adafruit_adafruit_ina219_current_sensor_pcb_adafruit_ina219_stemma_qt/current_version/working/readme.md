@@ -14,6 +14,7 @@
 * full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_ina219_current_sensor_pcb_adafruit_ina219_stemma_qt/current_version/working  
 
 
+
 ## pcb  
 ![](working_3d_600.png) 
 ![](working_3d_front_600.png)  
@@ -26,7 +27,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | U$21,U$27,U$25,U$20 | MOUNTINGHOLE_2.5_PLATED | 4 | MOUNTINGHOLE2.5 |  |  | [''] | 
 | 2 | JP1 | 1X06_ROUND_70 | 1 |  |  |  | [''] | 
-| 3 | C1 | 0603-NO | 1 | 0.1µF |  |  | [''] | 
+| 3 | C1 | 0603-NO | 1 | 0.1ÂµF |  |  | [''] | 
 | 4 | R5 | 2512 | 1 | 0.1/1% (PT2512FK-070R1L) |  |  | [''] | 
 | 5 | FID4,FID3 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | [''] | 
 | 6 | R6 | RESPACK_4X0603 | 1 | 10K |  |  | [''] | 
@@ -46,9 +47,9 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 0.0 | 15.239999999999995 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$20 | m3 | 
-| 20.319999999999993 | 15.239999999999995 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$21 | m3 | 
+| 0.0 | 15.24 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$20 | m3 | 
+| 20.32 | 15.24 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$21 | m3 | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$25 | m3 | 
-| 20.319999999999993 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$27 | m3 | 
+| 20.32 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$27 | m3 | 
 
 

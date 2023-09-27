@@ -16,6 +16,22 @@
 
 
 
+## pcb  
+![](working_3d_600.png) 
+![](working_3d_front_600.png)  
+![](working_3d_back_600.png)  
+![](working_600.png)  
+[board (pdf)](working.pdf)  
+
+## working_bom
+| Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| 1 | C1,C2 | C0402 | 2 | 0.01uF |  |  | [''] | 
+| 2 | IC1 | DIL22-4 | 1 | ILX544A |  |  | [''] | 
+| 3 | JP1 | 1X03 | 1 | SensorTemp |  |  | [''] | 
+| 4 | JP2 | 1X07 | 1 | Control |  |  | [''] | 
+| 5 | @HOLE2,@HOLE1,@HOLE0 |  | 3 |  |  |  | [''] | 
+
 
 
 

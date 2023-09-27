@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -28,7 +49,7 @@
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | R4,R3,R7,R8,R5,R2,R10 | 0805-NO | 7 | 10K |  |  | [''] | 
-| 2 | C2,C1 | 0805-NO | 2 | 10µF |  |  | [''] | 
+| 2 | C2,C1 | 0805-NO | 2 | 10ÂµF |  |  | [''] | 
 | 3 | D1,D3,D2 | SOD-323 | 3 | 1N4148 |  |  | [''] | 
 | 4 | JP2 | 1X05_ROUND_70 | 1 |  |  |  | [''] | 
 | 5 | U2 | SOT23-5 | 1 | MIC5225-3.3 |  |  | [''] | 
@@ -48,7 +69,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1, C2 | 2 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C1, C2 | 2 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C3 | 1 | 0.22uF | CAP_CERAMIC0805_10MGAP | working:0805_10MGAP |  |  |  | 
 | C4 | 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | D1, D2, D3 | 3 | 1N4148 | DIODESOD-323 | working:SOD-323 |  |  |  | 
@@ -67,8 +88,8 @@
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$4 | m3 | 
-| 27.939999999999998 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$5 | m3 | 
-| 27.939999999999998 | 15.239999999999995 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$6 | m3 | 
-| 0.0 | 15.239999999999995 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$7 | m3 | 
+| 27.94 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$5 | m3 | 
+| 27.94 | 15.24 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$6 | m3 | 
+| 0.0 | 15.24 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$7 | m3 | 
 
 

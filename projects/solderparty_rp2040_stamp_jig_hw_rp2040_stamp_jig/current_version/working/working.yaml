@@ -1,9 +1,928 @@
 board: rp2040_stamp_jig
+bom:
+- Id: '1'
+  Designator: J25,J22,J2,J19,J4,J36,J31,J20,J15,J21,J38,J13,J6,J23,J17,J7,J35,J12,J39,J11,J10,J33,J29,J5,J32,J9,J18,J27,J37,J28,J14,J40,J16,J3,J1,J30,J26,J8,J24,J34
+  Footprint: StampSpring_1x01_P1.00mm_Vertical
+  Quantity: '40'
+  Designation: Conn_01x01
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J44
+  Footprint: PinHeader_1x04_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_OLED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U5,U4
+  Footprint: SOT-23-6
+  Quantity: '2'
+  Designation: TPS255xDBV
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R8,R9
+  Footprint: R_0603_1608Metric
+  Quantity: '2'
+  Designation: 4.7K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R3,R2
+  Footprint: R_0603_1608Metric
+  Quantity: '2'
+  Designation: 5.1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U3,U2
+  Footprint: TSSOP-24_4.4x7.8mm_P0.65mm
+  Quantity: '2'
+  Designation: PCA9555PW
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: H1,H3,H4,H2
+  Footprint: MountingHole_3.2mm_M3
+  Quantity: '4'
+  Designation: MountingHole
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: J43
+  Footprint: JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
+  Quantity: '1'
+  Designation: Conn_Batt
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R7,R6
+  Footprint: R_0603_1608Metric
+  Quantity: '2'
+  Designation: 2K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: D2,D3
+  Footprint: LED_0603_1608Metric
+  Quantity: '2'
+  Designation: LED_VBAT_TGL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U1
+  Footprint: RP2040_Stamp_SMD
+  Quantity: '1'
+  Designation: RP2040_Stamp
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: R4,R5,R1
+  Footprint: R_0603_1608Metric
+  Quantity: '3'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: C1,C2
+  Footprint: C_0603_1608Metric
+  Quantity: '2'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: J42
+  Footprint: PinHeader_2x20_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Raspberry_Pi_2_3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: SW1
+  Footprint: SW_SPST_PTS645
+  Quantity: '1'
+  Designation: BTN_START
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: D4
+  Footprint: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  Quantity: '1'
+  Designation: WS2812B
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: J41
+  Footprint: USB_C_Receptacle_XKB_U262-16XN-4BVC11
+  Quantity: '1'
+  Designation: USB_C_Receptacle_USB2.0
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: D1
+  Footprint: LED_0603_1608Metric
+  Quantity: '1'
+  Designation: LED_5V_TGL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: G***
+  Footprint: SolderParty-New-Logo_15x12.7mm_SilkScreen
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J25,J22,J2,J19,J4,J36,J31,J20,J15,J21,J38,J13,J6,J23,J17,J7,J35,J12,J39,J11,J10,J33,J29,J5,J32,J9,J18,J27,J37,J28,J14,J40,J16,J3,J1,J30,J26,J8,J24,J34\
+  \ | StampSpring_1x01_P1.00mm_Vertical | 40 | Conn_01x01 |  |  | [''] | \n| 2 | J44\
+  \ | PinHeader_1x04_P2.54mm_Vertical | 1 | Conn_OLED |  |  | [''] | \n| 3 | U5,U4\
+  \ | SOT-23-6 | 2 | TPS255xDBV |  |  | [''] | \n| 4 | R8,R9 | R_0603_1608Metric |\
+  \ 2 | 4.7K |  |  | [''] | \n| 5 | R3,R2 | R_0603_1608Metric | 2 | 5.1K |  |  | ['']\
+  \ | \n| 6 | U3,U2 | TSSOP-24_4.4x7.8mm_P0.65mm | 2 | PCA9555PW |  |  | [''] | \n\
+  | 7 | H1,H3,H4,H2 | MountingHole_3.2mm_M3 | 4 | MountingHole |  |  | [''] | \n|\
+  \ 8 | J43 | JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal | 1 | Conn_Batt | \
+  \ |  | [''] | \n| 9 | R7,R6 | R_0603_1608Metric | 2 | 2K |  |  | [''] | \n| 10 |\
+  \ D2,D3 | LED_0603_1608Metric | 2 | LED_VBAT_TGL |  |  | [''] | \n| 11 | U1 | RP2040_Stamp_SMD\
+  \ | 1 | RP2040_Stamp |  |  | [''] | \n| 12 | R4,R5,R1 | R_0603_1608Metric | 3 |\
+  \ 1K |  |  | [''] | \n| 13 | C1,C2 | C_0603_1608Metric | 2 | 0.1uF |  |  | ['']\
+  \ | \n| 14 | J42 | PinHeader_2x20_P2.54mm_Vertical | 1 | Raspberry_Pi_2_3 |  | \
+  \ | [''] | \n| 15 | SW1 | SW_SPST_PTS645 | 1 | BTN_START |  |  | [''] | \n| 16 |\
+  \ D4 | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm | 1 | WS2812B |  |  | [''] | \n| 17 |\
+  \ J41 | USB_C_Receptacle_XKB_U262-16XN-4BVC11 | 1 | USB_C_Receptacle_USB2.0 |  |\
+  \  | [''] | \n| 18 | D1 | LED_0603_1608Metric | 1 | LED_5V_TGL |  |  | [''] | \n\
+  | 19 | G*** | SolderParty-New-Logo_15x12.7mm_SilkScreen | 1 | LOGO |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '2'
+  Ref: C1, C2
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: LED_Small
+  DNP: ''
+  Description: Light emitting diode, small symbol
+  Footprint: LED_SMD:LED_0603_1608Metric
+  Qnty: '1'
+  Ref: D1
+  Value: LED_5V_TGL
+  Vendor: ''
+- Cmp name: LED_Small
+  DNP: ''
+  Description: Light emitting diode, small symbol
+  Footprint: LED_SMD:LED_0603_1608Metric
+  Qnty: '2'
+  Ref: D2, D3
+  Value: LED_VBAT_TGL
+  Vendor: ''
+- Cmp name: WS2812B
+  DNP: ''
+  Description: RGB LED with integrated controller
+  Footprint: LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  Qnty: '1'
+  Ref: D4
+  Value: WS2812B
+  Vendor: ''
+- Cmp name: MountingHole
+  DNP: ''
+  Description: Mounting Hole without connection
+  Footprint: MountingHole:MountingHole_3.2mm_M3
+  Qnty: '4'
+  Ref: H1, H2, H3, H4
+  Value: MountingHole
+  Vendor: ''
+- Cmp name: Conn_01x01
+  DNP: ''
+  Description: Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_Extra:StampSpring_1x01_P1.00mm_Vertical
+  Qnty: '40'
+  Ref: J1, J2, J3, J4, J5, J6, J7, J8, J9, J10, J11, J12, J13, J14, J15, J16, J17,
+    J18, J19, J20, J21, J22, J23, J24, J25, J26, J27, J28, J29, J30, J31, J32, J33,
+    J34, J35, J36, J37, J38, J39, J40
+  Value: Conn_01x01
+  Vendor: ''
+- Cmp name: USB_C_Receptacle_USB2.0
+  DNP: ''
+  Description: USB 2.0-only Type-C Receptacle connector
+  Footprint: Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11
+  Qnty: '1'
+  Ref: J41
+  Value: USB_C_Receptacle_USB2.0
+  Vendor: ''
+- Cmp name: Raspberry_Pi_2_3
+  DNP: ''
+  Description: expansion header for Raspberry Pi 2 & 3
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J42
+  Value: Raspberry_Pi_2_3
+  Vendor: ''
+- Cmp name: Conn_01x02
+  DNP: ''
+  Description: Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
+  Qnty: '1'
+  Ref: J43
+  Value: Conn_Batt
+  Vendor: ''
+- Cmp name: Conn_01x04
+  DNP: ''
+  Description: Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J44
+  Value: Conn_OLED
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '3'
+  Ref: R1, R4, R5
+  Value: 1K
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '2'
+  Ref: R2, R3
+  Value: 5.1K
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '2'
+  Ref: R6, R7
+  Value: 2K
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '2'
+  Ref: R8, R9
+  Value: 4.7K
+  Vendor: ''
+- Cmp name: SW_SPST
+  DNP: ''
+  Description: Single Pole Single Throw (SPST) switch
+  Footprint: Button_Switch_SMD:SW_SPST_PTS645
+  Qnty: '1'
+  Ref: SW1
+  Value: BTN_START
+  Vendor: ''
+- Cmp name: RP2040_Stamp
+  DNP: ''
+  Description: ''
+  Footprint: RP2040_Stamp:RP2040_Stamp_SMD
+  Qnty: '1'
+  Ref: U1
+  Value: RP2040_Stamp
+  Vendor: ''
+- Cmp name: PCA9555PW
+  DNP: ''
+  Description: IO expander 16 GPIO, I2C 400kHz, Interrupt, 2.3 - 5.5V, TSSOP-24
+  Footprint: Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm
+  Qnty: '2'
+  Ref: U2, U3
+  Value: PCA9555PW
+  Vendor: ''
+- Cmp name: TPS255xDBV
+  DNP: ''
+  Description: ''
+  Footprint: Package_TO_SOT_SMD:SOT-23-6
+  Qnty: '2'
+  Ref: U4, U5
+  Value: TPS255xDBV
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2\
+  \ | 2 | 0.1uF | C_Small | Capacitor_SMD:C_0603_1608Metric | Unpolarized capacitor,\
+  \ small symbol |  |  | \n| D1 | 1 | LED_5V_TGL | LED_Small | LED_SMD:LED_0603_1608Metric\
+  \ | Light emitting diode, small symbol |  |  | \n| D2, D3 | 2 | LED_VBAT_TGL | LED_Small\
+  \ | LED_SMD:LED_0603_1608Metric | Light emitting diode, small symbol |  |  | \n\
+  | D4 | 1 | WS2812B | WS2812B | LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm | RGB\
+  \ LED with integrated controller |  |  | \n| H1, H2, H3, H4 | 4 | MountingHole |\
+  \ MountingHole | MountingHole:MountingHole_3.2mm_M3 | Mounting Hole without connection\
+  \ |  |  | \n| J1, J2, J3, J4, J5, J6, J7, J8, J9, J10, J11, J12, J13, J14, J15,\
+  \ J16, J17, J18, J19, J20, J21, J22, J23, J24, J25, J26, J27, J28, J29, J30, J31,\
+  \ J32, J33, J34, J35, J36, J37, J38, J39, J40 | 40 | Conn_01x01 | Conn_01x01 | Connector_Extra:StampSpring_1x01_P1.00mm_Vertical\
+  \ | Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J41 | 1 | USB_C_Receptacle_USB2.0 | USB_C_Receptacle_USB2.0 | Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11\
+  \ | USB 2.0-only Type-C Receptacle connector |  |  | \n| J42 | 1 | Raspberry_Pi_2_3\
+  \ | Raspberry_Pi_2_3 | Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical\
+  \ | expansion header for Raspberry Pi 2 & 3 |  |  | \n| J43 | 1 | Conn_Batt | Conn_01x02\
+  \ | Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal | Generic connector,\
+  \ single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J44 | 1 | Conn_OLED | Conn_01x04 | Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| R1, R4, R5 | 3 | 1K | R_Small | Resistor_SMD:R_0603_1608Metric | Resistor,\
+  \ small symbol |  |  | \n| R2, R3 | 2 | 5.1K | R_Small | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor, small symbol |  |  | \n| R6, R7 | 2 | 2K | R_Small | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor, small symbol |  |  | \n| R8, R9 | 2 | 4.7K | R_Small | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor, small symbol |  |  | \n| SW1 | 1 | BTN_START | SW_SPST | Button_Switch_SMD:SW_SPST_PTS645\
+  \ | Single Pole Single Throw (SPST) switch |  |  | \n| U1 | 1 | RP2040_Stamp | RP2040_Stamp\
+  \ | RP2040_Stamp:RP2040_Stamp_SMD |  |  |  | \n| U2, U3 | 2 | PCA9555PW | PCA9555PW\
+  \ | Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm | IO expander 16 GPIO, I2C 400kHz, Interrupt,\
+  \ 2.3 - 5.5V, TSSOP-24 |  |  | \n| U4, U5 | 2 | TPS255xDBV | TPS255xDBV | Package_TO_SOT_SMD:SOT-23-6\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/solderparty_rp2040_stamp_jig_hw_rp2040_stamp_jig/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/solderparty_rp2040_stamp_jig_hw_rp2040_stamp_jig/current_version/working/working.kicad_sch
 id: solderparty_rp2040_stamp_jig_hw_rp2040_stamp_jig
 name: rp2040_stamp_jig_hw
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_0603_1608Metric
+  PosX: 123.0
+  PosY: -102.0
+  Rot: -90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C2
+  Package: C_0603_1608Metric
+  PosX: 180.8
+  PosY: -102.0
+  Rot: 90.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': D1
+  Package: LED_0603_1608Metric
+  PosX: 168.5
+  PosY: -127.25
+  Rot: 180.0
+  Side: top
+  Val: LED_5V_TGL
+- '# Ref': D2
+  Package: LED_0603_1608Metric
+  PosX: 168.5
+  PosY: -124.75
+  Rot: 180.0
+  Side: top
+  Val: LED_VBAT_TGL
+- '# Ref': D3
+  Package: LED_0603_1608Metric
+  PosX: 168.5
+  PosY: -122.25
+  Rot: 180.0
+  Side: top
+  Val: LED_VBAT_TGL
+- '# Ref': D4
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 168.5
+  PosY: -134.9
+  Rot: 180.0
+  Side: top
+  Val: WS2812B
+- '# Ref': G***
+  Package: SolderParty-New-Logo_15x12.7mm_SilkScreen
+  PosX: 127.3
+  PosY: -112.8
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': J1
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 157.0
+  PosY: -87.6
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J2
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 137.6
+  PosY: -93.0
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J3
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 155.0
+  PosY: -87.6
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J4
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 137.6
+  PosY: -95.0
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J5
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 159.0
+  PosY: -87.6
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J6
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 137.6
+  PosY: -97.0
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J7
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 137.6
+  PosY: -99.0
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J8
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 143.0
+  PosY: -87.6
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J9
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 137.6
+  PosY: -101.0
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J10
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 137.6
+  PosY: -103.0
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J11
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 145.0
+  PosY: -87.6
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J12
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 137.6
+  PosY: -105.0
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J13
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 137.6
+  PosY: -107.0
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J14
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 153.0
+  PosY: -87.6
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J15
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 137.6
+  PosY: -109.0
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J16
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 151.0
+  PosY: -87.6
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J17
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 137.6
+  PosY: -111.0
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J18
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 143.0
+  PosY: -116.4
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J19
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 149.0
+  PosY: -87.6
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J20
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 145.0
+  PosY: -116.4
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J21
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 147.0
+  PosY: -87.6
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J22
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 147.0
+  PosY: -116.4
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J23
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 149.0
+  PosY: -116.4
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J24
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 151.0
+  PosY: -116.4
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J25
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 153.0
+  PosY: -116.4
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J26
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 155.0
+  PosY: -116.4
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J27
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 157.0
+  PosY: -116.4
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J28
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 159.0
+  PosY: -116.4
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J29
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 161.0
+  PosY: -116.4
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J30
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 166.4
+  PosY: -111.0
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J31
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 166.4
+  PosY: -109.0
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J32
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 166.4
+  PosY: -107.0
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J33
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 166.4
+  PosY: -105.0
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J34
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 166.4
+  PosY: -103.0
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J35
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 166.4
+  PosY: -101.0
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J36
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 166.4
+  PosY: -99.0
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J37
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 166.4
+  PosY: -97.0
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J38
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 166.4
+  PosY: -95.0
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J39
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 161.0
+  PosY: -87.6
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J40
+  Package: StampSpring_1x01_P1.00mm_Vertical
+  PosX: 166.4
+  PosY: -93.0
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J41
+  Package: USB_C_Receptacle_XKB_U262-16XN-4BVC11
+  PosX: 121.7
+  PosY: -81.1
+  Rot: -90.0
+  Side: top
+  Val: USB_C_Receptacle_USB2.0
+- '# Ref': J42
+  Package: PinHeader_2x20_P2.54mm_Vertical
+  PosX: 176.125
+  PosY: -70.725
+  Rot: -90.0
+  Side: top
+  Val: Raspberry_Pi_2_3
+- '# Ref': J43
+  Package: JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
+  PosX: 179.9
+  PosY: -81.1
+  Rot: 90.0
+  Side: top
+  Val: Conn_Batt
+- '# Ref': J44
+  Package: PinHeader_1x04_P2.54mm_Vertical
+  PosX: 137.25
+  PosY: -122.5
+  Rot: 90.0
+  Side: top
+  Val: Conn_OLED
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 165.4
+  PosY: -127.25
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': R2
+  Package: R_0603_1608Metric
+  PosX: 128.4
+  PosY: -79.9
+  Rot: 0.0
+  Side: top
+  Val: 5.1K
+- '# Ref': R3
+  Package: R_0603_1608Metric
+  PosX: 128.4
+  PosY: -82.8
+  Rot: 0.0
+  Side: top
+  Val: 5.1K
+- '# Ref': R4
+  Package: R_0603_1608Metric
+  PosX: 165.4
+  PosY: -124.75
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': R5
+  Package: R_0603_1608Metric
+  PosX: 165.4
+  PosY: -122.25
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': R6
+  Package: R_0603_1608Metric
+  PosX: 152.2
+  PosY: -81.3
+  Rot: -90.0
+  Side: top
+  Val: 2K
+- '# Ref': R7
+  Package: R_0603_1608Metric
+  PosX: 158.3
+  PosY: -81.3
+  Rot: -90.0
+  Side: top
+  Val: 2K
+- '# Ref': R8
+  Package: R_0603_1608Metric
+  PosX: 171.9
+  PosY: -78.0
+  Rot: 90.0
+  Side: top
+  Val: 4.7K
+- '# Ref': R9
+  Package: R_0603_1608Metric
+  PosX: 170.3
+  PosY: -78.0
+  Rot: 90.0
+  Side: top
+  Val: 4.7K
+- '# Ref': SW1
+  Package: SW_SPST_PTS645
+  PosX: 168.5
+  PosY: -144.5
+  Rot: 180.0
+  Side: top
+  Val: BTN_START
+- '# Ref': U1
+  Package: RP2040_Stamp_SMD
+  PosX: 152.0
+  PosY: -102.0
+  Rot: 0.0
+  Side: top
+  Val: RP2040_Stamp
+- '# Ref': U2
+  Package: TSSOP-24_4.4x7.8mm_P0.65mm
+  PosX: 127.85
+  PosY: -102.0
+  Rot: 90.0
+  Side: top
+  Val: PCA9555PW
+- '# Ref': U3
+  Package: TSSOP-24_4.4x7.8mm_P0.65mm
+  PosX: 175.85
+  PosY: -102.0
+  Rot: -90.0
+  Side: top
+  Val: PCA9555PW
+- '# Ref': U4
+  Package: SOT-23-6
+  PosX: 155.1
+  PosY: -81.3
+  Rot: 180.0
+  Side: top
+  Val: TPS255xDBV
+- '# Ref': U5
+  Package: SOT-23-6
+  PosX: 161.2
+  PosY: -81.3
+  Rot: 180.0
+  Side: top
+  Val: TPS255xDBV
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | C_0603_1608Metric | 123.0\
+  \ | -102.0 | -90.0 | top | \n| C2 | 0.1uF | C_0603_1608Metric | 180.8 | -102.0 |\
+  \ 90.0 | top | \n| D1 | LED_5V_TGL | LED_0603_1608Metric | 168.5 | -127.25 | 180.0\
+  \ | top | \n| D2 | LED_VBAT_TGL | LED_0603_1608Metric | 168.5 | -124.75 | 180.0\
+  \ | top | \n| D3 | LED_VBAT_TGL | LED_0603_1608Metric | 168.5 | -122.25 | 180.0\
+  \ | top | \n| D4 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm | 168.5 | -134.9\
+  \ | 180.0 | top | \n| G*** | LOGO | SolderParty-New-Logo_15x12.7mm_SilkScreen |\
+  \ 127.3 | -112.8 | 0.0 | top | \n| J1 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 157.0 | -87.6 | -90.0 | top | \n| J2 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 137.6 | -93.0 | 0.0 | top | \n| J3 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 155.0 | -87.6 | -90.0 | top | \n| J4 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 137.6 | -95.0 | 0.0 | top | \n| J5 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 159.0 | -87.6 | -90.0 | top | \n| J6 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 137.6 | -97.0 | 0.0 | top | \n| J7 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 137.6 | -99.0 | 0.0 | top | \n| J8 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 143.0 | -87.6 | -90.0 | top | \n| J9 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 137.6 | -101.0 | 0.0 | top | \n| J10 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 137.6 | -103.0 | 0.0 | top | \n| J11 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 145.0 | -87.6 | -90.0 | top | \n| J12 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 137.6 | -105.0 | 0.0 | top | \n| J13 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 137.6 | -107.0 | 0.0 | top | \n| J14 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 153.0 | -87.6 | -90.0 | top | \n| J15 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 137.6 | -109.0 | 0.0 | top | \n| J16 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 151.0 | -87.6 | -90.0 | top | \n| J17 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 137.6 | -111.0 | 0.0 | top | \n| J18 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 143.0 | -116.4 | 90.0 | top | \n| J19 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 149.0 | -87.6 | -90.0 | top | \n| J20 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 145.0 | -116.4 | 90.0 | top | \n| J21 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 147.0 | -87.6 | -90.0 | top | \n| J22 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 147.0 | -116.4 | 90.0 | top | \n| J23 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 149.0 | -116.4 | 90.0 | top | \n| J24 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 151.0 | -116.4 | 90.0 | top | \n| J25 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 153.0 | -116.4 | 90.0 | top | \n| J26 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 155.0 | -116.4 | 90.0 | top | \n| J27 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 157.0 | -116.4 | 90.0 | top | \n| J28 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 159.0 | -116.4 | 90.0 | top | \n| J29 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 161.0 | -116.4 | 90.0 | top | \n| J30 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 166.4 | -111.0 | 180.0 | top | \n| J31 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 166.4 | -109.0 | 180.0 | top | \n| J32 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 166.4 | -107.0 | 180.0 | top | \n| J33 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 166.4 | -105.0 | 180.0 | top | \n| J34 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 166.4 | -103.0 | 180.0 | top | \n| J35 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 166.4 | -101.0 | 180.0 | top | \n| J36 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 166.4 | -99.0 | 180.0 | top | \n| J37 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 166.4 | -97.0 | 180.0 | top | \n| J38 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 166.4 | -95.0 | 180.0 | top | \n| J39 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 161.0 | -87.6 | -90.0 | top | \n| J40 | Conn_01x01 | StampSpring_1x01_P1.00mm_Vertical\
+  \ | 166.4 | -93.0 | 180.0 | top | \n| J41 | USB_C_Receptacle_USB2.0 | USB_C_Receptacle_XKB_U262-16XN-4BVC11\
+  \ | 121.7 | -81.1 | -90.0 | top | \n| J42 | Raspberry_Pi_2_3 | PinHeader_2x20_P2.54mm_Vertical\
+  \ | 176.125 | -70.725 | -90.0 | top | \n| J43 | Conn_Batt | JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal\
+  \ | 179.9 | -81.1 | 90.0 | top | \n| J44 | Conn_OLED | PinHeader_1x04_P2.54mm_Vertical\
+  \ | 137.25 | -122.5 | 90.0 | top | \n| R1 | 1K | R_0603_1608Metric | 165.4 | -127.25\
+  \ | 180.0 | top | \n| R2 | 5.1K | R_0603_1608Metric | 128.4 | -79.9 | 0.0 | top\
+  \ | \n| R3 | 5.1K | R_0603_1608Metric | 128.4 | -82.8 | 0.0 | top | \n| R4 | 1K\
+  \ | R_0603_1608Metric | 165.4 | -124.75 | 180.0 | top | \n| R5 | 1K | R_0603_1608Metric\
+  \ | 165.4 | -122.25 | 180.0 | top | \n| R6 | 2K | R_0603_1608Metric | 152.2 | -81.3\
+  \ | -90.0 | top | \n| R7 | 2K | R_0603_1608Metric | 158.3 | -81.3 | -90.0 | top\
+  \ | \n| R8 | 4.7K | R_0603_1608Metric | 171.9 | -78.0 | 90.0 | top | \n| R9 | 4.7K\
+  \ | R_0603_1608Metric | 170.3 | -78.0 | 90.0 | top | \n| SW1 | BTN_START | SW_SPST_PTS645\
+  \ | 168.5 | -144.5 | 180.0 | top | \n| U1 | RP2040_Stamp | RP2040_Stamp_SMD | 152.0\
+  \ | -102.0 | 0.0 | top | \n| U2 | PCA9555PW | TSSOP-24_4.4x7.8mm_P0.65mm | 127.85\
+  \ | -102.0 | 90.0 | top | \n| U3 | PCA9555PW | TSSOP-24_4.4x7.8mm_P0.65mm | 175.85\
+  \ | -102.0 | -90.0 | top | \n| U4 | TPS255xDBV | SOT-23-6 | 155.1 | -81.3 | 180.0\
+  \ | top | \n| U5 | TPS255xDBV | SOT-23-6 | 161.2 | -81.3 | 180.0 | top | \n"
 projects_flat: projects/solderparty_rp2040_stamp_jig_hw_rp2040_stamp_jig/current_version/working
 repo:
   allow_forking: true

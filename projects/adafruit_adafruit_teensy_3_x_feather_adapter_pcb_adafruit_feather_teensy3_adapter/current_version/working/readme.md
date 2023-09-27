@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -30,7 +51,7 @@
 | 1 | U$34,U$35 | FIDUCIAL_1MM | 2 | FIDUCIAL" |  |  | [''] | 
 | 2 | U$1 | TEENSY3-ALL_PINS | 1 | TEENSY_3.1_ALL_PINS |  |  | [''] | 
 | 3 | U$7 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | 
-| 4 | C8,C6,C3 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 4 | C8,C6,C3 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 5 | R2 | 0603-NO | 1 | 1K |  |  | [''] | 
 | 6 | R8 | 0603-NO | 1 | 2.2K |  |  | [''] | 
 | 7 | X1 | JSTPH2 | 1 | JSTPH |  |  | [''] | 
@@ -51,7 +72,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C3, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7 | 1 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | CHG0 | 1 | ORANGE | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 
 | D4 | 1 | MBR120 | DIODE-SCHOTTKYSOD-123 | working:SOD-123 |  |  |  | 

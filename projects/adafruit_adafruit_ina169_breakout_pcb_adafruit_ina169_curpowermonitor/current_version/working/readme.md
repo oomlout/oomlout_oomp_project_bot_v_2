@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -35,13 +56,13 @@
 | 6 | U1 | SOT23-5 | 1 | INA169 |  |  | [''] | 
 | 7 | JP1 | 1X05_ROUND_70 | 1 |  |  |  | [''] | 
 | 8 | RSHUNT0 | 2512 | 1 | 0.1/1% (PT2512FK-070R1L) |  |  | [''] | 
-| 9 | C1 | 0805 | 1 | 0.1µF |  |  | [''] | 
+| 9 | C1 | 0805 | 1 | 0.1ÂµF |  |  | [''] | 
 
 
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 1 | 0.1µF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
+| C1 | 1 | 0.1ÂµF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
 | FID1, FID2 | 2 | FIDUCIAL"" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | 
 | J1 | 1 | TERMBLOCK_1X2 | TERMBLOCK_1X2 | working:TERMBLOCK_1X2-3.5MM |  |  |  | 
 | JP1 | 1 | HEADER-1X570MIL | HEADER-1X570MIL | working:1X05_ROUND_70 |  |  |  | 

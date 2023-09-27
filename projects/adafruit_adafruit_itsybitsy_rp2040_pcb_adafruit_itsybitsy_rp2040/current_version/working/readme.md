@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -34,7 +55,7 @@
 | 5 | D3,D1,D2 | SOD-323F | 3 | NSR0320 |  |  | [''] | 
 | 6 | R5,R1 | _0402NO | 2 | 10K |  |  | [''] | 
 | 7 | R4,R3 | _0402NO | 2 | 22 |  |  | [''] | 
-| 8 | C6,C8 | 0805-NO | 2 | 10µF |  |  | [''] | 
+| 8 | C6,C8 | 0805-NO | 2 | 10ÂµF |  |  | [''] | 
 | 9 | L0 | CHIPLED_0603_NOOUTLINE | 1 | RED |  |  | [''] | 
 | 10 | U1 | USON8_4X4 | 1 | GD25x16 |  |  | [''] | 
 | 11 | JP4,JP2 | 1X14_ROUND70 | 2 |  |  |  | [''] | 
@@ -58,7 +79,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C2, C11 | 2 | 1uF | CAP_CERAMIC_0603MP | working:_0603MP |  |  |  | 
 | C3, C4, C10, C12, C13, C16 | 6 | 0.1uF | CAP_CERAMIC_0402NO | working:_0402NO |  |  |  | 
-| C6, C8 | 2 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C6, C8 | 2 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C19, C20 | 2 | 22pF | CAP_CERAMIC_0402NO | working:_0402NO |  |  |  | 
 | D1, D2, D3 | 3 | NSR0320 | DIODESOD-323F | working:SOD-323F |  |  |  | 
 | IC1 | 1 | 741G125DCK | 741G125DCK | working:SC70-5 |  |  |  | 

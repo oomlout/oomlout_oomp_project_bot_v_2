@@ -11,6 +11,8 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/sparkfun/SparkFun_MicroMod_GNSS_Function_Board_ZED-F9P/tree/main/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/sparkfun_sparkfun_micromod_gnss_function_board_zed_f9p_sparkfun_micromod_gnss_function_board_zed_f9p/current_version/working  
+
 
 
 

@@ -16,7 +16,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -28,8 +49,8 @@
 ## working_bom
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| 1 | C1 | 0603 | 1 | 4µ7 |  |  | [''] | 
-| 2 | C2,C10,C11 | 0603 | 3 | 1µ |  |  | [''] | 
+| 1 | C1 | 0603 | 1 | 4Âµ7 |  |  | [''] | 
+| 2 | C2,C10,C11 | 0603 | 3 | 1Âµ |  |  | [''] | 
 | 3 | C3,C4,C5,C8 | 0402 | 4 | 100n |  |  | [''] | 
 | 4 | C6 | 0402 | 1 | 10n |  |  | [''] | 
 | 5 | C7,C9 | 0402 | 2 | 15p |  |  | [''] | 
@@ -50,8 +71,8 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 1 | 4µ7 | C | agg:0603 |  |  |  | 
-| C2, C10, C11 | 3 | 1µ | C | agg:0603 |  |  |  | 
+| C1 | 1 | 4Âµ7 | C | agg:0603 |  |  |  | 
+| C2, C10, C11 | 3 | 1Âµ | C | agg:0603 |  |  |  | 
 | C3, C4, C5, C8 | 4 | 100n | C | agg:0402 |  |  |  | 
 | C6 | 1 | 10n | C | agg:0402 |  |  |  | 
 | C7, C9 | 2 | 33p | C | agg:0402 |  |  |  | 

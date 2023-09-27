@@ -1,9 +1,508 @@
 board: ooeb_obbb_proj_ardc_shen_stan_01
+bom:
+- Id: '1'
+  Designator: GND1,5V1,A6-1,A5-SCL1,D3-1,A4-SDA1,D4-1,D5-1
+  Footprint: PinHeader_1x01_P2.54mm_Vertical
+  Quantity: '8'
+  Designation: Conn_01x01_Male
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D13,TX1,A0,D7,D6,D12,D11,A7,D10,A2,A3,D8,RX0,D9,D2,A1
+  Footprint: PinHeader_1x02_P2.54mm_Vertical
+  Quantity: '16'
+  Designation: Conn_01x02_Male
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: RSDA1,RSCL1
+  Footprint: R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+  Quantity: '2'
+  Designation: R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: I2C0,SDA0,SDA1,D5,D4,I2C1,D3
+  Footprint: PinHeader_1x03_P2.54mm_Vertical
+  Quantity: '7'
+  Designation: Conn_01x03_Male
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: REF**
+  Footprint: OOEB-XXXX-04-03-ARDC
+  Quantity: '1'
+  Designation: OOEB-XXXX-04-03-ARDC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | GND1,5V1,A6-1,A5-SCL1,D3-1,A4-SDA1,D4-1,D5-1\
+  \ | PinHeader_1x01_P2.54mm_Vertical | 8 | Conn_01x01_Male |  |  | [''] | \n| 2 |\
+  \ D13,TX1,A0,D7,D6,D12,D11,A7,D10,A2,A3,D8,RX0,D9,D2,A1 | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 16 | Conn_01x02_Male |  |  | [''] | \n| 3 | RSDA1,RSCL1 | R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal\
+  \ | 2 | R |  |  | [''] | \n| 4 | I2C0,SDA0,SDA1,D5,D4,I2C1,D3 | PinHeader_1x03_P2.54mm_Vertical\
+  \ | 7 | Conn_01x03_Male |  |  | [''] | \n| 5 | REF** | OOEB-XXXX-04-03-ARDC | 1\
+  \ | OOEB-XXXX-04-03-ARDC |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Conn_01x01_Male_1
+  DNP: ''
+  Description: Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: 5V1
+  Value: Conn_01x01_Male
+  Vendor: ''
+- Cmp name: Conn_01x02_Male
+  DNP: ''
+  Description: Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+  Qnty: '5'
+  Ref: A0, A1, A2, A3, A7
+  Value: Conn_01x02_Male
+  Vendor: ''
+- Cmp name: Conn_01x01_Male
+  DNP: ''
+  Description: Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: A4-SDA1
+  Value: Conn_01x01_Male
+  Vendor: ''
+- Cmp name: Conn_01x01_Male
+  DNP: ''
+  Description: Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: A5-SCL1
+  Value: Conn_01x01_Male
+  Vendor: ''
+- Cmp name: Conn_01x02_Male
+  DNP: ''
+  Description: Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+  Qnty: '9'
+  Ref: D2, D6, D7, D8, D9, D10, D11, D12, D13
+  Value: Conn_01x02_Male
+  Vendor: ''
+- Cmp name: Conn_01x03_Male
+  DNP: ''
+  Description: Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+  Qnty: '3'
+  Ref: D3, D4, D5
+  Value: Conn_01x03_Male
+  Vendor: ''
+- Cmp name: Conn_01x01_Male
+  DNP: ''
+  Description: Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: D3-1
+  Value: Conn_01x01_Male
+  Vendor: ''
+- Cmp name: Conn_01x01_Male
+  DNP: ''
+  Description: Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: D4-1
+  Value: Conn_01x01_Male
+  Vendor: ''
+- Cmp name: Conn_01x01_Male
+  DNP: ''
+  Description: Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: D5-1
+  Value: Conn_01x01_Male
+  Vendor: ''
+- Cmp name: Conn_01x01_Male_2
+  DNP: ''
+  Description: Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: GND1
+  Value: Conn_01x01_Male
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+  Qnty: '1'
+  Ref: RSCL1
+  Value: R
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+  Qnty: '1'
+  Ref: RSDA1
+  Value: R
+  Vendor: ''
+- Cmp name: Conn_01x02_Male
+  DNP: ''
+  Description: Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: RX0
+  Value: Conn_01x02_Male
+  Vendor: ''
+- Cmp name: Conn_01x03_Male
+  DNP: ''
+  Description: Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+  Qnty: '2'
+  Ref: SCL0, SCL1
+  Value: Conn_01x03_Male
+  Vendor: ''
+- Cmp name: Conn_01x03_Male
+  DNP: ''
+  Description: Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+  Qnty: '2'
+  Ref: SDA0, SDA1
+  Value: Conn_01x03_Male
+  Vendor: ''
+- Cmp name: Conn_01x02_Male
+  DNP: ''
+  Description: Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: TX1
+  Value: Conn_01x02_Male
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 5V1 |\
+  \ 1 | Conn_01x01_Male | Conn_01x01_Male_1 | Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| A0, A1, A2, A3, A7 | 5 | Conn_01x02_Male | Conn_01x02_Male | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| A4-SDA1 | 1 | Conn_01x01_Male | Conn_01x01_Male | Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| A5-SCL1 | 1 | Conn_01x01_Male | Conn_01x01_Male | Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| D2, D6, D7, D8, D9, D10, D11, D12, D13 | 9 | Conn_01x02_Male | Conn_01x02_Male\
+  \ | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical | Generic connector,\
+  \ single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| D3, D4, D5 | 3 | Conn_01x03_Male | Conn_01x03_Male | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| D3-1 | 1 | Conn_01x01_Male | Conn_01x01_Male | Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| D4-1 | 1 | Conn_01x01_Male | Conn_01x01_Male | Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| D5-1 | 1 | Conn_01x01_Male | Conn_01x01_Male | Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| GND1 | 1 | Conn_01x01_Male | Conn_01x01_Male_2 | Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| RSCL1 | 1 | R | R | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal\
+  \ | Resistor |  |  | \n| RSDA1 | 1 | R | R | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal\
+  \ | Resistor |  |  | \n| RX0 | 1 | Conn_01x02_Male | Conn_01x02_Male | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| SCL0, SCL1 | 2 | Conn_01x03_Male | Conn_01x03_Male | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| SDA0, SDA1 | 2 | Conn_01x03_Male | Conn_01x03_Male | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| TX1 | 1 | Conn_01x02_Male | Conn_01x02_Male | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/oomlout_oomlout_ooeb_ooeb_obbb_proj_ardc_shen_stan_01/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/oomlout_oomlout_ooeb_ooeb_obbb_proj_ardc_shen_stan_01/current_version/working/working.kicad_sch
 id: oomlout_oomlout_ooeb_ooeb_obbb_proj_ardc_shen_stan_01
 name: oomlout_ooeb
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': 5V1
+  Package: PinHeader_1x01_P2.54mm_Vertical
+  PosX: 10.16
+  PosY: 3.16
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01_Male
+- '# Ref': A0
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 10.16
+  PosY: -17.16
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x02_Male
+- '# Ref': A1
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 10.16
+  PosY: -14.62
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x02_Male
+- '# Ref': A2
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 10.16
+  PosY: -12.08
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x02_Male
+- '# Ref': A3
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 10.16
+  PosY: -9.54
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x02_Male
+- '# Ref': A4-SDA1
+  Package: PinHeader_1x01_P2.54mm_Vertical
+  PosX: 10.16
+  PosY: -7.0
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01_Male
+- '# Ref': A5-SCL1
+  Package: PinHeader_1x01_P2.54mm_Vertical
+  PosX: 10.16
+  PosY: -4.46
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01_Male
+- '# Ref': A6-1
+  Package: PinHeader_1x01_P2.54mm_Vertical
+  PosX: 10.16
+  PosY: -1.92
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01_Male
+- '# Ref': A7
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 10.16
+  PosY: 0.62
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x02_Male
+- '# Ref': D2
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: -12.7
+  PosY: 0.62
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x02_Male
+- '# Ref': D3
+  Package: PinHeader_1x03_P2.54mm_Vertical
+  PosX: -10.16
+  PosY: 3.16
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x03_Male
+- '# Ref': D3-1
+  Package: PinHeader_1x01_P2.54mm_Vertical
+  PosX: -10.16
+  PosY: -1.92
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01_Male
+- '# Ref': D4
+  Package: PinHeader_1x03_P2.54mm_Vertical
+  PosX: -10.16
+  PosY: 5.7
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x03_Male
+- '# Ref': D4-1
+  Package: PinHeader_1x01_P2.54mm_Vertical
+  PosX: -10.16
+  PosY: -4.46
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01_Male
+- '# Ref': D5
+  Package: PinHeader_1x03_P2.54mm_Vertical
+  PosX: -17.78
+  PosY: -12.095
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x03_Male
+- '# Ref': D5-1
+  Package: PinHeader_1x01_P2.54mm_Vertical
+  PosX: -10.16
+  PosY: -7.0
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01_Male
+- '# Ref': D6
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: -10.16
+  PosY: -9.54
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x02_Male
+- '# Ref': D7
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: -10.16
+  PosY: -12.08
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x02_Male
+- '# Ref': D8
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: -10.16
+  PosY: -14.62
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x02_Male
+- '# Ref': D9
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: -10.16
+  PosY: -17.16
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x02_Male
+- '# Ref': D10
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: -10.16
+  PosY: -19.7
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x02_Male
+- '# Ref': D11
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: -10.16
+  PosY: -22.24
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x02_Male
+- '# Ref': D12
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: -10.16
+  PosY: -24.78
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x02_Male
+- '# Ref': D13
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 10.16
+  PosY: -24.78
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x02_Male
+- '# Ref': GND1
+  Package: PinHeader_1x01_P2.54mm_Vertical
+  PosX: 10.16
+  PosY: 8.24
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01_Male
+- '# Ref': I2C0
+  Package: PinHeader_1x03_P2.54mm_Vertical
+  PosX: -5.1755
+  PosY: 19.67
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x03_Male
+- '# Ref': I2C1
+  Package: PinHeader_1x03_P2.54mm_Vertical
+  PosX: 2.54
+  PosY: 19.67
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x03_Male
+- '# Ref': REF**
+  Package: OOEB-XXXX-04-03-ARDC
+  PosX: 0.0
+  PosY: 0.0
+  Rot: 0.0
+  Side: top
+  Val: OOEB-XXXX-04-03-ARDC
+- '# Ref': RSCL1
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+  PosX: 15.24
+  PosY: 6.97
+  Rot: 90.0
+  Side: top
+  Val: R
+- '# Ref': RSDA1
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+  PosX: 17.78
+  PosY: 6.97
+  Rot: 90.0
+  Side: top
+  Val: R
+- '# Ref': RX0
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: -10.16
+  PosY: 8.24
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x02_Male
+- '# Ref': SDA0
+  Package: PinHeader_1x03_P2.54mm_Vertical
+  PosX: 5.08
+  PosY: 19.67
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x03_Male
+- '# Ref': SDA1
+  Package: PinHeader_1x03_P2.54mm_Vertical
+  PosX: -2.6355
+  PosY: 19.67
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x03_Male
+- '# Ref': TX1
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: -10.16
+  PosY: 10.78
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x02_Male
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| 5V1 | Conn_01x01_Male | PinHeader_1x01_P2.54mm_Vertical\
+  \ | 10.16 | 3.16 | 0.0 | top | \n| A0 | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 10.16 | -17.16 | 90.0 | top | \n| A1 | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 10.16 | -14.62 | 90.0 | top | \n| A2 | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 10.16 | -12.08 | 90.0 | top | \n| A3 | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 10.16 | -9.54 | 90.0 | top | \n| A4-SDA1 | Conn_01x01_Male | PinHeader_1x01_P2.54mm_Vertical\
+  \ | 10.16 | -7.0 | 0.0 | top | \n| A5-SCL1 | Conn_01x01_Male | PinHeader_1x01_P2.54mm_Vertical\
+  \ | 10.16 | -4.46 | 0.0 | top | \n| A6-1 | Conn_01x01_Male | PinHeader_1x01_P2.54mm_Vertical\
+  \ | 10.16 | -1.92 | 0.0 | top | \n| A7 | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 10.16 | 0.62 | 90.0 | top | \n| D2 | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical\
+  \ | -12.7 | 0.62 | 90.0 | top | \n| D3 | Conn_01x03_Male | PinHeader_1x03_P2.54mm_Vertical\
+  \ | -10.16 | 3.16 | -90.0 | top | \n| D3-1 | Conn_01x01_Male | PinHeader_1x01_P2.54mm_Vertical\
+  \ | -10.16 | -1.92 | 0.0 | top | \n| D4 | Conn_01x03_Male | PinHeader_1x03_P2.54mm_Vertical\
+  \ | -10.16 | 5.7 | -90.0 | top | \n| D4-1 | Conn_01x01_Male | PinHeader_1x01_P2.54mm_Vertical\
+  \ | -10.16 | -4.46 | 0.0 | top | \n| D5 | Conn_01x03_Male | PinHeader_1x03_P2.54mm_Vertical\
+  \ | -17.78 | -12.095 | 0.0 | top | \n| D5-1 | Conn_01x01_Male | PinHeader_1x01_P2.54mm_Vertical\
+  \ | -10.16 | -7.0 | 0.0 | top | \n| D6 | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical\
+  \ | -10.16 | -9.54 | -90.0 | top | \n| D7 | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical\
+  \ | -10.16 | -12.08 | -90.0 | top | \n| D8 | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical\
+  \ | -10.16 | -14.62 | -90.0 | top | \n| D9 | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical\
+  \ | -10.16 | -17.16 | -90.0 | top | \n| D10 | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical\
+  \ | -10.16 | -19.7 | -90.0 | top | \n| D11 | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical\
+  \ | -10.16 | -22.24 | -90.0 | top | \n| D12 | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical\
+  \ | -10.16 | -24.78 | -90.0 | top | \n| D13 | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 10.16 | -24.78 | 90.0 | top | \n| GND1 | Conn_01x01_Male | PinHeader_1x01_P2.54mm_Vertical\
+  \ | 10.16 | 8.24 | 0.0 | top | \n| I2C0 | Conn_01x03_Male | PinHeader_1x03_P2.54mm_Vertical\
+  \ | -5.1755 | 19.67 | 180.0 | top | \n| I2C1 | Conn_01x03_Male | PinHeader_1x03_P2.54mm_Vertical\
+  \ | 2.54 | 19.67 | 180.0 | top | \n| REF** | OOEB-XXXX-04-03-ARDC | OOEB-XXXX-04-03-ARDC\
+  \ | 0.0 | 0.0 | 0.0 | top | \n| RSCL1 | R | R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal\
+  \ | 15.24 | 6.97 | 90.0 | top | \n| RSDA1 | R | R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal\
+  \ | 17.78 | 6.97 | 90.0 | top | \n| RX0 | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical\
+  \ | -10.16 | 8.24 | -90.0 | top | \n| SDA0 | Conn_01x03_Male | PinHeader_1x03_P2.54mm_Vertical\
+  \ | 5.08 | 19.67 | 180.0 | top | \n| SDA1 | Conn_01x03_Male | PinHeader_1x03_P2.54mm_Vertical\
+  \ | -2.6355 | 19.67 | 180.0 | top | \n| TX1 | Conn_01x02_Male | PinHeader_1x02_P2.54mm_Vertical\
+  \ | -10.16 | 10.78 | -90.0 | top | \n"
 projects_flat: projects/oomlout_oomlout_ooeb_ooeb_obbb_proj_ardc_shen_stan_01/current_version/working
 repo:
   allow_forking: true

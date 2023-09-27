@@ -1,9 +1,650 @@
 board: rotaduck
+bom:
+- Id: '1'
+  Designator: NX3,NX2,NX1
+  Footprint: nixies-us-IN-12-DSUB
+  Quantity: '3'
+  Designation: IN-12BNOHOLE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J1
+  Footprint: PinHeader_1x03_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x03_Male
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: NE1
+  Footprint: PinHeader_1x02_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Lamp_Neon
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R16,R11,R13
+  Footprint: R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+  Quantity: '3'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C1,C2
+  Footprint: C_1206_3216Metric_Pad1.33x1.80mm_HandSolder
+  Quantity: '2'
+  Designation: 100uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U1
+  Footprint: PinHeader_1x06_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Rotary_Dial
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R10,R15,R12,R9,R6,R8,R5,R7
+  Footprint: R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+  Quantity: '8'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U2
+  Footprint: SSOP-28_5.3x10.2mm_P0.65mm
+  Quantity: '1'
+  Designation: AVR128DB28x-xSS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: Q1,Q4,Q5,Q3,Q2
+  Footprint: SOT-23
+  Quantity: '5'
+  Designation: Q_NPN_BEC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: M1,M3,M2
+  Footprint: DIP_16_SmallPads
+  Quantity: '3'
+  Designation: 74141DIP16
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: R14
+  Footprint: R_1206_3216Metric_Pad1.30x1.75mm_HandSolder
+  Quantity: '1'
+  Designation: 220K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: JP1
+  Footprint: SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm
+  Quantity: '1'
+  Designation: Jumper_2_Open
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: M4
+  Footprint: Nixie_HV_Module_Small
+  Quantity: '1'
+  Designation: Nixie_HV_Module
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: U3
+  Footprint: SOT-223-3_TabPin2
+  Quantity: '1'
+  Designation: AZ1117-5.0
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: R1,R4,R3,R2
+  Footprint: R_1206_3216Metric_Pad1.30x1.75mm_HandSolder
+  Quantity: '4'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: BT1
+  Footprint: PinHeader_1x02_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Battery_Cell
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: Q6
+  Footprint: SOT-23
+  Quantity: '1'
+  Designation: Q_PNP_BEC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | NX3,NX2,NX1\
+  \ | nixies-us-IN-12-DSUB | 3 | IN-12BNOHOLE |  |  | [''] | \n| 2 | J1 | PinHeader_1x03_P2.54mm_Vertical\
+  \ | 1 | Conn_01x03_Male |  |  | [''] | \n| 3 | NE1 | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 1 | Lamp_Neon |  |  | [''] | \n| 4 | R16,R11,R13 | R_0805_2012Metric_Pad1.20x1.40mm_HandSolder\
+  \ | 3 | 1K |  |  | [''] | \n| 5 | C1,C2 | C_1206_3216Metric_Pad1.33x1.80mm_HandSolder\
+  \ | 2 | 100uF |  |  | [''] | \n| 6 | U1 | PinHeader_1x06_P2.54mm_Vertical | 1 |\
+  \ Rotary_Dial |  |  | [''] | \n| 7 | R10,R15,R12,R9,R6,R8,R5,R7 | R_0805_2012Metric_Pad1.20x1.40mm_HandSolder\
+  \ | 8 | 10K |  |  | [''] | \n| 8 | U2 | SSOP-28_5.3x10.2mm_P0.65mm | 1 | AVR128DB28x-xSS\
+  \ |  |  | [''] | \n| 9 | Q1,Q4,Q5,Q3,Q2 | SOT-23 | 5 | Q_NPN_BEC |  |  | [''] |\
+  \ \n| 10 | M1,M3,M2 | DIP_16_SmallPads | 3 | 74141DIP16 |  |  | [''] | \n| 11 |\
+  \ R14 | R_1206_3216Metric_Pad1.30x1.75mm_HandSolder | 1 | 220K |  |  | [''] | \n\
+  | 12 | JP1 | SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm | 1 | Jumper_2_Open\
+  \ |  |  | [''] | \n| 13 | M4 | Nixie_HV_Module_Small | 1 | Nixie_HV_Module |  |\
+  \  | [''] | \n| 14 | U3 | SOT-223-3_TabPin2 | 1 | AZ1117-5.0 |  |  | [''] | \n|\
+  \ 15 | R1,R4,R3,R2 | R_1206_3216Metric_Pad1.30x1.75mm_HandSolder | 4 | 10K |  |\
+  \  | [''] | \n| 16 | BT1 | PinHeader_1x02_P2.54mm_Vertical | 1 | Battery_Cell |\
+  \  |  | [''] | \n| 17 | Q6 | SOT-23 | 1 | Q_PNP_BEC |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Battery_Cell
+  DNP: ''
+  Description: Single-cell battery
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: BT1
+  Value: Battery_Cell
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder
+  Qnty: '2'
+  Ref: C1, C2
+  Value: 100uF
+  Vendor: ''
+- Cmp name: Conn_01x03_Male
+  DNP: ''
+  Description: Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_01x03_Male
+  Vendor: ''
+- Cmp name: Jumper_2_Open
+  DNP: ''
+  Description: Jumper, 2-pole, open
+  Footprint: Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm
+  Qnty: '1'
+  Ref: JP1
+  Value: Jumper_2_Open
+  Vendor: ''
+- Cmp name: 74141DIP16
+  DNP: ''
+  Description: ''
+  Footprint: Package_DIP:DIP-16_W7.62mm
+  Qnty: '3'
+  Ref: M1, M2, M3
+  Value: 74141DIP16
+  Vendor: ''
+- Cmp name: Nixie_HV_Module
+  DNP: ''
+  Description: ''
+  Footprint: Module:Nixie_HV_Module_Small
+  Qnty: '1'
+  Ref: M4
+  Value: Nixie_HV_Module
+  Vendor: ''
+- Cmp name: Lamp_Neon
+  DNP: ''
+  Description: Neon lamp
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: NE1
+  Value: Lamp_Neon
+  Vendor: ''
+- Cmp name: IN-12BNOHOLE
+  DNP: ''
+  Description: ''
+  Footprint: nixies-us:nixies-us-IN-12-DSUB
+  Qnty: '3'
+  Ref: NX1, NX2, NX3
+  Value: IN-12BNOHOLE
+  Vendor: ''
+- Cmp name: Q_NPN_BEC
+  DNP: ''
+  Description: NPN transistor, base/emitter/collector
+  Footprint: Package_TO_SOT_SMD:SOT-23
+  Qnty: '5'
+  Ref: Q1, Q2, Q3, Q4, Q5
+  Value: Q_NPN_BEC
+  Vendor: ''
+- Cmp name: Q_PNP_BEC
+  DNP: ''
+  Description: PNP transistor, base/emitter/collector
+  Footprint: Package_TO_SOT_SMD:SOT-23
+  Qnty: '1'
+  Ref: Q6
+  Value: Q_PNP_BEC
+  Vendor: ''
+- Cmp name: R_Small_US
+  DNP: ''
+  Description: Resistor, small US symbol
+  Footprint: Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder
+  Qnty: '1'
+  Ref: R1
+  Value: 47K
+  Vendor: ''
+- Cmp name: R_Small_US
+  DNP: ''
+  Description: Resistor, small US symbol
+  Footprint: Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder
+  Qnty: '3'
+  Ref: R2, R3, R4
+  Value: 10K
+  Vendor: ''
+- Cmp name: R_Small_US
+  DNP: ''
+  Description: Resistor, small US symbol
+  Footprint: Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+  Qnty: '8'
+  Ref: R5, R6, R7, R8, R9, R10, R12, R15
+  Value: 10K
+  Vendor: ''
+- Cmp name: R_Small_US
+  DNP: ''
+  Description: Resistor, small US symbol
+  Footprint: Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+  Qnty: '3'
+  Ref: R11, R13, R16
+  Value: 1K
+  Vendor: ''
+- Cmp name: R_Small_US
+  DNP: ''
+  Description: Resistor, small US symbol
+  Footprint: Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder
+  Qnty: '1'
+  Ref: R14
+  Value: 220K
+  Vendor: ''
+- Cmp name: Rotary_Dial
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: U1
+  Value: Rotary_Dial
+  Vendor: ''
+- Cmp name: AVR128DB28x-xSS
+  DNP: ''
+  Description: 24MHz, 128kB Flash, 16kB SRAM, EEPROM with Op Amps and Multi-Voltage
+    I/O, SSOP-28
+  Footprint: Package_SO:SSOP-28_5.3x10.2mm_P0.65mm
+  Qnty: '1'
+  Ref: U2
+  Value: AVR128DB28x-xSS
+  Vendor: ''
+- Cmp name: AZ1117-5.0
+  DNP: ''
+  Description: 1A 20V Fixed LDO Linear Regulator, 5.0V, SOT-89/SOT-223/TO-220/TO-252/TO-263
+  Footprint: Package_TO_SOT_SMD:SOT-223-3_TabPin2
+  Qnty: '1'
+  Ref: U3
+  Value: AZ1117-5.0
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| BT1 |\
+  \ 1 | Battery_Cell | Battery_Cell | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical\
+  \ | Single-cell battery |  |  | \n| C1, C2 | 2 | 100uF | C | Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder\
+  \ | Unpolarized capacitor |  |  | \n| J1 | 1 | Conn_01x03_Male | Conn_01x03_Male\
+  \ | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical | Generic connector,\
+  \ single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| JP1 | 1 | Jumper_2_Open | Jumper_2_Open | Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm\
+  \ | Jumper, 2-pole, open |  |  | \n| M1, M2, M3 | 3 | 74141DIP16 | 74141DIP16 |\
+  \ Package_DIP:DIP-16_W7.62mm |  |  |  | \n| M4 | 1 | Nixie_HV_Module | Nixie_HV_Module\
+  \ | Module:Nixie_HV_Module_Small |  |  |  | \n| NE1 | 1 | Lamp_Neon | Lamp_Neon\
+  \ | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical | Neon lamp |  |\
+  \  | \n| NX1, NX2, NX3 | 3 | IN-12BNOHOLE | IN-12BNOHOLE | nixies-us:nixies-us-IN-12-DSUB\
+  \ |  |  |  | \n| Q1, Q2, Q3, Q4, Q5 | 5 | Q_NPN_BEC | Q_NPN_BEC | Package_TO_SOT_SMD:SOT-23\
+  \ | NPN transistor, base/emitter/collector |  |  | \n| Q6 | 1 | Q_PNP_BEC | Q_PNP_BEC\
+  \ | Package_TO_SOT_SMD:SOT-23 | PNP transistor, base/emitter/collector |  |  | \n\
+  | R1 | 1 | 47K | R_Small_US | Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder\
+  \ | Resistor, small US symbol |  |  | \n| R2, R3, R4 | 3 | 10K | R_Small_US | Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder\
+  \ | Resistor, small US symbol |  |  | \n| R5, R6, R7, R8, R9, R10, R12, R15 | 8\
+  \ | 10K | R_Small_US | Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder\
+  \ | Resistor, small US symbol |  |  | \n| R11, R13, R16 | 3 | 1K | R_Small_US |\
+  \ Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder | Resistor, small US\
+  \ symbol |  |  | \n| R14 | 1 | 220K | R_Small_US | Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder\
+  \ | Resistor, small US symbol |  |  | \n| U1 | 1 | Rotary_Dial | Rotary_Dial | Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical\
+  \ |  |  |  | \n| U2 | 1 | AVR128DB28x-xSS | AVR128DB28x-xSS | Package_SO:SSOP-28_5.3x10.2mm_P0.65mm\
+  \ | 24MHz, 128kB Flash, 16kB SRAM, EEPROM with Op Amps and Multi-Voltage I/O, SSOP-28\
+  \ |  |  | \n| U3 | 1 | AZ1117-5.0 | AZ1117-5.0 | Package_TO_SOT_SMD:SOT-223-3_TabPin2\
+  \ | 1A 20V Fixed LDO Linear Regulator, 5.0V, SOT-89/SOT-223/TO-220/TO-252/TO-263\
+  \ |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/architeuthis_flux_rota_rotaduck/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/architeuthis_flux_rota_rotaduck/current_version/working/working.kicad_sch
 id: architeuthis_flux_rota_rotaduck
 name: rota
+position_bottom:
+- '# Ref': BT1
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: -1.021
+  PosY: 35.306
+  Rot: -90.0
+  Side: bottom
+  Val: Battery_Cell
+- '# Ref': C1
+  Package: C_1206_3216Metric_Pad1.33x1.80mm_HandSolder
+  PosX: 29.6326
+  PosY: -18.1437
+  Rot: -125.0
+  Side: bottom
+  Val: 100uF
+- '# Ref': C2
+  Package: C_1206_3216Metric_Pad1.33x1.80mm_HandSolder
+  PosX: 18.796
+  PosY: -28.956
+  Rot: 35.0
+  Side: bottom
+  Val: 100uF
+- '# Ref': M1
+  Package: DIP_16_SmallPads
+  PosX: -18.0798
+  PosY: 20.8902
+  Rot: 149.0
+  Side: bottom
+  Val: 74141DIP16
+- '# Ref': M2
+  Package: DIP_16_SmallPads
+  PosX: -22.0996
+  PosY: 38.4684
+  Rot: -67.5
+  Side: bottom
+  Val: 74141DIP16
+- '# Ref': M3
+  Package: DIP_16_SmallPads
+  PosX: 18.9372
+  PosY: 31.1929
+  Rot: 67.5
+  Side: bottom
+  Val: 74141DIP16
+- '# Ref': M4
+  Package: Nixie_HV_Module_Small
+  PosX: 0.9906
+  PosY: 55.9816
+  Rot: 180.0
+  Side: bottom
+  Val: Nixie_HV_Module
+- '# Ref': Q1
+  Package: SOT-23
+  PosX: -17.018
+  PosY: 26.9512
+  Rot: 149.0
+  Side: bottom
+  Val: Q_NPN_BEC
+- '# Ref': Q2
+  Package: SOT-23
+  PosX: 21.082
+  PosY: 50.292
+  Rot: -95.0
+  Side: bottom
+  Val: Q_NPN_BEC
+- '# Ref': Q3
+  Package: SOT-23
+  PosX: 0.0
+  PosY: 45.0365
+  Rot: 90.0
+  Side: bottom
+  Val: Q_NPN_BEC
+- '# Ref': Q4
+  Package: SOT-23
+  PosX: -21.082
+  PosY: 50.292
+  Rot: -85.0
+  Side: bottom
+  Val: Q_NPN_BEC
+- '# Ref': Q5
+  Package: SOT-23
+  PosX: 27.8892
+  PosY: 21.1328
+  Rot: -55.0
+  Side: bottom
+  Val: Q_NPN_BEC
+- '# Ref': Q6
+  Package: SOT-23
+  PosX: 20.955
+  PosY: 21.2852
+  Rot: 70.0
+  Side: bottom
+  Val: Q_PNP_BEC
+- '# Ref': R1
+  Package: R_1206_3216Metric_Pad1.30x1.75mm_HandSolder
+  PosX: -12.446
+  PosY: 48.26
+  Rot: 90.0
+  Side: bottom
+  Val: 10K
+- '# Ref': R2
+  Package: R_1206_3216Metric_Pad1.30x1.75mm_HandSolder
+  PosX: -22.098
+  PosY: 60.198
+  Rot: 5.0
+  Side: bottom
+  Val: 10K
+- '# Ref': R3
+  Package: R_1206_3216Metric_Pad1.30x1.75mm_HandSolder
+  PosX: -0.2032
+  PosY: 64.9986
+  Rot: 180.0
+  Side: bottom
+  Val: 10K
+- '# Ref': R4
+  Package: R_1206_3216Metric_Pad1.30x1.75mm_HandSolder
+  PosX: 22.098
+  PosY: 60.198
+  Rot: 175.0
+  Side: bottom
+  Val: 10K
+- '# Ref': R5
+  Package: R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+  PosX: -33.1724
+  PosY: -10.4902
+  Rot: -70.0
+  Side: bottom
+  Val: 10K
+- '# Ref': R6
+  Package: R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+  PosX: 23.622
+  PosY: 43.18
+  Rot: -135.0
+  Side: bottom
+  Val: 10K
+- '# Ref': R7
+  Package: R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+  PosX: 12.7
+  PosY: 47.752
+  Rot: -112.5
+  Side: bottom
+  Val: 10K
+- '# Ref': R8
+  Package: R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+  PosX: -23.114
+  PosY: 43.688
+  Rot: -45.0
+  Side: bottom
+  Val: 10K
+- '# Ref': R9
+  Package: R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+  PosX: 32.1726
+  PosY: -13.8257
+  Rot: -115.0
+  Side: bottom
+  Val: 10K
+- '# Ref': R10
+  Package: R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+  PosX: 33.7014
+  PosY: -9.8118
+  Rot: -105.0
+  Side: bottom
+  Val: 10K
+- '# Ref': R11
+  Package: R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+  PosX: 23.7998
+  PosY: 26.035
+  Rot: 128.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R12
+  Package: R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+  PosX: 31.1912
+  PosY: 16.5862
+  Rot: 115.0
+  Side: bottom
+  Val: 10K
+- '# Ref': R13
+  Package: R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+  PosX: 0.0762
+  PosY: 41.0718
+  Rot: 0.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R14
+  Package: R_1206_3216Metric_Pad1.30x1.75mm_HandSolder
+  PosX: -10.1092
+  PosY: 53.4162
+  Rot: -90.0
+  Side: bottom
+  Val: 220K
+- '# Ref': R15
+  Package: R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+  PosX: -16.0274
+  PosY: -4.6228
+  Rot: 135.0
+  Side: bottom
+  Val: 10K
+- '# Ref': R16
+  Package: R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+  PosX: 24.6126
+  PosY: 17.5514
+  Rot: 180.0
+  Side: bottom
+  Val: 1K
+- '# Ref': U1
+  Package: PinHeader_1x06_P2.54mm_Vertical
+  PosX: 8.128
+  PosY: 30.48
+  Rot: 90.0
+  Side: bottom
+  Val: Rotary_Dial
+- '# Ref': U2
+  Package: SSOP-28_5.3x10.2mm_P0.65mm
+  PosX: -23.876
+  PosY: -9.398
+  Rot: -45.0
+  Side: bottom
+  Val: AVR128DB28x-xSS
+- '# Ref': U3
+  Package: SOT-223-3_TabPin2
+  PosX: 22.352
+  PosY: -21.844
+  Rot: 135.0
+  Side: bottom
+  Val: AZ1117-5.0
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| BT1 | Battery_Cell | PinHeader_1x02_P2.54mm_Vertical\
+  \ | -1.021 | 35.306 | -90.0 | bottom | \n| C1 | 100uF | C_1206_3216Metric_Pad1.33x1.80mm_HandSolder\
+  \ | 29.6326 | -18.1437 | -125.0 | bottom | \n| C2 | 100uF | C_1206_3216Metric_Pad1.33x1.80mm_HandSolder\
+  \ | 18.796 | -28.956 | 35.0 | bottom | \n| M1 | 74141DIP16 | DIP_16_SmallPads |\
+  \ -18.0798 | 20.8902 | 149.0 | bottom | \n| M2 | 74141DIP16 | DIP_16_SmallPads |\
+  \ -22.0996 | 38.4684 | -67.5 | bottom | \n| M3 | 74141DIP16 | DIP_16_SmallPads |\
+  \ 18.9372 | 31.1929 | 67.5 | bottom | \n| M4 | Nixie_HV_Module | Nixie_HV_Module_Small\
+  \ | 0.9906 | 55.9816 | 180.0 | bottom | \n| Q1 | Q_NPN_BEC | SOT-23 | -17.018 |\
+  \ 26.9512 | 149.0 | bottom | \n| Q2 | Q_NPN_BEC | SOT-23 | 21.082 | 50.292 | -95.0\
+  \ | bottom | \n| Q3 | Q_NPN_BEC | SOT-23 | 0.0 | 45.0365 | 90.0 | bottom | \n| Q4\
+  \ | Q_NPN_BEC | SOT-23 | -21.082 | 50.292 | -85.0 | bottom | \n| Q5 | Q_NPN_BEC\
+  \ | SOT-23 | 27.8892 | 21.1328 | -55.0 | bottom | \n| Q6 | Q_PNP_BEC | SOT-23 |\
+  \ 20.955 | 21.2852 | 70.0 | bottom | \n| R1 | 10K | R_1206_3216Metric_Pad1.30x1.75mm_HandSolder\
+  \ | -12.446 | 48.26 | 90.0 | bottom | \n| R2 | 10K | R_1206_3216Metric_Pad1.30x1.75mm_HandSolder\
+  \ | -22.098 | 60.198 | 5.0 | bottom | \n| R3 | 10K | R_1206_3216Metric_Pad1.30x1.75mm_HandSolder\
+  \ | -0.2032 | 64.9986 | 180.0 | bottom | \n| R4 | 10K | R_1206_3216Metric_Pad1.30x1.75mm_HandSolder\
+  \ | 22.098 | 60.198 | 175.0 | bottom | \n| R5 | 10K | R_0805_2012Metric_Pad1.20x1.40mm_HandSolder\
+  \ | -33.1724 | -10.4902 | -70.0 | bottom | \n| R6 | 10K | R_0805_2012Metric_Pad1.20x1.40mm_HandSolder\
+  \ | 23.622 | 43.18 | -135.0 | bottom | \n| R7 | 10K | R_0805_2012Metric_Pad1.20x1.40mm_HandSolder\
+  \ | 12.7 | 47.752 | -112.5 | bottom | \n| R8 | 10K | R_0805_2012Metric_Pad1.20x1.40mm_HandSolder\
+  \ | -23.114 | 43.688 | -45.0 | bottom | \n| R9 | 10K | R_0805_2012Metric_Pad1.20x1.40mm_HandSolder\
+  \ | 32.1726 | -13.8257 | -115.0 | bottom | \n| R10 | 10K | R_0805_2012Metric_Pad1.20x1.40mm_HandSolder\
+  \ | 33.7014 | -9.8118 | -105.0 | bottom | \n| R11 | 1K | R_0805_2012Metric_Pad1.20x1.40mm_HandSolder\
+  \ | 23.7998 | 26.035 | 128.0 | bottom | \n| R12 | 10K | R_0805_2012Metric_Pad1.20x1.40mm_HandSolder\
+  \ | 31.1912 | 16.5862 | 115.0 | bottom | \n| R13 | 1K | R_0805_2012Metric_Pad1.20x1.40mm_HandSolder\
+  \ | 0.0762 | 41.0718 | 0.0 | bottom | \n| R14 | 220K | R_1206_3216Metric_Pad1.30x1.75mm_HandSolder\
+  \ | -10.1092 | 53.4162 | -90.0 | bottom | \n| R15 | 10K | R_0805_2012Metric_Pad1.20x1.40mm_HandSolder\
+  \ | -16.0274 | -4.6228 | 135.0 | bottom | \n| R16 | 1K | R_0805_2012Metric_Pad1.20x1.40mm_HandSolder\
+  \ | 24.6126 | 17.5514 | 180.0 | bottom | \n| U1 | Rotary_Dial | PinHeader_1x06_P2.54mm_Vertical\
+  \ | 8.128 | 30.48 | 90.0 | bottom | \n| U2 | AVR128DB28x-xSS | SSOP-28_5.3x10.2mm_P0.65mm\
+  \ | -23.876 | -9.398 | -45.0 | bottom | \n| U3 | AZ1117-5.0 | SOT-223-3_TabPin2\
+  \ | 22.352 | -21.844 | 135.0 | bottom | \n"
+position_top:
+- '# Ref': J1
+  Package: PinHeader_1x03_P2.54mm_Vertical
+  PosX: -26.1694
+  PosY: -22.0906
+  Rot: 45.0
+  Side: top
+  Val: Conn_01x03_Male
+- '# Ref': NE1
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: -14.986
+  PosY: 39.375
+  Rot: 0.0
+  Side: top
+  Val: Lamp_Neon
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J1 | Conn_01x03_Male | PinHeader_1x03_P2.54mm_Vertical\
+  \ | -26.1694 | -22.0906 | 45.0 | top | \n| NE1 | Lamp_Neon | PinHeader_1x02_P2.54mm_Vertical\
+  \ | -14.986 | 39.375 | 0.0 | top | \n"
 projects_flat: projects/architeuthis_flux_rota_rotaduck/current_version/working
 repo:
   allow_forking: true

@@ -1,10 +1,350 @@
 board: ecc83_pp_v2
+bom:
+- Id: '1'
+  Designator: C1
+  Footprint: C2V10
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C2
+  Footprint: C2
+  Quantity: '1'
+  Designation: 680nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: P1
+  Footprint: bornier2
+  Quantity: '1'
+  Designation: IN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: P2
+  Footprint: bornier2
+  Quantity: '1'
+  Designation: OUT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: P3
+  Footprint: bornier2
+  Quantity: '1'
+  Designation: POWER
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: P4
+  Footprint: bornier2
+  Quantity: '1'
+  Designation: CONN_2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: P5,P6,P7,P8
+  Footprint: 1pin
+  Quantity: '4'
+  Designation: CONN_1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R1,R2
+  Footprint: R3
+  Quantity: '2'
+  Designation: 1.5K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R3
+  Footprint: R3
+  Quantity: '1'
+  Designation: 100K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R4
+  Footprint: R3
+  Quantity: '1'
+  Designation: 47K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U1
+  Footprint: VALVE-ECC-83-1
+  Quantity: '1'
+  Designation: ECC83
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1\
+  \ | C2V10 | 1 | 10uF |  |  | [''] | \n| 2 | C2 | C2 | 1 | 680nF |  |  | [''] | \n\
+  | 3 | P1 | bornier2 | 1 | IN |  |  | [''] | \n| 4 | P2 | bornier2 | 1 | OUT |  |\
+  \  | [''] | \n| 5 | P3 | bornier2 | 1 | POWER |  |  | [''] | \n| 6 | P4 | bornier2\
+  \ | 1 | CONN_2 |  |  | [''] | \n| 7 | P5,P6,P7,P8 | 1pin | 4 | CONN_1 |  |  | ['']\
+  \ | \n| 8 | R1,R2 | R3 | 2 | 1.5K |  |  | [''] | \n| 9 | R3 | R3 | 1 | 100K |  |\
+  \  | [''] | \n| 10 | R4 | R3 | 1 | 47K |  |  | [''] | \n| 11 | U1 | VALVE-ECC-83-1\
+  \ | 1 | ECC83 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: discret:C2V10
+  Qnty: '1'
+  Ref: C1
+  Value: 10uF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: discret:C2
+  Qnty: '1'
+  Ref: C2
+  Value: 680nF
+  Vendor: ''
+- Cmp name: CONN_2
+  DNP: ''
+  Description: ''
+  Footprint: connect:bornier2
+  Qnty: '1'
+  Ref: P1
+  Value: IN
+  Vendor: ''
+- Cmp name: CONN_2
+  DNP: ''
+  Description: ''
+  Footprint: connect:bornier2
+  Qnty: '1'
+  Ref: P2
+  Value: OUT
+  Vendor: ''
+- Cmp name: CONN_2
+  DNP: ''
+  Description: ''
+  Footprint: connect:bornier2
+  Qnty: '1'
+  Ref: P3
+  Value: POWER
+  Vendor: ''
+- Cmp name: CONN_2
+  DNP: ''
+  Description: ''
+  Footprint: connect:bornier2
+  Qnty: '1'
+  Ref: P4
+  Value: CONN_2
+  Vendor: ''
+- Cmp name: CONN_1
+  DNP: ''
+  Description: ''
+  Footprint: connect:1pin
+  Qnty: '4'
+  Ref: P5, P6, P7, P8
+  Value: CONN_1
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: discret:R3
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 1.5K
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: discret:R3
+  Qnty: '1'
+  Ref: R3
+  Value: 100K
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: discret:R3
+  Qnty: '1'
+  Ref: R4
+  Value: 47K
+  Vendor: ''
+- Cmp name: ECC83
+  DNP: ''
+  Description: ''
+  Footprint: Valves:VALVE-ECC-83-1
+  Qnty: '1'
+  Ref: U1
+  Value: ECC83
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 10uF | C | discret:C2V10 |  |  |  | \n| C2 | 1 | 680nF | C | discret:C2 |\
+  \  |  |  | \n| P1 | 1 | IN | CONN_2 | connect:bornier2 |  |  |  | \n| P2 | 1 | OUT\
+  \ | CONN_2 | connect:bornier2 |  |  |  | \n| P3 | 1 | POWER | CONN_2 | connect:bornier2\
+  \ |  |  |  | \n| P4 | 1 | CONN_2 | CONN_2 | connect:bornier2 |  |  |  | \n| P5,\
+  \ P6, P7, P8 | 4 | CONN_1 | CONN_1 | connect:1pin |  |  |  | \n| R1, R2 | 2 | 1.5K\
+  \ | R | discret:R3 |  |  |  | \n| R3 | 1 | 100K | R | discret:R3 |  |  |  | \n|\
+  \ R4 | 1 | 47K | R | discret:R3 |  |  |  | \n| U1 | 1 | ECC83 | ECC83 | Valves:VALVE-ECC-83-1\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/asutp_kicad_source_mirror_ecc83_pp_v2/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asutp_kicad_source_mirror_ecc83_pp_v2/current_version/working/working.kicad_pcb
 file_sch_flat: projects/asutp_kicad_source_mirror_ecc83_pp_v2/current_version/working/working.sch
 id: asutp_kicad_source_mirror_ecc83_pp_v2
 name: kicad_source_mirror
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C2V10
+  PosX: 138.43
+  PosY: -98.425
+  Rot: 90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C2
+  Package: C2
+  PosX: 137.16
+  PosY: -122.555
+  Rot: 90.0
+  Side: top
+  Val: 680nF
+- '# Ref': P1
+  Package: bornier2
+  PosX: 164.465
+  PosY: -110.49
+  Rot: -90.0
+  Side: top
+  Val: IN
+- '# Ref': P2
+  Package: bornier2
+  PosX: 128.27
+  PosY: -116.84
+  Rot: 90.0
+  Side: top
+  Val: OUT
+- '# Ref': P3
+  Package: bornier2
+  PosX: 128.27
+  PosY: -102.87
+  Rot: 90.0
+  Side: top
+  Val: POWER
+- '# Ref': P4
+  Package: bornier2
+  PosX: 147.955
+  PosY: -129.54
+  Rot: 180.0
+  Side: top
+  Val: CONN_2
+- '# Ref': P5
+  Package: 1pin
+  PosX: 127.0
+  PosY: -93.98
+  Rot: 0.0
+  Side: top
+  Val: CONN_1
+- '# Ref': P6
+  Package: 1pin
+  PosX: 165.1
+  PosY: -93.98
+  Rot: 0.0
+  Side: top
+  Val: CONN_1
+- '# Ref': P7
+  Package: 1pin
+  PosX: 165.1
+  PosY: -129.54
+  Rot: 0.0
+  Side: top
+  Val: CONN_1
+- '# Ref': P8
+  Package: 1pin
+  PosX: 127.0
+  PosY: -129.54
+  Rot: 0.0
+  Side: top
+  Val: CONN_1
+- '# Ref': R1
+  Package: R3
+  PosX: 135.89
+  PosY: -111.76
+  Rot: -90.0
+  Side: top
+  Val: 1.5K
+- '# Ref': R2
+  Package: R3
+  PosX: 149.86
+  PosY: -97.79
+  Rot: 180.0
+  Side: top
+  Val: 1.5K
+- '# Ref': R3
+  Package: R3
+  PosX: 133.985
+  PosY: -122.555
+  Rot: 90.0
+  Side: top
+  Val: 100K
+- '# Ref': R4
+  Package: R3
+  PosX: 164.465
+  PosY: -121.285
+  Rot: -90.0
+  Side: top
+  Val: 47K
+- '# Ref': U1
+  Package: VALVE-ECC-83-1
+  PosX: 149.225
+  PosY: -113.665
+  Rot: 0.0
+  Side: top
+  Val: ECC83
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 10uF | C2V10 | 138.43 | -98.425\
+  \ | 90.0 | top | \n| C2 | 680nF | C2 | 137.16 | -122.555 | 90.0 | top | \n| P1 |\
+  \ IN | bornier2 | 164.465 | -110.49 | -90.0 | top | \n| P2 | OUT | bornier2 | 128.27\
+  \ | -116.84 | 90.0 | top | \n| P3 | POWER | bornier2 | 128.27 | -102.87 | 90.0 |\
+  \ top | \n| P4 | CONN_2 | bornier2 | 147.955 | -129.54 | 180.0 | top | \n| P5 |\
+  \ CONN_1 | 1pin | 127.0 | -93.98 | 0.0 | top | \n| P6 | CONN_1 | 1pin | 165.1 |\
+  \ -93.98 | 0.0 | top | \n| P7 | CONN_1 | 1pin | 165.1 | -129.54 | 0.0 | top | \n\
+  | P8 | CONN_1 | 1pin | 127.0 | -129.54 | 0.0 | top | \n| R1 | 1.5K | R3 | 135.89\
+  \ | -111.76 | -90.0 | top | \n| R2 | 1.5K | R3 | 149.86 | -97.79 | 180.0 | top |\
+  \ \n| R3 | 100K | R3 | 133.985 | -122.555 | 90.0 | top | \n| R4 | 47K | R3 | 164.465\
+  \ | -121.285 | -90.0 | top | \n| U1 | ECC83 | VALVE-ECC-83-1 | 149.225 | -113.665\
+  \ | 0.0 | top | \n"
 projects_flat: projects/asutp_kicad_source_mirror_ecc83_pp_v2/current_version/working
 repo:
   allow_forking: true

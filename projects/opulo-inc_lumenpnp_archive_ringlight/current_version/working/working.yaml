@@ -1,10 +1,357 @@
 board: ringlight
+bom:
+- Id: '1'
+  Designator: D1,D2,D3,D4,D5,D6,D7,D8
+  Footprint: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  Quantity: '8'
+  Designation: WS2812B
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: FID1,FID2,FID3
+  Footprint: Fiducial_1mm_Mask2mm
+  Quantity: '3'
+  Designation: Fiducial
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C1,C3,C5,C7,C6,C2,C4,C10,C9
+  Footprint: C_0805_2012Metric
+  Quantity: '9'
+  Designation: 100nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J2
+  Footprint: JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal
+  Quantity: '1'
+  Designation: Connector Horizontal
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R1
+  Footprint: R_0805_2012Metric
+  Quantity: '1'
+  Designation: 330R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U1
+  Footprint: SOT-353_SC-70-5
+  Quantity: '1'
+  Designation: 74AHCT1G32
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: J1
+  Footprint: JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical
+  Quantity: '1'
+  Designation: Connector Vertical
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D1,D2,D3,D4,D5,D6,D7,D8\
+  \ | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm | 8 | WS2812B |  |  | [''] | \n| 2 | FID1,FID2,FID3\
+  \ | Fiducial_1mm_Mask2mm | 3 | Fiducial |  |  | [''] | \n| 3 | C1,C3,C5,C7,C6,C2,C4,C10,C9\
+  \ | C_0805_2012Metric | 9 | 100nF |  |  | [''] | \n| 4 | J2 | JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal\
+  \ | 1 | Connector Horizontal |  |  | [''] | \n| 5 | R1 | R_0805_2012Metric | 1 |\
+  \ 330R |  |  | [''] | \n| 6 | U1 | SOT-353_SC-70-5 | 1 | 74AHCT1G32 |  |  | ['']\
+  \ | \n| 7 | J1 | JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical | 1 | Connector Vertical\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0805_2012Metric
+  Qnty: '9'
+  Ref: C1, C2, C3, C4, C5, C6, C7, C8, C9
+  Value: 100nF
+  Vendor: ''
+- Cmp name: WS2812B
+  DNP: ''
+  Description: RGB LED with integrated controller
+  Footprint: LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  Qnty: '8'
+  Ref: D1, D2, D3, D4, D5, D6, D7, D8
+  Value: WS2812B
+  Vendor: ''
+- Cmp name: Fiducial
+  DNP: ''
+  Description: Fiducial Marker
+  Footprint: Fiducial:Fiducial_1mm_Mask2mm
+  Qnty: '3'
+  Ref: FID1, FID2, FID3
+  Value: Fiducial
+  Vendor: ''
+- Cmp name: Conn_01x03
+  DNP: ''
+  Description: Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical
+  Qnty: '1'
+  Ref: J1
+  Value: Connector Top
+  Vendor: ''
+- Cmp name: Conn_01x03
+  DNP: ''
+  Description: Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal
+  Qnty: '1'
+  Ref: J2
+  Value: Connector Bot
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0805_2012Metric
+  Qnty: '1'
+  Ref: R1
+  Value: 330R
+  Vendor: ''
+- Cmp name: 74AHCT1G32
+  DNP: ''
+  Description: Single OR Gate, Low-Voltage CMOS
+  Footprint: Package_TO_SOT_SMD:SOT-353_SC-70-5
+  Qnty: '1'
+  Ref: U1
+  Value: 74AHCT1G32
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3, C4, C5, C6, C7, C8, C9 | 9 | 100nF | C | Capacitor_SMD:C_0805_2012Metric |\
+  \ Unpolarized capacitor |  |  | \n| D1, D2, D3, D4, D5, D6, D7, D8 | 8 | WS2812B\
+  \ | WS2812B | LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm | RGB LED with integrated\
+  \ controller |  |  | \n| FID1, FID2, FID3 | 3 | Fiducial | Fiducial | Fiducial:Fiducial_1mm_Mask2mm\
+  \ | Fiducial Marker |  |  | \n| J1 | 1 | Connector Top | Conn_01x03 | Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical\
+  \ | Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J2 | 1 | Connector Bot | Conn_01x03 | Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal\
+  \ | Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| R1 | 1 | 330R | R_Small | Resistor_SMD:R_0805_2012Metric | Resistor,\
+  \ small symbol |  |  | \n| U1 | 1 | 74AHCT1G32 | 74AHCT1G32 | Package_TO_SOT_SMD:SOT-353_SC-70-5\
+  \ | Single OR Gate, Low-Voltage CMOS |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/opulo-inc_lumenpnp_archive_ringlight/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/opulo-inc_lumenpnp_archive_ringlight/current_version/working/working.kicad_sch
 file_repo_bom_csv_flat: projects/opulo-inc_lumenpnp_archive_ringlight/current_version/working/bom_src.csv
 id: opulo-inc_lumenpnp_archive_ringlight
 name: lumenpnp_archive
+position_bottom:
+- '# Ref': J1
+  Package: JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical
+  PosX: 22.5
+  PosY: 47.525
+  Rot: 180.0
+  Side: bottom
+  Val: Connector_Vertical
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J1 | Connector_Vertical | JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical\
+  \ | 22.5 | 47.525 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: C_0805_2012Metric
+  PosX: 15.0985
+  PosY: 35.5456
+  Rot: -90.0
+  Side: top
+  Val: 100nF
+- '# Ref': C2
+  Package: C_0805_2012Metric
+  PosX: 5.5417
+  PosY: 27.5265
+  Rot: -45.0
+  Side: top
+  Val: 100nF
+- '# Ref': C3
+  Package: C_0805_2012Metric
+  PosX: 4.4544
+  PosY: 15.0985
+  Rot: 0.0
+  Side: top
+  Val: 100nF
+- '# Ref': C4
+  Package: C_0805_2012Metric
+  PosX: 12.4735
+  PosY: 5.5417
+  Rot: 45.0
+  Side: top
+  Val: 100nF
+- '# Ref': C5
+  Package: C_0805_2012Metric
+  PosX: 24.9015
+  PosY: 4.4544
+  Rot: 90.0
+  Side: top
+  Val: 100nF
+- '# Ref': C6
+  Package: C_0805_2012Metric
+  PosX: 34.4583
+  PosY: 12.4735
+  Rot: 135.0
+  Side: top
+  Val: 100nF
+- '# Ref': C7
+  Package: C_0805_2012Metric
+  PosX: 35.5456
+  PosY: 24.9015
+  Rot: 180.0
+  Side: top
+  Val: 100nF
+- '# Ref': C9
+  Package: C_0805_2012Metric
+  PosX: 23.5
+  PosY: 31.0
+  Rot: 180.0
+  Side: top
+  Val: 100nF
+- '# Ref': C10
+  Package: C_0805_2012Metric
+  PosX: 28.6718
+  PosY: 34.9718
+  Rot: -135.0
+  Side: top
+  Val: 100nF
+- '# Ref': D1
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 20.0
+  PosY: 35.0
+  Rot: 0.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D2
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 9.3934
+  PosY: 30.6066
+  Rot: 45.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D3
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 5.0
+  PosY: 20.0
+  Rot: 90.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D4
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 9.3934
+  PosY: 9.3934
+  Rot: 135.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D5
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 20.0
+  PosY: 5.0
+  Rot: 180.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D6
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 30.6066
+  PosY: 9.3934
+  Rot: -135.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D7
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 35.0
+  PosY: 20.0
+  Rot: -90.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D8
+  Package: LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+  PosX: 30.6066
+  PosY: 30.6066
+  Rot: -45.0
+  Side: top
+  Val: WS2812B
+- '# Ref': FID1
+  Package: Fiducial_1mm_Mask2mm
+  PosX: 15.75
+  PosY: 31.0
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': FID2
+  Package: Fiducial_1mm_Mask2mm
+  PosX: 9.25
+  PosY: 15.25
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': FID3
+  Package: Fiducial_1mm_Mask2mm
+  PosX: 31.0
+  PosY: 15.4
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': J2
+  Package: JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal
+  PosX: 22.5
+  PosY: 42.15
+  Rot: 180.0
+  Side: top
+  Val: Connector_Horizontal
+- '# Ref': R1
+  Package: R_0805_2012Metric
+  PosX: 25.3
+  PosY: 36.3
+  Rot: 180.0
+  Side: top
+  Val: 330R
+- '# Ref': U1
+  Package: SOT-353_SC-70-5
+  PosX: 25.1
+  PosY: 33.7
+  Rot: 180.0
+  Side: top
+  Val: 74AHCT1G32
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 100nF | C_0805_2012Metric | 15.0985\
+  \ | 35.5456 | -90.0 | top | \n| C2 | 100nF | C_0805_2012Metric | 5.5417 | 27.5265\
+  \ | -45.0 | top | \n| C3 | 100nF | C_0805_2012Metric | 4.4544 | 15.0985 | 0.0 |\
+  \ top | \n| C4 | 100nF | C_0805_2012Metric | 12.4735 | 5.5417 | 45.0 | top | \n\
+  | C5 | 100nF | C_0805_2012Metric | 24.9015 | 4.4544 | 90.0 | top | \n| C6 | 100nF\
+  \ | C_0805_2012Metric | 34.4583 | 12.4735 | 135.0 | top | \n| C7 | 100nF | C_0805_2012Metric\
+  \ | 35.5456 | 24.9015 | 180.0 | top | \n| C9 | 100nF | C_0805_2012Metric | 23.5\
+  \ | 31.0 | 180.0 | top | \n| C10 | 100nF | C_0805_2012Metric | 28.6718 | 34.9718\
+  \ | -135.0 | top | \n| D1 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm | 20.0\
+  \ | 35.0 | 0.0 | top | \n| D2 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm | 9.3934\
+  \ | 30.6066 | 45.0 | top | \n| D3 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | 5.0 | 20.0 | 90.0 | top | \n| D4 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | 9.3934 | 9.3934 | 135.0 | top | \n| D5 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | 20.0 | 5.0 | 180.0 | top | \n| D6 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | 30.6066 | 9.3934 | -135.0 | top | \n| D7 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | 35.0 | 20.0 | -90.0 | top | \n| D8 | WS2812B | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm\
+  \ | 30.6066 | 30.6066 | -45.0 | top | \n| FID1 | Fiducial | Fiducial_1mm_Mask2mm\
+  \ | 15.75 | 31.0 | 0.0 | top | \n| FID2 | Fiducial | Fiducial_1mm_Mask2mm | 9.25\
+  \ | 15.25 | 0.0 | top | \n| FID3 | Fiducial | Fiducial_1mm_Mask2mm | 31.0 | 15.4\
+  \ | 0.0 | top | \n| J2 | Connector_Horizontal | JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal\
+  \ | 22.5 | 42.15 | 180.0 | top | \n| R1 | 330R | R_0805_2012Metric | 25.3 | 36.3\
+  \ | 180.0 | top | \n| U1 | 74AHCT1G32 | SOT-353_SC-70-5 | 25.1 | 33.7 | 180.0 |\
+  \ top | \n"
 projects_flat: projects/opulo-inc_lumenpnp_archive_ringlight/current_version/working
 repo:
   allow_forking: true

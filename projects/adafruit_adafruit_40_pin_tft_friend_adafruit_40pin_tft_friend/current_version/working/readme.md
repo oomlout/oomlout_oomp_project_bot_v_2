@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -38,8 +59,8 @@
 | 9 | TOUCH0 | 1X04-BIG | 1 |  |  |  | [''] | 
 | 10 | CONTROL0,JP1 | 1X06-BIG | 2 |  |  |  | [''] | 
 | 11 | J1 | 4-1734839-0 | 1 | 40PINFPCM4-1734839-0 |  |  | [''] | 
-| 12 | R2 | _0805MP | 1 | 6Ω |  |  | [''] | 
-| 13 | R7,R4,R3 | _0805MP | 3 | 12Ω |  |  | [''] | 
+| 12 | R2 | _0805MP | 1 | 6â„¦ |  |  | [''] | 
+| 13 | R7,R4,R3 | _0805MP | 3 | 12â„¦ |  |  | [''] | 
 | 14 | U3 | SOT23-5@1 | 1 | FAN5333BSX |  |  | [''] | 
 | 15 | R5 | _0805MP | 1 | 22 |  |  | [''] | 
 | 16 | U2 | SOT23-5 | 1 | MIC5225-3.3v |  |  | [''] | 
@@ -67,8 +88,8 @@
 | JP1 | 1 | PINHD-1X6B | PINHD-1X6B | working:1X06-BIG |  |  |  | 
 | L1 | 1 | 6.8uH power L CID 2276 | INDUCTORNR5040 | working:INDUCTOR_5X5MM_NR5040_NOTHERMALS |  |  |  | 
 | R1 | 1 | 10K | RESISTOR_0805MP | working:_0805MP |  |  |  | 
-| R2 | 1 | 6Ω | RESISTOR_0805MP | working:_0805MP |  |  |  | 
-| R3, R4, R7 | 3 | 12Ω | RESISTOR_0805MP | working:_0805MP |  |  |  | 
+| R2 | 1 | 6â„¦ | RESISTOR_0805MP | working:_0805MP |  |  |  | 
+| R3, R4, R7 | 3 | 12â„¦ | RESISTOR_0805MP | working:_0805MP |  |  |  | 
 | R5 | 1 | 22 | RESISTOR_0805MP | working:_0805MP |  |  |  | 
 | RED0 | 1 | PINHD-1X8BIG | PINHD-1X8BIG | working:1X08-BIG |  |  |  | 
 | SJ1 | 1 | +50mA | SOLDERJUMPER | working:SOLDERJUMPER_ARROW_NOPASTE |  |  |  | 

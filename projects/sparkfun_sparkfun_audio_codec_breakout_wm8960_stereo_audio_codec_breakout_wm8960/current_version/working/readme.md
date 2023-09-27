@@ -11,6 +11,8 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/sparkfun/SparkFun_Audio_Codec_Breakout_WM8960/tree/main/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/sparkfun_sparkfun_audio_codec_breakout_wm8960_stereo_audio_codec_breakout_wm8960/current_version/working  
+
 
 
 

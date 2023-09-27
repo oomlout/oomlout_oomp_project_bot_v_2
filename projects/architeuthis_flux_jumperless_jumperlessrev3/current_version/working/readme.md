@@ -15,8 +15,182 @@
 * src_file_repo_sch_link: https://github.com/Architeuthis-Flux/Jumperless/tree/main/
 * full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/architeuthis_flux_jumperless_jumperlessrev3/current_version/working  
 
+## schematic  
+![](working_schematic_600.png)  
+[schematic (pdf)](working_schematic.pdf) 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## pcb  
+![](working_3d_600.png) 
+![](working_3d_front_600.png)  
+![](working_3d_back_600.png)  
+![](working_600.png)  
+[board (pdf)](working.pdf)  
+
+## working_bom
+| Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| 1 | D23,D37,D20,D25,D33,D60,D36,D83,D34,D73,D12,D11,D85,D32,D80,D9,D13,D28,D58,D74,D88,D31,D8,D48,D30,D71,D35,D1,D41,D3,D49,D72,D6,D39,D86,D54,D17,D46,D21,D24,D18,D56,D40,D50,D52,D42,D10,D15,D5,D55,D16,D19,D45,D53,D43,D14,D87,D38,D4,D82,D7,D81,D44,D2,D27,D51,D22,D57,D47,D79,D77,D84,D76,D26,D78,D75,D89,D29,D90,D59 | LED_WS2812B-2020_PLCC4_2.0x2.0mm | 80 | WS2812B |  |  | [''] | 
+| 2 | J7 | GPIO_header | 1 | Conn_01x04_Pin |  |  | [''] | 
+| 3 | J1 | PinHeader_1x03_P2.54mm_Vertical | 1 | Debug |  |  | [''] | 
+| 4 | U1 | DIP-8_W7.62mm | 1 | LT1054 |  |  | [''] | 
+| 5 | J5 | USB_Mini-B_Wuerth_65100516121_Horizontal | 1 | USB_B_Mini |  |  | [''] | 
+| 6 | C3,C2,C5 | CP_EIA-6032-20_AVX-F_Pad2.25x2.35mm_HandSolder | 3 | 10uF |  |  | [''] | 
+| 7 | SW2 | Slide_Switch_SSSS223600 | 1 | SW_DP3T |  |  | [''] | 
+| 8 | J14 | PINHEADER-1x1_vertical | 1 | 5V |  |  | [''] | 
+| 9 | FID1,FID5,FID6,FID2,FID3,FID4 | Fiducial_1mm_Mask2mm | 6 | Fiducial |  |  | [''] | 
+| 10 | TP18 | PINHEADER-1x1_vertical | 1 | GPIO 0 |  |  | [''] | 
+| 11 | TP21 | PINHEADER-1x1_vertical | 1 | LED IN |  |  | [''] | 
+| 12 | J4 | Breadboard_CustomClips_Fallback | 1 | Breadboard |  |  | [''] | 
+| 13 | A1 | Arduino_Nano | 1 | Arduino_Nano_v3.x |  |  | [''] | 
+| 14 | TP20 | PINHEADER-1x1_vertical | 1 | LED OUT |  |  | [''] | 
+| 15 | U9 | RP2040-QFN-56 | 1 | RP2040 |  |  | [''] | 
+| 16 | C12,C21,C9,C19,C18,C11,C20 | C_0402_1005Metric | 7 | 1u |  |  | [''] | 
+| 17 | TP1 | TestPoint_Pad_D1.0mm | 1 | GPIO 16 |  |  | [''] | 
+| 18 | C6,C4,C1 | C_1206_3216Metric_Pad1.33x1.80mm_HandSolder | 3 | 100uF |  |  | [''] | 
+| 19 | TP2 | TestPoint_Pad_D1.0mm | 1 | GPIO 17 |  |  | [''] | 
+| 20 | R27,R22,R23,R21,R26 | R_0402_1005Metric | 5 | 2K |  |  | [''] | 
+| 21 | TP6 | TestPoint_D0.75mm | 1 | VREF |  |  | [''] | 
+| 22 | R16,R15,R14,R19 | R_0402_1005Metric | 4 | 47K |  |  | [''] | 
+| 23 | D62,D68,D61,D65,D67 | D_SOD-323 | 5 | 1N5819 |  |  | [''] | 
+| 24 | D66,D63,D69,D64 | D_SOD-323 | 4 | 1N4148 |  |  | [''] | 
+| 25 | F5,I1,D70,L1,J6,A2,G1,B1,E1,H1,C26,K1 | LQFP44_Tight | 12 | CH446Q |  |  | [''] | 
+| 26 | U12 | SOIC-8_3.9x4.9mm_P1.27mm | 1 | MCP4822 |  |  | [''] | 
+| 27 | R4,R1 | R_0603_1608Metric | 2 | 2Î© |  |  | [''] | 
+| 28 | JP14,JP13 | SolderJumper_2_Bridged_Small | 2 | Jumper_2_Bridged |  |  | [''] | 
+| 29 | R13 | R_0402_1005Metric | 1 | 21K |  |  | [''] | 
+| 30 | D91 | LED_PLCC2_reversemount | 1 | LED |  |  | [''] | 
+| 31 | R29,R17,R20,R18 | R_0402_1005Metric | 4 | 68K |  |  | [''] | 
+| 32 | TP4 | TestPoint_Pad_D1.0mm | 1 | GPIO 19 |  |  | [''] | 
+| 33 | C24,C14,C23,C17,C22,C13 | C_0402_1005Metric | 6 | 27p |  |  | [''] | 
+| 34 | TP15 | TestPoint_Pad_D1.0mm | 1 | LED OUT |  |  | [''] | 
+| 35 | SW1 | SW_SPST_TL3342 | 1 | USB BOOT |  |  | [''] | 
+| 36 | TP23,TP22 | BackMaskWindows | 2 | TestPoint |  |  | [''] | 
+| 37 | TP8 | TestPoint_D0.75mm | 1 | +-8V DAC |  |  | [''] | 
+| 38 | TP7 | TestPoint_D0.75mm | 1 | 0-5V DAC |  |  | [''] | 
+| 39 | C8,C7 | C_0603_1608Metric | 2 | 10u |  |  | [''] | 
+| 40 | R3,R2 | R_0402_1005Metric | 2 | 22R |  |  | [''] | 
+| 41 | R24,R8,R11,R10,R6,R7,R9 | R_0402_1005Metric | 7 | 1K |  |  | [''] | 
+| 42 | Y1 | Crystal_SMD_3225-4Pin_3.2x2.5mm | 1 | ABLS-12.000MHZ-B4-T |  |  | [''] | 
+| 43 | JP1 | SolderJumper_2_Bridged_Small | 1 | NANO 3V3 |  |  | [''] | 
+| 44 | U7,U11 | SOIC-14_3.9x8.7mm_P1.27mm | 2 | LM324 |  |  | [''] | 
+| 45 | U10 | SOIC-16_3.9x9.9mm_P1.27mm | 1 | L272D |  |  | [''] | 
+| 46 | C10,C15 | C_0402_1005Metric | 2 | .1uF |  |  | [''] | 
+| 47 | TP10 | TestPoint_D0.75mm | 1 | ADC 1 IN |  |  | [''] | 
+| 48 | TP3 | TestPoint_Pad_D1.0mm | 1 | GPIO 18 |  |  | [''] | 
+| 49 | U8 | SOIC-8_5.23x5.23mm_P1.27mm | 1 | W25Q128JVS |  |  | [''] | 
+| 50 | R12,R5 | R_0402_1005Metric | 2 | 1k |  |  | [''] | 
+| 51 | C16,C25 | C_0603_1608Metric | 2 | 10uF |  |  | [''] | 
+| 52 | TP12 | TestPoint_D0.75mm | 1 | ADC 3 IN |  |  | [''] | 
+| 53 | TP13 | TestPoint_D0.75mm | 1 | -8V |  |  | [''] | 
+| 54 | TP14 | TestPoint_D0.75mm | 1 | +8V |  |  | [''] | 
+| 55 | TP5 | TestPoint_D0.75mm | 1 | FB/SHDN |  |  | [''] | 
+| 56 | JP2 | SolderJumper_2_Bridged_Small | 1 | NANO 5V |  |  | [''] | 
+| 57 | U6,U4 | SOIC-8_3.9x4.9mm_P1.27mm | 2 | INA219 |  |  | [''] | 
+| 58 | TP17 | TestPoint_Pad_D1.0mm | 1 | LED IN |  |  | [''] | 
+| 59 | U2 | SOT-223-3_TabPin2 | 1 | NCP1117-3.3_SOT223 |  |  | [''] | 
+| 60 | JP4,JP8 | SolderJumper_2_Bridged_Small | 2 | SolderJumper_2_Bridged |  |  | [''] | 
+| 61 | TP9 | TestPoint_D0.75mm | 1 | ADC 0 IN |  |  | [''] | 
+| 62 | TP11 | TestPoint_D0.75mm | 1 | ADC 2 IN |  |  | [''] | 
+| 63 | TP16 | TestPoint_Pad_D1.0mm | 1 | GPIO 0 |  |  | [''] | 
+
+
+## bom_schematic
+| Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| A1 | 1 | Arduino_Nano_v3.x | Arduino_Nano_v3.x | JumperlessFootprints:Arduino_Nano | Arduino Nano v3.x |  |  | 
+| A2 | 1 | CH446Q | CH446Q | JumperlessFootprints:LQFP44_Tight |  |  |  | 
+| B1 | 1 | CH446Q | CH446Q | JumperlessFootprints:LQFP44_Tight |  |  |  | 
+| C1, C4, C6 | 3 | 100uF | CP1_Small | Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder |  |  |  | 
+| C2, C3, C5 | 3 | 10uF | CP1_Small | Capacitor_Tantalum_SMD:CP_EIA-6032-20_AVX-F_Pad2.25x2.35mm_HandSolder |  |  |  | 
+| C7, C8 | 2 | 10u | C | Capacitor_SMD:C_0603_1608Metric | Unpolarized capacitor |  |  | 
+| C9, C11, C12, C18, C19, C20, C21 | 7 | 1u | C | Capacitor_SMD:C_0402_1005Metric | Unpolarized capacitor |  |  | 
+| C10, C15 | 2 | .1uF | C | Capacitor_SMD:C_0402_1005Metric | Unpolarized capacitor |  |  | 
+| C13, C14, C17, C22, C23, C24 | 6 | 27p | C | Capacitor_SMD:C_0402_1005Metric | Unpolarized capacitor |  |  | 
+| C16, C25 | 2 | 10uF | C_Small | Capacitor_SMD:C_0603_1608Metric |  |  |  | 
+| C26 | 1 | CH446Q | CH446Q | JumperlessFootprints:LQFP44_Tight |  |  |  | 
+| D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33, D34, D35, D36, D37, D38, D39, D40, D41, D42, D43, D44, D45, D46, D47, D48, D49, D50, D51, D52, D53, D54, D55, D56, D57, D58, D59, D60, D71, D72, D73, D74, D75, D76, D77, D78, D79, D80, D81, D82, D83, D84, D85, D86, D87, D88, D89, D90 | 80 | WS2812B | WS2812B_7 | JumperlessFootprints:LED_WS2812B-2020_PLCC4_2.0x2.0mm | RGB LED with integrated controller |  |  | 
+| D61, D62, D65, D67, D68 | 5 | 1N5819 | 1N5819 | Diode_SMD:D_SOD-323 | 40V 1A Schottky Barrier Rectifier Diode, DO-41 |  |  | 
+| D63, D64, D66, D69 | 4 | 1N4148 | 1N4148W | Diode_SMD:D_SOD-323 | 75V 0.15A Fast Switching Diode, SOD-123 |  |  | 
+| D70 | 1 | CH446Q | CH446Q | JumperlessFootprints:LQFP44_Tight |  |  |  | 
+| D91 | 1 | LED | LED | LED_SMD:LED_PLCC2_reversemount | Light emitting diode |  |  | 
+| E1 | 1 | CH446Q | CH446Q | JumperlessFootprints:LQFP44_Tight |  |  |  | 
+| F5 | 1 | CH446Q | CH446Q | JumperlessFootprints:LQFP44_Tight |  |  |  | 
+| FID1, FID2, FID3, FID4, FID5, FID6 | 6 | Fiducial | Fiducial | Fiducial:Fiducial_1mm_Mask2mm | Fiducial Marker |  |  | 
+| G1 | 1 | CH446Q | CH446Q | JumperlessFootprints:LQFP44_Tight |  |  |  | 
+| H1 | 1 | CH446Q | CH446Q | JumperlessFootprints:LQFP44_Tight |  |  |  | 
+| I1 | 1 | CH446Q | CH446Q | JumperlessFootprints:LQFP44_Tight |  |  |  | 
+| J1 | 1 | Debug | Conn_01x03_Socket | JumperlessFootprints:PinHeader_1x03_P2.54mm_Vertical | Generic connector, single row, 01x03, script generated |  |  | 
+| J4 | 1 | Breadboard | Breadboard | JumperlessFootprints:Breadboard_CustomClips_Fallback |  |  |  | 
+| J5 | 1 | USB_B_Mini | USB_B_Micro | JumperlessFootprints:USB_Mini-B_Wuerth_65100516121_Horizontal | USB Micro Type B connector |  |  | 
+| J6 | 1 | CH446Q | CH446Q | JumperlessFootprints:LQFP44_Tight |  |  |  | 
+| J7 | 1 | Conn_01x04_Pin | Conn_01x04_Pin | JumperlessFootprints:GPIO_header | Generic connector, single row, 01x04, script generated |  |  | 
+| J14 | 1 | 5V | Conn_01x01_Pin | JumperlessFootprints:PINHEADER-1x1_vertical | Generic connector, single row, 01x01, script generated |  |  | 
+| JP1 | 1 | NANO 3V3 | SolderJumper_2_Bridged | JumperlessFootprints:SolderJumper_2_Bridged_Small | Solder Jumper, 2-pole, closed/bridged |  |  | 
+| JP2 | 1 | NANO 5V | SolderJumper_2_Bridged | JumperlessFootprints:SolderJumper_2_Bridged_Small | Solder Jumper, 2-pole, closed/bridged |  |  | 
+| JP4, JP8 | 2 | SolderJumper_2_Bridged | SolderJumper_2_Bridged | JumperlessFootprints:SolderJumper_2_Bridged_Small | Solder Jumper, 2-pole, closed/bridged |  |  | 
+| JP13, JP14 | 2 | Jumper_2_Bridged | Jumper_2_Bridged | JumperlessFootprints:SolderJumper_2_Bridged_Small | Jumper, 2-pole, closed/bridged |  |  | 
+| K1 | 1 | CH446Q | CH446Q | JumperlessFootprints:LQFP44_Tight |  |  |  | 
+| L1 | 1 | CH446Q | CH446Q | JumperlessFootprints:LQFP44_Tight |  |  |  | 
+| R1, R4 | 2 | 2Î© | R_Small_US_1 | Resistor_SMD:R_0603_1608Metric | Resistor, small US symbol |  |  | 
+| R2, R3 | 2 | 22R | R | Resistor_SMD:R_0402_1005Metric | Resistor |  |  | 
+| R5, R12 | 2 | 1k | R | Resistor_SMD:R_0402_1005Metric | Resistor |  |  | 
+| R6, R7, R8, R9, R10, R11, R24 | 7 | 1K | R_Small_US_2 | Resistor_SMD:R_0402_1005Metric | Resistor, small US symbol |  |  | 
+| R13 | 1 | 21K | R_Small_US | Resistor_SMD:R_0402_1005Metric |  |  |  | 
+| R14, R15, R16, R19 | 4 | 47K | R_Small_US_3 | Resistor_SMD:R_0402_1005Metric | Resistor, small US symbol |  |  | 
+| R17, R18, R20, R29 | 4 | 68K | R_Small_US_3 | Resistor_SMD:R_0402_1005Metric | Resistor, small US symbol |  |  | 
+| R21, R22, R23, R26, R27 | 5 | 2K | R_Small_US_2 | Resistor_SMD:R_0402_1005Metric | Resistor, small US symbol |  |  | 
+| SW1 | 1 | USB BOOT | SW_Push | Button_Switch_SMD:SW_SPST_TL3342 | Push button switch, generic, two pins |  |  | 
+| SW2 | 1 | SW_DP3T | SW_DP3T | JumperlessFootprints:Slide_Switch_SSSS223600 | Switch, three position, dual pole triple throw, 3 position switch, SP3T |  |  | 
+| TP1 | 1 | GPIO 16 | TestPoint | TestPoint:TestPoint_Pad_D1.0mm | test point |  |  | 
+| TP2 | 1 | GPIO 17 | TestPoint | TestPoint:TestPoint_Pad_D1.0mm | test point |  |  | 
+| TP3 | 1 | GPIO 18 | TestPoint | TestPoint:TestPoint_Pad_D1.0mm | test point |  |  | 
+| TP4 | 1 | GPIO 19 | TestPoint | TestPoint:TestPoint_Pad_D1.0mm | test point |  |  | 
+| TP5 | 1 | FB/SHDN | TestPoint | JumperlessFootprints:TestPoint_D0.75mm | test point |  |  | 
+| TP6 | 1 | VREF | TestPoint | JumperlessFootprints:TestPoint_D0.75mm | test point |  |  | 
+| TP7 | 1 | 0-5V DAC | TestPoint | JumperlessFootprints:TestPoint_D0.75mm | test point |  |  | 
+| TP8 | 1 | +-8V DAC | TestPoint | JumperlessFootprints:TestPoint_D0.75mm | test point |  |  | 
+| TP9 | 1 | ADC 0 IN | TestPoint | JumperlessFootprints:TestPoint_D0.75mm | test point |  |  | 
+| TP10 | 1 | ADC 1 IN | TestPoint | JumperlessFootprints:TestPoint_D0.75mm | test point |  |  | 
+| TP11 | 1 | ADC 2 IN | TestPoint | JumperlessFootprints:TestPoint_D0.75mm | test point |  |  | 
+| TP12 | 1 | ADC 3 IN | TestPoint | JumperlessFootprints:TestPoint_D0.75mm | test point |  |  | 
+| TP13 | 1 | -8V | TestPoint | JumperlessFootprints:TestPoint_D0.75mm | test point |  |  | 
+| TP14 | 1 | +8V | TestPoint | JumperlessFootprints:TestPoint_D0.75mm | test point |  |  | 
+| TP15 | 1 | LED DOUT | TestPoint | JumperlessFootprints:TestPoint_Pad_D1.0mm | test point |  |  | 
+| TP16 | 1 | GPIO 0 | TestPoint | TestPoint:TestPoint_Pad_D1.0mm | test point |  |  | 
+| TP17 | 1 | LED DIN | TestPoint | JumperlessFootprints:TestPoint_Pad_D1.0mm | test point |  |  | 
+| TP18 | 1 | GPIO 0 | TestPoint | JumperlessFootprints:PINHEADER-1x1_vertical | test point |  |  | 
+| TP20, TP21 | 2 | LED DOUT | TestPoint | JumperlessFootprints:PINHEADER-1x1_vertical | test point |  |  | 
+| TP22, TP23 | 2 | TestPoint | TestPoint | Symbol:BackMaskWindows | test point |  |  | 
+| U1 | 1 | LT1054 | LT1054L | JumperlessFootprints:DIP-8_W7.62mm | Switched-Capacitor Voltage Converter with Regulator, output current 125mA, operating range 3.5V to 15V, low loss 1.1V at 100mA, DIP-8/SO-8 |  |  | 
+| U2 | 1 | NCP1117-3.3_SOT223 | NCP1117-3.3_SOT223 | Package_TO_SOT_SMD:SOT-223-3_TabPin2 | 1A Low drop-out regulator, Fixed Output 3.3V, SOT-223 |  |  | 
+| U4, U6 | 2 | INA219 | INA219AxD | Package_SO:SOIC-8_3.9x4.9mm_P1.27mm | Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOIC-8 |  |  | 
+| U7, U11 | 2 | LM324 | LM324 | Package_SO:SOIC-14_3.9x8.7mm_P1.27mm | Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14 |  |  | 
+| U8 | 1 | W25Q128JVS | W25Q128JVS | Package_SO:SOIC-8_5.23x5.23mm_P1.27mm |  |  |  | 
+| U9 | 1 | RP2040 | RP2040 | RP2040_minimal:RP2040-QFN-56 |  |  |  | 
+| U10 | 1 | L272D | L272D | Package_SO:SOIC-16_3.9x9.9mm_P1.27mm | Dual Power Operation Amplifier, SOIC-16 |  |  | 
+| U12 | 1 | MCP4822 | MCP4822 | Package_SO:SOIC-8_3.9x4.9mm_P1.27mm | 2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V) |  |  | 
+| Y1 | 1 | ABLS-12.000MHZ-B4-T | Crystal_GND24_Small | Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm | Four pin crystal, GND on pins 2 and 4, small symbol |  |  | 
 
 
 

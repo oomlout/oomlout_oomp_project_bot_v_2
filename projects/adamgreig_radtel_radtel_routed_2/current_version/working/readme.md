@@ -15,6 +15,7 @@
 * full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adamgreig_radtel_radtel_routed_2/current_version/working  
 
 
+
 ## pcb  
 ![](working_3d_600.png) 
 ![](working_3d_front_600.png)  
@@ -25,12 +26,12 @@
 ## working_bom
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| 1 | C1,C2,C5,C10 | C0603 | 4 | 1µ |  |  | [''] | 
+| 1 | C1,C2,C5,C10 | C0603 | 4 | 1Âµ |  |  | [''] | 
 | 2 | C3 | C0603 | 1 | 1n |  |  | [''] | 
 | 3 | C4 | C0603 | 1 | 3pF |  |  | [''] | 
 | 4 | C6,C11,C12,C20 | C0603 | 4 | 100n |  |  | [''] | 
 | 5 | C7 | C0603 | 1 | 1pF |  |  | [''] | 
-| 6 | C8,C9 | C0603 | 2 | 10µ |  |  | [''] | 
+| 6 | C8,C9 | C0603 | 2 | 10Âµ |  |  | [''] | 
 | 7 | C13 | C0603 | 1 | 10n |  |  | [''] | 
 | 8 | C14 | C0603 | 1 | 47pF |  |  | [''] | 
 | 9 | C15 | C0603 | 1 | 5.1pF |  |  | [''] | 

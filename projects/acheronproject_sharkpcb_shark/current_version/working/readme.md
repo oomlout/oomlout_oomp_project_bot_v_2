@@ -17,7 +17,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -102,7 +123,7 @@
 | R45, R46, R47, R48, R49, R50, R51, R52, R53, R54, R55, R56, R59, R60, R61, R62, R63, R64, R65, R66, R68, R71, R72, R73, R74, R75, R76, R77, R78, R80, R81, R88, R89, R90, R91, R92 | 36 | 1k | R_Small | Resistor_SMD:R_0805_2012Metric | Resistor, small symbol |  |  | 
 | R57, R58, R67, R69, R70, R79, R82, R83, R84, R85, R86, R87 | 12 | 1k | R_Small | Resistor_SMD:R_0402_1005Metric | Resistor, small symbol |  |  | 
 | SW2 | 1 | K2-1187SQ-A4SW-06 | SW_SPST | acheron_Hardware:K2-1187SQ-A4SW-06 | Single Pole Single Throw (SPST) switch |  |  | 
-| U1 | 1 | STM32F411CEU6 | STM32F411-48 | acheron_Components:STM_UFQFPN-48_LQFP-48-1EP_7x7mm_P0.5mm_HandSoldering_ThermalReliefs | UFQFPN-48 Arm® Cortex®-M4 32bits MCU+FPU, 125 DMIPS, 512KB Flash,   128KB RAM, USB OTG FS, 11 TIMs, 1 ADC, 13 comm. interfaces |  |  | 
+| U1 | 1 | STM32F411CEU6 | STM32F411-48 | acheron_Components:STM_UFQFPN-48_LQFP-48-1EP_7x7mm_P0.5mm_HandSoldering_ThermalReliefs | UFQFPN-48 ArmÂ® CortexÂ®-M4 32bits MCU+FPU, 125 DMIPS, 512KB Flash,   128KB RAM, USB OTG FS, 11 TIMs, 1 ADC, 13 comm. interfaces |  |  | 
 | U2 | 1 | USBLC6-2SC6 | USBLC6-2SC6 | acheron_Components:SOT-23-6 | Very low capacitance ESD protection diode, 2 data-line, SOT-23-6 |  |  | 
 | U3 | 1 | AT24C256C-SSHL-T | 24LC256 | acheron_Components:SOIC-8 | I2C Serial EEPROM, 256Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8 |  |  | 
 | U4 | 1 | SGM2007-3.3XN5/TR | SGM2036 | acheron_Components:SOT-23-5 | 300mA, Low Power, Low Dropout Linear Regulators |  |  | 
@@ -115,7 +136,7 @@
 | --- | --- | --- | --- | --- | --- | 
 | 190.0 | 38.0 | shark_3mm_tht_mountinghole | MountingHole | H1 | m3 | 
 | 0.0 | 38.0 | shark_3mm_tht_mountinghole | MountingHole | H2 | m3 | 
-| 94.975 | 18.975 | shark_3mm_tht_mountinghole | MountingHole | H3 | m3 | 
+| 94.97 | 18.98 | shark_3mm_tht_mountinghole | MountingHole | H3 | m3 | 
 | 0.0 | 0.0 | shark_3mm_tht_mountinghole | MountingHole | H4 | m3 | 
 | 190.0 | 0.0 | shark_3mm_tht_mountinghole | MountingHole | H5 | m3 | 
 

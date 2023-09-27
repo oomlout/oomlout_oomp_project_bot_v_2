@@ -1,9 +1,107 @@
 board: pmod_to_qwiic
+bom:
+- Id: '1'
+  Designator: J1
+  Footprint: PinHeader_1x06_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: PMOD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J2,J3
+  Footprint: JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal
+  Quantity: '2'
+  Designation: Conn_Stemma_QT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: G***
+  Footprint: SolderParty-New-Logo_5x4.2mm_SilkScreen
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1\
+  \ | PinHeader_1x06_P2.54mm_Vertical | 1 | PMOD |  |  | [''] | \n| 2 | J2,J3 | JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal\
+  \ | 2 | Conn_Stemma_QT |  |  | [''] | \n| 3 | G*** | SolderParty-New-Logo_5x4.2mm_SilkScreen\
+  \ | 1 | LOGO |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Conn_01x06
+  DNP: ''
+  Description: Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J1
+  Value: PMOD
+  Vendor: ''
+- Cmp name: Conn_01x04
+  DNP: ''
+  Description: Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal
+  Qnty: '2'
+  Ref: J2, J3
+  Value: Conn_Stemma_QT
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| J1 |\
+  \ 1 | PMOD | Conn_01x06 | Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J2, J3 | 2 | Conn_Stemma_QT | Conn_01x04 | Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal\
+  \ | Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/solderparty_pmod_to_qwiic_adapter_pmod_to_qwiic/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/solderparty_pmod_to_qwiic_adapter_pmod_to_qwiic/current_version/working/working.kicad_sch
 id: solderparty_pmod_to_qwiic_adapter_pmod_to_qwiic
 name: pmod_to_qwiic_adapter
+position_bottom:
+- '# Ref': G***
+  Package: SolderParty-New-Logo_5x4.2mm_SilkScreen
+  PosX: 39.9
+  PosY: -1.3
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | SolderParty-New-Logo_5x4.2mm_SilkScreen\
+  \ | 39.9 | -1.3 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': J1
+  Package: PinHeader_1x06_P2.54mm_Vertical
+  PosX: 41.4
+  PosY: -4.8
+  Rot: -90.0
+  Side: top
+  Val: PMOD
+- '# Ref': J2
+  Package: JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal
+  PosX: 31.15
+  PosY: 0.75
+  Rot: 180.0
+  Side: top
+  Val: Conn_Stemma_QT
+- '# Ref': J3
+  Package: JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal
+  PosX: 38.95
+  PosY: 0.75
+  Rot: 180.0
+  Side: top
+  Val: Conn_Stemma_QT
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J1 | PMOD | PinHeader_1x06_P2.54mm_Vertical\
+  \ | 41.4 | -4.8 | -90.0 | top | \n| J2 | Conn_Stemma_QT | JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal\
+  \ | 31.15 | 0.75 | 180.0 | top | \n| J3 | Conn_Stemma_QT | JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal\
+  \ | 38.95 | 0.75 | 180.0 | top | \n"
 projects_flat: projects/solderparty_pmod_to_qwiic_adapter_pmod_to_qwiic/current_version/working
 repo:
   allow_forking: true

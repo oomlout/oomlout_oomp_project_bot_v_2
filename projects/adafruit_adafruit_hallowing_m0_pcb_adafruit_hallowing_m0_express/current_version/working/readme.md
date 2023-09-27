@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -63,9 +84,9 @@
 | 34 | U5 | MSOP8_0.65MM | 1 | PAM8302AASCR |  |  | [''] | 
 | 35 | R7 | 0603-NO | 1 | 2.2K |  |  | [''] | 
 | 36 | U$13 | 53398-0271 | 1 | CON_MOLEX_2P |  |  | [''] | 
-| 37 | C3,C6 | 0805-NO | 2 | 10µF |  |  | [''] | 
+| 37 | C3,C6 | 0805-NO | 2 | 10ÂµF |  |  | [''] | 
 | 38 | Q3 | SOT23-WIDE | 1 | BSS138 |  |  | [''] | 
-| 39 | C8 | 0805_10MGAP | 1 | 10µF |  |  | [''] | 
+| 39 | C8 | 0805_10MGAP | 1 | 10ÂµF |  |  | [''] | 
 | 40 | D4 | SOD-123 | 1 | MBR120 |  |  | [''] | 
 | 41 | L0 | CHIPLED_0805_NOOUTLINE | 1 | RED |  |  | [''] | 
 | 42 | SW1 | KMR2 | 1 | SPST_TACT-KMR2 |  |  | [''] | 
@@ -78,9 +99,9 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C2, C4, C7, C9, C13, C14 | 7 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C3, C6 | 2 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6 | 2 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C5, C10, C15 | 3 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C8 | 1 | 10µF | CAP_CERAMIC0805_10MGAP | working:0805_10MGAP |  |  |  | 
+| C8 | 1 | 10ÂµF | CAP_CERAMIC0805_10MGAP | working:0805_10MGAP |  |  |  | 
 | C11 | 1 | 10uF | CAP_CERAMIC0805_10MGAP | working:0805_10MGAP |  |  |  | 
 | CHG0 | 1 | ORANGE | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 
 | D1, D2 | 2 | 3.6V | DIODE-ZENERSOD323 | working:SOD-323 |  |  |  | 

@@ -1,10 +1,447 @@
 board: led_board_mw
+bom:
+- Id: '1'
+  Designator: C1,C2
+  Footprint: CP_Radial_D6.3mm_P2.50mm
+  Quantity: '2'
+  Designation: UFW1H470MED1TD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C3,C4
+  Footprint: C0805
+  Quantity: '2'
+  Designation: CL21A475KACLRNC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C5,C6
+  Footprint: C0805
+  Quantity: '2'
+  Designation: CL21B224KBFNNNE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C7,C8
+  Footprint: C1206
+  Quantity: '2'
+  Designation: C1206C105K3RACAUTO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: D1
+  Footprint: MSP3V3
+  Quantity: '1'
+  Designation: MSP3V3-M3_89A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: D2,D3
+  Footprint: D_SOD-123
+  Quantity: '2'
+  Designation: MBR0540T1G
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: L1,L2
+  Footprint: SRN8040-220M
+  Quantity: '2'
+  Designation: SRN8040-220M
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R1,R2
+  Footprint: P0915N-FC15BR10K
+  Quantity: '2'
+  Designation: P0915N-EC15BR100K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R3,R4
+  Footprint: R2512
+  Quantity: '2'
+  Designation: WSLT2512R5000FEA
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: SP1
+  Footprint: ARDUINO_A000053
+  Quantity: '1'
+  Designation: Arduino_Micro
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: T1,T2,T3
+  Footprint: PhoenixContact_MSTBVA-G_02x5.08mm_Vertical
+  Quantity: '3'
+  Designation: '1755736'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U1,U2
+  Footprint: SOT-23-6_Handsoldering
+  Quantity: '2'
+  Designation: TPS61165DBVR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C2\
+  \ | CP_Radial_D6.3mm_P2.50mm | 2 | UFW1H470MED1TD |  |  | [''] | \n| 2 | C3,C4 |\
+  \ C0805 | 2 | CL21A475KACLRNC |  |  | [''] | \n| 3 | C5,C6 | C0805 | 2 | CL21B224KBFNNNE\
+  \ |  |  | [''] | \n| 4 | C7,C8 | C1206 | 2 | C1206C105K3RACAUTO |  |  | [''] | \n\
+  | 5 | D1 | MSP3V3 | 1 | MSP3V3-M3_89A |  |  | [''] | \n| 6 | D2,D3 | D_SOD-123 |\
+  \ 2 | MBR0540T1G |  |  | [''] | \n| 7 | L1,L2 | SRN8040-220M | 2 | SRN8040-220M\
+  \ |  |  | [''] | \n| 8 | R1,R2 | P0915N-FC15BR10K | 2 | P0915N-EC15BR100K |  | \
+  \ | [''] | \n| 9 | R3,R4 | R2512 | 2 | WSLT2512R5000FEA |  |  | [''] | \n| 10 |\
+  \ SP1 | ARDUINO_A000053 | 1 | Arduino_Micro |  |  | [''] | \n| 11 | T1,T2,T3 | PhoenixContact_MSTBVA-G_02x5.08mm_Vertical\
+  \ | 3 | 1755736 |  |  | [''] | \n| 12 | U1,U2 | SOT-23-6_Handsoldering | 2 | TPS61165DBVR\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: UFW1H470MED1TD-AVR-KiCAD-Lib-Capacitors
+  DNP: ''
+  Description: ''
+  Footprint: AVR-KiCAD-Lib-Capacitors:CP_Radial_D6.3mm_P2.50mm
+  Qnty: '2'
+  Ref: C1, C2
+  Value: UFW1H470MED1TD
+  Vendor: Digikey
+- Cmp name: CL21A475KACLRNC-AVR-KiCAD-Lib-Capacitors
+  DNP: ''
+  Description: ''
+  Footprint: AVR-KiCAD-Lib-Capacitors:C0805
+  Qnty: '2'
+  Ref: C3, C4
+  Value: CL21A475KACLRNC
+  Vendor: Digikey
+- Cmp name: CL21B224KBFNNNE-AVR-KiCAD-Lib-Capacitors
+  DNP: ''
+  Description: ''
+  Footprint: AVR-KiCAD-Lib-Capacitors:C0805
+  Qnty: '2'
+  Ref: C5, C6
+  Value: CL21B224KBFNNNE
+  Vendor: Digikey
+- Cmp name: C1206C105K3RACAUTO-AVR-KiCAD-Lib-Capacitors
+  DNP: ''
+  Description: ''
+  Footprint: AVR-KiCAD-Lib-Capacitors:C1206
+  Qnty: '2'
+  Ref: C7, C8
+  Value: C1206C105K3RACAUTO
+  Vendor: Digikey
+- Cmp name: MSP3V3-M3_89A-AVR-KiCAD-Lib-Diodes
+  DNP: ''
+  Description: ''
+  Footprint: growbox-KiCAD-Diodes:MSP3V3
+  Qnty: '1'
+  Ref: D1
+  Value: MSP3V3-M3_89A
+  Vendor: Digikey
+- Cmp name: MBR0540T1G-AVR-KiCAD-Lib-Diodes
+  DNP: ''
+  Description: ''
+  Footprint: AVR-KiCAD-Lib-Diodes:D_SOD-123
+  Qnty: '2'
+  Ref: D2, D3
+  Value: MBR0540T1G
+  Vendor: Digikey
+- Cmp name: SRN8040-220M-AVR-KiCAD-Lib-Inductors
+  DNP: ''
+  Description: ''
+  Footprint: AVR-KiCAD-Lib-Inductors:SRN8040-220M
+  Qnty: '2'
+  Ref: L1, L2
+  Value: SRN8040-220M
+  Vendor: Digikey
+- Cmp name: P0915N-EC15BR100K-AVR-KiCAD-Lib-Potentiometers
+  DNP: ''
+  Description: ''
+  Footprint: AVR-KiCAD-Lib-Potentiometers:P0915N-FC15BR10K
+  Qnty: '2'
+  Ref: R1, R2
+  Value: P0915N-EC15BR100K
+  Vendor: Digikey
+- Cmp name: WSLT2512R5000FEA-AVR-KiCAD-Lib-Resistors
+  DNP: ''
+  Description: ''
+  Footprint: AVR-KiCAD-Lib-Resistors:R2512
+  Qnty: '2'
+  Ref: R3, R4
+  Value: WSLT2512R5000FEA
+  Vendor: Digikey
+- Cmp name: Arduino_Micro-AVR-KiCAD-Lib-Special
+  DNP: ''
+  Description: ''
+  Footprint: AVR-KiCAD-Lib-Special:ARDUINO_A000053
+  Qnty: '1'
+  Ref: SP1
+  Value: Arduino_Micro
+  Vendor: Digikey
+- Cmp name: 1755736-AVR-KiCAD-Lib-Connectors
+  DNP: ''
+  Description: ''
+  Footprint: growbox-KiCAD-Connectors:PhoenixContact_MSTBVA-G_02x5.08mm_Vertical
+  Qnty: '3'
+  Ref: T1, T2, T3
+  Value: '1755736'
+  Vendor: Digikey
+- Cmp name: TPS61165DBVR-AVR-KiCAD-Lib-ICs
+  DNP: ''
+  Description: ''
+  Footprint: AVR-KiCAD-Lib-ICs:SOT-23-6_Handsoldering
+  Qnty: '2'
+  Ref: U1, U2
+  Value: TPS61165DBVR
+  Vendor: Digikey
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2\
+  \ | 2 | UFW1H470MED1TD | UFW1H470MED1TD-AVR-KiCAD-Lib-Capacitors | AVR-KiCAD-Lib-Capacitors:CP_Radial_D6.3mm_P2.50mm\
+  \ |  | Digikey |  | \n| C3, C4 | 2 | CL21A475KACLRNC | CL21A475KACLRNC-AVR-KiCAD-Lib-Capacitors\
+  \ | AVR-KiCAD-Lib-Capacitors:C0805 |  | Digikey |  | \n| C5, C6 | 2 | CL21B224KBFNNNE\
+  \ | CL21B224KBFNNNE-AVR-KiCAD-Lib-Capacitors | AVR-KiCAD-Lib-Capacitors:C0805 |\
+  \  | Digikey |  | \n| C7, C8 | 2 | C1206C105K3RACAUTO | C1206C105K3RACAUTO-AVR-KiCAD-Lib-Capacitors\
+  \ | AVR-KiCAD-Lib-Capacitors:C1206 |  | Digikey |  | \n| D1 | 1 | MSP3V3-M3_89A\
+  \ | MSP3V3-M3_89A-AVR-KiCAD-Lib-Diodes | growbox-KiCAD-Diodes:MSP3V3 |  | Digikey\
+  \ |  | \n| D2, D3 | 2 | MBR0540T1G | MBR0540T1G-AVR-KiCAD-Lib-Diodes | AVR-KiCAD-Lib-Diodes:D_SOD-123\
+  \ |  | Digikey |  | \n| L1, L2 | 2 | SRN8040-220M | SRN8040-220M-AVR-KiCAD-Lib-Inductors\
+  \ | AVR-KiCAD-Lib-Inductors:SRN8040-220M |  | Digikey |  | \n| R1, R2 | 2 | P0915N-EC15BR100K\
+  \ | P0915N-EC15BR100K-AVR-KiCAD-Lib-Potentiometers | AVR-KiCAD-Lib-Potentiometers:P0915N-FC15BR10K\
+  \ |  | Digikey |  | \n| R3, R4 | 2 | WSLT2512R5000FEA | WSLT2512R5000FEA-AVR-KiCAD-Lib-Resistors\
+  \ | AVR-KiCAD-Lib-Resistors:R2512 |  | Digikey |  | \n| SP1 | 1 | Arduino_Micro\
+  \ | Arduino_Micro-AVR-KiCAD-Lib-Special | AVR-KiCAD-Lib-Special:ARDUINO_A000053\
+  \ |  | Digikey |  | \n| T1, T2, T3 | 3 | 1755736 | 1755736-AVR-KiCAD-Lib-Connectors\
+  \ | growbox-KiCAD-Connectors:PhoenixContact_MSTBVA-G_02x5.08mm_Vertical |  | Digikey\
+  \ |  | \n| U1, U2 | 2 | TPS61165DBVR | TPS61165DBVR-AVR-KiCAD-Lib-ICs | AVR-KiCAD-Lib-ICs:SOT-23-6_Handsoldering\
+  \ |  | Digikey |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamjvr_led_board_mw_led_board_mw/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamjvr_led_board_mw_led_board_mw/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adamjvr_led_board_mw_led_board_mw/current_version/working/working.sch
 id: adamjvr_led_board_mw_led_board_mw
 name: led_board_mw
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: CP_Radial_D6.3mm_P2.50mm
+  PosX: 131.25
+  PosY: -78.75
+  Rot: 0.0
+  Side: top
+  Val: UFW1H470MED1TD
+- '# Ref': C2
+  Package: CP_Radial_D6.3mm_P2.50mm
+  PosX: 126.75
+  PosY: -78.75
+  Rot: 180.0
+  Side: top
+  Val: UFW1H470MED1TD
+- '# Ref': C3
+  Package: C0805
+  PosX: 182.5
+  PosY: -103.0
+  Rot: 0.0
+  Side: top
+  Val: CL21A475KACLRNC
+- '# Ref': C4
+  Package: C0805
+  PosX: 185.0478
+  PosY: -67.003
+  Rot: 0.0
+  Side: top
+  Val: CL21A475KACLRNC
+- '# Ref': C5
+  Package: C0805
+  PosX: 191.5
+  PosY: -110.25
+  Rot: 0.0
+  Side: top
+  Val: CL21B224KBFNNNE
+- '# Ref': C6
+  Package: C0805
+  PosX: 177.0678
+  PosY: -74.853
+  Rot: 0.0
+  Side: top
+  Val: CL21B224KBFNNNE
+- '# Ref': C7
+  Package: C1206
+  PosX: 170.25
+  PosY: -81.5
+  Rot: 0.0
+  Side: top
+  Val: C1206C105K3RACAUTO
+- '# Ref': C8
+  Package: C1206
+  PosX: 161.5
+  PosY: -86.5
+  Rot: 0.0
+  Side: top
+  Val: C1206C105K3RACAUTO
+- '# Ref': D1
+  Package: MSP3V3
+  PosX: 119.25
+  PosY: -76.25
+  Rot: -90.0
+  Side: top
+  Val: MSP3V3-M3_89A
+- '# Ref': D2
+  Package: D_SOD-123
+  PosX: 189.75
+  PosY: -116.75
+  Rot: 0.0
+  Side: top
+  Val: MBR0540T1G
+- '# Ref': D3
+  Package: D_SOD-123
+  PosX: 203.0
+  PosY: -87.25
+  Rot: 0.0
+  Side: top
+  Val: MBR0540T1G
+- '# Ref': L1
+  Package: SRN8040-220M
+  PosX: 176.25
+  PosY: -109.0
+  Rot: 0.0
+  Side: top
+  Val: SRN8040-220M
+- '# Ref': L2
+  Package: SRN8040-220M
+  PosX: 194.25
+  PosY: -83.25
+  Rot: 0.0
+  Side: top
+  Val: SRN8040-220M
+- '# Ref': R1
+  Package: P0915N-FC15BR10K
+  PosX: 91.5
+  PosY: -96.0
+  Rot: 90.0
+  Side: top
+  Val: P0915N-EC15BR100K
+- '# Ref': R2
+  Package: P0915N-FC15BR10K
+  PosX: 91.5
+  PosY: -109.25
+  Rot: 90.0
+  Side: top
+  Val: P0915N-EC15BR100K
+- '# Ref': R3
+  Package: R2512
+  PosX: 190.25
+  PosY: -104.25
+  Rot: 0.0
+  Side: top
+  Val: WSLT2512R5000FEA
+- '# Ref': R4
+  Package: R2512
+  PosX: 146.8698
+  PosY: -93.8
+  Rot: 0.0
+  Side: top
+  Val: WSLT2512R5000FEA
+- '# Ref': SP1
+  Package: ARDUINO_A000053
+  PosX: 108.5
+  PosY: -90.4
+  Rot: 0.0
+  Side: top
+  Val: Arduino_Micro
+- '# Ref': T1
+  Package: PhoenixContact_MSTBVA-G_02x5.08mm_Vertical
+  PosX: 126.5
+  PosY: -71.0
+  Rot: 0.0
+  Side: top
+  Val: '1755736'
+- '# Ref': T2
+  Package: PhoenixContact_MSTBVA-G_02x5.08mm_Vertical
+  PosX: 150.7148
+  PosY: -71.735
+  Rot: 0.0
+  Side: top
+  Val: '1755736'
+- '# Ref': T3
+  Package: PhoenixContact_MSTBVA-G_02x5.08mm_Vertical
+  PosX: 214.0
+  PosY: -81.5
+  Rot: -90.0
+  Side: top
+  Val: '1755736'
+- '# Ref': U1
+  Package: SOT-23-6_Handsoldering
+  PosX: 185.0
+  PosY: -109.5
+  Rot: 0.0
+  Side: top
+  Val: TPS61165DBVR
+- '# Ref': U2
+  Package: SOT-23-6_Handsoldering
+  PosX: 204.0
+  PosY: -81.5
+  Rot: 0.0
+  Side: top
+  Val: TPS61165DBVR
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | UFW1H470MED1TD | CP_Radial_D6.3mm_P2.50mm\
+  \ | 131.25 | -78.75 | 0.0 | top | \n| C2 | UFW1H470MED1TD | CP_Radial_D6.3mm_P2.50mm\
+  \ | 126.75 | -78.75 | 180.0 | top | \n| C3 | CL21A475KACLRNC | C0805 | 182.5 | -103.0\
+  \ | 0.0 | top | \n| C4 | CL21A475KACLRNC | C0805 | 185.0478 | -67.003 | 0.0 | top\
+  \ | \n| C5 | CL21B224KBFNNNE | C0805 | 191.5 | -110.25 | 0.0 | top | \n| C6 | CL21B224KBFNNNE\
+  \ | C0805 | 177.0678 | -74.853 | 0.0 | top | \n| C7 | C1206C105K3RACAUTO | C1206\
+  \ | 170.25 | -81.5 | 0.0 | top | \n| C8 | C1206C105K3RACAUTO | C1206 | 161.5 | -86.5\
+  \ | 0.0 | top | \n| D1 | MSP3V3-M3_89A | MSP3V3 | 119.25 | -76.25 | -90.0 | top\
+  \ | \n| D2 | MBR0540T1G | D_SOD-123 | 189.75 | -116.75 | 0.0 | top | \n| D3 | MBR0540T1G\
+  \ | D_SOD-123 | 203.0 | -87.25 | 0.0 | top | \n| L1 | SRN8040-220M | SRN8040-220M\
+  \ | 176.25 | -109.0 | 0.0 | top | \n| L2 | SRN8040-220M | SRN8040-220M | 194.25\
+  \ | -83.25 | 0.0 | top | \n| R1 | P0915N-EC15BR100K | P0915N-FC15BR10K | 91.5 |\
+  \ -96.0 | 90.0 | top | \n| R2 | P0915N-EC15BR100K | P0915N-FC15BR10K | 91.5 | -109.25\
+  \ | 90.0 | top | \n| R3 | WSLT2512R5000FEA | R2512 | 190.25 | -104.25 | 0.0 | top\
+  \ | \n| R4 | WSLT2512R5000FEA | R2512 | 146.8698 | -93.8 | 0.0 | top | \n| SP1 |\
+  \ Arduino_Micro | ARDUINO_A000053 | 108.5 | -90.4 | 0.0 | top | \n| T1 | 1755736\
+  \ | PhoenixContact_MSTBVA-G_02x5.08mm_Vertical | 126.5 | -71.0 | 0.0 | top | \n\
+  | T2 | 1755736 | PhoenixContact_MSTBVA-G_02x5.08mm_Vertical | 150.7148 | -71.735\
+  \ | 0.0 | top | \n| T3 | 1755736 | PhoenixContact_MSTBVA-G_02x5.08mm_Vertical |\
+  \ 214.0 | -81.5 | -90.0 | top | \n| U1 | TPS61165DBVR | SOT-23-6_Handsoldering |\
+  \ 185.0 | -109.5 | 0.0 | top | \n| U2 | TPS61165DBVR | SOT-23-6_Handsoldering |\
+  \ 204.0 | -81.5 | 0.0 | top | \n"
 projects_flat: projects/adamjvr_led_board_mw_led_board_mw/current_version/working
 repo:
   allow_forking: true

@@ -1,10 +1,93 @@
 board: raspibbhat
+bom:
+- Id: '1'
+  Designator: J2,J4
+  Footprint: PinSocket_1x16_P2.54mm_Vertical
+  Quantity: '2'
+  Designation: Conn_01x16
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J1,J3
+  Footprint: PinSocket_1x03_P2.54mm_Vertical
+  Quantity: '2'
+  Designation: Conn_01x03
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J5
+  Footprint: PinHeader_2x20_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Raspberry_Pi_2_3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J2,J4\
+  \ | PinSocket_1x16_P2.54mm_Vertical | 2 | Conn_01x16 |  |  | [''] | \n| 2 | J1,J3\
+  \ | PinSocket_1x03_P2.54mm_Vertical | 2 | Conn_01x03 |  |  | [''] | \n| 3 | J5 |\
+  \ PinHeader_2x20_P2.54mm_Vertical | 1 | Raspberry_Pi_2_3 |  |  | [''] | \n"
+bom_schematic: []
+bom_schematic_markdown: no data
 counter: 1
 file_kicad_pcb_flat: projects/asukiaaa_raspibbhat_raspibbhat/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asukiaaa_raspibbhat_raspibbhat/current_version/working/working.kicad_pcb
 file_sch_flat: projects/asukiaaa_raspibbhat_raspibbhat/current_version/working/working.sch
 id: asukiaaa_raspibbhat_raspibbhat
 name: raspibbhat
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': J1
+  Package: PinSocket_1x03_P2.54mm_Vertical
+  PosX: 78.105
+  PosY: -81.28
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x03
+- '# Ref': J2
+  Package: PinSocket_1x16_P2.54mm_Vertical
+  PosX: 118.745
+  PosY: -81.28
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x16
+- '# Ref': J3
+  Package: PinSocket_1x03_P2.54mm_Vertical
+  PosX: 78.105
+  PosY: -119.38
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x03
+- '# Ref': J4
+  Package: PinSocket_1x16_P2.54mm_Vertical
+  PosX: 118.745
+  PosY: -119.38
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x16
+- '# Ref': J5
+  Package: PinHeader_2x20_P2.54mm_Vertical
+  PosX: 123.825
+  PosY: -76.2
+  Rot: 0.0
+  Side: top
+  Val: Raspberry_Pi_2_3
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J1 | Conn_01x03 | PinSocket_1x03_P2.54mm_Vertical\
+  \ | 78.105 | -81.28 | 180.0 | top | \n| J2 | Conn_01x16 | PinSocket_1x16_P2.54mm_Vertical\
+  \ | 118.745 | -81.28 | -90.0 | top | \n| J3 | Conn_01x03 | PinSocket_1x03_P2.54mm_Vertical\
+  \ | 78.105 | -119.38 | 0.0 | top | \n| J4 | Conn_01x16 | PinSocket_1x16_P2.54mm_Vertical\
+  \ | 118.745 | -119.38 | -90.0 | top | \n| J5 | Raspberry_Pi_2_3 | PinHeader_2x20_P2.54mm_Vertical\
+  \ | 123.825 | -76.2 | 0.0 | top | \n"
 projects_flat: projects/asukiaaa_raspibbhat_raspibbhat/current_version/working
 repo:
   allow_forking: true

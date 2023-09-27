@@ -1,10 +1,78 @@
 board: arduino_fio
+bom:
+- Id: '1'
+  Designator: P1
+  Footprint: Socket_Strip_Straight_1x14
+  Quantity: '1'
+  Designation: Digital
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: P2
+  Footprint: Socket_Strip_Straight_1x14
+  Quantity: '1'
+  Designation: Analog
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | P1\
+  \ | Socket_Strip_Straight_1x14 | 1 | Digital |  |  | [''] | \n| 2 | P2 | Socket_Strip_Straight_1x14\
+  \ | 1 | Analog |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CONN_01X14
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Fio:Socket_Strip_Straight_1x14
+  Qnty: '1'
+  Ref: P1
+  Value: Digital
+  Vendor: ''
+- Cmp name: CONN_01X14
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Fio:Socket_Strip_Straight_1x14
+  Qnty: '1'
+  Ref: P2
+  Value: Analog
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| P1 |\
+  \ 1 | Digital | CONN_01X14 | Socket_Arduino_Fio:Socket_Strip_Straight_1x14 |  |\
+  \  |  | \n| P2 | 1 | Analog | CONN_01X14 | Socket_Arduino_Fio:Socket_Strip_Straight_1x14\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/asutp_kicad_library_arduino_fio/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asutp_kicad_library_arduino_fio/current_version/working/working.kicad_pcb
 file_sch_flat: projects/asutp_kicad_library_arduino_fio/current_version/working/working.sch
 id: asutp_kicad_library_arduino_fio
 name: kicad_library
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': P1
+  Package: Socket_Strip_Straight_1x14
+  PosX: 1.27
+  PosY: 34.29
+  Rot: -90.0
+  Side: top
+  Val: Digital
+- '# Ref': P2
+  Package: Socket_Strip_Straight_1x14
+  PosX: 24.13
+  PosY: 34.29
+  Rot: -90.0
+  Side: top
+  Val: Analog
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| P1 | Digital | Socket_Strip_Straight_1x14\
+  \ | 1.27 | 34.29 | -90.0 | top | \n| P2 | Analog | Socket_Strip_Straight_1x14 |\
+  \ 24.13 | 34.29 | -90.0 | top | \n"
 projects_flat: projects/asutp_kicad_library_arduino_fio/current_version/working
 repo:
   allow_forking: true

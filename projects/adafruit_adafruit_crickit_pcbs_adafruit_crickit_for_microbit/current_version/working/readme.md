@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -27,7 +48,7 @@
 ## working_bom
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| 1 | R4,R3 | _1206 | 2 | 0.2Ω |  |  | [''] | 
+| 1 | R4,R3 | _1206 | 2 | 0.2Î© |  |  | [''] | 
 | 2 | TP29,TP30,TP32,TP31 | PCB_ALLI | 4 | SEWTAPPCB_ALLIGATOR |  |  | [''] | 
 | 3 | U5 | MSOP8_0.65MM | 1 | PAM8302AASCR |  |  | [''] | 
 | 4 | R6,R5,R7,R18,R15,R2 | 0603-NO | 6 | 2.2K |  |  | [''] | 
@@ -37,7 +58,7 @@
 | 8 | R12,R13 | 0805-NO | 2 | 100 |  |  | [''] | 
 | 9 | C10 | PANASONIC_C | 1 | 47uF+/16v |  |  | [''] | 
 | 10 | C17,C15,C16,C2,C21,C7,C19 | 0805-NO | 7 | 10uF |  |  | [''] | 
-| 11 | C5 | 0805-NO | 1 | 10µF |  |  | [''] | 
+| 11 | C5 | 0805-NO | 1 | 10ÂµF |  |  | [''] | 
 | 12 | POWERFAIL0 | CHIPLED_0805_NOOUTLINE | 1 | red |  |  | [''] | 
 | 13 | NEOPIX0 | TERMBLOCK_1X3-3.5MM | 1 | 3.5mm |  |  | [''] | 
 | 14 | ON/OFF0 | EG1390 | 1 | MSS-22C01G2 |  |  | [''] | 
@@ -54,7 +75,7 @@
 | 25 | D1,D2 | SOD-323 | 2 | 1N4148 |  |  | [''] | 
 | 26 | IC2 | SO16 | 1 | ULN2003AD |  |  | [''] | 
 | 27 | U$74 | CRICKIT_WING_TOP | 1 |  |  |  | [''] | 
-| 28 | C1,C4 | 0805-NO | 2 | 10µF/16V |  |  | [''] | 
+| 28 | C1,C4 | 0805-NO | 2 | 10ÂµF/16V |  |  | [''] | 
 | 29 | CN1 | 4UCONN_20329_V2 | 1 | 4U#20329 |  |  | [''] | 
 | 30 | X2 | DCJACK_2MM_PTH | 1 | 2.1mm DC |  |  | [''] | 
 | 31 | JP5 | 1X01_ROUND | 1 |  |  |  | [''] | 
@@ -90,13 +111,13 @@ no data
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 21.58999999999999 | 0.0 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$41 | m3 | 
-| 53.848 | 0.0 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$42 | m3 | 
-| 0.0 | 21.590000000000003 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$43 | m3 | 
-| 75.438 | 21.590000000000003 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$44 | m3 | 
-| 75.438 | 53.848 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$49 | m3 | 
-| 0.0 | 53.848 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$50 | m3 | 
-| 21.58999999999999 | 75.438 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$51 | m3 | 
-| 53.848 | 75.438 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$52 | m3 | 
+| 21.59 | 0.0 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$41 | m3 | 
+| 53.85 | 0.0 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$42 | m3 | 
+| 0.0 | 21.59 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$43 | m3 | 
+| 75.44 | 21.59 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$44 | m3 | 
+| 75.44 | 53.85 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$49 | m3 | 
+| 0.0 | 53.85 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$50 | m3 | 
+| 21.59 | 75.44 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$51 | m3 | 
+| 53.85 | 75.44 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$52 | m3 | 
 
 

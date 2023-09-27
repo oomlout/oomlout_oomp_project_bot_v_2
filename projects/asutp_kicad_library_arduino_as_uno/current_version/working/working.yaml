@@ -1,10 +1,184 @@
 board: arduino_as_uno
+bom:
+- Id: '1'
+  Designator: P1
+  Footprint: Socket_Strip_Arduino_1x08
+  Quantity: '1'
+  Designation: Power
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: P2
+  Footprint: Socket_Strip_Arduino_1x06
+  Quantity: '1'
+  Designation: Analog
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: P3
+  Footprint: Socket_Strip_Arduino_1x10
+  Quantity: '1'
+  Designation: Digital
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: P4
+  Footprint: Socket_Strip_Arduino_1x08
+  Quantity: '1'
+  Designation: Digital
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: P5,P6,P7,P8
+  Footprint: Arduino_1pin
+  Quantity: '4'
+  Designation: CONN_01X01
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | P1\
+  \ | Socket_Strip_Arduino_1x08 | 1 | Power |  |  | [''] | \n| 2 | P2 | Socket_Strip_Arduino_1x06\
+  \ | 1 | Analog |  |  | [''] | \n| 3 | P3 | Socket_Strip_Arduino_1x10 | 1 | Digital\
+  \ |  |  | [''] | \n| 4 | P4 | Socket_Strip_Arduino_1x08 | 1 | Digital |  |  | ['']\
+  \ | \n| 5 | P5,P6,P7,P8 | Arduino_1pin | 4 | CONN_01X01 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CONN_01X08
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Uno:Socket_Strip_Arduino_1x08
+  Qnty: '1'
+  Ref: P1
+  Value: Power
+  Vendor: ''
+- Cmp name: CONN_01X06
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Uno:Socket_Strip_Arduino_1x06
+  Qnty: '1'
+  Ref: P2
+  Value: Analog
+  Vendor: ''
+- Cmp name: CONN_01X10
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Uno:Socket_Strip_Arduino_1x10
+  Qnty: '1'
+  Ref: P3
+  Value: Digital
+  Vendor: ''
+- Cmp name: CONN_01X08
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Uno:Socket_Strip_Arduino_1x08
+  Qnty: '1'
+  Ref: P4
+  Value: Digital
+  Vendor: ''
+- Cmp name: CONN_01X01
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Uno:Arduino_1pin
+  Qnty: '4'
+  Ref: P5, P6, P7, P8
+  Value: CONN_01X01
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| P1 |\
+  \ 1 | Power | CONN_01X08 | Socket_Arduino_Uno:Socket_Strip_Arduino_1x08 |  |  |\
+  \  | \n| P2 | 1 | Analog | CONN_01X06 | Socket_Arduino_Uno:Socket_Strip_Arduino_1x06\
+  \ |  |  |  | \n| P3 | 1 | Digital | CONN_01X10 | Socket_Arduino_Uno:Socket_Strip_Arduino_1x10\
+  \ |  |  |  | \n| P4 | 1 | Digital | CONN_01X08 | Socket_Arduino_Uno:Socket_Strip_Arduino_1x08\
+  \ |  |  |  | \n| P5, P6, P7, P8 | 4 | CONN_01X01 | CONN_01X01 | Socket_Arduino_Uno:Arduino_1pin\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/asutp_kicad_library_arduino_as_uno/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asutp_kicad_library_arduino_as_uno/current_version/working/working.kicad_pcb
 file_sch_flat: projects/asutp_kicad_library_arduino_as_uno/current_version/working/working.sch
 id: asutp_kicad_library_arduino_as_uno
 name: kicad_library
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': P1
+  Package: Socket_Strip_Arduino_1x08
+  PosX: 27.94
+  PosY: 2.54
+  Rot: 0.0
+  Side: top
+  Val: Power
+- '# Ref': P2
+  Package: Socket_Strip_Arduino_1x06
+  PosX: 50.8
+  PosY: 2.54
+  Rot: 0.0
+  Side: top
+  Val: Analog
+- '# Ref': P3
+  Package: Socket_Strip_Arduino_1x10
+  PosX: 18.796
+  PosY: 50.8
+  Rot: 0.0
+  Side: top
+  Val: Digital
+- '# Ref': P4
+  Package: Socket_Strip_Arduino_1x08
+  PosX: 45.72
+  PosY: 50.8
+  Rot: 0.0
+  Side: top
+  Val: Digital
+- '# Ref': P5
+  Package: Arduino_1pin
+  PosX: 13.97
+  PosY: 2.54
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X01
+- '# Ref': P6
+  Package: Arduino_1pin
+  PosX: 66.04
+  PosY: 7.62
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X01
+- '# Ref': P7
+  Package: Arduino_1pin
+  PosX: 15.24
+  PosY: 50.8
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X01
+- '# Ref': P8
+  Package: Arduino_1pin
+  PosX: 66.04
+  PosY: 35.56
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X01
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| P1 | Power | Socket_Strip_Arduino_1x08\
+  \ | 27.94 | 2.54 | 0.0 | top | \n| P2 | Analog | Socket_Strip_Arduino_1x06 | 50.8\
+  \ | 2.54 | 0.0 | top | \n| P3 | Digital | Socket_Strip_Arduino_1x10 | 18.796 | 50.8\
+  \ | 0.0 | top | \n| P4 | Digital | Socket_Strip_Arduino_1x08 | 45.72 | 50.8 | 0.0\
+  \ | top | \n| P5 | CONN_01X01 | Arduino_1pin | 13.97 | 2.54 | 0.0 | top | \n| P6\
+  \ | CONN_01X01 | Arduino_1pin | 66.04 | 7.62 | 0.0 | top | \n| P7 | CONN_01X01 |\
+  \ Arduino_1pin | 15.24 | 50.8 | 0.0 | top | \n| P8 | CONN_01X01 | Arduino_1pin |\
+  \ 66.04 | 35.56 | 0.0 | top | \n"
 projects_flat: projects/asutp_kicad_library_arduino_as_uno/current_version/working
 repo:
   allow_forking: true

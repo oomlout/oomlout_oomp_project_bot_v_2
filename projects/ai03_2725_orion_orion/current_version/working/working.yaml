@@ -1,10 +1,486 @@
 board: orion
+bom:
+- Id: '1'
+  Designator: C1,C2,C5
+  Footprint: CP_Tantalum_Case-B_EIA-3528-21_Reflow
+  Quantity: '3'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C3,C4
+  Footprint: C_0805
+  Quantity: '2'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J2,J4,J3,J1
+  Footprint: USB-A-Generic
+  Quantity: '4'
+  Designation: USB_A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R1
+  Footprint: R_0805
+  Quantity: '1'
+  Designation: 2.7k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R2,R3
+  Footprint: R_0805
+  Quantity: '2'
+  Designation: 5.1k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U1
+  Footprint: SSOP-28_3.9x9.9mm_Pitch0.635mm
+  Quantity: '1'
+  Designation: FE1.1s
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: USB1
+  Footprint: HRO-TYPE-C-31-M-12-Assembly
+  Quantity: '1'
+  Designation: HRO-TYPE-C-31-M-12
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U2,U3,U4,U5,U6
+  Footprint: SOT143B
+  Quantity: '5'
+  Designation: PRTR5V0U2X
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: F1,F2,F3,F4
+  Footprint: Fuse_SMD1206_Reflow
+  Quantity: '4'
+  Designation: 500mA
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: Y1
+  Footprint: Crystal_SMD_3225-4pin_3.2x2.5mm
+  Quantity: '1'
+  Designation: 12MHz
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: R4
+  Footprint: R_0805
+  Quantity: '1'
+  Designation: '0'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: G***
+  Footprint: ai-4.8-ring
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: G***
+  Footprint: ai-outline-7.6
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C2,C5\
+  \ | CP_Tantalum_Case-B_EIA-3528-21_Reflow | 3 | 10uF |  |  | [''] | \n| 2 | C3,C4\
+  \ | C_0805 | 2 | 0.1uF |  |  | [''] | \n| 3 | J2,J4,J3,J1 | USB-A-Generic | 4 |\
+  \ USB_A |  |  | [''] | \n| 4 | R1 | R_0805 | 1 | 2.7k |  |  | [''] | \n| 5 | R2,R3\
+  \ | R_0805 | 2 | 5.1k |  |  | [''] | \n| 6 | U1 | SSOP-28_3.9x9.9mm_Pitch0.635mm\
+  \ | 1 | FE1.1s |  |  | [''] | \n| 7 | USB1 | HRO-TYPE-C-31-M-12-Assembly | 1 | HRO-TYPE-C-31-M-12\
+  \ |  |  | [''] | \n| 8 | U2,U3,U4,U5,U6 | SOT143B | 5 | PRTR5V0U2X |  |  | ['']\
+  \ | \n| 9 | F1,F2,F3,F4 | Fuse_SMD1206_Reflow | 4 | 500mA |  |  | [''] | \n| 10\
+  \ | Y1 | Crystal_SMD_3225-4pin_3.2x2.5mm | 1 | 12MHz |  |  | [''] | \n| 11 | R4\
+  \ | R_0805 | 1 | 0 |  |  | [''] | \n| 12 | G*** | ai-4.8-ring | 1 | LOGO |  |  |\
+  \ [''] | \n| 13 | G*** | ai-outline-7.6 | 1 | LOGO |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CP1_Small-Device
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_Tantalum_SMD:CP_Tantalum_Case-B_EIA-3528-21_Reflow
+  Qnty: '3'
+  Ref: C1, C2, C5
+  Value: 10uF
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitors_SMD:C_0805
+  Qnty: '2'
+  Ref: C3, C4
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: Polyfuse_Small
+  DNP: ''
+  Description: Resettable fuse, polymeric positive temperature coefficient, small
+    symbol
+  Footprint: Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow
+  Qnty: '4'
+  Ref: F1, F2, F3, F4
+  Value: 500mA
+  Vendor: ''
+- Cmp name: USB_A-Connector
+  DNP: ''
+  Description: ''
+  Footprint: random-keyboard-parts:USB-A-Generic
+  Qnty: '4'
+  Ref: J1, J2, J3, J4
+  Value: USB_A
+  Vendor: ''
+- Cmp name: Conn_01x01
+  DNP: ''
+  Description: Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Mounting_Holes:MountingHole_2.2mm_M2_Pad_Via
+  Qnty: '4'
+  Ref: MH1, MH2, MH3, MH4
+  Value: Mounting-Hole-M2
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistors_SMD:R_0805
+  Qnty: '1'
+  Ref: R1
+  Value: 2.7k
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistors_SMD:R_0805
+  Qnty: '2'
+  Ref: R2, R3
+  Value: 5.1k
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistors_SMD:R_0805
+  Qnty: '1'
+  Ref: R4
+  Value: '0'
+  Vendor: ''
+- Cmp name: FE1.1s-random-keyboard-parts
+  DNP: ''
+  Description: ''
+  Footprint: Housings_SSOP:SSOP-28_3.9x9.9mm_Pitch0.635mm
+  Qnty: '1'
+  Ref: U1
+  Value: FE1.1s
+  Vendor: ''
+- Cmp name: PRTR5V0U2X-random-keyboard-parts
+  DNP: ''
+  Description: ''
+  Footprint: random-keyboard-parts:SOT143B
+  Qnty: '5'
+  Ref: U2, U3, U4, U5, U6
+  Value: PRTR5V0U2X
+  Vendor: ''
+- Cmp name: HRO-TYPE-C-31-M-12-Type-C
+  DNP: ''
+  Description: ''
+  Footprint: Type-C:HRO-TYPE-C-31-M-12-Assembly
+  Qnty: '1'
+  Ref: USB1
+  Value: HRO-TYPE-C-31-M-12
+  Vendor: ''
+- Cmp name: Crystal_GND24_Small-Device
+  DNP: ''
+  Description: ''
+  Footprint: Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm
+  Qnty: '1'
+  Ref: Y1
+  Value: 12MHz
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C5 | 3 | 10uF | CP1_Small-Device | Capacitors_Tantalum_SMD:CP_Tantalum_Case-B_EIA-3528-21_Reflow\
+  \ |  |  |  | \n| C3, C4 | 2 | 0.1uF | C_Small | Capacitors_SMD:C_0805 | Unpolarized\
+  \ capacitor, small symbol |  |  | \n| F1, F2, F3, F4 | 4 | 500mA | Polyfuse_Small\
+  \ | Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow | Resettable fuse, polymeric positive\
+  \ temperature coefficient, small symbol |  |  | \n| J1, J2, J3, J4 | 4 | USB_A |\
+  \ USB_A-Connector | random-keyboard-parts:USB-A-Generic |  |  |  | \n| MH1, MH2,\
+  \ MH3, MH4 | 4 | Mounting-Hole-M2 | Conn_01x01 | Mounting_Holes:MountingHole_2.2mm_M2_Pad_Via\
+  \ | Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| R1 | 1 | 2.7k | R_Small | Resistors_SMD:R_0805 | Resistor, small symbol\
+  \ |  |  | \n| R2, R3 | 2 | 5.1k | R_Small | Resistors_SMD:R_0805 | Resistor, small\
+  \ symbol |  |  | \n| R4 | 1 | 0 | R_Small | Resistors_SMD:R_0805 | Resistor, small\
+  \ symbol |  |  | \n| U1 | 1 | FE1.1s | FE1.1s-random-keyboard-parts | Housings_SSOP:SSOP-28_3.9x9.9mm_Pitch0.635mm\
+  \ |  |  |  | \n| U2, U3, U4, U5, U6 | 5 | PRTR5V0U2X | PRTR5V0U2X-random-keyboard-parts\
+  \ | random-keyboard-parts:SOT143B |  |  |  | \n| USB1 | 1 | HRO-TYPE-C-31-M-12 |\
+  \ HRO-TYPE-C-31-M-12-Type-C | Type-C:HRO-TYPE-C-31-M-12-Assembly |  |  |  | \n|\
+  \ Y1 | 1 | 12MHz | Crystal_GND24_Small-Device | Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/ai03_2725_orion_orion/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/ai03_2725_orion_orion/current_version/working/working.kicad_pcb
 file_sch_flat: projects/ai03_2725_orion_orion/current_version/working/working.sch
 id: ai03_2725_orion_orion
 name: orion
+position_bottom:
+- '# Ref': G***
+  Package: ai-outline-7.6
+  PosX: 80.0
+  PosY: -70.0
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | ai-outline-7.6 | 80.0\
+  \ | -70.0 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: CP_Tantalum_Case-B_EIA-3528-21_Reflow
+  PosX: 86.0
+  PosY: -72.0
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C2
+  Package: CP_Tantalum_Case-B_EIA-3528-21_Reflow
+  PosX: 78.0
+  PosY: -57.0
+  Rot: 180.0
+  Side: top
+  Val: 10uF
+- '# Ref': C3
+  Package: C_0805
+  PosX: 72.0
+  PosY: -63.0
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C4
+  Package: C_0805
+  PosX: 86.0
+  PosY: -68.5
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C5
+  Package: CP_Tantalum_Case-B_EIA-3528-21_Reflow
+  PosX: 72.0
+  PosY: -58.0
+  Rot: 90.0
+  Side: top
+  Val: 10uF
+- '# Ref': F1
+  Package: Fuse_SMD1206_Reflow
+  PosX: 96.0
+  PosY: -65.0
+  Rot: 90.0
+  Side: top
+  Val: 500mA
+- '# Ref': F2
+  Package: Fuse_SMD1206_Reflow
+  PosX: 96.0
+  PosY: -86.0
+  Rot: 90.0
+  Side: top
+  Val: 500mA
+- '# Ref': F3
+  Package: Fuse_SMD1206_Reflow
+  PosX: 64.0
+  PosY: -76.0
+  Rot: -90.0
+  Side: top
+  Val: 500mA
+- '# Ref': F4
+  Package: Fuse_SMD1206_Reflow
+  PosX: 64.0
+  PosY: -54.0
+  Rot: -90.0
+  Side: top
+  Val: 500mA
+- '# Ref': G***
+  Package: ai-4.8-ring
+  PosX: 73.0
+  PosY: -92.5
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': J1
+  Package: USB-A-Generic
+  PosX: 100.0
+  PosY: -60.0
+  Rot: 90.0
+  Side: top
+  Val: USB_A
+- '# Ref': J2
+  Package: USB-A-Generic
+  PosX: 100.0
+  PosY: -81.0
+  Rot: 90.0
+  Side: top
+  Val: USB_A
+- '# Ref': J3
+  Package: USB-A-Generic
+  PosX: 60.0
+  PosY: -81.0
+  Rot: -90.0
+  Side: top
+  Val: USB_A
+- '# Ref': J4
+  Package: USB-A-Generic
+  PosX: 60.0
+  PosY: -59.0
+  Rot: -90.0
+  Side: top
+  Val: USB_A
+- '# Ref': R1
+  Package: R_0805
+  PosX: 87.5
+  PosY: -63.5
+  Rot: 90.0
+  Side: top
+  Val: 2.7k
+- '# Ref': R2
+  Package: R_0805
+  PosX: 76.5
+  PosY: -52.5
+  Rot: 90.0
+  Side: top
+  Val: 5.1k
+- '# Ref': R3
+  Package: R_0805
+  PosX: 83.5
+  PosY: -52.5
+  Rot: 90.0
+  Side: top
+  Val: 5.1k
+- '# Ref': R4
+  Package: R_0805
+  PosX: 87.0
+  PosY: -48.0
+  Rot: 90.0
+  Side: top
+  Val: '0'
+- '# Ref': U1
+  Package: SSOP-28_3.9x9.9mm_Pitch0.635mm
+  PosX: 80.0
+  PosY: -63.5
+  Rot: 90.0
+  Side: top
+  Val: FE1.1s
+- '# Ref': U2
+  Package: SOT143B
+  PosX: 80.0
+  PosY: -52.5
+  Rot: -90.0
+  Side: top
+  Val: PRTR5V0U2X
+- '# Ref': U3
+  Package: SOT143B
+  PosX: 96.0
+  PosY: -60.0
+  Rot: 180.0
+  Side: top
+  Val: PRTR5V0U2X
+- '# Ref': U4
+  Package: SOT143B
+  PosX: 64.0
+  PosY: -81.0
+  Rot: 0.0
+  Side: top
+  Val: PRTR5V0U2X
+- '# Ref': U5
+  Package: SOT143B
+  PosX: 96.0
+  PosY: -81.0
+  Rot: 180.0
+  Side: top
+  Val: PRTR5V0U2X
+- '# Ref': U6
+  Package: SOT143B
+  PosX: 64.0
+  PosY: -59.0
+  Rot: 0.0
+  Side: top
+  Val: PRTR5V0U2X
+- '# Ref': USB1
+  Package: HRO-TYPE-C-31-M-12-Assembly
+  PosX: 80.0
+  PosY: -40.0
+  Rot: 180.0
+  Side: top
+  Val: HRO-TYPE-C-31-M-12
+- '# Ref': Y1
+  Package: Crystal_SMD_3225-4pin_3.2x2.5mm
+  PosX: 73.5
+  PosY: -70.5
+  Rot: 180.0
+  Side: top
+  Val: 12MHz
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 10uF | CP_Tantalum_Case-B_EIA-3528-21_Reflow\
+  \ | 86.0 | -72.0 | 0.0 | top | \n| C2 | 10uF | CP_Tantalum_Case-B_EIA-3528-21_Reflow\
+  \ | 78.0 | -57.0 | 180.0 | top | \n| C3 | 0.1uF | C_0805 | 72.0 | -63.0 | 180.0\
+  \ | top | \n| C4 | 0.1uF | C_0805 | 86.0 | -68.5 | 0.0 | top | \n| C5 | 10uF | CP_Tantalum_Case-B_EIA-3528-21_Reflow\
+  \ | 72.0 | -58.0 | 90.0 | top | \n| F1 | 500mA | Fuse_SMD1206_Reflow | 96.0 | -65.0\
+  \ | 90.0 | top | \n| F2 | 500mA | Fuse_SMD1206_Reflow | 96.0 | -86.0 | 90.0 | top\
+  \ | \n| F3 | 500mA | Fuse_SMD1206_Reflow | 64.0 | -76.0 | -90.0 | top | \n| F4 |\
+  \ 500mA | Fuse_SMD1206_Reflow | 64.0 | -54.0 | -90.0 | top | \n| G*** | LOGO | ai-4.8-ring\
+  \ | 73.0 | -92.5 | 0.0 | top | \n| J1 | USB_A | USB-A-Generic | 100.0 | -60.0 |\
+  \ 90.0 | top | \n| J2 | USB_A | USB-A-Generic | 100.0 | -81.0 | 90.0 | top | \n\
+  | J3 | USB_A | USB-A-Generic | 60.0 | -81.0 | -90.0 | top | \n| J4 | USB_A | USB-A-Generic\
+  \ | 60.0 | -59.0 | -90.0 | top | \n| R1 | 2.7k | R_0805 | 87.5 | -63.5 | 90.0 |\
+  \ top | \n| R2 | 5.1k | R_0805 | 76.5 | -52.5 | 90.0 | top | \n| R3 | 5.1k | R_0805\
+  \ | 83.5 | -52.5 | 90.0 | top | \n| R4 | 0 | R_0805 | 87.0 | -48.0 | 90.0 | top\
+  \ | \n| U1 | FE1.1s | SSOP-28_3.9x9.9mm_Pitch0.635mm | 80.0 | -63.5 | 90.0 | top\
+  \ | \n| U2 | PRTR5V0U2X | SOT143B | 80.0 | -52.5 | -90.0 | top | \n| U3 | PRTR5V0U2X\
+  \ | SOT143B | 96.0 | -60.0 | 180.0 | top | \n| U4 | PRTR5V0U2X | SOT143B | 64.0\
+  \ | -81.0 | 0.0 | top | \n| U5 | PRTR5V0U2X | SOT143B | 96.0 | -81.0 | 180.0 | top\
+  \ | \n| U6 | PRTR5V0U2X | SOT143B | 64.0 | -59.0 | 0.0 | top | \n| USB1 | HRO-TYPE-C-31-M-12\
+  \ | HRO-TYPE-C-31-M-12-Assembly | 80.0 | -40.0 | 180.0 | top | \n| Y1 | 12MHz |\
+  \ Crystal_SMD_3225-4pin_3.2x2.5mm | 73.5 | -70.5 | 180.0 | top | \n"
 projects_flat: projects/ai03_2725_orion_orion/current_version/working
 repo:
   allow_forking: true

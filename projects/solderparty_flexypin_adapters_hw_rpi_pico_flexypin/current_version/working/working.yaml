@@ -1,9 +1,243 @@
 board: rpi_pico_flexypin
+bom:
+- Id: '1'
+  Designator: J3,J1
+  Footprint: FlexyPin_1x20_P2.54mm
+  Quantity: '2'
+  Designation: Conn_01x20
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U1
+  Footprint: RaspberryPi_Pico
+  Quantity: '1'
+  Designation: RaspberryPi_Pico
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J2
+  Footprint: FlexyPin_1x03_P2.54mm
+  Quantity: '1'
+  Designation: Conn_01x03
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: SW1
+  Footprint: SW_PUSH_6mm
+  Quantity: '1'
+  Designation: SW_RST
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: G***,G***
+  Footprint: SolderParty-New-Logo_7.5x6.4mm_SilkScreen
+  Quantity: '2'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: G***,G***
+  Footprint: SolderParty-New-Logo_3x2.5mm_SilkScreen
+  Quantity: '2'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: J4,J5
+  Footprint: PinHeader_1x18_P2.54mm_Vertical
+  Quantity: '2'
+  Designation: Conn_01x17
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J3,J1\
+  \ | FlexyPin_1x20_P2.54mm | 2 | Conn_01x20 |  |  | [''] | \n| 2 | U1 | RaspberryPi_Pico\
+  \ | 1 | RaspberryPi_Pico |  |  | [''] | \n| 3 | J2 | FlexyPin_1x03_P2.54mm | 1 |\
+  \ Conn_01x03 |  |  | [''] | \n| 4 | SW1 | SW_PUSH_6mm | 1 | SW_RST |  |  | ['']\
+  \ | \n| 5 | G***,G*** | SolderParty-New-Logo_7.5x6.4mm_SilkScreen | 2 | LOGO | \
+  \ |  | [''] | \n| 6 | G***,G*** | SolderParty-New-Logo_3x2.5mm_SilkScreen | 2 |\
+  \ LOGO |  |  | [''] | \n| 7 | J4,J5 | PinHeader_1x18_P2.54mm_Vertical | 2 | Conn_01x17\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Conn_01x20
+  DNP: ''
+  Description: Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: FlexyPin:FlexyPin_1x20_P2.54mm
+  Qnty: '2'
+  Ref: J1, J3
+  Value: Conn_01x20
+  Vendor: ''
+- Cmp name: Conn_01x03
+  DNP: ''
+  Description: Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: FlexyPin:FlexyPin_1x03_P2.54mm
+  Qnty: '1'
+  Ref: J2
+  Value: Conn_01x03
+  Vendor: ''
+- Cmp name: Conn_01x18
+  DNP: ''
+  Description: Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical
+  Qnty: '2'
+  Ref: J4, J5
+  Value: Conn_01x17
+  Vendor: ''
+- Cmp name: SW_SPST
+  DNP: ''
+  Description: Single Pole Single Throw (SPST) switch
+  Footprint: Button_Switch_THT:SW_PUSH_6mm
+  Qnty: '1'
+  Ref: SW1
+  Value: SW_RST
+  Vendor: ''
+- Cmp name: RaspberryPi_Pico
+  DNP: ''
+  Description: ''
+  Footprint: Module_Extra:RaspberryPi_Pico
+  Qnty: '1'
+  Ref: U1
+  Value: RaspberryPi_Pico
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| J1, J3\
+  \ | 2 | Conn_01x20 | Conn_01x20 | FlexyPin:FlexyPin_1x20_P2.54mm | Generic connector,\
+  \ single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J2 | 1 | Conn_01x03 | Conn_01x03 | FlexyPin:FlexyPin_1x03_P2.54mm\
+  \ | Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J4, J5 | 2 | Conn_01x17 | Conn_01x18 | Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| SW1 | 1 | SW_RST | SW_SPST | Button_Switch_THT:SW_PUSH_6mm | Single\
+  \ Pole Single Throw (SPST) switch |  |  | \n| U1 | 1 | RaspberryPi_Pico | RaspberryPi_Pico\
+  \ | Module_Extra:RaspberryPi_Pico |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/solderparty_flexypin_adapters_hw_rpi_pico_flexypin/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/solderparty_flexypin_adapters_hw_rpi_pico_flexypin/current_version/working/working.kicad_sch
 id: solderparty_flexypin_adapters_hw_rpi_pico_flexypin
 name: flexypin_adapters_hw
+position_bottom:
+- '# Ref': G***
+  Package: SolderParty-New-Logo_7.5x6.4mm_SilkScreen
+  PosX: 102.5695
+  PosY: -100.7
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+- '# Ref': G***
+  Package: SolderParty-New-Logo_3x2.5mm_SilkScreen
+  PosX: 130.7
+  PosY: -160.0
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+- '# Ref': J4
+  Package: PinHeader_1x18_P2.54mm_Vertical
+  PosX: 124.4
+  PosY: -110.995
+  Rot: 180.0
+  Side: bottom
+  Val: Conn_01x17
+- '# Ref': J5
+  Package: PinHeader_1x18_P2.54mm_Vertical
+  PosX: 137.1
+  PosY: -111.0
+  Rot: 180.0
+  Side: bottom
+  Val: Conn_01x17
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | SolderParty-New-Logo_7.5x6.4mm_SilkScreen\
+  \ | 102.5695 | -100.7 | 180.0 | bottom | \n| G*** | LOGO | SolderParty-New-Logo_3x2.5mm_SilkScreen\
+  \ | 130.7 | -160.0 | 180.0 | bottom | \n| J4 | Conn_01x17 | PinHeader_1x18_P2.54mm_Vertical\
+  \ | 124.4 | -110.995 | 180.0 | bottom | \n| J5 | Conn_01x17 | PinHeader_1x18_P2.54mm_Vertical\
+  \ | 137.1 | -111.0 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': G***
+  Package: SolderParty-New-Logo_7.5x6.4mm_SilkScreen
+  PosX: 103.05
+  PosY: -100.7
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': G***
+  Package: SolderParty-New-Logo_3x2.5mm_SilkScreen
+  PosX: 130.9
+  PosY: -160.0
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': J1
+  Package: FlexyPin_1x20_P2.54mm
+  PosX: 160.69
+  PosY: -77.9
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x20
+- '# Ref': J2
+  Package: FlexyPin_1x03_P2.54mm
+  PosX: 109.44
+  PosY: -87.4
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x03
+- '# Ref': J3
+  Package: FlexyPin_1x20_P2.54mm
+  PosX: 112.43
+  PosY: -102.15
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x20
+- '# Ref': J6
+  Package: PinHeader_2x05_P1.27mm_Vertical_SMD_IDC
+  PosX: 101.69
+  PosY: -89.9
+  Rot: 90.0
+  Side: top
+  Val: Conn_Debug
+- '# Ref': SW1
+  Package: SW_PUSH_6mm
+  PosX: 102.94
+  PosY: -80.55
+  Rot: 90.0
+  Side: top
+  Val: SW_RST
+- '# Ref': U1
+  Package: RaspberryPi_Pico
+  PosX: 136.56
+  PosY: -90.01
+  Rot: -90.0
+  Side: top
+  Val: RaspberryPi_Pico
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | SolderParty-New-Logo_7.5x6.4mm_SilkScreen\
+  \ | 103.05 | -100.7 | 0.0 | top | \n| G*** | LOGO | SolderParty-New-Logo_3x2.5mm_SilkScreen\
+  \ | 130.9 | -160.0 | 0.0 | top | \n| J1 | Conn_01x20 | FlexyPin_1x20_P2.54mm | 160.69\
+  \ | -77.9 | -90.0 | top | \n| J2 | Conn_01x03 | FlexyPin_1x03_P2.54mm | 109.44 |\
+  \ -87.4 | 0.0 | top | \n| J3 | Conn_01x20 | FlexyPin_1x20_P2.54mm | 112.43 | -102.15\
+  \ | 90.0 | top | \n| J6 | Conn_Debug | PinHeader_2x05_P1.27mm_Vertical_SMD_IDC |\
+  \ 101.69 | -89.9 | 90.0 | top | \n| SW1 | SW_RST | SW_PUSH_6mm | 102.94 | -80.55\
+  \ | 90.0 | top | \n| U1 | RaspberryPi_Pico | RaspberryPi_Pico | 136.56 | -90.01\
+  \ | -90.0 | top | \n"
 projects_flat: projects/solderparty_flexypin_adapters_hw_rpi_pico_flexypin/current_version/working
 repo:
   allow_forking: true

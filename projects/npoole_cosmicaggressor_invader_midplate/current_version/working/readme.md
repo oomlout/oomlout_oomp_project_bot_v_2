@@ -11,9 +11,51 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/NPoole/CosmicAggressor/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/npoole_cosmicaggressor_invader_midplate/current_version/working  
+
+## schematic  
+![](working_schematic_600.png)  
+[schematic (pdf)](working_schematic.pdf) 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## pcb  
+![](working_3d_600.png) 
+![](working_3d_front_600.png)  
+![](working_3d_back_600.png)  
+![](working_600.png)  
+[board (pdf)](working.pdf)  
+
+## working_bom
+| Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| 1 | @HOLE130,@HOLE8,@HOLE54,@HOLE78,@HOLE124,@HOLE12,@HOLE93,@HOLE26,@HOLE7,@HOLE57,@HOLE109,@HOLE105,@HOLE65,@HOLE84,@HOLE36,@HOLE43,@HOLE101,@HOLE2,@HOLE68,@HOLE35,@HOLE118,@HOLE112,@HOLE71,@HOLE108,@HOLE83,@HOLE6,@HOLE1,@HOLE0,@HOLE46,@HOLE104,@HOLE119,@HOLE20,@HOLE10,@HOLE106,@HOLE90,@HOLE49,@HOLE110,@HOLE59,@HOLE48,@HOLE69,@HOLE70,@HOLE96,@HOLE53,@HOLE22,@HOLE58,@HOLE76,@HOLE56,@HOLE95,@HOLE89,@HOLE97,@HOLE28,@HOLE133,@HOLE122,@HOLE13,@HOLE117,@HOLE131,@HOLE33,@HOLE82,@HOLE120,@HOLE50,@HOLE14,@HOLE47,@HOLE67,@HOLE24,@HOLE86,@HOLE55,@HOLE127,@HOLE79,@HOLE41,@HOLE134,@HOLE81,@HOLE87,@HOLE91,@HOLE80,@HOLE44,@HOLE125,@HOLE128,@HOLE113,@HOLE15,@HOLE21,@HOLE45,@HOLE34,@HOLE107,@HOLE5,@HOLE11,@HOLE16,@HOLE42,@HOLE92,@HOLE19,@HOLE63,@HOLE32,@HOLE74,@HOLE39,@HOLE62,@HOLE115,@HOLE17,@HOLE88,@HOLE3,@HOLE114,@HOLE123,@HOLE75,@HOLE116,@HOLE38,@HOLE9,@HOLE129,@HOLE30,@HOLE27,@HOLE52,@HOLE73,@HOLE77,@HOLE132,@HOLE126,@HOLE64,@HOLE135,@HOLE31,@HOLE99,@HOLE23,@HOLE85,@HOLE61,@HOLE40,@HOLE66,@HOLE60,@HOLE18,@HOLE102,@HOLE29,@HOLE25,@HOLE72,@HOLE100,@HOLE94,@HOLE103,@HOLE4,@HOLE98,@HOLE121,@HOLE111,@HOLE37,@HOLE51 |  | 136 |  |  |  | [''] | 
+| 2 | J1,J4,J2,J3 | 1X01NS_KIT | 4 |  |  |  | [''] | 
+
+
+## bom_schematic
+| Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| J1, J2, J3, J4 | 4 | CONN_01PTH_NO_SILK_KIT | CONN_01PTH_NO_SILK_KIT | working:1X01NS_KIT |  |  |  | 
 
 
 

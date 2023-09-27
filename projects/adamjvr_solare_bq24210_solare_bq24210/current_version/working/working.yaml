@@ -1,10 +1,338 @@
 board: solare_bq24210
+bom:
+- Id: '1'
+  Designator: C1
+  Footprint: C0402
+  Quantity: '1'
+  Designation: CL05A105KA5NQNC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J1,J3,J4
+  Footprint: S2B-PH-K-S(LF)(SN)
+  Quantity: '3'
+  Designation: S2B-PH-K-S(LF)(SN)
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J2
+  Footprint: S3B-PH-K-S(LF)(SN)
+  Quantity: '1'
+  Designation: S3B-PH-K-S(LF)(SN)
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: LED1
+  Footprint: LED0603
+  Quantity: '1'
+  Designation: LTST-C191KGKT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: LED2
+  Footprint: LED0603
+  Quantity: '1'
+  Designation: LTST-C191KFKT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R1,R3
+  Footprint: R0402
+  Quantity: '2'
+  Designation: RC1005F102CS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R2
+  Footprint: R0402
+  Quantity: '1'
+  Designation: RC1005F4870CS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R4,R5
+  Footprint: R0603
+  Quantity: '2'
+  Designation: RC1608J202CS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R6,R7
+  Footprint: R0603
+  Quantity: '2'
+  Designation: ERA-3AEB3741V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U1
+  Footprint: BQ24210
+  Quantity: '1'
+  Designation: BQ24210DQCT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1\
+  \ | C0402 | 1 | CL05A105KA5NQNC |  |  | [''] | \n| 2 | J1,J3,J4 | S2B-PH-K-S(LF)(SN)\
+  \ | 3 | S2B-PH-K-S(LF)(SN) |  |  | [''] | \n| 3 | J2 | S3B-PH-K-S(LF)(SN) | 1 |\
+  \ S3B-PH-K-S(LF)(SN) |  |  | [''] | \n| 4 | LED1 | LED0603 | 1 | LTST-C191KGKT |\
+  \  |  | [''] | \n| 5 | LED2 | LED0603 | 1 | LTST-C191KFKT |  |  | [''] | \n| 6 |\
+  \ R1,R3 | R0402 | 2 | RC1005F102CS |  |  | [''] | \n| 7 | R2 | R0402 | 1 | RC1005F4870CS\
+  \ |  |  | [''] | \n| 8 | R4,R5 | R0603 | 2 | RC1608J202CS |  |  | [''] | \n| 9 |\
+  \ R6,R7 | R0603 | 2 | ERA-3AEB3741V |  |  | [''] | \n| 10 | U1 | BQ24210 | 1 | BQ24210DQCT\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CL05A105KA5NQNC
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:C0402
+  Qnty: '1'
+  Ref: C1
+  Value: CL05A105KA5NQNC
+  Vendor: ''
+- Cmp name: S2B-PH-K-S(LF)(SN)
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:S2B-PH-K-S(LF)(SN)
+  Qnty: '3'
+  Ref: J1, J3, J4
+  Value: S2B-PH-K-S(LF)(SN)
+  Vendor: ''
+- Cmp name: S3B-PH-K-S(LF)(SN)
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:S3B-PH-K-S(LF)(SN)
+  Qnty: '1'
+  Ref: J2
+  Value: S3B-PH-K-S(LF)(SN)
+  Vendor: ''
+- Cmp name: LTST-C191KGKT
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:LED0603
+  Qnty: '1'
+  Ref: LED1
+  Value: LTST-C191KGKT
+  Vendor: ''
+- Cmp name: LTST-C191KFKT
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:LED0603
+  Qnty: '1'
+  Ref: LED2
+  Value: LTST-C191KFKT
+  Vendor: ''
+- Cmp name: RC1005F102CS
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:R0402
+  Qnty: '2'
+  Ref: R1, R3
+  Value: RC1005F102CS
+  Vendor: ''
+- Cmp name: RC1005F4870CS
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:R0402
+  Qnty: '1'
+  Ref: R2
+  Value: RC1005F4870CS
+  Vendor: ''
+- Cmp name: RC1608J202CS
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:R0603
+  Qnty: '2'
+  Ref: R4, R5
+  Value: RC1608J202CS
+  Vendor: ''
+- Cmp name: ERA-3AEB3741V
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:R0603
+  Qnty: '2'
+  Ref: R6, R7
+  Value: ERA-3AEB3741V
+  Vendor: ''
+- Cmp name: BQ24210DQCT
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:BQ24210
+  Qnty: '1'
+  Ref: U1
+  Value: BQ24210DQCT
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | CL05A105KA5NQNC | CL05A105KA5NQNC | PCB_Footprints:C0402 |  |  |  | \n| J1,\
+  \ J3, J4 | 3 | S2B-PH-K-S(LF)(SN) | S2B-PH-K-S(LF)(SN) | PCB_Footprints:S2B-PH-K-S(LF)(SN)\
+  \ |  |  |  | \n| J2 | 1 | S3B-PH-K-S(LF)(SN) | S3B-PH-K-S(LF)(SN) | PCB_Footprints:S3B-PH-K-S(LF)(SN)\
+  \ |  |  |  | \n| LED1 | 1 | LTST-C191KGKT | LTST-C191KGKT | PCB_Footprints:LED0603\
+  \ |  |  |  | \n| LED2 | 1 | LTST-C191KFKT | LTST-C191KFKT | PCB_Footprints:LED0603\
+  \ |  |  |  | \n| R1, R3 | 2 | RC1005F102CS | RC1005F102CS | PCB_Footprints:R0402\
+  \ |  |  |  | \n| R2 | 1 | RC1005F4870CS | RC1005F4870CS | PCB_Footprints:R0402 |\
+  \  |  |  | \n| R4, R5 | 2 | RC1608J202CS | RC1608J202CS | PCB_Footprints:R0603 |\
+  \  |  |  | \n| R6, R7 | 2 | ERA-3AEB3741V | ERA-3AEB3741V | PCB_Footprints:R0603\
+  \ |  |  |  | \n| U1 | 1 | BQ24210DQCT | BQ24210DQCT | PCB_Footprints:BQ24210 | \
+  \ |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamjvr_solare_bq24210_solare_bq24210/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamjvr_solare_bq24210_solare_bq24210/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adamjvr_solare_bq24210_solare_bq24210/current_version/working/working.sch
 id: adamjvr_solare_bq24210_solare_bq24210
 name: solare_bq24210
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C0402
+  PosX: 66.7
+  PosY: -57.7
+  Rot: -90.0
+  Side: top
+  Val: CL05A105KA5NQNC
+- '# Ref': J1
+  Package: S2B-PH-K-S(LF)(SN)
+  PosX: 71.2
+  PosY: -57.2
+  Rot: 90.0
+  Side: top
+  Val: S2B-PH-K-S(LF)(SN)
+- '# Ref': J2
+  Package: S3B-PH-K-S(LF)(SN)
+  PosX: 57.3
+  PosY: -62.35
+  Rot: -90.0
+  Side: top
+  Val: S3B-PH-K-S(LF)(SN)
+- '# Ref': J3
+  Package: S2B-PH-K-S(LF)(SN)
+  PosX: 57.3
+  PosY: -55.175
+  Rot: -90.0
+  Side: top
+  Val: S2B-PH-K-S(LF)(SN)
+- '# Ref': J4
+  Package: S2B-PH-K-S(LF)(SN)
+  PosX: 71.2
+  PosY: -66.3
+  Rot: 90.0
+  Side: top
+  Val: S2B-PH-K-S(LF)(SN)
+- '# Ref': LED1
+  Package: LED0603
+  PosX: 62.6
+  PosY: -64.05
+  Rot: 180.0
+  Side: top
+  Val: LTST-C191KGKT
+- '# Ref': LED2
+  Package: LED0603
+  PosX: 62.6
+  PosY: -62.55
+  Rot: 180.0
+  Side: top
+  Val: LTST-C191KFKT
+- '# Ref': R1
+  Package: R0402
+  PosX: 64.175
+  PosY: -60.783
+  Rot: -90.0
+  Side: top
+  Val: RC1005F102CS
+- '# Ref': R2
+  Package: R0402
+  PosX: 64.233
+  PosY: -56.0
+  Rot: 180.0
+  Side: top
+  Val: RC1005F4870CS
+- '# Ref': R3
+  Package: R0402
+  PosX: 62.267
+  PosY: -56.0
+  Rot: 180.0
+  Side: top
+  Val: RC1005F102CS
+- '# Ref': R4
+  Package: R0603
+  PosX: 65.35
+  PosY: -64.05
+  Rot: 0.0
+  Side: top
+  Val: RC1608J202CS
+- '# Ref': R5
+  Package: R0603
+  PosX: 65.35
+  PosY: -62.55
+  Rot: 0.0
+  Side: top
+  Val: RC1608J202CS
+- '# Ref': R6
+  Package: R0603
+  PosX: 68.2
+  PosY: -63.2
+  Rot: -90.0
+  Side: top
+  Val: ERA-3AEB3741V
+- '# Ref': R7
+  Package: R0603
+  PosX: 68.2
+  PosY: -65.9
+  Rot: -90.0
+  Side: top
+  Val: ERA-3AEB3741V
+- '# Ref': U1
+  Package: BQ24210
+  PosX: 63.7368
+  PosY: -58.3252
+  Rot: -90.0
+  Side: top
+  Val: BQ24210DQCT
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | CL05A105KA5NQNC | C0402 | 66.7\
+  \ | -57.7 | -90.0 | top | \n| J1 | S2B-PH-K-S(LF)(SN) | S2B-PH-K-S(LF)(SN) | 71.2\
+  \ | -57.2 | 90.0 | top | \n| J2 | S3B-PH-K-S(LF)(SN) | S3B-PH-K-S(LF)(SN) | 57.3\
+  \ | -62.35 | -90.0 | top | \n| J3 | S2B-PH-K-S(LF)(SN) | S2B-PH-K-S(LF)(SN) | 57.3\
+  \ | -55.175 | -90.0 | top | \n| J4 | S2B-PH-K-S(LF)(SN) | S2B-PH-K-S(LF)(SN) | 71.2\
+  \ | -66.3 | 90.0 | top | \n| LED1 | LTST-C191KGKT | LED0603 | 62.6 | -64.05 | 180.0\
+  \ | top | \n| LED2 | LTST-C191KFKT | LED0603 | 62.6 | -62.55 | 180.0 | top | \n\
+  | R1 | RC1005F102CS | R0402 | 64.175 | -60.783 | -90.0 | top | \n| R2 | RC1005F4870CS\
+  \ | R0402 | 64.233 | -56.0 | 180.0 | top | \n| R3 | RC1005F102CS | R0402 | 62.267\
+  \ | -56.0 | 180.0 | top | \n| R4 | RC1608J202CS | R0603 | 65.35 | -64.05 | 0.0 |\
+  \ top | \n| R5 | RC1608J202CS | R0603 | 65.35 | -62.55 | 0.0 | top | \n| R6 | ERA-3AEB3741V\
+  \ | R0603 | 68.2 | -63.2 | -90.0 | top | \n| R7 | ERA-3AEB3741V | R0603 | 68.2 |\
+  \ -65.9 | -90.0 | top | \n| U1 | BQ24210DQCT | BQ24210 | 63.7368 | -58.3252 | -90.0\
+  \ | top | \n"
 projects_flat: projects/adamjvr_solare_bq24210_solare_bq24210/current_version/working
 repo:
   allow_forking: true

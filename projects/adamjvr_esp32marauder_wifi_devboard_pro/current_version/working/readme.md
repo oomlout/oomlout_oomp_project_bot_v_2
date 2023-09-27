@@ -17,7 +17,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -67,9 +88,9 @@
 | IC2, IC4, IC5 | 3 | SI2333CDS-T1-E3 | DMP1045U-7 | SOT-23 | P-Channel Enhancement MOSFET SOT-23 Diodes Inc DMP1045U-7 P-channel MOSFET Transistor, 5.2 A, -12 V, 3-Pin SOT23 |  |  | 
 | IC3 | 1 | AZ1117H-3.3TRE1 | AZ1117H-3.3TRE1 | SOT-223-3 | 3.3V 1A Pos LDO Regulator SOT-223 DiodesZetex AZ1117H-3.3TRE1, LDO Voltage Regulator, 1A, 3.3 V 1%, maximum of 15 Vin, 3+Tab-Pin SOT-223 |  |  | 
 | J1 | 1 | 3220-10-0300-00 | 3220-10-0300-00 | 322010030000 | Conn Shrouded Header (4 Sides) HDR 10 POS 1.27mm Solder ST SMD |  |  | 
-| J2 | 1 | X6511WVS-08H-C60D48R1 | Conn_01x08 | SMD,P=2.54mm(交错脚) | Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/) |  |  | 
+| J2 | 1 | X6511WVS-08H-C60D48R1 | Conn_01x08 | SMD,P=2.54mm(äº¤é”™è„š) | Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/) |  |  | 
 | J3 | 1 | X6511WVS-10H-C60D48R1 | Conn_01x10 | HUSRSP10W66P254_2500X250X850P | Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/) |  |  | 
-| J4, J5 | 2 | Conn_01x11 | Conn_01x11 | SMD,P=2.54mm(交错脚) | Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/) |  |  | 
+| J4, J5 | 2 | Conn_01x11 | Conn_01x11 | SMD,P=2.54mm(äº¤é”™è„š) | Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/) |  |  | 
 | J6 | 1 | 503398-1892 | 503398-1892 | SMD | MicroSD SMT Push-Push 1.28mm height MicroSD SMT Push-Push 1.28mm height |  |  | 
 | LED1 | 1 | WS2812B-2020 | WS2812B-2020 | WS2812B2020 | LED; SMD; 2020; RGB; 2x2x0.84mm; 3.75.3V; Lens: transparent; 2kHz |  |  | 
 | LED2 | 1 | TX | 19-217_Y5C-AP1Q2_3T | 0603 | Standard LEDs - SMD SMD LED |  |  | 

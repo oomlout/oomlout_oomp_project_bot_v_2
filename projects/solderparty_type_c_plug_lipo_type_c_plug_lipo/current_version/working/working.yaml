@@ -1,9 +1,399 @@
 board: type_c_plug_lipo
+bom:
+- Id: '1'
+  Designator: R1
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 5.1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C2,C1
+  Footprint: C_0603_1608Metric
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J4
+  Footprint: PinHeader_1x04_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_Pwr
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R4,R3
+  Footprint: R_0603_1608Metric
+  Quantity: '2'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: D2
+  Footprint: LED_0603_1608Metric
+  Quantity: '1'
+  Designation: LED_DONE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J2
+  Footprint: USB_C_Plug_UTC009-C12
+  Quantity: '1'
+  Designation: USB_C_Plug_USB2.0
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: G***
+  Footprint: SolderParty-New-Logo_5x4.2mm_SilkScreen
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: D1
+  Footprint: LED_0603_1608Metric
+  Quantity: '1'
+  Designation: LED_CHR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: J1
+  Footprint: JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
+  Quantity: '1'
+  Designation: Conn_Battery
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R2
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 2K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U1
+  Footprint: SOT-23-6
+  Quantity: '1'
+  Designation: ME4055-N
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: G***
+  Footprint: SolderParty-New-Logo_7.5x6.4mm_SilkScreen
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: TP2
+  Footprint: TestPoint_Pad_D1.5mm
+  Quantity: '1'
+  Designation: TP_D+
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: TP1
+  Footprint: TestPoint_Pad_D1.5mm
+  Quantity: '1'
+  Designation: TP_D-
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R1\
+  \ | R_0603_1608Metric | 1 | 5.1K |  |  | [''] | \n| 2 | C2,C1 | C_0603_1608Metric\
+  \ | 2 | 10uF |  |  | [''] | \n| 3 | J4 | PinHeader_1x04_P2.54mm_Vertical | 1 | Conn_Pwr\
+  \ |  |  | [''] | \n| 4 | R4,R3 | R_0603_1608Metric | 2 | 1K |  |  | [''] | \n| 5\
+  \ | D2 | LED_0603_1608Metric | 1 | LED_DONE |  |  | [''] | \n| 6 | J2 | USB_C_Plug_UTC009-C12\
+  \ | 1 | USB_C_Plug_USB2.0 |  |  | [''] | \n| 7 | G*** | SolderParty-New-Logo_5x4.2mm_SilkScreen\
+  \ | 1 | LOGO |  |  | [''] | \n| 8 | D1 | LED_0603_1608Metric | 1 | LED_CHR |  |\
+  \  | [''] | \n| 9 | J1 | JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal | 1 |\
+  \ Conn_Battery |  |  | [''] | \n| 10 | R2 | R_0603_1608Metric | 1 | 2K |  |  | ['']\
+  \ | \n| 11 | U1 | SOT-23-6 | 1 | ME4055-N |  |  | [''] | \n| 12 | G*** | SolderParty-New-Logo_7.5x6.4mm_SilkScreen\
+  \ | 1 | LOGO |  |  | [''] | \n| 13 | TP2 | TestPoint_Pad_D1.5mm | 1 | TP_D+ |  |\
+  \  | [''] | \n| 14 | TP1 | TestPoint_Pad_D1.5mm | 1 | TP_D- |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '2'
+  Ref: C1, C2
+  Value: 10uF
+  Vendor: ''
+- Cmp name: LED_Small
+  DNP: ''
+  Description: Light emitting diode, small symbol
+  Footprint: LED_SMD:LED_0603_1608Metric
+  Qnty: '1'
+  Ref: D1
+  Value: LED_CHR
+  Vendor: ''
+- Cmp name: LED_Small
+  DNP: ''
+  Description: Light emitting diode, small symbol
+  Footprint: LED_SMD:LED_0603_1608Metric
+  Qnty: '1'
+  Ref: D2
+  Value: LED_DONE
+  Vendor: ''
+- Cmp name: Conn_02x01
+  DNP: ''
+  Description: Generic connector, double row, 02x01, this symbol is compatible with
+    counter-clockwise, top-bottom and odd-even numbering schemes., script generated
+    (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_Battery
+  Vendor: ''
+- Cmp name: USB_C_Plug_USB2.0
+  DNP: ''
+  Description: USB 2.0-only Type-C Plug connector
+  Footprint: Connector_USB_Extra:USB_C_Plug_UTC009-C12
+  Qnty: '1'
+  Ref: J2
+  Value: USB_C_Plug_USB2.0
+  Vendor: ''
+- Cmp name: Conn_01x04
+  DNP: ''
+  Description: Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J4
+  Value: Conn_Pwr
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R1
+  Value: 5.1K
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R2
+  Value: 2K
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '2'
+  Ref: R3, R4
+  Value: 1K
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: TestPoint:TestPoint_Pad_D1.5mm
+  Qnty: '1'
+  Ref: TP1
+  Value: TP_D-
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: TestPoint:TestPoint_Pad_D1.5mm
+  Qnty: '1'
+  Ref: TP2
+  Value: TP_D+
+  Vendor: ''
+- Cmp name: ME4055-N
+  DNP: ''
+  Description: ''
+  Footprint: Package_TO_SOT_SMD:SOT-23-6
+  Qnty: '1'
+  Ref: U1
+  Value: ME4055-N
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2\
+  \ | 2 | 10uF | C_Small | Capacitor_SMD:C_0603_1608Metric | Unpolarized capacitor,\
+  \ small symbol |  |  | \n| D1 | 1 | LED_CHR | LED_Small | LED_SMD:LED_0603_1608Metric\
+  \ | Light emitting diode, small symbol |  |  | \n| D2 | 1 | LED_DONE | LED_Small\
+  \ | LED_SMD:LED_0603_1608Metric | Light emitting diode, small symbol |  |  | \n\
+  | J1 | 1 | Conn_Battery | Conn_02x01 | Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal\
+  \ | Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise,\
+  \ top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J2 | 1 | USB_C_Plug_USB2.0 | USB_C_Plug_USB2.0 | Connector_USB_Extra:USB_C_Plug_UTC009-C12\
+  \ | USB 2.0-only Type-C Plug connector |  |  | \n| J4 | 1 | Conn_Pwr | Conn_01x04\
+  \ | Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical | Generic connector,\
+  \ single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| R1 | 1 | 5.1K | R_Small | Resistor_SMD:R_0603_1608Metric | Resistor,\
+  \ small symbol |  |  | \n| R2 | 1 | 2K | R_Small | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor, small symbol |  |  | \n| R3, R4 | 2 | 1K | R_Small | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor, small symbol |  |  | \n| TP1 | 1 | TP_D- | TestPoint | TestPoint:TestPoint_Pad_D1.5mm\
+  \ | test point |  |  | \n| TP2 | 1 | TP_D+ | TestPoint | TestPoint:TestPoint_Pad_D1.5mm\
+  \ | test point |  |  | \n| U1 | 1 | ME4055-N | ME4055-N | Package_TO_SOT_SMD:SOT-23-6\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/solderparty_type_c_plug_lipo_type_c_plug_lipo/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/solderparty_type_c_plug_lipo_type_c_plug_lipo/current_version/working/working.kicad_sch
 id: solderparty_type_c_plug_lipo_type_c_plug_lipo
 name: type_c_plug_lipo
+position_bottom:
+- '# Ref': G***
+  Package: SolderParty-New-Logo_7.5x6.4mm_SilkScreen
+  PosX: 172.0
+  PosY: -98.5
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | SolderParty-New-Logo_7.5x6.4mm_SilkScreen\
+  \ | 172.0 | -98.5 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: C_0603_1608Metric
+  PosX: 168.3
+  PosY: -97.7
+  Rot: 90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C2
+  Package: C_0603_1608Metric
+  PosX: 175.8
+  PosY: -97.7
+  Rot: 90.0
+  Side: top
+  Val: 10uF
+- '# Ref': D1
+  Package: LED_0603_1608Metric
+  PosX: 178.1
+  PosY: -102.2
+  Rot: 180.0
+  Side: top
+  Val: LED_CHR
+- '# Ref': D2
+  Package: LED_0603_1608Metric
+  PosX: 178.0875
+  PosY: -100.4
+  Rot: 180.0
+  Side: top
+  Val: LED_DONE
+- '# Ref': G***
+  Package: SolderParty-New-Logo_5x4.2mm_SilkScreen
+  PosX: 168.6
+  PosY: -90.4
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': J1
+  Package: JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
+  PosX: 181.0
+  PosY: -94.0
+  Rot: 90.0
+  Side: top
+  Val: Conn_Battery
+- '# Ref': J2
+  Package: USB_C_Plug_UTC009-C12
+  PosX: 165.0
+  PosY: -94.0
+  Rot: -90.0
+  Side: top
+  Val: USB_C_Plug_USB2.0
+- '# Ref': J4
+  Package: PinHeader_1x04_P2.54mm_Vertical
+  PosX: 171.79
+  PosY: -85.88
+  Rot: 90.0
+  Side: top
+  Val: Conn_Pwr
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 169.8
+  PosY: -97.7
+  Rot: 90.0
+  Side: top
+  Val: 5.1K
+- '# Ref': R2
+  Package: R_0603_1608Metric
+  PosX: 171.3
+  PosY: -97.7
+  Rot: 90.0
+  Side: top
+  Val: 2K
+- '# Ref': R3
+  Package: R_0603_1608Metric
+  PosX: 172.8
+  PosY: -97.7
+  Rot: -90.0
+  Side: top
+  Val: 1K
+- '# Ref': R4
+  Package: R_0603_1608Metric
+  PosX: 174.3
+  PosY: -97.7
+  Rot: -90.0
+  Side: top
+  Val: 1K
+- '# Ref': U1
+  Package: SOT-23-6
+  PosX: 171.3
+  PosY: -94.0
+  Rot: 180.0
+  Side: top
+  Val: ME4055-N
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 10uF | C_0603_1608Metric | 168.3\
+  \ | -97.7 | 90.0 | top | \n| C2 | 10uF | C_0603_1608Metric | 175.8 | -97.7 | 90.0\
+  \ | top | \n| D1 | LED_CHR | LED_0603_1608Metric | 178.1 | -102.2 | 180.0 | top\
+  \ | \n| D2 | LED_DONE | LED_0603_1608Metric | 178.0875 | -100.4 | 180.0 | top |\
+  \ \n| G*** | LOGO | SolderParty-New-Logo_5x4.2mm_SilkScreen | 168.6 | -90.4 | 0.0\
+  \ | top | \n| J1 | Conn_Battery | JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal\
+  \ | 181.0 | -94.0 | 90.0 | top | \n| J2 | USB_C_Plug_USB2.0 | USB_C_Plug_UTC009-C12\
+  \ | 165.0 | -94.0 | -90.0 | top | \n| J4 | Conn_Pwr | PinHeader_1x04_P2.54mm_Vertical\
+  \ | 171.79 | -85.88 | 90.0 | top | \n| R1 | 5.1K | R_0603_1608Metric | 169.8 | -97.7\
+  \ | 90.0 | top | \n| R2 | 2K | R_0603_1608Metric | 171.3 | -97.7 | 90.0 | top |\
+  \ \n| R3 | 1K | R_0603_1608Metric | 172.8 | -97.7 | -90.0 | top | \n| R4 | 1K |\
+  \ R_0603_1608Metric | 174.3 | -97.7 | -90.0 | top | \n| U1 | ME4055-N | SOT-23-6\
+  \ | 171.3 | -94.0 | 180.0 | top | \n"
 projects_flat: projects/solderparty_type_c_plug_lipo_type_c_plug_lipo/current_version/working
 repo:
   allow_forking: true

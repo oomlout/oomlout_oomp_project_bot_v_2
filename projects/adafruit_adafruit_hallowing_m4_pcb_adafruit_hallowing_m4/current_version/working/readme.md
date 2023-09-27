@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -43,7 +64,7 @@
 | 14 | SW3 | BTN_KMR2_4.6X2.8 | 1 | SPST_TACT-EVQQ2 |  |  | [''] | 
 | 15 | R11,R17,R18 | 0603-NO | 3 | 1K |  |  | [''] | 
 | 16 | R24 | 0603-NO | 1 | 47K |  |  | [''] | 
-| 17 | C33,C22,C16,C17 | 0805-NO | 4 | 10µF |  |  | [''] | 
+| 17 | C33,C22,C16,C17 | 0805-NO | 4 | 10ÂµF |  |  | [''] | 
 | 18 | R23 | 0603-NO | 1 | 10 |  |  | [''] | 
 | 19 | Q6,Q5 | SOT23-R | 2 | DMG3405 |  |  | [''] | 
 | 20 | LED3,LED2,LED4,LED1 | WS2812B_4020 | 4 | WS2812B_4020 |  |  | [''] | 
@@ -82,7 +103,7 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C12, C23, C24, C27, C28, C29, C32 | 7 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C16, C17, C22, C33 | 4 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C16, C17, C22, C33 | 4 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C18, C19, C21, C26, C30 | 5 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C25, C31 | 2 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | CHG1 | 1 | ORANGE | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 

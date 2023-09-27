@@ -16,7 +16,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -66,9 +87,9 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 0.0 | 13.207999999999998 | MountingHole_3mm | MountingHole_3mm_RevA_Date21Jun2010 | MH | m3 | 
-| 36.06800000000001 | 67.31 | MountingHole_3mm | MountingHole_3mm_RevA_Date21Jun2010 | MH | m3 | 
-| 8.382000000000005 | 78.994 | MountingHole_3mm | MountingHole_3mm_RevA_Date21Jun2010 | MH | m3 | 
+| 0.0 | 13.21 | MountingHole_3mm | MountingHole_3mm_RevA_Date21Jun2010 | MH | m3 | 
+| 36.07 | 67.31 | MountingHole_3mm | MountingHole_3mm_RevA_Date21Jun2010 | MH | m3 | 
+| 8.38 | 78.99 | MountingHole_3mm | MountingHole_3mm_RevA_Date21Jun2010 | MH | m3 | 
 | 35.56 | 0.0 | MountingHole_3mm | MountingHole_3mm_RevA_Date21Jun2010 | MH | m3 | 
 
 

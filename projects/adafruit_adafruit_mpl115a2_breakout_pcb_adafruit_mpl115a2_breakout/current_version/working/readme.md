@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -27,7 +48,7 @@
 ## working_bom
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| 1 | C2,C1 | 0805 | 2 | 1µF |  |  | [''] | 
+| 1 | C2,C1 | 0805 | 2 | 1ÂµF |  |  | [''] | 
 | 2 | R4,R2,R3,R1 | 0805 | 4 | 10K |  |  | [''] | 
 | 3 | U1 | LGA8 | 1 | MPL115A2T1 |  |  | [''] | 
 | 4 | JP1 | 1X06_ROUND_70 | 1 |  |  |  | [''] | 
@@ -39,7 +60,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1, C2 | 2 | 1µF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
+| C1, C2 | 2 | 1ÂµF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
 | FID1, FID2 | 2 | FIDUCIAL"" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | 
 | JP1 | 1 | HEADER-1X670MIL | HEADER-1X670MIL | working:1X06_ROUND_70 |  |  |  | 
 | R1, R2, R3, R4 | 4 | 10K | RESISTOR0805 | working:0805 |  |  |  | 
@@ -51,6 +72,6 @@
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$8 | m3 | 
-| 12.699999999999989 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$9 | m3 | 
+| 12.7 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$9 | m3 | 
 
 

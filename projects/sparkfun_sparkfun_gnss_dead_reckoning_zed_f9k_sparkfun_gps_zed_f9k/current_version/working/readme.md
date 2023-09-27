@@ -11,6 +11,8 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/sparkfun/SparkFun_GNSS_Dead_Reckoning_ZED-F9K/tree/main/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/sparkfun_sparkfun_gnss_dead_reckoning_zed_f9k_sparkfun_gps_zed_f9k/current_version/working  
+
 
 
 

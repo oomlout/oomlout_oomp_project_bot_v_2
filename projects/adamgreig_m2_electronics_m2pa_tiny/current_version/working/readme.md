@@ -15,6 +15,7 @@
 * full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adamgreig_m2_electronics_m2pa_tiny/current_version/working  
 
 
+
 ## pcb  
 ![](working_3d_600.png) 
 ![](working_3d_front_600.png)  
@@ -30,7 +31,7 @@
 | 3 | C3 | C0402 | 1 | 100p |  |  | [''] | 
 | 4 | C4 | C0603 | 1 | 10n |  |  | [''] | 
 | 5 | C5 | C0402 | 1 | 6p2 |  |  | [''] | 
-| 6 | C6 | C1206 | 1 | 10µ |  |  | [''] | 
+| 6 | C6 | C1206 | 1 | 10Âµ |  |  | [''] | 
 | 7 | D1,D2,D3 | R0402 | 3 | CGA0402MLC-12G |  |  | [''] | 
 | 8 | IC1 | SOT89-3 | 1 | ADL5324 |  |  | [''] | 
 | 9 | L1 | L0603 | 1 | 1n6 |  |  | [''] | 

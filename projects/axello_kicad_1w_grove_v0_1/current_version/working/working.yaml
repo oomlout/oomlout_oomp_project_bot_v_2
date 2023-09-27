@@ -1,10 +1,327 @@
 board: 1w_grove_v0_1
+bom:
+- Id: '1'
+  Designator: U4,U6,U10,U11
+  Footprint: schroef_3.5mm
+  Quantity: '4'
+  Designation: schroef_3.5mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C1
+  Footprint: C_0805_2012Metric
+  Quantity: '1'
+  Designation: 100pF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C2
+  Footprint: C_0805_2012Metric
+  Quantity: '1'
+  Designation: 100nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: Q1
+  Footprint: SOT-323
+  Quantity: '1'
+  Designation: BSS138BKW
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: Q2
+  Footprint: SOT-23-3
+  Quantity: '1'
+  Designation: NX2301P
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R1,R2,R7
+  Footprint: R_0805_2012Metric
+  Quantity: '3'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R4
+  Footprint: R_0805_2012Metric
+  Quantity: '1'
+  Designation: 5.6k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R5,R6,R8
+  Footprint: R_0805_2012Metric
+  Quantity: '3'
+  Designation: 22R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: CN2,CN3,CN4,CN1,CN5
+  Footprint: rj10-v2
+  Quantity: '5'
+  Designation: RJ10
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: F1
+  Footprint: C1210
+  Quantity: '1'
+  Designation: Polyfuse_Small
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: CN6
+  Footprint: grove-v0.1
+  Quantity: '1'
+  Designation: grove
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U3
+  Footprint: CE-140
+  Quantity: '1'
+  Designation: CE-mark
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U4,U6,U10,U11\
+  \ | schroef_3.5mm | 4 | schroef_3.5mm |  |  | [''] | \n| 2 | C1 | C_0805_2012Metric\
+  \ | 1 | 100pF |  |  | [''] | \n| 3 | C2 | C_0805_2012Metric | 1 | 100nF |  |  |\
+  \ [''] | \n| 4 | Q1 | SOT-323 | 1 | BSS138BKW |  |  | [''] | \n| 5 | Q2 | SOT-23-3\
+  \ | 1 | NX2301P |  |  | [''] | \n| 6 | R1,R2,R7 | R_0805_2012Metric | 3 | 10k |\
+  \  |  | [''] | \n| 7 | R4 | R_0805_2012Metric | 1 | 5.6k |  |  | [''] | \n| 8 |\
+  \ R5,R6,R8 | R_0805_2012Metric | 3 | 22R |  |  | [''] | \n| 9 | CN2,CN3,CN4,CN1,CN5\
+  \ | rj10-v2 | 5 | RJ10 |  |  | [''] | \n| 10 | F1 | C1210 | 1 | Polyfuse_Small |\
+  \  |  | [''] | \n| 11 | CN6 | grove-v0.1 | 1 | grove |  |  | [''] | \n| 12 | U3\
+  \ | CE-140 | 1 | CE-mark |  |  | [''] | \n"
 counter: 1
 file_kicad_pcb_flat: projects/axello_kicad_1w_grove_v0_1/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/axello_kicad_1w_grove_v0_1/current_version/working/working.kicad_sch
 file_sch_flat: projects/axello_kicad_1w_grove_v0_1/current_version/working/working.sch
 id: axello_kicad_1w_grove_v0_1
 name: kicad
+position_bottom:
+- '# Ref': U3
+  Package: CE-140
+  PosX: 53.848
+  PosY: -67.31
+  Rot: 90.0
+  Side: bottom
+  Val: CE-mark
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U3 | CE-mark | CE-140 | 53.848 |\
+  \ -67.31 | 90.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: C_0805_2012Metric
+  PosX: 94.488
+  PosY: -62.484
+  Rot: 180.0
+  Side: top
+  Val: 100pF
+- '# Ref': C2
+  Package: C_0805_2012Metric
+  PosX: 94.488
+  PosY: -68.58
+  Rot: 0.0
+  Side: top
+  Val: 100nF
+- '# Ref': CN1
+  Package: rj10-v2
+  PosX: 63.4
+  PosY: -56.896
+  Rot: 180.0
+  Side: top
+  Val: RJ10
+- '# Ref': CN2
+  Package: rj10-v2
+  PosX: 75.0
+  PosY: -56.896
+  Rot: 180.0
+  Side: top
+  Val: RJ10
+- '# Ref': CN3
+  Package: rj10-v2
+  PosX: 86.6
+  PosY: -56.896
+  Rot: 180.0
+  Side: top
+  Val: RJ10
+- '# Ref': CN4
+  Package: rj10-v2
+  PosX: 63.4
+  PosY: -76.074
+  Rot: 0.0
+  Side: top
+  Val: RJ10
+- '# Ref': CN5
+  Package: rj10-v2
+  PosX: 75.0
+  PosY: -76.074
+  Rot: 0.0
+  Side: top
+  Val: RJ10
+- '# Ref': CN6
+  Package: grove-v0.1
+  PosX: 84.097
+  PosY: -78.619
+  Rot: 90.0
+  Side: top
+  Val: grove
+- '# Ref': F1
+  Package: C1210
+  PosX: 95.25
+  PosY: -73.279
+  Rot: 0.0
+  Side: top
+  Val: Polyfuse_Small
+- '# Ref': Q1
+  Package: SOT-323
+  PosX: 82.931
+  PosY: -72.898
+  Rot: 0.0
+  Side: top
+  Val: BSS138BKW
+- '# Ref': Q2
+  Package: SOT-23-3
+  PosX: 88.519
+  PosY: -69.215
+  Rot: 0.0
+  Side: top
+  Val: NX2301P
+- '# Ref': R1
+  Package: R_0805_2012Metric
+  PosX: 82.804
+  PosY: -70.231
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R2
+  Package: R_0805_2012Metric
+  PosX: 88.392
+  PosY: -72.898
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R4
+  Package: R_0805_2012Metric
+  PosX: 94.488
+  PosY: -66.548
+  Rot: 0.0
+  Side: top
+  Val: 5.6k
+- '# Ref': R5
+  Package: R_0805_2012Metric
+  PosX: 94.488
+  PosY: -64.516
+  Rot: 0.0
+  Side: top
+  Val: 22R
+- '# Ref': R6
+  Package: R_0805_2012Metric
+  PosX: 94.488
+  PosY: -60.452
+  Rot: 180.0
+  Side: top
+  Val: 22R
+- '# Ref': R7
+  Package: R_0805_2012Metric
+  PosX: 94.488
+  PosY: -70.612
+  Rot: 180.0
+  Side: top
+  Val: 10k
+- '# Ref': R8
+  Package: R_0805_2012Metric
+  PosX: 82.804
+  PosY: -67.818
+  Rot: 180.0
+  Side: top
+  Val: 22R
+- '# Ref': U4
+  Package: schroef_3.5mm
+  PosX: 53.3
+  PosY: -53.3
+  Rot: 0.0
+  Side: top
+  Val: schroef_3.5mm
+- '# Ref': U6
+  Package: schroef_3.5mm
+  PosX: 53.3
+  PosY: -79.502
+  Rot: 0.0
+  Side: top
+  Val: schroef_3.5mm
+- '# Ref': U10
+  Package: schroef_3.5mm
+  PosX: 86.75
+  PosY: -53.3
+  Rot: 0.0
+  Side: top
+  Val: schroef_3.5mm
+- '# Ref': U11
+  Package: schroef_3.5mm
+  PosX: 96.774
+  PosY: -92.8585
+  Rot: 0.0
+  Side: top
+  Val: schroef_3.5mm
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 100pF | C_0805_2012Metric | 94.488\
+  \ | -62.484 | 180.0 | top | \n| C2 | 100nF | C_0805_2012Metric | 94.488 | -68.58\
+  \ | 0.0 | top | \n| CN1 | RJ10 | rj10-v2 | 63.4 | -56.896 | 180.0 | top | \n| CN2\
+  \ | RJ10 | rj10-v2 | 75.0 | -56.896 | 180.0 | top | \n| CN3 | RJ10 | rj10-v2 | 86.6\
+  \ | -56.896 | 180.0 | top | \n| CN4 | RJ10 | rj10-v2 | 63.4 | -76.074 | 0.0 | top\
+  \ | \n| CN5 | RJ10 | rj10-v2 | 75.0 | -76.074 | 0.0 | top | \n| CN6 | grove | grove-v0.1\
+  \ | 84.097 | -78.619 | 90.0 | top | \n| F1 | Polyfuse_Small | C1210 | 95.25 | -73.279\
+  \ | 0.0 | top | \n| Q1 | BSS138BKW | SOT-323 | 82.931 | -72.898 | 0.0 | top | \n\
+  | Q2 | NX2301P | SOT-23-3 | 88.519 | -69.215 | 0.0 | top | \n| R1 | 10k | R_0805_2012Metric\
+  \ | 82.804 | -70.231 | 0.0 | top | \n| R2 | 10k | R_0805_2012Metric | 88.392 | -72.898\
+  \ | 0.0 | top | \n| R4 | 5.6k | R_0805_2012Metric | 94.488 | -66.548 | 0.0 | top\
+  \ | \n| R5 | 22R | R_0805_2012Metric | 94.488 | -64.516 | 0.0 | top | \n| R6 | 22R\
+  \ | R_0805_2012Metric | 94.488 | -60.452 | 180.0 | top | \n| R7 | 10k | R_0805_2012Metric\
+  \ | 94.488 | -70.612 | 180.0 | top | \n| R8 | 22R | R_0805_2012Metric | 82.804 |\
+  \ -67.818 | 180.0 | top | \n| U4 | schroef_3.5mm | schroef_3.5mm | 53.3 | -53.3\
+  \ | 0.0 | top | \n| U6 | schroef_3.5mm | schroef_3.5mm | 53.3 | -79.502 | 0.0 |\
+  \ top | \n| U10 | schroef_3.5mm | schroef_3.5mm | 86.75 | -53.3 | 0.0 | top | \n\
+  | U11 | schroef_3.5mm | schroef_3.5mm | 96.774 | -92.8585 | 0.0 | top | \n"
 projects_flat: projects/axello_kicad_1w_grove_v0_1/current_version/working
 repo:
   allow_forking: true

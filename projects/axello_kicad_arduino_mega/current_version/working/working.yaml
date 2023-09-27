@@ -1,10 +1,344 @@
 board: arduino_mega
+bom:
+- Id: '1'
+  Designator: P9,P10,P13
+  Footprint: Arduino_1pin
+  Quantity: '3'
+  Designation: CONN_01X01
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J1
+  Footprint: Power_Strip_Arduino_Mega_2x18
+  Quantity: '1'
+  Designation: Arduino Mega POWER
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: P1
+  Footprint: Socket_Strip_Arduino_1x08
+  Quantity: '1'
+  Designation: Communication
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: AE1
+  Footprint: Pin_Header_Straight_1x01
+  Quantity: '1'
+  Designation: Tx Antenna
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: AE2
+  Footprint: Pin_Header_Straight_1x01
+  Quantity: '1'
+  Designation: Rx Antenna
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U1
+  Footprint: RCV
+  Quantity: '1'
+  Designation: RXB6_RCV
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U2
+  Footprint: XMIT
+  Quantity: '1'
+  Designation: RXB6_XMIT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C1
+  Footprint: C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT
+  Quantity: '1'
+  Designation: 100n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: C2
+  Footprint: CP_Radial_D5.0mm_P2.00mm
+  Quantity: '1'
+  Designation: "0.47\xC2\xB5"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: C3
+  Footprint: CP_Radial_D5.0mm_P2.00mm
+  Quantity: '1'
+  Designation: "10\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: JP1
+  Footprint: Pin_Header_Straight_1x02_Pitch1.27mm
+  Quantity: '1'
+  Designation: RF_GND
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: G***
+  Footprint: LOGO2
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | P9,P10,P13\
+  \ | Arduino_1pin | 3 | CONN_01X01 |  |  | [''] | \n| 2 | J1 | Power_Strip_Arduino_Mega_2x18\
+  \ | 1 | Arduino Mega POWER |  |  | [''] | \n| 3 | P1 | Socket_Strip_Arduino_1x08\
+  \ | 1 | Communication |  |  | [''] | \n| 4 | AE1 | Pin_Header_Straight_1x01 | 1\
+  \ | Tx Antenna |  |  | [''] | \n| 5 | AE2 | Pin_Header_Straight_1x01 | 1 | Rx Antenna\
+  \ |  |  | [''] | \n| 6 | U1 | RCV | 1 | RXB6_RCV |  |  | [''] | \n| 7 | U2 | XMIT\
+  \ | 1 | RXB6_XMIT |  |  | [''] | \n| 8 | C1 | C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT |\
+  \ 1 | 100n |  |  | [''] | \n| 9 | C2 | CP_Radial_D5.0mm_P2.00mm | 1 | 0.47\xC2\xB5\
+  \ |  |  | [''] | \n| 10 | C3 | CP_Radial_D5.0mm_P2.00mm | 1 | 10\xC2\xB5F |  | \
+  \ | [''] | \n| 11 | JP1 | Pin_Header_Straight_1x02_Pitch1.27mm | 1 | RF_GND |  |\
+  \  | [''] | \n| 12 | G*** | LOGO2 | 1 | LOGO |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Antenna
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x01
+  Qnty: '2'
+  Ref: AE1, AE2
+  Value: Antenna
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT
+  Qnty: '1'
+  Ref: C1
+  Value: 100n
+  Vendor: ''
+- Cmp name: CP
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_THT:CP_Radial_D5.0mm_P2.00mm
+  Qnty: '1'
+  Ref: C2
+  Value: "0.47\xC2\xB5"
+  Vendor: ''
+- Cmp name: CP
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_THT:CP_Radial_D5.0mm_P2.00mm
+  Qnty: '1'
+  Ref: C3
+  Value: "10\xC2\xB5F"
+  Vendor: ''
+- Cmp name: ARDUINO_MEGA_POWER
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Mega:Power_Strip_Arduino_Mega_2x18
+  Qnty: '1'
+  Ref: J1
+  Value: Arduino_Mega_POWER
+  Vendor: ''
+- Cmp name: Jumper_NO_Small
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm
+  Qnty: '1'
+  Ref: JP1
+  Value: RF_GND
+  Vendor: ''
+- Cmp name: CONN_01X08
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Arduino_Mega:Socket_Strip_Arduino_1x08
+  Qnty: '1'
+  Ref: P1
+  Value: Communication
+  Vendor: ''
+- Cmp name: RXB6_RCV
+  DNP: ''
+  Description: ''
+  Footprint: RF:RCV
+  Qnty: '1'
+  Ref: U1
+  Value: RXB6_RCV
+  Vendor: ''
+- Cmp name: RXB6_XMIT
+  DNP: ''
+  Description: ''
+  Footprint: RF:XMIT
+  Qnty: '1'
+  Ref: U2
+  Value: RXB6_XMIT
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| AE1,\
+  \ AE2 | 2 | Antenna | Antenna | Pin_Headers:Pin_Header_Straight_1x01 |  |  |  |\
+  \ \n| C1 | 1 | 100n | C_Small | Capacitors_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT\
+  \ |  |  |  | \n| C2 | 1 | 0.47\xC2\xB5 | CP | Capacitors_THT:CP_Radial_D5.0mm_P2.00mm\
+  \ |  |  |  | \n| C3 | 1 | 10\xC2\xB5F | CP | Capacitors_THT:CP_Radial_D5.0mm_P2.00mm\
+  \ |  |  |  | \n| J1 | 1 | Arduino_Mega_POWER | ARDUINO_MEGA_POWER | Socket_Arduino_Mega:Power_Strip_Arduino_Mega_2x18\
+  \ |  |  |  | \n| JP1 | 1 | RF_GND | Jumper_NO_Small | Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm\
+  \ |  |  |  | \n| P1 | 1 | Communication | CONN_01X08 | Socket_Arduino_Mega:Socket_Strip_Arduino_1x08\
+  \ |  |  |  | \n| U1 | 1 | RXB6_RCV | RXB6_RCV | RF:RCV |  |  |  | \n| U2 | 1 | RXB6_XMIT\
+  \ | RXB6_XMIT | RF:XMIT |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/axello_kicad_arduino_mega/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/axello_kicad_arduino_mega/current_version/working/working.kicad_pcb
 file_sch_flat: projects/axello_kicad_arduino_mega/current_version/working/working.sch
 id: axello_kicad_arduino_mega
 name: kicad
+position_bottom:
+- '# Ref': G***
+  Package: LOGO2
+  PosX: 16.764
+  PosY: 27.178
+  Rot: -90.0
+  Side: bottom
+  Val: LOGO
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | LOGO2 | 16.764 | 27.178\
+  \ | -90.0 | bottom | \n"
+position_top:
+- '# Ref': AE1
+  Package: Pin_Header_Straight_1x01
+  PosX: 12.192
+  PosY: 4.826
+  Rot: 0.0
+  Side: top
+  Val: Tx_Antenna
+- '# Ref': AE2
+  Package: Pin_Header_Straight_1x01
+  PosX: 12.192
+  PosY: 39.116
+  Rot: 0.0
+  Side: top
+  Val: Rx_Antenna
+- '# Ref': C1
+  Package: C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT
+  PosX: 24.892
+  PosY: 35.426
+  Rot: 90.0
+  Side: top
+  Val: 100n
+- '# Ref': C2
+  Package: CP_Radial_D5.0mm_P2.00mm
+  PosX: 24.892
+  PosY: 26.416
+  Rot: 90.0
+  Side: top
+  Val: "0.47\xC2\xB5"
+- '# Ref': C3
+  Package: CP_Radial_D5.0mm_P2.00mm
+  PosX: 24.892
+  PosY: 15.526
+  Rot: 90.0
+  Side: top
+  Val: "10\xC2\xB5F"
+- '# Ref': J1
+  Package: Power_Strip_Arduino_Mega_2x18
+  PosX: 30.48
+  PosY: 7.62
+  Rot: 90.0
+  Side: top
+  Val: Arduino_Mega_POWER
+- '# Ref': JP1
+  Package: Pin_Header_Straight_1x02_Pitch1.27mm
+  PosX: 23.622
+  PosY: 7.366
+  Rot: 90.0
+  Side: top
+  Val: RF_GND
+- '# Ref': P1
+  Package: Socket_Strip_Arduino_1x08
+  PosX: 5.08
+  PosY: 50.8
+  Rot: 0.0
+  Side: top
+  Val: Communication
+- '# Ref': P9
+  Package: Arduino_1pin
+  PosX: 2.54
+  PosY: 7.62
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X01
+- '# Ref': P10
+  Package: Arduino_1pin
+  PosX: 33.02
+  PosY: 2.54
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X01
+- '# Ref': P13
+  Package: Arduino_1pin
+  PosX: 26.67
+  PosY: 50.8
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X01
+- '# Ref': U1
+  Package: RCV
+  PosX: 16.002
+  PosY: 3.556
+  Rot: 90.0
+  Side: top
+  Val: RXB6_RCV
+- '# Ref': U2
+  Package: XMIT
+  PosX: 8.382
+  PosY: 16.256
+  Rot: 90.0
+  Side: top
+  Val: RXB6_XMIT
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| AE1 | Tx_Antenna | Pin_Header_Straight_1x01\
+  \ | 12.192 | 4.826 | 0.0 | top | \n| AE2 | Rx_Antenna | Pin_Header_Straight_1x01\
+  \ | 12.192 | 39.116 | 0.0 | top | \n| C1 | 100n | C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT\
+  \ | 24.892 | 35.426 | 90.0 | top | \n| C2 | 0.47\xC2\xB5 | CP_Radial_D5.0mm_P2.00mm\
+  \ | 24.892 | 26.416 | 90.0 | top | \n| C3 | 10\xC2\xB5F | CP_Radial_D5.0mm_P2.00mm\
+  \ | 24.892 | 15.526 | 90.0 | top | \n| J1 | Arduino_Mega_POWER | Power_Strip_Arduino_Mega_2x18\
+  \ | 30.48 | 7.62 | 90.0 | top | \n| JP1 | RF_GND | Pin_Header_Straight_1x02_Pitch1.27mm\
+  \ | 23.622 | 7.366 | 90.0 | top | \n| P1 | Communication | Socket_Strip_Arduino_1x08\
+  \ | 5.08 | 50.8 | 0.0 | top | \n| P9 | CONN_01X01 | Arduino_1pin | 2.54 | 7.62 |\
+  \ 0.0 | top | \n| P10 | CONN_01X01 | Arduino_1pin | 33.02 | 2.54 | 0.0 | top | \n\
+  | P13 | CONN_01X01 | Arduino_1pin | 26.67 | 50.8 | 0.0 | top | \n| U1 | RXB6_RCV\
+  \ | RCV | 16.002 | 3.556 | 90.0 | top | \n| U2 | RXB6_XMIT | XMIT | 8.382 | 16.256\
+  \ | 90.0 | top | \n"
 projects_flat: projects/axello_kicad_arduino_mega/current_version/working
 repo:
   allow_forking: true

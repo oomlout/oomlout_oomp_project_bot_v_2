@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -47,7 +68,7 @@
 | 18 | SJ3 | SOLDERJUMPER_ARROW_NOPASTE | 1 |  |  |  | [''] | 
 | 19 | X1 | MICROSD | 1 |  |  |  | [''] | 
 | 20 | U3 | SOT23-5@1 | 1 | FAN5333BSX |  |  | [''] | 
-| 21 | R1 | _0805MP | 1 | 12Ω |  |  | [''] | 
+| 21 | R1 | _0805MP | 1 | 12â„¦ |  |  | [''] | 
 | 22 | X2 | TFT_3.5IN_320X480_50PIN | 1 |  |  |  | [''] | 
 
 
@@ -66,7 +87,7 @@
 | IC4 | 1 | APX803-SAG | AXP083-SAG | working:SOT23 |  |  |  | 
 | JP1, JP2 | 2 | HEADER-1X20ROUND | HEADER-1X20ROUND | working:1X20_ROUND |  |  |  | 
 | L1 | 1 | 10uH inductor | INDUCTORNR5040 | working:INDUCTOR_5X5MM_NR5040_NOTHERMALS |  |  |  | 
-| R1 | 1 | 12Ω | RESISTOR_0805MP | working:_0805MP |  |  |  | 
+| R1 | 1 | 12â„¦ | RESISTOR_0805MP | working:_0805MP |  |  |  | 
 | R2, R8, R9, R11, R12 | 5 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 
 | R6 | 1 | 10K | R-US_R0805 | working:R0805 |  |  |  | 
 | SJ3 | 1 | SOLDERJUMPER | SOLDERJUMPER | working:SOLDERJUMPER_ARROW_NOPASTE |  |  |  | 
@@ -81,8 +102,8 @@
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
 | 0.0 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$7 | m3 | 
-| 60.959999999999994 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$15 | m3 | 
+| 60.96 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$15 | m3 | 
 | 0.0 | 91.44 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$16 | m3 | 
-| 60.959999999999994 | 91.44 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$17 | m3 | 
+| 60.96 | 91.44 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$17 | m3 | 
 
 

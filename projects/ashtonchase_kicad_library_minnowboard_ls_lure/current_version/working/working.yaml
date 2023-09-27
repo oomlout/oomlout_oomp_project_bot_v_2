@@ -1,10 +1,132 @@
 board: minnowboard_ls_lure
+bom:
+- Id: '1'
+  Designator: P1
+  Footprint: Pin_Header_Straight_2x13
+  Quantity: '1'
+  Designation: CONN_02X13
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: MK2,MK1,MK4,MK3
+  Footprint: MountingHole_3-5mm
+  Quantity: '4'
+  Designation: Mounting_Hole
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | P1\
+  \ | Pin_Header_Straight_2x13 | 1 | CONN_02X13 |  |  | [''] | \n| 2 | MK2,MK1,MK4,MK3\
+  \ | MountingHole_3-5mm | 4 | Mounting_Hole |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Mounting_Hole
+  DNP: ''
+  Description: ''
+  Footprint: Mounting_Holes:MountingHole_3-5mm
+  Qnty: '4'
+  Ref: MK1, MK2, MK3, MK4
+  Value: Mounting_Hole
+  Vendor: ''
+- Cmp name: CONN_02X13
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_2x13
+  Qnty: '1'
+  Ref: P1
+  Value: CONN_02X13
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| MK1,\
+  \ MK2, MK3, MK4 | 4 | Mounting_Hole | Mounting_Hole | Mounting_Holes:MountingHole_3-5mm\
+  \ |  |  |  | \n| P1 | 1 | CONN_02X13 | CONN_02X13 | Pin_Headers:Pin_Header_Straight_2x13\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/ashtonchase_kicad_library_minnowboard_ls_lure/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/ashtonchase_kicad_library_minnowboard_ls_lure/current_version/working/working.kicad_pcb
 file_sch_flat: projects/ashtonchase_kicad_library_minnowboard_ls_lure/current_version/working/working.sch
 id: ashtonchase_kicad_library_minnowboard_ls_lure
+mounting_holes:
+- package: MountingHole_3-5mm
+  ref: MK1
+  size: m3
+  value: Mounting_Hole
+  x: '0.0'
+  y: '0.0'
+- package: MountingHole_3-5mm
+  ref: MK2
+  size: m3
+  value: Mounting_Hole
+  x: '91.44'
+  y: '0.0'
+- package: MountingHole_3-5mm
+  ref: MK3
+  size: m3
+  value: Mounting_Hole
+  x: '91.44'
+  y: '66.04'
+- package: MountingHole_3-5mm
+  ref: MK4
+  size: m3
+  value: Mounting_Hole
+  x: '0.0'
+  y: '66.04'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 0.0 | MountingHole_3-5mm | Mounting_Hole | MK1\
+  \ | m3 | \n| 91.44 | 0.0 | MountingHole_3-5mm | Mounting_Hole | MK2 | m3 | \n| 91.44\
+  \ | 66.04 | MountingHole_3-5mm | Mounting_Hole | MK3 | m3 | \n| 0.0 | 66.04 | MountingHole_3-5mm\
+  \ | Mounting_Hole | MK4 | m3 | \n"
 name: kicad_library
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': MK1
+  Package: MountingHole_3-5mm
+  PosX: 3.81
+  PosY: 3.81
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: MountingHole_3-5mm
+  PosX: 95.25
+  PosY: 3.81
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK3
+  Package: MountingHole_3-5mm
+  PosX: 95.25
+  PosY: 69.85
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK4
+  Package: MountingHole_3-5mm
+  PosX: 3.81
+  PosY: 69.85
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': P1
+  Package: Pin_Header_Straight_2x13
+  PosX: 13.335
+  PosY: 2.54
+  Rot: 90.0
+  Side: top
+  Val: CONN_02X13
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| MK1 | Mounting_Hole | MountingHole_3-5mm\
+  \ | 3.81 | 3.81 | 0.0 | top | \n| MK2 | Mounting_Hole | MountingHole_3-5mm | 95.25\
+  \ | 3.81 | 0.0 | top | \n| MK3 | Mounting_Hole | MountingHole_3-5mm | 95.25 | 69.85\
+  \ | 0.0 | top | \n| MK4 | Mounting_Hole | MountingHole_3-5mm | 3.81 | 69.85 | 0.0\
+  \ | top | \n| P1 | CONN_02X13 | Pin_Header_Straight_2x13 | 13.335 | 2.54 | 90.0\
+  \ | top | \n"
 projects_flat: projects/ashtonchase_kicad_library_minnowboard_ls_lure/current_version/working
 repo:
   allow_forking: true

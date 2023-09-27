@@ -1,10 +1,158 @@
 board: jst_adapter
+bom:
+- Id: '1'
+  Designator: H1,H2
+  Footprint: M2.5_HOLE
+  Quantity: '2'
+  Designation: M2.5_Hole
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: FD1,FD2,FD3
+  Footprint: FIDUCIAL
+  Quantity: '3'
+  Designation: FIDUCIAL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: P1
+  Footprint: Socket_Strip_Straight_2x08
+  Quantity: '1'
+  Designation: CONN_02X08
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J1
+  Footprint: S4B-PH-SM4-TB(LF)(SN)
+  Quantity: '1'
+  Designation: S4B-PH-SM4-TB(LF)(SN)
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | H1,H2\
+  \ | M2.5_HOLE | 2 | M2.5_Hole |  |  | [''] | \n| 2 | FD1,FD2,FD3 | FIDUCIAL | 3\
+  \ | FIDUCIAL |  |  | [''] | \n| 3 | P1 | Socket_Strip_Straight_2x08 | 1 | CONN_02X08\
+  \ |  |  | [''] | \n| 4 | J1 | S4B-PH-SM4-TB(LF)(SN) | 1 | S4B-PH-SM4-TB(LF)(SN)\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: FIDUCIAL
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:FIDUCIAL
+  Qnty: '3'
+  Ref: FD1, FD2, FD3
+  Value: FIDUCIAL
+  Vendor: ''
+- Cmp name: M2.5_Hole
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:M2.5_HOLE
+  Qnty: '2'
+  Ref: H1, H2
+  Value: M2.5_Hole
+  Vendor: ''
+- Cmp name: S4B-PH-SM4-TB(LF)(SN)
+  DNP: ''
+  Description: ''
+  Footprint: PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)
+  Qnty: '1'
+  Ref: J1
+  Value: S4B-PH-SM4-TB(LF)(SN)
+  Vendor: ''
+- Cmp name: CONN_02X08
+  DNP: ''
+  Description: ''
+  Footprint: Socket_Strips:Socket_Strip_Straight_2x08
+  Qnty: '1'
+  Ref: P1
+  Value: CONN_02X08
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| FD1,\
+  \ FD2, FD3 | 3 | FIDUCIAL | FIDUCIAL | PCB_Footprints:FIDUCIAL |  |  |  | \n| H1,\
+  \ H2 | 2 | M2.5_Hole | M2.5_Hole | PCB_Footprints:M2.5_HOLE |  |  |  | \n| J1 |\
+  \ 1 | S4B-PH-SM4-TB(LF)(SN) | S4B-PH-SM4-TB(LF)(SN) | PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)\
+  \ |  |  |  | \n| P1 | 1 | CONN_02X08 | CONN_02X08 | Socket_Strips:Socket_Strip_Straight_2x08\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamjvr_s1g_mod_jst_adapter/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamjvr_s1g_mod_jst_adapter/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adamjvr_s1g_mod_jst_adapter/current_version/working/working.sch
 id: adamjvr_s1g_mod_jst_adapter
 name: s1g_mod
+position_bottom:
+- '# Ref': J1
+  Package: S4B-PH-SM4-TB(LF)(SN)
+  PosX: 113.225
+  PosY: -48.25
+  Rot: -90.0
+  Side: bottom
+  Val: S4B-PH-SM4-TB(LF)(SN)
+- '# Ref': P1
+  Package: Socket_Strip_Straight_2x08
+  PosX: 107.38
+  PosY: -57.8
+  Rot: 180.0
+  Side: bottom
+  Val: CONN_02X08
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J1 | S4B-PH-SM4-TB(LF)(SN) | S4B-PH-SM4-TB(LF)(SN)\
+  \ | 113.225 | -48.25 | -90.0 | bottom | \n| P1 | CONN_02X08 | Socket_Strip_Straight_2x08\
+  \ | 107.38 | -57.8 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': FD1
+  Package: FIDUCIAL
+  PosX: 116.75
+  PosY: -60.75
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': FD2
+  Package: FIDUCIAL
+  PosX: 116.75
+  PosY: -35.1
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': FD3
+  Package: FIDUCIAL
+  PosX: 101.25
+  PosY: -35.1
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL
+- '# Ref': H1
+  Package: M2.5_HOLE
+  PosX: 112.6
+  PosY: -58.0
+  Rot: 90.0
+  Side: top
+  Val: M2.5_Hole
+- '# Ref': H2
+  Package: M2.5_HOLE
+  PosX: 104.5
+  PosY: -39.0
+  Rot: 0.0
+  Side: top
+  Val: M2.5_Hole
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| FD1 | FIDUCIAL | FIDUCIAL | 116.75 |\
+  \ -60.75 | 0.0 | top | \n| FD2 | FIDUCIAL | FIDUCIAL | 116.75 | -35.1 | 0.0 | top\
+  \ | \n| FD3 | FIDUCIAL | FIDUCIAL | 101.25 | -35.1 | 0.0 | top | \n| H1 | M2.5_Hole\
+  \ | M2.5_HOLE | 112.6 | -58.0 | 90.0 | top | \n| H2 | M2.5_Hole | M2.5_HOLE | 104.5\
+  \ | -39.0 | 0.0 | top | \n"
 projects_flat: projects/adamjvr_s1g_mod_jst_adapter/current_version/working
 repo:
   allow_forking: true

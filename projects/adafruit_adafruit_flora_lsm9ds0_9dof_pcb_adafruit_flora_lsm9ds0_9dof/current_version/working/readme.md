@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -31,7 +52,7 @@
 | 2 | R1 | RESPACK_4X0603 | 1 | 10K |  |  | [''] | 
 | 3 | FID2,FID1 | FIDUCIAL_1MM | 2 | FIDUCIAL" |  |  | [''] | 
 | 4 | U2 | LGA24_4X4MM | 1 | LSM9DS0TR |  |  | [''] | 
-| 5 | C2 | 0805_10MGAP | 1 | 10µF |  |  | [''] | 
+| 5 | C2 | 0805_10MGAP | 1 | 10ÂµF |  |  | [''] | 
 | 6 | C6 | 0805-NO | 1 | 0.22uF |  |  | [''] | 
 | 7 | U$4 | ADAFRUIT_2.5MM | 1 |  |  |  | [''] | 
 | 8 | C7 | 0805-NO | 1 | 10uF |  |  | [''] | 
@@ -40,7 +61,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C2 | 1 | 10µF | CAP_CERAMIC0805_10MGAP | working:0805_10MGAP |  |  |  | 
+| C2 | 1 | 10ÂµF | CAP_CERAMIC0805_10MGAP | working:0805_10MGAP |  |  |  | 
 | C6 | 1 | 0.22uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7 | 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | FID1, FID2 | 2 | FIDUCIAL"" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | 

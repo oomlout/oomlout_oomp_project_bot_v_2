@@ -11,6 +11,8 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/sparkfun/Photon_Battery_Shield/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/sparkfun_photon_battery_shield_photon_battery_shield/current_version/working  
+
 
 
 

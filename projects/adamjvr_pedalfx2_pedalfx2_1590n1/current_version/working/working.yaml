@@ -1,10 +1,290 @@
 board: pedalfx2_1590n1
+bom:
+- Id: '1'
+  Designator: C2
+  Footprint: C0805
+  Quantity: '1'
+  Designation: CL21B104KCFNNNE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J1
+  Footprint: PinHeader_1x04_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x04_Female
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R1
+  Footprint: R1206
+  Quantity: '1'
+  Designation: RC1206FR-071KL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R2,R3
+  Footprint: R1206
+  Quantity: '2'
+  Designation: RC1206FR-071ML
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: SP2
+  Footprint: LED_D5.0mm
+  Quantity: '1'
+  Designation: HLMP-4700-C0002
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: T1,T2
+  Footprint: ACJS-MHDR
+  Quantity: '2'
+  Designation: ACJS-MHDR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: SP1
+  Footprint: Switches_Stomp_Switch_3PDT
+  Quantity: '1'
+  Designation: 3PDT-StompSwitch_Alt
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C1
+  Footprint: CP_Radial_D8.0mm_P3.50mm
+  Quantity: '1'
+  Designation: UFW1H101MPD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: T3
+  Footprint: BarrelJack_Horizontal
+  Quantity: '1'
+  Designation: 54-00129
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C2\
+  \ | C0805 | 1 | CL21B104KCFNNNE |  |  | [''] | \n| 2 | J1 | PinHeader_1x04_P2.54mm_Vertical\
+  \ | 1 | Conn_01x04_Female |  |  | [''] | \n| 3 | R1 | R1206 | 1 | RC1206FR-071KL\
+  \ |  |  | [''] | \n| 4 | R2,R3 | R1206 | 2 | RC1206FR-071ML |  |  | [''] | \n| 5\
+  \ | SP2 | LED_D5.0mm | 1 | HLMP-4700-C0002 |  |  | [''] | \n| 6 | T1,T2 | ACJS-MHDR\
+  \ | 2 | ACJS-MHDR |  |  | [''] | \n| 7 | SP1 | Switches_Stomp_Switch_3PDT | 1 |\
+  \ 3PDT-StompSwitch_Alt |  |  | [''] | \n| 8 | C1 | CP_Radial_D8.0mm_P3.50mm | 1\
+  \ | UFW1H101MPD |  |  | [''] | \n| 9 | T3 | BarrelJack_Horizontal | 1 | 54-00129\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: UFW1H101MPD-AVR-KiCAD-Lib-Capacitors
+  DNP: ''
+  Description: ''
+  Footprint: AVR-KiCAD-Lib-Capacitors:CP_Radial_D8.0mm_P3.50mm
+  Qnty: '1'
+  Ref: C1
+  Value: UFW1H101MPD
+  Vendor: Digikey
+- Cmp name: CL21B104KCFNNNE-AVR-KiCAD-Lib-Capacitors
+  DNP: ''
+  Description: ''
+  Footprint: AVR-KiCAD-Lib-Capacitors:C0805
+  Qnty: '1'
+  Ref: C2
+  Value: CL21B104KCFNNNE
+  Vendor: Digikey
+- Cmp name: Conn_01x04_Female-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_01x04_Female
+  Vendor: ''
+- Cmp name: RC1206FR-071KL-Resistors
+  DNP: ''
+  Description: ''
+  Footprint: AVR-KiCAD-Lib-Resistors:R1206
+  Qnty: '1'
+  Ref: R1
+  Value: RC1206FR-071KL
+  Vendor: Digikey
+- Cmp name: RC1206FR-071ML-Resistors
+  DNP: ''
+  Description: ''
+  Footprint: AVR-KiCAD-Lib-Resistors:R1206
+  Qnty: '2'
+  Ref: R2, R3
+  Value: RC1206FR-071ML
+  Vendor: Digikey
+- Cmp name: 3PDT-StompSwitch_Alt-Special
+  DNP: ''
+  Description: ''
+  Footprint: AVR-KiCAD-Lib-Special:Switches_Stomp_Switch_3PDT
+  Qnty: '1'
+  Ref: SP1
+  Value: 3PDT-StompSwitch_Alt
+  Vendor: '*'
+- Cmp name: HLMP-4700-C0002-Special
+  DNP: ''
+  Description: ''
+  Footprint: AVR-KiCAD-Lib-Diodesl:LED_D5.0mm
+  Qnty: '1'
+  Ref: SP2
+  Value: HLMP-4700-C0002
+  Vendor: Digikey
+- Cmp name: ACJS-MHDR-Connectors
+  DNP: ''
+  Description: ''
+  Footprint: AVR-KiCAD-Lib-Connectors:ACJS-MHDR
+  Qnty: '2'
+  Ref: T1, T2
+  Value: ACJS-MHDR
+  Vendor: Digikey
+- Cmp name: 54-00129-Connectors
+  DNP: ''
+  Description: ''
+  Footprint: AVR-KiCAD-Lib-Connectors:BarrelJack_Horizontal
+  Qnty: '1'
+  Ref: T3
+  Value: 54-00129
+  Vendor: Digikey
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | UFW1H101MPD | UFW1H101MPD-AVR-KiCAD-Lib-Capacitors | AVR-KiCAD-Lib-Capacitors:CP_Radial_D8.0mm_P3.50mm\
+  \ |  | Digikey |  | \n| C2 | 1 | CL21B104KCFNNNE | CL21B104KCFNNNE-AVR-KiCAD-Lib-Capacitors\
+  \ | AVR-KiCAD-Lib-Capacitors:C0805 |  | Digikey |  | \n| J1 | 1 | Conn_01x04_Female\
+  \ | Conn_01x04_Female-Connector | Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical\
+  \ |  |  |  | \n| R1 | 1 | RC1206FR-071KL | RC1206FR-071KL-Resistors | AVR-KiCAD-Lib-Resistors:R1206\
+  \ |  | Digikey |  | \n| R2, R3 | 2 | RC1206FR-071ML | RC1206FR-071ML-Resistors |\
+  \ AVR-KiCAD-Lib-Resistors:R1206 |  | Digikey |  | \n| SP1 | 1 | 3PDT-StompSwitch_Alt\
+  \ | 3PDT-StompSwitch_Alt-Special | AVR-KiCAD-Lib-Special:Switches_Stomp_Switch_3PDT\
+  \ |  | * |  | \n| SP2 | 1 | HLMP-4700-C0002 | HLMP-4700-C0002-Special | AVR-KiCAD-Lib-Diodesl:LED_D5.0mm\
+  \ |  | Digikey |  | \n| T1, T2 | 2 | ACJS-MHDR | ACJS-MHDR-Connectors | AVR-KiCAD-Lib-Connectors:ACJS-MHDR\
+  \ |  | Digikey |  | \n| T3 | 1 | 54-00129 | 54-00129-Connectors | AVR-KiCAD-Lib-Connectors:BarrelJack_Horizontal\
+  \ |  | Digikey |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamjvr_pedalfx2_pedalfx2_1590n1/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamjvr_pedalfx2_pedalfx2_1590n1/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adamjvr_pedalfx2_pedalfx2_1590n1/current_version/working/working.sch
 id: adamjvr_pedalfx2_pedalfx2_1590n1
 name: pedalfx2
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: CP_Radial_D8.0mm_P3.50mm
+  PosX: 141.57
+  PosY: -155.398
+  Rot: 180.0
+  Side: top
+  Val: UFW1H101MPD
+- '# Ref': C2
+  Package: C0805
+  PosX: 145.126
+  PosY: -151.842
+  Rot: 0.0
+  Side: top
+  Val: CL21B104KCFNNNE
+- '# Ref': J1
+  Package: PinHeader_1x04_P2.54mm_Vertical
+  PosX: 129.35
+  PosY: -120.5
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x04_Female
+- '# Ref': R1
+  Package: R1206
+  PosX: 114.138
+  PosY: -151.588
+  Rot: 90.0
+  Side: top
+  Val: RC1206FR-071KL
+- '# Ref': R2
+  Package: R1206
+  PosX: 114.138
+  PosY: -145.238
+  Rot: -90.0
+  Side: top
+  Val: RC1206FR-071ML
+- '# Ref': R3
+  Package: R1206
+  PosX: 114.138
+  PosY: -157.938
+  Rot: 90.0
+  Side: top
+  Val: RC1206FR-071ML
+- '# Ref': SP1
+  Package: Switches_Stomp_Switch_3PDT
+  PosX: 125.4941
+  PosY: -151.5
+  Rot: 0.0
+  Side: top
+  Val: 3PDT-StompSwitch_Alt
+- '# Ref': SP2
+  Package: LED_D5.0mm
+  PosX: 110.582
+  PosY: -148.032
+  Rot: 180.0
+  Side: top
+  Val: HLMP-4700-C0002
+- '# Ref': T1
+  Package: ACJS-MHDR
+  PosX: 144.5
+  PosY: -131.05
+  Rot: 0.0
+  Side: top
+  Val: ACJS-MHDR
+- '# Ref': T2
+  Package: ACJS-MHDR
+  PosX: 106.5
+  PosY: -131.014
+  Rot: 180.0
+  Side: top
+  Val: ACJS-MHDR
+- '# Ref': T3
+  Package: BarrelJack_Horizontal
+  PosX: 139.284
+  PosY: -146.0
+  Rot: 180.0
+  Side: top
+  Val: 54-00129
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | UFW1H101MPD | CP_Radial_D8.0mm_P3.50mm\
+  \ | 141.57 | -155.398 | 180.0 | top | \n| C2 | CL21B104KCFNNNE | C0805 | 145.126\
+  \ | -151.842 | 0.0 | top | \n| J1 | Conn_01x04_Female | PinHeader_1x04_P2.54mm_Vertical\
+  \ | 129.35 | -120.5 | -90.0 | top | \n| R1 | RC1206FR-071KL | R1206 | 114.138 |\
+  \ -151.588 | 90.0 | top | \n| R2 | RC1206FR-071ML | R1206 | 114.138 | -145.238 |\
+  \ -90.0 | top | \n| R3 | RC1206FR-071ML | R1206 | 114.138 | -157.938 | 90.0 | top\
+  \ | \n| SP1 | 3PDT-StompSwitch_Alt | Switches_Stomp_Switch_3PDT | 125.4941 | -151.5\
+  \ | 0.0 | top | \n| SP2 | HLMP-4700-C0002 | LED_D5.0mm | 110.582 | -148.032 | 180.0\
+  \ | top | \n| T1 | ACJS-MHDR | ACJS-MHDR | 144.5 | -131.05 | 0.0 | top | \n| T2\
+  \ | ACJS-MHDR | ACJS-MHDR | 106.5 | -131.014 | 180.0 | top | \n| T3 | 54-00129 |\
+  \ BarrelJack_Horizontal | 139.284 | -146.0 | 180.0 | top | \n"
 projects_flat: projects/adamjvr_pedalfx2_pedalfx2_1590n1/current_version/working
 repo:
   allow_forking: true

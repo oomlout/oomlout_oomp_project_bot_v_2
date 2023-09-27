@@ -16,13 +16,34 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## working_bom
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| 1 | C1,C2,C4 | Capacitor4x3RM2.5 | 3 | 0.1µF |  |  | [''] | 
+| 1 | C1,C2,C4 | Capacitor4x3RM2.5 | 3 | 0.1ÂµF |  |  | [''] | 
 | 2 | ENC1 | ALPS_Encoder-EC12E2420404 | 1 | Encoder |  |  | [''] | 
 | 3 | SW1 | SW_PUSH-12mm | 1 | SW_PUSH |  |  | [''] | 
 | 4 | R4,R2 | R3 | 2 | 10k |  |  | [''] | 
@@ -34,7 +55,7 @@
 | 10 | P2 | Pin_Header_Angled_1x02 | 1 | PANEL_1 |  |  | [''] | 
 | 11 | P3 | Pin_Header_Angled_1x02 | 1 | PANEL_2 |  |  | [''] | 
 | 12 | U1 | TO-220_Neutral123_Horizontal | 1 | LM7805CT |  |  | [''] | 
-| 13 | C3 | Capacitor4x3RM2.5 | 1 | 0.33µF |  |  | [''] | 
+| 13 | C3 | Capacitor4x3RM2.5 | 1 | 0.33ÂµF |  |  | [''] | 
 | 14 | Q1 | TO-220_FET-GDS_Horizontal | 1 | P55NF |  |  | [''] | 
 | 15 | U2 | DIP-16__300 | 1 | 74HC595 |  |  | [''] | 
 | 16 | U3 | ArduinoProMicro | 1 | Arduino_Pro_Micro |  |  | [''] | 

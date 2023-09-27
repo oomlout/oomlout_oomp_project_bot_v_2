@@ -17,7 +17,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -31,7 +52,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | R2,R1 | 0402 | 2 | 5k1 |  |  | [''] | 
 | 2 | C8,C21,C7,C11,C6,C22,C15,C16,C17,C10,C9 | 0402 | 11 | 100n |  |  | [''] | 
-| 3 | C19,C18,C12,C3,C13,C2,C4,C14,C5,C1 | 0603 | 10 | 2µ2 |  |  | [''] | 
+| 3 | C19,C18,C12,C3,C13,C2,C4,C14,C5,C1 | 0603 | 10 | 2Âµ2 |  |  | [''] | 
 | 4 | SW2 | SW_MOM_6X6 | 1 | BOOTLOAD |  |  | [''] | 
 | 5 | R3,R6 | 0402 | 2 | 10k |  |  | [''] | 
 | 6 | D1 | SOD-123 | 1 | 1N4148W |  |  | [''] | 
@@ -49,7 +70,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1, C2, C3, C4, C5, C12, C13, C14, C18, C19 | 10 | 2µ2 | C | agg:0603 |  |  |  | 
+| C1, C2, C3, C4, C5, C12, C13, C14, C18, C19 | 10 | 2Âµ2 | C | agg:0603 |  |  |  | 
 | C6, C7, C8, C9, C10, C11, C15, C16, C17, C21, C22 | 11 | 100n | C | agg:0402 |  |  |  | 
 | D1 | 1 | 1N4148W | D | agg:SOD-123 | Diode |  |  | 
 | IC1 | 1 | XC6206P332MR | MCP1700 | ael:SOT-23 | LDO Voltage Regulator |  |  | 

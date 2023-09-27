@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -33,7 +54,7 @@
 | 4 | D2,D1 | SOD-123FL | 2 | MBR120 |  |  | [''] | 
 | 5 | L2 | APA102_2020 | 1 | AP102-2020 |  |  | [''] | 
 | 6 | U$4 | TQFN48_7MM | 1 | ATSAMD21G18 |  |  | [''] | 
-| 7 | C6,C8 | 0805-NO | 2 | 10µF |  |  | [''] | 
+| 7 | C6,C8 | 0805-NO | 2 | 10ÂµF |  |  | [''] | 
 | 8 | R2,R1 | 0603-NO | 2 | 100k |  |  | [''] | 
 | 9 | U2 | SOT23-5 | 1 | AP2112K-3.3 |  |  | [''] | 
 | 10 | L0 | CHIPLED_0805_NOOUTLINE | 1 | RED |  |  | [''] | 
@@ -53,7 +74,7 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C5, C7, C14 | 4 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C6, C8 | 2 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C6, C8 | 2 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | D1, D2 | 2 | MBR120 | DIODE_SOD-123FL | working:SOD-123FL |  |  |  | 
 | IC1 | 1 | 741G125DBV | 741G125DBV | working:SOT23-5 |  |  |  | 
 | JP1 | 1 | HEADER-1X570MIL | HEADER-1X570MIL | working:1X05_ROUND_70 |  |  |  | 

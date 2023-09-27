@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -36,7 +57,7 @@
 | 7 | X1,X2 | TERMBLOCK_1X2-3.5MM | 2 | 3.5mm |  |  | [''] | 
 | 8 | FB1 | 0805-NO | 1 |  |  |  | [''] | 
 | 9 | SJ3,SJ4 | SOLDERJUMPER_ARROW_NOPASTE | 2 |  |  |  | [''] | 
-| 10 | R1 | 0805-NO | 1 | 430Ω / 4300Ω 0.1% |  |  | [''] | 
+| 10 | R1 | 0805-NO | 1 | 430Î© / 4300Î© 0.1% |  |  | [''] | 
 | 11 | C1,C2 | 0805-NO | 2 | 0.1uF |  |  | [''] | 
 | 12 | JP1 | 1X08_ROUND_70 | 1 |  |  |  | [''] | 
 | 13 | C3 | 0805-NO | 1 | 100nF |  |  | [''] | 
@@ -57,7 +78,7 @@
 | FB1 | 1 | FERRITE-0805NO | FERRITE-0805NO | working:0805-NO |  |  |  | 
 | FID1, FID2 | 2 | FIDUCIAL"" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | 
 | JP1 | 1 | HEADER-1X870MIL | HEADER-1X870MIL | working:1X08_ROUND_70 |  |  |  | 
-| R1 | 1 | 430Ω / 4300Ω 0.1% | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 
+| R1 | 1 | 430Î© / 4300Î© 0.1% | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 
 | R6, R7, R8 | 3 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 
 | SJ1 | 1 | SOLDERJUMPER_2WAY | SOLDERJUMPER_2WAY | working:SOLDERJUMPER_2WAY_OPEN_NOPASTE |  |  |  | 
 | SJ3, SJ4 | 2 | SOLDERJUMPER | SOLDERJUMPER | working:SOLDERJUMPER_ARROW_NOPASTE |  |  |  | 

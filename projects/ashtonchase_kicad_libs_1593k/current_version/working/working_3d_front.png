@@ -1,0 +1,72 @@
+(pcb C:\gh\oomlout_oomp_project_bot_v_2\projects\ashtonchase_kicad_libs_1593k\current_version\working\working_3d_front.png
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "7.0.6")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  148700 -113750  142080 -113751  142080 -120381  148700 -120380
+            148700 -153230  92090 -153230  92090 -120380  98710 -120380
+            98710 -113750  92090 -113750  92090 -95570  148700 -95570  148700 -113750)
+    )
+    (via "Via[0-1]_685.8:330.2_um")
+    (rule
+      (width 381)
+      (clearance 254.1)
+      (clearance 254.1 (type default_smd))
+      (clearance 63.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component 1593K_FULL
+      (place REF** 106820.240000 -110120.540000 front 0.000000 (PN 1593K_FULL))
+    )
+  )
+  (library
+    (image 1593K_FULL
+      (pin Round[A]Pad_5750_um @1 -420 -280)
+      (pin Round[A]Pad_5750_um @2 -420 -28280)
+      (pin Round[A]Pad_5750_um @3 27580 -280)
+      (pin Round[A]Pad_5750_um @4 27580 -28280)
+    )
+    (padstack Round[A]Pad_5750_um
+      (shape (circle F.Cu 5750))
+      (shape (circle B.Cu 5750))
+      (attach off)
+    )
+    (padstack "Via[0-1]_685.8:330.2_um"
+      (shape (circle F.Cu 685.8))
+      (shape (circle B.Cu 685.8))
+      (attach off)
+    )
+  )
+  (network
+    (class kicad_default ""
+      (circuit
+        (use_via Via[0-1]_685.8:330.2_um)
+      )
+      (rule
+        (width 381)
+        (clearance 254.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

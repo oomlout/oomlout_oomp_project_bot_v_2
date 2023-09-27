@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -31,7 +52,7 @@
 | 2 | SJ3 | SOLDERJUMPER_ARROW_NOPASTE | 1 | +100mA |  |  | [''] | 
 | 3 | TP9,TP12,TP3,TP1,TP2,TP4,TP5,TP13,TP11,TP8,TP6,TP7,TP10 | TP15SQ | 13 | TPTP15SQ |  |  | [''] | 
 | 4 | R6,R11,R8,R10,R12,R9 | RESPACK_4X0603 | 6 | 33 |  |  | [''] | 
-| 5 | R3,R7,R4 | 0805-NO | 3 | 12Ω |  |  | [''] | 
+| 5 | R3,R7,R4 | 0805-NO | 3 | 12â„¦ |  |  | [''] | 
 | 6 | IC1 | TSSOP20-5.3MMBODY | 1 | AR1100_SSOP |  |  | [''] | 
 | 7 | Y1 | RESONATOR-SMD | 1 | 12MHz |  |  | [''] | 
 | 8 | C7,C5,C4 | 0805-NO | 3 | 10uF |  |  | [''] | 
@@ -41,7 +62,7 @@
 | 12 | FB2,FB1 | _0805MP | 2 | FERRITE |  |  | [''] | 
 | 13 | C3,C1 | 0805-NO | 2 | 0.1uF |  |  | [''] | 
 | 14 | R5 | _0805MP | 1 | 20K |  |  | [''] | 
-| 15 | R2 | 0805-NO | 1 | 6Ω |  |  | [''] | 
+| 15 | R2 | 0805-NO | 1 | 6â„¦ |  |  | [''] | 
 | 16 | R1,R14 | 0805-NO | 2 | 20K |  |  | [''] | 
 | 17 | C8 | 0805-NO | 1 | 1uF |  |  | [''] | 
 | 18 | C2 | _0805MP | 1 | 1uF |  |  | [''] | 
@@ -79,8 +100,8 @@
 | L1 | 1 | 6.8uH power L CID 2276 | INDUCTORNR5040 | working:INDUCTOR_5X5MM_NR5040_NOTHERMALS |  |  |  | 
 | LED1 | 1 | RED | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 
 | R1, R14 | 2 | 20K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 
-| R2 | 1 | 6Ω | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 
-| R3, R4, R7 | 3 | 12Ω | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 
+| R2 | 1 | 6â„¦ | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 
+| R3, R4, R7 | 3 | 12â„¦ | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 
 | R5 | 1 | 20K | RESISTOR_0805MP | working:_0805MP |  |  |  | 
 | R6, R8, R9, R10, R11, R12 | 6 | 33 | RESISTOR_4PACK | working:RESPACK_4X0603 |  |  |  | 
 | R13 | 1 | 470 | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 

@@ -1,4 +1,42 @@
 board: celestine_sandwichcase_top
+bom:
+- Id: '1'
+  Designator: O1
+  Footprint: Outline
+  Quantity: '1'
+  Designation: Outline
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: G***
+  Footprint: ai-10
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | O1\
+  \ | Outline | 1 | Outline |  |  | [''] | \n| 2 | G*** | ai-10 | 1 | LOGO |  |  |\
+  \ [''] | \n"
+bom_schematic:
+- Cmp name: Conn_01x01
+  DNP: ''
+  Description: Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: locallib:Outline
+  Qnty: '1'
+  Ref: O1
+  Value: Outline
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| O1 |\
+  \ 1 | Outline | Conn_01x01 | locallib:Outline | Generic connector, single row, 01x01,\
+  \ script generated (kicad-library-utils/schlib/autogen/connector/) |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/ai03_2725_celestine_celestine_sandwichcase_top/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/ai03_2725_celestine_celestine_sandwichcase_top/current_version/working/working.kicad_pcb
@@ -6,6 +44,26 @@ file_repo_bom_csv_flat: projects/ai03_2725_celestine_celestine_sandwichcase_top/
 file_sch_flat: projects/ai03_2725_celestine_celestine_sandwichcase_top/current_version/working/working.sch
 id: ai03_2725_celestine_celestine_sandwichcase_top
 name: celestine
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': G***
+  Package: ai-10
+  PosX: 344.0906
+  PosY: -96.8375
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': O1
+  Package: Outline
+  PosX: 17.0656
+  PosY: -17.272
+  Rot: 0.0
+  Side: top
+  Val: Outline
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | ai-10 | 344.0906 | -96.8375\
+  \ | 0.0 | top | \n| O1 | Outline | Outline | 17.0656 | -17.272 | 0.0 | top | \n"
 projects_flat: projects/ai03_2725_celestine_celestine_sandwichcase_top/current_version/working
 repo:
   allow_forking: true

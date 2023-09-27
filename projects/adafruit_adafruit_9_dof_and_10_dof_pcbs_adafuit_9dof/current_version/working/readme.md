@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -41,7 +62,7 @@
 | 12 | U4 | SOT23-5 | 1 | MIC5225-3.3 |  |  | [''] | 
 | 13 | U2 | LGA14 | 1 | LSM303DLHC |  |  | [''] | 
 | 14 | U3 | BMP180_EXTENDED | 1 | BMP180 |  |  | [''] | 
-| 15 | C7 | _0805MP | 1 | 0.22µF |  |  | [''] | 
+| 15 | C7 | _0805MP | 1 | 0.22ÂµF |  |  | [''] | 
 | 16 | C6 | _0805MP | 1 | 4.7uF |  |  | [''] | 
 | 17 | C1 | _0805MP | 1 | 10nF |  |  | [''] | 
 | 18 | U$26 | ADAFRUIT_TEXT_20MM | 1 |  |  |  | [''] | 
@@ -55,7 +76,7 @@
 | C3, C4 | 2 | 0.1uF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
 | C5, C8, C9 | 3 | 10uF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
 | C6 | 1 | 4.7uF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
-| C7 | 1 | 0.22µF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
+| C7 | 1 | 0.22ÂµF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
 | FID1, FID2, FID3 | 3 | FIDUCIAL"" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | 
 | JP1 | 1 | HEADER-1X10ROUND | HEADER-1X10ROUND | working:1X10_ROUND |  |  |  | 
 | Q1, Q2 | 2 | BSS138 | MOSFET-NWIDE | working:SOT23-WIDE |  |  |  | 
@@ -70,8 +91,8 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 33.02000000000001 | 0.0 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$28 | m3 | 
-| 33.02000000000001 | 17.78 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$29 | m3 | 
+| 33.02 | 0.0 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$28 | m3 | 
+| 33.02 | 17.78 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$29 | m3 | 
 | 0.0 | 17.78 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$30 | m3 | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED_THICK | MOUNTINGHOLE2.5_THICK | U$31 | m3 | 
 

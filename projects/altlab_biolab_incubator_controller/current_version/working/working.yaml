@@ -1,10 +1,611 @@
 board: controller
+bom:
+- Id: '1'
+  Designator: D1
+  Footprint: D_DO-15_P15.24mm_Horizontal
+  Quantity: '1'
+  Designation: DIODE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J1
+  Footprint: PinSocket_1x02_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: ToArduino
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J2
+  Footprint: PinSocket_1x02_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: FromArduino
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J3
+  Footprint: BarrelJack_CUI_PJ-063AH_Horizontal
+  Quantity: '1'
+  Designation: Power12V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J4
+  Footprint: PinSocket_1x01_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: A0 Sensor
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J5
+  Footprint: PinSocket_1x01_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: D12
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: J6
+  Footprint: PinSocket_1x01_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: D4 - Heat
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: J7
+  Footprint: PinSocket_1x01_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: D11
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: J8
+  Footprint: PinSocket_1x01_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: D5-Fan
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: Q1
+  Footprint: TO-220-3_Vertical
+  Quantity: '1'
+  Designation: IRF-Heat
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: Q2
+  Footprint: TO-220-3_Vertical
+  Quantity: '1'
+  Designation: IRF-Fan
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: R1
+  Footprint: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  Quantity: '1'
+  Designation: Heat-R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: R2
+  Footprint: PinSocket_1x02_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Sensor
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: R3
+  Footprint: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  Quantity: '1'
+  Designation: Temp R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: R4
+  Footprint: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  Quantity: '1'
+  Designation: Pull-D12
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: R5
+  Footprint: PinSocket_1x02_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Heating
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: R6
+  Footprint: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  Quantity: '1'
+  Designation: Pull-D11
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: R7
+  Footprint: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  Quantity: '1'
+  Designation: Fan-R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: R8
+  Footprint: PinSocket_1x02_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Fan
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: SW1
+  Footprint: PinSocket_1x02_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Button +
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '21'
+  Designator: SW2
+  Footprint: PinSocket_1x02_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Button -
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D1\
+  \ | D_DO-15_P15.24mm_Horizontal | 1 | DIODE |  |  | [''] | \n| 2 | J1 | PinSocket_1x02_P2.54mm_Vertical\
+  \ | 1 | ToArduino |  |  | [''] | \n| 3 | J2 | PinSocket_1x02_P2.54mm_Vertical |\
+  \ 1 | FromArduino |  |  | [''] | \n| 4 | J3 | BarrelJack_CUI_PJ-063AH_Horizontal\
+  \ | 1 | Power12V |  |  | [''] | \n| 5 | J4 | PinSocket_1x01_P2.54mm_Vertical | 1\
+  \ | A0 Sensor |  |  | [''] | \n| 6 | J5 | PinSocket_1x01_P2.54mm_Vertical | 1 |\
+  \ D12 |  |  | [''] | \n| 7 | J6 | PinSocket_1x01_P2.54mm_Vertical | 1 | D4 - Heat\
+  \ |  |  | [''] | \n| 8 | J7 | PinSocket_1x01_P2.54mm_Vertical | 1 | D11 |  |  |\
+  \ [''] | \n| 9 | J8 | PinSocket_1x01_P2.54mm_Vertical | 1 | D5-Fan |  |  | ['']\
+  \ | \n| 10 | Q1 | TO-220-3_Vertical | 1 | IRF-Heat |  |  | [''] | \n| 11 | Q2 |\
+  \ TO-220-3_Vertical | 1 | IRF-Fan |  |  | [''] | \n| 12 | R1 | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 1 | Heat-R |  |  | [''] | \n| 13 | R2 | PinSocket_1x02_P2.54mm_Vertical | 1\
+  \ | Sensor |  |  | [''] | \n| 14 | R3 | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 1 | Temp R |  |  | [''] | \n| 15 | R4 | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 1 | Pull-D12 |  |  | [''] | \n| 16 | R5 | PinSocket_1x02_P2.54mm_Vertical |\
+  \ 1 | Heating |  |  | [''] | \n| 17 | R6 | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 1 | Pull-D11 |  |  | [''] | \n| 18 | R7 | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 1 | Fan-R |  |  | [''] | \n| 19 | R8 | PinSocket_1x02_P2.54mm_Vertical | 1 |\
+  \ Fan |  |  | [''] | \n| 20 | SW1 | PinSocket_1x02_P2.54mm_Vertical | 1 | Button\
+  \ + |  |  | [''] | \n| 21 | SW2 | PinSocket_1x02_P2.54mm_Vertical | 1 | Button -\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: DIODE-pspice
+  DNP: ''
+  Description: ''
+  Footprint: Diode_THT:D_DO-15_P15.24mm_Horizontal
+  Qnty: '1'
+  Ref: D1
+  Value: DIODE
+  Vendor: ''
+- Cmp name: Conn_01x02_Female-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J1
+  Value: ToArduino
+  Vendor: ''
+- Cmp name: Conn_01x02_Female-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J2
+  Value: FromArduino
+  Vendor: ''
+- Cmp name: Conn_01x02_Female-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal
+  Qnty: '1'
+  Ref: J3
+  Value: Power12V
+  Vendor: ''
+- Cmp name: Conn_01x01_Female-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J4
+  Value: A0 Sensor
+  Vendor: ''
+- Cmp name: Conn_01x01_Female-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J5
+  Value: D12
+  Vendor: ''
+- Cmp name: Conn_01x01_Female-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J6
+  Value: D4 - Heat
+  Vendor: ''
+- Cmp name: Conn_01x01_Female-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J7
+  Value: D11
+  Vendor: ''
+- Cmp name: Conn_01x01_Female-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J8
+  Value: D5-Fan
+  Vendor: ''
+- Cmp name: IRF540NPBF-dk_Transistors-FETs-MOSFETs-Single
+  DNP: ''
+  Description: ''
+  Footprint: Package_TO_SOT_THT:TO-220-3_Vertical
+  Qnty: '1'
+  Ref: Q1
+  Value: IRF-Heat
+  Vendor: ''
+- Cmp name: IRF540NPBF-dk_Transistors-FETs-MOSFETs-Single
+  DNP: ''
+  Description: ''
+  Footprint: Package_TO_SOT_THT:TO-220-3_Vertical
+  Qnty: '1'
+  Ref: Q2
+  Value: IRF-Fan
+  Vendor: ''
+- Cmp name: R-pspice
+  DNP: ''
+  Description: ''
+  Footprint: Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  Qnty: '1'
+  Ref: R1
+  Value: Heat-R
+  Vendor: ''
+- Cmp name: R-pspice
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: R2
+  Value: Sensor
+  Vendor: ''
+- Cmp name: R-pspice
+  DNP: ''
+  Description: ''
+  Footprint: Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  Qnty: '1'
+  Ref: R3
+  Value: Temp R
+  Vendor: ''
+- Cmp name: R-pspice
+  DNP: ''
+  Description: ''
+  Footprint: Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  Qnty: '1'
+  Ref: R4
+  Value: Pull-D12
+  Vendor: ''
+- Cmp name: R-pspice
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: R5
+  Value: Heating
+  Vendor: ''
+- Cmp name: R-pspice
+  DNP: ''
+  Description: ''
+  Footprint: Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  Qnty: '1'
+  Ref: R6
+  Value: Pull-D11
+  Vendor: ''
+- Cmp name: R-pspice
+  DNP: ''
+  Description: ''
+  Footprint: Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  Qnty: '1'
+  Ref: R7
+  Value: Fan-R
+  Vendor: ''
+- Cmp name: R-pspice
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: R8
+  Value: Fan
+  Vendor: ''
+- Cmp name: SW_Push_Dual
+  DNP: ''
+  Description: Push button switch, generic, symbol, four pins
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: SW1
+  Value: Button +
+  Vendor: ''
+- Cmp name: SW_Push_Dual
+  DNP: ''
+  Description: Push button switch, generic, symbol, four pins
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: SW2
+  Value: Button -
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| D1 |\
+  \ 1 | DIODE | DIODE-pspice | Diode_THT:D_DO-15_P15.24mm_Horizontal |  |  |  | \n\
+  | J1 | 1 | ToArduino | Conn_01x02_Female-Connector | Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical\
+  \ |  |  |  | \n| J2 | 1 | FromArduino | Conn_01x02_Female-Connector | Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical\
+  \ |  |  |  | \n| J3 | 1 | Power12V | Conn_01x02_Female-Connector | Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal\
+  \ |  |  |  | \n| J4 | 1 | A0 Sensor | Conn_01x01_Female-Connector | Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical\
+  \ |  |  |  | \n| J5 | 1 | D12 | Conn_01x01_Female-Connector | Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical\
+  \ |  |  |  | \n| J6 | 1 | D4 - Heat | Conn_01x01_Female-Connector | Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical\
+  \ |  |  |  | \n| J7 | 1 | D11 | Conn_01x01_Female-Connector | Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical\
+  \ |  |  |  | \n| J8 | 1 | D5-Fan | Conn_01x01_Female-Connector | Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical\
+  \ |  |  |  | \n| Q1 | 1 | IRF-Heat | IRF540NPBF-dk_Transistors-FETs-MOSFETs-Single\
+  \ | Package_TO_SOT_THT:TO-220-3_Vertical |  |  |  | \n| Q2 | 1 | IRF-Fan | IRF540NPBF-dk_Transistors-FETs-MOSFETs-Single\
+  \ | Package_TO_SOT_THT:TO-220-3_Vertical |  |  |  | \n| R1 | 1 | Heat-R | R-pspice\
+  \ | Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal |  |  |  | \n\
+  | R2 | 1 | Sensor | R-pspice | Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical\
+  \ |  |  |  | \n| R3 | 1 | Temp R | R-pspice | Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ |  |  |  | \n| R4 | 1 | Pull-D12 | R-pspice | Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ |  |  |  | \n| R5 | 1 | Heating | R-pspice | Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical\
+  \ |  |  |  | \n| R6 | 1 | Pull-D11 | R-pspice | Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ |  |  |  | \n| R7 | 1 | Fan-R | R-pspice | Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ |  |  |  | \n| R8 | 1 | Fan | R-pspice | Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical\
+  \ |  |  |  | \n| SW1 | 1 | Button + | SW_Push_Dual | Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical\
+  \ | Push button switch, generic, symbol, four pins |  |  | \n| SW2 | 1 | Button\
+  \ - | SW_Push_Dual | Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical\
+  \ | Push button switch, generic, symbol, four pins |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/altlab_biolab_incubator_controller/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/altlab_biolab_incubator_controller/current_version/working/working.kicad_pcb
 file_sch_flat: projects/altlab_biolab_incubator_controller/current_version/working/working.sch
 id: altlab_biolab_incubator_controller
 name: biolab_incubator
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': D1
+  Package: D_DO-15_P15.24mm_Horizontal
+  PosX: 124.968
+  PosY: -44.704
+  Rot: 180.0
+  Side: top
+  Val: DIODE
+- '# Ref': J1
+  Package: PinSocket_1x02_P2.54mm_Vertical
+  PosX: 61.468
+  PosY: -45.085
+  Rot: 0.0
+  Side: top
+  Val: ToArduino
+- '# Ref': J2
+  Package: PinSocket_1x02_P2.54mm_Vertical
+  PosX: 61.341
+  PosY: -68.072
+  Rot: 180.0
+  Side: top
+  Val: FromArduino
+- '# Ref': J3
+  Package: BarrelJack_CUI_PJ-063AH_Horizontal
+  PosX: 71.12
+  PosY: -54.229
+  Rot: 180.0
+  Side: top
+  Val: Power12V
+- '# Ref': J4
+  Package: PinSocket_1x01_P2.54mm_Vertical
+  PosX: 104.775
+  PosY: -68.326
+  Rot: 0.0
+  Side: top
+  Val: A0_Sensor
+- '# Ref': J5
+  Package: PinSocket_1x01_P2.54mm_Vertical
+  PosX: 92.71
+  PosY: -68.326
+  Rot: 0.0
+  Side: top
+  Val: D12
+- '# Ref': J6
+  Package: PinSocket_1x01_P2.54mm_Vertical
+  PosX: 80.772
+  PosY: -53.975
+  Rot: 0.0
+  Side: top
+  Val: D4_-_Heat
+- '# Ref': J7
+  Package: PinSocket_1x01_P2.54mm_Vertical
+  PosX: 77.343
+  PosY: -68.326
+  Rot: 0.0
+  Side: top
+  Val: D11
+- '# Ref': J8
+  Package: PinSocket_1x01_P2.54mm_Vertical
+  PosX: 103.251
+  PosY: -54.356
+  Rot: 0.0
+  Side: top
+  Val: D5-Fan
+- '# Ref': Q1
+  Package: TO-220-3_Vertical
+  PosX: 87.757
+  PosY: -45.974
+  Rot: 0.0
+  Side: top
+  Val: IRF-Heat
+- '# Ref': Q2
+  Package: TO-220-3_Vertical
+  PosX: 110.998
+  PosY: -51.435
+  Rot: 0.0
+  Side: top
+  Val: IRF-Fan
+- '# Ref': R1
+  Package: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  PosX: 85.852
+  PosY: -53.975
+  Rot: 0.0
+  Side: top
+  Val: Heat-R
+- '# Ref': R2
+  Package: PinSocket_1x02_P2.54mm_Vertical
+  PosX: 110.744
+  PosY: -68.326
+  Rot: 90.0
+  Side: top
+  Val: Sensor
+- '# Ref': R3
+  Package: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  PosX: 86.106
+  PosY: -62.23
+  Rot: 0.0
+  Side: top
+  Val: Temp_R
+- '# Ref': R4
+  Package: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  PosX: 107.315
+  PosY: -63.373
+  Rot: 0.0
+  Side: top
+  Val: Pull-D12
+- '# Ref': R5
+  Package: PinSocket_1x02_P2.54mm_Vertical
+  PosX: 81.153
+  PosY: -44.323
+  Rot: 0.0
+  Side: top
+  Val: Heating
+- '# Ref': R6
+  Package: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  PosX: 79.883
+  PosY: -60.706
+  Rot: 180.0
+  Side: top
+  Val: Pull-D11
+- '# Ref': R7
+  Package: R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal
+  PosX: 108.712
+  PosY: -57.912
+  Rot: 0.0
+  Side: top
+  Val: Fan-R
+- '# Ref': R8
+  Package: PinSocket_1x02_P2.54mm_Vertical
+  PosX: 102.997
+  PosY: -47.244
+  Rot: 180.0
+  Side: top
+  Val: Fan
+- '# Ref': SW1
+  Package: PinSocket_1x02_P2.54mm_Vertical
+  PosX: 85.979
+  PosY: -68.326
+  Rot: -90.0
+  Side: top
+  Val: Button_+
+- '# Ref': SW2
+  Package: PinSocket_1x02_P2.54mm_Vertical
+  PosX: 70.993
+  PosY: -68.326
+  Rot: -90.0
+  Side: top
+  Val: Button_-
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| D1 | DIODE | D_DO-15_P15.24mm_Horizontal\
+  \ | 124.968 | -44.704 | 180.0 | top | \n| J1 | ToArduino | PinSocket_1x02_P2.54mm_Vertical\
+  \ | 61.468 | -45.085 | 0.0 | top | \n| J2 | FromArduino | PinSocket_1x02_P2.54mm_Vertical\
+  \ | 61.341 | -68.072 | 180.0 | top | \n| J3 | Power12V | BarrelJack_CUI_PJ-063AH_Horizontal\
+  \ | 71.12 | -54.229 | 180.0 | top | \n| J4 | A0_Sensor | PinSocket_1x01_P2.54mm_Vertical\
+  \ | 104.775 | -68.326 | 0.0 | top | \n| J5 | D12 | PinSocket_1x01_P2.54mm_Vertical\
+  \ | 92.71 | -68.326 | 0.0 | top | \n| J6 | D4_-_Heat | PinSocket_1x01_P2.54mm_Vertical\
+  \ | 80.772 | -53.975 | 0.0 | top | \n| J7 | D11 | PinSocket_1x01_P2.54mm_Vertical\
+  \ | 77.343 | -68.326 | 0.0 | top | \n| J8 | D5-Fan | PinSocket_1x01_P2.54mm_Vertical\
+  \ | 103.251 | -54.356 | 0.0 | top | \n| Q1 | IRF-Heat | TO-220-3_Vertical | 87.757\
+  \ | -45.974 | 0.0 | top | \n| Q2 | IRF-Fan | TO-220-3_Vertical | 110.998 | -51.435\
+  \ | 0.0 | top | \n| R1 | Heat-R | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 85.852 | -53.975 | 0.0 | top | \n| R2 | Sensor | PinSocket_1x02_P2.54mm_Vertical\
+  \ | 110.744 | -68.326 | 90.0 | top | \n| R3 | Temp_R | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 86.106 | -62.23 | 0.0 | top | \n| R4 | Pull-D12 | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 107.315 | -63.373 | 0.0 | top | \n| R5 | Heating | PinSocket_1x02_P2.54mm_Vertical\
+  \ | 81.153 | -44.323 | 0.0 | top | \n| R6 | Pull-D11 | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 79.883 | -60.706 | 180.0 | top | \n| R7 | Fan-R | R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal\
+  \ | 108.712 | -57.912 | 0.0 | top | \n| R8 | Fan | PinSocket_1x02_P2.54mm_Vertical\
+  \ | 102.997 | -47.244 | 180.0 | top | \n| SW1 | Button_+ | PinSocket_1x02_P2.54mm_Vertical\
+  \ | 85.979 | -68.326 | -90.0 | top | \n| SW2 | Button_- | PinSocket_1x02_P2.54mm_Vertical\
+  \ | 70.993 | -68.326 | -90.0 | top | \n"
 projects_flat: projects/altlab_biolab_incubator_controller/current_version/working
 repo:
   allow_forking: true

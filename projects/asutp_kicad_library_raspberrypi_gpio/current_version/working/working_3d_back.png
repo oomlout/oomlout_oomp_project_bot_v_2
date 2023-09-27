@@ -1,0 +1,112 @@
+(pcb C:\gh\oomlout_oomp_project_bot_v_2\projects\asutp_kicad_library_raspberrypi_gpio\current_version\working\working_3d_back.png
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "7.0.6")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  228500 -142000  217500 -142000  217500 -157000  228500 -157000
+            228500 -181000  143500 -181000  143500 -125000  228500 -125000
+            228500 -142000)
+    )
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component pin_array_13x2
+      (place P1 161000.000000 -129000.000000 front 0.000000 (PN CONN_13X2))
+    )
+  )
+  (library
+    (image pin_array_13x2
+      (outline (path signal 203.2  -16510 2540  -16510 -2540))
+      (outline (path signal 203.2  -16510 -2540  16510 -2540))
+      (outline (path signal 203.2  16510 2540  -16510 2540))
+      (outline (path signal 203.2  16510 -2540  16510 2540))
+      (pin Rect[A]Pad_1524x1524_um 1 -15240 -1270)
+      (pin Round[A]Pad_1524_um 2 -15240 1270)
+      (pin Round[A]Pad_1524_um 3 -12700 -1270)
+      (pin Round[A]Pad_1524_um 4 -12700 1270)
+      (pin Round[A]Pad_1524_um 5 -10160 -1270)
+      (pin Round[A]Pad_1524_um 6 -10160 1270)
+      (pin Round[A]Pad_1524_um 7 -7620 -1270)
+      (pin Round[A]Pad_1524_um 8 -7620 1270)
+      (pin Round[A]Pad_1524_um 9 -5080 -1270)
+      (pin Round[A]Pad_1524_um 10 -5080 1270)
+      (pin Round[A]Pad_1524_um 11 -2540 -1270)
+      (pin Round[A]Pad_1524_um 12 -2540 1270)
+      (pin Round[A]Pad_1524_um 13 0 -1270)
+      (pin Round[A]Pad_1524_um 14 0 1270)
+      (pin Round[A]Pad_1524_um 15 2540 -1270)
+      (pin Round[A]Pad_1524_um 16 2540 1270)
+      (pin Round[A]Pad_1524_um 17 5080 -1270)
+      (pin Round[A]Pad_1524_um 18 5080 1270)
+      (pin Round[A]Pad_1524_um 19 7620 -1270)
+      (pin Round[A]Pad_1524_um 20 7620 1270)
+      (pin Round[A]Pad_1524_um 21 10160 -1270)
+      (pin Round[A]Pad_1524_um 22 10160 1270)
+      (pin Round[A]Pad_1524_um 23 12700 -1270)
+      (pin Round[A]Pad_1524_um 24 12700 1270)
+      (pin Round[A]Pad_1524_um 25 15240 -1270)
+      (pin Round[A]Pad_1524_um 26 15240 1270)
+    )
+    (padstack Round[A]Pad_1524_um
+      (shape (circle F.Cu 1524))
+      (shape (circle B.Cu 1524))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1524x1524_um
+      (shape (rect F.Cu -762 -762 762 762))
+      (shape (rect B.Cu -762 -762 762 762))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net +3.3V
+      (pins P1-1)
+    )
+    (net +5V
+      (pins P1-2)
+    )
+    (net GND
+      (pins P1-6)
+    )
+    (class kicad_default "" +3.3V +5V GND
+      (circuit
+        (use_via Via[0-1]_600:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

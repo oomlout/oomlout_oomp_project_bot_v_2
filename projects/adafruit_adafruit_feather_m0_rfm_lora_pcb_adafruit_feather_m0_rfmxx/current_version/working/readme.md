@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -34,7 +55,7 @@
 | 5 | @HOLE0,@HOLE1 |  | 2 |  |  |  | [''] | 
 | 6 | U$7,U$12 | ADAFRUIT_3.5MM | 2 |  |  |  | [''] | 
 | 7 | JP2 | 1X01_ROUND | 1 |  |  |  | [''] | 
-| 8 | C6,C3,C8 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 8 | C6,C3,C8 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 9 | R3,R1 | 0603-NO | 2 | 100k |  |  | [''] | 
 | 10 | D1 | SOD-123 | 1 | MBR120 |  |  | [''] | 
 | 11 | JP3 | 1X12_ROUND | 1 |  |  |  | [''] | 
@@ -66,7 +87,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C7, C14 | 3 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C2, C4 | 2 | 22pF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C3, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C5, C9 | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | CHG0 | 1 | ORANGE | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 
 | D1 | 1 | MBR120 | DIODE-SCHOTTKYSOD-123 | working:SOD-123 |  |  |  | 

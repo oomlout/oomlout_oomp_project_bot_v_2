@@ -1,10 +1,401 @@
 board: bbq10_keyboard
+bom:
+- Id: '1'
+  Designator: J1
+  Footprint: PMODPinHeader_1x06_P2.54mm_Horizontal
+  Quantity: '1'
+  Designation: PMOD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: REF**
+  Footprint: BBQ10KBD
+  Quantity: '1'
+  Designation: BBQ10KBD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C1
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C2
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 4.7uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C3
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: Q1
+  Footprint: SOT-23
+  Quantity: '1'
+  Designation: BSS138
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R2
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R3,R1
+  Footprint: R_0603_1608Metric
+  Quantity: '2'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R5,R4
+  Footprint: R_0603_1608Metric
+  Quantity: '2'
+  Designation: 4.7K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U1
+  Footprint: BM14B(0.8)-24DS-0.4V(53)
+  Quantity: '1'
+  Designation: BBQ10KBD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U2
+  Footprint: QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm
+  Quantity: '1'
+  Designation: ATSAMD20E16A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: G***
+  Footprint: SolderParty-Logo_14.6x13.5mm_SilkScreen
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1\
+  \ | PMODPinHeader_1x06_P2.54mm_Horizontal | 1 | PMOD |  |  | [''] | \n| 2 | REF**\
+  \ | BBQ10KBD | 1 | BBQ10KBD |  |  | [''] | \n| 3 | C1 | C_0603_1608Metric | 1 |\
+  \ 0.1uF |  |  | [''] | \n| 4 | C2 | C_0603_1608Metric | 1 | 4.7uF |  |  | [''] |\
+  \ \n| 5 | C3 | C_0603_1608Metric | 1 | 1uF |  |  | [''] | \n| 6 | Q1 | SOT-23 |\
+  \ 1 | BSS138 |  |  | [''] | \n| 7 | R2 | R_0603_1608Metric | 1 | 1K |  |  | ['']\
+  \ | \n| 8 | R3,R1 | R_0603_1608Metric | 2 | 10K |  |  | [''] | \n| 9 | R5,R4 | R_0603_1608Metric\
+  \ | 2 | 4.7K |  |  | [''] | \n| 10 | U1 | BM14B(0.8)-24DS-0.4V(53) | 1 | BBQ10KBD\
+  \ |  |  | [''] | \n| 11 | U2 | QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm | 1 | ATSAMD20E16A\
+  \ |  |  | [''] | \n| 12 | G*** | SolderParty-Logo_14.6x13.5mm_SilkScreen | 1 | LOGO\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C1
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C2
+  Value: 4.7uF
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C3
+  Value: 1uF
+  Vendor: ''
+- Cmp name: Conn_01x06
+  DNP: ''
+  Description: Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm_Extra:PMODPinHeader_1x06_P2.54mm_Horizontal
+  Qnty: '1'
+  Ref: J1
+  Value: PMOD
+  Vendor: ''
+- Cmp name: BSS138
+  DNP: ''
+  Description: 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23
+  Footprint: Package_TO_SOT_SMD:SOT-23
+  Qnty: '1'
+  Ref: Q1
+  Value: BSS138
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '2'
+  Ref: R1, R3
+  Value: 10K
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R2
+  Value: 1K
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '2'
+  Ref: R4, R5
+  Value: 4.7K
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: TestPoint:TestPoint_Pad_D1.0mm
+  Qnty: '1'
+  Ref: TP1
+  Value: TP_SWCLK
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: TestPoint:TestPoint_Pad_D1.0mm
+  Qnty: '1'
+  Ref: TP2
+  Value: TP_SWDIO
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: TestPoint:TestPoint_Pad_D1.0mm
+  Qnty: '1'
+  Ref: TP3
+  Value: UART_TX
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: TestPoint:TestPoint_Pad_D1.0mm
+  Qnty: '1'
+  Ref: TP4
+  Value: VDD
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: TestPoint:TestPoint_Pad_D1.0mm
+  Qnty: '1'
+  Ref: TP5
+  Value: GND
+  Vendor: ''
+- Cmp name: BBQ10KBD
+  DNP: ''
+  Description: ''
+  Footprint: Connector_Hirose_Extra:BM14B(0.8)-24DS-0.4V(53)
+  Qnty: '1'
+  Ref: U1
+  Value: BBQ10KBD
+  Vendor: ''
+- Cmp name: ATSAMD20E16A
+  DNP: ''
+  Description: ''
+  Footprint: Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm
+  Qnty: '1'
+  Ref: U2
+  Value: ATSAMD20E16A
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 0.1uF | C_Small | Capacitor_SMD:C_0603_1608Metric | Unpolarized capacitor,\
+  \ small symbol |  |  | \n| C2 | 1 | 4.7uF | C_Small | Capacitor_SMD:C_0603_1608Metric\
+  \ | Unpolarized capacitor, small symbol |  |  | \n| C3 | 1 | 1uF | C_Small | Capacitor_SMD:C_0603_1608Metric\
+  \ | Unpolarized capacitor, small symbol |  |  | \n| J1 | 1 | PMOD | Conn_01x06 |\
+  \ Connector_PinHeader_2.54mm_Extra:PMODPinHeader_1x06_P2.54mm_Horizontal | Generic\
+  \ connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| Q1 | 1 | BSS138 | BSS138 | Package_TO_SOT_SMD:SOT-23 | 50V Vds, 0.22A\
+  \ Id, N-Channel MOSFET, SOT-23 |  |  | \n| R1, R3 | 2 | 10K | R_Small | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor, small symbol |  |  | \n| R2 | 1 | 1K | R_Small | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor, small symbol |  |  | \n| R4, R5 | 2 | 4.7K | R_Small | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor, small symbol |  |  | \n| TP1 | 1 | TP_SWCLK | TestPoint | TestPoint:TestPoint_Pad_D1.0mm\
+  \ | test point |  |  | \n| TP2 | 1 | TP_SWDIO | TestPoint | TestPoint:TestPoint_Pad_D1.0mm\
+  \ | test point |  |  | \n| TP3 | 1 | UART_TX | TestPoint | TestPoint:TestPoint_Pad_D1.0mm\
+  \ | test point |  |  | \n| TP4 | 1 | VDD | TestPoint | TestPoint:TestPoint_Pad_D1.0mm\
+  \ | test point |  |  | \n| TP5 | 1 | GND | TestPoint | TestPoint:TestPoint_Pad_D1.0mm\
+  \ | test point |  |  | \n| U1 | 1 | BBQ10KBD | BBQ10KBD | Connector_Hirose_Extra:BM14B(0.8)-24DS-0.4V(53)\
+  \ |  |  |  | \n| U2 | 1 | ATSAMD20E16A | ATSAMD20E16A | Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/solderparty_pmod_bbq10_keyboard_bbq10_keyboard/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/solderparty_pmod_bbq10_keyboard_bbq10_keyboard/current_version/working/working.kicad_pcb
 file_sch_flat: projects/solderparty_pmod_bbq10_keyboard_bbq10_keyboard/current_version/working/working.sch
 id: solderparty_pmod_bbq10_keyboard_bbq10_keyboard
 name: pmod_bbq10_keyboard
+position_bottom:
+- '# Ref': C1
+  Package: C_0603_1608Metric
+  PosX: 149.0907
+  PosY: -100.0789
+  Rot: -90.0
+  Side: bottom
+  Val: 0.1uF
+- '# Ref': C2
+  Package: C_0603_1608Metric
+  PosX: 147.45
+  PosY: -89.3789
+  Rot: 90.0
+  Side: bottom
+  Val: 4.7uF
+- '# Ref': C3
+  Package: C_0603_1608Metric
+  PosX: 150.55
+  PosY: -100.0789
+  Rot: -90.0
+  Side: bottom
+  Val: 1uF
+- '# Ref': G***
+  Package: SolderParty-Logo_14.6x13.5mm_SilkScreen
+  PosX: 167.9
+  PosY: -102.1
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+- '# Ref': Q1
+  Package: SOT-23
+  PosX: 153.9598
+  PosY: -89.1326
+  Rot: 0.0
+  Side: bottom
+  Val: BSS138
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 156.4
+  PosY: -89.1
+  Rot: -90.0
+  Side: bottom
+  Val: 10K
+- '# Ref': R2
+  Package: R_0603_1608Metric
+  PosX: 147.65
+  PosY: -100.0789
+  Rot: -90.0
+  Side: bottom
+  Val: 1K
+- '# Ref': R3
+  Package: R_0603_1608Metric
+  PosX: 152.0
+  PosY: -100.0789
+  Rot: -90.0
+  Side: bottom
+  Val: 10K
+- '# Ref': R4
+  Package: R_0603_1608Metric
+  PosX: 148.9407
+  PosY: -89.3789
+  Rot: 90.0
+  Side: bottom
+  Val: 4.7K
+- '# Ref': R5
+  Package: R_0603_1608Metric
+  PosX: 150.4
+  PosY: -89.3789
+  Rot: 90.0
+  Side: bottom
+  Val: 4.7K
+- '# Ref': U1
+  Package: BM14B(0.8)-24DS-0.4V(53)
+  PosX: 138.85
+  PosY: -91.4
+  Rot: -90.0
+  Side: bottom
+  Val: BBQ10KBD
+- '# Ref': U2
+  Package: QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm
+  PosX: 149.7857
+  PosY: -94.7739
+  Rot: 0.0
+  Side: bottom
+  Val: ATSAMD20E16A
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | C_0603_1608Metric |\
+  \ 149.0907 | -100.0789 | -90.0 | bottom | \n| C2 | 4.7uF | C_0603_1608Metric | 147.45\
+  \ | -89.3789 | 90.0 | bottom | \n| C3 | 1uF | C_0603_1608Metric | 150.55 | -100.0789\
+  \ | -90.0 | bottom | \n| G*** | LOGO | SolderParty-Logo_14.6x13.5mm_SilkScreen |\
+  \ 167.9 | -102.1 | 180.0 | bottom | \n| Q1 | BSS138 | SOT-23 | 153.9598 | -89.1326\
+  \ | 0.0 | bottom | \n| R1 | 10K | R_0603_1608Metric | 156.4 | -89.1 | -90.0 | bottom\
+  \ | \n| R2 | 1K | R_0603_1608Metric | 147.65 | -100.0789 | -90.0 | bottom | \n|\
+  \ R3 | 10K | R_0603_1608Metric | 152.0 | -100.0789 | -90.0 | bottom | \n| R4 | 4.7K\
+  \ | R_0603_1608Metric | 148.9407 | -89.3789 | 90.0 | bottom | \n| R5 | 4.7K | R_0603_1608Metric\
+  \ | 150.4 | -89.3789 | 90.0 | bottom | \n| U1 | BBQ10KBD | BM14B(0.8)-24DS-0.4V(53)\
+  \ | 138.85 | -91.4 | -90.0 | bottom | \n| U2 | ATSAMD20E16A | QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm\
+  \ | 149.7857 | -94.7739 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': J1
+  Package: PMODPinHeader_1x06_P2.54mm_Horizontal
+  PosX: 154.4
+  PosY: -80.8
+  Rot: -90.0
+  Side: top
+  Val: PMOD
+- '# Ref': REF**
+  Package: BBQ10KBD
+  PosX: 148.0
+  PosY: -101.3
+  Rot: 0.0
+  Side: top
+  Val: BBQ10KBD
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J1 | PMOD | PMODPinHeader_1x06_P2.54mm_Horizontal\
+  \ | 154.4 | -80.8 | -90.0 | top | \n| REF** | BBQ10KBD | BBQ10KBD | 148.0 | -101.3\
+  \ | 0.0 | top | \n"
 projects_flat: projects/solderparty_pmod_bbq10_keyboard_bbq10_keyboard/current_version/working
 repo:
   allow_forking: true

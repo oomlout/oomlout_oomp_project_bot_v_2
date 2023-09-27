@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -35,7 +56,7 @@
 | 6 | U$6 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | 
 | 7 | FID1,FID2 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | [''] | 
 | 8 | CN1 | MICROSD | 1 |  |  |  | [''] | 
-| 9 | C2,C1 | 0805-NO | 2 | 10µF |  |  | [''] | 
+| 9 | C2,C1 | 0805-NO | 2 | 10ÂµF |  |  | [''] | 
 | 10 | U2 | SOT23-5 | 1 | MIC5225-3.3 |  |  | [''] | 
 | 11 | U3 | SOIC16 | 1 | 74HC4050D |  |  | [''] | 
 | 12 | JP1 | 1X11_ROUND | 1 |  |  |  | [''] | 
@@ -49,7 +70,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1, C2 | 2 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C1, C2 | 2 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C3 | 1 | 0.1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | CN1 | 1 | MICROSD | MICROSD | working:MICROSD |  |  |  | 
 | FID1, FID2 | 2 | FIDUCIAL_1MM | FIDUCIAL_1MM | working:FIDUCIAL_1MM |  |  |  | 
@@ -69,6 +90,6 @@
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$9 | m3 | 
-| 26.669999999999987 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$10 | m3 | 
+| 26.67 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$10 | m3 | 
 
 

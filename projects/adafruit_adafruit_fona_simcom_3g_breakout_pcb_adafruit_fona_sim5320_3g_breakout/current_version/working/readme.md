@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -43,7 +64,7 @@
 | 14 | GPSBIAS0 | SOLDERJUMPER_ARROW_NOPASTE | 1 |  |  |  | [''] | 
 | 15 | CN2 | JSTPH2 | 1 | JSTPH |  |  | [''] | 
 | 16 | C6,C4,C10,C3 | 0805-NO | 4 | 33pF |  |  | [''] | 
-| 17 | C1 | 0805-NO | 1 | 10µF |  |  | [''] | 
+| 17 | C1 | 0805-NO | 1 | 10ÂµF |  |  | [''] | 
 | 18 | C8,C5 | 0805-NO | 2 | 10pF |  |  | [''] | 
 | 19 | X1 | SMA_EDGELAUNCH_UFL | 1 | uFL |  |  | [''] | 
 | 20 | U$33,U$34 | MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5 |  |  | [''] | 
@@ -72,7 +93,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 1 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C1 | 1 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C2, C7 | 2 | 100uF | C-USC1210 | working:C1210 |  |  |  | 
 | C3, C4, C6, C10 | 4 | 33pF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C5, C8 | 2 | 10pF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
@@ -113,7 +134,7 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 40.640000000000015 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$33 | m3 | 
+| 40.64 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$33 | m3 | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$34 | m3 | 
 
 

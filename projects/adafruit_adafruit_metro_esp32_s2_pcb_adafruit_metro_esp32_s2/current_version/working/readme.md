@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -29,7 +50,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | IOL0,POWER0 | 1X08_OVALWAVE | 2 | 20610 |  |  | [''] | 
 | 2 | @HOLE3,@HOLE0,@HOLE2,@HOLE1 |  | 4 |  |  |  | [''] | 
-| 3 | C4,C13,C7,C10,C18,C17,C11,C8 | 0805-NO | 8 | 10µF |  |  | [''] | 
+| 3 | C4,C13,C7,C10,C18,C17,C11,C8 | 0805-NO | 8 | 10ÂµF |  |  | [''] | 
 | 4 | C1,C3 | 0805-NO | 2 | 10uF |  |  | [''] | 
 | 5 | U3 | MODULE_ESP32-S2-WROVER | 1 | ESP32-S2-WROVER |  |  | [''] | 
 | 6 | D1,D4 | SOD-123 | 2 | MBR540 |  |  | [''] | 
@@ -79,7 +100,7 @@
 | AD0 | 1 | 20609 | HEADER-1X6OVALWAVE | working:1X06_OVALWAVE |  |  |  | 
 | C1, C3 | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C2, C5, C12, C15 | 4 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C4, C7, C8, C10, C11, C13, C17, C18 | 8 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C4, C7, C8, C10, C11, C13, C17, C18 | 8 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C6, C14 | 2 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | CHG1 | 1 | ORANGE | LED0603_NOOUTLINE | working:CHIPLED_0603_NOOUTLINE |  |  |  | 
 | CONN1 | 1 | STEMMA_I2C_QT | STEMMA_I2C_QT | working:JST_SH4 |  |  |  | 

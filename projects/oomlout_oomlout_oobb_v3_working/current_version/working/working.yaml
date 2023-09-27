@@ -1,9 +1,647 @@
 board: working
+bom:
+- Id: '1'
+  Designator: ',,,,,,,,,,,,,,,,,,,,,,,'
+  Footprint: ''
+  Quantity: '24'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J27,J36,J8,J39,J20,J30,J5,J9,J11,J7,J6,J44,J23,J34,J21,J38,J37,J29,J16,J42,J28,J45,J15,J18,J24,J43,J13,J17,J12,J40,J25,J19,J41,J26,J22,J14,J33,J31,J35,J10
+  Footprint: HEAD-I01-X-PI03-01-H301
+  Quantity: '40'
+  Designation: HEAD-I01-X-PI03-01-H301
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J3,J1,J4,J2
+  Footprint: HEAD-I01-X-PI20-01-H20
+  Quantity: '4'
+  Designation: HEAD-I01-X-PI20-01-H20
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J32
+  Footprint: BarrelJack_Horizontal
+  Quantity: '1'
+  Designation: Barrel_Jack_Switch
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | ,,,,,,,,,,,,,,,,,,,,,,,\
+  \ |  | 24 |  |  |  | [''] | \n| 2 | J27,J36,J8,J39,J20,J30,J5,J9,J11,J7,J6,J44,J23,J34,J21,J38,J37,J29,J16,J42,J28,J45,J15,J18,J24,J43,J13,J17,J12,J40,J25,J19,J41,J26,J22,J14,J33,J31,J35,J10\
+  \ | HEAD-I01-X-PI03-01-H301 | 40 | HEAD-I01-X-PI03-01-H301 |  |  | [''] | \n| 3\
+  \ | J3,J1,J4,J2 | HEAD-I01-X-PI20-01-H20 | 4 | HEAD-I01-X-PI20-01-H20 |  |  | ['']\
+  \ | \n| 4 | J32 | BarrelJack_Horizontal | 1 | Barrel_Jack_Switch |  |  | [''] |\
+  \ \n"
+bom_schematic:
+- Cmp name: HEAD-I01-X-PI20-01-H20
+  DNP: ''
+  Description: 'oompID: HEAD-I01-X-PI20-01;name: 2.54 mm 20 Pin Header;hexID: H20;Generic
+    connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)'
+  Footprint: oomlout_OOMP_parts:HEAD-I01-X-PI20-01-H20
+  Qnty: '4'
+  Ref: J1, J2, J3, J4
+  Value: HEAD-I01-X-PI20-01-H20
+  Vendor: ''
+- Cmp name: HEAD-I01-X-PI03-01-H301
+  DNP: ''
+  Description: 'oompID: HEAD-I01-X-PI03-01;name: 2.54 mm 3 Pin Header;hexID: H301;Generic
+    connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)'
+  Footprint: oomlout_OOMP_parts:HEAD-I01-X-PI03-01-H301
+  Qnty: '40'
+  Ref: J5, J6, J7, J8, J9, J10, J11, J12, J13, J14, J15, J16, J17, J18, J19, J20,
+    J21, J22, J23, J24, J25, J26, J27, J28, J29, J30, J31, J33, J34, J35, J36, J37,
+    J38, J39, J40, J41, J42, J43, J44, J45
+  Value: HEAD-I01-X-PI03-01-H301
+  Vendor: ''
+- Cmp name: Barrel_Jack_Switch
+  DNP: ''
+  Description: DC Barrel Jack with an internal switch
+  Footprint: Connector_BarrelJack:BarrelJack_Horizontal
+  Qnty: '1'
+  Ref: J32
+  Value: Barrel_Jack_Switch
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| J1, J2,\
+  \ J3, J4 | 4 | HEAD-I01-X-PI20-01-H20 | HEAD-I01-X-PI20-01-H20 | oomlout_OOMP_parts:HEAD-I01-X-PI20-01-H20\
+  \ | oompID: HEAD-I01-X-PI20-01;name: 2.54 mm 20 Pin Header;hexID: H20;Generic connector,\
+  \ single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J5, J6, J7, J8, J9, J10, J11, J12, J13, J14, J15, J16, J17, J18, J19,\
+  \ J20, J21, J22, J23, J24, J25, J26, J27, J28, J29, J30, J31, J33, J34, J35, J36,\
+  \ J37, J38, J39, J40, J41, J42, J43, J44, J45 | 40 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | oomlout_OOMP_parts:HEAD-I01-X-PI03-01-H301 | oompID: HEAD-I01-X-PI03-01;name:\
+  \ 2.54 mm 3 Pin Header;hexID: H301;Generic connector, single row, 01x03, script\
+  \ generated (kicad-library-utils/schlib/autogen/connector/) |  |  | \n| J32 | 1\
+  \ | Barrel_Jack_Switch | Barrel_Jack_Switch | Connector_BarrelJack:BarrelJack_Horizontal\
+  \ | DC Barrel Jack with an internal switch |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/oomlout_oomlout_oobb_v3_working/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/oomlout_oomlout_oobb_v3_working/current_version/working/working.kicad_sch
 id: oomlout_oomlout_oobb_v3_working
 name: oomlout_oobb_v3
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': .nan
+  Package: .nan
+  PosX: 15.0
+  PosY: -45.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: -15.0
+  PosY: -45.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: 15.0
+  PosY: -37.5
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: 30.0
+  PosY: 15.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: -30.0
+  PosY: 0.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: 0.0
+  PosY: 15.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: -30.0
+  PosY: 15.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: 0.0
+  PosY: -15.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: 15.0
+  PosY: 30.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: -30.0
+  PosY: 30.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: 30.0
+  PosY: -15.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: 30.0
+  PosY: 0.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: -30.0
+  PosY: -30.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: 30.0
+  PosY: 30.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: 15.0
+  PosY: -30.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: -30.0
+  PosY: -37.5
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: -30.0
+  PosY: -15.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: -15.0
+  PosY: -37.5
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: -15.0
+  PosY: 30.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: 30.0
+  PosY: -37.5
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: -15.0
+  PosY: -30.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: 30.0
+  PosY: -45.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: -30.0
+  PosY: -45.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: .nan
+  PosX: 30.0
+  PosY: -30.0
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': J1
+  Package: HEAD-I01-X-PI20-01-H20
+  PosX: -8.89
+  PosY: 24.13
+  Rot: 0.0
+  Side: top
+  Val: HEAD-I01-X-PI20-01-H20
+- '# Ref': J2
+  Package: HEAD-I01-X-PI20-01-H20
+  PosX: 8.89
+  PosY: -24.13
+  Rot: 180.0
+  Side: top
+  Val: HEAD-I01-X-PI20-01-H20
+- '# Ref': J3
+  Package: HEAD-I01-X-PI20-01-H20
+  PosX: -11.43
+  PosY: 24.13
+  Rot: 0.0
+  Side: top
+  Val: HEAD-I01-X-PI20-01-H20
+- '# Ref': J4
+  Package: HEAD-I01-X-PI20-01-H20
+  PosX: 11.43
+  PosY: -24.13
+  Rot: 180.0
+  Side: top
+  Val: HEAD-I01-X-PI20-01-H20
+- '# Ref': J5
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.97
+  PosY: 21.59
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J6
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.97
+  PosY: 16.51
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J7
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.97
+  PosY: 13.97
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J8
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.97
+  PosY: 11.43
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J9
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.97
+  PosY: 8.89
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J10
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.97
+  PosY: 3.81
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J11
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.97
+  PosY: 1.27
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J12
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.97
+  PosY: -1.27
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J13
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.97
+  PosY: -3.81
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J14
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.97
+  PosY: -8.89
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J15
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.97
+  PosY: -11.43
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J16
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.97
+  PosY: -16.51
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J17
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.97
+  PosY: -21.59
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J18
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.97
+  PosY: -24.13
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J19
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.97
+  PosY: -24.13
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J20
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.985
+  PosY: -21.59
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J21
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.97
+  PosY: -16.51
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J22
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.985
+  PosY: -13.97
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J23
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.985
+  PosY: -13.97
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J24
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.985
+  PosY: -11.43
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J25
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.985
+  PosY: 24.13
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J26
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.97
+  PosY: -1.27
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J27
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.97
+  PosY: 1.27
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J28
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.97
+  PosY: 3.81
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J29
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.97
+  PosY: 8.89
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J30
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.97
+  PosY: 11.43
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J31
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.97
+  PosY: 19.05
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J32
+  Package: BarrelJack_Horizontal
+  PosX: -0.4775
+  PosY: -38.28
+  Rot: 90.0
+  Side: top
+  Val: Barrel_Jack_Switch
+- '# Ref': J33
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.97
+  PosY: -3.81
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J34
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.97
+  PosY: -8.89
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J35
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.97
+  PosY: 6.35
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J36
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.97
+  PosY: -19.05
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J37
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.985
+  PosY: 6.35
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J38
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.97
+  PosY: -6.35
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J39
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.97
+  PosY: -19.05
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J40
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.97
+  PosY: 24.13
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J41
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.97
+  PosY: 21.59
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J42
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.97
+  PosY: 19.05
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J43
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.97
+  PosY: 16.51
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J44
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: 13.97
+  PosY: 13.97
+  Rot: 90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+- '# Ref': J45
+  Package: HEAD-I01-X-PI03-01-H301
+  PosX: -13.97
+  PosY: -6.35
+  Rot: -90.0
+  Side: top
+  Val: HEAD-I01-X-PI03-01-H301
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| nan | nan | nan | 15.0 | -45.0 | 0.0\
+  \ | top | \n| nan | nan | nan | -15.0 | -45.0 | 0.0 | top | \n| nan | nan | nan\
+  \ | 15.0 | -37.5 | 0.0 | top | \n| nan | nan | nan | 30.0 | 15.0 | 0.0 | top | \n\
+  | nan | nan | nan | -30.0 | 0.0 | 0.0 | top | \n| nan | nan | nan | 0.0 | 15.0 |\
+  \ 0.0 | top | \n| nan | nan | nan | -30.0 | 15.0 | 0.0 | top | \n| nan | nan | nan\
+  \ | 0.0 | -15.0 | 0.0 | top | \n| nan | nan | nan | 15.0 | 30.0 | 0.0 | top | \n\
+  | nan | nan | nan | -30.0 | 30.0 | 0.0 | top | \n| nan | nan | nan | 30.0 | -15.0\
+  \ | 0.0 | top | \n| nan | nan | nan | 30.0 | 0.0 | 0.0 | top | \n| nan | nan | nan\
+  \ | -30.0 | -30.0 | 0.0 | top | \n| nan | nan | nan | 30.0 | 30.0 | 0.0 | top |\
+  \ \n| nan | nan | nan | 15.0 | -30.0 | 0.0 | top | \n| nan | nan | nan | -30.0 |\
+  \ -37.5 | 0.0 | top | \n| nan | nan | nan | -30.0 | -15.0 | 0.0 | top | \n| nan\
+  \ | nan | nan | -15.0 | -37.5 | 0.0 | top | \n| nan | nan | nan | -15.0 | 30.0 |\
+  \ 0.0 | top | \n| nan | nan | nan | 30.0 | -37.5 | 0.0 | top | \n| nan | nan | nan\
+  \ | -15.0 | -30.0 | 0.0 | top | \n| nan | nan | nan | 30.0 | -45.0 | 0.0 | top |\
+  \ \n| nan | nan | nan | -30.0 | -45.0 | 0.0 | top | \n| nan | nan | nan | 30.0 |\
+  \ -30.0 | 0.0 | top | \n| J1 | HEAD-I01-X-PI20-01-H20 | HEAD-I01-X-PI20-01-H20 |\
+  \ -8.89 | 24.13 | 0.0 | top | \n| J2 | HEAD-I01-X-PI20-01-H20 | HEAD-I01-X-PI20-01-H20\
+  \ | 8.89 | -24.13 | 180.0 | top | \n| J3 | HEAD-I01-X-PI20-01-H20 | HEAD-I01-X-PI20-01-H20\
+  \ | -11.43 | 24.13 | 0.0 | top | \n| J4 | HEAD-I01-X-PI20-01-H20 | HEAD-I01-X-PI20-01-H20\
+  \ | 11.43 | -24.13 | 180.0 | top | \n| J5 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.97 | 21.59 | -90.0 | top | \n| J6 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.97 | 16.51 | -90.0 | top | \n| J7 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.97 | 13.97 | -90.0 | top | \n| J8 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.97 | 11.43 | -90.0 | top | \n| J9 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.97 | 8.89 | -90.0 | top | \n| J10 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.97 | 3.81 | -90.0 | top | \n| J11 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.97 | 1.27 | -90.0 | top | \n| J12 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.97 | -1.27 | -90.0 | top | \n| J13 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.97 | -3.81 | -90.0 | top | \n| J14 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.97 | -8.89 | -90.0 | top | \n| J15 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.97 | -11.43 | 90.0 | top | \n| J16 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.97 | -16.51 | -90.0 | top | \n| J17 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.97 | -21.59 | -90.0 | top | \n| J18 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.97 | -24.13 | -90.0 | top | \n| J19 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.97 | -24.13 | 90.0 | top | \n| J20 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.985 | -21.59 | 90.0 | top | \n| J21 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.97 | -16.51 | 90.0 | top | \n| J22 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.985 | -13.97 | 90.0 | top | \n| J23 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.985 | -13.97 | -90.0 | top | \n| J24 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.985 | -11.43 | -90.0 | top | \n| J25 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.985 | 24.13 | -90.0 | top | \n| J26 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.97 | -1.27 | 90.0 | top | \n| J27 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.97 | 1.27 | 90.0 | top | \n| J28 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.97 | 3.81 | 90.0 | top | \n| J29 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.97 | 8.89 | 90.0 | top | \n| J30 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.97 | 11.43 | 90.0 | top | \n| J31 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.97 | 19.05 | -90.0 | top | \n| J32 | Barrel_Jack_Switch | BarrelJack_Horizontal\
+  \ | -0.4775 | -38.28 | 90.0 | top | \n| J33 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.97 | -3.81 | 90.0 | top | \n| J34 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.97 | -8.89 | 90.0 | top | \n| J35 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.97 | 6.35 | -90.0 | top | \n| J36 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.97 | -19.05 | -90.0 | top | \n| J37 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.985 | 6.35 | 90.0 | top | \n| J38 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.97 | -6.35 | 90.0 | top | \n| J39 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.97 | -19.05 | 90.0 | top | \n| J40 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.97 | 24.13 | 90.0 | top | \n| J41 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.97 | 21.59 | 90.0 | top | \n| J42 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.97 | 19.05 | 90.0 | top | \n| J43 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.97 | 16.51 | 90.0 | top | \n| J44 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | 13.97 | 13.97 | 90.0 | top | \n| J45 | HEAD-I01-X-PI03-01-H301 | HEAD-I01-X-PI03-01-H301\
+  \ | -13.97 | -6.35 | -90.0 | top | \n"
 projects_flat: projects/oomlout_oomlout_oobb_v3_working/current_version/working
 repo:
   allow_forking: true

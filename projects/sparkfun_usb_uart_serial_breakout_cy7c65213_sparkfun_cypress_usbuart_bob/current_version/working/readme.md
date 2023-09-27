@@ -11,6 +11,8 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/sparkfun/USB_UART_Serial_Breakout-CY7C65213/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/sparkfun_usb_uart_serial_breakout_cy7c65213_sparkfun_cypress_usbuart_bob/current_version/working  
+
 
 
 

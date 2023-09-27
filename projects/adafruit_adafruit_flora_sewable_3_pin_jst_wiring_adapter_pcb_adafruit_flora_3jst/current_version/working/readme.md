@@ -14,6 +14,7 @@
 * full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_flora_sewable_3_pin_jst_wiring_adapter_pcb_adafruit_flora_3jst/current_version/working  
 
 
+
 ## pcb  
 ![](working_3d_600.png) 
 ![](working_3d_front_600.png)  

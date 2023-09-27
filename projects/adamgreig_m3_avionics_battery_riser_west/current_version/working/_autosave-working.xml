@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\adamgreig_m3_avionics_battery_riser_west\current_version\working\_autosave-working.kicad_sch</source>
+    <date>22/09/2023 16:48:56</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>_autosave-working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>WEST TOP</value>
+      <footprint>agg:TFML-110-01-L-D-RA</footprint>
+      <fields>
+        <field name="Samtec">TFML-110-01-L-D-RA</field>
+      </fields>
+      <libsource lib="Battery-Riser-West-rescue" part="CONN_02x10" description=""/>
+      <property name="Samtec" value="TFML-110-01-L-D-RA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="_autosave-working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000572f69ef</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>WEST BOT</value>
+      <footprint>agg:SFM-110-02-L-DH</footprint>
+      <fields>
+        <field name="Samtec">SFM-110-02-L-DH</field>
+      </fields>
+      <libsource lib="Battery-Riser-West-rescue" part="CONN_02x10" description=""/>
+      <property name="Samtec" value="SFM-110-02-L-DH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="_autosave-working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000572f69ff</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Battery-Riser-West-rescue" part="CONN_02x10">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_02x10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/3v3_AUX1">
+      <node ref="J1" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="J2" pin="13" pinfunction="13" pintype="passive"/>
+    </net>
+    <net code="2" name="/3v3_DL">
+      <node ref="J1" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J2" pin="11" pinfunction="11" pintype="passive"/>
+    </net>
+    <net code="3" name="/3v3_FC">
+      <node ref="J1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="7" pintype="passive"/>
+    </net>
+    <net code="4" name="/3v3_IMU">
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="5" name="/3v3_PYRO">
+      <node ref="J1" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="9" pintype="passive"/>
+    </net>
+    <net code="6" name="/3v3_RADIO">
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="7" name="/5v_CAN">
+      <node ref="J1" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J2" pin="14" pinfunction="14" pintype="passive"/>
+    </net>
+    <net code="8" name="/CAN+">
+      <node ref="J1" pin="18" pinfunction="18" pintype="passive"/>
+      <node ref="J2" pin="18" pinfunction="18" pintype="passive"/>
+    </net>
+    <net code="9" name="/CAN-">
+      <node ref="J1" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="J2" pin="16" pinfunction="16" pintype="passive"/>
+    </net>
+    <net code="10" name="/JTCK">
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="11" name="/JTDI">
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="8" pintype="passive"/>
+    </net>
+    <net code="12" name="/JTDR">
+      <node ref="J1" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="10" pintype="passive"/>
+    </net>
+    <net code="13" name="/JTMS">
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="14" name="/RSVD1">
+      <node ref="J1" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J2" pin="12" pinfunction="12" pintype="passive"/>
+    </net>
+    <net code="15" name="/RSVD2">
+      <node ref="J1" pin="17" pinfunction="17" pintype="passive"/>
+      <node ref="J2" pin="17" pinfunction="17" pintype="passive"/>
+    </net>
+    <net code="16" name="/RSVD3">
+      <node ref="J1" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="J2" pin="15" pinfunction="15" pintype="passive"/>
+    </net>
+    <net code="17" name="GND">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="19" pinfunction="19" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="20" pinfunction="20" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="19" pinfunction="19" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="20" pinfunction="20" pintype="passive"/>
+    </net>
+  </nets>
+</export>

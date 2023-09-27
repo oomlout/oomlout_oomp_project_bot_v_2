@@ -1,10 +1,1175 @@
 board: pillcase36
+bom:
+- Id: '1'
+  Designator: D1,D2,D3,D4,D5,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32,D33,D34,D35,D36,D6
+  Footprint: Diode_SMD_THT_N
+  Quantity: '36'
+  Designation: D
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J1
+  Footprint: trrs_jack_aki_flip
+  Quantity: '1'
+  Designation: AudioJack4_Ground
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R2,R1
+  Footprint: Resister_SMD_THT_N
+  Quantity: '2'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24,SW25,SW26,SW27,SW28,SW29,SW30,SW31,SW32,SW33,SW34,SW35,SW36
+  Footprint: key_switch_mx
+  Quantity: '36'
+  Designation: SW_Push
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: RESET
+  Footprint: SW_PUSH_6mm_h5mm
+  Quantity: '1'
+  Designation: SW_Push
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U1
+  Footprint: BlackPill
+  Quantity: '1'
+  Designation: BlackPill
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: ''
+  Footprint: Hole_5mm
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: G***,G***
+  Footprint: pillcase36_logo
+  Quantity: '2'
+  Designation: pillcase36_logo
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U2
+  Footprint: SOIC-8-N
+  Quantity: '1'
+  Designation: 24LC00
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: SCL1 ,SDA1
+  Footprint: JP
+  Quantity: '2'
+  Designation: SolderJumper_2_Bridged
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: 0.1u
+  Footprint: C_0603
+  Quantity: '1'
+  Designation: C
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D1,D2,D3,D4,D5,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32,D33,D34,D35,D36,D6\
+  \ | Diode_SMD_THT_N | 36 | D |  |  | [''] | \n| 2 | J1 | trrs_jack_aki_flip | 1\
+  \ | AudioJack4_Ground |  |  | [''] | \n| 3 | R2,R1 | Resister_SMD_THT_N | 2 | 10K\
+  \ |  |  | [''] | \n| 4 | SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24,SW25,SW26,SW27,SW28,SW29,SW30,SW31,SW32,SW33,SW34,SW35,SW36\
+  \ | key_switch_mx | 36 | SW_Push |  |  | [''] | \n| 5 | RESET | SW_PUSH_6mm_h5mm\
+  \ | 1 | SW_Push |  |  | [''] | \n| 6 | U1 | BlackPill | 1 | BlackPill |  |  | ['']\
+  \ | \n| 7 |  | Hole_5mm | 1 |  |  |  | [''] | \n| 8 | G***,G*** | pillcase36_logo\
+  \ | 2 | pillcase36_logo |  |  | [''] | \n| 9 | U2 | SOIC-8-N | 1 | 24LC00 |  | \
+  \ | [''] | \n| 10 | SCL1 ,SDA1 | JP | 2 | SolderJumper_2_Bridged |  |  | [''] |\
+  \ \n| 11 | 0.1u | C_0603 | 1 | C |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitors_SMD:C_0603
+  Qnty: '1'
+  Ref: 0.1u1
+  Value: C
+  Vendor: ''
+- Cmp name: D
+  DNP: ''
+  Description: Diode
+  Footprint: pillcase36:Diode_SMD_THT_N
+  Qnty: '36'
+  Ref: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17,
+    D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33,
+    D34, D35, D36
+  Value: D
+  Vendor: ''
+- Cmp name: AudioJack4_Ground-Connector
+  DNP: ''
+  Description: ''
+  Footprint: pillcase36:trrs_jack_aki_flip
+  Qnty: '1'
+  Ref: J1
+  Value: AudioJack4_Ground
+  Vendor: ''
+- Cmp name: SolderJumper_2_Bridged
+  DNP: ''
+  Description: Solder Jumper, 2-pole, closed/bridged
+  Footprint: pillcase36:JP
+  Qnty: '2'
+  Ref: JP13, JP14
+  Value: SolderJumper_2_Bridged
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: pillcase36:Resister_SMD_THT_N
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 10K
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: Push button switch, generic, two pins
+  Footprint: pillcase36:key_switch_mx
+  Qnty: '36'
+  Ref: SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12, SW13, SW14,
+    SW15, SW16, SW17, SW18, SW19, SW20, SW21, SW22, SW23, SW24, SW25, SW26, SW27,
+    SW28, SW29, SW30, SW31, SW32, SW33, SW34, SW35, SW36
+  Value: SW_Push
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: Push button switch, generic, two pins
+  Footprint: Buttons_Switches_THT:SW_PUSH_6mm_h5mm
+  Qnty: '1'
+  Ref: SW37
+  Value: SW_Push
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP1
+  Value: B13
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP2
+  Value: B15
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP3
+  Value: A9
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP4
+  Value: A11
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP5
+  Value: A15
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP6
+  Value: B4
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP7
+  Value: B6
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP8
+  Value: B12
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP9
+  Value: B14
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP10
+  Value: A8
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP11
+  Value: A10
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP12
+  Value: A12
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP13
+  Value: B3
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP14
+  Value: B5
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP15
+  Value: B7
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP16
+  Value: B11
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP17
+  Value: B1
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP18
+  Value: A7
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP19
+  Value: A5
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP20
+  Value: A3
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP21
+  Value: A1
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP22
+  Value: C13
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP23
+  Value: B8
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP24
+  Value: B10
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP25
+  Value: B0
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP26
+  Value: A6
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP27
+  Value: A4
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP28
+  Value: A2
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP29
+  Value: A0
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP30
+  Value: B9
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP31
+  Value: R1
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: Measurement_Points:Measurement_Point_Round-TH_Small
+  Qnty: '1'
+  Ref: TP32
+  Value: R2
+  Vendor: ''
+- Cmp name: BlackPill-pillcase36
+  DNP: ''
+  Description: ''
+  Footprint: pillcase36:BlackPill
+  Qnty: '1'
+  Ref: U1
+  Value: BlackPill
+  Vendor: ''
+- Cmp name: 24LC00
+  DNP: ''
+  Description: I2C Serial EEPROM, 128 Bits, DIP-8/SOIC-8/TSSOP-8/DFN-8
+  Footprint: SMD_Packages:SOIC-8-N
+  Qnty: '1'
+  Ref: U2
+  Value: 24LC00
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 0.1u1\
+  \ | 1 | C | C | Capacitors_SMD:C_0603 | Unpolarized capacitor |  |  | \n| D1, D2,\
+  \ D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19,\
+  \ D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33, D34, D35,\
+  \ D36 | 36 | D | D | pillcase36:Diode_SMD_THT_N | Diode |  |  | \n| J1 | 1 | AudioJack4_Ground\
+  \ | AudioJack4_Ground-Connector | pillcase36:trrs_jack_aki_flip |  |  |  | \n| JP13,\
+  \ JP14 | 2 | SolderJumper_2_Bridged | SolderJumper_2_Bridged | pillcase36:JP | Solder\
+  \ Jumper, 2-pole, closed/bridged |  |  | \n| R1, R2 | 2 | 10K | R | pillcase36:Resister_SMD_THT_N\
+  \ | Resistor |  |  | \n| SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11,\
+  \ SW12, SW13, SW14, SW15, SW16, SW17, SW18, SW19, SW20, SW21, SW22, SW23, SW24,\
+  \ SW25, SW26, SW27, SW28, SW29, SW30, SW31, SW32, SW33, SW34, SW35, SW36 | 36 |\
+  \ SW_Push | SW_Push | pillcase36:key_switch_mx | Push button switch, generic, two\
+  \ pins |  |  | \n| SW37 | 1 | SW_Push | SW_Push | Buttons_Switches_THT:SW_PUSH_6mm_h5mm\
+  \ | Push button switch, generic, two pins |  |  | \n| TP1 | 1 | B13 | TestPoint\
+  \ | Measurement_Points:Measurement_Point_Round-TH_Small | test point |  |  | \n\
+  | TP2 | 1 | B15 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP3 | 1 | A9 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP4 | 1 | A11 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP5 | 1 | A15 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP6 | 1 | B4 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP7 | 1 | B6 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP8 | 1 | B12 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP9 | 1 | B14 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP10 | 1 | A8 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP11 | 1 | A10 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP12 | 1 | A12 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP13 | 1 | B3 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP14 | 1 | B5 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP15 | 1 | B7 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP16 | 1 | B11 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP17 | 1 | B1 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP18 | 1 | A7 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP19 | 1 | A5 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP20 | 1 | A3 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP21 | 1 | A1 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP22 | 1 | C13 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP23 | 1 | B8 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP24 | 1 | B10 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP25 | 1 | B0 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP26 | 1 | A6 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP27 | 1 | A4 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP28 | 1 | A2 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP29 | 1 | A0 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP30 | 1 | B9 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP31 | 1 | R1 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| TP32 | 1 | R2 | TestPoint | Measurement_Points:Measurement_Point_Round-TH_Small\
+  \ | test point |  |  | \n| U1 | 1 | BlackPill | BlackPill-pillcase36 | pillcase36:BlackPill\
+  \ |  |  |  | \n| U2 | 1 | 24LC00 | 24LC00 | SMD_Packages:SOIC-8-N | I2C Serial EEPROM,\
+  \ 128 Bits, DIP-8/SOIC-8/TSSOP-8/DFN-8 |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/ai03_2725_pillcase36_pillcase36/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/ai03_2725_pillcase36_pillcase36/current_version/working/working.kicad_pcb
 file_sch_flat: projects/ai03_2725_pillcase36_pillcase36/current_version/working/working.sch
 id: ai03_2725_pillcase36_pillcase36
 name: pillcase36
+position_bottom:
+- '# Ref': 0.1u
+  Package: C_0603
+  PosX: 101.6
+  PosY: -50.6
+  Rot: -90.0
+  Side: bottom
+  Val: C
+- '# Ref': G***
+  Package: pillcase36_logo
+  PosX: 125.2
+  PosY: -52.9
+  Rot: 180.0
+  Side: bottom
+  Val: pillcase36_logo
+- '# Ref': SCL1_
+  Package: JP
+  PosX: 152.913
+  PosY: -54.102
+  Rot: 0.0
+  Side: bottom
+  Val: SolderJumper_2_Bridged
+- '# Ref': SDA1
+  Package: JP
+  PosX: 154.94
+  PosY: -54.102
+  Rot: 0.0
+  Side: bottom
+  Val: SolderJumper_2_Bridged
+- '# Ref': U2
+  Package: SOIC-8-N
+  PosX: 98.0
+  PosY: -53.0
+  Rot: 180.0
+  Side: bottom
+  Val: 24LC00
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| 0.1u | C | C_0603 | 101.6 | -50.6\
+  \ | -90.0 | bottom | \n| G*** | pillcase36_logo | pillcase36_logo | 125.2 | -52.9\
+  \ | 180.0 | bottom | \n| SCL1_ | SolderJumper_2_Bridged | JP | 152.913 | -54.102\
+  \ | 0.0 | bottom | \n| SDA1 | SolderJumper_2_Bridged | JP | 154.94 | -54.102 | 0.0\
+  \ | bottom | \n| U2 | 24LC00 | SOIC-8-N | 98.0 | -53.0 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': .nan
+  Package: Hole_5mm
+  PosX: 103.5
+  PosY: -122.5
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': D1
+  Package: Diode_SMD_THT_N
+  PosX: 64.0
+  PosY: -80.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D2
+  Package: Diode_SMD_THT_N
+  PosX: 64.0
+  PosY: -99.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D3
+  Package: Diode_SMD_THT_N
+  PosX: 64.0
+  PosY: -118.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D4
+  Package: Diode_SMD_THT_N
+  PosX: 64.0
+  PosY: -137.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D5
+  Package: Diode_SMD_THT_N
+  PosX: 64.0
+  PosY: -156.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D6
+  Package: Diode_SMD_THT_N
+  PosX: 64.0
+  PosY: -175.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D7
+  Package: Diode_SMD_THT_N
+  PosX: 67.0
+  PosY: -80.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D8
+  Package: Diode_SMD_THT_N
+  PosX: 67.0
+  PosY: -99.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D9
+  Package: Diode_SMD_THT_N
+  PosX: 67.0
+  PosY: -118.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D10
+  Package: Diode_SMD_THT_N
+  PosX: 67.0
+  PosY: -137.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D11
+  Package: Diode_SMD_THT_N
+  PosX: 67.0
+  PosY: -156.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D12
+  Package: Diode_SMD_THT_N
+  PosX: 67.0
+  PosY: -175.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D13
+  Package: Diode_SMD_THT_N
+  PosX: 102.0
+  PosY: -80.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D14
+  Package: Diode_SMD_THT_N
+  PosX: 102.0
+  PosY: -99.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D15
+  Package: Diode_SMD_THT_N
+  PosX: 102.0
+  PosY: -118.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D16
+  Package: Diode_SMD_THT_N
+  PosX: 102.0
+  PosY: -137.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D17
+  Package: Diode_SMD_THT_N
+  PosX: 102.0
+  PosY: -156.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D18
+  Package: Diode_SMD_THT_N
+  PosX: 102.0
+  PosY: -175.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D19
+  Package: Diode_SMD_THT_N
+  PosX: 105.0
+  PosY: -80.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D20
+  Package: Diode_SMD_THT_N
+  PosX: 105.0
+  PosY: -99.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D21
+  Package: Diode_SMD_THT_N
+  PosX: 105.0
+  PosY: -118.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D22
+  Package: Diode_SMD_THT_N
+  PosX: 105.0
+  PosY: -137.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D23
+  Package: Diode_SMD_THT_N
+  PosX: 105.0
+  PosY: -156.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D24
+  Package: Diode_SMD_THT_N
+  PosX: 105.0
+  PosY: -175.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D25
+  Package: Diode_SMD_THT_N
+  PosX: 140.0
+  PosY: -80.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D26
+  Package: Diode_SMD_THT_N
+  PosX: 140.0
+  PosY: -99.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D27
+  Package: Diode_SMD_THT_N
+  PosX: 140.0
+  PosY: -118.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D28
+  Package: Diode_SMD_THT_N
+  PosX: 140.0
+  PosY: -137.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D29
+  Package: Diode_SMD_THT_N
+  PosX: 140.0
+  PosY: -156.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D30
+  Package: Diode_SMD_THT_N
+  PosX: 140.0
+  PosY: -175.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D31
+  Package: Diode_SMD_THT_N
+  PosX: 143.0
+  PosY: -80.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D32
+  Package: Diode_SMD_THT_N
+  PosX: 143.0
+  PosY: -99.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D33
+  Package: Diode_SMD_THT_N
+  PosX: 143.0
+  PosY: -118.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D34
+  Package: Diode_SMD_THT_N
+  PosX: 143.0
+  PosY: -137.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D35
+  Package: Diode_SMD_THT_N
+  PosX: 143.0
+  PosY: -156.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': D36
+  Package: Diode_SMD_THT_N
+  PosX: 143.0
+  PosY: -175.0
+  Rot: 90.0
+  Side: top
+  Val: D
+- '# Ref': G***
+  Package: pillcase36_logo
+  PosX: 125.2
+  PosY: -52.8
+  Rot: 0.0
+  Side: top
+  Val: pillcase36_logo
+- '# Ref': J1
+  Package: trrs_jack_aki_flip
+  PosX: 155.5
+  PosY: -39.0
+  Rot: -90.0
+  Side: top
+  Val: AudioJack4_Ground
+- '# Ref': R1
+  Package: Resister_SMD_THT_N
+  PosX: 104.648
+  PosY: -51.816
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: Resister_SMD_THT_N
+  PosX: 104.627
+  PosY: -55.118
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': RESET
+  Package: SW_PUSH_6mm_h5mm
+  PosX: 151.0
+  PosY: -58.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW1
+  Package: key_switch_mx
+  PosX: 56.0
+  PosY: -75.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW2
+  Package: key_switch_mx
+  PosX: 56.0
+  PosY: -94.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW3
+  Package: key_switch_mx
+  PosX: 56.0
+  PosY: -113.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW4
+  Package: key_switch_mx
+  PosX: 56.0
+  PosY: -132.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW5
+  Package: key_switch_mx
+  PosX: 56.0
+  PosY: -151.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW6
+  Package: key_switch_mx
+  PosX: 56.0
+  PosY: -170.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW7
+  Package: key_switch_mx
+  PosX: 75.0
+  PosY: -75.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW8
+  Package: key_switch_mx
+  PosX: 75.0
+  PosY: -94.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW9
+  Package: key_switch_mx
+  PosX: 75.0
+  PosY: -113.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW10
+  Package: key_switch_mx
+  PosX: 75.0
+  PosY: -132.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW11
+  Package: key_switch_mx
+  PosX: 75.0
+  PosY: -151.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW12
+  Package: key_switch_mx
+  PosX: 75.0
+  PosY: -170.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW13
+  Package: key_switch_mx
+  PosX: 94.0
+  PosY: -75.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW14
+  Package: key_switch_mx
+  PosX: 94.0
+  PosY: -94.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW15
+  Package: key_switch_mx
+  PosX: 94.0
+  PosY: -113.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW16
+  Package: key_switch_mx
+  PosX: 94.0
+  PosY: -132.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW17
+  Package: key_switch_mx
+  PosX: 94.0
+  PosY: -151.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW18
+  Package: key_switch_mx
+  PosX: 94.0
+  PosY: -170.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW19
+  Package: key_switch_mx
+  PosX: 113.0
+  PosY: -75.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW20
+  Package: key_switch_mx
+  PosX: 113.0
+  PosY: -94.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW21
+  Package: key_switch_mx
+  PosX: 113.0
+  PosY: -113.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW22
+  Package: key_switch_mx
+  PosX: 113.0
+  PosY: -132.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW23
+  Package: key_switch_mx
+  PosX: 113.0
+  PosY: -151.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW24
+  Package: key_switch_mx
+  PosX: 113.0
+  PosY: -170.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW25
+  Package: key_switch_mx
+  PosX: 132.0
+  PosY: -75.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW26
+  Package: key_switch_mx
+  PosX: 132.0
+  PosY: -94.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW27
+  Package: key_switch_mx
+  PosX: 132.0
+  PosY: -113.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW28
+  Package: key_switch_mx
+  PosX: 132.0
+  PosY: -132.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW29
+  Package: key_switch_mx
+  PosX: 132.0
+  PosY: -151.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW30
+  Package: key_switch_mx
+  PosX: 132.0
+  PosY: -170.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW31
+  Package: key_switch_mx
+  PosX: 151.0
+  PosY: -75.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW32
+  Package: key_switch_mx
+  PosX: 151.0
+  PosY: -94.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW33
+  Package: key_switch_mx
+  PosX: 151.0
+  PosY: -113.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW34
+  Package: key_switch_mx
+  PosX: 151.0
+  PosY: -132.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW35
+  Package: key_switch_mx
+  PosX: 151.0
+  PosY: -151.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW36
+  Package: key_switch_mx
+  PosX: 151.0
+  PosY: -170.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': U1
+  Package: BlackPill
+  PosX: 135.062
+  PosY: -43.688
+  Rot: -90.0
+  Side: top
+  Val: BlackPill
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| nan | nan | Hole_5mm | 103.5 | -122.5\
+  \ | 0.0 | top | \n| D1 | D | Diode_SMD_THT_N | 64.0 | -80.0 | 90.0 | top | \n| D2\
+  \ | D | Diode_SMD_THT_N | 64.0 | -99.0 | 90.0 | top | \n| D3 | D | Diode_SMD_THT_N\
+  \ | 64.0 | -118.0 | 90.0 | top | \n| D4 | D | Diode_SMD_THT_N | 64.0 | -137.0 |\
+  \ 90.0 | top | \n| D5 | D | Diode_SMD_THT_N | 64.0 | -156.0 | 90.0 | top | \n| D6\
+  \ | D | Diode_SMD_THT_N | 64.0 | -175.0 | 90.0 | top | \n| D7 | D | Diode_SMD_THT_N\
+  \ | 67.0 | -80.0 | 90.0 | top | \n| D8 | D | Diode_SMD_THT_N | 67.0 | -99.0 | 90.0\
+  \ | top | \n| D9 | D | Diode_SMD_THT_N | 67.0 | -118.0 | 90.0 | top | \n| D10 |\
+  \ D | Diode_SMD_THT_N | 67.0 | -137.0 | 90.0 | top | \n| D11 | D | Diode_SMD_THT_N\
+  \ | 67.0 | -156.0 | 90.0 | top | \n| D12 | D | Diode_SMD_THT_N | 67.0 | -175.0 |\
+  \ 90.0 | top | \n| D13 | D | Diode_SMD_THT_N | 102.0 | -80.0 | 90.0 | top | \n|\
+  \ D14 | D | Diode_SMD_THT_N | 102.0 | -99.0 | 90.0 | top | \n| D15 | D | Diode_SMD_THT_N\
+  \ | 102.0 | -118.0 | 90.0 | top | \n| D16 | D | Diode_SMD_THT_N | 102.0 | -137.0\
+  \ | 90.0 | top | \n| D17 | D | Diode_SMD_THT_N | 102.0 | -156.0 | 90.0 | top | \n\
+  | D18 | D | Diode_SMD_THT_N | 102.0 | -175.0 | 90.0 | top | \n| D19 | D | Diode_SMD_THT_N\
+  \ | 105.0 | -80.0 | 90.0 | top | \n| D20 | D | Diode_SMD_THT_N | 105.0 | -99.0 |\
+  \ 90.0 | top | \n| D21 | D | Diode_SMD_THT_N | 105.0 | -118.0 | 90.0 | top | \n\
+  | D22 | D | Diode_SMD_THT_N | 105.0 | -137.0 | 90.0 | top | \n| D23 | D | Diode_SMD_THT_N\
+  \ | 105.0 | -156.0 | 90.0 | top | \n| D24 | D | Diode_SMD_THT_N | 105.0 | -175.0\
+  \ | 90.0 | top | \n| D25 | D | Diode_SMD_THT_N | 140.0 | -80.0 | 90.0 | top | \n\
+  | D26 | D | Diode_SMD_THT_N | 140.0 | -99.0 | 90.0 | top | \n| D27 | D | Diode_SMD_THT_N\
+  \ | 140.0 | -118.0 | 90.0 | top | \n| D28 | D | Diode_SMD_THT_N | 140.0 | -137.0\
+  \ | 90.0 | top | \n| D29 | D | Diode_SMD_THT_N | 140.0 | -156.0 | 90.0 | top | \n\
+  | D30 | D | Diode_SMD_THT_N | 140.0 | -175.0 | 90.0 | top | \n| D31 | D | Diode_SMD_THT_N\
+  \ | 143.0 | -80.0 | 90.0 | top | \n| D32 | D | Diode_SMD_THT_N | 143.0 | -99.0 |\
+  \ 90.0 | top | \n| D33 | D | Diode_SMD_THT_N | 143.0 | -118.0 | 90.0 | top | \n\
+  | D34 | D | Diode_SMD_THT_N | 143.0 | -137.0 | 90.0 | top | \n| D35 | D | Diode_SMD_THT_N\
+  \ | 143.0 | -156.0 | 90.0 | top | \n| D36 | D | Diode_SMD_THT_N | 143.0 | -175.0\
+  \ | 90.0 | top | \n| G*** | pillcase36_logo | pillcase36_logo | 125.2 | -52.8 |\
+  \ 0.0 | top | \n| J1 | AudioJack4_Ground | trrs_jack_aki_flip | 155.5 | -39.0 |\
+  \ -90.0 | top | \n| R1 | 10K | Resister_SMD_THT_N | 104.648 | -51.816 | 0.0 | top\
+  \ | \n| R2 | 10K | Resister_SMD_THT_N | 104.627 | -55.118 | 0.0 | top | \n| RESET\
+  \ | SW_Push | SW_PUSH_6mm_h5mm | 151.0 | -58.0 | 0.0 | top | \n| SW1 | SW_Push |\
+  \ key_switch_mx | 56.0 | -75.0 | 0.0 | top | \n| SW2 | SW_Push | key_switch_mx |\
+  \ 56.0 | -94.0 | 0.0 | top | \n| SW3 | SW_Push | key_switch_mx | 56.0 | -113.0 |\
+  \ 0.0 | top | \n| SW4 | SW_Push | key_switch_mx | 56.0 | -132.0 | 0.0 | top | \n\
+  | SW5 | SW_Push | key_switch_mx | 56.0 | -151.0 | 0.0 | top | \n| SW6 | SW_Push\
+  \ | key_switch_mx | 56.0 | -170.0 | 0.0 | top | \n| SW7 | SW_Push | key_switch_mx\
+  \ | 75.0 | -75.0 | 0.0 | top | \n| SW8 | SW_Push | key_switch_mx | 75.0 | -94.0\
+  \ | 0.0 | top | \n| SW9 | SW_Push | key_switch_mx | 75.0 | -113.0 | 0.0 | top |\
+  \ \n| SW10 | SW_Push | key_switch_mx | 75.0 | -132.0 | 0.0 | top | \n| SW11 | SW_Push\
+  \ | key_switch_mx | 75.0 | -151.0 | 0.0 | top | \n| SW12 | SW_Push | key_switch_mx\
+  \ | 75.0 | -170.0 | 0.0 | top | \n| SW13 | SW_Push | key_switch_mx | 94.0 | -75.0\
+  \ | 0.0 | top | \n| SW14 | SW_Push | key_switch_mx | 94.0 | -94.0 | 0.0 | top |\
+  \ \n| SW15 | SW_Push | key_switch_mx | 94.0 | -113.0 | 0.0 | top | \n| SW16 | SW_Push\
+  \ | key_switch_mx | 94.0 | -132.0 | 0.0 | top | \n| SW17 | SW_Push | key_switch_mx\
+  \ | 94.0 | -151.0 | 0.0 | top | \n| SW18 | SW_Push | key_switch_mx | 94.0 | -170.0\
+  \ | 0.0 | top | \n| SW19 | SW_Push | key_switch_mx | 113.0 | -75.0 | 0.0 | top |\
+  \ \n| SW20 | SW_Push | key_switch_mx | 113.0 | -94.0 | 0.0 | top | \n| SW21 | SW_Push\
+  \ | key_switch_mx | 113.0 | -113.0 | 0.0 | top | \n| SW22 | SW_Push | key_switch_mx\
+  \ | 113.0 | -132.0 | 0.0 | top | \n| SW23 | SW_Push | key_switch_mx | 113.0 | -151.0\
+  \ | 0.0 | top | \n| SW24 | SW_Push | key_switch_mx | 113.0 | -170.0 | 0.0 | top\
+  \ | \n| SW25 | SW_Push | key_switch_mx | 132.0 | -75.0 | 0.0 | top | \n| SW26 |\
+  \ SW_Push | key_switch_mx | 132.0 | -94.0 | 0.0 | top | \n| SW27 | SW_Push | key_switch_mx\
+  \ | 132.0 | -113.0 | 0.0 | top | \n| SW28 | SW_Push | key_switch_mx | 132.0 | -132.0\
+  \ | 0.0 | top | \n| SW29 | SW_Push | key_switch_mx | 132.0 | -151.0 | 0.0 | top\
+  \ | \n| SW30 | SW_Push | key_switch_mx | 132.0 | -170.0 | 0.0 | top | \n| SW31 |\
+  \ SW_Push | key_switch_mx | 151.0 | -75.0 | 0.0 | top | \n| SW32 | SW_Push | key_switch_mx\
+  \ | 151.0 | -94.0 | 0.0 | top | \n| SW33 | SW_Push | key_switch_mx | 151.0 | -113.0\
+  \ | 0.0 | top | \n| SW34 | SW_Push | key_switch_mx | 151.0 | -132.0 | 0.0 | top\
+  \ | \n| SW35 | SW_Push | key_switch_mx | 151.0 | -151.0 | 0.0 | top | \n| SW36 |\
+  \ SW_Push | key_switch_mx | 151.0 | -170.0 | 0.0 | top | \n| U1 | BlackPill | BlackPill\
+  \ | 135.062 | -43.688 | -90.0 | top | \n"
 projects_flat: projects/ai03_2725_pillcase36_pillcase36/current_version/working
 repo:
   allow_forking: true

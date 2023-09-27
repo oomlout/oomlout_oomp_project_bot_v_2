@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -46,7 +67,7 @@
 | 17 | SJ1,SJ3,SJ4,SJ2 | SOLDERJUMPER_ARROW_NOPASTE | 4 |  |  |  | [''] | 
 | 18 | JP1 | 1X16_ROUND_MIN | 1 |  |  |  | [''] | 
 | 19 | IC2 | SOT23-5L | 1 | 74AHC1G125 |  |  | [''] | 
-| 20 | C6,C8 | 0805-NO | 2 | 10µF |  |  | [''] | 
+| 20 | C6,C8 | 0805-NO | 2 | 10ÂµF |  |  | [''] | 
 | 21 | ECC1 | SOIC8 | 1 | ATECCx08 |  |  | [''] | 
 | 22 | U$6 | AIRLIFT | 1 |  |  |  | [''] | 
 | 23 | U$7 | FEATHERLOGO_MED | 1 |  |  |  | [''] | 
@@ -57,7 +78,7 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C2, C10 | 3 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C6, C8 | 2 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C6, C8 | 2 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C12 | 1 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | D3 | 1 | LED_RGB_PLCC6CREE-CLV6A | LED_RGB_PLCC6CREE-CLV6A | working:RGBLED_PLCC6 |  |  |  | 
 | D4 | 1 | MBR120 | DIODE-SCHOTTKYSOD-123 | working:SOD-123 |  |  |  | 

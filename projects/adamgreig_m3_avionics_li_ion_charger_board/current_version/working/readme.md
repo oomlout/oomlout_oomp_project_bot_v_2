@@ -16,7 +16,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -34,15 +55,15 @@
 | 4 | J7 | SIL-254P-01 | 1 | BAT+ |  |  | [''] | 
 | 5 | J8 | SIL-254P-01 | 1 | BAT- |  |  | [''] | 
 | 6 | C1,C2,C8,C10,C11,C14,C15,C16,C17 | 0402 | 9 | 100n |  |  | [''] | 
-| 7 | C3,C13 | 0402 | 2 | 1µ |  |  | [''] | 
-| 8 | C4,C7 | 0805 | 2 | 2µ2 |  |  | [''] | 
-| 9 | C5,C6,C18,C19 | 1210 | 4 | 10µ |  |  | [''] | 
-| 10 | C9 | 0603 | 1 | 1µ5 |  |  | [''] | 
+| 7 | C3,C13 | 0402 | 2 | 1Âµ |  |  | [''] | 
+| 8 | C4,C7 | 0805 | 2 | 2Âµ2 |  |  | [''] | 
+| 9 | C5,C6,C18,C19 | 1210 | 4 | 10Âµ |  |  | [''] | 
+| 10 | C9 | 0603 | 1 | 1Âµ5 |  |  | [''] | 
 | 11 | C12 | 0402 | 1 | 100p |  |  | [''] | 
 | 12 | C20 | 0402 | 1 | 22p |  |  | [''] | 
 | 13 | D3,D4 | SOD-323 | 2 | SCHOTTKY |  |  | [''] | 
 | 14 | IC1 | QFN-32-EP-TI | 1 | BQ40Z60 |  |  | [''] | 
-| 15 | L1 | SRP5030T | 1 | 2µ2 |  |  | [''] | 
+| 15 | L1 | SRP5030T | 1 | 2Âµ2 |  |  | [''] | 
 | 16 | Q1 | PowerFLAT-5x6 | 1 | NFET2 |  |  | [''] | 
 | 17 | Q2 | SOT-883-B | 1 | NFET |  |  | [''] | 
 | 18 | Q4 | PowerPair-3x3 | 1 | SiZ340DT |  |  | [''] | 
@@ -67,10 +88,10 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C2, C8, C10, C11, C14, C15, C16, C17 | 9 | 100n | C | agg:0402 |  |  |  | 
-| C3, C13 | 2 | 1µ | C | agg:0402 |  |  |  | 
-| C4, C7 | 2 | 2µ2 | C | agg:0805 |  |  |  | 
-| C5, C6, C18, C19 | 4 | 10µ | C | agg:1210 |  |  |  | 
-| C9 | 1 | 1µ5 | C | agg:0603 |  |  |  | 
+| C3, C13 | 2 | 1Âµ | C | agg:0402 |  |  |  | 
+| C4, C7 | 2 | 2Âµ2 | C | agg:0805 |  |  |  | 
+| C5, C6, C18, C19 | 4 | 10Âµ | C | agg:1210 |  |  |  | 
+| C9 | 1 | 1Âµ5 | C | agg:0603 |  |  |  | 
 | C12 | 1 | 100p | C | agg:0402 |  |  |  | 
 | C20 | 1 | 22p | C | agg:0402 |  |  |  | 
 | D3, D4 | 2 | SCHOTTKY | SCHOTTKY | agg:SOD-323 |  |  |  | 
@@ -83,7 +104,7 @@
 | J6 | 1 | NORTH BOT | CONN_02x05 | agg:SFML-105-02-L-D-LC |  |  |  | 
 | J7 | 1 | BAT+ | CONN_01x01 | agg:SIL-254P-01 |  |  |  | 
 | J8 | 1 | BAT- | CONN_01x01 | agg:SIL-254P-01 |  |  |  | 
-| L1 | 1 | 2µ2 | L | agg:SRP5030T |  |  |  | 
+| L1 | 1 | 2Âµ2 | L | agg:SRP5030T |  |  |  | 
 | Q1 | 1 | NFET2 | NFET2 | agg:PowerFLAT-5x6 |  |  |  | 
 | Q2 | 1 | NFET | NFET_GDS | agg:SOT-883-B |  |  |  | 
 | Q3 | 1 | NFET_GDS | NFET_GDS | agg:SON2x2N |  |  |  | 

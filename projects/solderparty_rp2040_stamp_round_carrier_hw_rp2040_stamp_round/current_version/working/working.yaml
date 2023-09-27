@@ -1,9 +1,487 @@
 board: rp2040_stamp_round
+bom:
+- Id: '1'
+  Designator: D13,D15,D4,D1,D2,D11,D12,D8,D3,D9,D6,D5,D7,D16,D10,D14
+  Footprint: LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm
+  Quantity: '16'
+  Designation: WS2812B
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: SW1
+  Footprint: SW_DPDT_CK_JS202011JCQN
+  Quantity: '1'
+  Designation: SW_OnOff
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U1
+  Footprint: RP2040_Stamp_Springs
+  Quantity: '1'
+  Designation: RP2040_Stamp
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R1,R2
+  Footprint: R_0603_1608Metric
+  Quantity: '2'
+  Designation: 5.1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: SW3,SW2
+  Footprint: SW_SPST_B3U-1000P-B
+  Quantity: '2'
+  Designation: SW_SPST
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J20
+  Footprint: JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
+  Quantity: '1'
+  Designation: Conn_Batt
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: G***
+  Footprint: SolderParty-New-Logo_5x4.2mm_SilkScreen
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R4,R3
+  Footprint: R_0603_1608Metric
+  Quantity: '2'
+  Designation: 2K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: D17
+  Footprint: LED_0603_1608Metric
+  Quantity: '1'
+  Designation: LED_PWR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: J19
+  Footprint: USB_C_Receptacle_XKB_U262-16XN-4BVC11
+  Quantity: '1'
+  Designation: USB_C_Receptacle_USB2.0
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: D18
+  Footprint: LED_0603_1608Metric
+  Quantity: '1'
+  Designation: LED_USR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: G***
+  Footprint: SolderParty-New-Logo_10x8.5mm_SilkScreen
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D13,D15,D4,D1,D2,D11,D12,D8,D3,D9,D6,D5,D7,D16,D10,D14\
+  \ | LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm | 16 | WS2812B |  |  | [''] | \n| 2 | SW1\
+  \ | SW_DPDT_CK_JS202011JCQN | 1 | SW_OnOff |  |  | [''] | \n| 3 | U1 | RP2040_Stamp_Springs\
+  \ | 1 | RP2040_Stamp |  |  | [''] | \n| 4 | R1,R2 | R_0603_1608Metric | 2 | 5.1K\
+  \ |  |  | [''] | \n| 5 | SW3,SW2 | SW_SPST_B3U-1000P-B | 2 | SW_SPST |  |  | ['']\
+  \ | \n| 6 | J20 | JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal | 1 | Conn_Batt\
+  \ |  |  | [''] | \n| 7 | G*** | SolderParty-New-Logo_5x4.2mm_SilkScreen | 1 | LOGO\
+  \ |  |  | [''] | \n| 8 | R4,R3 | R_0603_1608Metric | 2 | 2K |  |  | [''] | \n| 9\
+  \ | D17 | LED_0603_1608Metric | 1 | LED_PWR |  |  | [''] | \n| 10 | J19 | USB_C_Receptacle_XKB_U262-16XN-4BVC11\
+  \ | 1 | USB_C_Receptacle_USB2.0 |  |  | [''] | \n| 11 | D18 | LED_0603_1608Metric\
+  \ | 1 | LED_USR |  |  | [''] | \n| 12 | G*** | SolderParty-New-Logo_10x8.5mm_SilkScreen\
+  \ | 1 | LOGO |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: WS2812B
+  DNP: ''
+  Description: RGB LED with integrated controller
+  Footprint: LED_SMD_Extra:LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm
+  Qnty: '16'
+  Ref: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16
+  Value: WS2812B
+  Vendor: ''
+- Cmp name: LED_Small
+  DNP: ''
+  Description: Light emitting diode, small symbol
+  Footprint: LED_SMD:LED_0603_1608Metric
+  Qnty: '1'
+  Ref: D17
+  Value: LED_PWR
+  Vendor: ''
+- Cmp name: LED_Small
+  DNP: ''
+  Description: Light emitting diode, small symbol
+  Footprint: LED_SMD:LED_0603_1608Metric
+  Qnty: '1'
+  Ref: D18
+  Value: LED_USR
+  Vendor: ''
+- Cmp name: USB_C_Receptacle_USB2.0
+  DNP: ''
+  Description: USB 2.0-only Type-C Receptacle connector
+  Footprint: Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11
+  Qnty: '1'
+  Ref: J19
+  Value: USB_C_Receptacle_USB2.0
+  Vendor: ''
+- Cmp name: Conn_01x02
+  DNP: ''
+  Description: Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
+  Qnty: '1'
+  Ref: J20
+  Value: Conn_Batt
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 5.1K
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '2'
+  Ref: R3, R4
+  Value: 2K
+  Vendor: ''
+- Cmp name: SW_Push_DPDT
+  DNP: ''
+  Description: Momentary Switch, dual pole double throw
+  Footprint: Button_Switch_SMD:SW_DPDT_CK_JS202011JCQN
+  Qnty: '1'
+  Ref: SW1
+  Value: SW_OnOff
+  Vendor: ''
+- Cmp name: SW_SPST
+  DNP: ''
+  Description: Single Pole Single Throw (SPST) switch
+  Footprint: Button_Switch_SMD:SW_SPST_B3U-1000P-B
+  Qnty: '2'
+  Ref: SW2, SW3
+  Value: SW_SPST
+  Vendor: ''
+- Cmp name: RP2040_Stamp
+  DNP: ''
+  Description: ''
+  Footprint: RP2040_Stamp:RP2040_Stamp_Springs
+  Qnty: '1'
+  Ref: U1
+  Value: RP2040_Stamp
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| D1, D2,\
+  \ D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16 | 16 | WS2812B |\
+  \ WS2812B | LED_SMD_Extra:LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm | RGB LED with integrated\
+  \ controller |  |  | \n| D17 | 1 | LED_PWR | LED_Small | LED_SMD:LED_0603_1608Metric\
+  \ | Light emitting diode, small symbol |  |  | \n| D18 | 1 | LED_USR | LED_Small\
+  \ | LED_SMD:LED_0603_1608Metric | Light emitting diode, small symbol |  |  | \n\
+  | J19 | 1 | USB_C_Receptacle_USB2.0 | USB_C_Receptacle_USB2.0 | Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11\
+  \ | USB 2.0-only Type-C Receptacle connector |  |  | \n| J20 | 1 | Conn_Batt | Conn_01x02\
+  \ | Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal | Generic connector,\
+  \ single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| R1, R2 | 2 | 5.1K | R_Small | Resistor_SMD:R_0603_1608Metric | Resistor,\
+  \ small symbol |  |  | \n| R3, R4 | 2 | 2K | R_Small | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor, small symbol |  |  | \n| SW1 | 1 | SW_OnOff | SW_Push_DPDT | Button_Switch_SMD:SW_DPDT_CK_JS202011JCQN\
+  \ | Momentary Switch, dual pole double throw |  |  | \n| SW2, SW3 | 2 | SW_SPST\
+  \ | SW_SPST | Button_Switch_SMD:SW_SPST_B3U-1000P-B | Single Pole Single Throw (SPST)\
+  \ switch |  |  | \n| U1 | 1 | RP2040_Stamp | RP2040_Stamp | RP2040_Stamp:RP2040_Stamp_Springs\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/solderparty_rp2040_stamp_round_carrier_hw_rp2040_stamp_round/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/solderparty_rp2040_stamp_round_carrier_hw_rp2040_stamp_round/current_version/working/working.kicad_sch
 id: solderparty_rp2040_stamp_round_carrier_hw_rp2040_stamp_round
 name: rp2040_stamp_round_carrier_hw
+position_bottom:
+- '# Ref': G***
+  Package: SolderParty-New-Logo_10x8.5mm_SilkScreen
+  PosX: 151.1915
+  PosY: -116.3775
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | SolderParty-New-Logo_10x8.5mm_SilkScreen\
+  \ | 151.1915 | -116.3775 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': D1
+  Package: LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm
+  PosX: 160.9936
+  PosY: -72.7322
+  Rot: -27.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D2
+  Package: LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm
+  PosX: 166.3108
+  PosY: -76.5954
+  Rot: -45.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D3
+  Package: LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm
+  PosX: 170.1739
+  PosY: -81.9125
+  Rot: -63.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D4
+  Package: LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm
+  PosX: 172.2049
+  PosY: -88.1632
+  Rot: -81.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D5
+  Package: LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm
+  PosX: 172.2049
+  PosY: -94.7356
+  Rot: -99.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D6
+  Package: LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm
+  PosX: 170.1739
+  PosY: -100.9862
+  Rot: -117.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D7
+  Package: LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm
+  PosX: 166.3108
+  PosY: -106.3034
+  Rot: -135.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D8
+  Package: LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm
+  PosX: 160.9936
+  PosY: -110.1665
+  Rot: -153.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D9
+  Package: LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm
+  PosX: 141.9199
+  PosY: -110.1665
+  Rot: 153.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D10
+  Package: LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm
+  PosX: 136.6027
+  PosY: -106.3034
+  Rot: 135.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D11
+  Package: LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm
+  PosX: 132.7396
+  PosY: -100.9862
+  Rot: 117.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D12
+  Package: LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm
+  PosX: 130.7086
+  PosY: -94.7356
+  Rot: 99.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D13
+  Package: LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm
+  PosX: 130.7086
+  PosY: -88.1632
+  Rot: 81.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D14
+  Package: LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm
+  PosX: 132.7396
+  PosY: -81.9125
+  Rot: 63.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D15
+  Package: LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm
+  PosX: 136.6027
+  PosY: -76.5954
+  Rot: 45.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D16
+  Package: LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm
+  PosX: 141.9199
+  PosY: -72.7322
+  Rot: 27.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D17
+  Package: LED_0603_1608Metric
+  PosX: 145.2
+  PosY: -64.6
+  Rot: -90.0
+  Side: top
+  Val: LED_PWR
+- '# Ref': D18
+  Package: LED_0603_1608Metric
+  PosX: 157.8
+  PosY: -64.6
+  Rot: -90.0
+  Side: top
+  Val: LED_USR
+- '# Ref': G***
+  Package: SolderParty-New-Logo_5x4.2mm_SilkScreen
+  PosX: 169.0651
+  PosY: -90.552
+  Rot: 82.5
+  Side: top
+  Val: LOGO
+- '# Ref': J19
+  Package: USB_C_Receptacle_XKB_U262-16XN-4BVC11
+  PosX: 151.5
+  PosY: -65.515
+  Rot: 180.0
+  Side: top
+  Val: USB_C_Receptacle_USB2.0
+- '# Ref': J20
+  Package: JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
+  PosX: 151.5
+  PosY: -116.4
+  Rot: 0.0
+  Side: top
+  Val: Conn_Batt
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 157.1
+  PosY: -72.2
+  Rot: -90.0
+  Side: top
+  Val: 5.1K
+- '# Ref': R2
+  Package: R_0603_1608Metric
+  PosX: 145.9
+  PosY: -72.2
+  Rot: -90.0
+  Side: top
+  Val: 5.1K
+- '# Ref': R3
+  Package: R_0603_1608Metric
+  PosX: 145.2
+  PosY: -67.7
+  Rot: 90.0
+  Side: top
+  Val: 2K
+- '# Ref': R4
+  Package: R_0603_1608Metric
+  PosX: 157.8
+  PosY: -67.7
+  Rot: 90.0
+  Side: top
+  Val: 2K
+- '# Ref': SW1
+  Package: SW_DPDT_CK_JS202011JCQN
+  PosX: 151.5
+  PosY: -73.0
+  Rot: 180.0
+  Side: top
+  Val: SW_OnOff
+- '# Ref': SW2
+  Package: SW_SPST_B3U-1000P-B
+  PosX: 158.0
+  PosY: -117.7
+  Rot: -90.0
+  Side: top
+  Val: SW_SPST
+- '# Ref': SW3
+  Package: SW_SPST_B3U-1000P-B
+  PosX: 145.0
+  PosY: -117.7
+  Rot: -90.0
+  Side: top
+  Val: SW_SPST
+- '# Ref': U1
+  Package: RP2040_Stamp_Springs
+  PosX: 151.5
+  PosY: -91.5
+  Rot: 0.0
+  Side: top
+  Val: RP2040_Stamp
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| D1 | WS2812B | LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm\
+  \ | 160.9936 | -72.7322 | -27.0 | top | \n| D2 | WS2812B | LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm\
+  \ | 166.3108 | -76.5954 | -45.0 | top | \n| D3 | WS2812B | LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm\
+  \ | 170.1739 | -81.9125 | -63.0 | top | \n| D4 | WS2812B | LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm\
+  \ | 172.2049 | -88.1632 | -81.0 | top | \n| D5 | WS2812B | LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm\
+  \ | 172.2049 | -94.7356 | -99.0 | top | \n| D6 | WS2812B | LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm\
+  \ | 170.1739 | -100.9862 | -117.0 | top | \n| D7 | WS2812B | LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm\
+  \ | 166.3108 | -106.3034 | -135.0 | top | \n| D8 | WS2812B | LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm\
+  \ | 160.9936 | -110.1665 | -153.0 | top | \n| D9 | WS2812B | LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm\
+  \ | 141.9199 | -110.1665 | 153.0 | top | \n| D10 | WS2812B | LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm\
+  \ | 136.6027 | -106.3034 | 135.0 | top | \n| D11 | WS2812B | LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm\
+  \ | 132.7396 | -100.9862 | 117.0 | top | \n| D12 | WS2812B | LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm\
+  \ | 130.7086 | -94.7356 | 99.0 | top | \n| D13 | WS2812B | LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm\
+  \ | 130.7086 | -88.1632 | 81.0 | top | \n| D14 | WS2812B | LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm\
+  \ | 132.7396 | -81.9125 | 63.0 | top | \n| D15 | WS2812B | LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm\
+  \ | 136.6027 | -76.5954 | 45.0 | top | \n| D16 | WS2812B | LED_WS2812B_PLCC4_3.5x3.5mm_P1.78mm\
+  \ | 141.9199 | -72.7322 | 27.0 | top | \n| D17 | LED_PWR | LED_0603_1608Metric |\
+  \ 145.2 | -64.6 | -90.0 | top | \n| D18 | LED_USR | LED_0603_1608Metric | 157.8\
+  \ | -64.6 | -90.0 | top | \n| G*** | LOGO | SolderParty-New-Logo_5x4.2mm_SilkScreen\
+  \ | 169.0651 | -90.552 | 82.5 | top | \n| J19 | USB_C_Receptacle_USB2.0 | USB_C_Receptacle_XKB_U262-16XN-4BVC11\
+  \ | 151.5 | -65.515 | 180.0 | top | \n| J20 | Conn_Batt | JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal\
+  \ | 151.5 | -116.4 | 0.0 | top | \n| R1 | 5.1K | R_0603_1608Metric | 157.1 | -72.2\
+  \ | -90.0 | top | \n| R2 | 5.1K | R_0603_1608Metric | 145.9 | -72.2 | -90.0 | top\
+  \ | \n| R3 | 2K | R_0603_1608Metric | 145.2 | -67.7 | 90.0 | top | \n| R4 | 2K |\
+  \ R_0603_1608Metric | 157.8 | -67.7 | 90.0 | top | \n| SW1 | SW_OnOff | SW_DPDT_CK_JS202011JCQN\
+  \ | 151.5 | -73.0 | 180.0 | top | \n| SW2 | SW_SPST | SW_SPST_B3U-1000P-B | 158.0\
+  \ | -117.7 | -90.0 | top | \n| SW3 | SW_SPST | SW_SPST_B3U-1000P-B | 145.0 | -117.7\
+  \ | -90.0 | top | \n| U1 | RP2040_Stamp | RP2040_Stamp_Springs | 151.5 | -91.5 |\
+  \ 0.0 | top | \n"
 projects_flat: projects/solderparty_rp2040_stamp_round_carrier_hw_rp2040_stamp_round/current_version/working
 repo:
   allow_forking: true

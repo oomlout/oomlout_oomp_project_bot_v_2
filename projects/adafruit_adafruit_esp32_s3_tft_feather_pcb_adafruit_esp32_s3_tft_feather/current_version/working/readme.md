@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -45,7 +66,7 @@
 | 16 | Q1 | SOT23-R | 1 | BSS138 |  |  | [''] | 
 | 17 | D4 | SOD-123 | 1 | MBR540 |  |  | [''] | 
 | 18 | @HOLE1,@HOLE0 |  | 2 |  |  |  | [''] | 
-| 19 | C3,C6,C8 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 19 | C3,C6,C8 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 20 | R11 | 0603-NO | 1 | 22 |  |  | [''] | 
 | 21 | U6 | QFN60_ESP32-S2-MINI-1_EXP | 1 | ESP32-S3-MINI-1 |  |  | [''] | 
 | 22 | U$54,U$9 | ADAFRUIT_3.5MM | 2 |  |  |  | [''] | 
@@ -66,7 +87,7 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C2, C7, C9, C12 | 5 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C3, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C4, C5, C10, C11 | 4 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | CHG0 | 1 | ORANGE | LED0603_NOOUTLINE | working:CHIPLED_0603_NOOUTLINE |  |  |  | 
 | CONN1 | 1 | STEMMA_I2C_QTRA | STEMMA_I2C_QTRA | working:JST_SH4_RA |  |  |  | 

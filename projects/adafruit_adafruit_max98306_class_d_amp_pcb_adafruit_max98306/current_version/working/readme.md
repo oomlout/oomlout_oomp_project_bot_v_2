@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -28,26 +49,26 @@
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | U$7,U$6 | MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5 |  |  | [''] | 
-| 2 | C3,C2,C4,C5 | 0805 | 4 | 1µF |  |  | [''] | 
+| 2 | C3,C2,C4,C5 | 0805 | 4 | 1ÂµF |  |  | [''] | 
 | 3 | JP1 | 2X04 | 1 |  |  |  | [''] | 
 | 4 | U$10 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | 
 | 5 | R5 | 0805 | 1 | 10K |  |  | [''] | 
 | 6 | R4,R3,R1 | 0805 | 3 | 100K |  |  | [''] | 
 | 7 | FID2,FID1 | FIDUCIAL_1MM | 2 | FIDUCIAL" |  |  | [''] | 
 | 8 | J1 | TERMBLOCK_1X2-3.5MM | 1 | OUTL |  |  | [''] | 
-| 9 | C6 | 0805 | 1 | 10µF |  |  | [''] | 
+| 9 | C6 | 0805 | 1 | 10ÂµF |  |  | [''] | 
 | 10 | U1 | TDFN14_3X3MM | 1 | MAX98306ETD+T |  |  | [''] | 
 | 11 | J2 | TERMBLOCK_1X2-3.5MM | 1 | OUTR |  |  | [''] | 
 | 12 | JP3 | 1X09_ROUND_70 | 1 |  |  |  | [''] | 
-| 13 | C1 | 0805 | 1 | 0.1µF |  |  | [''] | 
+| 13 | C1 | 0805 | 1 | 0.1ÂµF |  |  | [''] | 
 
 
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 1 | 0.1µF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
-| C2, C3, C4, C5 | 4 | 1µF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
-| C6 | 1 | 10µF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
+| C1 | 1 | 0.1ÂµF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
+| C2, C3, C4, C5 | 4 | 1ÂµF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
+| C6 | 1 | 10ÂµF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
 | FID1, FID2 | 2 | FIDUCIAL"" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | 
 | J1 | 1 | OUTL | TERMBLOCK_1X2 | working:TERMBLOCK_1X2-3.5MM |  |  |  | 
 | J2 | 1 | OUTR | TERMBLOCK_1X2 | working:TERMBLOCK_1X2-3.5MM |  |  |  | 
@@ -63,6 +84,6 @@
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$6 | m3 | 
-| 0.0 | 22.986999999999995 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$7 | m3 | 
+| 0.0 | 22.99 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$7 | m3 | 
 
 

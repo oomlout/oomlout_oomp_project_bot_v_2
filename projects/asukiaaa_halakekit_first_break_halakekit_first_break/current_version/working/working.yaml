@@ -1,10 +1,393 @@
 board: halakekit_first_break
+bom:
+- Id: '1'
+  Designator: J21,J22
+  Footprint: Pin_Header_Straight_1x10
+  Quantity: '2'
+  Designation: LINE_10
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J26
+  Footprint: Pin_Header_Straight_1x02
+  Quantity: '1'
+  Designation: HEADER_2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J27
+  Footprint: Pin_Header_Straight_1x12
+  Quantity: '1'
+  Designation: HEADER_12
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U1
+  Footprint: Arduino Pro Micro
+  Quantity: '1'
+  Designation: Arduino_Pro_Micro
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: G***,G***,G***
+  Footprint: nyampass_logo_8p4mm
+  Quantity: '3'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J1,J2,J3,J4,J5,J11,J12,J13,J14,J15
+  Footprint: Pin_Header_Connect_1x04
+  Quantity: '10'
+  Designation: LINE_4
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: J6
+  Footprint: Pin_Header_Straight_1x10
+  Quantity: '1'
+  Designation: HEADER_10
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: J9,J10,J7,J8
+  Footprint: Pin_Header_Straight_1x04
+  Quantity: '4'
+  Designation: Connector_4
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: J24,J28
+  Footprint: Pin_Header_Circle_1x04
+  Quantity: '2'
+  Designation: CIRCLES_4
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J21,J22\
+  \ | Pin_Header_Straight_1x10 | 2 | LINE_10 |  |  | [''] | \n| 2 | J26 | Pin_Header_Straight_1x02\
+  \ | 1 | HEADER_2 |  |  | [''] | \n| 3 | J27 | Pin_Header_Straight_1x12 | 1 | HEADER_12\
+  \ |  |  | [''] | \n| 4 | U1 | Arduino Pro Micro | 1 | Arduino_Pro_Micro |  |  |\
+  \ [''] | \n| 5 | G***,G***,G*** | nyampass_logo_8p4mm | 3 | LOGO |  |  | [''] |\
+  \ \n| 6 | J1,J2,J3,J4,J5,J11,J12,J13,J14,J15 | Pin_Header_Connect_1x04 | 10 | LINE_4\
+  \ |  |  | [''] | \n| 7 | J6 | Pin_Header_Straight_1x10 | 1 | HEADER_10 |  |  | ['']\
+  \ | \n| 8 | J9,J10,J7,J8 | Pin_Header_Straight_1x04 | 4 | Connector_4 |  |  | ['']\
+  \ | \n| 9 | J24,J28 | Pin_Header_Circle_1x04 | 2 | CIRCLES_4 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: HEADER_4
+  DNP: ''
+  Description: ''
+  Footprint: simple_headers:Pin_Header_Connect_1x04
+  Qnty: '10'
+  Ref: J1, J2, J3, J4, J5, J11, J12, J13, J14, J15
+  Value: LINE_4
+  Vendor: ''
+- Cmp name: HEADER_10
+  DNP: ''
+  Description: ''
+  Footprint: simple_headers:Pin_Header_Straight_1x10
+  Qnty: '1'
+  Ref: J6
+  Value: HEADER_10
+  Vendor: ''
+- Cmp name: HEADER_4
+  DNP: ''
+  Description: ''
+  Footprint: simple_headers:Pin_Header_Straight_1x04
+  Qnty: '4'
+  Ref: J7, J8, J9, J10
+  Value: Connector_4
+  Vendor: ''
+- Cmp name: HEADER_10
+  DNP: ''
+  Description: ''
+  Footprint: simple_headers:Pin_Header_Straight_1x10
+  Qnty: '2'
+  Ref: J21, J22
+  Value: LINE_10
+  Vendor: ''
+- Cmp name: HEADER_4
+  DNP: ''
+  Description: ''
+  Footprint: simple_headers:Pin_Header_Circle_1x04
+  Qnty: '2'
+  Ref: J24, J28
+  Value: CIRCLES_4
+  Vendor: ''
+- Cmp name: HEADER_2
+  DNP: ''
+  Description: ''
+  Footprint: simple_headers:Pin_Header_Straight_1x02
+  Qnty: '1'
+  Ref: J26
+  Value: HEADER_2
+  Vendor: ''
+- Cmp name: HEADER_12
+  DNP: ''
+  Description: ''
+  Footprint: simple_headers:Pin_Header_Straight_1x12
+  Qnty: '1'
+  Ref: J27
+  Value: HEADER_12
+  Vendor: ''
+- Cmp name: Arduino_Pro_Micro
+  DNP: ''
+  Description: ''
+  Footprint: arduino_pro_micro:Arduino Pro Micro
+  Qnty: '1'
+  Ref: U1
+  Value: Arduino_Pro_Micro
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| J1, J2,\
+  \ J3, J4, J5, J11, J12, J13, J14, J15 | 10 | LINE_4 | HEADER_4 | simple_headers:Pin_Header_Connect_1x04\
+  \ |  |  |  | \n| J6 | 1 | HEADER_10 | HEADER_10 | simple_headers:Pin_Header_Straight_1x10\
+  \ |  |  |  | \n| J7, J8, J9, J10 | 4 | Connector_4 | HEADER_4 | simple_headers:Pin_Header_Straight_1x04\
+  \ |  |  |  | \n| J21, J22 | 2 | LINE_10 | HEADER_10 | simple_headers:Pin_Header_Straight_1x10\
+  \ |  |  |  | \n| J24, J28 | 2 | CIRCLES_4 | HEADER_4 | simple_headers:Pin_Header_Circle_1x04\
+  \ |  |  |  | \n| J26 | 1 | HEADER_2 | HEADER_2 | simple_headers:Pin_Header_Straight_1x02\
+  \ |  |  |  | \n| J27 | 1 | HEADER_12 | HEADER_12 | simple_headers:Pin_Header_Straight_1x12\
+  \ |  |  |  | \n| U1 | 1 | Arduino_Pro_Micro | Arduino_Pro_Micro | arduino_pro_micro:Arduino\
+  \ Pro Micro |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/asukiaaa_halakekit_first_break_halakekit_first_break/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asukiaaa_halakekit_first_break_halakekit_first_break/current_version/working/working.kicad_pcb
 file_sch_flat: projects/asukiaaa_halakekit_first_break_halakekit_first_break/current_version/working/working.sch
 id: asukiaaa_halakekit_first_break_halakekit_first_break
 name: halakekit_first_break
+position_bottom:
+- '# Ref': G***
+  Package: nyampass_logo_8p4mm
+  PosX: 144.6784
+  PosY: -118.8212
+  Rot: 90.0
+  Side: bottom
+  Val: LOGO
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | nyampass_logo_8p4mm\
+  \ | 144.6784 | -118.8212 | 90.0 | bottom | \n"
+position_top:
+- '# Ref': G***
+  Package: nyampass_logo_8p4mm
+  PosX: 135.4455
+  PosY: -146.05
+  Rot: -90.0
+  Side: top
+  Val: LOGO
+- '# Ref': G***
+  Package: nyampass_logo_8p4mm
+  PosX: 154.051
+  PosY: -146.05
+  Rot: 90.0
+  Side: top
+  Val: LOGO
+- '# Ref': J1
+  Package: Pin_Header_Connect_1x04
+  PosX: 129.54
+  PosY: -114.3
+  Rot: 90.0
+  Side: top
+  Val: LINE_4
+- '# Ref': J2
+  Package: Pin_Header_Connect_1x04
+  PosX: 129.54
+  PosY: -116.84
+  Rot: 90.0
+  Side: top
+  Val: LINE_4
+- '# Ref': J3
+  Package: Pin_Header_Connect_1x04
+  PosX: 129.54
+  PosY: -119.38
+  Rot: 90.0
+  Side: top
+  Val: LINE_4
+- '# Ref': J4
+  Package: Pin_Header_Connect_1x04
+  PosX: 129.54
+  PosY: -132.08
+  Rot: 90.0
+  Side: top
+  Val: LINE_4
+- '# Ref': J5
+  Package: Pin_Header_Connect_1x04
+  PosX: 129.54
+  PosY: -121.92
+  Rot: 90.0
+  Side: top
+  Val: LINE_4
+- '# Ref': J6
+  Package: Pin_Header_Straight_1x10
+  PosX: 139.7
+  PosY: -114.3
+  Rot: 0.0
+  Side: top
+  Val: HEADER_10
+- '# Ref': J7
+  Package: Pin_Header_Straight_1x04
+  PosX: 130.302
+  PosY: -142.24
+  Rot: 0.0
+  Side: top
+  Val: Connector_4
+- '# Ref': J8
+  Package: Pin_Header_Straight_1x04
+  PosX: 159.258
+  PosY: -149.86
+  Rot: 180.0
+  Side: top
+  Val: Connector_4
+- '# Ref': J9
+  Package: Pin_Header_Straight_1x04
+  PosX: 132.9055
+  PosY: -142.24
+  Rot: 0.0
+  Side: top
+  Val: Connector_4
+- '# Ref': J10
+  Package: Pin_Header_Straight_1x04
+  PosX: 156.591
+  PosY: -149.86
+  Rot: 180.0
+  Side: top
+  Val: Connector_4
+- '# Ref': J11
+  Package: Pin_Header_Connect_1x04
+  PosX: 129.54
+  PosY: -124.46
+  Rot: 90.0
+  Side: top
+  Val: LINE_4
+- '# Ref': J12
+  Package: Pin_Header_Connect_1x04
+  PosX: 129.54
+  PosY: -127.0
+  Rot: 90.0
+  Side: top
+  Val: LINE_4
+- '# Ref': J13
+  Package: Pin_Header_Connect_1x04
+  PosX: 129.54
+  PosY: -134.62
+  Rot: 90.0
+  Side: top
+  Val: LINE_4
+- '# Ref': J14
+  Package: Pin_Header_Connect_1x04
+  PosX: 129.54
+  PosY: -129.54
+  Rot: 90.0
+  Side: top
+  Val: LINE_4
+- '# Ref': J15
+  Package: Pin_Header_Connect_1x04
+  PosX: 129.54
+  PosY: -137.16
+  Rot: 90.0
+  Side: top
+  Val: LINE_4
+- '# Ref': J21
+  Package: Pin_Header_Straight_1x10
+  PosX: 127.0
+  PosY: -137.16
+  Rot: 90.0
+  Side: top
+  Val: LINE_10
+- '# Ref': J22
+  Package: Pin_Header_Straight_1x10
+  PosX: 124.46
+  PosY: -137.16
+  Rot: 90.0
+  Side: top
+  Val: LINE_10
+- '# Ref': J24
+  Package: Pin_Header_Circle_1x04
+  PosX: 153.67
+  PosY: -111.76
+  Rot: -90.0
+  Side: top
+  Val: CIRCLES_4
+- '# Ref': J26
+  Package: Pin_Header_Straight_1x02
+  PosX: 127.0
+  PosY: -107.95
+  Rot: 0.0
+  Side: top
+  Val: HEADER_2
+- '# Ref': J27
+  Package: Pin_Header_Straight_1x12
+  PosX: 160.02
+  PosY: -106.68
+  Rot: 0.0
+  Side: top
+  Val: HEADER_12
+- '# Ref': J28
+  Package: Pin_Header_Circle_1x04
+  PosX: 138.43
+  PosY: -111.76
+  Rot: -90.0
+  Side: top
+  Val: CIRCLES_4
+- '# Ref': U1
+  Package: Arduino_Pro_Micro
+  PosX: 149.86
+  PosY: -106.68
+  Rot: 0.0
+  Side: top
+  Val: Arduino_Pro_Micro
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | nyampass_logo_8p4mm |\
+  \ 135.4455 | -146.05 | -90.0 | top | \n| G*** | LOGO | nyampass_logo_8p4mm | 154.051\
+  \ | -146.05 | 90.0 | top | \n| J1 | LINE_4 | Pin_Header_Connect_1x04 | 129.54 |\
+  \ -114.3 | 90.0 | top | \n| J2 | LINE_4 | Pin_Header_Connect_1x04 | 129.54 | -116.84\
+  \ | 90.0 | top | \n| J3 | LINE_4 | Pin_Header_Connect_1x04 | 129.54 | -119.38 |\
+  \ 90.0 | top | \n| J4 | LINE_4 | Pin_Header_Connect_1x04 | 129.54 | -132.08 | 90.0\
+  \ | top | \n| J5 | LINE_4 | Pin_Header_Connect_1x04 | 129.54 | -121.92 | 90.0 |\
+  \ top | \n| J6 | HEADER_10 | Pin_Header_Straight_1x10 | 139.7 | -114.3 | 0.0 | top\
+  \ | \n| J7 | Connector_4 | Pin_Header_Straight_1x04 | 130.302 | -142.24 | 0.0 |\
+  \ top | \n| J8 | Connector_4 | Pin_Header_Straight_1x04 | 159.258 | -149.86 | 180.0\
+  \ | top | \n| J9 | Connector_4 | Pin_Header_Straight_1x04 | 132.9055 | -142.24 |\
+  \ 0.0 | top | \n| J10 | Connector_4 | Pin_Header_Straight_1x04 | 156.591 | -149.86\
+  \ | 180.0 | top | \n| J11 | LINE_4 | Pin_Header_Connect_1x04 | 129.54 | -124.46\
+  \ | 90.0 | top | \n| J12 | LINE_4 | Pin_Header_Connect_1x04 | 129.54 | -127.0 |\
+  \ 90.0 | top | \n| J13 | LINE_4 | Pin_Header_Connect_1x04 | 129.54 | -134.62 | 90.0\
+  \ | top | \n| J14 | LINE_4 | Pin_Header_Connect_1x04 | 129.54 | -129.54 | 90.0 |\
+  \ top | \n| J15 | LINE_4 | Pin_Header_Connect_1x04 | 129.54 | -137.16 | 90.0 | top\
+  \ | \n| J21 | LINE_10 | Pin_Header_Straight_1x10 | 127.0 | -137.16 | 90.0 | top\
+  \ | \n| J22 | LINE_10 | Pin_Header_Straight_1x10 | 124.46 | -137.16 | 90.0 | top\
+  \ | \n| J24 | CIRCLES_4 | Pin_Header_Circle_1x04 | 153.67 | -111.76 | -90.0 | top\
+  \ | \n| J26 | HEADER_2 | Pin_Header_Straight_1x02 | 127.0 | -107.95 | 0.0 | top\
+  \ | \n| J27 | HEADER_12 | Pin_Header_Straight_1x12 | 160.02 | -106.68 | 0.0 | top\
+  \ | \n| J28 | CIRCLES_4 | Pin_Header_Circle_1x04 | 138.43 | -111.76 | -90.0 | top\
+  \ | \n| U1 | Arduino_Pro_Micro | Arduino_Pro_Micro | 149.86 | -106.68 | 0.0 | top\
+  \ | \n"
 projects_flat: projects/asukiaaa_halakekit_first_break_halakekit_first_break/current_version/working
 repo:
   allow_forking: true

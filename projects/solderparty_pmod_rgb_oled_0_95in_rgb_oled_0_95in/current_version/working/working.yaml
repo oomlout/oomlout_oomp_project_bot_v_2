@@ -1,10 +1,361 @@
 board: rgb_oled_0_95in
+bom:
+- Id: '1'
+  Designator: J1
+  Footprint: PMODHeader_2x06_P2.54mm_Horizontal
+  Quantity: '1'
+  Designation: PMOD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U2
+  Footprint: UG-9664HDDAG01
+  Quantity: '1'
+  Designation: UG-9664HDDAG01
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C1
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 4.7uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C2
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C3,C4
+  Footprint: C_1206_3216Metric
+  Quantity: '2'
+  Designation: 4.7uF 16V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: D1
+  Footprint: D_SOD-123
+  Quantity: '1'
+  Designation: MBR0520LT1G
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: L1
+  Footprint: L_1210_3225Metric
+  Quantity: '1'
+  Designation: 10uH, 0.48A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R1
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 147k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R2
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 13.3k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R3
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 510K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U1
+  Footprint: SOT-23-5
+  Quantity: '1'
+  Designation: LMR62014
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: G***
+  Footprint: SolderParty-Logo_13.5x12.6mm_SilkScreen
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1\
+  \ | PMODHeader_2x06_P2.54mm_Horizontal | 1 | PMOD |  |  | [''] | \n| 2 | U2 | UG-9664HDDAG01\
+  \ | 1 | UG-9664HDDAG01 |  |  | [''] | \n| 3 | C1 | C_0603_1608Metric | 1 | 4.7uF\
+  \ |  |  | [''] | \n| 4 | C2 | C_0603_1608Metric | 1 | 0.1uF |  |  | [''] | \n| 5\
+  \ | C3,C4 | C_1206_3216Metric | 2 | 4.7uF 16V |  |  | [''] | \n| 6 | D1 | D_SOD-123\
+  \ | 1 | MBR0520LT1G |  |  | [''] | \n| 7 | L1 | L_1210_3225Metric | 1 | 10uH, 0.48A\
+  \ |  |  | [''] | \n| 8 | R1 | C_0603_1608Metric | 1 | 147k |  |  | [''] | \n| 9\
+  \ | R2 | C_0603_1608Metric | 1 | 13.3k |  |  | [''] | \n| 10 | R3 | C_0603_1608Metric\
+  \ | 1 | 510K |  |  | [''] | \n| 11 | U1 | SOT-23-5 | 1 | LMR62014 |  |  | [''] |\
+  \ \n| 12 | G*** | SolderParty-Logo_13.5x12.6mm_SilkScreen | 1 | LOGO |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C1
+  Value: 4.7uF
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C2
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_1206_3216Metric
+  Qnty: '2'
+  Ref: C3, C4
+  Value: 4.7uF 16V
+  Vendor: ''
+- Cmp name: D_Schottky_Small
+  DNP: ''
+  Description: Schottky diode, small symbol
+  Footprint: Diode_SMD:D_SOD-123
+  Qnty: '1'
+  Ref: D1
+  Value: MBR0520LT1G
+  Vendor: ''
+- Cmp name: Conn_02x06_Top_Bottom
+  DNP: ''
+  Description: 'Generic connector, double row, 02x06, top/bottom pin numbering scheme
+    (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated
+    (kicad-library-utils/schlib/autogen/connector/)'
+  Footprint: Connector_PinHeader_2.54mm_Extra:PMODHeader_2x06_P2.54mm_Horizontal
+  Qnty: '1'
+  Ref: J1
+  Value: PMOD
+  Vendor: ''
+- Cmp name: L
+  DNP: ''
+  Description: Inductor
+  Footprint: Inductor_SMD:L_1210_3225Metric
+  Qnty: '1'
+  Ref: L1
+  Value: 10uH, 0.48A
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: R1
+  Value: 147k
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: R2
+  Value: 13.3k
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: R3
+  Value: 510K
+  Vendor: ''
+- Cmp name: LMR62014XMF
+  DNP: ''
+  Description: 1.4A, 20Vout Step-Up Voltage Regulator, 1.6MHz Frequency, SOT-23-5
+  Footprint: Package_TO_SOT_SMD:SOT-23-5
+  Qnty: '1'
+  Ref: U1
+  Value: LMR62014
+  Vendor: ''
+- Cmp name: UG-9664HDDAG01
+  DNP: ''
+  Description: ''
+  Footprint: Display_Graphics_Extra:UG-9664HDDAG01
+  Qnty: '1'
+  Ref: U2
+  Value: UG-9664HDDAG01
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 4.7uF | C_Small | Capacitor_SMD:C_0603_1608Metric | Unpolarized capacitor,\
+  \ small symbol |  |  | \n| C2 | 1 | 0.1uF | C_Small | Capacitor_SMD:C_0603_1608Metric\
+  \ | Unpolarized capacitor, small symbol |  |  | \n| C3, C4 | 2 | 4.7uF 16V | C_Small\
+  \ | Capacitor_SMD:C_1206_3216Metric | Unpolarized capacitor, small symbol |  | \
+  \ | \n| D1 | 1 | MBR0520LT1G | D_Schottky_Small | Diode_SMD:D_SOD-123 | Schottky\
+  \ diode, small symbol |  |  | \n| J1 | 1 | PMOD | Conn_02x06_Top_Bottom | Connector_PinHeader_2.54mm_Extra:PMODHeader_2x06_P2.54mm_Horizontal\
+  \ | Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1:\
+  \ 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| L1 | 1 | 10uH, 0.48A | L | Inductor_SMD:L_1210_3225Metric | Inductor\
+  \ |  |  | \n| R1 | 1 | 147k | R_Small | Capacitor_SMD:C_0603_1608Metric | Resistor,\
+  \ small symbol |  |  | \n| R2 | 1 | 13.3k | R_Small | Capacitor_SMD:C_0603_1608Metric\
+  \ | Resistor, small symbol |  |  | \n| R3 | 1 | 510K | R_Small | Capacitor_SMD:C_0603_1608Metric\
+  \ | Resistor, small symbol |  |  | \n| U1 | 1 | LMR62014 | LMR62014XMF | Package_TO_SOT_SMD:SOT-23-5\
+  \ | 1.4A, 20Vout Step-Up Voltage Regulator, 1.6MHz Frequency, SOT-23-5 |  |  | \n\
+  | U2 | 1 | UG-9664HDDAG01 | UG-9664HDDAG01 | Display_Graphics_Extra:UG-9664HDDAG01\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/solderparty_pmod_rgb_oled_0_95in_rgb_oled_0_95in/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/solderparty_pmod_rgb_oled_0_95in_rgb_oled_0_95in/current_version/working/working.kicad_pcb
 file_sch_flat: projects/solderparty_pmod_rgb_oled_0_95in_rgb_oled_0_95in/current_version/working/working.sch
 id: solderparty_pmod_rgb_oled_0_95in_rgb_oled_0_95in
 name: pmod_rgb_oled_0_95in
+position_bottom:
+- '# Ref': C1
+  Package: C_0603_1608Metric
+  PosX: 119.2
+  PosY: -93.2
+  Rot: 180.0
+  Side: bottom
+  Val: 4.7uF
+- '# Ref': C2
+  Package: C_0603_1608Metric
+  PosX: 124.2
+  PosY: -93.3
+  Rot: 90.0
+  Side: bottom
+  Val: 0.1uF
+- '# Ref': C3
+  Package: C_1206_3216Metric
+  PosX: 124.3
+  PosY: -90.2
+  Rot: 0.0
+  Side: bottom
+  Val: 4.7uF_16V
+- '# Ref': C4
+  Package: C_1206_3216Metric
+  PosX: 128.4
+  PosY: -96.7
+  Rot: 90.0
+  Side: bottom
+  Val: 4.7uF_16V
+- '# Ref': D1
+  Package: D_SOD-123
+  PosX: 124.3
+  PosY: -87.2
+  Rot: 0.0
+  Side: bottom
+  Val: MBR0520LT1G
+- '# Ref': G***
+  Package: SolderParty-Logo_13.5x12.6mm_SilkScreen
+  PosX: 110.9
+  PosY: -92.3
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+- '# Ref': L1
+  Package: L_1210_3225Metric
+  PosX: 119.2
+  PosY: -86.4
+  Rot: 0.0
+  Side: bottom
+  Val: 10uH,_0.48A
+- '# Ref': R1
+  Package: C_0603_1608Metric
+  PosX: 122.5
+  PosY: -93.3
+  Rot: 90.0
+  Side: bottom
+  Val: 147k
+- '# Ref': R2
+  Package: C_0603_1608Metric
+  PosX: 125.8
+  PosY: -93.3
+  Rot: -90.0
+  Side: bottom
+  Val: 13.3k
+- '# Ref': R3
+  Package: C_0603_1608Metric
+  PosX: 118.6
+  PosY: -97.9
+  Rot: -90.0
+  Side: bottom
+  Val: 510K
+- '# Ref': U1
+  Package: SOT-23-5
+  PosX: 119.3
+  PosY: -90.2
+  Rot: 180.0
+  Side: bottom
+  Val: LMR62014
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C1 | 4.7uF | C_0603_1608Metric |\
+  \ 119.2 | -93.2 | 180.0 | bottom | \n| C2 | 0.1uF | C_0603_1608Metric | 124.2 |\
+  \ -93.3 | 90.0 | bottom | \n| C3 | 4.7uF_16V | C_1206_3216Metric | 124.3 | -90.2\
+  \ | 0.0 | bottom | \n| C4 | 4.7uF_16V | C_1206_3216Metric | 128.4 | -96.7 | 90.0\
+  \ | bottom | \n| D1 | MBR0520LT1G | D_SOD-123 | 124.3 | -87.2 | 0.0 | bottom | \n\
+  | G*** | LOGO | SolderParty-Logo_13.5x12.6mm_SilkScreen | 110.9 | -92.3 | 180.0\
+  \ | bottom | \n| L1 | 10uH,_0.48A | L_1210_3225Metric | 119.2 | -86.4 | 0.0 | bottom\
+  \ | \n| R1 | 147k | C_0603_1608Metric | 122.5 | -93.3 | 90.0 | bottom | \n| R2 |\
+  \ 13.3k | C_0603_1608Metric | 125.8 | -93.3 | -90.0 | bottom | \n| R3 | 510K | C_0603_1608Metric\
+  \ | 118.6 | -97.9 | -90.0 | bottom | \n| U1 | LMR62014 | SOT-23-5 | 119.3 | -90.2\
+  \ | 180.0 | bottom | \n"
+position_top:
+- '# Ref': J1
+  Package: PMODHeader_2x06_P2.54mm_Horizontal
+  PosX: 103.5
+  PosY: -101.85
+  Rot: 180.0
+  Side: top
+  Val: PMOD
+- '# Ref': U2
+  Package: UG-9664HDDAG01
+  PosX: 122.1
+  PosY: -106.1
+  Rot: 0.0
+  Side: top
+  Val: UG-9664HDDAG01
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J1 | PMOD | PMODHeader_2x06_P2.54mm_Horizontal\
+  \ | 103.5 | -101.85 | 180.0 | top | \n| U2 | UG-9664HDDAG01 | UG-9664HDDAG01 | 122.1\
+  \ | -106.1 | 0.0 | top | \n"
 projects_flat: projects/solderparty_pmod_rgb_oled_0_95in_rgb_oled_0_95in/current_version/working
 repo:
   allow_forking: true

@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -35,7 +56,7 @@
 | 6 | U$4,U$5 | MOUNTINGHOLE_2.0_PLATED | 2 | MOUNTINGHOLE2.0 |  |  | [''] | 
 | 7 | JP1 | 1X06_ROUND_76 | 1 | Breakout |  |  | [''] | 
 | 8 | D2 | SOD-323F | 1 | 1N4148 |  |  | [''] | 
-| 9 | C3 | _0805 | 1 | 0.01µF |  |  | [''] | 
+| 9 | C3 | _0805 | 1 | 0.01ÂµF |  |  | [''] | 
 | 10 | J1 | 1X2-3.5MM | 1 | 1X2-3.5MM |  |  | [''] | 
 | 11 | R1,R2 | R0805 | 2 | 10K |  |  | [''] | 
 | 12 | IC1 | SO08 | 1 | MAX31855 |  |  | [''] | 
@@ -46,7 +67,7 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C2 | 2 | 10uF | C-USC0805K | working:C0805K |  |  |  | 
-| C3 | 1 | 0.01µF | CAP_CERAMIC_0805 | working:_0805 |  |  |  | 
+| C3 | 1 | 0.01ÂµF | CAP_CERAMIC_0805 | working:_0805 |  |  |  | 
 | D1 | 1 | 1n4148 | DIODESOD-323F | working:SOD-323F |  |  |  | 
 | D2 | 1 | 1N4148 | DIODESOD-323F | working:SOD-323F |  |  |  | 
 | FB1, FB2 | 2 | Ferrite | FERRITE_0805 | working:_0805 |  |  |  | 
@@ -62,7 +83,7 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 15.240000000000009 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0 | U$4 | m3 | 
+| 15.24 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0 | U$4 | m3 | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.0_PLATED | MOUNTINGHOLE2.0 | U$5 | m3 | 
 
 

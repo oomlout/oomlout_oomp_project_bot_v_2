@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\aewallin_sfp2sma_2018_03_sfp_v4\current_version\working\working.kicad_sch</source>
+    <date>23/09/2023 00:38:24</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SFP-Board, 2018.03 - Power Supply</title>
+        <company>Anders Wallin (anders.e.e.wallin "at" gmail.com)</company>
+        <rev/>
+        <date>2017-03-10</date>
+        <source>working.kicad_sch</source>
+        <comment number="1" value="2018-03: remove DC-filters, add heatsinks"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>Conn_01x04</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-4_P5.08mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f9b842e</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>D</value>
+      <footprint>awallinKiCadFootprints:DIODE_DO-214BA</footprint>
+      <libsource lib="sfp_v4-rescue" part="D" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c3b337</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>D</value>
+      <footprint>awallinKiCadFootprints:DIODE_DO-214BA</footprint>
+      <libsource lib="sfp_v4-rescue" part="D" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c3c725</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>D</value>
+      <footprint>awallinKiCadFootprints:DIODE_DO-214BA</footprint>
+      <libsource lib="sfp_v4-rescue" part="D" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f9bfb8e</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="sfp_v4-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c3ade9</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="sfp_v4-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c3a36e</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="sfp_v4-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c39adf</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>Heatsink_Pad</value>
+      <footprint>Heatsink:Heatsink_Fischer_FK24413D2PAK_26x13mm</footprint>
+      <libsource lib="Mechanical" part="Heatsink_Pad" description="Heatsink with electrical connection, 1 pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Heatsink with electrical connection, 1 pin"/>
+      <property name="ki_keywords" value="thermal heat temperature"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f987ed5</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>LT1963AEQ</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LT1963AEQ" description="1.5A, Adjustable, Low Noise, Linear Voltage Regulator, TO-263-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="1.5A, Adjustable, Low Noise, Linear Voltage Regulator, TO-263-5"/>
+      <property name="ki_keywords" value="low noise voltage regulator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f94b6a7</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>LT3015Q</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/3015fb.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LT3015Q" description="1.5A, Adjustable, Low Noise, Negative Voltage Regulator, TO-263-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="1.5A, Adjustable, Low Noise, Negative Voltage Regulator, TO-263-5"/>
+      <property name="ki_keywords" value="low noise voltage regulator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f962074</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>LT1963AxQ-3.3</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LT1963AxQ-3.3" description="3.3V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, TO-263-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="3.3V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, TO-263-5"/>
+      <property name="ki_keywords" value="voltage regulator linear ldo"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f92f725</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>2k7</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="sfp_v4-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c39d56</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>680R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="sfp_v4-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c39da2</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>TestPoint_2Pole</value>
+      <footprint>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</footprint>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="2-polar test point"/>
+      <property name="ki_keywords" value="point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005faa4bac</tstamps>
+    </comp>
+    <comp ref="U15">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="sfp_v4-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c3a59c</tstamps>
+    </comp>
+    <comp ref="U16">
+      <value>TestPoint_2Pole</value>
+      <footprint>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</footprint>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="2-polar test point"/>
+      <property name="ki_keywords" value="point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fab0ee3</tstamps>
+    </comp>
+    <comp ref="U17">
+      <value>2k7</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="sfp_v4-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c39837</tstamps>
+    </comp>
+    <comp ref="U18">
+      <value>680R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="sfp_v4-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c39894</tstamps>
+    </comp>
+    <comp ref="U19">
+      <value>TestPoint_2Pole</value>
+      <footprint>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</footprint>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="2-polar test point"/>
+      <property name="ki_keywords" value="point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fabc1dc</tstamps>
+    </comp>
+    <comp ref="U20">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="sfp_v4-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c39df3</tstamps>
+    </comp>
+    <comp ref="U21">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <libsource lib="sfp_v4-rescue" part="LED" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c3db8f</tstamps>
+    </comp>
+    <comp ref="U22">
+      <value>180R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="sfp_v4-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c3dc2d</tstamps>
+    </comp>
+    <comp ref="U23">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="sfp_v4-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c399a9</tstamps>
+    </comp>
+    <comp ref="U24">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="sfp_v4-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c3a600</tstamps>
+    </comp>
+    <comp ref="U25">
+      <value>180R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="sfp_v4-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c3dd50</tstamps>
+    </comp>
+    <comp ref="U26">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <libsource lib="sfp_v4-rescue" part="LED" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c3d9b4</tstamps>
+    </comp>
+    <comp ref="U27">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <libsource lib="sfp_v4-rescue" part="LED" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c3da53</tstamps>
+    </comp>
+    <comp ref="U28">
+      <value>68R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="sfp_v4-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c3dcb2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint_2Pole">
+      <description>2-polar test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_2Pole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Heatsink_Pad">
+      <description>Heatsink with electrical connection, 1 pin</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Heatsink_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">HS</field>
+        <field name="Value">Heatsink_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LT1963AEQ">
+      <description>1.5A, Adjustable, Low Noise, Linear Voltage Regulator, TO-263-5</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf</docs>
+      <footprints>
+        <fp>TO*263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT1963AEQ</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-263-5_TabPin3</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{SHDN}" type="input"/>
+        <pin num="2" name="IN" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="OUT" type="power_out"/>
+        <pin num="5" name="ADJ" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LT1963AxQ-3.3">
+      <description>3.3V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, TO-263-5</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf</docs>
+      <footprints>
+        <fp>TO*263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT1963AxQ-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-263-5_TabPin3</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{SHDN}" type="input"/>
+        <pin num="2" name="IN" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="OUT" type="power_out"/>
+        <pin num="5" name="SENSE" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LT3015Q">
+      <description>1.5A, Adjustable, Low Noise, Negative Voltage Regulator, TO-263-5</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/3015fb.pdf</docs>
+      <footprints>
+        <fp>TO*263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT3015Q</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-263-5_TabPin3</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/3015fb.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{SHDN}" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="IN" type="power_in"/>
+        <pin num="4" name="ADJ" type="input"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="sfp_v4-rescue" part="C">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="sfp_v4-rescue" part="D">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="sfp_v4-rescue" part="LED">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="sfp_v4-rescue" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="U11" pin="4" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U11" pin="5" pinfunction="SENSE" pintype="input"/>
+      <node ref="U16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U23" pin="1" pintype="passive"/>
+      <node ref="U27" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="2" name="+6V">
+      <node ref="U12" pin="1" pintype="passive"/>
+      <node ref="U19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U20" pin="1" pintype="passive"/>
+      <node ref="U21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U9" pin="4" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="3" name="+VIN">
+      <node ref="U1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="4" name="+VIN_FOR_3V3">
+      <node ref="U1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="5" name="-6V">
+      <node ref="U10" pin="5" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U15" pin="1" pintype="passive"/>
+      <node ref="U17" pin="1" pintype="passive"/>
+      <node ref="U24" pin="1" pintype="passive"/>
+      <node ref="U26" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="6" name="-VIN">
+      <node ref="U1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="U1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U10" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U11" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="2" pintype="passive"/>
+      <node ref="U14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U18" pin="2" pintype="passive"/>
+      <node ref="U19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U20" pin="2" pintype="passive"/>
+      <node ref="U22" pin="2" pintype="passive"/>
+      <node ref="U23" pin="2" pintype="passive"/>
+      <node ref="U24" pin="2" pintype="passive"/>
+      <node ref="U25" pin="1" pintype="passive"/>
+      <node ref="U28" pin="2" pintype="passive"/>
+      <node ref="U5" pin="2" pintype="passive"/>
+      <node ref="U6" pin="2" pintype="passive"/>
+      <node ref="U7" pin="2" pintype="passive"/>
+      <node ref="U8" pin="1" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="8" name="Net-(U2-K)">
+      <node ref="U2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U6" pin="1" pintype="passive"/>
+      <node ref="U9" pin="1" pinfunction="~{SHDN}" pintype="input"/>
+      <node ref="U9" pin="2" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="9" name="Net-(U9-ADJ)">
+      <node ref="U12" pin="2" pintype="passive"/>
+      <node ref="U13" pin="1" pintype="passive"/>
+      <node ref="U9" pin="5" pinfunction="ADJ" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(U10-ADJ)">
+      <node ref="U10" pin="4" pinfunction="ADJ" pintype="input"/>
+      <node ref="U15" pin="2" pintype="passive"/>
+      <node ref="U17" pin="2" pintype="passive"/>
+      <node ref="U18" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(U10-IN)">
+      <node ref="U10" pin="1" pinfunction="~{SHDN}" pintype="input"/>
+      <node ref="U10" pin="3" pinfunction="IN" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U5" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(U11-IN)">
+      <node ref="U11" pin="1" pinfunction="~{SHDN}" pintype="input"/>
+      <node ref="U11" pin="2" pinfunction="IN" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U7" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(U21-K)">
+      <node ref="U21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U22" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(U26-A)">
+      <node ref="U25" pin="2" pintype="passive"/>
+      <node ref="U26" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(U27-K)">
+      <node ref="U27" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U28" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

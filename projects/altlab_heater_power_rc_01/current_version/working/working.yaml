@@ -1,10 +1,453 @@
 board: power_rc_01
+bom:
+- Id: '1'
+  Designator: T1
+  Footprint: Transformer_37x44
+  Quantity: '1'
+  Designation: Transformer_1P_1S
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C1,C2,C3
+  Footprint: CP_Radial_D5.0mm_P2.50mm
+  Quantity: '3'
+  Designation: CP1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: D1
+  Footprint: Diode_Bridge_15.7x15.7x6.3mm_P10.8mm
+  Quantity: '1'
+  Designation: D_Bridge_-A+A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: D2,D3,D4
+  Footprint: LED_D3.0mm_Horizontal_O3.81mm_Z10.0mm
+  Quantity: '3'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: D5
+  Footprint: TO-218-3_Horizontal_TabUp
+  Quantity: '1'
+  Designation: Q_TRIAC_A1A2G
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R1,R3,R4,R5,R6
+  Footprint: R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical
+  Quantity: '5'
+  Designation: R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R7
+  Footprint: JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical
+  Quantity: '1'
+  Designation: Heater
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: SW1
+  Footprint: SW_PUSH_6mm
+  Quantity: '1'
+  Designation: SW_Push
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U1
+  Footprint: 3-SIP_Module_V7805-1000
+  Quantity: '1'
+  Designation: V7805-1000
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U2
+  Footprint: DIP-6_W7.62mm
+  Quantity: '1'
+  Designation: MOC3021
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U3
+  Footprint: DIP-8_W7.62mm
+  Quantity: '1'
+  Designation: ATTINY85-20PU
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: LOGO***
+  Footprint: ALTLAB_LOGO
+  Quantity: '1'
+  Designation: ALTLAB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: F1
+  Footprint: Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open
+  Quantity: '1'
+  Designation: DFP10112
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | T1\
+  \ | Transformer_37x44 | 1 | Transformer_1P_1S |  |  | [''] | \n| 2 | C1,C2,C3 |\
+  \ CP_Radial_D5.0mm_P2.50mm | 3 | CP1 |  |  | [''] | \n| 3 | D1 | Diode_Bridge_15.7x15.7x6.3mm_P10.8mm\
+  \ | 1 | D_Bridge_-A+A |  |  | [''] | \n| 4 | D2,D3,D4 | LED_D3.0mm_Horizontal_O3.81mm_Z10.0mm\
+  \ | 3 | LED |  |  | [''] | \n| 5 | D5 | TO-218-3_Horizontal_TabUp | 1 | Q_TRIAC_A1A2G\
+  \ |  |  | [''] | \n| 6 | R1,R3,R4,R5,R6 | R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical\
+  \ | 5 | R |  |  | [''] | \n| 7 | R7 | JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical | 1\
+  \ | Heater |  |  | [''] | \n| 8 | SW1 | SW_PUSH_6mm | 1 | SW_Push |  |  | [''] |\
+  \ \n| 9 | U1 | 3-SIP_Module_V7805-1000 | 1 | V7805-1000 |  |  | [''] | \n| 10 |\
+  \ U2 | DIP-6_W7.62mm | 1 | MOC3021 |  |  | [''] | \n| 11 | U3 | DIP-8_W7.62mm |\
+  \ 1 | ATTINY85-20PU |  |  | [''] | \n| 12 | LOGO*** | ALTLAB_LOGO | 1 | ALTLAB |\
+  \  |  | [''] | \n| 13 | F1 | Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open\
+  \ | 1 | DFP10112 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CP1-Device
+  DNP: ''
+  Description: ''
+  Footprint: Capacitor_THT:CP_Radial_D5.0mm_P2.50mm
+  Qnty: '3'
+  Ref: C1, C2, C3
+  Value: CP1
+  Vendor: ''
+- Cmp name: D_Bridge_-A+A
+  DNP: ''
+  Description: Diode bridge, -ve/AC/+ve/AC
+  Footprint: Diode_THT:Diode_Bridge_15.7x15.7x6.3mm_P10.8mm
+  Qnty: '1'
+  Ref: D1
+  Value: D_Bridge_-A+A
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z10.0mm
+  Qnty: '3'
+  Ref: D2, D3, D4
+  Value: LED
+  Vendor: ''
+- Cmp name: Q_TRIAC_A1A2G
+  DNP: ''
+  Description: Triode for alternating current, anode1/anode2/gate
+  Footprint: Package_TO_SOT_THT:TO-218-3_Horizontal_TabUp
+  Qnty: '1'
+  Ref: D5
+  Value: Q_TRIAC_A1A2G
+  Vendor: ''
+- Cmp name: DFP10112-dk_Thermal-Cutoffs-Thermal-Fuses
+  DNP: ''
+  Description: ''
+  Footprint: Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open
+  Qnty: '1'
+  Ref: F1
+  Value: DFP10112
+  Vendor: ''
+- Cmp name: Conn_WallSocket
+  DNP: ''
+  Description: 3-pin german wall socket, no Earth wire (110VAC, 220VAC)
+  Footprint: Connector_Wire:SolderWirePad_1x02_P7.62mm_Drill2mm
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_WallSocket
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical
+  Qnty: '5'
+  Ref: R1, R3, R4, R5, R6
+  Value: R
+  Vendor: ''
+- Cmp name: Heater
+  DNP: ''
+  Description: Resistive heater
+  Footprint: Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical
+  Qnty: '1'
+  Ref: R7
+  Value: Heater
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: Push button switch, generic, two pins
+  Footprint: Button_Switch_THT:SW_PUSH_6mm
+  Qnty: '1'
+  Ref: SW1
+  Value: SW_Push
+  Vendor: ''
+- Cmp name: Transformer_1P_1S
+  DNP: ''
+  Description: Transformer, single primary, single secondary
+  Footprint: Transformer_THT:Transformer_37x44
+  Qnty: '1'
+  Ref: T1
+  Value: Transformer_1P_1S
+  Vendor: ''
+- Cmp name: V7805-1000-dk_DC-DC-Converters
+  DNP: ''
+  Description: ''
+  Footprint: digikey-footprints:3-SIP_Module_V7805-1000
+  Qnty: '1'
+  Ref: U1
+  Value: V7805-1000
+  Vendor: ''
+- Cmp name: MOC3021-dk_Optoisolators-Triac-SCR-Output
+  DNP: ''
+  Description: ''
+  Footprint: digikey-footprints:DIP-6_W7.62mm
+  Qnty: '1'
+  Ref: U2
+  Value: MOC3021
+  Vendor: ''
+- Cmp name: ATTINY85-20PU-dk_Embedded-Microcontrollers
+  DNP: ''
+  Description: ''
+  Footprint: digikey-footprints:DIP-8_W7.62mm
+  Qnty: '1'
+  Ref: U3
+  Value: ATTINY85-20PU
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3 | 3 | CP1 | CP1-Device | Capacitor_THT:CP_Radial_D5.0mm_P2.50mm |  |  |  |\
+  \ \n| D1 | 1 | D_Bridge_-A+A | D_Bridge_-A+A | Diode_THT:Diode_Bridge_15.7x15.7x6.3mm_P10.8mm\
+  \ | Diode bridge, -ve/AC/+ve/AC |  |  | \n| D2, D3, D4 | 3 | LED | LED | LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z10.0mm\
+  \ | Light emitting diode |  |  | \n| D5 | 1 | Q_TRIAC_A1A2G | Q_TRIAC_A1A2G | Package_TO_SOT_THT:TO-218-3_Horizontal_TabUp\
+  \ | Triode for alternating current, anode1/anode2/gate |  |  | \n| F1 | 1 | DFP10112\
+  \ | DFP10112-dk_Thermal-Cutoffs-Thermal-Fuses | Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open\
+  \ |  |  |  | \n| J1 | 1 | Conn_WallSocket | Conn_WallSocket | Connector_Wire:SolderWirePad_1x02_P7.62mm_Drill2mm\
+  \ | 3-pin german wall socket, no Earth wire (110VAC, 220VAC) |  |  | \n| R1, R3,\
+  \ R4, R5, R6 | 5 | R | R | Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical\
+  \ | Resistor |  |  | \n| R7 | 1 | Heater | Heater | Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical\
+  \ | Resistive heater |  |  | \n| SW1 | 1 | SW_Push | SW_Push | Button_Switch_THT:SW_PUSH_6mm\
+  \ | Push button switch, generic, two pins |  |  | \n| T1 | 1 | Transformer_1P_1S\
+  \ | Transformer_1P_1S | Transformer_THT:Transformer_37x44 | Transformer, single\
+  \ primary, single secondary |  |  | \n| U1 | 1 | V7805-1000 | V7805-1000-dk_DC-DC-Converters\
+  \ | digikey-footprints:3-SIP_Module_V7805-1000 |  |  |  | \n| U2 | 1 | MOC3021 |\
+  \ MOC3021-dk_Optoisolators-Triac-SCR-Output | digikey-footprints:DIP-6_W7.62mm |\
+  \  |  |  | \n| U3 | 1 | ATTINY85-20PU | ATTINY85-20PU-dk_Embedded-Microcontrollers\
+  \ | digikey-footprints:DIP-8_W7.62mm |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/altlab_heater_power_rc_01/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/altlab_heater_power_rc_01/current_version/working/working.kicad_pcb
 file_sch_flat: projects/altlab_heater_power_rc_01/current_version/working/working.sch
 id: altlab_heater_power_rc_01
 name: heater
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: CP_Radial_D5.0mm_P2.50mm
+  PosX: 118.745
+  PosY: -105.664
+  Rot: -90.0
+  Side: top
+  Val: CP1
+- '# Ref': C2
+  Package: CP_Radial_D5.0mm_P2.50mm
+  PosX: 128.016
+  PosY: -105.537
+  Rot: -90.0
+  Side: top
+  Val: CP1
+- '# Ref': C3
+  Package: CP_Radial_D5.0mm_P2.50mm
+  PosX: 147.32
+  PosY: -105.029
+  Rot: -90.0
+  Side: top
+  Val: CP1
+- '# Ref': D1
+  Package: Diode_Bridge_15.7x15.7x6.3mm_P10.8mm
+  PosX: 116.586
+  PosY: -88.773
+  Rot: -135.0
+  Side: top
+  Val: D_Bridge_-A+A
+- '# Ref': D2
+  Package: LED_D3.0mm_Horizontal_O3.81mm_Z10.0mm
+  PosX: 205.74
+  PosY: -106.807
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D3
+  Package: LED_D3.0mm_Horizontal_O3.81mm_Z10.0mm
+  PosX: 205.74
+  PosY: -101.6
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D4
+  Package: LED_D3.0mm_Horizontal_O3.81mm_Z10.0mm
+  PosX: 205.74
+  PosY: -96.393
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D5
+  Package: TO-218-3_Horizontal_TabUp
+  PosX: 229.235
+  PosY: -111.633
+  Rot: 90.0
+  Side: top
+  Val: Q_TRIAC_A1A2G
+- '# Ref': F1
+  Package: Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open
+  PosX: 193.675
+  PosY: -79.502
+  Rot: 0.0
+  Side: top
+  Val: DFP10112
+- '# Ref': LOGO***
+  Package: ALTLAB_LOGO
+  PosX: 136.271
+  PosY: -78.867
+  Rot: 0.0
+  Side: top
+  Val: ALTLAB
+- '# Ref': R1
+  Package: R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical
+  PosX: 156.21
+  PosY: -107.188
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': R3
+  Package: R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical
+  PosX: 192.278
+  PosY: -104.521
+  Rot: 180.0
+  Side: top
+  Val: R
+- '# Ref': R4
+  Package: R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical
+  PosX: 192.151
+  PosY: -100.076
+  Rot: 180.0
+  Side: top
+  Val: R
+- '# Ref': R5
+  Package: R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical
+  PosX: 192.151
+  PosY: -95.885
+  Rot: 180.0
+  Side: top
+  Val: R
+- '# Ref': R6
+  Package: R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical
+  PosX: 191.897
+  PosY: -112.903
+  Rot: 180.0
+  Side: top
+  Val: R
+- '# Ref': R7
+  Package: JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical
+  PosX: 228.219
+  PosY: -83.185
+  Rot: 90.0
+  Side: top
+  Val: Heater
+- '# Ref': SW1
+  Package: SW_PUSH_6mm
+  PosX: 154.051
+  PosY: -95.631
+  Rot: 90.0
+  Side: top
+  Val: SW_Push
+- '# Ref': T1
+  Package: Transformer_37x44
+  PosX: 63.627
+  PosY: -105.029
+  Rot: 90.0
+  Side: top
+  Val: Transformer_1P_1S
+- '# Ref': U1
+  Package: 3-SIP_Module_V7805-1000
+  PosX: 135.509
+  PosY: -89.408
+  Rot: 0.0
+  Side: top
+  Val: V7805-1000
+- '# Ref': U2
+  Package: DIP-6_W7.62mm
+  PosX: 207.01
+  PosY: -111.887
+  Rot: 0.0
+  Side: top
+  Val: MOC3021
+- '# Ref': U3
+  Package: DIP-8_W7.62mm
+  PosX: 169.926
+  PosY: -93.599
+  Rot: 0.0
+  Side: top
+  Val: ATTINY85-20PU
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | CP1 | CP_Radial_D5.0mm_P2.50mm\
+  \ | 118.745 | -105.664 | -90.0 | top | \n| C2 | CP1 | CP_Radial_D5.0mm_P2.50mm |\
+  \ 128.016 | -105.537 | -90.0 | top | \n| C3 | CP1 | CP_Radial_D5.0mm_P2.50mm | 147.32\
+  \ | -105.029 | -90.0 | top | \n| D1 | D_Bridge_-A+A | Diode_Bridge_15.7x15.7x6.3mm_P10.8mm\
+  \ | 116.586 | -88.773 | -135.0 | top | \n| D2 | LED | LED_D3.0mm_Horizontal_O3.81mm_Z10.0mm\
+  \ | 205.74 | -106.807 | 90.0 | top | \n| D3 | LED | LED_D3.0mm_Horizontal_O3.81mm_Z10.0mm\
+  \ | 205.74 | -101.6 | 90.0 | top | \n| D4 | LED | LED_D3.0mm_Horizontal_O3.81mm_Z10.0mm\
+  \ | 205.74 | -96.393 | 90.0 | top | \n| D5 | Q_TRIAC_A1A2G | TO-218-3_Horizontal_TabUp\
+  \ | 229.235 | -111.633 | 90.0 | top | \n| F1 | DFP10112 | Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open\
+  \ | 193.675 | -79.502 | 0.0 | top | \n| LOGO*** | ALTLAB | ALTLAB_LOGO | 136.271\
+  \ | -78.867 | 0.0 | top | \n| R1 | R | R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical\
+  \ | 156.21 | -107.188 | 0.0 | top | \n| R3 | R | R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical\
+  \ | 192.278 | -104.521 | 180.0 | top | \n| R4 | R | R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical\
+  \ | 192.151 | -100.076 | 180.0 | top | \n| R5 | R | R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical\
+  \ | 192.151 | -95.885 | 180.0 | top | \n| R6 | R | R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical\
+  \ | 191.897 | -112.903 | 180.0 | top | \n| R7 | Heater | JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical\
+  \ | 228.219 | -83.185 | 90.0 | top | \n| SW1 | SW_Push | SW_PUSH_6mm | 154.051 |\
+  \ -95.631 | 90.0 | top | \n| T1 | Transformer_1P_1S | Transformer_37x44 | 63.627\
+  \ | -105.029 | 90.0 | top | \n| U1 | V7805-1000 | 3-SIP_Module_V7805-1000 | 135.509\
+  \ | -89.408 | 0.0 | top | \n| U2 | MOC3021 | DIP-6_W7.62mm | 207.01 | -111.887 |\
+  \ 0.0 | top | \n| U3 | ATTINY85-20PU | DIP-8_W7.62mm | 169.926 | -93.599 | 0.0 |\
+  \ top | \n"
 projects_flat: projects/altlab_heater_power_rc_01/current_version/working
 repo:
   allow_forking: true

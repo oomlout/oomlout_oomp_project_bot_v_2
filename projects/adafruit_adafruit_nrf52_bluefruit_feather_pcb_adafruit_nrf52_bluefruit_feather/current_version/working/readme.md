@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -39,7 +60,7 @@
 | 10 | X3 | 4UCONN_20329_V2 | 1 | 4u20329 |  |  | [''] | 
 | 11 | SW2,SW1 | BTN_KMR2_4.6X2.8 | 2 | KMR2 |  |  | [''] | 
 | 12 | L2 | 0805-NO | 1 | 10uH |  |  | [''] | 
-| 13 | C8,C6,C5 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 13 | C8,C6,C5 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 14 | U$49 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | 
 | 15 | R4 | 0603-NO | 1 | 806K |  |  | [''] | 
 | 16 | Q3 | SOT23-R | 1 | DMG3415U-7 |  |  | [''] | 
@@ -76,7 +97,7 @@
 | C1, C2 | 2 | 22pF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C3 | 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C4 | 1 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C5, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C5, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7 | 1 | 10uf | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C9, C13 | 2 | 300pF | CAP_CERAMIC_0603MP | working:_0603MP |  |  |  | 
 | C10, C11 | 2 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 

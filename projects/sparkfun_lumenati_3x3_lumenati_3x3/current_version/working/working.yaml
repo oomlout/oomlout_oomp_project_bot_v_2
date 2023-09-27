@@ -1,10 +1,197 @@
 board: lumenati_3x3
+bom:
+- Id: '1'
+  Designator: C1,C2,C3
+  Footprint: 0603_revised
+  Quantity: '3'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C4,C5,C6
+  Footprint: 0603_revised
+  Quantity: '3'
+  Designation: 0.22uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: FD1,FD2
+  Footprint: FIDUCIAL-1X2
+  Quantity: '2'
+  Designation: FIDUCIAL1X2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U1,U2,U3,U4,U5,U6,U7,U8,U9
+  Footprint: APA102_3
+  Quantity: '9'
+  Designation: APA102
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C2,C3\
+  \ | 0603_revised | 3 | 0.1uF |  |  | [''] | \n| 2 | C4,C5,C6 | 0603_revised | 3\
+  \ | 0.22uF |  |  | [''] | \n| 3 | FD1,FD2 | FIDUCIAL-1X2 | 2 | FIDUCIAL1X2 |  |\
+  \  | [''] | \n| 4 | U1,U2,U3,U4,U5,U6,U7,U8,U9 | APA102_3 | 9 | APA102 |  |  | ['']\
+  \ | \n"
+bom_schematic: []
+bom_schematic_markdown: no data
 counter: 1
 file_kicad_pcb_flat: projects/sparkfun_lumenati_3x3_lumenati_3x3/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/sparkfun_lumenati_3x3_lumenati_3x3/current_version/working/working.kicad_pcb
 file_sch_flat: projects/sparkfun_lumenati_3x3_lumenati_3x3/current_version/working/working.sch
 id: sparkfun_lumenati_3x3_lumenati_3x3
 name: lumenati_3x3
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: 0603_revised
+  PosX: 107.442
+  PosY: -95.6818
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C2
+  Package: 0603_revised
+  PosX: 115.0874
+  PosY: -95.6818
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C3
+  Package: 0603_revised
+  PosX: 122.682
+  PosY: -95.6818
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C4
+  Package: 0603_revised
+  PosX: 122.682
+  PosY: -81.7118
+  Rot: 180.0
+  Side: top
+  Val: 0.22uF
+- '# Ref': C5
+  Package: 0603_revised
+  PosX: 115.0874
+  PosY: -81.7372
+  Rot: 180.0
+  Side: top
+  Val: 0.22uF
+- '# Ref': C6
+  Package: 0603_revised
+  PosX: 107.442
+  PosY: -81.7372
+  Rot: 180.0
+  Side: top
+  Val: 0.22uF
+- '# Ref': FD1
+  Package: FIDUCIAL-1X2
+  PosX: 130.937
+  PosY: -75.692
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL1X2
+- '# Ref': FD2
+  Package: FIDUCIAL-1X2
+  PosX: 99.187
+  PosY: -96.012
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL1X2
+- '# Ref': U1
+  Package: APA102_3
+  PosX: 107.442
+  PosY: -92.202
+  Rot: 180.0
+  Side: top
+  Val: APA102
+- '# Ref': U2
+  Package: APA102_3
+  PosX: 115.062
+  PosY: -92.202
+  Rot: 180.0
+  Side: top
+  Val: APA102
+- '# Ref': U3
+  Package: APA102_3
+  PosX: 122.682
+  PosY: -92.202
+  Rot: 180.0
+  Side: top
+  Val: APA102
+- '# Ref': U4
+  Package: APA102_3
+  PosX: 122.682
+  PosY: -85.217
+  Rot: 0.0
+  Side: top
+  Val: APA102
+- '# Ref': U5
+  Package: APA102_3
+  PosX: 115.062
+  PosY: -85.217
+  Rot: 0.0
+  Side: top
+  Val: APA102
+- '# Ref': U6
+  Package: APA102_3
+  PosX: 107.442
+  PosY: -85.217
+  Rot: 0.0
+  Side: top
+  Val: APA102
+- '# Ref': U7
+  Package: APA102_3
+  PosX: 107.442
+  PosY: -78.232
+  Rot: 180.0
+  Side: top
+  Val: APA102
+- '# Ref': U8
+  Package: APA102_3
+  PosX: 115.062
+  PosY: -78.232
+  Rot: 180.0
+  Side: top
+  Val: APA102
+- '# Ref': U9
+  Package: APA102_3
+  PosX: 122.682
+  PosY: -78.232
+  Rot: 180.0
+  Side: top
+  Val: APA102
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | 0603_revised | 107.442\
+  \ | -95.6818 | 180.0 | top | \n| C2 | 0.1uF | 0603_revised | 115.0874 | -95.6818\
+  \ | 180.0 | top | \n| C3 | 0.1uF | 0603_revised | 122.682 | -95.6818 | 180.0 | top\
+  \ | \n| C4 | 0.22uF | 0603_revised | 122.682 | -81.7118 | 180.0 | top | \n| C5 |\
+  \ 0.22uF | 0603_revised | 115.0874 | -81.7372 | 180.0 | top | \n| C6 | 0.22uF |\
+  \ 0603_revised | 107.442 | -81.7372 | 180.0 | top | \n| FD1 | FIDUCIAL1X2 | FIDUCIAL-1X2\
+  \ | 130.937 | -75.692 | 0.0 | top | \n| FD2 | FIDUCIAL1X2 | FIDUCIAL-1X2 | 99.187\
+  \ | -96.012 | 0.0 | top | \n| U1 | APA102 | APA102_3 | 107.442 | -92.202 | 180.0\
+  \ | top | \n| U2 | APA102 | APA102_3 | 115.062 | -92.202 | 180.0 | top | \n| U3\
+  \ | APA102 | APA102_3 | 122.682 | -92.202 | 180.0 | top | \n| U4 | APA102 | APA102_3\
+  \ | 122.682 | -85.217 | 0.0 | top | \n| U5 | APA102 | APA102_3 | 115.062 | -85.217\
+  \ | 0.0 | top | \n| U6 | APA102 | APA102_3 | 107.442 | -85.217 | 0.0 | top | \n\
+  | U7 | APA102 | APA102_3 | 107.442 | -78.232 | 180.0 | top | \n| U8 | APA102 | APA102_3\
+  \ | 115.062 | -78.232 | 180.0 | top | \n| U9 | APA102 | APA102_3 | 122.682 | -78.232\
+  \ | 180.0 | top | \n"
 projects_flat: projects/sparkfun_lumenati_3x3_lumenati_3x3/current_version/working
 repo:
   allow_forking: true

@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -27,7 +48,7 @@
 ## working_bom
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| 1 | C3,C6,C1,C2,C8 | 0805-NO | 5 | 10µF |  |  | [''] | 
+| 1 | C3,C6,C1,C2,C8 | 0805-NO | 5 | 10ÂµF |  |  | [''] | 
 | 2 | C10 | 0805_10MGAP | 1 | 0.1uF |  |  | [''] | 
 | 3 | U4 | SOIC8_150MIL | 1 | S25FL216K |  |  | [''] | 
 | 4 | R2 | 0603-NO | 1 | 1K |  |  | [''] | 
@@ -63,7 +84,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1, C2, C3, C6, C8 | 5 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C1, C2, C3, C6, C8 | 5 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C5, C7 | 2 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C10 | 1 | 0.1uF | CAP_CERAMIC0805_10MGAP | working:0805_10MGAP |  |  |  | 
 | CHG0 | 1 | ORANGE | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 

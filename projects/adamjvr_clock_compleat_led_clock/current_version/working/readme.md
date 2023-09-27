@@ -16,7 +16,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -49,7 +70,7 @@
 | R2, R3 | 2 | 4.7k | R | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | Resistor |  |  | 
 | SW1 | 1 | SW_Push_Dual | SW_Push_Dual | Personal:Pushbutton | Push button switch, generic, symbol, four pins |  |  | 
 | U1 | 1 | ATmega328P-PU | ATmega328P-PU-MCU_Microchip_ATmega | Package_DIP:DIP-28_W7.62mm |  |  |  | 
-| U2 | 1 | DS3231MZ | DS3231MZ | Personal:DS3231 | ±5ppm, I2C Real-Time Clock SOIC-8 |  |  | 
+| U2 | 1 | DS3231MZ | DS3231MZ | Personal:DS3231 | Â±5ppm, I2C Real-Time Clock SOIC-8 |  |  | 
 | U5 | 1 | Barreljack | Barreljack-Personal | Personal:BarrelJack |  |  |  | 
 | U6 | 1 | JST4pin | JST4pin-Personal | Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal |  |  |  | 
 | Y1 | 1 | Crystal | Crystal | Personal:Crystal | Two pin crystal |  |  | 

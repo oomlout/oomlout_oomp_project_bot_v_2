@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -33,7 +54,7 @@
 | 4 | SJ2 | SOLDERJUMPER_2WAY_OPEN_NOPASTE | 1 | MODE |  |  | [''] | 
 | 5 | U$12 | ADAFRUIT_5MM | 1 |  |  |  | [''] | 
 | 6 | SJ1 | SOLDERJUMPER_CLOSEDWIRE | 1 | LED |  |  | [''] | 
-| 7 | C3 | _0805 | 1 | 0.1µF |  |  | [''] | 
+| 7 | C3 | _0805 | 1 | 0.1ÂµF |  |  | [''] | 
 | 8 | LED1 | PLCC2_REVMOUNT | 1 | LS T77K-J1L2-1-0-2-R18-Z |  |  | [''] | 
 | 9 | R2 | _0805 | 1 | 1K |  |  | [''] | 
 | 10 | JP1 | 1X04_ROUND_76 | 1 |  |  |  | [''] | 
@@ -46,7 +67,7 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1 | 1 | 22nF | CAP_CERAMIC_0805 | working:_0805 |  |  |  | 
-| C3 | 1 | 0.1µF | CAP_CERAMIC_0805 | working:_0805 |  |  |  | 
+| C3 | 1 | 0.1ÂµF | CAP_CERAMIC_0805 | working:_0805 |  |  |  | 
 | FID1, FID2 | 2 | FIDUCIAL"" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | 
 | JP1 | 1 | HEADER-1X476MIL | HEADER-1X476MIL | working:1X04_ROUND_76 |  |  |  | 
 | LED1 | 1 | LS T77K-J1L2-1-0-2-R18-Z | LEDPLCC2_REV | working:PLCC2_REVMOUNT |  |  |  | 
@@ -62,9 +83,9 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 15.240000000000009 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$6 | m3 | 
+| 15.24 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$6 | m3 | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$9 | m3 | 
-| 15.240000000000009 | 22.86 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$10 | m3 | 
+| 15.24 | 22.86 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$10 | m3 | 
 | 0.0 | 22.86 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$11 | m3 | 
 
 

@@ -1,10 +1,327 @@
 board: emptystack
+bom:
+- Id: '1'
+  Designator: G***,G***
+  Footprint: osh-logo-3p4mm
+  Quantity: '2'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J1,J3
+  Footprint: Pin_Header_Straight_1x17_Pitch2.54mm
+  Quantity: '2'
+  Designation: CONN_01X17
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J2,J4
+  Footprint: Pin_Header_Straight_1x16_Pitch2.54mm
+  Quantity: '2'
+  Designation: CONN_01X16
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J5,J6,J7,J8,J9,J10,J11,J12,J13,J14,J15,J16,J17,J18,J19,J20
+  Footprint: Pin_Header_Straight_1x14_Pitch2.54mm
+  Quantity: '16'
+  Designation: CONN_01X14
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J22
+  Footprint: Grove_1x04
+  Quantity: '1'
+  Designation: grove_01X04
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J21
+  Footprint: Pin_Header_Straight_1x03_Pitch2.54mm
+  Quantity: '1'
+  Designation: CONN_01X03
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | G***,G***\
+  \ | osh-logo-3p4mm | 2 | LOGO |  |  | [''] | \n| 2 | J1,J3 | Pin_Header_Straight_1x17_Pitch2.54mm\
+  \ | 2 | CONN_01X17 |  |  | [''] | \n| 3 | J2,J4 | Pin_Header_Straight_1x16_Pitch2.54mm\
+  \ | 2 | CONN_01X16 |  |  | [''] | \n| 4 | J5,J6,J7,J8,J9,J10,J11,J12,J13,J14,J15,J16,J17,J18,J19,J20\
+  \ | Pin_Header_Straight_1x14_Pitch2.54mm | 16 | CONN_01X14 |  |  | [''] | \n| 5\
+  \ | J22 | Grove_1x04 | 1 | grove_01X04 |  |  | [''] | \n| 6 | J21 | Pin_Header_Straight_1x03_Pitch2.54mm\
+  \ | 1 | CONN_01X03 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CONN_01X17
+  DNP: ''
+  Description: ''
+  Footprint: common:Pin_Header_Straight_1x17_Pitch2.54mm
+  Qnty: '2'
+  Ref: J1, J3
+  Value: CONN_01X17
+  Vendor: ''
+- Cmp name: CONN_01X16
+  DNP: ''
+  Description: ''
+  Footprint: common:Pin_Header_Straight_1x16_Pitch2.54mm
+  Qnty: '2'
+  Ref: J2, J4
+  Value: CONN_01X16
+  Vendor: ''
+- Cmp name: CONN_01X14
+  DNP: ''
+  Description: ''
+  Footprint: common:Pin_Header_Straight_1x14_Pitch2.54mm
+  Qnty: '16'
+  Ref: J5, J6, J7, J8, J9, J10, J11, J12, J13, J14, J15, J16, J17, J18, J19, J20
+  Value: CONN_01X14
+  Vendor: ''
+- Cmp name: CONN_01X03
+  DNP: ''
+  Description: ''
+  Footprint: common:Pin_Header_Straight_1x03_Pitch2.54mm
+  Qnty: '1'
+  Ref: J21
+  Value: CONN_01X03
+  Vendor: ''
+- Cmp name: CONN_01X04
+  DNP: ''
+  Description: ''
+  Footprint: Connectors:Grove_1x04
+  Qnty: '1'
+  Ref: J22
+  Value: grove_01X04
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| J1, J3\
+  \ | 2 | CONN_01X17 | CONN_01X17 | common:Pin_Header_Straight_1x17_Pitch2.54mm |\
+  \  |  |  | \n| J2, J4 | 2 | CONN_01X16 | CONN_01X16 | common:Pin_Header_Straight_1x16_Pitch2.54mm\
+  \ |  |  |  | \n| J5, J6, J7, J8, J9, J10, J11, J12, J13, J14, J15, J16, J17, J18,\
+  \ J19, J20 | 16 | CONN_01X14 | CONN_01X14 | common:Pin_Header_Straight_1x14_Pitch2.54mm\
+  \ |  |  |  | \n| J21 | 1 | CONN_01X03 | CONN_01X03 | common:Pin_Header_Straight_1x03_Pitch2.54mm\
+  \ |  |  |  | \n| J22 | 1 | grove_01X04 | CONN_01X04 | Connectors:Grove_1x04 |  |\
+  \  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/asukiaaa_emptystack_emptystack/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asukiaaa_emptystack_emptystack/current_version/working/working.kicad_pcb
 file_sch_flat: projects/asukiaaa_emptystack_emptystack/current_version/working/working.sch
 id: asukiaaa_emptystack_emptystack
 name: emptystack
+position_bottom:
+- '# Ref': G***
+  Package: osh-logo-3p4mm
+  PosX: 45.9232
+  PosY: -7.239
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | osh-logo-3p4mm | 45.9232\
+  \ | -7.239 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': G***
+  Package: osh-logo-3p4mm
+  PosX: 45.9232
+  PosY: -7.2517
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': J1
+  Package: Pin_Header_Straight_1x17_Pitch2.54mm
+  PosX: 2.667
+  PosY: -7.8232
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X17
+- '# Ref': J2
+  Package: Pin_Header_Straight_1x16_Pitch2.54mm
+  PosX: 45.9105
+  PosY: -10.3632
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X16
+- '# Ref': J3
+  Package: Pin_Header_Straight_1x17_Pitch2.54mm
+  PosX: 5.2324
+  PosY: -7.8232
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X17
+- '# Ref': J4
+  Package: Pin_Header_Straight_1x16_Pitch2.54mm
+  PosX: 43.3578
+  PosY: -10.3632
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X16
+- '# Ref': J5
+  Package: Pin_Header_Straight_1x14_Pitch2.54mm
+  PosX: 7.7978
+  PosY: -15.4432
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X14
+- '# Ref': J6
+  Package: Pin_Header_Straight_1x14_Pitch2.54mm
+  PosX: 7.7978
+  PosY: -17.9832
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X14
+- '# Ref': J7
+  Package: Pin_Header_Straight_1x14_Pitch2.54mm
+  PosX: 7.7978
+  PosY: -23.0632
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X14
+- '# Ref': J8
+  Package: Pin_Header_Straight_1x14_Pitch2.54mm
+  PosX: 7.7978
+  PosY: -45.9232
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X14
+- '# Ref': J9
+  Package: Pin_Header_Straight_1x14_Pitch2.54mm
+  PosX: 7.7978
+  PosY: -28.1432
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X14
+- '# Ref': J10
+  Package: Pin_Header_Straight_1x14_Pitch2.54mm
+  PosX: 7.7978
+  PosY: -38.3032
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X14
+- '# Ref': J11
+  Package: Pin_Header_Straight_1x14_Pitch2.54mm
+  PosX: 7.7978
+  PosY: -7.8232
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X14
+- '# Ref': J12
+  Package: Pin_Header_Straight_1x14_Pitch2.54mm
+  PosX: 7.7978
+  PosY: -40.8432
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X14
+- '# Ref': J13
+  Package: Pin_Header_Straight_1x14_Pitch2.54mm
+  PosX: 7.7978
+  PosY: -43.3832
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X14
+- '# Ref': J14
+  Package: Pin_Header_Straight_1x14_Pitch2.54mm
+  PosX: 7.7978
+  PosY: -20.5232
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X14
+- '# Ref': J15
+  Package: Pin_Header_Straight_1x14_Pitch2.54mm
+  PosX: 7.7978
+  PosY: -12.9032
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X14
+- '# Ref': J16
+  Package: Pin_Header_Straight_1x14_Pitch2.54mm
+  PosX: 7.7978
+  PosY: -10.3632
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X14
+- '# Ref': J17
+  Package: Pin_Header_Straight_1x14_Pitch2.54mm
+  PosX: 7.7978
+  PosY: -25.6032
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X14
+- '# Ref': J18
+  Package: Pin_Header_Straight_1x14_Pitch2.54mm
+  PosX: 7.7978
+  PosY: -30.6832
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X14
+- '# Ref': J19
+  Package: Pin_Header_Straight_1x14_Pitch2.54mm
+  PosX: 7.7978
+  PosY: -33.2232
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X14
+- '# Ref': J20
+  Package: Pin_Header_Straight_1x14_Pitch2.54mm
+  PosX: 7.7978
+  PosY: -35.7632
+  Rot: 90.0
+  Side: top
+  Val: CONN_01X14
+- '# Ref': J21
+  Package: Pin_Header_Straight_1x03_Pitch2.54mm
+  PosX: 28.1178
+  PosY: -54.2544
+  Rot: -90.0
+  Side: top
+  Val: CONN_01X03
+- '# Ref': J22
+  Package: Grove_1x04
+  PosX: 11.2014
+  PosY: -49.7332
+  Rot: 90.0
+  Side: top
+  Val: grove_01X04
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | osh-logo-3p4mm | 45.9232\
+  \ | -7.2517 | 0.0 | top | \n| J1 | CONN_01X17 | Pin_Header_Straight_1x17_Pitch2.54mm\
+  \ | 2.667 | -7.8232 | 0.0 | top | \n| J2 | CONN_01X16 | Pin_Header_Straight_1x16_Pitch2.54mm\
+  \ | 45.9105 | -10.3632 | 0.0 | top | \n| J3 | CONN_01X17 | Pin_Header_Straight_1x17_Pitch2.54mm\
+  \ | 5.2324 | -7.8232 | 0.0 | top | \n| J4 | CONN_01X16 | Pin_Header_Straight_1x16_Pitch2.54mm\
+  \ | 43.3578 | -10.3632 | 0.0 | top | \n| J5 | CONN_01X14 | Pin_Header_Straight_1x14_Pitch2.54mm\
+  \ | 7.7978 | -15.4432 | 90.0 | top | \n| J6 | CONN_01X14 | Pin_Header_Straight_1x14_Pitch2.54mm\
+  \ | 7.7978 | -17.9832 | 90.0 | top | \n| J7 | CONN_01X14 | Pin_Header_Straight_1x14_Pitch2.54mm\
+  \ | 7.7978 | -23.0632 | 90.0 | top | \n| J8 | CONN_01X14 | Pin_Header_Straight_1x14_Pitch2.54mm\
+  \ | 7.7978 | -45.9232 | 90.0 | top | \n| J9 | CONN_01X14 | Pin_Header_Straight_1x14_Pitch2.54mm\
+  \ | 7.7978 | -28.1432 | 90.0 | top | \n| J10 | CONN_01X14 | Pin_Header_Straight_1x14_Pitch2.54mm\
+  \ | 7.7978 | -38.3032 | 90.0 | top | \n| J11 | CONN_01X14 | Pin_Header_Straight_1x14_Pitch2.54mm\
+  \ | 7.7978 | -7.8232 | 90.0 | top | \n| J12 | CONN_01X14 | Pin_Header_Straight_1x14_Pitch2.54mm\
+  \ | 7.7978 | -40.8432 | 90.0 | top | \n| J13 | CONN_01X14 | Pin_Header_Straight_1x14_Pitch2.54mm\
+  \ | 7.7978 | -43.3832 | 90.0 | top | \n| J14 | CONN_01X14 | Pin_Header_Straight_1x14_Pitch2.54mm\
+  \ | 7.7978 | -20.5232 | 90.0 | top | \n| J15 | CONN_01X14 | Pin_Header_Straight_1x14_Pitch2.54mm\
+  \ | 7.7978 | -12.9032 | 90.0 | top | \n| J16 | CONN_01X14 | Pin_Header_Straight_1x14_Pitch2.54mm\
+  \ | 7.7978 | -10.3632 | 90.0 | top | \n| J17 | CONN_01X14 | Pin_Header_Straight_1x14_Pitch2.54mm\
+  \ | 7.7978 | -25.6032 | 90.0 | top | \n| J18 | CONN_01X14 | Pin_Header_Straight_1x14_Pitch2.54mm\
+  \ | 7.7978 | -30.6832 | 90.0 | top | \n| J19 | CONN_01X14 | Pin_Header_Straight_1x14_Pitch2.54mm\
+  \ | 7.7978 | -33.2232 | 90.0 | top | \n| J20 | CONN_01X14 | Pin_Header_Straight_1x14_Pitch2.54mm\
+  \ | 7.7978 | -35.7632 | 90.0 | top | \n| J21 | CONN_01X03 | Pin_Header_Straight_1x03_Pitch2.54mm\
+  \ | 28.1178 | -54.2544 | -90.0 | top | \n| J22 | grove_01X04 | Grove_1x04 | 11.2014\
+  \ | -49.7332 | 90.0 | top | \n"
 projects_flat: projects/asukiaaa_emptystack_emptystack/current_version/working
 repo:
   allow_forking: true

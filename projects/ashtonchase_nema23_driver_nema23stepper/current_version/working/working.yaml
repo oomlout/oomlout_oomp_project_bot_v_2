@@ -1,10 +1,252 @@
 board: nema23stepper
+bom:
+- Id: '1'
+  Designator: REF**,REF**,REF**,REF**
+  Footprint: 3mm_NPTH
+  Quantity: '4'
+  Designation: 3mm_NPTH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | REF**,REF**,REF**,REF**\
+  \ | 3mm_NPTH | 4 | 3mm_NPTH |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '5'
+  Ref: C1, C2, C5, C7, C8
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: CP
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: C3
+  Value: 47uF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: C4
+  Value: .1uF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: C6
+  Value: 1uF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: C9
+  Value: .22uF
+  Vendor: ''
+- Cmp name: BARREL_JACK
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: CON1
+  Value: BARREL_JACK
+  Vendor: ''
+- Cmp name: D
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: D1
+  Value: B340A-13-F
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: D2
+  Value: LED
+  Vendor: ''
+- Cmp name: Jumper_NO_Small
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: JP1
+  Value: Jumper_NO_Small
+  Vendor: ''
+- Cmp name: Jumper_NC_Small
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: JP2
+  Value: Jumper_NC_Small
+  Vendor: ''
+- Cmp name: CONN_01X06
+  DNP: ''
+  Description: ''
+  Footprint: S6B-PH-SM4-TB
+  Qnty: '1'
+  Ref: P1
+  Value: S6B-PH-SM4-TB
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: R1
+  Value: 8.2k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: R2
+  Value: '390'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: R3
+  Value: '330'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: R4
+  Value: '240'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '3'
+  Ref: R5, R6, R7
+  Value: 1k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '2'
+  Ref: R8, R9
+  Value: '0.11'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '9'
+  Ref: R10, R11, R12, R13, R14, R15, R16, R17, R18
+  Value: 20k
+  Vendor: ''
+- Cmp name: POT
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: RV1
+  Value: 10k
+  Vendor: ''
+- Cmp name: TEST
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: TP1
+  Value: TEST
+  Vendor: ''
+- Cmp name: LM317S
+  DNP: ''
+  Description: ''
+  Footprint: TO-263
+  Qnty: '1'
+  Ref: U1
+  Value: LM317S
+  Vendor: ''
+- Cmp name: A4988
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: U2
+  Value: A4988
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C5, C7, C8 | 5 | 0.1uF | C |  |  |  |  | \n| C3 | 1 | 47uF | CP |  |  |  |  |\
+  \ \n| C4 | 1 | .1uF | C |  |  |  |  | \n| C6 | 1 | 1uF | C |  |  |  |  | \n| C9\
+  \ | 1 | .22uF | C |  |  |  |  | \n| CON1 | 1 | BARREL_JACK | BARREL_JACK |  |  |\
+  \  |  | \n| D1 | 1 | B340A-13-F | D |  |  |  |  | \n| D2 | 1 | LED | LED |  |  |\
+  \  |  | \n| JP1 | 1 | Jumper_NO_Small | Jumper_NO_Small |  |  |  |  | \n| JP2 |\
+  \ 1 | Jumper_NC_Small | Jumper_NC_Small |  |  |  |  | \n| P1 | 1 | S6B-PH-SM4-TB\
+  \ | CONN_01X06 | S6B-PH-SM4-TB |  |  |  | \n| R1 | 1 | 8.2k | R |  |  |  |  | \n\
+  | R2 | 1 | 390 | R |  |  |  |  | \n| R3 | 1 | 330 | R |  |  |  |  | \n| R4 | 1 |\
+  \ 240 | R |  |  |  |  | \n| R5, R6, R7 | 3 | 1k | R |  |  |  |  | \n| R8, R9 | 2\
+  \ | 0.11 | R |  |  |  |  | \n| R10, R11, R12, R13, R14, R15, R16, R17, R18 | 9 |\
+  \ 20k | R |  |  |  |  | \n| RV1 | 1 | 10k | POT |  |  |  |  | \n| TP1 | 1 | TEST\
+  \ | TEST |  |  |  |  | \n| U1 | 1 | LM317S | LM317S | TO-263 |  |  |  | \n| U2 |\
+  \ 1 | A4988 | A4988 |  |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/ashtonchase_nema23_driver_nema23stepper/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/ashtonchase_nema23_driver_nema23stepper/current_version/working/working.kicad_pcb
 file_sch_flat: projects/ashtonchase_nema23_driver_nema23stepper/current_version/working/working.sch
 id: ashtonchase_nema23_driver_nema23stepper
 name: nema23_driver
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': REF**
+  Package: 3mm_NPTH
+  PosX: 8.67
+  PosY: 24.9
+  Rot: 0.0
+  Side: top
+  Val: 3mm_NPTH
+- '# Ref': REF**
+  Package: 3mm_NPTH
+  PosX: -1.33
+  PosY: -14.9
+  Rot: 0.0
+  Side: top
+  Val: 3mm_NPTH
+- '# Ref': REF**
+  Package: 3mm_NPTH
+  PosX: 38.47
+  PosY: -24.9
+  Rot: 0.0
+  Side: top
+  Val: 3mm_NPTH
+- '# Ref': REF**
+  Package: 3mm_NPTH
+  PosX: 48.47
+  PosY: 14.9
+  Rot: 0.0
+  Side: top
+  Val: 3mm_NPTH
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| REF** | 3mm_NPTH | 3mm_NPTH | 8.67 |\
+  \ 24.9 | 0.0 | top | \n| REF** | 3mm_NPTH | 3mm_NPTH | -1.33 | -14.9 | 0.0 | top\
+  \ | \n| REF** | 3mm_NPTH | 3mm_NPTH | 38.47 | -24.9 | 0.0 | top | \n| REF** | 3mm_NPTH\
+  \ | 3mm_NPTH | 48.47 | 14.9 | 0.0 | top | \n"
 projects_flat: projects/ashtonchase_nema23_driver_nema23stepper/current_version/working
 repo:
   allow_forking: true

@@ -11,6 +11,8 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/sparkfunX/Qwiic_Cellular-Notecarrier/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/sparkfunx_qwiic_cellular_notecarrier_qwiic_cellular_notepad/current_version/working  
+
 
 
 

@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -42,7 +63,7 @@
 | 13 | U$9 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | 
 | 14 | U$29 | THINKINK_1.25IN | 1 |  |  |  | [''] | 
 | 15 | FID4,FID1,FID3,FID2 | FIDUCIAL_1MM | 4 | FIDUCIAL_1MM |  |  | [''] | 
-| 16 | C21 | 0805-NO | 1 | 10µF |  |  | [''] | 
+| 16 | C21 | 0805-NO | 1 | 10ÂµF |  |  | [''] | 
 | 17 | L1 | INDUCTOR_4X4MM_NR401 | 1 | 10uH |  |  | [''] | 
 | 18 | SW3,SW4 | TACTILE_3X6MM | 2 |  |  |  | [''] | 
 | 19 | RPI2 | PI_BONNET_SMT_NODIM | 1 | RASPBERRYPI_BPLUS_SMT_NODIM |  |  | [''] | 
@@ -57,7 +78,7 @@
 | C3, C4, C22, C23 | 4 | 1uF/25V | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C5 | 1 | 4.7uF/25V | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C16, C24 | 2 | 1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C21 | 1 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C21 | 1 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | CONN2 | 1 | STEMMA_I2C_QT | STEMMA_I2C_QT | working:JST_SH4 |  |  |  | 
 | D1, D2, D3 | 3 | MBR0540 | DIODE-SCHOTTKYSOD-123 | working:SOD-123 |  |  |  | 
 | EINK1 | 1 | EINK_24PIN_213IN | EINK_24PIN_213IN | working:EINK_213IN_104X212 |  |  |  | 

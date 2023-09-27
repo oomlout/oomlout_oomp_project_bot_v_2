@@ -16,7 +16,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -56,7 +77,7 @@
 | 26 | K2 | RZ03-1A4 | 1 | PREHEAT |  |  | [''] | 
 | 27 | K1 | RZ03-1A4 | 1 | MASTER_LIVE |  |  | [''] | 
 | 28 | U2 | SOIC16W-chunky | 1 | ACS710 |  |  | [''] | 
-| 29 | U3 | WireConnection_1mmDrill | 1 | 70°C |  |  | [''] | 
+| 29 | U3 | WireConnection_1mmDrill | 1 | 70Â°C |  |  | [''] | 
 | 30 | D5,D6 | SOD-123FL | 2 | MBR2H200SFT1G |  |  | [''] | 
 | 31 | G***,G*** | voltage_warn | 2 | LOGO |  |  | [''] | 
 
@@ -79,7 +100,7 @@
 | R9 | 1 | 300R | R-RESCUE-power | Capacitors_SMD:C_0805 |  |  |  | 
 | U1 | 1 | VTX214 | VTX214 | power:VTX214 |  |  |  | 
 | U2 | 1 | ACS710 | ACS710 | power:SOIC16W-chunky |  |  |  | 
-| U3 | 1 | 70°C | thermal_switch | Wire_Connections_Bridges:WireConnection_1mmDrill |  |  |  | 
+| U3 | 1 | 70Â°C | thermal_switch | Wire_Connections_Bridges:WireConnection_1mmDrill |  |  |  | 
 | U4 | 1 | MOC3163-M | OPTO-TRIAC-RESCUE-power | Sockets_DIP:DIP-6__300_ELL |  |  |  | 
 
 

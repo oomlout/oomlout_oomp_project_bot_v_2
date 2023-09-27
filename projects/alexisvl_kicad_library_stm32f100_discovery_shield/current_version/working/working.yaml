@@ -1,4 +1,50 @@
 board: stm32f100_discovery_shield
+bom:
+- Id: '1'
+  Designator: P3
+  Footprint: PIN_ARRAY_6X1
+  Quantity: '1'
+  Designation: CONN6
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: P1,P2
+  Footprint: PIN_ARRAY_28X1
+  Quantity: '2'
+  Designation: CONN28
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | P3\
+  \ | PIN_ARRAY_6X1 | 1 | CONN6 |  |  | [''] | \n| 2 | P1,P2 | PIN_ARRAY_28X1 | 2\
+  \ | CONN28 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CONN28
+  DNP: ''
+  Description: Symbole general de connexion
+  Footprint: ''
+  Qnty: '2'
+  Ref: P1, P2
+  Value: CONN28
+  Vendor: ''
+- Cmp name: CONN6
+  DNP: ''
+  Description: Symbole general de connexion
+  Footprint: ''
+  Qnty: '1'
+  Ref: P3
+  Value: CONN6
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| P1, P2\
+  \ | 2 | CONN28 | CONN28 |  | Symbole general de connexion |  |  | \n| P3 | 1 | CONN6\
+  \ | CONN6 |  | Symbole general de connexion |  |  | \n"
 counter: 1
 file_brd_flat: projects/alexisvl_kicad_library_wire_pads/current_version/working/working.brd
 file_kicad_pcb_flat: projects/alexisvl_kicad_library_stm32f100_discovery_shield/current_version/working/working.kicad_pcb
@@ -6,6 +52,34 @@ file_kicad_sch_flat: projects/alexisvl_kicad_library_stm32f100_discovery_shield/
 file_sch_flat: projects/alexisvl_kicad_library_stm32f100_discovery_shield/current_version/working/working.sch
 id: alexisvl_kicad_library_stm32f100_discovery_shield
 name: kicad_library
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': P1
+  Package: PIN_ARRAY_28X1
+  PosX: 39.37
+  PosY: -73.66
+  Rot: -90.0
+  Side: top
+  Val: CONN28
+- '# Ref': P2
+  Package: PIN_ARRAY_28X1
+  PosX: 69.85
+  PosY: -73.66
+  Rot: 90.0
+  Side: top
+  Val: CONN28
+- '# Ref': P3
+  Package: PIN_ARRAY_6X1
+  PosX: 55.88
+  PosY: -113.03
+  Rot: 0.0
+  Side: top
+  Val: CONN6
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| P1 | CONN28 | PIN_ARRAY_28X1 | 39.37\
+  \ | -73.66 | -90.0 | top | \n| P2 | CONN28 | PIN_ARRAY_28X1 | 69.85 | -73.66 | 90.0\
+  \ | top | \n| P3 | CONN6 | PIN_ARRAY_6X1 | 55.88 | -113.03 | 0.0 | top | \n"
 projects_flat: projects/alexisvl_kicad_library_stm32f100_discovery_shield/current_version/working
 repo:
   allow_forking: true

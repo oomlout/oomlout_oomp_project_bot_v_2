@@ -1,10 +1,49 @@
 board: raspberrypi_gpio
+bom:
+- Id: '1'
+  Designator: P1
+  Footprint: Pin_Header_Straight_2x13
+  Quantity: '1'
+  Designation: CONN_13X2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | P1\
+  \ | Pin_Header_Straight_2x13 | 1 | CONN_13X2 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CONN_13X2
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_2x13
+  Qnty: '1'
+  Ref: P1
+  Value: CONN_13X2
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| P1 |\
+  \ 1 | CONN_13X2 | CONN_13X2 | Pin_Headers:Pin_Header_Straight_2x13 |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/ashtonchase_kicad_library_raspberrypi_gpio/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/ashtonchase_kicad_library_raspberrypi_gpio/current_version/working/working.kicad_pcb
 file_sch_flat: projects/ashtonchase_kicad_library_raspberrypi_gpio/current_version/working/working.sch
 id: ashtonchase_kicad_library_raspberrypi_gpio
 name: kicad_library
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': P1
+  Package: Pin_Header_Straight_2x13
+  PosX: 2.2554
+  PosY: 50.7209
+  Rot: 90.0
+  Side: top
+  Val: CONN_13X2
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| P1 | CONN_13X2 | Pin_Header_Straight_2x13\
+  \ | 2.2554 | 50.7209 | 90.0 | top | \n"
 projects_flat: projects/ashtonchase_kicad_library_raspberrypi_gpio/current_version/working
 repo:
   allow_forking: true

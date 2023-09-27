@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -49,7 +70,7 @@
 | 20 | D4 | SOD-123 | 1 | MBR0540 |  |  | [''] | 
 | 21 | IC4 | LGA16_3X3MM | 1 | LIS3DH |  |  | [''] | 
 | 22 | IC1 | TSSOP16 | 1 | 74165TSSOP |  |  | [''] | 
-| 23 | C6,C8,C3 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 23 | C6,C8,C3 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 24 | X5 | MICROSD | 1 | MicroSD |  |  | [''] | 
 | 25 | NEOPIX0,SENSE0 | JSTPH3 | 2 | JST PH 3 |  |  | [''] | 
 | 26 | U3 | SOT23-5 | 1 | MCP73831T-2ACI/OT |  |  | [''] | 
@@ -91,7 +112,7 @@
 | A0 | 1 | SWITCH_TACT_SMT_6MM8MMCAP | SWITCH_TACT_SMT_6MM8MMCAP | working:6MM_SMT_6MMCAP |  |  |  | 
 | B0 | 1 | SWITCH_TACT_SMT_6MM8MMCAP | SWITCH_TACT_SMT_6MM8MMCAP | working:6MM_SMT_6MMCAP |  |  |  | 
 | C1, C2, C4, C7, C9, C12, C16, C19, C20 | 9 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C3, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C5, C10, C11, C13, C14, C15, C18 | 7 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C17 | 1 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C22, C23 | 2 | 100uF | C-USC1210 | working:C1210 |  |  |  | 
@@ -149,9 +170,9 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 0.0 | 50.80000000000001 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$5 | m3 | 
-| 59.05499999999999 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$6 | m3 | 
-| 17.144999999999996 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$17 | m3 | 
-| 76.2 | 50.80000000000001 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$18 | m3 | 
+| 0.0 | 50.8 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$5 | m3 | 
+| 59.05 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$6 | m3 | 
+| 17.14 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$17 | m3 | 
+| 76.2 | 50.8 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$18 | m3 | 
 
 

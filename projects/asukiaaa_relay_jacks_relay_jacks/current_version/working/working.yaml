@@ -1,10 +1,298 @@
 board: relay_jacks
+bom:
+- Id: '1'
+  Designator: D1,D3,D5
+  Footprint: LED_0603_1608Metric
+  Quantity: '3'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D2,D4,D6
+  Footprint: D_SOD-523
+  Quantity: '3'
+  Designation: DIODE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J2
+  Footprint: PinSocket_1x03_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x03
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J3,J4
+  Footprint: PinSocket_1x02_P2.54mm_Vertical
+  Quantity: '2'
+  Designation: Conn_01x02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: Q1,Q2,Q3
+  Footprint: SOT-23
+  Quantity: '3'
+  Designation: Q_NMOS_GSD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R1,R2,R3,R4,R5,R6
+  Footprint: R_0603_1608Metric
+  Quantity: '6'
+  Designation: 1k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: J1,J5,J6
+  Footprint: Jack_3.5mm_Switronic_ST-005-G_horizontal
+  Quantity: '3'
+  Designation: AudioJack3_Ground
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: K1,K2,K3
+  Footprint: Relay_SPDT_HsinDa_Y14
+  Quantity: '3'
+  Designation: Y14x-1C-xxDS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D1,D3,D5\
+  \ | LED_0603_1608Metric | 3 | LED |  |  | [''] | \n| 2 | D2,D4,D6 | D_SOD-523 |\
+  \ 3 | DIODE |  |  | [''] | \n| 3 | J2 | PinSocket_1x03_P2.54mm_Vertical | 1 | Conn_01x03\
+  \ |  |  | [''] | \n| 4 | J3,J4 | PinSocket_1x02_P2.54mm_Vertical | 2 | Conn_01x02\
+  \ |  |  | [''] | \n| 5 | Q1,Q2,Q3 | SOT-23 | 3 | Q_NMOS_GSD |  |  | [''] | \n| 6\
+  \ | R1,R2,R3,R4,R5,R6 | R_0603_1608Metric | 6 | 1k |  |  | [''] | \n| 7 | J1,J5,J6\
+  \ | Jack_3.5mm_Switronic_ST-005-G_horizontal | 3 | AudioJack3_Ground |  |  | ['']\
+  \ | \n| 8 | K1,K2,K3 | Relay_SPDT_HsinDa_Y14 | 3 | Y14x-1C-xxDS |  |  | [''] | \n"
+bom_schematic: []
+bom_schematic_markdown: no data
 counter: 1
 file_kicad_pcb_flat: projects/asukiaaa_relay_jacks_relay_jacks/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asukiaaa_relay_jacks_relay_jacks/current_version/working/working.kicad_pcb
 file_sch_flat: projects/asukiaaa_relay_jacks_relay_jacks/current_version/working/working.sch
 id: asukiaaa_relay_jacks_relay_jacks
 name: relay_jacks
+position_bottom:
+- '# Ref': J1
+  Package: Jack_3.5mm_Switronic_ST-005-G_horizontal
+  PosX: 77.392
+  PosY: -91.702
+  Rot: -90.0
+  Side: bottom
+  Val: AudioJack3_Ground
+- '# Ref': J5
+  Package: Jack_3.5mm_Switronic_ST-005-G_horizontal
+  PosX: 88.392
+  PosY: -91.702
+  Rot: -90.0
+  Side: bottom
+  Val: AudioJack3_Ground
+- '# Ref': J6
+  Package: Jack_3.5mm_Switronic_ST-005-G_horizontal
+  PosX: 99.392
+  PosY: -91.702
+  Rot: -90.0
+  Side: bottom
+  Val: AudioJack3_Ground
+- '# Ref': K1
+  Package: Relay_SPDT_HsinDa_Y14
+  PosX: 74.852
+  PosY: -105.696
+  Rot: -90.0
+  Side: bottom
+  Val: Y14x-1C-xxDS
+- '# Ref': K2
+  Package: Relay_SPDT_HsinDa_Y14
+  PosX: 85.852
+  PosY: -105.696
+  Rot: -90.0
+  Side: bottom
+  Val: Y14x-1C-xxDS
+- '# Ref': K3
+  Package: Relay_SPDT_HsinDa_Y14
+  PosX: 96.852
+  PosY: -105.696
+  Rot: -90.0
+  Side: bottom
+  Val: Y14x-1C-xxDS
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J1 | AudioJack3_Ground | Jack_3.5mm_Switronic_ST-005-G_horizontal\
+  \ | 77.392 | -91.702 | -90.0 | bottom | \n| J5 | AudioJack3_Ground | Jack_3.5mm_Switronic_ST-005-G_horizontal\
+  \ | 88.392 | -91.702 | -90.0 | bottom | \n| J6 | AudioJack3_Ground | Jack_3.5mm_Switronic_ST-005-G_horizontal\
+  \ | 99.392 | -91.702 | -90.0 | bottom | \n| K1 | Y14x-1C-xxDS | Relay_SPDT_HsinDa_Y14\
+  \ | 74.852 | -105.696 | -90.0 | bottom | \n| K2 | Y14x-1C-xxDS | Relay_SPDT_HsinDa_Y14\
+  \ | 85.852 | -105.696 | -90.0 | bottom | \n| K3 | Y14x-1C-xxDS | Relay_SPDT_HsinDa_Y14\
+  \ | 96.852 | -105.696 | -90.0 | bottom | \n"
+position_top:
+- '# Ref': D1
+  Package: LED_0603_1608Metric
+  PosX: 77.392
+  PosY: -103.368
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D2
+  Package: D_SOD-523
+  PosX: 77.5081
+  PosY: -108.026
+  Rot: 0.0
+  Side: top
+  Val: DIODE
+- '# Ref': D3
+  Package: LED_0603_1608Metric
+  PosX: 88.392
+  PosY: -103.368
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D4
+  Package: D_SOD-523
+  PosX: 88.3778
+  PosY: -107.95
+  Rot: 0.0
+  Side: top
+  Val: DIODE
+- '# Ref': D5
+  Package: LED_0603_1608Metric
+  PosX: 99.392
+  PosY: -103.368
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': D6
+  Package: D_SOD-523
+  PosX: 99.3775
+  PosY: -108.229
+  Rot: 0.0
+  Side: top
+  Val: DIODE
+- '# Ref': J2
+  Package: PinSocket_1x03_P2.54mm_Vertical
+  PosX: 85.8266
+  PosY: -118.567
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x03
+- '# Ref': J3
+  Package: PinSocket_1x02_P2.54mm_Vertical
+  PosX: 77.3684
+  PosY: -118.567
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J4
+  Package: PinSocket_1x02_P2.54mm_Vertical
+  PosX: 101.956
+  PosY: -118.567
+  Rot: -90.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': Q1
+  Package: SOT-23
+  PosX: 77.3303
+  PosY: -110.68
+  Rot: 180.0
+  Side: top
+  Val: Q_NMOS_GSD
+- '# Ref': Q2
+  Package: SOT-23
+  PosX: 88.4047
+  PosY: -110.604
+  Rot: 180.0
+  Side: top
+  Val: Q_NMOS_GSD
+- '# Ref': Q3
+  Package: SOT-23
+  PosX: 99.2251
+  PosY: -111.074
+  Rot: 180.0
+  Side: top
+  Val: Q_NMOS_GSD
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 77.4191
+  PosY: -101.664
+  Rot: 180.0
+  Side: top
+  Val: 1k
+- '# Ref': R2
+  Package: R_0603_1608Metric
+  PosX: 79.9338
+  PosY: -110.934
+  Rot: 90.0
+  Side: top
+  Val: 1k
+- '# Ref': R3
+  Package: R_0603_1608Metric
+  PosX: 91.059
+  PosY: -110.833
+  Rot: 90.0
+  Side: top
+  Val: 1k
+- '# Ref': R4
+  Package: R_0603_1608Metric
+  PosX: 88.3666
+  PosY: -101.664
+  Rot: 180.0
+  Side: top
+  Val: 1k
+- '# Ref': R5
+  Package: R_0603_1608Metric
+  PosX: 101.994
+  PosY: -111.036
+  Rot: 90.0
+  Side: top
+  Val: 1k
+- '# Ref': R6
+  Package: R_0603_1608Metric
+  PosX: 99.3775
+  PosY: -101.714
+  Rot: 180.0
+  Side: top
+  Val: 1k
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| D1 | LED | LED_0603_1608Metric | 77.392\
+  \ | -103.368 | 0.0 | top | \n| D2 | DIODE | D_SOD-523 | 77.5081 | -108.026 | 0.0\
+  \ | top | \n| D3 | LED | LED_0603_1608Metric | 88.392 | -103.368 | 0.0 | top | \n\
+  | D4 | DIODE | D_SOD-523 | 88.3778 | -107.95 | 0.0 | top | \n| D5 | LED | LED_0603_1608Metric\
+  \ | 99.392 | -103.368 | 0.0 | top | \n| D6 | DIODE | D_SOD-523 | 99.3775 | -108.229\
+  \ | 0.0 | top | \n| J2 | Conn_01x03 | PinSocket_1x03_P2.54mm_Vertical | 85.8266\
+  \ | -118.567 | 90.0 | top | \n| J3 | Conn_01x02 | PinSocket_1x02_P2.54mm_Vertical\
+  \ | 77.3684 | -118.567 | -90.0 | top | \n| J4 | Conn_01x02 | PinSocket_1x02_P2.54mm_Vertical\
+  \ | 101.956 | -118.567 | -90.0 | top | \n| Q1 | Q_NMOS_GSD | SOT-23 | 77.3303 |\
+  \ -110.68 | 180.0 | top | \n| Q2 | Q_NMOS_GSD | SOT-23 | 88.4047 | -110.604 | 180.0\
+  \ | top | \n| Q3 | Q_NMOS_GSD | SOT-23 | 99.2251 | -111.074 | 180.0 | top | \n|\
+  \ R1 | 1k | R_0603_1608Metric | 77.4191 | -101.664 | 180.0 | top | \n| R2 | 1k |\
+  \ R_0603_1608Metric | 79.9338 | -110.934 | 90.0 | top | \n| R3 | 1k | R_0603_1608Metric\
+  \ | 91.059 | -110.833 | 90.0 | top | \n| R4 | 1k | R_0603_1608Metric | 88.3666 |\
+  \ -101.664 | 180.0 | top | \n| R5 | 1k | R_0603_1608Metric | 101.994 | -111.036\
+  \ | 90.0 | top | \n| R6 | 1k | R_0603_1608Metric | 99.3775 | -101.714 | 180.0 |\
+  \ top | \n"
 projects_flat: projects/asukiaaa_relay_jacks_relay_jacks/current_version/working
 repo:
   allow_forking: true

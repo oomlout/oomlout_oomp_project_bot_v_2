@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -33,7 +54,7 @@
 | 4 | U3 | SOT23-5 | 1 | MCP73831T-2ACI/OT |  |  | [''] | 
 | 5 | R4 | 0603-NO | 1 | 4.7K |  |  | [''] | 
 | 6 | SW2 | BTN_KMR2_4.6X2.8 | 1 | KMR2 |  |  | [''] | 
-| 7 | C6,C8,C3 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 7 | C6,C8,C3 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 8 | R12,R3,R7,R1 | 0603-NO | 4 | 100K |  |  | [''] | 
 | 9 | IC1 | QFN24_4MM_SMSC | 1 | CP2104 |  |  | [''] | 
 | 10 | U$14 | ADAFRUIT_2.5MM | 1 |  |  |  | [''] | 
@@ -63,7 +84,7 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C2 | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C3, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C4, C7 | 2 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | CHG0 | 1 | ORANGE | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 
 | D3 | 1 | RED | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 

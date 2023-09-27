@@ -1,9 +1,211 @@
 board: xiao_qtpy_flexypin
+bom:
+- Id: '1'
+  Designator: J4,J8,J7,J2,J3,J6
+  Footprint: FlexyPin_1x02_P2.54mm
+  Quantity: '6'
+  Designation: Conn_01x02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: REF**
+  Footprint: Fiducial_0.5mm_Mask1.5mm
+  Quantity: '1'
+  Designation: Fiducial_0.5mm_Mask1.5mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J5,J9
+  Footprint: FlexyPin_1x01_P2.54mm
+  Quantity: '2'
+  Designation: Conn_01x01
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: G***,G***
+  Footprint: SolderParty-New-Logo_7.5x6.4mm_SilkScreen
+  Quantity: '2'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J10,J1
+  Footprint: PinHeader_1x07_P2.54mm_Vertical
+  Quantity: '2'
+  Designation: Conn_01x07
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J4,J8,J7,J2,J3,J6\
+  \ | FlexyPin_1x02_P2.54mm | 6 | Conn_01x02 |  |  | [''] | \n| 2 | REF** | Fiducial_0.5mm_Mask1.5mm\
+  \ | 1 | Fiducial_0.5mm_Mask1.5mm |  |  | [''] | \n| 3 | J5,J9 | FlexyPin_1x01_P2.54mm\
+  \ | 2 | Conn_01x01 |  |  | [''] | \n| 4 | G***,G*** | SolderParty-New-Logo_7.5x6.4mm_SilkScreen\
+  \ | 2 | LOGO |  |  | [''] | \n| 5 | J10,J1 | PinHeader_1x07_P2.54mm_Vertical | 2\
+  \ | Conn_01x07 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Conn_01x07
+  DNP: ''
+  Description: Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical
+  Qnty: '2'
+  Ref: J1, J10
+  Value: Conn_01x07
+  Vendor: ''
+- Cmp name: Conn_01x02
+  DNP: ''
+  Description: Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: FlexyPin:FlexyPin_1x02_P2.54mm
+  Qnty: '6'
+  Ref: J2, J3, J4, J6, J7, J8
+  Value: Conn_01x02
+  Vendor: ''
+- Cmp name: Conn_01x01
+  DNP: ''
+  Description: Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: FlexyPin:FlexyPin_1x01_P2.54mm
+  Qnty: '2'
+  Ref: J5, J9
+  Value: Conn_01x01
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| J1, J10\
+  \ | 2 | Conn_01x07 | Conn_01x07 | Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J2, J3, J4, J6, J7, J8 | 6 | Conn_01x02 | Conn_01x02 | FlexyPin:FlexyPin_1x02_P2.54mm\
+  \ | Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J5, J9 | 2 | Conn_01x01 | Conn_01x01 | FlexyPin:FlexyPin_1x01_P2.54mm\
+  \ | Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/solderparty_flexypin_adapters_hw_xiao_qtpy_flexypin/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/solderparty_flexypin_adapters_hw_xiao_qtpy_flexypin/current_version/working/working.kicad_sch
 id: solderparty_flexypin_adapters_hw_xiao_qtpy_flexypin
 name: flexypin_adapters_hw
+position_bottom:
+- '# Ref': G***
+  Package: SolderParty-New-Logo_7.5x6.4mm_SilkScreen
+  PosX: 148.0
+  PosY: -89.8581
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+- '# Ref': J1
+  Package: PinHeader_1x07_P2.54mm_Vertical
+  PosX: 134.1
+  PosY: -82.9
+  Rot: 180.0
+  Side: bottom
+  Val: Conn_01x07
+- '# Ref': J10
+  Package: PinHeader_1x07_P2.54mm_Vertical
+  PosX: 162.05
+  PosY: -82.9
+  Rot: 180.0
+  Side: bottom
+  Val: Conn_01x07
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | SolderParty-New-Logo_7.5x6.4mm_SilkScreen\
+  \ | 148.0 | -89.8581 | 180.0 | bottom | \n| J1 | Conn_01x07 | PinHeader_1x07_P2.54mm_Vertical\
+  \ | 134.1 | -82.9 | 180.0 | bottom | \n| J10 | Conn_01x07 | PinHeader_1x07_P2.54mm_Vertical\
+  \ | 162.05 | -82.9 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': G***
+  Package: SolderParty-New-Logo_7.5x6.4mm_SilkScreen
+  PosX: 148.6
+  PosY: -87.2581
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': J2
+  Package: FlexyPin_1x02_P2.54mm
+  PosX: 137.725
+  PosY: -82.9
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J3
+  Package: FlexyPin_1x02_P2.54mm
+  PosX: 137.725
+  PosY: -87.975
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J4
+  Package: FlexyPin_1x02_P2.54mm
+  PosX: 137.725
+  PosY: -93.05
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J5
+  Package: FlexyPin_1x01_P2.54mm
+  PosX: 137.725
+  PosY: -98.15
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J6
+  Package: FlexyPin_1x02_P2.54mm
+  PosX: 158.375
+  PosY: -85.44
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J7
+  Package: FlexyPin_1x02_P2.54mm
+  PosX: 158.375
+  PosY: -90.515
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J8
+  Package: FlexyPin_1x02_P2.54mm
+  PosX: 158.375
+  PosY: -95.59
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J9
+  Package: FlexyPin_1x01_P2.54mm
+  PosX: 158.375
+  PosY: -98.15
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': REF**
+  Package: Fiducial_0.5mm_Mask1.5mm
+  PosX: 148.075
+  PosY: -90.55
+  Rot: 0.0
+  Side: top
+  Val: Fiducial_0.5mm_Mask1.5mm
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | SolderParty-New-Logo_7.5x6.4mm_SilkScreen\
+  \ | 148.6 | -87.2581 | 0.0 | top | \n| J2 | Conn_01x02 | FlexyPin_1x02_P2.54mm |\
+  \ 137.725 | -82.9 | 0.0 | top | \n| J3 | Conn_01x02 | FlexyPin_1x02_P2.54mm | 137.725\
+  \ | -87.975 | 0.0 | top | \n| J4 | Conn_01x02 | FlexyPin_1x02_P2.54mm | 137.725\
+  \ | -93.05 | 0.0 | top | \n| J5 | Conn_01x01 | FlexyPin_1x01_P2.54mm | 137.725 |\
+  \ -98.15 | 0.0 | top | \n| J6 | Conn_01x02 | FlexyPin_1x02_P2.54mm | 158.375 | -85.44\
+  \ | 180.0 | top | \n| J7 | Conn_01x02 | FlexyPin_1x02_P2.54mm | 158.375 | -90.515\
+  \ | 180.0 | top | \n| J8 | Conn_01x02 | FlexyPin_1x02_P2.54mm | 158.375 | -95.59\
+  \ | 180.0 | top | \n| J9 | Conn_01x01 | FlexyPin_1x01_P2.54mm | 158.375 | -98.15\
+  \ | 180.0 | top | \n| REF** | Fiducial_0.5mm_Mask1.5mm | Fiducial_0.5mm_Mask1.5mm\
+  \ | 148.075 | -90.55 | 0.0 | top | \n"
 projects_flat: projects/solderparty_flexypin_adapters_hw_xiao_qtpy_flexypin/current_version/working
 repo:
   allow_forking: true

@@ -11,6 +11,8 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-ENS160/tree/main/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/sparkfun_sparkfun_indoor_air_quality_sensor_ens160_sparkfun_air_quality_ens160/current_version/working  
+
 
 
 

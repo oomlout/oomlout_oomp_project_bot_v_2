@@ -11,6 +11,8 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/sparkfun/Blynk_Board_ESP8266/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/sparkfun_blynk_board_esp8266_sparkfun_blynk_board_esp8266/current_version/working  
+
 
 
 

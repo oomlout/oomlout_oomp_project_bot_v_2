@@ -1,9 +1,152 @@
 board: wio_rp2040_flexypin
+bom:
+- Id: '1'
+  Designator: J1,J5
+  Footprint: PinHeader_1x15_P2.54mm_Vertical
+  Quantity: '2'
+  Designation: Conn_01x15
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: G***,G***
+  Footprint: SolderParty-New-Logo_7.5x6.4mm_SilkScreen
+  Quantity: '2'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J4,J2
+  Footprint: FlexyPin_1x12_P2.00mm
+  Quantity: '2'
+  Designation: Conn_01x12
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J3
+  Footprint: FlexyPin_1x08_P2.00mm
+  Quantity: '1'
+  Designation: Conn_01x08
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1,J5\
+  \ | PinHeader_1x15_P2.54mm_Vertical | 2 | Conn_01x15 |  |  | [''] | \n| 2 | G***,G***\
+  \ | SolderParty-New-Logo_7.5x6.4mm_SilkScreen | 2 | LOGO |  |  | [''] | \n| 3 |\
+  \ J4,J2 | FlexyPin_1x12_P2.00mm | 2 | Conn_01x12 |  |  | [''] | \n| 4 | J3 | FlexyPin_1x08_P2.00mm\
+  \ | 1 | Conn_01x08 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Conn_01x15
+  DNP: ''
+  Description: Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical
+  Qnty: '2'
+  Ref: J1, J5
+  Value: Conn_01x15
+  Vendor: ''
+- Cmp name: Conn_01x12
+  DNP: ''
+  Description: Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: FlexyPin:FlexyPin_1x12_P2.00mm
+  Qnty: '2'
+  Ref: J2, J4
+  Value: Conn_01x12
+  Vendor: ''
+- Cmp name: Conn_01x08
+  DNP: ''
+  Description: Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: FlexyPin:FlexyPin_1x08_P2.00mm
+  Qnty: '1'
+  Ref: J3
+  Value: Conn_01x08
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| J1, J5\
+  \ | 2 | Conn_01x15 | Conn_01x15 | Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J2, J4 | 2 | Conn_01x12 | Conn_01x12 | FlexyPin:FlexyPin_1x12_P2.00mm\
+  \ | Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J3 | 1 | Conn_01x08 | Conn_01x08 | FlexyPin:FlexyPin_1x08_P2.00mm\
+  \ | Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/solderparty_flexypin_adapters_hw_wio_rp2040_flexypin/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/solderparty_flexypin_adapters_hw_wio_rp2040_flexypin/current_version/working/working.kicad_sch
 id: solderparty_flexypin_adapters_hw_wio_rp2040_flexypin
 name: flexypin_adapters_hw
+position_bottom:
+- '# Ref': G***
+  Package: SolderParty-New-Logo_7.5x6.4mm_SilkScreen
+  PosX: 148.0
+  PosY: -123.9421
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | SolderParty-New-Logo_7.5x6.4mm_SilkScreen\
+  \ | 148.0 | -123.9421 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': G***
+  Package: SolderParty-New-Logo_7.5x6.4mm_SilkScreen
+  PosX: 148.5
+  PosY: -123.9421
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': J1
+  Package: PinHeader_1x15_P2.54mm_Vertical
+  PosX: 134.112
+  PosY: -81.788
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x15
+- '# Ref': J2
+  Package: FlexyPin_1x12_P2.00mm
+  PosX: 137.5
+  PosY: -81.4
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x12
+- '# Ref': J3
+  Package: FlexyPin_1x08_P2.00mm
+  PosX: 141.05
+  PosY: -105.95
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x08
+- '# Ref': J4
+  Package: FlexyPin_1x12_P2.00mm
+  PosX: 158.6
+  PosY: -103.4
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x12
+- '# Ref': J5
+  Package: PinHeader_1x15_P2.54mm_Vertical
+  PosX: 162.052
+  PosY: -81.788
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x15
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | SolderParty-New-Logo_7.5x6.4mm_SilkScreen\
+  \ | 148.5 | -123.9421 | 0.0 | top | \n| J1 | Conn_01x15 | PinHeader_1x15_P2.54mm_Vertical\
+  \ | 134.112 | -81.788 | 0.0 | top | \n| J2 | Conn_01x12 | FlexyPin_1x12_P2.00mm\
+  \ | 137.5 | -81.4 | 0.0 | top | \n| J3 | Conn_01x08 | FlexyPin_1x08_P2.00mm | 141.05\
+  \ | -105.95 | 90.0 | top | \n| J4 | Conn_01x12 | FlexyPin_1x12_P2.00mm | 158.6 |\
+  \ -103.4 | 180.0 | top | \n| J5 | Conn_01x15 | PinHeader_1x15_P2.54mm_Vertical |\
+  \ 162.052 | -81.788 | 0.0 | top | \n"
 projects_flat: projects/solderparty_flexypin_adapters_hw_wio_rp2040_flexypin/current_version/working
 repo:
   allow_forking: true

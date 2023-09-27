@@ -1,10 +1,1507 @@
 board: alice_template
+bom:
+- Id: '1'
+  Designator: LED1,LED2,LED3
+  Footprint: LED_D3.0mm
+  Quantity: '3'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: MX1,MX2,MX3,MX4,MX9,MX10,MX11,MX12,MX13,MX14,MX15,MX16,MX18,MX19,MX20,MX21,MX22,MX23,MX24,MX25,MX27,MX28,MX29,MX30,MX31,MX32,MX33,MX34,MX35,MX36,MX37,MX38,MX39,MX40,MX42,MX43,MX44,MX45,MX46,MX47,MX48,MX49,MX51,MX52,MX53,MX54,MX55,MX56,MX57,MX58,MX60,MX59A2,MX62A2,MX59A1
+  Footprint: MXOnly-1U-NoLED
+  Quantity: '54'
+  Designation: MX-NoLED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: MX5,MX8,MX17,MX50,MX63,MX64
+  Footprint: MXOnly-1.5U-NoLED
+  Quantity: '6'
+  Designation: MX-NoLED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: MX6,MX62A1
+  Footprint: MXOnly-1.75U-NoLED
+  Quantity: '2'
+  Designation: MX-NoLED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: MX7
+  Footprint: MXOnly-2.25U-NoLED
+  Quantity: '1'
+  Designation: MX-NoLED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: MX6A1,MX31A1
+  Footprint: MXOnly-1.25U-NoLED
+  Quantity: '2'
+  Designation: MX-NoLED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: B1,B2,B3,B4,B5,B6,B7,B8,B9,B10,B11,B12,B6A1,B13,B14,B15,B16,B17,B18,B19,B20,B21,B22,B23,B24,B25,B26,B26A1,B27,B28,B29,B30,B31,B32,B31A1,B33,B34,B35,B36,B37,B38,B39,B40,B41,B42,B43,B44,B45,B46,B47,B48,B49,B50,B51,B52,B53,B54,B55,B56,B57,B58,B59,B60,B61,B62,B63,B64,B59A1,B59A2,B62A1,B62A2
+  Footprint: MXOnly-LEDONLY
+  Quantity: '71'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: MX26,MX61
+  Footprint: MXOnly-2.25U-ReversedStabilizers-NoLED
+  Quantity: '2'
+  Designation: MX-NoLED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: MX26A1
+  Footprint: MXOnly-2U-ReversedStabilizers-NoLED
+  Quantity: '1'
+  Designation: MX-NoLED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: MX41
+  Footprint: MXOnly-2.75U-ReversedStabilizers-NoLED
+  Quantity: '1'
+  Designation: MX-NoLED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: MX59
+  Footprint: MXOnly-2U-NoLED
+  Quantity: '1'
+  Designation: MX-NoLED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: MX62
+  Footprint: MXOnly-2.75U-NoLED
+  Quantity: '1'
+  Designation: MX-NoLED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | LED1,LED2,LED3\
+  \ | LED_D3.0mm | 3 | LED |  |  | [''] | \n| 2 | MX1,MX2,MX3,MX4,MX9,MX10,MX11,MX12,MX13,MX14,MX15,MX16,MX18,MX19,MX20,MX21,MX22,MX23,MX24,MX25,MX27,MX28,MX29,MX30,MX31,MX32,MX33,MX34,MX35,MX36,MX37,MX38,MX39,MX40,MX42,MX43,MX44,MX45,MX46,MX47,MX48,MX49,MX51,MX52,MX53,MX54,MX55,MX56,MX57,MX58,MX60,MX59A2,MX62A2,MX59A1\
+  \ | MXOnly-1U-NoLED | 54 | MX-NoLED |  |  | [''] | \n| 3 | MX5,MX8,MX17,MX50,MX63,MX64\
+  \ | MXOnly-1.5U-NoLED | 6 | MX-NoLED |  |  | [''] | \n| 4 | MX6,MX62A1 | MXOnly-1.75U-NoLED\
+  \ | 2 | MX-NoLED |  |  | [''] | \n| 5 | MX7 | MXOnly-2.25U-NoLED | 1 | MX-NoLED\
+  \ |  |  | [''] | \n| 6 | MX6A1,MX31A1 | MXOnly-1.25U-NoLED | 2 | MX-NoLED |  | \
+  \ | [''] | \n| 7 | B1,B2,B3,B4,B5,B6,B7,B8,B9,B10,B11,B12,B6A1,B13,B14,B15,B16,B17,B18,B19,B20,B21,B22,B23,B24,B25,B26,B26A1,B27,B28,B29,B30,B31,B32,B31A1,B33,B34,B35,B36,B37,B38,B39,B40,B41,B42,B43,B44,B45,B46,B47,B48,B49,B50,B51,B52,B53,B54,B55,B56,B57,B58,B59,B60,B61,B62,B63,B64,B59A1,B59A2,B62A1,B62A2\
+  \ | MXOnly-LEDONLY | 71 | LED |  |  | [''] | \n| 8 | MX26,MX61 | MXOnly-2.25U-ReversedStabilizers-NoLED\
+  \ | 2 | MX-NoLED |  |  | [''] | \n| 9 | MX26A1 | MXOnly-2U-ReversedStabilizers-NoLED\
+  \ | 1 | MX-NoLED |  |  | [''] | \n| 10 | MX41 | MXOnly-2.75U-ReversedStabilizers-NoLED\
+  \ | 1 | MX-NoLED |  |  | [''] | \n| 11 | MX59 | MXOnly-2U-NoLED | 1 | MX-NoLED |\
+  \  |  | [''] | \n| 12 | MX62 | MXOnly-2.75U-NoLED | 1 | MX-NoLED |  |  | [''] |\
+  \ \n"
+bom_schematic:
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: MX_Alps:MXOnly-LEDONLY
+  Qnty: '64'
+  Ref: B1, B2, B3, B4, B5, B6, B7, B8, B9, B10, B11, B12, B13, B14, B15, B16, B17,
+    B18, B19, B20, B21, B22, B23, B24, B25, B26, B27, B28, B29, B30, B31, B32, B33,
+    B34, B35, B36, B37, B38, B39, B40, B41, B42, B43, B44, B45, B46, B47, B48, B49,
+    B50, B51, B52, B53, B54, B55, B56, B57, B58, B59, B60, B61, B62, B63, B64
+  Value: LED
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: MX_Alps:MXOnly-LEDONLY
+  Qnty: '1'
+  Ref: B6A1
+  Value: LED
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: MX_Alps:MXOnly-LEDONLY
+  Qnty: '1'
+  Ref: B26A1
+  Value: LED
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: MX_Alps:MXOnly-LEDONLY
+  Qnty: '1'
+  Ref: B31A1
+  Value: LED
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: MX_Alps:MXOnly-LEDONLY
+  Qnty: '2'
+  Ref: B59A1, B59A2
+  Value: LED
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: MX_Alps:MXOnly-LEDONLY
+  Qnty: '2'
+  Ref: B62A1, B62A2
+  Value: LED
+  Vendor: ''
+- Cmp name: MountingHole
+  DNP: ''
+  Description: Mounting Hole without connection
+  Footprint: MountingHole:MountingHole_5mm
+  Qnty: '2'
+  Ref: H1, H2
+  Value: MountingHole
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: LED_THT:LED_D3.0mm
+  Qnty: '3'
+  Ref: LED1, LED2, LED3
+  Value: LED
+  Vendor: ''
+- Cmp name: MX-NoLED-MX_Alps
+  DNP: ''
+  Description: ''
+  Footprint: MX_Alps:MXOnly-1U-NoLED
+  Qnty: '51'
+  Ref: MX1, MX2, MX3, MX4, MX9, MX10, MX11, MX12, MX13, MX14, MX15, MX16, MX18, MX19,
+    MX20, MX21, MX22, MX23, MX24, MX25, MX27, MX28, MX29, MX30, MX31, MX32, MX33,
+    MX34, MX35, MX36, MX37, MX38, MX39, MX40, MX42, MX43, MX44, MX45, MX46, MX47,
+    MX48, MX49, MX51, MX52, MX53, MX54, MX55, MX56, MX57, MX58, MX60
+  Value: MX-NoLED
+  Vendor: ''
+- Cmp name: MX-NoLED-MX_Alps
+  DNP: ''
+  Description: ''
+  Footprint: MX_Alps:MXOnly-1.5U-NoLED
+  Qnty: '6'
+  Ref: MX5, MX8, MX17, MX50, MX63, MX64
+  Value: MX-NoLED
+  Vendor: ''
+- Cmp name: MX-NoLED-MX_Alps
+  DNP: ''
+  Description: ''
+  Footprint: MX_Alps:MXOnly-1.75U-NoLED
+  Qnty: '1'
+  Ref: MX6
+  Value: MX-NoLED
+  Vendor: ''
+- Cmp name: MX-NoLED-MX_Alps
+  DNP: ''
+  Description: ''
+  Footprint: MX_Alps:MXOnly-1.25U-NoLED
+  Qnty: '1'
+  Ref: MX6A1
+  Value: MX-NoLED
+  Vendor: ''
+- Cmp name: MX-NoLED-MX_Alps
+  DNP: ''
+  Description: ''
+  Footprint: MX_Alps:MXOnly-2.25U-NoLED
+  Qnty: '1'
+  Ref: MX7
+  Value: MX-NoLED
+  Vendor: ''
+- Cmp name: MX-NoLED-MX_Alps
+  DNP: ''
+  Description: ''
+  Footprint: MX_Alps:MXOnly-2.25U-ReversedStabilizers-NoLED
+  Qnty: '2'
+  Ref: MX26, MX61
+  Value: MX-NoLED
+  Vendor: ''
+- Cmp name: MX-NoLED-MX_Alps
+  DNP: ''
+  Description: ''
+  Footprint: MX_Alps:MXOnly-2U-ReversedStabilizers-NoLED
+  Qnty: '1'
+  Ref: MX26A1
+  Value: MX-NoLED
+  Vendor: ''
+- Cmp name: MX-NoLED-MX_Alps
+  DNP: ''
+  Description: ''
+  Footprint: MX_Alps:MXOnly-1.25U-NoLED
+  Qnty: '1'
+  Ref: MX31A1
+  Value: MX-NoLED
+  Vendor: ''
+- Cmp name: MX-NoLED-MX_Alps
+  DNP: ''
+  Description: ''
+  Footprint: MX_Alps:MXOnly-2.75U-ReversedStabilizers-NoLED
+  Qnty: '1'
+  Ref: MX41
+  Value: MX-NoLED
+  Vendor: ''
+- Cmp name: MX-NoLED-MX_Alps
+  DNP: ''
+  Description: ''
+  Footprint: MX_Alps:MXOnly-2U-NoLED
+  Qnty: '1'
+  Ref: MX59
+  Value: MX-NoLED
+  Vendor: ''
+- Cmp name: MX-NoLED-MX_Alps
+  DNP: ''
+  Description: ''
+  Footprint: MX_Alps:MXOnly-1U-NoLED
+  Qnty: '2'
+  Ref: MX59A1, MX59A2
+  Value: MX-NoLED
+  Vendor: ''
+- Cmp name: MX-NoLED-MX_Alps
+  DNP: ''
+  Description: ''
+  Footprint: MX_Alps:MXOnly-2.75U-NoLED
+  Qnty: '1'
+  Ref: MX62
+  Value: MX-NoLED
+  Vendor: ''
+- Cmp name: MX-NoLED-MX_Alps
+  DNP: ''
+  Description: ''
+  Footprint: MX_Alps:MXOnly-1.75U-NoLED
+  Qnty: '1'
+  Ref: MX62A1
+  Value: MX-NoLED
+  Vendor: ''
+- Cmp name: MX-NoLED-MX_Alps
+  DNP: ''
+  Description: ''
+  Footprint: MX_Alps:MXOnly-1U-NoLED
+  Qnty: '1'
+  Ref: MX62A2
+  Value: MX-NoLED
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| B1, B2,\
+  \ B3, B4, B5, B6, B7, B8, B9, B10, B11, B12, B13, B14, B15, B16, B17, B18, B19,\
+  \ B20, B21, B22, B23, B24, B25, B26, B27, B28, B29, B30, B31, B32, B33, B34, B35,\
+  \ B36, B37, B38, B39, B40, B41, B42, B43, B44, B45, B46, B47, B48, B49, B50, B51,\
+  \ B52, B53, B54, B55, B56, B57, B58, B59, B60, B61, B62, B63, B64 | 64 | LED | LED\
+  \ | MX_Alps:MXOnly-LEDONLY | Light emitting diode |  |  | \n| B6A1 | 1 | LED | LED\
+  \ | MX_Alps:MXOnly-LEDONLY | Light emitting diode |  |  | \n| B26A1 | 1 | LED |\
+  \ LED | MX_Alps:MXOnly-LEDONLY | Light emitting diode |  |  | \n| B31A1 | 1 | LED\
+  \ | LED | MX_Alps:MXOnly-LEDONLY | Light emitting diode |  |  | \n| B59A1, B59A2\
+  \ | 2 | LED | LED | MX_Alps:MXOnly-LEDONLY | Light emitting diode |  |  | \n| B62A1,\
+  \ B62A2 | 2 | LED | LED | MX_Alps:MXOnly-LEDONLY | Light emitting diode |  |  |\
+  \ \n| H1, H2 | 2 | MountingHole | MountingHole | MountingHole:MountingHole_5mm |\
+  \ Mounting Hole without connection |  |  | \n| LED1, LED2, LED3 | 3 | LED | LED\
+  \ | LED_THT:LED_D3.0mm | Light emitting diode |  |  | \n| MX1, MX2, MX3, MX4, MX9,\
+  \ MX10, MX11, MX12, MX13, MX14, MX15, MX16, MX18, MX19, MX20, MX21, MX22, MX23,\
+  \ MX24, MX25, MX27, MX28, MX29, MX30, MX31, MX32, MX33, MX34, MX35, MX36, MX37,\
+  \ MX38, MX39, MX40, MX42, MX43, MX44, MX45, MX46, MX47, MX48, MX49, MX51, MX52,\
+  \ MX53, MX54, MX55, MX56, MX57, MX58, MX60 | 51 | MX-NoLED | MX-NoLED-MX_Alps |\
+  \ MX_Alps:MXOnly-1U-NoLED |  |  |  | \n| MX5, MX8, MX17, MX50, MX63, MX64 | 6 |\
+  \ MX-NoLED | MX-NoLED-MX_Alps | MX_Alps:MXOnly-1.5U-NoLED |  |  |  | \n| MX6 | 1\
+  \ | MX-NoLED | MX-NoLED-MX_Alps | MX_Alps:MXOnly-1.75U-NoLED |  |  |  | \n| MX6A1\
+  \ | 1 | MX-NoLED | MX-NoLED-MX_Alps | MX_Alps:MXOnly-1.25U-NoLED |  |  |  | \n|\
+  \ MX7 | 1 | MX-NoLED | MX-NoLED-MX_Alps | MX_Alps:MXOnly-2.25U-NoLED |  |  |  |\
+  \ \n| MX26, MX61 | 2 | MX-NoLED | MX-NoLED-MX_Alps | MX_Alps:MXOnly-2.25U-ReversedStabilizers-NoLED\
+  \ |  |  |  | \n| MX26A1 | 1 | MX-NoLED | MX-NoLED-MX_Alps | MX_Alps:MXOnly-2U-ReversedStabilizers-NoLED\
+  \ |  |  |  | \n| MX31A1 | 1 | MX-NoLED | MX-NoLED-MX_Alps | MX_Alps:MXOnly-1.25U-NoLED\
+  \ |  |  |  | \n| MX41 | 1 | MX-NoLED | MX-NoLED-MX_Alps | MX_Alps:MXOnly-2.75U-ReversedStabilizers-NoLED\
+  \ |  |  |  | \n| MX59 | 1 | MX-NoLED | MX-NoLED-MX_Alps | MX_Alps:MXOnly-2U-NoLED\
+  \ |  |  |  | \n| MX59A1, MX59A2 | 2 | MX-NoLED | MX-NoLED-MX_Alps | MX_Alps:MXOnly-1U-NoLED\
+  \ |  |  |  | \n| MX62 | 1 | MX-NoLED | MX-NoLED-MX_Alps | MX_Alps:MXOnly-2.75U-NoLED\
+  \ |  |  |  | \n| MX62A1 | 1 | MX-NoLED | MX-NoLED-MX_Alps | MX_Alps:MXOnly-1.75U-NoLED\
+  \ |  |  |  | \n| MX62A2 | 1 | MX-NoLED | MX-NoLED-MX_Alps | MX_Alps:MXOnly-1U-NoLED\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/audrentis_alice_reference_alice_template/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/audrentis_alice_reference_alice_template/current_version/working/working.kicad_pcb
 file_sch_flat: projects/audrentis_alice_reference_alice_template/current_version/working/working.sch
 id: audrentis_alice_reference_alice_template
 name: alice_reference
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': B1
+  Package: MXOnly-LEDONLY
+  PosX: -31.2685
+  PosY: 101.3559
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B2
+  Package: MXOnly-LEDONLY
+  PosX: -35.4285
+  PosY: 82.3059
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B3
+  Package: MXOnly-LEDONLY
+  PosX: -39.4985
+  PosY: 63.2559
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B4
+  Package: MXOnly-LEDONLY
+  PosX: -8.2485
+  PosY: 99.2159
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B5
+  Package: MXOnly-LEDONLY
+  PosX: -7.6485
+  PosY: 80.1659
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B6
+  Package: MXOnly-LEDONLY
+  PosX: -9.3365
+  PosY: 61.1159
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B6A1
+  Package: MXOnly-LEDONLY
+  PosX: -14.0995
+  PosY: 61.1159
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B7
+  Package: MXOnly-LEDONLY
+  PosX: -8.7385
+  PosY: 42.0659
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B8
+  Package: MXOnly-LEDONLY
+  PosX: -15.8785
+  PosY: 23.0159
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B9
+  Package: MXOnly-LEDONLY
+  PosX: 10.8015
+  PosY: 99.2159
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B10
+  Package: MXOnly-LEDONLY
+  PosX: 16.1615
+  PosY: 80.1659
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B11
+  Package: MXOnly-LEDONLY
+  PosX: 16.8615
+  PosY: 61.1159
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B12
+  Package: MXOnly-LEDONLY
+  PosX: 22.2115
+  PosY: 42.0659
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B13
+  Package: MXOnly-LEDONLY
+  PosX: 29.4415
+  PosY: 101.3559
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B14
+  Package: MXOnly-LEDONLY
+  PosX: 36.6615
+  PosY: 80.7459
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B15
+  Package: MXOnly-LEDONLY
+  PosX: 37.3615
+  PosY: 61.1159
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B16
+  Package: MXOnly-LEDONLY
+  PosX: 42.7115
+  PosY: 40.5059
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B17
+  Package: MXOnly-LEDONLY
+  PosX: 37.9015
+  PosY: 20.5159
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B18
+  Package: MXOnly-LEDONLY
+  PosX: 49.9415
+  PosY: 97.3959
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B19
+  Package: MXOnly-LEDONLY
+  PosX: 55.2955
+  PosY: 76.7849
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B20
+  Package: MXOnly-LEDONLY
+  PosX: 55.9955
+  PosY: 57.1549
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B21
+  Package: MXOnly-LEDONLY
+  PosX: 61.3455
+  PosY: 36.5449
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B22
+  Package: MXOnly-LEDONLY
+  PosX: 68.5755
+  PosY: 93.4349
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B23
+  Package: MXOnly-LEDONLY
+  PosX: 73.9295
+  PosY: 72.8239
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B24
+  Package: MXOnly-LEDONLY
+  PosX: 74.6295
+  PosY: 53.1939
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B25
+  Package: MXOnly-LEDONLY
+  PosX: 79.9795
+  PosY: 32.5839
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B26
+  Package: MXOnly-LEDONLY
+  PosX: 73.4785
+  PosY: 14.4789
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B26A1
+  Package: MXOnly-LEDONLY
+  PosX: 71.0935
+  PosY: 15.0049
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B27
+  Package: MXOnly-LEDONLY
+  PosX: 87.2095
+  PosY: 89.4739
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B28
+  Package: MXOnly-LEDONLY
+  PosX: 92.5635
+  PosY: 68.8629
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B29
+  Package: MXOnly-LEDONLY
+  PosX: 93.2635
+  PosY: 49.2329
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B30
+  Package: MXOnly-LEDONLY
+  PosX: 98.6135
+  PosY: 28.6229
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B31
+  Package: MXOnly-LEDONLY
+  PosX: 103.7455
+  PosY: 8.0539
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B31A1
+  Package: MXOnly-LEDONLY
+  PosX: 101.4705
+  PosY: 8.5549
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B32
+  Package: MXOnly-LEDONLY
+  PosX: 105.8385
+  PosY: 85.5129
+  Rot: -12.0
+  Side: top
+  Val: LED
+- '# Ref': B33
+  Package: MXOnly-LEDONLY
+  PosX: 134.0005
+  PosY: 87.4929
+  Rot: 12.0
+  Side: top
+  Val: LED
+- '# Ref': B34
+  Package: MXOnly-LEDONLY
+  PosX: 128.6405
+  PosY: 66.8829
+  Rot: 12.0
+  Side: top
+  Val: LED
+- '# Ref': B35
+  Package: MXOnly-LEDONLY
+  PosX: 137.2605
+  PosY: 49.2329
+  Rot: 12.0
+  Side: top
+  Val: LED
+- '# Ref': B36
+  Package: MXOnly-LEDONLY
+  PosX: 131.9005
+  PosY: 28.6229
+  Rot: 12.0
+  Side: top
+  Val: LED
+- '# Ref': B37
+  Package: MXOnly-LEDONLY
+  PosX: 152.6345
+  PosY: 91.4539
+  Rot: 12.0
+  Side: top
+  Val: LED
+- '# Ref': B38
+  Package: MXOnly-LEDONLY
+  PosX: 147.2745
+  PosY: 70.8439
+  Rot: 12.0
+  Side: top
+  Val: LED
+- '# Ref': B39
+  Package: MXOnly-LEDONLY
+  PosX: 155.8945
+  PosY: 53.1939
+  Rot: 12.0
+  Side: top
+  Val: LED
+- '# Ref': B40
+  Package: MXOnly-LEDONLY
+  PosX: 150.5345
+  PosY: 32.5839
+  Rot: 12.0
+  Side: top
+  Val: LED
+- '# Ref': B41
+  Package: MXOnly-LEDONLY
+  PosX: 152.2015
+  PosY: 13.4549
+  Rot: 12.0
+  Side: top
+  Val: LED
+- '# Ref': B42
+  Package: MXOnly-LEDONLY
+  PosX: 171.2685
+  PosY: 95.4149
+  Rot: 12.0
+  Side: top
+  Val: LED
+- '# Ref': B43
+  Package: MXOnly-LEDONLY
+  PosX: 165.9085
+  PosY: 74.8049
+  Rot: 12.0
+  Side: top
+  Val: LED
+- '# Ref': B44
+  Package: MXOnly-LEDONLY
+  PosX: 174.5285
+  PosY: 57.1549
+  Rot: 12.0
+  Side: top
+  Val: LED
+- '# Ref': B45
+  Package: MXOnly-LEDONLY
+  PosX: 169.1685
+  PosY: 36.5449
+  Rot: 12.0
+  Side: top
+  Val: LED
+- '# Ref': B46
+  Package: MXOnly-LEDONLY
+  PosX: 189.9025
+  PosY: 99.3759
+  Rot: 12.0
+  Side: top
+  Val: LED
+- '# Ref': B47
+  Package: MXOnly-LEDONLY
+  PosX: 184.5425
+  PosY: 78.7659
+  Rot: 12.0
+  Side: top
+  Val: LED
+- '# Ref': B48
+  Package: MXOnly-LEDONLY
+  PosX: 193.1625
+  PosY: 61.1159
+  Rot: 12.0
+  Side: top
+  Val: LED
+- '# Ref': B49
+  Package: MXOnly-LEDONLY
+  PosX: 187.8025
+  PosY: 40.5059
+  Rot: 12.0
+  Side: top
+  Val: LED
+- '# Ref': B50
+  Package: MXOnly-LEDONLY
+  PosX: 192.6125
+  PosY: 20.5159
+  Rot: 12.0
+  Side: top
+  Val: LED
+- '# Ref': B51
+  Package: MXOnly-LEDONLY
+  PosX: 210.4025
+  PosY: 101.3559
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B52
+  Package: MXOnly-LEDONLY
+  PosX: 205.0425
+  PosY: 81.2259
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B53
+  Package: MXOnly-LEDONLY
+  PosX: 213.6625
+  PosY: 61.1159
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B54
+  Package: MXOnly-LEDONLY
+  PosX: 208.3345
+  PosY: 42.0659
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B55
+  Package: MXOnly-LEDONLY
+  PosX: 229.0325
+  PosY: 99.2159
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B56
+  Package: MXOnly-LEDONLY
+  PosX: 223.6725
+  PosY: 80.1659
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B57
+  Package: MXOnly-LEDONLY
+  PosX: 232.7125
+  PosY: 61.1159
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B58
+  Package: MXOnly-LEDONLY
+  PosX: 227.3525
+  PosY: 42.0659
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B59
+  Package: MXOnly-LEDONLY
+  PosX: 257.6075
+  PosY: 99.2188
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B59A1
+  Package: MXOnly-LEDONLY
+  PosX: 248.0825
+  PosY: 99.2159
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B59A2
+  Package: MXOnly-LEDONLY
+  PosX: 267.1325
+  PosY: 99.2159
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B60
+  Package: MXOnly-LEDONLY
+  PosX: 242.7225
+  PosY: 80.1659
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B61
+  Package: MXOnly-LEDONLY
+  PosX: 263.6625
+  PosY: 61.1159
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B62
+  Package: MXOnly-LEDONLY
+  PosX: 263.0725
+  PosY: 42.0659
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B62A1
+  Package: MXOnly-LEDONLY
+  PosX: 253.5475
+  PosY: 42.0659
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B62A2
+  Package: MXOnly-LEDONLY
+  PosX: 279.7415
+  PosY: 42.0659
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B63
+  Package: MXOnly-LEDONLY
+  PosX: 266.5425
+  PosY: 80.1659
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': B64
+  Package: MXOnly-LEDONLY
+  PosX: 271.2985
+  PosY: 22.9679
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': LED1
+  Package: LED_D3.0mm
+  PosX: -48.0585
+  PosY: 24.7359
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': LED2
+  Package: LED_D3.0mm
+  PosX: -48.0585
+  PosY: 20.2359
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': LED3
+  Package: LED_D3.0mm
+  PosX: -48.0585
+  PosY: 15.7359
+  Rot: 0.0
+  Side: top
+  Val: LED
+- '# Ref': MX1
+  Package: MXOnly-1U-NoLED
+  PosX: -31.2685
+  PosY: 101.3559
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX2
+  Package: MXOnly-1U-NoLED
+  PosX: -35.4285
+  PosY: 82.3059
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX3
+  Package: MXOnly-1U-NoLED
+  PosX: -39.4985
+  PosY: 63.2559
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX4
+  Package: MXOnly-1U-NoLED
+  PosX: -8.2485
+  PosY: 99.2159
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX5
+  Package: MXOnly-1.5U-NoLED
+  PosX: -7.6485
+  PosY: 80.1659
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX6
+  Package: MXOnly-1.75U-NoLED
+  PosX: -9.3365
+  PosY: 61.1159
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX6A1
+  Package: MXOnly-1.25U-NoLED
+  PosX: -14.0995
+  PosY: 61.1159
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX7
+  Package: MXOnly-2.25U-NoLED
+  PosX: -8.7385
+  PosY: 42.0659
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX8
+  Package: MXOnly-1.5U-NoLED
+  PosX: -15.8785
+  PosY: 23.0159
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX9
+  Package: MXOnly-1U-NoLED
+  PosX: 10.8015
+  PosY: 99.2159
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX10
+  Package: MXOnly-1U-NoLED
+  PosX: 16.1615
+  PosY: 80.1659
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX11
+  Package: MXOnly-1U-NoLED
+  PosX: 16.8615
+  PosY: 61.1159
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX12
+  Package: MXOnly-1U-NoLED
+  PosX: 22.2115
+  PosY: 42.0659
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX13
+  Package: MXOnly-1U-NoLED
+  PosX: 29.4415
+  PosY: 101.3559
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX14
+  Package: MXOnly-1U-NoLED
+  PosX: 36.6615
+  PosY: 80.7459
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX15
+  Package: MXOnly-1U-NoLED
+  PosX: 37.3615
+  PosY: 61.1159
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX16
+  Package: MXOnly-1U-NoLED
+  PosX: 42.7115
+  PosY: 40.5059
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX17
+  Package: MXOnly-1.5U-NoLED
+  PosX: 37.9015
+  PosY: 20.5159
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX18
+  Package: MXOnly-1U-NoLED
+  PosX: 49.9415
+  PosY: 97.3959
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX19
+  Package: MXOnly-1U-NoLED
+  PosX: 55.2955
+  PosY: 76.7849
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX20
+  Package: MXOnly-1U-NoLED
+  PosX: 55.9955
+  PosY: 57.1549
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX21
+  Package: MXOnly-1U-NoLED
+  PosX: 61.3455
+  PosY: 36.5449
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX22
+  Package: MXOnly-1U-NoLED
+  PosX: 68.5755
+  PosY: 93.4349
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX23
+  Package: MXOnly-1U-NoLED
+  PosX: 73.9295
+  PosY: 72.8239
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX24
+  Package: MXOnly-1U-NoLED
+  PosX: 74.6295
+  PosY: 53.1939
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX25
+  Package: MXOnly-1U-NoLED
+  PosX: 79.9795
+  PosY: 32.5839
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX26
+  Package: MXOnly-2.25U-Rever
+  PosX: 73.4785
+  PosY: 14.4789
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX26A
+  Package: MXOnly-2U-Reversed
+  PosX: 71.0935
+  PosY: 15.0049
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX27
+  Package: MXOnly-1U-NoLED
+  PosX: 87.2095
+  PosY: 89.4739
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX28
+  Package: MXOnly-1U-NoLED
+  PosX: 92.5635
+  PosY: 68.8629
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX29
+  Package: MXOnly-1U-NoLED
+  PosX: 93.2635
+  PosY: 49.2329
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX30
+  Package: MXOnly-1U-NoLED
+  PosX: 98.6135
+  PosY: 28.6229
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX31
+  Package: MXOnly-1U-NoLED
+  PosX: 103.7455
+  PosY: 8.0539
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX31A
+  Package: MXOnly-1.25U-NoLED
+  PosX: 101.4705
+  PosY: 8.5549
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX32
+  Package: MXOnly-1U-NoLED
+  PosX: 105.8385
+  PosY: 85.5129
+  Rot: -12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX33
+  Package: MXOnly-1U-NoLED
+  PosX: 134.0005
+  PosY: 87.4929
+  Rot: 12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX34
+  Package: MXOnly-1U-NoLED
+  PosX: 128.6405
+  PosY: 66.8829
+  Rot: 12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX35
+  Package: MXOnly-1U-NoLED
+  PosX: 137.2605
+  PosY: 49.2329
+  Rot: 12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX36
+  Package: MXOnly-1U-NoLED
+  PosX: 131.9005
+  PosY: 28.6229
+  Rot: 12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX37
+  Package: MXOnly-1U-NoLED
+  PosX: 152.6345
+  PosY: 91.4539
+  Rot: 12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX38
+  Package: MXOnly-1U-NoLED
+  PosX: 147.2745
+  PosY: 70.8439
+  Rot: 12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX39
+  Package: MXOnly-1U-NoLED
+  PosX: 155.8945
+  PosY: 53.1939
+  Rot: 12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX40
+  Package: MXOnly-1U-NoLED
+  PosX: 150.5345
+  PosY: 32.5839
+  Rot: 12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX41
+  Package: MXOnly-2.75U-Rever
+  PosX: 152.2015
+  PosY: 13.4549
+  Rot: 12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX42
+  Package: MXOnly-1U-NoLED
+  PosX: 171.2685
+  PosY: 95.4149
+  Rot: 12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX43
+  Package: MXOnly-1U-NoLED
+  PosX: 165.9085
+  PosY: 74.8049
+  Rot: 12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX44
+  Package: MXOnly-1U-NoLED
+  PosX: 174.5285
+  PosY: 57.1549
+  Rot: 12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX45
+  Package: MXOnly-1U-NoLED
+  PosX: 169.1685
+  PosY: 36.5449
+  Rot: 12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX46
+  Package: MXOnly-1U-NoLED
+  PosX: 189.9025
+  PosY: 99.3759
+  Rot: 12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX47
+  Package: MXOnly-1U-NoLED
+  PosX: 184.5425
+  PosY: 78.7659
+  Rot: 12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX48
+  Package: MXOnly-1U-NoLED
+  PosX: 193.1625
+  PosY: 61.1159
+  Rot: 12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX49
+  Package: MXOnly-1U-NoLED
+  PosX: 187.8025
+  PosY: 40.5059
+  Rot: 12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX50
+  Package: MXOnly-1.5U-NoLED
+  PosX: 192.6125
+  PosY: 20.5159
+  Rot: 12.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX51
+  Package: MXOnly-1U-NoLED
+  PosX: 210.4025
+  PosY: 101.3559
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX52
+  Package: MXOnly-1U-NoLED
+  PosX: 205.0425
+  PosY: 81.2259
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX53
+  Package: MXOnly-1U-NoLED
+  PosX: 213.6625
+  PosY: 61.1159
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX54
+  Package: MXOnly-1U-NoLED
+  PosX: 208.3345
+  PosY: 42.0659
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX55
+  Package: MXOnly-1U-NoLED
+  PosX: 229.0325
+  PosY: 99.2159
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX56
+  Package: MXOnly-1U-NoLED
+  PosX: 223.6725
+  PosY: 80.1659
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX57
+  Package: MXOnly-1U-NoLED
+  PosX: 232.7125
+  PosY: 61.1159
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX58
+  Package: MXOnly-1U-NoLED
+  PosX: 227.3525
+  PosY: 42.0659
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX59
+  Package: MXOnly-2U-NoLED
+  PosX: 257.6075
+  PosY: 99.2188
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX59A
+  Package: MXOnly-1U-NoLED
+  PosX: 248.0825
+  PosY: 99.2159
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX59A
+  Package: MXOnly-1U-NoLED
+  PosX: 267.1325
+  PosY: 99.2159
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX60
+  Package: MXOnly-1U-NoLED
+  PosX: 242.7225
+  PosY: 80.1659
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX61
+  Package: MXOnly-2.25U-Rever
+  PosX: 263.6625
+  PosY: 61.1159
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX62
+  Package: MXOnly-2.75U-NoLED
+  PosX: 263.0725
+  PosY: 42.0659
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX62A
+  Package: MXOnly-1.75U-NoLED
+  PosX: 253.5475
+  PosY: 42.0659
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX62A
+  Package: MXOnly-1U-NoLED
+  PosX: 279.7415
+  PosY: 42.0659
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX63
+  Package: MXOnly-1.5U-NoLED
+  PosX: 266.5425
+  PosY: 80.1659
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX64
+  Package: MXOnly-1.5U-NoLED
+  PosX: 271.2985
+  PosY: 22.9679
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| B1 | LED | MXOnly-LEDONLY | -31.2685\
+  \ | 101.3559 | 0.0 | top | \n| B2 | LED | MXOnly-LEDONLY | -35.4285 | 82.3059 |\
+  \ 0.0 | top | \n| B3 | LED | MXOnly-LEDONLY | -39.4985 | 63.2559 | 0.0 | top | \n\
+  | B4 | LED | MXOnly-LEDONLY | -8.2485 | 99.2159 | 0.0 | top | \n| B5 | LED | MXOnly-LEDONLY\
+  \ | -7.6485 | 80.1659 | 0.0 | top | \n| B6 | LED | MXOnly-LEDONLY | -9.3365 | 61.1159\
+  \ | 0.0 | top | \n| B6A1 | LED | MXOnly-LEDONLY | -14.0995 | 61.1159 | 0.0 | top\
+  \ | \n| B7 | LED | MXOnly-LEDONLY | -8.7385 | 42.0659 | 0.0 | top | \n| B8 | LED\
+  \ | MXOnly-LEDONLY | -15.8785 | 23.0159 | 0.0 | top | \n| B9 | LED | MXOnly-LEDONLY\
+  \ | 10.8015 | 99.2159 | 0.0 | top | \n| B10 | LED | MXOnly-LEDONLY | 16.1615 | 80.1659\
+  \ | 0.0 | top | \n| B11 | LED | MXOnly-LEDONLY | 16.8615 | 61.1159 | 0.0 | top |\
+  \ \n| B12 | LED | MXOnly-LEDONLY | 22.2115 | 42.0659 | 0.0 | top | \n| B13 | LED\
+  \ | MXOnly-LEDONLY | 29.4415 | 101.3559 | 0.0 | top | \n| B14 | LED | MXOnly-LEDONLY\
+  \ | 36.6615 | 80.7459 | -12.0 | top | \n| B15 | LED | MXOnly-LEDONLY | 37.3615 |\
+  \ 61.1159 | -12.0 | top | \n| B16 | LED | MXOnly-LEDONLY | 42.7115 | 40.5059 | -12.0\
+  \ | top | \n| B17 | LED | MXOnly-LEDONLY | 37.9015 | 20.5159 | -12.0 | top | \n\
+  | B18 | LED | MXOnly-LEDONLY | 49.9415 | 97.3959 | -12.0 | top | \n| B19 | LED |\
+  \ MXOnly-LEDONLY | 55.2955 | 76.7849 | -12.0 | top | \n| B20 | LED | MXOnly-LEDONLY\
+  \ | 55.9955 | 57.1549 | -12.0 | top | \n| B21 | LED | MXOnly-LEDONLY | 61.3455 |\
+  \ 36.5449 | -12.0 | top | \n| B22 | LED | MXOnly-LEDONLY | 68.5755 | 93.4349 | -12.0\
+  \ | top | \n| B23 | LED | MXOnly-LEDONLY | 73.9295 | 72.8239 | -12.0 | top | \n\
+  | B24 | LED | MXOnly-LEDONLY | 74.6295 | 53.1939 | -12.0 | top | \n| B25 | LED |\
+  \ MXOnly-LEDONLY | 79.9795 | 32.5839 | -12.0 | top | \n| B26 | LED | MXOnly-LEDONLY\
+  \ | 73.4785 | 14.4789 | -12.0 | top | \n| B26A1 | LED | MXOnly-LEDONLY | 71.0935\
+  \ | 15.0049 | -12.0 | top | \n| B27 | LED | MXOnly-LEDONLY | 87.2095 | 89.4739 |\
+  \ -12.0 | top | \n| B28 | LED | MXOnly-LEDONLY | 92.5635 | 68.8629 | -12.0 | top\
+  \ | \n| B29 | LED | MXOnly-LEDONLY | 93.2635 | 49.2329 | -12.0 | top | \n| B30 |\
+  \ LED | MXOnly-LEDONLY | 98.6135 | 28.6229 | -12.0 | top | \n| B31 | LED | MXOnly-LEDONLY\
+  \ | 103.7455 | 8.0539 | -12.0 | top | \n| B31A1 | LED | MXOnly-LEDONLY | 101.4705\
+  \ | 8.5549 | -12.0 | top | \n| B32 | LED | MXOnly-LEDONLY | 105.8385 | 85.5129 |\
+  \ -12.0 | top | \n| B33 | LED | MXOnly-LEDONLY | 134.0005 | 87.4929 | 12.0 | top\
+  \ | \n| B34 | LED | MXOnly-LEDONLY | 128.6405 | 66.8829 | 12.0 | top | \n| B35 |\
+  \ LED | MXOnly-LEDONLY | 137.2605 | 49.2329 | 12.0 | top | \n| B36 | LED | MXOnly-LEDONLY\
+  \ | 131.9005 | 28.6229 | 12.0 | top | \n| B37 | LED | MXOnly-LEDONLY | 152.6345\
+  \ | 91.4539 | 12.0 | top | \n| B38 | LED | MXOnly-LEDONLY | 147.2745 | 70.8439 |\
+  \ 12.0 | top | \n| B39 | LED | MXOnly-LEDONLY | 155.8945 | 53.1939 | 12.0 | top\
+  \ | \n| B40 | LED | MXOnly-LEDONLY | 150.5345 | 32.5839 | 12.0 | top | \n| B41 |\
+  \ LED | MXOnly-LEDONLY | 152.2015 | 13.4549 | 12.0 | top | \n| B42 | LED | MXOnly-LEDONLY\
+  \ | 171.2685 | 95.4149 | 12.0 | top | \n| B43 | LED | MXOnly-LEDONLY | 165.9085\
+  \ | 74.8049 | 12.0 | top | \n| B44 | LED | MXOnly-LEDONLY | 174.5285 | 57.1549 |\
+  \ 12.0 | top | \n| B45 | LED | MXOnly-LEDONLY | 169.1685 | 36.5449 | 12.0 | top\
+  \ | \n| B46 | LED | MXOnly-LEDONLY | 189.9025 | 99.3759 | 12.0 | top | \n| B47 |\
+  \ LED | MXOnly-LEDONLY | 184.5425 | 78.7659 | 12.0 | top | \n| B48 | LED | MXOnly-LEDONLY\
+  \ | 193.1625 | 61.1159 | 12.0 | top | \n| B49 | LED | MXOnly-LEDONLY | 187.8025\
+  \ | 40.5059 | 12.0 | top | \n| B50 | LED | MXOnly-LEDONLY | 192.6125 | 20.5159 |\
+  \ 12.0 | top | \n| B51 | LED | MXOnly-LEDONLY | 210.4025 | 101.3559 | 0.0 | top\
+  \ | \n| B52 | LED | MXOnly-LEDONLY | 205.0425 | 81.2259 | 0.0 | top | \n| B53 |\
+  \ LED | MXOnly-LEDONLY | 213.6625 | 61.1159 | 0.0 | top | \n| B54 | LED | MXOnly-LEDONLY\
+  \ | 208.3345 | 42.0659 | 0.0 | top | \n| B55 | LED | MXOnly-LEDONLY | 229.0325 |\
+  \ 99.2159 | 0.0 | top | \n| B56 | LED | MXOnly-LEDONLY | 223.6725 | 80.1659 | 0.0\
+  \ | top | \n| B57 | LED | MXOnly-LEDONLY | 232.7125 | 61.1159 | 0.0 | top | \n|\
+  \ B58 | LED | MXOnly-LEDONLY | 227.3525 | 42.0659 | 0.0 | top | \n| B59 | LED |\
+  \ MXOnly-LEDONLY | 257.6075 | 99.2188 | 0.0 | top | \n| B59A1 | LED | MXOnly-LEDONLY\
+  \ | 248.0825 | 99.2159 | 0.0 | top | \n| B59A2 | LED | MXOnly-LEDONLY | 267.1325\
+  \ | 99.2159 | 0.0 | top | \n| B60 | LED | MXOnly-LEDONLY | 242.7225 | 80.1659 |\
+  \ 0.0 | top | \n| B61 | LED | MXOnly-LEDONLY | 263.6625 | 61.1159 | 0.0 | top |\
+  \ \n| B62 | LED | MXOnly-LEDONLY | 263.0725 | 42.0659 | 0.0 | top | \n| B62A1 |\
+  \ LED | MXOnly-LEDONLY | 253.5475 | 42.0659 | 0.0 | top | \n| B62A2 | LED | MXOnly-LEDONLY\
+  \ | 279.7415 | 42.0659 | 0.0 | top | \n| B63 | LED | MXOnly-LEDONLY | 266.5425 |\
+  \ 80.1659 | 0.0 | top | \n| B64 | LED | MXOnly-LEDONLY | 271.2985 | 22.9679 | 0.0\
+  \ | top | \n| LED1 | LED | LED_D3.0mm | -48.0585 | 24.7359 | 0.0 | top | \n| LED2\
+  \ | LED | LED_D3.0mm | -48.0585 | 20.2359 | 0.0 | top | \n| LED3 | LED | LED_D3.0mm\
+  \ | -48.0585 | 15.7359 | 0.0 | top | \n| MX1 | MX-NoLED | MXOnly-1U-NoLED | -31.2685\
+  \ | 101.3559 | 0.0 | top | \n| MX2 | MX-NoLED | MXOnly-1U-NoLED | -35.4285 | 82.3059\
+  \ | 0.0 | top | \n| MX3 | MX-NoLED | MXOnly-1U-NoLED | -39.4985 | 63.2559 | 0.0\
+  \ | top | \n| MX4 | MX-NoLED | MXOnly-1U-NoLED | -8.2485 | 99.2159 | 0.0 | top |\
+  \ \n| MX5 | MX-NoLED | MXOnly-1.5U-NoLED | -7.6485 | 80.1659 | 0.0 | top | \n| MX6\
+  \ | MX-NoLED | MXOnly-1.75U-NoLED | -9.3365 | 61.1159 | 0.0 | top | \n| MX6A1 |\
+  \ MX-NoLED | MXOnly-1.25U-NoLED | -14.0995 | 61.1159 | 0.0 | top | \n| MX7 | MX-NoLED\
+  \ | MXOnly-2.25U-NoLED | -8.7385 | 42.0659 | 0.0 | top | \n| MX8 | MX-NoLED | MXOnly-1.5U-NoLED\
+  \ | -15.8785 | 23.0159 | 0.0 | top | \n| MX9 | MX-NoLED | MXOnly-1U-NoLED | 10.8015\
+  \ | 99.2159 | 0.0 | top | \n| MX10 | MX-NoLED | MXOnly-1U-NoLED | 16.1615 | 80.1659\
+  \ | 0.0 | top | \n| MX11 | MX-NoLED | MXOnly-1U-NoLED | 16.8615 | 61.1159 | 0.0\
+  \ | top | \n| MX12 | MX-NoLED | MXOnly-1U-NoLED | 22.2115 | 42.0659 | 0.0 | top\
+  \ | \n| MX13 | MX-NoLED | MXOnly-1U-NoLED | 29.4415 | 101.3559 | 0.0 | top | \n\
+  | MX14 | MX-NoLED | MXOnly-1U-NoLED | 36.6615 | 80.7459 | -12.0 | top | \n| MX15\
+  \ | MX-NoLED | MXOnly-1U-NoLED | 37.3615 | 61.1159 | -12.0 | top | \n| MX16 | MX-NoLED\
+  \ | MXOnly-1U-NoLED | 42.7115 | 40.5059 | -12.0 | top | \n| MX17 | MX-NoLED | MXOnly-1.5U-NoLED\
+  \ | 37.9015 | 20.5159 | -12.0 | top | \n| MX18 | MX-NoLED | MXOnly-1U-NoLED | 49.9415\
+  \ | 97.3959 | -12.0 | top | \n| MX19 | MX-NoLED | MXOnly-1U-NoLED | 55.2955 | 76.7849\
+  \ | -12.0 | top | \n| MX20 | MX-NoLED | MXOnly-1U-NoLED | 55.9955 | 57.1549 | -12.0\
+  \ | top | \n| MX21 | MX-NoLED | MXOnly-1U-NoLED | 61.3455 | 36.5449 | -12.0 | top\
+  \ | \n| MX22 | MX-NoLED | MXOnly-1U-NoLED | 68.5755 | 93.4349 | -12.0 | top | \n\
+  | MX23 | MX-NoLED | MXOnly-1U-NoLED | 73.9295 | 72.8239 | -12.0 | top | \n| MX24\
+  \ | MX-NoLED | MXOnly-1U-NoLED | 74.6295 | 53.1939 | -12.0 | top | \n| MX25 | MX-NoLED\
+  \ | MXOnly-1U-NoLED | 79.9795 | 32.5839 | -12.0 | top | \n| MX26 | MX-NoLED | MXOnly-2.25U-Rever\
+  \ | 73.4785 | 14.4789 | -12.0 | top | \n| MX26A | MX-NoLED | MXOnly-2U-Reversed\
+  \ | 71.0935 | 15.0049 | -12.0 | top | \n| MX27 | MX-NoLED | MXOnly-1U-NoLED | 87.2095\
+  \ | 89.4739 | -12.0 | top | \n| MX28 | MX-NoLED | MXOnly-1U-NoLED | 92.5635 | 68.8629\
+  \ | -12.0 | top | \n| MX29 | MX-NoLED | MXOnly-1U-NoLED | 93.2635 | 49.2329 | -12.0\
+  \ | top | \n| MX30 | MX-NoLED | MXOnly-1U-NoLED | 98.6135 | 28.6229 | -12.0 | top\
+  \ | \n| MX31 | MX-NoLED | MXOnly-1U-NoLED | 103.7455 | 8.0539 | -12.0 | top | \n\
+  | MX31A | MX-NoLED | MXOnly-1.25U-NoLED | 101.4705 | 8.5549 | -12.0 | top | \n|\
+  \ MX32 | MX-NoLED | MXOnly-1U-NoLED | 105.8385 | 85.5129 | -12.0 | top | \n| MX33\
+  \ | MX-NoLED | MXOnly-1U-NoLED | 134.0005 | 87.4929 | 12.0 | top | \n| MX34 | MX-NoLED\
+  \ | MXOnly-1U-NoLED | 128.6405 | 66.8829 | 12.0 | top | \n| MX35 | MX-NoLED | MXOnly-1U-NoLED\
+  \ | 137.2605 | 49.2329 | 12.0 | top | \n| MX36 | MX-NoLED | MXOnly-1U-NoLED | 131.9005\
+  \ | 28.6229 | 12.0 | top | \n| MX37 | MX-NoLED | MXOnly-1U-NoLED | 152.6345 | 91.4539\
+  \ | 12.0 | top | \n| MX38 | MX-NoLED | MXOnly-1U-NoLED | 147.2745 | 70.8439 | 12.0\
+  \ | top | \n| MX39 | MX-NoLED | MXOnly-1U-NoLED | 155.8945 | 53.1939 | 12.0 | top\
+  \ | \n| MX40 | MX-NoLED | MXOnly-1U-NoLED | 150.5345 | 32.5839 | 12.0 | top | \n\
+  | MX41 | MX-NoLED | MXOnly-2.75U-Rever | 152.2015 | 13.4549 | 12.0 | top | \n| MX42\
+  \ | MX-NoLED | MXOnly-1U-NoLED | 171.2685 | 95.4149 | 12.0 | top | \n| MX43 | MX-NoLED\
+  \ | MXOnly-1U-NoLED | 165.9085 | 74.8049 | 12.0 | top | \n| MX44 | MX-NoLED | MXOnly-1U-NoLED\
+  \ | 174.5285 | 57.1549 | 12.0 | top | \n| MX45 | MX-NoLED | MXOnly-1U-NoLED | 169.1685\
+  \ | 36.5449 | 12.0 | top | \n| MX46 | MX-NoLED | MXOnly-1U-NoLED | 189.9025 | 99.3759\
+  \ | 12.0 | top | \n| MX47 | MX-NoLED | MXOnly-1U-NoLED | 184.5425 | 78.7659 | 12.0\
+  \ | top | \n| MX48 | MX-NoLED | MXOnly-1U-NoLED | 193.1625 | 61.1159 | 12.0 | top\
+  \ | \n| MX49 | MX-NoLED | MXOnly-1U-NoLED | 187.8025 | 40.5059 | 12.0 | top | \n\
+  | MX50 | MX-NoLED | MXOnly-1.5U-NoLED | 192.6125 | 20.5159 | 12.0 | top | \n| MX51\
+  \ | MX-NoLED | MXOnly-1U-NoLED | 210.4025 | 101.3559 | 0.0 | top | \n| MX52 | MX-NoLED\
+  \ | MXOnly-1U-NoLED | 205.0425 | 81.2259 | 0.0 | top | \n| MX53 | MX-NoLED | MXOnly-1U-NoLED\
+  \ | 213.6625 | 61.1159 | 0.0 | top | \n| MX54 | MX-NoLED | MXOnly-1U-NoLED | 208.3345\
+  \ | 42.0659 | 0.0 | top | \n| MX55 | MX-NoLED | MXOnly-1U-NoLED | 229.0325 | 99.2159\
+  \ | 0.0 | top | \n| MX56 | MX-NoLED | MXOnly-1U-NoLED | 223.6725 | 80.1659 | 0.0\
+  \ | top | \n| MX57 | MX-NoLED | MXOnly-1U-NoLED | 232.7125 | 61.1159 | 0.0 | top\
+  \ | \n| MX58 | MX-NoLED | MXOnly-1U-NoLED | 227.3525 | 42.0659 | 0.0 | top | \n\
+  | MX59 | MX-NoLED | MXOnly-2U-NoLED | 257.6075 | 99.2188 | 0.0 | top | \n| MX59A\
+  \ | MX-NoLED | MXOnly-1U-NoLED | 248.0825 | 99.2159 | 0.0 | top | \n| MX59A | MX-NoLED\
+  \ | MXOnly-1U-NoLED | 267.1325 | 99.2159 | 0.0 | top | \n| MX60 | MX-NoLED | MXOnly-1U-NoLED\
+  \ | 242.7225 | 80.1659 | 0.0 | top | \n| MX61 | MX-NoLED | MXOnly-2.25U-Rever |\
+  \ 263.6625 | 61.1159 | 0.0 | top | \n| MX62 | MX-NoLED | MXOnly-2.75U-NoLED | 263.0725\
+  \ | 42.0659 | 0.0 | top | \n| MX62A | MX-NoLED | MXOnly-1.75U-NoLED | 253.5475 |\
+  \ 42.0659 | 0.0 | top | \n| MX62A | MX-NoLED | MXOnly-1U-NoLED | 279.7415 | 42.0659\
+  \ | 0.0 | top | \n| MX63 | MX-NoLED | MXOnly-1.5U-NoLED | 266.5425 | 80.1659 | 0.0\
+  \ | top | \n| MX64 | MX-NoLED | MXOnly-1.5U-NoLED | 271.2985 | 22.9679 | 0.0 | top\
+  \ | \n"
 projects_flat: projects/audrentis_alice_reference_alice_template/current_version/working
 repo:
   allow_forking: true

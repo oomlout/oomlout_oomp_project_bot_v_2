@@ -16,6 +16,18 @@
 
 
 
+## pcb  
+![](working_3d_600.png) 
+![](working_3d_front_600.png)  
+![](working_3d_back_600.png)  
+![](working_600.png)  
+[board (pdf)](working.pdf)  
+
+## working_bom
+| Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| 1 | REF**,REF**,REF**,REF** | 3mm_NPTH | 4 | 3mm_NPTH |  |  | [''] | 
+
 
 
 

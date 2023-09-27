@@ -16,7 +16,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -208,7 +229,7 @@
 | U1 | 1 | ESP32-WROVER | ESP32-WROVER | ClimateSprinklerController:ESP32-WROVER |  |  |  | 
 | U2 | 1 | MCP23017_SO | MCP23017_SO | Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm | 16-bit I/O expander, I2C, interrupts, w pull-ups, SOIC-28 |  |  | 
 | U3 | 1 | FT232RL | FT232RL | Package_SO:SSOP-28_5.3x10.2mm_P0.65mm | USB to Serial Interface, SSOP-28 |  |  | 
-| U4 | 1 | TPS22917DBV | TPS22917DBV | Package_TO_SOT_SMD:SOT-23-6 | 1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, SOT23-6 |  |  | 
+| U4 | 1 | TPS22917DBV | TPS22917DBV | Package_TO_SOT_SMD:SOT-23-6 | 1V to 5.5V, 2A, 80mÎ© Ultra-Low Leakage Load Switch, SOT23-6 |  |  | 
 | U5 | 1 | LMR36520 | LMR33630ADDA | Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias | Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=3A, F=400kHz, Adjustable output voltage, HSOP-8 |  |  | 
 | U6 | 1 | SGP40-Sensor_Air_Quality | SGP40-Sensor_Air_Quality | ClimateSprinklerController:DFN-6-1EP_2.44x2.44mm_P0.8mm_EP1.25x1.7mm | Indoor Air Quality Sensor for VOC Measurements |  |  | 
 | U7 | 1 | BME680 | BME680 | Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering | 4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8 |  |  | 

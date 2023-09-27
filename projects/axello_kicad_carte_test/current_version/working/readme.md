@@ -15,8 +15,108 @@
 * src_file_repo_sch_link: https://github.com/axello/kicad/tree/master/Arduino_Mega_433Mhz_Shield/Arduino_Mega.sch
 * full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/axello_kicad_carte_test/current_version/working  
 
+## schematic  
+![](working_schematic_600.png)  
+[schematic (pdf)](working_schematic.pdf) 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## pcb  
+![](working_3d_600.png) 
+![](working_3d_front_600.png)  
+![](working_3d_back_600.png)  
+![](working_600.png)  
+[board (pdf)](working.pdf)  
+
+## working_bom
+| Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| 1 | D1,D4 | D_DO-35_SOD27_P12.70mm_Horizontal | 2 | 1N4004 |  |  | [''] | 
+| 2 | SW1,SW2 | SW_PUSH_6mm_h4.3mm | 2 | SW_PUSH |  |  | [''] | 
+| 3 | U2 | PLCC84 | 1 | XC95108PC84 |  |  | [''] | 
+| 4 | U4 | DIP-14_W7.62mm_LongPads | 1 | 74HC04 |  |  | [''] | 
+| 5 | P4 | PinHeader_2x02_P2.54mm_Vertical | 1 | CONN_2X2 |  |  | [''] | 
+| 6 | K1 | PinHeader_1x03_P2.54mm_Vertical | 1 | CONN_3 |  |  | [''] | 
+| 7 | R2,R3 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 2 | 330 |  |  | [''] | 
+| 8 | R8,R9 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 2 | 2,2K |  |  | [''] | 
+| 9 | R10 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 1 | 75 |  |  | [''] | 
+| 10 | R1 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 1 | 100K |  |  | [''] | 
+| 11 | R5,R4 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 2 | 4,7K |  |  | [''] | 
+| 12 | R6 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 1 | 1,1k |  |  | [''] | 
+| 13 | U1 | DIP-16_W7.62mm_Socket_LongPads | 1 | TDA8702 |  |  | [''] | 
+| 14 | X1 | Crystal_HC18-U_Horizontal | 1 | 10MHz |  |  | [''] | 
+| 15 | R7 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 1 | 1,1K |  |  | [''] | 
+| 16 | D3,D2 | LED_D5.0mm | 2 | LED |  |  | [''] | 
+| 17 | U6 | DIP-8_W7.62mm_LongPads | 1 | LM318N |  |  | [''] | 
+| 18 | J1 | DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm | 1 | DB25 |  |  | [''] | 
+| 19 | U3 | TO-220-3_Horizontal_TabDown | 1 | LM7805 |  |  | [''] | 
+| 20 | J2 | DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm | 1 | DB9FEM |  |  | [''] | 
+| 21 | P2 | TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal | 1 | CONN_3 |  |  | [''] | 
+| 22 | P3 | TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal | 1 | CONN_2 |  |  | [''] | 
+| 23 | C13,C3,C2,C14 | CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal | 4 | 10uF |  |  | [''] | 
+| 24 | C6 | CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal | 1 | 47uF |  |  | [''] | 
+| 25 | U5 | DIP-28__300__600_ELL | 1 | RAM_32KO |  |  | [''] | 
+| 26 | C1,C12 | C_1206 | 2 | 100nF |  |  | [''] | 
+| 27 | C4,C5 | C_1206 | 2 | 22pF |  |  | [''] | 
+| 28 | C11,C10,C8,C7 | C_1206_3216Metric_Pad1.24x1.80mm_HandSolder | 4 | 100nF |  |  | [''] | 
+
+
+## bom_schematic
+| Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| C1, C12 | 2 | 100nF | C | Capacitors_SMD:C_1206 | Unpolarized capacitor |  |  | 
+| C2, C3, C13, C14 | 4 | 10uF | CP | Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal | Polarised capacitor |  |  | 
+| C4, C5 | 2 | 22pF | C | Capacitors_SMD:C_1206 | Unpolarized capacitor |  |  | 
+| C6 | 1 | 47uF | CP | Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal | Polarised capacitor |  |  | 
+| C7, C8, C10, C11 | 4 | 100nF | C | Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder | Unpolarized capacitor |  |  | 
+| D1, D4 | 2 | 1N4004 | DIODE | Diode_THT:D_DO-35_SOD27_P12.70mm_Horizontal |  |  |  | 
+| D2, D3 | 2 | LED | LED | LED_THT:LED_D5.0mm |  |  |  | 
+| J1 | 1 | DB25 | DB25 | Connector_Dsub:DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm |  |  |  | 
+| J2 | 1 | DB9FEM | DB9 | Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm |  |  |  | 
+| K1 | 1 | CONN_3 | CONN_3 | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical |  |  |  | 
+| P2 | 1 | CONN_3 | CONN_3 | TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal |  |  |  | 
+| P3 | 1 | CONN_2 | CONN_2 | TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal |  |  |  | 
+| P4 | 1 | CONN_2X2 | CONN_2X2 | Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical |  |  |  | 
+| R1 | 1 | 100K | R | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | Resistor |  |  | 
+| R2, R3 | 2 | 330 | R | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | Resistor |  |  | 
+| R4, R5 | 2 | 4,7K | R | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | Resistor |  |  | 
+| R6 | 1 | 1,1k | R | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | Resistor |  |  | 
+| R7 | 1 | 1,1K | R | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | Resistor |  |  | 
+| R8, R9 | 2 | 2,2K | R | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | Resistor |  |  | 
+| R10 | 1 | 75 | R | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | Resistor |  |  | 
+| SW1, SW2 | 2 | SW_PUSH | SW_PUSH | Button_Switch_THT:SW_PUSH_6mm_h4.3mm |  |  |  | 
+| U1 | 1 | TDA8702 | TDA8702 | Package_DIP:DIP-16_W7.62mm_Socket_LongPads |  |  |  | 
+| U2 | 1 | XC95108PC84 | XC95108PC84 | Sockets:PLCC84 |  |  |  | 
+| U3 | 1 | LM7805 | LM7805 | Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown |  |  |  | 
+| U4 | 1 | 74HC04 | 74HC04 | Package_DIP:DIP-14_W7.62mm_LongPads |  |  |  | 
+| U5 | 1 | RAM_32KO | RAM_32KO | Sockets_DIP:DIP-28__300__600_ELL |  |  |  | 
+| U6 | 1 | LM318N | LM318N | Package_DIP:DIP-8_W7.62mm_LongPads |  |  |  | 
+| X1 | 1 | 10MHz | CRYSTAL | Crystal:Crystal_HC18-U_Horizontal |  |  |  | 
+
+
+## mounting_holes
+| x | y | package | value | ref | size | 
+| --- | --- | --- | --- | --- | --- | 
+| 0.0 | 25.78 | DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm | DB25 | J1 | m3 | 
+| 57.79 | 0.0 | DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm | DB9FEM | J2 | m3 | 
 
 

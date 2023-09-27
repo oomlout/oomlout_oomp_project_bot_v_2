@@ -17,7 +17,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -30,9 +51,9 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 1 | 4µ7 | C | agg:1206 |  |  |  | 
+| C1 | 1 | 4Âµ7 | C | agg:1206 |  |  |  | 
 | C2, C4, C5 | 3 | 100n | C | agg:0402 |  |  |  | 
-| C3 | 1 | 10µ | C | agg:0603 |  |  |  | 
+| C3 | 1 | 10Âµ | C | agg:0603 |  |  |  | 
 | D1 | 1 | LED | LED | agg:0603-LED |  |  |  | 
 | IC1 | 1 | TSR1-2433 | TSR1 | agg:TSR1 | TSR1 Switch Mode Regulators |  |  | 
 | IC2 | 1 | STM32G070KBT6 | STM32G0xxKx | agg:LQFP-32 | STM32G0 32 pin LQFP package |  |  | 

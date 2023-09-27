@@ -16,7 +16,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -28,7 +49,7 @@
 ## working_bom
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| 1 | C1 | 0402 | 1 | 1µ |  |  | [''] | 
+| 1 | C1 | 0402 | 1 | 1Âµ |  |  | [''] | 
 | 2 | C2 | 0402 | 1 | 100n |  |  | [''] | 
 | 3 | C3 | 0402 | 1 | 200p |  |  | [''] | 
 | 4 | IC1 | DFN-6-EP-BGM | 1 | BGM1043N7 |  |  | [''] | 
@@ -42,7 +63,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 1 | 1µ | C | agg:0402 |  |  |  | 
+| C1 | 1 | 1Âµ | C | agg:0402 |  |  |  | 
 | C2 | 1 | 100n | C | agg:0402 |  |  |  | 
 | C3 | 1 | 200p | C | agg:0402 |  |  |  | 
 | IC1 | 1 | BGM1043N7 | BGM1043N7 | agg:DFN-6-EP-BGM |  |  |  | 

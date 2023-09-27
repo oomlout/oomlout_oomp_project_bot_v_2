@@ -14,6 +14,30 @@
 * src_file_repo_sch_link: https://github.com/adamjvr/AudioExperiments/tree/master/Projects-KiCAD/DT JFET Pre/DT JFET Pre.sch
 * full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adamjvr_audioexperiments_dt_jfet_pre/current_version/working  
 
+## schematic  
+![](working_schematic_600.png)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 

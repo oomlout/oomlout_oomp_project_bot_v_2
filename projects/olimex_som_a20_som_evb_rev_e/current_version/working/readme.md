@@ -1,0 +1,21 @@
+# som
+ 
+## summary 
+* id: olimex_som_a20_som_evb_rev_e
+* user: olimex
+* name: som
+* board: a20_som_evb_rev_e
+* repo: https://github.com/OLIMEX/SOM
+
+
+
+* src_file_repo_sch: 
+* src_file_repo_sch_link: https://github.com/OLIMEX/SOM/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/olimex_som_a20_som_evb_rev_e/current_version/working  
+
+
+
+
+
+
+

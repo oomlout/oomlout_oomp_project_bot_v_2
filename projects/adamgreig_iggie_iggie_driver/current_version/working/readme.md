@@ -16,7 +16,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -29,8 +50,8 @@
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | C101,C103,C104,C106,C108,C113,C114,C115,C701,C702,C703,C704,C705,C706,C707,C708 | 0603 | 16 | 100n |  |  | [''] | 
-| 2 | C102,C105,C107,C109,C112 | 0603 | 5 | 2µ2 |  |  | [''] | 
-| 3 | C110,C111 | 1210 | 2 | 10µ |  |  | [''] | 
+| 2 | C102,C105,C107,C109,C112 | 0603 | 5 | 2Âµ2 |  |  | [''] | 
+| 3 | C110,C111 | 1210 | 2 | 10Âµ |  |  | [''] | 
 | 4 | D101,D102,D103 | 0603 | 3 | ESD_DIODE |  |  | [''] | 
 | 5 | IC101 | LQFP-64 | 1 | STM32F405RxTx |  |  | [''] | 
 | 6 | IC102 | TSR1 | 1 | TSR 1-2450 |  |  | [''] | 
@@ -62,8 +83,8 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C101, C103, C104, C106, C108, C113, C114, C115 | 8 | 100n | C-agg-kicad | agg:0603 |  |  |  | 
-| C102, C105, C107, C109, C112 | 5 | 2µ2 | C-agg-kicad | agg:0603 |  |  |  | 
-| C110, C111 | 2 | 10µ | C-agg-kicad | agg:1210 |  |  |  | 
+| C102, C105, C107, C109, C112 | 5 | 2Âµ2 | C-agg-kicad | agg:0603 |  |  |  | 
+| C110, C111 | 2 | 10Âµ | C-agg-kicad | agg:1210 |  |  |  | 
 | D101, D102, D103 | 3 | ESD_DIODE | ESD_DIODE-agg-kicad | agg:0603 |  |  |  | 
 | IC101 | 1 | STM32F405RxTx | STM32F405RxTx-agg-kicad | agg:LQFP-64 |  |  |  | 
 | IC102 | 1 | TSR 1-2450 | TSR1-agg-kicad | agg:TSR1 |  |  |  | 

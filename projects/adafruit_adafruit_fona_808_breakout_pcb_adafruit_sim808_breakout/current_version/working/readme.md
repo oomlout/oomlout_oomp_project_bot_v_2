@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -33,7 +54,7 @@
 | 4 | X4 | 4UCONN_18510 | 1 | 4UCONN_18510 |  |  | [''] | 
 | 5 | C14,C16 | RESPACK_4X0603 | 2 | 33pF |  |  | [''] | 
 | 6 | R6 | 0805-NO | 1 | 10K |  |  | [''] | 
-| 7 | C1 | 0805-NO | 1 | 10µF |  |  | [''] | 
+| 7 | C1 | 0805-NO | 1 | 10ÂµF |  |  | [''] | 
 | 8 | U2 | SOT23-5 | 1 | MCP73831T-2ACI/OT |  |  | [''] | 
 | 9 | FID3,FID1,FID2,FID5,FID4 | FIDUCIAL_1MM | 5 | FIDUCIAL" |  |  | [''] | 
 | 10 | ADC1,PWM0 | 1X01-CLEANBIG | 2 |  |  |  | [''] | 
@@ -72,7 +93,7 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | ADC1 | 1 | PINHD-1X1CB | PINHD-1X1CB | working:1X01-CLEANBIG |  |  |  | 
-| C1 | 1 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C1 | 1 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C5 | 1 | 10pF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C6 | 1 | 33pF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7 | 1 | 100uF | C-USC1210 | working:C1210 |  |  |  | 

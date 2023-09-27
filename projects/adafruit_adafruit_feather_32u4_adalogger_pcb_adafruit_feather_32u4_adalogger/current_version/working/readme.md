@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -32,7 +53,7 @@
 | 3 | U$32,U$31 | MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5 |  |  | [''] | 
 | 4 | C7,C14 | 0603-NO | 2 | 1uF |  |  | [''] | 
 | 5 | IC1 | TQFN44_7MM | 1 | ATMEGA32U4-MU |  |  | [''] | 
-| 6 | C8,C3,C6 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 6 | C8,C3,C6 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 7 | R8 | 0603-NO | 1 | 10K\ |  |  | [''] | 
 | 8 | X1 | JSTPH2 | 1 | JSTPH |  |  | [''] | 
 | 9 | R5,R4 | 0603-NO | 2 | 22 |  |  | [''] | 
@@ -62,7 +83,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C3, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7, C14 | 2 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C9 | 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | CHG0 | 1 | ORANGE | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 

@@ -1,10 +1,426 @@
 board: sonde_xilinx
+bom:
+- Id: '1'
+  Designator: U1,U2
+  Footprint: 14DIP-ELL300
+  Quantity: '2'
+  Designation: 74LS125
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R13,R7,R14,R10,R1,R9,R6,R8,R11,R12
+  Footprint: R4
+  Quantity: '10'
+  Designation: '100'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: D1,D2
+  Footprint: D3
+  Quantity: '2'
+  Designation: BAT46
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C1
+  Footprint: CP5
+  Quantity: '1'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R4
+  Footprint: R4
+  Quantity: '1'
+  Designation: '47'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C5,C3,C2,C4
+  Footprint: C2
+  Quantity: '4'
+  Designation: 100pF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: P1
+  Footprint: bornier6
+  Quantity: '1'
+  Designation: CONN_6
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R5
+  Footprint: R4
+  Quantity: '1'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R2
+  Footprint: R4
+  Quantity: '1'
+  Designation: 5,1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: J2
+  Footprint: DB9M_CI_INVERT
+  Quantity: '1'
+  Designation: DB9MALE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: J1
+  Footprint: DB25M_CI
+  Quantity: '1'
+  Designation: DB25MALE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U1,U2\
+  \ | 14DIP-ELL300 | 2 | 74LS125 |  |  | [''] | \n| 2 | R13,R7,R14,R10,R1,R9,R6,R8,R11,R12\
+  \ | R4 | 10 | 100 |  |  | [''] | \n| 3 | D1,D2 | D3 | 2 | BAT46 |  |  | [''] | \n\
+  | 4 | C1 | CP5 | 1 | 1uF |  |  | [''] | \n| 5 | R4 | R4 | 1 | 47 |  |  | [''] |\
+  \ \n| 6 | C5,C3,C2,C4 | C2 | 4 | 100pF |  |  | [''] | \n| 7 | P1 | bornier6 | 1\
+  \ | CONN_6 |  |  | [''] | \n| 8 | R5 | R4 | 1 | 1K |  |  | [''] | \n| 9 | R2 | R4\
+  \ | 1 | 5,1K |  |  | [''] | \n| 10 | J2 | DB9M_CI_INVERT | 1 | DB9MALE |  |  | ['']\
+  \ | \n| 11 | J1 | DB25M_CI | 1 | DB25MALE |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CP
+  DNP: ''
+  Description: ''
+  Footprint: Discret:CP5
+  Qnty: '1'
+  Ref: C1
+  Value: 1uF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: Discret:C2
+  Qnty: '4'
+  Ref: C2, C3, C4, C5
+  Value: 100pF
+  Vendor: ''
+- Cmp name: DIODESCH
+  DNP: ''
+  Description: ''
+  Footprint: Discret:D3
+  Qnty: '2'
+  Ref: D1, D2
+  Value: BAT46
+  Vendor: ''
+- Cmp name: DB25
+  DNP: ''
+  Description: ''
+  Footprint: Connect:DB25M_CI
+  Qnty: '1'
+  Ref: J1
+  Value: DB25MALE
+  Vendor: ''
+- Cmp name: DB9
+  DNP: ''
+  Description: ''
+  Footprint: Connect:DB9M_CI_INVERT
+  Qnty: '1'
+  Ref: J2
+  Value: DB9MALE
+  Vendor: ''
+- Cmp name: CONN_6
+  DNP: ''
+  Description: ''
+  Footprint: Connect:bornier6
+  Qnty: '1'
+  Ref: P1
+  Value: CONN_6
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Discret:R4
+  Qnty: '10'
+  Ref: R1, R6, R7, R8, R9, R10, R11, R12, R13, R14
+  Value: '100'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Discret:R4
+  Qnty: '1'
+  Ref: R2
+  Value: 5,1K
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Discret:R4
+  Qnty: '1'
+  Ref: R4
+  Value: '47'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Discret:R4
+  Qnty: '1'
+  Ref: R5
+  Value: 1K
+  Vendor: ''
+- Cmp name: 74LS125
+  DNP: ''
+  Description: ''
+  Footprint: Sockets_DIP:DIP-14__300_ELL
+  Qnty: '2'
+  Ref: U1, U2
+  Value: 74LS125
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 1uF | CP | Discret:CP5 |  |  |  | \n| C2, C3, C4, C5 | 4 | 100pF | C | Discret:C2\
+  \ |  |  |  | \n| D1, D2 | 2 | BAT46 | DIODESCH | Discret:D3 |  |  |  | \n| J1 |\
+  \ 1 | DB25MALE | DB25 | Connect:DB25M_CI |  |  |  | \n| J2 | 1 | DB9MALE | DB9 |\
+  \ Connect:DB9M_CI_INVERT |  |  |  | \n| P1 | 1 | CONN_6 | CONN_6 | Connect:bornier6\
+  \ |  |  |  | \n| R1, R6, R7, R8, R9, R10, R11, R12, R13, R14 | 10 | 100 | R | Discret:R4\
+  \ |  |  |  | \n| R2 | 1 | 5,1K | R | Discret:R4 |  |  |  | \n| R4 | 1 | 47 | R |\
+  \ Discret:R4 |  |  |  | \n| R5 | 1 | 1K | R | Discret:R4 |  |  |  | \n| U1, U2 |\
+  \ 2 | 74LS125 | 74LS125 | Sockets_DIP:DIP-14__300_ELL |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/asutp_kicad_source_mirror_sonde_xilinx/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asutp_kicad_source_mirror_sonde_xilinx/current_version/working/working.kicad_pcb
 file_sch_flat: projects/asutp_kicad_source_mirror_sonde_xilinx/current_version/working/working.sch
 id: asutp_kicad_source_mirror_sonde_xilinx
 name: kicad_source_mirror
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: CP5
+  PosX: 140.97
+  PosY: -76.2
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C2
+  Package: C2
+  PosX: 140.97
+  PosY: -105.41
+  Rot: -90.0
+  Side: top
+  Val: 100pF
+- '# Ref': C3
+  Package: C2
+  PosX: 153.67
+  PosY: -69.85
+  Rot: 0.0
+  Side: top
+  Val: 100pF
+- '# Ref': C4
+  Package: C2
+  PosX: 148.59
+  PosY: -105.41
+  Rot: -90.0
+  Side: top
+  Val: 100pF
+- '# Ref': C5
+  Package: C2
+  PosX: 144.78
+  PosY: -105.41
+  Rot: -90.0
+  Side: top
+  Val: 100pF
+- '# Ref': D1
+  Package: D3
+  PosX: 130.81
+  PosY: -72.39
+  Rot: 180.0
+  Side: top
+  Val: BAT46
+- '# Ref': D2
+  Package: D3
+  PosX: 156.21
+  PosY: -78.74
+  Rot: 180.0
+  Side: top
+  Val: BAT46
+- '# Ref': J1
+  Package: DB25M_CI
+  PosX: 102.87
+  PosY: -88.9
+  Rot: 90.0
+  Side: top
+  Val: DB25MALE
+- '# Ref': J2
+  Package: DB9M_CI_INVERT
+  PosX: 184.15
+  PosY: -90.17
+  Rot: -90.0
+  Side: top
+  Val: DB9MALE
+- '# Ref': P1
+  Package: bornier6
+  PosX: 170.18
+  PosY: -88.9
+  Rot: -90.0
+  Side: top
+  Val: CONN_6
+- '# Ref': R1
+  Package: R4
+  PosX: 116.84
+  PosY: -76.2
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R2
+  Package: R4
+  PosX: 142.24
+  PosY: -72.39
+  Rot: 0.0
+  Side: top
+  Val: 5,1K
+- '# Ref': R4
+  Package: R4
+  PosX: 116.84
+  PosY: -104.14
+  Rot: 180.0
+  Side: top
+  Val: '47'
+- '# Ref': R5
+  Package: R4
+  PosX: 156.21
+  PosY: -73.66
+  Rot: 0.0
+  Side: top
+  Val: 1K
+- '# Ref': R6
+  Package: R4
+  PosX: 116.84
+  PosY: -83.82
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R7
+  Package: R4
+  PosX: 116.84
+  PosY: -92.71
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R8
+  Package: R4
+  PosX: 116.84
+  PosY: -86.36
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R9
+  Package: R4
+  PosX: 116.84
+  PosY: -81.28
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R10
+  Package: R4
+  PosX: 116.84
+  PosY: -78.74
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R11
+  Package: R4
+  PosX: 157.48
+  PosY: -93.98
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R12
+  Package: R4
+  PosX: 157.48
+  PosY: -99.06
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R13
+  Package: R4
+  PosX: 157.48
+  PosY: -105.41
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R14
+  Package: R4
+  PosX: 157.48
+  PosY: -88.9
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': U1
+  Package: 14DIP-ELL300
+  PosX: 130.81
+  PosY: -90.17
+  Rot: -90.0
+  Side: top
+  Val: 74LS125
+- '# Ref': U2
+  Package: 14DIP-ELL300
+  PosX: 144.78
+  PosY: -90.17
+  Rot: -90.0
+  Side: top
+  Val: 74LS125
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 1uF | CP5 | 140.97 | -76.2 | 0.0\
+  \ | top | \n| C2 | 100pF | C2 | 140.97 | -105.41 | -90.0 | top | \n| C3 | 100pF\
+  \ | C2 | 153.67 | -69.85 | 0.0 | top | \n| C4 | 100pF | C2 | 148.59 | -105.41 |\
+  \ -90.0 | top | \n| C5 | 100pF | C2 | 144.78 | -105.41 | -90.0 | top | \n| D1 |\
+  \ BAT46 | D3 | 130.81 | -72.39 | 180.0 | top | \n| D2 | BAT46 | D3 | 156.21 | -78.74\
+  \ | 180.0 | top | \n| J1 | DB25MALE | DB25M_CI | 102.87 | -88.9 | 90.0 | top | \n\
+  | J2 | DB9MALE | DB9M_CI_INVERT | 184.15 | -90.17 | -90.0 | top | \n| P1 | CONN_6\
+  \ | bornier6 | 170.18 | -88.9 | -90.0 | top | \n| R1 | 100 | R4 | 116.84 | -76.2\
+  \ | 180.0 | top | \n| R2 | 5,1K | R4 | 142.24 | -72.39 | 0.0 | top | \n| R4 | 47\
+  \ | R4 | 116.84 | -104.14 | 180.0 | top | \n| R5 | 1K | R4 | 156.21 | -73.66 | 0.0\
+  \ | top | \n| R6 | 100 | R4 | 116.84 | -83.82 | 180.0 | top | \n| R7 | 100 | R4\
+  \ | 116.84 | -92.71 | 180.0 | top | \n| R8 | 100 | R4 | 116.84 | -86.36 | 180.0\
+  \ | top | \n| R9 | 100 | R4 | 116.84 | -81.28 | 180.0 | top | \n| R10 | 100 | R4\
+  \ | 116.84 | -78.74 | 180.0 | top | \n| R11 | 100 | R4 | 157.48 | -93.98 | 180.0\
+  \ | top | \n| R12 | 100 | R4 | 157.48 | -99.06 | 180.0 | top | \n| R13 | 100 | R4\
+  \ | 157.48 | -105.41 | 180.0 | top | \n| R14 | 100 | R4 | 157.48 | -88.9 | 180.0\
+  \ | top | \n| U1 | 74LS125 | 14DIP-ELL300 | 130.81 | -90.17 | -90.0 | top | \n|\
+  \ U2 | 74LS125 | 14DIP-ELL300 | 144.78 | -90.17 | -90.0 | top | \n"
 projects_flat: projects/asutp_kicad_source_mirror_sonde_xilinx/current_version/working
 repo:
   allow_forking: true

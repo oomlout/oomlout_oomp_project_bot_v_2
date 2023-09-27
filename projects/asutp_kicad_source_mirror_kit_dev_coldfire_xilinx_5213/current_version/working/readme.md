@@ -16,6 +16,68 @@
 
 
 
+## pcb  
+![](working_3d_600.png) 
+![](working_3d_front_600.png)  
+![](working_3d_back_600.png)  
+![](working_600.png)  
+[board (pdf)](working.pdf)  
+
+## working_bom
+| Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| 1 | ABRT_SW1,RST_SW1,SW1,SW2 | SW_PUSH_SMALL | 4 | SW_PUSH |  |  | [''] | 
+| 2 | ALLPST1,CLKOUT1,GND1,RS1,TA-1,VREF1 | PINTST | 6 | CONN_1 |  |  | [''] | 
+| 3 | BDM_EN1,CAN_TERM1,CLK0,CLK1,CT1,LED_EN1,VDDA1,VX_EN1 | PIN_ARRAY_2X1 | 8 | JUMPER |  |  | [''] | 
+| 4 | BDM_PORT1 | pin_array_13x2 | 1 | CONN_13X2 |  |  | [''] | 
+| 5 | C1,C2 | SM0805 | 2 | 10pF |  |  | [''] | 
+| 6 | C3,C20 | SM0805 | 2 | 1nF |  |  | [''] | 
+| 7 | C4,C5,C7,C8,C9,C10,C14,C15,C18,C21,C22,C23,C24,C25,C26,C27,C28,C30,C31,C32,C33,C34,C35,C36,C41,C43,C44,C45,C46,C6,C11,C12,C51,C52,C53,C54,C55,C56,C57,C58,C59,C60,C61 | SM0805 | 43 | 100nF |  |  | [''] | 
+| 8 | C16 | SM1206POL | 1 | 10uF |  |  | [''] | 
+| 9 | C17 | SM1206POL | 1 | 100uF |  |  | [''] | 
+| 10 | C38 | C2V8 | 1 | 10uF |  |  | [''] | 
+| 11 | C40 | C2V8 | 1 | 220uF |  |  | [''] | 
+| 12 | CAN_EN1,P3 | PIN_ARRAY_2X2 | 2 | CONN_2X2 |  |  | [''] | 
+| 13 | COM_SEL1,COM_SEL2,COM_SEL3 | PIN_ARRAY_3X1 | 3 | CONN_3 |  |  | [''] | 
+| 14 | D1,D3 | ST23AK#1 | 2 | BAT54 |  |  | [''] | 
+| 15 | D7 | D5 | 1 | 1N4004 |  |  | [''] | 
+| 16 | D8,D9,LED1,LED2,LED3,LED4,LED5 | SM1206POL | 7 | LED |  |  | [''] | 
+| 17 | F1 | FSUPCMS | 1 | FUSE |  |  | [''] | 
+| 18 | FB1 | SM1206 | 1 | BEAD |  |  | [''] | 
+| 19 | J1 | JACK_ALIM | 1 | JACK_2P |  |  | [''] | 
+| 20 | L1,L2 | SM1206 | 2 | 10uH |  |  | [''] | 
+| 21 | LEDABRT1 | SM1206POL | 1 | RED |  |  | [''] | 
+| 22 | LV1 | TO92-INVERT | 1 | DS1818 |  |  | [''] | 
+| 23 | MCU_PORT1 | PIN_ARRAY_30X2 | 1 | CONN_30X2 |  |  | [''] | 
+| 24 | P1 | PIN_ARRAY-6X1 | 1 | CONN_6 |  |  | [''] | 
+| 25 | P4 | PIN_ARRAY_20X2 | 1 | CONN_20X2 |  |  | [''] | 
+| 26 | PULUPEN1,UART_EN0,UART_EN1,UART_EN2 | pin_array_4x2 | 4 | CONN_4X2 |  |  | [''] | 
+| 27 | Q1 | SOT23EBC | 1 | 3906 |  |  | [''] | 
+| 28 | R1 | SM0805 | 1 | 1M |  |  | [''] | 
+| 29 | R2,R15,R16,R17,R18,R19,R20,R21,R25,R45,R47,R48,R49,R50 | SM0805 | 14 | 4,7K |  |  | [''] | 
+| 30 | R4,R5,R6,R8,R10,R11,R13,R23,R26,R30,R34,R35 | SM0805 | 12 | 10K |  |  | [''] | 
+| 31 | R7,R36,R62,R63 | SM0805 | 4 | 1K |  |  | [''] | 
+| 32 | R9 | SM0805 | 1 | 0 |  |  | [''] | 
+| 33 | R12 | SM0805 | 1 | 20K |  |  | [''] | 
+| 34 | R14,R22,R28,R31,R32,R33,R53 | SM0805 | 7 | 270 |  |  | [''] | 
+| 35 | R38 | SM0805 | 1 | 62 |  |  | [''] | 
+| 36 | R46 | SM0805 | 1 | 22 |  |  | [''] | 
+| 37 | R57 | SM0805 | 1 | 4K7 |  |  | [''] | 
+| 38 | R64 | R4 | 1 | 3,3 |  |  | [''] | 
+| 39 | RCAN1,RCAN2 | SM0805 | 2 | R |  |  | [''] | 
+| 40 | RED1 | SM1206POL | 1 | LED_RESET1 |  |  | [''] | 
+| 41 | SW_ONOFF1 | SW_SPDT | 1 | SWITCH_INV |  |  | [''] | 
+| 42 | TB1 | bornier2 | 1 | CONN_2 |  |  | [''] | 
+| 43 | U1 | VQFP100 | 1 | MCF5213-LQFP100 |  |  | [''] | 
+| 44 | U2 | SOT353 | 1 | 74AHC1G14 |  |  | [''] | 
+| 45 | U3,U5,U8 | SO16E | 3 | MAX202 |  |  | [''] | 
+| 46 | U4 | SO14E | 1 | 74HC125 |  |  | [''] | 
+| 47 | U7 | SO8E | 1 | PCA82C251 |  |  | [''] | 
+| 48 | U9 | TQFP144 | 1 | XCR3256-TQ144 |  |  | [''] | 
+| 49 | UARTCAN0,UARTCAN1,UARTCAN2 | DB9FC | 3 | DB9 |  |  | [''] | 
+| 50 | VR1 | DPAK5 | 1 | LT1129_QPACK |  |  | [''] | 
+| 51 | Y1 | HC-18UH | 1 | 8MHz |  |  | [''] | 
+
 
 
 

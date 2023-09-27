@@ -1,10 +1,129 @@
 board: custom_pads_test
+bom:
+- Id: '1'
+  Designator: R2
+  Footprint: DO-214AB
+  Quantity: '1'
+  Designation: R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: AE2,AE1
+  Footprint: 1pin
+  Quantity: '2'
+  Designation: Antenna
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U***
+  Footprint: DIP-14__300_ELL
+  Quantity: '1'
+  Designation: DIP-14_300_ELL
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: SW1
+  Footprint: C2
+  Quantity: '1'
+  Designation: R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R2\
+  \ | DO-214AB | 1 | R |  |  | [''] | \n| 2 | AE2,AE1 | 1pin | 2 | Antenna |  |  |\
+  \ [''] | \n| 3 | U*** | DIP-14__300_ELL | 1 | DIP-14_300_ELL |  |  | [''] | \n|\
+  \ 4 | SW1 | C2 | 1 | R |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Antenna
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '2'
+  Ref: AE1, AE2
+  Value: Antenna
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: R2
+  Value: R
+  Vendor: ''
+- Cmp name: Jumper-device
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: SW1
+  Value: R
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| AE1,\
+  \ AE2 | 2 | Antenna | Antenna |  |  |  |  | \n| R2 | 1 | R | R |  |  |  |  | \n\
+  | SW1 | 1 | R | Jumper-device |  |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/axello_kicad_custom_pads_test/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/axello_kicad_custom_pads_test/current_version/working/working.kicad_sch
 file_sch_flat: projects/axello_kicad_arduino_mega/current_version/working/working.sch
 id: axello_kicad_custom_pads_test
 name: kicad
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': AE1
+  Package: 1pin
+  PosX: 100.15
+  PosY: -65.86
+  Rot: 20.0
+  Side: top
+  Val: Antenna
+- '# Ref': AE2
+  Package: 1pin
+  PosX: 166.3
+  PosY: -72.5
+  Rot: 0.0
+  Side: top
+  Val: Antenna
+- '# Ref': R2
+  Package: DO-214AB
+  PosX: 136.9
+  PosY: -101.5
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': SW1
+  Package: C2
+  PosX: 104.299
+  PosY: -99.72
+  Rot: 0.0
+  Side: top
+  Val: R
+- '# Ref': U***
+  Package: DIP-14__300_ELL
+  PosX: 165.9
+  PosY: -123.6
+  Rot: 180.0
+  Side: top
+  Val: DIP-14_300_ELL
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| AE1 | Antenna | 1pin | 100.15 | -65.86\
+  \ | 20.0 | top | \n| AE2 | Antenna | 1pin | 166.3 | -72.5 | 0.0 | top | \n| R2 |\
+  \ R | DO-214AB | 136.9 | -101.5 | 0.0 | top | \n| SW1 | R | C2 | 104.299 | -99.72\
+  \ | 0.0 | top | \n| U*** | DIP-14_300_ELL | DIP-14__300_ELL | 165.9 | -123.6 | 180.0\
+  \ | top | \n"
 projects_flat: projects/axello_kicad_custom_pads_test/current_version/working
 repo:
   allow_forking: true

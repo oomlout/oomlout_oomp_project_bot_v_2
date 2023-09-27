@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -47,7 +68,7 @@
 | 18 | R9,R3,R1,R2 | 0603-NO | 4 | 1K |  |  | [''] | 
 | 19 | C3 | 0805-NO | 1 | 10uF |  |  | [''] | 
 | 20 | X2 | JSTPH2 | 1 | JSTPH |  |  | [''] | 
-| 21 | C5,C6,C8 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 21 | C5,C6,C8 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 22 | U$49 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | 
 | 23 | C12 | 0603-NO | 1 | 1nF |  |  | [''] | 
 | 24 | R5 | 0603-NO | 1 | 100K |  |  | [''] | 
@@ -76,7 +97,7 @@
 | C1, C2 | 2 | 22pF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C3 | 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C4 | 1 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C5, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C5, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7 | 1 | 10uf | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C9, C13 | 2 | 300pF | CAP_CERAMIC_0603MP | working:_0603MP |  |  |  | 
 | C10, C11 | 2 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 

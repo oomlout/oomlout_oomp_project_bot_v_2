@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -33,14 +54,14 @@
 | 4 | R1,R6,R2 | _0805 | 3 | 10K |  |  | [''] | 
 | 5 | FID1,FID2 | FIDUCIAL_1MM | 2 | FIDUCIAL" |  |  | [''] | 
 | 6 | LED1 | EVERLIGHT_45-21 | 1 | 45-21/LK2C-B38452C4CB2/2T |  |  | [''] | 
-| 7 | C1 | _0805 | 1 | 0.1µF |  |  | [''] | 
+| 7 | C1 | _0805 | 1 | 0.1ÂµF |  |  | [''] | 
 | 8 | U$8 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | 
 
 
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 1 | 0.1µF | CAP_CERAMIC_0805 | working:_0805 |  |  |  | 
+| C1 | 1 | 0.1ÂµF | CAP_CERAMIC_0805 | working:_0805 |  |  |  | 
 | FID1, FID2 | 2 | FIDUCIAL"" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | 
 | LED1 | 1 | 45-21/LK2C-B38452C4CB2/2T | LEDEV45-21 | working:EVERLIGHT_45-21 |  |  |  | 
 | Q3 | 1 | BSS138 | MOSFET-NWIDE | working:SOT23-WIDE |  |  |  | 

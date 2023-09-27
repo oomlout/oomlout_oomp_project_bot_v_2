@@ -15,6 +15,30 @@
 * src_file_repo_sch_link: https://github.com/AkiyukiOkayasu/jade/tree/main/
 * full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/akiyukiokayasu_jade_jade_hardware/current_version/working  
 
+## schematic  
+![](working_schematic_600.png)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 

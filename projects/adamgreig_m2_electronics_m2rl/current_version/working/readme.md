@@ -16,7 +16,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -28,9 +49,9 @@
 ## working_bom
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| 1 | C1,C7,C9 | C0603 | 3 | 10µ |  |  | [''] | 
+| 1 | C1,C7,C9 | C0603 | 3 | 10Âµ |  |  | [''] | 
 | 2 | C2,C3,C5 | C0603 | 3 | 100n |  |  | [''] | 
-| 3 | C4,C8 | C0603 | 2 | 2µ2 |  |  | [''] | 
+| 3 | C4,C8 | C0603 | 2 | 2Âµ2 |  |  | [''] | 
 | 4 | C6 | C0603 | 1 | 1n |  |  | [''] | 
 | 5 | D1 | LED0603 | 1 | YELLOW |  |  | [''] | 
 | 6 | D2 | R0402 | 1 | CGA0402MLC-12G |  |  | [''] | 
@@ -49,9 +70,9 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1, C7, C9 | 3 | 10µ | C | m2rl:C0603 |  |  |  | 
+| C1, C7, C9 | 3 | 10Âµ | C | m2rl:C0603 |  |  |  | 
 | C2, C3, C5 | 3 | 100n | C | m2rl:C0603 |  |  |  | 
-| C4, C8 | 2 | 2µ2 | C | m2rl:C0603 |  |  |  | 
+| C4, C8 | 2 | 2Âµ2 | C | m2rl:C0603 |  |  |  | 
 | C6 | 1 | 1n | C | m2rl:C0603 |  |  |  | 
 | D1 | 1 | YELLOW | LED | m2rl:LED0603 |  |  |  | 
 | D2 | 1 | CGA0402MLC-12G | CGA0402MLC-12G | m2rl:R0402 |  |  |  | 

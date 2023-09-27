@@ -1,10 +1,84 @@
 board: 5mm08_2p_for_breadboard
+bom:
+- Id: '1'
+  Designator: J1
+  Footprint: TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal
+  Quantity: '1'
+  Designation: Conn_01x02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J2
+  Footprint: PinHeader_2x02_P2.54mm_Vertical_SMD
+  Quantity: '1'
+  Designation: Conn_02x02_Counter_Clockwise
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1\
+  \ | TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal | 1 | Conn_01x02\
+  \ |  |  | [''] | \n| 2 | J2 | PinHeader_2x02_P2.54mm_Vertical_SMD | 1 | Conn_02x02_Counter_Clockwise\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Conn_01x02
+  DNP: ''
+  Description: Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_01x02
+  Vendor: ''
+- Cmp name: Conn_02x02_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x02, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD
+  Qnty: '1'
+  Ref: J2
+  Value: Conn_02x02_Counter_Clockwise
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| J1 |\
+  \ 1 | Conn_01x02 | Conn_01x02 | TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal\
+  \ | Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J2 | 1 | Conn_02x02_Counter_Clockwise | Conn_02x02_Odd_Even | Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD\
+  \ | Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/asukiaaa_5mm08_2p_for_breadboard_5mm08_2p_for_breadboard/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asukiaaa_5mm08_2p_for_breadboard_5mm08_2p_for_breadboard/current_version/working/working.kicad_sch
 file_repo_bom_csv_flat: projects/asukiaaa_5mm08_2p_for_breadboard_5mm08_2p_for_breadboard/current_version/working/bom_src.csv
 id: asukiaaa_5mm08_2p_for_breadboard_5mm08_2p_for_breadboard
 name: 5mm08_2p_for_breadboard
+position_bottom:
+- '# Ref': J2
+  Package: PinHeader_2x02_P2.54mm_Vertical_SMD
+  PosX: 146.825
+  PosY: -62.1
+  Rot: 0.0
+  Side: bottom
+  Val: Conn_02x02_Counter_Clockwise
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J2 | Conn_02x02_Counter_Clockwise\
+  \ | PinHeader_2x02_P2.54mm_Vertical_SMD | 146.825 | -62.1 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': J1
+  Package: TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal
+  PosX: 144.25
+  PosY: -65.1
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x02
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J1 | Conn_01x02 | TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal\
+  \ | 144.25 | -65.1 | 0.0 | top | \n"
 projects_flat: projects/asukiaaa_5mm08_2p_for_breadboard_5mm08_2p_for_breadboard/current_version/working
 repo:
   allow_forking: true

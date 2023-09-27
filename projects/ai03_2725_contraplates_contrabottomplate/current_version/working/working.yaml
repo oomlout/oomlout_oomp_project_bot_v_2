@@ -1,10 +1,203 @@
 board: contrabottomplate
+bom:
+- Id: '1'
+  Designator: p1
+  Footprint: pad
+  Quantity: '1'
+  Designation: gndingpad
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: REF**,REF**,REF**,REF**,REF**,REF**,REF**
+  Footprint: mountinghole
+  Quantity: '7'
+  Designation: mountinghole
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: G***
+  Footprint: ai-ring-6mm-FancyAss
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: G***
+  Footprint: ai-ring-6mm-FancyAss-Mask
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | p1\
+  \ | pad | 1 | gndingpad |  |  | [''] | \n| 2 | REF**,REF**,REF**,REF**,REF**,REF**,REF**\
+  \ | mountinghole | 7 | mountinghole |  |  | [''] | \n| 3 | G*** | ai-ring-6mm-FancyAss\
+  \ | 1 | LOGO |  |  | [''] | \n| 4 | G*** | ai-ring-6mm-FancyAss-Mask | 1 | LOGO\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: locallib:pad
+  Qnty: '1'
+  Ref: p1
+  Value: gndingpad
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| p1 |\
+  \ 1 | gndingpad | R | locallib:pad | Resistor |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/ai03_2725_contraplates_contrabottomplate/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/ai03_2725_contraplates_contrabottomplate/current_version/working/working.kicad_pcb
 file_sch_flat: projects/ai03_2725_contraplates_contrabottomplate/current_version/working/working.sch
 id: ai03_2725_contraplates_contrabottomplate
+mounting_holes:
+- package: mountinghole
+  ref: REF**
+  size: m3
+  value: mountinghole
+  x: '95.25'
+  y: '19.05'
+- package: mountinghole
+  ref: REF**
+  size: m3
+  value: mountinghole
+  x: '0.0'
+  y: '38.1'
+- package: mountinghole
+  ref: REF**
+  size: m3
+  value: mountinghole
+  x: '0.0'
+  y: '0.0'
+- package: mountinghole
+  ref: REF**
+  size: m3
+  value: mountinghole
+  x: '190.5'
+  y: '38.1'
+- package: mountinghole
+  ref: REF**
+  size: m3
+  value: mountinghole
+  x: '190.5'
+  y: '0.0'
+- package: mountinghole
+  ref: REF**
+  size: m3
+  value: mountinghole
+  x: '0.0'
+  y: '19.05'
+- package: mountinghole
+  ref: REF**
+  size: m3
+  value: mountinghole
+  x: '190.5'
+  y: '19.05'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 95.25 | 19.05 | mountinghole | mountinghole | REF**\
+  \ | m3 | \n| 0.0 | 38.1 | mountinghole | mountinghole | REF** | m3 | \n| 0.0 | 0.0\
+  \ | mountinghole | mountinghole | REF** | m3 | \n| 190.5 | 38.1 | mountinghole |\
+  \ mountinghole | REF** | m3 | \n| 190.5 | 0.0 | mountinghole | mountinghole | REF**\
+  \ | m3 | \n| 0.0 | 19.05 | mountinghole | mountinghole | REF** | m3 | \n| 190.5\
+  \ | 19.05 | mountinghole | mountinghole | REF** | m3 | \n"
 name: contraplates
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': G***
+  Package: ai-ring-6mm-FancyAss
+  PosX: 46.0375
+  PosY: -116.6812
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': G***
+  Package: ai-ring-6mm-FancyAss-Mask
+  PosX: 46.0375
+  PosY: -116.6812
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': REF**
+  Package: mountinghole
+  PosX: 153.9875
+  PosY: -85.725
+  Rot: 0.0
+  Side: top
+  Val: mountinghole
+- '# Ref': REF**
+  Package: mountinghole
+  PosX: 58.7375
+  PosY: -66.675
+  Rot: 0.0
+  Side: top
+  Val: mountinghole
+- '# Ref': REF**
+  Package: mountinghole
+  PosX: 58.7375
+  PosY: -104.775
+  Rot: 0.0
+  Side: top
+  Val: mountinghole
+- '# Ref': REF**
+  Package: mountinghole
+  PosX: 249.2375
+  PosY: -66.675
+  Rot: 0.0
+  Side: top
+  Val: mountinghole
+- '# Ref': REF**
+  Package: mountinghole
+  PosX: 249.2375
+  PosY: -104.775
+  Rot: 0.0
+  Side: top
+  Val: mountinghole
+- '# Ref': REF**
+  Package: mountinghole
+  PosX: 58.7375
+  PosY: -85.725
+  Rot: 0.0
+  Side: top
+  Val: mountinghole
+- '# Ref': REF**
+  Package: mountinghole
+  PosX: 249.2375
+  PosY: -85.725
+  Rot: 0.0
+  Side: top
+  Val: mountinghole
+- '# Ref': p1
+  Package: pad
+  PosX: 42.0688
+  PosY: -50.0062
+  Rot: 0.0
+  Side: top
+  Val: gndingpad
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | ai-ring-6mm-FancyAss |\
+  \ 46.0375 | -116.6812 | 0.0 | top | \n| G*** | LOGO | ai-ring-6mm-FancyAss-Mask\
+  \ | 46.0375 | -116.6812 | 0.0 | top | \n| REF** | mountinghole | mountinghole |\
+  \ 153.9875 | -85.725 | 0.0 | top | \n| REF** | mountinghole | mountinghole | 58.7375\
+  \ | -66.675 | 0.0 | top | \n| REF** | mountinghole | mountinghole | 58.7375 | -104.775\
+  \ | 0.0 | top | \n| REF** | mountinghole | mountinghole | 249.2375 | -66.675 | 0.0\
+  \ | top | \n| REF** | mountinghole | mountinghole | 249.2375 | -104.775 | 0.0 |\
+  \ top | \n| REF** | mountinghole | mountinghole | 58.7375 | -85.725 | 0.0 | top\
+  \ | \n| REF** | mountinghole | mountinghole | 249.2375 | -85.725 | 0.0 | top | \n\
+  | p1 | gndingpad | pad | 42.0688 | -50.0062 | 0.0 | top | \n"
 projects_flat: projects/ai03_2725_contraplates_contrabottomplate/current_version/working
 repo:
   allow_forking: true

@@ -1,10 +1,824 @@
 board: complex_hierarchy
+bom:
+- Id: '1'
+  Designator: C2
+  Footprint: CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal
+  Quantity: '1'
+  Designation: 47uF/20V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C9
+  Footprint: CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal
+  Quantity: '1'
+  Designation: 47uF/63V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C10,C11
+  Footprint: CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal
+  Quantity: '2'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: Q1,Q3,Q5,Q7
+  Footprint: TO-92_HandSolder
+  Quantity: '4'
+  Designation: MPSA92
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: Q6,Q8,Q2,Q4
+  Footprint: TO-92_HandSolder
+  Quantity: '4'
+  Designation: MPSA42
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: RV1,RV2
+  Footprint: Potentiometer_Bourns_3266W_Vertical
+  Quantity: '2'
+  Designation: 4,7K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U2
+  Footprint: TO-92_HandSolder
+  Quantity: '1'
+  Designation: 78L05
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R19,R18,R9,R8,R24,R23
+  Footprint: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  Quantity: '6'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R6,R16,R7,R17
+  Footprint: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  Quantity: '4'
+  Designation: 22K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R15,R5,R27,R25
+  Footprint: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  Quantity: '4'
+  Designation: '47'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: R14,R12,R4,R28,R26,R22
+  Footprint: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  Quantity: '6'
+  Designation: 220K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: R13,R3
+  Footprint: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  Quantity: '2'
+  Designation: '470'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: R11,R21
+  Footprint: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  Quantity: '2'
+  Designation: 4,7K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: R10,R20
+  Footprint: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  Quantity: '2'
+  Designation: 5,6K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U4,U3
+  Footprint: DIP-8_W7.62mm_LongPads
+  Quantity: '2'
+  Designation: LM358N
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: U1
+  Footprint: DIP-8_W7.62mm_LongPads
+  Quantity: '1'
+  Designation: ICL7660
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: C8,C5
+  Footprint: C_Disc_D5.0mm_W2.5mm_P5.00mm
+  Quantity: '2'
+  Designation: 820pF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: C7,C4
+  Footprint: C_Disc_D5.0mm_W2.5mm_P5.00mm
+  Quantity: '2'
+  Designation: 4.7nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: C6,C3
+  Footprint: C_Disc_D5.0mm_W2.5mm_P5.00mm
+  Quantity: '2'
+  Designation: 15nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: C12,C14
+  Footprint: C_Disc_D5.0mm_W2.5mm_P5.00mm
+  Quantity: '2'
+  Designation: 150nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '21'
+  Designator: D1
+  Footprint: D_DO-41_SOD81_P12.70mm_Horizontal
+  Quantity: '1'
+  Designation: 1N4007
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '22'
+  Designator: D5,D8,D2,D3,D7,D6,D4,D9
+  Footprint: D_DO-35_SOD27_P7.62mm_Horizontal
+  Quantity: '8'
+  Designation: 1N4148
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '23'
+  Designator: P1,P2,P4,P3,P6,P5
+  Footprint: Altech_AK300_1x02_P5.00mm_45-Degree
+  Quantity: '6'
+  Designation: CONN_2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '24'
+  Designator: C1
+  Footprint: CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal
+  Quantity: '1'
+  Designation: 47uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C2\
+  \ | CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal | 1 | 47uF/20V |  |  | [''] | \n\
+  | 2 | C9 | CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal | 1 | 47uF/63V |  |  | ['']\
+  \ | \n| 3 | C10,C11 | CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal | 2 | 10uF | \
+  \ |  | [''] | \n| 4 | Q1,Q3,Q5,Q7 | TO-92_HandSolder | 4 | MPSA92 |  |  | [''] |\
+  \ \n| 5 | Q6,Q8,Q2,Q4 | TO-92_HandSolder | 4 | MPSA42 |  |  | [''] | \n| 6 | RV1,RV2\
+  \ | Potentiometer_Bourns_3266W_Vertical | 2 | 4,7K |  |  | [''] | \n| 7 | U2 | TO-92_HandSolder\
+  \ | 1 | 78L05 |  |  | [''] | \n| 8 | R19,R18,R9,R8,R24,R23 | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 6 | 1K |  |  | [''] | \n| 9 | R6,R16,R7,R17 | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 4 | 22K |  |  | [''] | \n| 10 | R15,R5,R27,R25 | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 4 | 47 |  |  | [''] | \n| 11 | R14,R12,R4,R28,R26,R22 | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 6 | 220K |  |  | [''] | \n| 12 | R13,R3 | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 2 | 470 |  |  | [''] | \n| 13 | R11,R21 | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 2 | 4,7K |  |  | [''] | \n| 14 | R10,R20 | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 2 | 5,6K |  |  | [''] | \n| 15 | U4,U3 | DIP-8_W7.62mm_LongPads | 2 | LM358N\
+  \ |  |  | [''] | \n| 16 | U1 | DIP-8_W7.62mm_LongPads | 1 | ICL7660 |  |  | ['']\
+  \ | \n| 17 | C8,C5 | C_Disc_D5.0mm_W2.5mm_P5.00mm | 2 | 820pF |  |  | [''] | \n\
+  | 18 | C7,C4 | C_Disc_D5.0mm_W2.5mm_P5.00mm | 2 | 4.7nF |  |  | [''] | \n| 19 |\
+  \ C6,C3 | C_Disc_D5.0mm_W2.5mm_P5.00mm | 2 | 15nF |  |  | [''] | \n| 20 | C12,C14\
+  \ | C_Disc_D5.0mm_W2.5mm_P5.00mm | 2 | 150nF |  |  | [''] | \n| 21 | D1 | D_DO-41_SOD81_P12.70mm_Horizontal\
+  \ | 1 | 1N4007 |  |  | [''] | \n| 22 | D5,D8,D2,D3,D7,D6,D4,D9 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 8 | 1N4148 |  |  | [''] | \n| 23 | P1,P2,P4,P3,P6,P5 | Altech_AK300_1x02_P5.00mm_45-Degree\
+  \ | 6 | CONN_2 |  |  | [''] | \n| 24 | C1 | CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal\
+  \ | 1 | 47uF |  |  | [''] | \n"
 counter: 1
 file_kicad_pcb_flat: projects/axello_kicad_complex_hierarchy/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/axello_kicad_complex_hierarchy/current_version/working/working.kicad_sch
 file_sch_flat: projects/axello_kicad_arduino_mega/current_version/working/working.sch
 id: axello_kicad_complex_hierarchy
 name: kicad
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal
+  PosX: 33.848
+  PosY: 64.594
+  Rot: 180.0
+  Side: top
+  Val: 47uF
+- '# Ref': C2
+  Package: CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal
+  PosX: 43.119
+  PosY: 77.294
+  Rot: 0.0
+  Side: top
+  Val: 47uF/20V
+- '# Ref': C3
+  Package: C_Disc_D5.0mm_W2.5mm_P5.00mm
+  PosX: 35.118
+  PosY: 28.526
+  Rot: 180.0
+  Side: top
+  Val: 15nF
+- '# Ref': C4
+  Package: C_Disc_D5.0mm_W2.5mm_P5.00mm
+  PosX: 30.165
+  PosY: 25.224
+  Rot: 0.0
+  Side: top
+  Val: 4.7nF
+- '# Ref': C5
+  Package: C_Disc_D5.0mm_W2.5mm_P5.00mm
+  PosX: 54.676
+  PosY: 7.952
+  Rot: 0.0
+  Side: top
+  Val: 820pF
+- '# Ref': C6
+  Package: C_Disc_D5.0mm_W2.5mm_P5.00mm
+  PosX: 35.245
+  PosY: 56.593
+  Rot: 180.0
+  Side: top
+  Val: 15nF
+- '# Ref': C7
+  Package: C_Disc_D5.0mm_W2.5mm_P5.00mm
+  PosX: 30.292
+  PosY: 53.164
+  Rot: 0.0
+  Side: top
+  Val: 4.7nF
+- '# Ref': C8
+  Package: C_Disc_D5.0mm_W2.5mm_P5.00mm
+  PosX: 54.549
+  PosY: 33.86
+  Rot: 0.0
+  Side: top
+  Val: 820pF
+- '# Ref': C9
+  Package: CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal
+  PosX: 38.293
+  PosY: 77.421
+  Rot: 180.0
+  Side: top
+  Val: 47uF/63V
+- '# Ref': C10
+  Package: CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal
+  PosX: 56.2
+  PosY: 60.784
+  Rot: 0.0
+  Side: top
+  Val: 10uF
+- '# Ref': C11
+  Package: CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal
+  PosX: 76.52
+  PosY: 59.641
+  Rot: 90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C12
+  Package: C_Disc_D5.0mm_W2.5mm_P5.00mm
+  PosX: 30.165
+  PosY: 31.955
+  Rot: 0.0
+  Side: top
+  Val: 150nF
+- '# Ref': C14
+  Package: C_Disc_D5.0mm_W2.5mm_P5.00mm
+  PosX: 30.292
+  PosY: 60.022
+  Rot: 0.0
+  Side: top
+  Val: 150nF
+- '# Ref': D1
+  Package: D_DO-41_SOD81_P12.70mm_Horizontal
+  PosX: 32.578
+  PosY: 69.674
+  Rot: 180.0
+  Side: top
+  Val: 1N4007
+- '# Ref': D2
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 44.135
+  PosY: 32.082
+  Rot: 0.0
+  Side: top
+  Val: 1N4148
+- '# Ref': D3
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 44.135
+  PosY: 29.034
+  Rot: 0.0
+  Side: top
+  Val: 1N4148
+- '# Ref': D4
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 57.47
+  PosY: 14.429
+  Rot: 90.0
+  Side: top
+  Val: 1N4148
+- '# Ref': D5
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 41.595
+  PosY: 59.133
+  Rot: 0.0
+  Side: top
+  Val: 1N4148
+- '# Ref': D6
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 49.215
+  PosY: 55.704
+  Rot: 180.0
+  Side: top
+  Val: 1N4148
+- '# Ref': D7
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 58.105
+  PosY: 40.464
+  Rot: 90.0
+  Side: top
+  Val: 1N4148
+- '# Ref': D8
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 61.28
+  PosY: 14.429
+  Rot: 90.0
+  Side: top
+  Val: 1N4148
+- '# Ref': D9
+  Package: D_DO-35_SOD27_P7.62mm_Horizontal
+  PosX: 61.915
+  PosY: 40.464
+  Rot: 90.0
+  Side: top
+  Val: 1N4148
+- '# Ref': P1
+  Package: Altech_AK300_1x02_P5.00mm_45-Degree
+  PosX: 11.4
+  PosY: 81.1
+  Rot: -90.0
+  Side: top
+  Val: CONN_2
+- '# Ref': P2
+  Package: Altech_AK300_1x02_P5.00mm_45-Degree
+  PosX: 11.3
+  PosY: 68.6
+  Rot: -90.0
+  Side: top
+  Val: CONN_2
+- '# Ref': P3
+  Package: Altech_AK300_1x02_P5.00mm_45-Degree
+  PosX: 97.6925
+  PosY: 25.5425
+  Rot: 90.0
+  Side: top
+  Val: CONN_2
+- '# Ref': P4
+  Package: Altech_AK300_1x02_P5.00mm_45-Degree
+  PosX: 11.115
+  PosY: 26.367
+  Rot: -90.0
+  Side: top
+  Val: CONN_2
+- '# Ref': P5
+  Package: Altech_AK300_1x02_P5.00mm_45-Degree
+  PosX: 97.7
+  PosY: 51.7
+  Rot: 90.0
+  Side: top
+  Val: CONN_2
+- '# Ref': P6
+  Package: Altech_AK300_1x02_P5.00mm_45-Degree
+  PosX: 11.4
+  PosY: 53.0
+  Rot: -90.0
+  Side: top
+  Val: CONN_2
+- '# Ref': Q1
+  Package: TO-92_HandSolder
+  PosX: 47.945
+  PosY: 22.684
+  Rot: 0.0
+  Side: top
+  Val: MPSA92
+- '# Ref': Q2
+  Package: TO-92_HandSolder
+  PosX: 65.725
+  PosY: 22.938
+  Rot: 0.0
+  Side: top
+  Val: MPSA42
+- '# Ref': Q3
+  Package: TO-92_HandSolder
+  PosX: 68.265
+  PosY: 14.175
+  Rot: 180.0
+  Side: top
+  Val: MPSA92
+- '# Ref': Q4
+  Package: TO-92_HandSolder
+  PosX: 47.056
+  PosY: 12.27
+  Rot: 0.0
+  Side: top
+  Val: MPSA42
+- '# Ref': Q5
+  Package: TO-92_HandSolder
+  PosX: 47.945
+  PosY: 49.354
+  Rot: 0.0
+  Side: top
+  Val: MPSA92
+- '# Ref': Q6
+  Package: TO-92_HandSolder
+  PosX: 66.995
+  PosY: 48.084
+  Rot: 0.0
+  Side: top
+  Val: MPSA42
+- '# Ref': Q7
+  Package: TO-92_HandSolder
+  PosX: 67.503
+  PosY: 37.035
+  Rot: 180.0
+  Side: top
+  Val: MPSA92
+- '# Ref': Q8
+  Package: TO-92_HandSolder
+  PosX: 46.294
+  PosY: 41.48
+  Rot: 0.0
+  Side: top
+  Val: MPSA42
+- '# Ref': R3
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 63.185
+  PosY: 29.034
+  Rot: 180.0
+  Side: top
+  Val: '470'
+- '# Ref': R4
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 39.055
+  PosY: 22.684
+  Rot: -90.0
+  Side: top
+  Val: 220K
+- '# Ref': R5
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 89.855
+  PosY: 18.874
+  Rot: 180.0
+  Side: top
+  Val: '47'
+- '# Ref': R6
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 26.355
+  PosY: 27.764
+  Rot: 180.0
+  Side: top
+  Val: 22K
+- '# Ref': R7
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 26.355
+  PosY: 25.224
+  Rot: 180.0
+  Side: top
+  Val: 22K
+- '# Ref': R8
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 42.865
+  PosY: 9.984
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': R9
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 50.993
+  PosY: 17.858
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': R10
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 60.899
+  PosY: 11.127
+  Rot: 180.0
+  Side: top
+  Val: 5,6K
+- '# Ref': R11
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 19.37
+  PosY: 11.254
+  Rot: 90.0
+  Side: top
+  Val: 4,7K
+- '# Ref': R12
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 72.71
+  PosY: 21.287
+  Rot: -90.0
+  Side: top
+  Val: 220K
+- '# Ref': R13
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 61.915
+  PosY: 51.894
+  Rot: 180.0
+  Side: top
+  Val: '470'
+- '# Ref': R14
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 54.295
+  PosY: 56.974
+  Rot: 0.0
+  Side: top
+  Val: 220K
+- '# Ref': R15
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 89.855
+  PosY: 46.814
+  Rot: 180.0
+  Side: top
+  Val: '47'
+- '# Ref': R16
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 27.117
+  PosY: 55.704
+  Rot: 180.0
+  Side: top
+  Val: 22K
+- '# Ref': R17
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 19.497
+  PosY: 53.037
+  Rot: 0.0
+  Side: top
+  Val: 22K
+- '# Ref': R18
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 42.103
+  PosY: 36.654
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': R19
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 42.611
+  PosY: 43.004
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': R20
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 58.105
+  PosY: 36.654
+  Rot: 180.0
+  Side: top
+  Val: 5,6K
+- '# Ref': R21
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 18.735
+  PosY: 35.384
+  Rot: 90.0
+  Side: top
+  Val: 4,7K
+- '# Ref': R22
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 73.345
+  PosY: 48.084
+  Rot: -90.0
+  Side: top
+  Val: 220K
+- '# Ref': R23
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 26.355
+  PosY: 30.939
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': R24
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 26.863
+  PosY: 59.26
+  Rot: 180.0
+  Side: top
+  Val: 1K
+- '# Ref': R25
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 89.855
+  PosY: 15.064
+  Rot: 180.0
+  Side: top
+  Val: '47'
+- '# Ref': R26
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 76.52
+  PosY: 21.414
+  Rot: -90.0
+  Side: top
+  Val: 220K
+- '# Ref': R27
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 89.855
+  PosY: 40.464
+  Rot: 180.0
+  Side: top
+  Val: '47'
+- '# Ref': R28
+  Package: R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+  PosX: 77.79
+  PosY: 48.084
+  Rot: -90.0
+  Side: top
+  Val: 220K
+- '# Ref': RV1
+  Package: Potentiometer_Bourns_3266W_Vertical
+  PosX: 9.845
+  PosY: 12.524
+  Rot: 180.0
+  Side: top
+  Val: 4,7K
+- '# Ref': RV2
+  Package: Potentiometer_Bourns_3266W_Vertical
+  PosX: 9.845
+  PosY: 37.924
+  Rot: 180.0
+  Side: top
+  Val: 4,7K
+- '# Ref': U1
+  Package: DIP-8_W7.62mm_LongPads
+  PosX: 61.915
+  PosY: 65.864
+  Rot: 90.0
+  Side: top
+  Val: ICL7660
+- '# Ref': U2
+  Package: TO-92_HandSolder
+  PosX: 40.706
+  PosY: 67.134
+  Rot: 90.0
+  Side: top
+  Val: 78L05
+- '# Ref': U3
+  Package: DIP-8_W7.62mm_LongPads
+  PosX: 23.815
+  PosY: 13.794
+  Rot: 90.0
+  Side: top
+  Val: LM358N
+- '# Ref': U4
+  Package: DIP-8_W7.62mm_LongPads
+  PosX: 23.815
+  PosY: 41.734
+  Rot: 90.0
+  Side: top
+  Val: LM358N
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 47uF | CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal\
+  \ | 33.848 | 64.594 | 180.0 | top | \n| C2 | 47uF/20V | CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal\
+  \ | 43.119 | 77.294 | 0.0 | top | \n| C3 | 15nF | C_Disc_D5.0mm_W2.5mm_P5.00mm |\
+  \ 35.118 | 28.526 | 180.0 | top | \n| C4 | 4.7nF | C_Disc_D5.0mm_W2.5mm_P5.00mm\
+  \ | 30.165 | 25.224 | 0.0 | top | \n| C5 | 820pF | C_Disc_D5.0mm_W2.5mm_P5.00mm\
+  \ | 54.676 | 7.952 | 0.0 | top | \n| C6 | 15nF | C_Disc_D5.0mm_W2.5mm_P5.00mm |\
+  \ 35.245 | 56.593 | 180.0 | top | \n| C7 | 4.7nF | C_Disc_D5.0mm_W2.5mm_P5.00mm\
+  \ | 30.292 | 53.164 | 0.0 | top | \n| C8 | 820pF | C_Disc_D5.0mm_W2.5mm_P5.00mm\
+  \ | 54.549 | 33.86 | 0.0 | top | \n| C9 | 47uF/63V | CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal\
+  \ | 38.293 | 77.421 | 180.0 | top | \n| C10 | 10uF | CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal\
+  \ | 56.2 | 60.784 | 0.0 | top | \n| C11 | 10uF | CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal\
+  \ | 76.52 | 59.641 | 90.0 | top | \n| C12 | 150nF | C_Disc_D5.0mm_W2.5mm_P5.00mm\
+  \ | 30.165 | 31.955 | 0.0 | top | \n| C14 | 150nF | C_Disc_D5.0mm_W2.5mm_P5.00mm\
+  \ | 30.292 | 60.022 | 0.0 | top | \n| D1 | 1N4007 | D_DO-41_SOD81_P12.70mm_Horizontal\
+  \ | 32.578 | 69.674 | 180.0 | top | \n| D2 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 44.135 | 32.082 | 0.0 | top | \n| D3 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 44.135 | 29.034 | 0.0 | top | \n| D4 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 57.47 | 14.429 | 90.0 | top | \n| D5 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 41.595 | 59.133 | 0.0 | top | \n| D6 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 49.215 | 55.704 | 180.0 | top | \n| D7 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 58.105 | 40.464 | 90.0 | top | \n| D8 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 61.28 | 14.429 | 90.0 | top | \n| D9 | 1N4148 | D_DO-35_SOD27_P7.62mm_Horizontal\
+  \ | 61.915 | 40.464 | 90.0 | top | \n| P1 | CONN_2 | Altech_AK300_1x02_P5.00mm_45-Degree\
+  \ | 11.4 | 81.1 | -90.0 | top | \n| P2 | CONN_2 | Altech_AK300_1x02_P5.00mm_45-Degree\
+  \ | 11.3 | 68.6 | -90.0 | top | \n| P3 | CONN_2 | Altech_AK300_1x02_P5.00mm_45-Degree\
+  \ | 97.6925 | 25.5425 | 90.0 | top | \n| P4 | CONN_2 | Altech_AK300_1x02_P5.00mm_45-Degree\
+  \ | 11.115 | 26.367 | -90.0 | top | \n| P5 | CONN_2 | Altech_AK300_1x02_P5.00mm_45-Degree\
+  \ | 97.7 | 51.7 | 90.0 | top | \n| P6 | CONN_2 | Altech_AK300_1x02_P5.00mm_45-Degree\
+  \ | 11.4 | 53.0 | -90.0 | top | \n| Q1 | MPSA92 | TO-92_HandSolder | 47.945 | 22.684\
+  \ | 0.0 | top | \n| Q2 | MPSA42 | TO-92_HandSolder | 65.725 | 22.938 | 0.0 | top\
+  \ | \n| Q3 | MPSA92 | TO-92_HandSolder | 68.265 | 14.175 | 180.0 | top | \n| Q4\
+  \ | MPSA42 | TO-92_HandSolder | 47.056 | 12.27 | 0.0 | top | \n| Q5 | MPSA92 | TO-92_HandSolder\
+  \ | 47.945 | 49.354 | 0.0 | top | \n| Q6 | MPSA42 | TO-92_HandSolder | 66.995 |\
+  \ 48.084 | 0.0 | top | \n| Q7 | MPSA92 | TO-92_HandSolder | 67.503 | 37.035 | 180.0\
+  \ | top | \n| Q8 | MPSA42 | TO-92_HandSolder | 46.294 | 41.48 | 0.0 | top | \n|\
+  \ R3 | 470 | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal | 63.185 | 29.034\
+  \ | 180.0 | top | \n| R4 | 220K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 39.055 | 22.684 | -90.0 | top | \n| R5 | 47 | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 89.855 | 18.874 | 180.0 | top | \n| R6 | 22K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 26.355 | 27.764 | 180.0 | top | \n| R7 | 22K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 26.355 | 25.224 | 180.0 | top | \n| R8 | 1K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 42.865 | 9.984 | 180.0 | top | \n| R9 | 1K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 50.993 | 17.858 | 180.0 | top | \n| R10 | 5,6K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 60.899 | 11.127 | 180.0 | top | \n| R11 | 4,7K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 19.37 | 11.254 | 90.0 | top | \n| R12 | 220K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 72.71 | 21.287 | -90.0 | top | \n| R13 | 470 | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 61.915 | 51.894 | 180.0 | top | \n| R14 | 220K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 54.295 | 56.974 | 0.0 | top | \n| R15 | 47 | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 89.855 | 46.814 | 180.0 | top | \n| R16 | 22K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 27.117 | 55.704 | 180.0 | top | \n| R17 | 22K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 19.497 | 53.037 | 0.0 | top | \n| R18 | 1K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 42.103 | 36.654 | 180.0 | top | \n| R19 | 1K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 42.611 | 43.004 | 180.0 | top | \n| R20 | 5,6K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 58.105 | 36.654 | 180.0 | top | \n| R21 | 4,7K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 18.735 | 35.384 | 90.0 | top | \n| R22 | 220K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 73.345 | 48.084 | -90.0 | top | \n| R23 | 1K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 26.355 | 30.939 | 180.0 | top | \n| R24 | 1K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 26.863 | 59.26 | 180.0 | top | \n| R25 | 47 | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 89.855 | 15.064 | 180.0 | top | \n| R26 | 220K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 76.52 | 21.414 | -90.0 | top | \n| R27 | 47 | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 89.855 | 40.464 | 180.0 | top | \n| R28 | 220K | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal\
+  \ | 77.79 | 48.084 | -90.0 | top | \n| RV1 | 4,7K | Potentiometer_Bourns_3266W_Vertical\
+  \ | 9.845 | 12.524 | 180.0 | top | \n| RV2 | 4,7K | Potentiometer_Bourns_3266W_Vertical\
+  \ | 9.845 | 37.924 | 180.0 | top | \n| U1 | ICL7660 | DIP-8_W7.62mm_LongPads | 61.915\
+  \ | 65.864 | 90.0 | top | \n| U2 | 78L05 | TO-92_HandSolder | 40.706 | 67.134 |\
+  \ 90.0 | top | \n| U3 | LM358N | DIP-8_W7.62mm_LongPads | 23.815 | 13.794 | 90.0\
+  \ | top | \n| U4 | LM358N | DIP-8_W7.62mm_LongPads | 23.815 | 41.734 | 90.0 | top\
+  \ | \n"
 projects_flat: projects/axello_kicad_complex_hierarchy/current_version/working
 repo:
   allow_forking: true

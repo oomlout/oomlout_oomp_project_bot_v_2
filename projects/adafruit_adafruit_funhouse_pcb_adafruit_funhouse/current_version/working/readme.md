@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -45,7 +66,7 @@
 | 16 | R6 | 0603-NO | 1 | 47K |  |  | [''] | 
 | 17 | SW3 | EG1390 | 1 | EG1390 |  |  | [''] | 
 | 18 | C12,C14,C6 | 0603-NO | 3 | 1uF |  |  | [''] | 
-| 19 | C3,C10,C7,C4,C13,C11,C17 | 0805-NO | 7 | 10µF |  |  | [''] | 
+| 19 | C3,C10,C7,C4,C13,C11,C17 | 0805-NO | 7 | 10ÂµF |  |  | [''] | 
 | 20 | TP8,TP7,TP5,TP4 | SMT_NUT_3MM | 4 | SEWTAP_SMTNUTM3 |  |  | [''] | 
 | 21 | SW4 | KMR2 | 1 | SPST_TACT-KMR2 |  |  | [''] | 
 | 22 | D6,D1,D2 | SOD-323 | 3 | 3.6V |  |  | [''] | 
@@ -79,7 +100,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C20 | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C2, C5, C15 | 3 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C3, C4, C7, C10, C11, C13, C17 | 7 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C4, C7, C10, C11, C13, C17 | 7 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C6, C12, C14 | 3 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C9 | 1 | 10uF/10V+ | CAP_CERAMIC0805_10MGAP | working:0805_10MGAP |  |  |  | 
 | CONN1 | 1 | STEMMA_I2C_QT | STEMMA_I2C_QT | working:JST_SH4 |  |  |  | 

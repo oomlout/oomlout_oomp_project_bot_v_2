@@ -1,10 +1,178 @@
 board: touch_relay_jack
+bom:
+- Id: '1'
+  Designator: A1
+  Footprint: Pro_Micro
+  Quantity: '1'
+  Designation: Pro_Micro
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D1
+  Footprint: D_SOD-523
+  Quantity: '1'
+  Designation: D_Shockley
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: D2
+  Footprint: LED_0603_1608Metric
+  Quantity: '1'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J1
+  Footprint: Jack_3.5mm_Switronic_ST-005-G_horizontal
+  Quantity: '1'
+  Designation: AudioJack3_Ground
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: K1
+  Footprint: Relay_SPDT_HsinDa_Y14
+  Quantity: '1'
+  Designation: Y14x-1C-xxDS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: Q1
+  Footprint: SOT-23
+  Quantity: '1'
+  Designation: Q_NMOS_GSD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R1,R2
+  Footprint: R_0603_1608Metric
+  Quantity: '2'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R3
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 1M
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | A1\
+  \ | Pro_Micro | 1 | Pro_Micro |  |  | [''] | \n| 2 | D1 | D_SOD-523 | 1 | D_Shockley\
+  \ |  |  | [''] | \n| 3 | D2 | LED_0603_1608Metric | 1 | LED |  |  | [''] | \n| 4\
+  \ | J1 | Jack_3.5mm_Switronic_ST-005-G_horizontal | 1 | AudioJack3_Ground |  | \
+  \ | [''] | \n| 5 | K1 | Relay_SPDT_HsinDa_Y14 | 1 | Y14x-1C-xxDS |  |  | [''] |\
+  \ \n| 6 | Q1 | SOT-23 | 1 | Q_NMOS_GSD |  |  | [''] | \n| 7 | R1,R2 | R_0603_1608Metric\
+  \ | 2 | 1K |  |  | [''] | \n| 8 | R3 | R_0603_1608Metric | 1 | 1M |  |  | [''] |\
+  \ \n"
+bom_schematic: []
+bom_schematic_markdown: no data
 counter: 1
 file_kicad_pcb_flat: projects/asukiaaa_touch_relay_jack_touch_relay_jack/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asukiaaa_touch_relay_jack_touch_relay_jack/current_version/working/working.kicad_pcb
 file_sch_flat: projects/asukiaaa_touch_relay_jack_touch_relay_jack/current_version/working/working.sch
 id: asukiaaa_touch_relay_jack_touch_relay_jack
 name: touch_relay_jack
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': A1
+  Package: Pro_Micro
+  PosX: 112.851
+  PosY: -101.421
+  Rot: 0.0
+  Side: top
+  Val: Pro_Micro
+- '# Ref': D1
+  Package: D_SOD-523
+  PosX: 108.52
+  PosY: -111.252
+  Rot: 0.0
+  Side: top
+  Val: D_Shockley
+- '# Ref': D2
+  Package: LED_0603_1608Metric
+  PosX: 101.092
+  PosY: -116.052
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': J1
+  Package: Jack_3.5mm_Switronic_ST-005-G_horizontal
+  PosX: 113.03
+  PosY: -90.17
+  Rot: -90.0
+  Side: top
+  Val: AudioJack3_Ground
+- '# Ref': K1
+  Package: Relay_SPDT_HsinDa_Y14
+  PosX: 112.014
+  PosY: -116.332
+  Rot: 90.0
+  Side: top
+  Val: Y14x-1C-xxDS
+- '# Ref': Q1
+  Package: SOT-23
+  PosX: 108.712
+  PosY: -108.458
+  Rot: -90.0
+  Side: top
+  Val: Q_NMOS_GSD
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 102.87
+  PosY: -116.104
+  Rot: -90.0
+  Side: top
+  Val: 1K
+- '# Ref': R2
+  Package: R_0603_1608Metric
+  PosX: 108.686
+  PosY: -105.664
+  Rot: 0.0
+  Side: top
+  Val: 1K
+- '# Ref': R3
+  Package: R_0603_1608Metric
+  PosX: 108.432
+  PosY: -115.57
+  Rot: 180.0
+  Side: top
+  Val: 1M
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| A1 | Pro_Micro | Pro_Micro | 112.851\
+  \ | -101.421 | 0.0 | top | \n| D1 | D_Shockley | D_SOD-523 | 108.52 | -111.252 |\
+  \ 0.0 | top | \n| D2 | LED | LED_0603_1608Metric | 101.092 | -116.052 | 90.0 | top\
+  \ | \n| J1 | AudioJack3_Ground | Jack_3.5mm_Switronic_ST-005-G_horizontal | 113.03\
+  \ | -90.17 | -90.0 | top | \n| K1 | Y14x-1C-xxDS | Relay_SPDT_HsinDa_Y14 | 112.014\
+  \ | -116.332 | 90.0 | top | \n| Q1 | Q_NMOS_GSD | SOT-23 | 108.712 | -108.458 |\
+  \ -90.0 | top | \n| R1 | 1K | R_0603_1608Metric | 102.87 | -116.104 | -90.0 | top\
+  \ | \n| R2 | 1K | R_0603_1608Metric | 108.686 | -105.664 | 0.0 | top | \n| R3 |\
+  \ 1M | R_0603_1608Metric | 108.432 | -115.57 | 180.0 | top | \n"
 projects_flat: projects/asukiaaa_touch_relay_jack_touch_relay_jack/current_version/working
 repo:
   allow_forking: true

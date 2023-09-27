@@ -1,9 +1,895 @@
 board: rocket_pane_v3l
+bom:
+- Id: '1'
+  Designator: '@HOLE72,@HOLE63,@HOLE25,@HOLE85,@HOLE20,@HOLE17,@HOLE7,@HOLE42,@HOLE31,@HOLE70,@HOLE1,@HOLE32,@HOLE18,@HOLE49,@HOLE12,@HOLE64,@HOLE8,@HOLE89,@HOLE59,@HOLE4,@HOLE30,@HOLE29,@HOLE9,@HOLE80,@HOLE23,@HOLE83,@HOLE2,@HOLE33,@HOLE60,@HOLE41,@HOLE82,@HOLE56,@HOLE0,@HOLE90,@HOLE77,@HOLE19,@HOLE10,@HOLE43,@HOLE22,@HOLE15,@HOLE62,@HOLE58,@HOLE73,@HOLE57,@HOLE36,@HOLE27,@HOLE75,@HOLE66,@HOLE92,@HOLE45,@HOLE13,@HOLE94,@HOLE81,@HOLE68,@HOLE44,@HOLE3,@HOLE87,@HOLE24,@HOLE38,@HOLE61,@HOLE35,@HOLE88,@HOLE34,@HOLE76,@HOLE37,@HOLE11,@HOLE71,@HOLE5,@HOLE78,@HOLE53,@HOLE93,@HOLE28,@HOLE6,@HOLE54,@HOLE48,@HOLE51,@HOLE50,@HOLE79,@HOLE69,@HOLE84,@HOLE52,@HOLE91,@HOLE39,@HOLE47,@HOLE74,@HOLE21,@HOLE14,@HOLE65,@HOLE67,@HOLE16,@HOLE55,@HOLE40,@HOLE46,@HOLE86,@HOLE26'
+  Footprint: ''
+  Quantity: '95'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J1,J2
+  Footprint: 1X01
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U$1
+  Footprint: TEXT1466#PNG
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U$2
+  Footprint: GREATBIGFACTORYCLOUDLOGO#PNG
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R1
+  Footprint: AXIAL-0.3
+  Quantity: '1'
+  Designation: 1k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: BT1
+  Footprint: BATTCON_20MM_4LEGS
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | @HOLE72,@HOLE63,@HOLE25,@HOLE85,@HOLE20,@HOLE17,@HOLE7,@HOLE42,@HOLE31,@HOLE70,@HOLE1,@HOLE32,@HOLE18,@HOLE49,@HOLE12,@HOLE64,@HOLE8,@HOLE89,@HOLE59,@HOLE4,@HOLE30,@HOLE29,@HOLE9,@HOLE80,@HOLE23,@HOLE83,@HOLE2,@HOLE33,@HOLE60,@HOLE41,@HOLE82,@HOLE56,@HOLE0,@HOLE90,@HOLE77,@HOLE19,@HOLE10,@HOLE43,@HOLE22,@HOLE15,@HOLE62,@HOLE58,@HOLE73,@HOLE57,@HOLE36,@HOLE27,@HOLE75,@HOLE66,@HOLE92,@HOLE45,@HOLE13,@HOLE94,@HOLE81,@HOLE68,@HOLE44,@HOLE3,@HOLE87,@HOLE24,@HOLE38,@HOLE61,@HOLE35,@HOLE88,@HOLE34,@HOLE76,@HOLE37,@HOLE11,@HOLE71,@HOLE5,@HOLE78,@HOLE53,@HOLE93,@HOLE28,@HOLE6,@HOLE54,@HOLE48,@HOLE51,@HOLE50,@HOLE79,@HOLE69,@HOLE84,@HOLE52,@HOLE91,@HOLE39,@HOLE47,@HOLE74,@HOLE21,@HOLE14,@HOLE65,@HOLE67,@HOLE16,@HOLE55,@HOLE40,@HOLE46,@HOLE86,@HOLE26\
+  \ |  | 95 |  |  |  | [''] | \n| 2 | J1,J2 | 1X01 | 2 |  |  |  | [''] | \n| 3 | U$1\
+  \ | TEXT1466#PNG | 1 |  |  |  | [''] | \n| 4 | U$2 | GREATBIGFACTORYCLOUDLOGO#PNG\
+  \ | 1 |  |  |  | [''] | \n| 5 | R1 | AXIAL-0.3 | 1 | 1k |  |  | [''] | \n| 6 | BT1\
+  \ | BATTCON_20MM_4LEGS | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: BATTERY-20MM_SMD_4LEGS
+  DNP: ''
+  Description: ''
+  Footprint: working:BATTCON_20MM_4LEGS
+  Qnty: '1'
+  Ref: BT1
+  Value: BATTERY-20MM_SMD_4LEGS
+  Vendor: ''
+- Cmp name: CONN_01
+  DNP: ''
+  Description: ''
+  Footprint: working:1X01
+  Qnty: '2'
+  Ref: J1, J2
+  Value: CONN_01
+  Vendor: ''
+- Cmp name: 1KOHM-HORIZ-1/4W-1%
+  DNP: ''
+  Description: ''
+  Footprint: working:AXIAL-0.3
+  Qnty: '1'
+  Ref: R1
+  Value: 1KOHM-HORIZ-1/4W-1%
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| BT1 |\
+  \ 1 | BATTERY-20MM_SMD_4LEGS | BATTERY-20MM_SMD_4LEGS | working:BATTCON_20MM_4LEGS\
+  \ |  |  |  | \n| J1, J2 | 2 | CONN_01 | CONN_01 | working:1X01 |  |  |  | \n| R1\
+  \ | 1 | 1KOHM-HORIZ-1/4W-1% | 1KOHM-HORIZ-1/4W-1% | working:AXIAL-0.3 |  |  |  |\
+  \ \n"
 counter: 1
 file_brd_flat: projects/npoole_3d_soldering_kits_rocket_pane_v3l/current_version/working/working.brd
 file_sch_flat: projects/npoole_3d_soldering_kits_rocket_pane_v3l/current_version/working/working.sch
 id: npoole_3d_soldering_kits_rocket_pane_v3l
 name: 3d_soldering_kits
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 87.2051
+  PosY: -160.3306
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 87.2051
+  PosY: -161.2196
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE2'
+  Package: .nan
+  PosX: 87.2051
+  PosY: -162.1086
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE3'
+  Package: .nan
+  PosX: 87.2051
+  PosY: -162.9976
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE4'
+  Package: .nan
+  PosX: 87.2051
+  PosY: -163.8866
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE5'
+  Package: .nan
+  PosX: 87.2051
+  PosY: -164.7756
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE6'
+  Package: .nan
+  PosX: 209.7601
+  PosY: -45.1416
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE7'
+  Package: .nan
+  PosX: 209.7601
+  PosY: -46.0306
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE8'
+  Package: .nan
+  PosX: 209.7601
+  PosY: -46.9196
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE9'
+  Package: .nan
+  PosX: 209.7601
+  PosY: -47.8086
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE10'
+  Package: .nan
+  PosX: 209.7601
+  PosY: -48.6976
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE11'
+  Package: .nan
+  PosX: 209.7601
+  PosY: -49.5866
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE12'
+  Package: .nan
+  PosX: 193.5041
+  PosY: -160.4576
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE13'
+  Package: .nan
+  PosX: 193.5041
+  PosY: -161.3466
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE14'
+  Package: .nan
+  PosX: 193.5041
+  PosY: -162.2356
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE15'
+  Package: .nan
+  PosX: 193.5041
+  PosY: -163.1246
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE16'
+  Package: .nan
+  PosX: 193.5041
+  PosY: -164.0136
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE17'
+  Package: .nan
+  PosX: 193.5041
+  PosY: -164.9026
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE18'
+  Package: .nan
+  PosX: 103.4611
+  PosY: -45.1416
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE19'
+  Package: .nan
+  PosX: 103.4611
+  PosY: -46.0306
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE20'
+  Package: .nan
+  PosX: 103.4611
+  PosY: -46.9196
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE21'
+  Package: .nan
+  PosX: 103.4611
+  PosY: -47.8086
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE22'
+  Package: .nan
+  PosX: 103.4611
+  PosY: -48.6976
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE23'
+  Package: .nan
+  PosX: 103.4611
+  PosY: -49.5866
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE24'
+  Package: .nan
+  PosX: 103.5881
+  PosY: -92.2586
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE25'
+  Package: .nan
+  PosX: 103.5881
+  PosY: -91.3696
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE26'
+  Package: .nan
+  PosX: 103.5881
+  PosY: -90.4806
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE27'
+  Package: .nan
+  PosX: 103.5881
+  PosY: -89.5916
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE28'
+  Package: .nan
+  PosX: 103.5881
+  PosY: -88.7026
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE29'
+  Package: .nan
+  PosX: 193.5041
+  PosY: -121.2146
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE30'
+  Package: .nan
+  PosX: 193.5041
+  PosY: -120.3256
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE31'
+  Package: .nan
+  PosX: 193.5041
+  PosY: -119.4366
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE32'
+  Package: .nan
+  PosX: 193.5041
+  PosY: -118.5476
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE33'
+  Package: .nan
+  PosX: 193.5041
+  PosY: -117.6586
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE34'
+  Package: .nan
+  PosX: 184.2726
+  PosY: -117.7818
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE35'
+  Package: .nan
+  PosX: 184.1951
+  PosY: -118.6674
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE36'
+  Package: .nan
+  PosX: 184.1176
+  PosY: -119.5531
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE37'
+  Package: .nan
+  PosX: 184.0401
+  PosY: -120.4387
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE38'
+  Package: .nan
+  PosX: 183.9626
+  PosY: -121.3243
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE39'
+  Package: .nan
+  PosX: 112.7421
+  PosY: -92.2591
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE40'
+  Package: .nan
+  PosX: 112.8195
+  PosY: -91.3735
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE41'
+  Package: .nan
+  PosX: 112.897
+  PosY: -90.4878
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE42'
+  Package: .nan
+  PosX: 112.9745
+  PosY: -89.6022
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE43'
+  Package: .nan
+  PosX: 113.052
+  PosY: -88.7166
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE44'
+  Package: .nan
+  PosX: 146.5344
+  PosY: -60.1106
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE45'
+  Package: .nan
+  PosX: 145.7645
+  PosY: -59.6661
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE46'
+  Package: .nan
+  PosX: 144.9946
+  PosY: -59.2216
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE47'
+  Package: .nan
+  PosX: 144.2247
+  PosY: -58.7771
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE48'
+  Package: .nan
+  PosX: 143.4548
+  PosY: -58.3326
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE49'
+  Package: .nan
+  PosX: 99.2497
+  PosY: -150.6957
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE50'
+  Package: .nan
+  PosX: 100.0196
+  PosY: -150.2512
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE51'
+  Package: .nan
+  PosX: 100.7895
+  PosY: -149.8067
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE52'
+  Package: .nan
+  PosX: 101.5594
+  PosY: -149.3622
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE53'
+  Package: .nan
+  PosX: 102.3293
+  PosY: -148.9177
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE54'
+  Package: .nan
+  PosX: 113.3467
+  PosY: -141.8057
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE55'
+  Package: .nan
+  PosX: 114.1166
+  PosY: -141.3612
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE56'
+  Package: .nan
+  PosX: 114.8865
+  PosY: -140.9167
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE57'
+  Package: .nan
+  PosX: 115.6564
+  PosY: -140.4722
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE58'
+  Package: .nan
+  PosX: 116.4263
+  PosY: -140.0277
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE59'
+  Package: .nan
+  PosX: 182.1807
+  PosY: -68.9077
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE60'
+  Package: .nan
+  PosX: 182.9506
+  PosY: -68.4632
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE61'
+  Package: .nan
+  PosX: 183.7205
+  PosY: -68.0187
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE62'
+  Package: .nan
+  PosX: 184.4904
+  PosY: -67.5742
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE63'
+  Package: .nan
+  PosX: 185.2603
+  PosY: -67.1297
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE64'
+  Package: .nan
+  PosX: 196.2777
+  PosY: -60.0177
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE65'
+  Package: .nan
+  PosX: 197.0476
+  PosY: -59.5732
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE66'
+  Package: .nan
+  PosX: 197.8175
+  PosY: -59.1287
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE67'
+  Package: .nan
+  PosX: 198.5874
+  PosY: -58.6842
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE68'
+  Package: .nan
+  PosX: 199.3573
+  PosY: -58.2397
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE69'
+  Package: .nan
+  PosX: 138.1524
+  PosY: -142.1526
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE70'
+  Package: .nan
+  PosX: 137.3825
+  PosY: -141.7081
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE71'
+  Package: .nan
+  PosX: 136.6126
+  PosY: -141.2636
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE72'
+  Package: .nan
+  PosX: 135.8427
+  PosY: -140.8191
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE73'
+  Package: .nan
+  PosX: 135.0728
+  PosY: -140.3746
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE74'
+  Package: .nan
+  PosX: 152.3764
+  PosY: -151.0426
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE75'
+  Package: .nan
+  PosX: 151.6065
+  PosY: -150.5981
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE76'
+  Package: .nan
+  PosX: 150.8366
+  PosY: -150.1536
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE77'
+  Package: .nan
+  PosX: 150.0667
+  PosY: -149.7091
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE78'
+  Package: .nan
+  PosX: 149.2968
+  PosY: -149.2646
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE79'
+  Package: .nan
+  PosX: 160.6314
+  PosY: -68.8736
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE80'
+  Package: .nan
+  PosX: 159.8615
+  PosY: -68.4291
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE81'
+  Package: .nan
+  PosX: 159.0916
+  PosY: -67.9846
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE82'
+  Package: .nan
+  PosX: 158.3217
+  PosY: -67.5401
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE83'
+  Package: .nan
+  PosX: 157.5518
+  PosY: -67.0956
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE84'
+  Package: .nan
+  PosX: 210.2681
+  PosY: -110.8006
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE85'
+  Package: .nan
+  PosX: 211.1571
+  PosY: -110.8006
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE86'
+  Package: .nan
+  PosX: 212.0461
+  PosY: -110.8006
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE87'
+  Package: .nan
+  PosX: 212.9351
+  PosY: -110.8006
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE88'
+  Package: .nan
+  PosX: 213.8241
+  PosY: -110.8006
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE89'
+  Package: .nan
+  PosX: 214.7131
+  PosY: -110.8006
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE90'
+  Package: .nan
+  PosX: 212.6811
+  PosY: -162.7436
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE91'
+  Package: .nan
+  PosX: 126.5751
+  PosY: -98.7356
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE92'
+  Package: .nan
+  PosX: 124.6701
+  PosY: -98.7356
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE93'
+  Package: .nan
+  PosX: 172.2951
+  PosY: -111.5626
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE94'
+  Package: .nan
+  PosX: 170.3901
+  PosY: -111.5626
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': BT1
+  Package: BATTCON_20MM_4LEGS
+  PosX: 172.0411
+  PosY: -95.4336
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': J1
+  Package: 1X01
+  PosX: 176.7401
+  PosY: -75.1136
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': J2
+  Package: 1X01
+  PosX: 165.6911
+  PosY: -75.1136
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: AXIAL-0.3
+  PosX: 161.8811
+  PosY: -78.9236
+  Rot: 90.0
+  Side: top
+  Val: 1k
+- '# Ref': U$1
+  Package: TEXT1466#PNG
+  PosX: 92.0311
+  PosY: -67.4936
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': U$2
+  Package: GREATBIGFACTORYCLO
+  PosX: 205.0611
+  PosY: -140.7726
+  Rot: 90.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 87.2051 | -160.3306\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 87.2051 | -161.2196 | 0.0 | top | \n| @HOLE2\
+  \ | nan | nan | 87.2051 | -162.1086 | 0.0 | top | \n| @HOLE3 | nan | nan | 87.2051\
+  \ | -162.9976 | 0.0 | top | \n| @HOLE4 | nan | nan | 87.2051 | -163.8866 | 0.0 |\
+  \ top | \n| @HOLE5 | nan | nan | 87.2051 | -164.7756 | 0.0 | top | \n| @HOLE6 |\
+  \ nan | nan | 209.7601 | -45.1416 | 0.0 | top | \n| @HOLE7 | nan | nan | 209.7601\
+  \ | -46.0306 | 0.0 | top | \n| @HOLE8 | nan | nan | 209.7601 | -46.9196 | 0.0 |\
+  \ top | \n| @HOLE9 | nan | nan | 209.7601 | -47.8086 | 0.0 | top | \n| @HOLE10 |\
+  \ nan | nan | 209.7601 | -48.6976 | 0.0 | top | \n| @HOLE11 | nan | nan | 209.7601\
+  \ | -49.5866 | 0.0 | top | \n| @HOLE12 | nan | nan | 193.5041 | -160.4576 | 0.0\
+  \ | top | \n| @HOLE13 | nan | nan | 193.5041 | -161.3466 | 0.0 | top | \n| @HOLE14\
+  \ | nan | nan | 193.5041 | -162.2356 | 0.0 | top | \n| @HOLE15 | nan | nan | 193.5041\
+  \ | -163.1246 | 0.0 | top | \n| @HOLE16 | nan | nan | 193.5041 | -164.0136 | 0.0\
+  \ | top | \n| @HOLE17 | nan | nan | 193.5041 | -164.9026 | 0.0 | top | \n| @HOLE18\
+  \ | nan | nan | 103.4611 | -45.1416 | 0.0 | top | \n| @HOLE19 | nan | nan | 103.4611\
+  \ | -46.0306 | 0.0 | top | \n| @HOLE20 | nan | nan | 103.4611 | -46.9196 | 0.0 |\
+  \ top | \n| @HOLE21 | nan | nan | 103.4611 | -47.8086 | 0.0 | top | \n| @HOLE22\
+  \ | nan | nan | 103.4611 | -48.6976 | 0.0 | top | \n| @HOLE23 | nan | nan | 103.4611\
+  \ | -49.5866 | 0.0 | top | \n| @HOLE24 | nan | nan | 103.5881 | -92.2586 | 0.0 |\
+  \ top | \n| @HOLE25 | nan | nan | 103.5881 | -91.3696 | 0.0 | top | \n| @HOLE26\
+  \ | nan | nan | 103.5881 | -90.4806 | 0.0 | top | \n| @HOLE27 | nan | nan | 103.5881\
+  \ | -89.5916 | 0.0 | top | \n| @HOLE28 | nan | nan | 103.5881 | -88.7026 | 0.0 |\
+  \ top | \n| @HOLE29 | nan | nan | 193.5041 | -121.2146 | 0.0 | top | \n| @HOLE30\
+  \ | nan | nan | 193.5041 | -120.3256 | 0.0 | top | \n| @HOLE31 | nan | nan | 193.5041\
+  \ | -119.4366 | 0.0 | top | \n| @HOLE32 | nan | nan | 193.5041 | -118.5476 | 0.0\
+  \ | top | \n| @HOLE33 | nan | nan | 193.5041 | -117.6586 | 0.0 | top | \n| @HOLE34\
+  \ | nan | nan | 184.2726 | -117.7818 | 0.0 | top | \n| @HOLE35 | nan | nan | 184.1951\
+  \ | -118.6674 | 0.0 | top | \n| @HOLE36 | nan | nan | 184.1176 | -119.5531 | 0.0\
+  \ | top | \n| @HOLE37 | nan | nan | 184.0401 | -120.4387 | 0.0 | top | \n| @HOLE38\
+  \ | nan | nan | 183.9626 | -121.3243 | 0.0 | top | \n| @HOLE39 | nan | nan | 112.7421\
+  \ | -92.2591 | 0.0 | top | \n| @HOLE40 | nan | nan | 112.8195 | -91.3735 | 0.0 |\
+  \ top | \n| @HOLE41 | nan | nan | 112.897 | -90.4878 | 0.0 | top | \n| @HOLE42 |\
+  \ nan | nan | 112.9745 | -89.6022 | 0.0 | top | \n| @HOLE43 | nan | nan | 113.052\
+  \ | -88.7166 | 0.0 | top | \n| @HOLE44 | nan | nan | 146.5344 | -60.1106 | 0.0 |\
+  \ top | \n| @HOLE45 | nan | nan | 145.7645 | -59.6661 | 0.0 | top | \n| @HOLE46\
+  \ | nan | nan | 144.9946 | -59.2216 | 0.0 | top | \n| @HOLE47 | nan | nan | 144.2247\
+  \ | -58.7771 | 0.0 | top | \n| @HOLE48 | nan | nan | 143.4548 | -58.3326 | 0.0 |\
+  \ top | \n| @HOLE49 | nan | nan | 99.2497 | -150.6957 | 0.0 | top | \n| @HOLE50\
+  \ | nan | nan | 100.0196 | -150.2512 | 0.0 | top | \n| @HOLE51 | nan | nan | 100.7895\
+  \ | -149.8067 | 0.0 | top | \n| @HOLE52 | nan | nan | 101.5594 | -149.3622 | 0.0\
+  \ | top | \n| @HOLE53 | nan | nan | 102.3293 | -148.9177 | 0.0 | top | \n| @HOLE54\
+  \ | nan | nan | 113.3467 | -141.8057 | 0.0 | top | \n| @HOLE55 | nan | nan | 114.1166\
+  \ | -141.3612 | 0.0 | top | \n| @HOLE56 | nan | nan | 114.8865 | -140.9167 | 0.0\
+  \ | top | \n| @HOLE57 | nan | nan | 115.6564 | -140.4722 | 0.0 | top | \n| @HOLE58\
+  \ | nan | nan | 116.4263 | -140.0277 | 0.0 | top | \n| @HOLE59 | nan | nan | 182.1807\
+  \ | -68.9077 | 0.0 | top | \n| @HOLE60 | nan | nan | 182.9506 | -68.4632 | 0.0 |\
+  \ top | \n| @HOLE61 | nan | nan | 183.7205 | -68.0187 | 0.0 | top | \n| @HOLE62\
+  \ | nan | nan | 184.4904 | -67.5742 | 0.0 | top | \n| @HOLE63 | nan | nan | 185.2603\
+  \ | -67.1297 | 0.0 | top | \n| @HOLE64 | nan | nan | 196.2777 | -60.0177 | 0.0 |\
+  \ top | \n| @HOLE65 | nan | nan | 197.0476 | -59.5732 | 0.0 | top | \n| @HOLE66\
+  \ | nan | nan | 197.8175 | -59.1287 | 0.0 | top | \n| @HOLE67 | nan | nan | 198.5874\
+  \ | -58.6842 | 0.0 | top | \n| @HOLE68 | nan | nan | 199.3573 | -58.2397 | 0.0 |\
+  \ top | \n| @HOLE69 | nan | nan | 138.1524 | -142.1526 | 0.0 | top | \n| @HOLE70\
+  \ | nan | nan | 137.3825 | -141.7081 | 0.0 | top | \n| @HOLE71 | nan | nan | 136.6126\
+  \ | -141.2636 | 0.0 | top | \n| @HOLE72 | nan | nan | 135.8427 | -140.8191 | 0.0\
+  \ | top | \n| @HOLE73 | nan | nan | 135.0728 | -140.3746 | 0.0 | top | \n| @HOLE74\
+  \ | nan | nan | 152.3764 | -151.0426 | 0.0 | top | \n| @HOLE75 | nan | nan | 151.6065\
+  \ | -150.5981 | 0.0 | top | \n| @HOLE76 | nan | nan | 150.8366 | -150.1536 | 0.0\
+  \ | top | \n| @HOLE77 | nan | nan | 150.0667 | -149.7091 | 0.0 | top | \n| @HOLE78\
+  \ | nan | nan | 149.2968 | -149.2646 | 0.0 | top | \n| @HOLE79 | nan | nan | 160.6314\
+  \ | -68.8736 | 0.0 | top | \n| @HOLE80 | nan | nan | 159.8615 | -68.4291 | 0.0 |\
+  \ top | \n| @HOLE81 | nan | nan | 159.0916 | -67.9846 | 0.0 | top | \n| @HOLE82\
+  \ | nan | nan | 158.3217 | -67.5401 | 0.0 | top | \n| @HOLE83 | nan | nan | 157.5518\
+  \ | -67.0956 | 0.0 | top | \n| @HOLE84 | nan | nan | 210.2681 | -110.8006 | 0.0\
+  \ | top | \n| @HOLE85 | nan | nan | 211.1571 | -110.8006 | 0.0 | top | \n| @HOLE86\
+  \ | nan | nan | 212.0461 | -110.8006 | 0.0 | top | \n| @HOLE87 | nan | nan | 212.9351\
+  \ | -110.8006 | 0.0 | top | \n| @HOLE88 | nan | nan | 213.8241 | -110.8006 | 0.0\
+  \ | top | \n| @HOLE89 | nan | nan | 214.7131 | -110.8006 | 0.0 | top | \n| @HOLE90\
+  \ | nan | nan | 212.6811 | -162.7436 | 0.0 | top | \n| @HOLE91 | nan | nan | 126.5751\
+  \ | -98.7356 | 0.0 | top | \n| @HOLE92 | nan | nan | 124.6701 | -98.7356 | 0.0 |\
+  \ top | \n| @HOLE93 | nan | nan | 172.2951 | -111.5626 | 0.0 | top | \n| @HOLE94\
+  \ | nan | nan | 170.3901 | -111.5626 | 0.0 | top | \n| BT1 | nan | BATTCON_20MM_4LEGS\
+  \ | 172.0411 | -95.4336 | 90.0 | top | \n| J1 | nan | 1X01 | 176.7401 | -75.1136\
+  \ | 0.0 | top | \n| J2 | nan | 1X01 | 165.6911 | -75.1136 | 0.0 | top | \n| R1 |\
+  \ 1k | AXIAL-0.3 | 161.8811 | -78.9236 | 90.0 | top | \n| U$1 | nan | TEXT1466#PNG\
+  \ | 92.0311 | -67.4936 | 90.0 | top | \n| U$2 | nan | GREATBIGFACTORYCLO | 205.0611\
+  \ | -140.7726 | 90.0 | top | \n"
 projects_flat: projects/npoole_3d_soldering_kits_rocket_pane_v3l/current_version/working
 repo:
   allow_forking: true

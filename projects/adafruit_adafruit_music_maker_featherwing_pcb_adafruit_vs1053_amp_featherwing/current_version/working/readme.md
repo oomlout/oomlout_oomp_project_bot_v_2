@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -28,13 +49,13 @@
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | J1,J2 | TERMBLOCK_1X2-3.5MM | 2 | 3.5mm |  |  | [''] | 
-| 2 | C19,C9,C11,C7,C10 | 0603-NO | 5 | 1µF |  |  | [''] | 
+| 2 | C19,C9,C11,C7,C10 | 0603-NO | 5 | 1ÂµF |  |  | [''] | 
 | 3 | R6,R7 | 0603-NO | 2 | 100 |  |  | [''] | 
 | 4 | R2,R5,R8 | 0603-NO | 3 | 100K |  |  | [''] | 
 | 5 | R4,R3 | 0603-NO | 2 | 22 |  |  | [''] | 
 | 6 | R16 | RESPACK_4X0603 | 1 | 100K |  |  | [''] | 
 | 7 | R1 | 0603-NO | 1 | 1M |  |  | [''] | 
-| 8 | C20,C1 | 0805-NO | 2 | 10µF |  |  | [''] | 
+| 8 | C20,C1 | 0805-NO | 2 | 10ÂµF |  |  | [''] | 
 | 9 | C4,C5 | 0603-NO | 2 | 22pF |  |  | [''] | 
 | 10 | D2,D1 | SOD-123 | 2 | MBR120 |  |  | [''] | 
 | 11 | Y1 | CRYSTAL_3.2X2.5 | 1 | ABM8G-12.288MHZ-4Y-T3 |  |  | [''] | 
@@ -43,10 +64,10 @@
 | 14 | JP5 | 1X01_ROUND | 1 |  |  |  | [''] | 
 | 15 | MS1 | FEATHERWING_NODIM | 1 | FEATHERWING_NODIM |  |  | [''] | 
 | 16 | U3 | WQFN20 | 1 | TPA2012 |  |  | [''] | 
-| 17 | C6 | _0805MP | 1 | 10µF |  |  | [''] | 
+| 17 | C6 | _0805MP | 1 | 10ÂµF |  |  | [''] | 
 | 18 | CN1 | MICROSD | 1 | 2908-05WB-M6 |  |  | [''] | 
 | 19 | R9 | _0603MP | 1 | 100K |  |  | [''] | 
-| 20 | C26,C8,C2 | 0603-NO | 3 | 0.1µF |  |  | [''] | 
+| 20 | C26,C8,C2 | 0603-NO | 3 | 0.1ÂµF |  |  | [''] | 
 | 21 | C22,C21 | 0603-NO | 2 | 10nF |  |  | [''] | 
 | 22 | U2 | SOT23-6 | 1 | AP7312-1833W6-7 |  |  | [''] | 
 | 23 | SW1 | BTN_KMR2_4.6X2.8 | 1 | KMR2 |  |  | [''] | 
@@ -65,12 +86,12 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1, C20 | 2 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C2, C8, C26 | 3 | 0.1µF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
+| C1, C20 | 2 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C2, C8, C26 | 3 | 0.1ÂµF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C3 | 1 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C4, C5 | 2 | 22pF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C6 | 1 | 10µF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
-| C7, C9, C10, C11, C19 | 5 | 1µF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
+| C6 | 1 | 10ÂµF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
+| C7, C9, C10, C11, C19 | 5 | 1ÂµF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C21, C22 | 2 | 10nF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | CN1 | 1 | 2908-05WB-M6 | MICROSD | working:MICROSD |  |  |  | 
 | D1, D2 | 2 | MBR120 | DIODE-SCHOTTKYSOD-123 | working:SOD-123 |  |  |  | 

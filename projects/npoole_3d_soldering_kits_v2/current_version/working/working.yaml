@@ -1,9 +1,462 @@
 board: v2
+bom:
+- Id: '1'
+  Designator: '@HOLE29,@HOLE4,@HOLE10,@HOLE3,@HOLE6,@HOLE8,@HOLE27,@HOLE12,@HOLE36,@HOLE16,@HOLE19,@HOLE13,@HOLE20,@HOLE34,@HOLE1,@HOLE17,@HOLE2,@HOLE11,@HOLE26,@HOLE21,@HOLE0,@HOLE22,@HOLE40,@HOLE15,@HOLE24,@HOLE39,@HOLE32,@HOLE33,@HOLE38,@HOLE7,@HOLE30,@HOLE28,@HOLE35,@HOLE5,@HOLE18,@HOLE9,@HOLE23,@HOLE14,@HOLE25,@HOLE37,@HOLE31'
+  Footprint: ''
+  Quantity: '41'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: S1
+  Footprint: TACTILE_SWITCH_PTH_6.0MM
+  Quantity: '1'
+  Designation: MOMENTARY-SWITCH-SPST-PTH-6.0MM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: BT1
+  Footprint: BATTCON_20MM_4LEGS
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: D1
+  Footprint: LED_5MM
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R1
+  Footprint: AXIAL-0.3
+  Quantity: '1'
+  Designation: 1k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | @HOLE29,@HOLE4,@HOLE10,@HOLE3,@HOLE6,@HOLE8,@HOLE27,@HOLE12,@HOLE36,@HOLE16,@HOLE19,@HOLE13,@HOLE20,@HOLE34,@HOLE1,@HOLE17,@HOLE2,@HOLE11,@HOLE26,@HOLE21,@HOLE0,@HOLE22,@HOLE40,@HOLE15,@HOLE24,@HOLE39,@HOLE32,@HOLE33,@HOLE38,@HOLE7,@HOLE30,@HOLE28,@HOLE35,@HOLE5,@HOLE18,@HOLE9,@HOLE23,@HOLE14,@HOLE25,@HOLE37,@HOLE31\
+  \ |  | 41 |  |  |  | [''] | \n| 2 | S1 | TACTILE_SWITCH_PTH_6.0MM | 1 | MOMENTARY-SWITCH-SPST-PTH-6.0MM\
+  \ |  |  | [''] | \n| 3 | BT1 | BATTCON_20MM_4LEGS | 1 |  |  |  | [''] | \n| 4 |\
+  \ D1 | LED_5MM | 1 |  |  |  | [''] | \n| 5 | R1 | AXIAL-0.3 | 1 | 1k |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: BATTERY-20MM_SMD_4LEGS
+  DNP: ''
+  Description: ''
+  Footprint: working:BATTCON_20MM_4LEGS
+  Qnty: '1'
+  Ref: BT1
+  Value: BATTERY-20MM_SMD_4LEGS
+  Vendor: ''
+- Cmp name: LED5MM
+  DNP: ''
+  Description: ''
+  Footprint: working:LED_5MM
+  Qnty: '1'
+  Ref: D1
+  Value: LED5MM
+  Vendor: ''
+- Cmp name: 1KOHM-HORIZ-1/4W-1%
+  DNP: ''
+  Description: ''
+  Footprint: working:AXIAL-0.3
+  Qnty: '1'
+  Ref: R1
+  Value: 1KOHM-HORIZ-1/4W-1%
+  Vendor: ''
+- Cmp name: MOMENTARY-SWITCH-SPST-PTH-6.0MM
+  DNP: ''
+  Description: ''
+  Footprint: working:TACTILE_SWITCH_PTH_6.0MM
+  Qnty: '1'
+  Ref: S1
+  Value: MOMENTARY-SWITCH-SPST-PTH-6.0MM
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| BT1 |\
+  \ 1 | BATTERY-20MM_SMD_4LEGS | BATTERY-20MM_SMD_4LEGS | working:BATTCON_20MM_4LEGS\
+  \ |  |  |  | \n| D1 | 1 | LED5MM | LED5MM | working:LED_5MM |  |  |  | \n| R1 |\
+  \ 1 | 1KOHM-HORIZ-1/4W-1% | 1KOHM-HORIZ-1/4W-1% | working:AXIAL-0.3 |  |  |  | \n\
+  | S1 | 1 | MOMENTARY-SWITCH-SPST-PTH-6.0MM | MOMENTARY-SWITCH-SPST-PTH-6.0MM | working:TACTILE_SWITCH_PTH_6.0MM\
+  \ |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/npoole_3d_soldering_kits_v2/current_version/working/working.brd
 file_sch_flat: projects/npoole_3d_soldering_kits_v2/current_version/working/working.sch
 id: npoole_3d_soldering_kits_v2
 name: 3d_soldering_kits
+position_bottom:
+- '# Ref': BT1
+  Package: BATTCON_20MM_4LEGS
+  PosX: 184.6394
+  PosY: -103.9575
+  Rot: -60.0
+  Side: bottom
+  Val: .nan
+- '# Ref': D1
+  Package: LED_5MM
+  PosX: 165.0814
+  PosY: -113.7365
+  Rot: 120.0
+  Side: bottom
+  Val: .nan
+- '# Ref': R1
+  Package: AXIAL-0.3
+  PosX: 190.9894
+  PosY: -117.9275
+  Rot: -150.0
+  Side: bottom
+  Val: 1k
+- '# Ref': S1
+  Package: TACTILE_SWITCH_PTH_6.0MM
+  PosX: 174.4794
+  PosY: -89.9875
+  Rot: 30.0
+  Side: bottom
+  Val: MOMENTARY-SWITCH-SPST-PTH-6.0MM
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| BT1 | nan | BATTCON_20MM_4LEGS |\
+  \ 184.6394 | -103.9575 | -60.0 | bottom | \n| D1 | nan | LED_5MM | 165.0814 | -113.7365\
+  \ | 120.0 | bottom | \n| R1 | 1k | AXIAL-0.3 | 190.9894 | -117.9275 | -150.0 | bottom\
+  \ | \n| S1 | MOMENTARY-SWITCH-SPST-PTH-6.0MM | TACTILE_SWITCH_PTH_6.0MM | 174.4794\
+  \ | -89.9875 | 30.0 | bottom | \n"
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 126.7274
+  PosY: -65.3495
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 126.7274
+  PosY: -73.2235
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE2'
+  Package: .nan
+  PosX: 126.7274
+  PosY: -81.2245
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE3'
+  Package: .nan
+  PosX: 126.6004
+  PosY: -84.6535
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE4'
+  Package: .nan
+  PosX: 126.7274
+  PosY: -88.3365
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE5'
+  Package: .nan
+  PosX: 126.7274
+  PosY: -96.2105
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE6'
+  Package: .nan
+  PosX: 126.7274
+  PosY: -104.2115
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE7'
+  Package: .nan
+  PosX: 126.7274
+  PosY: -107.7675
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE8'
+  Package: .nan
+  PosX: 126.7274
+  PosY: -111.3235
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE9'
+  Package: .nan
+  PosX: 126.7274
+  PosY: -119.3245
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE10'
+  Package: .nan
+  PosX: 126.6004
+  PosY: -127.1985
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE11'
+  Package: .nan
+  PosX: 126.6004
+  PosY: -130.7545
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE12'
+  Package: .nan
+  PosX: 98.2794
+  PosY: -128.8495
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE13'
+  Package: .nan
+  PosX: 98.2794
+  PosY: -105.8625
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE14'
+  Package: .nan
+  PosX: 98.1524
+  PosY: -82.7485
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE15'
+  Package: .nan
+  PosX: 148.3174
+  PosY: -86.5585
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE16'
+  Package: .nan
+  PosX: 180.9564
+  PosY: -86.5585
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE17'
+  Package: .nan
+  PosX: 197.2124
+  PosY: -114.6255
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE18'
+  Package: .nan
+  PosX: 180.8294
+  PosY: -142.6925
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE19'
+  Package: .nan
+  PosX: 148.5714
+  PosY: -142.5655
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE20'
+  Package: .nan
+  PosX: 132.3154
+  PosY: -114.6255
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE21'
+  Package: .nan
+  PosX: 98.2794
+  PosY: -58.6185
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE22'
+  Package: .nan
+  PosX: 98.2794
+  PosY: -59.5075
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE23'
+  Package: .nan
+  PosX: 98.2794
+  PosY: -60.3965
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE24'
+  Package: .nan
+  PosX: 98.2794
+  PosY: -61.2855
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE25'
+  Package: .nan
+  PosX: 98.2794
+  PosY: -148.7885
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE26'
+  Package: .nan
+  PosX: 98.2794
+  PosY: -149.6775
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE27'
+  Package: .nan
+  PosX: 98.2794
+  PosY: -150.5665
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE28'
+  Package: .nan
+  PosX: 98.2794
+  PosY: -151.4555
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE29'
+  Package: .nan
+  PosX: 107.2964
+  PosY: -81.8595
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE30'
+  Package: .nan
+  PosX: 107.2964
+  PosY: -83.8915
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE31'
+  Package: .nan
+  PosX: 107.4234
+  PosY: -104.9735
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE32'
+  Package: .nan
+  PosX: 107.4234
+  PosY: -106.8785
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE33'
+  Package: .nan
+  PosX: 107.2964
+  PosY: -127.9605
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE34'
+  Package: .nan
+  PosX: 107.2964
+  PosY: -129.8655
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE35'
+  Package: .nan
+  PosX: 163.6844
+  PosY: -92.7815
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE36'
+  Package: .nan
+  PosX: 165.5894
+  PosY: -92.7815
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE37'
+  Package: .nan
+  PosX: 183.1154
+  PosY: -126.3095
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE38'
+  Package: .nan
+  PosX: 184.1314
+  PosY: -124.7855
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE39'
+  Package: .nan
+  PosX: 145.2694
+  PosY: -124.6585
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE40'
+  Package: .nan
+  PosX: 146.2854
+  PosY: -126.3095
+  Rot: 0.0
+  Side: top
+  Val: .nan
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 126.7274 | -65.3495\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 126.7274 | -73.2235 | 0.0 | top | \n| @HOLE2\
+  \ | nan | nan | 126.7274 | -81.2245 | 0.0 | top | \n| @HOLE3 | nan | nan | 126.6004\
+  \ | -84.6535 | 0.0 | top | \n| @HOLE4 | nan | nan | 126.7274 | -88.3365 | 0.0 |\
+  \ top | \n| @HOLE5 | nan | nan | 126.7274 | -96.2105 | 0.0 | top | \n| @HOLE6 |\
+  \ nan | nan | 126.7274 | -104.2115 | 0.0 | top | \n| @HOLE7 | nan | nan | 126.7274\
+  \ | -107.7675 | 0.0 | top | \n| @HOLE8 | nan | nan | 126.7274 | -111.3235 | 0.0\
+  \ | top | \n| @HOLE9 | nan | nan | 126.7274 | -119.3245 | 0.0 | top | \n| @HOLE10\
+  \ | nan | nan | 126.6004 | -127.1985 | 0.0 | top | \n| @HOLE11 | nan | nan | 126.6004\
+  \ | -130.7545 | 0.0 | top | \n| @HOLE12 | nan | nan | 98.2794 | -128.8495 | 0.0\
+  \ | top | \n| @HOLE13 | nan | nan | 98.2794 | -105.8625 | 0.0 | top | \n| @HOLE14\
+  \ | nan | nan | 98.1524 | -82.7485 | 0.0 | top | \n| @HOLE15 | nan | nan | 148.3174\
+  \ | -86.5585 | 0.0 | top | \n| @HOLE16 | nan | nan | 180.9564 | -86.5585 | 0.0 |\
+  \ top | \n| @HOLE17 | nan | nan | 197.2124 | -114.6255 | 0.0 | top | \n| @HOLE18\
+  \ | nan | nan | 180.8294 | -142.6925 | 0.0 | top | \n| @HOLE19 | nan | nan | 148.5714\
+  \ | -142.5655 | 0.0 | top | \n| @HOLE20 | nan | nan | 132.3154 | -114.6255 | 0.0\
+  \ | top | \n| @HOLE21 | nan | nan | 98.2794 | -58.6185 | 0.0 | top | \n| @HOLE22\
+  \ | nan | nan | 98.2794 | -59.5075 | 0.0 | top | \n| @HOLE23 | nan | nan | 98.2794\
+  \ | -60.3965 | 0.0 | top | \n| @HOLE24 | nan | nan | 98.2794 | -61.2855 | 0.0 |\
+  \ top | \n| @HOLE25 | nan | nan | 98.2794 | -148.7885 | 0.0 | top | \n| @HOLE26\
+  \ | nan | nan | 98.2794 | -149.6775 | 0.0 | top | \n| @HOLE27 | nan | nan | 98.2794\
+  \ | -150.5665 | 0.0 | top | \n| @HOLE28 | nan | nan | 98.2794 | -151.4555 | 0.0\
+  \ | top | \n| @HOLE29 | nan | nan | 107.2964 | -81.8595 | 0.0 | top | \n| @HOLE30\
+  \ | nan | nan | 107.2964 | -83.8915 | 0.0 | top | \n| @HOLE31 | nan | nan | 107.4234\
+  \ | -104.9735 | 0.0 | top | \n| @HOLE32 | nan | nan | 107.4234 | -106.8785 | 0.0\
+  \ | top | \n| @HOLE33 | nan | nan | 107.2964 | -127.9605 | 0.0 | top | \n| @HOLE34\
+  \ | nan | nan | 107.2964 | -129.8655 | 0.0 | top | \n| @HOLE35 | nan | nan | 163.6844\
+  \ | -92.7815 | 0.0 | top | \n| @HOLE36 | nan | nan | 165.5894 | -92.7815 | 0.0 |\
+  \ top | \n| @HOLE37 | nan | nan | 183.1154 | -126.3095 | 0.0 | top | \n| @HOLE38\
+  \ | nan | nan | 184.1314 | -124.7855 | 0.0 | top | \n| @HOLE39 | nan | nan | 145.2694\
+  \ | -124.6585 | 0.0 | top | \n| @HOLE40 | nan | nan | 146.2854 | -126.3095 | 0.0\
+  \ | top | \n"
 projects_flat: projects/npoole_3d_soldering_kits_v2/current_version/working
 repo:
   allow_forking: true

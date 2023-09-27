@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -37,7 +58,7 @@
 | 8 | U2 | SOT23-5 | 1 | AP2112K-3.3 |  |  | [''] | 
 | 9 | C17,C1,C11,C15,C2 | 0603-NO | 5 | 1uF |  |  | [''] | 
 | 10 | R5 | 0603-NO | 1 | 47K |  |  | [''] | 
-| 11 | C8,C6 | 0805-NO | 2 | 10µF |  |  | [''] | 
+| 11 | C8,C6 | 0805-NO | 2 | 10ÂµF |  |  | [''] | 
 | 12 | U1 | USON8_4X4 | 1 | GD25x16 |  |  | [''] | 
 | 13 | C30 | 0603-NO | 1 | 10nF |  |  | [''] | 
 | 14 | R1,R14 | RESPACK_4X0603 | 2 | 5.1K |  |  | [''] | 

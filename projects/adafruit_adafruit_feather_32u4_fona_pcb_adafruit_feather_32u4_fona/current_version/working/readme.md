@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -51,7 +72,7 @@
 | 22 | SW1 | KMR2 | 1 | SPST_TACT-KMR2 |  |  | [''] | 
 | 23 | C2 | 0805-NO | 1 | 33pF |  |  | [''] | 
 | 24 | R6 | 0603-NO | 1 | 100k |  |  | [''] | 
-| 25 | C6,C3,C8 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 25 | C6,C3,C8 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 26 | U$44 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | 
 | 27 | U3 | SOT23-5 | 1 | MCP73831T-2ACI/OT |  |  | [''] | 
 | 28 | U$31,U$32 | MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5 |  |  | [''] | 
@@ -76,7 +97,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C9 | 2 | 10uF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
 | C2 | 1 | 33pF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C3, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C4 | 1 | 100uF | C-USC1210 | working:C1210 |  |  |  | 
 | C5 | 1 | 10pF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7, C14 | 2 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 

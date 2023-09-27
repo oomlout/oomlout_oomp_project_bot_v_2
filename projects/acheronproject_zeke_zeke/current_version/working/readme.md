@@ -16,7 +16,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -100,10 +121,10 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 0.0 | 85.72540000000001 | Mounting_Hole_2.5x04mm | MountingHole | H1 | m3 | 
-| 38.100199999999994 | 85.72540000000001 | Mounting_Hole_2.5x04mm | MountingHole | H2 | m3 | 
-| 0.0 | 28.575199999999995 | Mounting_Hole_2.5x04mm | MountingHole | H3 | m3 | 
-| 38.100199999999994 | 28.575199999999995 | Mounting_Hole_2.5x04mm | MountingHole | H4 | m3 | 
-| 19.050099999999993 | 0.0 | Mounting_Hole_Oval_2.5x8mm | MountingHole | H5 | m3 | 
+| 0.0 | 85.73 | Mounting_Hole_2.5x04mm | MountingHole | H1 | m3 | 
+| 38.1 | 85.73 | Mounting_Hole_2.5x04mm | MountingHole | H2 | m3 | 
+| 0.0 | 28.58 | Mounting_Hole_2.5x04mm | MountingHole | H3 | m3 | 
+| 38.1 | 28.58 | Mounting_Hole_2.5x04mm | MountingHole | H4 | m3 | 
+| 19.05 | 0.0 | Mounting_Hole_Oval_2.5x8mm | MountingHole | H5 | m3 | 
 
 

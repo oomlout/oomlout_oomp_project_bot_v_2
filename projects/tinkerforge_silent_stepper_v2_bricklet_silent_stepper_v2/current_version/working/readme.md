@@ -1,0 +1,22 @@
+# silent_stepper_v2_bricklet
+ 
+## summary 
+* id: tinkerforge_silent_stepper_v2_bricklet_silent_stepper_v2
+* user: tinkerforge
+* name: silent_stepper_v2_bricklet
+* board: silent_stepper_v2
+* repo: https://github.com/Tinkerforge/silent-stepper-v2-bricklet
+* src_file_repo_kicad_pcb: hardware/silent-stepper-v2.kicad_pcb
+* src_file_repo_kicad_pcb_link: https://github.com/Tinkerforge/silent-stepper-v2-bricklet/tree/master/hardware/silent-stepper-v2.kicad_pcb
+
+
+* src_file_repo_sch: hardware/silent-stepper-v2.sch
+* src_file_repo_sch_link: https://github.com/Tinkerforge/silent-stepper-v2-bricklet/tree/master/hardware/silent-stepper-v2.sch
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/tinkerforge_silent_stepper_v2_bricklet_silent_stepper_v2/current_version/working  
+
+
+
+
+
+
+

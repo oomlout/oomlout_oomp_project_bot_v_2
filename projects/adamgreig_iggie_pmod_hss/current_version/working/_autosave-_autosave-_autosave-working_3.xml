@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\adamgreig_iggie_pmod_hss\current_version\working\_autosave-_autosave-_autosave-working_3.kicad_sch</source>
+    <date>22/09/2023 16:29:56</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>_autosave-_autosave-_autosave-working_3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Q17">
+      <value>PBHV9050T,215</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/609431.pdf</datasheet>
+      <fields>
+        <field name="Farnell">1829318</field>
+      </fields>
+      <libsource lib="agg" part="PNP" description="PNP BJT Transistor"/>
+      <property name="Farnell" value="1829318"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="_autosave-_autosave-_autosave-working_3.kicad_sch"/>
+      <property name="ki_description" value="PNP BJT Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f436281-7f27-4b2a-8287-adf6fd28c354</tstamps>
+    </comp>
+    <comp ref="Q18">
+      <value>DMN60H080DS-7</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2814411.pdf</datasheet>
+      <fields>
+        <field name="Farnell">3127344</field>
+      </fields>
+      <libsource lib="agg" part="NFET" description="Generic N-channel FET"/>
+      <property name="Farnell" value="3127344"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="_autosave-_autosave-_autosave-working_3.kicad_sch"/>
+      <property name="ki_description" value="Generic N-channel FET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0031de83-8dc0-4d71-8a85-e9773030f3da</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1M</value>
+      <footprint>agg:1206</footprint>
+      <fields>
+        <field name="Farnell">1750877</field>
+        <field name="Voltage">500V</field>
+      </fields>
+      <libsource lib="agg" part="R" description=""/>
+      <property name="Farnell" value="1750877"/>
+      <property name="Voltage" value="500V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="_autosave-_autosave-_autosave-working_3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f17df1fd-2b9a-4993-8402-989ff0e050b3</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>93k1</value>
+      <footprint>agg:1206</footprint>
+      <fields>
+        <field name="Farnell">2327389</field>
+        <field name="Voltage">500V</field>
+      </fields>
+      <libsource lib="agg" part="R" description=""/>
+      <property name="Farnell" value="2327389"/>
+      <property name="Voltage" value="500V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="_autosave-_autosave-_autosave-working_3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bea70154-3936-4c44-93f8-b6be66765013</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="agg" part="NFET">
+      <description>Generic N-channel FET</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NFET</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg" part="PNP">
+      <description>PNP BJT Transistor</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PNP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/A">
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="/AR">
+      <node ref="Q17" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/G">
+      <node ref="Q18" pin="1" pinfunction="G" pintype="passive"/>
+    </net>
+    <net code="4" name="HV+">
+      <node ref="Q17" pin="2" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="5" name="HV-">
+      <node ref="Q18" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(Q17-B)">
+      <node ref="Q17" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(Q18-D)">
+      <node ref="Q18" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

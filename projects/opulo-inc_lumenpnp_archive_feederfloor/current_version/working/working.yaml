@@ -1,10 +1,167 @@
 board: feederfloor
+bom:
+- Id: '1'
+  Designator: J2
+  Footprint: 70AA-5
+  Quantity: '1'
+  Designation: Conn_01x10_Female
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R1
+  Footprint: R_0805_2012Metric
+  Quantity: '1'
+  Designation: 120R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U1
+  Footprint: TSOC-6_3.76x3.94mm_P1.27mm
+  Quantity: '1'
+  Designation: DS2431
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J1
+  Footprint: IDC-Header_2x03_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: IDC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: G***
+  Footprint: logo
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J2\
+  \ | 70AA-5 | 1 | Conn_01x10_Female |  |  | [''] | \n| 2 | R1 | R_0805_2012Metric\
+  \ | 1 | 120R |  |  | [''] | \n| 3 | U1 | TSOC-6_3.76x3.94mm_P1.27mm | 1 | DS2431\
+  \ |  |  | [''] | \n| 4 | J1 | IDC-Header_2x03_P2.54mm_Vertical | 1 | IDC |  |  |\
+  \ [''] | \n| 5 | G*** | logo | 1 | LOGO |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: MountingHole
+  DNP: ''
+  Description: Mounting Hole without connection
+  Footprint: MountingHole:MountingHole_5.3mm_M5_Pad_TopOnly
+  Qnty: '1'
+  Ref: H1
+  Value: MountingHole
+  Vendor: ''
+- Cmp name: Conn_02x03_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x03, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J1
+  Value: IDC
+  Vendor: ''
+- Cmp name: Conn_01x10_Female
+  DNP: ''
+  Description: Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: index:70AA-5
+  Qnty: '1'
+  Ref: J2
+  Value: Conn_01x10_Female
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0805_2012Metric
+  Qnty: '1'
+  Ref: R1
+  Value: 120R
+  Vendor: ''
+- Cmp name: DS2431
+  DNP: ''
+  Description: ''
+  Footprint: Package_SO_J-Lead:TSOC-6_3.76x3.94mm_P1.27mm
+  Qnty: '1'
+  Ref: U1
+  Value: DS2431
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| H1 |\
+  \ 1 | MountingHole | MountingHole | MountingHole:MountingHole_5.3mm_M5_Pad_TopOnly\
+  \ | Mounting Hole without connection |  |  | \n| J1 | 1 | IDC | Conn_02x03_Odd_Even\
+  \ | Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical | Generic connector, double row,\
+  \ 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers),\
+  \ script generated (kicad-library-utils/schlib/autogen/connector/) |  |  | \n| J2\
+  \ | 1 | Conn_01x10_Female | Conn_01x10_Female | index:70AA-5 | Generic connector,\
+  \ single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| R1 | 1 | 120R | R_Small | Resistor_SMD:R_0805_2012Metric | Resistor,\
+  \ small symbol |  |  | \n| U1 | 1 | DS2431 | DS2431 | Package_SO_J-Lead:TSOC-6_3.76x3.94mm_P1.27mm\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/opulo-inc_lumenpnp_archive_feederfloor/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/opulo-inc_lumenpnp_archive_feederfloor/current_version/working/working.kicad_sch
 file_repo_bom_csv_flat: projects/opulo-inc_lumenpnp_archive_feederfloor/current_version/working/bom_src.csv
 id: opulo-inc_lumenpnp_archive_feederfloor
 name: lumenpnp_archive
+position_bottom:
+- '# Ref': G***
+  Package: logo
+  PosX: 191.64
+  PosY: -23.87
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+- '# Ref': J1
+  Package: IDC-Header_2x03_P2.54mm_Vertical
+  PosX: 190.5
+  PosY: -57.2
+  Rot: 0.0
+  Side: bottom
+  Val: IDC
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | logo | 191.64 | -23.87\
+  \ | 180.0 | bottom | \n| J1 | IDC | IDC-Header_2x03_P2.54mm_Vertical | 190.5 | -57.2\
+  \ | 0.0 | bottom | \n"
+position_top:
+- '# Ref': J2
+  Package: 70AA-5
+  PosX: 186.65
+  PosY: -29.1
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x10_Female
+- '# Ref': R1
+  Package: R_0805_2012Metric
+  PosX: 191.83
+  PosY: -49.74
+  Rot: 180.0
+  Side: top
+  Val: 120R
+- '# Ref': U1
+  Package: TSOC-6_3.76x3.94mm_P1.27mm
+  PosX: 191.79
+  PosY: -33.4
+  Rot: 0.0
+  Side: top
+  Val: DS2431
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J2 | Conn_01x10_Female | 70AA-5 | 186.65\
+  \ | -29.1 | 0.0 | top | \n| R1 | 120R | R_0805_2012Metric | 191.83 | -49.74 | 180.0\
+  \ | top | \n| U1 | DS2431 | TSOC-6_3.76x3.94mm_P1.27mm | 191.79 | -33.4 | 0.0 |\
+  \ top | \n"
 projects_flat: projects/opulo-inc_lumenpnp_archive_feederfloor/current_version/working
 repo:
   allow_forking: true

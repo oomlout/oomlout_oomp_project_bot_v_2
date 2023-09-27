@@ -1,10 +1,600 @@
 board: wiredcontrollerpcb
+bom:
+- Id: '1'
+  Designator: C1
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 1u
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C2
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 10n
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C3
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 2.2u
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C4,C7,C8,C9,C10
+  Footprint: C_0603_1608Metric
+  Quantity: '5'
+  Designation: 0.1u
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: D1,D2,D3,D4
+  Footprint: LED_0603_1608Metric
+  Quantity: '4'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J1
+  Footprint: PS4tJoystick
+  Quantity: '1'
+  Designation: Joystick
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: J3
+  Footprint: NS-Tech_Grove_1x04_P2mm_Horizontal
+  Quantity: '1'
+  Designation: Conn_01x04
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R1,R2,R3,R5,R6,R4
+  Footprint: R_0603_1608Metric
+  Quantity: '6'
+  Designation: 1k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: SW1,SW2,SW3,SW4
+  Footprint: SW_Center_PUSH-12mm
+  Quantity: '4'
+  Designation: SW_Push
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U1
+  Footprint: SOT-23-5
+  Quantity: '1'
+  Designation: LP2985-3.3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U2
+  Footprint: QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+  Quantity: '1'
+  Designation: ATmega328P-MU
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: JP1,JP2,JP3
+  Footprint: SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm
+  Quantity: '3'
+  Designation: Jumper_NO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: J4
+  Footprint: TerminalBlock_bornier-4_P5.08mm
+  Quantity: '1'
+  Designation: Conn_01x04
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: R7,R8,R9
+  Footprint: R_0603_1608Metric
+  Quantity: '3'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: J5
+  Footprint: PinHeader_1x04_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x04
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: J2
+  Footprint: 2x03_P2.54mm_Pads
+  Quantity: '1'
+  Designation: Conn_01x06
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1\
+  \ | C_0603_1608Metric | 1 | 1u |  |  | [''] | \n| 2 | C2 | C_0603_1608Metric | 1\
+  \ | 10n |  |  | [''] | \n| 3 | C3 | C_0603_1608Metric | 1 | 2.2u |  |  | [''] |\
+  \ \n| 4 | C4,C7,C8,C9,C10 | C_0603_1608Metric | 5 | 0.1u |  |  | [''] | \n| 5 |\
+  \ D1,D2,D3,D4 | LED_0603_1608Metric | 4 | LED |  |  | [''] | \n| 6 | J1 | PS4tJoystick\
+  \ | 1 | Joystick |  |  | [''] | \n| 7 | J3 | NS-Tech_Grove_1x04_P2mm_Horizontal\
+  \ | 1 | Conn_01x04 |  |  | [''] | \n| 8 | R1,R2,R3,R5,R6,R4 | R_0603_1608Metric\
+  \ | 6 | 1k |  |  | [''] | \n| 9 | SW1,SW2,SW3,SW4 | SW_Center_PUSH-12mm | 4 | SW_Push\
+  \ |  |  | [''] | \n| 10 | U1 | SOT-23-5 | 1 | LP2985-3.3 |  |  | [''] | \n| 11 |\
+  \ U2 | QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm | 1 | ATmega328P-MU |  |  | [''] | \n\
+  | 12 | JP1,JP2,JP3 | SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm | 3 | Jumper_NO\
+  \ |  |  | [''] | \n| 13 | J4 | TerminalBlock_bornier-4_P5.08mm | 1 | Conn_01x04\
+  \ |  |  | [''] | \n| 14 | R7,R8,R9 | R_0603_1608Metric | 3 | 10k |  |  | [''] |\
+  \ \n| 15 | J5 | PinHeader_1x04_P2.54mm_Vertical | 1 | Conn_01x04 |  |  | [''] |\
+  \ \n| 16 | J2 | 2x03_P2.54mm_Pads | 1 | Conn_01x06 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C1
+  Value: 1u
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C2
+  Value: 10n
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C3
+  Value: 2.2u
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '5'
+  Ref: C4, C7, C8, C9, C10
+  Value: 0.1u
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: LED_SMD:LED_0603_1608Metric
+  Qnty: '4'
+  Ref: D1, D2, D3, D4
+  Value: LED
+  Vendor: ''
+- Cmp name: Conn_01x08
+  DNP: ''
+  Description: Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: footprints:PS4tJoystick
+  Qnty: '1'
+  Ref: J1
+  Value: Joystick
+  Vendor: ''
+- Cmp name: Conn_01x06
+  DNP: ''
+  Description: Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: footprints:2x03_P2.54mm_Pads
+  Qnty: '1'
+  Ref: J2
+  Value: Conn_01x06
+  Vendor: ''
+- Cmp name: Conn_01x04
+  DNP: ''
+  Description: Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: footprints:NS-Tech_Grove_1x04_P2mm_Horizontal
+  Qnty: '1'
+  Ref: J3
+  Value: Conn_01x04
+  Vendor: ''
+- Cmp name: Conn_01x04
+  DNP: ''
+  Description: Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: TerminalBlock:TerminalBlock_bornier-4_P5.08mm
+  Qnty: '1'
+  Ref: J4
+  Value: Conn_01x04
+  Vendor: ''
+- Cmp name: Conn_01x04
+  DNP: ''
+  Description: Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J5
+  Value: Conn_01x04
+  Vendor: ''
+- Cmp name: Jumper_2_Open
+  DNP: ''
+  Description: Jumper, 2-pole, open
+  Footprint: Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm
+  Qnty: '3'
+  Ref: JP1, JP2, JP3
+  Value: Jumper_NO
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '6'
+  Ref: R1, R2, R3, R4, R5, R6
+  Value: 1k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '3'
+  Ref: R7, R8, R9
+  Value: 10k
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: Push button switch, generic, two pins
+  Footprint: footprints:SW_Center_PUSH-12mm
+  Qnty: '4'
+  Ref: SW1, SW2, SW3, SW4
+  Value: SW_Push
+  Vendor: ''
+- Cmp name: LP2985-3.3
+  DNP: ''
+  Description: 150mA 16V Low-noise Low-dropout Regulator With Shutdown, 3.3V output
+    voltage, SOT-23-5
+  Footprint: Package_TO_SOT_SMD:SOT-23-5
+  Qnty: '1'
+  Ref: U1
+  Value: LP2985-3.3
+  Vendor: ''
+- Cmp name: ATmega328P-MU-MCU_Microchip_ATmega
+  DNP: ''
+  Description: ''
+  Footprint: Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+  Qnty: '1'
+  Ref: U2
+  Value: ATmega328P-MU
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 1u | C | Capacitor_SMD:C_0603_1608Metric | Unpolarized capacitor |  |  | \n\
+  | C2 | 1 | 10n | C | Capacitor_SMD:C_0603_1608Metric | Unpolarized capacitor | \
+  \ |  | \n| C3 | 1 | 2.2u | C | Capacitor_SMD:C_0603_1608Metric | Unpolarized capacitor\
+  \ |  |  | \n| C4, C7, C8, C9, C10 | 5 | 0.1u | C | Capacitor_SMD:C_0603_1608Metric\
+  \ | Unpolarized capacitor |  |  | \n| D1, D2, D3, D4 | 4 | LED | LED | LED_SMD:LED_0603_1608Metric\
+  \ | Light emitting diode |  |  | \n| J1 | 1 | Joystick | Conn_01x08 | footprints:PS4tJoystick\
+  \ | Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J2 | 1 | Conn_01x06 | Conn_01x06 | footprints:2x03_P2.54mm_Pads |\
+  \ Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J3 | 1 | Conn_01x04 | Conn_01x04 | footprints:NS-Tech_Grove_1x04_P2mm_Horizontal\
+  \ | Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J4 | 1 | Conn_01x04 | Conn_01x04 | TerminalBlock:TerminalBlock_bornier-4_P5.08mm\
+  \ | Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J5 | 1 | Conn_01x04 | Conn_01x04 | Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| JP1, JP2, JP3 | 3 | Jumper_NO | Jumper_2_Open | Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm\
+  \ | Jumper, 2-pole, open |  |  | \n| R1, R2, R3, R4, R5, R6 | 6 | 1k | R | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor |  |  | \n| R7, R8, R9 | 3 | 10k | R | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor |  |  | \n| SW1, SW2, SW3, SW4 | 4 | SW_Push | SW_Push | footprints:SW_Center_PUSH-12mm\
+  \ | Push button switch, generic, two pins |  |  | \n| U1 | 1 | LP2985-3.3 | LP2985-3.3\
+  \ | Package_TO_SOT_SMD:SOT-23-5 | 150mA 16V Low-noise Low-dropout Regulator With\
+  \ Shutdown, 3.3V output voltage, SOT-23-5 |  |  | \n| U2 | 1 | ATmega328P-MU | ATmega328P-MU-MCU_Microchip_ATmega\
+  \ | Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/asukiaaa_wiredcontrollerpcb_wiredcontrollerpcb/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asukiaaa_wiredcontrollerpcb_wiredcontrollerpcb/current_version/working/working.kicad_sch
 file_repo_bom_csv_flat: projects/asukiaaa_wiredcontrollerpcb_wiredcontrollerpcb/current_version/working/bom_src.csv
 id: asukiaaa_wiredcontrollerpcb_wiredcontrollerpcb
 name: wiredcontrollerpcb
+position_bottom:
+- '# Ref': J2
+  Package: 2x03_P2.54mm_Pads
+  PosX: 149.08
+  PosY: -95.38
+  Rot: 0.0
+  Side: bottom
+  Val: Conn_01x06
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J2 | Conn_01x06 | 2x03_P2.54mm_Pads\
+  \ | 149.08 | -95.38 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: C_0603_1608Metric
+  PosX: 133.47
+  PosY: -60.63
+  Rot: 180.0
+  Side: top
+  Val: 1u
+- '# Ref': C2
+  Package: C_0603_1608Metric
+  PosX: 130.28
+  PosY: -60.69
+  Rot: 180.0
+  Side: top
+  Val: 10n
+- '# Ref': C3
+  Package: C_0603_1608Metric
+  PosX: 129.79
+  PosY: -63.368
+  Rot: 90.0
+  Side: top
+  Val: 2.2u
+- '# Ref': C4
+  Package: C_0603_1608Metric
+  PosX: 140.97
+  PosY: -76.4725
+  Rot: -90.0
+  Side: top
+  Val: 0.1u
+- '# Ref': C7
+  Package: C_0603_1608Metric
+  PosX: 148.868
+  PosY: -91.23
+  Rot: 0.0
+  Side: top
+  Val: 0.1u
+- '# Ref': C8
+  Package: C_0603_1608Metric
+  PosX: 148.842
+  PosY: -89.61
+  Rot: 0.0
+  Side: top
+  Val: 0.1u
+- '# Ref': C9
+  Package: C_0603_1608Metric
+  PosX: 148.88
+  PosY: -88.0
+  Rot: 0.0
+  Side: top
+  Val: 0.1u
+- '# Ref': C10
+  Package: C_0603_1608Metric
+  PosX: 148.872
+  PosY: -86.23
+  Rot: 0.0
+  Side: top
+  Val: 0.1u
+- '# Ref': D1
+  Package: LED_0603_1608Metric
+  PosX: 136.45
+  PosY: -64.19
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D2
+  Package: LED_0603_1608Metric
+  PosX: 141.72
+  PosY: -64.19
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D3
+  Package: LED_0603_1608Metric
+  PosX: 146.78
+  PosY: -64.19
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': D4
+  Package: LED_0603_1608Metric
+  PosX: 151.78
+  PosY: -64.19
+  Rot: 90.0
+  Side: top
+  Val: LED
+- '# Ref': J1
+  Package: PS4tJoystick
+  PosX: 125.0
+  PosY: -75.0
+  Rot: 180.0
+  Side: top
+  Val: Joystick
+- '# Ref': J3
+  Package: NS-Tech_Grove_1x04_P2mm_Horizontal
+  PosX: 145.0
+  PosY: -58.0
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x04
+- '# Ref': J4
+  Package: TerminalBlock_bornier-4_P5.08mm
+  PosX: 120.94
+  PosY: -54.02
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x04
+- '# Ref': J5
+  Package: PinHeader_1x04_P2.54mm_Vertical
+  PosX: 141.1
+  PosY: -61.33
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x04
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 138.13
+  PosY: -64.19
+  Rot: 90.0
+  Side: top
+  Val: 1k
+- '# Ref': R2
+  Package: R_0603_1608Metric
+  PosX: 143.43
+  PosY: -64.19
+  Rot: 90.0
+  Side: top
+  Val: 1k
+- '# Ref': R3
+  Package: R_0603_1608Metric
+  PosX: 148.33
+  PosY: -64.19
+  Rot: 90.0
+  Side: top
+  Val: 1k
+- '# Ref': R4
+  Package: R_0603_1608Metric
+  PosX: 153.29
+  PosY: -64.19
+  Rot: 90.0
+  Side: top
+  Val: 1k
+- '# Ref': R5
+  Package: R_0603_1608Metric
+  PosX: 120.612
+  PosY: -63.04
+  Rot: 180.0
+  Side: top
+  Val: 1k
+- '# Ref': R6
+  Package: R_0603_1608Metric
+  PosX: 123.882
+  PosY: -63.03
+  Rot: 180.0
+  Side: top
+  Val: 1k
+- '# Ref': R7
+  Package: R_0603_1608Metric
+  PosX: 153.13
+  PosY: -58.4575
+  Rot: 90.0
+  Side: top
+  Val: 10k
+- '# Ref': R8
+  Package: R_0603_1608Metric
+  PosX: 154.6
+  PosY: -58.4675
+  Rot: 90.0
+  Side: top
+  Val: 10k
+- '# Ref': R9
+  Package: R_0603_1608Metric
+  PosX: 137.9625
+  PosY: -86.2
+  Rot: 180.0
+  Side: top
+  Val: 10k
+- '# Ref': SW1
+  Package: SW_Center_PUSH-12mm
+  PosX: 165.0
+  PosY: -62.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW2
+  Package: SW_Center_PUSH-12mm
+  PosX: 155.0
+  PosY: -75.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW3
+  Package: SW_Center_PUSH-12mm
+  PosX: 175.0
+  PosY: -75.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW4
+  Package: SW_Center_PUSH-12mm
+  PosX: 165.0
+  PosY: -88.0
+  Rot: 0.0
+  Side: top
+  Val: SW_Push
+- '# Ref': U1
+  Package: SOT-23-5
+  PosX: 132.73
+  PosY: -63.43
+  Rot: 180.0
+  Side: top
+  Val: LP2985-3.3
+- '# Ref': U2
+  Package: QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+  PosX: 140.66
+  PosY: -81.32
+  Rot: 90.0
+  Side: top
+  Val: ATmega328P-MU
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 1u | C_0603_1608Metric | 133.47\
+  \ | -60.63 | 180.0 | top | \n| C2 | 10n | C_0603_1608Metric | 130.28 | -60.69 |\
+  \ 180.0 | top | \n| C3 | 2.2u | C_0603_1608Metric | 129.79 | -63.368 | 90.0 | top\
+  \ | \n| C4 | 0.1u | C_0603_1608Metric | 140.97 | -76.4725 | -90.0 | top | \n| C7\
+  \ | 0.1u | C_0603_1608Metric | 148.868 | -91.23 | 0.0 | top | \n| C8 | 0.1u | C_0603_1608Metric\
+  \ | 148.842 | -89.61 | 0.0 | top | \n| C9 | 0.1u | C_0603_1608Metric | 148.88 |\
+  \ -88.0 | 0.0 | top | \n| C10 | 0.1u | C_0603_1608Metric | 148.872 | -86.23 | 0.0\
+  \ | top | \n| D1 | LED | LED_0603_1608Metric | 136.45 | -64.19 | 90.0 | top | \n\
+  | D2 | LED | LED_0603_1608Metric | 141.72 | -64.19 | 90.0 | top | \n| D3 | LED |\
+  \ LED_0603_1608Metric | 146.78 | -64.19 | 90.0 | top | \n| D4 | LED | LED_0603_1608Metric\
+  \ | 151.78 | -64.19 | 90.0 | top | \n| J1 | Joystick | PS4tJoystick | 125.0 | -75.0\
+  \ | 180.0 | top | \n| J3 | Conn_01x04 | NS-Tech_Grove_1x04_P2mm_Horizontal | 145.0\
+  \ | -58.0 | 90.0 | top | \n| J4 | Conn_01x04 | TerminalBlock_bornier-4_P5.08mm |\
+  \ 120.94 | -54.02 | 0.0 | top | \n| J5 | Conn_01x04 | PinHeader_1x04_P2.54mm_Vertical\
+  \ | 141.1 | -61.33 | 90.0 | top | \n| R1 | 1k | R_0603_1608Metric | 138.13 | -64.19\
+  \ | 90.0 | top | \n| R2 | 1k | R_0603_1608Metric | 143.43 | -64.19 | 90.0 | top\
+  \ | \n| R3 | 1k | R_0603_1608Metric | 148.33 | -64.19 | 90.0 | top | \n| R4 | 1k\
+  \ | R_0603_1608Metric | 153.29 | -64.19 | 90.0 | top | \n| R5 | 1k | R_0603_1608Metric\
+  \ | 120.612 | -63.04 | 180.0 | top | \n| R6 | 1k | R_0603_1608Metric | 123.882 |\
+  \ -63.03 | 180.0 | top | \n| R7 | 10k | R_0603_1608Metric | 153.13 | -58.4575 |\
+  \ 90.0 | top | \n| R8 | 10k | R_0603_1608Metric | 154.6 | -58.4675 | 90.0 | top\
+  \ | \n| R9 | 10k | R_0603_1608Metric | 137.9625 | -86.2 | 180.0 | top | \n| SW1\
+  \ | SW_Push | SW_Center_PUSH-12mm | 165.0 | -62.0 | 0.0 | top | \n| SW2 | SW_Push\
+  \ | SW_Center_PUSH-12mm | 155.0 | -75.0 | 0.0 | top | \n| SW3 | SW_Push | SW_Center_PUSH-12mm\
+  \ | 175.0 | -75.0 | 0.0 | top | \n| SW4 | SW_Push | SW_Center_PUSH-12mm | 165.0\
+  \ | -88.0 | 0.0 | top | \n| U1 | LP2985-3.3 | SOT-23-5 | 132.73 | -63.43 | 180.0\
+  \ | top | \n| U2 | ATmega328P-MU | QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm | 140.66\
+  \ | -81.32 | 90.0 | top | \n"
 projects_flat: projects/asukiaaa_wiredcontrollerpcb_wiredcontrollerpcb/current_version/working
 repo:
   allow_forking: true

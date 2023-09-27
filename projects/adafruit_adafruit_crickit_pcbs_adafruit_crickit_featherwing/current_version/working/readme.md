@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -42,13 +63,13 @@
 | 13 | R10,R9 | 0603-NO | 2 | 1Mohm |  |  | [''] | 
 | 14 | MS2 | FEATHERWING_SMT2 | 1 | FEATHERWING_SMTDUAL |  |  | [''] | 
 | 15 | LED1 | LED3535 | 1 | WS2812B3535 |  |  | [''] | 
-| 16 | C5 | 0805-NO | 1 | 10µF |  |  | [''] | 
+| 16 | C5 | 0805-NO | 1 | 10ÂµF |  |  | [''] | 
 | 17 | JP8 | TERMBLOC_1X5-3.5MM | 1 | 5pin 3.5mm |  |  | [''] | 
-| 18 | R4,R3 | _1206 | 2 | 0.2Ω |  |  | [''] | 
+| 18 | R4,R3 | _1206 | 2 | 0.2Î© |  |  | [''] | 
 | 19 | FID2,FID3,FID1 | FIDUCIAL_1MM | 3 | FIDUCIAL_1MM |  |  | [''] | 
 | 20 | U2 | HTSSOP16 | 1 | DRV8833PWPR |  |  | [''] | 
 | 21 | GPIO0 | 3X08 | 1 | 3x8 FEMALE |  |  | [''] | 
-| 22 | C1,C4 | 0805-NO | 2 | 10µF/16V |  |  | [''] | 
+| 22 | C1,C4 | 0805-NO | 2 | 10ÂµF/16V |  |  | [''] | 
 | 23 | C14,C13 | 0805-NO | 2 | 1uF |  |  | [''] | 
 | 24 | D1,D2 | SOD-323 | 2 | 1N4148 |  |  | [''] | 
 | 25 | C10 | PANASONIC_C | 1 | 47uF+/16v |  |  | [''] | 
@@ -90,13 +111,13 @@ no data
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 21.58999999999999 | 0.0 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$41 | m3 | 
-| 53.848 | 0.0 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$42 | m3 | 
-| 0.0 | 21.590000000000003 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$43 | m3 | 
-| 75.438 | 21.590000000000003 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$44 | m3 | 
-| 75.438 | 53.848 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$49 | m3 | 
-| 0.0 | 53.848 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$50 | m3 | 
-| 21.58999999999999 | 75.438 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$51 | m3 | 
-| 53.848 | 75.438 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$52 | m3 | 
+| 21.59 | 0.0 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$41 | m3 | 
+| 53.85 | 0.0 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$42 | m3 | 
+| 0.0 | 21.59 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$43 | m3 | 
+| 75.44 | 21.59 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$44 | m3 | 
+| 75.44 | 53.85 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$49 | m3 | 
+| 0.0 | 53.85 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$50 | m3 | 
+| 21.59 | 75.44 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$51 | m3 | 
+| 53.85 | 75.44 | MOUNTINGHOLE_3.0_NPH | MOUNTINGHOLE3.0_NPH | U$52 | m3 | 
 
 

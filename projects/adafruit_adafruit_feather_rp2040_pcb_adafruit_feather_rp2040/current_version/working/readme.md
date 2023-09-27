@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -34,7 +55,7 @@
 | 5 | R2,R5,R7,R4,R3,R1 | 0603-NO | 6 | 10K |  |  | [''] | 
 | 6 | R12,R8,R13 | 0603-NO | 3 | 5.1K |  |  | [''] | 
 | 7 | X2 | 2X05_1.27MM_BOX_POSTS | 1 |  |  |  | [''] | 
-| 8 | C20,C1,C4 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 8 | C20,C1,C4 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 9 | Q3 | SOT23-R | 1 | DMG341 |  |  | [''] | 
 | 10 | D4 | SOD-123 | 1 | MBR540 |  |  | [''] | 
 | 11 | C8,C10 | 0603-NO | 2 | 1uF |  |  | [''] | 
@@ -66,7 +87,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1, C4, C20 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C1, C4, C20 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C2, C3 | 2 | 22pF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C5 | 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C6, C7, C9, C11, C12, C13, C14, C15, C16 | 9 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 

@@ -1,10 +1,134 @@
 board: ilx544a_v2
+bom:
+- Id: '1'
+  Designator: C1,C2
+  Footprint: C0402
+  Quantity: '2'
+  Designation: 0.01uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: IC1
+  Footprint: DIL22-4
+  Quantity: '1'
+  Designation: ILX544A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: JP1
+  Footprint: 1X03
+  Quantity: '1'
+  Designation: SensorTemp
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: JP2
+  Footprint: 1X07
+  Quantity: '1'
+  Designation: Control
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: '@HOLE2,@HOLE1,@HOLE0'
+  Footprint: ''
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C2\
+  \ | C0402 | 2 | 0.01uF |  |  | [''] | \n| 2 | IC1 | DIL22-4 | 1 | ILX544A |  | \
+  \ | [''] | \n| 3 | JP1 | 1X03 | 1 | SensorTemp |  |  | [''] | \n| 4 | JP2 | 1X07\
+  \ | 1 | Control |  |  | [''] | \n| 5 | @HOLE2,@HOLE1,@HOLE0 |  | 3 |  |  |  | ['']\
+  \ | \n"
 counter: 1
 file_brd_flat: projects/altlab_altoespectro_ilx544a_v2_b1/current_version/working/working.brd
 file_kicad_pcb_flat: projects/altlab_altoespectro_ilx544a_v2/current_version/working/working.kicad_pcb
 file_sch_flat: projects/altlab_altoespectro_ilx544a_v2_b1/current_version/working/working.sch
 id: altlab_altoespectro_ilx544a_v2
 name: altoespectro
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 138.1411
+  PosY: -86.0186
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 138.1711
+  PosY: -124.0886
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE2'
+  Package: .nan
+  PosX: 160.0611
+  PosY: -105.0886
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: C0402
+  PosX: 158.0711
+  PosY: -98.9086
+  Rot: 180.0
+  Side: top
+  Val: 0.01uF
+- '# Ref': C2
+  Package: C0402
+  PosX: 158.1011
+  PosY: -100.8186
+  Rot: 180.0
+  Side: top
+  Val: 0.01uF
+- '# Ref': IC1
+  Package: DIL22-4
+  PosX: 148.5411
+  PosY: -105.1086
+  Rot: -90.0
+  Side: top
+  Val: ILX544A
+- '# Ref': JP1
+  Package: 1X03
+  PosX: 158.4411
+  PosY: -120.4486
+  Rot: 90.0
+  Side: top
+  Val: SensorTemp
+- '# Ref': JP2
+  Package: 1X07
+  PosX: 138.0547
+  PosY: -100.0386
+  Rot: 90.0
+  Side: top
+  Val: Control
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 138.1411 | -86.0186\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 138.1711 | -124.0886 | 0.0 | top | \n|\
+  \ @HOLE2 | nan | nan | 160.0611 | -105.0886 | 0.0 | top | \n| C1 | 0.01uF | C0402\
+  \ | 158.0711 | -98.9086 | 180.0 | top | \n| C2 | 0.01uF | C0402 | 158.1011 | -100.8186\
+  \ | 180.0 | top | \n| IC1 | ILX544A | DIL22-4 | 148.5411 | -105.1086 | -90.0 | top\
+  \ | \n| JP1 | SensorTemp | 1X03 | 158.4411 | -120.4486 | 90.0 | top | \n| JP2 |\
+  \ Control | 1X07 | 138.0547 | -100.0386 | 90.0 | top | \n"
 projects_flat: projects/altlab_altoespectro_ilx544a_v2/current_version/working
 repo:
   allow_forking: true

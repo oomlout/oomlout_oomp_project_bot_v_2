@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -28,12 +49,12 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 1 | 330µF | CAP_ELECTROLYTICPTH_3.5MMGRID_8MMDIA | working:CELEC_3.5MM_8MM |  |  |  | 
-| C2, C3, C4 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C5 | 1 | 2.2µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C6, C8, C10, C11, C13, C15 | 6 | 0.1µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C1 | 1 | 330ÂµF | CAP_ELECTROLYTICPTH_3.5MMGRID_8MMDIA | working:CELEC_3.5MM_8MM |  |  |  | 
+| C2, C3, C4 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C5 | 1 | 2.2ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C6, C8, C10, C11, C13, C15 | 6 | 0.1ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7, C9, C16, C17 | 4 | 470pF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C22, C23 | 2 | 0.47µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C22, C23 | 2 | 0.47ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | CN1 | 1 | 2.1mm | DCBARRELSMT_CORRECT | working:DCJACK_2MM_SMT |  |  |  | 
 | D1, D2, D3, D4 | 4 | 1N4148 | DIODESOD-323 | working:SOD-323 |  |  |  | 
 | FB1, FB2, FB3, FB4, FB5 | 5 | MPZ2012S221A | FERRITE_0805 | working:_0805 |  |  |  | 

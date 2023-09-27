@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -40,7 +61,7 @@
 | 11 | D1 | SOD-323 | 1 | 1N4148 |  |  | [''] | 
 | 12 | Q3,Q2,Q1 | SOT23-WIDE | 3 | BSS138 |  |  | [''] | 
 | 13 | U$26 | ADAFRUIT_2.5MM | 1 |  |  |  | [''] | 
-| 14 | C6,C1 | 0805-NO | 2 | 10µF |  |  | [''] | 
+| 14 | C6,C1 | 0805-NO | 2 | 10ÂµF |  |  | [''] | 
 | 15 | U$31 | SYMBOL_GYRO_Z | 1 |  |  |  | [''] | 
 | 16 | U2 | QFN16_3MM_FREESCALE_5X3 | 1 | FXOS8700CQ |  |  | [''] | 
 | 17 | U4 | QFN24_4MM_FREESCALE_7X5 | 1 | FXAS21002C |  |  | [''] | 
@@ -50,7 +71,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1, C6 | 2 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C1, C6 | 2 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C2, C3, C5, C7 | 4 | 0.1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C4 | 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | D1 | 1 | 1N4148 | DIODESOD-323 | working:SOD-323 |  |  |  | 
@@ -68,9 +89,9 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 22.859999999999985 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$1 | m3 | 
-| 0.0 | 15.239999999999995 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$2 | m3 | 
-| 22.859999999999985 | 15.239999999999995 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$3 | m3 | 
+| 22.86 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$1 | m3 | 
+| 0.0 | 15.24 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$2 | m3 | 
+| 22.86 | 15.24 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$3 | m3 | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$4 | m3 | 
 
 

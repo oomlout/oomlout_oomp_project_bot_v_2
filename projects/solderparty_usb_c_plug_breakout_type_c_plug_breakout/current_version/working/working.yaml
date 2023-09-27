@@ -1,9 +1,173 @@
 board: type_c_plug_breakout
+bom:
+- Id: '1'
+  Designator: P1
+  Footprint: USB_C_Plug_UTC009-C12
+  Quantity: '1'
+  Designation: USB_C_Plug
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R2
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: PullDown
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R1
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: PullUp
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: G***
+  Footprint: SolderParty-New-Logo_3x2.5mm_SilkScreen
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J1
+  Footprint: PinHeader_1x10_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x10
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: G***
+  Footprint: SolderParty-New-Logo_10x8.5mm_SilkScreen
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | P1\
+  \ | USB_C_Plug_UTC009-C12 | 1 | USB_C_Plug |  |  | [''] | \n| 2 | R2 | R_0603_1608Metric\
+  \ | 1 | PullDown |  |  | [''] | \n| 3 | R1 | R_0603_1608Metric | 1 | PullUp |  |\
+  \  | [''] | \n| 4 | G*** | SolderParty-New-Logo_3x2.5mm_SilkScreen | 1 | LOGO |\
+  \  |  | [''] | \n| 5 | J1 | PinHeader_1x10_P2.54mm_Vertical | 1 | Conn_01x10 | \
+  \ |  | [''] | \n| 6 | G*** | SolderParty-New-Logo_10x8.5mm_SilkScreen | 1 | LOGO\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Conn_01x10
+  DNP: ''
+  Description: Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_01x10
+  Vendor: ''
+- Cmp name: USB_C_Plug
+  DNP: ''
+  Description: USB Type-C Plug connector
+  Footprint: Connector_USB_Extra:USB_C_Plug_UTC009-C12
+  Qnty: '1'
+  Ref: P1
+  Value: USB_C_Plug
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R1
+  Value: PullUp
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R2
+  Value: PullDown
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| J1 |\
+  \ 1 | Conn_01x10 | Conn_01x10 | Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| P1 | 1 | USB_C_Plug | USB_C_Plug | Connector_USB_Extra:USB_C_Plug_UTC009-C12\
+  \ | USB Type-C Plug connector |  |  | \n| R1 | 1 | PullUp | R_Small | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor, small symbol |  |  | \n| R2 | 1 | PullDown | R_Small | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor, small symbol |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/solderparty_usb_c_plug_breakout_type_c_plug_breakout/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/solderparty_usb_c_plug_breakout_type_c_plug_breakout/current_version/working/working.kicad_sch
 id: solderparty_usb_c_plug_breakout_type_c_plug_breakout
 name: usb_c_plug_breakout
+position_bottom:
+- '# Ref': G***
+  Package: SolderParty-New-Logo_10x8.5mm_SilkScreen
+  PosX: 122.25
+  PosY: -56.45
+  Rot: -90.0
+  Side: bottom
+  Val: LOGO
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | SolderParty-New-Logo_10x8.5mm_SilkScreen\
+  \ | 122.25 | -56.45 | -90.0 | bottom | \n"
+position_top:
+- '# Ref': G***
+  Package: SolderParty-New-Logo_3x2.5mm_SilkScreen
+  PosX: 125.15
+  PosY: -63.1
+  Rot: 90.0
+  Side: top
+  Val: LOGO
+- '# Ref': J1
+  Package: PinHeader_1x10_P2.54mm_Vertical
+  PosX: 133.368
+  PosY: -44.577
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x10
+- '# Ref': P1
+  Package: USB_C_Plug_UTC009-C12
+  PosX: 123.4
+  PosY: -56.0
+  Rot: -90.0
+  Side: top
+  Val: USB_C_Plug
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 127.2
+  PosY: -61.541
+  Rot: 90.0
+  Side: top
+  Val: PullUp
+- '# Ref': R2
+  Package: R_0603_1608Metric
+  PosX: 127.2
+  PosY: -59.944
+  Rot: 90.0
+  Side: top
+  Val: PullDown
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | SolderParty-New-Logo_3x2.5mm_SilkScreen\
+  \ | 125.15 | -63.1 | 90.0 | top | \n| J1 | Conn_01x10 | PinHeader_1x10_P2.54mm_Vertical\
+  \ | 133.368 | -44.577 | 0.0 | top | \n| P1 | USB_C_Plug | USB_C_Plug_UTC009-C12\
+  \ | 123.4 | -56.0 | -90.0 | top | \n| R1 | PullUp | R_0603_1608Metric | 127.2 |\
+  \ -61.541 | 90.0 | top | \n| R2 | PullDown | R_0603_1608Metric | 127.2 | -59.944\
+  \ | 90.0 | top | \n"
 projects_flat: projects/solderparty_usb_c_plug_breakout_type_c_plug_breakout/current_version/working
 repo:
   allow_forking: true

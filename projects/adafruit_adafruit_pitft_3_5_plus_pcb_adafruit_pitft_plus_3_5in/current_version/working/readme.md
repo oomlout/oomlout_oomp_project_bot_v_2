@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -48,7 +69,7 @@
 | 19 | C4,C18 | 0805-NO | 2 | 0.1uF |  |  | [''] | 
 | 20 | SJ1 | SOLDERJUMPER_CLOSEDWIRE | 1 | WP |  |  | [''] | 
 | 21 | R8 | 0805-NO | 1 | DNP |  |  | [''] | 
-| 22 | R1 | 0805-NO | 1 | 12Ω |  |  | [''] | 
+| 22 | R1 | 0805-NO | 1 | 12â„¦ |  |  | [''] | 
 | 23 | R9 | _0805MP | 1 | 1K |  |  | [''] | 
 | 24 | U$19 | PCBFEAT-REV-056 | 1 |  |  |  | [''] | 
 | 25 | R3 | _0805MP | 1 | 12 |  |  | [''] | 
@@ -70,7 +91,7 @@
 | IC5 | 1 | AXP803 | AXP083-SAG | working:SOT23 |  |  |  | 
 | JP1 | 1 | HEADER-2X13-SMT | HEADER-2X13-SMT | working:2X13_SMT_MALE |  |  |  | 
 | L1 | 1 | 10uH 1007 | INDUCTOR | working:INDUCTOR_1007 |  |  |  | 
-| R1 | 1 | 12Ω | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 
+| R1 | 1 | 12â„¦ | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 
 | R2, R5, R6, R7, R11 | 5 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 
 | R3 | 1 | 12 | RESISTOR_0805MP | working:_0805MP |  |  |  | 
 | R4 | 1 | 12 | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 

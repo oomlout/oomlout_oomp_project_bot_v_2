@@ -1,10 +1,264 @@
 board: mcp25625_breakout
+bom:
+- Id: '1'
+  Designator: C1,C2
+  Footprint: C_0402_1005Metric
+  Quantity: '2'
+  Designation: 0.1u
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J1
+  Footprint: PinHeader_1x11_P2.54mm_Vertical_witout_silk
+  Quantity: '1'
+  Designation: Conn_01x11
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R1
+  Footprint: R_0402_1005Metric
+  Quantity: '1'
+  Designation: '120'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U1
+  Footprint: SSOP-28_5.3x10.2mm_P0.65mm
+  Quantity: '1'
+  Designation: MCP25625-x-SS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: SW1
+  Footprint: slide_switch_smd
+  Quantity: '1'
+  Designation: SW_Slide_with_cover
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C4,C3
+  Footprint: C_0402_1005Metric
+  Quantity: '2'
+  Designation: 22pf
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: Y1
+  Footprint: Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm
+  Quantity: '1'
+  Designation: Crystal_GND24_16MHz
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R2
+  Footprint: R_0402_1005Metric
+  Quantity: '1'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C2\
+  \ | C_0402_1005Metric | 2 | 0.1u |  |  | [''] | \n| 2 | J1 | PinHeader_1x11_P2.54mm_Vertical_witout_silk\
+  \ | 1 | Conn_01x11 |  |  | [''] | \n| 3 | R1 | R_0402_1005Metric | 1 | 120 |  |\
+  \  | [''] | \n| 4 | U1 | SSOP-28_5.3x10.2mm_P0.65mm | 1 | MCP25625-x-SS |  |  |\
+  \ [''] | \n| 5 | SW1 | slide_switch_smd | 1 | SW_Slide_with_cover |  |  | [''] |\
+  \ \n| 6 | C4,C3 | C_0402_1005Metric | 2 | 22pf |  |  | [''] | \n| 7 | Y1 | Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm\
+  \ | 1 | Crystal_GND24_16MHz |  |  | [''] | \n| 8 | R2 | R_0402_1005Metric | 1 |\
+  \ 10k |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0402_1005Metric
+  Qnty: '2'
+  Ref: C1, C2
+  Value: 0.1u
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0402_1005Metric
+  Qnty: '2'
+  Ref: C3, C4
+  Value: 22pf
+  Vendor: ''
+- Cmp name: Conn_01x11
+  DNP: ''
+  Description: Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: asukiaaa-kicad-footprints:PinHeader_1x11_P2.54mm_Vertical_witout_silk
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_01x11
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0402_1005Metric
+  Qnty: '1'
+  Ref: R1
+  Value: '120'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0402_1005Metric
+  Qnty: '1'
+  Ref: R2
+  Value: 10k
+  Vendor: ''
+- Cmp name: SW_Slide_with_cover
+  DNP: ''
+  Description: Switch, single pole double throw
+  Footprint: asukiaaa-kicad-footprints:slide_switch_smd
+  Qnty: '1'
+  Ref: SW1
+  Value: SW_Slide_with_cover
+  Vendor: ''
+- Cmp name: MCP25625-x-SS
+  DNP: ''
+  Description: Stand-Alone CAN Controller with SPI Interface and integated Transceiver,
+    SSOP-28
+  Footprint: Package_SO:SSOP-28_5.3x10.2mm_P0.65mm
+  Qnty: '1'
+  Ref: U1
+  Value: MCP25625-x-SS
+  Vendor: ''
+- Cmp name: Crystal_GND24
+  DNP: ''
+  Description: Four pin crystal, GND on pins 2 and 4
+  Footprint: Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm
+  Qnty: '1'
+  Ref: Y1
+  Value: Crystal_GND24_16MHz
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2\
+  \ | 2 | 0.1u | C | Capacitor_SMD:C_0402_1005Metric | Unpolarized capacitor |  |\
+  \  | \n| C3, C4 | 2 | 22pf | C | Capacitor_SMD:C_0402_1005Metric | Unpolarized capacitor\
+  \ |  |  | \n| J1 | 1 | Conn_01x11 | Conn_01x11 | asukiaaa-kicad-footprints:PinHeader_1x11_P2.54mm_Vertical_witout_silk\
+  \ | Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| R1 | 1 | 120 | R | Resistor_SMD:R_0402_1005Metric | Resistor |  |\
+  \  | \n| R2 | 1 | 10k | R | Resistor_SMD:R_0402_1005Metric | Resistor |  |  | \n\
+  | SW1 | 1 | SW_Slide_with_cover | SW_Slide_with_cover | asukiaaa-kicad-footprints:slide_switch_smd\
+  \ | Switch, single pole double throw |  |  | \n| U1 | 1 | MCP25625-x-SS | MCP25625-x-SS\
+  \ | Package_SO:SSOP-28_5.3x10.2mm_P0.65mm | Stand-Alone CAN Controller with SPI\
+  \ Interface and integated Transceiver, SSOP-28 |  |  | \n| Y1 | 1 | Crystal_GND24_16MHz\
+  \ | Crystal_GND24 | Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm | Four pin\
+  \ crystal, GND on pins 2 and 4 |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/asukiaaa_mcp25625_breakout_mcp25625_breakout/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asukiaaa_mcp25625_breakout_mcp25625_breakout/current_version/working/working.kicad_sch
 file_repo_bom_csv_flat: projects/asukiaaa_mcp25625_breakout_mcp25625_breakout/current_version/working/bom_src.csv
 id: asukiaaa_mcp25625_breakout_mcp25625_breakout
 name: mcp25625_breakout
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_0402_1005Metric
+  PosX: 157.84
+  PosY: -73.675
+  Rot: 0.0
+  Side: top
+  Val: 0.1u
+- '# Ref': C2
+  Package: C_0402_1005Metric
+  PosX: 157.845
+  PosY: -80.2
+  Rot: 0.0
+  Side: top
+  Val: 0.1u
+- '# Ref': C3
+  Package: C_0402_1005Metric
+  PosX: 144.55
+  PosY: -77.23
+  Rot: 90.0
+  Side: top
+  Val: 22pf
+- '# Ref': C4
+  Package: C_0402_1005Metric
+  PosX: 144.53
+  PosY: -75.19
+  Rot: -90.0
+  Side: top
+  Val: 22pf
+- '# Ref': J1
+  Package: PinHeader_1x11_P2.54mm_Vertical_witout_silk
+  PosX: 138.0
+  PosY: -84.0
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x11
+- '# Ref': R1
+  Package: R_0402_1005Metric
+  PosX: 162.76
+  PosY: -79.9
+  Rot: 0.0
+  Side: top
+  Val: '120'
+- '# Ref': R2
+  Package: R_0402_1005Metric
+  PosX: 151.91
+  PosY: -82.63
+  Rot: 180.0
+  Side: top
+  Val: 10k
+- '# Ref': SW1
+  Package: slide_switch_smd
+  PosX: 160.84
+  PosY: -76.0
+  Rot: 90.0
+  Side: top
+  Val: SW_Slide_with_cover
+- '# Ref': U1
+  Package: SSOP-28_5.3x10.2mm_P0.65mm
+  PosX: 150.97
+  PosY: -76.71
+  Rot: -90.0
+  Side: top
+  Val: MCP25625-x-SS
+- '# Ref': Y1
+  Package: Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm
+  PosX: 142.0
+  PosY: -76.2
+  Rot: -90.0
+  Side: top
+  Val: Crystal_GND24_16MHz
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1u | C_0402_1005Metric | 157.84\
+  \ | -73.675 | 0.0 | top | \n| C2 | 0.1u | C_0402_1005Metric | 157.845 | -80.2 |\
+  \ 0.0 | top | \n| C3 | 22pf | C_0402_1005Metric | 144.55 | -77.23 | 90.0 | top |\
+  \ \n| C4 | 22pf | C_0402_1005Metric | 144.53 | -75.19 | -90.0 | top | \n| J1 | Conn_01x11\
+  \ | PinHeader_1x11_P2.54mm_Vertical_witout_silk | 138.0 | -84.0 | 90.0 | top | \n\
+  | R1 | 120 | R_0402_1005Metric | 162.76 | -79.9 | 0.0 | top | \n| R2 | 10k | R_0402_1005Metric\
+  \ | 151.91 | -82.63 | 180.0 | top | \n| SW1 | SW_Slide_with_cover | slide_switch_smd\
+  \ | 160.84 | -76.0 | 90.0 | top | \n| U1 | MCP25625-x-SS | SSOP-28_5.3x10.2mm_P0.65mm\
+  \ | 150.97 | -76.71 | -90.0 | top | \n| Y1 | Crystal_GND24_16MHz | Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm\
+  \ | 142.0 | -76.2 | -90.0 | top | \n"
 projects_flat: projects/asukiaaa_mcp25625_breakout_mcp25625_breakout/current_version/working
 repo:
   allow_forking: true

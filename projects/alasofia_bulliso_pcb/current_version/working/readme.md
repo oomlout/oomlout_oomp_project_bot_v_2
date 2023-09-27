@@ -17,7 +17,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -71,12 +92,12 @@
 | S5 | 1 | MX_stab | MX_stab | marbastlib-mx:STAB_MX_6u | Cherry MX-style stabilizer |  |  | 
 | S6 | 1 | MX_stab | MX_stab | marbastlib-mx:STAB_MX_6.25u | Cherry MX-style stabilizer |  |  | 
 | S8 | 1 | MX_stab | MX_stab | marbastlib-mx:STAB_MX_P_2.75u | Cherry MX-style stabilizer |  |  | 
-| SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12, SW13, SW14, SW15, SW16, SW18, SW19, SW20, SW22, SW23, SW24, SW26, SW27, SW28, SW31, SW32, SW33, SW35, SW36, SW37, SW38, SW39, SW40, SW41, SW42, SW43, SW44, SW46, SW47, SW48, SW49, SW50, SW52, SW53, SW55, SW57, SW58, SW59, SW60, SW61 | 50 | MX_SW_solder | MX_SW_solder | marbastlib-mx:SW_MX_1u | Push button switch, normally open, two pins, 45° tilted |  |  | 
-| SW5_1 | 1 | MX_SW_solder | MX_SW_solder | marbastlib-mx:SW_MX_1u | Push button switch, normally open, two pins, 45° tilted |  |  | 
-| SW17 | 1 | 2.25 | MX_SW_solder | marbastlib-mx:SW_MX_1u | Push button switch, normally open, two pins, 45° tilted |  |  | 
-| SW21, SW29 | 2 | 3 | MX_SW_solder | marbastlib-mx:SW_MX_1u | Push button switch, normally open, two pins, 45° tilted |  |  | 
-| SW25 | 1 | 2.75 | MX_SW_solder | marbastlib-mx:SW_MX_1u | Push button switch, normally open, two pins, 45° tilted |  |  | 
-| SW34 | 1 | 6u | MX_SW_solder | marbastlib-mx:SW_MX_1u | Push button switch, normally open, two pins, 45° tilted |  |  | 
+| SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12, SW13, SW14, SW15, SW16, SW18, SW19, SW20, SW22, SW23, SW24, SW26, SW27, SW28, SW31, SW32, SW33, SW35, SW36, SW37, SW38, SW39, SW40, SW41, SW42, SW43, SW44, SW46, SW47, SW48, SW49, SW50, SW52, SW53, SW55, SW57, SW58, SW59, SW60, SW61 | 50 | MX_SW_solder | MX_SW_solder | marbastlib-mx:SW_MX_1u | Push button switch, normally open, two pins, 45Â° tilted |  |  | 
+| SW5_1 | 1 | MX_SW_solder | MX_SW_solder | marbastlib-mx:SW_MX_1u | Push button switch, normally open, two pins, 45Â° tilted |  |  | 
+| SW17 | 1 | 2.25 | MX_SW_solder | marbastlib-mx:SW_MX_1u | Push button switch, normally open, two pins, 45Â° tilted |  |  | 
+| SW21, SW29 | 2 | 3 | MX_SW_solder | marbastlib-mx:SW_MX_1u | Push button switch, normally open, two pins, 45Â° tilted |  |  | 
+| SW25 | 1 | 2.75 | MX_SW_solder | marbastlib-mx:SW_MX_1u | Push button switch, normally open, two pins, 45Â° tilted |  |  | 
+| SW34 | 1 | 6u | MX_SW_solder | marbastlib-mx:SW_MX_1u | Push button switch, normally open, two pins, 45Â° tilted |  |  | 
 
 
 

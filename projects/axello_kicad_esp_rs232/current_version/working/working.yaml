@@ -1,4 +1,94 @@
 board: esp_rs232
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '2'
+  Ref: C1, C2
+  Value: 100nF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: C3
+  Value: "100\xC2\xB5F"
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '5'
+  Ref: C4, C5, C6, C7, C8
+  Value: 100n
+  Vendor: ''
+- Cmp name: PROG_CONN
+  DNP: ''
+  Description: Connector, single row, 01x05, pin header
+  Footprint: ''
+  Qnty: '1'
+  Ref: J1
+  Value: PROG_CONN
+  Vendor: ''
+- Cmp name: CONN_01X04
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: J2
+  Value: CONN_01X04
+  Vendor: ''
+- Cmp name: DB9_MALE
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: J3
+  Value: DB9_MALE
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '3'
+  Ref: R1, R2, R3
+  Value: 10K
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '2'
+  Ref: SW1, SW2
+  Value: SW_Push
+  Vendor: ''
+- Cmp name: ESP-12E
+  DNP: ''
+  Description: ESP8266 ESP-12E module, 22 pins, 2mm, PCB antenna
+  Footprint: ''
+  Qnty: '1'
+  Ref: U1
+  Value: ESP-12E
+  Vendor: ''
+- Cmp name: MAX3232
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: U2
+  Value: MAX3232
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2\
+  \ | 2 | 100nF | C |  |  |  |  | \n| C3 | 1 | 100\xC2\xB5F | C |  |  |  |  | \n|\
+  \ C4, C5, C6, C7, C8 | 5 | 100n | C |  |  |  |  | \n| J1 | 1 | PROG_CONN | PROG_CONN\
+  \ |  | Connector, single row, 01x05, pin header |  |  | \n| J2 | 1 | CONN_01X04\
+  \ | CONN_01X04 |  |  |  |  | \n| J3 | 1 | DB9_MALE | DB9_MALE |  |  |  |  | \n|\
+  \ R1, R2, R3 | 3 | 10K | R |  |  |  |  | \n| SW1, SW2 | 2 | SW_Push | SW_Push |\
+  \  |  |  |  | \n| U1 | 1 | ESP-12E | ESP-12E |  | ESP8266 ESP-12E module, 22 pins,\
+  \ 2mm, PCB antenna |  |  | \n| U2 | 1 | MAX3232 | MAX3232 |  |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/axello_kicad_esp_rs232/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/axello_kicad_esp_rs232/current_version/working/working.kicad_pcb

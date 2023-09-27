@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -29,7 +50,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | C5 | 0805-NO | 1 | 10uF |  |  | [''] | 
 | 2 | CHG0 | CHIPLED_0805_NOOUTLINE | 1 | ORANGE |  |  | [''] | 
-| 3 | C6,C8,C3 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 3 | C6,C8,C3 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 4 | X4 | MICROSD | 1 | microsd |  |  | [''] | 
 | 5 | SW1 | KMR2 | 1 | SPST_TACT-KMR2 |  |  | [''] | 
 | 6 | R6 | 0603-NO | 1 | 100K |  |  | [''] | 
@@ -65,7 +86,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C7, C14 | 3 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C2, C4 | 2 | 22pF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C3, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C5 | 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | CHG0 | 1 | ORANGE | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 
 | D1 | 1 | MBR120 | DIODE-SCHOTTKYSOD-123 | working:SOD-123 |  |  |  | 

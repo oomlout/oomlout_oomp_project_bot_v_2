@@ -1,10 +1,386 @@
 board: relays_base
+bom:
+- Id: '1'
+  Designator: J1,J2
+  Footprint: PinHeader_1x02_P2.54mm_Vertical
+  Quantity: '2'
+  Designation: Conn_01x02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J3
+  Footprint: PinHeader_1x04_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x04
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J4,J5,J6,J7
+  Footprint: PinHeader_1x05_P2.54mm_Vertical
+  Quantity: '4'
+  Designation: Conn_01x05
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: K1,K2,K3,K4
+  Footprint: Relay_Y14
+  Quantity: '4'
+  Designation: Y14
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: Q1,Q2,Q3,Q4
+  Footprint: TO-92_Inline
+  Quantity: '4'
+  Designation: Q_NMOS_SGD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: D1,D2,D3,D4
+  Footprint: D_A-405_P7.62mm_Horizontal
+  Quantity: '4'
+  Designation: D
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R1,R2,R3,R4,R5,R6,R7,R8
+  Footprint: R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical
+  Quantity: '8'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1,J2\
+  \ | PinHeader_1x02_P2.54mm_Vertical | 2 | Conn_01x02 |  |  | [''] | \n| 2 | J3 |\
+  \ PinHeader_1x04_P2.54mm_Vertical | 1 | Conn_01x04 |  |  | [''] | \n| 3 | J4,J5,J6,J7\
+  \ | PinHeader_1x05_P2.54mm_Vertical | 4 | Conn_01x05 |  |  | [''] | \n| 4 | K1,K2,K3,K4\
+  \ | Relay_Y14 | 4 | Y14 |  |  | [''] | \n| 5 | Q1,Q2,Q3,Q4 | TO-92_Inline | 4 |\
+  \ Q_NMOS_SGD |  |  | [''] | \n| 6 | D1,D2,D3,D4 | D_A-405_P7.62mm_Horizontal | 4\
+  \ | D |  |  | [''] | \n| 7 | R1,R2,R3,R4,R5,R6,R7,R8 | R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical\
+  \ | 8 | 1K |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: D
+  DNP: ''
+  Description: ''
+  Footprint: Diode_THT:D_A-405_P7.62mm_Horizontal
+  Qnty: '4'
+  Ref: D1, D2, D3, D4
+  Value: D
+  Vendor: ''
+- Cmp name: Conn_01x02
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+  Qnty: '2'
+  Ref: J1, J2
+  Value: Conn_01x02
+  Vendor: ''
+- Cmp name: Conn_01x04
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J3
+  Value: Conn_01x04
+  Vendor: ''
+- Cmp name: Conn_01x05
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical
+  Qnty: '4'
+  Ref: J4, J5, J6, J7
+  Value: Conn_01x05
+  Vendor: ''
+- Cmp name: Jumper_NO_Small
+  DNP: ''
+  Description: ''
+  Footprint: Jumper:SolderJumper_01x02
+  Qnty: '4'
+  Ref: JP1, JP2, JP3, JP4
+  Value: Jumper_NO
+  Vendor: ''
+- Cmp name: Y14
+  DNP: ''
+  Description: ''
+  Footprint: Relay_THT:Relay_Y14
+  Qnty: '4'
+  Ref: K1, K2, K3, K4
+  Value: Y14
+  Vendor: ''
+- Cmp name: Q_NMOS_SGD
+  DNP: ''
+  Description: ''
+  Footprint: Package_TO_SOT_THT:TO-92_Inline
+  Qnty: '4'
+  Ref: Q1, Q2, Q3, Q4
+  Value: Q_NMOS_SGD
+  Vendor: ''
+- Cmp name: R-RESCUE-relays_base
+  DNP: ''
+  Description: ''
+  Footprint: Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical
+  Qnty: '8'
+  Ref: R1, R2, R3, R4, R5, R6, R7, R8
+  Value: 1K
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| D1, D2,\
+  \ D3, D4 | 4 | D | D | Diode_THT:D_A-405_P7.62mm_Horizontal |  |  |  | \n| J1, J2\
+  \ | 2 | Conn_01x02 | Conn_01x02 | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical\
+  \ |  |  |  | \n| J3 | 1 | Conn_01x04 | Conn_01x04 | Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical\
+  \ |  |  |  | \n| J4, J5, J6, J7 | 4 | Conn_01x05 | Conn_01x05 | Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical\
+  \ |  |  |  | \n| JP1, JP2, JP3, JP4 | 4 | Jumper_NO | Jumper_NO_Small | Jumper:SolderJumper_01x02\
+  \ |  |  |  | \n| K1, K2, K3, K4 | 4 | Y14 | Y14 | Relay_THT:Relay_Y14 |  |  |  |\
+  \ \n| Q1, Q2, Q3, Q4 | 4 | Q_NMOS_SGD | Q_NMOS_SGD | Package_TO_SOT_THT:TO-92_Inline\
+  \ |  |  |  | \n| R1, R2, R3, R4, R5, R6, R7, R8 | 8 | 1K | R-RESCUE-relays_base\
+  \ | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/asukiaaa_relays_base_relays_base/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asukiaaa_relays_base_relays_base/current_version/working/working.kicad_pcb
 file_sch_flat: projects/asukiaaa_relays_base_relays_base/current_version/working/working.sch
 id: asukiaaa_relays_base_relays_base
 name: relays_base
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': D1
+  Package: D_A-405_P7.62mm_Horizontal
+  PosX: 137.795
+  PosY: -102.235
+  Rot: -90.0
+  Side: top
+  Val: D
+- '# Ref': D2
+  Package: D_A-405_P7.62mm_Horizontal
+  PosX: 150.495
+  PosY: -102.235
+  Rot: -90.0
+  Side: top
+  Val: D
+- '# Ref': D3
+  Package: D_A-405_P7.62mm_Horizontal
+  PosX: 163.195
+  PosY: -102.235
+  Rot: -90.0
+  Side: top
+  Val: D
+- '# Ref': D4
+  Package: D_A-405_P7.62mm_Horizontal
+  PosX: 175.895
+  PosY: -102.235
+  Rot: -90.0
+  Side: top
+  Val: D
+- '# Ref': J1
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 177.8
+  PosY: -122.555
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J2
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 129.54
+  PosY: -122.555
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J3
+  Package: PinHeader_1x04_P2.54mm_Vertical
+  PosX: 149.86
+  PosY: -125.095
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x04
+- '# Ref': J4
+  Package: PinHeader_1x05_P2.54mm_Vertical
+  PosX: 129.54
+  PosY: -99.06
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x05
+- '# Ref': J5
+  Package: PinHeader_1x05_P2.54mm_Vertical
+  PosX: 142.24
+  PosY: -99.06
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x05
+- '# Ref': J6
+  Package: PinHeader_1x05_P2.54mm_Vertical
+  PosX: 154.94
+  PosY: -99.06
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x05
+- '# Ref': J7
+  Package: PinHeader_1x05_P2.54mm_Vertical
+  PosX: 167.64
+  PosY: -99.06
+  Rot: 90.0
+  Side: top
+  Val: Conn_01x05
+- '# Ref': K1
+  Package: Relay_Y14
+  PosX: 133.35
+  PosY: -104.775
+  Rot: -90.0
+  Side: top
+  Val: Y14
+- '# Ref': K2
+  Package: Relay_Y14
+  PosX: 146.05
+  PosY: -104.775
+  Rot: -90.0
+  Side: top
+  Val: Y14
+- '# Ref': K3
+  Package: Relay_Y14
+  PosX: 158.75
+  PosY: -104.775
+  Rot: -90.0
+  Side: top
+  Val: Y14
+- '# Ref': K4
+  Package: Relay_Y14
+  PosX: 171.45
+  PosY: -104.775
+  Rot: -90.0
+  Side: top
+  Val: Y14
+- '# Ref': Q1
+  Package: TO-92_Inline
+  PosX: 131.445
+  PosY: -119.38
+  Rot: 90.0
+  Side: top
+  Val: Q_NMOS_SGD
+- '# Ref': Q2
+  Package: TO-92_Inline
+  PosX: 144.145
+  PosY: -119.38
+  Rot: 90.0
+  Side: top
+  Val: Q_NMOS_SGD
+- '# Ref': Q3
+  Package: TO-92_Inline
+  PosX: 156.845
+  PosY: -119.38
+  Rot: 90.0
+  Side: top
+  Val: Q_NMOS_SGD
+- '# Ref': Q4
+  Package: TO-92_Inline
+  PosX: 169.545
+  PosY: -119.38
+  Rot: 90.0
+  Side: top
+  Val: Q_NMOS_SGD
+- '# Ref': R1
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical
+  PosX: 137.795
+  PosY: -112.395
+  Rot: -90.0
+  Side: top
+  Val: 1K
+- '# Ref': R2
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical
+  PosX: 137.795
+  PosY: -120.015
+  Rot: 90.0
+  Side: top
+  Val: 1K
+- '# Ref': R3
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical
+  PosX: 150.495
+  PosY: -120.015
+  Rot: 90.0
+  Side: top
+  Val: 1K
+- '# Ref': R4
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical
+  PosX: 150.495
+  PosY: -112.395
+  Rot: -90.0
+  Side: top
+  Val: 1K
+- '# Ref': R5
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical
+  PosX: 163.195
+  PosY: -120.015
+  Rot: 90.0
+  Side: top
+  Val: 1K
+- '# Ref': R6
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical
+  PosX: 163.195
+  PosY: -112.395
+  Rot: -90.0
+  Side: top
+  Val: 1K
+- '# Ref': R7
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical
+  PosX: 175.895
+  PosY: -120.015
+  Rot: 90.0
+  Side: top
+  Val: 1K
+- '# Ref': R8
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical
+  PosX: 175.895
+  PosY: -112.395
+  Rot: -90.0
+  Side: top
+  Val: 1K
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| D1 | D | D_A-405_P7.62mm_Horizontal\
+  \ | 137.795 | -102.235 | -90.0 | top | \n| D2 | D | D_A-405_P7.62mm_Horizontal |\
+  \ 150.495 | -102.235 | -90.0 | top | \n| D3 | D | D_A-405_P7.62mm_Horizontal | 163.195\
+  \ | -102.235 | -90.0 | top | \n| D4 | D | D_A-405_P7.62mm_Horizontal | 175.895 |\
+  \ -102.235 | -90.0 | top | \n| J1 | Conn_01x02 | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 177.8 | -122.555 | 0.0 | top | \n| J2 | Conn_01x02 | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 129.54 | -122.555 | 0.0 | top | \n| J3 | Conn_01x04 | PinHeader_1x04_P2.54mm_Vertical\
+  \ | 149.86 | -125.095 | 90.0 | top | \n| J4 | Conn_01x05 | PinHeader_1x05_P2.54mm_Vertical\
+  \ | 129.54 | -99.06 | 90.0 | top | \n| J5 | Conn_01x05 | PinHeader_1x05_P2.54mm_Vertical\
+  \ | 142.24 | -99.06 | 90.0 | top | \n| J6 | Conn_01x05 | PinHeader_1x05_P2.54mm_Vertical\
+  \ | 154.94 | -99.06 | 90.0 | top | \n| J7 | Conn_01x05 | PinHeader_1x05_P2.54mm_Vertical\
+  \ | 167.64 | -99.06 | 90.0 | top | \n| K1 | Y14 | Relay_Y14 | 133.35 | -104.775\
+  \ | -90.0 | top | \n| K2 | Y14 | Relay_Y14 | 146.05 | -104.775 | -90.0 | top | \n\
+  | K3 | Y14 | Relay_Y14 | 158.75 | -104.775 | -90.0 | top | \n| K4 | Y14 | Relay_Y14\
+  \ | 171.45 | -104.775 | -90.0 | top | \n| Q1 | Q_NMOS_SGD | TO-92_Inline | 131.445\
+  \ | -119.38 | 90.0 | top | \n| Q2 | Q_NMOS_SGD | TO-92_Inline | 144.145 | -119.38\
+  \ | 90.0 | top | \n| Q3 | Q_NMOS_SGD | TO-92_Inline | 156.845 | -119.38 | 90.0 |\
+  \ top | \n| Q4 | Q_NMOS_SGD | TO-92_Inline | 169.545 | -119.38 | 90.0 | top | \n\
+  | R1 | 1K | R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical | 137.795 | -112.395\
+  \ | -90.0 | top | \n| R2 | 1K | R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical |\
+  \ 137.795 | -120.015 | 90.0 | top | \n| R3 | 1K | R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical\
+  \ | 150.495 | -120.015 | 90.0 | top | \n| R4 | 1K | R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical\
+  \ | 150.495 | -112.395 | -90.0 | top | \n| R5 | 1K | R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical\
+  \ | 163.195 | -120.015 | 90.0 | top | \n| R6 | 1K | R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical\
+  \ | 163.195 | -112.395 | -90.0 | top | \n| R7 | 1K | R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical\
+  \ | 175.895 | -120.015 | 90.0 | top | \n| R8 | 1K | R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical\
+  \ | 175.895 | -112.395 | -90.0 | top | \n"
 projects_flat: projects/asukiaaa_relays_base_relays_base/current_version/working
 repo:
   allow_forking: true

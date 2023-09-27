@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -29,7 +50,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | @HOLE7,@HOLE2,@HOLE5,@HOLE1,@HOLE0,@HOLE6,@HOLE4,@HOLE9,@HOLE8,@HOLE3 |  | 10 |  |  |  | [''] | 
 | 2 | R2,R8 | 0603-NO | 2 | 10K |  |  | [''] | 
-| 3 | C1,C2 | 0805-NO | 2 | 10µF |  |  | [''] | 
+| 3 | C1,C2 | 0805-NO | 2 | 10ÂµF |  |  | [''] | 
 | 4 | U2 | SOT23-5 | 1 | MIC5225-3.3 |  |  | [''] | 
 | 5 | R7 | 0603-NO | 1 | 1K |  |  | [''] | 
 | 6 | CN1 | MICROSD | 1 |  |  |  | [''] | 
@@ -49,7 +70,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1, C2 | 2 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C1, C2 | 2 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C3 | 1 | 0.1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | CN1 | 1 | MICROSD | MICROSD | working:MICROSD |  |  |  | 
 | DISP1 | 1 | DISP_LCD_GENERIC_SPI_1.14IN_240X135_WRAPUNDER | DISP_LCD_GENERIC_SPI_1.14IN_240X135_WRAPUNDER | working:TFT_1.14IN_240X135_WRAPUNDER |  |  |  | 
@@ -69,6 +90,6 @@
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$9 | m3 | 
-| 26.669999999999987 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$10 | m3 | 
+| 26.67 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$10 | m3 | 
 
 

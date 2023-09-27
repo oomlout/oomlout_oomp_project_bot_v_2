@@ -11,6 +11,8 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/sparkfun/SparkFun_Three_Phase_Motor_Driver-TMC6300/tree/main/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/sparkfun_sparkfun_three_phase_motor_driver_tmc6300_sparkfun_tmc6300_breakout/current_version/working  
+
 
 
 

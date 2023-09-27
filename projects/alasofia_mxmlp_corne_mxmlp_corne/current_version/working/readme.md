@@ -16,7 +16,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -48,15 +69,15 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 0.0 | 24.865000000000002 | MountingHole | HOLE | U4 | m3 | 
-| 0.0 | 43.864999999999995 | MountingHole | HOLE | U4 | m3 | 
-| 75.968 | 47.3795 | MountingHole | HOLE | U4 | m3 | 
-| 43.15700000000001 | 7.6245 | MountingHole | HOLE | U4 | m3 | 
-| 89.72300000000001 | 0.009999999999999787 | MountingHole | HOLE | U4 | m3 | 
-| 194.348 | 7.6145000000000005 | MountingHole | HOLE | U4 | m3 | 
-| 161.537 | 47.369499999999995 | MountingHole | HOLE | U4 | m3 | 
-| 237.49200000000002 | 43.8795 | MountingHole | HOLE | U4 | m3 | 
-| 237.49200000000002 | 24.8795 | MountingHole | HOLE | U4 | m3 | 
-| 147.782 | 0.0 | MountingHole | HOLE | U4 | m3 | 
+| 0.0 | 24.87 | MountingHole | HOLE | U4 | m3 | 
+| 0.0 | 43.86 | MountingHole | HOLE | U4 | m3 | 
+| 75.97 | 47.38 | MountingHole | HOLE | U4 | m3 | 
+| 43.16 | 7.62 | MountingHole | HOLE | U4 | m3 | 
+| 89.72 | 0.01 | MountingHole | HOLE | U4 | m3 | 
+| 194.35 | 7.61 | MountingHole | HOLE | U4 | m3 | 
+| 161.54 | 47.37 | MountingHole | HOLE | U4 | m3 | 
+| 237.49 | 43.88 | MountingHole | HOLE | U4 | m3 | 
+| 237.49 | 24.88 | MountingHole | HOLE | U4 | m3 | 
+| 147.78 | 0.0 | MountingHole | HOLE | U4 | m3 | 
 
 

@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -66,7 +87,7 @@
 | 37 | U$10 | ADAFRUIT_5MM | 1 |  |  |  | [''] | 
 | 38 | JP9,JP1 | 1X02_ROUND | 2 |  |  |  | [''] | 
 | 39 | X6 | C707_10M006_512_2 | 1 | SIM_LOCKAMPHENOL |  |  | [''] | 
-| 40 | C1 | 0805-NO | 1 | 10µF |  |  | [''] | 
+| 40 | C1 | 0805-NO | 1 | 10ÂµF |  |  | [''] | 
 | 41 | SJ1 | SOLDERJUMPER_2WAY_OPEN_NOPASTE | 1 |  |  |  | [''] | 
 | 42 | X1 | SMA_EDGELAUNCH_UFL | 1 | uFL |  |  | [''] | 
 | 43 | C11,C9 | 0805-NO | 2 | 10uF |  |  | [''] | 
@@ -77,7 +98,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 1 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C1 | 1 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C2, C4, C6 | 3 | 33pF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C3, C5, C10 | 3 | 10pF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7 | 1 | 100uF | C-USC1210 | working:C1210 |  |  |  | 

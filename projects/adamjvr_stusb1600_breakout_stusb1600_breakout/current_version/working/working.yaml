@@ -1,10 +1,436 @@
 board: stusb1600_breakout
+bom:
+- Id: '1'
+  Designator: C1
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C2,C3,C4,C5
+  Footprint: C_0603_1608Metric
+  Quantity: '4'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J3
+  Footprint: PinHeader_1x04_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: CONN_PWR
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: Q1,Q2
+  Footprint: Vishay_PowerPAK_1212-8_Dual
+  Quantity: '2'
+  Designation: Si7223DN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R4,R6,R3
+  Footprint: R_0402_1005Metric
+  Quantity: '3'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R5,R8
+  Footprint: R_0402_1005Metric
+  Quantity: '2'
+  Designation: 4.7K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R10,R11,R12,R7,R1,R2,R9
+  Footprint: R_0402_1005Metric
+  Quantity: '7'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U1
+  Footprint: QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm
+  Quantity: '1'
+  Designation: STUSB1600
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: J2
+  Footprint: PMODHeader_2x06_P2.54mm_Horizontal
+  Quantity: '1'
+  Designation: CONN_PMOD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: J1
+  Footprint: USB_C_Receptacle_GT-USB-7010
+  Quantity: '1'
+  Designation: USB_C_Receptacle_USB2.0
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: J4
+  Footprint: PinHeader_1x02_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: CONN_DBG
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1\
+  \ | C_0603_1608Metric | 1 | 10uF |  |  | [''] | \n| 2 | C2,C3,C4,C5 | C_0603_1608Metric\
+  \ | 4 | 1uF |  |  | [''] | \n| 3 | J3 | PinHeader_1x04_P2.54mm_Vertical | 1 | CONN_PWR\
+  \ |  |  | [''] | \n| 4 | Q1,Q2 | Vishay_PowerPAK_1212-8_Dual | 2 | Si7223DN |  |\
+  \  | [''] | \n| 5 | R4,R6,R3 | R_0402_1005Metric | 3 | 1K |  |  | [''] | \n| 6 |\
+  \ R5,R8 | R_0402_1005Metric | 2 | 4.7K |  |  | [''] | \n| 7 | R10,R11,R12,R7,R1,R2,R9\
+  \ | R_0402_1005Metric | 7 | 10K |  |  | [''] | \n| 8 | U1 | QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm\
+  \ | 1 | STUSB1600 |  |  | [''] | \n| 9 | J2 | PMODHeader_2x06_P2.54mm_Horizontal\
+  \ | 1 | CONN_PMOD |  |  | [''] | \n| 10 | J1 | USB_C_Receptacle_GT-USB-7010 | 1\
+  \ | USB_C_Receptacle_USB2.0 |  |  | [''] | \n| 11 | J4 | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 1 | CONN_DBG |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C1
+  Value: 10uF
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '4'
+  Ref: C2, C3, C4, C5
+  Value: 1uF
+  Vendor: ''
+- Cmp name: USB_C_Receptacle_USB2.0-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_USB_Extra:USB_C_Receptacle_GT-USB-7010
+  Qnty: '1'
+  Ref: J1
+  Value: USB_C_Receptacle_USB2.0
+  Vendor: ''
+- Cmp name: Conn_02x06_Top_Bottom
+  DNP: ''
+  Description: 'Generic connector, double row, 02x06, top/bottom pin numbering scheme
+    (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated
+    (kicad-library-utils/schlib/autogen/connector/)'
+  Footprint: Connector_PinHeader_2.54mm_Extra:PMODHeader_2x06_P2.54mm_Horizontal
+  Qnty: '1'
+  Ref: J2
+  Value: CONN_PMOD
+  Vendor: ''
+- Cmp name: Conn_01x04
+  DNP: ''
+  Description: Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J3
+  Value: CONN_PWR
+  Vendor: ''
+- Cmp name: Conn_01x02
+  DNP: ''
+  Description: Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J4
+  Value: CONN_DBG
+  Vendor: ''
+- Cmp name: Si7223DN
+  DNP: ''
+  Description: ''
+  Footprint: Package_SO:Vishay_PowerPAK_1212-8_Dual
+  Qnty: '2'
+  Ref: Q1, Q2
+  Value: Si7223DN
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0402_1005Metric
+  Qnty: '7'
+  Ref: R1, R2, R7, R9, R10, R11, R12
+  Value: 10K
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0402_1005Metric
+  Qnty: '3'
+  Ref: R3, R4, R6
+  Value: 1K
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistor_SMD:R_0402_1005Metric
+  Qnty: '2'
+  Ref: R5, R8
+  Value: 4.7K
+  Vendor: ''
+- Cmp name: STUSB1600
+  DNP: ''
+  Description: ''
+  Footprint: Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm
+  Qnty: '1'
+  Ref: U1
+  Value: STUSB1600
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 10uF | C_Small | Capacitor_SMD:C_0603_1608Metric | Unpolarized capacitor,\
+  \ small symbol |  |  | \n| C2, C3, C4, C5 | 4 | 1uF | C_Small | Capacitor_SMD:C_0603_1608Metric\
+  \ | Unpolarized capacitor, small symbol |  |  | \n| J1 | 1 | USB_C_Receptacle_USB2.0\
+  \ | USB_C_Receptacle_USB2.0-Connector | Connector_USB_Extra:USB_C_Receptacle_GT-USB-7010\
+  \ |  |  |  | \n| J2 | 1 | CONN_PMOD | Conn_02x06_Top_Bottom | Connector_PinHeader_2.54mm_Extra:PMODHeader_2x06_P2.54mm_Horizontal\
+  \ | Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1:\
+  \ 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J3 | 1 | CONN_PWR | Conn_01x04 | Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J4 | 1 | CONN_DBG | Conn_01x02 | Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| Q1, Q2 | 2 | Si7223DN | Si7223DN | Package_SO:Vishay_PowerPAK_1212-8_Dual\
+  \ |  |  |  | \n| R1, R2, R7, R9, R10, R11, R12 | 7 | 10K | R_Small | Resistor_SMD:R_0402_1005Metric\
+  \ | Resistor, small symbol |  |  | \n| R3, R4, R6 | 3 | 1K | R_Small | Resistor_SMD:R_0402_1005Metric\
+  \ | Resistor, small symbol |  |  | \n| R5, R8 | 2 | 4.7K | R_Small | Resistor_SMD:R_0402_1005Metric\
+  \ | Resistor, small symbol |  |  | \n| U1 | 1 | STUSB1600 | STUSB1600 | Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/adamjvr_stusb1600_breakout_stusb1600_breakout/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/adamjvr_stusb1600_breakout_stusb1600_breakout/current_version/working/working.kicad_pcb
 file_sch_flat: projects/adamjvr_stusb1600_breakout_stusb1600_breakout/current_version/working/working.sch
 id: adamjvr_stusb1600_breakout_stusb1600_breakout
 name: stusb1600_breakout
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_0603_1608Metric
+  PosX: 87.7
+  PosY: -58.6
+  Rot: -90.0
+  Side: top
+  Val: 10uF
+- '# Ref': C2
+  Package: C_0603_1608Metric
+  PosX: 93.1
+  PosY: -62.5
+  Rot: 180.0
+  Side: top
+  Val: 1uF
+- '# Ref': C3
+  Package: C_0603_1608Metric
+  PosX: 93.1
+  PosY: -61.0
+  Rot: 180.0
+  Side: top
+  Val: 1uF
+- '# Ref': C4
+  Package: C_0603_1608Metric
+  PosX: 93.1
+  PosY: -64.0
+  Rot: 180.0
+  Side: top
+  Val: 1uF
+- '# Ref': C5
+  Package: C_0603_1608Metric
+  PosX: 93.1
+  PosY: -65.9
+  Rot: 180.0
+  Side: top
+  Val: 1uF
+- '# Ref': J1
+  Package: USB_C_Receptacle_GT-USB-7010
+  PosX: 82.042
+  PosY: -62.23
+  Rot: -90.0
+  Side: top
+  Val: USB_C_Receptacle_USB2.0
+- '# Ref': J2
+  Package: PMODHeader_2x06_P2.54mm_Horizontal
+  PosX: 111.76
+  PosY: -55.88
+  Rot: 0.0
+  Side: top
+  Val: CONN_PMOD
+- '# Ref': J3
+  Package: PinHeader_1x04_P2.54mm_Vertical
+  PosX: 87.2
+  PosY: -54.2
+  Rot: -90.0
+  Side: top
+  Val: CONN_PWR
+- '# Ref': J4
+  Package: PinHeader_1x02_P2.54mm_Vertical
+  PosX: 106.0
+  PosY: -53.9
+  Rot: -90.0
+  Side: top
+  Val: CONN_DBG
+- '# Ref': Q1
+  Package: Vishay_PowerPAK_1212-8_Dual
+  PosX: 99.3
+  PosY: -56.6
+  Rot: 0.0
+  Side: top
+  Val: Si7223DN
+- '# Ref': Q2
+  Package: Vishay_PowerPAK_1212-8_Dual
+  PosX: 92.9
+  PosY: -56.6
+  Rot: 0.0
+  Side: top
+  Val: Si7223DN
+- '# Ref': R1
+  Package: R_0402_1005Metric
+  PosX: 96.0
+  PosY: -55.8
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: R_0402_1005Metric
+  PosX: 89.6
+  PosY: -55.8
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: R_0402_1005Metric
+  PosX: 96.0
+  PosY: -58.1
+  Rot: 90.0
+  Side: top
+  Val: 1K
+- '# Ref': R4
+  Package: R_0402_1005Metric
+  PosX: 89.6
+  PosY: -58.1
+  Rot: 90.0
+  Side: top
+  Val: 1K
+- '# Ref': R5
+  Package: R_0402_1005Metric
+  PosX: 101.3
+  PosY: -66.7
+  Rot: 90.0
+  Side: top
+  Val: 4.7K
+- '# Ref': R6
+  Package: R_0402_1005Metric
+  PosX: 99.8
+  PosY: -66.7
+  Rot: -90.0
+  Side: top
+  Val: 1K
+- '# Ref': R7
+  Package: R_0402_1005Metric
+  PosX: 105.9
+  PosY: -56.4
+  Rot: 0.0
+  Side: top
+  Val: 10K
+- '# Ref': R8
+  Package: R_0402_1005Metric
+  PosX: 102.4
+  PosY: -66.7
+  Rot: 90.0
+  Side: top
+  Val: 4.7K
+- '# Ref': R9
+  Package: R_0402_1005Metric
+  PosX: 103.6
+  PosY: -56.4
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R10
+  Package: R_0402_1005Metric
+  PosX: 103.5
+  PosY: -66.7
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R11
+  Package: R_0402_1005Metric
+  PosX: 104.6
+  PosY: -66.7
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R12
+  Package: R_0402_1005Metric
+  PosX: 105.7
+  PosY: -66.7
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': U1
+  Package: QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm
+  PosX: 98.552
+  PosY: -62.23
+  Rot: 90.0
+  Side: top
+  Val: STUSB1600
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 10uF | C_0603_1608Metric | 87.7\
+  \ | -58.6 | -90.0 | top | \n| C2 | 1uF | C_0603_1608Metric | 93.1 | -62.5 | 180.0\
+  \ | top | \n| C3 | 1uF | C_0603_1608Metric | 93.1 | -61.0 | 180.0 | top | \n| C4\
+  \ | 1uF | C_0603_1608Metric | 93.1 | -64.0 | 180.0 | top | \n| C5 | 1uF | C_0603_1608Metric\
+  \ | 93.1 | -65.9 | 180.0 | top | \n| J1 | USB_C_Receptacle_USB2.0 | USB_C_Receptacle_GT-USB-7010\
+  \ | 82.042 | -62.23 | -90.0 | top | \n| J2 | CONN_PMOD | PMODHeader_2x06_P2.54mm_Horizontal\
+  \ | 111.76 | -55.88 | 0.0 | top | \n| J3 | CONN_PWR | PinHeader_1x04_P2.54mm_Vertical\
+  \ | 87.2 | -54.2 | -90.0 | top | \n| J4 | CONN_DBG | PinHeader_1x02_P2.54mm_Vertical\
+  \ | 106.0 | -53.9 | -90.0 | top | \n| Q1 | Si7223DN | Vishay_PowerPAK_1212-8_Dual\
+  \ | 99.3 | -56.6 | 0.0 | top | \n| Q2 | Si7223DN | Vishay_PowerPAK_1212-8_Dual |\
+  \ 92.9 | -56.6 | 0.0 | top | \n| R1 | 10K | R_0402_1005Metric | 96.0 | -55.8 | 90.0\
+  \ | top | \n| R2 | 10K | R_0402_1005Metric | 89.6 | -55.8 | 90.0 | top | \n| R3\
+  \ | 1K | R_0402_1005Metric | 96.0 | -58.1 | 90.0 | top | \n| R4 | 1K | R_0402_1005Metric\
+  \ | 89.6 | -58.1 | 90.0 | top | \n| R5 | 4.7K | R_0402_1005Metric | 101.3 | -66.7\
+  \ | 90.0 | top | \n| R6 | 1K | R_0402_1005Metric | 99.8 | -66.7 | -90.0 | top |\
+  \ \n| R7 | 10K | R_0402_1005Metric | 105.9 | -56.4 | 0.0 | top | \n| R8 | 4.7K |\
+  \ R_0402_1005Metric | 102.4 | -66.7 | 90.0 | top | \n| R9 | 10K | R_0402_1005Metric\
+  \ | 103.6 | -56.4 | 180.0 | top | \n| R10 | 10K | R_0402_1005Metric | 103.5 | -66.7\
+  \ | 90.0 | top | \n| R11 | 10K | R_0402_1005Metric | 104.6 | -66.7 | 90.0 | top\
+  \ | \n| R12 | 10K | R_0402_1005Metric | 105.7 | -66.7 | 90.0 | top | \n| U1 | STUSB1600\
+  \ | QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm | 98.552 | -62.23 | 90.0 | top | \n"
 projects_flat: projects/adamjvr_stusb1600_breakout_stusb1600_breakout/current_version/working
 repo:
   allow_forking: true

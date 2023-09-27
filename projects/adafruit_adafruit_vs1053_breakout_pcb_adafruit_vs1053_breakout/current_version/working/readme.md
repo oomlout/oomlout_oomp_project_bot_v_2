@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -33,9 +54,9 @@
 | 4 | CN1 | MICROSD | 1 | 2908-05WB-M6 |  |  | [''] | 
 | 5 | U$52,U$53,U$51,U$50 | MOUNTINGHOLE_3.0_PLATEDTHIN | 4 | MOUNTINGHOLE3.0THIN |  |  | [''] | 
 | 6 | U2 | SOT23-6 | 1 | AP7312-1833W6-7 |  |  | [''] | 
-| 7 | C19,C20,C7,C6 | _0805MP | 4 | 10µF |  |  | [''] | 
+| 7 | C19,C20,C7,C6 | _0805MP | 4 | 10ÂµF |  |  | [''] | 
 | 8 | C5,C4 | _0805MP | 2 | 10pF |  |  | [''] | 
-| 9 | C26,C8 | _0805MP | 2 | 0.1µF |  |  | [''] | 
+| 9 | C26,C8 | _0805MP | 2 | 0.1ÂµF |  |  | [''] | 
 | 10 | JP3,JP2 | 1X16_ROUND | 2 |  |  |  | [''] | 
 | 11 | R3,R4 | _0805MP | 2 | 20 |  |  | [''] | 
 | 12 | C22,C21 | _0805MP | 2 | 10nF (0.01uF) |  |  | [''] | 
@@ -57,8 +78,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C2 | 2 | 220uF | CPOL-USC | working:PANASONIC_C |  |  |  | 
 | C4, C5 | 2 | 10pF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
-| C6, C7, C19, C20 | 4 | 10µF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
-| C8, C26 | 2 | 0.1µF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
+| C6, C7, C19, C20 | 4 | 10ÂµF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
+| C8, C26 | 2 | 0.1ÂµF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
 | C21, C22 | 2 | 10nF (0.01uF) | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
 | CN1 | 1 | 2908-05WB-M6 | MICROSD | working:MICROSD |  |  |  | 
 | D1 | 1 | 1N4148 | DIODESOD-323 | working:SOD-323 |  |  |  | 
@@ -82,8 +103,8 @@
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
 | 0.0 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$50 | m3 | 
-| 21.335999999999984 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$51 | m3 | 
-| 21.335999999999984 | 50.41900000000001 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$52 | m3 | 
-| 0.0 | 50.41900000000001 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$53 | m3 | 
+| 21.34 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$51 | m3 | 
+| 21.34 | 50.42 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$52 | m3 | 
+| 0.0 | 50.42 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$53 | m3 | 
 
 

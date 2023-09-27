@@ -20,4 +20,5 @@ def main(**kwargs):
 if __name__ == '__main__':
     kwargs = {}
     kwargs["filter"] = ["dangerousprototypes_buspirate5_hardware_buspirate_5_rev8"]
+    #kwargs["filter"] = [""]
     main(**kwargs)

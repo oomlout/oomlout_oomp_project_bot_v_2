@@ -15,6 +15,7 @@
 * full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adamgreig_m3_avionics_debugend_gpspreamp/current_version/working  
 
 
+
 ## pcb  
 ![](working_3d_600.png) 
 ![](working_3d_front_600.png)  
@@ -29,7 +30,7 @@
 | 2 | J2 | TFML-110-02-L-D | 1 | EAST TOP |  |  | [''] | 
 | 3 | R1 | 0402 | 1 | 120 |  |  | [''] | 
 | 4 | J5,J6,J7,J8 | SIL-254P-10 | 4 | CONN_01x10 |  |  | [''] | 
-| 5 | C1 | 0402 | 1 | 1µ |  |  | [''] | 
+| 5 | C1 | 0402 | 1 | 1Âµ |  |  | [''] | 
 | 6 | C2 | 0402 | 1 | 100n |  |  | [''] | 
 | 7 | C3 | 0402 | 1 | 200p |  |  | [''] | 
 | 8 | IC1 | DFN-6-EP-BGM | 1 | BGM1043N7 |  |  | [''] | 

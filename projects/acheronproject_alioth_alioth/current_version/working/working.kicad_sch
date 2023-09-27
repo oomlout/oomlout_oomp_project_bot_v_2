@@ -1,0 +1,86 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c654ae87-8590-42f7-90ee-39877af78718)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "acheronSymbols:MXSwitch" (in_bom yes) (on_board yes)
+      (property "Reference" "SW" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MXSwitch" (at 0 -3.81 0)
+        (effects (font (size 0.9906 0.9906)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MXSwitch_0_1"
+        (rectangle (start -6.35 6.35) (end 6.35 -6.35)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -6.35 0)
+            (xy -8.89 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 6.35)
+            (xy 0 8.89)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "MXSwitch_1_1"
+        (pin output line (at -8.89 0 0) (length 2.54) hide
+          (name "Col" (effects (font (size 0.508 0.508))))
+          (number "1" (effects (font (size 0.508 0.508))))
+        )
+        (pin input line (at 0 8.89 270) (length 2.54) hide
+          (name "Row" (effects (font (size 0.508 0.508))))
+          (number "2" (effects (font (size 0.508 0.508))))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "acheronSymbols:MXSwitch") (at 139.7 57.15 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 1fcd5b98-031b-4f17-95de-1ba54bde1db5)
+    (property "Reference" "SW1" (at 139.7 55.88 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "ESC" (at 139.7 59.055 0)
+      (effects (font (size 0.9906 0.9906)))
+    )
+    (property "Footprint" "acheron_MX_SolderMask:MX100" (at 139.7 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 139.7 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1cee5fb6-4e07-4aed-9d71-b6f144b78d29))
+    (pin "2" (uuid 8ba3b55c-c2bf-4357-a8d4-9e9d4b786033))
+    (instances
+      (project "working."
+        (path "/c654ae87-8590-42f7-90ee-39877af78718"
+          (reference "SW1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

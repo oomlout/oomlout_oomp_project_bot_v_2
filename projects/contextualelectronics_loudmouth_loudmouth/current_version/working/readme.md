@@ -16,7 +16,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -51,9 +72,9 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 21.463000000000022 | 26.352500000000006 | MountingHole_2-5mm | MountingHole_2-5mm | REF** | m3 | 
-| 0.0 | 26.0985 | MountingHole_2-5mm | MountingHole_2-5mm | REF** | m3 | 
-| 0.06350000000000477 | 0.12700000000000955 | MountingHole_2-5mm | MountingHole_2-5mm | REF** | m3 | 
-| 21.526500000000027 | 0.0 | MountingHole_2-5mm | MountingHole_2-5mm | REF** | m3 | 
+| 21.46 | 26.35 | MountingHole_2-5mm | MountingHole_2-5mm | REF** | m3 | 
+| 0.0 | 26.1 | MountingHole_2-5mm | MountingHole_2-5mm | REF** | m3 | 
+| 0.06 | 0.13 | MountingHole_2-5mm | MountingHole_2-5mm | REF** | m3 | 
+| 21.53 | 0.0 | MountingHole_2-5mm | MountingHole_2-5mm | REF** | m3 | 
 
 

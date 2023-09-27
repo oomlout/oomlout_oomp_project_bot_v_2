@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -34,7 +55,7 @@
 | 5 | U4 | RFMHCW_SMT | 1 |  |  |  | [''] | 
 | 6 | U$32,U$31 | MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5 |  |  | [''] | 
 | 7 | Y1 | RESONATOR-SMD | 1 | 8MHz |  |  | [''] | 
-| 8 | C6,C8,C3 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 8 | C6,C8,C3 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 9 | U2 | SOT23-5 | 1 | AP2112-3.3 |  |  | [''] | 
 | 10 | JP3 | 1X12_ROUND | 1 |  |  |  | [''] | 
 | 11 | CHG0 | CHIPLED_0805_NOOUTLINE | 1 | ORANGE |  |  | [''] | 
@@ -67,7 +88,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | ANT0 | 1 | HEADER-1X1ROUND | HEADER-1X1ROUND | working:1X01_ROUND |  |  |  | 
 | C1 | 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C3, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7, C14 | 2 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C9 | 1 | 1uF | CAP_CERAMIC_0603MP | working:_0603MP |  |  |  | 
 | CHG0 | 1 | ORANGE | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 

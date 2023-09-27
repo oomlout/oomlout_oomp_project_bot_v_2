@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -29,7 +50,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | MS1 | FEATHERWING_SMT_NOHOLES | 1 | FEATHERWING_SMTDUALNOHOLES |  |  | [''] | 
 | 2 | U4 | ALS-PT26-21C | 1 | ALS-PT21 |  |  | [''] | 
-| 3 | C8,C6,C3 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 3 | C8,C6,C3 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 4 | SJ2 | SOLDERJUMPER_CLOSEDWIRE | 1 |  |  |  | [''] | 
 | 5 | U$17,U$15,U$5,U$6 | MOUNTINGHOLE_3.0_PLATEDTHIN | 4 | MOUNTINGHOLE3.0THIN |  |  | [''] | 
 | 6 | X1 | JSTPH2 | 1 | JSTPH |  |  | [''] | 
@@ -52,7 +73,7 @@
 | 23 | IC4 | LGA16_3X3MM | 1 | LIS3DH |  |  | [''] | 
 | 24 | R16 | 0603-NO | 1 | 10 |  |  | [''] | 
 | 25 | TP7,TP6,TP8 | TESTPOINT_ROUND_2MM | 3 |  |  |  | [''] | 
-| 26 | C16 | _0805MP | 1 | 10µF |  |  | [''] | 
+| 26 | C16 | _0805MP | 1 | 10ÂµF |  |  | [''] | 
 | 27 | IC1 | TSSOP16 | 1 | 74165TSSOP |  |  | [''] | 
 | 28 | C17,C9 | 0603-NO | 2 | 0.1uF |  |  | [''] | 
 | 29 | U$13 | 53398-0271 | 1 | CON_MOLEX_2P |  |  | [''] | 
@@ -88,10 +109,10 @@
 | A0 | 1 | SWITCH_TACT_SMT_6MMSMALL | SWITCH_TACT_SMT_6MMSMALL | working:6MM_SMT |  |  |  | 
 | B0 | 1 | SWITCH_TACT_SMT_6MMSMALL | SWITCH_TACT_SMT_6MMSMALL | working:6MM_SMT |  |  |  | 
 | C1, C2, C4, C7, C12, C13, C19 | 7 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C3, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C5, C10, C11, C14, C15, C18 | 6 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C9, C17 | 2 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C16 | 1 | 10µF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
+| C16 | 1 | 10ÂµF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
 | CHG0 | 1 | ORANGE | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 
 | D1, D2 | 2 | 3.6V | DIODE-ZENERSOD323 | working:SOD-323 |  |  |  | 
 | D4 | 1 | MBR0540 | DIODE-SCHOTTKYSOD-123 | working:SOD-123 |  |  |  | 
@@ -147,9 +168,9 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 0.0 | 46.355000000000004 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$5 | m3 | 
-| 78.10499999999999 | 46.355000000000004 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$6 | m3 | 
+| 0.0 | 46.36 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$5 | m3 | 
+| 78.1 | 46.36 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$6 | m3 | 
 | 0.0 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$15 | m3 | 
-| 78.10499999999999 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$17 | m3 | 
+| 78.1 | 0.0 | MOUNTINGHOLE_3.0_PLATEDTHIN | MOUNTINGHOLE3.0THIN | U$17 | m3 | 
 
 

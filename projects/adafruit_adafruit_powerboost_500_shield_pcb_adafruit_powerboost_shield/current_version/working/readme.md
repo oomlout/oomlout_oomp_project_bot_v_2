@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -42,7 +63,7 @@
 | 13 | R1 | 0805-NO | 1 | 470 |  |  | [''] | 
 | 14 | U$4,U$3 | FIDUCIAL_1MM | 2 | FIDUCIAL |  |  | [''] | 
 | 15 | R4,R2 | 0805-NO | 2 | 2K |  |  | [''] | 
-| 16 | C4 | 0805-NO | 1 | 10µF |  |  | [''] | 
+| 16 | C4 | 0805-NO | 1 | 10ÂµF |  |  | [''] | 
 | 17 | U$6 | ADAFRUIT_TEXT_30MM | 1 |  |  |  | [''] | 
 | 18 | F1 | R1206 | 1 | 500mA |  |  | [''] | 
 | 19 | L1 | INDUCTOR_5X5MM_TDK_VLC5045 | 1 | VLC5045-6.8uH |  |  | [''] | 
@@ -65,7 +86,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | ANALOG0 | 1 | ANALOG | PINHD-1X6 | working:1X06 |  |  |  | 
 | BATT_IN0 | 1 | JST-PH | JST_2PIN-SMT | working:JST-PH-2-SMT |  |  |  | 
-| C4 | 1 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C4 | 1 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C6 | 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7 | 1 | 2.2uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C8 | 1 | 0.1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 

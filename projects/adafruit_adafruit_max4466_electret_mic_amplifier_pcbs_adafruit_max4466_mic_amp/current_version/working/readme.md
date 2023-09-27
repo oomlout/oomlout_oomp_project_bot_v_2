@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -27,7 +48,7 @@
 ## working_bom
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| 1 | C1 | 0805 | 1 | 0.1µF |  |  | [''] | 
+| 1 | C1 | 0805 | 1 | 0.1ÂµF |  |  | [''] | 
 | 2 | FB1,FB2 | 0805 | 2 | FERRITE |  |  | [''] | 
 | 3 | U$11,U$14 | MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5 |  |  | [''] | 
 | 4 | R3,R4 | 0805 | 2 | 1M |  |  | [''] | 
@@ -47,7 +68,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 1 | 0.1µF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
+| C1 | 1 | 0.1ÂµF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
 | C2 | 1 | 0.01uF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
 | C3 | 1 | 100pF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
 | C4 | 1 | 10uF | CAP_CERAMIC0805 | working:0805 |  |  |  | 
@@ -67,6 +88,6 @@
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$11 | m3 | 
-| 9.652000000000015 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$14 | m3 | 
+| 9.65 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$14 | m3 | 
 
 

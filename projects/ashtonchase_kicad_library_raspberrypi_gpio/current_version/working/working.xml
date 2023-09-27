@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\ashtonchase_kicad_library_raspberrypi_gpio\current_version\working\working.kicad_sch</source>
+    <date>25/09/2023 16:01:36</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>15 nov 2012</date>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>CONN_13X2</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x13</footprint>
+      <libsource lib="raspberrypi-gpio-rescue" part="CONN_13X2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000050a55aba</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="raspberrypi-gpio-rescue" part="CONN_13X2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_13X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P20" type="passive"/>
+        <pin num="25" name="P24" type="passive"/>
+        <pin num="26" name="P22" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="P1" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="P1" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="3" name="/GPIO0(SDA)">
+      <node ref="P1" pin="3" pinfunction="P3" pintype="passive"/>
+    </net>
+    <net code="4" name="/GPIO1(SCL)">
+      <node ref="P1" pin="5" pinfunction="P5" pintype="passive"/>
+    </net>
+    <net code="5" name="/GPIO4">
+      <node ref="P1" pin="7" pinfunction="P7" pintype="passive"/>
+    </net>
+    <net code="6" name="/GPIO7(CE1)">
+      <node ref="P1" pin="26" pinfunction="P22" pintype="passive"/>
+    </net>
+    <net code="7" name="/GPIO8(CE0)">
+      <node ref="P1" pin="24" pinfunction="P20" pintype="passive"/>
+    </net>
+    <net code="8" name="/GPIO9(MISO)">
+      <node ref="P1" pin="21" pinfunction="P21" pintype="passive"/>
+    </net>
+    <net code="9" name="/GPIO10(MOSI)">
+      <node ref="P1" pin="19" pinfunction="P19" pintype="passive"/>
+    </net>
+    <net code="10" name="/GPIO11(SCLK)">
+      <node ref="P1" pin="23" pinfunction="P23" pintype="passive"/>
+    </net>
+    <net code="11" name="/GPIO17">
+      <node ref="P1" pin="11" pinfunction="P11" pintype="passive"/>
+    </net>
+    <net code="12" name="/GPIO18">
+      <node ref="P1" pin="12" pinfunction="P12" pintype="passive"/>
+    </net>
+    <net code="13" name="/GPIO21">
+      <node ref="P1" pin="13" pinfunction="P13" pintype="passive"/>
+    </net>
+    <net code="14" name="/GPIO22">
+      <node ref="P1" pin="15" pinfunction="P15" pintype="passive"/>
+    </net>
+    <net code="15" name="/GPIO23">
+      <node ref="P1" pin="16" pinfunction="P16" pintype="passive"/>
+    </net>
+    <net code="16" name="/GPIO24">
+      <node ref="P1" pin="18" pinfunction="P18" pintype="passive"/>
+    </net>
+    <net code="17" name="/GPIO25">
+      <node ref="P1" pin="22" pinfunction="P22" pintype="passive"/>
+    </net>
+    <net code="18" name="/RXD">
+      <node ref="P1" pin="10" pinfunction="P10" pintype="passive"/>
+    </net>
+    <net code="19" name="/TXD">
+      <node ref="P1" pin="8" pinfunction="P8" pintype="passive"/>
+    </net>
+    <net code="20" name="GND">
+      <node ref="P1" pin="6" pinfunction="P6" pintype="passive"/>
+    </net>
+    <net code="21" name="unconnected-(P1-P4-Pad4)">
+      <node ref="P1" pin="4" pinfunction="P4" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(P1-P9-Pad9)">
+      <node ref="P1" pin="9" pinfunction="P9" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(P1-P14-Pad14)">
+      <node ref="P1" pin="14" pinfunction="P14" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(P1-P17-Pad17)">
+      <node ref="P1" pin="17" pinfunction="P17" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(P1-P20-Pad20)">
+      <node ref="P1" pin="20" pinfunction="P20" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(P1-P24-Pad25)">
+      <node ref="P1" pin="25" pinfunction="P24" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

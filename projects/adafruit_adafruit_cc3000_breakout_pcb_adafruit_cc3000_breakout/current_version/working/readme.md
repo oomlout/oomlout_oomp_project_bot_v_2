@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -31,10 +52,10 @@
 | 2 | LED1 | CHIPLED_0805_NOOUTLINE | 1 | green |  |  | [''] | 
 | 3 | L2 | _0402 | 1 | 2.2nH |  |  | [''] | 
 | 4 | U3 | SOIC16 | 1 | 74HC4050D |  |  | [''] | 
-| 5 | C7,C6,C8 | _0805MP | 3 | 10µF |  |  | [''] | 
+| 5 | C7,C6,C8 | _0805MP | 3 | 10ÂµF |  |  | [''] | 
 | 6 | U$34,U$24 | MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5 |  |  | [''] | 
 | 7 | C3 | _0402 | 1 | DNC_10pF |  |  | [''] | 
-| 8 | C5,C4 | _0805MP | 2 | 1µF |  |  | [''] | 
+| 8 | C5,C4 | _0805MP | 2 | 1ÂµF |  |  | [''] | 
 | 9 | JP3 | 1X09_ROUND_70 | 1 |  |  |  | [''] | 
 | 10 | U1 | CC3000MOD | 1 | CC3000MOD |  |  | [''] | 
 | 11 | U$8 | ADAFRUIT_5MM | 1 |  |  |  | [''] | 
@@ -60,8 +81,8 @@
 | C1 | 1 | 2.2pF | CAP_CERAMIC_0402 | working:_0402 |  |  |  | 
 | C2 | 1 | 10pF | CAP_CERAMIC_0402 | working:_0402 |  |  |  | 
 | C3 | 1 | DNC_10pF | CAP_CERAMIC_0402 | working:_0402 |  |  |  | 
-| C4, C5 | 2 | 1µF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
-| C6, C7, C8 | 3 | 10µF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
+| C4, C5 | 2 | 1ÂµF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
+| C6, C7, C8 | 3 | 10ÂµF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
 | FB1 | 1 | FERRITE_0805MP | FERRITE_0805MP | working:_0805MP |  |  |  | 
 | FID1, FID2, FID3 | 3 | FIDUCIAL"" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | 
 | JP1 | 1 | HEADER-1X3ROUND | HEADER-1X3ROUND | working:1X03_ROUND |  |  |  | 

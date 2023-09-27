@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -30,7 +51,7 @@
 | 1 | D6,D14,D5,D1,D11,D16,D2,D10,D19,D26,D25,D12,D32,D21,D18,D28,D31,D30,D24,D9,D17,D29,D7,D20,D8,D3,D4,D22,D13,D27,D23,D15 | SOD-323 | 32 | 1N4148 |  |  | [''] | 
 | 2 | JP4,JP3,JP1,JP2 | 5P_EDGECONNECT | 4 |  |  |  | [''] | 
 | 3 | @HOLE3,@HOLE0,@HOLE16,@HOLE6,@HOLE15,@HOLE8,@HOLE12,@HOLE11,@HOLE5,@HOLE14,@HOLE4,@HOLE2,@HOLE17,@HOLE1,@HOLE10,@HOLE9,@HOLE7,@HOLE13 |  | 18 |  |  |  | [''] | 
-| 4 | C11,C9 | 0805-NO | 2 | 10µF |  |  | [''] | 
+| 4 | C11,C9 | 0805-NO | 2 | 10ÂµF |  |  | [''] | 
 | 5 | FB3,FB4 | 0805-NO | 2 | FERRITE |  |  | [''] | 
 | 6 | R11,R13,R12,R9 | 0603-NO | 4 | 10K |  |  | [''] | 
 | 7 | C2,C1,C6,C4,C3,C5 | 0805-NO | 6 | 10u |  |  | [''] | 
@@ -53,7 +74,7 @@
 | 24 | C15,C23 | 0603-NO | 2 | 0.1uF |  |  | [''] | 
 | 25 | IC4 | TQFN48_7MM | 1 | ATSAMD51G_TQFN48 |  |  | [''] | 
 | 26 | FID2,FID1,FID3,FID6,FID4,FID5 | FIDUCIAL_1MM | 6 | FIDUCIAL_1MM |  |  | [''] | 
-| 27 | C16 | 0603-NO | 1 | 0.1µF |  |  | [''] | 
+| 27 | C16 | 0603-NO | 1 | 0.1ÂµF |  |  | [''] | 
 | 28 | C17 | 0603-NO | 1 | 0.01uF |  |  | [''] | 
 | 29 | CONN1 | JSTPH4 | 1 | STEMMA_I2C_RASMT |  |  | [''] | 
 | 30 | D34 | SOD-123FL | 1 | MBR120 |  |  | [''] | 
@@ -77,11 +98,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C2, C3, C4, C5, C6 | 6 | 10u | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7, C8 | 2 | 100uF | C-USC1210 | working:C1210 |  |  |  | 
-| C9, C11 | 2 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C9, C11 | 2 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C10, C12, C14, C21, C22 | 5 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C13, C19, C20 | 3 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C15, C23 | 2 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C16 | 1 | 0.1µF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
+| C16 | 1 | 0.1ÂµF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C17 | 1 | 0.01uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C18 | 1 | 100pF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | CONN1 | 1 | STEMMA_I2C_RASMT | STEMMA_I2C_RASMT | working:JSTPH4 |  |  |  | 

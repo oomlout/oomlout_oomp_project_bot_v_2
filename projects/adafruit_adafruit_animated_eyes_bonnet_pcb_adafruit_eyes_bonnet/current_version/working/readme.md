@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -30,7 +51,7 @@
 | 1 | U$8 | BONNET_EYES_REVA | 1 |  |  |  | [''] | 
 | 2 | CONN1 | 1X25_ROUND_70MIL | 1 | HEADER-1X25 |  |  | [''] | 
 | 3 | JP2,JP4,JP3,JP1 | 1X11_ROUND | 4 |  |  |  | [''] | 
-| 4 | C1 | 0805-NO | 1 | 10µF |  |  | [''] | 
+| 4 | C1 | 0805-NO | 1 | 10ÂµF |  |  | [''] | 
 | 5 | JP10,JP8,JP9 | 1X04_ROUND | 3 |  |  |  | [''] | 
 | 6 | JP5,JP6,JP7 | 1X03_ROUND_76 | 3 |  |  |  | [''] | 
 | 7 | FID2,FID1 | FIDUCIAL_1MM | 2 | FIDUCIAL" |  |  | [''] | 
@@ -42,7 +63,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 1 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C1 | 1 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | CONN1 | 1 | HEADER-1X25 | HEADER-1X25 | working:1X25_ROUND_70MIL |  |  |  | 
 | FID1, FID2 | 2 | FIDUCIAL"" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | 
 | JP1, JP2, JP3, JP4 | 4 | HEADER-1X11 | HEADER-1X11 | working:1X11_ROUND |  |  |  | 

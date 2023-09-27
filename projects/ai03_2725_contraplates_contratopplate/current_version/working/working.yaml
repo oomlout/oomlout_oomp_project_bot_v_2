@@ -1,10 +1,98 @@
 board: contratopplate
+bom:
+- Id: '1'
+  Designator: REF**,REF**,REF**,REF**,REF**
+  Footprint: hole4mm
+  Quantity: '5'
+  Designation: hole
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: p1
+  Footprint: Outline
+  Quantity: '1'
+  Designation: Plate
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | REF**,REF**,REF**,REF**,REF**\
+  \ | hole4mm | 5 | hole |  |  | [''] | \n| 2 | p1 | Outline | 1 | Plate |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: locallib:Outline
+  Qnty: '1'
+  Ref: p1
+  Value: Plate
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| p1 |\
+  \ 1 | Plate | R | locallib:Outline | Resistor |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/ai03_2725_contraplates_contratopplate/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/ai03_2725_contraplates_contratopplate/current_version/working/working.kicad_pcb
 file_sch_flat: projects/ai03_2725_contraplates_contratopplate/current_version/working/working.sch
 id: ai03_2725_contraplates_contratopplate
 name: contraplates
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': REF**
+  Package: hole4mm
+  PosX: 56.007
+  PosY: -86.36
+  Rot: 0.0
+  Side: top
+  Val: hole
+- '# Ref': REF**
+  Package: hole4mm
+  PosX: 55.88
+  PosY: -124.46
+  Rot: 0.0
+  Side: top
+  Val: hole
+- '# Ref': REF**
+  Package: hole4mm
+  PosX: 151.257
+  PosY: -105.41
+  Rot: 0.0
+  Side: top
+  Val: hole
+- '# Ref': REF**
+  Package: hole4mm
+  PosX: 246.38
+  PosY: -86.233
+  Rot: 0.0
+  Side: top
+  Val: hole
+- '# Ref': REF**
+  Package: hole4mm
+  PosX: 246.38
+  PosY: -124.46
+  Rot: 0.0
+  Side: top
+  Val: hole
+- '# Ref': p1
+  Package: Outline
+  PosX: 151.003
+  PosY: -105.41
+  Rot: 0.0
+  Side: top
+  Val: Plate
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| REF** | hole | hole4mm | 56.007 | -86.36\
+  \ | 0.0 | top | \n| REF** | hole | hole4mm | 55.88 | -124.46 | 0.0 | top | \n| REF**\
+  \ | hole | hole4mm | 151.257 | -105.41 | 0.0 | top | \n| REF** | hole | hole4mm\
+  \ | 246.38 | -86.233 | 0.0 | top | \n| REF** | hole | hole4mm | 246.38 | -124.46\
+  \ | 0.0 | top | \n| p1 | Plate | Outline | 151.003 | -105.41 | 0.0 | top | \n"
 projects_flat: projects/ai03_2725_contraplates_contratopplate/current_version/working
 repo:
   allow_forking: true

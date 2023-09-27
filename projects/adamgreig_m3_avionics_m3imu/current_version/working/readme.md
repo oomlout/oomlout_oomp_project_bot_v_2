@@ -16,7 +16,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -29,10 +50,10 @@
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | C1,C2 | 0402 | 2 | 10p |  |  | [''] | 
-| 2 | C3 | 0402 | 1 | 4µ7 |  |  | [''] | 
+| 2 | C3 | 0402 | 1 | 4Âµ7 |  |  | [''] | 
 | 3 | C4,C5,C7,C8,C9,C12,C13,C15,C16,C17 | 0402 | 10 | 100n |  |  | [''] | 
-| 4 | C6 | 0402 | 1 | 1µ |  |  | [''] | 
-| 5 | C10,C11 | 0402 | 2 | 2µ2 |  |  | [''] | 
+| 4 | C6 | 0402 | 1 | 1Âµ |  |  | [''] | 
+| 5 | C10,C11 | 0402 | 2 | 2Âµ2 |  |  | [''] | 
 | 6 | C14 | 0402 | 1 | 10n |  |  | [''] | 
 | 7 | D1 | 0603-LED | 1 | RED |  |  | [''] | 
 | 8 | D3 | 0603-LED | 1 | GRN |  |  | [''] | 
@@ -57,10 +78,10 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C2 | 2 | 10p | C | agg:0402 |  |  |  | 
-| C3 | 1 | 4µ7 | C | agg:0402 |  |  |  | 
+| C3 | 1 | 4Âµ7 | C | agg:0402 |  |  |  | 
 | C4, C5, C7, C8, C9, C12, C13, C15, C16, C17 | 10 | 100n | C | agg:0402 |  |  |  | 
-| C6 | 1 | 1µ | C | agg:0402 |  |  |  | 
-| C10, C11 | 2 | 2µ2 | C | agg:0402 |  |  |  | 
+| C6 | 1 | 1Âµ | C | agg:0402 |  |  |  | 
+| C10, C11 | 2 | 2Âµ2 | C | agg:0402 |  |  |  | 
 | C14 | 1 | 10n | C | agg:0402 |  |  |  | 
 | D1 | 1 | RED | LED | agg:0603-LED |  |  |  | 
 | D2 | 1 | USBLC6-2P6 | USBLC6-2P6 | agg:SOT-666 |  |  |  | 

@@ -11,6 +11,8 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/sparkfunX/u-blox_ZED-F9P_NEO-D9S_Combo_Breakout/tree/main/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/sparkfunx_u_blox_zed_f9p_neo_d9s_combo_breakout_zed_f9p_neo_d9s_combo/current_version/working  
+
 
 
 

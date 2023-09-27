@@ -11,6 +11,8 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/sparkfun/MPL3115A2_Breakout/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/sparkfun_mpl3115a2_breakout_mpl3115a2_breakout/current_version/working  
+
 
 
 

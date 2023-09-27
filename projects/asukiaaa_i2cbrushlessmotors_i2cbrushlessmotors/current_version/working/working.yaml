@@ -1,10 +1,669 @@
 board: i2cbrushlessmotors
+bom:
+- Id: '1'
+  Designator: J3
+  Footprint: PinHeader_2x15_P2.54mm_M5Stack
+  Quantity: '1'
+  Designation: Header
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J4
+  Footprint: PinSocket_2x15_P2.54mm_Vertical_SMD_just_for_M5Stack_bottom
+  Quantity: '1'
+  Designation: Socket
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C1,C3
+  Footprint: C_0603_1608Metric
+  Quantity: '2'
+  Designation: 0.1uf
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J2
+  Footprint: 2x03_P2.54mm_Pads
+  Quantity: '1'
+  Designation: Conn_01x06
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R3,R2,R1,R5,R8,R4,R7,R6,R9,R11,R14,R17,R10,R13,R16,R12,R15,R18
+  Footprint: R_0603_1608Metric
+  Quantity: '18'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J1,J5
+  Footprint: Molex_1x03_P1.25mm_Vertical
+  Quantity: '2'
+  Designation: Conn_01x03
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: Q1,Q4,Q7,Q10,Q13,Q16
+  Footprint: SOT-23
+  Quantity: '6'
+  Designation: Q_PMOS_GSD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: Q2,Q3,Q5,Q8,Q6,Q9,Q11,Q14,Q17,Q12,Q15,Q18
+  Footprint: SOT-23
+  Quantity: '12'
+  Designation: Q_NMOS_GSD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U1
+  Footprint: QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+  Quantity: '1'
+  Designation: ATmega328PB-MU
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: C2
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 1uf
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: D1,D2
+  Footprint: D_SOD-323
+  Quantity: '2'
+  Designation: D
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: D3
+  Footprint: D_SOD-123F
+  Quantity: '1'
+  Designation: D
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J3\
+  \ | PinHeader_2x15_P2.54mm_M5Stack | 1 | Header |  |  | [''] | \n| 2 | J4 | PinSocket_2x15_P2.54mm_Vertical_SMD_just_for_M5Stack_bottom\
+  \ | 1 | Socket |  |  | [''] | \n| 3 | C1,C3 | C_0603_1608Metric | 2 | 0.1uf |  |\
+  \  | [''] | \n| 4 | J2 | 2x03_P2.54mm_Pads | 1 | Conn_01x06 |  |  | [''] | \n| 5\
+  \ | R3,R2,R1,R5,R8,R4,R7,R6,R9,R11,R14,R17,R10,R13,R16,R12,R15,R18 | R_0603_1608Metric\
+  \ | 18 | 10k |  |  | [''] | \n| 6 | J1,J5 | Molex_1x03_P1.25mm_Vertical | 2 | Conn_01x03\
+  \ |  |  | [''] | \n| 7 | Q1,Q4,Q7,Q10,Q13,Q16 | SOT-23 | 6 | Q_PMOS_GSD |  |  |\
+  \ [''] | \n| 8 | Q2,Q3,Q5,Q8,Q6,Q9,Q11,Q14,Q17,Q12,Q15,Q18 | SOT-23 | 12 | Q_NMOS_GSD\
+  \ |  |  | [''] | \n| 9 | U1 | QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm | 1 | ATmega328PB-MU\
+  \ |  |  | [''] | \n| 10 | C2 | C_0603_1608Metric | 1 | 1uf |  |  | [''] | \n| 11\
+  \ | D1,D2 | D_SOD-323 | 2 | D |  |  | [''] | \n| 12 | D3 | D_SOD-123F | 1 | D |\
+  \  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Jumper_NC_Small-Device
+  DNP: ''
+  Description: ''
+  Footprint: Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm
+  Qnty: '4'
+  Ref: A0, A1, A4, A6
+  Value: NC
+  Vendor: ''
+- Cmp name: Jumper_NO_Small-Device
+  DNP: ''
+  Description: ''
+  Footprint: Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm
+  Qnty: '4'
+  Ref: A2, A3, A5, A7
+  Value: 'NO'
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '2'
+  Ref: C1, C3
+  Value: 0.1uf
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C2
+  Value: 1uf
+  Vendor: ''
+- Cmp name: D
+  DNP: ''
+  Description: Diode
+  Footprint: Diode_SMD:D_SOD-323
+  Qnty: '2'
+  Ref: D1, D2
+  Value: D
+  Vendor: ''
+- Cmp name: D
+  DNP: ''
+  Description: Diode
+  Footprint: Diode_SMD:D_SOD-123F
+  Qnty: '1'
+  Ref: D3
+  Value: D
+  Vendor: ''
+- Cmp name: Conn_01x03
+  DNP: ''
+  Description: Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: footprints:Molex_1x03_P1.25mm_Vertical
+  Qnty: '2'
+  Ref: J1, J5
+  Value: Conn_01x03
+  Vendor: ''
+- Cmp name: Conn_01x06
+  DNP: ''
+  Description: Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: footprints:2x03_P2.54mm_Pads
+  Qnty: '1'
+  Ref: J2
+  Value: Conn_01x06
+  Vendor: ''
+- Cmp name: Conn_02x15_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x15, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: footprints:PinHeader_2x15_P2.54mm_M5Stack
+  Qnty: '1'
+  Ref: J3
+  Value: Header
+  Vendor: ''
+- Cmp name: Conn_02x15_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x15, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: footprints:PinSocket_2x15_P2.54mm_Vertical_SMD_just_for_M5Stack_bottom
+  Qnty: '1'
+  Ref: J4
+  Value: Socket
+  Vendor: ''
+- Cmp name: Q_PMOS_GSD
+  DNP: ''
+  Description: P-MOSFET transistor, gate/source/drain
+  Footprint: Package_TO_SOT_SMD:SOT-23
+  Qnty: '6'
+  Ref: Q1, Q4, Q7, Q10, Q13, Q16
+  Value: Q_PMOS_GSD
+  Vendor: ''
+- Cmp name: Q_NMOS_GSD
+  DNP: ''
+  Description: N-MOSFET transistor, gate/source/drain
+  Footprint: Package_TO_SOT_SMD:SOT-23
+  Qnty: '12'
+  Ref: Q2, Q3, Q5, Q6, Q8, Q9, Q11, Q12, Q14, Q15, Q17, Q18
+  Value: Q_NMOS_GSD
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '18'
+  Ref: R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17,
+    R18
+  Value: 10k
+  Vendor: ''
+- Cmp name: ATmega328PB-MU-MCU_Microchip_ATmega
+  DNP: ''
+  Description: ''
+  Footprint: Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+  Qnty: '1'
+  Ref: U1
+  Value: ATmega328PB-MU
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| A0, A1,\
+  \ A4, A6 | 4 | NC | Jumper_NC_Small-Device | Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm\
+  \ |  |  |  | \n| A2, A3, A5, A7 | 4 | NO | Jumper_NO_Small-Device | Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm\
+  \ |  |  |  | \n| C1, C3 | 2 | 0.1uf | C | Capacitor_SMD:C_0603_1608Metric | Unpolarized\
+  \ capacitor |  |  | \n| C2 | 1 | 1uf | C | Capacitor_SMD:C_0603_1608Metric | Unpolarized\
+  \ capacitor |  |  | \n| D1, D2 | 2 | D | D | Diode_SMD:D_SOD-323 | Diode |  |  |\
+  \ \n| D3 | 1 | D | D | Diode_SMD:D_SOD-123F | Diode |  |  | \n| J1, J5 | 2 | Conn_01x03\
+  \ | Conn_01x03 | footprints:Molex_1x03_P1.25mm_Vertical | Generic connector, single\
+  \ row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/) |\
+  \  |  | \n| J2 | 1 | Conn_01x06 | Conn_01x06 | footprints:2x03_P2.54mm_Pads | Generic\
+  \ connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J3 | 1 | Header | Conn_02x15_Odd_Even | footprints:PinHeader_2x15_P2.54mm_M5Stack\
+  \ | Generic connector, double row, 02x15, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J4 | 1 | Socket | Conn_02x15_Odd_Even | footprints:PinSocket_2x15_P2.54mm_Vertical_SMD_just_for_M5Stack_bottom\
+  \ | Generic connector, double row, 02x15, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| Q1, Q4, Q7, Q10, Q13, Q16 | 6 | Q_PMOS_GSD | Q_PMOS_GSD | Package_TO_SOT_SMD:SOT-23\
+  \ | P-MOSFET transistor, gate/source/drain |  |  | \n| Q2, Q3, Q5, Q6, Q8, Q9, Q11,\
+  \ Q12, Q14, Q15, Q17, Q18 | 12 | Q_NMOS_GSD | Q_NMOS_GSD | Package_TO_SOT_SMD:SOT-23\
+  \ | N-MOSFET transistor, gate/source/drain |  |  | \n| R1, R2, R3, R4, R5, R6, R7,\
+  \ R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18 | 18 | 10k | R | Resistor_SMD:R_0603_1608Metric\
+  \ | Resistor |  |  | \n| U1 | 1 | ATmega328PB-MU | ATmega328PB-MU-MCU_Microchip_ATmega\
+  \ | Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/asukiaaa_i2cbrushlessmotors_i2cbrushlessmotors/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asukiaaa_i2cbrushlessmotors_i2cbrushlessmotors/current_version/working/working.kicad_pcb
 file_sch_flat: projects/asukiaaa_i2cbrushlessmotors_i2cbrushlessmotors/current_version/working/working.sch
 id: asukiaaa_i2cbrushlessmotors_i2cbrushlessmotors
 name: i2cbrushlessmotors
+position_bottom:
+- '# Ref': C1
+  Package: C_0603_1608Metric
+  PosX: 30.6518
+  PosY: -11.2234
+  Rot: -90.0
+  Side: bottom
+  Val: 0.1uf
+- '# Ref': C2
+  Package: C_0603_1608Metric
+  PosX: 30.7388
+  PosY: -21.9734
+  Rot: 0.0
+  Side: bottom
+  Val: 1uf
+- '# Ref': C3
+  Package: C_0603_1608Metric
+  PosX: 30.7388
+  PosY: -23.5234
+  Rot: 0.0
+  Side: bottom
+  Val: 0.1uf
+- '# Ref': D1
+  Package: D_SOD-323
+  PosX: 35.1268
+  PosY: -22.7484
+  Rot: 90.0
+  Side: bottom
+  Val: D
+- '# Ref': D2
+  Package: D_SOD-323
+  PosX: 26.6268
+  PosY: -22.6984
+  Rot: 90.0
+  Side: bottom
+  Val: D
+- '# Ref': D3
+  Package: D_SOD-123F
+  PosX: 18.4518
+  PosY: -33.2734
+  Rot: 0.0
+  Side: bottom
+  Val: D
+- '# Ref': J1
+  Package: Molex_1x03_P1.25mm_Vertical
+  PosX: 4.7516
+  PosY: -19.3234
+  Rot: -90.0
+  Side: bottom
+  Val: Conn_01x03
+- '# Ref': J2
+  Package: 2x03_P2.54mm_Pads
+  PosX: 32.2468
+  PosY: -3.3584
+  Rot: 0.0
+  Side: bottom
+  Val: Conn_01x06
+- '# Ref': J4
+  Package: PinSocket_2x15_P2.54mm_Vertical_SMD_just_for_M5Stack_bottom
+  PosX: 45.8268
+  PosY: -12.4652
+  Rot: 180.0
+  Side: bottom
+  Val: Socket
+- '# Ref': J5
+  Package: Molex_1x03_P1.25mm_Vertical
+  PosX: 4.7016
+  PosY: -6.5984
+  Rot: -90.0
+  Side: bottom
+  Val: Conn_01x03
+- '# Ref': Q1
+  Package: SOT-23
+  PosX: 13.4018
+  PosY: -12.9484
+  Rot: 90.0
+  Side: bottom
+  Val: Q_PMOS_GSD
+- '# Ref': Q2
+  Package: SOT-23
+  PosX: 21.6768
+  PosY: -12.8984
+  Rot: 90.0
+  Side: bottom
+  Val: Q_NMOS_GSD
+- '# Ref': Q3
+  Package: SOT-23
+  PosX: 13.4268
+  PosY: -16.4484
+  Rot: 90.0
+  Side: bottom
+  Val: Q_NMOS_GSD
+- '# Ref': Q4
+  Package: SOT-23
+  PosX: 13.4018
+  PosY: -20.0234
+  Rot: 90.0
+  Side: bottom
+  Val: Q_PMOS_GSD
+- '# Ref': Q5
+  Package: SOT-23
+  PosX: 21.7518
+  PosY: -19.9984
+  Rot: 90.0
+  Side: bottom
+  Val: Q_NMOS_GSD
+- '# Ref': Q6
+  Package: SOT-23
+  PosX: 13.4518
+  PosY: -23.6984
+  Rot: 90.0
+  Side: bottom
+  Val: Q_NMOS_GSD
+- '# Ref': Q7
+  Package: SOT-23
+  PosX: 13.5268
+  PosY: -27.1234
+  Rot: 90.0
+  Side: bottom
+  Val: Q_PMOS_GSD
+- '# Ref': Q8
+  Package: SOT-23
+  PosX: 21.4518
+  PosY: -27.2234
+  Rot: 90.0
+  Side: bottom
+  Val: Q_NMOS_GSD
+- '# Ref': Q9
+  Package: SOT-23
+  PosX: 13.4018
+  PosY: -30.7234
+  Rot: 90.0
+  Side: bottom
+  Val: Q_NMOS_GSD
+- '# Ref': Q10
+  Package: SOT-23
+  PosX: 13.7518
+  PosY: 8.3016
+  Rot: 90.0
+  Side: bottom
+  Val: Q_PMOS_GSD
+- '# Ref': Q11
+  Package: SOT-23
+  PosX: 22.8268
+  PosY: 8.4016
+  Rot: 90.0
+  Side: bottom
+  Val: Q_NMOS_GSD
+- '# Ref': Q12
+  Package: SOT-23
+  PosX: 13.7018
+  PosY: 4.8266
+  Rot: 90.0
+  Side: bottom
+  Val: Q_NMOS_GSD
+- '# Ref': Q13
+  Package: SOT-23
+  PosX: 13.5268
+  PosY: 1.2266
+  Rot: 90.0
+  Side: bottom
+  Val: Q_PMOS_GSD
+- '# Ref': Q14
+  Package: SOT-23
+  PosX: 23.0768
+  PosY: 1.5266
+  Rot: 90.0
+  Side: bottom
+  Val: Q_NMOS_GSD
+- '# Ref': Q15
+  Package: SOT-23
+  PosX: 13.3268
+  PosY: -2.3484
+  Rot: 90.0
+  Side: bottom
+  Val: Q_NMOS_GSD
+- '# Ref': Q16
+  Package: SOT-23
+  PosX: 13.4268
+  PosY: -5.7984
+  Rot: 90.0
+  Side: bottom
+  Val: Q_PMOS_GSD
+- '# Ref': Q17
+  Package: SOT-23
+  PosX: 22.4768
+  PosY: -5.9484
+  Rot: 90.0
+  Side: bottom
+  Val: Q_NMOS_GSD
+- '# Ref': Q18
+  Package: SOT-23
+  PosX: 13.3768
+  PosY: -9.4234
+  Rot: 90.0
+  Side: bottom
+  Val: Q_NMOS_GSD
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 18.2138
+  PosY: -13.2234
+  Rot: 0.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R2
+  Package: R_0603_1608Metric
+  PosX: 21.7138
+  PosY: -16.7734
+  Rot: 180.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R3
+  Package: R_0603_1608Metric
+  PosX: 18.1138
+  PosY: -16.1484
+  Rot: 0.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R4
+  Package: R_0603_1608Metric
+  PosX: 18.2138
+  PosY: -19.0734
+  Rot: 0.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R5
+  Package: R_0603_1608Metric
+  PosX: 21.7638
+  PosY: -23.7984
+  Rot: 180.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R6
+  Package: R_0603_1608Metric
+  PosX: 18.2388
+  PosY: -23.3484
+  Rot: 0.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R7
+  Package: R_0603_1608Metric
+  PosX: 18.1516
+  PosY: -26.2984
+  Rot: 0.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R8
+  Package: R_0603_1608Metric
+  PosX: 21.4388
+  PosY: -30.9484
+  Rot: 180.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R9
+  Package: R_0603_1608Metric
+  PosX: 18.1638
+  PosY: -29.4734
+  Rot: 0.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R10
+  Package: R_0603_1608Metric
+  PosX: 18.9888
+  PosY: 8.1766
+  Rot: 0.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R11
+  Package: R_0603_1608Metric
+  PosX: 22.6768
+  PosY: 4.5016
+  Rot: 180.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R12
+  Package: R_0603_1608Metric
+  PosX: 18.9388
+  PosY: 4.9766
+  Rot: 0.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R13
+  Package: R_0603_1608Metric
+  PosX: 18.4388
+  PosY: 0.8516
+  Rot: 0.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R14
+  Package: R_0603_1608Metric
+  PosX: 22.9138
+  PosY: -2.3234
+  Rot: 180.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R15
+  Package: R_0603_1608Metric
+  PosX: 18.4888
+  PosY: -2.0234
+  Rot: 0.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R16
+  Package: R_0603_1608Metric
+  PosX: 18.4638
+  PosY: -5.1734
+  Rot: 0.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R17
+  Package: R_0603_1608Metric
+  PosX: 22.2388
+  PosY: -10.0484
+  Rot: 180.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R18
+  Package: R_0603_1608Metric
+  PosX: 18.5138
+  PosY: -8.4234
+  Rot: 0.0
+  Side: bottom
+  Val: 10k
+- '# Ref': U1
+  Package: QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+  PosX: 30.8218
+  PosY: -16.6284
+  Rot: 90.0
+  Side: bottom
+  Val: ATmega328PB-MU
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uf | C_0603_1608Metric |\
+  \ 30.6518 | -11.2234 | -90.0 | bottom | \n| C2 | 1uf | C_0603_1608Metric | 30.7388\
+  \ | -21.9734 | 0.0 | bottom | \n| C3 | 0.1uf | C_0603_1608Metric | 30.7388 | -23.5234\
+  \ | 0.0 | bottom | \n| D1 | D | D_SOD-323 | 35.1268 | -22.7484 | 90.0 | bottom |\
+  \ \n| D2 | D | D_SOD-323 | 26.6268 | -22.6984 | 90.0 | bottom | \n| D3 | D | D_SOD-123F\
+  \ | 18.4518 | -33.2734 | 0.0 | bottom | \n| J1 | Conn_01x03 | Molex_1x03_P1.25mm_Vertical\
+  \ | 4.7516 | -19.3234 | -90.0 | bottom | \n| J2 | Conn_01x06 | 2x03_P2.54mm_Pads\
+  \ | 32.2468 | -3.3584 | 0.0 | bottom | \n| J4 | Socket | PinSocket_2x15_P2.54mm_Vertical_SMD_just_for_M5Stack_bottom\
+  \ | 45.8268 | -12.4652 | 180.0 | bottom | \n| J5 | Conn_01x03 | Molex_1x03_P1.25mm_Vertical\
+  \ | 4.7016 | -6.5984 | -90.0 | bottom | \n| Q1 | Q_PMOS_GSD | SOT-23 | 13.4018 |\
+  \ -12.9484 | 90.0 | bottom | \n| Q2 | Q_NMOS_GSD | SOT-23 | 21.6768 | -12.8984 |\
+  \ 90.0 | bottom | \n| Q3 | Q_NMOS_GSD | SOT-23 | 13.4268 | -16.4484 | 90.0 | bottom\
+  \ | \n| Q4 | Q_PMOS_GSD | SOT-23 | 13.4018 | -20.0234 | 90.0 | bottom | \n| Q5 |\
+  \ Q_NMOS_GSD | SOT-23 | 21.7518 | -19.9984 | 90.0 | bottom | \n| Q6 | Q_NMOS_GSD\
+  \ | SOT-23 | 13.4518 | -23.6984 | 90.0 | bottom | \n| Q7 | Q_PMOS_GSD | SOT-23 |\
+  \ 13.5268 | -27.1234 | 90.0 | bottom | \n| Q8 | Q_NMOS_GSD | SOT-23 | 21.4518 |\
+  \ -27.2234 | 90.0 | bottom | \n| Q9 | Q_NMOS_GSD | SOT-23 | 13.4018 | -30.7234 |\
+  \ 90.0 | bottom | \n| Q10 | Q_PMOS_GSD | SOT-23 | 13.7518 | 8.3016 | 90.0 | bottom\
+  \ | \n| Q11 | Q_NMOS_GSD | SOT-23 | 22.8268 | 8.4016 | 90.0 | bottom | \n| Q12 |\
+  \ Q_NMOS_GSD | SOT-23 | 13.7018 | 4.8266 | 90.0 | bottom | \n| Q13 | Q_PMOS_GSD\
+  \ | SOT-23 | 13.5268 | 1.2266 | 90.0 | bottom | \n| Q14 | Q_NMOS_GSD | SOT-23 |\
+  \ 23.0768 | 1.5266 | 90.0 | bottom | \n| Q15 | Q_NMOS_GSD | SOT-23 | 13.3268 | -2.3484\
+  \ | 90.0 | bottom | \n| Q16 | Q_PMOS_GSD | SOT-23 | 13.4268 | -5.7984 | 90.0 | bottom\
+  \ | \n| Q17 | Q_NMOS_GSD | SOT-23 | 22.4768 | -5.9484 | 90.0 | bottom | \n| Q18\
+  \ | Q_NMOS_GSD | SOT-23 | 13.3768 | -9.4234 | 90.0 | bottom | \n| R1 | 10k | R_0603_1608Metric\
+  \ | 18.2138 | -13.2234 | 0.0 | bottom | \n| R2 | 10k | R_0603_1608Metric | 21.7138\
+  \ | -16.7734 | 180.0 | bottom | \n| R3 | 10k | R_0603_1608Metric | 18.1138 | -16.1484\
+  \ | 0.0 | bottom | \n| R4 | 10k | R_0603_1608Metric | 18.2138 | -19.0734 | 0.0 |\
+  \ bottom | \n| R5 | 10k | R_0603_1608Metric | 21.7638 | -23.7984 | 180.0 | bottom\
+  \ | \n| R6 | 10k | R_0603_1608Metric | 18.2388 | -23.3484 | 0.0 | bottom | \n| R7\
+  \ | 10k | R_0603_1608Metric | 18.1516 | -26.2984 | 0.0 | bottom | \n| R8 | 10k |\
+  \ R_0603_1608Metric | 21.4388 | -30.9484 | 180.0 | bottom | \n| R9 | 10k | R_0603_1608Metric\
+  \ | 18.1638 | -29.4734 | 0.0 | bottom | \n| R10 | 10k | R_0603_1608Metric | 18.9888\
+  \ | 8.1766 | 0.0 | bottom | \n| R11 | 10k | R_0603_1608Metric | 22.6768 | 4.5016\
+  \ | 180.0 | bottom | \n| R12 | 10k | R_0603_1608Metric | 18.9388 | 4.9766 | 0.0\
+  \ | bottom | \n| R13 | 10k | R_0603_1608Metric | 18.4388 | 0.8516 | 0.0 | bottom\
+  \ | \n| R14 | 10k | R_0603_1608Metric | 22.9138 | -2.3234 | 180.0 | bottom | \n\
+  | R15 | 10k | R_0603_1608Metric | 18.4888 | -2.0234 | 0.0 | bottom | \n| R16 | 10k\
+  \ | R_0603_1608Metric | 18.4638 | -5.1734 | 0.0 | bottom | \n| R17 | 10k | R_0603_1608Metric\
+  \ | 22.2388 | -10.0484 | 180.0 | bottom | \n| R18 | 10k | R_0603_1608Metric | 18.5138\
+  \ | -8.4234 | 0.0 | bottom | \n| U1 | ATmega328PB-MU | QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm\
+  \ | 30.8218 | -16.6284 | 90.0 | bottom | \n"
+position_top:
+- '# Ref': J3
+  Package: PinHeader_2x15_P2.54mm_M5Stack
+  PosX: 45.8268
+  PosY: -12.4652
+  Rot: 0.0
+  Side: top
+  Val: Header
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J3 | Header | PinHeader_2x15_P2.54mm_M5Stack\
+  \ | 45.8268 | -12.4652 | 0.0 | top | \n"
 projects_flat: projects/asukiaaa_i2cbrushlessmotors_i2cbrushlessmotors/current_version/working
 repo:
   allow_forking: true

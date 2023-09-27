@@ -1,10 +1,224 @@
 board: sit2001b_breakout
+bom:
+- Id: '1'
+  Designator: C1
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 15pf
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C2,C3
+  Footprint: C_0603_1608Metric
+  Quantity: '2'
+  Designation: 0.1uf
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C4
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 1uf
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J1
+  Footprint: Pin_1x03_P2.54mm_nosilk
+  Quantity: '1'
+  Designation: Conn_01x03
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R1
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U1
+  Footprint: SOT-23-5
+  Quantity: '1'
+  Designation: SiT2001B-MEMS-Clock-Generator
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U2
+  Footprint: SOT-23-5
+  Quantity: '1'
+  Designation: NJM2866F33
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1\
+  \ | C_0603_1608Metric | 1 | 15pf |  |  | [''] | \n| 2 | C2,C3 | C_0603_1608Metric\
+  \ | 2 | 0.1uf |  |  | [''] | \n| 3 | C4 | C_0603_1608Metric | 1 | 1uf |  |  | ['']\
+  \ | \n| 4 | J1 | Pin_1x03_P2.54mm_nosilk | 1 | Conn_01x03 |  |  | [''] | \n| 5 |\
+  \ R1 | R_0603_1608Metric | 1 | 10k |  |  | [''] | \n| 6 | U1 | SOT-23-5 | 1 | SiT2001B-MEMS-Clock-Generator\
+  \ |  |  | [''] | \n| 7 | U2 | SOT-23-5 | 1 | NJM2866F33 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C1
+  Value: 15pf
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '2'
+  Ref: C2, C3
+  Value: 0.1uf
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C4
+  Value: 1uf
+  Vendor: ''
+- Cmp name: Conn_01x03
+  DNP: ''
+  Description: Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: my-kicad-footprints:Pin_1x03_P2.54mm_nosilk
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_01x03
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R1
+  Value: 10k
+  Vendor: ''
+- Cmp name: SiT2001B-MEMS-Clock-Generator-my-kicad-symbols
+  DNP: ''
+  Description: ''
+  Footprint: Package_TO_SOT_SMD:SOT-23-5
+  Qnty: '1'
+  Ref: U1
+  Value: SiT2001B-MEMS-Clock-Generator
+  Vendor: ''
+- Cmp name: NJM2866F33-my-kicad-symbols
+  DNP: ''
+  Description: ''
+  Footprint: Package_TO_SOT_SMD:SOT-23-5
+  Qnty: '1'
+  Ref: U2
+  Value: NJM2866F33
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 15pf | C | Capacitor_SMD:C_0603_1608Metric | Unpolarized capacitor |  |  |\
+  \ \n| C2, C3 | 2 | 0.1uf | C | Capacitor_SMD:C_0603_1608Metric | Unpolarized capacitor\
+  \ |  |  | \n| C4 | 1 | 1uf | C | Capacitor_SMD:C_0603_1608Metric | Unpolarized capacitor\
+  \ |  |  | \n| J1 | 1 | Conn_01x03 | Conn_01x03 | my-kicad-footprints:Pin_1x03_P2.54mm_nosilk\
+  \ | Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| R1 | 1 | 10k | R | Resistor_SMD:R_0603_1608Metric | Resistor |  |\
+  \  | \n| U1 | 1 | SiT2001B-MEMS-Clock-Generator | SiT2001B-MEMS-Clock-Generator-my-kicad-symbols\
+  \ | Package_TO_SOT_SMD:SOT-23-5 |  |  |  | \n| U2 | 1 | NJM2866F33 | NJM2866F33-my-kicad-symbols\
+  \ | Package_TO_SOT_SMD:SOT-23-5 |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/asukiaaa_sit2001b_breakout_sit2001b_breakout/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asukiaaa_sit2001b_breakout_sit2001b_breakout/current_version/working/working.kicad_pcb
 file_sch_flat: projects/asukiaaa_sit2001b_breakout_sit2001b_breakout/current_version/working/working.sch
 id: asukiaaa_sit2001b_breakout_sit2001b_breakout
 name: sit2001b_breakout
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_0603_1608Metric
+  PosX: 152.775
+  PosY: -93.8
+  Rot: 180.0
+  Side: top
+  Val: 15pf
+- '# Ref': C2
+  Package: C_0603_1608Metric
+  PosX: 152.775
+  PosY: -90.875
+  Rot: 180.0
+  Side: top
+  Val: 0.1uf
+- '# Ref': C3
+  Package: C_0603_1608Metric
+  PosX: 152.775
+  PosY: -87.95
+  Rot: 0.0
+  Side: top
+  Val: 0.1uf
+- '# Ref': C4
+  Package: C_0603_1608Metric
+  PosX: 152.775
+  PosY: -92.35
+  Rot: 180.0
+  Side: top
+  Val: 1uf
+- '# Ref': J1
+  Package: Pin_1x03_P2.54mm_nosilk
+  PosX: 149.52
+  PosY: -88.27
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x03
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 152.775
+  PosY: -89.425
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': U1
+  Package: SOT-23-5
+  PosX: 156.65
+  PosY: -92.6
+  Rot: 180.0
+  Side: top
+  Val: SiT2001B-MEMS-Clock-Generator
+- '# Ref': U2
+  Package: SOT-23-5
+  PosX: 156.65
+  PosY: -89.025
+  Rot: 0.0
+  Side: top
+  Val: NJM2866F33
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 15pf | C_0603_1608Metric | 152.775\
+  \ | -93.8 | 180.0 | top | \n| C2 | 0.1uf | C_0603_1608Metric | 152.775 | -90.875\
+  \ | 180.0 | top | \n| C3 | 0.1uf | C_0603_1608Metric | 152.775 | -87.95 | 0.0 |\
+  \ top | \n| C4 | 1uf | C_0603_1608Metric | 152.775 | -92.35 | 180.0 | top | \n|\
+  \ J1 | Conn_01x03 | Pin_1x03_P2.54mm_nosilk | 149.52 | -88.27 | 0.0 | top | \n|\
+  \ R1 | 10k | R_0603_1608Metric | 152.775 | -89.425 | 0.0 | top | \n| U1 | SiT2001B-MEMS-Clock-Generator\
+  \ | SOT-23-5 | 156.65 | -92.6 | 180.0 | top | \n| U2 | NJM2866F33 | SOT-23-5 | 156.65\
+  \ | -89.025 | 0.0 | top | \n"
 projects_flat: projects/asukiaaa_sit2001b_breakout_sit2001b_breakout/current_version/working
 repo:
   allow_forking: true

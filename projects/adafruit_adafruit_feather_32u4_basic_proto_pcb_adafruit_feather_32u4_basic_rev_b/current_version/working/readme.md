@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -30,7 +51,7 @@
 | 1 | U$7 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | 
 | 2 | D4 | SOD-123 | 1 | MBR120 |  |  | [''] | 
 | 3 | JP3 | 1X12_ROUND | 1 |  |  |  | [''] | 
-| 4 | C6,C3,C8 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 4 | C6,C3,C8 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 5 | R8 | 0603-NO | 1 | 10K\ |  |  | [''] | 
 | 6 | @HOLE1,@HOLE0 |  | 2 |  |  |  | [''] | 
 | 7 | C9 | 0805-NO | 1 | 10uF |  |  | [''] | 
@@ -60,7 +81,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C3, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7, C14 | 2 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C9 | 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | CHG0 | 1 | ORANGE | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 

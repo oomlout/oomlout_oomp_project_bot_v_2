@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -31,7 +52,7 @@
 | 2 | D1 | CHIPLED_0805_NOOUTLINE | 1 | RED |  |  | [''] | 
 | 3 | C1,C2 | 0603-NO | 2 | 22pF |  |  | [''] | 
 | 4 | L2 | 0805-NO | 1 | 10uH |  |  | [''] | 
-| 5 | C8,C5,C6 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 5 | C8,C5,C6 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 6 | U2 | SOT23-5 | 1 | AP2112(3.3V) |  |  | [''] | 
 | 7 | C3 | 0805-NO | 1 | 10uF |  |  | [''] | 
 | 8 | C11,C10 | 0603-NO | 2 | 0.1uF |  |  | [''] | 
@@ -76,7 +97,7 @@
 | C1, C2 | 2 | 22pF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C3 | 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C4 | 1 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C5, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C5, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7 | 1 | 10uf | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C9, C13 | 2 | 300pF | CAP_CERAMIC_0603MP | working:_0603MP |  |  |  | 
 | C10, C11 | 2 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 

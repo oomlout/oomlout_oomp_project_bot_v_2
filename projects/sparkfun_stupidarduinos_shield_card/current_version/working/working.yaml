@@ -1,10 +1,293 @@
 board: shield_card
+bom:
+- Id: '1'
+  Designator: C6,C7
+  Footprint: C_0603
+  Quantity: '2'
+  Designation: 1.0UF-0603-16V-10%
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C8
+  Footprint: C_0603
+  Quantity: '1'
+  Designation: 0.1UF-0603-100V-10%
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C9,C10
+  Footprint: C_0603
+  Quantity: '2'
+  Designation: 22PF-0603-50V-5%
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: M1
+  Footprint: TQFP44
+  Quantity: '1'
+  Designation: ATMEGA32U4TQFP-44
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R1,R2
+  Footprint: R_0603
+  Quantity: '2'
+  Designation: 22OHM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R3
+  Footprint: R_0603
+  Quantity: '1'
+  Designation: 10KOHM-0603-1_10W-1%
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: Y1
+  Footprint: CRYSTAL-SMD-5X3.2-4PAD
+  Quantity: '1'
+  Designation: CRYSTAL-16MHZSMD-5X3.2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R4,R5
+  Footprint: R_0603
+  Quantity: '2'
+  Designation: 4.7KOHM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U1,U2,U3,U4,U5,U6,U7,U8
+  Footprint: SO08-EIAJ
+  Quantity: '8'
+  Designation: EEPROM-I2CEIAJ
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: G***
+  Footprint: FLAME
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C6,C7\
+  \ | C_0603 | 2 | 1.0UF-0603-16V-10% |  |  | [''] | \n| 2 | C8 | C_0603 | 1 | 0.1UF-0603-100V-10%\
+  \ |  |  | [''] | \n| 3 | C9,C10 | C_0603 | 2 | 22PF-0603-50V-5% |  |  | [''] | \n\
+  | 4 | M1 | TQFP44 | 1 | ATMEGA32U4TQFP-44 |  |  | [''] | \n| 5 | R1,R2 | R_0603\
+  \ | 2 | 22OHM |  |  | [''] | \n| 6 | R3 | R_0603 | 1 | 10KOHM-0603-1_10W-1% |  |\
+  \  | [''] | \n| 7 | Y1 | CRYSTAL-SMD-5X3.2-4PAD | 1 | CRYSTAL-16MHZSMD-5X3.2 | \
+  \ |  | [''] | \n| 8 | R4,R5 | R_0603 | 2 | 4.7KOHM |  |  | [''] | \n| 9 | U1,U2,U3,U4,U5,U6,U7,U8\
+  \ | SO08-EIAJ | 8 | EEPROM-I2CEIAJ |  |  | [''] | \n| 10 | G*** | FLAME | 1 | LOGO\
+  \ |  |  | [''] | \n"
+bom_schematic: []
+bom_schematic_markdown: no data
 counter: 1
 file_kicad_pcb_flat: projects/sparkfun_stupidarduinos_shield_card/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/sparkfun_stupidarduinos_shield_card/current_version/working/working.kicad_pcb
 file_sch_flat: projects/sparkfun_stupidarduinos_shield_card/current_version/working/working.sch
 id: sparkfun_stupidarduinos_shield_card
 name: stupidarduinos
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C6
+  Package: C_0603
+  PosX: 182.88
+  PosY: -156.21
+  Rot: -90.0
+  Side: top
+  Val: 1.0UF-0603-16V-10%
+- '# Ref': C7
+  Package: C_0603
+  PosX: 182.88
+  PosY: -161.29
+  Rot: 90.0
+  Side: top
+  Val: 1.0UF-0603-16V-10%
+- '# Ref': C8
+  Package: C_0603
+  PosX: 195.58
+  PosY: -148.59
+  Rot: 180.0
+  Side: top
+  Val: 0.1UF-0603-100V-10%
+- '# Ref': C9
+  Package: C_0603
+  PosX: 200.66
+  PosY: -173.99
+  Rot: -90.0
+  Side: top
+  Val: 22PF-0603-50V-5%
+- '# Ref': C10
+  Package: C_0603
+  PosX: 190.5
+  PosY: -173.99
+  Rot: 90.0
+  Side: top
+  Val: 22PF-0603-50V-5%
+- '# Ref': G***
+  Package: FLAME
+  PosX: 85.725
+  PosY: -142.367
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': M1
+  Package: TQFP44
+  PosX: 195.58
+  PosY: -161.29
+  Rot: 0.0
+  Side: top
+  Val: ATMEGA32U4TQFP-44
+- '# Ref': R1
+  Package: R_0603
+  PosX: 254.0
+  PosY: -43.93
+  Rot: -90.0
+  Side: top
+  Val: 22OHM
+- '# Ref': R2
+  Package: R_0603
+  PosX: 256.54
+  PosY: -43.93
+  Rot: -90.0
+  Side: top
+  Val: 22OHM
+- '# Ref': R3
+  Package: R_0603
+  PosX: 182.88
+  PosY: -166.37
+  Rot: -90.0
+  Side: top
+  Val: 10KOHM-0603-1_10W-1%
+- '# Ref': R4
+  Package: R_0603
+  PosX: 98.31
+  PosY: -215.9
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM
+- '# Ref': R5
+  Package: R_0603
+  PosX: 88.15
+  PosY: -215.9
+  Rot: 0.0
+  Side: top
+  Val: 4.7KOHM
+- '# Ref': U1
+  Package: SO08-EIAJ
+  PosX: 64.135
+  PosY: -224.3328
+  Rot: 0.0
+  Side: top
+  Val: EEPROM-I2CEIAJ
+- '# Ref': U2
+  Package: SO08-EIAJ
+  PosX: 75.565
+  PosY: -224.3328
+  Rot: 0.0
+  Side: top
+  Val: EEPROM-I2CEIAJ
+- '# Ref': U3
+  Package: SO08-EIAJ
+  PosX: 86.995
+  PosY: -224.3328
+  Rot: 0.0
+  Side: top
+  Val: EEPROM-I2CEIAJ
+- '# Ref': U4
+  Package: SO08-EIAJ
+  PosX: 98.425
+  PosY: -242.1128
+  Rot: 0.0
+  Side: top
+  Val: EEPROM-I2CEIAJ
+- '# Ref': U5
+  Package: SO08-EIAJ
+  PosX: 64.135
+  PosY: -242.1128
+  Rot: 0.0
+  Side: top
+  Val: EEPROM-I2CEIAJ
+- '# Ref': U6
+  Package: SO08-EIAJ
+  PosX: 75.565
+  PosY: -242.1128
+  Rot: 0.0
+  Side: top
+  Val: EEPROM-I2CEIAJ
+- '# Ref': U7
+  Package: SO08-EIAJ
+  PosX: 86.995
+  PosY: -242.1128
+  Rot: 0.0
+  Side: top
+  Val: EEPROM-I2CEIAJ
+- '# Ref': U8
+  Package: SO08-EIAJ
+  PosX: 98.425
+  PosY: -224.3328
+  Rot: 0.0
+  Side: top
+  Val: EEPROM-I2CEIAJ
+- '# Ref': Y1
+  Package: CRYSTAL-SMD-5X3.2-4PAD
+  PosX: 195.58
+  PosY: -173.99
+  Rot: 180.0
+  Side: top
+  Val: CRYSTAL-16MHZSMD-5X3.2
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C6 | 1.0UF-0603-16V-10% | C_0603 | 182.88\
+  \ | -156.21 | -90.0 | top | \n| C7 | 1.0UF-0603-16V-10% | C_0603 | 182.88 | -161.29\
+  \ | 90.0 | top | \n| C8 | 0.1UF-0603-100V-10% | C_0603 | 195.58 | -148.59 | 180.0\
+  \ | top | \n| C9 | 22PF-0603-50V-5% | C_0603 | 200.66 | -173.99 | -90.0 | top |\
+  \ \n| C10 | 22PF-0603-50V-5% | C_0603 | 190.5 | -173.99 | 90.0 | top | \n| G***\
+  \ | LOGO | FLAME | 85.725 | -142.367 | 0.0 | top | \n| M1 | ATMEGA32U4TQFP-44 |\
+  \ TQFP44 | 195.58 | -161.29 | 0.0 | top | \n| R1 | 22OHM | R_0603 | 254.0 | -43.93\
+  \ | -90.0 | top | \n| R2 | 22OHM | R_0603 | 256.54 | -43.93 | -90.0 | top | \n|\
+  \ R3 | 10KOHM-0603-1_10W-1% | R_0603 | 182.88 | -166.37 | -90.0 | top | \n| R4 |\
+  \ 4.7KOHM | R_0603 | 98.31 | -215.9 | 0.0 | top | \n| R5 | 4.7KOHM | R_0603 | 88.15\
+  \ | -215.9 | 0.0 | top | \n| U1 | EEPROM-I2CEIAJ | SO08-EIAJ | 64.135 | -224.3328\
+  \ | 0.0 | top | \n| U2 | EEPROM-I2CEIAJ | SO08-EIAJ | 75.565 | -224.3328 | 0.0 |\
+  \ top | \n| U3 | EEPROM-I2CEIAJ | SO08-EIAJ | 86.995 | -224.3328 | 0.0 | top | \n\
+  | U4 | EEPROM-I2CEIAJ | SO08-EIAJ | 98.425 | -242.1128 | 0.0 | top | \n| U5 | EEPROM-I2CEIAJ\
+  \ | SO08-EIAJ | 64.135 | -242.1128 | 0.0 | top | \n| U6 | EEPROM-I2CEIAJ | SO08-EIAJ\
+  \ | 75.565 | -242.1128 | 0.0 | top | \n| U7 | EEPROM-I2CEIAJ | SO08-EIAJ | 86.995\
+  \ | -242.1128 | 0.0 | top | \n| U8 | EEPROM-I2CEIAJ | SO08-EIAJ | 98.425 | -224.3328\
+  \ | 0.0 | top | \n| Y1 | CRYSTAL-16MHZSMD-5X3.2 | CRYSTAL-SMD-5X3.2-4PAD | 195.58\
+  \ | -173.99 | 180.0 | top | \n"
 projects_flat: projects/sparkfun_stupidarduinos_shield_card/current_version/working
 repo:
   allow_forking: true

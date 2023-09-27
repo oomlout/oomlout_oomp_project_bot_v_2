@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -39,7 +60,7 @@
 | 10 | X3 | 4UCONN_20329_V2 | 1 | microUSB |  |  | [''] | 
 | 11 | C14,C7,C1 | 0603-NO | 3 | 1uF |  |  | [''] | 
 | 12 | U$7,U$12 | ADAFRUIT_3.5MM | 2 |  |  |  | [''] | 
-| 13 | C8,C3,C6 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 13 | C8,C3,C6 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 14 | U$35,U$34 | FIDUCIAL_1MM | 2 | FIDUCIAL" |  |  | [''] | 
 | 15 | U2 | SOT23-5 | 1 | AP2112K-3.3 |  |  | [''] | 
 | 16 | JP1 | 1X16_ROUND | 1 |  |  |  | [''] | 
@@ -66,7 +87,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C7, C14 | 3 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C2, C4 | 2 | 22pF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C3, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C5 | 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | CHG0 | 1 | ORANGE | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 
 | D1 | 1 | MBR120 | DIODE-SCHOTTKYSOD-123 | working:SOD-123 |  |  |  | 

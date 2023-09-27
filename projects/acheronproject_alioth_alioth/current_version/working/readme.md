@@ -14,6 +14,30 @@
 * src_file_repo_sch_link: https://github.com/AcheronProject/Alioth/tree/master/
 * full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/acheronproject_alioth_alioth/current_version/working  
 
+## schematic  
+![](working_schematic_600.png)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -99,5 +123,7 @@
 | 72 | SW29 | MX150 | 1 | BKSLSH |  |  | [''] | 
 
 
+## bom_schematic
+no data
 
 

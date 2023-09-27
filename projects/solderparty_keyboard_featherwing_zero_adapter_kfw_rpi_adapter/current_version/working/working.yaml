@@ -1,9 +1,248 @@
 board: kfw_rpi_adapter
+bom:
+- Id: '1'
+  Designator: U1
+  Footprint: TSSOP-10_3x3mm_P0.5mm
+  Quantity: '1'
+  Designation: ADS1115IDGS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: G***,G***
+  Footprint: SolderParty-New-Logo_20x16.9mm_SilkScreen
+  Quantity: '2'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: JP1
+  Footprint: SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels
+  Quantity: '1'
+  Designation: SJ_STM_KBD
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: REF**,REF**
+  Footprint: Fiducial_0.5mm_Mask1.5mm
+  Quantity: '2'
+  Designation: Fiducial_0.5mm_Mask1.5mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J2
+  Footprint: PinHeader_2x16_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_Left
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J3
+  Footprint: PinHeader_2x12_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_Right
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C1
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: J1
+  Footprint: PinHeader_2x20_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_RPi
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U1\
+  \ | TSSOP-10_3x3mm_P0.5mm | 1 | ADS1115IDGS |  |  | [''] | \n| 2 | G***,G*** | SolderParty-New-Logo_20x16.9mm_SilkScreen\
+  \ | 2 | LOGO |  |  | [''] | \n| 3 | JP1 | SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels\
+  \ | 1 | SJ_STM_KBD |  |  | [''] | \n| 4 | REF**,REF** | Fiducial_0.5mm_Mask1.5mm\
+  \ | 2 | Fiducial_0.5mm_Mask1.5mm |  |  | [''] | \n| 5 | J2 | PinHeader_2x16_P2.54mm_Vertical\
+  \ | 1 | Conn_Left |  |  | [''] | \n| 6 | J3 | PinHeader_2x12_P2.54mm_Vertical |\
+  \ 1 | Conn_Right |  |  | [''] | \n| 7 | C1 | C_0603_1608Metric | 1 | 0.1uF |  |\
+  \  | [''] | \n| 8 | J1 | PinHeader_2x20_P2.54mm_Vertical | 1 | Conn_RPi |  |  |\
+  \ [''] | \n"
+bom_schematic:
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C1
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: Conn_02x20_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x20, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J1
+  Value: Conn_RPi
+  Vendor: ''
+- Cmp name: Conn_02x16_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x16, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J2
+  Value: Conn_Left
+  Vendor: ''
+- Cmp name: Conn_02x12_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x12, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J3
+  Value: Conn_Right
+  Vendor: ''
+- Cmp name: SolderJumper_3_Bridged12
+  DNP: ''
+  Description: 3-pole Solder Jumper, pins 1+2 closed/bridged
+  Footprint: Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels
+  Qnty: '1'
+  Ref: JP1
+  Value: SJ_STM_KBD
+  Vendor: ''
+- Cmp name: ADS1115IDGS
+  DNP: ''
+  Description: Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal
+    Reference, Oscillator, and Programmable Comparator, VSSOP-10
+  Footprint: Package_SO:TSSOP-10_3x3mm_P0.5mm
+  Qnty: '1'
+  Ref: U1
+  Value: ADS1115IDGS
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 0.1uF | C_Small | Capacitor_SMD:C_0603_1608Metric | Unpolarized capacitor,\
+  \ small symbol |  |  | \n| J1 | 1 | Conn_RPi | Conn_02x20_Odd_Even | Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical\
+  \ | Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J2 | 1 | Conn_Left | Conn_02x16_Odd_Even | Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical\
+  \ | Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J3 | 1 | Conn_Right | Conn_02x12_Odd_Even | Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical\
+  \ | Generic connector, double row, 02x12, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| JP1 | 1 | SJ_STM_KBD | SolderJumper_3_Bridged12 | Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels\
+  \ | 3-pole Solder Jumper, pins 1+2 closed/bridged |  |  | \n| U1 | 1 | ADS1115IDGS\
+  \ | ADS1115IDGS | Package_SO:TSSOP-10_3x3mm_P0.5mm | Ultra-Small, Low-Power, I2C-Compatible,\
+  \ 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator,\
+  \ VSSOP-10 |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/solderparty_keyboard_featherwing_zero_adapter_kfw_rpi_adapter/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/solderparty_keyboard_featherwing_zero_adapter_kfw_rpi_adapter/current_version/working/working.kicad_sch
 id: solderparty_keyboard_featherwing_zero_adapter_kfw_rpi_adapter
 name: keyboard_featherwing_zero_adapter
+position_bottom:
+- '# Ref': G***
+  Package: SolderParty-New-Logo_20x16.9mm_SilkScreen
+  PosX: -20.72
+  PosY: -14.9729
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+- '# Ref': REF**
+  Package: Fiducial_0.5mm_Mask1.5mm
+  PosX: -33.72
+  PosY: -46.88
+  Rot: 0.0
+  Side: bottom
+  Val: Fiducial_0.5mm_Mask1.5mm
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | SolderParty-New-Logo_20x16.9mm_SilkScreen\
+  \ | -20.72 | -14.9729 | 180.0 | bottom | \n| REF** | Fiducial_0.5mm_Mask1.5mm |\
+  \ Fiducial_0.5mm_Mask1.5mm | -33.72 | -46.88 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: C_0603_1608Metric
+  PosX: -19.62
+  PosY: -8.18
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': G***
+  Package: SolderParty-New-Logo_20x16.9mm_SilkScreen
+  PosX: -17.92
+  PosY: -15.0347
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': J1
+  Package: PinHeader_2x20_P2.54mm_Vertical
+  PosX: -41.92
+  PosY: -15.6
+  Rot: 0.0
+  Side: top
+  Val: Conn_RPi
+- '# Ref': J2
+  Package: PinHeader_2x16_P2.54mm_Vertical
+  PosX: -33.62
+  PosY: -6.73
+  Rot: 0.0
+  Side: top
+  Val: Conn_Left
+- '# Ref': J3
+  Package: PinHeader_2x12_P2.54mm_Vertical
+  PosX: -10.77
+  PosY: -16.89
+  Rot: 0.0
+  Side: top
+  Val: Conn_Right
+- '# Ref': REF**
+  Package: Fiducial_0.5mm_Mask1.5mm
+  PosX: -52.12
+  PosY: -39.68
+  Rot: 0.0
+  Side: top
+  Val: Fiducial_0.5mm_Mask1.5mm
+- '# Ref': U1
+  Package: TSSOP-10_3x3mm_P0.5mm
+  PosX: -19.62
+  PosY: -5.58
+  Rot: 0.0
+  Side: top
+  Val: ADS1115IDGS
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | C_0603_1608Metric | -19.62\
+  \ | -8.18 | 180.0 | top | \n| G*** | LOGO | SolderParty-New-Logo_20x16.9mm_SilkScreen\
+  \ | -17.92 | -15.0347 | 0.0 | top | \n| J1 | Conn_RPi | PinHeader_2x20_P2.54mm_Vertical\
+  \ | -41.92 | -15.6 | 0.0 | top | \n| J2 | Conn_Left | PinHeader_2x16_P2.54mm_Vertical\
+  \ | -33.62 | -6.73 | 0.0 | top | \n| J3 | Conn_Right | PinHeader_2x12_P2.54mm_Vertical\
+  \ | -10.77 | -16.89 | 0.0 | top | \n| REF** | Fiducial_0.5mm_Mask1.5mm | Fiducial_0.5mm_Mask1.5mm\
+  \ | -52.12 | -39.68 | 0.0 | top | \n| U1 | ADS1115IDGS | TSSOP-10_3x3mm_P0.5mm |\
+  \ -19.62 | -5.58 | 0.0 | top | \n"
 projects_flat: projects/solderparty_keyboard_featherwing_zero_adapter_kfw_rpi_adapter/current_version/working
 repo:
   allow_forking: true

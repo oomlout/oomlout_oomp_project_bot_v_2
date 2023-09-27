@@ -1,4 +1,88 @@
 board: boosterpack40_min
+bom:
+- Id: '1'
+  Designator: J3
+  Footprint: SIL-10
+  Quantity: '1'
+  Designation: TI_BOOSTER_40_J3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J1
+  Footprint: SIL-10
+  Quantity: '1'
+  Designation: TI_BOOSTER_40_J1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J2
+  Footprint: SIL-10
+  Quantity: '1'
+  Designation: TI_BOOSTER_40_J2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J4
+  Footprint: SIL-10
+  Quantity: '1'
+  Designation: TI_BOOSTER_40_J4
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J3\
+  \ | SIL-10 | 1 | TI_BOOSTER_40_J3 |  |  | [''] | \n| 2 | J1 | SIL-10 | 1 | TI_BOOSTER_40_J1\
+  \ |  |  | [''] | \n| 3 | J2 | SIL-10 | 1 | TI_BOOSTER_40_J2 |  |  | [''] | \n| 4\
+  \ | J4 | SIL-10 | 1 | TI_BOOSTER_40_J4 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Ti_Booster_40_J1
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: J1
+  Value: TI_BOOSTER_40_J1
+  Vendor: ''
+- Cmp name: Ti_Booster_40_J2
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: J2
+  Value: TI_BOOSTER_40_J2
+  Vendor: ''
+- Cmp name: Ti_Booster_40_J3
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: J3
+  Value: TI_BOOSTER_40_J3
+  Vendor: ''
+- Cmp name: Ti_Booster_40_J4
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: J4
+  Value: TI_BOOSTER_40_J4
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| J1 |\
+  \ 1 | TI_BOOSTER_40_J1 | Ti_Booster_40_J1 |  |  |  |  | \n| J2 | 1 | TI_BOOSTER_40_J2\
+  \ | Ti_Booster_40_J2 |  |  |  |  | \n| J3 | 1 | TI_BOOSTER_40_J3 | Ti_Booster_40_J3\
+  \ |  |  |  |  | \n| J4 | 1 | TI_BOOSTER_40_J4 | Ti_Booster_40_J4 |  |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/alexisvl_kicad_library_wire_pads/current_version/working/working.brd
 file_kicad_pcb_flat: projects/alexisvl_kicad_library_boosterpack40_min/current_version/working/working.kicad_pcb
@@ -6,6 +90,42 @@ file_kicad_sch_flat: projects/alexisvl_kicad_library_boosterpack40_min/current_v
 file_sch_flat: projects/alexisvl_kicad_library_boosterpack40_min/current_version/working/working.sch
 id: alexisvl_kicad_library_boosterpack40_min
 name: kicad_library
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': J1
+  Package: SIL-10
+  PosX: 185.42
+  PosY: -133.35
+  Rot: -90.0
+  Side: top
+  Val: TI_BOOSTER_40_J1
+- '# Ref': J2
+  Package: SIL-10
+  PosX: 231.14
+  PosY: -133.35
+  Rot: -90.0
+  Side: top
+  Val: TI_BOOSTER_40_J2
+- '# Ref': J3
+  Package: SIL-10
+  PosX: 187.96
+  PosY: -133.35
+  Rot: -90.0
+  Side: top
+  Val: TI_BOOSTER_40_J3
+- '# Ref': J4
+  Package: SIL-10
+  PosX: 228.6
+  PosY: -133.35
+  Rot: -90.0
+  Side: top
+  Val: TI_BOOSTER_40_J4
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J1 | TI_BOOSTER_40_J1 | SIL-10 | 185.42\
+  \ | -133.35 | -90.0 | top | \n| J2 | TI_BOOSTER_40_J2 | SIL-10 | 231.14 | -133.35\
+  \ | -90.0 | top | \n| J3 | TI_BOOSTER_40_J3 | SIL-10 | 187.96 | -133.35 | -90.0\
+  \ | top | \n| J4 | TI_BOOSTER_40_J4 | SIL-10 | 228.6 | -133.35 | -90.0 | top | \n"
 projects_flat: projects/alexisvl_kicad_library_boosterpack40_min/current_version/working
 repo:
   allow_forking: true

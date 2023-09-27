@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -32,7 +53,7 @@
 | 3 | U$7 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | 
 | 4 | R6 | 0603-NO | 1 | 100K |  |  | [''] | 
 | 5 | U3 | SOT23-5 | 1 | MCP73831T-2ACI/OT |  |  | [''] | 
-| 6 | C6,C3,C8 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 6 | C6,C3,C8 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 7 | D4 | SOD-123 | 1 | MBR120 |  |  | [''] | 
 | 8 | R2 | 0603-NO | 1 | 1K |  |  | [''] | 
 | 9 | R3 | 0603-NO | 1 | 100k |  |  | [''] | 
@@ -51,7 +72,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C3, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7 | 1 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | CHG0 | 1 | ORANGE | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 
 | D4 | 1 | MBR120 | DIODE-SCHOTTKYSOD-123 | working:SOD-123 |  |  |  | 

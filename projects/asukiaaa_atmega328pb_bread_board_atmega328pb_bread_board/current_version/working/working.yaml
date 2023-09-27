@@ -1,10 +1,169 @@
 board: atmega328pb_bread_board
+bom:
+- Id: '1'
+  Designator: J1,J2
+  Footprint: PinSocket_1x17_P2.54mm_Vertical
+  Quantity: '2'
+  Designation: Conn_01x17
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C1,C2,C3
+  Footprint: C_0402_1005Metric
+  Quantity: '3'
+  Designation: 0.1uf
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U1
+  Footprint: QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+  Quantity: '1'
+  Designation: ATmega328PB-MU
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R1
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1,J2\
+  \ | PinSocket_1x17_P2.54mm_Vertical | 2 | Conn_01x17 |  |  | [''] | \n| 2 | C1,C2,C3\
+  \ | C_0402_1005Metric | 3 | 0.1uf |  |  | [''] | \n| 3 | U1 | QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm\
+  \ | 1 | ATmega328PB-MU |  |  | [''] | \n| 4 | R1 | R_0603_1608Metric | 1 | 10k |\
+  \  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C-Device-ATmega328PB-bread-board-rescue
+  DNP: ''
+  Description: ''
+  Footprint: Capacitor_SMD:C_0402_1005Metric
+  Qnty: '3'
+  Ref: C1, C2, C3
+  Value: 0.1uf
+  Vendor: ''
+- Cmp name: Conn_01x17-Connector_Generic-ATmega328PB-bread-board-rescue
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_1x17_P2.54mm_Vertical
+  Qnty: '2'
+  Ref: J1, J2
+  Value: Conn_01x17
+  Vendor: ''
+- Cmp name: Jumper_NC_Small-Device-ATmega328PB-bread-board-rescue
+  DNP: ''
+  Description: ''
+  Footprint: Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm
+  Qnty: '1'
+  Ref: JP1
+  Value: NC
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R1
+  Value: 10k
+  Vendor: ''
+- Cmp name: ATmega328PB-MU-MCU_Microchip_ATmega-ATmega328PB-bread-board-rescue
+  DNP: ''
+  Description: ''
+  Footprint: Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+  Qnty: '1'
+  Ref: U1
+  Value: ATmega328PB-MU
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3 | 3 | 0.1uf | C-Device-ATmega328PB-bread-board-rescue | Capacitor_SMD:C_0402_1005Metric\
+  \ |  |  |  | \n| J1, J2 | 2 | Conn_01x17 | Conn_01x17-Connector_Generic-ATmega328PB-bread-board-rescue\
+  \ | Connector_PinSocket_2.54mm:PinSocket_1x17_P2.54mm_Vertical |  |  |  | \n| JP1\
+  \ | 1 | NC | Jumper_NC_Small-Device-ATmega328PB-bread-board-rescue | Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm\
+  \ |  |  |  | \n| R1 | 1 | 10k | R | Resistor_SMD:R_0603_1608Metric | Resistor |\
+  \  |  | \n| U1 | 1 | ATmega328PB-MU | ATmega328PB-MU-MCU_Microchip_ATmega-ATmega328PB-bread-board-rescue\
+  \ | Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/asukiaaa_atmega328pb_bread_board_atmega328pb_bread_board/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asukiaaa_atmega328pb_bread_board_atmega328pb_bread_board/current_version/working/working.kicad_pcb
 file_sch_flat: projects/asukiaaa_atmega328pb_bread_board_atmega328pb_bread_board/current_version/working/working.sch
 id: asukiaaa_atmega328pb_bread_board_atmega328pb_bread_board
 name: atmega328pb_bread_board
+position_bottom:
+- '# Ref': C1
+  Package: C_0402_1005Metric
+  PosX: 122.938
+  PosY: -87.78
+  Rot: 180.0
+  Side: bottom
+  Val: 0.1uf
+- '# Ref': C2
+  Package: C_0402_1005Metric
+  PosX: 138.25
+  PosY: -87.78
+  Rot: 0.0
+  Side: bottom
+  Val: 0.1uf
+- '# Ref': C3
+  Package: C_0402_1005Metric
+  PosX: 131.15
+  PosY: -78.0
+  Rot: -90.0
+  Side: bottom
+  Val: 0.1uf
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 134.0
+  PosY: -77.95
+  Rot: 180.0
+  Side: bottom
+  Val: 10k
+- '# Ref': U1
+  Package: QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+  PosX: 130.85
+  PosY: -88.08
+  Rot: 180.0
+  Side: bottom
+  Val: ATmega328PB-MU
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uf | C_0402_1005Metric |\
+  \ 122.938 | -87.78 | 180.0 | bottom | \n| C2 | 0.1uf | C_0402_1005Metric | 138.25\
+  \ | -87.78 | 0.0 | bottom | \n| C3 | 0.1uf | C_0402_1005Metric | 131.15 | -78.0\
+  \ | -90.0 | bottom | \n| R1 | 10k | R_0603_1608Metric | 134.0 | -77.95 | 180.0 |\
+  \ bottom | \n| U1 | ATmega328PB-MU | QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm | 130.85\
+  \ | -88.08 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': J1
+  Package: PinSocket_1x17_P2.54mm_Vertical
+  PosX: 149.05
+  PosY: -59.68
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x17
+- '# Ref': J2
+  Package: PinSocket_1x17_P2.54mm_Vertical
+  PosX: 110.95
+  PosY: -59.68
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x17
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J1 | Conn_01x17 | PinSocket_1x17_P2.54mm_Vertical\
+  \ | 149.05 | -59.68 | 0.0 | top | \n| J2 | Conn_01x17 | PinSocket_1x17_P2.54mm_Vertical\
+  \ | 110.95 | -59.68 | 0.0 | top | \n"
 projects_flat: projects/asukiaaa_atmega328pb_bread_board_atmega328pb_bread_board/current_version/working
 repo:
   allow_forking: true

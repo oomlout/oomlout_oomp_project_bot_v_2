@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\asukiaaa_esp_wroom_02_break_wroom_break\current_version\working\working.kicad_sch</source>
+    <date>25/09/2023 19:11:13</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>esp-wroom-02-break</title>
+        <company/>
+        <rev>1.1</rev>
+        <date>2017-01-01</date>
+        <source>working.kicad_sch</source>
+        <comment number="1" value="License: MIT"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>HEADER_8</value>
+      <footprint>simple_headers:Pin_Header_Straight_1x08_small</footprint>
+      <libsource lib="w_connectors" part="HEADER_8" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058399f78</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>HEADER_8</value>
+      <footprint>simple_headers:Pin_Header_Straight_1x08_small</footprint>
+      <libsource lib="w_connectors" part="HEADER_8" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058399fb2</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ESP-13-WROOM-02</value>
+      <footprint>ESP8266:ESP-13-WROOM-02</footprint>
+      <libsource lib="ESP8266" part="ESP-13-WROOM-02" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058396523</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ESP8266" part="ESP-13-WROOM-02">
+      <footprints>
+        <fp>ESP-13*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP-13-WROOM-02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="input"/>
+        <pin num="2" name="EN" type="passive"/>
+        <pin num="3" name="GPIO14" type="input"/>
+        <pin num="4" name="GPIO12" type="bidirectional"/>
+        <pin num="5" name="GPIO13" type="bidirectional"/>
+        <pin num="6" name="GPIO15" type="bidirectional"/>
+        <pin num="7" name="GPIO2" type="bidirectional"/>
+        <pin num="8" name="GPIO0" type="bidirectional"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="GPIO4" type="bidirectional"/>
+        <pin num="11" name="RXD" type="bidirectional"/>
+        <pin num="12" name="TXD" type="bidirectional"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="GPIO5" type="bidirectional"/>
+        <pin num="15" name="RST" type="input"/>
+        <pin num="16" name="TOUT" type="output"/>
+        <pin num="17" name="GPIO16" type="bidirectional"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="PAD" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="w_connectors" part="HEADER_8">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J1" pin="8" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="PAD" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(U1-EN)">
+      <node ref="J1" pin="4" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="EN" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(U1-GPIO0)">
+      <node ref="J1" pin="7" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="Net-(U1-GPIO2)">
+      <node ref="J1" pin="6" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="Net-(U1-GPIO4)">
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="Net-(U1-GPIO5)">
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="Net-(U1-GPIO12)">
+      <node ref="J2" pin="7" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GPIO12" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="Net-(U1-GPIO13)">
+      <node ref="J2" pin="8" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="Net-(U1-GPIO14)">
+      <node ref="J2" pin="6" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GPIO14" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(U1-GPIO15)">
+      <node ref="J1" pin="5" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="Net-(U1-GPIO16)">
+      <node ref="J2" pin="5" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="Net-(U1-RST)">
+      <node ref="J2" pin="3" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="RST" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(U1-RXD)">
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="RXD" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="Net-(U1-TOUT)">
+      <node ref="J2" pin="4" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="TOUT" pintype="output"/>
+    </net>
+    <net code="15" name="Net-(U1-TXD)">
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="TXD" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="Net-(U1-VCC)">
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VCC" pintype="input"/>
+    </net>
+  </nets>
+</export>

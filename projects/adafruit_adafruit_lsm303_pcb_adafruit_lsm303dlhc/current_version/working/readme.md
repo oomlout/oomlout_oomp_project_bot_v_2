@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -28,26 +49,26 @@
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | U$4,U$3 | MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5 |  |  | [''] | 
-| 2 | C1,C5 | _0805 | 2 | 10µF |  |  | [''] | 
+| 2 | C1,C5 | _0805 | 2 | 10ÂµF |  |  | [''] | 
 | 3 | U$17 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | 
 | 4 | U1 | LGA14 | 1 | LSM303DLHC |  |  | [''] | 
 | 5 | FID1,FID2 | FIDUCIAL_1MM | 2 | FIDUCIAL" |  |  | [''] | 
 | 6 | U2 | SOT23-5 | 1 | RT9193 |  |  | [''] | 
 | 7 | JP1 | 1X08_ROUND_76 | 1 |  |  |  | [''] | 
 | 8 | R2,R4,R3,R1 | _0805 | 4 | 10K |  |  | [''] | 
-| 9 | C4 | _0805 | 1 | 0.22µF |  |  | [''] | 
+| 9 | C4 | _0805 | 1 | 0.22ÂµF |  |  | [''] | 
 | 10 | Q1,Q2 | SOT23-WIDE | 2 | BSS138 |  |  | [''] | 
 | 11 | C2 | _0805 | 1 | 0.1uF |  |  | [''] | 
-| 12 | C3 | _0805 | 1 | 4.70µF |  |  | [''] | 
+| 12 | C3 | _0805 | 1 | 4.70ÂµF |  |  | [''] | 
 
 
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1, C5 | 2 | 10µF | CAP_CERAMIC_0805 | working:_0805 |  |  |  | 
+| C1, C5 | 2 | 10ÂµF | CAP_CERAMIC_0805 | working:_0805 |  |  |  | 
 | C2 | 1 | 0.1uF | CAP_CERAMIC_0805 | working:_0805 |  |  |  | 
-| C3 | 1 | 4.70µF | CAP_CERAMIC_0805 | working:_0805 |  |  |  | 
-| C4 | 1 | 0.22µF | CAP_CERAMIC_0805 | working:_0805 |  |  |  | 
+| C3 | 1 | 4.70ÂµF | CAP_CERAMIC_0805 | working:_0805 |  |  |  | 
+| C4 | 1 | 0.22ÂµF | CAP_CERAMIC_0805 | working:_0805 |  |  |  | 
 | FID1, FID2 | 2 | FIDUCIAL"" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | 
 | JP1 | 1 | HEADER-1X876MIL | HEADER-1X876MIL | working:1X08_ROUND_76 |  |  |  | 
 | Q1, Q2 | 2 | BSS138 | MOSFET-NWIDE | working:SOT23-WIDE |  |  |  | 

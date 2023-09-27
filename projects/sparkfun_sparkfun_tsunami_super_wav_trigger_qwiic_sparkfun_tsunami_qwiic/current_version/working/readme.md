@@ -11,6 +11,8 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/sparkfun/SparkFun_Tsunami_Super_WAV_Trigger_Qwiic/tree/main/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/sparkfun_sparkfun_tsunami_super_wav_trigger_qwiic_sparkfun_tsunami_qwiic/current_version/working  
+
 
 
 

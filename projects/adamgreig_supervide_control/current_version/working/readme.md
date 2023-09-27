@@ -15,6 +15,7 @@
 * full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adamgreig_supervide_control/current_version/working  
 
 
+
 ## pcb  
 ![](working_3d_600.png) 
 ![](working_3d_front_600.png)  
@@ -31,9 +32,9 @@
 | 4 | P3 | TC_K_PM | 1 | CONN_01X02 |  |  | [''] | 
 | 5 | REF** | HOLE | 1 | HOLE |  |  | [''] | 
 | 6 | C1,C2,C16,C13,C10,C7,C6,C26,C8 | C0603 | 9 | 100n |  |  | [''] | 
-| 7 | C17,C4,C21,C3,C27,C28 | C0603 | 6 | 10µ |  |  | [''] | 
+| 7 | C17,C4,C21,C3,C27,C28 | C0603 | 6 | 10Âµ |  |  | [''] | 
 | 8 | C22,C25 | C1206 | 2 | 100n |  |  | [''] | 
-| 9 | C23,C24,C5 | C0603 | 3 | 1µ |  |  | [''] | 
+| 9 | C23,C24,C5 | C0603 | 3 | 1Âµ |  |  | [''] | 
 | 10 | CON1 | USB3065 | 1 | USB-MICRO-B |  |  | [''] | 
 | 11 | D1,D2,D5 | R0402 | 3 | CGA0402MLC-12G |  |  | [''] | 
 | 12 | IC4 | MSOP8 | 1 | AD8495 |  |  | [''] | 
@@ -48,7 +49,7 @@
 | 21 | C12,C11,C15,C14 | C0603 | 4 | 15p |  |  | [''] | 
 | 22 | C9 | C0603 | 1 | 10n |  |  | [''] | 
 | 23 | IC3 | MSOP8 | 1 | ADP3335 |  |  | [''] | 
-| 24 | C20,C18 | C0603 | 2 | 2µ2 |  |  | [''] | 
+| 24 | C20,C18 | C0603 | 2 | 2Âµ2 |  |  | [''] | 
 | 25 | C19 | C0603 | 1 | 1n |  |  | [''] | 
 | 26 | R1,R5 | R0603 | 2 | 4k7 |  |  | [''] | 
 | 27 | IC1 | MSOP8 | 1 | AD8542 |  |  | [''] | 

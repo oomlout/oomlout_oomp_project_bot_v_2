@@ -1,10 +1,178 @@
 board: lumenati_90l
+bom:
+- Id: '1'
+  Designator: C1,C2,C3
+  Footprint: 0603_revised
+  Quantity: '3'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: FD1,FD2
+  Footprint: FIDUCIAL-1X2
+  Quantity: '2'
+  Designation: FIDUCIAL1X2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: U1,U2,U3
+  Footprint: APA102_3
+  Quantity: '3'
+  Designation: APA102
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: REF**,REF**,REF**
+  Footprint: line
+  Quantity: '3'
+  Designation: line
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: JP1,JP2
+  Footprint: SMT-JUMPER_2_NC_TRACE_SILK
+  Quantity: '2'
+  Designation: JUMPER-SMT_2_NC_TRACE_SILK
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C2,C3\
+  \ | 0603_revised | 3 | 0.1uF |  |  | [''] | \n| 2 | FD1,FD2 | FIDUCIAL-1X2 | 2 |\
+  \ FIDUCIAL1X2 |  |  | [''] | \n| 3 | U1,U2,U3 | APA102_3 | 3 | APA102 |  |  | ['']\
+  \ | \n| 4 | REF**,REF**,REF** | line | 3 | line |  |  | [''] | \n| 5 | JP1,JP2 |\
+  \ SMT-JUMPER_2_NC_TRACE_SILK | 2 | JUMPER-SMT_2_NC_TRACE_SILK |  |  | [''] | \n"
+bom_schematic: []
+bom_schematic_markdown: no data
 counter: 1
 file_kicad_pcb_flat: projects/sparkfun_lumenati_90l_lumenati_90l/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/sparkfun_lumenati_90l_lumenati_90l/current_version/working/working.kicad_pcb
 file_sch_flat: projects/sparkfun_lumenati_90l_lumenati_90l/current_version/working/working.sch
 id: sparkfun_lumenati_90l_lumenati_90l
 name: lumenati_90l
+position_bottom:
+- '# Ref': JP1
+  Package: SMT-JUMPER_2_NC_TRACE_SILK
+  PosX: 133.7818
+  PosY: -93.5228
+  Rot: 180.0
+  Side: bottom
+  Val: JUMPER-SMT_2_NC_TRACE_SILK
+- '# Ref': JP2
+  Package: SMT-JUMPER_2_NC_TRACE_SILK
+  PosX: 133.7818
+  PosY: -96.0628
+  Rot: 180.0
+  Side: bottom
+  Val: JUMPER-SMT_2_NC_TRACE_SILK
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| JP1 | JUMPER-SMT_2_NC_TRACE_SILK\
+  \ | SMT-JUMPER_2_NC_TRACE_SILK | 133.7818 | -93.5228 | 180.0 | bottom | \n| JP2\
+  \ | JUMPER-SMT_2_NC_TRACE_SILK | SMT-JUMPER_2_NC_TRACE_SILK | 133.7818 | -96.0628\
+  \ | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: 0603_revised
+  PosX: 137.3124
+  PosY: -92.0496
+  Rot: 165.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C2
+  Package: 0603_revised
+  PosX: 142.682
+  PosY: -96.7791
+  Rot: 45.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C3
+  Package: 0603_revised
+  PosX: 154.2542
+  PosY: -108.9406
+  Rot: 105.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': FD1
+  Package: FIDUCIAL-1X2
+  PosX: 155.2575
+  PosY: -112.9157
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL1X2
+- '# Ref': FD2
+  Package: FIDUCIAL-1X2
+  PosX: 133.3881
+  PosY: -90.7415
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL1X2
+- '# Ref': REF**
+  Package: line
+  PosX: 131.1275
+  PosY: -115.1255
+  Rot: -75.0
+  Side: top
+  Val: line
+- '# Ref': REF**
+  Package: line
+  PosX: 131.1275
+  PosY: -115.1255
+  Rot: -45.0
+  Side: top
+  Val: line
+- '# Ref': REF**
+  Package: line
+  PosX: 131.1275
+  PosY: -115.1255
+  Rot: -15.0
+  Side: top
+  Val: line
+- '# Ref': U1
+  Package: APA102_3
+  PosX: 150.7744
+  PosY: -109.8804
+  Rot: -75.0
+  Side: top
+  Val: APA102
+- '# Ref': U2
+  Package: APA102_3
+  PosX: 145.4785
+  PosY: -100.7745
+  Rot: -45.0
+  Side: top
+  Val: APA102
+- '# Ref': U3
+  Package: APA102_3
+  PosX: 136.3726
+  PosY: -95.504
+  Rot: -15.0
+  Side: top
+  Val: APA102
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | 0603_revised | 137.3124\
+  \ | -92.0496 | 165.0 | top | \n| C2 | 0.1uF | 0603_revised | 142.682 | -96.7791\
+  \ | 45.0 | top | \n| C3 | 0.1uF | 0603_revised | 154.2542 | -108.9406 | 105.0 |\
+  \ top | \n| FD1 | FIDUCIAL1X2 | FIDUCIAL-1X2 | 155.2575 | -112.9157 | 0.0 | top\
+  \ | \n| FD2 | FIDUCIAL1X2 | FIDUCIAL-1X2 | 133.3881 | -90.7415 | 0.0 | top | \n\
+  | REF** | line | line | 131.1275 | -115.1255 | -75.0 | top | \n| REF** | line |\
+  \ line | 131.1275 | -115.1255 | -45.0 | top | \n| REF** | line | line | 131.1275\
+  \ | -115.1255 | -15.0 | top | \n| U1 | APA102 | APA102_3 | 150.7744 | -109.8804\
+  \ | -75.0 | top | \n| U2 | APA102 | APA102_3 | 145.4785 | -100.7745 | -45.0 | top\
+  \ | \n| U3 | APA102 | APA102_3 | 136.3726 | -95.504 | -15.0 | top | \n"
 projects_flat: projects/sparkfun_lumenati_90l_lumenati_90l/current_version/working
 repo:
   allow_forking: true

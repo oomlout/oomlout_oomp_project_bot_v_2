@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -42,12 +63,12 @@
 | 13 | U$35,U$34 | FIDUCIAL_1MM | 2 | FIDUCIAL" |  |  | [''] | 
 | 14 | IC1 | TQFP44 | 1 | ATMEGA32U4-AU |  |  | [''] | 
 | 15 | JP3,JP1 | 1X16_ROUND | 2 |  |  |  | [''] | 
-| 16 | C8,C7 | 0805-NO | 2 | 10µF |  |  | [''] | 
+| 16 | C8,C7 | 0805-NO | 2 | 10ÂµF |  |  | [''] | 
 | 17 | U$7 | ADAFRUIT_3.5MM | 1 |  |  |  | [''] | 
 | 18 | C10 | 0805_10MGAP | 1 | 0.1uF |  |  | [''] | 
 | 19 | U2 | SOT23-5 | 1 | MIC5225-3.3 |  |  | [''] | 
 | 20 | X3 | 4UCONN_20329 | 1 | microUSB |  |  | [''] | 
-| 21 | C6 | _0805MP | 1 | 10µF |  |  | [''] | 
+| 21 | C6 | _0805MP | 1 | 10ÂµF |  |  | [''] | 
 | 22 | X1 | JSTPH2 | 1 | JSTPH |  |  | [''] | 
 | 23 | U$15 | BLUEFRUITLOGO_150MM | 1 |  |  |  | [''] | 
 | 24 | TP3,TP2 | PAD-1.5X2.0 | 2 | SWDIO |  |  | [''] | 
@@ -60,8 +81,8 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C2, C9 | 2 | 1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C6 | 1 | 10µF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
-| C7, C8 | 2 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C6 | 1 | 10ÂµF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
+| C7, C8 | 2 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C10 | 1 | 0.1uF | CAP_CERAMIC0805_10MGAP | working:0805_10MGAP |  |  |  | 
 | C14, C15 | 2 | 0.1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | D1 | 1 | RED | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 
@@ -88,9 +109,9 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 45.72 | 18.033999999999992 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$6 | m3 | 
-| 45.97400000000002 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$24 | m3 | 
-| 0.0 | 18.033999999999992 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$31 | m3 | 
-| 0.0 | 0.2539999999999907 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$32 | m3 | 
+| 45.72 | 18.03 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$6 | m3 | 
+| 45.97 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$24 | m3 | 
+| 0.0 | 18.03 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$31 | m3 | 
+| 0.0 | 0.25 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$32 | m3 | 
 
 

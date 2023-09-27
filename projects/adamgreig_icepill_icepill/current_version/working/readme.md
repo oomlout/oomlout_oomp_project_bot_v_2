@@ -16,7 +16,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -29,7 +50,7 @@
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | C2,C3,C5,C7,C1,C4 | 0603 | 6 | 100n |  |  | [''] | 
-| 2 | C6,C8,C9 | 0805 | 3 | 10µ |  |  | [''] | 
+| 2 | C6,C8,C9 | 0805 | 3 | 10Âµ |  |  | [''] | 
 | 3 | IC1 | Lattice-SG48 | 1 | iCE40UP5K-SG48 |  |  | [''] | 
 | 4 | J8 | SIL-254P-05 | 1 | FPGA_A |  |  | [''] | 
 | 5 | J9 | SIL-254P-05 | 1 | FPGA_B |  |  | [''] | 
@@ -53,7 +74,7 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C2, C3, C4, C5, C7 | 6 | 100n | C | icepill:0603 |  |  |  | 
-| C6, C8, C9 | 3 | 10µ | C | icepill:0805 |  |  |  | 
+| C6, C8, C9 | 3 | 10Âµ | C | icepill:0805 |  |  |  | 
 | D1 | 1 | LED | LED | icepill:0603-LED |  |  |  | 
 | IC1 | 1 | iCE40UP5K-SG48 | iCE40UP5K-SG48 | icepill:Lattice-SG48 | iCE40 UP5K FPGA |  |  | 
 | IC2 | 1 | AZ1117H-1.2 | MCP1700 | icepill:SOT223 | LDO Voltage Regulator |  |  | 

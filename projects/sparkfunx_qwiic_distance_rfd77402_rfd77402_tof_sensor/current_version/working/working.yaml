@@ -1,10 +1,430 @@
 board: rfd77402_tof_sensor
+bom:
+- Id: '1'
+  Designator: J1,J2
+  Footprint: 1X04_1MM_RA
+  Quantity: '2'
+  Designation: Qwiic_Connector
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J3
+  Footprint: 1X01_NO_SILK
+  Quantity: '1'
+  Designation: CONN_01X01
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J4
+  Footprint: 1X04_NO_SILK
+  Quantity: '1'
+  Designation: I2C_Standard_PTH_Connector
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C1
+  Footprint: '0603'
+  Quantity: '1'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: JP1
+  Footprint: SMT-JUMPER_3_2-NC_PASTE_SILK
+  Quantity: '1'
+  Designation: JUMPER-SMT_3_2-NC_PASTE_SILK
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: LOGO1
+  Footprint: OSHW-LOGO-MINI
+  Quantity: '1'
+  Designation: SPARKFUN-AESTHETICS_OSHW-LOGOS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: MK1,MK2
+  Footprint: STAND-OFF
+  Quantity: '2'
+  Designation: Mounting_Hole
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R1,R2
+  Footprint: '0603'
+  Quantity: '2'
+  Designation: 4.7k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U1
+  Footprint: RFD77402
+  Quantity: '1'
+  Designation: RFD77402
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U4
+  Footprint: CREATIVE_COMMONS
+  Quantity: '1'
+  Designation: CC_LICENSE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: C2
+  Footprint: '0603'
+  Quantity: '1'
+  Designation: 4.7uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U2,U3
+  Footprint: SPARKX-MEDIUM
+  Quantity: '2'
+  Designation: SPARKX-LOGO4
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: F1,F2
+  Footprint: FIDUCIAL-1X2
+  Quantity: '2'
+  Designation: Fiducial
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1,J2\
+  \ | 1X04_1MM_RA | 2 | Qwiic_Connector |  |  | [''] | \n| 2 | J3 | 1X01_NO_SILK |\
+  \ 1 | CONN_01X01 |  |  | [''] | \n| 3 | J4 | 1X04_NO_SILK | 1 | I2C_Standard_PTH_Connector\
+  \ |  |  | [''] | \n| 4 | C1 | 0603 | 1 | 0.1uF |  |  | [''] | \n| 5 | JP1 | SMT-JUMPER_3_2-NC_PASTE_SILK\
+  \ | 1 | JUMPER-SMT_3_2-NC_PASTE_SILK |  |  | [''] | \n| 6 | LOGO1 | OSHW-LOGO-MINI\
+  \ | 1 | SPARKFUN-AESTHETICS_OSHW-LOGOS |  |  | [''] | \n| 7 | MK1,MK2 | STAND-OFF\
+  \ | 2 | Mounting_Hole |  |  | [''] | \n| 8 | R1,R2 | 0603 | 2 | 4.7k |  |  | ['']\
+  \ | \n| 9 | U1 | RFD77402 | 1 | RFD77402 |  |  | [''] | \n| 10 | U4 | CREATIVE_COMMONS\
+  \ | 1 | CC_LICENSE |  |  | [''] | \n| 11 | C2 | 0603 | 1 | 4.7uF |  |  | [''] |\
+  \ \n| 12 | U2,U3 | SPARKX-MEDIUM | 2 | SPARKX-LOGO4 |  |  | [''] | \n| 13 | F1,F2\
+  \ | FIDUCIAL-1X2 | 2 | Fiducial |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C_Small
+  DNP: ''
+  Description: ''
+  Footprint: SparkFun-Capacitors:0603
+  Qnty: '1'
+  Ref: C1
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: ''
+  Footprint: SparkFun-Capacitors:0603
+  Qnty: '1'
+  Ref: C2
+  Value: 4.7uF
+  Vendor: ''
+- Cmp name: Fiducial
+  DNP: ''
+  Description: ''
+  Footprint: SparkFun-KiCad-Aesthetics:FIDUCIAL-1X2
+  Qnty: '2'
+  Ref: F1, F2
+  Value: Fiducial
+  Vendor: ''
+- Cmp name: Qwiic_Connector
+  DNP: ''
+  Description: ''
+  Footprint: SparkX:1X04_1MM_RA
+  Qnty: '2'
+  Ref: J1, J2
+  Value: Qwiic_Connector
+  Vendor: ''
+- Cmp name: CONN_01X01
+  DNP: ''
+  Description: ''
+  Footprint: SparkX:1X01_NO_SILK
+  Qnty: '1'
+  Ref: J3
+  Value: CONN_01X01
+  Vendor: ''
+- Cmp name: I2C_Standard_PTH_Connector
+  DNP: ''
+  Description: ''
+  Footprint: SparkX:1X04_NO_SILK
+  Qnty: '1'
+  Ref: J4
+  Value: I2C_Standard_PTH_Connector
+  Vendor: ''
+- Cmp name: I2C_Standard_PTH_Connector
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: J5
+  Value: I2C_Standard_PTH_Connector
+  Vendor: ''
+- Cmp name: JUMPER-SMT_3_2-NC_PASTE_SILK
+  DNP: ''
+  Description: ''
+  Footprint: ''
+  Qnty: '1'
+  Ref: JP1
+  Value: JUMPER-SMT_3_2-NC_PASTE_SILK
+  Vendor: ''
+- Cmp name: SPARKFUN-AESTHETICS_OSHW-LOGOS
+  DNP: ''
+  Description: ''
+  Footprint: SparkFun-Aesthetics:OSHW-LOGO-MINI
+  Qnty: '1'
+  Ref: LOGO1
+  Value: SPARKFUN-AESTHETICS_OSHW-LOGOS
+  Vendor: ''
+- Cmp name: Mounting_Hole
+  DNP: ''
+  Description: ''
+  Footprint: SparkFun-Hardware:STAND-OFF
+  Qnty: '2'
+  Ref: MK1, MK2
+  Value: Mounting_Hole
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: ''
+  Footprint: SparkFun-Resistors:0603
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 4.7k
+  Vendor: ''
+- Cmp name: RFD77402
+  DNP: ''
+  Description: ''
+  Footprint: SparkFun_Kicad-Sensors:RFD77402
+  Qnty: '1'
+  Ref: U1
+  Value: RFD77402
+  Vendor: ''
+- Cmp name: SPARKX_SPARKX-LOGO4
+  DNP: ''
+  Description: ''
+  Footprint: SparkX:SPARKX-MEDIUM
+  Qnty: '2'
+  Ref: U2, U3
+  Value: SPARKX-LOGO4
+  Vendor: ''
+- Cmp name: CC_LICENSE
+  DNP: ''
+  Description: ''
+  Footprint: SparkFun-Aesthetics:CREATIVE_COMMONS
+  Qnty: '1'
+  Ref: U4
+  Value: CC_LICENSE
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 0.1uF | C_Small | SparkFun-Capacitors:0603 |  |  |  | \n| C2 | 1 | 4.7uF |\
+  \ C_Small | SparkFun-Capacitors:0603 |  |  |  | \n| F1, F2 | 2 | Fiducial | Fiducial\
+  \ | SparkFun-KiCad-Aesthetics:FIDUCIAL-1X2 |  |  |  | \n| J1, J2 | 2 | Qwiic_Connector\
+  \ | Qwiic_Connector | SparkX:1X04_1MM_RA |  |  |  | \n| J3 | 1 | CONN_01X01 | CONN_01X01\
+  \ | SparkX:1X01_NO_SILK |  |  |  | \n| J4 | 1 | I2C_Standard_PTH_Connector | I2C_Standard_PTH_Connector\
+  \ | SparkX:1X04_NO_SILK |  |  |  | \n| J5 | 1 | I2C_Standard_PTH_Connector | I2C_Standard_PTH_Connector\
+  \ |  |  |  |  | \n| JP1 | 1 | JUMPER-SMT_3_2-NC_PASTE_SILK | JUMPER-SMT_3_2-NC_PASTE_SILK\
+  \ |  |  |  |  | \n| LOGO1 | 1 | SPARKFUN-AESTHETICS_OSHW-LOGOS | SPARKFUN-AESTHETICS_OSHW-LOGOS\
+  \ | SparkFun-Aesthetics:OSHW-LOGO-MINI |  |  |  | \n| MK1, MK2 | 2 | Mounting_Hole\
+  \ | Mounting_Hole | SparkFun-Hardware:STAND-OFF |  |  |  | \n| R1, R2 | 2 | 4.7k\
+  \ | R_Small | SparkFun-Resistors:0603 |  |  |  | \n| U1 | 1 | RFD77402 | RFD77402\
+  \ | SparkFun_Kicad-Sensors:RFD77402 |  |  |  | \n| U2, U3 | 2 | SPARKX-LOGO4 | SPARKX_SPARKX-LOGO4\
+  \ | SparkX:SPARKX-MEDIUM |  |  |  | \n| U4 | 1 | CC_LICENSE | CC_LICENSE | SparkFun-Aesthetics:CREATIVE_COMMONS\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/sparkfunx_qwiic_distance_rfd77402_rfd77402_tof_sensor/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/sparkfunx_qwiic_distance_rfd77402_rfd77402_tof_sensor/current_version/working/working.kicad_pcb
 file_sch_flat: projects/sparkfunx_qwiic_distance_rfd77402_rfd77402_tof_sensor/current_version/working/working.sch
 id: sparkfunx_qwiic_distance_rfd77402_rfd77402_tof_sensor
 name: qwiic_distance_rfd77402
+position_bottom:
+- '# Ref': U3
+  Package: SPARKX-MEDIUM
+  PosX: 149.86
+  PosY: -93.98
+  Rot: 180.0
+  Side: bottom
+  Val: SPARKX-LOGO4
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| U3 | SPARKX-LOGO4 | SPARKX-MEDIUM\
+  \ | 149.86 | -93.98 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: '0603'
+  PosX: 147.955
+  PosY: -109.22
+  Rot: 180.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C2
+  Package: '0603'
+  PosX: 151.51
+  PosY: -109.22
+  Rot: 0.0
+  Side: top
+  Val: 4.7uF
+- '# Ref': F1
+  Package: FIDUCIAL-1X2
+  PosX: 138.43
+  PosY: -115.57
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': F2
+  Package: FIDUCIAL-1X2
+  PosX: 157.48
+  PosY: -92.456
+  Rot: 0.0
+  Side: top
+  Val: Fiducial
+- '# Ref': J1
+  Package: 1X04_1MM_RA
+  PosX: 142.24
+  PosY: -104.14
+  Rot: -90.0
+  Side: top
+  Val: Qwiic_Connector
+- '# Ref': J2
+  Package: 1X04_1MM_RA
+  PosX: 157.48
+  PosY: -104.14
+  Rot: 90.0
+  Side: top
+  Val: Qwiic_Connector
+- '# Ref': J3
+  Package: 1X01_NO_SILK
+  PosX: 154.94
+  PosY: -115.57
+  Rot: 0.0
+  Side: top
+  Val: CONN_01X01
+- '# Ref': J4
+  Package: 1X04_NO_SILK
+  PosX: 144.78
+  PosY: -115.57
+  Rot: 0.0
+  Side: top
+  Val: I2C_Standard_PTH_Connector
+- '# Ref': JP1
+  Package: SMT-JUMPER_3_2-NC_PASTE_SILK
+  PosX: 149.86
+  PosY: -100.33
+  Rot: 0.0
+  Side: top
+  Val: JUMPER-SMT_3_2-NC_PASTE_SILK
+- '# Ref': LOGO1
+  Package: OSHW-LOGO-MINI
+  PosX: 139.7
+  PosY: -113.03
+  Rot: 0.0
+  Side: top
+  Val: SPARKFUN-AESTHETICS_OSHW-LOGOS
+- '# Ref': MK1
+  Package: STAND-OFF
+  PosX: 139.7
+  PosY: -93.98
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': MK2
+  Package: STAND-OFF
+  PosX: 160.02
+  PosY: -93.98
+  Rot: 0.0
+  Side: top
+  Val: Mounting_Hole
+- '# Ref': R1
+  Package: '0603'
+  PosX: 153.67
+  PosY: -100.33
+  Rot: -90.0
+  Side: top
+  Val: 4.7k
+- '# Ref': R2
+  Package: '0603'
+  PosX: 146.05
+  PosY: -100.33
+  Rot: -90.0
+  Side: top
+  Val: 4.7k
+- '# Ref': U1
+  Package: RFD77402
+  PosX: 149.86
+  PosY: -104.14
+  Rot: 0.0
+  Side: top
+  Val: RFD77402
+- '# Ref': U2
+  Package: SPARKX-MEDIUM
+  PosX: 149.86
+  PosY: -93.98
+  Rot: 0.0
+  Side: top
+  Val: SPARKX-LOGO4
+- '# Ref': U4
+  Package: CREATIVE_COMMONS
+  PosX: 146.558
+  PosY: -124.968
+  Rot: 0.0
+  Side: top
+  Val: CC_LICENSE
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uF | 0603 | 147.955 | -109.22\
+  \ | 180.0 | top | \n| C2 | 4.7uF | 0603 | 151.51 | -109.22 | 0.0 | top | \n| F1\
+  \ | Fiducial | FIDUCIAL-1X2 | 138.43 | -115.57 | 0.0 | top | \n| F2 | Fiducial |\
+  \ FIDUCIAL-1X2 | 157.48 | -92.456 | 0.0 | top | \n| J1 | Qwiic_Connector | 1X04_1MM_RA\
+  \ | 142.24 | -104.14 | -90.0 | top | \n| J2 | Qwiic_Connector | 1X04_1MM_RA | 157.48\
+  \ | -104.14 | 90.0 | top | \n| J3 | CONN_01X01 | 1X01_NO_SILK | 154.94 | -115.57\
+  \ | 0.0 | top | \n| J4 | I2C_Standard_PTH_Connector | 1X04_NO_SILK | 144.78 | -115.57\
+  \ | 0.0 | top | \n| JP1 | JUMPER-SMT_3_2-NC_PASTE_SILK | SMT-JUMPER_3_2-NC_PASTE_SILK\
+  \ | 149.86 | -100.33 | 0.0 | top | \n| LOGO1 | SPARKFUN-AESTHETICS_OSHW-LOGOS |\
+  \ OSHW-LOGO-MINI | 139.7 | -113.03 | 0.0 | top | \n| MK1 | Mounting_Hole | STAND-OFF\
+  \ | 139.7 | -93.98 | 0.0 | top | \n| MK2 | Mounting_Hole | STAND-OFF | 160.02 |\
+  \ -93.98 | 0.0 | top | \n| R1 | 4.7k | 0603 | 153.67 | -100.33 | -90.0 | top | \n\
+  | R2 | 4.7k | 0603 | 146.05 | -100.33 | -90.0 | top | \n| U1 | RFD77402 | RFD77402\
+  \ | 149.86 | -104.14 | 0.0 | top | \n| U2 | SPARKX-LOGO4 | SPARKX-MEDIUM | 149.86\
+  \ | -93.98 | 0.0 | top | \n| U4 | CC_LICENSE | CREATIVE_COMMONS | 146.558 | -124.968\
+  \ | 0.0 | top | \n"
 projects_flat: projects/sparkfunx_qwiic_distance_rfd77402_rfd77402_tof_sensor/current_version/working
 repo:
   allow_forking: true

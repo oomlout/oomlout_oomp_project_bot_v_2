@@ -1,10 +1,443 @@
 board: sonde_xilinx
+bom:
+- Id: '1'
+  Designator: R14,R9,R13,R12,R11,R8,R7,R6,R10,R1
+  Footprint: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  Quantity: '10'
+  Designation: '100'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R4
+  Footprint: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  Quantity: '1'
+  Designation: '47'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R2
+  Footprint: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  Quantity: '1'
+  Designation: 5,1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R5
+  Footprint: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  Quantity: '1'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: D2,D1
+  Footprint: D_A-405_P7.62mm_Horizontal
+  Quantity: '2'
+  Designation: BAT46
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C1
+  Footprint: C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal
+  Quantity: '1'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: P1
+  Footprint: PinHeader_1x06_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: CONN_6
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U2,U1
+  Footprint: DIP-14_W7.62mm_LongPads
+  Quantity: '2'
+  Designation: 74LS125
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: C5,C4,C3,C2
+  Footprint: C_Disc_D5.1mm_W3.2mm_P5.00mm
+  Quantity: '4'
+  Designation: 100pF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: J1
+  Footprint: DSUB-25_Male_EdgeMount_P2.77mm
+  Quantity: '1'
+  Designation: DB25MALE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: J2
+  Footprint: DSUB-9_Male_EdgeMount_P2.77mm
+  Quantity: '1'
+  Designation: DB9MALE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R14,R9,R13,R12,R11,R8,R7,R6,R10,R1\
+  \ | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 10 | 100 |  |  | [''] |\
+  \ \n| 2 | R4 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 1 | 47 |  | \
+  \ | [''] | \n| 3 | R2 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 1 |\
+  \ 5,1K |  |  | [''] | \n| 4 | R5 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 1 | 1K |  |  | [''] | \n| 5 | D2,D1 | D_A-405_P7.62mm_Horizontal | 2 | BAT46\
+  \ |  |  | [''] | \n| 6 | C1 | C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal | 1 | 1uF\
+  \ |  |  | [''] | \n| 7 | P1 | PinHeader_1x06_P2.54mm_Vertical | 1 | CONN_6 |  |\
+  \  | [''] | \n| 8 | U2,U1 | DIP-14_W7.62mm_LongPads | 2 | 74LS125 |  |  | [''] |\
+  \ \n| 9 | C5,C4,C3,C2 | C_Disc_D5.1mm_W3.2mm_P5.00mm | 4 | 100pF |  |  | [''] |\
+  \ \n| 10 | J1 | DSUB-25_Male_EdgeMount_P2.77mm | 1 | DB25MALE |  |  | [''] | \n\
+  | 11 | J2 | DSUB-9_Male_EdgeMount_P2.77mm | 1 | DB9MALE |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: CP
+  DNP: ''
+  Description: ''
+  Footprint: Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal
+  Qnty: '1'
+  Ref: C1
+  Value: 1uF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm
+  Qnty: '4'
+  Ref: C2, C3, C4, C5
+  Value: 100pF
+  Vendor: ''
+- Cmp name: DIODESCH
+  DNP: ''
+  Description: ''
+  Footprint: Diode_THT:D_A-405_P7.62mm_Horizontal
+  Qnty: '2'
+  Ref: D1, D2
+  Value: BAT46
+  Vendor: ''
+- Cmp name: DB25
+  DNP: ''
+  Description: ''
+  Footprint: Connector_Dsub:DSUB-25_Male_EdgeMount_P2.77mm
+  Qnty: '1'
+  Ref: J1
+  Value: DB25MALE
+  Vendor: ''
+- Cmp name: DB9
+  DNP: ''
+  Description: ''
+  Footprint: Connector_Dsub:DSUB-9_Male_EdgeMount_P2.77mm
+  Qnty: '1'
+  Ref: J2
+  Value: DB9MALE
+  Vendor: ''
+- Cmp name: CONN_6
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: P1
+  Value: CONN_6
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  Qnty: '10'
+  Ref: R1, R6, R7, R8, R9, R10, R11, R12, R13, R14
+  Value: '100'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  Qnty: '1'
+  Ref: R2
+  Value: 5,1K
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  Qnty: '1'
+  Ref: R4
+  Value: '47'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  Qnty: '1'
+  Ref: R5
+  Value: 1K
+  Vendor: ''
+- Cmp name: 74LS125
+  DNP: ''
+  Description: ''
+  Footprint: Package_DIP:DIP-14_W7.62mm_LongPads
+  Qnty: '2'
+  Ref: U1, U2
+  Value: 74LS125
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 1uF | CP | Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal |  |  |\
+  \  | \n| C2, C3, C4, C5 | 4 | 100pF | C | Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm\
+  \ |  |  |  | \n| D1, D2 | 2 | BAT46 | DIODESCH | Diode_THT:D_A-405_P7.62mm_Horizontal\
+  \ |  |  |  | \n| J1 | 1 | DB25MALE | DB25 | Connector_Dsub:DSUB-25_Male_EdgeMount_P2.77mm\
+  \ |  |  |  | \n| J2 | 1 | DB9MALE | DB9 | Connector_Dsub:DSUB-9_Male_EdgeMount_P2.77mm\
+  \ |  |  |  | \n| P1 | 1 | CONN_6 | CONN_6 | Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical\
+  \ |  |  |  | \n| R1, R6, R7, R8, R9, R10, R11, R12, R13, R14 | 10 | 100 | R | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ |  |  |  | \n| R2 | 1 | 5,1K | R | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ |  |  |  | \n| R4 | 1 | 47 | R | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ |  |  |  | \n| R5 | 1 | 1K | R | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ |  |  |  | \n| U1, U2 | 2 | 74LS125 | 74LS125 | Package_DIP:DIP-14_W7.62mm_LongPads\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/axello_kicad_sonde_xilinx/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/axello_kicad_sonde_xilinx/current_version/working/working.kicad_sch
 file_sch_flat: projects/axello_kicad_arduino_mega/current_version/working/working.sch
 id: axello_kicad_sonde_xilinx
 name: kicad
+position_bottom:
+- '# Ref': J2
+  Package: DSUB-9_Male_EdgeMount_P2.77mm
+  PosX: 181.61
+  PosY: -90.1192
+  Rot: -90.0
+  Side: bottom
+  Val: DB9MALE
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J2 | DB9MALE | DSUB-9_Male_EdgeMount_P2.77mm\
+  \ | 181.61 | -90.1192 | -90.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal
+  PosX: 134.62
+  PosY: -76.2
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': C2
+  Package: C_Disc_D5.1mm_W3.2mm_P5.00mm
+  PosX: 140.97
+  PosY: -102.87
+  Rot: -90.0
+  Side: top
+  Val: 100pF
+- '# Ref': C3
+  Package: C_Disc_D5.1mm_W3.2mm_P5.00mm
+  PosX: 151.13
+  PosY: -69.85
+  Rot: 0.0
+  Side: top
+  Val: 100pF
+- '# Ref': C4
+  Package: C_Disc_D5.1mm_W3.2mm_P5.00mm
+  PosX: 149.0
+  PosY: -102.87
+  Rot: -90.0
+  Side: top
+  Val: 100pF
+- '# Ref': C5
+  Package: C_Disc_D5.1mm_W3.2mm_P5.00mm
+  PosX: 145.0
+  PosY: -102.87
+  Rot: -90.0
+  Side: top
+  Val: 100pF
+- '# Ref': D1
+  Package: D_A-405_P7.62mm_Horizontal
+  PosX: 134.62
+  PosY: -72.39
+  Rot: 180.0
+  Side: top
+  Val: BAT46
+- '# Ref': D2
+  Package: D_A-405_P7.62mm_Horizontal
+  PosX: 160.02
+  PosY: -78.74
+  Rot: 180.0
+  Side: top
+  Val: BAT46
+- '# Ref': J1
+  Package: DSUB-25_Male_EdgeMount_P2.77mm
+  PosX: 105.5116
+  PosY: -89.1032
+  Rot: -90.0
+  Side: top
+  Val: DB25MALE
+- '# Ref': P1
+  Package: PinHeader_1x06_P2.54mm_Vertical
+  PosX: 169.672
+  PosY: -80.137
+  Rot: 0.0
+  Side: top
+  Val: CONN_6
+- '# Ref': R1
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 121.92
+  PosY: -73.8632
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R2
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 137.16
+  PosY: -72.39
+  Rot: 0.0
+  Side: top
+  Val: 5,1K
+- '# Ref': R4
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 121.92
+  PosY: -104.14
+  Rot: 180.0
+  Side: top
+  Val: '47'
+- '# Ref': R5
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 151.13
+  PosY: -73.66
+  Rot: 0.0
+  Side: top
+  Val: 1K
+- '# Ref': R6
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 121.9327
+  PosY: -83.82
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R7
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 121.92
+  PosY: -92.71
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R8
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 121.92
+  PosY: -87.63
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R9
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 121.92
+  PosY: -80.518
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R10
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 121.92
+  PosY: -77.216
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R11
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 162.56
+  PosY: -93.98
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R12
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 162.56
+  PosY: -99.06
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R13
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 162.56
+  PosY: -105.41
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': R14
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+  PosX: 162.56
+  PosY: -88.9
+  Rot: 180.0
+  Side: top
+  Val: '100'
+- '# Ref': U1
+  Package: DIP-14_W7.62mm_LongPads
+  PosX: 127.0
+  PosY: -82.55
+  Rot: 0.0
+  Side: top
+  Val: 74LS125
+- '# Ref': U2
+  Package: DIP-14_W7.62mm_LongPads
+  PosX: 140.97
+  PosY: -82.55
+  Rot: 0.0
+  Side: top
+  Val: 74LS125
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 1uF | C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal\
+  \ | 134.62 | -76.2 | 0.0 | top | \n| C2 | 100pF | C_Disc_D5.1mm_W3.2mm_P5.00mm |\
+  \ 140.97 | -102.87 | -90.0 | top | \n| C3 | 100pF | C_Disc_D5.1mm_W3.2mm_P5.00mm\
+  \ | 151.13 | -69.85 | 0.0 | top | \n| C4 | 100pF | C_Disc_D5.1mm_W3.2mm_P5.00mm\
+  \ | 149.0 | -102.87 | -90.0 | top | \n| C5 | 100pF | C_Disc_D5.1mm_W3.2mm_P5.00mm\
+  \ | 145.0 | -102.87 | -90.0 | top | \n| D1 | BAT46 | D_A-405_P7.62mm_Horizontal\
+  \ | 134.62 | -72.39 | 180.0 | top | \n| D2 | BAT46 | D_A-405_P7.62mm_Horizontal\
+  \ | 160.02 | -78.74 | 180.0 | top | \n| J1 | DB25MALE | DSUB-25_Male_EdgeMount_P2.77mm\
+  \ | 105.5116 | -89.1032 | -90.0 | top | \n| P1 | CONN_6 | PinHeader_1x06_P2.54mm_Vertical\
+  \ | 169.672 | -80.137 | 0.0 | top | \n| R1 | 100 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 121.92 | -73.8632 | 180.0 | top | \n| R2 | 5,1K | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 137.16 | -72.39 | 0.0 | top | \n| R4 | 47 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 121.92 | -104.14 | 180.0 | top | \n| R5 | 1K | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 151.13 | -73.66 | 0.0 | top | \n| R6 | 100 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 121.9327 | -83.82 | 180.0 | top | \n| R7 | 100 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 121.92 | -92.71 | 180.0 | top | \n| R8 | 100 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 121.92 | -87.63 | 180.0 | top | \n| R9 | 100 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 121.92 | -80.518 | 180.0 | top | \n| R10 | 100 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 121.92 | -77.216 | 180.0 | top | \n| R11 | 100 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 162.56 | -93.98 | 180.0 | top | \n| R12 | 100 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 162.56 | -99.06 | 180.0 | top | \n| R13 | 100 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 162.56 | -105.41 | 180.0 | top | \n| R14 | 100 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal\
+  \ | 162.56 | -88.9 | 180.0 | top | \n| U1 | 74LS125 | DIP-14_W7.62mm_LongPads |\
+  \ 127.0 | -82.55 | 0.0 | top | \n| U2 | 74LS125 | DIP-14_W7.62mm_LongPads | 140.97\
+  \ | -82.55 | 0.0 | top | \n"
 projects_flat: projects/axello_kicad_sonde_xilinx/current_version/working
 repo:
   allow_forking: true

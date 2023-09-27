@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -29,7 +50,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | JP1 | 1X03_ROUND | 1 |  |  |  | [''] | 
 | 2 | R3,R2,R5,R1,R4,R8 | 0805-NO | 6 | 10K |  |  | [''] | 
-| 3 | C2,C3 | 0805-NO | 2 | 10µF |  |  | [''] | 
+| 3 | C2,C3 | 0805-NO | 2 | 10ÂµF |  |  | [''] | 
 | 4 | U$21 | ADAFRUIT_2.5MM | 1 |  |  |  | [''] | 
 | 5 | U1 | LGA16_3X3MM | 1 | LIS3DHTR |  |  | [''] | 
 | 6 | U$9 | PCBFEAT-REV-040 | 1 |  |  |  | [''] | 
@@ -47,7 +68,7 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1 | 1 | 0.1uF | CAP_CERAMIC0805_10MGAP | working:0805_10MGAP |  |  |  | 
-| C2, C3 | 2 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C2, C3 | 2 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | D2 | 1 | 1N4148 | DIODESOD-323 | working:SOD-323 |  |  |  | 
 | FID1, FID2 | 2 | FIDUCIAL"" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | 
 | JP1 | 1 | HEADER-1X3ROUND | HEADER-1X3ROUND | working:1X03_ROUND |  |  |  | 
@@ -63,6 +84,6 @@
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$10 | m3 | 
-| 15.240000000000009 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$13 | m3 | 
+| 15.24 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$13 | m3 | 
 
 

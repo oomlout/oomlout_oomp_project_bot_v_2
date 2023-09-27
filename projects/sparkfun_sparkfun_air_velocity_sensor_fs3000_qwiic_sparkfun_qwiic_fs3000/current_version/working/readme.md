@@ -11,6 +11,8 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/sparkfun/SparkFun_Air_Velocity_Sensor_FS3000_Qwiic/tree/main/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/sparkfun_sparkfun_air_velocity_sensor_fs3000_qwiic_sparkfun_qwiic_fs3000/current_version/working  
+
 
 
 

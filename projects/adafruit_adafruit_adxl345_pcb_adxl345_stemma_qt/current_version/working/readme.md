@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -35,7 +56,7 @@
 | 6 | D1 | SOD-323_MINI | 1 | 1N4148 |  |  | [''] | 
 | 7 | U2 | SOT23-5 | 1 |  |  |  | [''] | 
 | 8 | U$1,U$3 | FIDUCIAL_1MM | 2 | FIDUCIAL |  |  | [''] | 
-| 9 | C3 | 0805-NO | 1 | 10µF |  |  | [''] | 
+| 9 | C3 | 0805-NO | 1 | 10ÂµF |  |  | [''] | 
 | 10 | U$4,U$6 | MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5 |  |  | [''] | 
 | 11 | U$7 | ADAFRUIT_TEXT_20MM | 1 |  |  |  | [''] | 
 
@@ -44,7 +65,7 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1 | 1 | 0.1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C3 | 1 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3 | 1 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | D1 | 1 | 1N4148 | DIODE_SOD323MINI | working:SOD-323_MINI |  |  |  | 
 | JP1 | 1 | HEADER-1X970MIL | HEADER-1X970MIL | working:1X09_ROUND_70 |  |  |  | 
 | Q1, Q2 | 2 | BSS138 | MOSFET-NWIDE | working:SOT23-WIDE |  |  |  | 

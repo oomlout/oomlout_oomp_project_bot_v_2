@@ -11,6 +11,8 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/sparkfun/Tri-Axis_Gyro_Breakout-L3G4200D/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/sparkfun_tri_axis_gyro_breakout_l3g4200d_sparkfun_gyro_breakout_l3g4200d/current_version/working  
+
 
 
 

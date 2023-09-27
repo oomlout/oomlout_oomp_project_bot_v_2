@@ -1,10 +1,89 @@
 board: i2c_connector_on_panel
+bom:
+- Id: '1'
+  Designator: J2,J1
+  Footprint: NS-Tech_Grove_1x04_P2mm_Horizontal
+  Quantity: '2'
+  Designation: Conn_01x04
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J3
+  Footprint: NS-Tech_Grove_1x04_P2mm_Vertical
+  Quantity: '1'
+  Designation: Conn_01x04
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J2,J1\
+  \ | NS-Tech_Grove_1x04_P2mm_Horizontal | 2 | Conn_01x04 |  |  | [''] | \n| 2 | J3\
+  \ | NS-Tech_Grove_1x04_P2mm_Vertical | 1 | Conn_01x04 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Conn_01x04
+  DNP: ''
+  Description: Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: my-kicad-footprints:NS-Tech_Grove_1x04_P2mm_Horizontal
+  Qnty: '2'
+  Ref: J1, J2
+  Value: Conn_01x04
+  Vendor: ''
+- Cmp name: Conn_01x04
+  DNP: ''
+  Description: Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector:NS-Tech_Grove_1x04_P2mm_Vertical
+  Qnty: '1'
+  Ref: J3
+  Value: Conn_01x04
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| J1, J2\
+  \ | 2 | Conn_01x04 | Conn_01x04 | my-kicad-footprints:NS-Tech_Grove_1x04_P2mm_Horizontal\
+  \ | Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J3 | 1 | Conn_01x04 | Conn_01x04 | Connector:NS-Tech_Grove_1x04_P2mm_Vertical\
+  \ | Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/asukiaaa_iris_ohyama_ihk_t35_i2c_controller_pcb_i2c_connector_on_panel/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asukiaaa_iris_ohyama_ihk_t35_i2c_controller_pcb_i2c_connector_on_panel/current_version/working/working.kicad_pcb
 file_sch_flat: projects/asukiaaa_iris_ohyama_ihk_t35_i2c_controller_pcb_i2c_connector_on_panel/current_version/working/working.sch
 id: asukiaaa_iris_ohyama_ihk_t35_i2c_controller_pcb_i2c_connector_on_panel
 name: iris_ohyama_ihk_t35_i2c_controller_pcb
+position_bottom:
+- '# Ref': J1
+  Package: NS-Tech_Grove_1x04_P2mm_Horizontal
+  PosX: 159.325
+  PosY: -73.65
+  Rot: 180.0
+  Side: bottom
+  Val: Conn_01x04
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J1 | Conn_01x04 | NS-Tech_Grove_1x04_P2mm_Horizontal\
+  \ | 159.325 | -73.65 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': J2
+  Package: NS-Tech_Grove_1x04_P2mm_Horizontal
+  PosX: 161.62
+  PosY: -73.675
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x04
+- '# Ref': J3
+  Package: NS-Tech_Grove_1x04_P2mm_Vertical
+  PosX: 164.775
+  PosY: -70.65
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x04
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J2 | Conn_01x04 | NS-Tech_Grove_1x04_P2mm_Horizontal\
+  \ | 161.62 | -73.675 | 0.0 | top | \n| J3 | Conn_01x04 | NS-Tech_Grove_1x04_P2mm_Vertical\
+  \ | 164.775 | -70.65 | 0.0 | top | \n"
 projects_flat: projects/asukiaaa_iris_ohyama_ihk_t35_i2c_controller_pcb_i2c_connector_on_panel/current_version/working
 repo:
   allow_forking: true

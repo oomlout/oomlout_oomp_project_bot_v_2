@@ -1,9 +1,542 @@
 board: u2f_zero_panel
+bom:
+- Id: '1'
+  Designator: C3,C3,C3
+  Footprint: C_0402
+  Quantity: '3'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C4,C4,C4
+  Footprint: C_0603
+  Quantity: '3'
+  Designation: 4.7uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R1,R1,R1
+  Footprint: R_0603
+  Quantity: '3'
+  Designation: '100'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: Z1,Z1,Z1
+  Footprint: SOT-553
+  Quantity: '3'
+  Designation: DF5A5.6JE
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: A1,A1,A1
+  Footprint: SOIC-8_3.9x4.9mm_Pitch1.27mm
+  Quantity: '3'
+  Designation: ATECC508A
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C2CK1,C2D1,RX1,TX1,GND1,C2D1,C2CK1,TX1,RX1,GND1,RX1,C2CK1,TX1,C2D1,GND1
+  Footprint: debug
+  Quantity: '15'
+  Designation: debug-pin
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: E0,E0,E0
+  Footprint: QSOP-24_3.9x8.7mm_Pitch0.635mm_fat
+  Quantity: '3'
+  Designation: EFM8UB1_24pin
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: SW1,SW1,SW1
+  Footprint: u2f-button
+  Quantity: '3'
+  Designation: SW_PUSH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: RGB1,RGB1,RGB1
+  Footprint: LED-0606
+  Quantity: '3'
+  Designation: CA_RGB
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: F1,F2,F3,F3,F2,F1,F3,F1,F2
+  Footprint: u2f-fiducial
+  Quantity: '9'
+  Designation: u2f-fiducial
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: REF**,REF**,REF**,REF**
+  Footprint: mousebites
+  Quantity: '4'
+  Designation: mousebites
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C3,C3,C3\
+  \ | C_0402 | 3 | 0.1uF |  |  | [''] | \n| 2 | C4,C4,C4 | C_0603 | 3 | 4.7uF |  |\
+  \  | [''] | \n| 3 | R1,R1,R1 | R_0603 | 3 | 100 |  |  | [''] | \n| 4 | Z1,Z1,Z1\
+  \ | SOT-553 | 3 | DF5A5.6JE |  |  | [''] | \n| 5 | A1,A1,A1 | SOIC-8_3.9x4.9mm_Pitch1.27mm\
+  \ | 3 | ATECC508A |  |  | [''] | \n| 6 | C2CK1,C2D1,RX1,TX1,GND1,C2D1,C2CK1,TX1,RX1,GND1,RX1,C2CK1,TX1,C2D1,GND1\
+  \ | debug | 15 | debug-pin |  |  | [''] | \n| 7 | E0,E0,E0 | QSOP-24_3.9x8.7mm_Pitch0.635mm_fat\
+  \ | 3 | EFM8UB1_24pin |  |  | [''] | \n| 8 | SW1,SW1,SW1 | u2f-button | 3 | SW_PUSH\
+  \ |  |  | [''] | \n| 9 | RGB1,RGB1,RGB1 | LED-0606 | 3 | CA_RGB |  |  | [''] | \n\
+  | 10 | F1,F2,F3,F3,F2,F1,F3,F1,F2 | u2f-fiducial | 9 | u2f-fiducial |  |  | ['']\
+  \ | \n| 11 | REF**,REF**,REF**,REF** | mousebites | 4 | mousebites |  |  | ['']\
+  \ | \n"
 counter: 1
 file_kicad_pcb_flat: projects/alexisvl_u2f_zero_u2f_zero_panel/current_version/working/working.kicad_pcb
 file_sch_flat: projects/alexisvl_u2f_zero_u2f_zero_panel/current_version/working/working.sch
 id: alexisvl_u2f_zero_u2f_zero_panel
 name: u2f_zero
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': A1
+  Package: SOIC-8_3.9x4.9mm_Pitch1.27mm
+  PosX: 101.3
+  PosY: -35.825
+  Rot: -90.0
+  Side: top
+  Val: ATECC508A
+- '# Ref': A1
+  Package: SOIC-8_3.9x4.9mm_Pitch1.27mm
+  PosX: 101.3
+  PosY: -68.825
+  Rot: -90.0
+  Side: top
+  Val: ATECC508A
+- '# Ref': A1
+  Package: SOIC-8_3.9x4.9mm_Pitch1.27mm
+  PosX: 101.3
+  PosY: -52.325
+  Rot: -90.0
+  Side: top
+  Val: ATECC508A
+- '# Ref': C2CK1
+  Package: debug
+  PosX: 109.6
+  PosY: -35.9
+  Rot: 0.0
+  Side: top
+  Val: debug-pin
+- '# Ref': C2CK1
+  Package: debug
+  PosX: 109.6
+  PosY: -52.4
+  Rot: 0.0
+  Side: top
+  Val: debug-pin
+- '# Ref': C2CK1
+  Package: debug
+  PosX: 109.6
+  PosY: -68.9
+  Rot: 0.0
+  Side: top
+  Val: debug-pin
+- '# Ref': C2D1
+  Package: debug
+  PosX: 109.6
+  PosY: -33.4
+  Rot: 0.0
+  Side: top
+  Val: debug-pin
+- '# Ref': C2D1
+  Package: debug
+  PosX: 109.6
+  PosY: -49.9
+  Rot: 0.0
+  Side: top
+  Val: debug-pin
+- '# Ref': C2D1
+  Package: debug
+  PosX: 109.6
+  PosY: -66.4
+  Rot: 0.0
+  Side: top
+  Val: debug-pin
+- '# Ref': C3
+  Package: C_0402
+  PosX: 98.9
+  PosY: -40.8
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C3
+  Package: C_0402
+  PosX: 98.9
+  PosY: -73.8
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C3
+  Package: C_0402
+  PosX: 98.9
+  PosY: -57.3
+  Rot: 0.0
+  Side: top
+  Val: 0.1uF
+- '# Ref': C4
+  Package: C_0603
+  PosX: 96.8
+  PosY: -32.1
+  Rot: 0.0
+  Side: top
+  Val: 4.7uF
+- '# Ref': C4
+  Package: C_0603
+  PosX: 96.8
+  PosY: -48.6
+  Rot: 0.0
+  Side: top
+  Val: 4.7uF
+- '# Ref': C4
+  Package: C_0603
+  PosX: 96.8
+  PosY: -65.1
+  Rot: 0.0
+  Side: top
+  Val: 4.7uF
+- '# Ref': E0
+  Package: QSOP-24_3.9x8.7mm_Pitch0.635mm_fat
+  PosX: 108.35
+  PosY: -53.25
+  Rot: 180.0
+  Side: top
+  Val: EFM8UB1_24pin
+- '# Ref': E0
+  Package: QSOP-24_3.9x8.7mm_Pitch0.635mm_fat
+  PosX: 108.35
+  PosY: -36.75
+  Rot: 180.0
+  Side: top
+  Val: EFM8UB1_24pin
+- '# Ref': E0
+  Package: QSOP-24_3.9x8.7mm_Pitch0.635mm_fat
+  PosX: 108.35
+  PosY: -69.75
+  Rot: 180.0
+  Side: top
+  Val: EFM8UB1_24pin
+- '# Ref': F1
+  Package: u2f-fiducial
+  PosX: 84.75
+  PosY: -75.0
+  Rot: 0.0
+  Side: top
+  Val: u2f-fiducial
+- '# Ref': F1
+  Package: u2f-fiducial
+  PosX: 84.75
+  PosY: -42.0
+  Rot: 0.0
+  Side: top
+  Val: u2f-fiducial
+- '# Ref': F1
+  Package: u2f-fiducial
+  PosX: 84.75
+  PosY: -58.5
+  Rot: 0.0
+  Side: top
+  Val: u2f-fiducial
+- '# Ref': F2
+  Package: u2f-fiducial
+  PosX: 84.75
+  PosY: -45.8
+  Rot: 0.0
+  Side: top
+  Val: u2f-fiducial
+- '# Ref': F2
+  Package: u2f-fiducial
+  PosX: 84.75
+  PosY: -29.3
+  Rot: 0.0
+  Side: top
+  Val: u2f-fiducial
+- '# Ref': F2
+  Package: u2f-fiducial
+  PosX: 84.75
+  PosY: -62.3
+  Rot: 0.0
+  Side: top
+  Val: u2f-fiducial
+- '# Ref': F3
+  Package: u2f-fiducial
+  PosX: 111.95
+  PosY: -45.8
+  Rot: 0.0
+  Side: top
+  Val: u2f-fiducial
+- '# Ref': F3
+  Package: u2f-fiducial
+  PosX: 111.95
+  PosY: -62.3
+  Rot: 0.0
+  Side: top
+  Val: u2f-fiducial
+- '# Ref': F3
+  Package: u2f-fiducial
+  PosX: 111.95
+  PosY: -29.3
+  Rot: 0.0
+  Side: top
+  Val: u2f-fiducial
+- '# Ref': GND1
+  Package: debug
+  PosX: 107.1
+  PosY: -49.9
+  Rot: 0.0
+  Side: top
+  Val: debug-pin
+- '# Ref': GND1
+  Package: debug
+  PosX: 107.1
+  PosY: -66.4
+  Rot: 0.0
+  Side: top
+  Val: debug-pin
+- '# Ref': GND1
+  Package: debug
+  PosX: 107.1
+  PosY: -33.4
+  Rot: 0.0
+  Side: top
+  Val: debug-pin
+- '# Ref': R1
+  Package: R_0603
+  PosX: 96.75
+  PosY: -39.15
+  Rot: 90.0
+  Side: top
+  Val: '100'
+- '# Ref': R1
+  Package: R_0603
+  PosX: 96.75
+  PosY: -55.65
+  Rot: 90.0
+  Side: top
+  Val: '100'
+- '# Ref': R1
+  Package: R_0603
+  PosX: 96.75
+  PosY: -72.15
+  Rot: 90.0
+  Side: top
+  Val: '100'
+- '# Ref': REF**
+  Package: mousebites
+  PosX: 92.35
+  PosY: -59.15
+  Rot: 0.0
+  Side: top
+  Val: mousebites
+- '# Ref': REF**
+  Package: mousebites
+  PosX: 92.35
+  PosY: -61.65
+  Rot: 0.0
+  Side: top
+  Val: mousebites
+- '# Ref': REF**
+  Package: mousebites
+  PosX: 92.35
+  PosY: -45.15
+  Rot: 0.0
+  Side: top
+  Val: mousebites
+- '# Ref': REF**
+  Package: mousebites
+  PosX: 92.35
+  PosY: -42.65
+  Rot: 0.0
+  Side: top
+  Val: mousebites
+- '# Ref': RGB1
+  Package: LED-0606
+  PosX: 96.7
+  PosY: -52.15
+  Rot: 0.0
+  Side: top
+  Val: CA_RGB
+- '# Ref': RGB1
+  Package: LED-0606
+  PosX: 96.7
+  PosY: -68.65
+  Rot: 0.0
+  Side: top
+  Val: CA_RGB
+- '# Ref': RGB1
+  Package: LED-0606
+  PosX: 96.7
+  PosY: -35.65
+  Rot: 0.0
+  Side: top
+  Val: CA_RGB
+- '# Ref': RX1
+  Package: debug
+  PosX: 107.1
+  PosY: -38.4
+  Rot: 0.0
+  Side: top
+  Val: debug-pin
+- '# Ref': RX1
+  Package: debug
+  PosX: 107.1
+  PosY: -71.4
+  Rot: 0.0
+  Side: top
+  Val: debug-pin
+- '# Ref': RX1
+  Package: debug
+  PosX: 107.1
+  PosY: -54.9
+  Rot: 0.0
+  Side: top
+  Val: debug-pin
+- '# Ref': SW1
+  Package: u2f-button
+  PosX: 92.5
+  PosY: -52.35
+  Rot: 90.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW1
+  Package: u2f-button
+  PosX: 92.5
+  PosY: -68.85
+  Rot: 90.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': SW1
+  Package: u2f-button
+  PosX: 92.5
+  PosY: -35.85
+  Rot: 90.0
+  Side: top
+  Val: SW_PUSH
+- '# Ref': TX1
+  Package: debug
+  PosX: 107.1
+  PosY: -35.9
+  Rot: 0.0
+  Side: top
+  Val: debug-pin
+- '# Ref': TX1
+  Package: debug
+  PosX: 107.1
+  PosY: -52.4
+  Rot: 0.0
+  Side: top
+  Val: debug-pin
+- '# Ref': TX1
+  Package: debug
+  PosX: 107.1
+  PosY: -68.9
+  Rot: 0.0
+  Side: top
+  Val: debug-pin
+- '# Ref': Z1
+  Package: SOT-553
+  PosX: 108.4
+  PosY: -31.0
+  Rot: 0.0
+  Side: top
+  Val: DF5A5.6JE
+- '# Ref': Z1
+  Package: SOT-553
+  PosX: 108.4
+  PosY: -47.5
+  Rot: 0.0
+  Side: top
+  Val: DF5A5.6JE
+- '# Ref': Z1
+  Package: SOT-553
+  PosX: 108.4
+  PosY: -64.0
+  Rot: 0.0
+  Side: top
+  Val: DF5A5.6JE
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| A1 | ATECC508A | SOIC-8_3.9x4.9mm_Pitch1.27mm\
+  \ | 101.3 | -35.825 | -90.0 | top | \n| A1 | ATECC508A | SOIC-8_3.9x4.9mm_Pitch1.27mm\
+  \ | 101.3 | -68.825 | -90.0 | top | \n| A1 | ATECC508A | SOIC-8_3.9x4.9mm_Pitch1.27mm\
+  \ | 101.3 | -52.325 | -90.0 | top | \n| C2CK1 | debug-pin | debug | 109.6 | -35.9\
+  \ | 0.0 | top | \n| C2CK1 | debug-pin | debug | 109.6 | -52.4 | 0.0 | top | \n|\
+  \ C2CK1 | debug-pin | debug | 109.6 | -68.9 | 0.0 | top | \n| C2D1 | debug-pin |\
+  \ debug | 109.6 | -33.4 | 0.0 | top | \n| C2D1 | debug-pin | debug | 109.6 | -49.9\
+  \ | 0.0 | top | \n| C2D1 | debug-pin | debug | 109.6 | -66.4 | 0.0 | top | \n| C3\
+  \ | 0.1uF | C_0402 | 98.9 | -40.8 | 0.0 | top | \n| C3 | 0.1uF | C_0402 | 98.9 |\
+  \ -73.8 | 0.0 | top | \n| C3 | 0.1uF | C_0402 | 98.9 | -57.3 | 0.0 | top | \n| C4\
+  \ | 4.7uF | C_0603 | 96.8 | -32.1 | 0.0 | top | \n| C4 | 4.7uF | C_0603 | 96.8 |\
+  \ -48.6 | 0.0 | top | \n| C4 | 4.7uF | C_0603 | 96.8 | -65.1 | 0.0 | top | \n| E0\
+  \ | EFM8UB1_24pin | QSOP-24_3.9x8.7mm_Pitch0.635mm_fat | 108.35 | -53.25 | 180.0\
+  \ | top | \n| E0 | EFM8UB1_24pin | QSOP-24_3.9x8.7mm_Pitch0.635mm_fat | 108.35 |\
+  \ -36.75 | 180.0 | top | \n| E0 | EFM8UB1_24pin | QSOP-24_3.9x8.7mm_Pitch0.635mm_fat\
+  \ | 108.35 | -69.75 | 180.0 | top | \n| F1 | u2f-fiducial | u2f-fiducial | 84.75\
+  \ | -75.0 | 0.0 | top | \n| F1 | u2f-fiducial | u2f-fiducial | 84.75 | -42.0 | 0.0\
+  \ | top | \n| F1 | u2f-fiducial | u2f-fiducial | 84.75 | -58.5 | 0.0 | top | \n\
+  | F2 | u2f-fiducial | u2f-fiducial | 84.75 | -45.8 | 0.0 | top | \n| F2 | u2f-fiducial\
+  \ | u2f-fiducial | 84.75 | -29.3 | 0.0 | top | \n| F2 | u2f-fiducial | u2f-fiducial\
+  \ | 84.75 | -62.3 | 0.0 | top | \n| F3 | u2f-fiducial | u2f-fiducial | 111.95 |\
+  \ -45.8 | 0.0 | top | \n| F3 | u2f-fiducial | u2f-fiducial | 111.95 | -62.3 | 0.0\
+  \ | top | \n| F3 | u2f-fiducial | u2f-fiducial | 111.95 | -29.3 | 0.0 | top | \n\
+  | GND1 | debug-pin | debug | 107.1 | -49.9 | 0.0 | top | \n| GND1 | debug-pin |\
+  \ debug | 107.1 | -66.4 | 0.0 | top | \n| GND1 | debug-pin | debug | 107.1 | -33.4\
+  \ | 0.0 | top | \n| R1 | 100 | R_0603 | 96.75 | -39.15 | 90.0 | top | \n| R1 | 100\
+  \ | R_0603 | 96.75 | -55.65 | 90.0 | top | \n| R1 | 100 | R_0603 | 96.75 | -72.15\
+  \ | 90.0 | top | \n| REF** | mousebites | mousebites | 92.35 | -59.15 | 0.0 | top\
+  \ | \n| REF** | mousebites | mousebites | 92.35 | -61.65 | 0.0 | top | \n| REF**\
+  \ | mousebites | mousebites | 92.35 | -45.15 | 0.0 | top | \n| REF** | mousebites\
+  \ | mousebites | 92.35 | -42.65 | 0.0 | top | \n| RGB1 | CA_RGB | LED-0606 | 96.7\
+  \ | -52.15 | 0.0 | top | \n| RGB1 | CA_RGB | LED-0606 | 96.7 | -68.65 | 0.0 | top\
+  \ | \n| RGB1 | CA_RGB | LED-0606 | 96.7 | -35.65 | 0.0 | top | \n| RX1 | debug-pin\
+  \ | debug | 107.1 | -38.4 | 0.0 | top | \n| RX1 | debug-pin | debug | 107.1 | -71.4\
+  \ | 0.0 | top | \n| RX1 | debug-pin | debug | 107.1 | -54.9 | 0.0 | top | \n| SW1\
+  \ | SW_PUSH | u2f-button | 92.5 | -52.35 | 90.0 | top | \n| SW1 | SW_PUSH | u2f-button\
+  \ | 92.5 | -68.85 | 90.0 | top | \n| SW1 | SW_PUSH | u2f-button | 92.5 | -35.85\
+  \ | 90.0 | top | \n| TX1 | debug-pin | debug | 107.1 | -35.9 | 0.0 | top | \n| TX1\
+  \ | debug-pin | debug | 107.1 | -52.4 | 0.0 | top | \n| TX1 | debug-pin | debug\
+  \ | 107.1 | -68.9 | 0.0 | top | \n| Z1 | DF5A5.6JE | SOT-553 | 108.4 | -31.0 | 0.0\
+  \ | top | \n| Z1 | DF5A5.6JE | SOT-553 | 108.4 | -47.5 | 0.0 | top | \n| Z1 | DF5A5.6JE\
+  \ | SOT-553 | 108.4 | -64.0 | 0.0 | top | \n"
 projects_flat: projects/alexisvl_u2f_zero_u2f_zero_panel/current_version/working
 repo:
   allow_forking: true

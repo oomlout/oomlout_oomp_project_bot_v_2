@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -32,8 +53,8 @@
 | 3 | C2 | _0402 | 1 | 10pF |  |  | [''] | 
 | 4 | FID1,FID2,FID3 | FIDUCIAL_1MM | 3 | FIDUCIAL" |  |  | [''] | 
 | 5 | LED1 | CHIPLED_0805_NOOUTLINE | 1 | green |  |  | [''] | 
-| 6 | C4,C5 | _0805MP | 2 | 1µF |  |  | [''] | 
-| 7 | C8,C7,C6 | _0805MP | 3 | 10µF |  |  | [''] | 
+| 6 | C4,C5 | _0805MP | 2 | 1ÂµF |  |  | [''] | 
+| 7 | C8,C7,C6 | _0805MP | 3 | 10ÂµF |  |  | [''] | 
 | 8 | R2,R3 | _0805MP | 2 | 10K |  |  | [''] | 
 | 9 | U1 | CC3000MOD | 1 | CC3000MOD |  |  | [''] | 
 | 10 | SW1 | EVQ-Q2 | 1 | SPST_TACT-EVQQ2 |  |  | [''] | 
@@ -69,8 +90,8 @@
 | C1 | 1 | 2.2pF | CAP_CERAMIC_0402 | working:_0402 |  |  |  | 
 | C2 | 1 | 10pF | CAP_CERAMIC_0402 | working:_0402 |  |  |  | 
 | C3 | 1 | DNC_10pF | CAP_CERAMIC_0402 | working:_0402 |  |  |  | 
-| C4, C5 | 2 | 1µF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
-| C6, C7, C8 | 3 | 10µF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
+| C4, C5 | 2 | 1ÂµF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
+| C6, C7, C8 | 3 | 10ÂµF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
 | CN2 | 1 | microSD | MICROSD | working:MICROSD |  |  |  | 
 | FB1 | 1 | Ferrite | FERRITE_0805MP | working:_0805MP |  |  |  | 
 | FID1, FID2, FID3 | 3 | FIDUCIAL"" | FIDUCIAL{dblquote}{dblquote} | working:FIDUCIAL_1MM |  |  |  | 

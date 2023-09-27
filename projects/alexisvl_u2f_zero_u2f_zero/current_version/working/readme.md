@@ -16,6 +16,28 @@
 
 
 
+## pcb  
+![](working_3d_600.png) 
+![](working_3d_front_600.png)  
+![](working_3d_back_600.png)  
+![](working_600.png)  
+[board (pdf)](working.pdf)  
+
+## working_bom
+| Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| 1 | C3,C3,C3 | C_0402 | 3 | 0.1uF |  |  | [''] | 
+| 2 | C4,C4,C4 | C_0603 | 3 | 4.7uF |  |  | [''] | 
+| 3 | R1,R1,R1 | R_0603 | 3 | 100 |  |  | [''] | 
+| 4 | Z1,Z1,Z1 | SOT-553 | 3 | DF5A5.6JE |  |  | [''] | 
+| 5 | A1,A1,A1 | SOIC-8_3.9x4.9mm_Pitch1.27mm | 3 | ATECC508A |  |  | [''] | 
+| 6 | C2CK1,C2D1,RX1,TX1,GND1,C2D1,C2CK1,TX1,RX1,GND1,RX1,C2CK1,TX1,C2D1,GND1 | debug | 15 | debug-pin |  |  | [''] | 
+| 7 | E0,E0,E0 | QSOP-24_3.9x8.7mm_Pitch0.635mm_fat | 3 | EFM8UB1_24pin |  |  | [''] | 
+| 8 | SW1,SW1,SW1 | u2f-button | 3 | SW_PUSH |  |  | [''] | 
+| 9 | RGB1,RGB1,RGB1 | LED-0606 | 3 | CA_RGB |  |  | [''] | 
+| 10 | F1,F2,F3,F3,F2,F1,F3,F1,F2 | u2f-fiducial | 9 | u2f-fiducial |  |  | [''] | 
+| 11 | REF**,REF**,REF**,REF** | mousebites | 4 | mousebites |  |  | [''] | 
+
 
 
 

@@ -1,4 +1,326 @@
 board: esp32bb
+bom:
+- Id: '1'
+  Designator: C2,C1
+  Footprint: C_0603
+  Quantity: '2'
+  Designation: 1nf
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C3,C4
+  Footprint: C_0603
+  Quantity: '2'
+  Designation: 10uf
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C5,C6,C7
+  Footprint: C_0603
+  Quantity: '3'
+  Designation: 0.1uf
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: D1,D2
+  Footprint: D_0805
+  Quantity: '2'
+  Designation: D
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: P3,P3
+  Footprint: USB_MICRO_B-HIROSE-ZX62R-B-5P
+  Quantity: '2'
+  Designation: USB_OTG
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U1
+  Footprint: ESP32-WROOM
+  Quantity: '1'
+  Designation: ESP32-WROOM
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: Q1,Q2
+  Footprint: SOT-23
+  Quantity: '2'
+  Designation: MMBT3904
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R4,R1,R3,R2
+  Footprint: R_0603
+  Quantity: '4'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R5,R6
+  Footprint: R_0603
+  Quantity: '2'
+  Designation: '100'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: C8
+  Footprint: C_1206
+  Quantity: '1'
+  Designation: 100uf
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: U3
+  Footprint: QFN-28-1EP_5x5mm_Pitch0.5mm
+  Quantity: '1'
+  Designation: CP2102
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U2
+  Footprint: SOT-223
+  Quantity: '1'
+  Designation: NCP1117ST33T3G
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: G***
+  Footprint: osh-logo-3p4mm
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: P1,P2
+  Footprint: Pin_Header_Straight_1x17_Pitch2.54mm
+  Quantity: '2'
+  Designation: CONN_01X17
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: SW1,SW2
+  Footprint: SKRPACE010
+  Quantity: '2'
+  Designation: SWITCH_SPST
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: D3
+  Footprint: LED_0603
+  Quantity: '1'
+  Designation: D05
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C2,C1\
+  \ | C_0603 | 2 | 1nf |  |  | [''] | \n| 2 | C3,C4 | C_0603 | 2 | 10uf |  |  | ['']\
+  \ | \n| 3 | C5,C6,C7 | C_0603 | 3 | 0.1uf |  |  | [''] | \n| 4 | D1,D2 | D_0805\
+  \ | 2 | D |  |  | [''] | \n| 5 | P3,P3 | USB_MICRO_B-HIROSE-ZX62R-B-5P | 2 | USB_OTG\
+  \ |  |  | [''] | \n| 6 | U1 | ESP32-WROOM | 1 | ESP32-WROOM |  |  | [''] | \n| 7\
+  \ | Q1,Q2 | SOT-23 | 2 | MMBT3904 |  |  | [''] | \n| 8 | R4,R1,R3,R2 | R_0603 |\
+  \ 4 | 10K |  |  | [''] | \n| 9 | R5,R6 | R_0603 | 2 | 100 |  |  | [''] | \n| 10\
+  \ | C8 | C_1206 | 1 | 100uf |  |  | [''] | \n| 11 | U3 | QFN-28-1EP_5x5mm_Pitch0.5mm\
+  \ | 1 | CP2102 |  |  | [''] | \n| 12 | U2 | SOT-223 | 1 | NCP1117ST33T3G |  |  |\
+  \ [''] | \n| 13 | G*** | osh-logo-3p4mm | 1 | LOGO |  |  | [''] | \n| 14 | P1,P2\
+  \ | Pin_Header_Straight_1x17_Pitch2.54mm | 2 | CONN_01X17 |  |  | [''] | \n| 15\
+  \ | SW1,SW2 | SKRPACE010 | 2 | SWITCH_SPST |  |  | [''] | \n| 16 | D3 | LED_0603\
+  \ | 1 | D05 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C-esp32bb-rescue
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_SMD:C_0603
+  Qnty: '2'
+  Ref: C1, C2
+  Value: 1nf
+  Vendor: ''
+- Cmp name: C-esp32bb-rescue
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_SMD:C_0603
+  Qnty: '2'
+  Ref: C3, C4
+  Value: 10uf
+  Vendor: ''
+- Cmp name: C-esp32bb-rescue
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_SMD:C_0603
+  Qnty: '3'
+  Ref: C5, C6, C7
+  Value: 0.1uf
+  Vendor: ''
+- Cmp name: C-esp32bb-rescue
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_SMD:C_1206
+  Qnty: '1'
+  Ref: C8
+  Value: 100uf
+  Vendor: ''
+- Cmp name: D-esp32bb-rescue
+  DNP: ''
+  Description: ''
+  Footprint: common:D_0805
+  Qnty: '2'
+  Ref: D1, D2
+  Value: D
+  Vendor: ''
+- Cmp name: LED-esp32bb-rescue
+  DNP: ''
+  Description: ''
+  Footprint: LEDs:LED_0603
+  Qnty: '1'
+  Ref: D3
+  Value: D05
+  Vendor: ''
+- Cmp name: CONN_01X17-esp32bb-rescue
+  DNP: ''
+  Description: ''
+  Footprint: common:Pin_Header_Straight_1x17_Pitch2.54mm
+  Qnty: '2'
+  Ref: P1, P2
+  Value: CONN_01X17
+  Vendor: ''
+- Cmp name: USB_OTG-RESCUE-esp32bb-esp32bb-rescue
+  DNP: ''
+  Description: ''
+  Footprint: usb_micro_b:USB_MICRO_B-HIROSE-ZX62R-B-5P
+  Qnty: '1'
+  Ref: P3
+  Value: USB_OTG
+  Vendor: ''
+- Cmp name: MMBT3904-esp32bb-rescue
+  DNP: ''
+  Description: ''
+  Footprint: TO_SOT_Packages_SMD:SOT-23
+  Qnty: '2'
+  Ref: Q1, Q2
+  Value: MMBT3904
+  Vendor: ''
+- Cmp name: Q_NMOS_DGS
+  DNP: ''
+  Description: N-MOSFET transistor, drain/gate/source
+  Footprint: ''
+  Qnty: '1'
+  Ref: Q3
+  Value: Q_NMOS_DGS
+  Vendor: ''
+- Cmp name: R-esp32bb-rescue
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0603
+  Qnty: '4'
+  Ref: R1, R2, R3, R4
+  Value: 10K
+  Vendor: ''
+- Cmp name: R-esp32bb-rescue
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0603
+  Qnty: '2'
+  Ref: R5, R6
+  Value: '100'
+  Vendor: ''
+- Cmp name: SWITCH_SPST-esp32bb-rescue
+  DNP: ''
+  Description: ''
+  Footprint: switch:SKRPACE010
+  Qnty: '2'
+  Ref: SW1, SW2
+  Value: SWITCH_SPST
+  Vendor: ''
+- Cmp name: ESP32-WROOM-esp32bb-rescue
+  DNP: ''
+  Description: ''
+  Footprint: ESP32-footprints-Lib:ESP32-WROOM
+  Qnty: '1'
+  Ref: U1
+  Value: ESP32-WROOM
+  Vendor: ''
+- Cmp name: NCP1117ST33T3G-esp32bb-rescue
+  DNP: ''
+  Description: ''
+  Footprint: TO_SOT_Packages_SMD:SOT-223
+  Qnty: '1'
+  Ref: U2
+  Value: NCP1117ST33T3G
+  Vendor: ''
+- Cmp name: CP2102-esp32bb-rescue
+  DNP: ''
+  Description: ''
+  Footprint: Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm
+  Qnty: '1'
+  Ref: U3
+  Value: CP2102
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2\
+  \ | 2 | 1nf | C-esp32bb-rescue | Capacitors_SMD:C_0603 |  |  |  | \n| C3, C4 | 2\
+  \ | 10uf | C-esp32bb-rescue | Capacitors_SMD:C_0603 |  |  |  | \n| C5, C6, C7 |\
+  \ 3 | 0.1uf | C-esp32bb-rescue | Capacitors_SMD:C_0603 |  |  |  | \n| C8 | 1 | 100uf\
+  \ | C-esp32bb-rescue | Capacitors_SMD:C_1206 |  |  |  | \n| D1, D2 | 2 | D | D-esp32bb-rescue\
+  \ | common:D_0805 |  |  |  | \n| D3 | 1 | D05 | LED-esp32bb-rescue | LEDs:LED_0603\
+  \ |  |  |  | \n| P1, P2 | 2 | CONN_01X17 | CONN_01X17-esp32bb-rescue | common:Pin_Header_Straight_1x17_Pitch2.54mm\
+  \ |  |  |  | \n| P3 | 1 | USB_OTG | USB_OTG-RESCUE-esp32bb-esp32bb-rescue | usb_micro_b:USB_MICRO_B-HIROSE-ZX62R-B-5P\
+  \ |  |  |  | \n| Q1, Q2 | 2 | MMBT3904 | MMBT3904-esp32bb-rescue | TO_SOT_Packages_SMD:SOT-23\
+  \ |  |  |  | \n| Q3 | 1 | Q_NMOS_DGS | Q_NMOS_DGS |  | N-MOSFET transistor, drain/gate/source\
+  \ |  |  | \n| R1, R2, R3, R4 | 4 | 10K | R-esp32bb-rescue | Resistors_SMD:R_0603\
+  \ |  |  |  | \n| R5, R6 | 2 | 100 | R-esp32bb-rescue | Resistors_SMD:R_0603 |  |\
+  \  |  | \n| SW1, SW2 | 2 | SWITCH_SPST | SWITCH_SPST-esp32bb-rescue | switch:SKRPACE010\
+  \ |  |  |  | \n| U1 | 1 | ESP32-WROOM | ESP32-WROOM-esp32bb-rescue | ESP32-footprints-Lib:ESP32-WROOM\
+  \ |  |  |  | \n| U2 | 1 | NCP1117ST33T3G | NCP1117ST33T3G-esp32bb-rescue | TO_SOT_Packages_SMD:SOT-223\
+  \ |  |  |  | \n| U3 | 1 | CP2102 | CP2102-esp32bb-rescue | Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/asukiaaa_esp32bb_esp32bb/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asukiaaa_esp32bb_esp32bb/current_version/working/working.kicad_pcb
@@ -6,6 +328,239 @@ file_repo_bom_csv_flat: projects/asukiaaa_esp32bb_esp32bb/current_version/workin
 file_sch_flat: projects/asukiaaa_esp32bb_esp32bb/current_version/working/working.sch
 id: asukiaaa_esp32bb_esp32bb
 name: esp32bb
+position_bottom:
+- '# Ref': D3
+  Package: LED_0603
+  PosX: 165.6588
+  PosY: -118.745
+  Rot: 0.0
+  Side: bottom
+  Val: D05
+- '# Ref': G***
+  Package: osh-logo-3p4mm
+  PosX: 171.6278
+  PosY: -65.8876
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+- '# Ref': P1
+  Package: Pin_Header_Straight_1x17_Pitch2.54mm
+  PosX: 152.4
+  PosY: -71.12
+  Rot: 180.0
+  Side: bottom
+  Val: CONN_01X17
+- '# Ref': P2
+  Package: Pin_Header_Straight_1x17_Pitch2.54mm
+  PosX: 190.4746
+  PosY: -71.12
+  Rot: 180.0
+  Side: bottom
+  Val: CONN_01X17
+- '# Ref': SW1
+  Package: SKRPACE010
+  PosX: 184.1246
+  PosY: -118.8212
+  Rot: 90.0
+  Side: bottom
+  Val: SWITCH_SPST
+- '# Ref': SW2
+  Package: SKRPACE010
+  PosX: 159.2326
+  PosY: -118.8212
+  Rot: 90.0
+  Side: bottom
+  Val: SWITCH_SPST
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| D3 | D05 | LED_0603 | 165.6588 |\
+  \ -118.745 | 0.0 | bottom | \n| G*** | LOGO | osh-logo-3p4mm | 171.6278 | -65.8876\
+  \ | 180.0 | bottom | \n| P1 | CONN_01X17 | Pin_Header_Straight_1x17_Pitch2.54mm\
+  \ | 152.4 | -71.12 | 180.0 | bottom | \n| P2 | CONN_01X17 | Pin_Header_Straight_1x17_Pitch2.54mm\
+  \ | 190.4746 | -71.12 | 180.0 | bottom | \n| SW1 | SWITCH_SPST | SKRPACE010 | 184.1246\
+  \ | -118.8212 | 90.0 | bottom | \n| SW2 | SWITCH_SPST | SKRPACE010 | 159.2326 |\
+  \ -118.8212 | 90.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: C_0603
+  PosX: 171.7802
+  PosY: -101.8032
+  Rot: 90.0
+  Side: top
+  Val: 1nf
+- '# Ref': C2
+  Package: C_0603
+  PosX: 171.7802
+  PosY: -94.7928
+  Rot: -90.0
+  Side: top
+  Val: 1nf
+- '# Ref': C3
+  Package: C_0603
+  PosX: 165.4302
+  PosY: -103.7336
+  Rot: 180.0
+  Side: top
+  Val: 10uf
+- '# Ref': C4
+  Package: C_0603
+  PosX: 162.0012
+  PosY: -106.2736
+  Rot: 180.0
+  Side: top
+  Val: 10uf
+- '# Ref': C5
+  Package: C_0603
+  PosX: 162.0012
+  PosY: -103.7336
+  Rot: 180.0
+  Side: top
+  Val: 0.1uf
+- '# Ref': C6
+  Package: C_0603
+  PosX: 179.451
+  PosY: -106.2228
+  Rot: 0.0
+  Side: top
+  Val: 0.1uf
+- '# Ref': C7
+  Package: C_0603
+  PosX: 165.2778
+  PosY: -106.2736
+  Rot: 180.0
+  Side: top
+  Val: 0.1uf
+- '# Ref': C8
+  Package: C_1206
+  PosX: 169.799
+  PosY: -106.2736
+  Rot: 0.0
+  Side: top
+  Val: 100uf
+- '# Ref': D1
+  Package: D_0805
+  PosX: 168.021
+  PosY: -101.3968
+  Rot: 0.0
+  Side: top
+  Val: D
+- '# Ref': D2
+  Package: D_0805
+  PosX: 168.021
+  PosY: -94.996
+  Rot: 180.0
+  Side: top
+  Val: D
+- '# Ref': P3
+  Package: USB_MICRO_B-HIROSE-ZX62R-B-5P
+  PosX: 177.3682
+  PosY: -120.65
+  Rot: 0.0
+  Side: top
+  Val: USB_OTG
+- '# Ref': P3
+  Package: USB_MICRO_B-HIROSE-ZX62R-B-5P
+  PosX: 167.5638
+  PosY: -115.2652
+  Rot: 0.0
+  Side: top
+  Val: USB_OTG
+- '# Ref': Q1
+  Package: SOT-23
+  PosX: 174.4726
+  PosY: -101.7524
+  Rot: 180.0
+  Side: top
+  Val: MMBT3904
+- '# Ref': Q2
+  Package: SOT-23
+  PosX: 174.4726
+  PosY: -94.5388
+  Rot: 180.0
+  Side: top
+  Val: MMBT3904
+- '# Ref': R1
+  Package: R_0603
+  PosX: 175.4886
+  PosY: -98.0948
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: R_0603
+  PosX: 182.499
+  PosY: -106.172
+  Rot: 180.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: R_0603
+  PosX: 171.831
+  PosY: -98.0948
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R4
+  Package: R_0603
+  PosX: 173.6598
+  PosY: -98.044
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R5
+  Package: R_0603
+  PosX: 180.7718
+  PosY: -95.3516
+  Rot: -90.0
+  Side: top
+  Val: '100'
+- '# Ref': R6
+  Package: R_0603
+  PosX: 178.943
+  PosY: -95.3008
+  Rot: -90.0
+  Side: top
+  Val: '100'
+- '# Ref': U1
+  Package: ESP32-WROOM
+  PosX: 171.6278
+  PosY: -76.454
+  Rot: 180.0
+  Side: top
+  Val: ESP32-WROOM
+- '# Ref': U2
+  Package: SOT-223
+  PosX: 164.1094
+  PosY: -98.1964
+  Rot: 0.0
+  Side: top
+  Val: NCP1117ST33T3G
+- '# Ref': U3
+  Package: QFN-28-1EP_5x5mm_Pitch0.5mm
+  PosX: 180.721
+  PosY: -100.4316
+  Rot: 0.0
+  Side: top
+  Val: CP2102
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 1nf | C_0603 | 171.7802 | -101.8032\
+  \ | 90.0 | top | \n| C2 | 1nf | C_0603 | 171.7802 | -94.7928 | -90.0 | top | \n\
+  | C3 | 10uf | C_0603 | 165.4302 | -103.7336 | 180.0 | top | \n| C4 | 10uf | C_0603\
+  \ | 162.0012 | -106.2736 | 180.0 | top | \n| C5 | 0.1uf | C_0603 | 162.0012 | -103.7336\
+  \ | 180.0 | top | \n| C6 | 0.1uf | C_0603 | 179.451 | -106.2228 | 0.0 | top | \n\
+  | C7 | 0.1uf | C_0603 | 165.2778 | -106.2736 | 180.0 | top | \n| C8 | 100uf | C_1206\
+  \ | 169.799 | -106.2736 | 0.0 | top | \n| D1 | D | D_0805 | 168.021 | -101.3968\
+  \ | 0.0 | top | \n| D2 | D | D_0805 | 168.021 | -94.996 | 180.0 | top | \n| P3 |\
+  \ USB_OTG | USB_MICRO_B-HIROSE-ZX62R-B-5P | 177.3682 | -120.65 | 0.0 | top | \n\
+  | P3 | USB_OTG | USB_MICRO_B-HIROSE-ZX62R-B-5P | 167.5638 | -115.2652 | 0.0 | top\
+  \ | \n| Q1 | MMBT3904 | SOT-23 | 174.4726 | -101.7524 | 180.0 | top | \n| Q2 | MMBT3904\
+  \ | SOT-23 | 174.4726 | -94.5388 | 180.0 | top | \n| R1 | 10K | R_0603 | 175.4886\
+  \ | -98.0948 | -90.0 | top | \n| R2 | 10K | R_0603 | 182.499 | -106.172 | 180.0\
+  \ | top | \n| R3 | 10K | R_0603 | 171.831 | -98.0948 | 90.0 | top | \n| R4 | 10K\
+  \ | R_0603 | 173.6598 | -98.044 | 90.0 | top | \n| R5 | 100 | R_0603 | 180.7718\
+  \ | -95.3516 | -90.0 | top | \n| R6 | 100 | R_0603 | 178.943 | -95.3008 | -90.0\
+  \ | top | \n| U1 | ESP32-WROOM | ESP32-WROOM | 171.6278 | -76.454 | 180.0 | top\
+  \ | \n| U2 | NCP1117ST33T3G | SOT-223 | 164.1094 | -98.1964 | 0.0 | top | \n| U3\
+  \ | CP2102 | QFN-28-1EP_5x5mm_Pitch0.5mm | 180.721 | -100.4316 | 0.0 | top | \n"
 projects_flat: projects/asukiaaa_esp32bb_esp32bb/current_version/working
 repo:
   allow_forking: true

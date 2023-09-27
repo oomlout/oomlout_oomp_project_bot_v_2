@@ -1,10 +1,135 @@
 board: ilx544a_v1_b1
+bom:
+- Id: '1'
+  Designator: U$1
+  Footprint: ILX544A
+  Quantity: '1'
+  Designation: CCD1
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C1,C2
+  Footprint: C0402
+  Quantity: '2'
+  Designation: 0.01uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: X1
+  Footprint: SSW-107-02-S-S
+  Quantity: '1'
+  Designation: SSW-107-02-S-S
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: X2
+  Footprint: SSW-103-02-S-S
+  Quantity: '1'
+  Designation: SSW-103-02-S-S
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: '@HOLE1,@HOLE0,@HOLE2'
+  Footprint: ''
+  Quantity: '3'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | U$1\
+  \ | ILX544A | 1 | CCD1 |  |  | [''] | \n| 2 | C1,C2 | C0402 | 2 | 0.01uF |  |  |\
+  \ [''] | \n| 3 | X1 | SSW-107-02-S-S | 1 | SSW-107-02-S-S |  |  | [''] | \n| 4 |\
+  \ X2 | SSW-103-02-S-S | 1 | SSW-103-02-S-S |  |  | [''] | \n| 5 | @HOLE1,@HOLE0,@HOLE2\
+  \ |  | 3 |  |  |  | [''] | \n"
 counter: 1
 file_brd_flat: projects/altlab_altoespectro_ilx544a_v2_b1/current_version/working/working.brd
 file_kicad_pcb_flat: projects/altlab_altoespectro_ilx544a_v1_b1/current_version/working/working.kicad_pcb
 file_sch_flat: projects/altlab_altoespectro_ilx544a_v2_b1/current_version/working/working.sch
 id: altlab_altoespectro_ilx544a_v1_b1
 name: altoespectro
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': '@HOLE0'
+  Package: .nan
+  PosX: 158.1761
+  PosY: -125.7961
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE1'
+  Package: .nan
+  PosX: 138.9111
+  PosY: -105.4961
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': '@HOLE2'
+  Package: .nan
+  PosX: 158.0111
+  PosY: -85.1711
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: C0402
+  PosX: 139.7711
+  PosY: -111.6311
+  Rot: 90.0
+  Side: top
+  Val: 0.01uF
+- '# Ref': C2
+  Package: C0402
+  PosX: 141.6761
+  PosY: -111.6311
+  Rot: 90.0
+  Side: top
+  Val: 0.01uF
+- '# Ref': U$1
+  Package: ILX544A
+  PosX: 141.0411
+  PosY: -110.3611
+  Rot: 180.0
+  Side: top
+  Val: CCD1
+- '# Ref': X1
+  Package: SSW-107-02-S-S
+  PosX: 157.9761
+  PosY: -105.3611
+  Rot: 90.0
+  Side: top
+  Val: SSW-107-02-S-S
+- '# Ref': X2
+  Package: SSW-103-02-S-S
+  PosX: 140.2161
+  PosY: -121.0261
+  Rot: 90.0
+  Side: top
+  Val: SSW-103-02-S-S
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| @HOLE0 | nan | nan | 158.1761 | -125.7961\
+  \ | 0.0 | top | \n| @HOLE1 | nan | nan | 138.9111 | -105.4961 | 0.0 | top | \n|\
+  \ @HOLE2 | nan | nan | 158.0111 | -85.1711 | 0.0 | top | \n| C1 | 0.01uF | C0402\
+  \ | 139.7711 | -111.6311 | 90.0 | top | \n| C2 | 0.01uF | C0402 | 141.6761 | -111.6311\
+  \ | 90.0 | top | \n| U$1 | CCD1 | ILX544A | 141.0411 | -110.3611 | 180.0 | top |\
+  \ \n| X1 | SSW-107-02-S-S | SSW-107-02-S-S | 157.9761 | -105.3611 | 90.0 | top |\
+  \ \n| X2 | SSW-103-02-S-S | SSW-103-02-S-S | 140.2161 | -121.0261 | 90.0 | top |\
+  \ \n"
 projects_flat: projects/altlab_altoespectro_ilx544a_v1_b1/current_version/working
 repo:
   allow_forking: true

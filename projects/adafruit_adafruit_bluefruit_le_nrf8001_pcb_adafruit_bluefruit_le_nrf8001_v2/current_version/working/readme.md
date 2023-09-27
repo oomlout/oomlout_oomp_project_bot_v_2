@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -29,19 +50,19 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | U$28 | ANT_PCB_2.4GHZ_NRF8001_1.6MM_1OZ | 1 |  |  |  | [''] | 
 | 2 | U3 | TSSOP16 | 1 | 74HC4050D |  |  | [''] | 
-| 3 | C4,C12 | 0805-NO | 2 | 0.1µF |  |  | [''] | 
+| 3 | C4,C12 | 0805-NO | 2 | 0.1ÂµF |  |  | [''] | 
 | 4 | L3 | _0402 | 1 | 3.9nH |  |  | [''] | 
-| 5 | C9,C16,C17 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 5 | C9,C16,C17 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 6 | FID1,FID3,FID2 | FIDUCIAL_1MM | 3 | FIDUCIAL" |  |  | [''] | 
 | 7 | C11 | 0805-NO | 1 | 33nF |  |  | [''] | 
 | 8 | L1 | _0402 | 1 | 8.2nH |  |  | [''] | 
 | 9 | C6 | _0402MP | 1 | 1.2pF |  |  | [''] | 
-| 10 | C7 | 0805-NO | 1 | 1µF |  |  | [''] | 
+| 10 | C7 | 0805-NO | 1 | 1ÂµF |  |  | [''] | 
 | 11 | C10 | 0805-NO | 1 | 0.1uF |  |  | [''] | 
 | 12 | C3 | _0402 | 1 | 2.2nF |  |  | [''] | 
 | 13 | R2 | 0805-NO | 1 | 10K |  |  | [''] | 
 | 14 | C1,C14,C2,C13 | 0805-NO | 4 | 15pF |  |  | [''] | 
-| 15 | L4 | _0603 | 1 | 10µH |  |  | [''] | 
+| 15 | L4 | _0603 | 1 | 10ÂµH |  |  | [''] | 
 | 16 | JP1 | 1X10_ROUND70 | 1 |  |  |  | [''] | 
 | 17 | R1 | _0805MP | 1 | 22K |  |  | [''] | 
 | 18 | FB1 | 0805 | 1 | MMZ1608B121C |  |  | [''] | 
@@ -63,12 +84,12 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C2, C13, C14 | 4 | 15pF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C3 | 1 | 2.2nF | CAP_CERAMIC_0402 | working:_0402 |  |  |  | 
-| C4, C12 | 2 | 0.1µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C4, C12 | 2 | 0.1ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C5 | 1 | 1.8pF | CAP_CERAMIC_0402MP | working:_0402MP |  |  |  | 
 | C6 | 1 | 1.2pF | CAP_CERAMIC_0402MP | working:_0402MP |  |  |  | 
-| C7 | 1 | 1µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C7 | 1 | 1ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C8 | 1 | 1nF | CAP_CERAMIC_0603 | working:_0603 |  |  |  | 
-| C9, C16, C17 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C9, C16, C17 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C10 | 1 | 0.1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C11 | 1 | 33nF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C15 | 1 | 1.5pF | CAP_CERAMIC_0402MP | working:_0402MP |  |  |  | 
@@ -78,7 +99,7 @@
 | L1 | 1 | 8.2nH | INDUCTOR_0402 | working:_0402 |  |  |  | 
 | L2 | 1 | 5.6nH | INDUCTOR_0402 | working:_0402 |  |  |  | 
 | L3 | 1 | 3.9nH | INDUCTOR_0402 | working:_0402 |  |  |  | 
-| L4 | 1 | 10µH | INDUCTOR_0603 | working:_0603 |  |  |  | 
+| L4 | 1 | 10ÂµH | INDUCTOR_0603 | working:_0603 |  |  |  | 
 | L5 | 1 | 15nH | INDUCTOR_0603 | working:_0603 |  |  |  | 
 | R1 | 1 | 22K | RESISTOR_0805MP | working:_0805MP |  |  |  | 
 | R2 | 1 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 

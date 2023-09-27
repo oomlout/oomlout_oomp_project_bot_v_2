@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -35,7 +56,7 @@
 | 6 | U$35,U$34 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | [''] | 
 | 7 | U3 | SOT23-5 | 1 | MCP73831T-2ACI/OT |  |  | [''] | 
 | 8 | R9 | RESPACK_4X0603_NO | 1 | 100K |  |  | [''] | 
-| 9 | C6,C8,C3 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 9 | C6,C8,C3 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 10 | R2,R7,R5,R4,R6,R3 | 0603-NO | 6 | 10K |  |  | [''] | 
 | 11 | X2 | XTAL3215 | 1 | 32.768 |  |  | [''] | 
 | 12 | U$32,U$31 | MOUNTINGHOLE_2.5_PLATED | 2 | MOUNTINGHOLE2.5 |  |  | [''] | 
@@ -72,7 +93,7 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C2, C4 | 2 | 22pF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C3, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C5, C13, C17 | 3 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7, C10, C11, C12, C14, C15 | 6 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C16 | 1 | 10uF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 

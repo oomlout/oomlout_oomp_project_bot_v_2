@@ -1,10 +1,157 @@
 board: raspicherrymxkeyshat
+bom:
+- Id: '1'
+  Designator: R1,R2,R3,R4,R5,R6
+  Footprint: R_0603_1608Metric_Pad0.99x1.00mm_HandSolder
+  Quantity: '6'
+  Designation: R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: SW1,SW2,SW3,SW4,SW5,SW6
+  Footprint: SW_Cherry_MX1A_1.00u_PCB
+  Quantity: '6'
+  Designation: SW_Push
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J1
+  Footprint: PinHeader_2x20_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Raspberry_Pi_2_3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | R1,R2,R3,R4,R5,R6\
+  \ | R_0603_1608Metric_Pad0.99x1.00mm_HandSolder | 6 | R |  |  | [''] | \n| 2 | SW1,SW2,SW3,SW4,SW5,SW6\
+  \ | SW_Cherry_MX1A_1.00u_PCB | 6 | SW_Push |  |  | [''] | \n| 3 | J1 | PinHeader_2x20_P2.54mm_Vertical\
+  \ | 1 | Raspberry_Pi_2_3 |  |  | [''] | \n"
+bom_schematic: []
+bom_schematic_markdown: no data
 counter: 1
 file_kicad_pcb_flat: projects/asukiaaa_raspicherrymxkeyshat_raspicherrymxkeyshat/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asukiaaa_raspicherrymxkeyshat_raspicherrymxkeyshat/current_version/working/working.kicad_pcb
 file_sch_flat: projects/asukiaaa_raspicherrymxkeyshat_raspicherrymxkeyshat/current_version/working/working.sch
 id: asukiaaa_raspicherrymxkeyshat_raspicherrymxkeyshat
 name: raspicherrymxkeyshat
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': J1
+  Package: PinHeader_2x20_P2.54mm_Vertical
+  PosX: 123.952
+  PosY: -76.2
+  Rot: 0.0
+  Side: top
+  Val: Raspberry_Pi_2_3
+- '# Ref': R1
+  Package: R_0603_1608Metric_Pad0.99x1.00mm_HandSolder
+  PosX: 120.04
+  PosY: -85.09
+  Rot: -90.0
+  Side: top
+  Val: R
+- '# Ref': R2
+  Package: R_0603_1608Metric_Pad0.99x1.00mm_HandSolder
+  PosX: 120.04
+  PosY: -89.3841
+  Rot: -90.0
+  Side: top
+  Val: R
+- '# Ref': R3
+  Package: R_0603_1608Metric_Pad0.99x1.00mm_HandSolder
+  PosX: 120.04
+  PosY: -93.5736
+  Rot: -90.0
+  Side: top
+  Val: R
+- '# Ref': R4
+  Package: R_0603_1608Metric_Pad0.99x1.00mm_HandSolder
+  PosX: 120.04
+  PosY: -97.7392
+  Rot: -90.0
+  Side: top
+  Val: R
+- '# Ref': R5
+  Package: R_0603_1608Metric_Pad0.99x1.00mm_HandSolder
+  PosX: 120.04
+  PosY: -102.033
+  Rot: -90.0
+  Side: top
+  Val: R
+- '# Ref': R6
+  Package: R_0603_1608Metric_Pad0.99x1.00mm_HandSolder
+  PosX: 120.091
+  PosY: -106.223
+  Rot: -90.0
+  Side: top
+  Val: R
+- '# Ref': SW1
+  Package: SW_Cherry_MX1A_1.00u_PCB
+  PosX: 114.457
+  PosY: -83.714
+  Rot: -90.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW2
+  Package: SW_Cherry_MX1A_1.00u_PCB
+  PosX: 94.8568
+  PosY: -83.714
+  Rot: -90.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW3
+  Package: SW_Cherry_MX1A_1.00u_PCB
+  PosX: 114.457
+  PosY: -103.314
+  Rot: -90.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW4
+  Package: SW_Cherry_MX1A_1.00u_PCB
+  PosX: 94.8568
+  PosY: -103.314
+  Rot: -90.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW5
+  Package: SW_Cherry_MX1A_1.00u_PCB
+  PosX: 114.457
+  PosY: -122.914
+  Rot: -90.0
+  Side: top
+  Val: SW_Push
+- '# Ref': SW6
+  Package: SW_Cherry_MX1A_1.00u_PCB
+  PosX: 94.8568
+  PosY: -122.914
+  Rot: -90.0
+  Side: top
+  Val: SW_Push
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J1 | Raspberry_Pi_2_3 | PinHeader_2x20_P2.54mm_Vertical\
+  \ | 123.952 | -76.2 | 0.0 | top | \n| R1 | R | R_0603_1608Metric_Pad0.99x1.00mm_HandSolder\
+  \ | 120.04 | -85.09 | -90.0 | top | \n| R2 | R | R_0603_1608Metric_Pad0.99x1.00mm_HandSolder\
+  \ | 120.04 | -89.3841 | -90.0 | top | \n| R3 | R | R_0603_1608Metric_Pad0.99x1.00mm_HandSolder\
+  \ | 120.04 | -93.5736 | -90.0 | top | \n| R4 | R | R_0603_1608Metric_Pad0.99x1.00mm_HandSolder\
+  \ | 120.04 | -97.7392 | -90.0 | top | \n| R5 | R | R_0603_1608Metric_Pad0.99x1.00mm_HandSolder\
+  \ | 120.04 | -102.033 | -90.0 | top | \n| R6 | R | R_0603_1608Metric_Pad0.99x1.00mm_HandSolder\
+  \ | 120.091 | -106.223 | -90.0 | top | \n| SW1 | SW_Push | SW_Cherry_MX1A_1.00u_PCB\
+  \ | 114.457 | -83.714 | -90.0 | top | \n| SW2 | SW_Push | SW_Cherry_MX1A_1.00u_PCB\
+  \ | 94.8568 | -83.714 | -90.0 | top | \n| SW3 | SW_Push | SW_Cherry_MX1A_1.00u_PCB\
+  \ | 114.457 | -103.314 | -90.0 | top | \n| SW4 | SW_Push | SW_Cherry_MX1A_1.00u_PCB\
+  \ | 94.8568 | -103.314 | -90.0 | top | \n| SW5 | SW_Push | SW_Cherry_MX1A_1.00u_PCB\
+  \ | 114.457 | -122.914 | -90.0 | top | \n| SW6 | SW_Push | SW_Cherry_MX1A_1.00u_PCB\
+  \ | 94.8568 | -122.914 | -90.0 | top | \n"
 projects_flat: projects/asukiaaa_raspicherrymxkeyshat_raspicherrymxkeyshat/current_version/working
 repo:
   allow_forking: true

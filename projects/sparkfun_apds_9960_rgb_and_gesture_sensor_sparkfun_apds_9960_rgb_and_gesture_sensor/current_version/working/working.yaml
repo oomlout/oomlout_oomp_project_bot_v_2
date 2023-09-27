@@ -1,4 +1,288 @@
 board: sparkfun_apds_9960_rgb_and_gesture_sensor
+bom:
+- Id: '1'
+  Designator: C1
+  Footprint: c_2917
+  Quantity: '1'
+  Designation: 100uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C3,C2
+  Footprint: 0603-CAP
+  Quantity: '2'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: FID1,FID2
+  Footprint: FIDUCIAL-1X2
+  Quantity: '2'
+  Designation: FIDUCIAL1X2
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: JP1
+  Footprint: 1X06
+  Quantity: '1'
+  Designation: M06SIP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R1
+  Footprint: 0603-RES
+  Quantity: '1'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R4
+  Footprint: 0603-RES
+  Quantity: '1'
+  Designation: DNP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: STANDOFF1,STANDOFF2
+  Footprint: STAND-OFF
+  Quantity: '2'
+  Designation: STAND-OFF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U1
+  Footprint: APDS-9960
+  Quantity: '1'
+  Designation: APDS-9960
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: U$1
+  Footprint: SFE_LOGO_FLAME_.1
+  Quantity: '1'
+  Designation: SFE_LOGO_NAME_FLAME.1_INCH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: R2,R3
+  Footprint: '0603'
+  Quantity: '2'
+  Designation: 4.7k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: SJ2
+  Footprint: SJ_2S
+  Quantity: '1'
+  Designation: SOLDERJUMPERNC
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: SJ1
+  Footprint: SJ_3_PASTE1&2&3
+  Quantity: '1'
+  Designation: SOLDERJUMPER_2WAYPASTE1&2&3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: LOGO1
+  Footprint: SFE_LOGO_NAME_FLAME_.1
+  Quantity: '1'
+  Designation: SFE_LOGO_FLAME.1_INCH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: LOGO2
+  Footprint: OSHW-LOGO-S
+  Quantity: '1'
+  Designation: OSHW-LOGOS
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1\
+  \ | c_2917 | 1 | 100uF |  |  | [''] | \n| 2 | C3,C2 | 0603-CAP | 2 | 1uF |  |  |\
+  \ [''] | \n| 3 | FID1,FID2 | FIDUCIAL-1X2 | 2 | FIDUCIAL1X2 |  |  | [''] | \n| 4\
+  \ | JP1 | 1X06 | 1 | M06SIP |  |  | [''] | \n| 5 | R1 | 0603-RES | 1 | 10k |  |\
+  \  | [''] | \n| 6 | R4 | 0603-RES | 1 | DNP |  |  | [''] | \n| 7 | STANDOFF1,STANDOFF2\
+  \ | STAND-OFF | 2 | STAND-OFF |  |  | [''] | \n| 8 | U1 | APDS-9960 | 1 | APDS-9960\
+  \ |  |  | [''] | \n| 9 | U$1 | SFE_LOGO_FLAME_.1 | 1 | SFE_LOGO_NAME_FLAME.1_INCH\
+  \ |  |  | [''] | \n| 10 | R2,R3 | 0603 | 2 | 4.7k |  |  | [''] | \n| 11 | SJ2 |\
+  \ SJ_2S | 1 | SOLDERJUMPERNC |  |  | [''] | \n| 12 | SJ1 | SJ_3_PASTE1&2&3 | 1 |\
+  \ SOLDERJUMPER_2WAYPASTE1&2&3 |  |  | [''] | \n| 13 | LOGO1 | SFE_LOGO_NAME_FLAME_.1\
+  \ | 1 | SFE_LOGO_FLAME.1_INCH |  |  | [''] | \n| 14 | LOGO2 | OSHW-LOGO-S | 1 |\
+  \ OSHW-LOGOS |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Cap_Pol
+  DNP: ''
+  Description: Polarized capacitor
+  Footprint: APDS_9960:c_2917
+  Qnty: '1'
+  Ref: C1
+  Value: 100uF
+  Vendor: ''
+- Cmp name: Cap_NonPol
+  DNP: ''
+  Description: Polarized capacitor
+  Footprint: APDS_9960:0603-CAP
+  Qnty: '2'
+  Ref: C2, C3
+  Value: 1uF
+  Vendor: ''
+- Cmp name: FIDUCIAL1X2
+  DNP: ''
+  Description: ''
+  Footprint: APDS_9960:FIDUCIAL-1X2
+  Qnty: '2'
+  Ref: FID1, FID2
+  Value: FIDUCIAL1X2
+  Vendor: ''
+- Cmp name: Conn_01x06
+  DNP: ''
+  Description: Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: APDS_9960:1X06
+  Qnty: '1'
+  Ref: JP1
+  Value: M06SIP
+  Vendor: ''
+- Cmp name: SFE_LOGO_FLAME.1COP
+  DNP: ''
+  Description: ''
+  Footprint: APDS_9960:SFE_LOGO_NAME_FLAME_.1
+  Qnty: '1'
+  Ref: LOGO1
+  Value: SFE_LOGO_FLAME.1_INCH
+  Vendor: ''
+- Cmp name: OSHW
+  DNP: ''
+  Description: ''
+  Footprint: APDS_9960:OSHW-LOGO-S
+  Qnty: '1'
+  Ref: LOGO2
+  Value: OSHW-LOGOS
+  Vendor: ''
+- Cmp name: Resistor
+  DNP: ''
+  Description: Resistor
+  Footprint: APDS_9960:0603-RES
+  Qnty: '1'
+  Ref: R1
+  Value: 10k
+  Vendor: ''
+- Cmp name: Resistor
+  DNP: ''
+  Description: Resistor
+  Footprint: APDS_9960:0603
+  Qnty: '2'
+  Ref: R2, R3
+  Value: 4.7k
+  Vendor: ''
+- Cmp name: Resistor
+  DNP: ''
+  Description: Resistor
+  Footprint: APDS_9960:0603-RES
+  Qnty: '1'
+  Ref: R4
+  Value: DNP
+  Vendor: ''
+- Cmp name: SOLDERJUMPER_2WAYPASTE1&2&3
+  DNP: ''
+  Description: ''
+  Footprint: APDS_9960:SJ_3_PASTE1&2&3
+  Qnty: '1'
+  Ref: SJ1
+  Value: SOLDERJUMPER_2WAYPASTE1&2&3
+  Vendor: ''
+- Cmp name: SOLDERJUMPERNO
+  DNP: ''
+  Description: ''
+  Footprint: APDS_9960:SJ_2S
+  Qnty: '1'
+  Ref: SJ2
+  Value: SOLDERJUMPERNC
+  Vendor: ''
+- Cmp name: STAND-OFF
+  DNP: ''
+  Description: ''
+  Footprint: APDS_9960:STAND-OFF
+  Qnty: '2'
+  Ref: STANDOFF1, STANDOFF2
+  Value: STAND-OFF
+  Vendor: ''
+- Cmp name: APDS-9960
+  DNP: ''
+  Description: ''
+  Footprint: APDS_9960:APDS-9960
+  Qnty: '1'
+  Ref: U1
+  Value: APDS-9960
+  Vendor: ''
+- Cmp name: SFE_LOGO_NAME_FLAME1_INCH
+  DNP: ''
+  Description: ''
+  Footprint: APDS_9960:SFE_LOGO_FLAME_.1
+  Qnty: '1'
+  Ref: U$1
+  Value: SFE_LOGO_NAME_FLAME.1_INCH
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 100uF | Cap_Pol | APDS_9960:c_2917 | Polarized capacitor |  |  | \n| C2, C3\
+  \ | 2 | 1uF | Cap_NonPol | APDS_9960:0603-CAP | Polarized capacitor |  |  | \n|\
+  \ FID1, FID2 | 2 | FIDUCIAL1X2 | FIDUCIAL1X2 | APDS_9960:FIDUCIAL-1X2 |  |  |  |\
+  \ \n| JP1 | 1 | M06SIP | Conn_01x06 | APDS_9960:1X06 | Generic connector, single\
+  \ row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/) |\
+  \  |  | \n| LOGO1 | 1 | SFE_LOGO_FLAME.1_INCH | SFE_LOGO_FLAME.1COP | APDS_9960:SFE_LOGO_NAME_FLAME_.1\
+  \ |  |  |  | \n| LOGO2 | 1 | OSHW-LOGOS | OSHW | APDS_9960:OSHW-LOGO-S |  |  | \
+  \ | \n| R1 | 1 | 10k | Resistor | APDS_9960:0603-RES | Resistor |  |  | \n| R2,\
+  \ R3 | 2 | 4.7k | Resistor | APDS_9960:0603 | Resistor |  |  | \n| R4 | 1 | DNP\
+  \ | Resistor | APDS_9960:0603-RES | Resistor |  |  | \n| SJ1 | 1 | SOLDERJUMPER_2WAYPASTE1&2&3\
+  \ | SOLDERJUMPER_2WAYPASTE1&2&3 | APDS_9960:SJ_3_PASTE1&2&3 |  |  |  | \n| SJ2 |\
+  \ 1 | SOLDERJUMPERNC | SOLDERJUMPERNO | APDS_9960:SJ_2S |  |  |  | \n| STANDOFF1,\
+  \ STANDOFF2 | 2 | STAND-OFF | STAND-OFF | APDS_9960:STAND-OFF |  |  |  | \n| U1\
+  \ | 1 | APDS-9960 | APDS-9960 | APDS_9960:APDS-9960 |  |  |  | \n| U$1 | 1 | SFE_LOGO_NAME_FLAME.1_INCH\
+  \ | SFE_LOGO_NAME_FLAME1_INCH | APDS_9960:SFE_LOGO_FLAME_.1 |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/sparkfun_apds_9960_rgb_and_gesture_sensor_sparkfun_apds_9960_rgb_and_gesture_sensor/current_version/working/working.brd
 file_kicad_pcb_flat: projects/sparkfun_apds_9960_rgb_and_gesture_sensor_sparkfun_apds_9960_rgb_and_gesture_sensor/current_version/working/working.kicad_pcb
@@ -6,6 +290,153 @@ file_kicad_sch_flat: projects/sparkfun_apds_9960_rgb_and_gesture_sensor_sparkfun
 file_sch_flat: projects/sparkfun_apds_9960_rgb_and_gesture_sensor_sparkfun_apds_9960_rgb_and_gesture_sensor/current_version/working/working.sch
 id: sparkfun_apds_9960_rgb_and_gesture_sensor_sparkfun_apds_9960_rgb_and_gesture_sensor
 name: apds_9960_rgb_and_gesture_sensor
+position_bottom:
+- '# Ref': LOGO1
+  Package: SFE_LOGO_NAME_FLAME_.1
+  PosX: 140.716
+  PosY: -91.948
+  Rot: 180.0
+  Side: bottom
+  Val: SFE_LOGO_FLAME.1_INCH
+- '# Ref': LOGO2
+  Package: OSHW-LOGO-S
+  PosX: 134.62
+  PosY: -81.534
+  Rot: 180.0
+  Side: bottom
+  Val: OSHW-LOGOS
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| LOGO1 | SFE_LOGO_FLAME.1_INCH |\
+  \ SFE_LOGO_NAME_FLAME_.1 | 140.716 | -91.948 | 180.0 | bottom | \n| LOGO2 | OSHW-LOGOS\
+  \ | OSHW-LOGO-S | 134.62 | -81.534 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: c_2917
+  PosX: 134.62
+  PosY: -90.932
+  Rot: 180.0
+  Side: top
+  Val: 100uF
+- '# Ref': C2
+  Package: 0603-CAP
+  PosX: 131.064
+  PosY: -87.122
+  Rot: 180.0
+  Side: top
+  Val: 1uF
+- '# Ref': C3
+  Package: 0603-CAP
+  PosX: 131.064
+  PosY: -82.55
+  Rot: 0.0
+  Side: top
+  Val: 1uF
+- '# Ref': FID1
+  Package: FIDUCIAL-1X2
+  PosX: 141.224
+  PosY: -92.202
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL1X2
+- '# Ref': FID2
+  Package: FIDUCIAL-1X2
+  PosX: 132.842
+  PosY: -77.216
+  Rot: 0.0
+  Side: top
+  Val: FIDUCIAL1X2
+- '# Ref': JP1
+  Package: 1X06
+  PosX: 128.27
+  PosY: -95.25
+  Rot: 0.0
+  Side: top
+  Val: M06SIP
+- '# Ref': R1
+  Package: 0603-RES
+  PosX: 138.176
+  PosY: -82.55
+  Rot: 0.0
+  Side: top
+  Val: 10k
+- '# Ref': R2
+  Package: '0603'
+  PosX: 138.176
+  PosY: -84.836
+  Rot: 0.0
+  Side: top
+  Val: 4.7k
+- '# Ref': R3
+  Package: '0603'
+  PosX: 138.176
+  PosY: -87.122
+  Rot: 0.0
+  Side: top
+  Val: 4.7k
+- '# Ref': R4
+  Package: 0603-RES
+  PosX: 131.064
+  PosY: -84.836
+  Rot: 180.0
+  Side: top
+  Val: DNP
+- '# Ref': SJ1
+  Package: SJ_3_PASTE1&2&3
+  PosX: 141.224
+  PosY: -85.979
+  Rot: 90.0
+  Side: top
+  Val: SOLDERJUMPER_2WAYPASTE1&2&3
+- '# Ref': SJ2
+  Package: SJ_2S
+  PosX: 128.016
+  PosY: -85.598
+  Rot: 90.0
+  Side: top
+  Val: SOLDERJUMPERNC
+- '# Ref': STANDOFF1
+  Package: STAND-OFF
+  PosX: 129.54
+  PosY: -78.74
+  Rot: 0.0
+  Side: top
+  Val: STAND-OFF
+- '# Ref': STANDOFF2
+  Package: STAND-OFF
+  PosX: 139.7
+  PosY: -78.74
+  Rot: 0.0
+  Side: top
+  Val: STAND-OFF
+- '# Ref': U$1
+  Package: SFE_LOGO_FLAME_.1
+  PosX: 133.5151
+  PosY: -79.3369
+  Rot: 0.0
+  Side: top
+  Val: SFE_LOGO_NAME_FLAME.1_INCH
+- '# Ref': U1
+  Package: APDS-9960
+  PosX: 134.62
+  PosY: -81.28
+  Rot: 0.0
+  Side: top
+  Val: APDS-9960
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 100uF | c_2917 | 134.62 | -90.932\
+  \ | 180.0 | top | \n| C2 | 1uF | 0603-CAP | 131.064 | -87.122 | 180.0 | top | \n\
+  | C3 | 1uF | 0603-CAP | 131.064 | -82.55 | 0.0 | top | \n| FID1 | FIDUCIAL1X2 |\
+  \ FIDUCIAL-1X2 | 141.224 | -92.202 | 0.0 | top | \n| FID2 | FIDUCIAL1X2 | FIDUCIAL-1X2\
+  \ | 132.842 | -77.216 | 0.0 | top | \n| JP1 | M06SIP | 1X06 | 128.27 | -95.25 |\
+  \ 0.0 | top | \n| R1 | 10k | 0603-RES | 138.176 | -82.55 | 0.0 | top | \n| R2 |\
+  \ 4.7k | 0603 | 138.176 | -84.836 | 0.0 | top | \n| R3 | 4.7k | 0603 | 138.176 |\
+  \ -87.122 | 0.0 | top | \n| R4 | DNP | 0603-RES | 131.064 | -84.836 | 180.0 | top\
+  \ | \n| SJ1 | SOLDERJUMPER_2WAYPASTE1&2&3 | SJ_3_PASTE1&2&3 | 141.224 | -85.979\
+  \ | 90.0 | top | \n| SJ2 | SOLDERJUMPERNC | SJ_2S | 128.016 | -85.598 | 90.0 | top\
+  \ | \n| STANDOFF1 | STAND-OFF | STAND-OFF | 129.54 | -78.74 | 0.0 | top | \n| STANDOFF2\
+  \ | STAND-OFF | STAND-OFF | 139.7 | -78.74 | 0.0 | top | \n| U$1 | SFE_LOGO_NAME_FLAME.1_INCH\
+  \ | SFE_LOGO_FLAME_.1 | 133.5151 | -79.3369 | 0.0 | top | \n| U1 | APDS-9960 | APDS-9960\
+  \ | 134.62 | -81.28 | 0.0 | top | \n"
 projects_flat: projects/sparkfun_apds_9960_rgb_and_gesture_sensor_sparkfun_apds_9960_rgb_and_gesture_sensor/current_version/working
 repo:
   allow_forking: true

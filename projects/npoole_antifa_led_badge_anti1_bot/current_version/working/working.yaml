@@ -1,9 +1,268 @@
 board: anti1_bot
+bom:
+- Id: '1'
+  Designator: D8,D7,D4,D3,D2,D1,D5,D6
+  Footprint: LED-0603
+  Quantity: '8'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: R5,R4,R6,R2,R8,R3,R7,R1
+  Footprint: '0603'
+  Quantity: '8'
+  Designation: '33'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: E$3,E$4
+  Footprint: 1X01_NO_SILK
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: S1
+  Footprint: SWITCH_DPDT_SMD_AYZ0202
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: BT1
+  Footprint: BATTCON_20MM_4LEGS
+  Quantity: '1'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D8,D7,D4,D3,D2,D1,D5,D6\
+  \ | LED-0603 | 8 |  |  |  | [''] | \n| 2 | R5,R4,R6,R2,R8,R3,R7,R1 | 0603 | 8 |\
+  \ 33 |  |  | [''] | \n| 3 | E$3,E$4 | 1X01_NO_SILK | 2 |  |  |  | [''] | \n| 4 |\
+  \ S1 | SWITCH_DPDT_SMD_AYZ0202 | 1 |  |  |  | [''] | \n| 5 | BT1 | BATTCON_20MM_4LEGS\
+  \ | 1 |  |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: BATTERY-20MM_SMD_4LEGS
+  DNP: ''
+  Description: ''
+  Footprint: working:BATTCON_20MM_4LEGS
+  Qnty: '1'
+  Ref: BT1
+  Value: BATTERY-20MM_SMD_4LEGS
+  Vendor: ''
+- Cmp name: LED0603
+  DNP: ''
+  Description: ''
+  Footprint: working:LED-0603
+  Qnty: '8'
+  Ref: D1, D2, D3, D4, D5, D6, D7, D8
+  Value: LED0603
+  Vendor: ''
+- Cmp name: 33OHM-0603-1/10W-1%
+  DNP: ''
+  Description: ''
+  Footprint: working:0603
+  Qnty: '8'
+  Ref: R1, R2, R3, R4, R5, R6, R7, R8
+  Value: 33OHM-0603-1/10W-1%
+  Vendor: ''
+- Cmp name: SWITCH-SPDT-SMD-AYZ0202
+  DNP: ''
+  Description: ''
+  Footprint: working:SWITCH_DPDT_SMD_AYZ0202
+  Qnty: '1'
+  Ref: S1
+  Value: SWITCH-SPDT-SMD-AYZ0202
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| BT1 |\
+  \ 1 | BATTERY-20MM_SMD_4LEGS | BATTERY-20MM_SMD_4LEGS | working:BATTCON_20MM_4LEGS\
+  \ |  |  |  | \n| D1, D2, D3, D4, D5, D6, D7, D8 | 8 | LED0603 | LED0603 | working:LED-0603\
+  \ |  |  |  | \n| R1, R2, R3, R4, R5, R6, R7, R8 | 8 | 33OHM-0603-1/10W-1% | 33OHM-0603-1/10W-1%\
+  \ | working:0603 |  |  |  | \n| S1 | 1 | SWITCH-SPDT-SMD-AYZ0202 | SWITCH-SPDT-SMD-AYZ0202\
+  \ | working:SWITCH_DPDT_SMD_AYZ0202 |  |  |  | \n"
 counter: 1
 file_brd_flat: projects/npoole_antifa_led_badge_anti1_bot/current_version/working/working.brd
 file_sch_flat: projects/npoole_antifa_led_badge_anti1_bot/current_version/working/working.sch
 id: npoole_antifa_led_badge_anti1_bot
 name: antifa_led_badge
+position_bottom:
+- '# Ref': BT1
+  Package: BATTCON_20MM_4LEGS
+  PosX: 148.5011
+  PosY: -116.4336
+  Rot: 180.0
+  Side: bottom
+  Val: .nan
+- '# Ref': S1
+  Package: SWITCH_DPDT_SMD_AYZ0202
+  PosX: 148.5011
+  PosY: -102.4636
+  Rot: 0.0
+  Side: bottom
+  Val: .nan
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| BT1 | nan | BATTCON_20MM_4LEGS |\
+  \ 148.5011 | -116.4336 | 180.0 | bottom | \n| S1 | nan | SWITCH_DPDT_SMD_AYZ0202\
+  \ | 148.5011 | -102.4636 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': D1
+  Package: LED-0603
+  PosX: 161.2011
+  PosY: -107.5436
+  Rot: 90.0
+  Side: top
+  Val: .nan
+- '# Ref': D2
+  Package: LED-0603
+  PosX: 145.9611
+  PosY: -92.3036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': D3
+  Package: LED-0603
+  PosX: 142.1511
+  PosY: -110.0836
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': D4
+  Package: LED-0603
+  PosX: 141.3891
+  PosY: -123.5456
+  Rot: -30.0
+  Side: top
+  Val: .nan
+- '# Ref': D5
+  Package: LED-0603
+  PosX: 158.6611
+  PosY: -88.4936
+  Rot: 150.0
+  Side: top
+  Val: .nan
+- '# Ref': D6
+  Package: LED-0603
+  PosX: 137.0711
+  PosY: -88.4936
+  Rot: 30.0
+  Side: top
+  Val: .nan
+- '# Ref': D7
+  Package: LED-0603
+  PosX: 147.9931
+  PosY: -84.9376
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': D8
+  Package: LED-0603
+  PosX: 156.1211
+  PosY: -123.0376
+  Rot: -150.0
+  Side: top
+  Val: .nan
+- '# Ref': E$3
+  Package: 1X01_NO_SILK
+  PosX: 128.1811
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': E$4
+  Package: 1X01_NO_SILK
+  PosX: 168.8211
+  PosY: -105.0036
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': R1
+  Package: '0603'
+  PosX: 134.0231
+  PosY: -90.6526
+  Rot: 45.0
+  Side: top
+  Val: 33.0
+- '# Ref': R2
+  Package: '0603'
+  PosX: 159.6771
+  PosY: -107.5436
+  Rot: -90.0
+  Side: top
+  Val: 33.0
+- '# Ref': R3
+  Package: '0603'
+  PosX: 145.9611
+  PosY: -93.9546
+  Rot: 180.0
+  Side: top
+  Val: 33.0
+- '# Ref': R4
+  Package: '0603'
+  PosX: 142.1511
+  PosY: -108.5596
+  Rot: 180.0
+  Side: top
+  Val: 33.0
+- '# Ref': R5
+  Package: '0603'
+  PosX: 137.0711
+  PosY: -121.5136
+  Rot: -30.0
+  Side: top
+  Val: 33.0
+- '# Ref': R6
+  Package: '0603'
+  PosX: 161.5821
+  PosY: -90.7796
+  Rot: 135.0
+  Side: top
+  Val: 33.0
+- '# Ref': R7
+  Package: '0603'
+  PosX: 144.4371
+  PosY: -85.3186
+  Rot: 15.0
+  Side: top
+  Val: 33.0
+- '# Ref': R8
+  Package: '0603'
+  PosX: 159.9311
+  PosY: -121.5136
+  Rot: -150.0
+  Side: top
+  Val: 33.0
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| D1 | nan | LED-0603 | 161.2011 | -107.5436\
+  \ | 90.0 | top | \n| D2 | nan | LED-0603 | 145.9611 | -92.3036 | 0.0 | top | \n\
+  | D3 | nan | LED-0603 | 142.1511 | -110.0836 | 0.0 | top | \n| D4 | nan | LED-0603\
+  \ | 141.3891 | -123.5456 | -30.0 | top | \n| D5 | nan | LED-0603 | 158.6611 | -88.4936\
+  \ | 150.0 | top | \n| D6 | nan | LED-0603 | 137.0711 | -88.4936 | 30.0 | top | \n\
+  | D7 | nan | LED-0603 | 147.9931 | -84.9376 | 0.0 | top | \n| D8 | nan | LED-0603\
+  \ | 156.1211 | -123.0376 | -150.0 | top | \n| E$3 | nan | 1X01_NO_SILK | 128.1811\
+  \ | -105.0036 | 0.0 | top | \n| E$4 | nan | 1X01_NO_SILK | 168.8211 | -105.0036\
+  \ | 0.0 | top | \n| R1 | 33.0 | 0603 | 134.0231 | -90.6526 | 45.0 | top | \n| R2\
+  \ | 33.0 | 0603 | 159.6771 | -107.5436 | -90.0 | top | \n| R3 | 33.0 | 0603 | 145.9611\
+  \ | -93.9546 | 180.0 | top | \n| R4 | 33.0 | 0603 | 142.1511 | -108.5596 | 180.0\
+  \ | top | \n| R5 | 33.0 | 0603 | 137.0711 | -121.5136 | -30.0 | top | \n| R6 | 33.0\
+  \ | 0603 | 161.5821 | -90.7796 | 135.0 | top | \n| R7 | 33.0 | 0603 | 144.4371 |\
+  \ -85.3186 | 15.0 | top | \n| R8 | 33.0 | 0603 | 159.9311 | -121.5136 | -150.0 |\
+  \ top | \n"
 projects_flat: projects/npoole_antifa_led_badge_anti1_bot/current_version/working
 repo:
   allow_forking: true

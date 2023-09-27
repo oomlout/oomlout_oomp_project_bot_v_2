@@ -11,6 +11,8 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/sparkfun/Triple_Axis_Accelerometer_Breakout-H3LIS331DL/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/sparkfun_triple_axis_accelerometer_breakout_h3lis331dl_sparkfun_tri_axis_accel_breakout_h3lis331dl/current_version/working  
+
 
 
 

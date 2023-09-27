@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -45,7 +66,7 @@
 | 16 | D4 | SOD-123 | 1 | MBR120 |  |  | [''] | 
 | 17 | IC2 | MLF32-TH | 1 | ATMEGA328P |  |  | [''] | 
 | 18 | X1 | JSTPH2 | 1 | JSTPH |  |  | [''] | 
-| 19 | C3,C6 | 0805-NO | 2 | 10µF |  |  | [''] | 
+| 19 | C3,C6 | 0805-NO | 2 | 10ÂµF |  |  | [''] | 
 | 20 | C2,C1 | 0805-NO | 2 | 10uF |  |  | [''] | 
 | 21 | CHG0 | CHIPLED_0805_NOOUTLINE | 1 | ORANGE |  |  | [''] | 
 | 22 | C7 | _0805MP | 1 | 10uF |  |  | [''] | 
@@ -63,7 +84,7 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C2 | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C3, C6 | 2 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6 | 2 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C4, C5, C9, C10 | 4 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C7 | 1 | 10uF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
 | C8, C11 | 2 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 

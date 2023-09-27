@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -30,12 +51,12 @@
 | 1 | FB1,FB2 | _0805MP | 2 | FERITTE |  |  | [''] | 
 | 2 | LEFTSPK0,RIGHTSPK0 | TERMBLOCK_1X2-3.5MM | 2 | 3.5mm Term |  |  | [''] | 
 | 3 | FID2,FID1,FID3 | FIDUCIAL_1MM | 3 | FIDUCIAL" |  |  | [''] | 
-| 4 | C10,C9,C11 | 0805-NO | 3 | 0.1µF |  |  | [''] | 
+| 4 | C10,C9,C11 | 0805-NO | 3 | 0.1ÂµF |  |  | [''] | 
 | 5 | @HOLE1,@HOLE2,@HOLE0 |  | 3 |  |  |  | [''] | 
 | 6 | R13,R8,R17,R2,R18,R15,R14,R16 | 0805-NO | 8 | 100K |  |  | [''] | 
-| 7 | C15,C12,C13,C14,C17 | 0805-NO | 5 | 1µF |  |  | [''] | 
+| 7 | C15,C12,C13,C14,C17 | 0805-NO | 5 | 1ÂµF |  |  | [''] | 
 | 8 | SJ5 | SOLDERJUMPER_CLOSEDWIRE | 1 | D12_MISO |  |  | [''] | 
-| 9 | C6,C7,C3,C20,C16 | 0805-NO | 5 | 10µF |  |  | [''] | 
+| 9 | C6,C7,C3,C20,C16 | 0805-NO | 5 | 10ÂµF |  |  | [''] | 
 | 10 | U$41 | ARDUINOR3_ICSP | 1 | ARDUINO_R3_ICSP |  |  | [''] | 
 | 11 | C27,C28,C21 | 0805-NO | 3 | 0.01uF |  |  | [''] | 
 | 12 | R1 | 0805-NO | 1 | 1M |  |  | [''] | 
@@ -44,7 +65,7 @@
 | 15 | R7 | 0805-NO | 1 | 100 |  |  | [''] | 
 | 16 | X1 | 4UCONN_19269 | 1 | 19621 |  |  | [''] | 
 | 17 | SJ2 | SOLDERJUMPER_REFLOW_NOPASTE | 1 | ICSP_MISO |  |  | [''] | 
-| 18 | C8,C26 | _0805MP | 2 | 0.1µF |  |  | [''] | 
+| 18 | C8,C26 | _0805MP | 2 | 0.1ÂµF |  |  | [''] | 
 | 19 | R3 | 0805-NO | 1 | 22 |  |  | [''] | 
 | 20 | C24 | 0805_10MGAP | 1 | 0.1uF |  |  | [''] | 
 | 21 | C1,C2 | PANASONIC_C | 2 | 220uF |  |  | [''] | 
@@ -79,7 +100,7 @@
 | 50 | U2 | SOT23-6 | 1 | AP7312-1833W6-7 |  |  | [''] | 
 | 51 | U5 | SOIC16 | 1 | 74HC4050D |  |  | [''] | 
 | 52 | R4 | _0805MP | 1 | 22 |  |  | [''] | 
-| 53 | C19 | _0805MP | 1 | 10µF |  |  | [''] | 
+| 53 | C19 | _0805MP | 1 | 10ÂµF |  |  | [''] | 
 | 54 | SJ11,SJ10,SJ8,SJ9 | SOLDERJUMPER_CLOSEDWIRE | 4 |  |  |  | [''] | 
 
 
@@ -87,13 +108,13 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C2 | 2 | 220uF | CPOL-USC | working:PANASONIC_C |  |  |  | 
-| C3, C6, C7, C16, C20 | 5 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C7, C16, C20 | 5 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C4, C5 | 2 | 15pF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C8, C26 | 2 | 0.1µF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
-| C9, C10, C11 | 3 | 0.1µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C12, C13, C14, C15, C17 | 5 | 1µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C8, C26 | 2 | 0.1ÂµF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
+| C9, C10, C11 | 3 | 0.1ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C12, C13, C14, C15, C17 | 5 | 1ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C18 | 1 | 0.047uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C19 | 1 | 10µF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
+| C19 | 1 | 10ÂµF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
 | C21, C27, C28 | 3 | 0.01uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C22 | 1 | 0.01uF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
 | C23, C25 | 2 | 0.1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 

@@ -16,7 +16,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -34,8 +55,8 @@
 | 4 | IC5 | LQFP-32 | 1 | STM32F0xxKxTx |  |  | [''] | 
 | 5 | D1 | 0603-LED | 1 | RED |  |  | [''] | 
 | 6 | C3,C4,C1,C6,C7,C2 | 0402 | 6 | 100n |  |  | [''] | 
-| 7 | C5 | 0402 | 1 | 4µ7 |  |  | [''] | 
-| 8 | C8 | 0402 | 1 | 1µ |  |  | [''] | 
+| 7 | C5 | 0402 | 1 | 4Âµ7 |  |  | [''] | 
+| 8 | C8 | 0402 | 1 | 1Âµ |  |  | [''] | 
 | 9 | C9 | 0402 | 1 | 10n |  |  | [''] | 
 | 10 | R1,R2 | 0402 | 2 | 1k |  |  | [''] | 
 | 11 | D2 | 0603-LED | 1 | GRN |  |  | [''] | 
@@ -47,8 +68,8 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C2, C3, C4, C6, C7 | 6 | 100n | C | agg:0402 |  |  |  | 
-| C5 | 1 | 4µ7 | C | agg:0402 |  |  |  | 
-| C8 | 1 | 1µ | C | agg:0402 |  |  |  | 
+| C5 | 1 | 4Âµ7 | C | agg:0402 |  |  |  | 
+| C8 | 1 | 1Âµ | C | agg:0402 |  |  |  | 
 | C9 | 1 | 10n | C | agg:0402 |  |  |  | 
 | D1 | 1 | RED | LED | agg:0603-LED |  |  |  | 
 | D2 | 1 | GRN | LED | agg:0603-LED |  |  |  | 

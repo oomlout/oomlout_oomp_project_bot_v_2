@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -37,7 +58,7 @@
 | 8 | C14,C7 | 0603-NO | 2 | 1uF |  |  | [''] | 
 | 9 | C9 | 0805-NO | 1 | 10uF |  |  | [''] | 
 | 10 | JP2,JP4 | 1X14_ROUND70 | 2 |  |  |  | [''] | 
-| 11 | C8,C6 | 0805-NO | 2 | 10µF |  |  | [''] | 
+| 11 | C8,C6 | 0805-NO | 2 | 10ÂµF |  |  | [''] | 
 | 12 | U2 | SOT23-5 | 1 | MIC5225-3.3 |  |  | [''] | 
 | 13 | R4,R5 | 0603-NO | 2 | 22 |  |  | [''] | 
 | 14 | IC2 | SOT23-5 | 1 | 74HCT1G125DBV |  |  | [''] | 
@@ -52,7 +73,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C6, C8 | 2 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C6, C8 | 2 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7, C14 | 2 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C9 | 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | D1, D4 | 2 | MBR120 | DIODE-SCHOTTKYSOD-123 | working:SOD-123 |  |  |  | 

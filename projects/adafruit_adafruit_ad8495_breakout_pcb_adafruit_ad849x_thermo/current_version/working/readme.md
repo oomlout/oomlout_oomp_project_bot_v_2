@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -37,7 +58,7 @@
 | 8 | U1 | MSOP8_0.65MM | 1 | AD8495ARMZ  |  |  | [''] | 
 | 9 | U$10 | ADAFRUIT_2.5MM | 1 |  |  |  | [''] | 
 | 10 | R1,R2 | 0805-NO | 2 | 100 |  |  | [''] | 
-| 11 | C1 | 0805-NO | 1 | 0.1µF |  |  | [''] | 
+| 11 | C1 | 0805-NO | 1 | 0.1ÂµF |  |  | [''] | 
 | 12 | C4,C2 | 0805-NO | 2 | 0.01uF |  |  | [''] | 
 | 13 | FID2,FID1 | FIDUCIAL_1MM | 2 | FIDUCIAL" |  |  | [''] | 
 | 14 | C3 | 0805-NO | 1 | 0.1uF |  |  | [''] | 
@@ -49,7 +70,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1 | 1 | 0.1µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C1 | 1 | 0.1ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C2, C4 | 2 | 0.01uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C3 | 1 | 0.1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | D1 | 1 | TLVH431 | SHUNT-VREF | working:SOT23-R |  |  |  | 
@@ -67,7 +88,7 @@
 ## mounting_holes
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
-| 0.0 | 11.429999999999993 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$11 | m3 | 
+| 0.0 | 11.43 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$11 | m3 | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$12 | m3 | 
 
 

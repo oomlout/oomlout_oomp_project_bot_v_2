@@ -17,5 +17,11 @@
 
 
 
+## working_bom
+| Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| 1 | POLY,POLY,POLY,POLY | POLY | 4 | VAL** |  |  | [''] | 
+
+
 
 

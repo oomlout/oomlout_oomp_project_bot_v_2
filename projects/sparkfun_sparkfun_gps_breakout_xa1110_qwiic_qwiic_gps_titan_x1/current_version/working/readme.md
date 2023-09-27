@@ -11,6 +11,8 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/sparkfun/SparkFun_GPS_Breakout_XA1110_Qwiic/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/sparkfun_sparkfun_gps_breakout_xa1110_qwiic_qwiic_gps_titan_x1/current_version/working  
+
 
 
 

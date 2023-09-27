@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -29,7 +50,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | C5 | 0805-NO | 1 | 10uF |  |  | [''] | 
 | 2 | R2 | 0603-NO | 1 | 1K |  |  | [''] | 
-| 3 | C12,C13,C3,C9,C8,C6 | 0805-NO | 6 | 10µF |  |  | [''] | 
+| 3 | C12,C13,C3,C9,C8,C6 | 0805-NO | 6 | 10ÂµF |  |  | [''] | 
 | 4 | L0 | CHIPLED_0805_NOOUTLINE | 1 | RED |  |  | [''] | 
 | 5 | C7,C16,C11,C10,C4,C14,C17 | 0603-NO | 7 | 1uF |  |  | [''] | 
 | 6 | SW1 | BTN_KMR2_4.6X2.8 | 1 | KMR2 |  |  | [''] | 
@@ -74,7 +95,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C15 | 2 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C2 | 1 | 22pF | CAP_4PACK1206 | working:RESPACK_4X0603 |  |  |  | 
-| C3, C6, C8, C9, C12, C13 | 6 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8, C9, C12, C13 | 6 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C4, C7, C10, C11, C14, C16, C17 | 7 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C5 | 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | CHG0 | 1 | ORANGE | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 

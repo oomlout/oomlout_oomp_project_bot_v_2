@@ -1,10 +1,1024 @@
 board: split_steno_rev1_2
+bom:
+- Id: '1'
+  Designator: MX1,MX2,MX3,MX4,MX5,MX6,MX7,MX8,MX9,MX10,MX11,MX12,MX13,MX14,MX15,MX16,MX18,MX20
+  Footprint: Hybrid_PCB_100H_Dual_hole-LED
+  Quantity: '18'
+  Designation: MX-1U
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: MX17,MX19
+  Footprint: Hybrid_PCB_200H-dual-LED
+  Quantity: '2'
+  Designation: MX-1U
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: SW1
+  Footprint: SW_Tactile_SPST_Angled_MJTP1117
+  Quantity: '1'
+  Designation: reset
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: REF**,J1
+  Footprint: TRRS-PJ-320A
+  Quantity: '2'
+  Designation: i2c
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: REF**,REF**,REF**,REF**
+  Footprint: MountingHole_3.2mm_M3_Pad
+  Quantity: '4'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: G***,G***
+  Footprint: airi_icon-7.6
+  Quantity: '2'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C1
+  Footprint: CP_Radial_D5.0mm_P2.00mm
+  Quantity: '1'
+  Designation: '100'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18
+  Footprint: Diode-dual
+  Quantity: '18'
+  Designation: D
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: J2
+  Footprint: Pin_Header_Straight_1x04_Pitch2.54mm
+  Quantity: '1'
+  Designation: serial
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: J3
+  Footprint: Pin_Header_Straight_1x03_Pitch2.54mm
+  Quantity: '1'
+  Designation: rgb
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: J4
+  Footprint: Pin_Header_Straight_2x03_Pitch2.54mm
+  Quantity: '1'
+  Designation: icsp
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: J5
+  Footprint: Pin_Header_Straight_1x02_Pitch2.54mm
+  Quantity: '1'
+  Designation: raw
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: J6
+  Footprint: Pin_Header_Straight_1x01_Pitch2.54mm
+  Quantity: '1'
+  Designation: extra
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: Q1
+  Footprint: TO-92_Inline_Narrow_Oval
+  Quantity: '1'
+  Designation: BC547
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18
+  Footprint: Resistor-Hybrid
+  Quantity: '18'
+  Designation: '51'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: R19
+  Footprint: Resistor-Hybrid
+  Quantity: '1'
+  Designation: '470'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: R20
+  Footprint: Resistor-Hybrid
+  Quantity: '1'
+  Designation: 1k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: R21,R22
+  Footprint: Resistor-Hybrid
+  Quantity: '2'
+  Designation: 4.7k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: U1
+  Footprint: ArduinoProMicro
+  Quantity: '1'
+  Designation: ProMicro
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | MX1,MX2,MX3,MX4,MX5,MX6,MX7,MX8,MX9,MX10,MX11,MX12,MX13,MX14,MX15,MX16,MX18,MX20\
+  \ | Hybrid_PCB_100H_Dual_hole-LED | 18 | MX-1U |  |  | [''] | \n| 2 | MX17,MX19\
+  \ | Hybrid_PCB_200H-dual-LED | 2 | MX-1U |  |  | [''] | \n| 3 | SW1 | SW_Tactile_SPST_Angled_MJTP1117\
+  \ | 1 | reset |  |  | [''] | \n| 4 | REF**,J1 | TRRS-PJ-320A | 2 | i2c |  |  | ['']\
+  \ | \n| 5 | REF**,REF**,REF**,REF** | MountingHole_3.2mm_M3_Pad | 4 |  |  |  | ['']\
+  \ | \n| 6 | G***,G*** | airi_icon-7.6 | 2 | LOGO |  |  | [''] | \n| 7 | C1 | CP_Radial_D5.0mm_P2.00mm\
+  \ | 1 | 100 |  |  | [''] | \n| 8 | D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18\
+  \ | Diode-dual | 18 | D |  |  | [''] | \n| 9 | J2 | Pin_Header_Straight_1x04_Pitch2.54mm\
+  \ | 1 | serial |  |  | [''] | \n| 10 | J3 | Pin_Header_Straight_1x03_Pitch2.54mm\
+  \ | 1 | rgb |  |  | [''] | \n| 11 | J4 | Pin_Header_Straight_2x03_Pitch2.54mm |\
+  \ 1 | icsp |  |  | [''] | \n| 12 | J5 | Pin_Header_Straight_1x02_Pitch2.54mm | 1\
+  \ | raw |  |  | [''] | \n| 13 | J6 | Pin_Header_Straight_1x01_Pitch2.54mm | 1 |\
+  \ extra |  |  | [''] | \n| 14 | Q1 | TO-92_Inline_Narrow_Oval | 1 | BC547 |  | \
+  \ | [''] | \n| 15 | R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18\
+  \ | Resistor-Hybrid | 18 | 51 |  |  | [''] | \n| 16 | R19 | Resistor-Hybrid | 1\
+  \ | 470 |  |  | [''] | \n| 17 | R20 | Resistor-Hybrid | 1 | 1k |  |  | [''] | \n\
+  | 18 | R21,R22 | Resistor-Hybrid | 2 | 4.7k |  |  | [''] | \n| 19 | U1 | ArduinoProMicro\
+  \ | 1 | ProMicro |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_THT:CP_Radial_D5.0mm_P2.00mm
+  Qnty: '1'
+  Ref: C1
+  Value: '100'
+  Vendor: ''
+- Cmp name: D
+  DNP: ''
+  Description: ''
+  Footprint: Keebio-Parts:Diode-dual
+  Qnty: '18'
+  Ref: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17,
+    D18
+  Value: D
+  Vendor: ''
+- Cmp name: Audio-Jack-4
+  DNP: ''
+  Description: ''
+  Footprint: Keebio-Parts:TRRS-PJ-320A
+  Qnty: '1'
+  Ref: J1
+  Value: i2c
+  Vendor: ''
+- Cmp name: Conn_01x04
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm
+  Qnty: '1'
+  Ref: J2
+  Value: serial
+  Vendor: ''
+- Cmp name: Conn_01x03
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm
+  Qnty: '1'
+  Ref: J3
+  Value: rgb
+  Vendor: ''
+- Cmp name: Conn_02x03_Odd_Even
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm
+  Qnty: '1'
+  Ref: J4
+  Value: icsp
+  Vendor: ''
+- Cmp name: Conn_01x02
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm
+  Qnty: '1'
+  Ref: J5
+  Value: raw
+  Vendor: ''
+- Cmp name: Conn_01x01
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm
+  Qnty: '1'
+  Ref: J6
+  Value: extra
+  Vendor: ''
+- Cmp name: MX-1U
+  DNP: ''
+  Description: ''
+  Footprint: Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED
+  Qnty: '18'
+  Ref: MX1, MX2, MX3, MX4, MX5, MX6, MX7, MX8, MX9, MX10, MX11, MX12, MX13, MX14,
+    MX15, MX16, MX18, MX20
+  Value: MX-1U
+  Vendor: ''
+- Cmp name: MX-1U
+  DNP: ''
+  Description: ''
+  Footprint: Keebio-Parts:Hybrid_PCB_200H-dual-LED
+  Qnty: '2'
+  Ref: MX17, MX19
+  Value: MX-1U
+  Vendor: ''
+- Cmp name: BC547
+  DNP: ''
+  Description: ''
+  Footprint: TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval
+  Qnty: '1'
+  Ref: Q1
+  Value: BC547
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Keebio-Parts:Resistor-Hybrid
+  Qnty: '18'
+  Ref: R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17,
+    R18
+  Value: '51'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Keebio-Parts:Resistor-Hybrid
+  Qnty: '1'
+  Ref: R19
+  Value: '470'
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Keebio-Parts:Resistor-Hybrid
+  Qnty: '1'
+  Ref: R20
+  Value: 1k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Keebio-Parts:Resistor-Hybrid
+  Qnty: '2'
+  Ref: R21, R22
+  Value: 4.7k
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: ''
+  Footprint: Keebio-Parts:SW_Tactile_SPST_Angled_MJTP1117
+  Qnty: '1'
+  Ref: SW1
+  Value: reset
+  Vendor: ''
+- Cmp name: ProMicro
+  DNP: ''
+  Description: ''
+  Footprint: Keebio-Parts:ArduinoProMicro
+  Qnty: '1'
+  Ref: U1
+  Value: ProMicro
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | 100 | C | Capacitors_THT:CP_Radial_D5.0mm_P2.00mm |  |  |  | \n| D1, D2, D3,\
+  \ D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18 | 18 | D |\
+  \ D | Keebio-Parts:Diode-dual |  |  |  | \n| J1 | 1 | i2c | Audio-Jack-4 | Keebio-Parts:TRRS-PJ-320A\
+  \ |  |  |  | \n| J2 | 1 | serial | Conn_01x04 | Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm\
+  \ |  |  |  | \n| J3 | 1 | rgb | Conn_01x03 | Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm\
+  \ |  |  |  | \n| J4 | 1 | icsp | Conn_02x03_Odd_Even | Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm\
+  \ |  |  |  | \n| J5 | 1 | raw | Conn_01x02 | Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm\
+  \ |  |  |  | \n| J6 | 1 | extra | Conn_01x01 | Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm\
+  \ |  |  |  | \n| MX1, MX2, MX3, MX4, MX5, MX6, MX7, MX8, MX9, MX10, MX11, MX12,\
+  \ MX13, MX14, MX15, MX16, MX18, MX20 | 18 | MX-1U | MX-1U | Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED\
+  \ |  |  |  | \n| MX17, MX19 | 2 | MX-1U | MX-1U | Keebio-Parts:Hybrid_PCB_200H-dual-LED\
+  \ |  |  |  | \n| Q1 | 1 | BC547 | BC547 | TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval\
+  \ |  |  |  | \n| R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15,\
+  \ R16, R17, R18 | 18 | 51 | R | Keebio-Parts:Resistor-Hybrid |  |  |  | \n| R19\
+  \ | 1 | 470 | R | Keebio-Parts:Resistor-Hybrid |  |  |  | \n| R20 | 1 | 1k | R |\
+  \ Keebio-Parts:Resistor-Hybrid |  |  |  | \n| R21, R22 | 2 | 4.7k | R | Keebio-Parts:Resistor-Hybrid\
+  \ |  |  |  | \n| SW1 | 1 | reset | SW_Push | Keebio-Parts:SW_Tactile_SPST_Angled_MJTP1117\
+  \ |  |  |  | \n| U1 | 1 | ProMicro | ProMicro | Keebio-Parts:ArduinoProMicro | \
+  \ |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/ai03_2725_split_steno_split_steno_rev1_2/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/ai03_2725_split_steno_split_steno_rev1_2/current_version/working/working.kicad_pcb
 file_sch_flat: projects/ai03_2725_split_steno_split_steno_rev1_2/current_version/working/working.sch
 id: ai03_2725_split_steno_split_steno_rev1_2
+mounting_holes:
+- package: MountingHole_3.2mm_M3_Pad
+  ref: REF**
+  size: m3
+  value: .nan
+  x: '0.0'
+  y: '55.07'
+- package: MountingHole_3.2mm_M3_Pad
+  ref: REF**
+  size: m3
+  value: .nan
+  x: '82.45'
+  y: '55.07'
+- package: MountingHole_3.2mm_M3_Pad
+  ref: REF**
+  size: m3
+  value: .nan
+  x: '68.46'
+  y: '0.0'
+- package: MountingHole_3.2mm_M3_Pad
+  ref: REF**
+  size: m3
+  value: .nan
+  x: '11.31'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 55.07 | MountingHole_3.2mm_M3_Pad | nan | REF**\
+  \ | m3 | \n| 82.45 | 55.07 | MountingHole_3.2mm_M3_Pad | nan | REF** | m3 | \n|\
+  \ 68.46 | 0.0 | MountingHole_3.2mm_M3_Pad | nan | REF** | m3 | \n| 11.31 | 0.0 |\
+  \ MountingHole_3.2mm_M3_Pad | nan | REF** | m3 | \n"
 name: split_steno
+position_bottom:
+- '# Ref': C1
+  Package: CP_Radial_D5.0mm_P2.00mm
+  PosX: 84.8324
+  PosY: -125.0162
+  Rot: 0.0
+  Side: bottom
+  Val: '100'
+- '# Ref': D1
+  Package: Diode-dual
+  PosX: 65.4844
+  PosY: -95.25
+  Rot: -90.0
+  Side: bottom
+  Val: D
+- '# Ref': D2
+  Package: Diode-dual
+  PosX: 86.9156
+  PosY: -95.25
+  Rot: -90.0
+  Side: bottom
+  Val: D
+- '# Ref': D3
+  Package: Diode-dual
+  PosX: 103.5844
+  PosY: -95.25
+  Rot: -90.0
+  Side: bottom
+  Val: D
+- '# Ref': D4
+  Package: Diode-dual
+  PosX: 105.9656
+  PosY: -95.25
+  Rot: -90.0
+  Side: bottom
+  Val: D
+- '# Ref': D5
+  Package: Diode-dual
+  PosX: 141.0897
+  PosY: -95.2504
+  Rot: -90.0
+  Side: bottom
+  Val: D
+- '# Ref': D6
+  Package: Diode-dual
+  PosX: 65.4844
+  PosY: -114.3
+  Rot: -90.0
+  Side: bottom
+  Val: D
+- '# Ref': D7
+  Package: Diode-dual
+  PosX: 86.9156
+  PosY: -114.3
+  Rot: -90.0
+  Side: bottom
+  Val: D
+- '# Ref': D8
+  Package: Diode-dual
+  PosX: 103.5844
+  PosY: -114.3
+  Rot: -90.0
+  Side: bottom
+  Val: D
+- '# Ref': D9
+  Package: Diode-dual
+  PosX: 105.9656
+  PosY: -114.3
+  Rot: -90.0
+  Side: bottom
+  Val: D
+- '# Ref': D10
+  Package: Diode-dual
+  PosX: 125.0162
+  PosY: -114.3005
+  Rot: -90.0
+  Side: bottom
+  Val: D
+- '# Ref': D11
+  Package: Diode-dual
+  PosX: 65.4847
+  PosY: -130.9693
+  Rot: -90.0
+  Side: bottom
+  Val: D
+- '# Ref': D12
+  Package: Diode-dual
+  PosX: 86.9156
+  PosY: -133.35
+  Rot: -90.0
+  Side: bottom
+  Val: D
+- '# Ref': D13
+  Package: Diode-dual
+  PosX: 103.5844
+  PosY: -133.35
+  Rot: -90.0
+  Side: bottom
+  Val: D
+- '# Ref': D14
+  Package: Diode-dual
+  PosX: 105.9656
+  PosY: -133.35
+  Rot: -90.0
+  Side: bottom
+  Val: D
+- '# Ref': D15
+  Package: Diode-dual
+  PosX: 124.7185
+  PosY: -130.9693
+  Rot: -90.0
+  Side: bottom
+  Val: D
+- '# Ref': D16
+  Package: Diode-dual
+  PosX: 96.4406
+  PosY: -147.6375
+  Rot: 90.0
+  Side: bottom
+  Val: D
+- '# Ref': D17
+  Package: Diode-dual
+  PosX: 111.9187
+  PosY: -144.0656
+  Rot: 180.0
+  Side: bottom
+  Val: D
+- '# Ref': D18
+  Package: Diode-dual
+  PosX: 135.7312
+  PosY: -144.0656
+  Rot: 180.0
+  Side: bottom
+  Val: D
+- '# Ref': G***
+  Package: airi_icon-7.6
+  PosX: 96.1434
+  PosY: -158.9491
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+- '# Ref': J1
+  Package: TRRS-PJ-320A
+  PosX: 122.8
+  PosY: -81.0
+  Rot: 180.0
+  Side: bottom
+  Val: i2c
+- '# Ref': J2
+  Package: Pin_Header_Straight_1x04_Pitch2.54mm
+  PosX: 117.3
+  PosY: -82.3
+  Rot: 90.0
+  Side: bottom
+  Val: serial
+- '# Ref': J3
+  Package: Pin_Header_Straight_1x03_Pitch2.54mm
+  PosX: 84.5347
+  PosY: -130.6717
+  Rot: 180.0
+  Side: bottom
+  Val: rgb
+- '# Ref': J4
+  Package: Pin_Header_Straight_2x03_Pitch2.54mm
+  PosX: 62.8
+  PosY: -82.35
+  Rot: 180.0
+  Side: bottom
+  Val: icsp
+- '# Ref': J5
+  Package: Pin_Header_Straight_1x02_Pitch2.54mm
+  PosX: 87.0
+  PosY: -82.35
+  Rot: -90.0
+  Side: bottom
+  Val: raw
+- '# Ref': J6
+  Package: Pin_Header_Straight_1x01_Pitch2.54mm
+  PosX: 65.4847
+  PosY: -107.752
+  Rot: 180.0
+  Side: bottom
+  Val: extra
+- '# Ref': Q1
+  Package: TO-92_Inline_Narrow_Oval
+  PosX: 67.8659
+  PosY: -124.1232
+  Rot: 180.0
+  Side: bottom
+  Val: BC547
+- '# Ref': R1
+  Package: Resistor-Hybrid
+  PosX: 57.15
+  PosY: -103.5844
+  Rot: 180.0
+  Side: bottom
+  Val: '51'
+- '# Ref': R2
+  Package: Resistor-Hybrid
+  PosX: 76.2
+  PosY: -103.5844
+  Rot: 180.0
+  Side: bottom
+  Val: '51'
+- '# Ref': R3
+  Package: Resistor-Hybrid
+  PosX: 95.25
+  PosY: -103.5844
+  Rot: 180.0
+  Side: bottom
+  Val: '51'
+- '# Ref': R4
+  Package: Resistor-Hybrid
+  PosX: 114.3
+  PosY: -103.6
+  Rot: 0.0
+  Side: bottom
+  Val: '51'
+- '# Ref': R5
+  Package: Resistor-Hybrid
+  PosX: 133.4
+  PosY: -103.6
+  Rot: 0.0
+  Side: bottom
+  Val: '51'
+- '# Ref': R6
+  Package: Resistor-Hybrid
+  PosX: 57.15
+  PosY: -122.6344
+  Rot: 180.0
+  Side: bottom
+  Val: '51'
+- '# Ref': R7
+  Package: Resistor-Hybrid
+  PosX: 76.2
+  PosY: -122.6344
+  Rot: 180.0
+  Side: bottom
+  Val: '51'
+- '# Ref': R8
+  Package: Resistor-Hybrid
+  PosX: 95.25
+  PosY: -122.6344
+  Rot: 180.0
+  Side: bottom
+  Val: '51'
+- '# Ref': R9
+  Package: Resistor-Hybrid
+  PosX: 114.3
+  PosY: -122.6
+  Rot: 0.0
+  Side: bottom
+  Val: '51'
+- '# Ref': R10
+  Package: Resistor-Hybrid
+  PosX: 133.4
+  PosY: -122.6
+  Rot: 0.0
+  Side: bottom
+  Val: '51'
+- '# Ref': R11
+  Package: Resistor-Hybrid
+  PosX: 57.15
+  PosY: -141.6844
+  Rot: 180.0
+  Side: bottom
+  Val: '51'
+- '# Ref': R12
+  Package: Resistor-Hybrid
+  PosX: 76.2
+  PosY: -141.6844
+  Rot: 180.0
+  Side: bottom
+  Val: '51'
+- '# Ref': R13
+  Package: Resistor-Hybrid
+  PosX: 95.3
+  PosY: -141.7
+  Rot: 0.0
+  Side: bottom
+  Val: '51'
+- '# Ref': R14
+  Package: Resistor-Hybrid
+  PosX: 111.9
+  PosY: -141.7
+  Rot: 0.0
+  Side: bottom
+  Val: '51'
+- '# Ref': R15
+  Package: Resistor-Hybrid
+  PosX: 135.7
+  PosY: -141.7
+  Rot: 0.0
+  Side: bottom
+  Val: '51'
+- '# Ref': R16
+  Package: Resistor-Hybrid
+  PosX: 94.0594
+  PosY: -147.6375
+  Rot: -90.0
+  Side: bottom
+  Val: '51'
+- '# Ref': R17
+  Package: Resistor-Hybrid
+  PosX: 111.9187
+  PosY: -160.7344
+  Rot: 180.0
+  Side: bottom
+  Val: '51'
+- '# Ref': R18
+  Package: Resistor-Hybrid
+  PosX: 135.7312
+  PosY: -160.7344
+  Rot: 180.0
+  Side: bottom
+  Val: '51'
+- '# Ref': R19
+  Package: Resistor-Hybrid
+  PosX: 84.5
+  PosY: -116.9
+  Rot: -90.0
+  Side: bottom
+  Val: '470'
+- '# Ref': R20
+  Package: Resistor-Hybrid
+  PosX: 67.9
+  PosY: -116.9
+  Rot: -90.0
+  Side: bottom
+  Val: 1k
+- '# Ref': R21
+  Package: Resistor-Hybrid
+  PosX: 114.3005
+  PosY: -105.9661
+  Rot: 180.0
+  Side: bottom
+  Val: 4.7k
+- '# Ref': R22
+  Package: Resistor-Hybrid
+  PosX: 95.2504
+  PosY: -105.9661
+  Rot: 180.0
+  Side: bottom
+  Val: 4.7k
+- '# Ref': U1
+  Package: ArduinoProMicro
+  PosX: 76.2
+  PosY: -96.3
+  Rot: 180.0
+  Side: bottom
+  Val: ProMicro
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C1 | 100 | CP_Radial_D5.0mm_P2.00mm\
+  \ | 84.8324 | -125.0162 | 0.0 | bottom | \n| D1 | D | Diode-dual | 65.4844 | -95.25\
+  \ | -90.0 | bottom | \n| D2 | D | Diode-dual | 86.9156 | -95.25 | -90.0 | bottom\
+  \ | \n| D3 | D | Diode-dual | 103.5844 | -95.25 | -90.0 | bottom | \n| D4 | D |\
+  \ Diode-dual | 105.9656 | -95.25 | -90.0 | bottom | \n| D5 | D | Diode-dual | 141.0897\
+  \ | -95.2504 | -90.0 | bottom | \n| D6 | D | Diode-dual | 65.4844 | -114.3 | -90.0\
+  \ | bottom | \n| D7 | D | Diode-dual | 86.9156 | -114.3 | -90.0 | bottom | \n| D8\
+  \ | D | Diode-dual | 103.5844 | -114.3 | -90.0 | bottom | \n| D9 | D | Diode-dual\
+  \ | 105.9656 | -114.3 | -90.0 | bottom | \n| D10 | D | Diode-dual | 125.0162 | -114.3005\
+  \ | -90.0 | bottom | \n| D11 | D | Diode-dual | 65.4847 | -130.9693 | -90.0 | bottom\
+  \ | \n| D12 | D | Diode-dual | 86.9156 | -133.35 | -90.0 | bottom | \n| D13 | D\
+  \ | Diode-dual | 103.5844 | -133.35 | -90.0 | bottom | \n| D14 | D | Diode-dual\
+  \ | 105.9656 | -133.35 | -90.0 | bottom | \n| D15 | D | Diode-dual | 124.7185 |\
+  \ -130.9693 | -90.0 | bottom | \n| D16 | D | Diode-dual | 96.4406 | -147.6375 |\
+  \ 90.0 | bottom | \n| D17 | D | Diode-dual | 111.9187 | -144.0656 | 180.0 | bottom\
+  \ | \n| D18 | D | Diode-dual | 135.7312 | -144.0656 | 180.0 | bottom | \n| G***\
+  \ | LOGO | airi_icon-7.6 | 96.1434 | -158.9491 | 180.0 | bottom | \n| J1 | i2c |\
+  \ TRRS-PJ-320A | 122.8 | -81.0 | 180.0 | bottom | \n| J2 | serial | Pin_Header_Straight_1x04_Pitch2.54mm\
+  \ | 117.3 | -82.3 | 90.0 | bottom | \n| J3 | rgb | Pin_Header_Straight_1x03_Pitch2.54mm\
+  \ | 84.5347 | -130.6717 | 180.0 | bottom | \n| J4 | icsp | Pin_Header_Straight_2x03_Pitch2.54mm\
+  \ | 62.8 | -82.35 | 180.0 | bottom | \n| J5 | raw | Pin_Header_Straight_1x02_Pitch2.54mm\
+  \ | 87.0 | -82.35 | -90.0 | bottom | \n| J6 | extra | Pin_Header_Straight_1x01_Pitch2.54mm\
+  \ | 65.4847 | -107.752 | 180.0 | bottom | \n| Q1 | BC547 | TO-92_Inline_Narrow_Oval\
+  \ | 67.8659 | -124.1232 | 180.0 | bottom | \n| R1 | 51 | Resistor-Hybrid | 57.15\
+  \ | -103.5844 | 180.0 | bottom | \n| R2 | 51 | Resistor-Hybrid | 76.2 | -103.5844\
+  \ | 180.0 | bottom | \n| R3 | 51 | Resistor-Hybrid | 95.25 | -103.5844 | 180.0 |\
+  \ bottom | \n| R4 | 51 | Resistor-Hybrid | 114.3 | -103.6 | 0.0 | bottom | \n| R5\
+  \ | 51 | Resistor-Hybrid | 133.4 | -103.6 | 0.0 | bottom | \n| R6 | 51 | Resistor-Hybrid\
+  \ | 57.15 | -122.6344 | 180.0 | bottom | \n| R7 | 51 | Resistor-Hybrid | 76.2 |\
+  \ -122.6344 | 180.0 | bottom | \n| R8 | 51 | Resistor-Hybrid | 95.25 | -122.6344\
+  \ | 180.0 | bottom | \n| R9 | 51 | Resistor-Hybrid | 114.3 | -122.6 | 0.0 | bottom\
+  \ | \n| R10 | 51 | Resistor-Hybrid | 133.4 | -122.6 | 0.0 | bottom | \n| R11 | 51\
+  \ | Resistor-Hybrid | 57.15 | -141.6844 | 180.0 | bottom | \n| R12 | 51 | Resistor-Hybrid\
+  \ | 76.2 | -141.6844 | 180.0 | bottom | \n| R13 | 51 | Resistor-Hybrid | 95.3 |\
+  \ -141.7 | 0.0 | bottom | \n| R14 | 51 | Resistor-Hybrid | 111.9 | -141.7 | 0.0\
+  \ | bottom | \n| R15 | 51 | Resistor-Hybrid | 135.7 | -141.7 | 0.0 | bottom | \n\
+  | R16 | 51 | Resistor-Hybrid | 94.0594 | -147.6375 | -90.0 | bottom | \n| R17 |\
+  \ 51 | Resistor-Hybrid | 111.9187 | -160.7344 | 180.0 | bottom | \n| R18 | 51 |\
+  \ Resistor-Hybrid | 135.7312 | -160.7344 | 180.0 | bottom | \n| R19 | 470 | Resistor-Hybrid\
+  \ | 84.5 | -116.9 | -90.0 | bottom | \n| R20 | 1k | Resistor-Hybrid | 67.9 | -116.9\
+  \ | -90.0 | bottom | \n| R21 | 4.7k | Resistor-Hybrid | 114.3005 | -105.9661 | 180.0\
+  \ | bottom | \n| R22 | 4.7k | Resistor-Hybrid | 95.2504 | -105.9661 | 180.0 | bottom\
+  \ | \n| U1 | ProMicro | ArduinoProMicro | 76.2 | -96.3 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': G***
+  Package: airi_icon-7.6
+  PosX: 96.1434
+  PosY: -158.9491
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': MX1
+  Package: Hybrid_PCB_100H_Dual_hole-LED
+  PosX: 57.15
+  PosY: -95.25
+  Rot: 0.0
+  Side: top
+  Val: MX-1U
+- '# Ref': MX2
+  Package: Hybrid_PCB_100H_Dual_hole-LED
+  PosX: 76.2
+  PosY: -95.25
+  Rot: 0.0
+  Side: top
+  Val: MX-1U
+- '# Ref': MX3
+  Package: Hybrid_PCB_100H_Dual_hole-LED
+  PosX: 95.25
+  PosY: -95.25
+  Rot: 0.0
+  Side: top
+  Val: MX-1U
+- '# Ref': MX4
+  Package: Hybrid_PCB_100H_Dual_hole-LED
+  PosX: 114.3
+  PosY: -95.25
+  Rot: 0.0
+  Side: top
+  Val: MX-1U
+- '# Ref': MX5
+  Package: Hybrid_PCB_100H_Dual_hole-LED
+  PosX: 133.35
+  PosY: -95.25
+  Rot: 0.0
+  Side: top
+  Val: MX-1U
+- '# Ref': MX6
+  Package: Hybrid_PCB_100H_Dual_hole-LED
+  PosX: 57.15
+  PosY: -114.3
+  Rot: 0.0
+  Side: top
+  Val: MX-1U
+- '# Ref': MX7
+  Package: Hybrid_PCB_100H_Dual_hole-LED
+  PosX: 76.2
+  PosY: -114.3
+  Rot: 0.0
+  Side: top
+  Val: MX-1U
+- '# Ref': MX8
+  Package: Hybrid_PCB_100H_Dual_hole-LED
+  PosX: 95.25
+  PosY: -114.3
+  Rot: 0.0
+  Side: top
+  Val: MX-1U
+- '# Ref': MX9
+  Package: Hybrid_PCB_100H_Dual_hole-LED
+  PosX: 114.3
+  PosY: -114.3
+  Rot: 0.0
+  Side: top
+  Val: MX-1U
+- '# Ref': MX10
+  Package: Hybrid_PCB_100H_Dual_hole-LED
+  PosX: 133.35
+  PosY: -114.3
+  Rot: 0.0
+  Side: top
+  Val: MX-1U
+- '# Ref': MX11
+  Package: Hybrid_PCB_100H_Dual_hole-LED
+  PosX: 57.15
+  PosY: -133.35
+  Rot: 0.0
+  Side: top
+  Val: MX-1U
+- '# Ref': MX12
+  Package: Hybrid_PCB_100H_Dual_hole-LED
+  PosX: 76.2
+  PosY: -133.35
+  Rot: 0.0
+  Side: top
+  Val: MX-1U
+- '# Ref': MX13
+  Package: Hybrid_PCB_100H_Dual_hole-LED
+  PosX: 95.25
+  PosY: -133.35
+  Rot: 0.0
+  Side: top
+  Val: MX-1U
+- '# Ref': MX14
+  Package: Hybrid_PCB_100H_Dual_hole-LED
+  PosX: 114.3
+  PosY: -133.35
+  Rot: 0.0
+  Side: top
+  Val: MX-1U
+- '# Ref': MX15
+  Package: Hybrid_PCB_100H_Dual_hole-LED
+  PosX: 133.35
+  PosY: -133.35
+  Rot: 0.0
+  Side: top
+  Val: MX-1U
+- '# Ref': MX16
+  Package: Hybrid_PCB_100H_Dual_hole-LED
+  PosX: 104.775
+  PosY: -152.4
+  Rot: 0.0
+  Side: top
+  Val: MX-1U
+- '# Ref': MX17
+  Package: Hybrid_PCB_200H-dual-LED
+  PosX: 114.3
+  PosY: -152.4
+  Rot: 180.0
+  Side: top
+  Val: MX-1U
+- '# Ref': MX18
+  Package: Hybrid_PCB_100H_Dual_hole-LED
+  PosX: 123.825
+  PosY: -152.4
+  Rot: 0.0
+  Side: top
+  Val: MX-1U
+- '# Ref': MX19
+  Package: Hybrid_PCB_200H-dual-LED
+  PosX: 133.35
+  PosY: -152.4
+  Rot: 180.0
+  Side: top
+  Val: MX-1U
+- '# Ref': MX20
+  Package: Hybrid_PCB_100H_Dual_hole-LED
+  PosX: 142.875
+  PosY: -152.4
+  Rot: 0.0
+  Side: top
+  Val: MX-1U
+- '# Ref': REF**
+  Package: TRRS-PJ-320A
+  PosX: 124.9
+  PosY: -81.0
+  Rot: 0.0
+  Side: top
+  Val: i2c
+- '# Ref': REF**
+  Package: MountingHole_3.2mm_M3_Pad
+  PosX: 55.3643
+  PosY: -84.2371
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': REF**
+  Package: MountingHole_3.2mm_M3_Pad
+  PosX: 137.8154
+  PosY: -84.2371
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': REF**
+  Package: MountingHole_3.2mm_M3_Pad
+  PosX: 123.8255
+  PosY: -139.3037
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': REF**
+  Package: MountingHole_3.2mm_M3_Pad
+  PosX: 66.6753
+  PosY: -139.3037
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': SW1
+  Package: SW_Tactile_SPST_Angled_MJTP1117
+  PosX: 92.6
+  PosY: -84.2
+  Rot: 0.0
+  Side: top
+  Val: reset
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | airi_icon-7.6 | 96.1434\
+  \ | -158.9491 | 0.0 | top | \n| MX1 | MX-1U | Hybrid_PCB_100H_Dual_hole-LED | 57.15\
+  \ | -95.25 | 0.0 | top | \n| MX2 | MX-1U | Hybrid_PCB_100H_Dual_hole-LED | 76.2\
+  \ | -95.25 | 0.0 | top | \n| MX3 | MX-1U | Hybrid_PCB_100H_Dual_hole-LED | 95.25\
+  \ | -95.25 | 0.0 | top | \n| MX4 | MX-1U | Hybrid_PCB_100H_Dual_hole-LED | 114.3\
+  \ | -95.25 | 0.0 | top | \n| MX5 | MX-1U | Hybrid_PCB_100H_Dual_hole-LED | 133.35\
+  \ | -95.25 | 0.0 | top | \n| MX6 | MX-1U | Hybrid_PCB_100H_Dual_hole-LED | 57.15\
+  \ | -114.3 | 0.0 | top | \n| MX7 | MX-1U | Hybrid_PCB_100H_Dual_hole-LED | 76.2\
+  \ | -114.3 | 0.0 | top | \n| MX8 | MX-1U | Hybrid_PCB_100H_Dual_hole-LED | 95.25\
+  \ | -114.3 | 0.0 | top | \n| MX9 | MX-1U | Hybrid_PCB_100H_Dual_hole-LED | 114.3\
+  \ | -114.3 | 0.0 | top | \n| MX10 | MX-1U | Hybrid_PCB_100H_Dual_hole-LED | 133.35\
+  \ | -114.3 | 0.0 | top | \n| MX11 | MX-1U | Hybrid_PCB_100H_Dual_hole-LED | 57.15\
+  \ | -133.35 | 0.0 | top | \n| MX12 | MX-1U | Hybrid_PCB_100H_Dual_hole-LED | 76.2\
+  \ | -133.35 | 0.0 | top | \n| MX13 | MX-1U | Hybrid_PCB_100H_Dual_hole-LED | 95.25\
+  \ | -133.35 | 0.0 | top | \n| MX14 | MX-1U | Hybrid_PCB_100H_Dual_hole-LED | 114.3\
+  \ | -133.35 | 0.0 | top | \n| MX15 | MX-1U | Hybrid_PCB_100H_Dual_hole-LED | 133.35\
+  \ | -133.35 | 0.0 | top | \n| MX16 | MX-1U | Hybrid_PCB_100H_Dual_hole-LED | 104.775\
+  \ | -152.4 | 0.0 | top | \n| MX17 | MX-1U | Hybrid_PCB_200H-dual-LED | 114.3 | -152.4\
+  \ | 180.0 | top | \n| MX18 | MX-1U | Hybrid_PCB_100H_Dual_hole-LED | 123.825 | -152.4\
+  \ | 0.0 | top | \n| MX19 | MX-1U | Hybrid_PCB_200H-dual-LED | 133.35 | -152.4 |\
+  \ 180.0 | top | \n| MX20 | MX-1U | Hybrid_PCB_100H_Dual_hole-LED | 142.875 | -152.4\
+  \ | 0.0 | top | \n| REF** | i2c | TRRS-PJ-320A | 124.9 | -81.0 | 0.0 | top | \n\
+  | REF** | nan | MountingHole_3.2mm_M3_Pad | 55.3643 | -84.2371 | 0.0 | top | \n\
+  | REF** | nan | MountingHole_3.2mm_M3_Pad | 137.8154 | -84.2371 | 0.0 | top | \n\
+  | REF** | nan | MountingHole_3.2mm_M3_Pad | 123.8255 | -139.3037 | 0.0 | top | \n\
+  | REF** | nan | MountingHole_3.2mm_M3_Pad | 66.6753 | -139.3037 | 0.0 | top | \n\
+  | SW1 | reset | SW_Tactile_SPST_Angled_MJTP1117 | 92.6 | -84.2 | 0.0 | top | \n"
 projects_flat: projects/ai03_2725_split_steno_split_steno_rev1_2/current_version/working
 repo:
   allow_forking: true

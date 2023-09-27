@@ -1,4 +1,272 @@
 board: ai03_pcb_guide
+bom:
+- Id: '1'
+  Designator: MX1,MX2,MX3,MX4
+  Footprint: MX-1U
+  Quantity: '4'
+  Designation: MX-NoLED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D1,D2,D3,D4
+  Footprint: D_SOD-123
+  Quantity: '4'
+  Designation: SOD-123
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: F1
+  Footprint: Fuse_SMD1206_Reflow
+  Quantity: '1'
+  Designation: 500mA
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R2,R3
+  Footprint: R_0805
+  Quantity: '2'
+  Designation: '22'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R4,R1
+  Footprint: R_0805
+  Quantity: '2'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C7
+  Footprint: C_0805
+  Quantity: '1'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C5,C4,C6
+  Footprint: C_0805
+  Quantity: '3'
+  Designation: 0.1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C1,C2
+  Footprint: C_0805
+  Quantity: '2'
+  Designation: 22pF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: C3
+  Footprint: C_0805
+  Quantity: '1'
+  Designation: 1uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: USB1
+  Footprint: Molex-0548190589-Assembly
+  Quantity: '1'
+  Designation: Molex-0548190589
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: SW1
+  Footprint: SKQG-1155865
+  Quantity: '1'
+  Designation: SW_Push
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: U1
+  Footprint: TQFP-44_10x10mm_Pitch0.8mm
+  Quantity: '1'
+  Designation: ATmega32U4-AU
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: Y1
+  Footprint: Crystal_SMD_3225-4pin_3.2x2.5mm
+  Quantity: '1'
+  Designation: Crystal_GND24_Small
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | MX1,MX2,MX3,MX4\
+  \ | MX-1U | 4 | MX-NoLED |  |  | [''] | \n| 2 | D1,D2,D3,D4 | D_SOD-123 | 4 | SOD-123\
+  \ |  |  | [''] | \n| 3 | F1 | Fuse_SMD1206_Reflow | 1 | 500mA |  |  | [''] | \n\
+  | 4 | R2,R3 | R_0805 | 2 | 22 |  |  | [''] | \n| 5 | R4,R1 | R_0805 | 2 | 10k |\
+  \  |  | [''] | \n| 6 | C7 | C_0805 | 1 | 10uF |  |  | [''] | \n| 7 | C5,C4,C6 |\
+  \ C_0805 | 3 | 0.1uF |  |  | [''] | \n| 8 | C1,C2 | C_0805 | 2 | 22pF |  |  | ['']\
+  \ | \n| 9 | C3 | C_0805 | 1 | 1uF |  |  | [''] | \n| 10 | USB1 | Molex-0548190589-Assembly\
+  \ | 1 | Molex-0548190589 |  |  | [''] | \n| 11 | SW1 | SKQG-1155865 | 1 | SW_Push\
+  \ |  |  | [''] | \n| 12 | U1 | TQFP-44_10x10mm_Pitch0.8mm | 1 | ATmega32U4-AU |\
+  \  |  | [''] | \n| 13 | Y1 | Crystal_SMD_3225-4pin_3.2x2.5mm | 1 | Crystal_GND24_Small\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitors_SMD:C_0805
+  Qnty: '2'
+  Ref: C1, C2
+  Value: 22pF
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitors_SMD:C_0805
+  Qnty: '1'
+  Ref: C3
+  Value: 1uF
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitors_SMD:C_0805
+  Qnty: '3'
+  Ref: C4, C5, C6
+  Value: 0.1uF
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitors_SMD:C_0805
+  Qnty: '1'
+  Ref: C7
+  Value: 10uF
+  Vendor: ''
+- Cmp name: D_Small
+  DNP: ''
+  Description: Diode, small symbol
+  Footprint: Diodes_SMD:D_SOD-123
+  Qnty: '4'
+  Ref: D1, D2, D3, D4
+  Value: SOD-123
+  Vendor: ''
+- Cmp name: Polyfuse_Small
+  DNP: ''
+  Description: Resettable fuse, polymeric positive temperature coefficient, small
+    symbol
+  Footprint: Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow
+  Qnty: '1'
+  Ref: F1
+  Value: 500mA
+  Vendor: ''
+- Cmp name: MX-NoLED-MX_Alps_Hybrid
+  DNP: ''
+  Description: ''
+  Footprint: MX_Alps_Hybrid:MX-1U
+  Qnty: '4'
+  Ref: MX1, MX2, MX3, MX4
+  Value: MX-NoLED
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistors_SMD:R_0805
+  Qnty: '2'
+  Ref: R1, R4
+  Value: 10k
+  Vendor: ''
+- Cmp name: R_Small
+  DNP: ''
+  Description: Resistor, small symbol
+  Footprint: Resistors_SMD:R_0805
+  Qnty: '2'
+  Ref: R2, R3
+  Value: '22'
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: Push button switch, generic, two pins
+  Footprint: random-keyboard-parts:SKQG-1155865
+  Qnty: '1'
+  Ref: SW1
+  Value: SW_Push
+  Vendor: ''
+- Cmp name: ATmega32U4-AU-MCU_Microchip_ATmega
+  DNP: ''
+  Description: ''
+  Footprint: Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm
+  Qnty: '1'
+  Ref: U1
+  Value: ATmega32U4-AU
+  Vendor: ''
+- Cmp name: Molex-0548190589-random-keyboard-parts
+  DNP: ''
+  Description: ''
+  Footprint: random-keyboard-parts:Molex-0548190589-Assembly
+  Qnty: '1'
+  Ref: USB1
+  Value: Molex-0548190589
+  Vendor: ''
+- Cmp name: Crystal_GND24_Small
+  DNP: ''
+  Description: Four pin crystal, GND on pins 2 and 4, small symbol
+  Footprint: Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm
+  Qnty: '1'
+  Ref: Y1
+  Value: Crystal_GND24_Small
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2\
+  \ | 2 | 22pF | C_Small | Capacitors_SMD:C_0805 | Unpolarized capacitor, small symbol\
+  \ |  |  | \n| C3 | 1 | 1uF | C_Small | Capacitors_SMD:C_0805 | Unpolarized capacitor,\
+  \ small symbol |  |  | \n| C4, C5, C6 | 3 | 0.1uF | C_Small | Capacitors_SMD:C_0805\
+  \ | Unpolarized capacitor, small symbol |  |  | \n| C7 | 1 | 10uF | C_Small | Capacitors_SMD:C_0805\
+  \ | Unpolarized capacitor, small symbol |  |  | \n| D1, D2, D3, D4 | 4 | SOD-123\
+  \ | D_Small | Diodes_SMD:D_SOD-123 | Diode, small symbol |  |  | \n| F1 | 1 | 500mA\
+  \ | Polyfuse_Small | Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow | Resettable fuse,\
+  \ polymeric positive temperature coefficient, small symbol |  |  | \n| MX1, MX2,\
+  \ MX3, MX4 | 4 | MX-NoLED | MX-NoLED-MX_Alps_Hybrid | MX_Alps_Hybrid:MX-1U |  |\
+  \  |  | \n| R1, R4 | 2 | 10k | R_Small | Resistors_SMD:R_0805 | Resistor, small\
+  \ symbol |  |  | \n| R2, R3 | 2 | 22 | R_Small | Resistors_SMD:R_0805 | Resistor,\
+  \ small symbol |  |  | \n| SW1 | 1 | SW_Push | SW_Push | random-keyboard-parts:SKQG-1155865\
+  \ | Push button switch, generic, two pins |  |  | \n| U1 | 1 | ATmega32U4-AU | ATmega32U4-AU-MCU_Microchip_ATmega\
+  \ | Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm |  |  |  | \n| USB1 | 1 | Molex-0548190589\
+  \ | Molex-0548190589-random-keyboard-parts | random-keyboard-parts:Molex-0548190589-Assembly\
+  \ |  |  |  | \n| Y1 | 1 | Crystal_GND24_Small | Crystal_GND24_Small | Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm\
+  \ | Four pin crystal, GND on pins 2 and 4, small symbol |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/ai03_2725_ai03_keyboard_pcb_guide_ai03_pcb_guide/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/ai03_2725_ai03_keyboard_pcb_guide_ai03_pcb_guide/current_version/working/working.kicad_pcb
@@ -6,6 +274,200 @@ file_repo_bom_csv_flat: projects/ai03_2725_ai03_keyboard_pcb_guide_ai03_pcb_guid
 file_sch_flat: projects/ai03_2725_ai03_keyboard_pcb_guide_ai03_pcb_guide/current_version/working/working.sch
 id: ai03_2725_ai03_keyboard_pcb_guide_ai03_pcb_guide
 name: ai03_keyboard_pcb_guide
+position_bottom:
+- '# Ref': C1
+  Package: C_0805
+  PosX: 62.8332
+  PosY: -69.342
+  Rot: 90.0
+  Side: bottom
+  Val: 22pF
+- '# Ref': C2
+  Package: C_0805
+  PosX: 54.3242
+  PosY: -69.342
+  Rot: -90.0
+  Side: bottom
+  Val: 22pF
+- '# Ref': C3
+  Package: C_0805
+  PosX: 48.7362
+  PosY: -81.788
+  Rot: 180.0
+  Side: bottom
+  Val: 1uF
+- '# Ref': C4
+  Package: C_0805
+  PosX: 51.4032
+  PosY: -74.041
+  Rot: 90.0
+  Side: bottom
+  Val: 0.1uF
+- '# Ref': C5
+  Package: C_0805
+  PosX: 68.0403
+  PosY: -77.597
+  Rot: 90.0
+  Side: bottom
+  Val: 0.1uF
+- '# Ref': C6
+  Package: C_0805
+  PosX: 63.5953
+  PosY: -91.44
+  Rot: 180.0
+  Side: bottom
+  Val: 0.1uF
+- '# Ref': C7
+  Package: C_0805
+  PosX: 49.403
+  PosY: -87.249
+  Rot: -90.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': D1
+  Package: D_SOD-123
+  PosX: 87.3125
+  PosY: -71.4375
+  Rot: 90.0
+  Side: bottom
+  Val: SOD-123
+- '# Ref': D2
+  Package: D_SOD-123
+  PosX: 106.3625
+  PosY: -71.4375
+  Rot: 90.0
+  Side: bottom
+  Val: SOD-123
+- '# Ref': D3
+  Package: D_SOD-123
+  PosX: 87.3125
+  PosY: -90.4875
+  Rot: 90.0
+  Side: bottom
+  Val: SOD-123
+- '# Ref': D4
+  Package: D_SOD-123
+  PosX: 106.3625
+  PosY: -90.4875
+  Rot: 90.0
+  Side: bottom
+  Val: SOD-123
+- '# Ref': F1
+  Package: Fuse_SMD1206_Reflow
+  PosX: 34.925
+  PosY: -79.375
+  Rot: 90.0
+  Side: bottom
+  Val: 500mA
+- '# Ref': R1
+  Package: R_0805
+  PosX: 47.9742
+  PosY: -74.041
+  Rot: -90.0
+  Side: bottom
+  Val: 10k
+- '# Ref': R2
+  Package: R_0805
+  PosX: 40.894
+  PosY: -73.914
+  Rot: 90.0
+  Side: bottom
+  Val: '22'
+- '# Ref': R3
+  Package: R_0805
+  PosX: 37.592
+  PosY: -73.914
+  Rot: 90.0
+  Side: bottom
+  Val: '22'
+- '# Ref': R4
+  Package: R_0805
+  PosX: 68.199
+  PosY: -87.503
+  Rot: 90.0
+  Side: bottom
+  Val: 10k
+- '# Ref': SW1
+  Package: SKQG-1155865
+  PosX: 38.484
+  PosY: -95.5078
+  Rot: 180.0
+  Side: bottom
+  Val: SW_Push
+- '# Ref': U1
+  Package: TQFP-44_10x10mm_Pitch0.8mm
+  PosX: 58.928
+  PosY: -82.296
+  Rot: 0.0
+  Side: bottom
+  Val: ATmega32U4-AU
+- '# Ref': USB1
+  Package: Molex-0548190589-Assembly
+  PosX: 39.6875
+  PosY: -63.5
+  Rot: -90.0
+  Side: bottom
+  Val: Molex-0548190589
+- '# Ref': Y1
+  Package: Crystal_SMD_3225-4pin_3.2x2.5mm
+  PosX: 58.547
+  PosY: -69.342
+  Rot: 180.0
+  Side: bottom
+  Val: Crystal_GND24_Small
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C1 | 22pF | C_0805 | 62.8332 | -69.342\
+  \ | 90.0 | bottom | \n| C2 | 22pF | C_0805 | 54.3242 | -69.342 | -90.0 | bottom\
+  \ | \n| C3 | 1uF | C_0805 | 48.7362 | -81.788 | 180.0 | bottom | \n| C4 | 0.1uF\
+  \ | C_0805 | 51.4032 | -74.041 | 90.0 | bottom | \n| C5 | 0.1uF | C_0805 | 68.0403\
+  \ | -77.597 | 90.0 | bottom | \n| C6 | 0.1uF | C_0805 | 63.5953 | -91.44 | 180.0\
+  \ | bottom | \n| C7 | 10uF | C_0805 | 49.403 | -87.249 | -90.0 | bottom | \n| D1\
+  \ | SOD-123 | D_SOD-123 | 87.3125 | -71.4375 | 90.0 | bottom | \n| D2 | SOD-123\
+  \ | D_SOD-123 | 106.3625 | -71.4375 | 90.0 | bottom | \n| D3 | SOD-123 | D_SOD-123\
+  \ | 87.3125 | -90.4875 | 90.0 | bottom | \n| D4 | SOD-123 | D_SOD-123 | 106.3625\
+  \ | -90.4875 | 90.0 | bottom | \n| F1 | 500mA | Fuse_SMD1206_Reflow | 34.925 | -79.375\
+  \ | 90.0 | bottom | \n| R1 | 10k | R_0805 | 47.9742 | -74.041 | -90.0 | bottom |\
+  \ \n| R2 | 22 | R_0805 | 40.894 | -73.914 | 90.0 | bottom | \n| R3 | 22 | R_0805\
+  \ | 37.592 | -73.914 | 90.0 | bottom | \n| R4 | 10k | R_0805 | 68.199 | -87.503\
+  \ | 90.0 | bottom | \n| SW1 | SW_Push | SKQG-1155865 | 38.484 | -95.5078 | 180.0\
+  \ | bottom | \n| U1 | ATmega32U4-AU | TQFP-44_10x10mm_Pitch0.8mm | 58.928 | -82.296\
+  \ | 0.0 | bottom | \n| USB1 | Molex-0548190589 | Molex-0548190589-Assembly | 39.6875\
+  \ | -63.5 | -90.0 | bottom | \n| Y1 | Crystal_GND24_Small | Crystal_SMD_3225-4pin_3.2x2.5mm\
+  \ | 58.547 | -69.342 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': MX1
+  Package: MX-1U
+  PosX: 79.375
+  PosY: -71.4375
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX2
+  Package: MX-1U
+  PosX: 98.425
+  PosY: -71.4375
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX3
+  Package: MX-1U
+  PosX: 79.375
+  PosY: -90.4875
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+- '# Ref': MX4
+  Package: MX-1U
+  PosX: 98.425
+  PosY: -90.4875
+  Rot: 0.0
+  Side: top
+  Val: MX-NoLED
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| MX1 | MX-NoLED | MX-1U | 79.375 | -71.4375\
+  \ | 0.0 | top | \n| MX2 | MX-NoLED | MX-1U | 98.425 | -71.4375 | 0.0 | top | \n\
+  | MX3 | MX-NoLED | MX-1U | 79.375 | -90.4875 | 0.0 | top | \n| MX4 | MX-NoLED |\
+  \ MX-1U | 98.425 | -90.4875 | 0.0 | top | \n"
 projects_flat: projects/ai03_2725_ai03_keyboard_pcb_guide_ai03_pcb_guide/current_version/working
 repo:
   allow_forking: true

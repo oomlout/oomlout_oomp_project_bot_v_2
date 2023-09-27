@@ -14,6 +14,7 @@
 * full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adafruit_adafruit_e_paper_display_breakout_pcbs_adafruit_2_7in_tri_color_eink_display/current_version/working  
 
 
+
 ## pcb  
 ![](working_3d_600.png) 
 ![](working_3d_front_600.png)  
@@ -37,7 +38,7 @@
 | 11 | C15 | 0805-NO | 1 | 10uF/10V+ |  |  | [''] | 
 | 12 | C24 | 0805-NO | 1 | 1uF/6V |  |  | [''] | 
 | 13 | C8,C7 | 0805-NO | 2 | 1uF |  |  | [''] | 
-| 14 | C20,C21 | 0805-NO | 2 | 10µF |  |  | [''] | 
+| 14 | C20,C21 | 0805-NO | 2 | 10ÂµF |  |  | [''] | 
 | 15 | X1 | MICROSD | 1 | MICROSD |  |  | [''] | 
 | 16 | U$28 | ADAFRUIT_TEXT_20MM | 1 |  |  |  | [''] | 
 | 17 | R4 | 0805_10MGAP | 1 | 0.47ohm |  |  | [''] | 
@@ -54,8 +55,8 @@
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$3 | m3 | 
-| 38.099999999999994 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$4 | m3 | 
-| 0.0 | 38.10000000000001 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$5 | m3 | 
-| 38.099999999999994 | 38.10000000000001 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$6 | m3 | 
+| 38.1 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$4 | m3 | 
+| 0.0 | 38.1 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$5 | m3 | 
+| 38.1 | 38.1 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$6 | m3 | 
 
 

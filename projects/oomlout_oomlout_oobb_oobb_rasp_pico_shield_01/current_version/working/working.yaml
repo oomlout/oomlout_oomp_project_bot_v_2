@@ -1,9 +1,342 @@
 board: oobb_rasp_pico_shield_01
+bom:
+- Id: '1'
+  Designator: J14,J12,J6,J3,J1,J9,J10,J7,J5,J8,J2,J13
+  Footprint: MODULE-CONN-OOBB-BA-01
+  Quantity: '12'
+  Designation: MODULE-CONN-OOBB-BA-01
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J11
+  Footprint: BarrelJack_GCT_DCJ200-10-A_Horizontal
+  Quantity: '1'
+  Designation: Barrel_Jack_Switch
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J4
+  Footprint: JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal
+  Quantity: '1'
+  Designation: HEAD-JSTSH-X-PI04-RS oom.lt/HSHR4
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U1
+  Footprint: SOT-223-3_TabPin2
+  Quantity: '1'
+  Designation: LD1117S33TR_SOT223
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U10
+  Footprint: MODULE-CONN-RASP-PICO-2040
+  Quantity: '1'
+  Designation: MODULE-CONN-RASP-PICO-2040
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: U2
+  Footprint: MODULE-CONN-USB-MEGA-01
+  Quantity: '1'
+  Designation: MODULE-CONN-USB-MEGA-01
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: C1
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: CAPC-0603-X-NF100-V50
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: C2
+  Footprint: C_0805_2012Metric
+  Quantity: '1'
+  Designation: CAPC-0805-X-UF10-V10
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J14,J12,J6,J3,J1,J9,J10,J7,J5,J8,J2,J13\
+  \ | MODULE-CONN-OOBB-BA-01 | 12 | MODULE-CONN-OOBB-BA-01 |  |  | [''] | \n| 2 |\
+  \ J11 | BarrelJack_GCT_DCJ200-10-A_Horizontal | 1 | Barrel_Jack_Switch |  |  | ['']\
+  \ | \n| 3 | J4 | JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal | 1 | HEAD-JSTSH-X-PI04-RS\
+  \ oom.lt/HSHR4 |  |  | [''] | \n| 4 | U1 | SOT-223-3_TabPin2 | 1 | LD1117S33TR_SOT223\
+  \ |  |  | [''] | \n| 5 | U10 | MODULE-CONN-RASP-PICO-2040 | 1 | MODULE-CONN-RASP-PICO-2040\
+  \ |  |  | [''] | \n| 6 | U2 | MODULE-CONN-USB-MEGA-01 | 1 | MODULE-CONN-USB-MEGA-01\
+  \ |  |  | [''] | \n| 7 | C1 | C_0603_1608Metric | 1 | CAPC-0603-X-NF100-V50 |  |\
+  \  | [''] | \n| 8 | C2 | C_0805_2012Metric | 1 | CAPC-0805-X-UF10-V10 |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C1
+  Value: CAPC-0603-X-NF100-V50
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0805_2012Metric
+  Qnty: '1'
+  Ref: C2
+  Value: CAPC-0805-X-UF10-V10
+  Vendor: ''
+- Cmp name: MODULE-CONN-OOBB-BA-01
+  DNP: ''
+  Description: ''
+  Footprint: oomlout_OOMP_modules:MODULE-CONN-OOBB-BA-01
+  Qnty: '12'
+  Ref: J1, J2, J3, J5, J6, J7, J8, J9, J10, J12, J13, J14
+  Value: MODULE-CONN-OOBB-BA-01
+  Vendor: ''
+- Cmp name: Conn_01x04_MountingPin
+  DNP: ''
+  Description: Generic connectable mounting pin connector, single row, 01x04, script
+    generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal
+  Qnty: '1'
+  Ref: J4
+  Value: HEAD-JSTSH-X-PI04-RS oom.lt/HSHR4
+  Vendor: ''
+- Cmp name: Barrel_Jack_Switch
+  DNP: ''
+  Description: DC Barrel Jack with an internal switch
+  Footprint: Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal
+  Qnty: '1'
+  Ref: J11
+  Value: Barrel_Jack_Switch
+  Vendor: ''
+- Cmp name: LD1117S33TR_SOT223
+  DNP: ''
+  Description: 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V,
+    SOT-223
+  Footprint: Package_TO_SOT_SMD:SOT-223-3_TabPin2
+  Qnty: '1'
+  Ref: U1
+  Value: LD1117S33TR_SOT223
+  Vendor: ''
+- Cmp name: MODULE-CONN-USB-MEGA-01
+  DNP: ''
+  Description: ''
+  Footprint: oomlout_OOMP_modules:MODULE-CONN-USB-MEGA-01
+  Qnty: '1'
+  Ref: U2
+  Value: MODULE-CONN-USB-MEGA-01
+  Vendor: ''
+- Cmp name: MODULE-CONN-RASP-PICO-2040
+  DNP: ''
+  Description: ''
+  Footprint: oomlout_OOMP_modules:MODULE-CONN-RASP-PICO-2040
+  Qnty: '1'
+  Ref: U10
+  Value: MODULE-CONN-RASP-PICO-2040
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | CAPC-0603-X-NF100-V50 | C | Capacitor_SMD:C_0603_1608Metric | Unpolarized\
+  \ capacitor |  |  | \n| C2 | 1 | CAPC-0805-X-UF10-V10 | C | Capacitor_SMD:C_0805_2012Metric\
+  \ | Unpolarized capacitor |  |  | \n| J1, J2, J3, J5, J6, J7, J8, J9, J10, J12,\
+  \ J13, J14 | 12 | MODULE-CONN-OOBB-BA-01 | MODULE-CONN-OOBB-BA-01 | oomlout_OOMP_modules:MODULE-CONN-OOBB-BA-01\
+  \ |  |  |  | \n| J4 | 1 | HEAD-JSTSH-X-PI04-RS oom.lt/HSHR4 | Conn_01x04_MountingPin\
+  \ | Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal | Generic connectable\
+  \ mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J11 | 1 | Barrel_Jack_Switch | Barrel_Jack_Switch | Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal\
+  \ | DC Barrel Jack with an internal switch |  |  | \n| U1 | 1 | LD1117S33TR_SOT223\
+  \ | LD1117S33TR_SOT223 | Package_TO_SOT_SMD:SOT-223-3_TabPin2 | 800mA Fixed Low\
+  \ Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223 |  |  | \n| U2 | 1\
+  \ | MODULE-CONN-USB-MEGA-01 | MODULE-CONN-USB-MEGA-01 | oomlout_OOMP_modules:MODULE-CONN-USB-MEGA-01\
+  \ |  |  |  | \n| U10 | 1 | MODULE-CONN-RASP-PICO-2040 | MODULE-CONN-RASP-PICO-2040\
+  \ | oomlout_OOMP_modules:MODULE-CONN-RASP-PICO-2040 |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/oomlout_oomlout_oobb_oobb_rasp_pico_shield_01/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/oomlout_oomlout_oobb_oobb_rasp_pico_shield_01/current_version/working/working.kicad_sch
 id: oomlout_oomlout_oobb_oobb_rasp_pico_shield_01
 name: oomlout_oobb
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: C_0603_1608Metric
+  PosX: 146.685
+  PosY: -107.315
+  Rot: -90.0
+  Side: top
+  Val: CAPC-0603-X-NF100-V50
+- '# Ref': C2
+  Package: C_0805_2012Metric
+  PosX: 135.255
+  PosY: -107.315
+  Rot: 90.0
+  Side: top
+  Val: CAPC-0805-X-UF10-V10
+- '# Ref': J1
+  Package: MODULE-CONN-OOBB-BA-01
+  PosX: 140.355
+  PosY: -67.715
+  Rot: 90.0
+  Side: top
+  Val: MODULE-CONN-OOBB-BA-01
+- '# Ref': J2
+  Package: MODULE-CONN-OOBB-BA-01
+  PosX: 140.355
+  PosY: -80.415
+  Rot: 90.0
+  Side: top
+  Val: MODULE-CONN-OOBB-BA-01
+- '# Ref': J3
+  Package: MODULE-CONN-OOBB-BA-01
+  PosX: 140.355
+  PosY: -93.115
+  Rot: 90.0
+  Side: top
+  Val: MODULE-CONN-OOBB-BA-01
+- '# Ref': J4
+  Package: JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal
+  PosX: 141.625
+  PosY: -61.595
+  Rot: 180.0
+  Side: top
+  Val: HEAD-JSTSH-X-PI04-RS_oom.lt/HSHR4
+- '# Ref': J5
+  Package: MODULE-CONN-OOBB-BA-01
+  PosX: 140.355
+  PosY: -70.255
+  Rot: 90.0
+  Side: top
+  Val: MODULE-CONN-OOBB-BA-01
+- '# Ref': J6
+  Package: MODULE-CONN-OOBB-BA-01
+  PosX: 140.355
+  PosY: -82.955
+  Rot: 90.0
+  Side: top
+  Val: MODULE-CONN-OOBB-BA-01
+- '# Ref': J7
+  Package: MODULE-CONN-OOBB-BA-01
+  PosX: 140.355
+  PosY: -95.655
+  Rot: 90.0
+  Side: top
+  Val: MODULE-CONN-OOBB-BA-01
+- '# Ref': J8
+  Package: MODULE-CONN-OOBB-BA-01
+  PosX: 140.355
+  PosY: -72.795
+  Rot: 90.0
+  Side: top
+  Val: MODULE-CONN-OOBB-BA-01
+- '# Ref': J9
+  Package: MODULE-CONN-OOBB-BA-01
+  PosX: 140.355
+  PosY: -85.495
+  Rot: 90.0
+  Side: top
+  Val: MODULE-CONN-OOBB-BA-01
+- '# Ref': J10
+  Package: MODULE-CONN-OOBB-BA-01
+  PosX: 140.355
+  PosY: -98.195
+  Rot: 90.0
+  Side: top
+  Val: MODULE-CONN-OOBB-BA-01
+- '# Ref': J11
+  Package: BarrelJack_GCT_DCJ200-10-A_Horizontal
+  PosX: 140.97
+  PosY: -112.395
+  Rot: 0.0
+  Side: top
+  Val: Barrel_Jack_Switch
+- '# Ref': J12
+  Package: MODULE-CONN-OOBB-BA-01
+  PosX: 140.355
+  PosY: -100.735
+  Rot: 90.0
+  Side: top
+  Val: MODULE-CONN-OOBB-BA-01
+- '# Ref': J13
+  Package: MODULE-CONN-OOBB-BA-01
+  PosX: 140.355
+  PosY: -75.335
+  Rot: 90.0
+  Side: top
+  Val: MODULE-CONN-OOBB-BA-01
+- '# Ref': J14
+  Package: MODULE-CONN-OOBB-BA-01
+  PosX: 140.355
+  PosY: -88.035
+  Rot: 90.0
+  Side: top
+  Val: MODULE-CONN-OOBB-BA-01
+- '# Ref': U1
+  Package: SOT-223-3_TabPin2
+  PosX: 140.97
+  PosY: -107.315
+  Rot: 180.0
+  Side: top
+  Val: LD1117S33TR_SOT223
+- '# Ref': U2
+  Package: MODULE-CONN-USB-MEGA-01
+  PosX: 140.0
+  PosY: -124.0
+  Rot: 0.0
+  Side: top
+  Val: MODULE-CONN-USB-MEGA-01
+- '# Ref': U10
+  Package: MODULE-CONN-RASP-PICO-2040
+  PosX: 132.08
+  PosY: -67.715
+  Rot: 0.0
+  Side: top
+  Val: MODULE-CONN-RASP-PICO-2040
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | CAPC-0603-X-NF100-V50 | C_0603_1608Metric\
+  \ | 146.685 | -107.315 | -90.0 | top | \n| C2 | CAPC-0805-X-UF10-V10 | C_0805_2012Metric\
+  \ | 135.255 | -107.315 | 90.0 | top | \n| J1 | MODULE-CONN-OOBB-BA-01 | MODULE-CONN-OOBB-BA-01\
+  \ | 140.355 | -67.715 | 90.0 | top | \n| J2 | MODULE-CONN-OOBB-BA-01 | MODULE-CONN-OOBB-BA-01\
+  \ | 140.355 | -80.415 | 90.0 | top | \n| J3 | MODULE-CONN-OOBB-BA-01 | MODULE-CONN-OOBB-BA-01\
+  \ | 140.355 | -93.115 | 90.0 | top | \n| J4 | HEAD-JSTSH-X-PI04-RS_oom.lt/HSHR4\
+  \ | JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal | 141.625 | -61.595 | 180.0\
+  \ | top | \n| J5 | MODULE-CONN-OOBB-BA-01 | MODULE-CONN-OOBB-BA-01 | 140.355 | -70.255\
+  \ | 90.0 | top | \n| J6 | MODULE-CONN-OOBB-BA-01 | MODULE-CONN-OOBB-BA-01 | 140.355\
+  \ | -82.955 | 90.0 | top | \n| J7 | MODULE-CONN-OOBB-BA-01 | MODULE-CONN-OOBB-BA-01\
+  \ | 140.355 | -95.655 | 90.0 | top | \n| J8 | MODULE-CONN-OOBB-BA-01 | MODULE-CONN-OOBB-BA-01\
+  \ | 140.355 | -72.795 | 90.0 | top | \n| J9 | MODULE-CONN-OOBB-BA-01 | MODULE-CONN-OOBB-BA-01\
+  \ | 140.355 | -85.495 | 90.0 | top | \n| J10 | MODULE-CONN-OOBB-BA-01 | MODULE-CONN-OOBB-BA-01\
+  \ | 140.355 | -98.195 | 90.0 | top | \n| J11 | Barrel_Jack_Switch | BarrelJack_GCT_DCJ200-10-A_Horizontal\
+  \ | 140.97 | -112.395 | 0.0 | top | \n| J12 | MODULE-CONN-OOBB-BA-01 | MODULE-CONN-OOBB-BA-01\
+  \ | 140.355 | -100.735 | 90.0 | top | \n| J13 | MODULE-CONN-OOBB-BA-01 | MODULE-CONN-OOBB-BA-01\
+  \ | 140.355 | -75.335 | 90.0 | top | \n| J14 | MODULE-CONN-OOBB-BA-01 | MODULE-CONN-OOBB-BA-01\
+  \ | 140.355 | -88.035 | 90.0 | top | \n| U1 | LD1117S33TR_SOT223 | SOT-223-3_TabPin2\
+  \ | 140.97 | -107.315 | 180.0 | top | \n| U2 | MODULE-CONN-USB-MEGA-01 | MODULE-CONN-USB-MEGA-01\
+  \ | 140.0 | -124.0 | 0.0 | top | \n| U10 | MODULE-CONN-RASP-PICO-2040 | MODULE-CONN-RASP-PICO-2040\
+  \ | 132.08 | -67.715 | 0.0 | top | \n"
 projects_flat: projects/oomlout_oomlout_oobb_oobb_rasp_pico_shield_01/current_version/working
 repo:
   allow_forking: true

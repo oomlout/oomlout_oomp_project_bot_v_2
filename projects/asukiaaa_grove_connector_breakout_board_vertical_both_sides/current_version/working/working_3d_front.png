@@ -1,0 +1,188 @@
+(pcb C:\gh\oomlout_oomp_project_bot_v_2\projects\asukiaaa_grove_connector_breakout_board_vertical_both_sides\current_version\working\working_3d_front.png
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "7.0.6")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  151400 -96170  146300 -96170  146300 -78730  151400 -78730
+            151400 -96170)
+    )
+    (plane GND (polygon F.Cu 0  151400 -96150  146300 -96150  146350 -78730  151450 -78730
+            151400 -96150))
+    (plane GND (polygon B.Cu 0  151400 -96150  146300 -96150  146300 -78730  151400 -78730
+            151400 -96150))
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "my-kicad-footprints:NS-Tech_Grove_1x04_P2mm_Vertical_silk_inside"
+      (place J1 149200.000000 -84400.000000 front 0.000000 (PN "Grove-I2C-connector"))
+    )
+    (component Fiducial:Fiducial_0.5mm_Mask1mm
+      (place Fid1 149000.000000 -82875.000000 front 0.000000 (PN Fiducial_0.5mm_Mask1mm))
+      (place Fid2 147550.000000 -90925.000000 back 180.000000 (PN Fiducial_0.5mm_Mask1mm))
+    )
+    (component "my-kicad-footprints:PinHeader_1x02_P2.54mm_Vertical_silk_inside"
+      (place J2 147570.000000 -79830.000000 back 90.000000 (PN Conn_01x02))
+    )
+    (component "my-kicad-footprints:PinHeader_1x02_P2.54mm_Vertical_all_circle_silk_inside"
+      (place J3 150100.000000 -95070.000000 back 270.000000 (PN Conn_01x02))
+    )
+  )
+  (library
+    (image "my-kicad-footprints:NS-Tech_Grove_1x04_P2mm_Vertical_silk_inside"
+      (outline (path signal 120  -2700 1900  -2700 -150))
+      (outline (path signal 120  -2700 -400  -2700 -1000))
+      (outline (path signal 120  -2700 -1250  -2700 -4750))
+      (outline (path signal 120  -2700 -5000  -2700 -5600))
+      (outline (path signal 120  -2700 -5900  -2700 -7900))
+      (outline (path signal 100  -2900 2100  2200 2100))
+      (outline (path signal 100  -2900 -8100  -2900 2100))
+      (outline (path signal 100  900 0  2200 -1000))
+      (outline (path signal 100  2200 2100  2200 -8100))
+      (outline (path signal 100  2200 1000  900 0))
+      (outline (path signal 100  2200 -8100  -2900 -8100))
+      (pin Rect[A]Pad_1524x1524_um 1 0 0)
+      (pin Round[A]Pad_1524_um 2 0 -2000)
+      (pin Round[A]Pad_1524_um 3 0 -4000)
+      (pin Round[A]Pad_1524_um 4 0 -6000)
+    )
+    (image Fiducial:Fiducial_0.5mm_Mask1mm
+      (outline (path signal 50  750 0  731.196 -166.891  675.727 -325.413  586.374 -467.617
+            467.617 -586.374  325.413 -675.727  166.891 -731.196  0 -750
+            -166.891 -731.196  -325.413 -675.727  -467.617 -586.374  -586.374 -467.617
+            -675.727 -325.413  -731.196 -166.891  -750 0  -731.196 166.891
+            -675.727 325.413  -586.374 467.617  -467.617 586.374  -325.413 675.727
+            -166.891 731.196  0 750  166.891 731.196  325.413 675.727  467.617 586.374
+            586.374 467.617  675.727 325.413  731.196 166.891  750 0))
+      (outline (path signal 100  500 0  481.459 -134.898  427.21 -259.792  341.277 -365.418
+            230.033 -443.943  101.728 -489.542  -34.121 -498.834  -167.44 -471.13
+            -288.34 -408.485  -387.856 -315.544  -458.606 -199.201  -495.343 -68.083
+            -495.343 68.083  -458.606 199.201  -387.856 315.544  -288.34 408.485
+            -167.44 471.13  -34.121 498.834  101.728 489.542  230.033 443.943
+            341.277 365.418  427.21 259.792  481.459 134.898  500 0))
+      (pin Round[T]Pad_500_um @1 0 0)
+    )
+    (image "my-kicad-footprints:PinHeader_1x02_P2.54mm_Vertical_silk_inside"
+      (outline (path signal 120  -1030 -3570  1030 -3570))
+      (outline (path signal 120  -1030 -300  -1030 1030))
+      (outline (path signal 120  -1030 1030  300 1030))
+      (outline (path signal 50  -1800 -4350  1800 -4350))
+      (outline (path signal 50  -1800 1800  -1800 -4350))
+      (outline (path signal 50  1800 -4350  1800 1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 100  -1270 -3810  -1270 635))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 -3810  -1270 -3810))
+      (outline (path signal 100  1270 1270  1270 -3810))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+    )
+    (image "my-kicad-footprints:PinHeader_1x02_P2.54mm_Vertical_all_circle_silk_inside"
+      (outline (path signal 120  -1030 -3570  1030 -3570))
+      (outline (path signal 120  -1030 1030  1030 1030))
+      (outline (path signal 50  -1800 -4350  1800 -4350))
+      (outline (path signal 50  -1800 1800  -1800 -4350))
+      (outline (path signal 50  1800 -4350  1800 1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 100  -1270 -3810  -1270 635))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 -3810  -1270 -3810))
+      (outline (path signal 100  1270 1270  1270 -3810))
+      (pin Round[A]Pad_1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+    )
+    (padstack Round[A]Pad_1524_um
+      (shape (circle F.Cu 1524))
+      (shape (circle B.Cu 1524))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1700_um
+      (shape (circle F.Cu 1700))
+      (shape (circle B.Cu 1700))
+      (attach off)
+    )
+    (padstack Round[T]Pad_500_um
+      (shape (circle F.Cu 500))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1524x1524_um
+      (shape (rect F.Cu -762 -762 762 762))
+      (shape (rect B.Cu -762 -762 762 762))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins J1-4 J3-2)
+    )
+    (net "Net-(J1-Pad3)"
+      (pins J1-3 J3-1)
+    )
+    (net "Net-(J1-Pad2)"
+      (pins J1-2 J2-2)
+    )
+    (net "Net-(J1-Pad1)"
+      (pins J1-1 J2-1)
+    )
+    (class kicad_default "" GND "Net-(J1-Pad1)" "Net-(J1-Pad2)" "Net-(J1-Pad3)"
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 250  149200 -93430  147560 -95070)(net GND)(type route))
+    (wire (path F.Cu 250  149200 -90400  149200 -93430)(net GND)(type route))
+    (wire (path F.Cu 250  149200 -88400  150287 -89487  150287 -94883  150100 -95070)(net "Net-(J1-Pad3)")(type route))
+    (wire (path F.Cu 250  150950 -80680  150100 -79830)(net "Net-(J1-Pad2)")(type route))
+    (wire (path F.Cu 250  150950 -84650  150950 -80680)(net "Net-(J1-Pad2)")(type route))
+    (wire (path F.Cu 250  149200 -86400  150950 -84650)(net "Net-(J1-Pad2)")(type route))
+    (wire (path F.Cu 250  147560 -82760  149200 -84400)(net "Net-(J1-Pad1)")(type route))
+    (wire (path F.Cu 250  147560 -79840  147570 -79830)(net "Net-(J1-Pad1)")(type route))
+    (wire (path F.Cu 250  147560 -82760  147560 -79840)(net "Net-(J1-Pad1)")(type route))
+  )
+)

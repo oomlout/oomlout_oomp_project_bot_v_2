@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -29,7 +50,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | U2 | SOT23-5 | 1 | SPX3819-3.3 |  |  | [''] | 
 | 2 | U3 | SOT23-5 | 1 | MCP73831T-2ACI/OT |  |  | [''] | 
-| 3 | C8,C6,C3 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 3 | C8,C6,C3 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 4 | C4,C2 | 0603-NO | 2 | 22pF |  |  | [''] | 
 | 5 | C7,C14,C1 | 0603-NO | 3 | 1uF |  |  | [''] | 
 | 6 | R8 | 0603-NO | 1 | 10K\ |  |  | [''] | 
@@ -62,7 +83,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C7, C14 | 3 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C2, C4 | 2 | 22pF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C3, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C5 | 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | CHG0 | 1 | ORANGE | LED0805_NOOUTLINE | working:CHIPLED_0805_NOOUTLINE |  |  |  | 
 | D1 | 1 | MBR120 | DIODE-SCHOTTKYSOD-123 | working:SOD-123 |  |  |  | 

@@ -16,7 +16,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -29,7 +50,7 @@
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | C15,C14,C16,C17,C3,C4,C7,C8,C9 | 0402 | 9 | 100n |  |  | [''] | 
-| 2 | C13 | 0603 | 1 | 10µ |  |  | [''] | 
+| 2 | C13 | 0603 | 1 | 10Âµ |  |  | [''] | 
 | 3 | D1 | 0603-LED | 1 | RED |  |  | [''] | 
 | 4 | D2 | 0603-LED | 1 | YLW |  |  | [''] | 
 | 5 | D3 | 0603-LED | 1 | GRN |  |  | [''] | 
@@ -41,13 +62,13 @@
 | 11 | R1,R2,R3,R4,R5 | 0402 | 5 | 100 |  |  | [''] | 
 | 12 | J3 | TFML-110-02-L-D | 1 | EAST TOP |  |  | [''] | 
 | 13 | C1,C6 | 0402 | 2 | 10p |  |  | [''] | 
-| 14 | C5 | 0402 | 1 | 1µ |  |  | [''] | 
+| 14 | C5 | 0402 | 1 | 1Âµ |  |  | [''] | 
 | 15 | IC1 | LQFP-64 | 1 | STM32F405RxTx |  |  | [''] | 
 | 16 | J1 | TFML-110-02-L-D | 1 | WEST TOP |  |  | [''] | 
 | 17 | Y1 | XTAL-20x16 | 1 | 26M |  |  | [''] | 
 | 18 | LS1 | KSSG13J12-N | 1 | SOUNDER |  |  | [''] | 
-| 19 | C2 | 0402 | 1 | 4µ7 |  |  | [''] | 
-| 20 | C10,C11 | 0402 | 2 | 2µ2 |  |  | [''] | 
+| 19 | C2 | 0402 | 1 | 4Âµ7 |  |  | [''] | 
+| 20 | C10,C11 | 0402 | 2 | 2Âµ2 |  |  | [''] | 
 | 21 | D4 | SOD-323 | 1 | D |  |  | [''] | 
 | 22 | G*** | cusf_logo_small | 1 | LOGO |  |  | [''] | 
 | 23 | J4 | SFML-110-02-L-D-LC | 1 | EAST BOT |  |  | [''] | 
@@ -59,11 +80,11 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C6 | 2 | 10p | C | agg:0402 |  |  |  | 
-| C2 | 1 | 4µ7 | C | agg:0402 |  |  |  | 
+| C2 | 1 | 4Âµ7 | C | agg:0402 |  |  |  | 
 | C3, C4, C7, C8, C9, C14, C15, C16, C17 | 9 | 100n | C | agg:0402 |  |  |  | 
-| C5 | 1 | 1µ | C | agg:0402 |  |  |  | 
-| C10, C11 | 2 | 2µ2 | C | agg:0402 |  |  |  | 
-| C13 | 1 | 10µ | C | agg:0603 |  |  |  | 
+| C5 | 1 | 1Âµ | C | agg:0402 |  |  |  | 
+| C10, C11 | 2 | 2Âµ2 | C | agg:0402 |  |  |  | 
+| C13 | 1 | 10Âµ | C | agg:0603 |  |  |  | 
 | D1 | 1 | RED | LED | agg:0603-LED |  |  |  | 
 | D2 | 1 | YLW | LED | agg:0603-LED |  |  |  | 
 | D3 | 1 | GRN | LED | agg:0603-LED |  |  |  | 

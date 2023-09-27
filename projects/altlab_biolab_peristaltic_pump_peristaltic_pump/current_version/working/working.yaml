@@ -1,10 +1,307 @@
 board: peristaltic_pump
+bom:
+- Id: '1'
+  Designator: A1
+  Footprint: Arduino_UNO_R3
+  Quantity: '1'
+  Designation: Arduino_UNO_R3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: A2
+  Footprint: DIP-16_W7.62mm_Socket_LongPads
+  Quantity: '1'
+  Designation: Pololu_Breakout_A4988
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C1,C2
+  Footprint: C_Disc_D7.5mm_W2.5mm_P5.00mm
+  Quantity: '2'
+  Designation: CP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: C3
+  Footprint: CP_Radial_D6.3mm_P2.50mm
+  Quantity: '1'
+  Designation: C
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J1
+  Footprint: PinSocket_1x03_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Encoder
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J2
+  Footprint: PinSocket_1x04_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Stepper
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R1,R2,R3,R4
+  Footprint: R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+  Quantity: '4'
+  Designation: R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: J4
+  Footprint: BarrelJack_CUI_PJ-063AH_Horizontal
+  Quantity: '1'
+  Designation: Power12V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: J5
+  Footprint: PinSocket_1x04_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: LCD-I2C
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | A1\
+  \ | Arduino_UNO_R3 | 1 | Arduino_UNO_R3 |  |  | [''] | \n| 2 | A2 | DIP-16_W7.62mm_Socket_LongPads\
+  \ | 1 | Pololu_Breakout_A4988 |  |  | [''] | \n| 3 | C1,C2 | C_Disc_D7.5mm_W2.5mm_P5.00mm\
+  \ | 2 | CP |  |  | [''] | \n| 4 | C3 | CP_Radial_D6.3mm_P2.50mm | 1 | C |  |  |\
+  \ [''] | \n| 5 | J1 | PinSocket_1x03_P2.54mm_Vertical | 1 | Encoder |  |  | ['']\
+  \ | \n| 6 | J2 | PinSocket_1x04_P2.54mm_Vertical | 1 | Stepper |  |  | [''] | \n\
+  | 7 | R1,R2,R3,R4 | R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal | 4 | R | \
+  \ |  | [''] | \n| 8 | J4 | BarrelJack_CUI_PJ-063AH_Horizontal | 1 | Power12V | \
+  \ |  | [''] | \n| 9 | J5 | PinSocket_1x04_P2.54mm_Vertical | 1 | LCD-I2C |  |  |\
+  \ [''] | \n"
+bom_schematic:
+- Cmp name: Arduino_UNO_R3-MCU_Module
+  DNP: ''
+  Description: ''
+  Footprint: Module:Arduino_UNO_R3
+  Qnty: '1'
+  Ref: A1
+  Value: Arduino_UNO_R3
+  Vendor: ''
+- Cmp name: Pololu_Breakout_A4988
+  DNP: ''
+  Description: Pololu Breakout Board, Stepper Driver A4988
+  Footprint: Package_DIP:DIP-16_W7.62mm_Socket_LongPads
+  Qnty: '1'
+  Ref: A2
+  Value: Pololu_Breakout_A4988
+  Vendor: ''
+- Cmp name: CP-Device
+  DNP: ''
+  Description: ''
+  Footprint: Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm
+  Qnty: '2'
+  Ref: C1, C2
+  Value: CP
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_THT:CP_Radial_D6.3mm_P2.50mm
+  Qnty: '1'
+  Ref: C3
+  Value: C
+  Vendor: ''
+- Cmp name: Conn_01x03_Female-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J1
+  Value: Encoder
+  Vendor: ''
+- Cmp name: Conn_01x04_Female-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J2
+  Value: Stepper
+  Vendor: ''
+- Cmp name: Conn_01x02_Female-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal
+  Qnty: '1'
+  Ref: J4
+  Value: Power12V
+  Vendor: ''
+- Cmp name: Conn_01x04_Female-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J5
+  Value: LCD-I2C
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+  Qnty: '4'
+  Ref: R1, R2, R3, R4
+  Value: R
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| A1 |\
+  \ 1 | Arduino_UNO_R3 | Arduino_UNO_R3-MCU_Module | Module:Arduino_UNO_R3 |  |  |\
+  \  | \n| A2 | 1 | Pololu_Breakout_A4988 | Pololu_Breakout_A4988 | Package_DIP:DIP-16_W7.62mm_Socket_LongPads\
+  \ | Pololu Breakout Board, Stepper Driver A4988 |  |  | \n| C1, C2 | 2 | CP | CP-Device\
+  \ | Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm |  |  |  | \n| C3 | 1 | C | C | Capacitor_THT:CP_Radial_D6.3mm_P2.50mm\
+  \ | Unpolarized capacitor |  |  | \n| J1 | 1 | Encoder | Conn_01x03_Female-Connector\
+  \ | Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical |  |  |  | \n| J2\
+  \ | 1 | Stepper | Conn_01x04_Female-Connector | Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical\
+  \ |  |  |  | \n| J4 | 1 | Power12V | Conn_01x02_Female-Connector | Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal\
+  \ |  |  |  | \n| J5 | 1 | LCD-I2C | Conn_01x04_Female-Connector | Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical\
+  \ |  |  |  | \n| R1, R2, R3, R4 | 4 | R | R | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal\
+  \ | Resistor |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/altlab_biolab_peristaltic_pump_peristaltic_pump/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/altlab_biolab_peristaltic_pump_peristaltic_pump/current_version/working/working.kicad_pcb
 file_sch_flat: projects/altlab_biolab_peristaltic_pump_peristaltic_pump/current_version/working/working.sch
 id: altlab_biolab_peristaltic_pump_peristaltic_pump
 name: biolab_peristaltic_pump
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': A1
+  Package: Arduino_UNO_R3
+  PosX: 165.502
+  PosY: -83.079
+  Rot: 0.0
+  Side: top
+  Val: Arduino_UNO_R3
+- '# Ref': A2
+  Package: DIP-16_W7.62mm_Socket_LongPads
+  PosX: 170.307
+  PosY: -94.361
+  Rot: -90.0
+  Side: top
+  Val: Pololu_Breakout_A4988
+- '# Ref': C1
+  Package: C_Disc_D7.5mm_W2.5mm_P5.00mm
+  PosX: 178.689
+  PosY: -97.79
+  Rot: 90.0
+  Side: top
+  Val: CP
+- '# Ref': C2
+  Package: C_Disc_D7.5mm_W2.5mm_P5.00mm
+  PosX: 199.517
+  PosY: -97.536
+  Rot: 90.0
+  Side: top
+  Val: CP
+- '# Ref': C3
+  Package: CP_Radial_D6.3mm_P2.50mm
+  PosX: 157.48
+  PosY: -117.475
+  Rot: -90.0
+  Side: top
+  Val: C
+- '# Ref': J1
+  Package: PinSocket_1x03_P2.54mm_Vertical
+  PosX: 191.643
+  PosY: -123.571
+  Rot: -90.0
+  Side: top
+  Val: Encoder
+- '# Ref': J2
+  Package: PinSocket_1x04_P2.54mm_Vertical
+  PosX: 160.528
+  PosY: -84.709
+  Rot: -90.0
+  Side: top
+  Val: Stepper
+- '# Ref': J4
+  Package: BarrelJack_CUI_PJ-063AH_Horizontal
+  PosX: 147.574
+  PosY: -118.618
+  Rot: -90.0
+  Side: top
+  Val: Power12V
+- '# Ref': J5
+  Package: PinSocket_1x04_P2.54mm_Vertical
+  PosX: 159.131
+  PosY: -126.873
+  Rot: -90.0
+  Side: top
+  Val: LCD-I2C
+- '# Ref': R1
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+  PosX: 183.769
+  PosY: -102.743
+  Rot: 180.0
+  Side: top
+  Val: R
+- '# Ref': R2
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+  PosX: 183.896
+  PosY: -107.696
+  Rot: 180.0
+  Side: top
+  Val: R
+- '# Ref': R3
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+  PosX: 199.771
+  PosY: -107.696
+  Rot: 180.0
+  Side: top
+  Val: R
+- '# Ref': R4
+  Package: R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+  PosX: 199.771
+  PosY: -102.108
+  Rot: 180.0
+  Side: top
+  Val: R
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| A1 | Arduino_UNO_R3 | Arduino_UNO_R3\
+  \ | 165.502 | -83.079 | 0.0 | top | \n| A2 | Pololu_Breakout_A4988 | DIP-16_W7.62mm_Socket_LongPads\
+  \ | 170.307 | -94.361 | -90.0 | top | \n| C1 | CP | C_Disc_D7.5mm_W2.5mm_P5.00mm\
+  \ | 178.689 | -97.79 | 90.0 | top | \n| C2 | CP | C_Disc_D7.5mm_W2.5mm_P5.00mm |\
+  \ 199.517 | -97.536 | 90.0 | top | \n| C3 | C | CP_Radial_D6.3mm_P2.50mm | 157.48\
+  \ | -117.475 | -90.0 | top | \n| J1 | Encoder | PinSocket_1x03_P2.54mm_Vertical\
+  \ | 191.643 | -123.571 | -90.0 | top | \n| J2 | Stepper | PinSocket_1x04_P2.54mm_Vertical\
+  \ | 160.528 | -84.709 | -90.0 | top | \n| J4 | Power12V | BarrelJack_CUI_PJ-063AH_Horizontal\
+  \ | 147.574 | -118.618 | -90.0 | top | \n| J5 | LCD-I2C | PinSocket_1x04_P2.54mm_Vertical\
+  \ | 159.131 | -126.873 | -90.0 | top | \n| R1 | R | R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal\
+  \ | 183.769 | -102.743 | 180.0 | top | \n| R2 | R | R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal\
+  \ | 183.896 | -107.696 | 180.0 | top | \n| R3 | R | R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal\
+  \ | 199.771 | -107.696 | 180.0 | top | \n| R4 | R | R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal\
+  \ | 199.771 | -102.108 | 180.0 | top | \n"
 projects_flat: projects/altlab_biolab_peristaltic_pump_peristaltic_pump/current_version/working
 repo:
   allow_forking: true

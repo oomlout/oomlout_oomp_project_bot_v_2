@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -37,8 +58,8 @@
 | 8 | R7,R5,R8,R6,R4 | RESPACK_4X0603 | 5 | 33 |  |  | [''] | 
 | 9 | R12 | 0805-NO | 1 | 10K |  |  | [''] | 
 | 10 | C20,C17 | _0805MP | 2 | 1uF |  |  | [''] | 
-| 11 | R1 | _0805MP | 1 | 3Ω |  |  | [''] | 
-| 12 | R10,R9 | _0805MP | 2 | 12Ω |  |  | [''] | 
+| 11 | R1 | _0805MP | 1 | 3â„¦ |  |  | [''] | 
+| 12 | R10,R9 | _0805MP | 2 | 12â„¦ |  |  | [''] | 
 | 13 | D1 | SMADIODE | 1 | MM3Z24VT1G |  |  | [''] | 
 | 14 | C18 | _0805MP | 1 | 0.1uF |  |  | [''] | 
 | 15 | Y1 | CRYSTAL_3.2X2.5 | 1 | 20MHz |  |  | [''] | 
@@ -49,7 +70,7 @@
 | 20 | J1 | 4-1734839-0 | 1 | 40PINFPCM4-1734839-0 |  |  | [''] | 
 | 21 | U3 | SOT23-5@1 | 1 | FAN5333BSX |  |  | [''] | 
 | 22 | U$18 | ADAFRUIT_5MM | 1 |  |  |  | [''] | 
-| 23 | C21,C19 | _0805MP | 2 | 10µF |  |  | [''] | 
+| 23 | C21,C19 | _0805MP | 2 | 10ÂµF |  |  | [''] | 
 | 24 | R11 | _0805MP | 1 | 10K |  |  | [''] | 
 | 25 | D4,D3 | SOD-323F | 2 | 1N4148 |  |  | [''] | 
 | 26 | FB2 | _0805MP | 1 | Ferrite |  |  | [''] | 
@@ -67,7 +88,7 @@
 | C16, C22 | 2 | 10uF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
 | C17, C20 | 2 | 1uF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
 | C18 | 1 | 0.1uF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
-| C19, C21 | 2 | 10µF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
+| C19, C21 | 2 | 10ÂµF | CAP_CERAMIC_0805MP | working:_0805MP |  |  |  | 
 | D1 | 1 | MM3Z24VT1G | DIODESMA | working:SMADIODE |  |  |  | 
 | D2 | 1 | MBR0540 | DIODESOD-123 | working:SOD-123 |  |  |  | 
 | D3, D4 | 2 | 1N4148 | DIODESOD-323F | working:SOD-323F |  |  |  | 
@@ -76,10 +97,10 @@
 | J1 | 1 | 40PINFPC4-1734839-0 | 40PINFPC4-1734839-0 | working:4-1734839-0 |  |  |  | 
 | JP1 | 1 | Breakout | PINHD-1X15-CB | working:1X15-CB |  |  |  | 
 | L1 | 1 | 6.8uH large inductor | INDUCTORNR5040 | working:INDUCTOR_5X5MM_NR5040_NOTHERMALS |  |  |  | 
-| R1 | 1 | 3Ω | RESISTOR_0805MP | working:_0805MP |  |  |  | 
+| R1 | 1 | 3â„¦ | RESISTOR_0805MP | working:_0805MP |  |  |  | 
 | R3 | 1 | 1M | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 
 | R4, R5, R6, R7, R8 | 5 | 33 | RESISTOR_4PACK_US | working:RESPACK_4X0603 |  |  |  | 
-| R9, R10 | 2 | 12Ω | RESISTOR_0805MP | working:_0805MP |  |  |  | 
+| R9, R10 | 2 | 12â„¦ | RESISTOR_0805MP | working:_0805MP |  |  |  | 
 | R11 | 1 | 10K | RESISTOR_0805MP | working:_0805MP |  |  |  | 
 | R12 | 1 | 10K | RESISTOR0805_NOOUTLINE | working:0805-NO |  |  |  | 
 | SJ1 | 1 | +25mA | SOLDERJUMPER | working:SOLDERJUMPER_ARROW_NOPASTE |  |  |  | 
@@ -96,8 +117,8 @@
 | x | y | package | value | ref | size | 
 | --- | --- | --- | --- | --- | --- | 
 | 0.0 | 35.56 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$21 | m3 | 
-| 43.18000000000001 | 35.56 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$22 | m3 | 
-| 43.18000000000001 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$23 | m3 | 
+| 43.18 | 35.56 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$22 | m3 | 
+| 43.18 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$23 | m3 | 
 | 0.0 | 0.0 | MOUNTINGHOLE_2.5_PLATED | MOUNTINGHOLE2.5 | U$24 | m3 | 
 
 

@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -33,7 +54,7 @@
 | 4 | R9,R10 | 0603-NO | 2 | 27 |  |  | [''] | 
 | 5 | R13,R12,R8 | 0603-NO | 3 | 5.1K |  |  | [''] | 
 | 6 | C2,C3 | 0603-NO | 2 | 22pF |  |  | [''] | 
-| 7 | C1,C20,C4 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 7 | C1,C20,C4 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 8 | R1,R5,R7,R2,R4,R3 | 0603-NO | 6 | 10K |  |  | [''] | 
 | 9 | @HOLE1,@HOLE0 |  | 2 |  |  |  | [''] | 
 | 10 | U$34,U$35 | FIDUCIAL_1MM | 2 | FIDUCIAL_1MM |  |  | [''] | 
@@ -66,7 +87,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C1, C4, C20 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C1, C4, C20 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C2, C3 | 2 | 22pF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C5 | 1 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C6, C7, C9, C11, C12, C13, C14, C15, C16 | 9 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 

@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -33,8 +54,8 @@
 | 4 | TP5 | TESTPOINT_ROUND_1MM | 1 | TX1_PRE |  |  | [''] | 
 | 5 | U$1 | ADAFRUIT_TEXT_30MM | 1 |  |  |  | [''] | 
 | 6 | U$6,U$36,U$38,U$37 | MOUNTINGHOLE_3.0 | 4 |  |  |  | [''] | 
-| 7 | C25,C21,C22,C19,C26 | 0805-NO | 5 | 10µF |  |  | [''] | 
-| 8 | C14,C16,C17,C11,C24,C23,C20 | 0805-NO | 7 | 0.1µF |  |  | [''] | 
+| 7 | C25,C21,C22,C19,C26 | 0805-NO | 5 | 10ÂµF |  |  | [''] | 
+| 8 | C14,C16,C17,C11,C24,C23,C20 | 0805-NO | 7 | 0.1ÂµF |  |  | [''] | 
 | 9 | FID1,FID2 | FIDUCIAL-1X2.5 | 2 | FIDUCIAL1X2.5 |  |  | [''] | 
 | 10 | C1,C2 | 0805-NO | 2 | 22pF |  |  | [''] | 
 | 11 | TP6,TP2 | TESTPOINT_ROUND_1MM | 2 | TGND |  |  | [''] | 
@@ -72,10 +93,10 @@
 | C3, C4 | 2 | 220pF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C5, C6, C9, C10 | 4 | NC | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C7, C8 | 2 | 100pF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C11, C14, C16, C17, C20, C23, C24 | 7 | 0.1µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C11, C14, C16, C17, C20, C23, C24 | 7 | 0.1ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C12, C13 | 2 | 33pF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C15 | 1 | 1000pF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C19, C21, C22, C25, C26 | 5 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C19, C21, C22, C25, C26 | 5 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | CN1 | 1 | FTDI | FTDIUSBCABLE | working:1X06_ROUND |  |  |  | 
 | FID1, FID2 | 2 | FIDUCIAL1X2.5 | FIDUCIAL1X2.5 | working:FIDUCIAL-1X2.5 |  |  |  | 
 | JP1 | 1 | SEL0 | JUMPER3 | working:JUMPER3 |  |  |  | 
@@ -108,7 +129,7 @@
 | --- | --- | --- | --- | --- | --- | 
 | 0.0 | 40.0 | MOUNTINGHOLE_3.0 | nan | U$6 | m3 | 
 | 0.0 | 0.0 | MOUNTINGHOLE_3.0 | nan | U$36 | m3 | 
-| 110.00000000000001 | 0.0 | MOUNTINGHOLE_3.0 | nan | U$37 | m3 | 
-| 110.00000000000001 | 40.0 | MOUNTINGHOLE_3.0 | nan | U$38 | m3 | 
+| 110.0 | 0.0 | MOUNTINGHOLE_3.0 | nan | U$37 | m3 | 
+| 110.0 | 40.0 | MOUNTINGHOLE_3.0 | nan | U$38 | m3 | 
 
 

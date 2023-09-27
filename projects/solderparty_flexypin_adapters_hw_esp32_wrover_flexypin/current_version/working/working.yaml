@@ -1,9 +1,309 @@
 board: esp32_wrover_flexypin
+bom:
+- Id: '1'
+  Designator: J22,J1
+  Footprint: PinHeader_1x16_P2.54mm_Vertical
+  Quantity: '2'
+  Designation: Conn_01x16
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J4,J7,J5,J6,J24,J17,J27,J16,J18,J19,J2,J3,J21,J15,J8,J25,J20,J26
+  Footprint: FlexyPin_1x02_P1.27mm
+  Quantity: '18'
+  Designation: Conn_01x02
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J12,J23
+  Footprint: FlexyPin_1x01_P1.27mm
+  Quantity: '2'
+  Designation: Conn_01x01
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: G***,G***
+  Footprint: SolderParty-New-Logo_10x8.5mm_SilkScreen
+  Quantity: '2'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: REF**
+  Footprint: Fiducial_0.5mm_Mask1.5mm
+  Quantity: '1'
+  Designation: Fiducial_0.5mm_Mask1.5mm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J22,J1\
+  \ | PinHeader_1x16_P2.54mm_Vertical | 2 | Conn_01x16 |  |  | [''] | \n| 2 | J4,J7,J5,J6,J24,J17,J27,J16,J18,J19,J2,J3,J21,J15,J8,J25,J20,J26\
+  \ | FlexyPin_1x02_P1.27mm | 18 | Conn_01x02 |  |  | [''] | \n| 3 | J12,J23 | FlexyPin_1x01_P1.27mm\
+  \ | 2 | Conn_01x01 |  |  | [''] | \n| 4 | G***,G*** | SolderParty-New-Logo_10x8.5mm_SilkScreen\
+  \ | 2 | LOGO |  |  | [''] | \n| 5 | REF** | Fiducial_0.5mm_Mask1.5mm | 1 | Fiducial_0.5mm_Mask1.5mm\
+  \ |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Conn_01x16
+  DNP: ''
+  Description: Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical
+  Qnty: '2'
+  Ref: J1, J22
+  Value: Conn_01x16
+  Vendor: ''
+- Cmp name: Conn_01x02
+  DNP: ''
+  Description: Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: FlexyPin:FlexyPin_1x02_P1.27mm
+  Qnty: '18'
+  Ref: J2, J3, J4, J5, J6, J7, J8, J15, J16, J17, J18, J19, J20, J21, J24, J25, J26,
+    J27
+  Value: Conn_01x02
+  Vendor: ''
+- Cmp name: Conn_01x01
+  DNP: ''
+  Description: Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: FlexyPin:FlexyPin_1x01_P1.27mm
+  Qnty: '2'
+  Ref: J12, J23
+  Value: Conn_01x01
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| J1, J22\
+  \ | 2 | Conn_01x16 | Conn_01x16 | Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J2, J3, J4, J5, J6, J7, J8, J15, J16, J17, J18, J19, J20, J21, J24,\
+  \ J25, J26, J27 | 18 | Conn_01x02 | Conn_01x02 | FlexyPin:FlexyPin_1x02_P1.27mm\
+  \ | Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J12, J23 | 2 | Conn_01x01 | Conn_01x01 | FlexyPin:FlexyPin_1x01_P1.27mm\
+  \ | Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/solderparty_flexypin_adapters_hw_esp32_wrover_flexypin/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/solderparty_flexypin_adapters_hw_esp32_wrover_flexypin/current_version/working/working.kicad_sch
 id: solderparty_flexypin_adapters_hw_esp32_wrover_flexypin
 name: flexypin_adapters_hw
+position_bottom:
+- '# Ref': G***
+  Package: SolderParty-New-Logo_10x8.5mm_SilkScreen
+  PosX: 147.4576
+  PosY: -124.4897
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | SolderParty-New-Logo_10x8.5mm_SilkScreen\
+  \ | 147.4576 | -124.4897 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': G***
+  Package: SolderParty-New-Logo_10x8.5mm_SilkScreen
+  PosX: 148.6
+  PosY: -124.4935
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': J1
+  Package: PinHeader_1x16_P2.54mm_Vertical
+  PosX: 134.112
+  PosY: -81.788
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x16
+- '# Ref': J2
+  Package: FlexyPin_1x02_P1.27mm
+  PosX: 137.04
+  PosY: -87.69
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J3
+  Package: FlexyPin_1x02_P1.27mm
+  PosX: 137.04
+  PosY: -90.23
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J4
+  Package: FlexyPin_1x02_P1.27mm
+  PosX: 137.04
+  PosY: -92.77
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J5
+  Package: FlexyPin_1x02_P1.27mm
+  PosX: 137.04
+  PosY: -95.31
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J6
+  Package: FlexyPin_1x02_P1.27mm
+  PosX: 137.04
+  PosY: -97.85
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J7
+  Package: FlexyPin_1x02_P1.27mm
+  PosX: 137.04
+  PosY: -100.39
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J8
+  Package: FlexyPin_1x02_P1.27mm
+  PosX: 137.04
+  PosY: -102.93
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J12
+  Package: FlexyPin_1x01_P1.27mm
+  PosX: 137.04
+  PosY: -81.34
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J15
+  Package: FlexyPin_1x02_P1.27mm
+  PosX: 159.1126
+  PosY: -88.96
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J16
+  Package: FlexyPin_1x02_P1.27mm
+  PosX: 159.1126
+  PosY: -91.5
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J17
+  Package: FlexyPin_1x02_P1.27mm
+  PosX: 159.1126
+  PosY: -94.04
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J18
+  Package: FlexyPin_1x02_P1.27mm
+  PosX: 159.1126
+  PosY: -96.58
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J19
+  Package: FlexyPin_1x02_P1.27mm
+  PosX: 159.1126
+  PosY: -99.12
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J20
+  Package: FlexyPin_1x02_P1.27mm
+  PosX: 159.1126
+  PosY: -101.6645
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J21
+  Package: FlexyPin_1x02_P1.27mm
+  PosX: 159.1126
+  PosY: -104.2
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J22
+  Package: PinHeader_1x16_P2.54mm_Vertical
+  PosX: 162.052
+  PosY: -81.788
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x16
+- '# Ref': J23
+  Package: FlexyPin_1x01_P1.27mm
+  PosX: 159.11
+  PosY: -81.34
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x01
+- '# Ref': J24
+  Package: FlexyPin_1x02_P1.27mm
+  PosX: 137.04
+  PosY: -82.61
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J25
+  Package: FlexyPin_1x02_P1.27mm
+  PosX: 159.11
+  PosY: -83.88
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J26
+  Package: FlexyPin_1x02_P1.27mm
+  PosX: 137.04
+  PosY: -85.15
+  Rot: 0.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': J27
+  Package: FlexyPin_1x02_P1.27mm
+  PosX: 159.11
+  PosY: -86.42
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x02
+- '# Ref': REF**
+  Package: Fiducial_0.5mm_Mask1.5mm
+  PosX: 148.08
+  PosY: -90.1
+  Rot: 0.0
+  Side: top
+  Val: Fiducial_0.5mm_Mask1.5mm
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | SolderParty-New-Logo_10x8.5mm_SilkScreen\
+  \ | 148.6 | -124.4935 | 0.0 | top | \n| J1 | Conn_01x16 | PinHeader_1x16_P2.54mm_Vertical\
+  \ | 134.112 | -81.788 | 0.0 | top | \n| J2 | Conn_01x02 | FlexyPin_1x02_P1.27mm\
+  \ | 137.04 | -87.69 | 0.0 | top | \n| J3 | Conn_01x02 | FlexyPin_1x02_P1.27mm |\
+  \ 137.04 | -90.23 | 0.0 | top | \n| J4 | Conn_01x02 | FlexyPin_1x02_P1.27mm | 137.04\
+  \ | -92.77 | 0.0 | top | \n| J5 | Conn_01x02 | FlexyPin_1x02_P1.27mm | 137.04 |\
+  \ -95.31 | 0.0 | top | \n| J6 | Conn_01x02 | FlexyPin_1x02_P1.27mm | 137.04 | -97.85\
+  \ | 0.0 | top | \n| J7 | Conn_01x02 | FlexyPin_1x02_P1.27mm | 137.04 | -100.39 |\
+  \ 0.0 | top | \n| J8 | Conn_01x02 | FlexyPin_1x02_P1.27mm | 137.04 | -102.93 | 0.0\
+  \ | top | \n| J12 | Conn_01x01 | FlexyPin_1x01_P1.27mm | 137.04 | -81.34 | 0.0 |\
+  \ top | \n| J15 | Conn_01x02 | FlexyPin_1x02_P1.27mm | 159.1126 | -88.96 | 180.0\
+  \ | top | \n| J16 | Conn_01x02 | FlexyPin_1x02_P1.27mm | 159.1126 | -91.5 | 180.0\
+  \ | top | \n| J17 | Conn_01x02 | FlexyPin_1x02_P1.27mm | 159.1126 | -94.04 | 180.0\
+  \ | top | \n| J18 | Conn_01x02 | FlexyPin_1x02_P1.27mm | 159.1126 | -96.58 | 180.0\
+  \ | top | \n| J19 | Conn_01x02 | FlexyPin_1x02_P1.27mm | 159.1126 | -99.12 | 180.0\
+  \ | top | \n| J20 | Conn_01x02 | FlexyPin_1x02_P1.27mm | 159.1126 | -101.6645 |\
+  \ 180.0 | top | \n| J21 | Conn_01x02 | FlexyPin_1x02_P1.27mm | 159.1126 | -104.2\
+  \ | 180.0 | top | \n| J22 | Conn_01x16 | PinHeader_1x16_P2.54mm_Vertical | 162.052\
+  \ | -81.788 | 0.0 | top | \n| J23 | Conn_01x01 | FlexyPin_1x01_P1.27mm | 159.11\
+  \ | -81.34 | 180.0 | top | \n| J24 | Conn_01x02 | FlexyPin_1x02_P1.27mm | 137.04\
+  \ | -82.61 | 0.0 | top | \n| J25 | Conn_01x02 | FlexyPin_1x02_P1.27mm | 159.11 |\
+  \ -83.88 | 180.0 | top | \n| J26 | Conn_01x02 | FlexyPin_1x02_P1.27mm | 137.04 |\
+  \ -85.15 | 0.0 | top | \n| J27 | Conn_01x02 | FlexyPin_1x02_P1.27mm | 159.11 | -86.42\
+  \ | 180.0 | top | \n| REF** | Fiducial_0.5mm_Mask1.5mm | Fiducial_0.5mm_Mask1.5mm\
+  \ | 148.08 | -90.1 | 0.0 | top | \n"
 projects_flat: projects/solderparty_flexypin_adapters_hw_esp32_wrover_flexypin/current_version/working
 repo:
   allow_forking: true

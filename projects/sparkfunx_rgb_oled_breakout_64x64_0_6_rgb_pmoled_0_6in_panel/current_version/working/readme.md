@@ -11,6 +11,8 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/sparkfunX/RGB-OLED-Breakout-64x64-0.6/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/sparkfunx_rgb_oled_breakout_64x64_0_6_rgb_pmoled_0_6in_panel/current_version/working  
+
 
 
 

@@ -11,6 +11,8 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/sparkfun/SparkFun_Qwiic_9DoF-ISM330DHCX-MMC5983MA/tree/main/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/sparkfun_sparkfun_qwiic_9dof_ism330dhcx_mmc5983ma_sparkfun_9dof_ism330dhcx_mmc5983ma/current_version/working  
+
 
 
 

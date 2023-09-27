@@ -1,9 +1,150 @@
 board: kfw_pico_adapter
+bom:
+- Id: '1'
+  Designator: J2
+  Footprint: PinHeader_2x16_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_Left
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J3
+  Footprint: PinHeader_2x12_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Conn_Right
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: G***
+  Footprint: SolderParty-New-Logo_15x12.7mm_SilkScreen
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U1
+  Footprint: RaspberryPi_Pico
+  Quantity: '1'
+  Designation: RaspberryPi_Pico
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: G***
+  Footprint: SolderParty-New-Logo_7.5x6.4mm_SilkScreen
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J2\
+  \ | PinHeader_2x16_P2.54mm_Vertical | 1 | Conn_Left |  |  | [''] | \n| 2 | J3 |\
+  \ PinHeader_2x12_P2.54mm_Vertical | 1 | Conn_Right |  |  | [''] | \n| 3 | G*** |\
+  \ SolderParty-New-Logo_15x12.7mm_SilkScreen | 1 | LOGO |  |  | [''] | \n| 4 | U1\
+  \ | RaspberryPi_Pico | 1 | RaspberryPi_Pico |  |  | [''] | \n| 5 | G*** | SolderParty-New-Logo_7.5x6.4mm_SilkScreen\
+  \ | 1 | LOGO |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: Conn_02x16_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x16, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J2
+  Value: Conn_Left
+  Vendor: ''
+- Cmp name: Conn_02x12_Odd_Even
+  DNP: ''
+  Description: Generic connector, double row, 02x12, odd/even pin numbering scheme
+    (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J3
+  Value: Conn_Right
+  Vendor: ''
+- Cmp name: RaspberryPi_Pico
+  DNP: ''
+  Description: ''
+  Footprint: Module_Extra:RaspberryPi_Pico
+  Qnty: '1'
+  Ref: U1
+  Value: RaspberryPi_Pico
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| J2 |\
+  \ 1 | Conn_Left | Conn_02x16_Odd_Even | Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical\
+  \ | Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J3 | 1 | Conn_Right | Conn_02x12_Odd_Even | Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical\
+  \ | Generic connector, double row, 02x12, odd/even pin numbering scheme (row 1 odd\
+  \ numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| U1 | 1 | RaspberryPi_Pico | RaspberryPi_Pico | Module_Extra:RaspberryPi_Pico\
+  \ |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/solderparty_keyboard_featherwing_pico_adapter_kfw_pico_adapter/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/solderparty_keyboard_featherwing_pico_adapter_kfw_pico_adapter/current_version/working/working.kicad_sch
 id: solderparty_keyboard_featherwing_pico_adapter_kfw_pico_adapter
 name: keyboard_featherwing_pico_adapter
+position_bottom:
+- '# Ref': G***
+  Package: SolderParty-New-Logo_7.5x6.4mm_SilkScreen
+  PosX: 144.4597
+  PosY: -95.7581
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | SolderParty-New-Logo_7.5x6.4mm_SilkScreen\
+  \ | 144.4597 | -95.7581 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': G***
+  Package: SolderParty-New-Logo_15x12.7mm_SilkScreen
+  PosX: 155.2935
+  PosY: -56.9203
+  Rot: 0.0
+  Side: top
+  Val: LOGO
+- '# Ref': J2
+  Package: PinHeader_2x16_P2.54mm_Vertical
+  PosX: 139.1
+  PosY: -52.45
+  Rot: 0.0
+  Side: top
+  Val: Conn_Left
+- '# Ref': J3
+  Package: PinHeader_2x12_P2.54mm_Vertical
+  PosX: 161.95
+  PosY: -62.61
+  Rot: 0.0
+  Side: top
+  Val: Conn_Right
+- '# Ref': U1
+  Package: RaspberryPi_Pico
+  PosX: 125.5
+  PosY: -72.0
+  Rot: 0.0
+  Side: top
+  Val: RaspberryPi_Pico
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | SolderParty-New-Logo_15x12.7mm_SilkScreen\
+  \ | 155.2935 | -56.9203 | 0.0 | top | \n| J2 | Conn_Left | PinHeader_2x16_P2.54mm_Vertical\
+  \ | 139.1 | -52.45 | 0.0 | top | \n| J3 | Conn_Right | PinHeader_2x12_P2.54mm_Vertical\
+  \ | 161.95 | -62.61 | 0.0 | top | \n| U1 | RaspberryPi_Pico | RaspberryPi_Pico |\
+  \ 125.5 | -72.0 | 0.0 | top | \n"
 projects_flat: projects/solderparty_keyboard_featherwing_pico_adapter_kfw_pico_adapter/current_version/working
 repo:
   allow_forking: true

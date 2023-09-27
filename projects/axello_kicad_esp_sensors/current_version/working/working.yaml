@@ -1,10 +1,553 @@
 board: esp_sensors
+bom:
+- Id: '1'
+  Designator: C1,C2
+  Footprint: C_0805_HandSoldering
+  Quantity: '2'
+  Designation: 100nF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: C3
+  Footprint: c_elec_6.3x7.7
+  Quantity: '1'
+  Designation: "100\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J2
+  Footprint: Pin_Header_Straight_1x12
+  Quantity: '1'
+  Designation: GPIO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J4
+  Footprint: Pin_Header_Straight_1x04
+  Quantity: '1'
+  Designation: +3.3V GND +5V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: R1,R2,R3,R4
+  Footprint: R_0805_HandSoldering
+  Quantity: '4'
+  Designation: 10K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: SW1
+  Footprint: SW_PUSH_6mm
+  Quantity: '1'
+  Designation: RESET
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: SW2
+  Footprint: SW_PUSH_6mm
+  Quantity: '1'
+  Designation: PROG
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: U1
+  Footprint: ESP-12E
+  Quantity: '1'
+  Designation: ESP-12E
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: REF**,REF**,REF**,REF**
+  Footprint: MountingHole_3.2mm_M3
+  Quantity: '4'
+  Designation: MountingHole_3.2mm_M3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: ''
+  Footprint: proto_grid_6x10
+  Quantity: '1'
+  Designation: proto_grid_6x10
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: REF**,REF**
+  Footprint: Pin_Header_Straight_1x06
+  Quantity: '2'
+  Designation: GPIO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: J5
+  Footprint: Pin_Header_Straight_1x02
+  Quantity: '1'
+  Designation: DEEP_SLEEP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: 10K1
+  Footprint: Potentiometer_Trimmer_Vishay_T73YP_Horizontal
+  Quantity: '1'
+  Designation: POT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: J3
+  Footprint: SPI_Header
+  Quantity: '1'
+  Designation: SPI
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: U2
+  Footprint: SOT89-3_Housing_Handsoldering
+  Quantity: '1'
+  Designation: HT7333
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: J1
+  Footprint: Pin_Header_Straight_1x05b
+  Quantity: '1'
+  Designation: PROG_CONN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: G***
+  Footprint: LOGO2
+  Quantity: '1'
+  Designation: LOGO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C2\
+  \ | C_0805_HandSoldering | 2 | 100nF |  |  | [''] | \n| 2 | C3 | c_elec_6.3x7.7\
+  \ | 1 | 100\xC2\xB5F |  |  | [''] | \n| 3 | J2 | Pin_Header_Straight_1x12 | 1 |\
+  \ GPIO |  |  | [''] | \n| 4 | J4 | Pin_Header_Straight_1x04 | 1 | +3.3V GND +5V\
+  \ |  |  | [''] | \n| 5 | R1,R2,R3,R4 | R_0805_HandSoldering | 4 | 10K |  |  | ['']\
+  \ | \n| 6 | SW1 | SW_PUSH_6mm | 1 | RESET |  |  | [''] | \n| 7 | SW2 | SW_PUSH_6mm\
+  \ | 1 | PROG |  |  | [''] | \n| 8 | U1 | ESP-12E | 1 | ESP-12E |  |  | [''] | \n\
+  | 9 | REF**,REF**,REF**,REF** | MountingHole_3.2mm_M3 | 4 | MountingHole_3.2mm_M3\
+  \ |  |  | [''] | \n| 10 |  | proto_grid_6x10 | 1 | proto_grid_6x10 |  |  | ['']\
+  \ | \n| 11 | REF**,REF** | Pin_Header_Straight_1x06 | 2 | GPIO |  |  | [''] | \n\
+  | 12 | J5 | Pin_Header_Straight_1x02 | 1 | DEEP_SLEEP |  |  | [''] | \n| 13 | 10K1\
+  \ | Potentiometer_Trimmer_Vishay_T73YP_Horizontal | 1 | POT |  |  | [''] | \n| 14\
+  \ | J3 | SPI_Header | 1 | SPI |  |  | [''] | \n| 15 | U2 | SOT89-3_Housing_Handsoldering\
+  \ | 1 | HT7333 |  |  | [''] | \n| 16 | J1 | Pin_Header_Straight_1x05b | 1 | PROG_CONN\
+  \ |  |  | [''] | \n| 17 | G*** | LOGO2 | 1 | LOGO |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: POT
+  DNP: ''
+  Description: ''
+  Footprint: Potentiometers:Potentiometer_Trimmer_Vishay_T73YP_Horizontal
+  Qnty: '1'
+  Ref: 10K1
+  Value: POT
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_SMD:C_0805_HandSoldering
+  Qnty: '2'
+  Ref: C1, C2
+  Value: 100nF
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: ''
+  Footprint: Capacitors_SMD:c_elec_6.3x7.7
+  Qnty: '1'
+  Ref: C3
+  Value: "100\xC2\xB5F"
+  Vendor: ''
+- Cmp name: PROG_CONN
+  DNP: ''
+  Description: ''
+  Footprint: ESP-RS232:Pin_Header_Straight_1x05b
+  Qnty: '1'
+  Ref: J1
+  Value: PROG_CONN
+  Vendor: ''
+- Cmp name: CONN_01X12
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x12
+  Qnty: '1'
+  Ref: J2
+  Value: GPIO
+  Vendor: ''
+- Cmp name: CONN_01X05
+  DNP: ''
+  Description: ''
+  Footprint: ESP-RS232:SPI_Header
+  Qnty: '1'
+  Ref: J3
+  Value: SPI
+  Vendor: ''
+- Cmp name: CONN_01X04
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x04
+  Qnty: '1'
+  Ref: J4
+  Value: +3.3V GND +5V
+  Vendor: ''
+- Cmp name: CONN_01X02
+  DNP: ''
+  Description: ''
+  Footprint: Pin_Headers:Pin_Header_Straight_1x02
+  Qnty: '1'
+  Ref: J5
+  Value: DEEP_SLEEP
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0805_HandSoldering
+  Qnty: '4'
+  Ref: R1, R2, R3, R4
+  Value: 10K
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: ''
+  Footprint: Buttons_Switches_THT:SW_PUSH_6mm
+  Qnty: '1'
+  Ref: SW1
+  Value: RESET
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: ''
+  Footprint: Buttons_Switches_THT:SW_PUSH_6mm
+  Qnty: '1'
+  Ref: SW2
+  Value: PROG
+  Vendor: ''
+- Cmp name: ESP-12E
+  DNP: ''
+  Description: ''
+  Footprint: ESP8266:ESP-12E
+  Qnty: '1'
+  Ref: U1
+  Value: ESP-12E
+  Vendor: ''
+- Cmp name: HT7333
+  DNP: ''
+  Description: ''
+  Footprint: TO_SOT_Packages_SMD:SOT89-3_Housing_Handsoldering
+  Qnty: '1'
+  Ref: U2
+  Value: HT7333
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 10K1\
+  \ | 1 | POT | POT | Potentiometers:Potentiometer_Trimmer_Vishay_T73YP_Horizontal\
+  \ |  |  |  | \n| C1, C2 | 2 | 100nF | C | Capacitors_SMD:C_0805_HandSoldering |\
+  \  |  |  | \n| C3 | 1 | 100\xC2\xB5F | C | Capacitors_SMD:c_elec_6.3x7.7 |  |  |\
+  \  | \n| J1 | 1 | PROG_CONN | PROG_CONN | ESP-RS232:Pin_Header_Straight_1x05b |\
+  \  |  |  | \n| J2 | 1 | GPIO | CONN_01X12 | Pin_Headers:Pin_Header_Straight_1x12\
+  \ |  |  |  | \n| J3 | 1 | SPI | CONN_01X05 | ESP-RS232:SPI_Header |  |  |  | \n\
+  | J4 | 1 | +3.3V GND +5V | CONN_01X04 | Pin_Headers:Pin_Header_Straight_1x04 | \
+  \ |  |  | \n| J5 | 1 | DEEP_SLEEP | CONN_01X02 | Pin_Headers:Pin_Header_Straight_1x02\
+  \ |  |  |  | \n| R1, R2, R3, R4 | 4 | 10K | R | Resistors_SMD:R_0805_HandSoldering\
+  \ |  |  |  | \n| SW1 | 1 | RESET | SW_Push | Buttons_Switches_THT:SW_PUSH_6mm |\
+  \  |  |  | \n| SW2 | 1 | PROG | SW_Push | Buttons_Switches_THT:SW_PUSH_6mm |  |\
+  \  |  | \n| U1 | 1 | ESP-12E | ESP-12E | ESP8266:ESP-12E |  |  |  | \n| U2 | 1 |\
+  \ HT7333 | HT7333 | TO_SOT_Packages_SMD:SOT89-3_Housing_Handsoldering |  |  |  |\
+  \ \n"
 counter: 1
 file_kicad_pcb_flat: projects/axello_kicad_esp_sensors/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/axello_kicad_esp_sensors/current_version/working/working.kicad_sch
 file_sch_flat: projects/axello_kicad_esp_sensors/current_version/working/working.sch
 id: axello_kicad_esp_sensors
+mounting_holes:
+- package: MountingHole_3.2mm_M3
+  ref: REF**
+  size: m3
+  value: MountingHole_3.2mm_M3
+  x: '0.0'
+  y: '46.35'
+- package: MountingHole_3.2mm_M3
+  ref: REF**
+  size: m3
+  value: MountingHole_3.2mm_M3
+  x: '0.0'
+  y: '0.0'
+- package: MountingHole_3.2mm_M3
+  ref: REF**
+  size: m3
+  value: MountingHole_3.2mm_M3
+  x: '50.8'
+  y: '46.35'
+- package: MountingHole_3.2mm_M3
+  ref: REF**
+  size: m3
+  value: MountingHole_3.2mm_M3
+  x: '50.8'
+  y: '0.0'
+mounting_holes_markdown: "| x | y | package | value | ref | size | \n| --- | --- |\
+  \ --- | --- | --- | --- | \n| 0.0 | 46.35 | MountingHole_3.2mm_M3 | MountingHole_3.2mm_M3\
+  \ | REF** | m3 | \n| 0.0 | 0.0 | MountingHole_3.2mm_M3 | MountingHole_3.2mm_M3 |\
+  \ REF** | m3 | \n| 50.8 | 46.35 | MountingHole_3.2mm_M3 | MountingHole_3.2mm_M3\
+  \ | REF** | m3 | \n| 50.8 | 0.0 | MountingHole_3.2mm_M3 | MountingHole_3.2mm_M3\
+  \ | REF** | m3 | \n"
 name: kicad
+position_bottom:
+- '# Ref': G***
+  Package: LOGO2
+  PosX: 19.685
+  PosY: -5.715
+  Rot: 180.0
+  Side: bottom
+  Val: LOGO
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| G*** | LOGO | LOGO2 | 19.685 | -5.715\
+  \ | 180.0 | bottom | \n"
+position_top:
+- '# Ref': .nan
+  Package: proto_grid_6x10
+  PosX: 45.593
+  PosY: -13.335
+  Rot: 0.0
+  Side: top
+  Val: proto_grid_6x10
+- '# Ref': 10K1
+  Package: Potentiometer_Trimmer_Vishay_T73YP_Horizontal
+  PosX: 50.165
+  PosY: -5.715
+  Rot: 90.0
+  Side: top
+  Val: POT
+- '# Ref': C1
+  Package: C_0805_HandSoldering
+  PosX: 24.13
+  PosY: -35.54
+  Rot: -90.0
+  Side: top
+  Val: 100nF
+- '# Ref': C2
+  Package: C_0805_HandSoldering
+  PosX: 31.623
+  PosY: -35.433
+  Rot: 90.0
+  Side: top
+  Val: 100nF
+- '# Ref': C3
+  Package: c_elec_6.3x7.7
+  PosX: 12.7
+  PosY: -43.815
+  Rot: -90.0
+  Side: top
+  Val: "100\xC2\xB5F"
+- '# Ref': J1
+  Package: Pin_Header_Straight_1x05b
+  PosX: 37.0649
+  PosY: -0.4629
+  Rot: 0.0
+  Side: top
+  Val: PROG_CONN
+- '# Ref': J2
+  Package: Pin_Header_Straight_1x12
+  PosX: 38.735
+  PosY: -38.735
+  Rot: 180.0
+  Side: top
+  Val: GPIO
+- '# Ref': J3
+  Package: SPI_Header
+  PosX: 53.975
+  PosY: -41.275
+  Rot: -90.0
+  Side: top
+  Val: SPI
+- '# Ref': J4
+  Package: Pin_Header_Straight_1x04
+  PosX: 3.81
+  PosY: -30.48
+  Rot: 0.0
+  Side: top
+  Val: +3.3V_GND_+5V
+- '# Ref': J5
+  Package: Pin_Header_Straight_1x02
+  PosX: 6.985
+  PosY: -21.59
+  Rot: 0.0
+  Side: top
+  Val: DEEP_SLEEP
+- '# Ref': R1
+  Package: R_0805_HandSoldering
+  PosX: 6.985
+  PosY: -14.685
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R2
+  Package: R_0805_HandSoldering
+  PosX: 20.32
+  PosY: -35.48
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': R3
+  Package: R_0805_HandSoldering
+  PosX: 27.94
+  PosY: -35.48
+  Rot: 90.0
+  Side: top
+  Val: 10K
+- '# Ref': R4
+  Package: R_0805_HandSoldering
+  PosX: 32.385
+  PosY: -17.225
+  Rot: -90.0
+  Side: top
+  Val: 10K
+- '# Ref': REF**
+  Package: MountingHole_3.2mm_M3
+  PosX: 3.81
+  PosY: -3.81
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3.2mm_M3
+- '# Ref': REF**
+  Package: MountingHole_3.2mm_M3
+  PosX: 3.81
+  PosY: -50.165
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3.2mm_M3
+- '# Ref': REF**
+  Package: MountingHole_3.2mm_M3
+  PosX: 54.61
+  PosY: -3.81
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3.2mm_M3
+- '# Ref': REF**
+  Package: MountingHole_3.2mm_M3
+  PosX: 54.61
+  PosY: -50.165
+  Rot: 0.0
+  Side: top
+  Val: MountingHole_3.2mm_M3
+- '# Ref': REF**
+  Package: Pin_Header_Straight_1x06
+  PosX: 41.275
+  PosY: -13.335
+  Rot: 90.0
+  Side: top
+  Val: GPIO
+- '# Ref': REF**
+  Package: Pin_Header_Straight_1x06
+  PosX: 41.275
+  PosY: -10.795
+  Rot: 90.0
+  Side: top
+  Val: GPIO
+- '# Ref': SW1
+  Package: SW_PUSH_6mm
+  PosX: 20.955
+  PosY: -45.085
+  Rot: 0.0
+  Side: top
+  Val: RESET
+- '# Ref': SW2
+  Package: SW_PUSH_6mm
+  PosX: 32.385
+  PosY: -45.085
+  Rot: 0.0
+  Side: top
+  Val: PROG
+- '# Ref': U1
+  Package: ESP-12E
+  PosX: 12.7
+  PosY: -10.795
+  Rot: 0.0
+  Side: top
+  Val: ESP-12E
+- '# Ref': U2
+  Package: SOT89-3_Housing_Handsoldering
+  PosX: 12.065
+  PosY: -34.29
+  Rot: -90.0
+  Side: top
+  Val: HT7333
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| nan | proto_grid_6x10 | proto_grid_6x10\
+  \ | 45.593 | -13.335 | 0.0 | top | \n| 10K1 | POT | Potentiometer_Trimmer_Vishay_T73YP_Horizontal\
+  \ | 50.165 | -5.715 | 90.0 | top | \n| C1 | 100nF | C_0805_HandSoldering | 24.13\
+  \ | -35.54 | -90.0 | top | \n| C2 | 100nF | C_0805_HandSoldering | 31.623 | -35.433\
+  \ | 90.0 | top | \n| C3 | 100\xC2\xB5F | c_elec_6.3x7.7 | 12.7 | -43.815 | -90.0\
+  \ | top | \n| J1 | PROG_CONN | Pin_Header_Straight_1x05b | 37.0649 | -0.4629 | 0.0\
+  \ | top | \n| J2 | GPIO | Pin_Header_Straight_1x12 | 38.735 | -38.735 | 180.0 |\
+  \ top | \n| J3 | SPI | SPI_Header | 53.975 | -41.275 | -90.0 | top | \n| J4 | +3.3V_GND_+5V\
+  \ | Pin_Header_Straight_1x04 | 3.81 | -30.48 | 0.0 | top | \n| J5 | DEEP_SLEEP |\
+  \ Pin_Header_Straight_1x02 | 6.985 | -21.59 | 0.0 | top | \n| R1 | 10K | R_0805_HandSoldering\
+  \ | 6.985 | -14.685 | -90.0 | top | \n| R2 | 10K | R_0805_HandSoldering | 20.32\
+  \ | -35.48 | -90.0 | top | \n| R3 | 10K | R_0805_HandSoldering | 27.94 | -35.48\
+  \ | 90.0 | top | \n| R4 | 10K | R_0805_HandSoldering | 32.385 | -17.225 | -90.0\
+  \ | top | \n| REF** | MountingHole_3.2mm_M3 | MountingHole_3.2mm_M3 | 3.81 | -3.81\
+  \ | 0.0 | top | \n| REF** | MountingHole_3.2mm_M3 | MountingHole_3.2mm_M3 | 3.81\
+  \ | -50.165 | 0.0 | top | \n| REF** | MountingHole_3.2mm_M3 | MountingHole_3.2mm_M3\
+  \ | 54.61 | -3.81 | 0.0 | top | \n| REF** | MountingHole_3.2mm_M3 | MountingHole_3.2mm_M3\
+  \ | 54.61 | -50.165 | 0.0 | top | \n| REF** | GPIO | Pin_Header_Straight_1x06 |\
+  \ 41.275 | -13.335 | 90.0 | top | \n| REF** | GPIO | Pin_Header_Straight_1x06 |\
+  \ 41.275 | -10.795 | 90.0 | top | \n| SW1 | RESET | SW_PUSH_6mm | 20.955 | -45.085\
+  \ | 0.0 | top | \n| SW2 | PROG | SW_PUSH_6mm | 32.385 | -45.085 | 0.0 | top | \n\
+  | U1 | ESP-12E | ESP-12E | 12.7 | -10.795 | 0.0 | top | \n| U2 | HT7333 | SOT89-3_Housing_Handsoldering\
+  \ | 12.065 | -34.29 | -90.0 | top | \n"
 projects_flat: projects/axello_kicad_esp_sensors/current_version/working
 repo:
   allow_forking: true

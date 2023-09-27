@@ -1,10 +1,196 @@
 board: gettingtoblinky
+bom:
+- Id: '1'
+  Designator: C1
+  Footprint: C_1206_HandSoldering
+  Quantity: '1'
+  Designation: "1\xC2\xB5F"
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D1
+  Footprint: LED-3MM
+  Quantity: '1'
+  Designation: LED
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: R1,R3
+  Footprint: R_0805_HandSoldering
+  Quantity: '2'
+  Designation: 1K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: R2
+  Footprint: R_0805_HandSoldering
+  Quantity: '1'
+  Designation: 470K
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: U1
+  Footprint: SOIC-8_3.9x4.9mm_Pitch1.27mm
+  Quantity: '1'
+  Designation: '7555'
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: BT1
+  Footprint: BatteryHolder
+  Quantity: '1'
+  Designation: Battery
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1\
+  \ | C_1206_HandSoldering | 1 | 1\xC2\xB5F |  |  | [''] | \n| 2 | D1 | LED-3MM |\
+  \ 1 | LED |  |  | [''] | \n| 3 | R1,R3 | R_0805_HandSoldering | 2 | 1K |  |  | ['']\
+  \ | \n| 4 | R2 | R_0805_HandSoldering | 1 | 470K |  |  | [''] | \n| 5 | U1 | SOIC-8_3.9x4.9mm_Pitch1.27mm\
+  \ | 1 | 7555 |  |  | [''] | \n| 6 | BT1 | BatteryHolder | 1 | Battery |  |  | ['']\
+  \ | \n"
+bom_schematic:
+- Cmp name: Battery
+  DNP: ''
+  Description: ''
+  Footprint: GTB:BatteryHolder
+  Qnty: '1'
+  Ref: BT1
+  Value: Battery
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitors_SMD:C_1206_HandSoldering
+  Qnty: '1'
+  Ref: C1
+  Value: "1\xC2\xB5F"
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: ''
+  Footprint: LEDs:LED-3MM
+  Qnty: '1'
+  Ref: D1
+  Value: LED
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0805_HandSoldering
+  Qnty: '2'
+  Ref: R1, R3
+  Value: 1K
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: ''
+  Footprint: Resistors_SMD:R_0805_HandSoldering
+  Qnty: '1'
+  Ref: R2
+  Value: 470K
+  Vendor: ''
+- Cmp name: '7555'
+  DNP: ''
+  Description: ''
+  Footprint: Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm
+  Qnty: '1'
+  Ref: U1
+  Value: '7555'
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| BT1 |\
+  \ 1 | Battery | Battery | GTB:BatteryHolder |  |  |  | \n| C1 | 1 | 1\xC2\xB5F |\
+  \ C | Capacitors_SMD:C_1206_HandSoldering | Unpolarized capacitor |  |  | \n| D1\
+  \ | 1 | LED | LED | LEDs:LED-3MM |  |  |  | \n| R1, R3 | 2 | 1K | R | Resistors_SMD:R_0805_HandSoldering\
+  \ |  |  |  | \n| R2 | 1 | 470K | R | Resistors_SMD:R_0805_HandSoldering |  |  |\
+  \  | \n| U1 | 1 | 7555 | 7555 | Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm |  |\
+  \  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/axello_kicad_gettingtoblinky/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/axello_kicad_gettingtoblinky/current_version/working/working.kicad_pcb
 file_sch_flat: projects/axello_kicad_gettingtoblinky/current_version/working/working.sch
 id: axello_kicad_gettingtoblinky
 name: kicad
+position_bottom:
+- '# Ref': BT1
+  Package: BatteryHolder
+  PosX: 213.36
+  PosY: -128.905
+  Rot: 0.0
+  Side: bottom
+  Val: Battery
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| BT1 | Battery | BatteryHolder |\
+  \ 213.36 | -128.905 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': C1
+  Package: C_1206_HandSoldering
+  PosX: 222.25
+  PosY: -135.89
+  Rot: -90.0
+  Side: top
+  Val: "1\xC2\xB5F"
+- '# Ref': D1
+  Package: LED-3MM
+  PosX: 214.63
+  PosY: -137.16
+  Rot: 180.0
+  Side: top
+  Val: LED
+- '# Ref': R1
+  Package: R_0805_HandSoldering
+  PosX: 222.25
+  PosY: -117.475
+  Rot: -90.0
+  Side: top
+  Val: 1K
+- '# Ref': R2
+  Package: R_0805_HandSoldering
+  PosX: 222.25
+  PosY: -127.0
+  Rot: -90.0
+  Side: top
+  Val: 470K
+- '# Ref': R3
+  Package: R_0805_HandSoldering
+  PosX: 207.01
+  PosY: -136.525
+  Rot: -90.0
+  Side: top
+  Val: 1K
+- '# Ref': U1
+  Package: SOIC-8_3.9x4.9mm_Pitch1.27mm
+  PosX: 213.36
+  PosY: -127.0
+  Rot: 0.0
+  Side: top
+  Val: '7555'
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | 1\xC2\xB5F | C_1206_HandSoldering\
+  \ | 222.25 | -135.89 | -90.0 | top | \n| D1 | LED | LED-3MM | 214.63 | -137.16 |\
+  \ 180.0 | top | \n| R1 | 1K | R_0805_HandSoldering | 222.25 | -117.475 | -90.0 |\
+  \ top | \n| R2 | 470K | R_0805_HandSoldering | 222.25 | -127.0 | -90.0 | top | \n\
+  | R3 | 1K | R_0805_HandSoldering | 207.01 | -136.525 | -90.0 | top | \n| U1 | 7555\
+  \ | SOIC-8_3.9x4.9mm_Pitch1.27mm | 213.36 | -127.0 | 0.0 | top | \n"
 projects_flat: projects/axello_kicad_gettingtoblinky/current_version/working
 repo:
   allow_forking: true

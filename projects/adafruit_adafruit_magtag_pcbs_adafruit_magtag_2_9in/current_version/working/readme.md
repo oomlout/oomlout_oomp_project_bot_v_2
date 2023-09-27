@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -39,7 +60,7 @@
 | 10 | ON0 | CHIPLED_0603_NOOUTLINE | 1 | GREEN |  |  | [''] | 
 | 11 | U4 | SOT23-5 | 1 | AP2112K-3.3 |  |  | [''] | 
 | 12 | TP6,TP1,TP7,TP8 | TESTPOINT_ROUND_1.5MM_NO | 4 |  |  |  | [''] | 
-| 13 | C8,C7,C11,C13,C17,C10,C18,C3,C4 | 0805-NO | 9 | 10µF |  |  | [''] | 
+| 13 | C8,C7,C11,C13,C17,C10,C18,C3,C4 | 0805-NO | 9 | 10ÂµF |  |  | [''] | 
 | 14 | R11,R17,R10 | 0603-NO | 3 | 1Meg |  |  | [''] | 
 | 15 | L1 | INDUCTOR_4X4MM_NR401 | 1 | 10uH |  |  | [''] | 
 | 16 | D1,D6 | SOD-323 | 2 | 3.6V |  |  | [''] | 
@@ -86,7 +107,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C20 | 2 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C2, C5, C15, C16, C21 | 5 | 0.1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
-| C3, C4, C7, C8, C10, C11, C13, C17, C18 | 9 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C4, C7, C8, C10, C11, C13, C17, C18 | 9 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C6, C12, C14 | 3 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | C9 | 1 | 10uF/10V+ | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C19, C23, C24, C25, C26, C27, C28, C30, C31 | 9 | 1uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 

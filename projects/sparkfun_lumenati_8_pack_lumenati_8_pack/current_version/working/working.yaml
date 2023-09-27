@@ -1,10 +1,341 @@
 board: lumenati_8_pack
+bom:
+- Id: '1'
+  Designator: C1,C2,C3,C4,C5,C6,C7,C8
+  Footprint: 0603_revised
+  Quantity: '8'
+  Designation: C
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U1,U2,U3,U4,U5,U6,U7,U8
+  Footprint: APA102_3
+  Quantity: '8'
+  Designation: APA102
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**
+  Footprint: line
+  Quantity: '8'
+  Designation: line
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: ','
+  Footprint: FIDUCIAL-MICRO
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J1,J2,J3,J4,J5,J6,J7,J8
+  Footprint: solder_pad_2
+  Quantity: '8'
+  Designation: M01PTH
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C2,C3,C4,C5,C6,C7,C8\
+  \ | 0603_revised | 8 | C |  |  | [''] | \n| 2 | U1,U2,U3,U4,U5,U6,U7,U8 | APA102_3\
+  \ | 8 | APA102 |  |  | [''] | \n| 3 | REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**\
+  \ | line | 8 | line |  |  | [''] | \n| 4 | , | FIDUCIAL-MICRO | 2 |  |  |  | ['']\
+  \ | \n| 5 | J1,J2,J3,J4,J5,J6,J7,J8 | solder_pad_2 | 8 | M01PTH |  |  | [''] | \n"
+bom_schematic: []
+bom_schematic_markdown: no data
 counter: 1
 file_kicad_pcb_flat: projects/sparkfun_lumenati_8_pack_lumenati_8_pack/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/sparkfun_lumenati_8_pack_lumenati_8_pack/current_version/working/working.kicad_pcb
 file_sch_flat: projects/sparkfun_lumenati_8_pack_lumenati_8_pack/current_version/working/working.sch
 id: sparkfun_lumenati_8_pack_lumenati_8_pack
 name: lumenati_8_pack
+position_bottom:
+- '# Ref': J1
+  Package: solder_pad_2
+  PosX: 142.494
+  PosY: -109.7026
+  Rot: -20.0
+  Side: bottom
+  Val: M01PTH
+- '# Ref': J2
+  Package: solder_pad_2
+  PosX: 145.1102
+  PosY: -110.3122
+  Rot: -8.0
+  Side: bottom
+  Val: M01PTH
+- '# Ref': J3
+  Package: solder_pad_2
+  PosX: 136.2202
+  PosY: -104.8512
+  Rot: -56.0
+  Side: bottom
+  Val: M01PTH
+- '# Ref': J4
+  Package: solder_pad_2
+  PosX: 134.239
+  PosY: -99.8982
+  Rot: -80.0
+  Side: bottom
+  Val: M01PTH
+- '# Ref': J5
+  Package: solder_pad_2
+  PosX: 137.9474
+  PosY: -106.9086
+  Rot: -44.0
+  Side: bottom
+  Val: M01PTH
+- '# Ref': J6
+  Package: solder_pad_2
+  PosX: 140.0556
+  PosY: -108.5342
+  Rot: -32.0
+  Side: bottom
+  Val: M01PTH
+- '# Ref': J7
+  Package: solder_pad_2
+  PosX: 134.9502
+  PosY: -102.489
+  Rot: -68.0
+  Side: bottom
+  Val: M01PTH
+- '# Ref': J8
+  Package: solder_pad_2
+  PosX: 134.0612
+  PosY: -97.2312
+  Rot: -92.0
+  Side: bottom
+  Val: M01PTH
+- '# Ref': REF**
+  Package: line
+  PosX: 146.685
+  PosY: -97.79
+  Rot: 77.2
+  Side: bottom
+  Val: line
+- '# Ref': REF**
+  Package: line
+  PosX: 146.685
+  PosY: -97.79
+  Rot: 25.7
+  Side: bottom
+  Val: line
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J1 | M01PTH | solder_pad_2 | 142.494\
+  \ | -109.7026 | -20.0 | bottom | \n| J2 | M01PTH | solder_pad_2 | 145.1102 | -110.3122\
+  \ | -8.0 | bottom | \n| J3 | M01PTH | solder_pad_2 | 136.2202 | -104.8512 | -56.0\
+  \ | bottom | \n| J4 | M01PTH | solder_pad_2 | 134.239 | -99.8982 | -80.0 | bottom\
+  \ | \n| J5 | M01PTH | solder_pad_2 | 137.9474 | -106.9086 | -44.0 | bottom | \n\
+  | J6 | M01PTH | solder_pad_2 | 140.0556 | -108.5342 | -32.0 | bottom | \n| J7 |\
+  \ M01PTH | solder_pad_2 | 134.9502 | -102.489 | -68.0 | bottom | \n| J8 | M01PTH\
+  \ | solder_pad_2 | 134.0612 | -97.2312 | -92.0 | bottom | \n| REF** | line | line\
+  \ | 146.685 | -97.79 | 77.2 | bottom | \n| REF** | line | line | 146.685 | -97.79\
+  \ | 25.7 | bottom | \n"
+position_top:
+- '# Ref': .nan
+  Package: FIDUCIAL-MICRO
+  PosX: 133.5532
+  PosY: -94.8944
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: FIDUCIAL-MICRO
+  PosX: 159.766
+  PosY: -94.615
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: 0603_revised
+  PosX: 146.685
+  PosY: -94.234
+  Rot: 0.0
+  Side: top
+  Val: C
+- '# Ref': C2
+  Package: 0603_revised
+  PosX: 139.827
+  PosY: -99.3394
+  Rot: -77.2
+  Side: top
+  Val: C
+- '# Ref': C3
+  Package: 0603_revised
+  PosX: 141.1986
+  PosY: -93.4212
+  Rot: -128.5
+  Side: top
+  Val: C
+- '# Ref': C4
+  Package: 0603_revised
+  PosX: 146.685
+  PosY: -90.7796
+  Rot: 180.0
+  Side: top
+  Val: C
+- '# Ref': C5
+  Package: 0603_revised
+  PosX: 152.1714
+  PosY: -93.4212
+  Rot: 128.5
+  Side: top
+  Val: C
+- '# Ref': C6
+  Package: 0603_revised
+  PosX: 153.5176
+  PosY: -99.3394
+  Rot: 77.2
+  Side: top
+  Val: C
+- '# Ref': C7
+  Package: 0603_revised
+  PosX: 150.876
+  PosY: -102.616
+  Rot: -64.3
+  Side: top
+  Val: C
+- '# Ref': C8
+  Package: 0603_revised
+  PosX: 142.494
+  PosY: -102.616
+  Rot: 64.3
+  Side: top
+  Val: C
+- '# Ref': REF**
+  Package: line
+  PosX: 146.685
+  PosY: -97.79
+  Rot: 51.4
+  Side: top
+  Val: line
+- '# Ref': REF**
+  Package: line
+  PosX: 146.685
+  PosY: -97.79
+  Rot: -51.4
+  Side: top
+  Val: line
+- '# Ref': REF**
+  Package: line
+  PosX: 146.685
+  PosY: -97.79
+  Rot: 0.0
+  Side: top
+  Val: line
+- '# Ref': REF**
+  Package: line
+  PosX: 146.685
+  PosY: -97.79
+  Rot: 0.0
+  Side: top
+  Val: line
+- '# Ref': REF**
+  Package: line
+  PosX: 146.685
+  PosY: -97.79
+  Rot: 154.3
+  Side: top
+  Val: line
+- '# Ref': REF**
+  Package: line
+  PosX: 146.685
+  PosY: -97.79
+  Rot: 102.8
+  Side: top
+  Val: line
+- '# Ref': U1
+  Package: APA102_3
+  PosX: 146.685
+  PosY: -97.79
+  Rot: 0.0
+  Side: top
+  Val: APA102
+- '# Ref': U2
+  Package: APA102_3
+  PosX: 136.3218
+  PosY: -100.1522
+  Rot: -77.2
+  Side: top
+  Val: APA102
+- '# Ref': U3
+  Package: APA102_3
+  PosX: 138.3792
+  PosY: -91.1606
+  Rot: -128.5
+  Side: top
+  Val: APA102
+- '# Ref': U4
+  Package: APA102_3
+  PosX: 146.685
+  PosY: -87.1728
+  Rot: 180.0
+  Side: top
+  Val: APA102
+- '# Ref': U5
+  Package: APA102_3
+  PosX: 154.9654
+  PosY: -91.1606
+  Rot: 128.5
+  Side: top
+  Val: APA102
+- '# Ref': U6
+  Package: APA102_3
+  PosX: 157.0228
+  PosY: -100.1522
+  Rot: 77.2
+  Side: top
+  Val: APA102
+- '# Ref': U7
+  Package: APA102_3
+  PosX: 151.2824
+  PosY: -107.3404
+  Rot: 25.7
+  Side: top
+  Val: APA102
+- '# Ref': U8
+  Package: APA102_3
+  PosX: 142.0876
+  PosY: -107.3658
+  Rot: -25.7
+  Side: top
+  Val: APA102
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| nan | nan | FIDUCIAL-MICRO | 133.5532\
+  \ | -94.8944 | 0.0 | top | \n| nan | nan | FIDUCIAL-MICRO | 159.766 | -94.615 |\
+  \ 0.0 | top | \n| C1 | C | 0603_revised | 146.685 | -94.234 | 0.0 | top | \n| C2\
+  \ | C | 0603_revised | 139.827 | -99.3394 | -77.2 | top | \n| C3 | C | 0603_revised\
+  \ | 141.1986 | -93.4212 | -128.5 | top | \n| C4 | C | 0603_revised | 146.685 | -90.7796\
+  \ | 180.0 | top | \n| C5 | C | 0603_revised | 152.1714 | -93.4212 | 128.5 | top\
+  \ | \n| C6 | C | 0603_revised | 153.5176 | -99.3394 | 77.2 | top | \n| C7 | C |\
+  \ 0603_revised | 150.876 | -102.616 | -64.3 | top | \n| C8 | C | 0603_revised |\
+  \ 142.494 | -102.616 | 64.3 | top | \n| REF** | line | line | 146.685 | -97.79 |\
+  \ 51.4 | top | \n| REF** | line | line | 146.685 | -97.79 | -51.4 | top | \n| REF**\
+  \ | line | line | 146.685 | -97.79 | 0.0 | top | \n| REF** | line | line | 146.685\
+  \ | -97.79 | 0.0 | top | \n| REF** | line | line | 146.685 | -97.79 | 154.3 | top\
+  \ | \n| REF** | line | line | 146.685 | -97.79 | 102.8 | top | \n| U1 | APA102 |\
+  \ APA102_3 | 146.685 | -97.79 | 0.0 | top | \n| U2 | APA102 | APA102_3 | 136.3218\
+  \ | -100.1522 | -77.2 | top | \n| U3 | APA102 | APA102_3 | 138.3792 | -91.1606 |\
+  \ -128.5 | top | \n| U4 | APA102 | APA102_3 | 146.685 | -87.1728 | 180.0 | top |\
+  \ \n| U5 | APA102 | APA102_3 | 154.9654 | -91.1606 | 128.5 | top | \n| U6 | APA102\
+  \ | APA102_3 | 157.0228 | -100.1522 | 77.2 | top | \n| U7 | APA102 | APA102_3 |\
+  \ 151.2824 | -107.3404 | 25.7 | top | \n| U8 | APA102 | APA102_3 | 142.0876 | -107.3658\
+  \ | -25.7 | top | \n"
 projects_flat: projects/sparkfun_lumenati_8_pack_lumenati_8_pack/current_version/working
 repo:
   allow_forking: true

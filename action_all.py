@@ -1,5 +1,6 @@
 import oomlout_oomp_project_bot
 import action_generate_doc
+import oom_git
 
 def main(**kwargs):
     filter = kwargs.get("filter", [""])

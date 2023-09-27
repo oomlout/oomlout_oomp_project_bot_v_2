@@ -15,7 +15,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -36,7 +57,7 @@
 | 7 | C2,C9,C1,C12,C7 | 0805-NO | 5 | 10uF |  |  | [''] | 
 | 8 | R2,R5,R10,R8,R1,R4 | 0603-NO | 6 | 5.1K |  |  | [''] | 
 | 9 | @HOLE0,@HOLE1 |  | 2 |  |  |  | [''] | 
-| 10 | C3,C6,C8 | 0805-NO | 3 | 10µF |  |  | [''] | 
+| 10 | C3,C6,C8 | 0805-NO | 3 | 10ÂµF |  |  | [''] | 
 | 11 | R12,R7 | 0603-NO | 2 | 100K |  |  | [''] | 
 | 12 | U$54,U$9 | ADAFRUIT_3.5MM | 2 |  |  |  | [''] | 
 | 13 | Q3 | SOT23-R | 1 | DMG3415U |  |  | [''] | 
@@ -66,7 +87,7 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C2, C7, C9, C12 | 5 | 10uF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
-| C3, C6, C8 | 3 | 10µF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
+| C3, C6, C8 | 3 | 10ÂµF | CAP_CERAMIC0805-NOOUTLINE | working:0805-NO |  |  |  | 
 | C4, C5, C10, C11 | 4 | 1uF | CAP_CERAMIC0603_NO | working:0603-NO |  |  |  | 
 | CHG0 | 1 | ORANGE | LED0603_NOOUTLINE | working:CHIPLED_0603_NOOUTLINE |  |  |  | 
 | CONN1 | 1 | STEMMA_I2C_QTRA | STEMMA_I2C_QTRA | working:JST_SH4_RA |  |  |  | 

@@ -1,10 +1,421 @@
 board: ledboardrev3
+bom:
+- Id: '1'
+  Designator: D116,D119,D98,D106,D99,D95,D108,D109,D118,D115,D112,D110,D101,D94,D96,D111,D117,D105,D93,D114,D122,D107,D103,D97,D92,D104,D120,D100,D113,D102,D121
+  Footprint: ws2812c-2020-noSolk
+  Quantity: '31'
+  Designation: WS2812B
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J10,J9
+  Footprint: PINHEADER-1x1_vertical
+  Quantity: '2'
+  Designation: GND
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: TP19
+  Footprint: PINHEADER-1x1_vertical
+  Quantity: '1'
+  Designation: LED OUT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: TP18
+  Footprint: PINHEADER-1x1_vertical
+  Quantity: '1'
+  Designation: LED IN
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J8
+  Footprint: PINHEADER-1x1_vertical
+  Quantity: '1'
+  Designation: 5V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | D116,D119,D98,D106,D99,D95,D108,D109,D118,D115,D112,D110,D101,D94,D96,D111,D117,D105,D93,D114,D122,D107,D103,D97,D92,D104,D120,D100,D113,D102,D121\
+  \ | ws2812c-2020-noSolk | 31 | WS2812B |  |  | [''] | \n| 2 | J10,J9 | PINHEADER-1x1_vertical\
+  \ | 2 | GND |  |  | [''] | \n| 3 | TP19 | PINHEADER-1x1_vertical | 1 | LED OUT |\
+  \  |  | [''] | \n| 4 | TP18 | PINHEADER-1x1_vertical | 1 | LED IN |  |  | [''] |\
+  \ \n| 5 | J8 | PINHEADER-1x1_vertical | 1 | 5V |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: WS2812B_43
+  DNP: ''
+  Description: RGB LED with integrated controller
+  Footprint: JumperlessFootprints:ws2812c-2020-noSolk
+  Qnty: '31'
+  Ref: D92, D93, D94, D95, D96, D97, D98, D99, D100, D101, D102, D103, D104, D105,
+    D106, D107, D108, D109, D110, D111, D112, D113, D114, D115, D116, D117, D118,
+    D119, D120, D121, D122
+  Value: WS2812B
+  Vendor: ''
+- Cmp name: Conn_01x01_Pin
+  DNP: ''
+  Description: Generic connector, single row, 01x01, script generated
+  Footprint: JumperlessFootprints:PINHEADER-1x1_vertical
+  Qnty: '2'
+  Ref: J8, J14
+  Value: 5V
+  Vendor: ''
+- Cmp name: Conn_01x01_Pin
+  DNP: ''
+  Description: Generic connector, single row, 01x01, script generated
+  Footprint: JumperlessFootprints:PINHEADER-1x1_vertical
+  Qnty: '2'
+  Ref: J9, J10
+  Value: GND
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: JumperlessFootprints:TestPoint_Pad_D1.0mm
+  Qnty: '1'
+  Ref: TP15
+  Value: LED DOUT
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: JumperlessFootprints:PINHEADER-1x1_vertical
+  Qnty: '1'
+  Ref: TP18
+  Value: LED DIN
+  Vendor: ''
+- Cmp name: TestPoint
+  DNP: ''
+  Description: test point
+  Footprint: JumperlessFootprints:PINHEADER-1x1_vertical
+  Qnty: '2'
+  Ref: TP19, TP21
+  Value: LED DOUT
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| D92,\
+  \ D93, D94, D95, D96, D97, D98, D99, D100, D101, D102, D103, D104, D105, D106, D107,\
+  \ D108, D109, D110, D111, D112, D113, D114, D115, D116, D117, D118, D119, D120,\
+  \ D121, D122 | 31 | WS2812B | WS2812B_43 | JumperlessFootprints:ws2812c-2020-noSolk\
+  \ | RGB LED with integrated controller |  |  | \n| J8, J14 | 2 | 5V | Conn_01x01_Pin\
+  \ | JumperlessFootprints:PINHEADER-1x1_vertical | Generic connector, single row,\
+  \ 01x01, script generated |  |  | \n| J9, J10 | 2 | GND | Conn_01x01_Pin | JumperlessFootprints:PINHEADER-1x1_vertical\
+  \ | Generic connector, single row, 01x01, script generated |  |  | \n| TP15 | 1\
+  \ | LED DOUT | TestPoint | JumperlessFootprints:TestPoint_Pad_D1.0mm | test point\
+  \ |  |  | \n| TP18 | 1 | LED DIN | TestPoint | JumperlessFootprints:PINHEADER-1x1_vertical\
+  \ | test point |  |  | \n| TP19, TP21 | 2 | LED DOUT | TestPoint | JumperlessFootprints:PINHEADER-1x1_vertical\
+  \ | test point |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/architeuthis_flux_jumperless_ledboardrev3/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/architeuthis_flux_jumperless_ledboardrev3/current_version/working/working.kicad_sch
 file_repo_bom_csv_flat: projects/architeuthis_flux_jumperless_ledboardrev3/current_version/working/bom_src.csv
 id: architeuthis_flux_jumperless_ledboardrev3
 name: jumperless
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': D92
+  Package: ws2812c-2020-noSolk
+  PosX: 133.223
+  PosY: -63.5
+  Rot: 0.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D93
+  Package: ws2812c-2020-noSolk
+  PosX: 130.683
+  PosY: -63.5
+  Rot: 0.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D94
+  Package: ws2812c-2020-noSolk
+  PosX: 128.143
+  PosY: -63.5
+  Rot: 0.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D95
+  Package: ws2812c-2020-noSolk
+  PosX: 125.603
+  PosY: -63.5
+  Rot: 0.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D96
+  Package: ws2812c-2020-noSolk
+  PosX: 123.063
+  PosY: -63.5
+  Rot: 0.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D97
+  Package: ws2812c-2020-noSolk
+  PosX: 120.523
+  PosY: -63.5
+  Rot: 0.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D98
+  Package: ws2812c-2020-noSolk
+  PosX: 117.983
+  PosY: -63.5
+  Rot: 0.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D99
+  Package: ws2812c-2020-noSolk
+  PosX: 115.443
+  PosY: -63.5
+  Rot: 0.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D100
+  Package: ws2812c-2020-noSolk
+  PosX: 112.903
+  PosY: -63.5
+  Rot: 0.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D101
+  Package: ws2812c-2020-noSolk
+  PosX: 110.363
+  PosY: -63.5
+  Rot: 0.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D102
+  Package: ws2812c-2020-noSolk
+  PosX: 107.823
+  PosY: -63.5
+  Rot: 0.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D103
+  Package: ws2812c-2020-noSolk
+  PosX: 105.283
+  PosY: -63.5
+  Rot: 0.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D104
+  Package: ws2812c-2020-noSolk
+  PosX: 102.743
+  PosY: -63.5
+  Rot: 0.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D105
+  Package: ws2812c-2020-noSolk
+  PosX: 100.203
+  PosY: -63.5
+  Rot: 0.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D106
+  Package: ws2812c-2020-noSolk
+  PosX: 97.663
+  PosY: -63.5
+  Rot: 0.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D107
+  Package: ws2812c-2020-noSolk
+  PosX: 97.663
+  PosY: -85.344
+  Rot: 180.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D108
+  Package: ws2812c-2020-noSolk
+  PosX: 100.203
+  PosY: -85.344
+  Rot: 180.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D109
+  Package: ws2812c-2020-noSolk
+  PosX: 102.743
+  PosY: -85.344
+  Rot: 180.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D110
+  Package: ws2812c-2020-noSolk
+  PosX: 105.283
+  PosY: -85.344
+  Rot: 180.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D111
+  Package: ws2812c-2020-noSolk
+  PosX: 107.823
+  PosY: -85.344
+  Rot: 180.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D112
+  Package: ws2812c-2020-noSolk
+  PosX: 110.363
+  PosY: -85.344
+  Rot: 180.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D113
+  Package: ws2812c-2020-noSolk
+  PosX: 112.903
+  PosY: -85.344
+  Rot: 180.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D114
+  Package: ws2812c-2020-noSolk
+  PosX: 115.443
+  PosY: -85.344
+  Rot: 180.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D115
+  Package: ws2812c-2020-noSolk
+  PosX: 117.983
+  PosY: -85.344
+  Rot: 180.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D116
+  Package: ws2812c-2020-noSolk
+  PosX: 120.523
+  PosY: -85.344
+  Rot: 180.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D117
+  Package: ws2812c-2020-noSolk
+  PosX: 123.063
+  PosY: -85.344
+  Rot: 180.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D118
+  Package: ws2812c-2020-noSolk
+  PosX: 125.603
+  PosY: -85.344
+  Rot: 180.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D119
+  Package: ws2812c-2020-noSolk
+  PosX: 128.143
+  PosY: -85.344
+  Rot: 180.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D120
+  Package: ws2812c-2020-noSolk
+  PosX: 130.683
+  PosY: -85.344
+  Rot: 180.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D121
+  Package: ws2812c-2020-noSolk
+  PosX: 133.223
+  PosY: -85.344
+  Rot: 180.0
+  Side: top
+  Val: WS2812B
+- '# Ref': D122
+  Package: ws2812c-2020-noSolk
+  PosX: 89.408
+  PosY: -72.136
+  Rot: 90.0
+  Side: top
+  Val: WS2812B
+- '# Ref': J8
+  Package: PINHEADER-1x1_vertical
+  PosX: 95.123
+  PosY: -63.6524
+  Rot: 0.0
+  Side: top
+  Val: 5V
+- '# Ref': J9
+  Package: PINHEADER-1x1_vertical
+  PosX: 130.683
+  PosY: -83.2358
+  Rot: 0.0
+  Side: top
+  Val: GND
+- '# Ref': J10
+  Package: PINHEADER-1x1_vertical
+  PosX: 125.603
+  PosY: -67.9958
+  Rot: 0.0
+  Side: top
+  Val: GND
+- '# Ref': TP18
+  Package: PINHEADER-1x1_vertical
+  PosX: 135.763
+  PosY: -63.5
+  Rot: 0.0
+  Side: top
+  Val: LED_IN
+- '# Ref': TP19
+  Package: PINHEADER-1x1_vertical
+  PosX: 95.123
+  PosY: -68.072
+  Rot: 0.0
+  Side: top
+  Val: LED_OUT
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| D92 | WS2812B | ws2812c-2020-noSolk\
+  \ | 133.223 | -63.5 | 0.0 | top | \n| D93 | WS2812B | ws2812c-2020-noSolk | 130.683\
+  \ | -63.5 | 0.0 | top | \n| D94 | WS2812B | ws2812c-2020-noSolk | 128.143 | -63.5\
+  \ | 0.0 | top | \n| D95 | WS2812B | ws2812c-2020-noSolk | 125.603 | -63.5 | 0.0\
+  \ | top | \n| D96 | WS2812B | ws2812c-2020-noSolk | 123.063 | -63.5 | 0.0 | top\
+  \ | \n| D97 | WS2812B | ws2812c-2020-noSolk | 120.523 | -63.5 | 0.0 | top | \n|\
+  \ D98 | WS2812B | ws2812c-2020-noSolk | 117.983 | -63.5 | 0.0 | top | \n| D99 |\
+  \ WS2812B | ws2812c-2020-noSolk | 115.443 | -63.5 | 0.0 | top | \n| D100 | WS2812B\
+  \ | ws2812c-2020-noSolk | 112.903 | -63.5 | 0.0 | top | \n| D101 | WS2812B | ws2812c-2020-noSolk\
+  \ | 110.363 | -63.5 | 0.0 | top | \n| D102 | WS2812B | ws2812c-2020-noSolk | 107.823\
+  \ | -63.5 | 0.0 | top | \n| D103 | WS2812B | ws2812c-2020-noSolk | 105.283 | -63.5\
+  \ | 0.0 | top | \n| D104 | WS2812B | ws2812c-2020-noSolk | 102.743 | -63.5 | 0.0\
+  \ | top | \n| D105 | WS2812B | ws2812c-2020-noSolk | 100.203 | -63.5 | 0.0 | top\
+  \ | \n| D106 | WS2812B | ws2812c-2020-noSolk | 97.663 | -63.5 | 0.0 | top | \n|\
+  \ D107 | WS2812B | ws2812c-2020-noSolk | 97.663 | -85.344 | 180.0 | top | \n| D108\
+  \ | WS2812B | ws2812c-2020-noSolk | 100.203 | -85.344 | 180.0 | top | \n| D109 |\
+  \ WS2812B | ws2812c-2020-noSolk | 102.743 | -85.344 | 180.0 | top | \n| D110 | WS2812B\
+  \ | ws2812c-2020-noSolk | 105.283 | -85.344 | 180.0 | top | \n| D111 | WS2812B |\
+  \ ws2812c-2020-noSolk | 107.823 | -85.344 | 180.0 | top | \n| D112 | WS2812B | ws2812c-2020-noSolk\
+  \ | 110.363 | -85.344 | 180.0 | top | \n| D113 | WS2812B | ws2812c-2020-noSolk |\
+  \ 112.903 | -85.344 | 180.0 | top | \n| D114 | WS2812B | ws2812c-2020-noSolk | 115.443\
+  \ | -85.344 | 180.0 | top | \n| D115 | WS2812B | ws2812c-2020-noSolk | 117.983 |\
+  \ -85.344 | 180.0 | top | \n| D116 | WS2812B | ws2812c-2020-noSolk | 120.523 | -85.344\
+  \ | 180.0 | top | \n| D117 | WS2812B | ws2812c-2020-noSolk | 123.063 | -85.344 |\
+  \ 180.0 | top | \n| D118 | WS2812B | ws2812c-2020-noSolk | 125.603 | -85.344 | 180.0\
+  \ | top | \n| D119 | WS2812B | ws2812c-2020-noSolk | 128.143 | -85.344 | 180.0 |\
+  \ top | \n| D120 | WS2812B | ws2812c-2020-noSolk | 130.683 | -85.344 | 180.0 | top\
+  \ | \n| D121 | WS2812B | ws2812c-2020-noSolk | 133.223 | -85.344 | 180.0 | top |\
+  \ \n| D122 | WS2812B | ws2812c-2020-noSolk | 89.408 | -72.136 | 90.0 | top | \n\
+  | J8 | 5V | PINHEADER-1x1_vertical | 95.123 | -63.6524 | 0.0 | top | \n| J9 | GND\
+  \ | PINHEADER-1x1_vertical | 130.683 | -83.2358 | 0.0 | top | \n| J10 | GND | PINHEADER-1x1_vertical\
+  \ | 125.603 | -67.9958 | 0.0 | top | \n| TP18 | LED_IN | PINHEADER-1x1_vertical\
+  \ | 135.763 | -63.5 | 0.0 | top | \n| TP19 | LED_OUT | PINHEADER-1x1_vertical |\
+  \ 95.123 | -68.072 | 0.0 | top | \n"
 projects_flat: projects/architeuthis_flux_jumperless_ledboardrev3/current_version/working
 repo:
   allow_forking: true

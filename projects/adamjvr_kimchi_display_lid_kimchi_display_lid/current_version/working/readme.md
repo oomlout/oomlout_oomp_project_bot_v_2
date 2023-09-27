@@ -14,6 +14,30 @@
 * src_file_repo_sch_link: https://github.com/adamjvr/kimchi-display-lid/tree/master/kimchi_display_lid.sch
 * full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/adamjvr_kimchi_display_lid_kimchi_display_lid/current_version/working  
 
+## schematic  
+![](working_schematic_600.png)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -73,7 +97,7 @@
 | U2 | 1 | AP3019AKTR-G1 | AP3019AKTR-G1 | Package_TO_SOT_SMD:SOT-23-6 |  |  |  | 
 | U3 | 1 | TXS0108EPW | TXS0108EPW | Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm | Bidirectional  level-shifting voltage translator, TSSOP-20 |  |  | 
 | U4 | 1 | LSM6DSRTR | LSM6DSRTR_1 | kimchi_ulid:LSM6DSRTR |  |  |  | 
-| U5 | 1 | TPD3S014 | TPD3S014 | Package_TO_SOT_SMD:SOT-23-6 | Current Limit Switch and D+/D– ESD Protection for USB Host Port, 0.5A, SOT-23-6 |  |  | 
+| U5 | 1 | TPD3S014 | TPD3S014 | Package_TO_SOT_SMD:SOT-23-6 | Current Limit Switch and D+/Dâ€“ ESD Protection for USB Host Port, 0.5A, SOT-23-6 |  |  | 
 
 
 

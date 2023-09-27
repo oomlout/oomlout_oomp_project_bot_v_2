@@ -11,6 +11,8 @@
 
 * src_file_repo_sch: 
 * src_file_repo_sch_link: https://github.com/sparkfun/SparkFun_Qwiic_12_Bit_ADC_-_4_Channel_ADS1015/tree/master/
+* full details link: https://github.com/oomlout/oomlout_oomp_project_bot_v_2/tree/main/projects/sparkfun_sparkfun_qwiic_12_bit_adc_4_channel_ads1015_sparkfun_qwiic_12_bit_adc_4_channel_ads1015/current_version/working  
+
 
 
 

@@ -1,4 +1,227 @@
 board: mtmatrixroundedagain
+bom:
+- Id: '1'
+  Designator: J1
+  Footprint: PinHeader_1x18_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Address_Control_Power
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: J2
+  Footprint: PinHeader_1x18_P2.54mm_Vertical
+  Quantity: '1'
+  Designation: Chip_Select_Measurement
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J3
+  Footprint: Breadboard_Top
+  Quantity: '1'
+  Designation: Breadboard
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: A0,B0,C0,D0,E0,F0,G0,H0
+  Footprint: PLCC-44_16.6x16.6mm_P1.27mm
+  Quantity: '8'
+  Designation: MT8816AP
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: C1,C2,C3,C4,C5,C6
+  Footprint: C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Quantity: '6'
+  Designation: 10uF
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: D1,D2,D3,D4,D5,D6,D7,D8
+  Footprint: LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm
+  Quantity: '8'
+  Designation: LED_Small_ALT
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: R1,R2
+  Footprint: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Quantity: '2'
+  Designation: 220R
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1\
+  \ | PinHeader_1x18_P2.54mm_Vertical | 1 | Address_Control_Power |  |  | [''] | \n\
+  | 2 | J2 | PinHeader_1x18_P2.54mm_Vertical | 1 | Chip_Select_Measurement |  |  |\
+  \ [''] | \n| 3 | J3 | Breadboard_Top | 1 | Breadboard |  |  | [''] | \n| 4 | A0,B0,C0,D0,E0,F0,G0,H0\
+  \ | PLCC-44_16.6x16.6mm_P1.27mm | 8 | MT8816AP |  |  | [''] | \n| 5 | C1,C2,C3,C4,C5,C6\
+  \ | C_0805_2012Metric_Pad1.15x1.40mm_HandSolder | 6 | 10uF |  |  | [''] | \n| 6\
+  \ | D1,D2,D3,D4,D5,D6,D7,D8 | LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm | 8\
+  \ | LED_Small_ALT |  |  | [''] | \n| 7 | R1,R2 | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 2 | 220R |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: MT8816AP-MT8816
+  DNP: ''
+  Description: ''
+  Footprint: Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm
+  Qnty: '1'
+  Ref: A0
+  Value: MT8816AP
+  Vendor: ''
+- Cmp name: MT8816AP-MT8816
+  DNP: ''
+  Description: ''
+  Footprint: Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm
+  Qnty: '1'
+  Ref: B0
+  Value: MT8816AP
+  Vendor: ''
+- Cmp name: MT8816AP-MT8816
+  DNP: ''
+  Description: ''
+  Footprint: Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm
+  Qnty: '1'
+  Ref: C0
+  Value: MT8816AP
+  Vendor: ''
+- Cmp name: C_Small
+  DNP: ''
+  Description: Unpolarized capacitor, small symbol
+  Footprint: Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Qnty: '6'
+  Ref: C1, C2, C3, C4, C5, C6
+  Value: 10uF
+  Vendor: ''
+- Cmp name: MT8816AP-MT8816
+  DNP: ''
+  Description: ''
+  Footprint: Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm
+  Qnty: '1'
+  Ref: D0
+  Value: MT8816AP
+  Vendor: ''
+- Cmp name: LED_Small_ALT-Device
+  DNP: ''
+  Description: ''
+  Footprint: LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm
+  Qnty: '8'
+  Ref: D1, D2, D3, D4, D5, D6, D7, D8
+  Value: LED_Small_ALT
+  Vendor: ''
+- Cmp name: MT8816AP-MT8816
+  DNP: ''
+  Description: ''
+  Footprint: Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm
+  Qnty: '1'
+  Ref: E0
+  Value: MT8816AP
+  Vendor: ''
+- Cmp name: MT8816AP-MT8816
+  DNP: ''
+  Description: ''
+  Footprint: Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm
+  Qnty: '1'
+  Ref: F0
+  Value: MT8816AP
+  Vendor: ''
+- Cmp name: MT8816AP-MT8816
+  DNP: ''
+  Description: ''
+  Footprint: Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm
+  Qnty: '1'
+  Ref: G0
+  Value: MT8816AP
+  Vendor: ''
+- Cmp name: MT8816AP-MT8816
+  DNP: ''
+  Description: ''
+  Footprint: Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm
+  Qnty: '1'
+  Ref: H0
+  Value: MT8816AP
+  Vendor: ''
+- Cmp name: Conn_01x18_Female-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J1
+  Value: Address_Control_Power
+  Vendor: ''
+- Cmp name: Conn_01x18_Female-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical
+  Qnty: '1'
+  Ref: J2
+  Value: Chip_Select_Measurement
+  Vendor: ''
+- Cmp name: Breadboard-Connector
+  DNP: ''
+  Description: ''
+  Footprint: Footprints:Breadboard_Top
+  Qnty: '1'
+  Ref: J3
+  Value: Breadboard
+  Vendor: ''
+- Cmp name: SolderJumper_2_Bridged
+  DNP: ''
+  Description: Solder Jumper, 2-pole, closed/bridged
+  Footprint: Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm
+  Qnty: '2'
+  Ref: JP1, JP2
+  Value: SolderJumper_2_Bridged
+  Vendor: ''
+- Cmp name: R_Small_US
+  DNP: ''
+  Description: Resistor, small US symbol
+  Footprint: Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  Qnty: '2'
+  Ref: R1, R2
+  Value: 220R
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| A0 |\
+  \ 1 | MT8816AP | MT8816AP-MT8816 | Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm |  |\
+  \  |  | \n| B0 | 1 | MT8816AP | MT8816AP-MT8816 | Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm\
+  \ |  |  |  | \n| C0 | 1 | MT8816AP | MT8816AP-MT8816 | Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm\
+  \ |  |  |  | \n| C1, C2, C3, C4, C5, C6 | 6 | 10uF | C_Small | Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | Unpolarized capacitor, small symbol |  |  | \n| D0 | 1 | MT8816AP | MT8816AP-MT8816\
+  \ | Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm |  |  |  | \n| D1, D2, D3, D4, D5, D6,\
+  \ D7, D8 | 8 | LED_Small_ALT | LED_Small_ALT-Device | LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm\
+  \ |  |  |  | \n| E0 | 1 | MT8816AP | MT8816AP-MT8816 | Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm\
+  \ |  |  |  | \n| F0 | 1 | MT8816AP | MT8816AP-MT8816 | Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm\
+  \ |  |  |  | \n| G0 | 1 | MT8816AP | MT8816AP-MT8816 | Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm\
+  \ |  |  |  | \n| H0 | 1 | MT8816AP | MT8816AP-MT8816 | Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm\
+  \ |  |  |  | \n| J1 | 1 | Address_Control_Power | Conn_01x18_Female-Connector |\
+  \ Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical |  |  |  | \n| J2 |\
+  \ 1 | Chip_Select_Measurement | Conn_01x18_Female-Connector | Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical\
+  \ |  |  |  | \n| J3 | 1 | Breadboard | Breadboard-Connector | Footprints:Breadboard_Top\
+  \ |  |  |  | \n| JP1, JP2 | 2 | SolderJumper_2_Bridged | SolderJumper_2_Bridged\
+  \ | Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm | Solder Jumper, 2-pole,\
+  \ closed/bridged |  |  | \n| R1, R2 | 2 | 220R | R_Small_US | Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | Resistor, small US symbol |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/architeuthis_flux_breadware_mtmatrixroundedagain/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/architeuthis_flux_breadware_mtmatrixroundedagain/current_version/working/working.kicad_pcb
@@ -6,6 +229,228 @@ file_repo_bom_xlsx_flat: projects/architeuthis_flux_breadware_mtmatrixroundedaga
 file_sch_flat: projects/architeuthis_flux_breadware_mtmatrixroundedagain/current_version/working/working.sch
 id: architeuthis_flux_breadware_mtmatrixroundedagain
 name: breadware
+position_bottom:
+- '# Ref': A0
+  Package: PLCC-44_16.6x16.6mm_P1.27mm
+  PosX: 79.375
+  PosY: -57.15
+  Rot: 180.0
+  Side: bottom
+  Val: MT8816AP
+- '# Ref': B0
+  Package: PLCC-44_16.6x16.6mm_P1.27mm
+  PosX: 99.06
+  PosY: -57.15
+  Rot: 180.0
+  Side: bottom
+  Val: MT8816AP
+- '# Ref': C0
+  Package: PLCC-44_16.6x16.6mm_P1.27mm
+  PosX: 119.2981
+  PosY: -57.15
+  Rot: 180.0
+  Side: bottom
+  Val: MT8816AP
+- '# Ref': C1
+  Package: C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 112.3131
+  PosY: -46.524
+  Rot: 180.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C2
+  Package: C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 112.5581
+  PosY: -97.324
+  Rot: 180.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C3
+  Package: C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 81.1891
+  PosY: -71.797
+  Rot: 0.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C4
+  Package: C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 139.1101
+  PosY: -71.924
+  Rot: 0.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C5
+  Package: C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 144.7071
+  PosY: -71.924
+  Rot: 180.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': C6
+  Package: C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 73.7051
+  PosY: -71.797
+  Rot: 0.0
+  Side: bottom
+  Val: 10uF
+- '# Ref': D0
+  Package: PLCC-44_16.6x16.6mm_P1.27mm
+  PosX: 138.9831
+  PosY: -57.15
+  Rot: 180.0
+  Side: bottom
+  Val: MT8816AP
+- '# Ref': D1
+  Package: LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm
+  PosX: 79.2931
+  PosY: -46.524
+  Rot: 0.0
+  Side: bottom
+  Val: LED_Small_ALT
+- '# Ref': D2
+  Package: LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm
+  PosX: 119.2981
+  PosY: -46.524
+  Rot: 0.0
+  Side: bottom
+  Val: LED_Small_ALT
+- '# Ref': D3
+  Package: LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm
+  PosX: 138.9831
+  PosY: -46.524
+  Rot: 0.0
+  Side: bottom
+  Val: LED_Small_ALT
+- '# Ref': D4
+  Package: LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm
+  PosX: 98.9781
+  PosY: -46.524
+  Rot: 0.0
+  Side: bottom
+  Val: LED_Small_ALT
+- '# Ref': D5
+  Package: LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm
+  PosX: 119.2981
+  PosY: -97.324
+  Rot: 180.0
+  Side: bottom
+  Val: LED_Small_ALT
+- '# Ref': D6
+  Package: LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm
+  PosX: 98.9781
+  PosY: -97.324
+  Rot: 180.0
+  Side: bottom
+  Val: LED_Small_ALT
+- '# Ref': D7
+  Package: LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm
+  PosX: 79.2931
+  PosY: -97.324
+  Rot: 180.0
+  Side: bottom
+  Val: LED_Small_ALT
+- '# Ref': D8
+  Package: LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm
+  PosX: 138.9831
+  PosY: -97.324
+  Rot: 180.0
+  Side: bottom
+  Val: LED_Small_ALT
+- '# Ref': E0
+  Package: PLCC-44_16.6x16.6mm_P1.27mm
+  PosX: 138.9831
+  PosY: -86.656
+  Rot: 180.0
+  Side: bottom
+  Val: MT8816AP
+- '# Ref': F0
+  Package: PLCC-44_16.6x16.6mm_P1.27mm
+  PosX: 119.2981
+  PosY: -86.529
+  Rot: 180.0
+  Side: bottom
+  Val: MT8816AP
+- '# Ref': G0
+  Package: PLCC-44_16.6x16.6mm_P1.27mm
+  PosX: 98.9781
+  PosY: -86.529
+  Rot: 180.0
+  Side: bottom
+  Val: MT8816AP
+- '# Ref': H0
+  Package: PLCC-44_16.6x16.6mm_P1.27mm
+  PosX: 79.2931
+  PosY: -86.529
+  Rot: 180.0
+  Side: bottom
+  Val: MT8816AP
+- '# Ref': R1
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 147.2381
+  PosY: -47.032
+  Rot: 180.0
+  Side: bottom
+  Val: 220R
+- '# Ref': R2
+  Package: R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+  PosX: 71.0381
+  PosY: -96.689
+  Rot: 0.0
+  Side: bottom
+  Val: 220R
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| A0 | MT8816AP | PLCC-44_16.6x16.6mm_P1.27mm\
+  \ | 79.375 | -57.15 | 180.0 | bottom | \n| B0 | MT8816AP | PLCC-44_16.6x16.6mm_P1.27mm\
+  \ | 99.06 | -57.15 | 180.0 | bottom | \n| C0 | MT8816AP | PLCC-44_16.6x16.6mm_P1.27mm\
+  \ | 119.2981 | -57.15 | 180.0 | bottom | \n| C1 | 10uF | C_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 112.3131 | -46.524 | 180.0 | bottom | \n| C2 | 10uF | C_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 112.5581 | -97.324 | 180.0 | bottom | \n| C3 | 10uF | C_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 81.1891 | -71.797 | 0.0 | bottom | \n| C4 | 10uF | C_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 139.1101 | -71.924 | 0.0 | bottom | \n| C5 | 10uF | C_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 144.7071 | -71.924 | 180.0 | bottom | \n| C6 | 10uF | C_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 73.7051 | -71.797 | 0.0 | bottom | \n| D0 | MT8816AP | PLCC-44_16.6x16.6mm_P1.27mm\
+  \ | 138.9831 | -57.15 | 180.0 | bottom | \n| D1 | LED_Small_ALT | LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm\
+  \ | 79.2931 | -46.524 | 0.0 | bottom | \n| D2 | LED_Small_ALT | LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm\
+  \ | 119.2981 | -46.524 | 0.0 | bottom | \n| D3 | LED_Small_ALT | LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm\
+  \ | 138.9831 | -46.524 | 0.0 | bottom | \n| D4 | LED_Small_ALT | LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm\
+  \ | 98.9781 | -46.524 | 0.0 | bottom | \n| D5 | LED_Small_ALT | LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm\
+  \ | 119.2981 | -97.324 | 180.0 | bottom | \n| D6 | LED_Small_ALT | LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm\
+  \ | 98.9781 | -97.324 | 180.0 | bottom | \n| D7 | LED_Small_ALT | LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm\
+  \ | 79.2931 | -97.324 | 180.0 | bottom | \n| D8 | LED_Small_ALT | LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm\
+  \ | 138.9831 | -97.324 | 180.0 | bottom | \n| E0 | MT8816AP | PLCC-44_16.6x16.6mm_P1.27mm\
+  \ | 138.9831 | -86.656 | 180.0 | bottom | \n| F0 | MT8816AP | PLCC-44_16.6x16.6mm_P1.27mm\
+  \ | 119.2981 | -86.529 | 180.0 | bottom | \n| G0 | MT8816AP | PLCC-44_16.6x16.6mm_P1.27mm\
+  \ | 98.9781 | -86.529 | 180.0 | bottom | \n| H0 | MT8816AP | PLCC-44_16.6x16.6mm_P1.27mm\
+  \ | 79.2931 | -86.529 | 180.0 | bottom | \n| R1 | 220R | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 147.2381 | -47.032 | 180.0 | bottom | \n| R2 | 220R | R_0805_2012Metric_Pad1.15x1.40mm_HandSolder\
+  \ | 71.0381 | -96.689 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': J1
+  Package: PinHeader_1x18_P2.54mm_Vertical
+  PosX: 68.4981
+  PosY: -50.334
+  Rot: 0.0
+  Side: top
+  Val: Address_Control_Power
+- '# Ref': J2
+  Package: PinHeader_1x18_P2.54mm_Vertical
+  PosX: 149.7781
+  PosY: -50.334
+  Rot: 0.0
+  Side: top
+  Val: Chip_Select_Measurement
+- '# Ref': J3
+  Package: Breadboard_Top
+  PosX: 109.1381
+  PosY: -71.924
+  Rot: 0.0
+  Side: top
+  Val: Breadboard
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| J1 | Address_Control_Power | PinHeader_1x18_P2.54mm_Vertical\
+  \ | 68.4981 | -50.334 | 0.0 | top | \n| J2 | Chip_Select_Measurement | PinHeader_1x18_P2.54mm_Vertical\
+  \ | 149.7781 | -50.334 | 0.0 | top | \n| J3 | Breadboard | Breadboard_Top | 109.1381\
+  \ | -71.924 | 0.0 | top | \n"
 projects_flat: projects/architeuthis_flux_breadware_mtmatrixroundedagain/current_version/working
 repo:
   allow_forking: true

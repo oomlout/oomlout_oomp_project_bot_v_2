@@ -1,10 +1,256 @@
 board: lumenati_4_pack
+bom:
+- Id: '1'
+  Designator: C1,C2,C3,C4
+  Footprint: 0603_revised
+  Quantity: '4'
+  Designation: C
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: U1,U2,U3,U4
+  Footprint: APA102_3
+  Quantity: '4'
+  Designation: APA102C
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: ','
+  Footprint: FIDUCIAL-MICRO
+  Quantity: '2'
+  Designation: ''
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J1,J7
+  Footprint: solder_pad_2
+  Quantity: '2'
+  Designation: 5V
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: J2
+  Footprint: solder_pad_2
+  Quantity: '1'
+  Designation: CI
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: J3
+  Footprint: solder_pad_2
+  Quantity: '1'
+  Designation: DI
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: J4,J8
+  Footprint: solder_pad_2
+  Quantity: '2'
+  Designation: GND
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: J5
+  Footprint: solder_pad_2
+  Quantity: '1'
+  Designation: CO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: J6
+  Footprint: solder_pad_2
+  Quantity: '1'
+  Designation: DO
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | C1,C2,C3,C4\
+  \ | 0603_revised | 4 | C |  |  | [''] | \n| 2 | U1,U2,U3,U4 | APA102_3 | 4 | APA102C\
+  \ |  |  | [''] | \n| 3 | , | FIDUCIAL-MICRO | 2 |  |  |  | [''] | \n| 4 | J1,J7\
+  \ | solder_pad_2 | 2 | 5V |  |  | [''] | \n| 5 | J2 | solder_pad_2 | 1 | CI |  |\
+  \  | [''] | \n| 6 | J3 | solder_pad_2 | 1 | DI |  |  | [''] | \n| 7 | J4,J8 | solder_pad_2\
+  \ | 2 | GND |  |  | [''] | \n| 8 | J5 | solder_pad_2 | 1 | CO |  |  | [''] | \n\
+  | 9 | J6 | solder_pad_2 | 1 | DO |  |  | [''] | \n"
+bom_schematic: []
+bom_schematic_markdown: no data
 counter: 1
 file_kicad_pcb_flat: projects/sparkfun_lumenati_4_pack_lumenati_4_pack/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/sparkfun_lumenati_4_pack_lumenati_4_pack/current_version/working/working.kicad_pcb
 file_sch_flat: projects/sparkfun_lumenati_4_pack_lumenati_4_pack/current_version/working/working.sch
 id: sparkfun_lumenati_4_pack_lumenati_4_pack
 name: lumenati_4_pack
+position_bottom:
+- '# Ref': J1
+  Package: solder_pad_2
+  PosX: 0.635
+  PosY: -8.255
+  Rot: -60.0
+  Side: bottom
+  Val: 5V
+- '# Ref': J2
+  Package: solder_pad_2
+  PosX: 4.826
+  PosY: -4.826
+  Rot: 30.0
+  Side: bottom
+  Val: CI
+- '# Ref': J3
+  Package: solder_pad_2
+  PosX: 6.604
+  PosY: -6.604
+  Rot: 0.0
+  Side: bottom
+  Val: DI
+- '# Ref': J4
+  Package: solder_pad_2
+  PosX: 0.6096
+  PosY: -5.0292
+  Rot: 150.0
+  Side: bottom
+  Val: GND
+- '# Ref': J5
+  Package: solder_pad_2
+  PosX: 5.5372
+  PosY: 0.0254
+  Rot: -30.0
+  Side: bottom
+  Val: CO
+- '# Ref': J6
+  Package: solder_pad_2
+  PosX: 9.3218
+  PosY: 0.0254
+  Rot: 90.0
+  Side: bottom
+  Val: DO
+- '# Ref': J7
+  Package: solder_pad_2
+  PosX: -1.778
+  PosY: -8.255
+  Rot: 0.0
+  Side: bottom
+  Val: 5V
+- '# Ref': J8
+  Package: solder_pad_2
+  PosX: -1.8034
+  PosY: -5.0292
+  Rot: 0.0
+  Side: bottom
+  Val: GND
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| J1 | 5V | solder_pad_2 | 0.635 |\
+  \ -8.255 | -60.0 | bottom | \n| J2 | CI | solder_pad_2 | 4.826 | -4.826 | 30.0 |\
+  \ bottom | \n| J3 | DI | solder_pad_2 | 6.604 | -6.604 | 0.0 | bottom | \n| J4 |\
+  \ GND | solder_pad_2 | 0.6096 | -5.0292 | 150.0 | bottom | \n| J5 | CO | solder_pad_2\
+  \ | 5.5372 | 0.0254 | -30.0 | bottom | \n| J6 | DO | solder_pad_2 | 9.3218 | 0.0254\
+  \ | 90.0 | bottom | \n| J7 | 5V | solder_pad_2 | -1.778 | -8.255 | 0.0 | bottom\
+  \ | \n| J8 | GND | solder_pad_2 | -1.8034 | -5.0292 | 0.0 | bottom | \n"
+position_top:
+- '# Ref': .nan
+  Package: FIDUCIAL-MICRO
+  PosX: 7.0866
+  PosY: 7.0866
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': .nan
+  Package: FIDUCIAL-MICRO
+  PosX: -7.0358
+  PosY: -7.0358
+  Rot: 0.0
+  Side: top
+  Val: .nan
+- '# Ref': C1
+  Package: 0603_revised
+  PosX: 0.0
+  PosY: -3.429
+  Rot: 0.0
+  Side: top
+  Val: C
+- '# Ref': C2
+  Package: 0603_revised
+  PosX: -3.429
+  PosY: 0.0
+  Rot: -90.0
+  Side: top
+  Val: C
+- '# Ref': C3
+  Package: 0603_revised
+  PosX: 0.0
+  PosY: 3.429
+  Rot: 180.0
+  Side: top
+  Val: C
+- '# Ref': C4
+  Package: 0603_revised
+  PosX: 3.429
+  PosY: 0.0
+  Rot: 90.0
+  Side: top
+  Val: C
+- '# Ref': U1
+  Package: APA102_3
+  PosX: 0.0
+  PosY: -6.985
+  Rot: 0.0
+  Side: top
+  Val: APA102C
+- '# Ref': U2
+  Package: APA102_3
+  PosX: -6.985
+  PosY: 0.0
+  Rot: -90.0
+  Side: top
+  Val: APA102C
+- '# Ref': U3
+  Package: APA102_3
+  PosX: 0.0
+  PosY: 6.985
+  Rot: 180.0
+  Side: top
+  Val: APA102C
+- '# Ref': U4
+  Package: APA102_3
+  PosX: 6.985
+  PosY: 0.0
+  Rot: 90.0
+  Side: top
+  Val: APA102C
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| nan | nan | FIDUCIAL-MICRO | 7.0866\
+  \ | 7.0866 | 0.0 | top | \n| nan | nan | FIDUCIAL-MICRO | -7.0358 | -7.0358 | 0.0\
+  \ | top | \n| C1 | C | 0603_revised | 0.0 | -3.429 | 0.0 | top | \n| C2 | C | 0603_revised\
+  \ | -3.429 | 0.0 | -90.0 | top | \n| C3 | C | 0603_revised | 0.0 | 3.429 | 180.0\
+  \ | top | \n| C4 | C | 0603_revised | 3.429 | 0.0 | 90.0 | top | \n| U1 | APA102C\
+  \ | APA102_3 | 0.0 | -6.985 | 0.0 | top | \n| U2 | APA102C | APA102_3 | -6.985 |\
+  \ 0.0 | -90.0 | top | \n| U3 | APA102C | APA102_3 | 0.0 | 6.985 | 180.0 | top |\
+  \ \n| U4 | APA102C | APA102_3 | 6.985 | 0.0 | 90.0 | top | \n"
 projects_flat: projects/sparkfun_lumenati_4_pack_lumenati_4_pack/current_version/working
 repo:
   allow_forking: true

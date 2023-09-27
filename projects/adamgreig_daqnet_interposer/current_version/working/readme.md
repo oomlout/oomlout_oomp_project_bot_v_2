@@ -16,7 +16,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -28,7 +49,7 @@
 ## working_bom
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| 1 | C101,C102 | 0805 | 2 | 1µ |  |  | [''] | 
+| 1 | C101,C102 | 0805 | 2 | 1Âµ |  |  | [''] | 
 | 2 | D101,D102 | 0402 | 2 | ESD_DIODE |  |  | [''] | 
 | 3 | IC101,IC102 | MSOP-8 | 2 | AD8226ARMZ |  |  | [''] | 
 | 4 | J101,J102 | RJHSE-538X | 2 | RJHSE-5381 |  |  | [''] | 
@@ -41,7 +62,7 @@
 ## bom_schematic
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| C101, C102 | 2 | 1µ | C-agg | agg:0805 |  |  |  | 
+| C101, C102 | 2 | 1Âµ | C-agg | agg:0805 |  |  |  | 
 | C103, C104 | 2 | 100n | C-agg | agg:0402 |  |  |  | 
 | D101, D102 | 2 | ESD_DIODE | ESD_DIODE-agg | agg:0402 |  |  |  | 
 | IC101, IC102 | 2 | AD8226ARMZ | AD8226-agg | agg:MSOP-8 |  |  |  | 

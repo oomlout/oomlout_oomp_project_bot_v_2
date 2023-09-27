@@ -1,10 +1,657 @@
 board: atmega328pb_usb_bread_board
+bom:
+- Id: '1'
+  Designator: J1,J2
+  Footprint: PinSocket_1x17_P2.54mm_Vertical
+  Quantity: '2'
+  Designation: Conn_01x17
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: D4
+  Footprint: LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  Quantity: '1'
+  Designation: PB5/D13
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: J3
+  Footprint: USB_Micro-B_Molex-105017-0001
+  Quantity: '1'
+  Designation: USB_B_Micro
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: J5,J6,J7
+  Footprint: NS-Tech_Grove_1x04_P2mm_Vertical
+  Quantity: '3'
+  Designation: Grove-I2C-connector
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: SW1
+  Footprint: SW_Push_TVAF06
+  Quantity: '1'
+  Designation: SW_Push
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: C1,C2,C3,C7,C9,C4
+  Footprint: C_0402_1005Metric
+  Quantity: '6'
+  Designation: 0.1uf
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: U1
+  Footprint: QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+  Quantity: '1'
+  Designation: ATmega328PB-MU
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: R1
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 22.1k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: R2
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 47.5k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '10'
+  Designator: U2
+  Footprint: QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm
+  Quantity: '1'
+  Designation: CP2102N-A01-GQFN28
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '11'
+  Designator: D5
+  Footprint: D_SOD-123F
+  Quantity: '1'
+  Designation: D
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: J4
+  Footprint: 2x03_P2.54mm_ISP_Pads
+  Quantity: '1'
+  Designation: AVR-ISP-6
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '13'
+  Designator: R3
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 22k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '14'
+  Designator: C6,C5
+  Footprint: C_0402_1005Metric
+  Quantity: '2'
+  Designation: 4.7uf
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '15'
+  Designator: R4
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 1k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '16'
+  Designator: U5
+  Footprint: SOT-23-5
+  Quantity: '1'
+  Designation: SiT2001B-MEMS-Clock-Generator
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '17'
+  Designator: D1
+  Footprint: OnSemi_UDFN-6_1.2x1.0mm_P0.4mm
+  Quantity: '1'
+  Designation: Diode_4array_ESDR0502NMUTBG
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '18'
+  Designator: R5
+  Footprint: R_0603_1608Metric
+  Quantity: '1'
+  Designation: 10k
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '19'
+  Designator: C11
+  Footprint: C_0603_1608Metric
+  Quantity: '1'
+  Designation: 15pf
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '20'
+  Designator: J8
+  Footprint: 2x02_P2.54mm_USB_Pads
+  Quantity: '1'
+  Designation: USB_test
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1,J2\
+  \ | PinSocket_1x17_P2.54mm_Vertical | 2 | Conn_01x17 |  |  | [''] | \n| 2 | D4 |\
+  \ LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder | 1 | PB5/D13 |  |  | [''] | \n\
+  | 3 | J3 | USB_Micro-B_Molex-105017-0001 | 1 | USB_B_Micro |  |  | [''] | \n| 4\
+  \ | J5,J6,J7 | NS-Tech_Grove_1x04_P2mm_Vertical | 3 | Grove-I2C-connector |  | \
+  \ | [''] | \n| 5 | SW1 | SW_Push_TVAF06 | 1 | SW_Push |  |  | [''] | \n| 6 | C1,C2,C3,C7,C9,C4\
+  \ | C_0402_1005Metric | 6 | 0.1uf |  |  | [''] | \n| 7 | U1 | QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm\
+  \ | 1 | ATmega328PB-MU |  |  | [''] | \n| 8 | R1 | R_0603_1608Metric | 1 | 22.1k\
+  \ |  |  | [''] | \n| 9 | R2 | R_0603_1608Metric | 1 | 47.5k |  |  | [''] | \n| 10\
+  \ | U2 | QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm | 1 | CP2102N-A01-GQFN28 |  |  |\
+  \ [''] | \n| 11 | D5 | D_SOD-123F | 1 | D |  |  | [''] | \n| 12 | J4 | 2x03_P2.54mm_ISP_Pads\
+  \ | 1 | AVR-ISP-6 |  |  | [''] | \n| 13 | R3 | R_0603_1608Metric | 1 | 22k |  |\
+  \  | [''] | \n| 14 | C6,C5 | C_0402_1005Metric | 2 | 4.7uf |  |  | [''] | \n| 15\
+  \ | R4 | R_0603_1608Metric | 1 | 1k |  |  | [''] | \n| 16 | U5 | SOT-23-5 | 1 |\
+  \ SiT2001B-MEMS-Clock-Generator |  |  | [''] | \n| 17 | D1 | OnSemi_UDFN-6_1.2x1.0mm_P0.4mm\
+  \ | 1 | Diode_4array_ESDR0502NMUTBG |  |  | [''] | \n| 18 | R5 | R_0603_1608Metric\
+  \ | 1 | 10k |  |  | [''] | \n| 19 | C11 | C_0603_1608Metric | 1 | 15pf |  |  | ['']\
+  \ | \n| 20 | J8 | 2x02_P2.54mm_USB_Pads | 1 | USB_test |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0402_1005Metric
+  Qnty: '6'
+  Ref: C1, C2, C3, C4, C7, C9
+  Value: 0.1uf
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0402_1005Metric
+  Qnty: '2'
+  Ref: C5, C6
+  Value: 4.7uf
+  Vendor: ''
+- Cmp name: C
+  DNP: ''
+  Description: Unpolarized capacitor
+  Footprint: Capacitor_SMD:C_0603_1608Metric
+  Qnty: '1'
+  Ref: C11
+  Value: 15pf
+  Vendor: ''
+- Cmp name: Diode_4array_ESDR0502NMUTBG-my-kicad-symbols
+  DNP: ''
+  Description: ''
+  Footprint: my-kicad-footprints:OnSemi_UDFN-6_1.2x1.0mm_P0.4mm
+  Qnty: '1'
+  Ref: D1
+  Value: Diode_4array_ESDR0502NMUTBG
+  Vendor: ''
+- Cmp name: LED
+  DNP: ''
+  Description: Light emitting diode
+  Footprint: LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  Qnty: '1'
+  Ref: D4
+  Value: PB5/D13
+  Vendor: ''
+- Cmp name: D
+  DNP: ''
+  Description: Diode
+  Footprint: Diode_SMD:D_SOD-123F
+  Qnty: '1'
+  Ref: D5
+  Value: D
+  Vendor: ''
+- Cmp name: Conn_01x17
+  DNP: ''
+  Description: Generic connector, single row, 01x17, script generated (kicad-library-utils/schlib/autogen/connector/)
+  Footprint: Connector_PinSocket_2.54mm:PinSocket_1x17_P2.54mm_Vertical
+  Qnty: '2'
+  Ref: J1, J2
+  Value: Conn_01x17
+  Vendor: ''
+- Cmp name: USB_B_Micro-Connector-ATmega328PB-usb-bread-board-rescue
+  DNP: ''
+  Description: ''
+  Footprint: Connector_USB:USB_Micro-B_Molex-105017-0001
+  Qnty: '1'
+  Ref: J3
+  Value: USB_B_Micro
+  Vendor: ''
+- Cmp name: AVR-ISP-6
+  DNP: ''
+  Description: Atmel 6-pin ISP connector
+  Footprint: my-kicad-footprints:2x03_P2.54mm_ISP_Pads
+  Qnty: '1'
+  Ref: J4
+  Value: AVR-ISP-6
+  Vendor: ''
+- Cmp name: Grove-I2C-connector-my-kicad-symbols
+  DNP: ''
+  Description: ''
+  Footprint: Connector:NS-Tech_Grove_1x04_P2mm_Vertical
+  Qnty: '3'
+  Ref: J5, J6, J7
+  Value: Grove-I2C-connector
+  Vendor: ''
+- Cmp name: USB_A
+  DNP: ''
+  Description: USB Type A connector
+  Footprint: my-kicad-footprints:2x02_P2.54mm_USB_Pads
+  Qnty: '1'
+  Ref: J8
+  Value: USB_test
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R1
+  Value: 22.1k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R2
+  Value: 47.5k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R3
+  Value: 22k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R4
+  Value: 1k
+  Vendor: ''
+- Cmp name: R
+  DNP: ''
+  Description: Resistor
+  Footprint: Resistor_SMD:R_0603_1608Metric
+  Qnty: '1'
+  Ref: R5
+  Value: 10k
+  Vendor: ''
+- Cmp name: SW_Push
+  DNP: ''
+  Description: Push button switch, generic, two pins
+  Footprint: my-kicad-footprints:SW_Push_TVAF06
+  Qnty: '1'
+  Ref: SW1
+  Value: SW_Push
+  Vendor: ''
+- Cmp name: ATmega328PB-MU-MCU_Microchip_ATmega-ATmega328PB-usb-bread-board-rescue
+  DNP: ''
+  Description: ''
+  Footprint: Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+  Qnty: '1'
+  Ref: U1
+  Value: ATmega328PB-MU
+  Vendor: ''
+- Cmp name: CP2102N-A01-GQFN28-Interface_USB-ATmega328PB-usb-bread-board-rescue
+  DNP: ''
+  Description: ''
+  Footprint: Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm
+  Qnty: '1'
+  Ref: U2
+  Value: CP2102N-A01-GQFN28
+  Vendor: ''
+- Cmp name: SiT2001B-MEMS-Clock-Generator-my-kicad-symbols
+  DNP: ''
+  Description: ''
+  Footprint: Package_TO_SOT_SMD:SOT-23-5
+  Qnty: '1'
+  Ref: U5
+  Value: SiT2001B-MEMS-Clock-Generator
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2,\
+  \ C3, C4, C7, C9 | 6 | 0.1uf | C | Capacitor_SMD:C_0402_1005Metric | Unpolarized\
+  \ capacitor |  |  | \n| C5, C6 | 2 | 4.7uf | C | Capacitor_SMD:C_0402_1005Metric\
+  \ | Unpolarized capacitor |  |  | \n| C11 | 1 | 15pf | C | Capacitor_SMD:C_0603_1608Metric\
+  \ | Unpolarized capacitor |  |  | \n| D1 | 1 | Diode_4array_ESDR0502NMUTBG | Diode_4array_ESDR0502NMUTBG-my-kicad-symbols\
+  \ | my-kicad-footprints:OnSemi_UDFN-6_1.2x1.0mm_P0.4mm |  |  |  | \n| D4 | 1 | PB5/D13\
+  \ | LED | LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder | Light emitting\
+  \ diode |  |  | \n| D5 | 1 | D | D | Diode_SMD:D_SOD-123F | Diode |  |  | \n| J1,\
+  \ J2 | 2 | Conn_01x17 | Conn_01x17 | Connector_PinSocket_2.54mm:PinSocket_1x17_P2.54mm_Vertical\
+  \ | Generic connector, single row, 01x17, script generated (kicad-library-utils/schlib/autogen/connector/)\
+  \ |  |  | \n| J3 | 1 | USB_B_Micro | USB_B_Micro-Connector-ATmega328PB-usb-bread-board-rescue\
+  \ | Connector_USB:USB_Micro-B_Molex-105017-0001 |  |  |  | \n| J4 | 1 | AVR-ISP-6\
+  \ | AVR-ISP-6 | my-kicad-footprints:2x03_P2.54mm_ISP_Pads | Atmel 6-pin ISP connector\
+  \ |  |  | \n| J5, J6, J7 | 3 | Grove-I2C-connector | Grove-I2C-connector-my-kicad-symbols\
+  \ | Connector:NS-Tech_Grove_1x04_P2mm_Vertical |  |  |  | \n| J8 | 1 | USB_test\
+  \ | USB_A | my-kicad-footprints:2x02_P2.54mm_USB_Pads | USB Type A connector | \
+  \ |  | \n| R1 | 1 | 22.1k | R | Resistor_SMD:R_0603_1608Metric | Resistor |  | \
+  \ | \n| R2 | 1 | 47.5k | R | Resistor_SMD:R_0603_1608Metric | Resistor |  |  | \n\
+  | R3 | 1 | 22k | R | Resistor_SMD:R_0603_1608Metric | Resistor |  |  | \n| R4 |\
+  \ 1 | 1k | R | Resistor_SMD:R_0603_1608Metric | Resistor |  |  | \n| R5 | 1 | 10k\
+  \ | R | Resistor_SMD:R_0603_1608Metric | Resistor |  |  | \n| SW1 | 1 | SW_Push\
+  \ | SW_Push | my-kicad-footprints:SW_Push_TVAF06 | Push button switch, generic,\
+  \ two pins |  |  | \n| U1 | 1 | ATmega328PB-MU | ATmega328PB-MU-MCU_Microchip_ATmega-ATmega328PB-usb-bread-board-rescue\
+  \ | Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm |  |  |  | \n| U2 | 1 |\
+  \ CP2102N-A01-GQFN28 | CP2102N-A01-GQFN28-Interface_USB-ATmega328PB-usb-bread-board-rescue\
+  \ | Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm |  |  |  | \n| U5 | 1\
+  \ | SiT2001B-MEMS-Clock-Generator | SiT2001B-MEMS-Clock-Generator-my-kicad-symbols\
+  \ | Package_TO_SOT_SMD:SOT-23-5 |  |  |  | \n"
 counter: 1
 file_kicad_pcb_flat: projects/asukiaaa_atmega328pb_usb_bread_board_atmega328pb_usb_bread_board/current_version/working/working.kicad_pcb
 file_kicad_sch_flat: projects/asukiaaa_atmega328pb_usb_bread_board_atmega328pb_usb_bread_board/current_version/working/working.kicad_pcb
 file_sch_flat: projects/asukiaaa_atmega328pb_usb_bread_board_atmega328pb_usb_bread_board/current_version/working/working.sch
 id: asukiaaa_atmega328pb_usb_bread_board_atmega328pb_usb_bread_board
 name: atmega328pb_usb_bread_board
+position_bottom:
+- '# Ref': C1
+  Package: C_0402_1005Metric
+  PosX: 132.55
+  PosY: -65.15
+  Rot: 90.0
+  Side: bottom
+  Val: 0.1uf
+- '# Ref': C2
+  Package: C_0402_1005Metric
+  PosX: 130.825
+  PosY: -65.17
+  Rot: 90.0
+  Side: bottom
+  Val: 0.1uf
+- '# Ref': C3
+  Package: C_0402_1005Metric
+  PosX: 120.05
+  PosY: -86.08
+  Rot: -90.0
+  Side: bottom
+  Val: 0.1uf
+- '# Ref': C4
+  Package: C_0402_1005Metric
+  PosX: 124.725
+  PosY: -92.38
+  Rot: 180.0
+  Side: bottom
+  Val: 0.1uf
+- '# Ref': C5
+  Package: C_0402_1005Metric
+  PosX: 125.8
+  PosY: -93.78
+  Rot: 0.0
+  Side: bottom
+  Val: 4.7uf
+- '# Ref': C6
+  Package: C_0402_1005Metric
+  PosX: 127.72
+  PosY: -93.78
+  Rot: 180.0
+  Side: bottom
+  Val: 4.7uf
+- '# Ref': C7
+  Package: C_0402_1005Metric
+  PosX: 127.225
+  PosY: -95.18
+  Rot: 180.0
+  Side: bottom
+  Val: 0.1uf
+- '# Ref': C9
+  Package: C_0402_1005Metric
+  PosX: 132.58
+  PosY: -79.975
+  Rot: 0.0
+  Side: bottom
+  Val: 0.1uf
+- '# Ref': C11
+  Package: C_0603_1608Metric
+  PosX: 130.65
+  PosY: -75.05
+  Rot: 180.0
+  Side: bottom
+  Val: 15pf
+- '# Ref': D1
+  Package: OnSemi_UDFN-6_1.2x1.0mm_P0.4mm
+  PosX: 129.75
+  PosY: -97.73
+  Rot: 90.0
+  Side: bottom
+  Val: Diode_4array_ESDR0502NMUTBG
+- '# Ref': D5
+  Package: D_SOD-123F
+  PosX: 121.6
+  PosY: -99.275
+  Rot: -90.0
+  Side: bottom
+  Val: D
+- '# Ref': J4
+  Package: 2x03_P2.54mm_ISP_Pads
+  PosX: 122.45
+  PosY: -75.58
+  Rot: 180.0
+  Side: bottom
+  Val: AVR-ISP-6
+- '# Ref': J8
+  Package: 2x02_P2.54mm_USB_Pads
+  PosX: 137.05
+  PosY: -94.775
+  Rot: 180.0
+  Side: bottom
+  Val: USB_test
+- '# Ref': R1
+  Package: R_0603_1608Metric
+  PosX: 120.35
+  PosY: -90.992
+  Rot: -90.0
+  Side: bottom
+  Val: 22.1k
+- '# Ref': R2
+  Package: R_0603_1608Metric
+  PosX: 120.35
+  PosY: -94.18
+  Rot: -90.0
+  Side: bottom
+  Val: 47.5k
+- '# Ref': R3
+  Package: R_0603_1608Metric
+  PosX: 138.825
+  PosY: -99.55
+  Rot: 180.0
+  Side: bottom
+  Val: 22k
+- '# Ref': R4
+  Package: R_0603_1608Metric
+  PosX: 123.725
+  PosY: -90.78
+  Rot: 180.0
+  Side: bottom
+  Val: 1k
+- '# Ref': R5
+  Package: R_0603_1608Metric
+  PosX: 133.175
+  PosY: -81.6
+  Rot: 0.0
+  Side: bottom
+  Val: 10k
+- '# Ref': U1
+  Package: QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+  PosX: 132.75
+  PosY: -69.88
+  Rot: 90.0
+  Side: bottom
+  Val: ATmega328PB-MU
+- '# Ref': U2
+  Package: QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm
+  PosX: 129.58
+  PosY: -89.9
+  Rot: 90.0
+  Side: bottom
+  Val: CP2102N-A01-GQFN28
+- '# Ref': U5
+  Package: SOT-23-5
+  PosX: 132.55
+  PosY: -77.545
+  Rot: 180.0
+  Side: bottom
+  Val: SiT2001B-MEMS-Clock-Generator
+position_bottom_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n\
+  | --- | --- | --- | --- | --- | --- | --- | \n| C1 | 0.1uf | C_0402_1005Metric |\
+  \ 132.55 | -65.15 | 90.0 | bottom | \n| C2 | 0.1uf | C_0402_1005Metric | 130.825\
+  \ | -65.17 | 90.0 | bottom | \n| C3 | 0.1uf | C_0402_1005Metric | 120.05 | -86.08\
+  \ | -90.0 | bottom | \n| C4 | 0.1uf | C_0402_1005Metric | 124.725 | -92.38 | 180.0\
+  \ | bottom | \n| C5 | 4.7uf | C_0402_1005Metric | 125.8 | -93.78 | 0.0 | bottom\
+  \ | \n| C6 | 4.7uf | C_0402_1005Metric | 127.72 | -93.78 | 180.0 | bottom | \n|\
+  \ C7 | 0.1uf | C_0402_1005Metric | 127.225 | -95.18 | 180.0 | bottom | \n| C9 |\
+  \ 0.1uf | C_0402_1005Metric | 132.58 | -79.975 | 0.0 | bottom | \n| C11 | 15pf |\
+  \ C_0603_1608Metric | 130.65 | -75.05 | 180.0 | bottom | \n| D1 | Diode_4array_ESDR0502NMUTBG\
+  \ | OnSemi_UDFN-6_1.2x1.0mm_P0.4mm | 129.75 | -97.73 | 90.0 | bottom | \n| D5 |\
+  \ D | D_SOD-123F | 121.6 | -99.275 | -90.0 | bottom | \n| J4 | AVR-ISP-6 | 2x03_P2.54mm_ISP_Pads\
+  \ | 122.45 | -75.58 | 180.0 | bottom | \n| J8 | USB_test | 2x02_P2.54mm_USB_Pads\
+  \ | 137.05 | -94.775 | 180.0 | bottom | \n| R1 | 22.1k | R_0603_1608Metric | 120.35\
+  \ | -90.992 | -90.0 | bottom | \n| R2 | 47.5k | R_0603_1608Metric | 120.35 | -94.18\
+  \ | -90.0 | bottom | \n| R3 | 22k | R_0603_1608Metric | 138.825 | -99.55 | 180.0\
+  \ | bottom | \n| R4 | 1k | R_0603_1608Metric | 123.725 | -90.78 | 180.0 | bottom\
+  \ | \n| R5 | 10k | R_0603_1608Metric | 133.175 | -81.6 | 0.0 | bottom | \n| U1 |\
+  \ ATmega328PB-MU | QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm | 132.75 | -69.88 | 90.0\
+  \ | bottom | \n| U2 | CP2102N-A01-GQFN28 | QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm\
+  \ | 129.58 | -89.9 | 90.0 | bottom | \n| U5 | SiT2001B-MEMS-Clock-Generator | SOT-23-5\
+  \ | 132.55 | -77.545 | 180.0 | bottom | \n"
+position_top:
+- '# Ref': D4
+  Package: LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+  PosX: 122.675
+  PosY: -107.58
+  Rot: 180.0
+  Side: top
+  Val: PB5/D13
+- '# Ref': J1
+  Package: PinSocket_1x17_P2.54mm_Vertical
+  PosX: 110.95
+  PosY: -100.32
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x17
+- '# Ref': J2
+  Package: PinSocket_1x17_P2.54mm_Vertical
+  PosX: 149.05
+  PosY: -100.32
+  Rot: 180.0
+  Side: top
+  Val: Conn_01x17
+- '# Ref': J3
+  Package: USB_Micro-B_Molex-105017-0001
+  PosX: 130.0
+  PosY: -106.58
+  Rot: 0.0
+  Side: top
+  Val: USB_B_Micro
+- '# Ref': J5
+  Package: NS-Tech_Grove_1x04_P2mm_Vertical
+  PosX: 138.35
+  PosY: -53.48
+  Rot: -90.0
+  Side: top
+  Val: Grove-I2C-connector
+- '# Ref': J6
+  Package: NS-Tech_Grove_1x04_P2mm_Vertical
+  PosX: 150.35
+  PosY: -53.48
+  Rot: -90.0
+  Side: top
+  Val: Grove-I2C-connector
+- '# Ref': J7
+  Package: NS-Tech_Grove_1x04_P2mm_Vertical
+  PosX: 115.55
+  PosY: -53.48
+  Rot: -90.0
+  Side: top
+  Val: Grove-I2C-connector
+- '# Ref': SW1
+  Package: SW_Push_TVAF06
+  PosX: 150.3
+  PosY: -107.85
+  Rot: 180.0
+  Side: top
+  Val: SW_Push
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| D4 | PB5/D13 | LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder\
+  \ | 122.675 | -107.58 | 180.0 | top | \n| J1 | Conn_01x17 | PinSocket_1x17_P2.54mm_Vertical\
+  \ | 110.95 | -100.32 | 180.0 | top | \n| J2 | Conn_01x17 | PinSocket_1x17_P2.54mm_Vertical\
+  \ | 149.05 | -100.32 | 180.0 | top | \n| J3 | USB_B_Micro | USB_Micro-B_Molex-105017-0001\
+  \ | 130.0 | -106.58 | 0.0 | top | \n| J5 | Grove-I2C-connector | NS-Tech_Grove_1x04_P2mm_Vertical\
+  \ | 138.35 | -53.48 | -90.0 | top | \n| J6 | Grove-I2C-connector | NS-Tech_Grove_1x04_P2mm_Vertical\
+  \ | 150.35 | -53.48 | -90.0 | top | \n| J7 | Grove-I2C-connector | NS-Tech_Grove_1x04_P2mm_Vertical\
+  \ | 115.55 | -53.48 | -90.0 | top | \n| SW1 | SW_Push | SW_Push_TVAF06 | 150.3 |\
+  \ -107.85 | 180.0 | top | \n"
 projects_flat: projects/asukiaaa_atmega328pb_usb_bread_board_atmega328pb_usb_bread_board/current_version/working
 repo:
   allow_forking: true

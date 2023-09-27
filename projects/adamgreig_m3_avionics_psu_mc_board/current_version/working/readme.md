@@ -16,7 +16,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -29,11 +50,11 @@
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | C1,C2 | 0402 | 2 | 10p |  |  | [''] | 
-| 2 | C3 | 0402 | 1 | 4µ7 |  |  | [''] | 
+| 2 | C3 | 0402 | 1 | 4Âµ7 |  |  | [''] | 
 | 3 | C4,C5,C7,C8,C9,C16,C19,C20 | 0402 | 8 | 100n |  |  | [''] | 
-| 4 | C6 | 0402 | 1 | 1µ |  |  | [''] | 
-| 5 | C10,C11 | 0402 | 2 | 2µ2 |  |  | [''] | 
-| 6 | C12,C14 | 0805 | 2 | 22µ |  |  | [''] | 
+| 4 | C6 | 0402 | 1 | 1Âµ |  |  | [''] | 
+| 5 | C10,C11 | 0402 | 2 | 2Âµ2 |  |  | [''] | 
+| 6 | C12,C14 | 0805 | 2 | 22Âµ |  |  | [''] | 
 | 7 | C13 | 0402 | 1 | 3n3 |  |  | [''] | 
 | 8 | IC1 | LQFP-64 | 1 | STM32F405RxTx |  |  | [''] | 
 | 9 | IC2 | QFN-16-EP-TI | 1 | TPS62152 |  |  | [''] | 
@@ -42,7 +63,7 @@
 | 12 | J1 | TFML-110-02-L-D | 1 | WEST TOP |  |  | [''] | 
 | 13 | J3 | TFML-105-02-L-D | 1 | NORTH TOP |  |  | [''] | 
 | 14 | J4 | TFML-110-02-L-D | 1 | EAST TOP |  |  | [''] | 
-| 15 | L1 | VLS201610HBX-1 | 1 | 3µ3 |  |  | [''] | 
+| 15 | L1 | VLS201610HBX-1 | 1 | 3Âµ3 |  |  | [''] | 
 | 16 | Q9,Q2 | SOT-883-B | 2 | NFET |  |  | [''] | 
 | 17 | R3 | 0402 | 1 | 100 |  |  | [''] | 
 | 18 | R7,R8,R10 | 0402 | 3 | 4k7 |  |  | [''] | 
@@ -60,11 +81,11 @@
 | Ref | Qnty | Value | Cmp name | Footprint | Description | Vendor | DNP | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | C1, C2 | 2 | 10p | C | agg:0402 |  |  |  | 
-| C3 | 1 | 4µ7 | C | agg:0402 |  |  |  | 
+| C3 | 1 | 4Âµ7 | C | agg:0402 |  |  |  | 
 | C4, C5, C7, C8, C9, C16, C19, C20 | 8 | 100n | C | agg:0402 |  |  |  | 
-| C6 | 1 | 1µ | C | agg:0402 |  |  |  | 
-| C10, C11 | 2 | 2µ2 | C | agg:0402 |  |  |  | 
-| C12, C14 | 2 | 22µ | C | agg:0805 |  |  |  | 
+| C6 | 1 | 1Âµ | C | agg:0402 |  |  |  | 
+| C10, C11 | 2 | 2Âµ2 | C | agg:0402 |  |  |  | 
+| C12, C14 | 2 | 22Âµ | C | agg:0805 |  |  |  | 
 | C13 | 1 | 3n3 | C | agg:0402 |  |  |  | 
 | IC1 | 1 | STM32F405RxTx | STM32F405RxTx | agg:LQFP-64 |  |  |  | 
 | IC2 | 1 | TPS62152 | TPS62152 | agg:QFN-16-EP-TI |  |  |  | 
@@ -75,7 +96,7 @@
 | J3 | 1 | NORTH TOP | CONN_02x05 | agg:TFML-105-02-L-D |  |  |  | 
 | J4 | 1 | EAST TOP | CONN_02x10 | agg:TFML-110-02-L-D |  |  |  | 
 | J5 | 1 | EAST BOT | CONN_02x10 | agg:SFML-110-02-L-D-LC |  |  |  | 
-| L1 | 1 | 3µ3 | L | agg:VLS201610HBX-1 |  |  |  | 
+| L1 | 1 | 3Âµ3 | L | agg:VLS201610HBX-1 |  |  |  | 
 | Q1, Q8 | 2 | PFET | PFET_GDS | agg:SON2x2 |  |  |  | 
 | Q2, Q9 | 2 | NFET | NFET_GDS | agg:SOT-883-B |  |  |  | 
 | R1, R2 | 2 | 100k | R | agg:0402 |  |  |  | 

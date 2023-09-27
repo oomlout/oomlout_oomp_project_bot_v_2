@@ -16,7 +16,28 @@
 
 ## schematic  
 ![](working_schematic_600.png)  
-[schematic (pdf)](working_schematic.pdf)  
+[schematic (pdf)](working_schematic.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## pcb  
 ![](working_3d_600.png) 
@@ -29,19 +50,19 @@
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  | None | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1 | C1 | C_Disc_D4.7mm_W2.5mm_P5.00mm | 1 | 150PF |  |  | [''] | 
-| 2 | C2 | CP_Radial_D5.0mm_P2.50mm | 1 | 470µF |  |  | [''] | 
+| 2 | C2 | CP_Radial_D5.0mm_P2.50mm | 1 | 470ÂµF |  |  | [''] | 
 | 3 | C3 | C_Disc_D4.7mm_W2.5mm_P5.00mm | 1 | 683 |  |  | [''] | 
-| 4 | C4 | CP_Radial_D5.0mm_P2.50mm | 1 | 220µF |  |  | [''] | 
-| 5 | C5 | CP_Radial_D5.0mm_P2.50mm | 1 | 4.7µF |  |  | [''] | 
-| 6 | C6,C7 | CP_Radial_D5.0mm_P2.50mm | 2 | 47µF |  |  | [''] | 
+| 4 | C4 | CP_Radial_D5.0mm_P2.50mm | 1 | 220ÂµF |  |  | [''] | 
+| 5 | C5 | CP_Radial_D5.0mm_P2.50mm | 1 | 4.7ÂµF |  |  | [''] | 
+| 6 | C6,C7 | CP_Radial_D5.0mm_P2.50mm | 2 | 47ÂµF |  |  | [''] | 
 | 7 | C8 | C_Disc_D4.7mm_W2.5mm_P5.00mm | 1 | 104 |  |  | [''] | 
-| 8 | C9,C10 | CP_Radial_D5.0mm_P2.50mm | 2 | 100µF |  |  | [''] | 
-| 9 | C11,C13,C15,C16,C17 | CP_Radial_D5.0mm_P2.50mm | 5 | 1µF |  |  | [''] | 
+| 8 | C9,C10 | CP_Radial_D5.0mm_P2.50mm | 2 | 100ÂµF |  |  | [''] | 
+| 9 | C11,C13,C15,C16,C17 | CP_Radial_D5.0mm_P2.50mm | 5 | 1ÂµF |  |  | [''] | 
 | 10 | C12 | C_Disc_D4.7mm_W2.5mm_P5.00mm | 1 | 223 |  |  | [''] | 
 | 11 | C14 | C_Disc_D4.7mm_W2.5mm_P5.00mm | 1 | 333 |  |  | [''] | 
 | 12 | Q1 | TO-92_Inline | 1 | 2SC1815 |  |  | [''] | 
-| 13 | R1 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 1 | 51Ω |  |  | [''] | 
-| 14 | R2 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 1 | 100Ω |  |  | [''] | 
+| 13 | R1 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 1 | 51Î© |  |  | [''] | 
+| 14 | R2 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 1 | 100Î© |  |  | [''] | 
 | 15 | R3,R7,R10 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 3 | 4.7K |  |  | [''] | 
 | 16 | R4 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 1 | 1M |  |  | [''] | 
 | 17 | R5 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 1 | 100K |  |  | [''] | 
