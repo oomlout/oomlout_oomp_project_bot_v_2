@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\cvra_hall_sensor_board_cartecapteurhall2018\current_version\working\working.kicad_sch</source>
+    <date>29/09/2023 22:42:33</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>_std:_0603</footprint>
+      <libsource lib="CarteCapteurHall2018-rescue" part="C-RESCUE-CarteCapteurHall" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005522c472</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED VERTE</value>
+      <footprint>_std:_0603</footprint>
+      <libsource lib="CarteCapteurHall2018-rescue" part="LED-RESCUE-CarteCapteurHall" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000552aca8a</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>CONN_3</value>
+      <footprint>Connectors_Molex:Molex_PicoBlade_53398-0371_03x1.25mm_Straight</footprint>
+      <libsource lib="phoenix" part="CONN_3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005522c353</tstamps>
+    </comp>
+    <comp ref="MEC1">
+      <value>M2</value>
+      <footprint>Mounting_Holes:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mec" part="MEC" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a29b6ac</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>_std:_0603</footprint>
+      <libsource lib="CarteCapteurHall2018-rescue" part="R-RESCUE-CarteCapteurHall" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005522ce34</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>A1122LLHLT-T</value>
+      <footprint>footprints:SOT-23W</footprint>
+      <libsource lib="cvra" part="AS1106" description="Capteur hall"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Capteur hall"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005522cbb3</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CarteCapteurHall2018-rescue" part="C-RESCUE-CarteCapteurHall">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-CarteCapteurHall</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CarteCapteurHall2018-rescue" part="LED-RESCUE-CarteCapteurHall">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-CarteCapteurHall</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CarteCapteurHall2018-rescue" part="R-RESCUE-CarteCapteurHall">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-CarteCapteurHall</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mec" part="MEC">
+      <fields>
+        <field name="Reference">MEC</field>
+        <field name="Value">MEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="cvra" part="AS1106">
+      <description>Capteur hall</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AS1106</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="VOUT" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="phoenix" part="CONN_3">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">CONN_3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="K1" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(D1-K)">
+      <node ref="D1" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(K1-PM)">
+      <node ref="K1" pin="2" pinfunction="PM" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VOUT" pintype="power_in"/>
+    </net>
+    <net code="4" name="VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K1" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="5" name="unconnected-(MEC1-Pad1)">
+      <node ref="MEC1" pin="1" pintype="input"/>
+    </net>
+  </nets>
+</export>

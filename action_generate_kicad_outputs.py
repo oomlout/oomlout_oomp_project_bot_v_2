@@ -1,7 +1,7 @@
 import oom_kicad
 import os
 import action_all
-
+import oom_git
 
 def main(**kwargs):
     filter = kwargs.get("filter", "")
@@ -24,8 +24,9 @@ def go_through_directories(**kwargs):
             #check for a brd file
             
             filename = os.path.join(root, file)
-            #filter = [""]
-            #if any of filter is in filename
+            #filter = [""]           
+
+
             if any(x in filename for x in filt):
                 print(f"checking {filename}")
                 if file.endswith(".kicad_pcb"):
@@ -35,9 +36,23 @@ def go_through_directories(**kwargs):
                     print(f"count: {count}")
                     pass
                 #commit to git every 1
-                    if count % 100 == 0:
-                        #now in action_all
-                        #oom_kicad.push_to_git(count = count)
+                    if count % 250 == 0:
+               
+                
+                 
+                  
+                   
+                    
+                     
+                      
+                       
+                        
+                        #
+                        # n
+                        # o
+                        # w in action_all
+
+                        oom_git.push_to_git(count = count)
                         action_all.main()
                         pass    
                     pass

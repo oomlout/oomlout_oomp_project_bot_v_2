@@ -1,0 +1,320 @@
+(pcb C:\gh\oomlout_oomp_project_bot_v_2\projects\aylons_kicad_source_mirror_ecc83_pp_v2\current_version\working\working_3d.png
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "7.0.6")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer Composant
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Cuivre
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  168275 -132715  123825 -132715  123825 -90805  168275 -90805
+            168275 -132715)
+    )
+    (plane GND (polygon Cuivre 0  167640 -132080  167640 -91440  124460 -91440  124460 -132080
+            167640 -132080))
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component discret:C2V10
+      (place C1 138430.000000 -98425.000000 front 90.000000 (PN 10uF))
+    )
+    (component discret:C2
+      (place C2 137160.000000 -122555.000000 front 90.000000 (PN 680nF))
+    )
+    (component connect:bornier2
+      (place P1 164465.000000 -110490.000000 front -90.000000 (PN IN))
+      (place P2 128270.000000 -116840.000000 front 90.000000 (PN OUT))
+      (place P3 128270.000000 -102870.000000 front 90.000000 (PN POWER))
+      (place P4 147955.000000 -129540.000000 front 180.000000 (PN CONN_2))
+    )
+    (component connect:1pin
+      (place P5 127000.000000 -93980.000000 front 0.000000 (PN CONN_1))
+      (place P6 165100.000000 -93980.000000 front 0.000000 (PN CONN_1))
+      (place P7 165100.000000 -129540.000000 front 0.000000 (PN CONN_1))
+      (place P8 127000.000000 -129540.000000 front 0.000000 (PN CONN_1))
+    )
+    (component discret:R3
+      (place R1 135890.000000 -111760.000000 front -90.000000 (PN 1.5K))
+      (place R2 149860.000000 -97790.000000 front 180.000000 (PN 1.5K))
+      (place R3 133985.000000 -122555.000000 front 90.000000 (PN 100K))
+      (place R4 164465.000000 -121285.000000 front -90.000000 (PN 47K))
+    )
+    (component "Valves:VALVE-ECC-83-1"
+      (place U1 149225.000000 -113665.000000 front 0.000000 (PN ECC83))
+    )
+  )
+  (library
+    (image discret:C2V10
+      (outline (path signal 304.8  5576.44 0  5556.89 -466.625  5498.35 -929.976  5401.25 -1386.81
+            5266.26 -1833.91  5094.33 -2268.14  4886.67 -2686.47  4644.74 -3085.96
+            4370.22 -3463.8  4065.05 -3817.34  3731.37 -4144.1  3371.51 -4441.8
+            2988.01 -4708.35  2583.54 -4941.86  2160.96 -5140.72  1723.22 -5303.51
+            1273.39 -5429.11  814.624 -5516.62  350.148 -5565.44  -116.784 -5575.22
+            -582.897 -5545.9  -1044.92 -5477.67  -1499.62 -5371.02  -1943.79 -5226.7
+            -2374.33 -5045.72  -2788.22 -4829.34  -3182.55 -4579.09  -3554.56 -4296.72
+            -3901.63 -3984.22  -4221.34 -3643.76  -4511.44 -3277.75  -4769.89 -2888.75
+            -4994.89 -2479.48  -5184.85 -2052.83  -5338.44 -1611.77  -5454.58 -1159.41
+            -5532.47 -698.914  -5571.55 -233.517  -5571.55 233.517  -5532.47 698.914
+            -5454.58 1159.41  -5338.44 1611.77  -5184.85 2052.83  -4994.89 2479.48
+            -4769.89 2888.75  -4511.44 3277.75  -4221.34 3643.76  -3901.63 3984.22
+            -3554.56 4296.72  -3182.55 4579.09  -2788.22 4829.34  -2374.33 5045.72
+            -1943.79 5226.7  -1499.62 5371.02  -1044.92 5477.67  -582.897 5545.9
+            -116.784 5575.22  350.148 5565.44  814.624 5516.62  1273.39 5429.11
+            1723.22 5303.51  2160.96 5140.72  2583.54 4941.86  2988.01 4708.35
+            3371.51 4441.8  3731.37 4144.1  4065.05 3817.34  4370.22 3463.8
+            4644.74 3085.96  4886.67 2686.47  5094.33 2268.14  5266.26 1833.91
+            5401.25 1386.81  5498.35 929.976  5556.89 466.625  5576.44 0))
+      (pin Rect[A]Pad_1778x1778_um 1 -2540 0)
+      (pin Round[A]Pad_1778_um 2 2540 0)
+    )
+    (image discret:C2
+      (outline (path signal 304.8  -3556 1016  3556 1016))
+      (outline (path signal 304.8  -3556 508  -3048 1016))
+      (outline (path signal 304.8  -3556 -1016  -3556 1016))
+      (outline (path signal 304.8  3556 1016  3556 -1016))
+      (outline (path signal 304.8  3556 -1016  -3556 -1016))
+      (pin Round[A]Pad_1397_um 1 -2540 0)
+      (pin Round[A]Pad_1397_um 2 2540 0)
+    )
+    (image connect:bornier2
+      (outline (path signal 150  -5000 3000  -5000 -3000))
+      (outline (path signal 150  -5000 -3000  5000 -3000))
+      (outline (path signal 150  5000 3000  -5000 3000))
+      (outline (path signal 150  5000 -2000  -5000 -2000))
+      (outline (path signal 150  5000 -3000  5000 3000))
+      (pin Rect[A]Pad_2000x2000_um 1 -2000 0)
+      (pin Round[A]Pad_2000_um 2 2000 0)
+    )
+    (image connect:1pin
+      (outline (path signal 150  2000 0  1980.54 -278.346  1922.52 -551.275  1827.09 -813.473
+            1696.1 -1059.84  1532.09 -1285.58  1338.26 -1486.29  1118.39 -1658.08
+            876.742 -1797.59  618.034 -1902.11  347.296 -1969.62  69.799 -1998.78
+            -209.057 -1989.04  -483.844 -1940.59  -749.213 -1854.37  -1000 -1732.05
+            -1231.32 -1576.02  -1438.68 -1389.32  -1618.03 -1175.57  -1765.89 -938.943
+            -1879.38 -684.04  -1956.3 -415.823  -1995.13 -139.513  -1995.13 139.513
+            -1956.3 415.823  -1879.38 684.04  -1765.89 938.943  -1618.03 1175.57
+            -1438.68 1389.32  -1231.32 1576.02  -1000 1732.05  -749.213 1854.37
+            -483.844 1940.59  -209.057 1989.04  69.799 1998.78  347.296 1969.62
+            618.034 1902.11  876.742 1797.59  1118.39 1658.08  1338.26 1486.29
+            1532.09 1285.58  1696.1 1059.84  1827.09 813.473  1922.52 551.275
+            1980.54 278.346  2000 0))
+      (pin Round[A]Pad_4000_um 1 0 0)
+    )
+    (image discret:R3
+      (outline (path signal 203.2  -3810 0  -3302 0))
+      (outline (path signal 203.2  -3302 1016  -3302 -1016))
+      (outline (path signal 203.2  -3302 508  -2794 1016))
+      (outline (path signal 203.2  -3302 -1016  3302 -1016))
+      (outline (path signal 203.2  3302 1016  -3302 1016))
+      (outline (path signal 203.2  3302 0  3302 1016))
+      (outline (path signal 203.2  3302 -1016  3302 0))
+      (outline (path signal 203.2  3810 0  3302 0))
+      (pin Round[A]Pad_1397_um 1 -3810 0)
+      (pin Round[A]Pad_1397_um 2 3810 0)
+    )
+    (image "Valves:VALVE-ECC-83-1"
+      (outline (path signal 150  10239.1 0  10219.6 -630.326  10161.5 -1258.26  10064.7 -1881.42
+            9929.82 -2497.45  9757.24 -3104  9547.65 -3698.78  9301.84 -4279.52
+            9020.74 -4844.04  8705.43 -5390.17  8357.09 -5915.86  7977.06 -6419.11
+            7566.76 -6898.02  7127.76 -7350.75  6661.72 -7775.6  6170.42 -8170.95
+            5655.7 -8535.31  5119.53 -8867.29  4563.94 -9165.64  3991.04 -9429.21
+            3403 -9657.02  2802.05 -9848.2  2190.47 -10002  1570.59 -10117.9
+            944.742 -10195.4  315.313 -10234.2  -315.313 -10234.2  -944.742 -10195.4
+            -1570.59 -10117.9  -2190.47 -10002  -2802.05 -9848.2  -3403 -9657.02
+            -3991.04 -9429.21  -4563.94 -9165.64  -5119.53 -8867.29  -5655.7 -8535.31
+            -6170.42 -8170.95  -6661.72 -7775.6  -7127.76 -7350.75  -7566.76 -6898.02
+            -7977.06 -6419.11  -8357.09 -5915.86  -8705.43 -5390.17  -9020.74 -4844.04
+            -9301.84 -4279.52  -9547.65 -3698.78  -9757.24 -3104  -9929.82 -2497.45
+            -10064.7 -1881.42  -10161.5 -1258.26  -10219.6 -630.326  -10239.1 0
+            -10219.6 630.326  -10161.5 1258.26  -10064.7 1881.42  -9929.82 2497.45
+            -9757.24 3104  -9547.65 3698.78  -9301.84 4279.52  -9020.74 4844.04
+            -8705.43 5390.17  -8357.09 5915.86  -7977.06 6419.11  -7566.76 6898.02
+            -7127.76 7350.75  -6661.72 7775.6  -6170.42 8170.95  -5655.7 8535.31
+            -5119.53 8867.29  -4563.94 9165.64  -3991.04 9429.21  -3403 9657.02
+            -2802.05 9848.2  -2190.47 10002  -1570.59 10117.9  -944.742 10195.4
+            -315.313 10234.2  315.313 10234.2  944.742 10195.4  1570.59 10117.9
+            2190.47 10002  2802.05 9848.2  3403 9657.02  3991.04 9429.21
+            4563.94 9165.64  5119.53 8867.29  5655.7 8535.31  6170.42 8170.95
+            6661.72 7775.6  7127.76 7350.75  7566.76 6898.02  7977.06 6419.11
+            8357.09 5915.86  8705.43 5390.17  9020.74 4844.04  9301.84 4279.52
+            9547.65 3698.78  9757.24 3104  9929.82 2497.45  10064.7 1881.42
+            10161.5 1258.26  10219.6 630.326  10239.1 0))
+      (pin Round[A]Pad_2032_um 1 3454.4 -4754.88)
+      (pin Round[A]Pad_2032_um 2 5608.32 -1828.8)
+      (pin Round[A]Pad_2032_um 3 5608.32 1828.8)
+      (pin Round[A]Pad_2032_um 4 3454.4 4754.88)
+      (pin Round[A]Pad_2032_um 5 0 5892.8)
+      (pin Round[A]Pad_2032_um 6 -3454.4 4754.88)
+      (pin Round[A]Pad_2032_um 7 -5608.32 1828.8)
+      (pin Round[A]Pad_2032_um 8 -5608.32 -1788.16)
+      (pin Round[A]Pad_2032_um 9 -3454.4 -4754.88)
+    )
+    (padstack Round[A]Pad_1397_um
+      (shape (circle Composant 1397))
+      (shape (circle Cuivre 1397))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1778_um
+      (shape (circle Composant 1778))
+      (shape (circle Cuivre 1778))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2000_um
+      (shape (circle Composant 2000))
+      (shape (circle Cuivre 2000))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2032_um
+      (shape (circle Composant 2032))
+      (shape (circle Cuivre 2032))
+      (attach off)
+    )
+    (padstack Round[A]Pad_4000_um
+      (shape (circle Composant 4000))
+      (shape (circle Cuivre 4000))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2000x2000_um
+      (shape (rect Composant -1000 -1000 1000 1000))
+      (shape (rect Cuivre -1000 -1000 1000 1000))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1778x1778_um
+      (shape (rect Composant -889 -889 889 889))
+      (shape (rect Cuivre -889 -889 889 889))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle Composant 600))
+      (shape (circle Cuivre 600))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins C1-2 P1-1 P2-2 P3-2 R2-2 R3-2 R4-2)
+    )
+    (net "Net-(C1-Pad1)"
+      (pins C1-1 P3-1 U1-6)
+    )
+    (net "Net-(C2-Pad1)"
+      (pins C2-1 P2-1 R3-1)
+    )
+    (net "Net-(C2-Pad2)"
+      (pins C2-2 R1-2 U1-8)
+    )
+    (net "Net-(P1-Pad2)"
+      (pins P1-2 R4-1 U1-2)
+    )
+    (net "Net-(P4-Pad1)"
+      (pins P4-1 U1-4 U1-5)
+    )
+    (net "Net-(P4-Pad2)"
+      (pins P4-2 U1-9)
+    )
+    (net "Net-(R1-Pad1)"
+      (pins R1-1 U1-1 U1-7)
+    )
+    (net "Net-(R2-Pad1)"
+      (pins R2-1 U1-3)
+    )
+    (net "Net-(P5-Pad1)"
+      (pins P5-1)
+    )
+    (net "Net-(P6-Pad1)"
+      (pins P6-1)
+    )
+    (net "Net-(P7-Pad1)"
+      (pins P7-1)
+    )
+    (net "Net-(P8-Pad1)"
+      (pins P8-1)
+    )
+    (class kicad_default "" GND "Net-(C1-Pad1)" "Net-(C2-Pad1)" "Net-(C2-Pad2)"
+      "Net-(P1-Pad2)" "Net-(P4-Pad1)" "Net-(P4-Pad2)" "Net-(P5-Pad1)" "Net-(P6-Pad1)"
+      "Net-(P7-Pad1)" "Net-(P8-Pad1)" "Net-(R1-Pad1)" "Net-(R2-Pad1)"
+      (circuit
+        (use_via Via[0-1]_600:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path Cuivre 863.6  138430 -95885  139065 -95250)(net GND)(type route))
+    (wire (path Cuivre 863.6  164465 -125095  164465 -124460)(net GND)(type route))
+    (wire (path Cuivre 863.6  146050 -97790  146050 -95250)(net GND)(type route))
+    (wire (path Cuivre 863.6  142240 -95250  146050 -95250)(net GND)(type route))
+    (wire (path Cuivre 863.6  164465 -107950  165735 -107950)(net GND)(type route))
+    (wire (path Cuivre 863.6  139065 -95250  142240 -95250)(net GND)(type route))
+    (wire (path Cuivre 863.6  138430 -100965  136525 -100965)(net "Net-(C1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  145771 -103861  142875 -100965)(net "Net-(C1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  136525 -100965  135255 -102235)(net "Net-(C1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  142875 -100965  138430 -100965)(net "Net-(C1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  145771 -108910  145771 -103861)(net "Net-(C1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  128270 -105410  132080 -105410  135255 -102235)(net "Net-(C1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  133985 -125095  128270 -119380)(net "Net-(C2-Pad1)")(type route))
+    (wire (path Cuivre 863.6  137160 -125095  133985 -125095)(net "Net-(C2-Pad1)")(type route))
+    (wire (path Cuivre 863.6  133985 -126365  133985 -125095)(net "Net-(C2-Pad1)")(type route))
+    (wire (path Cuivre 863.6  135890 -115570  137160 -115570)(net "Net-(C2-Pad2)")(type route))
+    (wire (path Cuivre 863.6  137160 -120015  137160 -115570  143500 -115570  143617 -115453)(net "Net-(C2-Pad2)")(type route))
+    (wire (path Cuivre 863.6  159385 -117475  164465 -117475)(net "Net-(P1-Pad2)")(type route))
+    (wire (path Cuivre 863.6  154833 -115494  157404 -115494)(net "Net-(P1-Pad2)")(type route))
+    (wire (path Cuivre 863.6  164465 -117475  164465 -113030)(net "Net-(P1-Pad2)")(type route))
+    (wire (path Cuivre 863.6  157404 -115494  159385 -117475)(net "Net-(P1-Pad2)")(type route))
+    (wire (path Cuivre 863.6  149860 -128905  150495 -129540)(net "Net-(P4-Pad1)")(type route))
+    (wire (path Cuivre 863.6  149860 -111125  149860 -128905)(net "Net-(P4-Pad1)")(type route))
+    (wire (path Cuivre 863.6  149225 -107772  149225 -110490)(net "Net-(P4-Pad1)")(type route))
+    (wire (path Cuivre 863.6  151541 -107772  152679 -108910)(net "Net-(P4-Pad1)")(type route))
+    (wire (path Cuivre 863.6  149225 -107772  151541 -107772)(net "Net-(P4-Pad1)")(type route))
+    (wire (path Cuivre 863.6  149225 -110490  149860 -111125)(net "Net-(P4-Pad1)")(type route))
+    (wire (path Cuivre 863.6  145771 -118420  145771 -129184  145415 -129540)(net "Net-(P4-Pad2)")(type route))
+    (wire (path Cuivre 863.6  154940 -121315  154940 -121315)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  154940 -120680  152679 -118420)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  136525 -121920  139065 -124460)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  133985 -109220  133985 -116205)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  141681 -111836  137795 -107950)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  139065 -130175  140335 -131445)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  135890 -107950  135255 -107950)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  153289 -131826  154940 -130175)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  136398 -121920  135509 -121031)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  143617 -111836  141681 -111836)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  135509 -117729  133985 -116205)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  135255 -107950  133985 -109220)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  139065 -124460  139065 -130175)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  135509 -121031  135509 -117729)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  154940 -121315  154940 -120680)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  135890 -107950  137795 -107950)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  154940 -130175  154940 -121315)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  136525 -121920  136398 -121920)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  140716 -131826  153289 -131826)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  140335 -131445  140716 -131826)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Cuivre 863.6  154833 -111232  159385 -106680)(net "Net-(R2-Pad1)")(type route))
+    (wire (path Cuivre 863.6  157480 -97790  159385 -99695)(net "Net-(R2-Pad1)")(type route))
+    (wire (path Cuivre 863.6  159385 -106680  159385 -99695)(net "Net-(R2-Pad1)")(type route))
+    (wire (path Cuivre 863.6  153670 -97790  157480 -97790)(net "Net-(R2-Pad1)")(type route))
+    (wire (path Cuivre 863.6  154833 -111836  154833 -111232)(net "Net-(R2-Pad1)")(type route))
+  )
+)

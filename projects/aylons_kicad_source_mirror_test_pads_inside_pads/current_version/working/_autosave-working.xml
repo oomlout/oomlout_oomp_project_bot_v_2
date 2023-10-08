@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\aylons_kicad_source_mirror_test_pads_inside_pads\current_version\working\_autosave-working.kicad_sch</source>
+    <date>28/09/2023 12:38:00</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>19 dec 2011</date>
+        <source>_autosave-working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>CONN_1</value>
+      <footprint>Connect:1pin</footprint>
+      <libsource lib="test_pads_inside_pads-rescue" part="CONN_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="_autosave-working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00004edf7cc5</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_1</value>
+      <footprint>Connect:1pin</footprint>
+      <libsource lib="test_pads_inside_pads-rescue" part="CONN_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="_autosave-working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00004edf7cc0</tstamps>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_1</value>
+      <footprint>Connect:1pin</footprint>
+      <libsource lib="test_pads_inside_pads-rescue" part="CONN_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="_autosave-working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00004ee5056c</tstamps>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_1</value>
+      <footprint>Connect:1pin</footprint>
+      <libsource lib="test_pads_inside_pads-rescue" part="CONN_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="_autosave-working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00004ee5056d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="test_pads_inside_pads-rescue" part="CONN_1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/NET1">
+      <node ref="P3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/NET2">
+      <node ref="P1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

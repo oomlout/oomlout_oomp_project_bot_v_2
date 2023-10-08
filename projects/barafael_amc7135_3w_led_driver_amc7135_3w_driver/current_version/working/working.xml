@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\barafael_amc7135_3w_led_driver_amc7135_3w_driver\current_version\working\working.kicad_sch</source>
+    <date>27/09/2023 15:55:02</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>LED connector</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="amc7135_3w_driver-rescue" part="Conn_01x02_Female-Connector" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bdd7b0f</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Power Connector</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="amc7135_3w_driver-rescue" part="Conn_01x02_Female-Connector" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bdd8129</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>heatsink</value>
+      <footprint>Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit</footprint>
+      <libsource lib="amc7135_3w_driver-rescue" part="Conn_01x01_Male-Connector" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bdd6da6</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>heatsink</value>
+      <footprint>Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit</footprint>
+      <libsource lib="amc7135_3w_driver-rescue" part="Conn_01x01_Male-Connector" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bdd6bda</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>heatsink</value>
+      <footprint>Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit</footprint>
+      <libsource lib="amc7135_3w_driver-rescue" part="Conn_01x01_Male-Connector" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bdd6eee</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AMC7135_SOT89</value>
+      <footprint>freetronics_footprints:SOT89</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf</datasheet>
+      <libsource lib="amc7135_3w_driver-rescue" part="AMC7135_SOT89-freetronics_schematic" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bdd774e</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AMC7135_SOT89</value>
+      <footprint>freetronics_footprints:SOT89</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf</datasheet>
+      <libsource lib="amc7135_3w_driver-rescue" part="AMC7135_SOT89-freetronics_schematic" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bdd77cf</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="amc7135_3w_driver-rescue" part="AMC7135_SOT89-freetronics_schematic">
+      <footprints>
+        <fp>SOT?89*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">freetronics_schematic_AMC7135_SOT89</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-89-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="amc7135_3w_driver-rescue" part="Conn_01x01_Male-Connector">
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_Conn_01x01_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="amc7135_3w_driver-rescue" part="Conn_01x02_Female-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_Conn_01x02_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(J1-Pin_2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U2" pin="1" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="3" name="VDD">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="VDD" pintype="power_in"/>
+    </net>
+  </nets>
+</export>

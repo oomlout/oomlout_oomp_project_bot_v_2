@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\candykingdom_samd21_template_arm_template\current_version\working\working.kicad_sch</source>
+    <date>28/09/2023 00:11:29</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="arm-template-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b4ec71a</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="arm-template-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b4ec693</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="arm-template-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b4ec985</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm</footprint>
+      <libsource lib="arm-template-rescue" part="Conn_01x04" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b4ec2fe</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>USB_B_POWER_SUPPLY</value>
+      <libsource lib="arm-template-rescue" part="USB_B_POWER_SUPPLY" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b4ebf0d</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPST</value>
+      <libsource lib="arm-template-rescue" part="SW_SPST" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b4ebdfe</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SAMD21E18</value>
+      <footprint>homebrew:TQFP32-08</footprint>
+      <libsource lib="arm-template-rescue" part="SAMD21E18" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b4ebd1e</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MIC5225</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <libsource lib="arm-template-rescue" part="MIC5225" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b4ec422</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="arm-template-rescue" part="C">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="arm-template-rescue" part="Conn_01x04">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="arm-template-rescue" part="MIC5225">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5225</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="arm-template-rescue" part="SAMD21E18">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SAMD21E18</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA00" type="bidirectional"/>
+        <pin num="2" name="PA01" type="bidirectional"/>
+        <pin num="3" name="PA02" type="bidirectional"/>
+        <pin num="4" name="PA03" type="bidirectional"/>
+        <pin num="5" name="PA04" type="bidirectional"/>
+        <pin num="6" name="PA05" type="bidirectional"/>
+        <pin num="7" name="PA06" type="bidirectional"/>
+        <pin num="8" name="PA07" type="bidirectional"/>
+        <pin num="9" name="VDDANA" type="power_in"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="PA08" type="bidirectional"/>
+        <pin num="12" name="PA09" type="bidirectional"/>
+        <pin num="13" name="PA10" type="bidirectional"/>
+        <pin num="14" name="PA11" type="bidirectional"/>
+        <pin num="15" name="PA14" type="bidirectional"/>
+        <pin num="16" name="PA15" type="bidirectional"/>
+        <pin num="17" name="PA16" type="bidirectional"/>
+        <pin num="18" name="PA17" type="bidirectional"/>
+        <pin num="19" name="PA18" type="bidirectional"/>
+        <pin num="20" name="PA19" type="bidirectional"/>
+        <pin num="21" name="PA22" type="bidirectional"/>
+        <pin num="22" name="PA23" type="bidirectional"/>
+        <pin num="23" name="PA24" type="bidirectional"/>
+        <pin num="24" name="PA25" type="bidirectional"/>
+        <pin num="25" name="PA27" type="bidirectional"/>
+        <pin num="26" name="RESETN" type="input"/>
+        <pin num="27" name="PA28" type="bidirectional"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="VDDCORE" type="output"/>
+        <pin num="30" name="VDDIN" type="power_in"/>
+        <pin num="31" name="PA30" type="bidirectional"/>
+        <pin num="32" name="PA31" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="arm-template-rescue" part="SW_SPST">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="arm-template-rescue" part="USB_B_POWER_SUPPLY">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_B_POWER_SUPPLY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="VDDIN" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="VDDANA" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="2" name="+BATT">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="P1" pin="1" pinfunction="VCC" pintype="power_out"/>
+      <node ref="U2" pin="1" pinfunction="IN" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="3" name="ARM_SWCLK">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="PA30" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="ARM_SWDIO">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="PA31" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="P1" pin="4" pinfunction="GND" pintype="power_out"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(SW1-B)">
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="RESETN" pintype="input"/>
+    </net>
+    <net code="7" name="USB_D+">
+      <node ref="P1" pin="3" pinfunction="D+" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="PA25" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="USB_D-">
+      <node ref="P1" pin="2" pinfunction="D-" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="PA24" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="unconnected-(P1-shield-Pad5)">
+      <node ref="P1" pin="5" pinfunction="shield" pintype="passive"/>
+    </net>
+    <net code="10" name="unconnected-(U1-PA00-Pad1)">
+      <node ref="U1" pin="1" pinfunction="PA00" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="unconnected-(U1-PA01-Pad2)">
+      <node ref="U1" pin="2" pinfunction="PA01" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="unconnected-(U1-PA02-Pad3)">
+      <node ref="U1" pin="3" pinfunction="PA02" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="unconnected-(U1-PA03-Pad4)">
+      <node ref="U1" pin="4" pinfunction="PA03" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="unconnected-(U1-PA04-Pad5)">
+      <node ref="U1" pin="5" pinfunction="PA04" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="unconnected-(U1-PA05-Pad6)">
+      <node ref="U1" pin="6" pinfunction="PA05" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="unconnected-(U1-PA06-Pad7)">
+      <node ref="U1" pin="7" pinfunction="PA06" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="unconnected-(U1-PA07-Pad8)">
+      <node ref="U1" pin="8" pinfunction="PA07" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="unconnected-(U1-PA08-Pad11)">
+      <node ref="U1" pin="11" pinfunction="PA08" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="unconnected-(U1-PA09-Pad12)">
+      <node ref="U1" pin="12" pinfunction="PA09" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="unconnected-(U1-PA10-Pad13)">
+      <node ref="U1" pin="13" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="unconnected-(U1-PA11-Pad14)">
+      <node ref="U1" pin="14" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="unconnected-(U1-PA14-Pad15)">
+      <node ref="U1" pin="15" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="unconnected-(U1-PA15-Pad16)">
+      <node ref="U1" pin="16" pinfunction="PA15" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="unconnected-(U1-PA16-Pad17)">
+      <node ref="U1" pin="17" pinfunction="PA16" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="unconnected-(U1-PA17-Pad18)">
+      <node ref="U1" pin="18" pinfunction="PA17" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="unconnected-(U1-PA18-Pad19)">
+      <node ref="U1" pin="19" pinfunction="PA18" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="unconnected-(U1-PA19-Pad20)">
+      <node ref="U1" pin="20" pinfunction="PA19" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="unconnected-(U1-PA22-Pad21)">
+      <node ref="U1" pin="21" pinfunction="PA22" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="unconnected-(U1-PA23-Pad22)">
+      <node ref="U1" pin="22" pinfunction="PA23" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="unconnected-(U1-PA27-Pad25)">
+      <node ref="U1" pin="25" pinfunction="PA27" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="unconnected-(U1-PA28-Pad27)">
+      <node ref="U1" pin="27" pinfunction="PA28" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="unconnected-(U1-VDDCORE-Pad29)">
+      <node ref="U1" pin="29" pinfunction="VDDCORE" pintype="output"/>
+    </net>
+    <net code="33" name="unconnected-(U2-NC-Pad4)">
+      <node ref="U2" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

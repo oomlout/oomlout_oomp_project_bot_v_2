@@ -31,5 +31,6 @@ def main(**kwargs):
     oom_git.push_to_git(comment=comment)
 
 if __name__ == '__main__':
+    kwargs = {}
     main(**kwargs)
 

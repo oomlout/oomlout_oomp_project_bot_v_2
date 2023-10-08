@@ -1,0 +1,364 @@
+(pcb C:\gh\oomlout_oomp_project_bot_v_2\projects\dchwebb_ampelope_ampelope_components\current_version\working\working_3d_front.png
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "7.0.6")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  160500 -150000  104000 -150000  104000 -134500  99999.3 -134500
+            100000 -132900  100000 -50000  160500 -50000  160500 -150000)
+    )
+    (plane GND (polygon F.Cu 0  161000 -161000  99000 -161000  99000 -49000  161000 -49000
+            161000 -161000))
+    (plane GND (polygon B.Cu 0  161000 -161000  99000 -161000  99000 -49000  161000 -49000
+            161000 -161000))
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 300)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Custom_Footprints:3D_Dummy
+      (place D2 100000.000000 -50000.000000 front 0.000000 (PN 3d_Model_Controls))
+      (place D1 160500.000000 -50000.000000 back 0.000000 (PN 3d_Model_Components))
+    )
+    (component Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical
+      (place J2 158500.000000 -101100.000000 back 0.000000 (PN Conn_01x12_Male))
+      (place J4 102000.000000 -101100.000000 back 0.000000 (PN Conn_01x12_Male))
+      (place J1 158500.000000 -52100.000000 back 0.000000 (PN Conn_01x12_Male))
+      (place J3 102000.000000 -52100.000000 back 0.000000 (PN Conn_01x12_Male))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+      (place J6 148800.000000 -145680.000000 back 180.000000 (PN Filter_Connector))
+      (place J7 136980.000000 -138100.000000 back 270.000000 (PN Test_Connector))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical
+      (place J5 112440.000000 -138160.000000 back 0.000000 (PN Midi_Board_Connector))
+    )
+  )
+  (library
+    (image Custom_Footprints:3D_Dummy
+      (outline (path signal 120  1414.21 0  1394.93 -232.772  1337.59 -459.195  1243.76 -673.091
+            1116.01 -868.628  957.821 -1040.47  773.502 -1183.93  568.083 -1295.1
+            347.169 -1370.94  116.785 -1409.38  -116.785 -1409.38  -347.169 -1370.94
+            -568.083 -1295.1  -773.502 -1183.93  -957.821 -1040.47  -1116.01 -868.628
+            -1243.76 -673.091  -1337.59 -459.195  -1394.93 -232.772  -1414.21 0
+            -1394.93 232.772  -1337.59 459.195  -1243.76 673.091  -1116.01 868.628
+            -957.821 1040.47  -773.502 1183.93  -568.083 1295.1  -347.169 1370.94
+            -116.785 1409.38  116.785 1409.38  347.169 1370.94  568.083 1295.1
+            773.502 1183.93  957.821 1040.47  1116.01 868.628  1243.76 673.091
+            1337.59 459.195  1394.93 232.772  1414.21 0))
+    )
+    (image Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical
+      (outline (path signal 120  -1330 -29270  1330 -29270))
+      (outline (path signal 120  -1330 -1270  -1330 -29270))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  0 1330  1330 1330))
+      (outline (path signal 120  1330 -1270  1330 -29270))
+      (outline (path signal 120  1330 1330  1330 0))
+      (outline (path signal 50  -1800 -29700  -1800 1800))
+      (outline (path signal 50  -1800 1800  1750 1800))
+      (outline (path signal 50  1750 -29700  -1800 -29700))
+      (outline (path signal 50  1750 1800  1750 -29700))
+      (outline (path signal 100  -1270 -29210  -1270 1270))
+      (outline (path signal 100  -1270 1270  635 1270))
+      (outline (path signal 100  635 1270  1270 635))
+      (outline (path signal 100  1270 -29210  -1270 -29210))
+      (outline (path signal 100  1270 635  1270 -29210))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 6 0 -12700)
+      (pin Oval[A]Pad_1700x1700_um 7 0 -15240)
+      (pin Oval[A]Pad_1700x1700_um 8 0 -17780)
+      (pin Oval[A]Pad_1700x1700_um 9 0 -20320)
+      (pin Oval[A]Pad_1700x1700_um 10 0 -22860)
+      (pin Oval[A]Pad_1700x1700_um 11 0 -25400)
+      (pin Oval[A]Pad_1700x1700_um 12 0 -27940)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+      (outline (path signal 120  -1330 -8950  1330 -8950))
+      (outline (path signal 120  -1330 -1270  -1330 -8950))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  1330 -1270  1330 -8950))
+      (outline (path signal 50  -1800 -9400  1800 -9400))
+      (outline (path signal 50  -1800 1800  -1800 -9400))
+      (outline (path signal 50  1800 -9400  1800 1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 100  -1270 -8890  -1270 635))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 -8890  -1270 -8890))
+      (outline (path signal 100  1270 1270  1270 -8890))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical
+      (outline (path signal 120  -1330 -8950  3870 -8950))
+      (outline (path signal 120  -1330 -1270  -1330 -8950))
+      (outline (path signal 120  -1330 -1270  1270 -1270))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  1270 -1270  1270 1330))
+      (outline (path signal 120  1270 1330  3870 1330))
+      (outline (path signal 120  3870 1330  3870 -8950))
+      (outline (path signal 50  -1800 -9400  4350 -9400))
+      (outline (path signal 50  -1800 1800  -1800 -9400))
+      (outline (path signal 50  4350 -9400  4350 1800))
+      (outline (path signal 50  4350 1800  -1800 1800))
+      (outline (path signal 100  -1270 -8890  -1270 0))
+      (outline (path signal 100  -1270 0  0 1270))
+      (outline (path signal 100  0 1270  3810 1270))
+      (outline (path signal 100  3810 -8890  -1270 -8890))
+      (outline (path signal 100  3810 1270  3810 -8890))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 2540 0)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 4 2540 -2540)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 6 2540 -5080)
+      (pin Oval[A]Pad_1700x1700_um 7 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 8 2540 -7620)
+    )
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins J2-1 J4-5 J1-6 J1-10 J1-11 J3-1 J3-2)
+    )
+    (net /Gate_In
+      (pins J1-1)
+    )
+    (net /Gate1_In
+      (pins J2-8 J5-1)
+    )
+    (net /Gate2_In
+      (pins J2-9 J5-3)
+    )
+    (net /Gate3_In
+      (pins J2-10 J5-5)
+    )
+    (net /Gate4_In
+      (pins J2-11 J5-7)
+    )
+    (net /Audio1_In
+      (pins J2-2 J5-2)
+    )
+    (net /Audio2_In
+      (pins J2-3 J5-4)
+    )
+    (net /Audio3_In
+      (pins J2-4 J5-6)
+    )
+    (net /Audio4_In
+      (pins J2-5 J5-8)
+    )
+    (net /Audio1_Out
+      (pins J6-1 J1-12)
+    )
+    (net /Audio2_Out
+      (pins J6-2 J1-9)
+    )
+    (net /Audio3_Out
+      (pins J6-3 J1-8)
+    )
+    (net /Audio4_Out
+      (pins J6-4 J1-7)
+    )
+    (net +3V3
+      (pins J1-2 J1-3 J1-4 J1-5)
+    )
+    (net /Led1_Out
+      (pins J3-3)
+    )
+    (net /Led2_Out
+      (pins J3-5)
+    )
+    (net /Led3_Out
+      (pins J3-8)
+    )
+    (net /Led4_Out
+      (pins J3-6)
+    )
+    (net /Env1_Out
+      (pins J3-4)
+    )
+    (net /Clock_In
+      (pins J2-12)
+    )
+    (net /Env3_Out
+      (pins J3-7)
+    )
+    (net /LFO_Speed
+      (pins J2-6)
+    )
+    (net /Env1_Short
+      (pins J4-7)
+    )
+    (net /Env1_LFO
+      (pins J4-6)
+    )
+    (net /Env2_Short
+      (pins J4-9)
+    )
+    (net /Env2_LFO
+      (pins J4-8)
+    )
+    (net /Env3_Short
+      (pins J4-11)
+    )
+    (net /Env3_LFO
+      (pins J4-10)
+    )
+    (net /Env4_Short
+      (pins J2-7)
+    )
+    (net /Env4_LFO
+      (pins J4-12)
+    )
+    (net /EnvA_Attack
+      (pins J4-1)
+    )
+    (net /EnvA_Decay
+      (pins J4-2)
+    )
+    (net /EnvA_Release
+      (pins J4-4)
+    )
+    (net /EnvA_Sustain
+      (pins J4-3)
+    )
+    (net /EnvB_Attack
+      (pins J3-12)
+    )
+    (net /EnvB_Decay
+      (pins J3-11)
+    )
+    (net /EnvB_Release
+      (pins J3-9)
+    )
+    (net /EnvB_Sustain
+      (pins J3-10)
+    )
+    (net "unconnected-(J7-Pad1)"
+      (pins J7-1)
+    )
+    (net "unconnected-(J7-Pad2)"
+      (pins J7-2)
+    )
+    (net "unconnected-(J7-Pad3)"
+      (pins J7-3)
+    )
+    (net "unconnected-(J7-Pad4)"
+      (pins J7-4)
+    )
+    (class kicad_default "" /Audio1_In /Audio1_Out /Audio2_In /Audio2_Out
+      /Audio3_In /Audio3_Out /Audio4_In /Audio4_Out /Clock_In /Env1_LFO /Env1_Out
+      /Env1_Short /Env2_LFO /Env2_Short /Env3_LFO /Env3_Out /Env3_Short /Env4_LFO
+      /Env4_Short /EnvA_Attack /EnvA_Decay /EnvA_Release /EnvA_Sustain /EnvB_Attack
+      /EnvB_Decay /EnvB_Release /EnvB_Sustain /Gate1_In /Gate2_In /Gate3_In
+      /Gate4_In /Gate_In /LFO_Speed /Led1_Out /Led2_Out /Led3_Out /Led4_Out
+      GND "unconnected-(J7-Pad1)" "unconnected-(J7-Pad2)" "unconnected-(J7-Pad3)"
+      "unconnected-(J7-Pad4)"
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 300)
+        (clearance 200.1)
+      )
+    )
+    (class Power +3V3
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 400)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 300  158500 -118880  153400 -123980)(net /Gate1_In)(type route))
+    (wire (path F.Cu 300  125160 -138160  112440 -138160)(net /Gate1_In)(type route))
+    (wire (path F.Cu 300  153400 -123980  153400 -145000)(net /Gate1_In)(type route))
+    (wire (path F.Cu 300  134300 -147300  125160 -138160)(net /Gate1_In)(type route))
+    (wire (path F.Cu 300  151100 -147300  134300 -147300)(net /Gate1_In)(type route))
+    (wire (path F.Cu 300  153400 -145000  151100 -147300)(net /Gate1_In)(type route))
+    (wire (path F.Cu 300  125200 -140700  112440 -140700)(net /Gate2_In)(type route))
+    (wire (path F.Cu 300  158500 -121420  154500 -125420)(net /Gate2_In)(type route))
+    (wire (path F.Cu 300  151800 -148200  132700 -148200)(net /Gate2_In)(type route))
+    (wire (path F.Cu 300  154500 -145500  151800 -148200)(net /Gate2_In)(type route))
+    (wire (path F.Cu 300  154500 -125420  154500 -145500)(net /Gate2_In)(type route))
+    (wire (path F.Cu 300  132700 -148200  125200 -140700)(net /Gate2_In)(type route))
+    (wire (path F.Cu 300  124840 -143240  130700 -149100  152500 -149100)(net /Gate3_In)(type route))
+    (wire (path F.Cu 300  112440 -143240  124840 -143240)(net /Gate3_In)(type route))
+    (wire (path F.Cu 300  152500 -149100  155600 -146000)(net /Gate3_In)(type route))
+    (wire (path F.Cu 300  155600 -126860  158500 -123960)(net /Gate3_In)(type route))
+    (wire (path F.Cu 300  155600 -146000  155600 -126860)(net /Gate3_In)(type route))
+    (wire (path B.Cu 300  158500 -126500  139220 -145780  112440 -145780)(net /Gate4_In)(type route))
+    (wire (path B.Cu 300  158500 -103640  144420 -103640  109900 -138160)(net /Audio1_In)(type route))
+    (wire (path B.Cu 300  111200 -139400  109900 -140700)(net /Audio2_In)(type route))
+    (wire (path B.Cu 300  114200 -139400  111200 -139400)(net /Audio2_In)(type route))
+    (wire (path B.Cu 300  158500 -106180  147420 -106180  114200 -139400)(net /Audio2_In)(type route))
+    (wire (path B.Cu 300  111140 -142000  109900 -143240)(net /Audio3_In)(type route))
+    (wire (path B.Cu 300  148300 -108700  147500 -108700)(net /Audio3_In)(type route))
+    (wire (path B.Cu 300  158500 -108720  148320 -108720)(net /Audio3_In)(type route))
+    (wire (path B.Cu 300  114200 -142000  111140 -142000)(net /Audio3_In)(type route))
+    (wire (path B.Cu 300  148320 -108720  148300 -108700)(net /Audio3_In)(type route))
+    (wire (path B.Cu 300  147500 -108700  114200 -142000)(net /Audio3_In)(type route))
+    (wire (path B.Cu 300  111180 -144500  114100 -144500)(net /Audio4_In)(type route))
+    (wire (path B.Cu 300  109900 -145780  111180 -144500)(net /Audio4_In)(type route))
+    (wire (path B.Cu 300  114100 -144500  147340 -111260  158500 -111260)(net /Audio4_In)(type route))
+    (wire (path F.Cu 300  152300 -142300  148920 -145680)(net /Audio1_Out)(type route))
+    (wire (path F.Cu 300  152300 -86240  152300 -142300)(net /Audio1_Out)(type route))
+    (wire (path F.Cu 300  158500 -80040  152300 -86240)(net /Audio1_Out)(type route))
+    (wire (path F.Cu 300  148920 -145680  148800 -145680)(net /Audio1_Out)(type route))
+    (wire (path F.Cu 300  151300 -140640  151300 -79620  158500 -72420)(net /Audio2_Out)(type route))
+    (wire (path F.Cu 300  148800 -143140  151300 -140640)(net /Audio2_Out)(type route))
+    (wire (path F.Cu 300  150300 -78080  158500 -69880)(net /Audio3_Out)(type route))
+    (wire (path F.Cu 300  150300 -139100  150300 -78080)(net /Audio3_Out)(type route))
+    (wire (path F.Cu 300  148800 -140600  150300 -139100)(net /Audio3_Out)(type route))
+    (wire (path F.Cu 300  148800 -138060  148800 -77040  158500 -67340)(net /Audio4_Out)(type route))
+    (wire (path F.Cu 400  158500 -54640  158500 -62260)(net +3V3)(type route))
+  )
+)

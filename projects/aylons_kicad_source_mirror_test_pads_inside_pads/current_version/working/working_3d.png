@@ -1,0 +1,122 @@
+(pcb C:\gh\oomlout_oomp_project_bot_v_2\projects\aylons_kicad_source_mirror_test_pads_inside_pads\current_version\working\working_3d.png
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "7.0.6")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer Dessus
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Dessous
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  110172 -63944.5  78460 -63944.5  78460 -32552.9  110172 -32552.9
+            110172 -63944.5)
+    )
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component 1pin
+      (place P1 89535.000000 -45593.000000 front 0.000000 (PN CONN_1))
+    )
+    (component 1pin::1
+      (place P2 107696.000000 -45593.000000 front 0.000000 (PN CONN_1))
+      (place P3 87122.000000 -61468.000000 front 0.000000 (PN CONN_1))
+      (place P4 107061.000000 -61468.000000 front 0.000000 (PN CONN_1))
+    )
+  )
+  (library
+    (image 1pin
+      (outline (path signal 150  -11000 11000  11000 11000))
+      (outline (path signal 150  -11000 -11000  -11000 11000))
+      (outline (path signal 150  11000 11000  11000 -11000))
+      (outline (path signal 150  11000 -11000  -11000 -11000))
+      (pin Round[A]Pad_1524_um 1 -8255 7620)
+      (pin Round[A]Pad_1524_um 1@1 -8255 4445)
+      (pin Round[A]Pad_1524_um 1@2 -3810 7620)
+      (pin Round[A]Pad_1524_um 1@3 -3810 4445)
+      (pin Round[A]Pad_1524_um 1@4 0 7620)
+      (pin Round[A]Pad_1524_um 1@5 0 4445)
+      (pin Rect[T]Pad_20320x20320_um 1@6 0 0)
+      (pin Round[A]Pad_1524_um 1@7 3810 7620)
+      (pin Round[A]Pad_1524_um 1@8 3810 4445)
+      (pin Round[A]Pad_1524_um 1@9 8255 7620)
+      (pin Round[A]Pad_1524_um 1@10 8255 4445)
+    )
+    (image 1pin::1
+      (outline (path signal 381  2286 0  2266.44 -298.383  2208.11 -591.66  2111.99 -874.814
+            1979.73 -1143  1813.61 -1391.63  1616.45 -1616.45  1391.63 -1813.61
+            1143 -1979.73  874.814 -2111.99  591.66 -2208.11  298.383 -2266.44
+            0 -2286  -298.383 -2266.44  -591.66 -2208.11  -874.814 -2111.99
+            -1143 -1979.73  -1391.63 -1813.61  -1616.45 -1616.45  -1813.61 -1391.63
+            -1979.73 -1143  -2111.99 -874.814  -2208.11 -591.66  -2266.44 -298.383
+            -2286 0  -2266.44 298.383  -2208.11 591.66  -2111.99 874.814
+            -1979.73 1143  -1813.61 1391.63  -1616.45 1616.45  -1391.63 1813.61
+            -1143 1979.73  -874.814 2111.99  -591.66 2208.11  -298.383 2266.44
+            0 2286  298.383 2266.44  591.66 2208.11  874.814 2111.99  1143 1979.73
+            1391.63 1813.61  1616.45 1616.45  1813.61 1391.63  1979.73 1143
+            2111.99 874.814  2208.11 591.66  2266.44 298.383  2286 0))
+      (pin Round[A]Pad_4064_um 1 0 0)
+    )
+    (padstack Round[A]Pad_1524_um
+      (shape (circle Dessus 1524))
+      (shape (circle Dessous 1524))
+      (attach off)
+    )
+    (padstack Round[A]Pad_4064_um
+      (shape (circle Dessus 4064))
+      (shape (circle Dessous 4064))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_20320x20320_um
+      (shape (rect Dessus -10160 -10160 10160 10160))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle Dessus 600))
+      (shape (circle Dessous 600))
+      (attach off)
+    )
+  )
+  (network
+    (net /NET1
+      (pins P3-1 P4-1)
+    )
+    (net /NET2
+      (pins P1-1 P1-1@1 P1-1@2 P1-1@3 P1-1@4 P1-1@5 P1-1@6 P1-1@7 P1-1@8 P1-1@9 P1-1@10
+        P2-1)
+    )
+    (class kicad_default "" /NET1 /NET2
+      (circuit
+        (use_via Via[0-1]_600:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path Dessous 203.2  107061 -61468  87122 -61468)(net /NET1)(type route))
+    (wire (path Dessous 203.2  103759 -41148  107696 -45085)(net /NET2)(type route))
+    (wire (path Dessous 203.2  97790 -41148  103759 -41148)(net /NET2)(type route))
+    (wire (path Dessous 203.2  107696 -45085  107696 -45593)(net /NET2)(type route))
+  )
+)

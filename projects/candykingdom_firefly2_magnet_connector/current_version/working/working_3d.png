@@ -1,0 +1,157 @@
+(pcb C:\gh\oomlout_oomp_project_bot_v_2\projects\candykingdom_firefly2_magnet_connector\current_version\working\working_3d.png
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "7.0.6")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  122314 -97517.3  122622 -97576.1  122921 -97673.3  123206 -97807.1
+            123471 -97975.5  123713 -98175.8  123928 -98404.9  124113 -98659.1
+            124264 -98934.5  124380 -99226.7  124458 -99531.1  124498 -99842.9
+            124500 -100000  124498 -100157  124458 -100469  124380 -100773
+            124264 -101066  124113 -101341  123928 -101595  123713 -101824
+            123471 -102025  123206 -102193  122921 -102327  122622 -102424
+            122314 -102483  122000 -102502  121686 -102483  121378 -102424
+            121079 -102327  120794 -102193  120529 -102025  120287 -101824
+            120072 -101595  119887 -101341  119736 -101066  119620 -100773
+            119542 -100469  119502 -100157  119502 -99842.9  119542 -99531.1
+            119620 -99226.7  119736 -98934.5  119887 -98659.1  120072 -98404.9
+            120287 -98175.8  120529 -97975.5  120794 -97807.1  121079 -97673.3
+            121378 -97576.1  121686 -97517.3  122000 -97497.5  122314 -97517.3)
+    )
+    (via "Via[0-1]_800:400_um" "Via[0-1]_400:300_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "Homebrew:LED_WS2812-2020"
+      (place U1 122000.000000 -100000.000000 back 0.000000 (PN "WS2812-2020"))
+    )
+    (component Capacitor_SMD:C_0402_1005Metric
+      (place C1 121980.000000 -98220.000000 back 180.000000 (PN 100nF))
+    )
+  )
+  (library
+    (image "Homebrew:LED_WS2812-2020"
+      (outline (path signal 127  -300 -1000  300 -1000))
+      (outline (path signal 127  -300 1000  300 1000))
+      (outline (path signal 200  -1667.04 630  -1683.39 574.338  -1727.23 536.348  -1784.65 528.092
+            -1837.42 552.191  -1868.79 600.994  -1868.79 659.006  -1837.42 707.809
+            -1784.65 731.908  -1727.23 723.652  -1683.39 685.662  -1667.04 630))
+      (outline (path signal 50  -1515 -1250  1515 -1250))
+      (outline (path signal 50  -1515 1250  -1515 -1250))
+      (outline (path signal 50  1515 -1250  1515 1250))
+      (outline (path signal 50  1515 1250  -1515 1250))
+      (outline (path signal 127  -1100 -1000  -1100 1000))
+      (outline (path signal 127  -1100 1000  1100 1000))
+      (outline (path signal 127  1100 -1000  -1100 -1000))
+      (outline (path signal 127  1100 1000  1100 -1000))
+      (outline (path signal 200  -1667.04 630  -1683.39 574.338  -1727.23 536.348  -1784.65 528.092
+            -1837.42 552.191  -1868.79 600.994  -1868.79 659.006  -1837.42 707.809
+            -1784.65 731.908  -1727.23 723.652  -1683.39 685.662  -1667.04 630))
+      (pin Rect[T]Pad_700x700_um 1 -915 550)
+      (pin Rect[T]Pad_700x700_um 2 -915 -550)
+      (pin Rect[T]Pad_700x700_um (rotate 180) 3 915 -550)
+      (pin Rect[T]Pad_700x700_um (rotate 180) 4 915 550)
+    )
+    (image Capacitor_SMD:C_0402_1005Metric
+      (outline (path signal 120  -107.836 -360  107.836 -360))
+      (outline (path signal 120  -107.836 360  107.836 360))
+      (outline (path signal 50  -910 -460  -910 460))
+      (outline (path signal 50  -910 460  910 460))
+      (outline (path signal 50  910 -460  -910 -460))
+      (outline (path signal 50  910 460  910 -460))
+      (outline (path signal 100  -500 -250  -500 250))
+      (outline (path signal 100  -500 250  500 250))
+      (outline (path signal 100  500 -250  -500 -250))
+      (outline (path signal 100  500 250  500 -250))
+      (pin RoundRect[T]Pad_560x620_140.533_um_0.000000_0 1 -480 0)
+      (pin RoundRect[T]Pad_560x620_140.533_um_0.000000_0 2 480 0)
+    )
+    (padstack RoundRect[T]Pad_560x620_140.533_um_0.000000_0
+      (shape (polygon F.Cu 0  -280.533 170  -269.836 223.78  -239.372 269.372  -193.78 299.836
+            -139.999 310.532  140 310.533  193.78 299.836  239.372 269.372
+            269.836 223.78  280.532 169.999  280.533 -170  269.836 -223.78
+            239.372 -269.372  193.78 -299.836  139.999 -310.532  -140 -310.533
+            -193.78 -299.836  -239.372 -269.372  -269.836 -223.78  -280.532 -169.999
+            -280.533 170))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_700x700_um
+      (shape (rect F.Cu -350 -350 350 350))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+    (padstack "Via[0-1]_400:300_um"
+      (shape (circle F.Cu 400))
+      (shape (circle B.Cu 400))
+      (attach off)
+    )
+  )
+  (network
+    (net /IN
+      (pins U1-3)
+    )
+    (net VCC
+      (pins U1-4 C1-1)
+    )
+    (net /OUT
+      (pins U1-1)
+    )
+    (net GND
+      (pins U1-2 C1-2)
+    )
+    (class kicad_default "" /IN /OUT GND VCC
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path B.Cu 250  121648 -100550  122000 -100902)(net /IN)(type route))
+    (wire (path B.Cu 250  121085 -100550  121648 -100550)(net /IN)(type route))
+    (wire (path B.Cu 250  121085 -98635  121500 -98220)(net VCC)(type route))
+    (wire (path B.Cu 250  121085 -99450  121085 -98635)(net VCC)(type route))
+    (wire (path B.Cu 250  121085 -99450  120560 -99450  120500 -99510)(net VCC)(type route))
+    (wire (path B.Cu 250  122000 -100000  122550 -99450  122915 -99450)(net /OUT)(type route))
+    (wire (path B.Cu 250  123590 -100300  123590 -101220)(net GND)(type route))
+    (wire (path B.Cu 250  123590 -98929.5  122880 -98220)(net GND)(type route))
+    (wire (path B.Cu 250  123590 -100150  123590 -98929.5)(net GND)(type route))
+    (wire (path B.Cu 250  122880 -98220  122460 -98220)(net GND)(type route))
+    (wire (path B.Cu 250  123590 -101220  123720 -101350)(net GND)(type route))
+    (wire (path B.Cu 250  122915 -100550  123189 -100550  123590 -100150)(net GND)(type route))
+    (wire (path B.Cu 250  123590 -100300  123590 -100150)(net GND)(type route))
+    (via "Via[0-1]_400:300_um"  122000 -100902 (net /IN)(type route))
+    (via "Via[0-1]_400:300_um"  120500 -99510 (net VCC)(type route))
+    (via "Via[0-1]_400:300_um"  122000 -100000 (net /OUT)(type route))
+    (via "Via[0-1]_400:300_um"  123720 -101350 (net GND)(type route))
+  )
+)

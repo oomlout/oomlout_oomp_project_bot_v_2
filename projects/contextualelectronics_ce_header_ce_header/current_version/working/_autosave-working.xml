@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\contextualelectronics_ce_header_ce_header\current_version\working\_autosave-working.kicad_sch</source>
+    <date>29/09/2023 16:45:14</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>_autosave-working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>CE_HEADER</value>
+      <libsource lib="ce_header" part="CE_HEADER" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="_autosave-working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058a723cd</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ce_header" part="CE_HEADER">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CE_HEADER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PWR_IO" type="input"/>
+        <pin num="3" name="SPI_MOSI/GPIO_0" type="input"/>
+        <pin num="4" name="SPI_MISO/GPIO_1" type="input"/>
+        <pin num="5" name="SPI_CLK/GPIO_2" type="input"/>
+        <pin num="6" name="SPI_CS/GPIO_3" type="input"/>
+        <pin num="7" name="USART_RX/GPIO_4" type="input"/>
+        <pin num="8" name="USART_TX/GPIO_5" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="12" name="PWR_CORE" type="input"/>
+        <pin num="13" name="I2C_SCLK/GPIO_6" type="input"/>
+        <pin num="14" name="I2C_SDAT/GPIO_7" type="input"/>
+        <pin num="15" name="AIO_0/GPIO_8" type="input"/>
+        <pin num="16" name="AIO_1/GPIO_9" type="input"/>
+        <pin num="17" name="AIO2/GPIO10" type="input"/>
+        <pin num="18" name="AIO_3/GPIO_11" type="input"/>
+        <pin num="19" name="GND" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="unconnected-(U1-AIO2{slash}GPIO10-Pad17)">
+      <node ref="U1" pin="17" pinfunction="AIO2/GPIO10" pintype="input"/>
+    </net>
+    <net code="2" name="unconnected-(U1-AIO_0{slash}GPIO_8-Pad15)">
+      <node ref="U1" pin="15" pinfunction="AIO_0/GPIO_8" pintype="input"/>
+    </net>
+    <net code="3" name="unconnected-(U1-AIO_1{slash}GPIO_9-Pad16)">
+      <node ref="U1" pin="16" pinfunction="AIO_1/GPIO_9" pintype="input"/>
+    </net>
+    <net code="4" name="unconnected-(U1-AIO_3{slash}GPIO_11-Pad18)">
+      <node ref="U1" pin="18" pinfunction="AIO_3/GPIO_11" pintype="input"/>
+    </net>
+    <net code="5" name="unconnected-(U1-GND-Pad10)">
+      <node ref="U1" pin="10" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="6" name="unconnected-(U1-GND-Pad19)">
+      <node ref="U1" pin="19" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="7" name="unconnected-(U1-I2C_SCLK{slash}GPIO_6-Pad13)">
+      <node ref="U1" pin="13" pinfunction="I2C_SCLK/GPIO_6" pintype="input"/>
+    </net>
+    <net code="8" name="unconnected-(U1-I2C_SDAT{slash}GPIO_7-Pad14)">
+      <node ref="U1" pin="14" pinfunction="I2C_SDAT/GPIO_7" pintype="input"/>
+    </net>
+    <net code="9" name="unconnected-(U1-PWR_CORE-Pad12)">
+      <node ref="U1" pin="12" pinfunction="PWR_CORE" pintype="input"/>
+    </net>
+    <net code="10" name="unconnected-(U1-PWR_IO-Pad1)">
+      <node ref="U1" pin="1" pinfunction="PWR_IO" pintype="input"/>
+    </net>
+    <net code="11" name="unconnected-(U1-SPI_CLK{slash}GPIO_2-Pad5)">
+      <node ref="U1" pin="5" pinfunction="SPI_CLK/GPIO_2" pintype="input"/>
+    </net>
+    <net code="12" name="unconnected-(U1-SPI_CS{slash}GPIO_3-Pad6)">
+      <node ref="U1" pin="6" pinfunction="SPI_CS/GPIO_3" pintype="input"/>
+    </net>
+    <net code="13" name="unconnected-(U1-SPI_MISO{slash}GPIO_1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="SPI_MISO/GPIO_1" pintype="input"/>
+    </net>
+    <net code="14" name="unconnected-(U1-SPI_MOSI{slash}GPIO_0-Pad3)">
+      <node ref="U1" pin="3" pinfunction="SPI_MOSI/GPIO_0" pintype="input"/>
+    </net>
+    <net code="15" name="unconnected-(U1-USART_RX{slash}GPIO_4-Pad7)">
+      <node ref="U1" pin="7" pinfunction="USART_RX/GPIO_4" pintype="input"/>
+    </net>
+    <net code="16" name="unconnected-(U1-USART_TX{slash}GPIO_5-Pad8)">
+      <node ref="U1" pin="8" pinfunction="USART_TX/GPIO_5" pintype="input"/>
+    </net>
+  </nets>
+</export>

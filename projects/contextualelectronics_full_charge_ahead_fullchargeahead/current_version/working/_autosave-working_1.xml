@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\contextualelectronics_full_charge_ahead_fullchargeahead\current_version\working\_autosave-working_1.kicad_sch</source>
+    <date>29/09/2023 16:52:20</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>_autosave-working_1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U101">
+      <value>MCP73834</value>
+      <footprint>Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm</footprint>
+      <fields>
+        <field name="MPN">MCP73834-FCI/UN</field>
+      </fields>
+      <libsource lib="FullChargeAhead" part="MCP73834-FCI/UN" description=""/>
+      <property name="MPN" value="MCP73834-FCI/UN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="_autosave-working_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055078d06</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="FullChargeAhead" part="MCP73834-FCI/UN">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73834-FCI/UN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vdd" type="power_in"/>
+        <pin num="2" name="Vdd" type="power_in"/>
+        <pin num="3" name="Stat1" type="input"/>
+        <pin num="4" name="Stat2" type="input"/>
+        <pin num="5" name="Vss" type="power_in"/>
+        <pin num="6" name="Prog" type="input"/>
+        <pin num="7" name="~{TE}" type="input"/>
+        <pin num="8" name="Therm" type="input"/>
+        <pin num="9" name="Vbat" type="power_out"/>
+        <pin num="10" name="Vbat" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/Vbat">
+      <node ref="U101" pin="10" pinfunction="Vbat" pintype="power_out"/>
+      <node ref="U101" pin="9" pinfunction="Vbat" pintype="power_out"/>
+    </net>
+    <net code="2" name="/Vdd">
+      <node ref="U101" pin="1" pinfunction="Vdd" pintype="power_in"/>
+      <node ref="U101" pin="2" pinfunction="Vdd" pintype="power_in"/>
+    </net>
+    <net code="3" name="unconnected-(U101-Prog-Pad6)">
+      <node ref="U101" pin="6" pinfunction="Prog" pintype="input"/>
+    </net>
+    <net code="4" name="unconnected-(U101-Stat1-Pad3)">
+      <node ref="U101" pin="3" pinfunction="Stat1" pintype="input"/>
+    </net>
+    <net code="5" name="unconnected-(U101-Stat2-Pad4)">
+      <node ref="U101" pin="4" pinfunction="Stat2" pintype="input"/>
+    </net>
+    <net code="6" name="unconnected-(U101-Therm-Pad8)">
+      <node ref="U101" pin="8" pinfunction="Therm" pintype="input"/>
+    </net>
+    <net code="7" name="unconnected-(U101-Vss-Pad5)">
+      <node ref="U101" pin="5" pinfunction="Vss" pintype="power_in"/>
+    </net>
+    <net code="8" name="unconnected-(U101-~{TE}-Pad7)">
+      <node ref="U101" pin="7" pinfunction="~{TE}" pintype="input"/>
+    </net>
+  </nets>
+</export>

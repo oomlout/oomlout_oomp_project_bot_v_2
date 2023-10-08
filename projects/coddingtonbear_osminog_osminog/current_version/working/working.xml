@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\coddingtonbear_osminog_osminog\current_version\working\working.kicad_sch</source>
+    <date>28/09/2023 23:13:58</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>CH340G</value>
+      <footprint>KiCad/Housings_SOIC.pretty:SOIC-16_3.9x9.9mm_Pitch1.27mm</footprint>
+      <libsource lib="ch340g" part="CH340G" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058c604e1</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ch340g" part="CH340G">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CH340G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TXD" type="output"/>
+        <pin num="3" name="RXD" type="input"/>
+        <pin num="4" name="V3" type="power_out"/>
+        <pin num="5" name="UD+" type="bidirectional"/>
+        <pin num="6" name="UD-" type="bidirectional"/>
+        <pin num="7" name="XI" type="input"/>
+        <pin num="8" name="XO" type="output"/>
+        <pin num="9" name="CTS/" type="input"/>
+        <pin num="10" name="DSR/" type="input"/>
+        <pin num="11" name="RI/" type="input"/>
+        <pin num="12" name="DCD/" type="input"/>
+        <pin num="13" name="DTR/" type="output"/>
+        <pin num="14" name="RTS/" type="output"/>
+        <pin num="15" name="RS232" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="2" name="CLKOUT">
+      <node ref="U1" pin="7" pinfunction="XI" pintype="input"/>
+    </net>
+    <net code="12" name="unconnected-(U1-CTS{slash}-Pad9)">
+      <node ref="U1" pin="9" pinfunction="CTS/" pintype="input"/>
+    </net>
+    <net code="13" name="unconnected-(U1-DCD{slash}-Pad12)">
+      <node ref="U1" pin="12" pinfunction="DCD/" pintype="input"/>
+    </net>
+    <net code="14" name="unconnected-(U1-DSR{slash}-Pad10)">
+      <node ref="U1" pin="10" pinfunction="DSR/" pintype="input"/>
+    </net>
+    <net code="15" name="unconnected-(U1-DTR{slash}-Pad13)">
+      <node ref="U1" pin="13" pinfunction="DTR/" pintype="output"/>
+    </net>
+    <net code="16" name="unconnected-(U1-GND-Pad1)">
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="17" name="unconnected-(U1-RI{slash}-Pad11)">
+      <node ref="U1" pin="11" pinfunction="RI/" pintype="input"/>
+    </net>
+    <net code="18" name="unconnected-(U1-RS232-Pad15)">
+      <node ref="U1" pin="15" pinfunction="RS232" pintype="input"/>
+    </net>
+    <net code="19" name="unconnected-(U1-RTS{slash}-Pad14)">
+      <node ref="U1" pin="14" pinfunction="RTS/" pintype="output"/>
+    </net>
+    <net code="20" name="unconnected-(U1-RXD-Pad3)">
+      <node ref="U1" pin="3" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="21" name="unconnected-(U1-TXD-Pad2)">
+      <node ref="U1" pin="2" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="22" name="unconnected-(U1-UD+-Pad5)">
+      <node ref="U1" pin="5" pinfunction="UD+" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="unconnected-(U1-UD--Pad6)">
+      <node ref="U1" pin="6" pinfunction="UD-" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="unconnected-(U1-V3-Pad4)">
+      <node ref="U1" pin="4" pinfunction="V3" pintype="power_out"/>
+    </net>
+    <net code="25" name="unconnected-(U1-VCC-Pad16)">
+      <node ref="U1" pin="16" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="26" name="unconnected-(U1-XO-Pad8)">
+      <node ref="U1" pin="8" pinfunction="XO" pintype="output"/>
+    </net>
+  </nets>
+</export>

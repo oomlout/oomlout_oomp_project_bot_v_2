@@ -1,0 +1,100 @@
+(pcb C:\gh\oomlout_oomp_project_bot_v_2\projects\devbisme_kinjector_test\current_version\working\working_3d_back.png
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "7.0.6")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  168072 -104635  159532 -104635  159532 -96688.8  168072 -96688.8
+            168072 -104635)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "KiCad/kicad-footprints/Resistor_SMD.pretty:R_0805_2012Metric_Pad1.29x1.40mm_HandSolder"
+      (place D1 161417.000000 -99187.000000 front 0.000000 (PN D))
+      (place R1 161417.000000 -102137.000000 front 0.000000 (PN R))
+      (place R2 166187.000000 -99187.000000 front 0.000000 (PN R))
+      (place R3 166187.000000 -102137.000000 front 0.000000 (PN R))
+    )
+  )
+  (library
+    (image "KiCad/kicad-footprints/Resistor_SMD.pretty:R_0805_2012Metric_Pad1.29x1.40mm_HandSolder"
+      (outline (path signal 50  -1860 950  1860 950))
+      (outline (path signal 50  -1860 -950  -1860 950))
+      (outline (path signal 50  1860 950  1860 -950))
+      (outline (path signal 50  1860 -950  -1860 -950))
+      (outline (path signal 100  -1000 600  1000 600))
+      (outline (path signal 100  -1000 -600  -1000 600))
+      (outline (path signal 100  1000 600  1000 -600))
+      (outline (path signal 100  1000 -600  -1000 -600))
+      (pin Rect[T]Pad_1295x1400_um 1 -967.5 0)
+      (pin Rect[T]Pad_1295x1400_um 2 967.5 0)
+    )
+    (padstack Rect[T]Pad_1295x1400_um
+      (shape (rect F.Cu -647.5 -700 647.5 700))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(D1-Pad2)"
+      (pins D1-2 R3-1)
+    )
+    (net "Net-(D1-Pad1)"
+      (pins D1-1 R1-1)
+    )
+    (net "Net-(R1-Pad2)"
+      (pins R1-2 R2-2)
+    )
+    (net "Net-(R2-Pad1)"
+      (pins R2-1 R3-2)
+    )
+    (class kicad_default "" "Net-(D1-Pad1)" "Net-(R2-Pad1)"
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+    (class new_new_class "Net-(D1-Pad2)" "Net-(R1-Pad2)"
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

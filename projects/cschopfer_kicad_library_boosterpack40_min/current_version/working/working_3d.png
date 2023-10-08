@@ -1,0 +1,93 @@
+(pcb C:\gh\oomlout_oomp_project_bot_v_2\projects\cschopfer_kicad_library_boosterpack40_min\current_version\working\working_3d.png
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "7.0.6")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  233680 -147320  182880 -147320  182880 -113030  233680 -113030
+            233680 -147320)
+    )
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "Connect:SIL-10"
+      (place J1 185420.000000 -133350.000000 front -90.000000 (PN TI_BOOSTER_40_J1))
+      (place J2 231140.000000 -133350.000000 front -90.000000 (PN TI_BOOSTER_40_J2))
+      (place J3 187960.000000 -133350.000000 front -90.000000 (PN TI_BOOSTER_40_J3))
+      (place J4 228600.000000 -133350.000000 front -90.000000 (PN TI_BOOSTER_40_J4))
+    )
+  )
+  (library
+    (image "Connect:SIL-10"
+      (outline (path signal 304.8  -12700 1270  12700 1270))
+      (outline (path signal 304.8  -12700 -1270  -12700 1270))
+      (outline (path signal 304.8  -10160 -1270  -10160 1270))
+      (outline (path signal 304.8  12700 1270  12700 -1270))
+      (outline (path signal 304.8  12700 -1270  -12700 -1270))
+      (pin Rect[A]Pad_1397x1397_um 1 -11430 0)
+      (pin Round[A]Pad_1397_um 2 -8890 0)
+      (pin Round[A]Pad_1397_um 3 -6350 0)
+      (pin Round[A]Pad_1397_um 4 -3810 0)
+      (pin Round[A]Pad_1397_um 5 -1270 0)
+      (pin Round[A]Pad_1397_um 6 1270 0)
+      (pin Round[A]Pad_1397_um 7 3810 0)
+      (pin Round[A]Pad_1397_um 8 6350 0)
+      (pin Round[A]Pad_1397_um 9 8890 0)
+      (pin Round[A]Pad_1397_um 10 11430 0)
+    )
+    (padstack Round[A]Pad_1397_um
+      (shape (circle F.Cu 1397))
+      (shape (circle B.Cu 1397))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1397x1397_um
+      (shape (rect F.Cu -698.5 -698.5 698.5 698.5))
+      (shape (rect B.Cu -698.5 -698.5 698.5 698.5))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins J2-1 J3-2)
+    )
+    (class kicad_default "" GND
+      (circuit
+        (use_via Via[0-1]_600:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

@@ -1,0 +1,2684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\bveenema_daf021_ecm_3g_hardware_daf021_ecm_3g\current_version\working\working.kicad_sch</source>
+    <date>27/09/2023 19:36:59</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Air Management/" tstamps="/00000000-0000-0000-0000-00005f592b30/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Air Management.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Power/" tstamps="/00000000-0000-0000-0000-00005f9cef98/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Transfer Pump/" tstamps="/00000000-0000-0000-0000-00006078fbb0/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Transfer Pump.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Steppers/" tstamps="/00000000-0000-0000-0000-00005ee2eca3/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Steppers.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/I2C/" tstamps="/00000000-0000-0000-0000-00005f7fd3ce/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>I2C.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Cable/" tstamps="/00000000-0000-0000-0000-00005ef8a3e3/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Cable.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Backup</value>
+      <footprint>Battery:BatteryHolder_Keystone_1042_1x18650</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p27.pdf</datasheet>
+      <fields>
+        <field name="MPN">1042</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">36-1042-ND</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="MPN" value="1042"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="36-1042-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee62f0b</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104KCFWPNE.jsp</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">CL21B104KCFWPNE</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">1276-6733-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value="CL21B104KCFWPNE"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="1276-6733-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f05071f</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104KCFWPNE.jsp</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">CL21B104KCFWPNE</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">1276-6733-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value="CL21B104KCFWPNE"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="1276-6733-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f2e2822</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104KCFWPNE.jsp</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">CL21B104KCFWPNE</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">1276-6733-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="CL21B104KCFWPNE"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="1276-6733-1-ND"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f07f2e1</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104KCFWPNE.jsp</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">CL21B104KCFWPNE</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">1276-6733-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value="CL21B104KCFWPNE"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="1276-6733-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee1a302</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A106KOQNNNG.jsp</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">CL21A106KOQNNNG</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">1276-6455-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="CL21A106KOQNNNG"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="1276-6455-1-ND"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee1a30d</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104KCFWPNE.jsp</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">CL21B104KCFWPNE</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">1276-6733-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="CL21B104KCFWPNE"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="1276-6733-1-ND"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee18cee</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LIQ_RED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/150080GS75000.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">150080GS75000</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">732-4983-1-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="LED_ALT-Device" description=""/>
+      <property name="MPN" value="150080GS75000"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="732-4983-1-ND"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f100d00</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LIQ_BLUE</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/150080GS75000.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">150080GS75000</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">732-4983-1-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="LED_ALT-Device" description=""/>
+      <property name="MPN" value="150080GS75000"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="732-4983-1-ND"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f100d32</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>Horn</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/150080GS75000.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">150080GS75000</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">732-4983-1-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="LED_ALT-Device" description=""/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value="150080GS75000"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="732-4983-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fc3bf2c</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Sensors</value>
+      <footprint>Connector_JST:JST_XH_B6B-XH-AM_1x06_P2.50mm_Vertical</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="MPN">B6B-XH-AM(LF)(SN)</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">455-2238-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="Conn_01x06_Male-Connector" description=""/>
+      <property name="MPN" value="B6B-XH-AM(LF)(SN)"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="455-2238-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ed90400</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Pail Sensor</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="MPN">B3B-XH-AM(LF)(SN)</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">455-2231-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="Conn_01x03_Male-Connector" description=""/>
+      <property name="MPN" value="B3B-XH-AM(LF)(SN)"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="455-2231-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef003ae</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Horn</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="MPN">B2B-XH-A(LF)(SN)</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">455-2247-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="Conn_01x02_Male-Connector" description=""/>
+      <property name="MPN" value="B2B-XH-A(LF)(SN)"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="455-2247-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ed92a3e</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>AUX</value>
+      <footprint>Connector_JST:JST_XAD_B18B-XADSS-N-A_2x09_P2.50mm_Vertical</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXAD1.pdf</datasheet>
+      <fields>
+        <field name="MPN">B18B-XADSS-N(LF)(SN)</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">455-2011-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x09_Odd_Even" description="Generic connector, double row, 02x09, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="B18B-XADSS-N(LF)(SN)"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="455-2011-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x09, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ed4f4c8</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>USB_AUX</value>
+      <footprint>Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="MPN">B5B-XH-AM(LF)(SN)</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">455-2239-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="Conn_01x05_Male-Connector" description=""/>
+      <property name="MPN" value="B5B-XH-AM(LF)(SN)"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="455-2239-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005efa2259</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>USB_Argon</value>
+      <footprint>Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="MPN">B5B-XH-AM(LF)(SN)</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">455-2239-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="Conn_01x05_Male-Connector" description=""/>
+      <property name="MPN" value="B5B-XH-AM(LF)(SN)"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="455-2239-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee126d0</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>USB_Boron</value>
+      <footprint>Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="MPN">B5B-XH-AM(LF)(SN)</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">455-2239-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="Conn_01x05_Male-Connector" description=""/>
+      <property name="MPN" value="B5B-XH-AM(LF)(SN)"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="455-2239-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef709ce</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>USB_DEBUG</value>
+      <footprint>Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="Config">DNF</field>
+        <field name="MPN">B5B-XH-AM(LF)(SN)</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">455-2239-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="Conn_01x05_Male-Connector" description=""/>
+      <property name="MPN" value="B5B-XH-AM(LF)(SN)"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="455-2239-ND"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef8b2cc</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Service</value>
+      <footprint>Connector_USB:USB_B_Molex_67068-8000_Horizontal</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/670688000_sd.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">0670688000</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">WM17113-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="USB_B-Connector" description=""/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value="0670688000"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="WM17113-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef8b2b2</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>Antenna</value>
+      <footprint>Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical</footprint>
+      <datasheet>https://www.hirose.com/product/download/?distributor=digikey&amp;type=2d&amp;lang=en&amp;num=U.FL-R-SMT-1(01)</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">U.FL-R-SMT-1(01)</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">H122041-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="Conn_01x02_Female-Connector" description=""/>
+      <property name="MPN" value="U.FL-R-SMT-1(01)"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="H122041-ND"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee1a342</tstamps>
+    </comp>
+    <comp ref="J20">
+      <value>Log</value>
+      <footprint>Connector_Card:microSD_HC_Hirose_DM3D-SF</footprint>
+      <datasheet>https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&amp;item_id=195&amp;is_series=1</datasheet>
+      <fields>
+        <field name="MPN">DM3D-SF</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">HR1941CT-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="Micro_SD_Card_Det-Connector" description=""/>
+      <property name="MPN" value="DM3D-SF"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="HR1941CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f870512</tstamps>
+    </comp>
+    <comp ref="J21">
+      <value>Ambient Temperature</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="MPN">B2B-XH-A(LF)(SN)</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">455-2247-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="Conn_01x02_Male-Connector" description=""/>
+      <property name="MPN" value="B2B-XH-A(LF)(SN)"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="455-2247-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee18d17</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_NO_Small</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Alt Vendor">N/A</field>
+        <field name="Alt Vendor P/N">N/A</field>
+        <field name="Config">DNF</field>
+        <field name="MPN">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Vendor P/N">N/A</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="Jumper_NO_Small-Device" description=""/>
+      <property name="MPN" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Vendor P/N" value="N/A"/>
+      <property name="Alt Vendor" value="N/A"/>
+      <property name="Alt Vendor P/N" value="N/A"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005efa227a</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_NO_Small</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Alt Vendor">N/A</field>
+        <field name="Alt Vendor P/N">N/A</field>
+        <field name="Config">DNF</field>
+        <field name="MPN">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Vendor P/N">N/A</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="Jumper_NO_Small-Device" description=""/>
+      <property name="MPN" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Vendor P/N" value="N/A"/>
+      <property name="Alt Vendor" value="N/A"/>
+      <property name="Alt Vendor P/N" value="N/A"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005eee9a51</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper_NO_Small</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Alt Vendor">N/A</field>
+        <field name="Alt Vendor P/N">N/A</field>
+        <field name="Config">DNF</field>
+        <field name="MPN">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Vendor P/N">N/A</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="Jumper_NO_Small-Device" description=""/>
+      <property name="MPN" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Vendor P/N" value="N/A"/>
+      <property name="Alt Vendor" value="N/A"/>
+      <property name="Alt Vendor P/N" value="N/A"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef709ef</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>Jumper_NO_Small</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Alt Vendor">N/A</field>
+        <field name="Alt Vendor P/N">N/A</field>
+        <field name="Config">DNF</field>
+        <field name="MPN">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Vendor P/N">N/A</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="Jumper_NO_Small-Device" description=""/>
+      <property name="MPN" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Vendor P/N" value="N/A"/>
+      <property name="Alt Vendor" value="N/A"/>
+      <property name="Alt Vendor P/N" value="N/A"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef8b29e</tstamps>
+    </comp>
+    <comp ref="JP5">
+      <value>Jumper_NO_Small</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Alt Vendor">N/A</field>
+        <field name="Alt Vendor P/N">N/A</field>
+        <field name="Config">DNF</field>
+        <field name="MPN">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Vendor P/N">N/A</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="MPN" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Vendor P/N" value="N/A"/>
+      <property name="Alt Vendor" value="N/A"/>
+      <property name="Alt Vendor P/N" value="N/A"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee1a35b</tstamps>
+    </comp>
+    <comp ref="JP6">
+      <value>Jumper_NO_Small</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Alt Vendor">N/A</field>
+        <field name="Alt Vendor P/N">N/A</field>
+        <field name="Config">DNF</field>
+        <field name="MPN">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Vendor P/N">N/A</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="MPN" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Vendor P/N" value="N/A"/>
+      <property name="Alt Vendor" value="N/A"/>
+      <property name="Alt Vendor P/N" value="N/A"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee1a368</tstamps>
+    </comp>
+    <comp ref="JP7">
+      <value>Jumper_NO_Small</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Alt Vendor">N/A</field>
+        <field name="Alt Vendor P/N">N/A</field>
+        <field name="Config">DNF</field>
+        <field name="MPN">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Vendor P/N">N/A</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="MPN" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Vendor P/N" value="N/A"/>
+      <property name="Alt Vendor" value="N/A"/>
+      <property name="Alt Vendor P/N" value="N/A"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee1a375</tstamps>
+    </comp>
+    <comp ref="JP8">
+      <value>Jumper_NO_Small</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Alt Vendor">N/A</field>
+        <field name="Alt Vendor P/N">N/A</field>
+        <field name="Config">DNF</field>
+        <field name="MPN">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Vendor P/N">N/A</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="MPN" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Vendor P/N" value="N/A"/>
+      <property name="Alt Vendor" value="N/A"/>
+      <property name="Alt Vendor P/N" value="N/A"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee1a382</tstamps>
+    </comp>
+    <comp ref="JP9">
+      <value>Jumper_NO_Small</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Alt Vendor">N/A</field>
+        <field name="Alt Vendor P/N">N/A</field>
+        <field name="Config">DNF</field>
+        <field name="MPN">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Vendor P/N">N/A</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="MPN" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Vendor P/N" value="N/A"/>
+      <property name="Alt Vendor" value="N/A"/>
+      <property name="Alt Vendor P/N" value="N/A"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee1a38f</tstamps>
+    </comp>
+    <comp ref="JP10">
+      <value>Jumper_NO_Small</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Alt Vendor">N/A</field>
+        <field name="Alt Vendor P/N">N/A</field>
+        <field name="Config">DNF</field>
+        <field name="MPN">N/A</field>
+        <field name="Vendor">N/A</field>
+        <field name="Vendor P/N">N/A</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="MPN" value="N/A"/>
+      <property name="Vendor" value="N/A"/>
+      <property name="Vendor P/N" value="N/A"/>
+      <property name="Alt Vendor" value="N/A"/>
+      <property name="Alt Vendor P/N" value="N/A"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee1a39c</tstamps>
+    </comp>
+    <comp ref="Q15">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds31787.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">DMN3404L-7</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">DMN3404LDITR-ND</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="MPN" value="DMN3404L-7"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="DMN3404LDITR-ND"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/source/drain"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fc3bf39</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/PCNs/Stackpole/Global%20Part%20Number%20Change.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">RMCF0805JT4K70</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">RMCF0805JT4K70CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RMCF0805JT4K70"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="RMCF0805JT4K70CT-ND"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f100d0b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-rncp.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">RMCF0805JG10K0</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">RMCF0805JG10K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value="RMCF0805JG10K0"/>
+      <property name="Vendor P/N" value="RMCF0805JG10K0CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f100d62</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1.5K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">RMCF0805JT1K50</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">RMCF0805JT1K50CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RMCF0805JT1K50"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="RMCF0805JT1K50CT-ND"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f100d25</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/PCNs/Stackpole/Global%20Part%20Number%20Change.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">RMCF0805JT4K70</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">RMCF0805JT4K70CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RMCF0805JT4K70"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="RMCF0805JT4K70CT-ND"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f100d57</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-rncp.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">RMCF0805JG10K0</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">RMCF0805JG10K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value="RMCF0805JG10K0"/>
+      <property name="Vendor P/N" value="RMCF0805JG10K0CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f100d6d</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1.5K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">RMCF0805JT1K50</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">RMCF0805JT1K50CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RMCF0805JT1K50"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="RMCF0805JT1K50CT-ND"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f100d78</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>2.2k 0.5%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">ERJ-PB6D2201V</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">P21055CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="ERJ-PB6D2201V"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="P21055CT-ND"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f0506fb</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>2.2k 0.5%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">ERJ-PB6D2201V</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">P21055CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="ERJ-PB6D2201V"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="P21055CT-ND"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f2e2840</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>4.7k 0.5%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">ERJ-PB6D4701V</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">P21095CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="ERJ-PB6D4701V"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="P21095CT-ND"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f050706</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>4.7k 0.5%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">ERJ-PB6D4701V</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">P21095CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="ERJ-PB6D4701V"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="P21095CT-ND"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f2e280f</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>4.7k 0.5%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">ERJ-PB6D4701V</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">P21095CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="ERJ-PB6D4701V"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="P21095CT-ND"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee2bf0e</tstamps>
+    </comp>
+    <comp ref="R56">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/PCNs/Stackpole/Global%20Part%20Number%20Change.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">RMCF0805JT100K</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">RMCF0805JT100KCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value="RMCF0805JT100K"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="RMCF0805JT100KCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fc3bf19</tstamps>
+    </comp>
+    <comp ref="R57">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="MPN">RMCF0805JT4K70</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">RMCF0805JT4K70CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value="RMCF0805JT4K70"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="RMCF0805JT4K70CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fc3bf49</tstamps>
+    </comp>
+    <comp ref="TH1">
+      <value>4.7k NTC</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>http://www.vishay.com/docs/29044/ntcs0805e3t.pdf</datasheet>
+      <fields>
+        <field name="MPN">NTCS0805E3472FMT</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">BC2576CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="Thermistor_NTC" description="Temperature dependent resistor, negative temperature coefficient"/>
+      <property name="MPN" value="NTCS0805E3472FMT"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="BC2576CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Temperature dependent resistor, negative temperature coefficient"/>
+      <property name="ki_keywords" value="thermistor NTC resistor sensor RTD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee574a0</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>Red_LIQ</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="Config">DNF</field>
+        <field name="MPN"/>
+        <field name="Vendor"/>
+        <field name="Vendor P/N"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Vendor" value=""/>
+      <property name="Vendor P/N" value=""/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f340576</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>Red_PRESS</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="Config">DNF</field>
+        <field name="MPN"/>
+        <field name="Vendor"/>
+        <field name="Vendor P/N"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Vendor" value=""/>
+      <property name="Vendor P/N" value=""/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f33d786</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>Blue_PRESS</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="Config">DNF</field>
+        <field name="MPN"/>
+        <field name="Vendor"/>
+        <field name="Vendor P/N"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Vendor" value=""/>
+      <property name="Vendor P/N" value=""/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f33e910</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>Blue_LIQ</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="Config">DNF</field>
+        <field name="MPN"/>
+        <field name="Vendor"/>
+        <field name="Vendor P/N"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Vendor" value=""/>
+      <property name="Vendor P/N" value=""/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f33f25b</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>SIM RF</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="Config">DNF</field>
+        <field name="MPN"/>
+        <field name="Vendor"/>
+        <field name="Vendor P/N"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Vendor" value=""/>
+      <property name="Vendor P/N" value=""/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f33a745</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>SD_CS</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="Config">DNF</field>
+        <field name="MPN"/>
+        <field name="Vendor"/>
+        <field name="Vendor P/N"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Vendor" value=""/>
+      <property name="Vendor P/N" value=""/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f362906</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>SD_DET</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="Config">DNF</field>
+        <field name="MPN"/>
+        <field name="Vendor"/>
+        <field name="Vendor P/N"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Vendor" value=""/>
+      <property name="Vendor P/N" value=""/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f3a2025</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>BAT</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="Config">DNF</field>
+        <field name="MPN"/>
+        <field name="Vendor"/>
+        <field name="Vendor P/N"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Vendor" value=""/>
+      <property name="Vendor P/N" value=""/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f338caa</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>Temp</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="Config">DNF</field>
+        <field name="MPN"/>
+        <field name="Vendor"/>
+        <field name="Vendor P/N"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Vendor" value=""/>
+      <property name="Vendor P/N" value=""/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f3419ec</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>MISO</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="Config">DNF</field>
+        <field name="MPN"/>
+        <field name="Vendor"/>
+        <field name="Vendor P/N"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Vendor" value=""/>
+      <property name="Vendor P/N" value=""/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f192b93</tstamps>
+    </comp>
+    <comp ref="TP14">
+      <value>MOSI</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="Config">DNF</field>
+        <field name="MPN"/>
+        <field name="Vendor"/>
+        <field name="Vendor P/N"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Vendor" value=""/>
+      <property name="Vendor P/N" value=""/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1bf362</tstamps>
+    </comp>
+    <comp ref="TP15">
+      <value>SCK</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="Config">DNF</field>
+        <field name="MPN"/>
+        <field name="Vendor"/>
+        <field name="Vendor P/N"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Vendor" value=""/>
+      <property name="Vendor P/N" value=""/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1bf568</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Pressure Red</value>
+      <footprint>VDW-Modules:HoneyWell_DIP_AN</footprint>
+      <datasheet>https://sensing.honeywell.com/index.php?ci_id=151133</datasheet>
+      <fields>
+        <field name="MPN">HSCDANN005PGAA5</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">480-6588-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="HSCDX-VDW_Modules" description=""/>
+      <property name="MPN" value="HSCDANN005PGAA5"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="480-6588-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ed78c6c</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>Pressure Red</value>
+      <footprint>VDW-Modules:HoneyWell_SIP_NB</footprint>
+      <datasheet>https://sensing.honeywell.com/index.php?ci_id=151133</datasheet>
+      <fields>
+        <field name="Config">DNF</field>
+        <field name="MPN">HSCSNBN005PGAA5</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">HSCSNBN005PGAA5-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="HSCSX-VDW_Modules" description=""/>
+      <property name="MPN" value="HSCSNBN005PGAA5"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="HSCSNBN005PGAA5-ND"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f193091</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>Boron</value>
+      <footprint>VDW-Particle:Argon_Boron_Xenon</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Particle%20PDFs/Boron_LTE_Web.pdf</datasheet>
+      <fields>
+        <field name="MPN">BRN402</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">1878-1023-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="Boron-MCU_Particle-VDW" description=""/>
+      <property name="MPN" value="BRN402"/>
+      <property name="Vendor P/N" value="1878-1023-ND"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601ed059</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>RFM69HCW</value>
+      <footprint>RF_Module:HOPERF_RFM69HCW</footprint>
+      <datasheet>https://www.hoperf.com/data/upload/portal/20181127/5bfcb8284d838.pdf</datasheet>
+      <fields>
+        <field name="Alt Vendor">SparkFun</field>
+        <field name="Alt Vendor P/N">COM-13910</field>
+        <field name="MPN">COM-13910</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">1568-1391-ND</field>
+      </fields>
+      <libsource lib="RF_Module" part="RFM69HCW" description="Low power ISM Radio Transceiver Module, SPI interface, AES encryption, 434 or 915 MHz, up to 100mW, up to 300 kb/s, SMD-16, DIP-16"/>
+      <property name="MPN" value="COM-13910"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="1568-1391-ND"/>
+      <property name="Alt Vendor" value="SparkFun"/>
+      <property name="Alt Vendor P/N" value="COM-13910"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Low power ISM Radio Transceiver Module, SPI interface, AES encryption, 434 or 915 MHz, up to 100mW, up to 300 kb/s, SMD-16, DIP-16"/>
+      <property name="ki_keywords" value="low power Radio ISM Transceiver Module AES encryption SPI HopeRF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee1a2f0</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>Argon</value>
+      <footprint>VDW-Particle:Argon_Boron_Xenon</footprint>
+      <datasheet>https://docs.particle.io/assets/pdfs/datasheets/argon-datasheet.pdf</datasheet>
+      <fields>
+        <field name="MPN">ARGN-H</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">1878-1022-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="Argon-MCU_Particle-VDW" description=""/>
+      <property name="MPN" value="ARGN-H"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="1878-1022-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601ef3f8</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>AK-220V-119</value>
+      <footprint>VDW-Modules:AK-220V-119</footprint>
+      <datasheet>http://a.co/d/9ubzAsf</datasheet>
+      <fields>
+        <field name="Alt Vendor"/>
+        <field name="Alt Vendor P/N"/>
+        <field name="Config">DNF</field>
+        <field name="MPN">AK-220V-119</field>
+        <field name="Vendor">Amazon</field>
+        <field name="Vendor P/N">B078RFJTMZ</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="AK-220V-119-VDW_Modules" description=""/>
+      <property name="MPN" value="AK-220V-119"/>
+      <property name="Vendor" value="Amazon"/>
+      <property name="Vendor P/N" value="B078RFJTMZ"/>
+      <property name="Alt Vendor" value=""/>
+      <property name="Alt Vendor P/N" value=""/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f0ad366</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>Pressure Blue</value>
+      <footprint>VDW-Modules:HoneyWell_DIP_AN</footprint>
+      <datasheet>https://sensing.honeywell.com/index.php?ci_id=151133</datasheet>
+      <fields>
+        <field name="MPN">HSCDANN005PGAA5</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">480-6588-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="HSCDX-VDW_Modules" description=""/>
+      <property name="MPN" value="HSCDANN005PGAA5"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="480-6588-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f2e284c</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>Pressure Blue</value>
+      <footprint>VDW-Modules:HoneyWell_SIP_NB</footprint>
+      <datasheet>https://sensing.honeywell.com/index.php?ci_id=151133</datasheet>
+      <fields>
+        <field name="Config">DNF</field>
+        <field name="MPN">HSCSNBN005PGAA5</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">HSCSNBN005PGAA5-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="HSCSX-VDW_Modules" description=""/>
+      <property name="MPN" value="HSCSNBN005PGAA5"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="HSCSNBN005PGAA5-ND"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee31f07</tstamps>
+    </comp>
+    <comp ref="~1">
+      <value>mikroBUS_Socket</value>
+      <footprint>Socket_mikroBUS:mikroBUS_Standard_Large</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf</datasheet>
+      <fields>
+        <field name="MPN">PPTC081LFBN-RC</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">S7006-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="mikroBUS_Socket-MikroBUS" description=""/>
+      <property name="MPN" value="PPTC081LFBN-RC"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="S7006-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ee716dc</tstamps>
+    </comp>
+    <comp ref="~2">
+      <value>mikroBUS_Socket</value>
+      <footprint>Socket_mikroBUS:mikroBUS_Standard_Large</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf</datasheet>
+      <fields>
+        <field name="MPN">PPTC081LFBN-RC</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N">S7006-ND</field>
+      </fields>
+      <libsource lib="DAF021_ECM_3G-rescue" part="mikroBUS_Socket-MikroBUS" description=""/>
+      <property name="MPN" value="PPTC081LFBN-RC"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N" value="S7006-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef25809</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x09_Odd_Even">
+      <description>Generic connector, double row, 02x09, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x09_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DAF021_ECM_3G-rescue" part="AK-220V-119-VDW_Modules">
+      <docs>https://www.amazon.com/dp/B078RFJTMZ</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VDW_Modules_AK-220V-119</field>
+        <field name="Footprint">VDW-Modules:AK-220V-119</field>
+        <field name="Datasheet">https://www.amazon.com/dp/B078RFJTMZ</field>
+        <field name="MPN">AK-220V-119</field>
+        <field name="Vendor">Amazon</field>
+        <field name="Vendor P/N">B078RFJTMZ</field>
+      </fields>
+      <pins>
+        <pin num="Bk" name="GND" type="power_in"/>
+        <pin num="Bu" name="NO" type="passive"/>
+        <pin num="R" name="Vin" type="power_in"/>
+        <pin num="Y" name="COM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DAF021_ECM_3G-rescue" part="Argon-MCU_Particle-VDW">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCU_Particle-VDW_Argon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RST}" type="passive"/>
+        <pin num="2" name="3V3" type="passive"/>
+        <pin num="3" name="~{MD}" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="A0" type="bidirectional"/>
+        <pin num="6" name="A1" type="bidirectional"/>
+        <pin num="7" name="A2" type="bidirectional"/>
+        <pin num="8" name="A3" type="bidirectional"/>
+        <pin num="9" name="A4" type="bidirectional"/>
+        <pin num="10" name="A5" type="bidirectional"/>
+        <pin num="11" name="SCK" type="bidirectional"/>
+        <pin num="12" name="MO" type="bidirectional"/>
+        <pin num="13" name="MI" type="bidirectional"/>
+        <pin num="14" name="RX" type="bidirectional"/>
+        <pin num="15" name="TX" type="bidirectional"/>
+        <pin num="16" name="NC" type="no_connect"/>
+        <pin num="17" name="SDA" type="bidirectional"/>
+        <pin num="18" name="SCL" type="bidirectional"/>
+        <pin num="19" name="D2" type="bidirectional"/>
+        <pin num="20" name="D3" type="bidirectional"/>
+        <pin num="21" name="D4" type="bidirectional"/>
+        <pin num="22" name="D5" type="bidirectional"/>
+        <pin num="23" name="D6" type="bidirectional"/>
+        <pin num="24" name="D7" type="bidirectional"/>
+        <pin num="25" name="D8" type="bidirectional"/>
+        <pin num="26" name="VUSB" type="power_in"/>
+        <pin num="27" name="EN" type="passive"/>
+        <pin num="28" name="LI+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DAF021_ECM_3G-rescue" part="Boron-MCU_Particle-VDW">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCU_Particle-VDW_Boron</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RST}" type="passive"/>
+        <pin num="2" name="3V3" type="passive"/>
+        <pin num="3" name="~{MD}" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="A0" type="bidirectional"/>
+        <pin num="6" name="A1" type="bidirectional"/>
+        <pin num="7" name="A2" type="bidirectional"/>
+        <pin num="8" name="A3" type="bidirectional"/>
+        <pin num="9" name="A4" type="bidirectional"/>
+        <pin num="10" name="A5" type="bidirectional"/>
+        <pin num="11" name="SCK" type="bidirectional"/>
+        <pin num="12" name="MO" type="bidirectional"/>
+        <pin num="13" name="MI" type="bidirectional"/>
+        <pin num="14" name="RX" type="bidirectional"/>
+        <pin num="15" name="TX" type="bidirectional"/>
+        <pin num="16" name="NC" type="no_connect"/>
+        <pin num="17" name="SDA" type="bidirectional"/>
+        <pin num="18" name="SCL" type="bidirectional"/>
+        <pin num="19" name="D2" type="bidirectional"/>
+        <pin num="20" name="D3" type="bidirectional"/>
+        <pin num="21" name="D4" type="bidirectional"/>
+        <pin num="22" name="D5" type="bidirectional"/>
+        <pin num="23" name="D6" type="bidirectional"/>
+        <pin num="24" name="D7" type="bidirectional"/>
+        <pin num="25" name="D8" type="bidirectional"/>
+        <pin num="26" name="VUSB" type="power_in"/>
+        <pin num="27" name="EN" type="passive"/>
+        <pin num="28" name="LI+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DAF021_ECM_3G-rescue" part="Conn_01x02_Female-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_Conn_01x02_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DAF021_ECM_3G-rescue" part="Conn_01x02_Male-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DAF021_ECM_3G-rescue" part="Conn_01x03_Male-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_Conn_01x03_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DAF021_ECM_3G-rescue" part="Conn_01x05_Male-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_Conn_01x05_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DAF021_ECM_3G-rescue" part="Conn_01x06_Male-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_Conn_01x06_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DAF021_ECM_3G-rescue" part="HSCDX-VDW_Modules">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VDW_Modules_HSCDX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC/GND" type="power_in"/>
+        <pin num="2" name="+V" type="power_in"/>
+        <pin num="3" name="Vout/SDA/MISO" type="bidirectional"/>
+        <pin num="4" name="GND/SCL/SCLK" type="passive"/>
+        <pin num="5" name="NC/SS" type="input"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="NC" type="no_connect"/>
+        <pin num="~" name="Air" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="DAF021_ECM_3G-rescue" part="HSCSX-VDW_Modules">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VDW_Modules_HSCSX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC/GND" type="power_in"/>
+        <pin num="2" name="+V" type="power_in"/>
+        <pin num="3" name="Vout/SDA" type="bidirectional"/>
+        <pin num="4" name="GND/SCL" type="passive"/>
+        <pin num="~" name="Air" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="DAF021_ECM_3G-rescue" part="Jumper_NO_Small-Device">
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Device_Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DAF021_ECM_3G-rescue" part="LED_ALT-Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Device_LED_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DAF021_ECM_3G-rescue" part="Micro_SD_Card_Det-Connector">
+      <footprints>
+        <fp>microSD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_Micro_SD_Card_Det</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="bidirectional"/>
+        <pin num="2" name="DAT3/CD" type="bidirectional"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="bidirectional"/>
+        <pin num="8" name="DAT1" type="bidirectional"/>
+        <pin num="9" name="DET_B" type="passive"/>
+        <pin num="10" name="DET_A" type="passive"/>
+        <pin num="11" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DAF021_ECM_3G-rescue" part="USB_B-Connector">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_USB_B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DAF021_ECM_3G-rescue" part="mikroBUS_Socket-MikroBUS">
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MikroBUS_mikroBUS_Socket</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AN" type="output"/>
+        <pin num="2" name="RST" type="passive"/>
+        <pin num="3" name="CS" type="input"/>
+        <pin num="4" name="SCK" type="input"/>
+        <pin num="5" name="MISO" type="bidirectional"/>
+        <pin num="6" name="MOSI" type="bidirectional"/>
+        <pin num="7" name="+3.3V" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="PWM" type="input"/>
+        <pin num="10" name="INT" type="bidirectional"/>
+        <pin num="11" name="RX" type="input"/>
+        <pin num="12" name="TX" type="output"/>
+        <pin num="13" name="SCL" type="bidirectional"/>
+        <pin num="14" name="SDA" type="bidirectional"/>
+        <pin num="15" name="+5V" type="power_in"/>
+        <pin num="16" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GSD">
+      <description>N-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Thermistor_NTC">
+      <description>Temperature dependent resistor, negative temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor_NTC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Module" part="RFM69HCW">
+      <description>Low power ISM Radio Transceiver Module, SPI interface, AES encryption, 434 or 915 MHz, up to 100mW, up to 300 kb/s, SMD-16, DIP-16</description>
+      <docs>https://www.hoperf.com/data/upload/portal/20181127/5bfcb8284d838.pdf</docs>
+      <footprints>
+        <fp>HOPERF*RFM9XW*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RFM69HCW</field>
+        <field name="Datasheet">https://www.hoperf.com/data/upload/portal/20181127/5bfcb8284d838.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="MISO" type="output"/>
+        <pin num="3" name="MOSI" type="input"/>
+        <pin num="4" name="SCK" type="input"/>
+        <pin num="5" name="NSS" type="input"/>
+        <pin num="6" name="RESET" type="bidirectional"/>
+        <pin num="7" name="DIO5" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="ANT" type="bidirectional"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="DIO3" type="bidirectional"/>
+        <pin num="12" name="DIO4" type="bidirectional"/>
+        <pin num="13" name="3.3V" type="power_in"/>
+        <pin num="14" name="DIO0" type="bidirectional"/>
+        <pin num="15" name="DIO1" type="bidirectional"/>
+        <pin num="16" name="DIO2" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/RF_Module.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="J20" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="J21" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="TH1" pin="1" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="3.3V" pintype="power_in"/>
+      <node ref="~1" pin="7" pinfunction="+3.3V" pintype="power_in"/>
+      <node ref="~2" pin="7" pinfunction="+3.3V" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="+V" pintype="power_in"/>
+      <node ref="U12" pin="2" pinfunction="+V" pintype="power_in"/>
+      <node ref="U13" pin="2" pinfunction="+V" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="+V" pintype="power_in"/>
+      <node ref="U3" pin="26" pinfunction="VUSB" pintype="power_in"/>
+      <node ref="U5" pin="26" pinfunction="VUSB" pintype="power_in"/>
+      <node ref="U6" pin="R" pinfunction="Vin" pintype="power_in"/>
+      <node ref="~1" pin="15" pinfunction="+5V" pintype="power_in"/>
+      <node ref="~2" pin="15" pinfunction="+5V" pintype="power_in"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R57" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/USB(+)">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J13" pin="3" pinfunction="D+" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="5" name="/USB(-)">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="D-" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="6" name="AUS_RST">
+      <node ref="J8" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="7" name="AUX_AN">
+      <node ref="J8" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="8" name="AUX_CS">
+      <node ref="J8" pin="13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="9" name="AUX_INT">
+      <node ref="J8" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="10" name="AUX_PWM">
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U3" pin="24" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="U5" pin="5" pinfunction="A0" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="AUX_RX">
+      <node ref="J8" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="TX" pintype="bidirectional"/>
+      <node ref="U5" pin="14" pinfunction="RX" pintype="bidirectional"/>
+      <node ref="~1" pin="11" pinfunction="RX" pintype="input"/>
+      <node ref="~2" pin="11" pinfunction="RX" pintype="input"/>
+    </net>
+    <net code="12" name="AUX_TX">
+      <node ref="J8" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="RX" pintype="bidirectional"/>
+      <node ref="U5" pin="15" pinfunction="TX" pintype="bidirectional"/>
+      <node ref="~1" pin="12" pinfunction="TX" pintype="output"/>
+      <node ref="~2" pin="12" pinfunction="TX" pintype="output"/>
+    </net>
+    <net code="13" name="Ambient_Temperature">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J21" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="TH1" pin="2" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="Blue_DIR_LV">
+      <node ref="U5" pin="20" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="Blue_EN_LV">
+      <node ref="U5" pin="21" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="Blue_STATUS_LV">
+      <node ref="U5" pin="10" pinfunction="A5" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="Blue_STEP_LV">
+      <node ref="U5" pin="19" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="CoBlend_DIR_LV">
+      <node ref="U5" pin="7" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="CoBlend_EN_LV">
+      <node ref="U5" pin="6" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="CoBlend_STATUS_LV">
+      <node ref="U5" pin="9" pinfunction="A4" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="CoBlend_STEP_LV">
+      <node ref="U5" pin="8" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J13" pin="4" pinfunction="GND" pintype="power_out"/>
+      <node ref="J13" pin="5" pinfunction="Shield" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J20" pin="11" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J20" pin="6" pinfunction="VSS" pintype="power_in"/>
+      <node ref="J20" pin="9" pinfunction="DET_B" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J8" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q15" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R56" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="Bk" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="Y" pinfunction="COM" pintype="passive"/>
+      <node ref="~1" pin="16" pinfunction="GND" pintype="power_in"/>
+      <node ref="~1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="~2" pin="16" pinfunction="GND" pintype="power_in"/>
+      <node ref="~2" pin="8" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="23" name="GNDA">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND/SCL/SCLK" pintype="passive"/>
+      <node ref="U12" pin="4" pinfunction="GND/SCL/SCLK" pintype="passive"/>
+      <node ref="U13" pin="4" pinfunction="GND/SCL" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GND/SCL" pintype="passive"/>
+    </net>
+    <net code="24" name="Horn_EN">
+      <node ref="Q15" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R56" pin="1" pintype="passive"/>
+      <node ref="U3" pin="25" pinfunction="D8" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="I2C_RESET">
+      <node ref="U3" pin="21" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="U4" pin="6" pinfunction="RESET" pintype="bidirectional"/>
+      <node ref="U5" pin="1" pinfunction="~{RST}" pintype="passive"/>
+    </net>
+    <net code="26" name="IO_2_INT">
+      <node ref="U3" pin="20" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="IO_INT">
+      <node ref="U3" pin="19" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="Liquid_Sensor_Blue">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Liquid_Sensor_Red">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="30" name="MISO">
+      <node ref="J20" pin="7" pinfunction="DAT0" pintype="bidirectional"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="MI" pintype="bidirectional"/>
+      <node ref="U4" pin="2" pinfunction="MISO" pintype="output"/>
+      <node ref="U5" pin="13" pinfunction="MI" pintype="bidirectional"/>
+      <node ref="~1" pin="5" pinfunction="MISO" pintype="bidirectional"/>
+      <node ref="~2" pin="5" pinfunction="MISO" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="MOSI">
+      <node ref="J20" pin="3" pinfunction="CMD" pintype="input"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="MO" pintype="bidirectional"/>
+      <node ref="U4" pin="3" pinfunction="MOSI" pintype="input"/>
+      <node ref="U5" pin="12" pinfunction="MO" pintype="bidirectional"/>
+      <node ref="~1" pin="6" pinfunction="MOSI" pintype="bidirectional"/>
+      <node ref="~2" pin="6" pinfunction="MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="Net-(BT1-+)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="28" pinfunction="LI+" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D18-A)">
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R57" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D18-K)">
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q15" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(J1-Pin_2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(J1-Pin_5)">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(J9-Pin_4)">
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(J10-Pin_4)">
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(J11-Pin_4)">
+      <node ref="J11" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="JP3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(J12-Pin_4)">
+      <node ref="J12" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="JP4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(J14-Pin_1)">
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="ANT" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="Net-(JP5-A)">
+      <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="DIO5" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="Net-(JP6-A)">
+      <node ref="JP6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="DIO4" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="Net-(JP7-A)">
+      <node ref="JP7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="DIO3" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="Net-(JP8-A)">
+      <node ref="JP8" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="DIO2" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="Net-(JP9-A)">
+      <node ref="JP9" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U4" pin="15" pinfunction="DIO1" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="Net-(JP10-A)">
+      <node ref="JP10" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U4" pin="14" pinfunction="DIO0" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="Net-(U1-Vout{slash}SDA{slash}MISO)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="Vout/SDA/MISO" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="Vout/SDA" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="Net-(U12-Vout{slash}SDA{slash}MISO)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U12" pin="3" pinfunction="Vout/SDA/MISO" pintype="bidirectional"/>
+      <node ref="U13" pin="3" pinfunction="Vout/SDA" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="Pail_Sensor">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="A0" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="Pressure_Blue">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="Pressure_Red">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="RADIO_CS">
+      <node ref="U4" pin="5" pinfunction="NSS" pintype="input"/>
+    </net>
+    <net code="56" name="RADIO_INT">
+      <node ref="JP10" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP5" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP6" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP7" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP8" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP9" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="57" name="Red_DIR_LV">
+      <node ref="U5" pin="24" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="Red_EN_LV">
+      <node ref="U5" pin="25" pinfunction="D8" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="Red_STATUS_LV">
+      <node ref="U5" pin="22" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="Red_STEP_LV">
+      <node ref="U5" pin="23" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="SCK">
+      <node ref="J20" pin="5" pinfunction="CLK" pintype="input"/>
+      <node ref="J8" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="TP15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="SCK" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pinfunction="SCK" pintype="input"/>
+      <node ref="U5" pin="11" pinfunction="SCK" pintype="bidirectional"/>
+      <node ref="~1" pin="4" pinfunction="SCK" pintype="input"/>
+      <node ref="~2" pin="4" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="62" name="SCL">
+      <node ref="J8" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U3" pin="18" pinfunction="SCL" pintype="bidirectional"/>
+      <node ref="U5" pin="18" pinfunction="SCL" pintype="bidirectional"/>
+      <node ref="~1" pin="13" pinfunction="SCL" pintype="bidirectional"/>
+      <node ref="~2" pin="13" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="SDA">
+      <node ref="J8" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U5" pin="17" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="~1" pin="14" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="~2" pin="14" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="SD_CS">
+      <node ref="J20" pin="2" pinfunction="DAT3/CD" pintype="bidirectional"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="65" name="SD_DET">
+      <node ref="J20" pin="10" pinfunction="DET_A" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="66" name="Transfer_Blue_Reserved">
+      <node ref="U3" pin="22" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="Transfer_Red_Reserved">
+      <node ref="U3" pin="23" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="USER_REMOTE">
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="Bu" pinfunction="NO" pintype="passive"/>
+    </net>
+    <net code="69" name="mikroBUS_1_AN">
+      <node ref="~1" pin="1" pinfunction="AN" pintype="output"/>
+    </net>
+    <net code="70" name="mikroBUS_1_CS">
+      <node ref="~1" pin="3" pinfunction="CS" pintype="input"/>
+    </net>
+    <net code="71" name="mikroBUS_1_INT">
+      <node ref="~1" pin="10" pinfunction="INT" pintype="bidirectional"/>
+    </net>
+    <net code="72" name="mikroBUS_1_PWM">
+      <node ref="U3" pin="9" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="~1" pin="9" pinfunction="PWM" pintype="input"/>
+    </net>
+    <net code="73" name="mikroBUS_1_RST">
+      <node ref="~1" pin="2" pinfunction="RST" pintype="passive"/>
+    </net>
+    <net code="74" name="mikroBUS_2_AN">
+      <node ref="~2" pin="1" pinfunction="AN" pintype="output"/>
+    </net>
+    <net code="75" name="mikroBUS_2_CS">
+      <node ref="~2" pin="3" pinfunction="CS" pintype="input"/>
+    </net>
+    <net code="76" name="mikroBUS_2_INT">
+      <node ref="~2" pin="10" pinfunction="INT" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="mikroBUS_2_PWM">
+      <node ref="U3" pin="10" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="~2" pin="9" pinfunction="PWM" pintype="input"/>
+    </net>
+    <net code="78" name="mikroBUS_2_RST">
+      <node ref="~2" pin="2" pinfunction="RST" pintype="passive"/>
+    </net>
+    <net code="79" name="unconnected-(J9-Pin_5-Pad5)">
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(J10-Pin_5-Pad5)">
+      <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(J11-Pin_5-Pad5)">
+      <node ref="J11" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(J12-Pin_5-Pad5)">
+      <node ref="J12" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(J20-DAT1-Pad8)">
+      <node ref="J20" pin="8" pinfunction="DAT1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(J20-DAT2-Pad1)">
+      <node ref="J20" pin="1" pinfunction="DAT2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U1-Air-Pad~)">
+      <node ref="U1" pin="" pinfunction="Air" pintype="power_in+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U1-NC-Pad6)">
+      <node ref="U1" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U1-NC-Pad7)">
+      <node ref="U1" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U1-NC-Pad8)">
+      <node ref="U1" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U1-NC{slash}GND-Pad1)">
+      <node ref="U1" pin="1" pinfunction="NC/GND" pintype="power_in+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U1-NC{slash}SS-Pad5)">
+      <node ref="U1" pin="5" pinfunction="NC/SS" pintype="input+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U2-Air-Pad~)">
+      <node ref="U2" pin="" pinfunction="Air" pintype="power_in+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U2-NC{slash}GND-Pad1)">
+      <node ref="U2" pin="1" pinfunction="NC/GND" pintype="power_in+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U3-3V3-Pad2)">
+      <node ref="U3" pin="2" pinfunction="3V3" pintype="passive+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U3-EN-Pad27)">
+      <node ref="U3" pin="27" pinfunction="EN" pintype="passive+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U3-NC-Pad16)">
+      <node ref="U3" pin="16" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U3-~{MD}-Pad3)">
+      <node ref="U3" pin="3" pinfunction="~{MD}" pintype="passive+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U3-~{RST}-Pad1)">
+      <node ref="U3" pin="1" pinfunction="~{RST}" pintype="passive+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U5-3V3-Pad2)">
+      <node ref="U5" pin="2" pinfunction="3V3" pintype="passive+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U5-EN-Pad27)">
+      <node ref="U5" pin="27" pinfunction="EN" pintype="passive+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U5-LI+-Pad28)">
+      <node ref="U5" pin="28" pinfunction="LI+" pintype="passive+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U5-NC-Pad16)">
+      <node ref="U5" pin="16" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U5-~{MD}-Pad3)">
+      <node ref="U5" pin="3" pinfunction="~{MD}" pintype="passive+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U12-Air-Pad~)">
+      <node ref="U12" pin="" pinfunction="Air" pintype="power_in+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U12-NC-Pad6)">
+      <node ref="U12" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U12-NC-Pad7)">
+      <node ref="U12" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U12-NC-Pad8)">
+      <node ref="U12" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U12-NC{slash}GND-Pad1)">
+      <node ref="U12" pin="1" pinfunction="NC/GND" pintype="power_in+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U12-NC{slash}SS-Pad5)">
+      <node ref="U12" pin="5" pinfunction="NC/SS" pintype="input+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U13-Air-Pad~)">
+      <node ref="U13" pin="" pinfunction="Air" pintype="power_in+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U13-NC{slash}GND-Pad1)">
+      <node ref="U13" pin="1" pinfunction="NC/GND" pintype="power_in+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,267 @@
+(pcb C:\gh\oomlout_oomp_project_bot_v_2\projects\dchwebb_oscar_lcd_daughterboard\current_version\working\working_3d.png
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "7.0.6")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  168000 -145000  100000 -145000  100000 -100000  168000 -100000
+            168000 -145000)
+    )
+    (plane GND (polygon F.Cu 0  100000 -100000  168000 -100000  168000 -145000  100000 -145000
+            100000 -100000))
+    (plane GND (polygon B.Cu 0  100000 -100000  168000 -100000  168000 -145000  100000 -145000
+            100000 -100000))
+    (via "Via[0-1]_600:300_um" "Via[0-1]_800:400_um")
+    (rule
+      (width 200)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Custom_Footprints:18x0.8mmLCDConnector
+      (place U1 121500.000000 -115500.000000 front -90.000000 (PN ILI9341_SPI_Bare))
+    )
+    (component Pin_Headers:Pin_Header_Straight_1x12_Pitch2.54mm
+      (place J2 166000.000000 -108500.000000 front 0.000000 (PN Conn_01x12))
+      (place J1 102100.000000 -108500.000000 front 0.000000 (PN Conn_01x12))
+    )
+    (component "TO_SOT_Packages_SMD:SOT-23"
+      (place Q1 136000.000000 -125000.000000 back 0.000000 (PN MMBT3904))
+    )
+    (component Resistors_SMD:R_0805_HandSoldering
+      (place R1 144000.000000 -119000.000000 back 0.000000 (PN 220))
+      (place R3 144000.000000 -127000.000000 back 180.000000 (PN 100))
+      (place R2 144000.000000 -123000.000000 back 180.000000 (PN 1k))
+    )
+  )
+  (library
+    (image Custom_Footprints:18x0.8mmLCDConnector
+      (pin Rect[T]Pad_400x3000_um 1 0 0)
+      (pin Rect[T]Pad_400x3000_um 2 800 0)
+      (pin Rect[T]Pad_400x3000_um 3 1600 0)
+      (pin Rect[T]Pad_400x3000_um 4 2400 0)
+      (pin Rect[T]Pad_400x3000_um 5 3200 0)
+      (pin Rect[T]Pad_400x3000_um 6 4000 0)
+      (pin Rect[T]Pad_400x3000_um 7 4800 0)
+      (pin Rect[T]Pad_400x3000_um 8 5600 0)
+      (pin Rect[T]Pad_400x3000_um 9 6400 0)
+      (pin Rect[T]Pad_400x3000_um 10 7200 0)
+      (pin Rect[T]Pad_400x3000_um 11 8000 0)
+      (pin Rect[T]Pad_400x3000_um 12 8800 0)
+      (pin Rect[T]Pad_400x3000_um 13 9600 0)
+      (pin Rect[T]Pad_400x3000_um 14 10400 0)
+      (pin Rect[T]Pad_400x3000_um 15 11200 0)
+      (pin Rect[T]Pad_400x3000_um 16 12000 0)
+      (pin Rect[T]Pad_400x3000_um 17 12800 0)
+      (pin Rect[T]Pad_400x3000_um 18 13600 0)
+    )
+    (image Pin_Headers:Pin_Header_Straight_1x12_Pitch2.54mm
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1270  -1330 -29270))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -29270  1330 -29270))
+      (outline (path signal 120  1330 -1270  1330 -29270))
+      (outline (path signal 50  -1800 1800  -1800 -29750))
+      (outline (path signal 50  -1800 -29750  1800 -29750))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  1800 -29750  1800 1800))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -1270 -29210  -1270 635))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 1270  1270 -29210))
+      (outline (path signal 100  1270 -29210  -1270 -29210))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 6 0 -12700)
+      (pin Oval[A]Pad_1700x1700_um 7 0 -15240)
+      (pin Oval[A]Pad_1700x1700_um 8 0 -17780)
+      (pin Oval[A]Pad_1700x1700_um 9 0 -20320)
+      (pin Oval[A]Pad_1700x1700_um 10 0 -22860)
+      (pin Oval[A]Pad_1700x1700_um 11 0 -25400)
+      (pin Oval[A]Pad_1700x1700_um 12 0 -27940)
+    )
+    (image "TO_SOT_Packages_SMD:SOT-23"
+      (outline (path signal 120  760 -1580  -700 -1580))
+      (outline (path signal 120  760 -1580  760 -650))
+      (outline (path signal 120  760 1580  -1400 1580))
+      (outline (path signal 120  760 1580  760 650))
+      (outline (path signal 50  -1700 -1750  -1700 1750))
+      (outline (path signal 50  -1700 1750  1700 1750))
+      (outline (path signal 50  1700 -1750  -1700 -1750))
+      (outline (path signal 50  1700 1750  1700 -1750))
+      (outline (path signal 100  -700 -1520  700 -1520))
+      (outline (path signal 100  -700 950  -700 -1500))
+      (outline (path signal 100  -700 950  -150 1520))
+      (outline (path signal 100  -150 1520  700 1520))
+      (outline (path signal 100  700 1520  700 -1520))
+      (pin Rect[T]Pad_900x800_um 1 -1000 950)
+      (pin Rect[T]Pad_900x800_um 2 -1000 -950)
+      (pin Rect[T]Pad_900x800_um 3 1000 0)
+    )
+    (image Resistors_SMD:R_0805_HandSoldering
+      (outline (path signal 120  -600 880  600 880))
+      (outline (path signal 120  600 -880  -600 -880))
+      (outline (path signal 50  -2350 900  -2350 -900))
+      (outline (path signal 50  -2350 900  2350 900))
+      (outline (path signal 50  2350 -900  -2350 -900))
+      (outline (path signal 50  2350 -900  2350 900))
+      (outline (path signal 100  -1000 -620  -1000 620))
+      (outline (path signal 100  -1000 620  1000 620))
+      (outline (path signal 100  1000 -620  -1000 -620))
+      (outline (path signal 100  1000 620  1000 -620))
+      (pin Rect[T]Pad_1500x1300_um 1 -1350 0)
+      (pin Rect[T]Pad_1500x1300_um 2 1350 0)
+    )
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_400x3000_um
+      (shape (rect F.Cu -200 -1500 200 1500))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_900x800_um
+      (shape (rect F.Cu -450 -400 450 400))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500x1300_um
+      (shape (rect F.Cu -750 -650 750 650))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net VCC
+      (pins U1-10 J2-12 J1-12 R1-1)
+    )
+    (net GND
+      (pins U1-1 U1-5 U1-8 J2-1 J2-5 J2-8 J2-10 J2-11 J1-1 J1-5 J1-8 J1-10 J1-11 R3-2
+        R2-2)
+    )
+    (net LCD_MISO
+      (pins U1-7 J2-7 J1-7)
+    )
+    (net LCD_MOSI
+      (pins U1-6 J2-6 J1-6)
+    )
+    (net LCD_DC
+      (pins U1-4 J2-4 J1-4)
+    )
+    (net LCD_SCK
+      (pins U1-3 J2-3 J1-3)
+    )
+    (net LCD_RESET
+      (pins U1-2 J2-2 J1-2)
+    )
+    (net "Net-(Q1-Pad1)"
+      (pins Q1-1 R1-2 R2-1)
+    )
+    (net "Net-(Q1-Pad2)"
+      (pins Q1-2 R3-1)
+    )
+    (net +3V3
+      (pins U1-9 J2-9 J1-9)
+    )
+    (net LCD_CATHODE
+      (pins U1-11 U1-12 U1-13 U1-14 Q1-3)
+    )
+    (net "Net-(U1-Pad15)"
+      (pins U1-15)
+    )
+    (net "Net-(U1-Pad16)"
+      (pins U1-16)
+    )
+    (net "Net-(U1-Pad17)"
+      (pins U1-17)
+    )
+    (net "Net-(U1-Pad18)"
+      (pins U1-18)
+    )
+    (class kicad_default "" +3V3 GND LCD_CATHODE LCD_DC LCD_MISO LCD_MOSI
+      LCD_RESET LCD_SCK "Net-(Q1-Pad1)" "Net-(Q1-Pad2)" "Net-(U1-Pad15)" "Net-(U1-Pad16)"
+      "Net-(U1-Pad17)" "Net-(U1-Pad18)" VCC
+      (circuit
+        (use_via Via[0-1]_600:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 400  102100 -136440  115840 -122700)(net VCC)(type route))
+    (wire (path F.Cu 400  152260 -122700  166000 -136440)(net VCC)(type route))
+    (wire (path F.Cu 400  115840 -122700  121500 -122700  152260 -122700)(net VCC)(type route))
+    (wire (path B.Cu 400  145350 -119000  148560 -119000  166000 -136440)(net VCC)(type route))
+    (wire (path F.Cu 400  121460 -118660  121500 -118700)(net GND)(type route))
+    (wire (path F.Cu 400  102100 -118660  121460 -118660)(net GND)(type route))
+    (wire (path F.Cu 400  121500 -121100  107280 -121100  102100 -126280)(net GND)(type route))
+    (wire (path F.Cu 400  102100 -123740  105540 -120300)(net LCD_MISO)(type route))
+    (wire (path F.Cu 400  162560 -120300  166000 -123740)(net LCD_MISO)(type route))
+    (wire (path F.Cu 400  105540 -120300  121500 -120300  162560 -120300)(net LCD_MISO)(type route))
+    (wire (path F.Cu 400  102100 -121200  103800 -119500  121500 -119500)(net LCD_MOSI)(type route))
+    (wire (path F.Cu 400  164300 -119500  166000 -121200)(net LCD_MOSI)(type route))
+    (wire (path F.Cu 400  121500 -119500  164300 -119500)(net LCD_MOSI)(type route))
+    (wire (path F.Cu 400  102100 -116120  103880 -117900)(net LCD_DC)(type route))
+    (wire (path F.Cu 400  164220 -117900  166000 -116120)(net LCD_DC)(type route))
+    (wire (path F.Cu 400  103880 -117900  121500 -117900  164220 -117900)(net LCD_DC)(type route))
+    (wire (path F.Cu 400  121500 -117100  105620 -117100)(net LCD_SCK)(type route))
+    (wire (path F.Cu 400  121500 -117100  162480 -117100  166000 -113580)(net LCD_SCK)(type route))
+    (wire (path F.Cu 400  105620 -117100  102100 -113580)(net LCD_SCK)(type route))
+    (wire (path F.Cu 400  160740 -116300  166000 -111040)(net LCD_RESET)(type route))
+    (wire (path F.Cu 400  102100 -111040  107360 -116300  121500 -116300  160740 -116300)(net LCD_RESET)(type route))
+    (wire (path B.Cu 400  141600 -124050  142650 -123000)(net "Net-(Q1-Pad1)")(type route))
+    (wire (path B.Cu 400  137000 -124050  141600 -124050)(net "Net-(Q1-Pad1)")(type route))
+    (wire (path B.Cu 400  142650 -119000  142650 -123000)(net "Net-(Q1-Pad1)")(type route))
+    (wire (path B.Cu 400  137000 -125950  141600 -125950  142650 -127000)(net "Net-(Q1-Pad2)")(type route))
+    (wire (path F.Cu 400  121500 -121900  109020 -121900  102100 -128820)(net +3V3)(type route))
+    (wire (path F.Cu 400  121500 -121900  159080 -121900  166000 -128820)(net +3V3)(type route))
+    (wire (path F.Cu 400  121500 -125900  121500 -123500)(net LCD_CATHODE)(type route))
+    (wire (path F.Cu 400  128000 -125000  121600 -125000  121500 -125100)(net LCD_CATHODE)(type route))
+    (wire (path B.Cu 400  135000 -125000  128000 -125000)(net LCD_CATHODE)(type route))
+    (via "Via[0-1]_800:400_um"  156000 -132500 (net GND)(type route))
+    (via "Via[0-1]_800:400_um"  125900 -132900 (net GND)(type route))
+    (via "Via[0-1]_800:400_um"  113600 -133100 (net GND)(type route))
+    (via "Via[0-1]_800:400_um"  141300 -133100 (net GND)(type route))
+    (via "Via[0-1]_800:400_um"  128000 -125000 (net LCD_CATHODE)(type route))
+  )
+)

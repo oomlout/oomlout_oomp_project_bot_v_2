@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\cepr_fluffy_potato_12v\current_version\working\working.kicad_sch</source>
+    <date>28/09/2023 16:14:03</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_01x01</value>
+      <footprint>Wire_Pads:SolderWirePad_single_SMD_5x10mm</footprint>
+      <libsource lib="12v-rescue" part="Conn_01x01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bdfd591</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x01</value>
+      <footprint>Wire_Pads:SolderWirePad_single_SMD_5x10mm</footprint>
+      <libsource lib="12v-rescue" part="Conn_01x01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bdfd64e</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x01</value>
+      <footprint>Wire_Pads:SolderWirePad_single_SMD_5x10mm</footprint>
+      <libsource lib="12v-rescue" part="Conn_01x01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bdfd6ff</tstamps>
+    </comp>
+    <comp ref="MK1">
+      <value>Mounting_Hole_PAD</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="12v-rescue" part="Mounting_Hole_PAD" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059f01c27</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>interface</value>
+      <footprint>interface:interface</footprint>
+      <libsource lib="12v-rescue" part="interface" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059f014b9</tstamps>
+    </comp>
+    <comp ref="X2">
+      <value>interface</value>
+      <footprint>interface:interface</footprint>
+      <libsource lib="12v-rescue" part="interface" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000059f01607</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="12v-rescue" part="Conn_01x01">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="12v-rescue" part="Mounting_Hole_PAD">
+      <footprints>
+        <fp>Mounting?Hole*</fp>
+        <fp>Hole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MK</field>
+        <field name="Value">Mounting_Hole_PAD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="12v-rescue" part="interface">
+      <footprints>
+        <fp>interface</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">interface</field>
+      </fields>
+      <pins>
+        <pin num="1" name="12V" type="bidirectional"/>
+        <pin num="2" name="GND" type="bidirectional"/>
+        <pin num="3" name="LIN" type="bidirectional"/>
+        <pin num="4" name="VCC" type="input"/>
+        <pin num="5" name="0" type="bidirectional"/>
+        <pin num="6" name="1" type="bidirectional"/>
+        <pin num="7" name="2" type="bidirectional"/>
+        <pin num="8" name="3" type="bidirectional"/>
+        <pin num="9" name="4" type="bidirectional"/>
+        <pin num="10" name="5" type="bidirectional"/>
+        <pin num="11" name="6" type="bidirectional"/>
+        <pin num="12" name="7" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="X1" pin="1" pinfunction="12V" pintype="bidirectional"/>
+      <node ref="X2" pin="1" pinfunction="12V" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="Net-(J2-Pin_1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="X1" pin="3" pinfunction="LIN" pintype="bidirectional"/>
+      <node ref="X2" pin="3" pinfunction="LIN" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="Net-(J3-Pin_1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MK1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="X1" pin="2" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="X2" pin="2" pinfunction="GND" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="unconnected-(X1-0-Pad5)">
+      <node ref="X1" pin="5" pinfunction="0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="5" name="unconnected-(X1-1-Pad6)">
+      <node ref="X1" pin="6" pinfunction="1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="6" name="unconnected-(X1-2-Pad7)">
+      <node ref="X1" pin="7" pinfunction="2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="7" name="unconnected-(X1-3-Pad8)">
+      <node ref="X1" pin="8" pinfunction="3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="8" name="unconnected-(X1-4-Pad9)">
+      <node ref="X1" pin="9" pinfunction="4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="9" name="unconnected-(X1-5-Pad10)">
+      <node ref="X1" pin="10" pinfunction="5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="10" name="unconnected-(X1-6-Pad11)">
+      <node ref="X1" pin="11" pinfunction="6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(X1-7-Pad12)">
+      <node ref="X1" pin="12" pinfunction="7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(X1-VCC-Pad4)">
+      <node ref="X1" pin="4" pinfunction="VCC" pintype="input+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(X2-0-Pad5)">
+      <node ref="X2" pin="5" pinfunction="0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(X2-1-Pad6)">
+      <node ref="X2" pin="6" pinfunction="1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(X2-2-Pad7)">
+      <node ref="X2" pin="7" pinfunction="2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(X2-3-Pad8)">
+      <node ref="X2" pin="8" pinfunction="3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(X2-4-Pad9)">
+      <node ref="X2" pin="9" pinfunction="4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(X2-5-Pad10)">
+      <node ref="X2" pin="10" pinfunction="5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(X2-6-Pad11)">
+      <node ref="X2" pin="11" pinfunction="6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(X2-7-Pad12)">
+      <node ref="X2" pin="12" pinfunction="7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(X2-VCC-Pad4)">
+      <node ref="X2" pin="4" pinfunction="VCC" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

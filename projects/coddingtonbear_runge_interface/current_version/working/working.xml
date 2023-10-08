@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\gh\oomlout_oomp_project_bot_v_2\projects\coddingtonbear_runge_interface\current_version\working\working.kicad_sch</source>
+    <date>28/09/2023 23:37:42</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1u</value>
+      <footprint>coddingtonbear:0805_Milling</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006029d417</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Board Connector</value>
+      <footprint>Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000602d01c9</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>15k</value>
+      <footprint>coddingtonbear:0805_Milling</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000602b6b1b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>coddingtonbear:0805_Milling</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000602b6ec4</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm</footprint>
+      <libsource lib="interface-rescue" part="Rotary_Encoder_Switch-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000602888dd</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>128x32_OLED</value>
+      <footprint>coddingtonbear:128x32_OLED</footprint>
+      <libsource lib="interface-rescue" part="128x32_OLED-coddingtonbear" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006028c44e</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MCP23018-E_SS</value>
+      <footprint>Package_SO:SSOP-24_5.3x8.2mm_P0.65mm</footprint>
+      <fields>
+        <field name="MANUFACTURER">Microchip</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="interface-rescue" part="MCP23018-E_SS-MCP23018-E_SS" description=""/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Microchip"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000602aa130</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x04_Odd_Even">
+      <description>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="interface-rescue" part="128x32_OLED-coddingtonbear">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">coddingtonbear_128x32_OLED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="SCL" type="bidirectional"/>
+        <pin num="4" name="SDA" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="interface-rescue" part="MCP23018-E_SS-MCP23018-E_SS">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP23018-E_SS_MCP23018-E_SS</field>
+        <field name="Footprint">SOP65P780X200-24N</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Microchip</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="GPB0" type="bidirectional"/>
+        <pin num="3" name="GPB1" type="bidirectional"/>
+        <pin num="4" name="GPB2" type="bidirectional"/>
+        <pin num="5" name="GPB3" type="bidirectional"/>
+        <pin num="6" name="GPB4" type="bidirectional"/>
+        <pin num="7" name="GPB5" type="bidirectional"/>
+        <pin num="8" name="GPB6" type="bidirectional"/>
+        <pin num="9" name="GPB7" type="bidirectional"/>
+        <pin num="10" name="VDD" type="power_in"/>
+        <pin num="11" name="SCL" type="input"/>
+        <pin num="12" name="SDA" type="bidirectional"/>
+        <pin num="13" name="ADDR" type="input"/>
+        <pin num="14" name="~{RESET}" type="input"/>
+        <pin num="15" name="INTB" type="output"/>
+        <pin num="16" name="INTA" type="output"/>
+        <pin num="17" name="GPA0" type="bidirectional"/>
+        <pin num="18" name="GPA1" type="bidirectional"/>
+        <pin num="19" name="GPA2" type="bidirectional"/>
+        <pin num="20" name="GPA3" type="bidirectional"/>
+        <pin num="21" name="GPA4" type="bidirectional"/>
+        <pin num="22" name="GPA5" type="bidirectional"/>
+        <pin num="23" name="GPA6" type="bidirectional"/>
+        <pin num="24" name="GPA7" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="interface-rescue" part="Rotary_Encoder_Switch-Device">
+      <footprints>
+        <fp>RotaryEncoder*Switch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Device_Rotary_Encoder_Switch</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="S1" name="S1" type="passive"/>
+        <pin num="S2" name="S2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="14" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="3" name="INT">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="INTB" pintype="output"/>
+    </net>
+    <net code="4" name="Net-(U2-ADDR)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="ADDR" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(U2-GPB0)">
+      <node ref="SW1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="GPB0" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="Net-(U2-GPB1)">
+      <node ref="SW1" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="GPB1" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="Net-(U2-GPB2)">
+      <node ref="SW1" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GPB2" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="Net-(U2-GPB3)">
+      <node ref="SW1" pin="S2" pinfunction="S2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="GPB3" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="Net-(U2-GPB4)">
+      <node ref="SW1" pin="S1" pinfunction="S1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="GPB4" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="SCL">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="SCL" pintype="bidirectional"/>
+      <node ref="U2" pin="11" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="11" name="SDA">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U2" pin="12" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="unconnected-(J1-Pin_4-Pad4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="13" name="unconnected-(J1-Pin_6-Pad6)">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="14" name="unconnected-(J1-Pin_8-Pad8)">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="15" name="unconnected-(U2-GPA0-Pad17)">
+      <node ref="U2" pin="17" pinfunction="GPA0" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="unconnected-(U2-GPA1-Pad18)">
+      <node ref="U2" pin="18" pinfunction="GPA1" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="unconnected-(U2-GPA2-Pad19)">
+      <node ref="U2" pin="19" pinfunction="GPA2" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="unconnected-(U2-GPA3-Pad20)">
+      <node ref="U2" pin="20" pinfunction="GPA3" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="unconnected-(U2-GPA4-Pad21)">
+      <node ref="U2" pin="21" pinfunction="GPA4" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="unconnected-(U2-GPA5-Pad22)">
+      <node ref="U2" pin="22" pinfunction="GPA5" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="unconnected-(U2-GPA6-Pad23)">
+      <node ref="U2" pin="23" pinfunction="GPA6" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="unconnected-(U2-GPA7-Pad24)">
+      <node ref="U2" pin="24" pinfunction="GPA7" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="unconnected-(U2-GPB5-Pad7)">
+      <node ref="U2" pin="7" pinfunction="GPB5" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="unconnected-(U2-GPB6-Pad8)">
+      <node ref="U2" pin="8" pinfunction="GPB6" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="unconnected-(U2-GPB7-Pad9)">
+      <node ref="U2" pin="9" pinfunction="GPB7" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="unconnected-(U2-INTA-Pad16)">
+      <node ref="U2" pin="16" pinfunction="INTA" pintype="output"/>
+    </net>
+  </nets>
+</export>
